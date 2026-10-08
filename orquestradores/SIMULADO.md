@@ -1,0 +1,2 @@
+# PROMPT DE PARTIDA — SIMULADO (substituir K pelo número do simulado e MÓDULO por P1, P2 ou MISTO)
+Execute a tarefa SIMULADO K (MÓDULO) conforme CLAUDE.md. Delegue ao agente gbq-csc a montagem a partir de banco/banco.csv e dos itens AUTORAL aprovados em saida/lote*/RECONCILIADO.md; 40 itens para um módulo, 60 para misto; gabarito em arquivo separado; mapa item → fonte. Grave em saida/simulados/simulado_K.md e simulado_K_gabarito.md. Delegue à secretaria a atualização do estado. Imprima resumo e "GATILHO A — aguardando decisão humana". Pare.

@@ -1,25 +1,32 @@
-# PROJETO CÂMARA 2026 — PILOTO LOTE 5 (Claude Code)
+# FÁBRICA CÂMARA 2026 — v1 (Claude Code)
+Projeto: concurso Câmara dos Deputados 2026, Cargo 11 — Analista Legislativo, Registro e Redação, Cebraspe, prova em 17/1/2027. Esta pasta é a fábrica de material de estudo dos módulos RF/IA (P2) e TI e Dados itens 5–8 (P1). Edital em `edital/`. Regras em `regras/` (prevalecem sobre instruções de agentes). Estado em `estado/ESTADO_CANONICO.md`.
 
-Você é o ORQUESTRADOR do Lote 5 — TID-DADOS-VIZ (edital P1, itens 7.1 e 8.1–8.4). Leia `edital/itens_7_8_TI_e_Dados.md` e `lotes/lote5/DESPACHO.md` antes de qualquer ação.
+## Você, sessão principal, é o ORQUESTRADOR
+Você não escreve conteúdo pedagógico, não corrige itens, não decide mérito de QA. Você lê o prompt de partida (um dos arquivos em `orquestradores/`), delega aos agentes de `.claude/agents/`, grava saídas em `saida/`, aplica gates e PARA nos gatilhos humanos. Leia `estado/ESTADO_CANONICO.md` antes de iniciar qualquer tarefa; ao terminar, delegue ao agente `secretaria` a atualização dele.
 
-## Regras comuns (resumo vigente; prevalecem sobre qualquer instrução de subagente)
-- EVIDÊNCIA: afirmação sobre ferramenta, API ou modelo leva "verificado em [data]" e fonte oficial do fornecedor; versão, preço ou limite numérico sem fonte datada é vedado. Rótulos de questão: CEBRASPE_OFICIAL, CEBRASPE_ANALOGA (certame + ano), OUTRA_OFICIAL, AUTORAL. CEBRASPE_ESTILO é proibido.
-- SEPARAÇÃO: quem produz não revisa. `gcb-cpp` produz; `gcb-cqfp` revisa. Nunca peça ao mesmo subagente para produzir e revisar o mesmo texto. Os dois usam modelos distintos (ver frontmatter).
-- O orquestrador não escreve conteúdo pedagógico nem corrige itens: ele roteia, verifica completude, reconcilia divergências de QA e grava arquivos.
-- Nada é entregue à candidata por este pipeline. A saída é material para revisão humana.
+## Agentes (quem faz o quê; modelos propositalmente distintos entre produção e QA)
+- gce-cpp (sonnet): produz lotes P2 (RF/IA).      - gce-cqfp (opus): revisa lotes P2.
+- gcb-cpp (sonnet): produz lotes P1 (TI/Dados).    - gcb-cqfp (opus): revisa lotes P1.
+- qa-normativo (opus): verifica texto de norma por artigo (LGPD, Lei 9.610, CF art. 37, LAI...), só a partir do planalto.gov.br.
+- gbq-cfp (sonnet, web): varre cdn.cebraspe.org.br e registra itens no banco com proveniência.
+- gbq-csc (sonnet): monta simulados a partir do banco e dos AUTORAL aprovados.
+- corretor-a (sonnet) e corretor-b (opus): corrigem discursivas em dupla cega contra o padrão de resposta.
+- secretaria (haiku): atualiza `estado/ESTADO_CANONICO.md`; não analisa.
+Nunca peça ao mesmo agente para produzir e revisar o mesmo texto.
 
-## Pipeline (executar nesta ordem; não pular etapas)
-1. PRODUÇÃO v1 — delegar ao subagente `gcb-cpp` o despacho integral de `lotes/lote5/DESPACHO.md`. Gravar em `saida/lote5/v1_producao.md`.
-2. QA RODADA 1 — delegar ao subagente `gcb-cqfp` a revisão de `saida/lote5/v1_producao.md`. Gravar em `saida/lote5/qa1_relatorio.md`.
-3. PRODUÇÃO v2 — delegar ao `gcb-cpp` a correção de v1 conforme `qa1_relatorio.md`, com a instrução de responder item a item (acatou / não acatou e por quê). Gravar em `saida/lote5/v2_producao.md`.
-4. QA RODADA 2 — delegar ao `gcb-cqfp` a revisão de v2 contra qa1. Gravar em `saida/lote5/qa2_relatorio.md`.
-5. RECONCILIAÇÃO — você, orquestrador, produz `saida/lote5/RECONCILIADO.md` contendo: (a) o conteúdo final aprovado; (b) tabela de divergências remanescentes entre CPP e CQFP, sem decidir o mérito; (c) lista de afirmações sobre ferramentas com data e fonte; (d) lista de itens AUTORAL aprovados, reprovados e pendentes.
-6. PARAR. Imprimir no terminal um resumo de 10 linhas e a frase "GATILHO A — aguardando decisão humana". Não iniciar nenhum outro lote.
+## Tarefas (um prompt de partida por sessão; nunca duas tarefas na mesma sessão)
+- `orquestradores/LOTE.md` — produz e revisa um lote (v1 → QA1 → v2 → QA2 → RECONCILIADO).
+- `orquestradores/BANCO.md` — varredura de certames e registro no banco.
+- `orquestradores/SIMULADO.md` — monta um simulado numerado.
+- `orquestradores/DISCURSIVA.md` — corrige uma resposta de discursiva/peça em dupla cega.
 
-## Gates obrigatórios
-- Se o QA reprovar mais de 30% dos itens em qualquer rodada, parar após gravar o relatório e imprimir "GATE: QA reprovou >30% — decisão humana".
-- Se qualquer afirmação sobre Power BI, Tableau, Looker Studio/Data Studio ficar sem fonte datada após a rodada 2, mover para a seção "pendente normativo/técnico" do RECONCILIADO, nunca aprovar.
-- Nunca criar lotes, subagentes ou arquivos fora de `saida/lote5/`.
+## Gates (parar, gravar o que houver, imprimir a linha indicada, não continuar)
+- QA reprovou > 30% dos itens de um lote: "GATE: QA reprovou >30% — decisão humana".
+- Afirmação sobre ferramenta/norma sem fonte datada após QA2: vai para "pendente" no RECONCILIADO; nunca aprovar.
+- Fonte não oficial (espelho, blog, cursinho) proposta como proveniência: recusar e registrar.
+- Qualquer necessidade fora do escopo dos dois módulos: "GATE: fora do domínio — decisão humana".
+- Fim de tarefa: "GATILHO A — aguardando decisão humana". Nunca iniciar outra tarefa.
+Nada produzido aqui vai à candidata; tudo é material para revisão humana.
 
-## Formato de todo arquivo gravado
-Primeira linha: `# [nome do arquivo] — Lote 5 — [data ISO] — gerado por [subagente]`. Markdown simples, sem tabelas largas.
+## Formato de arquivos gravados
+Primeira linha: `# [arquivo] — [tarefa] — [data ISO] — gerado por [agente]`. Markdown simples. Itens AUTORAL: `A<lote>-NN`, enunciado, gabarito C/E, justificativa de duas linhas, marcador [TS] quando houver troca sutil.

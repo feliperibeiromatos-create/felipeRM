@@ -1,0 +1,7 @@
+# Formato Cebraspe de padrão de resposta (extraído dos padrões definitivos cd_25_ns, Cargos 1 e 2, aplicação 8/3/2026)
+Toda hipótese de discursiva (20 linhas, 15 pontos) ou peça técnica (50 linhas, 30 pontos) traz:
+1. COMANDO: situação hipotética (para peça técnica e, às vezes, questão) + ordem ("redija texto dissertativo" / "redija parecer técnico, com base na [norma]") + aspectos numerados com valor em pontos (ex.: 1 [3,60]; 2 [3,60]; 3 [3,60]; 4 [3,50] = 14,30 + 0,70 de apresentação/estrutura; peça: 30,00 com 1,50 de apresentação).
+2. PADRÃO DE RESPOSTA: texto corrido com os aspectos enumerados (i), (ii), (iii)... cada um com qualificação do fato, consequência e base normativa por artigo/inciso (e jurisprudência identificada: tribunal, turma, número, relator, data, quando couber).
+3. QUESITOS AVALIADOS: Quesito 2.1, 2.2... (o 1 é apresentação/estrutura). Cada quesito tem Conceito 0 a N; Conceito k = "abordou corretamente apenas k dos aspectos enumerados"; o conceito máximo exige todos os aspectos.
+4. REGRA DE OURO: a nota é por contagem de aspectos cobertos, não por qualidade argumentativa. Apresentação vale 0,70 (questão) ou 1,50 (peça). Nota = NC − 3×NE/TL (erros gramaticais descontam).
+Gênero da peça: "parecer técnico" (confirmado para analista e técnico em 2026). Forma mínima: identificação, análise por tópico na ordem do comando, conclusão. Todo o esforço na cobertura de aspectos.

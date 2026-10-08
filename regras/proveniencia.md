@@ -1,0 +1,6 @@
+# Regras de evidência e proveniência (vigentes em 8/10/2026)
+- Afirmação sobre ferramenta, API ou modelo: "verificado em [data]" + URL oficial do fornecedor. Sem fonte datada: escrever "[SEM FONTE — não afirmar]"; nunca versão, preço ou limite numérico.
+- Rótulos de questão: CEBRASPE_OFICIAL (prova identificada: certame, cargo, ano, item, link oficial), CEBRASPE_ANALOGA (outro certame Cebraspe, mesmos dados), OUTRA_OFICIAL (outra banca, prova identificada), AUTORAL (inédita, com produtor e lote). CEBRASPE_ESTILO é proibido.
+- Fontes oficiais Cebraspe: arquivos em cdn.cebraspe.org.br acessados diretamente (a página de listagem exige JavaScript; os PDFs não). Portal camara.leg.br também é oficial para certames da Câmara. Espelhos de terceiros (qconcursos, cursinhos) são vedados mesmo quando reproduzem o PDF.
+- Fontes normativas: planalto.gov.br, URL "compilado", citação por artigo, inciso e parágrafo; texto da norma só em saida/, nunca em arquivo canônico. Marcar alterações recentes (ex.: Lei 15.352/2026 alterou a LGPD — ANPD é "Agência", autarquia especial vinculada ao MJSP).
+- Fatos recentes verificados (reverificar na primeira semana de janeiro de 2027): Looker Studio voltou a chamar-se Data Studio em abril de 2026 (docs.cloud.google.com/data-studio/welcome).

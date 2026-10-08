@@ -1,0 +1,4 @@
+# Edital Câmara 2026 — Conhecimentos Básicos (P1) — TECNOLOGIA DA INFORMAÇÃO E DADOS — itens 5 a 8 (transcrição literal)
+5 Conceitos básicos de inteligência artificial. 5.1 Engenharia de prompts. 5.2 Aprendizado supervisionado, não supervisionado e por reforço. 5.3 IA generativa: conceitos, exemplos e casos de uso. 6 Ética e responsabilidade digital no serviço público. 7 Dados. 7.1 Conceitos, atributos, métricas, transformação de dados. 8 Visualização de dados. 8.1 Princípios de visualização de dados. 8.2 Tipos de gráficos (histograma, linha, barra, dispersão, box plot). 8.3 Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). 8.4 Storytelling para visualização de dados.
+
+Prova: P1, 90 itens certo/errado, mínimo 18 pontos, comum aos 11 cargos. Não cobrada na discursiva. Itens 1–4 fora do escopo do Projeto.

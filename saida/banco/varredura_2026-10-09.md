@@ -82,3 +82,7 @@ Demais:
 - Divergência de data (nome do arquivo 09/10 x sistema 08/10).
 - O limite de 6 certames foi ultrapassado em 1 na fase de localização (Câmara PL 2026 aberto antes de saber que não tinha gabarito definitivo); nenhum item dele registrado.
 - Rede/CDN funcionou; 404 apenas em URLs sondadas ou índices de busca desatualizados.
+
+## Registro D-MC (aplicação de D-RECUPERACAO (b), 2026-10-09 — orquestrador)
+- Banco conferido em 2026-10-09: nenhuma linha de múltipla escolha (gabaritos só C, E e X em BQ-0001 a BQ-0066); nada retirado.
+- SEBRAE 2024 (aplicação 08/09/2024), Perfil 14 Analista Técnico II, Cientista de Dados — localizado, formato incompatível (múltipla escolha). Caderno: https://cdn.cebraspe.org.br/concursos/sebrae_24/arquivos/004_SEBRAE_014_01.PDF ; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/sebrae_24/arquivos/GAB_DEFINITIVO_004_SEBRAE_014_01.PDF

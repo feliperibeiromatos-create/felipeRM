@@ -7,7 +7,8 @@ v3 para conferência de aplicação — decisão da GCB de 08/10/2026
 v3.1 — ajustes do Despacho 3 da GCB, 08/10/2026
 v3.2 — Despacho 4 da GCB (referências A CONFIRMAR), 08/10/2026
 v3.3 — Despacho 7 da GCB (1b e 1g), 08/10/2026
-Conteúdo: v2 completa com as correções do Despacho 1 (GCB/Despachos_pendentes_GCB-CPP.md), conferidas pela CQFP em 08/10/2026, e com os ajustes do Despacho 3 (L1, itens 18–20, ANPD, NOTA 8.11.2), aplicados mediante registro na Tabela de Correções, sem nova conferência; Despacho 4 (v3.2) e Despacho 7 (v3.3), correções textuais de curso.
+v3.4 — Despacho 9 da GCB (O6 e D-DEREP), 09/10/2026
+Conteúdo: v2 completa com as correções do Despacho 1 (GCB/Despachos_pendentes_GCB-CPP.md), conferidas pela CQFP em 08/10/2026, e com os ajustes do Despacho 3 (L1, itens 18–20, ANPD, NOTA 8.11.2), aplicados mediante registro na Tabela de Correções, sem nova conferência; Despacho 4 (v3.2) e Despacho 7 (v3.3), correções textuais de curso; Despacho 9 (v3.4), correções textuais.
 
 CABEÇALHO
 Escopo (R8 — literal do edital, item 14.2.3, TECNOLOGIA DA INFORMAÇÃO E DADOS): "5 Conceitos básicos de inteligência artificial. 5.1 Engenharia de prompts. 5.2 Aprendizado supervisionado, não supervisionado e por reforço. 5.3 IA generativa: conceitos, exemplos e casos de uso. 6 Ética e responsabilidade digital no serviço público." Edital nº 1 – Câmara dos Deputados – Analista Legislativo, de 2/10/2026 (Cebraspe), arquivo "Edital - Camara 2026.pdf" do Projeto. P1 = Conhecimentos Básicos, 90 itens, de caráter eliminatório e classificatório (edital, 7.1); bloco único, comum a todos os cargos (14.2.3); eliminação do candidato com nota inferior a 18,00 pontos em P1 (8.11.5, "a"); a prova discursiva versa só sobre conhecimentos específicos (9.1). Não há discursiva sobre estes itens.
@@ -19,7 +20,7 @@ TABELA DE CORREÇÕES
 | O3 | 6.5 P1; C12; 6.3 | Fundamento "anonimizado não é dado pessoal" = art. 12, caput (com ressalva), citado junto ao art. 5º, III | QA R1 | conferida |
 | O4 | 6.3 LGPD | Capítulo IV = arts. 23 a 32 (Seção I, 23–30; Seção II, 31–32); marca "A CONFIRMAR" RETIRADA (conferido pela CQFP no Planalto em 07/10/2026) | QA R1 → QA R2 | aplicada (v3); conferida |
 | O5 | 6.3; 6.1 | Retirado o "indício de Ato da Mesa nº 225/2025" | QA R1 | conferida; menção ao Ato da Mesa nº 225/2025 restabelecida no 6.3 na v3.3, já verificada e sem item |
-| O6 | 5.2.5; 5.3.6 P2; Parte 3 | TRF6 2024 item 81 "a confirmar contra o GAB_DEFINITIVO"; item 11 ancorado no F4 | QA R1 (D1 GCB) | conferida |
+| O6 | 5.2.5; 5.3.6 P2; Parte 3 | TRF6 2024 item 81 "a confirmar contra o GAB_DEFINITIVO"; item 11 ancorado no F4 | QA R1 (D1 GCB) | conferida; gabarito definitivo E do item 81 confirmado (Presidência, 07/10/2026; v3.4) |
 | O7 | 6.1 | Retirada a afirmação sobre a banca | QA R1 | conferida |
 | O8 | 5.3.3; resumo 5.3 | Modalidades atribuídas corretamente (tabela × lista do F4); texto→fala incluído | QA R1 | conferida |
 | O9 | 6.3 LGPD art. 20; 6.5 P3; C17 | Nova redação: "o texto original de 2018 previa revisão 'por pessoa natural'; a MP 869/2018 retirou a expressão; o § 3º incluído pela Lei 13.853/2019 foi vetado"; marca "A CONFIRMAR" retirada dos três pontos (conferido pela CQFP no Planalto em 07/10/2026) | QA R2 | aplicada (v3); conferida |
@@ -38,6 +39,7 @@ TABELA DE CORREÇÕES
 | NOTA 8.11.2 (ajuste) | resumo (b) | Acrescentado "ou houver marcação dupla (C e E)" | Conferência v3 | aplicada (v3.1) |
 | Conferência A CONFIRMAR | 6.1; 6.2; 6.3; 6.4; 6.5 P6; C16; C18 | Correções 1a, 1c, 1d, 1e e 1f da CQFP (GCB/Conferencia_ACONFIRMAR_Lote4_CQFP.md) | Conferência A CONFIRMAR (CQFP, 08/10/2026) | aplicada (v3.2) |
 | Fechamento 1b e 1g | 6.3; fontes normativas; nota de produção | Lei 8.112/1990, art. 117, IX (corrigido), XVI e art. 121 (conferem); Ato da Mesa nº 225/2025 inserido como N10, sem item (ADENDO 1 da CQFP) | Conferência A CONFIRMAR, adendo 1 (CQFP, 08/10/2026) | aplicada (v3.3) |
+| Repasses da Presidência | 5.1.5; 5.2.6; 5.2.5; 5.3.6 P2; 6.4; d-G item 11; fontes normativas | O6 (item 81 = E) e D-DEREP (Derep, antigo DETAQ; N11) | Presidência, 09/10/2026 | aplicada (v3.4) |
 
 FONTES DE FORNECEDOR (verificadas em 7/10/2026, acesso direto; F4 reverificado em 7/10/2026)
 F1 — Anthropic, "Prompt engineering overview", platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
@@ -49,7 +51,7 @@ Regra aplicada: afirmações conceituais gerais não dependem de fornecedor; afi
 
 FONTES NORMATIVAS (texto não transcrito; artigo e inciso para o QA Normativo)
 Regra de legislação (GCB; edital 13.33 e 13.34): vale a redação em vigor em 2/10/2026, data de publicação do edital (13.33); legislação sem vigência só pode ser cobrada se estiver explicitada nos objetos de avaliação (edital, 13.34: "A legislação que não esteja em vigor poderá ser cobrada, desde que devidamente explicitada nos objetos de avaliação"); como o item 14 do edital não explicita o PL 2338/2023, ele fica só como contexto VOLÁTIL.
-N1 — Lei 13.709/2018 (LGPD), com a alteração da Lei 15.352/2026 no art. 5º, VIII · N2 — Lei 12.527/2011 (LAI) · N3 — Lei 14.129/2021 (referência geral; não usada em item) · N4 — Decreto 1.171/1994 · N5 — Lei 8.112/1990 · N6 — Lei 12.965/2014 (Marco Civil) · N7 — Lei 9.610/1998 · N8 — CF, art. 37, caput · N9 — Lei 13.146/2015, art. 63 · N10 — Ato da Mesa nº 225/2025 (Câmara dos Deputados; norma interna; referência sem item).
+N1 — Lei 13.709/2018 (LGPD), com a alteração da Lei 15.352/2026 no art. 5º, VIII · N2 — Lei 12.527/2011 (LAI) · N3 — Lei 14.129/2021 (referência geral; não usada em item) · N4 — Decreto 1.171/1994 · N5 — Lei 8.112/1990 · N6 — Lei 12.965/2014 (Marco Civil) · N7 — Lei 9.610/1998 · N8 — CF, art. 37, caput · N9 — Lei 13.146/2015, art. 63 · N10 — Ato da Mesa nº 225/2025 (Câmara dos Deputados; norma interna; referência sem item) · N11 — Ato da Mesa nº 251/2026 (Câmara dos Deputados; transforma o DETAQ em Departamento de Registro Oficial e Redação Parlamentar – Derep; conferido pela GCE-CQFP no Legin em 08/10/2026; referência sem item).
 Não restam referências "A CONFIRMAR" no lote (Lei 8.112/1990, arts. 117 e 121, e Ato da Mesa nº 225/2025 conferidos pela CQFP em 08/10/2026 contra texto colado pelo Fundador, com URL e data). Dispositivos que fundamentam os itens 17, 18 e 20 foram conferidos pela CQFP no Planalto (17: 07/10/2026; 18 e 20: 08/10/2026); o item 19 não depende de norma.
 
 ==================================================
@@ -91,7 +93,7 @@ Ponto central para a prova: engenharia de prompts atua na ENTRADA; fine-tuning a
 - Injeção de prompt (conceito geral, sem fonte de fornecedor neste lote): instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas. Mitigação: delimitar dados e tratar conteúdo externo como dado, não como instrução.
 
 5.1.5 EXEMPLO APLICADO AO LEGISLATIVO
-Situação: servidor da unidade de taquigrafia da Câmara precisa de um resumo de três páginas de notas taquigráficas de uma audiência pública para subsidiar o relator.
+Situação: servidor do Derep (antigo DETAQ), departamento de registro e redação da Câmara, precisa de um resumo de três páginas de notas taquigráficas de uma audiência pública para subsidiar o relator.
 Prompt fraco: "Resuma isso." (sem papel, sem formato, sem restrições, sem delimitação do texto)
 Prompt estruturado:
   [Papel] Você é assessor de redação legislativa.
@@ -137,7 +139,7 @@ Diferença essencial: não há rótulo com a "resposta certa" para cada entrada;
 Ponte com LLMs — RLHF (aprendizado por reforço com feedback humano): "using feedback from human raters to improve the quality of a model's responses"; o glossário do Google cita avaliações como 👍 e 👎 (F3, verificado em 7/10/2026). RLHF é uma etapa de AJUSTE de modelos generativos, não o método de pré-treinamento.
 
 5.2.5 COMO OS TRÊS SE COMBINAM NOS MODELOS ATUAIS
-Os modelos de IA generativa são, em regra, pré-treinados com grandes volumes de dados sem rótulos atribuídos manualmente e, em etapa posterior, podem ser ajustados por aprendizado supervisionado ou por reforço para tarefas específicas. É o que afirma o F4: "generative models are initially trained using an unsupervised approach" e "the model is sometimes trained further using supervised or reinforcement learning" (reverificado em 7/10/2026). Conclusão para a prova: afirmar que a IA generativa se baseia PRIORITARIAMENTE em aprendizado supervisionado é ERRADO. Mecanismo semelhante aparece no item 81 do TRF6 2024, Cargo 2 (CEBRASPE_ANALOGA; gabarito E a confirmar contra o GAB_DEFINITIVO); o lote usa o F4 como fundamento, não o TRF6.
+Os modelos de IA generativa são, em regra, pré-treinados com grandes volumes de dados sem rótulos atribuídos manualmente e, em etapa posterior, podem ser ajustados por aprendizado supervisionado ou por reforço para tarefas específicas. É o que afirma o F4: "generative models are initially trained using an unsupervised approach" e "the model is sometimes trained further using supervised or reinforcement learning" (reverificado em 7/10/2026). Conclusão para a prova: afirmar que a IA generativa se baseia PRIORITARIAMENTE em aprendizado supervisionado é ERRADO. Mecanismo semelhante aparece no item 81 do TRF6 2024, Cargo 2 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01); o lote usa o F4 como fundamento, não o TRF6.
 Observação de prudência: a literatura também chama o pré-treinamento de LLMs de "auto-supervisionado" (o próprio texto fornece o alvo). O enquadramento desse termo como subtipo do "não supervisionado" é disputado; o candidato deve ficar com a formulação do F4 e evitar itens que dependam da classificação do "auto-supervisionado".
 Variantes que a banca pode citar (conceitos gerais): semi-supervisionado (poucos dados rotulados + muitos sem rótulo) e auto-supervisionado (rótulos derivados dos próprios dados).
 
@@ -145,7 +147,7 @@ Variantes que a banca pode citar (conceitos gerais): semi-supervisionado (poucos
 - Supervisionado (classificação): treinar um modelo para indexar automaticamente proposições por tema, usando como rótulo a indexação já feita pela unidade de documentação da Câmara em anos anteriores.
 - Supervisionado (regressão): estimar o número de dias que uma proposição levará até o parecer da comissão, a partir de atributos como tipo, autoria e regime de tramitação.
 - Não supervisionado (clustering): receber 40 mil contribuições de uma consulta pública e agrupá-las por semelhança para descobrir os temas emergentes — os grupos não existem antes; o servidor pode nomeá-los depois, com base em seu entendimento dos dados.
-- Por reforço (RLHF): revisores da unidade de taquigrafia avaliam, com aprovação ou reprovação, as minutas geradas por um assistente de redação; essas avaliações são acumuladas e usadas em CICLOS DE AJUSTE do modelo pelo fornecedor ou pela equipe técnica — não há aprendizado em tempo real a cada clique.
+- Por reforço (RLHF): revisores do Derep (antigo DETAQ) avaliam, com aprovação ou reprovação, as minutas geradas por um assistente de redação; essas avaliações são acumuladas e usadas em CICLOS DE AJUSTE do modelo pelo fornecedor ou pela equipe técnica — não há aprendizado em tempo real a cada clique.
 
 5.2.7 PEGADINHAS PROVÁVEIS
 P1. "No aprendizado não supervisionado não há participação humana" → ERRADO.
@@ -191,7 +193,7 @@ Um gabinete pede a um assistente generativo "a jurisprudência do STF sobre CPI 
 
 5.3.6 PEGADINHAS PROVÁVEIS
 P1. "Modelo generativo e modelo discriminativo são o mesmo tipo de modelo, distinguindo-se apenas pela tarefa executada" → ERRADO (são tipos distintos: um modela a distribuição, o outro, a fronteira; a tarefa de classificar pode ser feita por ambos).
-P2. "A IA generativa baseia-se prioritariamente em aprendizado supervisionado" → ERRADO (F4; mecanismo semelhante no TRF6 2024, item 81, gabarito a confirmar contra o GAB_DEFINITIVO).
+P2. "A IA generativa baseia-se prioritariamente em aprendizado supervisionado" → ERRADO (F4; mecanismo semelhante no TRF6 2024, item 81, gabarito definitivo E).
 P3. "Por padrão, um LLM consulta a internet e bases de dados atualizadas antes de responder" → ERRADO.
 P4. "Fine-tuning e RAG são denominações equivalentes da mesma técnica" → ERRADO.
 P5. "Com temperatura zero, o modelo deixa de produzir informações falsas" → ERRADO.
@@ -249,7 +251,7 @@ Norma interna da Câmara (N10): Ato da Mesa nº 225, de 15/12/2025 (DCD, Ed. Ext
 Contexto VOLÁTIL: legislação sem vigência só pode ser cobrada se estiver explicitada nos objetos de avaliação (edital, 13.34: "A legislação que não esteja em vigor poderá ser cobrada, desde que devidamente explicitada nos objetos de avaliação"); como o item 14 do edital não explicita o PL 2338/2023 (marco legal da IA; situação de tramitação não verificada neste chat), ele fica só como contexto VOLÁTIL e não entra em item. Estratégia Brasileira de Inteligência Artificial, instituída pela Portaria MCTI nº 4.617, de 6/4/2021 (Anexo com redação dada pela Portaria MCTI nº 4.979/2021); vigência atual não conferida; sem item.
 
 6.4 EXEMPLO APLICADO AO LEGISLATIVO
-Situação: servidora da unidade de taquigrafia recebe o áudio e a transcrição bruta de reunião reservada de comissão e pensa em colar o texto integral em um assistente de IA gratuito, acessado pela conta pessoal, para "limpar" a redação em dois minutos.
+Situação: servidora do Derep (antigo DETAQ) recebe o áudio e a transcrição bruta de reunião reservada de comissão e pensa em colar o texto integral em um assistente de IA gratuito, acessado pela conta pessoal, para "limpar" a redação em dois minutos.
 Análise:
 1. Sigilo funcional: a reunião é reservada; expor o conteúdo a terceiro (o provedor da ferramenta) viola o dever de guardar sigilo sobre assunto da repartição (N5, art. 116, VIII) e a lógica da LAI, em que o sigilo legalmente previsto é exceção protegida (N2, art. 3º, I).
 2. Dados pessoais: as falas contêm nomes, opiniões políticas (dado sensível, N1, art. 5º, II) e eventualmente dados de terceiros; o envio a serviço externo, por conta pessoal, tende a não encontrar base legal (art. 7º) e não atende às medidas de segurança do art. 46.
@@ -361,7 +363,7 @@ Contagem: 20 itens; 10 C (1, 4, 5, 7, 10, 11, 12, 14, 17, 20) e 10 E; 10 [TS] (1
 8. E — [TS] — 5.2 — TC. A descrição é da classificação (categorias definidas antes pelo humano); no clustering, o modelo encontra os grupos, e o humano pode nomeá-los com base em seu entendimento dos dados (F4: "You might then attempt to name those clusters"). Fonte: F4, verificado em 7/10/2026. (v3 — O12)
 9. E — 5.2 — GI. "Não supervisionado" significa ausência de rótulos nos dados; o humano escolhe os dados e os parâmetros e interpreta os resultados — e pode nomear os grupos encontrados (F4). Fonte: F4, verificado em 7/10/2026. (v3 — O12)
 10. C — [TS] — 5.2 — TC. O reforço aprende por recompensas e penalidades de ações no ambiente, gerando uma política; não há rótulo da ação correta por entrada. Fonte: F4, verificado em 7/10/2026.
-11. C — v3 (O10) — 5.2 — GI invertida (tentação: "prioritariamente supervisionado"). O F4 afirma que "generative models are initially trained using an unsupervised approach" e que "the model is sometimes trained further using supervised or reinforcement learning"; o item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Fonte: F4, reverificado em 7/10/2026. Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (CEBRASPE_ANALOGA; gabarito a confirmar contra o GAB_DEFINITIVO) — referência, não fundamento.
+11. C — v3 (O10) — 5.2 — GI invertida (tentação: "prioritariamente supervisionado"). O F4 afirma que "generative models are initially trained using an unsupervised approach" e que "the model is sometimes trained further using supervised or reinforcement learning"; o item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Fonte: F4, reverificado em 7/10/2026. Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01) — referência, não fundamento.
 12. C — [TS] — v3 (O11) — 5.3 — TC (tentação: inverter os papéis). Discriminativo modela p(Y|X) e "tries to draw boundaries in the data space"; generativo modela p(X,Y) ou p(X), a distribuição, e por isso gera instâncias novas. O item fala só de "um modelo discriminativo", sem exemplo de spam. Fonte: F5, verificado em 7/10/2026.
 13. E — 5.3 — GI. Modelo de fundação é "a very large pre-trained model trained on an enormous and diverse training set", não necessariamente texto; LLM é modelo de linguagem com muitíssimos parâmetros; o F3 define os termos separadamente (O1). Fonte: F3, verificado em 7/10/2026.
 14. C — 5.3 — sem armadilha (ancoragem). Definição literal: "the production of plausible-seeming but factually incorrect output by a generative AI model". Fonte: F3, verificado em 7/10/2026.

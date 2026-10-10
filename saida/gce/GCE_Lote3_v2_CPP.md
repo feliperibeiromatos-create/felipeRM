@@ -22,6 +22,11 @@ S2 → 4.1, bullet "Dado pessoal sensível"; (c), par 16
 S3 → 4.2, bullet "CONTROVERSO" e pegadinha (7); (b), linha 4.2; (d-G),
      Q22
 S4 → limites, N2
+T-08 → (a), 3.1, bloco "CONTEXTO NORMATIVO INTERNO" (Ato da Mesa nº
+     225/2025, sem item; errata de 10/10/2026; QA gce-cqfp APROVADO)
+G1 → convenção de evidência, F4; limites, N7; bloco T-08, marca de
+     dispositivo normativo conferido pela CQFP (errata D1 da GCE,
+     10/10/2026; sem mudança de item, gabarito ou marca V)
 
 CONVENÇÃO DE EVIDÊNCIA
 [V 08/10/2026 — Fn] = verificado em 08/10/2026 na fonte oficial Fn.
@@ -37,6 +42,12 @@ CONVENÇÃO DE EVIDÊNCIA
     na própria LGPD compilada (F1), com a anotação "Redação dada pela Lei
     nº 15.352, de 2026" nos arts. 5º, VIII e XIX, no Capítulo IX e no
     art. 55-A, e nos incisos V-A e V-B do art. 55-C.
+ F4 Câmara/Legin — Ato da Mesa nº 225, de 15/12/2025, publicação
+    original (norma interna; contexto do 3.1, sem item; errata T-08):
+    www2.camara.leg.br/legin/int/atomes/2025/
+    atodamesa-225-15-dezembro-2025-798483-publicacaooriginal-177429-cd-mesa.html
+    Lida em paráfrase pela CPP e conferida no texto integral pela CQFP
+    em 10/10/2026 (marca V do bloco, datada de 10/10/2026).
 A página multivigente da LGPD NÃO foi usada.
 
 LIMITES DE EVIDÊNCIA (o que NÃO foi verificado — não presumi)
@@ -60,7 +71,10 @@ N6 Sistemas de IA realmente usados em parlamentos (3.1 a 3.3): NÃO
    VERIFICADO. O curso é conceitual; nenhuma afirmação descreve sistema da
    Câmara ou de outro parlamento.
 N7 Eventual legislação específica sobre IA, posterior ao texto lido:
-   NÃO VERIFICADO. Nenhum item trata de regulação própria de IA.
+   NÃO VERIFICADO. Nenhum item trata de regulação própria de IA. Norma
+   interna da Câmara: Ato da Mesa nº 225/2025 (F4), verificado em
+   10/10/2026, só como contexto no curso do 3.1 (errata T-08), fora dos
+   objetos de avaliação; não gera item.
 N8 Questão 1 da discursiva do TCE/MS 2025 (CEBRASPE_ANALOGA): não visível
    para esta unidade; não usada. Itens reais: nenhum.
 N9 Guia de estilo v1.0: não visível; não usado.
@@ -112,6 +126,30 @@ etapas. (4) Chamar de "indexação" o que é busca, e vice-versa. (5) Dizer
 que a IA "decide" o que é relevante sem critério humano: critérios,
 tesauro e avaliação são definidos pela instituição. (N6: não cobrar
 descrição de sistema real.)
+
+CONTEXTO NORMATIVO INTERNO (ERRATA T-08, 10/10/2026; SEM ITEM)
+Ato da Mesa nº 225, de 15/12/2025 (Câmara dos Deputados; DCD, Ed. Extra A,
+18/12/2025, p. 9; Boletim Administrativo, 19/12/2025, p. 22; vigência na
+publicação, art. 6º): estabelece diretrizes gerais para a política de
+governança de inteligência artificial no âmbito da Câmara e determina sua
+implementação pela Diretoria-Geral. Em paráfrase: o art. 3º fixa diretrizes
+mínimas, entre elas uso de IA guiado por princípios éticos (transparência,
+proteção de dados, não discriminação, supervisão humana: I); observância
+da LGPD (III); regras para IA generativa, com requisitos para prompts,
+agentes autônomos ou semiautônomos e revisão humana (V); informação ao
+usuário que interage com agente de IA (VIII); supervisão contínua, inclusive
+de falhas, vieses e alucinações (IX); o art. 4º, IV, atribui à
+Diretoria-Geral criar e manter o comitê de ética de uso da IA. [NORMATIVO — QA]
+Como contexto
+deste item: reforça, na própria Casa, o princípio "a IA apoia; o registro
+oficial passa por revisão humana". O texto lido NÃO trata de transcrição,
+taquigrafia, reconhecimento de fala nem registro de sessões: não afirmar que
+o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora
+dos objetos de avaliação (registro da GCB-CQFP, 08/10/2026): não cobrar
+numeração de incisos, não gera item e não altera gabarito. [V 10/10/2026 —
+F4 Câmara/Legin: www2.camara.leg.br/legin/int/atomes/2025/
+atodamesa-225-15-dezembro-2025-798483-publicacaooriginal-177429-cd-mesa.html;
+leitura automatizada via WebFetch; paráfrase, sem transcrição literal]
 
 --- 3.2 BUSCA SEMÂNTICA EM ACERVOS PARLAMENTARES ---
 

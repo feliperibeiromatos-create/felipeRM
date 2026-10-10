@@ -1,10 +1,10 @@
-# estilo_banca.md — T-03 — 2026-10-09 — gerado por gbq-estilo
-v1.1
+# estilo_banca.md — T-23 — 2026-10-10 — gerado por gbq-estilo
+v1.1.1
 
 ## 1. Cabeçalho
 
-- Versão: v1.1. Substitui a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
-- Data: 2026-10-09
+- Versão: v1.1.1 (errata de forma da v1.1, T-23). A v1.1 substituiu a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
+- Data: 2026-10-10 (v1.1: 2026-10-09)
 - Banco: 66 itens (BQ-0001 a BQ-0066), todos CEBRASPE_ANALOGA, de 9 certames Cebraspe:
   - TRF6 2024: Cargo 2, Análise de Dados; aplicação 19/01/2025.
   - BCB 2024: Analista, TI; aplicação 4/8/2024.
@@ -56,9 +56,10 @@ Por subitem do edital. O mapeamento é o do banco. As notas de aderência são a
 
 | Subitem | C | E | X | v1.0 (C/E/X) | Observação |
 |---|---|---|---|---|---|
+| P1-5 | 1 | 0 | 0 | ausente | BQ-0009; DIRETA (D1 T-03) |
 | P1-5.1 | 1 | 0 | 0 | 0/0/0 | BQ-0059; DIRETA (D1 R-03). É o único item do subitem. |
 | P1-5.2 | 6 | 7 | 0 | 5/5/0 | +BQ-0049 (DIRETA, D1 R-03), 0050, 0051 |
-| P1-5.3 | 7 | 4 | 3 | 3/3/0 | +BQ-0058, 0061, 0064 (VOLÁTIL), 0065, 0066; X: 0060, 0062, 0063 |
+| P1-5.3 | 6 | 4 | 3 | 3/3/0 | +BQ-0058, 0061, 0064 (VOLÁTIL), 0065, 0066; X: 0060, 0062, 0063; BQ-0009 remapeado para P1-5 (T-03) |
 | P1-6 | 0 | 2 | 0 | 0/2/0 | sem mudança |
 | P1-7.1 | 2 | 1 | 2 | 0/1/2 | +BQ-0054, 0055 (PARCIAL, D1 R-03) |
 | P1-8.1 | 2 | 1 | 0 | 2/1/0 | sem mudança |
@@ -201,7 +202,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
 | ID | trecho decisivo (literal) | subitem |
 |---|---|---|
 | BQ-0008 | "a obrigação legal decorre de uma norma de conduta, isto é, uma regra que disciplina um comportamento" | P2-4.1 |
-| BQ-0009 | "são utilizadas técnicas de aprendizado de máquina para a previsão de resultados futuros com base em dados históricos" | P1-5.3 |
+| BQ-0009 | "são utilizadas técnicas de aprendizado de máquina para a previsão de resultados futuros com base em dados históricos" | P1-5 |
 | BQ-0013 | "O agrupamento é um método de aprendizado não supervisionado que busca a similaridade entre os dados" | P1-5.2 |
 | BQ-0014 | "O parâmetro temperature em LLM regula a amplitude da diversidade e criatividade nas previsões" | P1-5.3 |
 | BQ-0017 | "O Grafana é capaz de fazer queries em diferentes tipos de data source" | P1-8.3 |
@@ -477,25 +478,26 @@ Indícios (usar com parcimônia, nunca como fórmula):
 
 ## 6. Ressalvas
 
-1. A CLASSIFICAÇÃO É JULGAMENTO DESTE AGENTE (gbq-estilo) E EXIGE REVISÃO DA GBQ. A atribuição de mecanismo primário, as ampliações de definição (E2, E4, E5), os padrões novos (E6, C6) e a reclassificação de BQ-0001 são leituras, não fatos. Pontos mais sensíveis:
-   - E5 ampliado: se não for aceito, E5 volta a indício (n = 2).
-   - C6: se não for aceito, os três itens voltam a C1.
-   - Fronteiras: BQ-0050 (E1 ou E4), BQ-0053 (E5 ou E6), BQ-0004 (E3 ou E6), BQ-0048 (E4 ou E5) e BQ-0054 (C1 ou C3).
+1. A CLASSIFICAÇÃO É JULGAMENTO DESTE AGENTE (gbq-estilo) E FOI REVISADA PELA GBQ EM 09/10/2026 (T-03, D1; saida/banco/T03_arbitragem_2026-10-09.md, seção "Revisão da tipologia v1.1"). A atribuição de mecanismo primário, as ampliações de definição (E2, E4, E5), os padrões novos (E6, C6) e a reclassificação de BQ-0001 são leituras, não fatos. Resultado da revisão nos pontos mais sensíveis:
+   - BQ-0025 (E6): inclusão confirmada (ver ressalva 4).
+   - E5 ampliado: aceito. E5 fica como padrão (n = 3).
+   - C6: aceito (n = 3).
+   - Fronteiras mantidas como classificadas: BQ-0050 (E1 ou E4), BQ-0053 (E5 ou E6), BQ-0004 (E3 ou E6), BQ-0048 (E4 ou E5) e BQ-0054 (C1 ou C3).
 2. Os padrões com menos de 3 ocorrências são INDÍCIO, não regra:
    - na tipologia: C4 (n = 2) e C5 (n = 1);
    - nos traços: "prioritariamente" (1), "causa falsa" pura (1) e "desde que" (2).
 3. A base é pequena: 60 itens com gabarito, de 2 a 12 por certame. Todos os percentuais têm margem larga. PF 2025 (2 itens, 100% de C) não indica tendência.
-4. Inclusão de BQ-0025. A linha estava em CORRIGIR no QA de 09/10 só por causa de observacoes. Foi sanada por D-RECUPERACAO (c), mas não houve nova rodada formal da gbq-cqe. A gbq-gerencia a conta na base válida (R03_reconciliacao). A GBQ deve confirmar. Sem ela, a base seria de 59 itens (33 C / 26 E) e E6 cairia a indício (n = 2).
+4. Inclusão de BQ-0025: CONFIRMADA pela GBQ em 09/10/2026 (T-03, D1). A linha estava em CORRIGIR no QA de 09/10 só por causa de observacoes. Foi sanada por D-RECUPERACAO (c), sem nova rodada formal da gbq-cqe, e a gbq-gerencia a conta na base válida (R03_reconciliacao). E6 fica como padrão (n = 3).
 5. Subitens sem análogo real na base, onde o guia é extrapolação:
    - P1-8.4, P2-1.x, P2-2.x, P2-3.x e P2-4.2. Para P2-4.2 há apenas as leituras alternativas de BQ-0016 e BQ-0040.
    - P1-5.1 e P1-8.2 deixam de ser lacuna: BQ-0059, BQ-0047, 0052 e 0053, todos DIRETOS (D1 R-03).
    - P1-8.3 passa a ter um análogo com ferramenta do edital (BQ-0048).
 6. Aderência. Esta coordenação não arbitra. Registram-se:
    - as decisões D1 da R-03: BQ-0049, 0052, 0053 e 0059 DIRETAS; BQ-0055, 0056 e 0057 PARCIAIS;
-   - as 7 divergências do QA de 09/10 (BQ-0001, 0009, 0014, 0015, 0016, 0036, 0040), em arbitragem paralela pela gbq-gerencia (T-03).
+   - os resultados da arbitragem da T-03 (D1 GBQ, saida/banco/T03_arbitragem_2026-10-09.md) para as 7 divergências do QA de 09/10: DIRETA: BQ-0009 (remapeada de P1-5.3 para P1-5), 0014 (P1-5.3) e 0040 (P1-6); PARCIAL: BQ-0001 (P1-8.1), 0015 (P1-5.3), 0016 (P1-6) e 0036 (P2-4.1).
 7. Vigência e fonte não verificadas:
    - Itens de LGPD (17, entre eles BQ-0025, 0056 e 0057): T-13 no qa-normativo, por causa da Lei 15.352/2026.
-   - Também pendentes: BQ-0036 (Marco Civil) e BQ-0040 (Resolução CNJ).
+   - Também pendentes: BQ-0036 (Marco Civil) e BQ-0040 (Resolução CNJ), ambos na T-21 do qa-normativo.
    - Ferramentas sem fonte do fornecedor: BQ-0014, 0015, 0017, 0028, 0035, 0048 e 0064. BQ-0064 é VOLÁTIL (T-14).
    - Os mecanismos descritos valem como estilo, não como conteúdo vigente.
 8. Não há coluna de comando no CSV, por isso a proporção por tipo de comando não foi calculada.
@@ -512,7 +514,9 @@ Indícios (usar com parcimônia, nunca como fórmula):
    - "Afirmação única por item": há exceções de forma (BQ-0004 com "Considere que"; bloco com texto-base BQ-0049 a 0051).
    - "Nunca: item que depende de versão de software": continua válida.
 
-## 7. Mudanças v1.0 → v1.1
+## 7. Mudanças entre versões
+
+### v1.0 → v1.1 (revisada pela GBQ, T-03)
 
 Base:
 - Itens com gabarito: 42 → 60.
@@ -558,4 +562,13 @@ Recomendações:
 - Pareamento E6 × C6.
 - Seção "O que evitar", com a lição dos anulados da ANM.
 
-AVISO: a classificação é julgamento do agente gbq-estilo e exige revisão da GBQ antes de orientar produção.
+### v1.1 → v1.1.1 (T-23)
+
+Errata de forma, conforme a revisão da GBQ (D1, saida/banco/T03_arbitragem_2026-10-09.md, seção "Revisão da tipologia v1.1"). Nenhum padrão, contagem de padrão ou recomendação mudou. Base, proporção C/E, tipologia e marcadores ficam iguais.
+- Seção 2: P1-5.3 passa de 7/4/3 para 6/4/3, e entra a linha P1-5 com 1/0/0 (BQ-0009, DIRETA, D1 T-03). A soma de P1 não muda (21/18/5).
+- Seção 3.7: o subitem de BQ-0009 na tabela C1 passa de P1-5.3 para P1-5. C1 continua com n = 17.
+- Seção 6: as ressalvas 1 e 4 registram a revisão da GBQ (BQ-0025 confirmada, E5 ampliado aceito, C6 aceito, fronteiras mantidas); a 6 registra os resultados da T-03; a 7 põe BQ-0036 e BQ-0040 na T-21.
+- Seção 7 e AVISO: registro da revisão da GBQ (T-03).
+- Cabeçalho: versão v1.1.1.
+
+AVISO: a classificação é julgamento do agente gbq-estilo, revisada pela GBQ em 09/10/2026 (T-03); apta a orientar produção após os ajustes 1–3 (aplicados nesta v1.1.1, T-23).

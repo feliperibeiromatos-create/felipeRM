@@ -28,6 +28,10 @@ S5 → (d) e (d-G), Q14 substituído por item conceitual de formatação
 A1 → ADICIONAL, proposto pela CPP (a GCE aceita ou recusa): nomenclatura
      do departamento, nova em 2026 (F8). 2.1, "Contexto institucional";
      2.3, contexto; limites, N4 e N8; fontes, F8
+T-28 → 2.1, "Contexto institucional": forma "Derep (antigo DETAQ)"
+     (D-DEREP; E4/N4), errata de 10/10/2026, QA gce-cqfp APROVADO;
+     quebra da linha longa pela GCE (D1), sem mudança de texto; sem
+     mudança de item, gabarito, fonte ou marca V
 
 NOTAS DE CONFERÊNCIA PARA A GCE E A CQFP (leitura desta unidade em
 08/10/2026, por trecho retornado pela busca)
@@ -147,10 +151,10 @@ degravação = trabalho humano a partir da gravação; revisão = controle
 de qualidade e responsabilidade pelo texto final.
 
 Contexto institucional: o Banco de Discursos reúne notas taquigráficas
-registradas pelo Departamento de Taquigrafia, Revisão e Redação (DETAQ)
-[V 08/10/2026 — F2], hoje Departamento de Registro Oficial e Redação
-Parlamentar, por força do Ato da Mesa nº 251/2026 [V 08/10/2026 — F8;
-NORMATIVO — QA]. A prática oficial inclui a revisão e a redação final
+registradas pelo Derep (antigo DETAQ) [V 08/10/2026 — F2],
+Departamento de Registro Oficial e Redação Parlamentar, por força do
+Ato da Mesa nº 251/2026 [V 08/10/2026 — F8; NORMATIVO — QA]. A prática
+oficial inclui a revisão e a redação final
 dos pronunciamentos, com divulgação das notas sem redação final e,
 depois, com redação final [V 08/10/2026 — F6]. Como curiosidade
 histórica, a Ordem de Serviço nº 1/1970 tratava a primeira tradução das

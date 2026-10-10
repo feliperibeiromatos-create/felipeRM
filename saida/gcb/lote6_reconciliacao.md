@@ -57,3 +57,30 @@ Observação fora do domínio (para o orquestrador rotear à GBQ; não é gatilh
 - Sincronizar o espelho do Projeto (GCB/Lote6b_v2_producao_auto.md) com a versão de saida/gcb: liberado, porque o 6b está CONFERIDO. Cabe ao orquestrador ou ao Fundador.
 - Tarefas novas acrescentadas a TAREFAS.md: T-17 (PRÓXIMO) errata de forma dos Lotes 6 (OB-6b-1, OB-6a-2, OB-6b-2, OB-6b-3, linha CQFP-1 na Tabela interna, atualização da menção ao BACKLOG 96/98); T-18 (PRÓXIMO, datado) inclusão dos VOLÁTEIS do 6a e da URL da F9 no roteiro FV de janeiro; T-19 (BACKLOG) R-5, governança digital.
 - Gatilho A do 6a: escrito em PARA_PRESIDENCIA.md (append único).
+
+## 5. Reconciliação da T-17 (errata de forma dos Lotes 6) — 2026-10-10 — gcb-gerencia
+
+Entradas: saida/gcb/lote6_errata_2026-10-10.md (produção gcb-cpp; QA gcb-cqfp, seção "## QA — gcb-cqfp — 2026-10-10", veredito CONFERIDO); saida/gcb/GCB_Lote6a_v2_producao_auto.md; saida/gcb/GCB_Lote6b_v2_producao_auto.md.
+
+**Veredito: T-17 CONCLUÍDA e reconciliada pela GCB (D1).** Os itens (a)–(e) da especificação da seção 3 foram aplicados, e o arquivo não tem nenhuma outra alteração. A condição da T-27 "T-17 CONCLUÍDA e reconciliada pela GCB" está cumprida.
+
+Conferência da Gerência por script próprio (somente leitura; HEAD por git show; difflib; scratchpad t17g/v.py):
+
+| Verificação | 6a | 6b |
+|---|---|---|
+| Blocos de diferença contra o HEAD | 1 substituição (l. 111) | 5 substituições (HEAD l. 22, 52, 98, 171, 403) + 1 inserção (l. 24, CQFP-1); nenhum outro bloco |
+| Linhas de item (enunciado + d-G, 15 + 15) | 30/30 idênticas | 30/30 idênticas |
+| Linha "Contagem:" | idêntica ao HEAD (7 C / 8 E; 8 [TS]; 5 VOLÁTEIS) | idêntica ao HEAD (7 C / 8 E; 8 [TS]; 0 VOLÁTIL); d-G 6B-01..15 com 7 C nos ids da Contagem |
+| "[TS]" / "VOLÁTIL" no arquivo | 14/11 → 14/11 | 13/6 → 13/6 |
+| "Derep, antigo DETAQ" → "Derep (antigo DETAQ)" | 1→0 / 1→2 | 1→0 / 5→6 |
+| "pendente (BACKLOG)" / "Observação para a GCB-CQFP" | 0 / 0 | 2→0 / 1→0 (levada à Nota de produção (vi)) |
+| "usuario" / "copias" / "[sic]" | — | 0 / 0 / 0 |
+
+Observações:
+- O-1 e O-2 da gcb-cqfp (relatório com o total de linhas 1 acima; linha CQFP-1 citada no relatório com pontuação diferente da gravada) não têm efeito, porque vale o texto do lote. Nenhuma devolução.
+- O-3 (da Gerência): no 6b, curso 2.0.6 (l. 99), ficou "o servidor da unidade de taquigrafia, o Derep (antigo DETAQ), que consulta...". O texto cumpre a D-DEREP e a especificação (b), que só uniformizou a grafia. A redundância "unidade de taquigrafia" foi retirada do Lote 4 pelo Despacho 9, mas não foi pedida aqui. Classificação: BACKLOG, para a próxima edição do 6b; não reabre a T-17 nem bloqueia a T-27. Sem tarefa nova.
+- R-5 (T-19) e OB-6a-1 seguem em BACKLOG. A D-ADERENCIA dos itens reais 96 e 98 (parcial; só simulado diagnóstico) segue na tabela de itens reais.
+
+Sincronização do Projeto: os espelhos do Projeto no claude.ai (GCB/Lote6a_v2_producao_auto.md e GCB/Lote6b_v2_producao_auto.md) estão defasados em relação a saida/gcb (sem a errata T-17). Transporte do Fundador: GATILHO E em PARA_PRESIDENCIA.md (append único). A T-27 exporta dos arquivos do repositório e não depende dessa sincronização.
+
+Classificação: T-17 CONCLUÍDA; sincronização dos Lotes 6 no Projeto AGORA (Fundador, gatilho E); O-3 BACKLOG.

@@ -1,4 +1,4 @@
-# simulado_1_gabarito.md — T-06; T-31 — 2026-10-10 — gerado por gbq-csc
+# simulado_1_gabarito.md — T-06; T-31; T-35 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 1 (P1 — final) — Gabarito, mapa e verificação
 
@@ -10,9 +10,9 @@ Folha separada do `saida/simulados/simulado_1.md`. Nada deste arquivo vai à can
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | C | 9 | E | 17 | C | 25 | E | 33 | E |
 | 2 | C | 10 | C | 18 | E | 26 | E | 34 | C |
-| 3 | E | 11 | E | 19 | C | 27 | C | 35 | E |
+| 3 | E | 11 | E | 19 | C | 27 | C | 35 | C |
 | 4 | E | 12 | C | 20 | E | 28 | E | 36 | C |
-| 5 | E | 13 | C | 21 | E | 29 | E | 37 | C |
+| 5 | E | 13 | C | 21 | E | 29 | E | 37 | E |
 | 6 | C | 14 | C | 22 | C | 30 | C | 38 | E |
 | 7 | C | 15 | E | 23 | E | 31 | C | 39 | C |
 | 8 | E | 16 | E | 24 | C | 32 | C | 40 | E |
@@ -57,10 +57,10 @@ Rótulo de todos os itens: AUTORAL. Aderência direta por construção (registro
 | 32 | A5-11 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.2 (8.2 Tipos de gráficos (histograma, linha, barra, dispersão, box plot)) | C | sim | C — [TS] — convertido — 8.2 — IC (tentação: alinhamento quase perfeito → "prova causa" → marcar E). Dispersão mostra associação; correlação, por mais forte, não comprova causalidade. |
 | 33 | A5-10 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.2 (8.2 Tipos de gráficos (histograma, linha, barra, dispersão, box plot)) | E | não | E — novo — 8.2 — AT. Linha pressupõe eixo horizontal ordenado (tempo); ligar categorias sem ordem sugere continuidade inexistente; comparação entre categorias pede gráfico de barras. |
 | 34 | A5-09 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.2 (8.2 Tipos de gráficos (histograma, linha, barra, dispersão, box plot)) | C | sim | C — [TS] — v3 (F4) — 8.2 — TC (tentação: quem decorou "barras separadas" como regra marca E). As barras do histograma são contíguas porque as classes são intervalos adjacentes de uma escala numérica; no gráfico de barras, o espaçamento é convenção de desenho; o que distingue os dois é a natureza da variável (curso 8.2; par C1). |
-| 35 | 5C-10 | Lote 5-C — `saida/gcb/GCB_Lote5C_v1_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | E | não | E — 8.4 — IC (inversão da ordem: a mensagem vem antes da escolha dos gráficos). Curso 8.4, método: entender o contexto; definir a mensagem principal antes de escolher gráficos; depois, escolher a visualização adequada. O item inverte a ordem. Difere do item A5-19 porque aquele julga exploratória × explanatória; este julga a ordem do método. |
-| 36 | A5-20 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | C | não | C — (A) — 8.4. Destaque e anotação guiam o olhar do público ao que sustenta a conclusão. |
-| 37 | A5-18 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | C | não | C — (A) — 8.4. Definição essencial: dados, visual e narrativa a serviço de uma mensagem. |
-| 38 | A5-19 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | E | sim | E — [TS] — (A) — 8.4 — TC (exploratória no lugar de explanatória). O perfil descrito é o da análise explanatória; na exploratória o analista ainda investiga. |
+| 35 | A5-20 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | C | não | C — (A) — 8.4. Destaque e anotação guiam o olhar do público ao que sustenta a conclusão. |
+| 36 | A5-18 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | C | não | C — (A) — 8.4. Definição essencial: dados, visual e narrativa a serviço de uma mensagem. |
+| 37 | A5-19 | Lote 5 — `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | E | sim | E — [TS] — (A) — 8.4 — TC (exploratória no lugar de explanatória). O perfil descrito é o da análise explanatória; na exploratória o analista ainda investiga. |
+| 38 | 5C-10 | Lote 5-C — `saida/gcb/GCB_Lote5C_v1_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | E | não | E — 8.4 — IC (inversão da ordem: a mensagem vem antes da escolha dos gráficos). Curso 8.4, método: entender o contexto; definir a mensagem principal antes de escolher gráficos; depois, escolher a visualização adequada. O item inverte a ordem. Difere do item A5-19 porque aquele julga exploratória × explanatória; este julga a ordem do método. |
 | 39 | 5C-09 | Lote 5-C — `saida/gcb/GCB_Lote5C_v1_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | C | não | C — 8.4 — sem armadilha (ancoragem). Curso 8.4, estrutura narrativa: contexto (público e o que está em jogo), conflito ou problema (o que os dados revelam), resolução ou chamada à ação (o que fazer). Difere do item A5-18 porque aquele julga a tríade dados, visual e narrativa; este julga as etapas da estrutura narrativa. |
 | 40 | 5C-07 | Lote 5-C — `saida/gcb/GCB_Lote5C_v1_GCB-CPP.md` | P1-8.4 (8.4 Storytelling para visualização de dados) | E | sim | E — [TS] — 8.4 — TC (storytelling e dashboard trocados). Curso 8.4: o storytelling tem uma mensagem central; o dashboard é exploração aberta, com muitos indicadores (par C14). O item inverte as duas caracterizações. Difere dos itens A5-18 e A5-19: A5-18 julga a definição do storytelling; A5-19 troca exploratória e explanatória; este troca storytelling e dashboard. |
 
@@ -84,7 +84,7 @@ Rótulo de todos os itens: AUTORAL. Aderência direta por construção (registro
 
 ### Sequência do gabarito (C/E por número)
 
-CCEEECCEECECCCEECECEECECEECEECCCECECCECE — maior corrida de mesma resposta: 3 (embaralhamento por bloco, semente 0)
+CCEEECCEECECCCEECECEECECEECEECCCECCCEECE — maior corrida de mesma resposta: 3 (embaralhamento por bloco, semente 0; itens 35–38 reordenados na T-35)
 
 ### Proporção e critérios de seleção
 
@@ -129,4 +129,5 @@ Elegíveis não selecionados (15):
 - FALTA REGISTRADA: o subitem 8.3 (ferramentas de visualização) não tem item apto a simulado final nestes lotes (4 de 4 VOLÁTIL); este simulado cobre 8 dos 9 subitens de P1 5–8. Há 40 itens elegíveis suficientes; a falta é de cobertura, não de quantidade. Reavaliar 8.3 após a reverificação de 4–8/1/2027 (D-REVERIFICACAO-JAN).
 - Conferência por script (scratchpad t06/verify.py, rodado sobre os arquivos gravados): 40 enunciados e 40 justificativas idênticos, caractere a caractere, às linhas dos arquivos canônicos; gabarito do mapa = gabarito do d-G = registro AUTORAL v2; subitem do mapa = subitem do registro; numeração 1–40 contínua; 20 C e 20 E; nenhuma ocorrência de VOLÁTIL, REVERIFICAR, PENDENTE ou L4-11 no corpo do simulado; maior corrida de mesma resposta = 3.
 - Ajuste T-31 (10/10/2026, gbq-csc): em `simulado_1.md` foram retirados a seção "Verificação (montagem)" (o conteúdo equivalente está na seção "Verificação" deste arquivo) e, do parágrafo de abertura, a frase de montagem; foi acrescentada a linha de aviso de que o simulado não traz itens do subitem 8.3. Nenhum item, ordem, numeração, comando, texto ou gabarito mudou (conferência por script em `saida/simulados/T31_2026-10-10.md`).
+- Ajuste T-35 (10/10/2026, gbq-csc): Comando 8 dividido em dois blocos com os comandos canônicos literais sem a faixa (Comando 8, Lote 5: itens 35–37 = A5-20, A5-18, A5-19; Comando 9, Lote 5-C: itens 38–40 = 5C-10, 5C-09, 5C-07), conforme T34_reconciliacao_2026-10-10.md; texto, gabarito, [TS] e justificativa inalterados.
 - Ressalva de arquivo: o Lote 4 canônico em saida/gcb ainda traz o cabeçalho v3.3; o Despacho 9 (v3.4, correções textuais de curso e do d-G do item 11, nenhum gabarito muda) está pendente de aplicação nesse arquivo. Nenhum item selecionado é afetado (o único d-G afetado é o de L4-11, não usado).

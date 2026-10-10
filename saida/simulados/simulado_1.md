@@ -1,4 +1,4 @@
-# simulado_1.md — T-06; T-31 — 2026-10-10 — gerado por gbq-csc
+# simulado_1.md — T-06; T-31; T-35 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 1 (P1 — final) — Câmara dos Deputados 2026, Cargo 11
 
@@ -183,19 +183,23 @@ Resposta: [   ]
 
 > No que se refere ao storytelling para visualização de dados, julgue os itens a seguir.
 
-**35.** No storytelling com dados, recomenda-se escolher primeiro os gráficos mais adequados aos dados disponíveis e, somente depois, definir a mensagem principal a ser comunicada ao público.
+**35.** Em uma apresentação com storytelling, o uso de cor de destaque e de anotações para direcionar a atenção ao ponto-chave do gráfico contribui para a clareza da mensagem.
 
 Resposta: [   ]
 
-**36.** Em uma apresentação com storytelling, o uso de cor de destaque e de anotações para direcionar a atenção ao ponto-chave do gráfico contribui para a clareza da mensagem.
+**36.** O storytelling para visualização de dados combina dados, elementos visuais e narrativa para comunicar uma mensagem e conduzir o público a uma conclusão ou ação.
 
 Resposta: [   ]
 
-**37.** O storytelling para visualização de dados combina dados, elementos visuais e narrativa para comunicar uma mensagem e conduzir o público a uma conclusão ou ação.
+**37.** A análise exploratória é aquela em que o analista, já conhecendo a mensagem principal, seleciona os dados que a sustentam para conduzir o público a uma conclusão.
 
 Resposta: [   ]
 
-**38.** A análise exploratória é aquela em que o analista, já conhecendo a mensagem principal, seleciona os dados que a sustentam para conduzir o público a uma conclusão.
+### Comando 9
+
+> Acerca do storytelling para visualização de dados, julgue os itens a seguir.
+
+**38.** No storytelling com dados, recomenda-se escolher primeiro os gráficos mais adequados aos dados disponíveis e, somente depois, definir a mensagem principal a ser comunicada ao público.
 
 Resposta: [   ]
 

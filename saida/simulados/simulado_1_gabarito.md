@@ -1,4 +1,4 @@
-# simulado_1_gabarito.md — T-06 — 2026-10-10 — gerado por gbq-csc
+# simulado_1_gabarito.md — T-06; T-31 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 1 (P1 — final) — Gabarito, mapa e verificação
 
@@ -128,4 +128,5 @@ Elegíveis não selecionados (15):
 - L4-11 × TRF6 item 81: L4-11 não entra neste simulado; o banco (TRF6) também não. Regra cumprida.
 - FALTA REGISTRADA: o subitem 8.3 (ferramentas de visualização) não tem item apto a simulado final nestes lotes (4 de 4 VOLÁTIL); este simulado cobre 8 dos 9 subitens de P1 5–8. Há 40 itens elegíveis suficientes; a falta é de cobertura, não de quantidade. Reavaliar 8.3 após a reverificação de 4–8/1/2027 (D-REVERIFICACAO-JAN).
 - Conferência por script (scratchpad t06/verify.py, rodado sobre os arquivos gravados): 40 enunciados e 40 justificativas idênticos, caractere a caractere, às linhas dos arquivos canônicos; gabarito do mapa = gabarito do d-G = registro AUTORAL v2; subitem do mapa = subitem do registro; numeração 1–40 contínua; 20 C e 20 E; nenhuma ocorrência de VOLÁTIL, REVERIFICAR, PENDENTE ou L4-11 no corpo do simulado; maior corrida de mesma resposta = 3.
+- Ajuste T-31 (10/10/2026, gbq-csc): em `simulado_1.md` foram retirados a seção "Verificação (montagem)" (o conteúdo equivalente está na seção "Verificação" deste arquivo) e, do parágrafo de abertura, a frase de montagem; foi acrescentada a linha de aviso de que o simulado não traz itens do subitem 8.3. Nenhum item, ordem, numeração, comando, texto ou gabarito mudou (conferência por script em `saida/simulados/T31_2026-10-10.md`).
 - Ressalva de arquivo: o Lote 4 canônico em saida/gcb ainda traz o cabeçalho v3.3; o Despacho 9 (v3.4, correções textuais de curso e do d-G do item 11, nenhum gabarito muda) está pendente de aplicação nesse arquivo. Nenhum item selecionado é afetado (o único d-G afetado é o de L4-11, não usado).

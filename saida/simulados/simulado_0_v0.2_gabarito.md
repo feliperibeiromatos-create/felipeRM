@@ -1,4 +1,4 @@
-# simulado_0_v0.2_gabarito.md — R-04, T-15 (gabarito regerado, D-SIM0-V02) — 2026-10-10 — gerado por gbq-csc
+# simulado_0_v0.2_gabarito.md — R-04, T-15, T-25 (gabarito regerado, D-SIM0-V02) — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 0 v0.2 — Gabarito, mapa, cobertura e mudanças
 
@@ -37,8 +37,16 @@ Folha separada do `saida/simulados/simulado_0_v0.2.md`. Nada deste arquivo vai �
 | P2 | 21 | 12 | 9 | 57,1% |
 | Total | 60 | 33 | 27 | 55,0% |
 
+Contagem por módulo do edital (D-BANCO-TI-1-4; os itens 57 a 60 são P1-4): a contagem por Parte acima segue a posição no simulado.
+
+| Módulo do edital | Itens | C | E | % C |
+|---|---|---|---|---|
+| P1 (TI e Dados, itens 1 a 8) | 43 | 23 | 20 | 53,5% |
+| P2 (Reconhecimento de Fala, Transcrição e IA) | 17 | 10 | 7 | 58,8% |
+| Total | 60 | 33 | 27 | 55,0% |
+
 **Aviso de desequilíbrio C/E:** a montagem tem 33 C e 27 E. Não foi forçado equilíbrio: nenhum item aprovado foi retirado por causa disso. O banco inteiro tem a mesma inclinação (60 itens com gabarito válido: 33 C e 27 E, segundo a R-03).
-Marcas de montagem: 24 itens de aderência PARCIAL; 4 em arbitragem de aderência (T-03); 2 com mapeamento em arbitragem (T-03); 4 VOLÁTEIS (BQ-0064, BQ-0015, BQ-0017, BQ-0035; reverificação 4–8/1/2027, T-14 e T-16).
+Marcas de montagem: 37 itens de aderência DIRETA; 23 de aderência PARCIAL (17 P2-4.1, 2 P1-8.3, 1 P1-5.3, 1 P1-6, 1 P1-7.1, 1 P1-8.1); 0 em arbitragem de aderência (T-03 resolvida); 4 VOLÁTEIS (BQ-0064, BQ-0015, BQ-0017, BQ-0035; reverificação 4–8/1/2027, T-14 e T-16).
 
 ## Pontuação
 
@@ -46,7 +54,7 @@ Um ponto por item certo, menos um por item errado, zero em branco ou com marcaç
 
 ## Mapa item → BQ-id → fonte → edital da Câmara
 
-Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. Todos os rótulos são CEBRASPE_ANALOGA. Aderência: DIRETA; PARCIAL (D-ADERENCIA, só diagnóstico); DIRETA* = DIRETA no banco, em arbitragem T-03 (QA 09/10 leu INDIRETA); DIRETA† = DIRETA, só o mapeamento do subitem em arbitragem T-03. VOLÁTIL: sim/não. Cmd = nº do comando no simulado.
+Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. Todos os rótulos são CEBRASPE_ANALOGA. Aderência: DIRETA; PARCIAL (D-ADERENCIA, só diagnóstico). A arbitragem T-03 está resolvida: não há itens em arbitragem. VOLÁTIL: sim/não. Cmd = nº do comando no simulado.
 
 | nº | Cmd | BQ-id | rótulo | certame (ano do edital; aplicação) | cargo · caderno | nº original | subitem do edital | aderência | VOLÁTIL | gab | observações |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -64,10 +72,10 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 | 12 | 8 | BQ-0049 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002220 · 042_EMBRAPA_ANALISTA_034_01 | 91 | P1-5.2 | DIRETA | não | E | D1 R-03: DIRETA (antes "moderada") |
 | 13 | 8 | BQ-0050 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002220 · 042_EMBRAPA_ANALISTA_034_01 | 92 | P1-5.2 | DIRETA | não | E | grafia "ideal atender" do original |
 | 14 | 8 | BQ-0051 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002220 · 042_EMBRAPA_ANALISTA_034_01 | 93 | P1-5.2 | DIRETA | não | C |  |
-| 15 | 9 | BQ-0009 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 80 | P1-5.3 | DIRETA* | não | C | T-03: banco: 5.3 (alt. 5.2); QA 09/10: INDIRETA em 5.3 |
+| 15 | 9 | BQ-0009 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 80 | P1-5 | DIRETA | não | C |  |
 | 16 | 9 | BQ-0010 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 81 | P1-5.3 | DIRETA | não | E | regra GBQ: TRF6 it.81 não coexiste com L4-11 (AUTORAL); não há AUTORAL neste simulado |
-| 17 | 10 | BQ-0014 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 59 | P1-5.3 | DIRETA† | não | C | T-03: QA 09/10: DIRETA em 5.3; leitura alternativa 5.1 |
-| 18 | 10 | BQ-0015 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 60 | P1-5.3 | DIRETA* | sim | E | T-03: QA 09/10: INDIRETA (conceito de API de fornecedor, não nomeado no edital); T-15: VOLÁTIL (dependência de produto: API de assistentes de fornecedor); reverificação 4–8/1/2027 (T-16) |
+| 17 | 10 | BQ-0014 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 59 | P1-5.3 | DIRETA | não | C |  |
+| 18 | 10 | BQ-0015 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 60 | P1-5.3 | PARCIAL | sim | E | PARCIAL: objeto de API de assistentes de fornecedor, não nomeado no edital (5.3); T-03; T-15: VOLÁTIL (dependência de produto: API de assistentes de fornecedor); reverificação 4–8/1/2027 (T-16) |
 | 19 | 11 | BQ-0028 | CEBRASPE_ANALOGA | SUSEP 2025 (08/06/2025) | Cargo 4 · 065_SUSEP_004_01 | 60 | P1-5.3 | DIRETA | não | E |  |
 | 20 | 12 | BQ-0058 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 90 | P1-5.3 | DIRETA | não | E |  |
 | 21 | 12 | BQ-0059 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 91 | P1-5.1 | DIRETA | não | C | D1 R-03: DIRETA; único item do banco em 5.1 |
@@ -75,12 +83,12 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 | 23 | 12 | BQ-0064 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 97 | P1-5.3 | DIRETA | sim | C | D1 R-03: VOLÁTIL (ChatGPT/DeepSeek); reverificação 4–8/1/2027 (T-14) |
 | 24 | 13 | BQ-0065 | CEBRASPE_ANALOGA | PF 2025 (27/07/2025) | Cargo 4 · 106_PF_004_01 | 104 | P1-5.3 | DIRETA | não | C |  |
 | 25 | 13 | BQ-0066 | CEBRASPE_ANALOGA | PF 2025 (27/07/2025) | Cargo 4 · 106_PF_004_01 | 105 | P1-5.3 | DIRETA | não | C |  |
-| 26 | 14 | BQ-0016 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 64 | P1-6 | DIRETA* | não | E | T-03: QA 09/10: INDIRETA em P1-6 (ética de IA em geral, não de serviço público); alt. P2-4.2 |
-| 27 | 15 | BQ-0040 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 113 | P1-6 | DIRETA† | não | E | T-03: QA 09/10: DIRETA em P1-6; alt. P2-4.2 (INDIRETA) |
+| 26 | 14 | BQ-0016 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 64 | P1-6 | PARCIAL | não | E | PARCIAL: ética de IA em geral, sem o recorte do serviço público do 6; T-03 |
+| 27 | 15 | BQ-0040 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 113 | P1-6 | DIRETA | não | E |  |
 | 28 | 16 | BQ-0044 | CEBRASPE_ANALOGA | ANTT 2023 (14/04/2024) | Cargo 1 · 951_ANTT_001_01 | 10 | P1-7.1 | DIRETA | não | E |  |
 | 29 | 17 | BQ-0054 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40001648 · 042_EMBRAPA_ANALISTA_071_01 | 81 | P1-7.1 | DIRETA | não | C |  |
 | 30 | 17 | BQ-0055 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40001648 · 042_EMBRAPA_ANALISTA_071_01 | 82 | P1-7.1 | PARCIAL | não | C | PARCIAL: KPIs: faixas de desempenho, prazos de meta e benchmarks (gestão de desempenho) vão além de "conceitos, atributos, métricas" do 7.1 |
-| 31 | 18 | BQ-0001 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 63 | P1-8.1 | DIRETA* | não | C | T-03: banco: 8.1 (alt. 8.2); QA 09/10: INDIRETA nos dois |
+| 31 | 18 | BQ-0001 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 63 | P1-8.1 | PARCIAL | não | C | PARCIAL: item genérico de visualização; não nomeia princípio (8.1) nem tipo (8.2); T-03 |
 | 32 | 19 | BQ-0021 | CEBRASPE_ANALOGA | ANATEL 2024 (15/09/2024) | Cargo 2 · 961_ANATEL_002_01 | 80 | P1-8.1 | DIRETA | não | C |  |
 | 33 | 19 | BQ-0022 | CEBRASPE_ANALOGA | ANATEL 2024 (15/09/2024) | Cargo 2 · 961_ANATEL_002_01 | 83 | P1-8.1 | DIRETA | não | E |  |
 | 34 | 20 | BQ-0047 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002198 · 042_EMBRAPA_ANALISTA_026_01 | 72 | P1-8.2 | DIRETA | não | C |  |
@@ -100,34 +108,43 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 | 48 | 27 | BQ-0024 | CEBRASPE_ANALOGA | ANATEL 2024 (15/09/2024) | Cargo 2 · 961_ANATEL_002_01 | 79 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 49 | 28 | BQ-0025 | CEBRASPE_ANALOGA | ANATEL 2024 (15/09/2024) | Cargo 2 · 961_ANATEL_002_01 | 84 | P2-4.1 | PARCIAL | não | E | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; gabarito preliminar C alterado para E no definitivo; QA 09/10 = CORRIGIR (só observacoes), correção registrada no banco (D-RECUPERACAO c); T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 50 | 29 | BQ-0032 | CEBRASPE_ANALOGA | SUSEP 2025 (08/06/2025) | Cargo 4 · 065_SUSEP_004_01 | 82 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
-| 51 | 30 | BQ-0036 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 97 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; QA 09/10: cobra o Marco Civil (Lei 12.965/2014), não a LGPD; T-03 |
+| 51 | 30 | BQ-0036 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 97 | P2-4.1 | PARCIAL | não | C | PARCIAL: Marco Civil da Internet, Lei 12.965/2014, não LGPD; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-21 (qa-normativo) |
 | 52 | 30 | BQ-0037 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 98 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 53 | 31 | BQ-0045 | CEBRASPE_ANALOGA | ANTT 2023 (14/04/2024) | Cargo 1 · 951_ANTT_001_01 | 27 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 54 | 31 | BQ-0046 | CEBRASPE_ANALOGA | ANTT 2023 (14/04/2024) | Cargo 1 · 951_ANTT_001_01 | 28 | P2-4.1 | PARCIAL | não | C | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 55 | 32 | BQ-0056 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 55 | P2-4.1 | PARCIAL | não | E | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 56 | 32 | BQ-0057 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 56 | P2-4.1 | PARCIAL | não | E | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
-| 57 | 33 | BQ-0011 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 96 | P2-4.3 | PARCIAL | não | E | PARCIAL: princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição |
-| 58 | 33 | BQ-0012 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 98 | P2-4.3 | PARCIAL | não | C | PARCIAL: princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição |
-| 59 | 34 | BQ-0038 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 99 | P2-4.3 | PARCIAL | não | C | PARCIAL: princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição |
-| 60 | 34 | BQ-0039 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 100 | P2-4.3 | PARCIAL | não | E | PARCIAL: princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição |
+| 57 | 33 | BQ-0011 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 96 | P1-4 | DIRETA | não | E | D-BANCO-TI-1-4 (T-22): remapeado de P2-4.3; DIRETA ao caput 4 do edital TI (conceitos gerais de segurança e governança digital) |
+| 58 | 33 | BQ-0012 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 98 | P1-4 | DIRETA | não | C | D-BANCO-TI-1-4 (T-22): remapeado de P2-4.3; DIRETA ao caput 4 do edital TI (conceitos gerais de segurança e governança digital) |
+| 59 | 34 | BQ-0038 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 99 | P1-4 | DIRETA | não | C | D-BANCO-TI-1-4 (T-22): remapeado de P2-4.3; DIRETA ao caput 4 do edital TI (conceitos gerais de segurança e governança digital) |
+| 60 | 34 | BQ-0039 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 100 | P1-4 | DIRETA | não | E | D-BANCO-TI-1-4 (T-22): remapeado de P2-4.3; DIRETA ao caput 4 do edital TI (conceitos gerais de segurança e governança digital) |
 
 ## Cobertura dos subitens do edital
 
-### P1 — Tecnologia da Informação e Dados, itens 5 a 8 (14.2.3)
+### P1 — Tecnologia da Informação e Dados, itens 1 a 8 (14.2.3; ids de edital/TI_itens_1_4_P1.md e TI_itens_5_8_P1.md)
 
 | subitem | itens | C | E | DIRETOS | PARCIAIS | VOLÁTEIS | nº dos itens / situação |
 |---|---|---|---|---|---|---|---|
+| P1-1 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-2 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-2.1 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-3 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-4 | 4 | 2 | 2 | 4 | 0 | 0 | 57, 58, 59, 60 (com item DIRETO; D-BANCO-TI-1-4) |
+| P1-4.1 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-4.2 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-4.3 | 0 | — | — | — | — | — | **SEM ITEM** |
+| P1-5 | 1 | 1 | 0 | 1 | 0 | 0 | 15 (com item DIRETO; caput) |
 | P1-5.1 | 1 | 1 | 0 | 1 | 0 | 0 | 21 (com item DIRETO) |
 | P1-5.2 | 13 | 6 | 7 | 13 | 0 | 0 | 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14 (com item DIRETO) |
-| P1-5.3 | 11 | 7 | 4 | 11 | 0 | 2 | 7, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25 (com item DIRETO) |
-| P1-6 | 2 | 0 | 2 | 2 | 0 | 0 | 26, 27 (com item DIRETO) |
+| P1-5.3 | 10 | 6 | 4 | 9 | 1 | 2 | 7, 16, 17, 18, 19, 20, 22, 23, 24, 25 (com item DIRETO) |
+| P1-6 | 2 | 0 | 2 | 1 | 1 | 0 | 26, 27 (com item DIRETO) |
 | P1-7.1 | 3 | 2 | 1 | 2 | 1 | 0 | 28, 29, 30 (com item DIRETO) |
-| P1-8.1 | 3 | 2 | 1 | 3 | 0 | 0 | 31, 32, 33 (com item DIRETO) |
+| P1-8.1 | 3 | 2 | 1 | 2 | 1 | 0 | 31, 32, 33 (com item DIRETO) |
 | P1-8.2 | 3 | 1 | 2 | 3 | 0 | 0 | 34, 35, 36 (com item DIRETO) |
 | P1-8.3 | 3 | 2 | 1 | 1 | 2 | 2 | 37, 38, 39 (com item DIRETO) |
 | P1-8.4 | 0 | — | — | — | — | — | **SEM ITEM** |
 
-Caput sem subitem próprio: 5 (conceitos básicos de IA), 7 (Dados) e 8 (Visualização) são cobertos pelos subitens acima; o subitem 6 não tem desdobramento.
+Caput sem linha própria: 7 (Dados) e 8 (Visualização) são cobertos pelos subitens acima; os itens 1, 3 e 6 não têm desdobramento. O caput 5 (conceitos básicos de IA) tem linha própria (P1-5) desde a T-03/T-25, com o item 15.
 
 ### P2 — Reconhecimento de Fala, Transcrição e IA, itens 1.1 a 4.3 (14.2.4, Cargo 11)
 
@@ -155,11 +172,11 @@ Caput sem subitem próprio: 5 (conceitos básicos de IA), 7 (Dados) e 8 (Visuali
 | P2-3.4 | 0 | — | — | — | — | — | **SEM ITEM** |
 | P2-4.1 | 17 | 10 | 7 | 0 | 17 | 0 | 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56 (só PARCIAL) |
 | P2-4.2 | 0 | — | — | — | — | — | **SEM ITEM** |
-| P2-4.3 | 4 | 2 | 2 | 0 | 4 | 0 | 57, 58, 59, 60 (só PARCIAL) |
+| P2-4.3 | 0 | — | — | — | — | — | **SEM ITEM** |
 
-**Resumo da cobertura.** P1: 8 de 9 subitens com item (5.1, 5.2, 5.3, 6, 7.1, 8.1, 8.2, 8.3); sem item: 8.4. Todos os subitens P1 cobertos têm ao menos um item DIRETO. P2: 2 de 23 subitens com item (4.1, 4.3), os dois só com itens PARCIAIS; sem item: 21 subitens (1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.1, 3.2, 3.3, 3.4, 4.2).
+**Resumo da cobertura.** P1: 10 de 18 subitens com item (4, 5, 5.1, 5.2, 5.3, 6, 7.1, 8.1, 8.2, 8.3); sem item: 1, 2, 2.1, 3, 4.1, 4.2, 4.3 e 8.4. Todos os subitens P1 cobertos têm ao menos um item DIRETO. Em TI 1–4 só o P1-4 tem item (itens 57 a 60). P2: 1 de 23 subitens com item (4.1), só com itens PARCIAIS; sem item: 22 subitens (1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.1, 3.2, 3.3, 3.4, 4.2, 4.3).
 
-As lacunas de P2 (1.1 a 3.4 e 4.2) não têm análogo aprovado no banco; cabem a itens AUTORAL (D-LACUNAS), que ficam fora do Simulado 0 por determinação da R-04. Nenhum item AUTORAL foi usado.
+As lacunas de P2 (1.1 a 3.4, 4.2 e 4.3) não têm análogo aprovado no banco; cabem a itens AUTORAL (D-LACUNAS), que ficam fora do Simulado 0 por determinação da R-04. Nenhum item AUTORAL foi usado.
 
 ## Mudanças em relação à v0.1
 
@@ -237,3 +254,4 @@ Os 43 itens da v0.1 (BQ-0001 a BQ-0046, menos os anulados BQ-0029, 0030, 0031) p
 - Cada comando foi localizado no caderno oficial (pdftotext, modo bruto) e verificado: o número do item aparece imediatamente antes do texto do item no caderno, e nenhum outro comando ("julgue") fica entre o comando copiado e o item.
 - Regra da GBQ "L4-11 e TRF6 item 81 nunca no mesmo simulado": BQ-0010 (TRF6 it. 81) está aqui e L4-11 (AUTORAL) não está.
 - Itens com dependência de produto: BQ-0015 (objeto de API de assistentes), BQ-0017 (Grafana) e BQ-0035 (Kibana) foram marcados VOLÁTIL no banco e no simulado pela T-15 (D1 da R-04, decisão (ii)). Seguem não VOLÁTEIS por D1: BQ-0014 (parâmetro temperature, conceito genérico de amostragem; R-04) e BQ-0048 (Tableau, Power BI; R-03).
+- T-25 (2026-10-10): ajuste mecânico pós-T-03 e pós-T-22 aplicado numa só passagem (aderência dos itens 15, 17, 18, 26, 27, 31 e 57 a 60; motivo do item 51; contagens e cobertura). Item, ordem, numeração, comando, texto e gabarito não mudaram; ver `saida/simulados/T25_2026-10-10.md`.

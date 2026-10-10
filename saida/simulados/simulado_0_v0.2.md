@@ -1,16 +1,16 @@
-# simulado_0_v0.2.md — R-04, T-15 — 2026-10-10 — gerado por gbq-csc
+# simulado_0_v0.2.md — R-04, T-15, T-25 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 0 (misto, diagnóstico) — v0.2 — Câmara dos Deputados 2026, Cargo 11
 
-Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/1/2027). Montado só com itens de `banco/banco.csv` (rótulo CEBRASPE_ANALOGA), aprovados no QA, **agrupados pelo comando original do caderno**. A v0.2 substitui a v0.1 (43 itens, comando genérico). Total: **60 itens** (Parte P1: 39; Parte P2: 21) em **34 comandos**. Gabarito e mapa em `saida/simulados/simulado_0_v0.2_gabarito.md`.
+Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/1/2027). Montado só com itens de `banco/banco.csv` (rótulo CEBRASPE_ANALOGA), aprovados no QA, **agrupados pelo comando original do caderno**. A v0.2 substitui a v0.1 (43 itens, comando genérico). Total: **60 itens** (Parte P1: 39; Parte P2: 21) em **34 comandos**. Por módulo do edital (D-BANCO-TI-1-4), os itens 57 a 60 são de TI item 4 (P1-4): módulo P1 = 43 itens, módulo P2 = 17 itens. Gabarito e mapa em `saida/simulados/simulado_0_v0.2_gabarito.md`.
 
 ## Avisos de montagem
 
-1. **Simulado diagnóstico, não final.** Contém 24 itens de aderência PARCIAL (D-ADERENCIA: parcial só em diagnóstico) e 4 itens VOLÁTEIS (inaptos a simulado final até a reverificação de 4–8/1/2027). Não use esta montagem como simulado final.
-2. **Aderência PARCIAL (24 itens).** Cada um traz, logo abaixo do item, a marca `[ADERÊNCIA PARCIAL ...]` com o motivo; o mapa do gabarito repete a marca. Eles testam o tema vizinho, não o texto exato do subitem do edital da Câmara.
-   - Dos 24, 17 estão em P2-4.1 (LGPD geral), 4 em P2-4.3 (segurança da informação geral), 2 em P1-8.3 (Grafana/Kibana) e 1 em P1-7.1 (KPIs). **Toda a cobertura de P2 neste simulado é PARCIAL.**
-3. **Enquadramento em arbitragem (T-03), 6 itens.** BQ-0001, BQ-0009, BQ-0015, BQ-0016: o banco os trata como diretos, mas o QA de 09/10 os leu como INDIRETOS; marcados no corpo com `[ADERÊNCIA EM ARBITRAGEM — T-03]`. BQ-0014, BQ-0040: só o mapeamento do subitem está em discussão (o QA os leu como DIRETOS); sem marca no corpo, nota no mapa.
-4. **Desequilíbrio C/E (contagem real).** Total: **33 C e 27 E** (55,0% C / 45,0% E). P1: 21 C e 18 E (53,8% C). P2: 12 C e 9 E (57,1% C). O banco aprovado e utilizável é assim; nenhum item aprovado foi removido para equilibrar. Quem marcasse C em todos os itens acertaria 55,0%; **não calibre o desempenho por esta proporção**.
+1. **Simulado diagnóstico, não final.** Contém 37 itens de aderência DIRETA e 23 de aderência PARCIAL (D-ADERENCIA: parcial só em diagnóstico), nenhum em arbitragem, e 4 itens VOLÁTEIS (inaptos a simulado final até a reverificação de 4–8/1/2027). Não use esta montagem como simulado final.
+2. **Aderência PARCIAL (23 itens).** Cada um traz, logo abaixo do item, a marca `[ADERÊNCIA PARCIAL ...]` com o motivo; o mapa do gabarito repete a marca. Eles testam o tema vizinho, não o texto exato do subitem do edital da Câmara.
+   - Dos 23, 17 estão em P2-4.1 (LGPD geral; o item 51 cobra o Marco Civil da Internet, Lei 12.965/2014, não a LGPD), 2 em P1-8.3 (Grafana/Kibana), 1 em P1-5.3 (item 18), 1 em P1-6 (item 26), 1 em P1-7.1 (KPIs) e 1 em P1-8.1 (item 31). **Toda a cobertura do módulo P2 do edital neste simulado é PARCIAL** (só o 4.1 tem item).
+3. **Arbitragem de aderência (T-03) resolvida; nenhum item em arbitragem.** Pela D1 da GBQ (`saida/banco/T03_arbitragem_2026-10-09.md`), os itens 15 (BQ-0009; subitem P1-5, caput), 17 (BQ-0014) e 27 (BQ-0040) são DIRETOS; os itens 18 (BQ-0015), 26 (BQ-0016) e 31 (BQ-0001) são PARCIAIS e trazem a marca `[ADERÊNCIA PARCIAL ...]` com o motivo. Os itens 57 a 60 (BQ-0011, 0012, 0038, 0039) são TI item 4 (P1-4, Conhecimentos Básicos), DIRETOS por D-BANCO-TI-1-4, e permanecem na posição para preservar a numeração.
+4. **Desequilíbrio C/E (contagem real).** Total: **33 C e 27 E** (55,0% C / 45,0% E). P1: 21 C e 18 E (53,8% C). P2: 12 C e 9 E (57,1% C). Por módulo do edital: P1 (43 itens) 23 C e 20 E (53,5% C); P2 (17 itens) 10 C e 7 E (58,8% C). O banco aprovado e utilizável é assim; nenhum item aprovado foi removido para equilibrar. Quem marcasse C em todos os itens acertaria 55,0%; **não calibre o desempenho por esta proporção**.
 5. **VOLÁTEIS (4 itens):** BQ-0064 (item 23; ChatGPT/DeepSeek, arquitetura transformer), BQ-0015 (item 18; objeto "thread" de API de assistentes de fornecedor), BQ-0017 (item 37; Grafana) e BQ-0035 (item 38; Kibana). Entram por ser diagnóstico; reverificação em 4–8/1/2027 (T-14 para BQ-0064; T-16 para BQ-0015, BQ-0017 e BQ-0035).
 6. **LGPD e Lei 15.352/2026.** Os itens de LGPD reproduzem a prova original (anterior à Lei 15.352/2026, que alterou a LGPD; ANPD = Agência Nacional de Proteção de Dados). 16 desses itens aguardam a conferência do qa-normativo (T-13); o gabarito segue o definitivo do certame de origem.
 7. **Fora desta montagem:** itens AUTORAL (o Simulado 0 é só banco) e os 6 itens anulados do banco (BQ-0029, 0030, 0031, 0060, 0062, 0063; D1 da GBQ: anulados não entram em nenhum simulado).
@@ -21,7 +21,7 @@ Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/
 - Cada item está vinculado ao comando que imediatamente o antecede (instrução dos cadernos Cebraspe). De acordo com o comando a que cada item esteja vinculado, julgue-o CERTO (C) ou ERRADO (E) (edital nº 1/2026, subitem 8.2: itens agrupados por comandos, que devem ser respeitados).
 - Para obter pontuação no item, marque um, e somente um, dos dois campos: `C` ou `E` (subitem 8.3). Marque no espaço `Resposta: [   ]` ao lado de cada item.
 - Pontuação (subitem 8.11.2 do edital): **+1,00 ponto** se a marcação concordar com o gabarito; **−1,00 ponto** se discordar; **0,00 ponto** se não houver marcação ou houver marcação dupla (C e E). A nota da parte é a soma das notas dos itens (8.11.3).
-- Total de itens: 60 (Parte P1: 39, itens 1 a 39; Parte P2: 21, itens 40 a 60). A numeração é contínua.
+- Total de itens: 60 (Parte P1: 39, itens 1 a 39; Parte P2: 21, itens 40 a 60). A numeração é contínua. Os itens 57 a 60 são de TI item 4 (P1-4) por D-BANCO-TI-1-4: por módulo do edital, P1 tem 43 itens e P2 tem 17.
 - As marcas entre colchetes abaixo de alguns itens são avisos de montagem do diagnóstico; não fazem parte do texto do item.
 
 ## Parte P1 — Conhecimentos Básicos (Tecnologia da Informação e Dados, itens 5 a 8 do edital)
@@ -124,8 +124,6 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA EM ARBITRAGEM — T-03: banco: 5.3 (alt. 5.2); QA 09/10: INDIRETA em 5.3]  
-
 **16.** A IA generativa consiste em técnicas de IA baseadas prioritariamente na utilização de aprendizado supervisionado para a criação de novas amostras de dados que se assemelham aos dados de treinamento.
 
 Resposta: [   ]
@@ -142,7 +140,7 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA EM ARBITRAGEM — T-03: QA 09/10: INDIRETA (conceito de API de fornecedor, não nomeado no edital)]  
+[ADERÊNCIA PARCIAL — objeto de API de assistentes de fornecedor, não nomeado no edital (5.3)]  
 [VOLÁTIL — dependência de produto; reverificação 4–8/1/2027 (T-16); inapto a simulado final]  
 
 ### Comando 11
@@ -195,7 +193,7 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA EM ARBITRAGEM — T-03: QA 09/10: INDIRETA em P1-6 (ética de IA em geral, não de serviço público); alt. P2-4.2]  
+[ADERÊNCIA PARCIAL — ética de IA em geral, sem o recorte do serviço público do 6]  
 
 ### Comando 15
 
@@ -235,7 +233,7 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA EM ARBITRAGEM — T-03: banco: 8.1 (alt. 8.2); QA 09/10: INDIRETA nos dois]  
+[ADERÊNCIA PARCIAL — item genérico de visualização; não nomeia princípio (8.1) nem tipo (8.2)]  
 
 ### Comando 19
 
@@ -397,7 +395,7 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA PARCIAL — LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA]  
+[ADERÊNCIA PARCIAL — Marco Civil da Internet, Lei 12.965/2014, não LGPD; o 4.1 trata de LGPD em sistemas de transcrição e IA]  
 
 **52.** Conforme a LGPD, no âmbito do tratamento de dados pessoais pelo poder público, consideradas a execução de políticas públicas e a prestação de serviços públicos, os dados deverão ser mantidos em formato interoperável e estruturado para uso compartilhado.
 
@@ -437,6 +435,8 @@ Resposta: [   ]
 
 [ADERÊNCIA PARCIAL — LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA]  
 
+[NOTA DE MONTAGEM — Itens 57 a 60 são TI item 4 (P1-4, Conhecimentos Básicos) por D-BANCO-TI-1-4 (T-22); mantidos nesta posição, sob a Parte P2, para preservar a numeração.]
+
 ### Comando 33
 
 > Julgue os itens a seguir, a respeito da segurança da informação e dos vários tipos de ataques e suas características.
@@ -445,13 +445,9 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA PARCIAL — princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição]  
-
 **58.** Em segurança da informação, a disponibilidade é um princípio que garante, aos usuários, a capacidade de acessar sistemas e(ou) informações quando necessário, mesmo que o sistema ou a infraestrutura esteja sob pressão.
 
 Resposta: [   ]
-
-[ADERÊNCIA PARCIAL — princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição]  
 
 ### Comando 34
 
@@ -461,10 +457,6 @@ Resposta: [   ]
 
 Resposta: [   ]
 
-[ADERÊNCIA PARCIAL — princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição]  
-
 **60.** Autenticidade é um princípio que visa garantir que o autor não negue ter criado e assinado determinada informação, a qual pode estar materializada em uma mensagem ou em um documento.
 
 Resposta: [   ]
-
-[ADERÊNCIA PARCIAL — princípio geral de segurança da informação; o 4.3 trata de pipelines de áudio e transcrição]

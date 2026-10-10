@@ -1,8 +1,10 @@
-# simulado_1.md — T-06 — 2026-10-10 — gerado por gbq-csc
+# simulado_1.md — T-06; T-31 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 1 (P1 — final) — Câmara dos Deputados 2026, Cargo 11
 
-Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/1/2027). Parte P1 — Conhecimentos Básicos — Tecnologia da Informação e Dados, itens 5 a 8 do edital (item 14.2.3). Montado só com itens AUTORAL canônicos dos Lotes 4, 4-C, 5 e 5-C (saida/gcb/), sem nenhum item VOLÁTIL, sem item pendente de QA e sem item reprovado. Total: **40 itens**, numeração contínua.
+Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/1/2027). Parte P1 — Conhecimentos Básicos — Tecnologia da Informação e Dados, itens 5 a 8 do edital (item 14.2.3). Total: **40 itens**, numeração contínua.
+
+Este simulado não traz itens do subitem 8.3 (Ferramentas de visualização de dados: Power BI, Tableau e Data Studio).
 
 ## Instruções
 
@@ -204,24 +206,3 @@ Resposta: [   ]
 **40.** O dashboard distingue-se do storytelling com dados por organizar-se em torno de uma mensagem central, ao passo que o storytelling se caracteriza pela exploração aberta de muitos indicadores.
 
 Resposta: [   ]
-
-## Verificação (montagem)
-
-- Total de itens: 40 (numeração contínua 1 a 40), todos AUTORAL, todos de P1 (TI e Dados, itens 5 a 8 do edital).
-- Gabarito: 20 C e 20 E (50.0% C / 50.0% E). Itens com troca sutil [TS]: 19 de 40.
-- Por lote: Lote 4 = 16; Lote 4-C = 4; Lote 5 = 14; Lote 5-C = 6.
-- Por subitem do edital (itens, dos quais C):
-  - 5.1 Engenharia de prompts: 8 itens (4 C, 4 E)
-  - 5.2 Aprendizado supervisionado, não supervisionado e por reforço: 4 itens (2 C, 2 E)
-  - 5.3 IA generativa: conceitos, exemplos e casos de uso: 4 itens (2 C, 2 E)
-  - 6 Ética e responsabilidade digital no serviço público: 4 itens (2 C, 2 E)
-  - 7.1 Conceitos, atributos, métricas, transformação de dados: 4 itens (2 C, 2 E)
-  - 8.1 Princípios de visualização de dados: 3 itens (1 C, 2 E)
-  - 8.2 Tipos de gráficos (histograma, linha, barra, dispersão, box plot): 7 itens (4 C, 3 E)
-  - 8.4 Storytelling para visualização de dados: 6 itens (3 C, 3 E)
-  - 8.3 Ferramentas de visualização de dados: 0 itens (os 4 itens do lote, A5-14 a A5-17, são VOLÁTIL; nenhum item apto a simulado final até a reverificação de janeiro/2027).
-- Cobertura: 8 dos 9 subitens de P1 5–8 (5.1, 5.2, 5.3, 6, 7.1, 8.1, 8.2, 8.4). Não coberto: 8.3 (ver acima). Em 8.2 estão presentes os cinco gráficos do edital (histograma A5-09; linha A5-10; barra 5C-03 e 5C-04; dispersão A5-11 e 5C-05; box plot A5-12).
-- Distribuição (lote × subitem): Lote 4 5.1 = 4; Lote 4 5.2 = 4; Lote 4 5.3 = 4; Lote 4 6 = 4; Lote 4-C 5.1 = 4; Lote 5 7.1 = 4; Lote 5 8.1 = 3; Lote 5 8.2 = 4; Lote 5 8.4 = 3; Lote 5-C 8.2 = 3; Lote 5-C 8.4 = 3.
-- Regras: L4-11 não está neste simulado (e não há item do banco, logo TRF6 2024 item 81 também não está; a regra L4-11 × TRF6 item 81 é cumprida); nenhum item VOLÁTIL ou REVERIFICAR; nenhum item de Simulado 0 / 0 v0.2 (banco; sem AUTORAL) repetido.
-- Textos de enunciado copiados literalmente dos arquivos canônicos (versões finais: Lote 4 v3.3, Lote 4-C v1.1 com 6-A, Lote 5 v3.1, Lote 5-C v1.1); apenas a numeração foi substituída pela do simulado. Conferência literal por script (ver `simulado_1_gabarito.md`).
-- Exclusões: 5 inelegíveis (L4-15, A5-14, A5-15, A5-16, A5-17, todos VOLÁTIL); 15 itens elegíveis não selecionados, com motivo no `simulado_1_gabarito.md`.

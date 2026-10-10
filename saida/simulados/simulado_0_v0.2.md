@@ -1,4 +1,4 @@
-# simulado_0_v0.2.md — R-04 — 2026-10-09 — gerado por gbq-csc
+# simulado_0_v0.2.md — R-04, T-15 — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 0 (misto, diagnóstico) — v0.2 — Câmara dos Deputados 2026, Cargo 11
 
@@ -6,12 +6,12 @@ Analista Legislativo, Especialidade Registro e Redação (Cebraspe, prova em 17/
 
 ## Avisos de montagem
 
-1. **Simulado diagnóstico, não final.** Contém 24 itens de aderência PARCIAL (D-ADERENCIA: parcial só em diagnóstico) e 1 item VOLÁTIL (inapto a simulado final até a reverificação de 4–8/1/2027). Não use esta montagem como simulado final.
+1. **Simulado diagnóstico, não final.** Contém 24 itens de aderência PARCIAL (D-ADERENCIA: parcial só em diagnóstico) e 4 itens VOLÁTEIS (inaptos a simulado final até a reverificação de 4–8/1/2027). Não use esta montagem como simulado final.
 2. **Aderência PARCIAL (24 itens).** Cada um traz, logo abaixo do item, a marca `[ADERÊNCIA PARCIAL ...]` com o motivo; o mapa do gabarito repete a marca. Eles testam o tema vizinho, não o texto exato do subitem do edital da Câmara.
    - Dos 24, 17 estão em P2-4.1 (LGPD geral), 4 em P2-4.3 (segurança da informação geral), 2 em P1-8.3 (Grafana/Kibana) e 1 em P1-7.1 (KPIs). **Toda a cobertura de P2 neste simulado é PARCIAL.**
 3. **Enquadramento em arbitragem (T-03), 6 itens.** BQ-0001, BQ-0009, BQ-0015, BQ-0016: o banco os trata como diretos, mas o QA de 09/10 os leu como INDIRETOS; marcados no corpo com `[ADERÊNCIA EM ARBITRAGEM — T-03]`. BQ-0014, BQ-0040: só o mapeamento do subitem está em discussão (o QA os leu como DIRETOS); sem marca no corpo, nota no mapa.
 4. **Desequilíbrio C/E (contagem real).** Total: **33 C e 27 E** (55,0% C / 45,0% E). P1: 21 C e 18 E (53,8% C). P2: 12 C e 9 E (57,1% C). O banco aprovado e utilizável é assim; nenhum item aprovado foi removido para equilibrar. Quem marcasse C em todos os itens acertaria 55,0%; **não calibre o desempenho por esta proporção**.
-5. **VOLÁTIL (1 item):** BQ-0064 (ChatGPT/DeepSeek, arquitetura transformer). Entra por ser diagnóstico; reverificação em 4–8/1/2027 (T-14).
+5. **VOLÁTEIS (4 itens):** BQ-0064 (item 23; ChatGPT/DeepSeek, arquitetura transformer), BQ-0015 (item 18; objeto "thread" de API de assistentes de fornecedor), BQ-0017 (item 37; Grafana) e BQ-0035 (item 38; Kibana). Entram por ser diagnóstico; reverificação em 4–8/1/2027 (T-14 para BQ-0064; T-16 para BQ-0015, BQ-0017 e BQ-0035).
 6. **LGPD e Lei 15.352/2026.** Os itens de LGPD reproduzem a prova original (anterior à Lei 15.352/2026, que alterou a LGPD; ANPD = Agência Nacional de Proteção de Dados). 16 desses itens aguardam a conferência do qa-normativo (T-13); o gabarito segue o definitivo do certame de origem.
 7. **Fora desta montagem:** itens AUTORAL (o Simulado 0 é só banco) e os 6 itens anulados do banco (BQ-0029, 0030, 0031, 0060, 0062, 0063; D1 da GBQ: anulados não entram em nenhum simulado).
 8. Textos e comandos copiados literalmente do banco e dos cadernos oficiais (cdn.cebraspe.org.br). Mantêm-se as grafias do original (por exemplo, "dashborad" e "ideal atender"). Itens do mesmo comando original que não foram aproveitados foram omitidos; a numeração é a deste simulado.
@@ -143,6 +143,7 @@ Resposta: [   ]
 Resposta: [   ]
 
 [ADERÊNCIA EM ARBITRAGEM — T-03: QA 09/10: INDIRETA (conceito de API de fornecedor, não nomeado no edital)]  
+[VOLÁTIL — dependência de produto; reverificação 4–8/1/2027 (T-16); inapto a simulado final]  
 
 ### Comando 11
 
@@ -277,6 +278,7 @@ Resposta: [   ]
 Resposta: [   ]
 
 [ADERÊNCIA PARCIAL — ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio)]  
+[VOLÁTIL — dependência de produto; reverificação 4–8/1/2027 (T-16); inapto a simulado final]  
 
 ### Comando 23
 
@@ -287,6 +289,7 @@ Resposta: [   ]
 Resposta: [   ]
 
 [ADERÊNCIA PARCIAL — ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio)]  
+[VOLÁTIL — dependência de produto; reverificação 4–8/1/2027 (T-16); inapto a simulado final]  
 
 ### Comando 24
 

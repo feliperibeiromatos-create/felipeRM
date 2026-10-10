@@ -1,4 +1,4 @@
-# simulado_0_v0.2_gabarito.md — R-04 — 2026-10-09 — gerado por gbq-csc
+# simulado_0_v0.2_gabarito.md — R-04, T-15 (gabarito regerado, D-SIM0-V02) — 2026-10-10 — gerado por gbq-csc
 
 # Simulado 0 v0.2 — Gabarito, mapa, cobertura e mudanças
 
@@ -38,7 +38,7 @@ Folha separada do `saida/simulados/simulado_0_v0.2.md`. Nada deste arquivo vai �
 | Total | 60 | 33 | 27 | 55,0% |
 
 **Aviso de desequilíbrio C/E:** a montagem tem 33 C e 27 E. Não foi forçado equilíbrio: nenhum item aprovado foi retirado por causa disso. O banco inteiro tem a mesma inclinação (60 itens com gabarito válido: 33 C e 27 E, segundo a R-03).
-Marcas de montagem: 24 itens de aderência PARCIAL; 4 em arbitragem de aderência (T-03); 2 com mapeamento em arbitragem (T-03); 1 VOLÁTIL (BQ-0064).
+Marcas de montagem: 24 itens de aderência PARCIAL; 4 em arbitragem de aderência (T-03); 2 com mapeamento em arbitragem (T-03); 4 VOLÁTEIS (BQ-0064, BQ-0015, BQ-0017, BQ-0035; reverificação 4–8/1/2027, T-14 e T-16).
 
 ## Pontuação
 
@@ -67,7 +67,7 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 | 15 | 9 | BQ-0009 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 80 | P1-5.3 | DIRETA* | não | C | T-03: banco: 5.3 (alt. 5.2); QA 09/10: INDIRETA em 5.3 |
 | 16 | 9 | BQ-0010 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 81 | P1-5.3 | DIRETA | não | E | regra GBQ: TRF6 it.81 não coexiste com L4-11 (AUTORAL); não há AUTORAL neste simulado |
 | 17 | 10 | BQ-0014 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 59 | P1-5.3 | DIRETA† | não | C | T-03: QA 09/10: DIRETA em 5.3; leitura alternativa 5.1 |
-| 18 | 10 | BQ-0015 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 60 | P1-5.3 | DIRETA* | não | E | T-03: QA 09/10: INDIRETA (conceito de API de fornecedor, não nomeado no edital) |
+| 18 | 10 | BQ-0015 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 60 | P1-5.3 | DIRETA* | sim | E | T-03: QA 09/10: INDIRETA (conceito de API de fornecedor, não nomeado no edital); T-15: VOLÁTIL (dependência de produto: API de assistentes de fornecedor); reverificação 4–8/1/2027 (T-16) |
 | 19 | 11 | BQ-0028 | CEBRASPE_ANALOGA | SUSEP 2025 (08/06/2025) | Cargo 4 · 065_SUSEP_004_01 | 60 | P1-5.3 | DIRETA | não | E |  |
 | 20 | 12 | BQ-0058 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 90 | P1-5.3 | DIRETA | não | E |  |
 | 21 | 12 | BQ-0059 | CEBRASPE_ANALOGA | ANM 2024 (16/02/2025) | Cargo 24 · 038_ANM_024_01 | 91 | P1-5.1 | DIRETA | não | C | D1 R-03: DIRETA; único item do banco em 5.1 |
@@ -86,8 +86,8 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 | 34 | 20 | BQ-0047 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002198 · 042_EMBRAPA_ANALISTA_026_01 | 72 | P1-8.2 | DIRETA | não | C |  |
 | 35 | 21 | BQ-0052 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40001648 · 042_EMBRAPA_ANALISTA_071_01 | 74 | P1-8.2 | DIRETA | não | E | D1 R-03: DIRETA em 8.2 (alt. 8.1); grafia "dashborad" do original |
 | 36 | 21 | BQ-0053 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40001648 · 042_EMBRAPA_ANALISTA_071_01 | 75 | P1-8.2 | DIRETA | não | E | D1 R-03: DIRETA em 8.2 (alt. 7.1) |
-| 37 | 22 | BQ-0017 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 100 | P1-8.3 | PARCIAL | não | C | PARCIAL: ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio) |
-| 38 | 23 | BQ-0035 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 76 | P1-8.3 | PARCIAL | não | C | PARCIAL: ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio) |
+| 37 | 22 | BQ-0017 | CEBRASPE_ANALOGA | BCB 2024 (04/08/2024) | Cargo 2 · 959_BCB_002_01 | 100 | P1-8.3 | PARCIAL | sim | C | PARCIAL: ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio); T-15: VOLÁTIL (dependência de produto: Grafana); reverificação 4–8/1/2027 (T-16) |
+| 38 | 23 | BQ-0035 | CEBRASPE_ANALOGA | CNJ 2024 (30/06/2024) | Cargo 2 · 979_CNJ_002_01 | 76 | P1-8.3 | PARCIAL | sim | C | PARCIAL: ferramenta fora da lista do 8.3 (Power BI, Tableau, Data Studio); T-15: VOLÁTIL (dependência de produto: Kibana); reverificação 4–8/1/2027 (T-16) |
 | 39 | 24 | BQ-0048 | CEBRASPE_ANALOGA | Embrapa 2024 (23/03/2025) | Opção 40002198 · 042_EMBRAPA_ANALISTA_026_01 | 93 | P1-8.3 | DIRETA | não | E | D1 R-03: não VOLÁTIL (negativa absoluta falsa por definição da categoria BI) |
 | 40 | 25 | BQ-0002 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 70 | P2-4.1 | PARCIAL | não | E | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
 | 41 | 25 | BQ-0003 | CEBRASPE_ANALOGA | TRF6 2024 (19/01/2025) | Cargo 2 · 034_TRF6_002_01 | 71 | P2-4.1 | PARCIAL | não | E | PARCIAL: LGPD/privacidade geral; o 4.1 trata de LGPD em sistemas de transcrição e IA; T-13 (qa-normativo, LGPD × Lei 15.352/2026) |
@@ -119,12 +119,12 @@ Legenda: `ano` = ano do edital do certame (D-ANO); aplicação em dd/mm/aaaa. To
 |---|---|---|---|---|---|---|---|
 | P1-5.1 | 1 | 1 | 0 | 1 | 0 | 0 | 21 (com item DIRETO) |
 | P1-5.2 | 13 | 6 | 7 | 13 | 0 | 0 | 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14 (com item DIRETO) |
-| P1-5.3 | 11 | 7 | 4 | 11 | 0 | 1 | 7, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25 (com item DIRETO) |
+| P1-5.3 | 11 | 7 | 4 | 11 | 0 | 2 | 7, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25 (com item DIRETO) |
 | P1-6 | 2 | 0 | 2 | 2 | 0 | 0 | 26, 27 (com item DIRETO) |
 | P1-7.1 | 3 | 2 | 1 | 2 | 1 | 0 | 28, 29, 30 (com item DIRETO) |
 | P1-8.1 | 3 | 2 | 1 | 3 | 0 | 0 | 31, 32, 33 (com item DIRETO) |
 | P1-8.2 | 3 | 1 | 2 | 3 | 0 | 0 | 34, 35, 36 (com item DIRETO) |
-| P1-8.3 | 3 | 2 | 1 | 1 | 2 | 0 | 37, 38, 39 (com item DIRETO) |
+| P1-8.3 | 3 | 2 | 1 | 1 | 2 | 2 | 37, 38, 39 (com item DIRETO) |
 | P1-8.4 | 0 | — | — | — | — | — | **SEM ITEM** |
 
 Caput sem subitem próprio: 5 (conceitos básicos de IA), 7 (Dados) e 8 (Visualização) são cobertos pelos subitens acima; o subitem 6 não tem desdobramento.
@@ -213,7 +213,7 @@ Nenhum item aprovado foi excluído por outro motivo, e nenhum foi retirado para 
 
 ### Item mantido sob condição: BQ-0025
 
-BQ-0025 (ANATEL 2024, it. 84, P2-4.1, gabarito E) esteve em CORRIGIR no QA de 09/10 (`saida/banco/qualidade_2026-10-09.md`) **somente** no campo `observacoes`, por não registrar a alteração do gabarito preliminar C para E no definitivo. O QA conferiu texto literal e gabarito E contra o definitivo (correto). A correção foi registrada no banco por D-RECUPERACAO (c): `observacoes` traz "gabarito preliminar C alterado para E no definitivo". Como o único defeito era a observação e ela está corrigida, o item foi mantido (já estava na v0.1). Não houve nova passagem formal do gbq-cqe; se a GBQ exigir reaprovação expressa, basta retirar o item 56 (BQ-0025) e renumerar, o que não altera nenhuma outra marca. Pendente de T-13 como os demais itens LGPD.
+BQ-0025 (ANATEL 2024, it. 84, P2-4.1, gabarito E) esteve em CORRIGIR no QA de 09/10 (`saida/banco/qualidade_2026-10-09.md`) **somente** no campo `observacoes`, por não registrar a alteração do gabarito preliminar C para E no definitivo. O QA conferiu texto literal e gabarito E contra o definitivo (correto). A correção foi registrada no banco por D-RECUPERACAO (c): `observacoes` traz "gabarito preliminar C alterado para E no definitivo". Como o único defeito era a observação e ela está corrigida, o item foi mantido (já estava na v0.1). Não houve nova passagem formal do gbq-cqe; se a GBQ exigir reaprovação expressa, basta retirar o item 49 (BQ-0025) e renumerar, o que não altera nenhuma outra marca. Pendente de T-13 como os demais itens LGPD.
 
 ### Itens mantidos da v0.1: 43
 
@@ -236,4 +236,4 @@ Os 43 itens da v0.1 (BQ-0001 a BQ-0046, menos os anulados BQ-0029, 0030, 0031) p
 - `texto_integral` copiado do banco, sem alteração; leitura do CSV com aspas (RFC 4180, separador ";"), conforme a observação do QA de 09/10.
 - Cada comando foi localizado no caderno oficial (pdftotext, modo bruto) e verificado: o número do item aparece imediatamente antes do texto do item no caderno, e nenhum outro comando ("julgue") fica entre o comando copiado e o item.
 - Regra da GBQ "L4-11 e TRF6 item 81 nunca no mesmo simulado": BQ-0010 (TRF6 it. 81) está aqui e L4-11 (AUTORAL) não está.
-- Itens com dependência de produto não marcados VOLÁTIL no banco (informativo, sem alterar o banco): BQ-0014 e BQ-0015 (parâmetro/objeto de API de LLM), BQ-0017 e BQ-0035 (Grafana, Kibana), BQ-0048 (Tableau, Power BI; D1 R-03 decidiu não marcar). Cabe à GBQ decidir se a reverificação de janeiro os inclui.
+- Itens com dependência de produto: BQ-0015 (objeto de API de assistentes), BQ-0017 (Grafana) e BQ-0035 (Kibana) foram marcados VOLÁTIL no banco e no simulado pela T-15 (D1 da R-04, decisão (ii)). Seguem não VOLÁTEIS por D1: BQ-0014 (parâmetro temperature, conceito genérico de amostragem; R-04) e BQ-0048 (Tableau, Power BI; R-03).

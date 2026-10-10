@@ -1,0 +1,4 @@
+# TI_itens_1_4_P1.md — D-BANCO-TI-1-4 — 2026-10-10 — gerado por orquestrador (texto literal fixado pela decisão)
+Fonte: Edital nº 1 – Câmara dos Deputados – Analista Legislativo, extraído pela Presidência em 9/10/2026 (D-BANCO-TI-1-4). Escopo do banco estendido aos itens 1–4 de TI (D-ESCOPO-2). Ids: P1-1, P1-2, P1-2.1, P1-3, P1-4, P1-4.1, P1-4.2, P1-4.3.
+
+1 MSOffice 365 (Word, Excel, PowerPoint e OneDrive). 2 Redes de computadores. 2.1 Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet. 3 Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet). 4 Conceitos gerais de segurança e governança digital. 4.1 Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais. 4.2 Programas de proteção (antivírus, firewall, antispyware). 4.3 Ameaças digitais (phishing, pharming).

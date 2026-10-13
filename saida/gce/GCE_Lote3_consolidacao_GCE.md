@@ -93,3 +93,49 @@ Item | GAB | ponto de julgamento | base (LGPD)
      RESSALVA: mesma do item 75. A definição vem do guia da ANPD, não do
      texto da lei.
 Lote 3 com itens reais: 30 AUTORAL + 7 CEBRASPE_ANALOGA (4.1).
+
+ADENDO 2 GCE — 09/10/2026 — ATO DA MESA Nº 225/2025 (contexto, sem item)
+Base: decisão da Presidência de 9/10 (repasse como contexto, por
+errata).
+Fonte da síntese: GCB_Conferencia_ACONFIRMAR_Lote4_CQFP.md, Adendo 1,
+item 1g. Conferência da GCB-CQFP contra o texto colado pelo Fundador em
+08/10/2026, com URL do Legin e data.
+Onde inserir: no curso do Lote 3, ao final dos itens 3.1 e 4.1, como
+"Contexto institucional".
+Texto (síntese, não literal; a redação literal dos incisos não foi
+conferida item a item):
+"Contexto institucional — Ato da Mesa nº 225, de 15/12/2025 (DCD, Ed.
+Extra A, 18/12/2025): estabelece diretrizes gerais para a política de
+governança de inteligência artificial no âmbito da Câmara dos Deputados
+e determina sua implementação pela Diretoria-Geral. Em síntese, o art.
+3º orienta a política para: princípios éticos, entre eles transparência,
+proteção de dados, não discriminação e supervisão humana (I);
+conformidade com a LGPD (III); disciplina do uso de IA generativa, com
+requisitos para prompts, para agentes autônomos ou semiautônomos e para
+revisão humana (V); informação ao usuário quando interage com agentes de
+IA (VIII); supervisão que inclui o monitoramento de vieses e alucinações
+(IX). O art. 4º, IV, prevê comitê de ética de uso da IA. Norma interna;
+referência de contexto; sem item."
+Efeitos: nenhum item criado ou alterado; nenhum gabarito muda; os
+padrões não exigem o Ato. A menção correta é aceita como elaboração,
+sem acréscimo de conceito.
+FIM DO ADENDO 2
+
+ADENDO 3 GCE — 12/10/2026 — questões de mérito do pacote v1 (D1 da GCE;
+nenhum gabarito alterado)
+E4 Pares confundíveis (c), par 20: onde se lê "(redação original,
+   suprimida pela Lei 13.853/2019)", leia-se "(redação original,
+   suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019)".
+   Motivo: alinhar o par 20 à E3, que já trata assim o curso 4.1 e o
+   Q20 com conferência da CQFP. O gabarito E do Q20 não muda.
+ITENS DO EDITAL DAS DISCURSIVAS:
+   DISC-L3-Q: CONFIRMADO P2-3.2, P2-3.3, P2-4.1 e P2-4.2.
+     Alínea a = 3.2 (busca semântica) e 3.3 (resumos); alínea b = 4.1;
+     alínea c = 4.2.
+   DISC-L3-P: CONFIRMADO P2-4.1 e P2-4.3.
+     Tópicos 2, 3 e 4 = 4.1; medidas de segurança, incidentes e
+     transferência = 4.3.
+     O cenário (transcrição e sumarização em nuvem) toca o 3.1 e o 3.3
+     só como contexto. Esses itens não são avaliados nos tópicos e não
+     entram em itensEdital.
+FIM DO ADENDO 3

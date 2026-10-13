@@ -171,3 +171,19 @@ E10 Curso do LOTE 1 v2, item 1.8, "EXEMPLO PARLAMENTAR": onde se lê
     "Escolha de ferramenta para o departamento de registro da Câmara
     (Derep, antigo DETAQ; Ato da Mesa nº 251/2026)".
 FIM DO ADENDO 3
+
+ADENDO 4 GCE — 12/10/2026 — questões de mérito do pacote v1 (D1 da GCE;
+nenhum gabarito alterado)
+E11 Motivo do ADENDO (E7/E8), que corrige valores: onde se lê "Os
+    tópicos de conteúdo somam 14,30 (6,00 + 7,00 + 1,30).", leia-se "Na
+    Questão 1 do caderno oficial, os tópicos de conteúdo somam 14,30
+    (6,00 + 7,00 + 1,30). Nesta hipótese, os valores aplicados são
+    5,00 + 4,00 + 5,30 = 14,30, mais 0,70 de apresentação."
+    A soma e os valores das alíneas não mudam.
+    Conferência da GCE no caderno 4536C347…pdf: Questão 1 com [6,00],
+    [7,00] e [1,30]; instrução de até 15,00 por questão, dos quais até
+    0,70 de apresentação.
+ITENS DO EDITAL DA DISCURSIVA (DISC-L1-Q): CONFIRMADO o que a EXEC
+    inferiu, P2-1.4, P2-1.6 e P2-1.7.
+    Correspondência: alínea a = 1.7; alínea b = 1.4; alínea c = 1.6.
+FIM DO ADENDO 4

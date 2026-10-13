@@ -81,3 +81,23 @@ PARTE B (pendências): a P1 está CONCLUÍDA. O Lote 2 não tem mais
 pendência aberta, exceto a reverificação geral de janeiro, na qual não
 há item do Lote 2.
 FIM DO ADENDO 1
+
+ADENDO 2 GCE — 12/10/2026 — questões de mérito do pacote v1 (D1 da GCE;
+nenhum gabarito alterado)
+E7 Resumo (b), linha "2.4 FORMATAÇÃO": onde se lê "Convenção exata da
+   Câmara: NÃO VERIFICADA.", leia-se "Forma de identificar o orador:
+   observada nas notas oficiais de 2026 (N1; E3). Convenção da Câmara
+   para marcação de pausas e eventos não falados e para grafia: NÃO
+   VERIFICADA (N2)."
+   Motivo: a E3 atualizou só a identificação do orador (N1). A
+   convenção de marcação e grafia (N2) continua não verificada. A
+   contradição apontada era parcial e fica resolvida assim.
+   O Q15 ("a convenção varia entre instituições, mas deve ser uma só")
+   não muda.
+ITENS DO EDITAL DAS DISCURSIVAS:
+   DISC-L2-Q: CONFIRMADO P2-2.1, P2-2.2, P2-2.3 e P2-2.7.
+     Alínea a = 2.1 e 2.2; alínea b = 2.3; alínea c = 2.7.
+   DISC-L2-P: CONFIRMADO P2-2.4, P2-2.5, P2-2.7 e P2-2.8.
+     Tópico 2 = 2.4; tópico 3 = 2.5; tópico 4 = 2.8; tópico 5 = 2.7.
+     O tópico 1, objeto da consulta, não corresponde a item do edital.
+FIM DO ADENDO 2

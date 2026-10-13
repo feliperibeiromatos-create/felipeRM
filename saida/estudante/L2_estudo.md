@@ -33,7 +33,7 @@ intervenção (aparte, fala do Presidente, pela ordem, questão de ordem…
 na lista do Banco de Discursos); pausa só se relevante;
 eventos não falados em convenção ÚNICA e distinguível; sobreposição
 registrada. Rótulo de diarização ≠ identificação. O aparteante tem
-rótulo próprio. Forma de identificar o orador: observada nas notas oficiais de 2026 (N1). Convenção da Câmara para marcação de pausas e eventos não falados e para grafia: NÃO VERIFICADA (N2).
+rótulo próprio. Forma de identificar o orador: observada nas notas oficiais de 2026. Convenção da Câmara para marcação de pausas e eventos não falados e para grafia: NÃO VERIFICADA.
 2.5 NORMALIZAÇÃO = padronizar a FORMA. ITN (fala→escrita) é formatação
 pós-ASR, não reconhecimento. Números, siglas, abreviações, termos:
 regra única e glossário. Não corrige o conteúdo. Ambiguidade (ano ×
@@ -72,7 +72,7 @@ Três conceitos que o edital manda diferenciar:
    escrito, tradicionalmente por uma pessoa que ouve e redige, com ou
    sem apoio de ferramentas. É feita DEPOIS, sobre a gravação. Contrasta
    com a taquigrafia, que registra a fala simultaneamente, ao vivo.
-   [Ver N5: definição de uso corrente; sem fonte oficial verificada.]
+   [definição de uso corrente; sem fonte oficial verificada.]
  - Revisão humana: etapa em que pessoa qualificada confronta o texto
    (automático ou degravado) com o áudio e com o contexto (pauta, lista
    de oradores, glossário), corrige conteúdo e forma segundo critérios
@@ -176,7 +176,7 @@ dos pronunciamentos e debates; as notas taquigráficas são divulgadas sem
 redação final e, depois, com Redação Final. O
 departamento responsável hoje se chama Departamento de Registro Oficial e
 Redação Parlamentar. O curso NÃO afirma critério gramatical da
-Câmara (N2): mostra apenas que existe etapa de revisão e redação final.
+Câmara: mostra apenas que existe etapa de revisão e redação final.
 
 Critérios de qualidade usuais na revisão:
  - Exatidão: o texto diz o que foi dito (nada acrescentado, omitido ou
@@ -215,7 +215,7 @@ Formatar é organizar o texto para que o leitor saiba QUEM falou, EM QUE
 TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
  - Identificação de oradores: rótulo padronizado por fala; troca de
    orador sempre sinalizada. A forma exata na Câmara (nome parlamentar,
-   cargo, partido/UF) foi observada nas notas oficiais de 2026 (N1); o curso ensina o
+   cargo, partido/UF) foi observada nas notas oficiais de 2026; o curso ensina o
    princípio: padronizado, uniforme, sem ambiguidade.
  - Tipo de intervenção: o Banco de Discursos da Câmara permite pesquisar
    por tipos como aparte, apresentação de proposição, declaração de
@@ -226,7 +226,7 @@ TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
  - Marcação de pausa: depende do grau de fidelidade (2.3); numa
    transcrição editada, só pausa que tenha relevância para o registro.
  - Eventos não falados e ruído: palmas, risos, trecho inaudível, fala
-   sobreposta. A convenção varia entre instituições (N2); dentro de uma
+   sobreposta. A convenção varia entre instituições; dentro de uma
    transcrição deve ser uma só, uniforme e DISTINGUÍVEL do texto falado
    (por exemplo, em marcação própria).
  - Marcas de tempo: úteis para conferência e para legendas (2.6).
@@ -277,7 +277,7 @@ Norma de referência: a Câmara tem Manual de Redação. A Portaria DG nº
 documentos administrativos (art. 2º, caput) e as recomenda para as
 demais modalidades de material escrito, respeitadas as características
 de cada gênero textual (art. 2º, parágrafo único). O conteúdo do Manual sobre números e siglas NÃO foi
-verificado (N2). Ilustrativo apenas: "projeto de lei mil duzentos e
+verificado. Ilustrativo apenas: "projeto de lei mil duzentos e
 trinta e quatro de dois mil e vinte e seis" → "PL 1.234/2026" (a forma
 exata dependeria do manual da Casa).
 Normalização também aparece na AVALIAÇÃO: é prática comum normalizar
@@ -317,7 +317,7 @@ idioma [contexto histórico]. A
 idiomas, é recurso de ferramentas de tradução e não é o recurso central
 da transcrição assistida.
 Recursos típicos de editores de transcrição (categorias, sem citar
-produto; ver N3):
+produto):
  - Reprodução sincronizada texto–áudio: clicar no trecho do texto toca
    o áudio correspondente.
  - Marcas de tempo (timecodes) por palavra, frase ou bloco.
@@ -447,17 +447,17 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 - **Aparte** × **fala do Presidente vs discurso principal** — tipos de intervenção distintos.
 - **Marcação de evento** × **fala** — evento não é fala; convenção única.
 - **Rótulo de diarização** × **identificação do orador** — genérico / nome.
-- **Normalização (texto→fala)** × **normalização inversa, ITN (fala→texto escrito)** — 
+- **Normalização (texto→fala)** × **normalização inversa, ITN (fala→texto escrito)**
 - **Normalização de texto** × **correção de conteúdo** — forma / informação.
-- **Normalização de texto** × **normalização de áudio (volume)** — 
-- **CAT, transcrição assistida (traduz as notas estenotípicas em texto)** × **memória de tradução (reaproveita segmentos já traduzidos entre idiomas); e "tradução das notas" (decifrar sinais e passar para texto) vs tradução de idioma** — 
+- **Normalização de texto** × **normalização de áudio (volume)**
+- **CAT, transcrição assistida (traduz as notas estenotípicas em texto)** × **memória de tradução (reaproveita segmentos já traduzidos entre idiomas); e "tradução das notas" (decifrar sinais e passar para texto) vs tradução de idioma**
 - **Editor de transcrição** × **ASR** — onde o humano trabalha / gerador do rascunho.
-- **Revisão em dupla (2º revisor independente)** × **releitura pelo mesmo revisor** — 
-- **Auditoria de amostras (estima)** × **revisão integral (examina tudo)** — 
-- **SLA (prazo e qualidade)** × **apenas prazo** — 
-- **OOV (ausente do vocabulário)** × **baixa confiança** — 
-- **Adaptação de modelo de linguagem (sequências, contexto)** × **reforço de termos (palavras isoladas, com peso)** — 
-- **Reforço moderado** × **sobre-reforço (falsos positivos)** — 
+- **Revisão em dupla (2º revisor independente)** × **releitura pelo mesmo revisor**
+- **Auditoria de amostras (estima)** × **revisão integral (examina tudo)**
+- **SLA (prazo e qualidade)** × **apenas prazo**
+- **OOV (ausente do vocabulário)** × **baixa confiança**
+- **Adaptação de modelo de linguagem (sequências, contexto)** × **reforço de termos (palavras isoladas, com peso)**
+- **Reforço moderado** × **sobre-reforço (falsos positivos)**
 
 ## Pegadinhas
 

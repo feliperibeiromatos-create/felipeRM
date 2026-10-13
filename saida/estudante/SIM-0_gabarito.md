@@ -175,7 +175,7 @@
 ### 41 — BQ-0003 — Gabarito: E
 
 - Item do edital: P2-4.1 (aderência: parcial)
-- Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026 (D-LEI-15352); texto do item mantido literal
+- Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
 
 ### 42 — BQ-0004 — Gabarito: E
 

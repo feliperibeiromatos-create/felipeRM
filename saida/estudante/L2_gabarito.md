@@ -103,7 +103,7 @@
 ### L2-Q21 — Gabarito: E
 
 - Item do edital: P2-2.6
-- Justificativa: Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto. Gabarito E mantido.
+- Justificativa: Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto.
 
 ### L2-Q22 — Gabarito: C
 
@@ -113,7 +113,7 @@
 ### L2-Q23 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto; NÃO VOLÁTIL.
+- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto.
 
 ### L2-Q24 — Gabarito: E
 

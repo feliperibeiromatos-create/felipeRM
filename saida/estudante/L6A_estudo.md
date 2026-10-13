@@ -28,7 +28,7 @@ Validade: itens VOLÁTEIS (6A-01, 6A-09, 6A-10, 6A-14, 6A-15) dependem de interf
 ## ITEM 1 — MSOFFICE 365 (WORD, EXCEL, POWERPOINT E ONEDRIVE) — VISÃO GERAL
 
 ### 1.0.1 O QUE É
-O edital escreve "MSOffice 365". Nas páginas de suporte abertas hoje, a Microsoft trata Word, Excel, PowerPoint e Outlook como aplicativos do pacote Microsoft 365 (o Outlook para PC é descrito como "disponível para compra como parte do Microsoft 365"). Para a prova, o que importa é o que cada aplicativo FAZ e a lógica de seus recursos, não o plano de assinatura. Preço, licença, plano e versão: NÃO são cobrados neste lote (risco alto e volátil).
+O edital escreve "MSOffice 365". Nas páginas de suporte, a Microsoft trata Word, Excel, PowerPoint e Outlook como aplicativos do pacote Microsoft 365 (o Outlook para PC é descrito como "disponível para compra como parte do Microsoft 365"). Para a prova, o que importa é o que cada aplicativo FAZ e a lógica de seus recursos, não o plano de assinatura. Preço, licença, plano e versão: NÃO são cobrados neste lote (risco alto e volátil).
 Mapa mental dos quatro aplicativos do item 1:
 - Word: texto (documentos, relatórios, minutas, ofícios).
 - Excel: cálculo e análise de dados em planilhas (células, fórmulas, funções).
@@ -53,11 +53,11 @@ Distinções que a banca explora:
 Limite do curso: NÃO descreve como ativar o acompanhamento; nada sobre isso entra em item.
 
 ### 1.1.3 TABELAS: MESCLAR × DIVIDIR CÉLULAS
-mesclar combina duas ou mais células da tabela em uma única célula; a página descreve a combinação de células "na mesma linha ou coluna" e orienta, se o comando não aparecer, verificar se foram selecionadas "várias células adjacentes"; há comando para desfazer a mesclagem. O item 6A-02 usa o requisito de adjacência e não reproduz a expressão "na mesma linha ou coluna", para que ela não seja lida como definição exaustiva. Dividir parte de uma ou mais células marcadas e pergunta em quantas colunas ou linhas se quer subdividir. Os comandos ficam no contexto da tabela (guia "Layout" da tabela; também no clique com o botão direito, para mesclar). A página não diz o que acontece com o conteúdo das células; nada sobre isso entra em item.
+Mesclar combina duas ou mais células da tabela em uma única célula; a página descreve a combinação de células "na mesma linha ou coluna" e orienta, se o comando não aparecer, verificar se foram selecionadas "várias células adjacentes"; há comando para desfazer a mesclagem. O item 6A-02 usa o requisito de adjacência e não reproduz a expressão "na mesma linha ou coluna", para que ela não seja lida como definição exaustiva. Dividir parte de uma ou mais células marcadas e pergunta em quantas colunas ou linhas se quer subdividir. Os comandos ficam no contexto da tabela (guia "Layout" da tabela; também no clique com o botão direito, para mesclar). A página não diz o que acontece com o conteúdo das células; nada sobre isso entra em item.
 Chave de prova: MESCLAR = muitas células viram uma; DIVIDIR = uma célula vira várias. Quem inverte, erra.
 
 ### 1.1.4 SUMÁRIO AUTOMÁTICO
-"Os sumários no Word se baseiam nos títulos do documento." Quando faltam entradas, a causa costuma ser que os títulos não receberam estilo de título (diz "não estão formatados como cabeçalhos", no sentido de títulos de seção, e não do recurso Cabeçalho, que é o cabeçalho de página); a solução indicada é aplicar o estilo Título 1 ao texto de cada título que deve constar. Para atualizar após mudanças, clica-se com o botão direito no sumário e escolhe-se "Atualizar Campo". O sumário automático é inserido pela guia "Referências".
+"Os sumários no Word se baseiam nos títulos do documento." Quando faltam entradas, a causa costuma ser que os títulos não receberam estilo de título ("não estão formatados como cabeçalhos", no sentido de títulos de seção, e não do recurso Cabeçalho, que é o cabeçalho de página); a solução indicada é aplicar o estilo Título 1 ao texto de cada título que deve constar. Para atualizar após mudanças, clica-se com o botão direito no sumário e escolhe-se "Atualizar Campo". O sumário automático é inserido pela guia "Referências".
 Ideia estável: o sumário automático é GERADO a partir dos estilos de título; digitar manualmente "Capítulo 1 ...... 3" não cria estrutura que o Word reconheça.
 
 1.1.5 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (situação hipotética de redação/revisão)
@@ -85,11 +85,11 @@ Regra de ouro: O $ TRAVA o que vem imediatamente depois dele. $B2 trava a coluna
 Exemplo de leitura: fórmula =C3*$F$1 em D3, copiada para D4, vira =C4*$F$1: C3 (relativa) acompanhou a linha; $F$1 (absoluta) ficou. Uso típico: uma taxa ou um total fixo numa célula usado por muitas linhas.
 
 ### 1.2.3 FUNÇÃO SE
-a função SE compara um valor com o esperado e verifica se a condição é atendida. Sintaxe: SE(teste_lógico, valor_se_verdadeiro, [valor_se_falso]). O primeiro resultado vale se a comparação for Verdadeira; o segundo, se for Falsa. O colchete na sintaxe indica o argumento opcional (valor_se_falso).
+A função SE compara um valor com o esperado e verifica se a condição é atendida. Sintaxe: SE(teste_lógico, valor_se_verdadeiro, [valor_se_falso]). O primeiro resultado vale se a comparação for Verdadeira; o segundo, se for Falsa. O colchete na sintaxe indica o argumento opcional (valor_se_falso).
 Exemplo: =SE(B2>=10; "Quórum"; "Sem quórum") devolve "Quórum" se B2 (presentes) for 10 ou mais; caso contrário, "Sem quórum". (Valores do exemplo são ilustrativos.)
 
 ### 1.2.4 FUNÇÃO PROCV
-o PROCV pesquisa um valor e devolve outro, relacionado, de uma coluna do intervalo. O quarto argumento é opcional: com FALSO, devolve correspondência EXATA; com VERDADEIRO, ou deixando o argumento em branco, devolve correspondência APROXIMADA (o valor mais próximo que não ultrapasse o procurado). A página afirma que o PROCV "só pode pesquisar um valor da esquerda para a direita": a coluna com o valor procurado precisa estar à esquerda da coluna de retorno; caso contrário, recomenda ÍNDICE e CORRESP.
+O PROCV pesquisa um valor e devolve outro, relacionado, de uma coluna do intervalo. O quarto argumento é opcional: com FALSO, devolve correspondência EXATA; com VERDADEIRO, ou deixando o argumento em branco, devolve correspondência APROXIMADA (o valor mais próximo que não ultrapasse o procurado). A página afirma que o PROCV "só pode pesquisar um valor da esquerda para a direita": a coluna com o valor procurado precisa estar à esquerda da coluna de retorno; caso contrário, recomenda ÍNDICE e CORRESP.
 Chave de prova: para código, matrícula, nome (identificadores) quase sempre se quer EXATA (FALSO); aproximada serve a faixas ordenadas (ex.: tabela de alíquotas). Omitir o quarto argumento NÃO equivale a FALSO.
 
 1.2.5 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
@@ -109,10 +109,10 @@ P6. "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre 
 PowerPoint é o programa de apresentações: slides com texto, imagens, gráficos e mídia, exibidos em sequência. Dois temas são estáveis e cobráveis: slide mestre e animações × transições.
 
 ### 1.3.2 SLIDE MESTRE
-o propósito é fazer todos os slides terem as mesmas fontes e imagens (como logotipos). "Quando você edita o slide mestre, todos os slides baseados nele conterão essas alterações." Acesso: guia "Exibir" > "Slide Mestre". Ideia estável: o mestre concentra o padrão visual; alterar o mestre muda os slides baseados nele, de uma vez; alterar um slide individual muda só aquele.
+O propósito é fazer todos os slides terem as mesmas fontes e imagens (como logotipos). "Quando você edita o slide mestre, todos os slides baseados nele conterão essas alterações." Acesso: guia "Exibir" > "Slide Mestre". Ideia estável: o mestre concentra o padrão visual; alterar o mestre muda os slides baseados nele, de uma vez; alterar um slide individual muda só aquele.
 
 ### 1.3.3 ANIMAÇÕES × TRANSIÇÕES
-a animação é aplicada a um único elemento em um slide (um slide pode ter várias); a transição é aplicada a um slide inteiro (só uma por slide) e acontece na passagem do slide anterior para aquele que a recebe.
+A animação é aplicada a um único elemento em um slide (um slide pode ter várias); a transição é aplicada a um slide inteiro (só uma por slide) e acontece na passagem do slide anterior para aquele que a recebe.
 Chave de prova: ANIMAÇÃO = efeito num OBJETO dentro do slide; TRANSIÇÃO = efeito na MUDANÇA DE SLIDE.
 
 1.3.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
@@ -132,11 +132,11 @@ OneDrive é o serviço de armazenamento de arquivos em nuvem da Microsoft: o arq
 ### 1.4.2 COMPARTILHAMENTO E PERMISSÕES
 - Seleciona-se o item e escolhe-se Compartilhar (Partilhar); na configuração do link ("Todas as pessoas com este link podem editar este item"), marca-se "Permitir edição" para que outras pessoas possam editar ou desmarca-se para que possam apenas visualizar.
 - Se você for o proprietário do arquivo (ou tiver permissão de edição), pode parar o compartilhamento ou alterar as permissões; selecionando o X ao lado de um link, desabilita-se o link.
-- NÃO é possível mudar o tipo de permissão de um LINK de compartilhamento (de edição para exibição ou o contrário) e orienta excluir o link e criar outro. As duas páginas descrevem a gestão de permissões de maneiras diferentes; por isso o lote NÃO cobra "como alterar a permissão de um link existente".
+- NÃO é possível mudar o tipo de permissão de um LINK de compartilhamento (de edição para exibição ou o contrário). As duas páginas descrevem a gestão de permissões de maneiras diferentes; por isso o lote NÃO cobra "como alterar a permissão de um link existente".
 Chave de prova: EXIBIR = ler; EDITAR = ler e alterar. Compartilhar não transfere a propriedade do arquivo (conceito geral).
 
 ### 1.4.3 HISTÓRICO DE VERSÕES
-o histórico de versões permite ver e restaurar versões mais antigas dos arquivos; "funciona com todos os tipos de ficheiros"; em contas escolares ou profissionais o administrador pode ter desativado o controle de versões. Para restaurar: selecionar o arquivo > "Histórico de versões" > reticências ao lado da versão > "Restaurar"; só um arquivo por vez. A versão restaurada torna-se a versão atual, e a versão que era a atual passa a aparecer na lista como versão anterior. A página menciona um prazo de retenção do histórico; esse dado é numérico e NÃO é cobrado.
+O histórico de versões permite ver e restaurar versões mais antigas dos arquivos; "funciona com todos os tipos de ficheiros"; em contas escolares ou profissionais o administrador pode ter desativado o controle de versões. Para restaurar: selecionar o arquivo > "Histórico de versões" > reticências ao lado da versão > "Restaurar"; só um arquivo por vez. A versão restaurada torna-se a versão atual, e a versão que era a atual passa a aparecer na lista como versão anterior. A página menciona um prazo de retenção do histórico; esse dado é numérico e NÃO é cobrado.
 Chave de prova: restaurar uma versão NÃO apaga a versão que era a atual; ela vira "anterior". Histórico de versões ≠ lixeira (que recupera arquivo excluído — conceito geral, sem fonte aberta; sem item).
 
 1.4.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
@@ -160,10 +160,9 @@ Correio eletrônico é o serviço de troca de mensagens entre caixas postais, ma
 
 3.1.2 PROTOCOLOS (CONCEITO ESTÁVEL; RFCs DA IETF)
 - SMTP: transferência de mensagens. A RFC 5321 diz que "The objective of the Simple Mail Transfer Protocol (SMTP) is to transfer mail reliably and efficiently" (seção 1.1). Cliente de e-mail POP3/IMAP4 depende do SMTP para ENVIAR ("dependem do protocolo SMTP para enviar mensagens").
-- POP3 (RFC 1939): permite à estação de trabalho acessar a caixa postal no servidor; normalmente, "mail is downloaded and then deleted". por padrão os clientes POP3 removem as mensagens baixadas do servidor, o que dificulta o acesso por vários computadores (pode-se configurar para manter cópias); baixam para uma única pasta e não sincronizam várias pastas.
-- IMAP4 (RFC 9051): permite a um cliente acessar e manipular mensagens no servidor, com caixas de correio (pastas remotas) e ressincronização de cliente offline. por padrão os clientes IMAP4 NÃO removem as mensagens baixadas do servidor (facilita o acesso por vários computadores) e dão suporte a várias pastas. A RFC 9051 diz que o IMAP4rev2 "does not specify a means of posting mail" e remete o envio a um protocolo de submissão de mensagens (RFC 6409); na prática do cliente de e-mail, o envio fica com o SMTP (os programas POP3 e IMAP4 "dependem do protocolo SMTP para enviar mensagens").
+- POP3 (RFC 1939): permite à estação de trabalho acessar a caixa postal no servidor; normalmente, "mail is downloaded and then deleted". Por padrão os clientes POP3 removem as mensagens baixadas do servidor, o que dificulta o acesso por vários computadores (pode-se configurar para manter cópias); baixam para uma única pasta e não sincronizam várias pastas.
+- IMAP4 (RFC 9051): permite a um cliente acessar e manipular mensagens no servidor, com caixas de correio (pastas remotas) e ressincronização de cliente offline. Por padrão os clientes IMAP4 NÃO removem as mensagens baixadas do servidor (facilita o acesso por vários computadores) e dão suporte a várias pastas. A RFC 9051 diz que o IMAP4rev2 "does not specify a means of posting mail" e remete o envio a um protocolo de submissão de mensagens (RFC 6409); na prática do cliente de e-mail, o envio fica com o SMTP (os programas POP3 e IMAP4 "dependem do protocolo SMTP para enviar mensagens").
 Resumo: SMTP = ENVIA; POP3 = BAIXA (e, por padrão, apaga do servidor); IMAP4 = ACESSA/SINCRONIZA (as mensagens ficam no servidor).
-portas e criptografia do Exchange Online; esses números são específicos de produto e NÃO são cobrados.
 
 ### 3.1.3 CAMPOS DE DESTINATÁRIO: PARA, CC E CCO
 - Para: destinatários principais. Cc (com cópia): destinatários de ciência; os endereços aparecem para todos (conceito geral).
@@ -185,7 +184,7 @@ P7. "O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroni
 ## ITEM 3.2 — MICROSOFT TEAMS
 
 ### 3.2.1 DEFINIÇÃO
-Microsoft Teams é a plataforma de comunicação e colaboração da Microsoft. Reuniões e chamadas existem no Teams (conceito geral; sem fonte aberta hoje para detalhes; sem item).
+Microsoft Teams é a plataforma de comunicação e colaboração da Microsoft. Reuniões e chamadas existem no Teams (conceito geral; sem item).
 
 ### 3.2.2 EQUIPES E CANAIS
 - Equipes são "coleções de pessoas, conteúdo e ferramentas que envolvem diferentes projetos e resultados dentro de uma organização".

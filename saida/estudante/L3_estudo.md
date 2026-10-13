@@ -97,7 +97,7 @@ reformula; transcrição reproduz). (2) Dizer que acervo público dispensa
 supervisão e avaliação. (3) Ignorar a propagação de erros entre
 etapas. (4) Chamar de "indexação" o que é busca, e vice-versa. (5) Dizer
 que a IA "decide" o que é relevante sem critério humano: critérios,
-tesauro e avaliação são definidos pela instituição. (N6: não cobrar
+tesauro e avaliação são definidos pela instituição. (não cobrar
 descrição de sistema real.)
 
 CONTEXTO NORMATIVO INTERNO (SEM ITEM)
@@ -169,7 +169,7 @@ DEFINIÇÃO
 Ata: documento formal que registra o ocorrido numa reunião (data, local,
 presenças, pauta, deliberações, votações, encaminhamentos). Resumo:
 condensação do conteúdo, de caráter informativo. O regime jurídico da ata
-na Câmara (Regimento Interno e atos próprios) NÃO foi verificado (N6); o
+na Câmara (Regimento Interno e atos próprios) NÃO foi verificado; o
 curso trata só do princípio: documento que pode produzir efeitos exige
 conferência e responsável humano.
 Fluxo típico de geração automática:
@@ -236,8 +236,7 @@ DEFINIÇÃO
  - Vigência: modelo treinado em data passada não conhece normas novas;
    por isso a recuperação de fontes oficiais atualizadas é prática
    comum (3.2).
- - Nomes e versões de modelos mudam em meses e NÃO foram verificados
-   (N5). A banca pode cobrar o CONCEITO, e não o nome do produto.
+ - Nomes e versões de modelos mudam em meses e NÃO foram verificados. A banca pode cobrar o CONCEITO, e não o nome do produto.
 
 EXEMPLO PARLAMENTAR
 Um modelo geral multilíngue resume bem um discurso em linguagem comum,
@@ -419,7 +418,7 @@ DEFINIÇÕES (Lei 9.610/1998)
    interesses legítimos dos autores (VIII). Paráfrases e paródias que
    não sejam verdadeiras reproduções nem impliquem descrédito são livres
    (art. 47).
-CONTROVERSO / NÃO GABARITO (N4; não há texto legal expresso nem
+CONTROVERSO / NÃO GABARITO (não há texto legal expresso nem
 jurisprudência firmada que eu possa afirmar):
  (a) se conteúdo gerado por IA é obra protegida e quem seria o titular;
  (b) se o treinamento de modelos com obras protegidas configura
@@ -435,7 +434,7 @@ jurisprudência firmada que eu possa afirmar):
      públicas, trata discursos como matéria de direito autoral, sujeita a
      limitação.
 Itens C/E só sobre o texto da Lei 9.610/1998 ou conceitos estáveis.
-ÉTICA (conceitos estáveis, sem norma específica verificada — N7):
+ÉTICA (conceitos estáveis, sem norma específica verificada):
 transparência sobre o uso de IA; responsabilidade humana pelo texto
 publicado; revisão humana; não atribuir a ninguém palavras que não disse;
 rastreabilidade das fontes; não discriminação (princípio do art. 6º, IX,
@@ -546,25 +545,25 @@ após o fim do tratamento.
 - **Precisão** × **revocação** — relevante entre o recuperado / recuperado entre o relevante.
 - **Ata** × **resumo** — registro formal / condensação informativa.
 - **Alucinação** × **reformulação** — informação sem sustentação na fonte / frase nova com sentido fiel.
-- **Fluência** × **fidelidade do texto gerado** — 
-- **Modelo multilíngue** × **especializado em português** — 
-- **Especializado (treinado/ajustado em pt)** × **exclusivo (só pt)** — 
+- **Fluência** × **fidelidade do texto gerado**
+- **Modelo multilíngue** × **especializado em português**
+- **Especializado (treinado/ajustado em pt)** × **exclusivo (só pt)**
 - **Ajuste fino** × **RAG** — altera o modelo / fornece documentos na consulta.
-- **Controlador (decide)** × **operador (executa em nome)** — 
+- **Controlador (decide)** × **operador (executa em nome)**
 - **Controlador** × **encarregado** — decide / canal de comunicação.
-- **Dado pessoal** × **dado pessoal sensível (enumeração do art. 5º, II)** — 
-- **Anonimização (art. 12: dado deixa de ser pessoal, salvo reversão por meios próprios ou com esforço razoável)** × **pseudonimização (art. 13, § 4º, definida "para os efeitos deste artigo", com informação adicional guardada separadamente)** — 
-- **Consentimento** × **outras hipóteses do art. 7º** — 
-- **Dado de acesso público** × **dado livre para qualquer uso** — 
-- **Revisão de decisão automatizada (art. 20)** × **revisão por pessoa natural (redação original, suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019)** — 
-- **Autoridade nacional (art. 5º, XIX)** × **ANPD criada pela Lei 15.352/2026 (autarquia vinculada ao MJSP); órgão da Presidência (redação superada)** — 
-- **Obra protegida** × **ato oficial não protegido (art. 8º, IV)** — 
-- **Domínio público** × **disponível na internet** — 
-- **Direitos morais** × **patrimoniais** — 
-- **Citação (art. 46, III)** × **reprodução integral** — 
-- **Confidencialidade, integridade, disponibilidade** × **** — 
-- **Criptografia em trânsito** × **em repouso** — 
-- **Incidente de segurança (comunica o controlador)** × **vazamento interno sem risco relevante** — 
+- **Dado pessoal** × **dado pessoal sensível (enumeração do art. 5º, II)**
+- **Anonimização (art. 12: dado deixa de ser pessoal, salvo reversão por meios próprios ou com esforço razoável)** × **pseudonimização (art. 13, § 4º, definida "para os efeitos deste artigo", com informação adicional guardada separadamente)**
+- **Consentimento** × **outras hipóteses do art. 7º**
+- **Dado de acesso público** × **dado livre para qualquer uso**
+- **Revisão de decisão automatizada (art. 20)** × **revisão por pessoa natural (redação original, suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019)**
+- **Autoridade nacional (art. 5º, XIX)** × **ANPD criada pela Lei 15.352/2026 (autarquia vinculada ao MJSP); órgão da Presidência (redação superada)**
+- **Obra protegida** × **ato oficial não protegido (art. 8º, IV)**
+- **Domínio público** × **disponível na internet**
+- **Direitos morais** × **patrimoniais**
+- **Citação (art. 46, III)** × **reprodução integral**
+- **Confidencialidade, integridade, disponibilidade**
+- **Criptografia em trânsito** × **em repouso**
+- **Incidente de segurança (comunica o controlador)** × **vazamento interno sem risco relevante**
 
 ## Pegadinhas
 
@@ -572,7 +571,7 @@ após o fim do tratamento.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que acervo público dispensa supervisão e avaliação.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Ignorar a propagação de erros entre etapas.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Chamar de "indexação" o que é busca, e vice-versa.
-- [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que a IA "decide" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição. (N6: não cobrar descrição de sistema real.)
+- [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que a IA "decide" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição. (não cobrar descrição de sistema real.)
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica = dicionário de sinônimos (é similaridade aprendida por modelo).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica sempre mais precisa que a lexical (para nome e número exato, não é).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Dizer que a busca semântica "entende" ou "verifica" fatos.

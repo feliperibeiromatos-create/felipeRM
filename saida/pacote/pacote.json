@@ -2761,7 +2761,7 @@
    "textoBase": "",
    "enunciado": "No sentido do edital, ferramentas de CAT (Computer Assisted Transcription) têm como recurso central a memória de tradução, que reaproveita segmentos já traduzidos para acelerar o trabalho em outros idiomas.",
    "gabarito": "E",
-   "justificativa": "Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto [F7]. Gabarito E mantido.",
+   "justificativa": "Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto [F7].",
    "itemEdital": "P2-2.6",
    "aderencia": "direta",
    "url": "saida/gce/GCE_Lote2_v2_CPP.md"
@@ -3863,7 +3863,7 @@
    "textoBase": "",
    "enunciado": "A injeção de prompt restringe-se à digitação, pelo próprio usuário, de instruções destinadas a burlar as restrições do modelo, não abrangendo instruções maliciosas embutidas em textos que o modelo lê.",
    "gabarito": "E",
-   "justificativa": "GI (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). o item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo \"restringe-se\" nega. O item não usa o par injeção × jailbreak (C19) como critério. Fonte: curso 5.1.4.",
+   "justificativa": "GI (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo \"restringe-se\" nega. O item não usa o par injeção × jailbreak (C19) como critério. Fonte: curso 5.1.4.",
    "itemEdital": "P1-5.1",
    "aderencia": "direta",
    "url": "saida/gcb/GCB_Lote4C_v1_GCB-CPP.md"
@@ -3880,7 +3880,7 @@
    "textoBase": "",
    "enunciado": "Para que um modelo de linguagem, sem acesso a ferramentas externas (como a busca) ou a RAG e sem retreinamento, resuma um relatório interno elaborado depois do seu treinamento, o texto do relatório deve ser incluído no prompt, como contexto.",
    "gabarito": "C",
-   "justificativa": "sem armadilha (ancoragem). Curso 5.1.2 (item 3): o contexto é o texto sobre o qual o modelo deve trabalhar; curso 5.1.3: o RAG recupera documentos e os insere no prompt; curso 5.3.3: sem ferramentas ou RAG, o modelo responde com o que incorporou no treinamento (conhecimento paramétrico). Um relatório elaborado depois do treinamento não integra esse conhecimento; sem ferramentas externas (como a busca), sem RAG e sem retreinamento, o caminho é incluí-lo no prompt, como contexto. Retificação 6-A: a redação \"sem acesso a busca\" não excluía outras ferramentas; \"ferramentas externas (como a busca)\" alinha o item ao curso 5.3.3 (\"sem ferramentas ou RAG\"). O acréscimo \"e sem retreinamento\" existe porque o curso (5.1.1; 5.3.3) prevê o fine-tuning como outra forma de incorporar conhecimento: sem a ressalva, o \"deve\" ficaria vulnerável a recurso. Difere do item 15 do Lote 4 porque aquele julga se o modelo consulta fontes externas por si só; este julga a aplicação (o material entra como contexto do prompt). Difere do item 6 do Lote 4 porque aquele julga RAG × retreinamento. Fonte: curso 5.1.2, 5.1.3 e 5.3.3.",
+   "justificativa": "sem armadilha (ancoragem). Curso 5.1.2 (item 3): o contexto é o texto sobre o qual o modelo deve trabalhar; curso 5.1.3: o RAG recupera documentos e os insere no prompt; curso 5.3.3: sem ferramentas ou RAG, o modelo responde com o que incorporou no treinamento (conhecimento paramétrico). Um relatório elaborado depois do treinamento não integra esse conhecimento; sem ferramentas externas (como a busca), sem RAG e sem retreinamento, o caminho é incluí-lo no prompt, como contexto. O acréscimo \"e sem retreinamento\" existe porque o curso (5.1.1; 5.3.3) prevê o fine-tuning como outra forma de incorporar conhecimento: sem a ressalva, o \"deve\" ficaria vulnerável a recurso. Difere do item 15 do Lote 4 porque aquele julga se o modelo consulta fontes externas por si só; este julga a aplicação (o material entra como contexto do prompt). Difere do item 6 do Lote 4 porque aquele julga RAG × retreinamento. Fonte: curso 5.1.2, 5.1.3 e 5.3.3.",
    "itemEdital": "P1-5.1",
    "aderencia": "direta",
    "url": "saida/gcb/GCB_Lote4C_v1_GCB-CPP.md"
@@ -4343,7 +4343,7 @@
    "textoBase": "",
    "enunciado": "Segundo a regra usual de construção do box plot, que adota limites a 1,5 vez o intervalo interquartil a partir de Q1 e de Q3, a presença de outlier no lado superior não impede que o bigode inferior termine no menor valor da amostra, desde que esse valor esteja dentro do limite inferior.",
    "gabarito": "C",
-   "justificativa": "TC (tentação: \"bigodes vão sempre do mínimo ao máximo\" ou \"outlier de um lado afeta os dois bigodes\" → marcar E). Curso 8.2, box plot: cada bigode vai até o dado mais extremo do seu lado que esteja dentro do limite respectivo; a regra vale por lado; um outlier superior não impede que o bigode inferior termine no mínimo da amostra. a regra de 1,5 · AIQ é convenção usual adotada por muitos programas e pode variar; por isso o item abre com \"segundo a regra usual\" e não afirma que todo box plot a usa. Sem atribuição a autor. Difere dos itens A5-12 e A5-13 porque aqueles julgam a forma da distribuição e a posição da mediana; este julga a regra dos bigodes por lado.",
+   "justificativa": "TC (tentação: \"bigodes vão sempre do mínimo ao máximo\" ou \"outlier de um lado afeta os dois bigodes\" → marcar E). Curso 8.2, box plot: cada bigode vai até o dado mais extremo do seu lado que esteja dentro do limite respectivo; a regra vale por lado; um outlier superior não impede que o bigode inferior termine no mínimo da amostra. A regra de 1,5 · AIQ é convenção usual adotada por muitos programas e pode variar; por isso o item abre com \"segundo a regra usual\" e não afirma que todo box plot a usa. Sem atribuição a autor. Difere dos itens A5-12 e A5-13 porque aqueles julgam a forma da distribuição e a posição da mediana; este julga a regra dos bigodes por lado.",
    "itemEdital": "P1-8.2",
    "aderencia": "direta",
    "url": "saida/gcb/GCB_Lote5C_v1_GCB-CPP.md"
@@ -4773,7 +4773,7 @@
    "textoBase": "",
    "enunciado": "A integridade da informação é a propriedade que assegura que ela esteja disponível ao usuário autorizado sempre que necessária, ao passo que a disponibilidade é a propriedade que garante que ela não seja alterada de modo não autorizado.",
    "gabarito": "E",
-   "justificativa": "TC (integridade e disponibilidade trocadas). Curso 4.1.1: integridade = não alteração indevida; disponibilidade = acesso sempre que necessário. Fonte: conceito geral (a definição da tríade não foi confirmada em fonte aberta hoje; ver curso 4.1.1). Tema da tríade CIA também nos itens reais 96 e 98 do TRF6 2024, com outro ponto de julgamento (seção ITENS REAIS, conferida pela QA em 08/10/2026).",
+   "justificativa": "TC (integridade e disponibilidade trocadas). Curso 4.1.1: integridade = não alteração indevida; disponibilidade = acesso sempre que necessário. Fonte: conceito geral (a definição da tríade não foi confirmada em fonte aberta hoje; ver curso 4.1.1). Tema da tríade CIA também nos itens reais 96 e 98 do TRF6 2024, com outro ponto de julgamento (seção ITENS REAIS).",
    "itemEdital": "P1-4.1",
    "aderencia": "direta",
    "url": "saida/gcb/GCB_Lote6b_v2_producao_auto.md"
@@ -4926,7 +4926,7 @@
    "textoBase": "",
    "enunciado": "A utilização do protocolo HTTPS indica que a comunicação entre o navegador e o site é cifrada, mas, por si só, não garante que o site pertença à instituição que o usuário pretende acessar, pois páginas fraudulentas, hospedadas em domínios próprios, também podem utilizar HTTPS.",
    "gabarito": "C",
-   "justificativa": "GI invertida (tentação: saber que o HTTPS autentica o servidor e concluir que ele garante que o site é o da instituição pretendida → marcar E). Curso 4.3.4 (corrigido pela O-3): HTTPS é o HTTP sobre conexão TLS; o servidor é autenticado para o domínio acessado e a comunicação ganha confidencialidade e integridade, mas isso não garante que o domínio seja o da instituição pretendida nem a boa-fé do titular; páginas fraudulentas, em domínios próprios, também podem usar HTTPS. Fonte: F11, seção 4.2.2 (verificado em 08/10/2026); o restante é conceito geral.",
+   "justificativa": "GI invertida (tentação: saber que o HTTPS autentica o servidor e concluir que ele garante que o site é o da instituição pretendida → marcar E). Curso 4.3.4: HTTPS é o HTTP sobre conexão TLS; o servidor é autenticado para o domínio acessado e a comunicação ganha confidencialidade e integridade, mas isso não garante que o domínio seja o da instituição pretendida nem a boa-fé do titular; páginas fraudulentas, em domínios próprios, também podem usar HTTPS. Fonte: F11, seção 4.2.2 (verificado em 08/10/2026); o restante é conceito geral.",
    "itemEdital": "P1-4.3",
    "aderencia": "direta",
    "url": "saida/gcb/GCB_Lote6b_v2_producao_auto.md"
@@ -5283,12 +5283,7 @@
     {
      "itemEdital": "P2-1.5",
      "rotulo": "Pontuação automática e capitalização em transcrições",
-     "texto": "Dizer que a pontuação automática \"detecta os sinais pronunciados\" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios \"com certeza\" — ela estima"
-    },
-    {
-     "itemEdital": "P2-1.5",
-     "rotulo": "Pontuação automática e capitalização em transcrições",
-     "texto": "\"Câmara\" (instituição) vs \"câmara\" (sala) é decisão de contexto que o modelo pode errar."
+     "texto": "Dizer que a pontuação automática \"detecta os sinais pronunciados\" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios \"com certeza\" — ela estima; \"Câmara\" (instituição) vs \"câmara\" (sala) é decisão de contexto que o modelo pode errar."
     },
     {
      "itemEdital": "P2-1.6",
@@ -6618,12 +6613,7 @@
     {
      "itemEdital": "P1-8.2",
      "rotulo": "Gráfico de barras (colunas)",
-     "texto": "usar para distribuição de variável contínua agrupada em classes"
-    },
-    {
-     "itemEdital": "P1-8.2",
-     "rotulo": "Gráfico de barras (colunas)",
-     "texto": "empilhado quando se quer comparar as partes entre si."
+     "texto": "usar para distribuição de variável contínua agrupada em classes; empilhado quando se quer comparar as partes entre si."
     },
     {
      "itemEdital": "P1-8.2",
@@ -6643,22 +6633,7 @@
     {
      "itemEdital": "P1-8.2",
      "rotulo": "Box plot (diagrama de caixa)",
-     "texto": "dizer que a linha central é a média"
-    },
-    {
-     "itemEdital": "P1-8.2",
-     "rotulo": "Box plot (diagrama de caixa)",
-     "texto": "que a caixa vai do mínimo ao máximo ou contém todos os dados"
-    },
-    {
-     "itemEdital": "P1-8.2",
-     "rotulo": "Box plot (diagrama de caixa)",
-     "texto": "que os bigodes vão até 1,5 desvio padrão"
-    },
-    {
-     "itemEdital": "P1-8.2",
-     "rotulo": "Box plot (diagrama de caixa)",
-     "texto": "que mostra frequência por intervalo (isso é histograma)."
+     "texto": "dizer que a linha central é a média; que a caixa vai do mínimo ao máximo ou contém todos os dados; que os bigodes vão até 1,5 desvio padrão; que mostra frequência por intervalo (isso é histograma)."
     },
     {
      "itemEdital": "P1-8.3",

@@ -68,28 +68,28 @@
 ### A5-14 — Gabarito: C
 
 - Item do edital: P1-8.3
-- Justificativa: Três componentes e fluxo conforme U1 en-us ("three primary components"; Desktop = "development tool"; serviço "allows you to organize, manage, and distribute"); natureza Windows do Desktop conforme U2. Verificado em 8/10/2026.
+- Justificativa: Três componentes e fluxo ("three primary components"; Desktop = "development tool"; serviço "allows you to organize, manage, and distribute"); natureza Windows do Desktop.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### A5-15 — Gabarito: E
 
 - Item do edital: P1-8.3
-- Justificativa: TC (descontinuado no lugar de renomeado). Em 11/10/2022 o Data Studio foi renomeado Looker Studio ("Data Studio is now Looker Studio", GG4), não descontinuado; em abril de 2026 o nome voltou a ser Data Studio (U4, U5, U6), nome vigente. Verificado em 8/10/2026.
+- Justificativa: TC (descontinuado no lugar de renomeado). Em 11/10/2022 o Data Studio foi renomeado Looker Studio ("Data Studio is now Looker Studio"), não descontinuado; em abril de 2026 o nome voltou a ser Data Studio, nome vigente.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### A5-16 — Gabarito: C
 
 - Item do edital: P1-8.3
-- Justificativa: Public "A free platform to explore, create, and publicly share"; Server "A self-hosted platform"; Cloud "A fully hosted cloud-based" platform (U3). Verificado em 8/10/2026.
+- Justificativa: Public "A free platform to explore, create, and publicly share"; Server "A self-hosted platform"; Cloud "A fully hosted cloud-based" platform.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### A5-17 — Gabarito: E
 
 - Item do edital: P1-8.3
-- Justificativa: IC (fluxo invertido). "First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service" (U1). Verificado em 8/10/2026.
+- Justificativa: IC (fluxo invertido). "First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service".
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 

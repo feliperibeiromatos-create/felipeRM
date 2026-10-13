@@ -38,7 +38,7 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 
 **Enunciado.** Quando houver tratamento para fins exclusivos de segurança pública ou defesa nacional, a Autoridade Nacional de Proteção de Dados (ANPD) deve ser comunicada previamente pois a ela compete zelar pela proteção dos dados pessoais.
 
-> Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026 (D-LEI-15352); texto do item mantido literal
+> Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
 
 
 ### BQ-0004
@@ -565,9 +565,9 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 - Número: 91
 - URL oficial: https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_034_01.PDF
 
-**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
-
 **Texto-base.** Uma empresa recebe inúmeras solicitações de atendimento referentes à garantia de seus produtos. Cada solicitação descreve o defeito alegado pelo cliente, a data de compra do produto ou serviço e outros detalhes. A empresa deseja implantar um sistema que decida automaticamente se uma solicitação deve ser aprovada ou negada, com base em exemplos históricos de solicitações.
+
+**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
 
 **Enunciado.** O algoritmo de regressão linear é indicado para resolver o problema em questão, pois estima valores contínuos, que podem ser usados para decidir pela aprovação ou pela negação.
 
@@ -579,9 +579,9 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 - Número: 92
 - URL oficial: https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_034_01.PDF
 
-**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
-
 **Texto-base.** Uma empresa recebe inúmeras solicitações de atendimento referentes à garantia de seus produtos. Cada solicitação descreve o defeito alegado pelo cliente, a data de compra do produto ou serviço e outros detalhes. A empresa deseja implantar um sistema que decida automaticamente se uma solicitação deve ser aprovada ou negada, com base em exemplos históricos de solicitações.
+
+**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
 
 **Enunciado.** O aprendizado de máquina não supervisionado é a escolha ideal atender às condições apresentadas, pois o sistema aprende a aprovar ou a negar sem dados rotulados.
 
@@ -593,9 +593,9 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 - Número: 93
 - URL oficial: https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_034_01.PDF
 
-**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
-
 **Texto-base.** Uma empresa recebe inúmeras solicitações de atendimento referentes à garantia de seus produtos. Cada solicitação descreve o defeito alegado pelo cliente, a data de compra do produto ou serviço e outros detalhes. A empresa deseja implantar um sistema que decida automaticamente se uma solicitação deve ser aprovada ou negada, com base em exemplos históricos de solicitações.
+
+**Comando.** A partir da situação hipotética precedente, julgue os itens a seguir, que versam sobre inteligência artificial e assuntos correlatos.
 
 **Enunciado.** A situação descrita representa um problema de classificação.
 

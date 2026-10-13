@@ -46,10 +46,10 @@ REGRA DE DECISÃO PARA A PROVA
     verbo: procure o OBJETO da frase. "Identifica que há três oradores"
     = distinguir. "Identifica os oradores pelo nome" = identificação.
  4. Verificação de locutor continua sendo outra coisa: 1 para 1,
-    contra uma identidade alegada (v2, item 1.4).
+    contra uma identidade alegada (item 1.4).
 Ligação com a prática da Casa: na nota taquigráfica, o nome do
 parlamentar vem de cadastro ou da atribuição humana; o rótulo da
-diarização é só ponto de partida (v2, exemplo parlamentar do 1.4).
+diarização é só ponto de partida (exemplo parlamentar do 1.4).
 Ponte que confunde: diarização ligada à identificação por amostras de
 referência (a API da OpenAI aceita até quatro amostras com nomes) mapeia rótulos para nomes. Aí o nome existe
 por causa das amostras, não da diarização em si.

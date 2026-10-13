@@ -8,98 +8,98 @@ Julgue cada item (C = certo, E = errado). Gabarito no arquivo SIM-1_gabarito.md.
 
 **Comando.** Acerca da engenharia de prompts, julgue os itens a seguir.
 
-**1** — 4C-02 — O emprego de vários exemplos no prompt (few-shot) costuma produzir resultados melhores que o zero-shot e o one-shot, ao custo de um prompt mais longo.
+**1** — O emprego de vários exemplos no prompt (few-shot) costuma produzir resultados melhores que o zero-shot e o one-shot, ao custo de um prompt mais longo.
 
-**2** — L4-04 — A redução da temperatura de um modelo de linguagem torna suas respostas mais previsíveis, mas não assegura que o conteúdo gerado seja factualmente correto.
+**2** — A redução da temperatura de um modelo de linguagem torna suas respostas mais previsíveis, mas não assegura que o conteúdo gerado seja factualmente correto.
 
-**3** — 4C-05 — Um prompt que reúna papel, formato de saída e restrições bem definidos elimina o risco de alucinação, tornando dispensável a conferência humana da resposta.
+**3** — Um prompt que reúna papel, formato de saída e restrições bem definidos elimina o risco de alucinação, tornando dispensável a conferência humana da resposta.
 
-**4** — L4-03 — O encadeamento de prompts (prompt chaining) é a técnica em que se solicita ao modelo, em um único prompt, que explicite seu raciocínio passo a passo antes de apresentar a resposta final.
+**4** — O encadeamento de prompts (prompt chaining) é a técnica em que se solicita ao modelo, em um único prompt, que explicite seu raciocínio passo a passo antes de apresentar a resposta final.
 
-**5** — 4C-08 — A injeção de prompt restringe-se à digitação, pelo próprio usuário, de instruções destinadas a burlar as restrições do modelo, não abrangendo instruções maliciosas embutidas em textos que o modelo lê.
+**5** — A injeção de prompt restringe-se à digitação, pelo próprio usuário, de instruções destinadas a burlar as restrições do modelo, não abrangendo instruções maliciosas embutidas em textos que o modelo lê.
 
-**6** — 4C-07 — Na engenharia de prompts, a definição de critérios de sucesso claros e a realização de testes a cada alteração do prompt permitem avaliar se a modificação melhorou o resultado obtido.
+**6** — Na engenharia de prompts, a definição de critérios de sucesso claros e a realização de testes a cada alteração do prompt permitem avaliar se a modificação melhorou o resultado obtido.
 
-**7** — L4-01 — A engenharia de prompts consiste em projetar e refinar as instruções fornecidas a um modelo de linguagem para obter a saída desejada, sem alteração dos parâmetros internos do modelo.
+**7** — A engenharia de prompts consiste em projetar e refinar as instruções fornecidas a um modelo de linguagem para obter a saída desejada, sem alteração dos parâmetros internos do modelo.
 
-**8** — L4-06 — A geração aumentada por recuperação (RAG) consiste em retreinar o modelo com os documentos da organização, de modo que esse conhecimento passe a integrar os parâmetros do modelo.
+**8** — A geração aumentada por recuperação (RAG) consiste em retreinar o modelo com os documentos da organização, de modo que esse conhecimento passe a integrar os parâmetros do modelo.
 
 **Comando.** A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir.
 
-**9** — L4-08 — No agrupamento (clustering), técnica de aprendizado não supervisionado, as categorias são definidas previamente pelo analista, cabendo ao modelo atribuir cada dado a uma delas.
+**9** — No agrupamento (clustering), técnica de aprendizado não supervisionado, as categorias são definidas previamente pelo analista, cabendo ao modelo atribuir cada dado a uma delas.
 
-**10** — L4-07 — No aprendizado supervisionado, o modelo é treinado com exemplos que já contêm a resposta correta, e a tarefa de prever um valor numérico, como a quantidade de chuva em milímetros, é denominada regressão.
+**10** — No aprendizado supervisionado, o modelo é treinado com exemplos que já contêm a resposta correta, e a tarefa de prever um valor numérico, como a quantidade de chuva em milímetros, é denominada regressão.
 
-**11** — L4-09 — Diz-se que o aprendizado é não supervisionado quando o processo dispensa qualquer participação humana, inclusive na interpretação dos padrões encontrados.
+**11** — Diz-se que o aprendizado é não supervisionado quando o processo dispensa qualquer participação humana, inclusive na interpretação dos padrões encontrados.
 
-**12** — L4-10 — No aprendizado por reforço, o agente aprende por meio de recompensas e penalidades decorrentes de suas ações em um ambiente, sem que lhe seja fornecido, para cada entrada, o rótulo da ação correta.
+**12** — No aprendizado por reforço, o agente aprende por meio de recompensas e penalidades decorrentes de suas ações em um ambiente, sem que lhe seja fornecido, para cada entrada, o rótulo da ação correta.
 
 **Comando.** Acerca da IA generativa, julgue os itens a seguir.
 
-**13** — L4-14 — Denomina-se alucinação a produção, por um modelo de IA generativa, de conteúdo plausível, porém factualmente incorreto.
+**13** — Denomina-se alucinação a produção, por um modelo de IA generativa, de conteúdo plausível, porém factualmente incorreto.
 
-**14** — L4-12 — Um modelo discriminativo aprende a fronteira entre categorias, ao passo que um modelo generativo aprende a distribuição dos dados, o que lhe permite produzir novas instâncias.
+**14** — Um modelo discriminativo aprende a fronteira entre categorias, ao passo que um modelo generativo aprende a distribuição dos dados, o que lhe permite produzir novas instâncias.
 
-**15** — L4-13 — Todo modelo de fundação é um grande modelo de linguagem (LLM), uma vez que ambos os termos designam modelos pré-treinados exclusivamente em grandes volumes de texto.
+**15** — Todo modelo de fundação é um grande modelo de linguagem (LLM), uma vez que ambos os termos designam modelos pré-treinados exclusivamente em grandes volumes de texto.
 
-**16** — L4-16 — O ajuste fino (fine-tuning) e a geração aumentada por recuperação (RAG) são formas equivalentes de incorporar conhecimento a um modelo, diferindo apenas no custo computacional.
+**16** — O ajuste fino (fine-tuning) e a geração aumentada por recuperação (RAG) são formas equivalentes de incorporar conhecimento a um modelo, diferindo apenas no custo computacional.
 
 **Comando.** No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens a seguir.
 
-**17** — L4-17 — Segundo a LGPD, os dados anonimizados não são considerados dados pessoais, salvo quando o processo de anonimização puder ser revertido com esforços razoáveis.
+**17** — Segundo a LGPD, os dados anonimizados não são considerados dados pessoais, salvo quando o processo de anonimização puder ser revertido com esforços razoáveis.
 
-**18** — L4-18 — Para a administração pública, o consentimento do titular é a única hipótese legal que autoriza o tratamento de dados pessoais necessários à execução de políticas públicas.
+**18** — Para a administração pública, o consentimento do titular é a única hipótese legal que autoriza o tratamento de dados pessoais necessários à execução de políticas públicas.
 
-**19** — L4-20 — Nos termos da LAI, a publicidade é o preceito geral e o sigilo, a exceção, o que não impede a restrição legal de acesso a informações pessoais e a informações classificadas como sigilosas.
+**19** — Nos termos da LAI, a publicidade é o preceito geral e o sigilo, a exceção, o que não impede a restrição legal de acesso a informações pessoais e a informações classificadas como sigilosas.
 
-**20** — L4-19 — Quando um servidor público utiliza sistema de inteligência artificial para elaborar documento oficial, a responsabilidade pelo conteúdo do documento transfere-se ao fornecedor do sistema.
+**20** — Quando um servidor público utiliza sistema de inteligência artificial para elaborar documento oficial, a responsabilidade pelo conteúdo do documento transfere-se ao fornecedor do sistema.
 
 **Comando.** Acerca de dados, atributos, métricas e transformação de dados, julgue os itens a seguir.
 
-**21** — A5-03 — A transformação de dados restringe-se às operações que alteram a estrutura das tabelas, como a junção e a pivotagem, não abrangendo a filtragem de registros nem a criação de campos calculados.
+**21** — A transformação de dados restringe-se às operações que alteram a estrutura das tabelas, como a junção e a pivotagem, não abrangendo a filtragem de registros nem a criação de campos calculados.
 
-**22** — A5-02 — A padronização das grafias "PL", "P.L." e "Projeto de Lei" em uma base de proposições é operação de limpeza de dados, e não de agregação, ainda que modifique os valores de um atributo.
+**22** — A padronização das grafias "PL", "P.L." e "Projeto de Lei" em uma base de proposições é operação de limpeza de dados, e não de agregação, ainda que modifique os valores de um atributo.
 
-**23** — A5-04 — Dados estruturados são aqueles que não seguem esquema predefinido, como textos livres de discursos parlamentares e arquivos de áudio de sessões.
+**23** — Dados estruturados são aqueles que não seguem esquema predefinido, como textos livres de discursos parlamentares e arquivos de áudio de sessões.
 
-**24** — A5-01 — Em uma base de dados de proposições legislativas, "partido do autor" é exemplo de atributo, enquanto "número de proposições apresentadas por mês" é exemplo de métrica.
+**24** — Em uma base de dados de proposições legislativas, "partido do autor" é exemplo de atributo, enquanto "número de proposições apresentadas por mês" é exemplo de métrica.
 
 **Comando.** A respeito dos princípios de visualização de dados, julgue os itens a seguir.
 
-**25** — A5-06 — Em gráfico de barras, iniciar o eixo vertical em valor diferente de zero é prática recomendada, pois amplia as diferenças entre as categorias sem comprometer a integridade da leitura.
+**25** — Em gráfico de barras, iniciar o eixo vertical em valor diferente de zero é prática recomendada, pois amplia as diferenças entre as categorias sem comprometer a integridade da leitura.
 
-**26** — A5-07 — Para representar categorias sem ordem natural, como as unidades da Federação, recomenda-se paleta de cores sequencial, que sugere progressão de menor para maior valor.
+**26** — Para representar categorias sem ordem natural, como as unidades da Federação, recomenda-se paleta de cores sequencial, que sugere progressão de menor para maior valor.
 
-**27** — A5-05 — Na visualização de dados, é recomendável destacar a mensagem principal e eliminar elementos decorativos que não carreguem informação, de modo a reduzir o ruído visual.
+**27** — Na visualização de dados, é recomendável destacar a mensagem principal e eliminar elementos decorativos que não carreguem informação, de modo a reduzir o ruído visual.
 
 **Comando.** Acerca dos tipos de gráficos, julgue os itens a seguir.
 
-**28** — A5-12 — O box plot exibe a forma detalhada da distribuição de uma variável quantitativa, permitindo identificar bimodalidade com a mesma clareza que um histograma.
+**28** — O box plot exibe a forma detalhada da distribuição de uma variável quantitativa, permitindo identificar bimodalidade com a mesma clareza que um histograma.
 
-**29** — 5C-03 — O gráfico de barras agrupadas é o indicado para mostrar as partes que compõem um total, ao passo que o de barras empilhadas é o indicado para comparar as subcategorias entre si.
+**29** — O gráfico de barras agrupadas é o indicado para mostrar as partes que compõem um total, ao passo que o de barras empilhadas é o indicado para comparar as subcategorias entre si.
 
-**30** — 5C-04 — O gráfico de barras pode ser disposto na horizontal, arranjo que é preferível quando os rótulos das categorias são longos.
+**30** — O gráfico de barras pode ser disposto na horizontal, arranjo que é preferível quando os rótulos das categorias são longos.
 
-**31** — 5C-05 — O gráfico de bolhas acrescenta ao gráfico de dispersão uma terceira variável, representada pelo tamanho das bolhas.
+**31** — O gráfico de bolhas acrescenta ao gráfico de dispersão uma terceira variável, representada pelo tamanho das bolhas.
 
-**32** — A5-11 — No gráfico de dispersão, mesmo quando os pontos se alinham quase perfeitamente, o padrão observado indica correlação entre as duas variáveis quantitativas, e não comprova que uma cause a outra.
+**32** — No gráfico de dispersão, mesmo quando os pontos se alinham quase perfeitamente, o padrão observado indica correlação entre as duas variáveis quantitativas, e não comprova que uma cause a outra.
 
-**33** — A5-10 — O gráfico de linha é o mais indicado para comparar valores entre categorias sem ordem natural, como as comissões temáticas, porque a inclinação dos segmentos evidencia a diferença entre elas.
+**33** — O gráfico de linha é o mais indicado para comparar valores entre categorias sem ordem natural, como as comissões temáticas, porque a inclinação dos segmentos evidencia a diferença entre elas.
 
-**34** — A5-09 — No histograma, as barras são contíguas porque as classes são intervalos adjacentes de uma escala numérica; no gráfico de barras, que compara categorias, o espaçamento entre as barras é convenção de desenho.
+**34** — No histograma, as barras são contíguas porque as classes são intervalos adjacentes de uma escala numérica; no gráfico de barras, que compara categorias, o espaçamento entre as barras é convenção de desenho.
 
 **Comando.** No que se refere ao storytelling para visualização de dados, julgue os itens a seguir.
 
-**35** — A5-20 — Em uma apresentação com storytelling, o uso de cor de destaque e de anotações para direcionar a atenção ao ponto-chave do gráfico contribui para a clareza da mensagem.
+**35** — Em uma apresentação com storytelling, o uso de cor de destaque e de anotações para direcionar a atenção ao ponto-chave do gráfico contribui para a clareza da mensagem.
 
-**36** — A5-18 — O storytelling para visualização de dados combina dados, elementos visuais e narrativa para comunicar uma mensagem e conduzir o público a uma conclusão ou ação.
+**36** — O storytelling para visualização de dados combina dados, elementos visuais e narrativa para comunicar uma mensagem e conduzir o público a uma conclusão ou ação.
 
-**37** — A5-19 — A análise exploratória é aquela em que o analista, já conhecendo a mensagem principal, seleciona os dados que a sustentam para conduzir o público a uma conclusão.
+**37** — A análise exploratória é aquela em que o analista, já conhecendo a mensagem principal, seleciona os dados que a sustentam para conduzir o público a uma conclusão.
 
 **Comando.** Acerca do storytelling para visualização de dados, julgue os itens a seguir.
 
-**38** — 5C-10 — No storytelling com dados, recomenda-se escolher primeiro os gráficos mais adequados aos dados disponíveis e, somente depois, definir a mensagem principal a ser comunicada ao público.
+**38** — No storytelling com dados, recomenda-se escolher primeiro os gráficos mais adequados aos dados disponíveis e, somente depois, definir a mensagem principal a ser comunicada ao público.
 
-**39** — 5C-09 — No storytelling com dados, o contexto abrange o público e o que está em jogo, o conflito corresponde ao que os dados revelam e a resolução corresponde ao que se recomenda fazer.
+**39** — No storytelling com dados, o contexto abrange o público e o que está em jogo, o conflito corresponde ao que os dados revelam e a resolução corresponde ao que se recomenda fazer.
 
-**40** — 5C-07 — O dashboard distingue-se do storytelling com dados por organizar-se em torno de uma mensagem central, ao passo que o storytelling se caracteriza pela exploração aberta de muitos indicadores.
+**40** — O dashboard distingue-se do storytelling com dados por organizar-se em torno de uma mensagem central, ao passo que o storytelling se caracteriza pela exploração aberta de muitos indicadores.

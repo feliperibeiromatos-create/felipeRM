@@ -23,7 +23,7 @@
 ### L4-05 — Gabarito: C
 
 - Item do edital: P1-5.1
-- Justificativa: GI invertida (tentação: ver delimitadores como preciosismo). Delimitar instruções, exemplos e dados ajuda o modelo a tratar o conteúdo de referência como dado, não como instrução; é recomendação de documentação oficial — Anthropic, "XML structuring" e OpenAI, "Message formatting with Markdown and XML". Sem marca VOLÁTIL: o item afirma o conceito, não recurso de produto.
+- Justificativa: GI invertida (tentação: ver delimitadores como preciosismo). Delimitar instruções, exemplos e dados ajuda o modelo a tratar o conteúdo de referência como dado, não como instrução; é recomendação de documentação oficial — Anthropic, "XML structuring" e OpenAI, "Message formatting with Markdown and XML".
 
 ### L4-06 — Gabarito: E
 
@@ -53,7 +53,7 @@
 ### L4-11 — Gabarito: C
 
 - Item do edital: P1-5.2
-- Justificativa: GI invertida (tentação: "prioritariamente supervisionado"). O item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01) — referência, não fundamento.
+- Justificativa: GI invertida (tentação: "prioritariamente supervisionado"). O F4 afirma que "generative models are initially trained using an unsupervised approach" e que "the model is sometimes trained further using supervised or reinforcement learning"; o item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01) — referência, não fundamento.
 
 ### L4-12 — Gabarito: C
 

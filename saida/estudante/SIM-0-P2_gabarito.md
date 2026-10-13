@@ -111,7 +111,7 @@
 ### 22 — L2-Q23 — Gabarito: C
 
 - Item do edital: P2-2.6 (aderência: direta)
-- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto; NÃO VOLÁTIL.
+- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto.
 
 ### 23 — L2-Q26 — Gabarito: E
 

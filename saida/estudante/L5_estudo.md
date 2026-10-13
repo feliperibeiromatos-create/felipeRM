@@ -21,7 +21,7 @@ NOTA DO EDITAL (8.11.2): na prova objetiva, cada item vale +1,00 ponto se a marc
 
 8.2 GRÁFICOS. Histograma: variável quantitativa em classes adjacentes de escala numérica → barras contíguas e ordem fixa; mesma amplitude → altura ∝ frequência; amplitudes desiguais → área ∝ frequência (altura = densidade). Linha: evolução em eixo ordenado (tempo), tendência. Barras: comparação entre categorias; base em zero; agrupado/empilhado; espaçamento entre barras é convenção de desenho. Dispersão: relação entre duas quantitativas; correlação ≠ causalidade; bolhas = 3ª variável. Box plot: caixa Q1–Q3 (50% centrais, AIQ); linha = mediana; bigodes, por lado, até o dado mais extremo dentro de Q1 − 1,5·AIQ e Q3 + 1,5·AIQ; além, outliers; compara grupos; não mostra média nem forma detalhada.
 
-8.3 FERRAMENTAS (VOLÁTIL; verificado em 8/10/2026). Power BI: Desktop (Windows, criação de relatórios, download gratuito, Power Query Editor) → publica no serviço (organizar, gerenciar, distribuir; permite criar dashboards); Mobile = consumo. Tableau: Desktop (criação; dashboards), Cloud (hospedado pela Tableau), Server (auto-hospedado; vários sites), Prep (preparação), Mobile (interage com Server/Cloud), Public (gratuito e público). Data Studio: nome vigente; foi Looker Studio de 11/10/2022 a abril de 2026; datastudio.google.com; edição Data Studio sem custo e edição paga Pro; Looker ≠ Data Studio. A ferramenta pode sugerir ou gerar visuais; a adequação do gráfico é do analista. PENDENTE: DAX, Report Server, versões, licenças, preços, limites, macOS.
+8.3 FERRAMENTAS (VOLÁTIL). Power BI: Desktop (Windows, criação de relatórios, download gratuito, Power Query Editor) → publica no serviço (organizar, gerenciar, distribuir; permite criar dashboards); Mobile = consumo. Tableau: Desktop (criação; dashboards), Cloud (hospedado pela Tableau), Server (auto-hospedado; vários sites), Prep (preparação), Mobile (interage com Server/Cloud), Public (gratuito e público). Data Studio: nome vigente; foi Looker Studio de 11/10/2022 a abril de 2026; datastudio.google.com; edição Data Studio sem custo e edição paga Pro; Looker ≠ Data Studio. A ferramenta pode sugerir ou gerar visuais; a adequação do gráfico é do analista. PENDENTE: DAX, Report Server, versões, licenças, preços, limites, macOS.
 
 8.4 STORYTELLING. Dados + visual + narrativa; uma mensagem central e chamada à ação; contexto → conflito → resolução; público primeiro; eliminar ruído; dirigir a atenção (cor, anotação, título afirmativo); explanatória (conduz) × exploratória (descobre); não é dashboard, não é decoração.
 ```
@@ -106,29 +106,29 @@ Box plot (diagrama de caixa)
 Definição precisa (categoria)
 - Ferramenta de visualização de dados é software para conectar fontes de dados, construir visuais, reuni-los em painéis (dashboards) e compartilhar análises. A ferramenta pode sugerir ou gerar visuais, mas a adequação do gráfico ao dado e à pergunta é responsabilidade do analista (princípios de 8.1 e escolha de 8.2). Menção VOLÁTIL: o Data Studio Pro oferece, em Preview, o recurso Code Interpreter, que "translates natural language questions into Python code to provide advanced analysis and visualizations" — exemplo de ferramenta que gera visualizações; o recurso não é objeto de item.
 
-Power BI (Microsoft) — fonte principal U1 en-us; U2 só para a natureza Windows do Desktop (verificado em 8/10/2026)
-- Três componentes ("There are three primary components to Power BI"): Power BI Desktop (aplicativo de desktop), serviço do Power BI (plataforma on-line) e Power BI Mobile (aplicativo móvel multiplataforma) (U1).
-- Power BI Desktop: "the development tool available to data analysts and other report creators" (U1); "a Microsoft Windows desktop application called Power BI Desktop" (U2); "available to download for free either through the Windows store or as a direct installer" (U1); "Transform data with Power Query Editor (comes with Power BI Desktop)" (U1).
-- Serviço do Power BI: "allows you to organize, manage, and distribute your reports and other Power BI items"; "also allows you to create high-level dashboards that drill down to reports" (U1).
-- Fluxo típico: "First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service and distribute to consumers" (U1). O fluxo documentado encerra no serviço; o Mobile é consumo.
+Power BI (Microsoft)
+- Três componentes ("There are three primary components to Power BI"): Power BI Desktop (aplicativo de desktop), serviço do Power BI (plataforma on-line) e Power BI Mobile (aplicativo móvel multiplataforma).
+- Power BI Desktop: "the development tool available to data analysts and other report creators"; "a Microsoft Windows desktop application called Power BI Desktop"; "available to download for free either through the Windows store or as a direct installer"; "Transform data with Power Query Editor (comes with Power BI Desktop)".
+- Serviço do Power BI: "allows you to organize, manage, and distribute your reports and other Power BI items"; "also allows you to create high-level dashboards that drill down to reports".
+- Fluxo típico: "First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service and distribute to consumers". O fluxo documentado encerra no serviço; o Mobile é consumo.
 - PENDENTE (não afirmar): DAX, Report Server, versões, licenças, preços, limites, execução em macOS (o silêncio da fonte não é base para item).
 - Pegadinha: inverter o fluxo (criar no serviço, publicar no Desktop); dizer que o Desktop é pago; dizer que o serviço não permite criar dashboards.
 
-Tableau (Salesforce) — U3; dashboards por TB2 (verificado em 8/10/2026)
-- Família de produtos (U3): Tableau Desktop (criação e análise); Tableau Cloud — "A fully hosted cloud-based enterprise-grade analytics platform"; Tableau Server — "A self-hosted platform, either on-premises or in a public cloud", e "Tableau Server can have multiple sites"; Tableau Prep — "combining, shaping, and cleaning data"; Tableau Mobile — "interacts with visualizations on your Tableau Server or Tableau Cloud site"; Tableau Public — "A free platform to explore, create, and publicly share data visualizations online".
-- Dashboards: no Tableau Desktop, "By combining your views into an interactive dashboard, your stakeholders can compare a variety of data simultaneously" (TB2, módulo "Data Presentation and Publication in Tableau Desktop").
+Tableau (Salesforce)
+- Família de produtos: Tableau Desktop (criação e análise); Tableau Cloud — "A fully hosted cloud-based enterprise-grade analytics platform"; Tableau Server — "A self-hosted platform, either on-premises or in a public cloud", e "Tableau Server can have multiple sites"; Tableau Prep — "combining, shaping, and cleaning data"; Tableau Mobile — "interacts with visualizations on your Tableau Server or Tableau Cloud site"; Tableau Public — "A free platform to explore, create, and publicly share data visualizations online".
+- Dashboards: no Tableau Desktop, "By combining your views into an interactive dashboard, your stakeholders can compare a variety of data simultaneously" (módulo "Data Presentation and Publication in Tableau Desktop").
 - PENDENTE (não afirmar): versões e preços.
 - Pegadinha: trocar Cloud (hospedado pela Tableau) por Server (hospedado pelo cliente); dizer que o Tableau Public é privado ou pago.
 
-Data Studio (Google) — U4, U5, U6, GG4 (verificado em 8/10/2026)
-- Nome vigente: Data Studio (U4, U5, U6). Histórico: lançado como Data Studio; em 11/10/2022 passou a chamar-se Looker Studio — "And starting today, Data Studio is now Looker Studio." (GG4); em abril de 2026 voltou a chamar-se Data Studio — anúncio de 10/4/2026, "Data Studio (formerly Looker Studio)" (U6); nota de versão de 16/4/2026, "We've rebranded Looker Studio as Data Studio" (U5); U4: "In April 2026, the Looker Studio product name returned to its original name: Data Studio". Não se afirma dia exato da mudança de 2026. Endereço: https://datastudio.google.com/ ; lookerstudio.google.com redireciona (U4).
-- O que é: "turns your data into informative, shareable, and fully customizable dashboards and reports" (U4); "personal data exploration", "ad-hoc reports", dados do ecossistema Google "from BigQuery to Google Sheets and Ads" (U6).
-- Edições: a edição Data Studio é sem custo ("no-cost", U4); existe a edição paga Data Studio Pro (U4, seção "Upgrade to Data Studio Pro"; U6: "Data Studio Pro is designed for scaling teams"; anunciada como Looker Studio Pro em 11/10/2022, GG4). Preço da Pro: PENDENTE. Nunca dizer apenas "o Data Studio é gratuito".
-- Looker (plataforma): "Looker as our enterprise business intelligence platform"; o Data Studio evolui "to complement the Looker platform, independently" (U6). Produto distinto do Data Studio/Looker Studio.
+Data Studio (Google)
+- Nome vigente: Data Studio. Histórico: lançado como Data Studio; em 11/10/2022 passou a chamar-se Looker Studio — "And starting today, Data Studio is now Looker Studio."; em abril de 2026 voltou a chamar-se Data Studio — anúncio de 10/4/2026, "Data Studio (formerly Looker Studio)"; nota de versão de 16/4/2026, "We've rebranded Looker Studio as Data Studio"; "In April 2026, the Looker Studio product name returned to its original name: Data Studio". Não se afirma dia exato da mudança de 2026. Endereço: https://datastudio.google.com/ ; lookerstudio.google.com redireciona.
+- O que é: "turns your data into informative, shareable, and fully customizable dashboards and reports"; "personal data exploration", "ad-hoc reports", dados do ecossistema Google "from BigQuery to Google Sheets and Ads".
+- Edições: a edição Data Studio é sem custo ("no-cost"); existe a edição paga Data Studio Pro (seção "Upgrade to Data Studio Pro"; "Data Studio Pro is designed for scaling teams"; anunciada como Looker Studio Pro em 11/10/2022). Preço da Pro: PENDENTE. Nunca dizer apenas "o Data Studio é gratuito".
+- Looker (plataforma): "Looker as our enterprise business intelligence platform"; o Data Studio evolui "to complement the Looker platform, independently". Produto distinto do Data Studio/Looker Studio.
 - Pegadinha: afirmar que "o Data Studio foi descontinuado e substituído pelo Looker Studio" (foi renomeado, e o nome voltou em abril de 2026); confundir Data Studio com Looker; tratar Looker Studio e Data Studio como produtos diferentes; atribuir à ferramenta a responsabilidade pela adequação do gráfico (a ferramenta pode sugerir ou gerar visuais, mas a adequação ao dado e à pergunta é do analista); misturar com Excel/Office (item 1 do edital, MSOffice 365, fora do escopo deste lote).
 
 Exemplo aplicado
-- Uma consultoria legislativa reúne em um painel os visuais de proposições por tema, tipo e mês. No Power BI, o fluxo documentado é criar o relatório no Power BI Desktop e publicá-lo no serviço, de onde é distribuído aos consumidores (U1). No Tableau e no Data Studio, o painel é construído e compartilhado com os produtos de cada família, sem que este lote afirme um fluxo específico. Em qualquer ferramenta, a escolha de barras para "por tema" e de linha para "por mês" é responsabilidade do analista, ainda que a ferramenta sugira ou gere visuais.
+- Uma consultoria legislativa reúne em um painel os visuais de proposições por tema, tipo e mês. No Power BI, o fluxo documentado é criar o relatório no Power BI Desktop e publicá-lo no serviço, de onde é distribuído aos consumidores. No Tableau e no Data Studio, o painel é construído e compartilhado com os produtos de cada família, sem que este lote afirme um fluxo específico. Em qualquer ferramenta, a escolha de barras para "por tema" e de linha para "por mês" é responsabilidade do analista, ainda que a ferramenta sugira ou gere visuais.
 
 ## ITEM 8.4 — STORYTELLING PARA VISUALIZAÇÃO DE DADOS
 
@@ -192,15 +192,11 @@ Pegadinha provável
 - [P1-8.2] **Gráfico de linha** — usar linha para categorias sem ordem (partidos, comissões), o que sugere continuidade inexistente.
 - [P1-8.2] **Gráfico de barras (colunas)** — confundir com histograma
 - [P1-8.2] **Gráfico de barras (colunas)** — aceitar eixo truncado
-- [P1-8.2] **Gráfico de barras (colunas)** — usar para distribuição de variável contínua agrupada em classes
-- [P1-8.2] **Gráfico de barras (colunas)** — empilhado quando se quer comparar as partes entre si.
+- [P1-8.2] **Gráfico de barras (colunas)** — usar para distribuição de variável contínua agrupada em classes; empilhado quando se quer comparar as partes entre si.
 - [P1-8.2] **Gráfico de dispersão** — afirmar que mostra causa e efeito
 - [P1-8.2] **Gráfico de dispersão** — confundir com linha
 - [P1-8.2] **Gráfico de dispersão** — dizer que exige variável categórica em um dos eixos.
-- [P1-8.2] **Box plot (diagrama de caixa)** — dizer que a linha central é a média
-- [P1-8.2] **Box plot (diagrama de caixa)** — que a caixa vai do mínimo ao máximo ou contém todos os dados
-- [P1-8.2] **Box plot (diagrama de caixa)** — que os bigodes vão até 1,5 desvio padrão
-- [P1-8.2] **Box plot (diagrama de caixa)** — que mostra frequência por intervalo (isso é histograma).
+- [P1-8.2] **Box plot (diagrama de caixa)** — dizer que a linha central é a média; que a caixa vai do mínimo ao máximo ou contém todos os dados; que os bigodes vão até 1,5 desvio padrão; que mostra frequência por intervalo (isso é histograma).
 - [P1-8.3] **Power BI (Microsoft)** — inverter o fluxo (criar no serviço, publicar no Desktop)
 - [P1-8.3] **Power BI (Microsoft)** — dizer que o Desktop é pago
 - [P1-8.3] **Power BI (Microsoft)** — dizer que o serviço não permite criar dashboards.

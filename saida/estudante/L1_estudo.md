@@ -463,7 +463,7 @@ custódia do áudio.
 - **Endpointing sensível** × **preciso** — rápido e corta / lento e completo.
 - **WER** × **DER** — erro de palavras / erro de atribuição de locutor.
 - **Whisper (modelo aberto)** × **API OpenAI (serviço)** — local / nuvem.
-- **Tradução (whisper-1, só para inglês)** × **transcrição (idioma original)** — 
+- **Tradução (whisper-1, só para inglês)** × **transcrição (idioma original)**
 - **Timestamps por palavra** × **por enunciado** — granularidade fina (cada palavra com início e fim) / granularidade grossa (cada frase ou trecho).
 - **LLM de áudio nativo** × **ASR aprimorado por LLM** — áudio como entrada do LLM / reconhecimento de fala reforçado por LLM.
 
@@ -477,8 +477,7 @@ custódia do áudio.
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "ASR aprimorado por LLM" com "LLM de áudio nativo".
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Nomes e versões de modelos mudam em meses: a banca pode cobrar o CONCEITO, não o nome do produto.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Definir diarização como "identificação" ou "verificação". Afirmar que diarização está disponível "em qualquer modo" de qualquer serviço — ou que nunca existe em streaming. Afirmar que a diarização resolve sozinha a fala sobreposta.
-- [P2-1.5] **Pontuação automática e capitalização em transcrições** — Dizer que a pontuação automática "detecta os sinais pronunciados" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios "com certeza" — ela estima
-- [P2-1.5] **Pontuação automática e capitalização em transcrições** — "Câmara" (instituição) vs "câmara" (sala) é decisão de contexto que o modelo pode errar.
+- [P2-1.5] **Pontuação automática e capitalização em transcrições** — Dizer que a pontuação automática "detecta os sinais pronunciados" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios "com certeza" — ela estima; "Câmara" (instituição) vs "câmara" (sala) é decisão de contexto que o modelo pode errar.
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — Igualar custom vocabulary a retreinamento
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — dizer que CLM se treina com áudio (no AWS é com texto)
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — dizer que "modelos multilíngues eliminam o problema do pt-BR"

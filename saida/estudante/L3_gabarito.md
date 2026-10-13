@@ -103,7 +103,7 @@
 ### L3-Q21 — Gabarito: C
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026. A Lei cria a Agência (nova redação do art. 55-A) e transfere a ela os acervos (art. 15 da Lei 15.352/2026); a "autoridade nacional" passou a ser exercida por ela. REVERIFICAR (normativo) 04–08/01/2027; não VOLÁTIL.
+- Justificativa: LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026. A Lei cria a Agência (nova redação do art. 55-A) e transfere a ela os acervos (art. 15 da Lei 15.352/2026); a "autoridade nacional" passou a ser exercida por ela.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 

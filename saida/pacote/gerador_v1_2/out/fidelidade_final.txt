@@ -1,0 +1,16 @@
+pacote: /home/claude/fabrica_camara2026/saida/pacote/pacote.json
+estudante: /home/claude/fabrica_camara2026/saida/estudante
+comparações: {'texto': 1380, 'metadado': 802, 'estrutura': 48, 'prova/metadado': 1883, 'aviso/nota': 1067, 'gabarito': 451} | total 5631
+DIFERENÇAS: 0
+exceções fechadas usadas: CAIXA (C-15) 8 trocas; nota de BQ-0003 (C-18) 4 exibições (['BQ-0003'])
+   CAIXA ('L6A_estudo.md', 'curso', 'DIR CÉLULAS\nConforme a F2 (leitura de 08/10/2026): mesclar combina duas ', 'DIR CÉLULAS\nMesclar combina duas ')
+   CAIXA ('L6A_estudo.md', 'curso', '3 FUNÇÃO SE\nConforme a F5: a função SE compara u', '3 FUNÇÃO SE\nA função SE compara u')
+   CAIXA ('L6A_estudo.md', 'curso', 'UNÇÃO PROCV\nConforme a F6: o PROCV pesquisa um v', 'UNÇÃO PROCV\nO PROCV pesquisa um v')
+   CAIXA ('L6A_estudo.md', 'curso', 'LIDE MESTRE\nConforme a F7: o propósito é fazer t', 'LIDE MESTRE\nO propósito é fazer t')
+   CAIXA ('L6A_estudo.md', 'curso', ' TRANSIÇÕES\nConforme a F8: a animação é aplicada', ' TRANSIÇÕES\nA animação é aplicada')
+   CAIXA ('L6A_estudo.md', 'curso', ' DE VERSÕES\nConforme a F11: o histórico de versõe', ' DE VERSÕES\nO histórico de versõe')
+   CAIXA ('L6A_estudo.md', 'curso', 'n deleted". Segundo a F14, por padrão os cliente', 'n deleted". Por padrão os cliente')
+   CAIXA ('L6A_estudo.md', 'curso', 'te offline. Segundo a F14, por padrão os cliente', 'te offline. Por padrão os cliente')
+marcas residuais nos arquivos: 2
+   ('L4_gabarito.md', 56, 'F4', ': "prioritariamente supervisionado"). O F4 afirma que "generative models are initi')
+   ('L6A_estudo.md', 83, 'F4', '- A tecla F4, com a referência selecionada na barra ')

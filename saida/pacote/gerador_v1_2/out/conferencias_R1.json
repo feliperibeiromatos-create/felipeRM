@@ -1,0 +1,710 @@
+[
+ [
+  "C-01",
+  "pacote 4C-09 justificativa",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-01",
+  "edição 4C-09 (L4C_gabarito + simulados)",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-02",
+  "pacote 6B-06 justificativa",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-02",
+  "edição 6B-06 (já limpa na R0)",
+  true,
+  "atual: R0=0 (prev 0) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-03",
+  "pacote 6B-15 justificativa",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-03",
+  "edição 6B-15 (já limpa na R0)",
+  true,
+  "atual: R0=0 (prev 0) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-04",
+  "pacote L2-Q21 justificativa",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-04",
+  "edição L2-Q21",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-05",
+  "pacote 4C-08 justificativa (R0: \"... curso). o item\"; fonte: \"Lição O10: o item\")",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-05",
+  "pacote 5C-06 justificativa (R0: \"... amostra. a regra\"; fonte: \"Lição O10: a regra\")",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-05",
+  "edição 4C-08 (inicial maiúscula)",
+  true,
+  "atual: R0=2 (prev 2) R1=0 (prev 0) | novo: R0=0 R1=2 (prev 2)"
+ ],
+ [
+  "C-05",
+  "edição 5C-06 (inicial maiúscula)",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-12",
+  "L4_estudo 224 e 283 (\";)\")",
+  true,
+  "atual: R0=2 (prev 2) R1=0 (prev 0) | novo: R0=0 R1=2 (prev 2)"
+ ],
+ [
+  "C-13",
+  "L4-11 restaurada (L4_gabarito)",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-16a",
+  "L6A 166 (frase sem sujeito)",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-16b",
+  "L6A 60 (\"(diz …\")",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-16c",
+  "L6A 135 (\"e orienta …\")",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-17",
+  "L1C 49",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-17",
+  "L1C 52",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-18",
+  "nota BQ-0003 na edição (4 arquivos)",
+  true,
+  "atual: R0=4 (prev 4) R1=0 (prev 0) | novo: R0=0 R1=4 (prev 4)"
+ ],
+ [
+  "C-19",
+  "L6A_estudo: Nas páginas de suporte abertas hoje, a M",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6A_estudo: (conceito geral; sem fonte aberta hoje p",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: 4.0.2 GOVERNANÇA DIGITAL (conceito geral",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: Fontes abertas hoje: \"Faça backups",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: uma fora do local), sem fonte aberta hoj",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: Definição de vírus aberta hoje: \"program",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: Definição de ransomware aberta hoje: \"Ra",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_estudo: Definição aberta hoje: o phishing",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-19",
+  "L6B_gabarito: não foi confirmada em fonte aberta hoje;",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-21",
+  "L2-Q23 (L2_gabarito + SIM-0-P2_gabarito)",
+  true,
+  "atual: R0=2 (prev 2) R1=0 (prev 0) | novo: R0=0 R1=2 (prev 2)"
+ ],
+ [
+  "C-21",
+  "L3-Q21",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-21",
+  "L4-05",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=1 R1=1 (prev 1)"
+ ],
+ [
+  "C-23",
+  "L4_estudo 210",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: 2026 (N1). Convenção da Câmara",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: NÃO VERIFICADA (N2).",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: [Ver N5: definição de uso corrente; sem ",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: Câmara (N2): mostra",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: de 2026 (N1); o curso",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: instituições (N2); dentro",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: verificado (N2). Ilustrativo",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L2_estudo: produto; ver N3):",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: (N6: não cobrar\\ndescrição de sistema rea",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: (N6: não cobrar descrição de sistema rea",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: verificado (N6); o",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: verificados\\n   (N5). A banca",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: (N4; não há texto legal",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-22",
+  "L3_estudo: verificada — N7):",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-24",
+  "par L3 \"Confidencialidade…\" (× **** — )",
+  true,
+  "atual: R0=1 (prev 1) R1=0 (prev 0) | novo: R0=0 R1=1 (prev 1)"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: mesclar combina duas ou mais células",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: a função SE compara um valor",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: o PROCV pesquisa um valor",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: o propósito é fazer todos os slides",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: a animação é aplicada a um único eleme",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: o histórico de versões permite ver",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: deleted\". por padrão os clientes POP3",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-15",
+  "L6A_estudo: offline. por padrão os clientes IMAP4",
+  true,
+  "atual R0=1 R1=0 | novo R1=1"
+ ],
+ [
+  "C-06",
+  "L1 P2-1.5: R0 2 entradas (atual) → R1 1 entrada (novo, dict literal)",
+  true,
+  "entradas R0=2 R1=1"
+ ],
+ [
+  "C-07",
+  "L5 Gráfico de barras: R0 4 entradas → R1 3 (2 mantidas + 1 reunida)",
+  true,
+  "R0=4 R1=3"
+ ],
+ [
+  "C-08",
+  "L5 Box plot: R0 4 entradas → R1 1 entrada (dict literal)",
+  true,
+  "R0=4 R1=1"
+ ],
+ [
+  "C-06",
+  "edição L1_estudo: reunião",
+  true,
+  "novo R1=1 | atual(rx) R0=1 R1=0"
+ ],
+ [
+  "C-07",
+  "edição L5_estudo: reunião",
+  true,
+  "novo R1=1 | atual(rx) R0=1 R1=0"
+ ],
+ [
+  "C-08",
+  "edição L5_estudo: reunião",
+  true,
+  "novo R1=1 | atual(rx) R0=1 R1=0"
+ ],
+ [
+  "C-09",
+  "varredura F4 nas 180 justificativas AUTORAL (QA, O-n, Retificação, Gabarito C|E mantido)",
+  true,
+  "R0 acusa ['4C-09', '6B-06', '6B-15', 'L2-Q21']; R1 acusa []"
+ ],
+ [
+  "C-10",
+  "folhas: linhas de item com id (atual) 165→0; linhas sem id (novo) 165",
+  true,
+  "R0=165 R1=0 | novo R1=165"
+ ],
+ [
+  "C-10",
+  "id presente nos *_gabarito.md dos simulados (165/165)",
+  true,
+  "165"
+ ],
+ [
+  "C-11",
+  "texto-base antes do comando em todos os arquivos (R1: 4 TB→Cmd, 0 Cmd→TB; R0: 0 e 4)",
+  true,
+  "{'R1 TB→Cmd': 4, 'R1 Cmd→TB': 0, 'R0 TB→Cmd': 0, 'R0 Cmd→TB': 4}"
+ ],
+ [
+  "C-11",
+  "BANCO_itens (3) e SIM-0_folha (1)",
+  true,
+  ""
+ ],
+ [
+  "C-13",
+  "L4_gabarito L4-11 = justificativa do pacote menos exatamente \" Fonte: F4, reverificado em 7/10/2026.\"",
+  true,
+  ""
+ ],
+ [
+  "C-14",
+  "edição 6B-15 e 6B-06 igual à R0 salvo C-19 (regras literais sem objeto retiradas)",
+  true,
+  ""
+ ],
+ [
+  "C-16",
+  "L6A: linha seguinte à frase apagada é a em branco antes de \"### 3.1.3\"",
+  true,
+  ""
+ ],
+ [
+  "C-20",
+  "L5_*.md: 0 ocorrência de U1–U6, GG, TB, CI e \"erificado em 8/10/2026\" (R0: >0)",
+  true,
+  "R0=49 R1=0"
+ ],
+ [
+  "C-20",
+  "títulos exatos Power BI (Microsoft) / Tableau (Salesforce) / Data Studio (Google)",
+  true,
+  ""
+ ],
+ [
+  "C-20",
+  "A5-14 a A5-17 na edição = texto exigido pela GBQ (4/4)",
+  true,
+  ""
+ ],
+ [
+  "C-20",
+  "8.3 resumo: \"8.3 FERRAMENTAS (VOLÁTIL).\" sem \"verificado em\"",
+  true,
+  ""
+ ],
+ [
+  "C-24",
+  "linhas terminadas em \" — \" (R0: 27 = L1 1, L2 9, L3 17; R1: 0) e \"× ****\" (R0 1; R1 0)",
+  true,
+  "R0 L1/L2/L3=[1, 9, 17]; R1 total=0"
+ ],
+ [
+  "C-24",
+  "par L1 \"Tradução (whisper-1…)\" sem \" — \"",
+  true,
+  ""
+ ],
+ [
+  "DIFF",
+  "itens: mesma lista de ids na mesma ordem",
+  true,
+  ""
+ ],
+ [
+  "DIFF",
+  "pacote R0→R1: só justificativa de 4C-08, 4C-09, 5C-06, 6B-06, 6B-15, L2-Q21 e pegadinhas de L1 e L5",
+  true,
+  "diferenças: ['4C-08/justificativa', '4C-09/justificativa', '5C-06/justificativa', '6B-06/justificativa', '6B-15/justificativa', 'L1/pegadinhas', 'L2-Q21/justificativa', 'L5/pegadinhas'] ; fora da lista: []"
+ ],
+ [
+  "DIFF",
+  "4C-08 justificativa: só deleção + 1 troca de caixa",
+  true,
+  "trocas de caixa=1"
+ ],
+ [
+  "DIFF",
+  "4C-09 justificativa: só deleção",
+  true,
+  "trocas de caixa=0"
+ ],
+ [
+  "DIFF",
+  "5C-06 justificativa: só deleção + 1 troca de caixa",
+  true,
+  "trocas de caixa=1"
+ ],
+ [
+  "DIFF",
+  "6B-06 justificativa: só deleção",
+  true,
+  "trocas de caixa=0"
+ ],
+ [
+  "DIFF",
+  "6B-15 justificativa: só deleção",
+  true,
+  "trocas de caixa=0"
+ ],
+ [
+  "DIFF",
+  "L2-Q21 justificativa: só deleção",
+  true,
+  "trocas de caixa=0"
+ ],
+ [
+  "DIFF",
+  "pegadinhas L1: demais entradas idênticas entrada a entrada; junção \"; \" = entrada reunida",
+  true,
+  "R0=20 R1=19"
+ ],
+ [
+  "DIFF",
+  "pegadinhas L5: demais entradas idênticas entrada a entrada; junção \"; \" = entrada reunida",
+  true,
+  "R0=52 R1=48"
+ ],
+ [
+  "CONT",
+  "pegadinhas total",
+  true,
+  "R0=267 R1=262 previsto R1=262"
+ ],
+ [
+  "CONT",
+  "pegadinhas L1",
+  true,
+  "R0=20 R1=19 previsto R1=19"
+ ],
+ [
+  "CONT",
+  "pegadinhas L5",
+  true,
+  "R0=52 R1=48 previsto R1=48"
+ ],
+ [
+  "CONT",
+  "justificativas F4 (≠ v1.1)",
+  true,
+  "R0=18 R1=21 previsto R1=21"
+ ],
+ [
+  "CONT",
+  "itens",
+  true,
+  "R0=286 R1=286 previsto R1=286"
+ ],
+ [
+  "CONT",
+  "C",
+  true,
+  "R0=149 R1=149 previsto R1=149"
+ ],
+ [
+  "CONT",
+  "E",
+  true,
+  "R0=137 R1=137 previsto R1=137"
+ ],
+ [
+  "CONT",
+  "aderência direta",
+  true,
+  "R0=247 R1=247 previsto R1=247"
+ ],
+ [
+  "CONT",
+  "aderência parcial",
+  true,
+  "R0=39 R1=39 previsto R1=39"
+ ],
+ [
+  "CONT",
+  "volatil",
+  true,
+  "R0=23 R1=23 previsto R1=23"
+ ],
+ [
+  "CONT",
+  "nota",
+  true,
+  "R0=2 R1=2 previsto R1=2"
+ ],
+ [
+  "CONT",
+  "comandoOriginal",
+  true,
+  "R0=90 R1=90 previsto R1=90"
+ ],
+ [
+  "CONT",
+  "simulados n",
+  true,
+  "R0=[60, 40, 40, 25] R1=[60, 40, 40, 25] previsto R1=[60, 40, 40, 25]"
+ ],
+ [
+  "CONT",
+  "pares por lote",
+  true,
+  "R0=[17, 0, 22, 28, 20, 0, 15, 0, 19, 18] R1=[17, 0, 22, 28, 20, 0, 15, 0, 19, 18] previsto R1=[17, 0, 22, 28, 20, 0, 15, 0, 19, 18]"
+ ],
+ [
+  "CONT",
+  "discursivas",
+  true,
+  "R0=5 R1=5 previsto R1=5"
+ ],
+ [
+  "CONT",
+  "edital",
+  true,
+  "R0=47 R1=47 previsto R1=47"
+ ],
+ [
+  "CONT",
+  "arquivos da edição",
+  true,
+  "R0=43 R1=43 previsto R1=43"
+ ],
+ [
+  "VARR",
+  ";\\)",
+  true,
+  "R0=2 R1=0"
+ ],
+ [
+  "VARR",
+  " — $",
+  true,
+  "R0=27 R1=0"
+ ],
+ [
+  "VARR",
+  "\\*\\*\\*\\*",
+  true,
+  "R0=1 R1=0"
+ ],
+ [
+  "VARR",
+  "abertas? hoje",
+  true,
+  "R0=9 R1=0"
+ ],
+ [
+  "VARR",
+  "\\(v2,",
+  true,
+  "R0=2 R1=0"
+ ],
+ [
+  "VARR",
+  "D-LEI-15352",
+  true,
+  "R0=4 R1=0"
+ ],
+ [
+  "VARR",
+  "neste chat",
+  true,
+  "R0=1 R1=0"
+ ],
+ [
+  "VARR",
+  "Retificação",
+  true,
+  "R0=1 R1=0"
+ ],
+ [
+  "VARR",
+  "Gabarito [CE] mantido",
+  true,
+  "R0=1 R1=0"
+ ],
+ [
+  "VARR",
+  "\\b(?:U[1-6]|GG\\d|TB\\d|CI)\\b",
+  true,
+  "R0=41 R1=0"
+ ],
+ [
+  "VARR",
+  "\\bN\\d\\b em L1_,L1C_,L2_,L3_,SIM-2,SIM-0-P2",
+  true,
+  "R0=14 R1=0"
+ ],
+ [
+  "VARR",
+  " — (?:BQ|L\\d|4C|5C|6A|6B|A5) em SIM-0_folha,SIM-1_folha,SIM-2_folha,SIM-0-P2_folha",
+  true,
+  "R0=165 R1=0"
+ ],
+ [
+  "VARR",
+  "códigos F: só \"a tecla F4\" (L6A) e \"O F4 afirma\" (L4-11)",
+  true,
+  "[('L4_gabarito.md', 56), ('L6A_estudo.md', 83)]"
+ ],
+ [
+  "VARR",
+  "VOLÁTIL fora do aviso fixo: só em arquivos *_estudo.md (títulos/rubricas de curso e resumo) e nas justificativas de gabarito?",
+  true,
+  "por arquivo: {'L4_estudo.md': 2, 'L5_estudo.md': 3, 'L6A_estudo.md': 2}"
+ ],
+ [
+  "DIFF-E",
+  "edição R0→R1: toda linha alterada é atribuível a uma correção C-01..C-24",
+  true,
+  "atribuídas: {'C-01': 1, 'C-04': 1, 'C-05': 3, 'C-06': 2, 'C-07': 2, 'C-08': 4, 'C-10': 165, 'C-11': 7, 'C-12': 2, 'C-13': 1, 'C-15': 8, 'C-16': 3, 'C-17': 2, 'C-18': 4, 'C-19': 9, 'C-20': 19, 'C-21': 4, 'C-22': 14, 'C-23': 1, 'C-24': 27}; sem atribuição: []"
+ ]
+]

@@ -1,0 +1,2863 @@
+{
+ "errata": [
+  {
+   "lote": "L1",
+   "id": "E1",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E2",
+   "x": 1,
+   "y": 1,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E3",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E4a",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E4b",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E4c",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E5",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E9",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E10",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "F5",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E12",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1C",
+   "id": "E1",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1C",
+   "id": "E3",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E1a-curso",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E1b-resumo",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E1c-par15",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E1d-dgQ21",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E2",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E3b",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E5",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E6",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L2",
+   "id": "E7",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E1a",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E1b",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E2",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E3a",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E3b",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "E4",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L3",
+   "id": "Adendo 2 (3.1)",
+   "x": 0,
+   "y": 0,
+   "x_free": 0,
+   "y_free": 0,
+   "estado": "JÁ PRESENTE",
+   "note": "bloco \"CONTEXTO NORMATIVO INTERNO (SEM ITEM)\" (T-08/T-44) já cobre o Ato nº 225/2025 no 3.1 (art. 3º, I, III, V, VIII, IX; art. 4º, IV): NÃO duplicado"
+  },
+  {
+   "lote": "L3",
+   "id": "Adendo 2 (4.1)",
+   "x": 0,
+   "y": 1,
+   "x_free": 0,
+   "y_free": 1,
+   "estado": "APLICADA",
+   "note": "texto literal do Adendo 2 inserido ao final do item 4.1 (antes de \"--- 4.2\")"
+  },
+  {
+   "lote": "L1",
+   "id": "E7a",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  },
+  {
+   "lote": "L1",
+   "id": "E7b",
+   "x": 1,
+   "y": 0,
+   "x_free": 1,
+   "y_free": 0,
+   "estado": "APLICADA",
+   "note": ""
+  }
+ ],
+ "f1": [
+  [
+   "saida/gce/GCE_Lote1_v2_CPP.md",
+   "uam dependendo de pares áudio–|texto para treinamen"
+  ]
+ ],
+ "f4": [
+  {
+   "id": "L2-Q21",
+   "antes": "Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto [F7]. Gabarito E mantido.",
+   "depois": "Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto [F7].",
+   "deletado": [
+    " Gabarito E mantido."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L2-Q23",
+   "antes": "Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante [V 08/10/2026 — F3]. Depende de padrão técnico estável, não de produto; NÃO VOLÁTIL (classificação final da CQFP).",
+   "depois": "Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante [V 08/10/2026 — F3]. Depende de padrão técnico estável, não de produto; NÃO VOLÁTIL.",
+   "deletado": [
+    " (classificação final da CQFP)"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-08",
+   "antes": "TC. A descrição é da classificação (categorias definidas antes pelo humano); no clustering, o modelo encontra os grupos, e o humano pode nomeá-los com base em seu entendimento dos dados (F4: \"You might then attempt to name those clusters\"). Fonte: F4, verificado em 7/10/2026. (v3 — O12)",
+   "depois": "TC. A descrição é da classificação (categorias definidas antes pelo humano); no clustering, o modelo encontra os grupos, e o humano pode nomeá-los com base em seu entendimento dos dados (F4: \"You might then attempt to name those clusters\"). Fonte: F4, verificado em 7/10/2026.",
+   "deletado": [
+    " (v3 — O12)"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-09",
+   "antes": "GI. \"Não supervisionado\" significa ausência de rótulos nos dados; o humano escolhe os dados e os parâmetros e interpreta os resultados — e pode nomear os grupos encontrados (F4). Fonte: F4, verificado em 7/10/2026. (v3 — O12)",
+   "depois": "GI. \"Não supervisionado\" significa ausência de rótulos nos dados; o humano escolhe os dados e os parâmetros e interpreta os resultados — e pode nomear os grupos encontrados (F4). Fonte: F4, verificado em 7/10/2026.",
+   "deletado": [
+    " (v3 — O12)"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-13",
+   "antes": "GI. Modelo de fundação é \"a very large pre-trained model trained on an enormous and diverse training set\", não necessariamente texto; LLM é modelo de linguagem com muitíssimos parâmetros; o F3 define os termos separadamente (O1). Fonte: F3, verificado em 7/10/2026.",
+   "depois": "GI. Modelo de fundação é \"a very large pre-trained model trained on an enormous and diverse training set\", não necessariamente texto; LLM é modelo de linguagem com muitíssimos parâmetros; o F3 define os termos separadamente. Fonte: F3, verificado em 7/10/2026.",
+   "deletado": [
+    " (O1)"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-15",
+   "antes": "GI + IC. O modelo, por si só, responde com o conhecimento incorporado no treinamento; consulta a dados externos só com RAG, busca ou ferramentas acopladas (F2); \"sempre a informação mais atual\" é generalização indevida. Fonte: F2, verificado em 7/10/2026. Risco MÉDIO; mantido como está (conferido pela CQFP: \"por si só\" e \"sempre\" sustentam o E).",
+   "depois": "GI + IC. O modelo, por si só, responde com o conhecimento incorporado no treinamento; consulta a dados externos só com RAG, busca ou ferramentas acopladas (F2); \"sempre a informação mais atual\" é generalização indevida. Fonte: F2, verificado em 7/10/2026.",
+   "deletado": [
+    " Risco MÉDIO; mantido como está (conferido pela CQFP: \"por si só\" e \"sempre\" sustentam o E)."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-17",
+   "antes": "TC (tentação: ler a ressalva como erro). LGPD, art. 12, caput: dados anonimizados não são dados pessoais, salvo quando a anonimização for revertida ou puder sê-lo com esforços razoáveis; art. 5º, III, apenas define. Base: N1, art. 12, caput; art. 5º, III. Aprovado pela CQFP (art. 12, caput, conferido no Planalto em 07/10/2026).",
+   "depois": "TC (tentação: ler a ressalva como erro). LGPD, art. 12, caput: dados anonimizados não são dados pessoais, salvo quando a anonimização for revertida ou puder sê-lo com esforços razoáveis; art. 5º, III, apenas define. Base: N1, art. 12, caput; art. 5º, III.",
+   "deletado": [
+    " Aprovado pela CQFP (art. 12, caput, conferido no Planalto em 07/10/2026)."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-18",
+   "antes": "GI. O consentimento (art. 7º, I) é uma das bases; a execução de políticas públicas pela administração tem base própria no art. 7º, III, além da obrigação legal (art. 7º, II). Base: N1, art. 7º, I, II e III — conferido pela CQFP no Planalto em 08/10/2026.",
+   "depois": "GI. O consentimento (art. 7º, I) é uma das bases; a execução de políticas públicas pela administração tem base própria no art. 7º, III, além da obrigação legal (art. 7º, II). Base: N1, art. 7º, I, II e III.",
+   "deletado": [
+    " — conferido pela CQFP no Planalto em 08/10/2026"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-19",
+   "antes": "IC (responsabilidade deslocada para o instrumento). A ferramenta não é agente público; quem pratica o ato responde por ele; supervisão humana é o princípio aplicável (curso 6.1 e 6.2). Gabarito E aprovado pela CQFP sem dependência de norma; o item não se apoia em dispositivo legal.",
+   "depois": "IC (responsabilidade deslocada para o instrumento). A ferramenta não é agente público; quem pratica o ato responde por ele; supervisão humana é o princípio aplicável (curso 6.1 e 6.2). Gabarito E sem dependência de norma; o item não se apoia em dispositivo legal.",
+   "deletado": [
+    " aprovado pela CQFP"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "L4-20",
+   "antes": "GI invertida. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: N2, arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I — conferidos pela CQFP no Planalto em 08/10/2026.",
+   "depois": "GI invertida. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: N2, arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I.",
+   "deletado": [
+    " — conferidos pela CQFP no Planalto em 08/10/2026"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "4C-06",
+   "antes": "AT (tentação: tomar a instrução longa ou a descrição do formato desejado por \"exemplo\" e concluir que o prompt é one-shot → marcar E). Curso 5.1.2 (itens 4 e 5): exemplos são demonstrações de entrada e saída; o formato de saída é a forma da resposta (tabela, JSON, número de linhas) e, descrito em palavras, não é demonstração. Curso 5.1.3: zero-shot = prompt sem nenhum exemplo de resposta esperada, só a instrução (F3). A extensão da instrução e a descrição do formato não a transformam em exemplo. Difere do item 2 do Lote 4 porque aquele julga o few-shot pelo número de exemplos (um único exemplo é one-shot); este julga o zero-shot pela ausência de qualquer demonstração, ainda que a instrução seja longa e detalhada. Fonte: F3, zero-shot (\"A prompt that does not provide an example of how you want the large language model to respond\", conferido pela CQFP em 07/10/2026, conforme o parecer da rodada 1), e curso 5.1.2 e 5.1.3.",
+   "depois": "AT (tentação: tomar a instrução longa ou a descrição do formato desejado por \"exemplo\" e concluir que o prompt é one-shot → marcar E). Curso 5.1.2 (itens 4 e 5): exemplos são demonstrações de entrada e saída; o formato de saída é a forma da resposta (tabela, JSON, número de linhas) e, descrito em palavras, não é demonstração. Curso 5.1.3: zero-shot = prompt sem nenhum exemplo de resposta esperada, só a instrução (F3). A extensão da instrução e a descrição do formato não a transformam em exemplo. Difere do item 2 do Lote 4 porque aquele julga o few-shot pelo número de exemplos (um único exemplo é one-shot); este julga o zero-shot pela ausência de qualquer demonstração, ainda que a instrução seja longa e detalhada. Fonte: F3, zero-shot (\"A prompt that does not provide an example of how you want the large language model to respond\"), e curso 5.1.2 e 5.1.3.",
+   "deletado": [
+    ", conferido pela CQFP em 07/10/2026, conforme o parecer da rodada 1"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "4C-08",
+   "antes": "GI (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). Lição O10: o item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo \"restringe-se\" nega. O item não usa o par injeção × jailbreak (C19) como critério. Fonte: curso 5.1.4.",
+   "depois": "GI (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo \"restringe-se\" nega. O item não usa o par injeção × jailbreak (C19) como critério. Fonte: curso 5.1.4.",
+   "deletado": [],
+   "caixa": [
+    [
+     "Lição O10: o item",
+     "O item"
+    ]
+   ]
+  },
+  {
+   "id": "4C-09",
+   "antes": "sem armadilha (ancoragem; R-4C1). Curso 5.1.2 (item 3): o contexto é o texto sobre o qual o modelo deve trabalhar; curso 5.1.3: o RAG recupera documentos e os insere no prompt; curso 5.3.3: sem ferramentas ou RAG, o modelo responde com o que incorporou no treinamento (conhecimento paramétrico). Um relatório elaborado depois do treinamento não integra esse conhecimento; sem ferramentas externas (como a busca), sem RAG e sem retreinamento, o caminho é incluí-lo no prompt, como contexto. Retificação 6-A: a redação \"sem acesso a busca\" não excluía outras ferramentas; \"ferramentas externas (como a busca)\" alinha o item ao curso 5.3.3 (\"sem ferramentas ou RAG\"). O acréscimo \"e sem retreinamento\" existe porque o curso (5.1.1; 5.3.3) prevê o fine-tuning como outra forma de incorporar conhecimento: sem a ressalva, o \"deve\" ficaria vulnerável a recurso. Difere do item 15 do Lote 4 porque aquele julga se o modelo consulta fontes externas por si só; este julga a aplicação (o material entra como contexto do prompt). Difere do item 6 do Lote 4 porque aquele julga RAG × retreinamento. Fonte: curso 5.1.2, 5.1.3 e 5.3.3.",
+   "depois": "sem armadilha (ancoragem). Curso 5.1.2 (item 3): o contexto é o texto sobre o qual o modelo deve trabalhar; curso 5.1.3: o RAG recupera documentos e os insere no prompt; curso 5.3.3: sem ferramentas ou RAG, o modelo responde com o que incorporou no treinamento (conhecimento paramétrico). Um relatório elaborado depois do treinamento não integra esse conhecimento; sem ferramentas externas (como a busca), sem RAG e sem retreinamento, o caminho é incluí-lo no prompt, como contexto. O acréscimo \"e sem retreinamento\" existe porque o curso (5.1.1; 5.3.3) prevê o fine-tuning como outra forma de incorporar conhecimento: sem a ressalva, o \"deve\" ficaria vulnerável a recurso. Difere do item 15 do Lote 4 porque aquele julga se o modelo consulta fontes externas por si só; este julga a aplicação (o material entra como contexto do prompt). Difere do item 6 do Lote 4 porque aquele julga RAG × retreinamento. Fonte: curso 5.1.2, 5.1.3 e 5.3.3.",
+   "deletado": [
+    "; R-4C1",
+    " Retificação 6-A: a redação \"sem acesso a busca\" não excluía outras ferramentas; \"ferramentas externas (como a busca)\" alinha o item ao curso 5.3.3 (\"sem ferramentas ou RAG\")."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "A5-14",
+   "antes": "Três componentes e fluxo conforme U1 en-us (\"three primary components\"; Desktop = \"development tool\"; serviço \"allows you to organize, manage, and distribute\"); natureza Windows do Desktop conforme U2. Verificado em 8/10/2026. Risco BAIXO.",
+   "depois": "Três componentes e fluxo conforme U1 en-us (\"three primary components\"; Desktop = \"development tool\"; serviço \"allows you to organize, manage, and distribute\"); natureza Windows do Desktop conforme U2. Verificado em 8/10/2026.",
+   "deletado": [
+    " Risco BAIXO."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "A5-15",
+   "antes": "TC (descontinuado no lugar de renomeado). Em 11/10/2022 o Data Studio foi renomeado Looker Studio (\"Data Studio is now Looker Studio\", GG4), não descontinuado; em abril de 2026 o nome voltou a ser Data Studio (U4, U5, U6), nome vigente. Verificado em 8/10/2026. Risco MÉDIO (nome de produto).",
+   "depois": "TC (descontinuado no lugar de renomeado). Em 11/10/2022 o Data Studio foi renomeado Looker Studio (\"Data Studio is now Looker Studio\", GG4), não descontinuado; em abril de 2026 o nome voltou a ser Data Studio (U4, U5, U6), nome vigente. Verificado em 8/10/2026.",
+   "deletado": [
+    " Risco MÉDIO (nome de produto)."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "A5-16",
+   "antes": "Public \"A free platform to explore, create, and publicly share\"; Server \"A self-hosted platform\"; Cloud \"A fully hosted cloud-based\" platform (U3). Verificado em 8/10/2026. Risco BAIXO.",
+   "depois": "Public \"A free platform to explore, create, and publicly share\"; Server \"A self-hosted platform\"; Cloud \"A fully hosted cloud-based\" platform (U3). Verificado em 8/10/2026.",
+   "deletado": [
+    " Risco BAIXO."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "A5-17",
+   "antes": "IC (fluxo invertido). \"First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service\" (U1). Verificado em 8/10/2026. Risco BAIXO.",
+   "depois": "IC (fluxo invertido). \"First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service\" (U1). Verificado em 8/10/2026.",
+   "deletado": [
+    " Risco BAIXO."
+   ],
+   "caixa": []
+  },
+  {
+   "id": "5C-03",
+   "antes": "TC (agrupado e empilhado trocados). Curso 8.2, gráfico de barras: agrupado = subcategorias lado a lado; empilhado = partes de um total; pegadinha do curso: empilhado quando se quer comparar as partes entre si. O item inverte os papéis (redação da v1.1, R-5C1: sem a expressão \"lado a lado\", que denunciava a troca). Difere do item A5-09 e do par C1 porque estes julgam barras × histograma; este julga as duas variantes do gráfico de barras.",
+   "depois": "TC (agrupado e empilhado trocados). Curso 8.2, gráfico de barras: agrupado = subcategorias lado a lado; empilhado = partes de um total; pegadinha do curso: empilhado quando se quer comparar as partes entre si. O item inverte os papéis. Difere do item A5-09 e do par C1 porque estes julgam barras × histograma; este julga as duas variantes do gráfico de barras.",
+   "deletado": [
+    " (redação da v1.1, R-5C1: sem a expressão \"lado a lado\", que denunciava a troca)"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "5C-06",
+   "antes": "TC (tentação: \"bigodes vão sempre do mínimo ao máximo\" ou \"outlier de um lado afeta os dois bigodes\" → marcar E). Curso 8.2, box plot: cada bigode vai até o dado mais extremo do seu lado que esteja dentro do limite respectivo; a regra vale por lado; um outlier superior não impede que o bigode inferior termine no mínimo da amostra. Lição O10: a regra de 1,5 · AIQ é convenção usual adotada por muitos programas e pode variar; por isso o item abre com \"segundo a regra usual\" e não afirma que todo box plot a usa. Sem atribuição a autor. Difere dos itens A5-12 e A5-13 porque aqueles julgam a forma da distribuição e a posição da mediana; este julga a regra dos bigodes por lado.",
+   "depois": "TC (tentação: \"bigodes vão sempre do mínimo ao máximo\" ou \"outlier de um lado afeta os dois bigodes\" → marcar E). Curso 8.2, box plot: cada bigode vai até o dado mais extremo do seu lado que esteja dentro do limite respectivo; a regra vale por lado; um outlier superior não impede que o bigode inferior termine no mínimo da amostra. A regra de 1,5 · AIQ é convenção usual adotada por muitos programas e pode variar; por isso o item abre com \"segundo a regra usual\" e não afirma que todo box plot a usa. Sem atribuição a autor. Difere dos itens A5-12 e A5-13 porque aqueles julgam a forma da distribuição e a posição da mediana; este julga a regra dos bigodes por lado.",
+   "deletado": [],
+   "caixa": [
+    [
+     "Lição O10: a regra",
+     "A regra"
+    ]
+   ]
+  },
+  {
+   "id": "6B-06",
+   "antes": "TC (integridade e disponibilidade trocadas). Curso 4.1.1: integridade = não alteração indevida; disponibilidade = acesso sempre que necessário. Fonte: conceito geral (a definição da tríade não foi confirmada em fonte aberta hoje; ver curso 4.1.1). Tema da tríade CIA também nos itens reais 96 e 98 do TRF6 2024, com outro ponto de julgamento (seção ITENS REAIS, conferida pela QA em 08/10/2026).",
+   "depois": "TC (integridade e disponibilidade trocadas). Curso 4.1.1: integridade = não alteração indevida; disponibilidade = acesso sempre que necessário. Fonte: conceito geral (a definição da tríade não foi confirmada em fonte aberta hoje; ver curso 4.1.1). Tema da tríade CIA também nos itens reais 96 e 98 do TRF6 2024, com outro ponto de julgamento (seção ITENS REAIS).",
+   "deletado": [
+    ", conferida pela QA em 08/10/2026"
+   ],
+   "caixa": []
+  },
+  {
+   "id": "6B-15",
+   "antes": "GI invertida (tentação: saber que o HTTPS autentica o servidor e concluir que ele garante que o site é o da instituição pretendida → marcar E). Curso 4.3.4 (corrigido pela O-3): HTTPS é o HTTP sobre conexão TLS; o servidor é autenticado para o domínio acessado e a comunicação ganha confidencialidade e integridade, mas isso não garante que o domínio seja o da instituição pretendida nem a boa-fé do titular; páginas fraudulentas, em domínios próprios, também podem usar HTTPS. Fonte: F11, seção 4.2.2 (verificado em 08/10/2026); o restante é conceito geral.",
+   "depois": "GI invertida (tentação: saber que o HTTPS autentica o servidor e concluir que ele garante que o site é o da instituição pretendida → marcar E). Curso 4.3.4: HTTPS é o HTTP sobre conexão TLS; o servidor é autenticado para o domínio acessado e a comunicação ganha confidencialidade e integridade, mas isso não garante que o domínio seja o da instituição pretendida nem a boa-fé do titular; páginas fraudulentas, em domínios próprios, também podem usar HTTPS. Fonte: F11, seção 4.2.2 (verificado em 08/10/2026); o restante é conceito geral.",
+   "deletado": [
+    " (corrigido pela O-3)"
+   ],
+   "caixa": []
+  }
+ ],
+ "norm": [
+  [
+   "L4-01",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-02",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-03",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-04",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-05",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-06",
+   "Acerca da engenharia de prompts, julgue os itens de 1 a 6.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "L4-07",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens de 7 a 11.",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir."
+  ],
+  [
+   "L4-08",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens de 7 a 11.",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir."
+  ],
+  [
+   "L4-09",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens de 7 a 11.",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir."
+  ],
+  [
+   "L4-10",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens de 7 a 11.",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir."
+  ],
+  [
+   "L4-11",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens de 7 a 11.",
+   "A respeito dos tipos de aprendizado de máquina, julgue os itens a seguir."
+  ],
+  [
+   "L4-12",
+   "Acerca da IA generativa, julgue os itens de 12 a 16.",
+   "Acerca da IA generativa, julgue os itens a seguir."
+  ],
+  [
+   "L4-13",
+   "Acerca da IA generativa, julgue os itens de 12 a 16.",
+   "Acerca da IA generativa, julgue os itens a seguir."
+  ],
+  [
+   "L4-14",
+   "Acerca da IA generativa, julgue os itens de 12 a 16.",
+   "Acerca da IA generativa, julgue os itens a seguir."
+  ],
+  [
+   "L4-15",
+   "Acerca da IA generativa, julgue os itens de 12 a 16.",
+   "Acerca da IA generativa, julgue os itens a seguir."
+  ],
+  [
+   "L4-16",
+   "Acerca da IA generativa, julgue os itens de 12 a 16.",
+   "Acerca da IA generativa, julgue os itens a seguir."
+  ],
+  [
+   "L4-17",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens de 17 a 20.",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens a seguir."
+  ],
+  [
+   "L4-18",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens de 17 a 20.",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens a seguir."
+  ],
+  [
+   "L4-19",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens de 17 a 20.",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens a seguir."
+  ],
+  [
+   "L4-20",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens de 17 a 20.",
+   "No que se refere à ética e à responsabilidade digital no serviço público, julgue os itens a seguir."
+  ],
+  [
+   "4C-01",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-02",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-03",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-04",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-05",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-06",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-07",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-08",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-09",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "4C-10",
+   "Acerca da engenharia de prompts, julgue os itens de 4C-01 a 4C-10.",
+   "Acerca da engenharia de prompts, julgue os itens a seguir."
+  ],
+  [
+   "A5-01",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens A5-01 a A5-04.",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-02",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens A5-01 a A5-04.",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-03",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens A5-01 a A5-04.",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-04",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens A5-01 a A5-04.",
+   "Acerca de dados, atributos, métricas e transformação de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-05",
+   "A respeito dos princípios de visualização de dados, julgue os itens A5-05 a A5-07.",
+   "A respeito dos princípios de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-06",
+   "A respeito dos princípios de visualização de dados, julgue os itens A5-05 a A5-07.",
+   "A respeito dos princípios de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-07",
+   "A respeito dos princípios de visualização de dados, julgue os itens A5-05 a A5-07.",
+   "A respeito dos princípios de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-08",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-09",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-10",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-11",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-12",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-13",
+   "Acerca dos tipos de gráficos, julgue os itens A5-08 a A5-13.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "A5-14",
+   "Acerca das ferramentas de visualização de dados, julgue os itens A5-14 a A5-17.",
+   "Acerca das ferramentas de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-15",
+   "Acerca das ferramentas de visualização de dados, julgue os itens A5-14 a A5-17.",
+   "Acerca das ferramentas de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-16",
+   "Acerca das ferramentas de visualização de dados, julgue os itens A5-14 a A5-17.",
+   "Acerca das ferramentas de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-17",
+   "Acerca das ferramentas de visualização de dados, julgue os itens A5-14 a A5-17.",
+   "Acerca das ferramentas de visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-18",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens A5-18 a A5-20.",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-19",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens A5-18 a A5-20.",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "A5-20",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens A5-18 a A5-20.",
+   "No que se refere ao storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "5C-01",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-02",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-03",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-04",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-05",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-06",
+   "Acerca dos tipos de gráficos, julgue os itens de 5C-01 a 5C-06.",
+   "Acerca dos tipos de gráficos, julgue os itens a seguir."
+  ],
+  [
+   "5C-07",
+   "Acerca do storytelling para visualização de dados, julgue os itens de 5C-07 a 5C-10.",
+   "Acerca do storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "5C-08",
+   "Acerca do storytelling para visualização de dados, julgue os itens de 5C-07 a 5C-10.",
+   "Acerca do storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "5C-09",
+   "Acerca do storytelling para visualização de dados, julgue os itens de 5C-07 a 5C-10.",
+   "Acerca do storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "5C-10",
+   "Acerca do storytelling para visualização de dados, julgue os itens de 5C-07 a 5C-10.",
+   "Acerca do storytelling para visualização de dados, julgue os itens a seguir."
+  ],
+  [
+   "6A-01",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-02",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-03",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-04",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-05",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-06",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-07",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-08",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-09",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-10",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens de 6A-01 a 6A-10.",
+   "Acerca do MSOffice 365 (Word, Excel, PowerPoint e OneDrive), julgue os itens a seguir."
+  ],
+  [
+   "6A-11",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens de 6A-11 a 6A-15.",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens a seguir."
+  ],
+  [
+   "6A-12",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens de 6A-11 a 6A-15.",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens a seguir."
+  ],
+  [
+   "6A-13",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens de 6A-11 a 6A-15.",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens a seguir."
+  ],
+  [
+   "6A-14",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens de 6A-11 a 6A-15.",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens a seguir."
+  ],
+  [
+   "6A-15",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens de 6A-11 a 6A-15.",
+   "Acerca de ferramentas de comunicação e colaboração, julgue os itens a seguir."
+  ],
+  [
+   "6B-01",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens de 6B-01 a 6B-05.",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens a seguir."
+  ],
+  [
+   "6B-02",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens de 6B-01 a 6B-05.",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens a seguir."
+  ],
+  [
+   "6B-03",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens de 6B-01 a 6B-05.",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens a seguir."
+  ],
+  [
+   "6B-04",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens de 6B-01 a 6B-05.",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens a seguir."
+  ],
+  [
+   "6B-05",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens de 6B-01 a 6B-05.",
+   "Acerca de redes de computadores e de conceitos de Internet e intranet, julgue os itens a seguir."
+  ],
+  [
+   "6B-06",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens de 6B-06 a 6B-09.",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens a seguir."
+  ],
+  [
+   "6B-07",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens de 6B-06 a 6B-09.",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens a seguir."
+  ],
+  [
+   "6B-08",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens de 6B-06 a 6B-09.",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens a seguir."
+  ],
+  [
+   "6B-09",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens de 6B-06 a 6B-09.",
+   "Acerca de segurança da informação e de procedimentos de cópia de segurança (backup), julgue os itens a seguir."
+  ],
+  [
+   "6B-10",
+   "Acerca de programas de proteção, julgue os itens de 6B-10 a 6B-12.",
+   "Acerca de programas de proteção, julgue os itens a seguir."
+  ],
+  [
+   "6B-11",
+   "Acerca de programas de proteção, julgue os itens de 6B-10 a 6B-12.",
+   "Acerca de programas de proteção, julgue os itens a seguir."
+  ],
+  [
+   "6B-12",
+   "Acerca de programas de proteção, julgue os itens de 6B-10 a 6B-12.",
+   "Acerca de programas de proteção, julgue os itens a seguir."
+  ],
+  [
+   "6B-13",
+   "Acerca de ameaças digitais, julgue os itens de 6B-13 a 6B-15.",
+   "Acerca de ameaças digitais, julgue os itens a seguir."
+  ],
+  [
+   "6B-14",
+   "Acerca de ameaças digitais, julgue os itens de 6B-13 a 6B-15.",
+   "Acerca de ameaças digitais, julgue os itens a seguir."
+  ],
+  [
+   "6B-15",
+   "Acerca de ameaças digitais, julgue os itens de 6B-13 a 6B-15.",
+   "Acerca de ameaças digitais, julgue os itens a seguir."
+  ]
+ ],
+ "banco_norm": [],
+ "peg": [
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.1",
+   "rotulo": "Reconhecimento automático de fala (ASR – Automatic Speech Recognition)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "A banca tende a atribuir ao ASR funções que são de outros módulos: \"o ASR identifica o orador\", \"o ASR interpreta o sentido da fala\", \"o ASR corrige o conteúdo\". Todas erradas. ASR = transcrição literal. Outra: afirmar que WER \"varia de 0% a 100%\". Errado: inserções permitem WER > 100%. Outra: tratar WER de 0% como prova de transcrição \"perfeita\" em todos os aspectos — no cálculo usual ele ignora pontuação, e em qualquer convenção ignora locutores."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.2",
+   "rotulo": "Modelos de fala end-to-end",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "Trocar \"end-to-end\" por \"não supervisionado\" ou \"sem modelo de linguagem\". Também: afirmar que modelos end-to-end \"nunca alucinam\" ou que \"sempre superam\" os modulares em qualquer condição — generalizações indevidas."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.3",
+   "rotulo": "LLMs multimodais de áudio nativo",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Dizer que a cascata \"preserva prosódia\" — não preserva; o LLM da cascata só recebe texto. (2) Dizer que o LLM nativo \"elimina a necessidade de revisão humana\" — contraria o próprio edital (2.2, human in the loop). (3) Confundir \"transcrição por LLM\" com \"ASR dedicado\": o próprio fornecedor recomenda endpoint dedicado para transcrição de arquivos e LLM/Realtime para conversação [V 07/10/2026 — F2]. (4) Confundir \"ASR aprimorado por LLM\" com \"LLM de áudio nativo\". (5) Nomes e versões de modelos mudam em meses: a banca pode cobrar o CONCEITO, não o nome do produto."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.4",
+   "rotulo": "Diarização de falantes: identificação e separação de múltiplos oradores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "Definir diarização como \"identificação\" ou \"verificação\". Afirmar que diarização está disponível \"em qualquer modo\" de qualquer serviço — ou que nunca existe em streaming. Afirmar que a diarização resolve sozinha a fala sobreposta."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.5",
+   "rotulo": "Pontuação automática e capitalização em transcrições",
+   "origem": "edital",
+   "modo": "ponto-e-virgula",
+   "n": 1,
+   "orig": "Dizer que a pontuação automática \"detecta os sinais pronunciados\" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios \"com certeza\" — ela estima; \"Câmara\" (instituição) vs \"câmara\" (sala) é decisão de contexto que o modelo pode errar."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.6",
+   "rotulo": "Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar",
+   "origem": "edital",
+   "modo": "ponto-e-virgula",
+   "n": 4,
+   "orig": "Igualar custom vocabulary a retreinamento; dizer que CLM se treina com áudio (no AWS é com texto); dizer que \"modelos multilíngues eliminam o problema do pt-BR\"; dizer que lista de termos garante reconhecimento \"em qualquer condição acústica\"."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.7",
+   "rotulo": "Transcrição em tempo real",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Streaming é sempre mais preciso\" (não; batch vê contexto completo). \"Streaming oferece os mesmos recursos que batch\" (não necessariamente; ver diarização). \"stream=true em arquivo = tempo real\" (não)."
+  },
+  {
+   "lote": "L1",
+   "itemEdital": "P2-1.8",
+   "rotulo": "Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe",
+   "origem": "edital",
+   "modo": "ponto-e-virgula",
+   "n": 5,
+   "orig": "Trocar o modo em que um recurso existe (diarização em streaming vs batch); atribuir \"código aberto\" à API (o aberto é o modelo Whisper, não os serviços); afirmar limites numéricos ou preços sem data; dizer que a tradução do whisper-1 é \"para qualquer idioma\" (é só para inglês); tratar modelo local e serviço em nuvem como equivalentes quanto à custódia do áudio."
+  },
+  {
+   "lote": "L1C",
+   "itemEdital": "P2-1.4",
+   "rotulo": "Diarização de falantes: identificação e separação de múltiplos oradores",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 4,
+   "orig": "(1) Ler \"identificação\" do título como \"o sistema sabe os nomes\". (2) Ler \"identificar\" no item como identificação de locutor sem checar o objeto. (3) Dizer que diarização que distingue oradores também verifica identidade. (4) Dizer que, por existirem amostras de referência, a diarização \"sempre\" entrega nomes: depende de as amostras terem sido fornecidas."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.1",
+   "rotulo": "Diferença entre transcrição automática, degravação e revisão humana",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Trocar as definições (automática = humana; degravação = software). (2) Dizer que a boa qualidade do ASR dispensa a revisão humana. (3) Tratar degravação como sinônimo de taquigrafia (uma é posterior à gravação; a outra é simultânea). (4) Dizer que revisão humana é digitar tudo de novo. (5) Supor que o humano não erra: o controle da qualidade humana é o tema do 2.7."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.2",
+   "rotulo": "Fluxo de trabalho de degravação assistida por IA (Human in the loop)",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) HITL ≠ o revisor só olha trechos de baixa confiança. (2) HITL ≠ o humano transcreve do zero. (3) Revisão só de uma amostra no fim é supervisão ou auditoria (ON the loop), não HITL. (4) \"Assistida\" ≠ automática com publicação direta. (5) Retroalimentar o sistema com correções melhora o fluxo, mas não elimina a revisão seguinte."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.3",
+   "rotulo": "Revisão e edição de transcrições: critérios de qualidade e fidelidade",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Fidelidade = literalidade absoluta. (2) Qualquer correção gramatical é infidelidade (ou, no extremo oposto, o revisor pode \"melhorar\" o conteúdo). (3) Completar o inaudível pelo contexto sem marcar. (4) Tratar todos os erros como equivalentes. (5) Reduzir qualidade a um número único de acerto de palavras (tema do Lote 1, não repetido aqui)."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.4",
+   "rotulo": "Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 6,
+   "orig": "(1) Confundir marcação (evento) com fala. (2) Afirmar que toda pausa deve ser registrada. (3) Misturar fala do Presidente, aparte e discurso numa só linha. (4) Dizer que a convenção de marcação é universal. (5) Tratar rótulo de diarização (\"Locutor 2\") como identificação do orador. (6) Atribuir a fala do aparteante ao orador que tem a palavra."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.5",
+   "rotulo": "Normalização de texto: números, siglas, abreviações e termos técnicos",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 6,
+   "orig": "(1) Normalização = corrigir o que o orador disse (errada: é padronizar a forma, não corrigir a informação). (2) Siglas sempre por extenso, ou números sempre em algarismos (generalização). (3) Confundir com normalização de áudio (volume) ou de vetores. (4) Dizer que a ITN é etapa do modelo acústico. (5) Achar que a máquina decide sem erro entre ano e quantidade. (6) Tratar o Manual de Redação como obrigatório para todo texto: a Portaria o torna obrigatório para documentos administrativos e apenas recomenda para os demais."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.6",
+   "rotulo": "Ferramentas de CAT (Computer Assisted Transcription) e editores de transcrição",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 6,
+   "orig": "(1) Atribuir ao CAT da transcrição a memória de tradução, recurso de ferramentas de tradução entre idiomas. (2) Confundir editor (onde o humano trabalha) com ASR (que gera o rascunho). (3) Dizer que a ferramenta dispensa a revisão. (4) Cobrar recurso de produto específico: sem fonte datada, não é seguro (cobrar o CONCEITO). (5) Achar que formato de legenda não pode levar identificação de falante. (6) Jargão: ler \"tradução das notas\" como tradução para outro idioma; em taquigrafia é decifrar os sinais e passar para texto."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.7",
+   "rotulo": "Controle de qualidade: revisão em dupla, auditorias de amostras, SLA",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Revisão em dupla = o mesmo revisor lendo duas vezes. (2) Amostra sem erro = lote sem erro. (3) SLA = apenas prazo (ou: SLA = sistema de licenciamento). (4) Auditoria = revisão integral. (5) Dupla revisão garante zero erros."
+  },
+  {
+   "lote": "L2",
+   "itemEdital": "P2-2.8",
+   "rotulo": "Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) OOV = baixa confiança (errado). (2) \"Mais peso no reforço é sempre melhor\" (generalização). (3) Adaptação de LM = retreino acústico. (4) Testar a adaptação nos mesmos dados usados para adaptar. (5) Pós-correção por LLM como garantia de fidelidade."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-3.1",
+   "rotulo": "Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Tratar sumarização como \"transcrição menor\" (resumo condensa e reformula; transcrição reproduz). (2) Dizer que acervo público dispensa supervisão e avaliação. (3) Ignorar a propagação de erros entre etapas. (4) Chamar de \"indexação\" o que é busca, e vice-versa. (5) Dizer que a IA \"decide\" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição. (N6: não cobrar descrição de sistema real.)"
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-3.2",
+   "rotulo": "Sistemas de busca semântica em acervos parlamentares",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Semântica = dicionário de sinônimos (é similaridade aprendida por modelo). (2) Semântica sempre mais precisa que a lexical (para nome e número exato, não é). (3) Dizer que a busca semântica \"entende\" ou \"verifica\" fatos. (4) Dizer que RAG elimina a alucinação. (5) Confundir precisão com revocação."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-3.3",
+   "rotulo": "Geração automática de atas e resumos de sessões",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Trocar extrativa por abstrativa (extrativa copia; abstrativa redige). (2) Texto fluente = texto fiel. (3) Resumo automático como substituto da ata sem validação. (4) Achar que \"frase nova\" já é erro. (5) Achar que métrica de sobreposição mede verdade."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-3.4",
+   "rotulo": "Modelos de IA multilíngues e especializados em português",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 5,
+   "orig": "(1) Multilíngue = desempenho igual em todos os idiomas. (2) Especializado = treinado exclusivamente em um idioma. (3) Especializar exige treinar do zero. (4) Dizer que um modelo especializado \"conhece\" normas novas sem atualização. (5) Cobrar nome de modelo (volátil e não verificado)."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-4.1",
+   "rotulo": "LGPD e proteção de dados em sistemas de transcrição e IA",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 9,
+   "orig": "(1) Consentimento como única base legal. (2) Dado público = livre para qualquer fim (art. 7º, § 3º). (3) LGPD não se aplica ao poder público. (4) Trocar controlador e operador (quem decide × quem executa). (5) Revisão de decisão automatizada \"por pessoa natural\" (redação superada). (6) ANPD como órgão da Presidência (redação superada), ou \"a autoridade nacional é a Agência\" sem a criação pela Lei 15.352/2026. (7) Pseudonimização = anonimização (a definição do art. 13, § 4º, tem alcance restrito; a distinção geral vem do art. 12). (8) Encarregado como quem decide as finalidades (é canal de comunicação). (9) Citar a página multivigente da LGPD, que mistura redações."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-4.2",
+   "rotulo": "Direitos autorais e ética no uso de IA para conteúdo gerado",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 7,
+   "orig": "(1) Textos de lei são protegidos (art. 8º, IV: não são). (2) \"Disponível na internet\" = domínio público. (3) Direitos morais se cedem com os patrimoniais (art. 27; art. 49, I). (4) Afirmar como certo se a IA gera obra protegida ou se o treinamento é lícito (controverso). (5) Esquecer que a proteção independe de registro (art. 18). (6) Confundir citação (art. 46, III) com reprodução integral livre. (7) Afirmar como certo que o pronunciamento parlamentar é obra protegida ou, ao contrário, ato oficial (enquadramento não firmado)."
+  },
+  {
+   "lote": "L3",
+   "itemEdital": "P2-4.3",
+   "rotulo": "Segurança da informação em pipelines de áudio e transcrição",
+   "origem": "edital",
+   "modo": "enumeradores",
+   "n": 6,
+   "orig": "(1) Cifrar o áudio resolve toda a segurança (e acesso, registro, retenção? não dispensa). (2) Pseudonimizar = anonimizar: a definição do art. 13, § 4º, vale \"para os efeitos deste artigo\"; a distinção geral vem do art. 12 (se a reversão é possível por meios próprios, o dado segue pessoal). (3) Quem comunica o incidente: o controlador, não o operador (art. 48). (4) Segurança só no armazenamento, e não na transmissão e no processamento. (5) Achar que nuvem no exterior nunca é possível ou que sempre é livre: depende do art. 33. (6) Esquecer o dever de segurança após o fim do tratamento."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A engenharia de prompts ajusta os pesos do modelo para a tarefa\" → ERRADO (isso é fine-tuning)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Few-shot é o prompt que traz um único exemplo\" → ERRADO (um exemplo é one-shot)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Chain-of-thought consiste em dividir a tarefa em prompts sucessivos\" → ERRADO (isso é prompt chaining)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Temperatura mais baixa produz saídas mais variadas e criativas\" → ERRADO (é o inverso)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Um prompt bem elaborado elimina a possibilidade de alucinação\" → ERRADO (reduz, não elimina)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"RAG consiste em retreinar o modelo com os documentos da organização\" → ERRADO (RAG recupera documentos e os insere no prompt)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.1",
+   "rotulo": "Engenharia de prompts",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Zero-shot é a técnica em que o modelo recebe exemplos sem rótulo\" → ERRADO (zero-shot = nenhum exemplo)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No aprendizado não supervisionado não há participação humana\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Clustering é tarefa de aprendizado supervisionado\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Regressão é a tarefa supervisionada que prevê a categoria à qual o dado pertence\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No aprendizado por reforço, o agente recebe, para cada ação, o rótulo da ação correta\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"RLHF é uma técnica de aprendizado não supervisionado\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Os modelos de IA generativa são pré-treinados predominantemente por aprendizado supervisionado em pares pergunta-resposta rotulados manualmente\" → ERRADO (F4: pré-treino sem rótulos; supervisionado e reforço no ajuste)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.2",
+   "rotulo": "Aprendizado supervisionado, não supervisionado e por reforço",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Na classificação, o modelo descobre as categorias por conta própria\" → ERRADO (isso é clustering)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Modelo generativo e modelo discriminativo são o mesmo tipo de modelo, distinguindo-se apenas pela tarefa executada\" → ERRADO (são tipos distintos: um modela a distribuição, o outro, a fronteira; a tarefa de classificar pode ser feita por ambos)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A IA generativa baseia-se prioritariamente em aprendizado supervisionado\" → ERRADO (F4; mecanismo semelhante no TRF6 2024, item 81, gabarito definitivo E)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Por padrão, um LLM consulta a internet e bases de dados atualizadas antes de responder\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Fine-tuning e RAG são denominações equivalentes da mesma técnica\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Com temperatura zero, o modelo deixa de produzir informações falsas\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Modelos de fundação restringem-se à geração de texto\" → ERRADO (podem ser multimodais)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Alucinação é o erro de digitação ou de formatação da resposta\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-5.3",
+   "rotulo": "IA generativa: conceitos, exemplos e casos de uso",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Todo modelo de fundação é um LLM\" → ERRADO (há modelos de fundação de imagem e multimodais; o F3 define os termos separadamente)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Dado anonimizado é espécie de dado pessoal sensível\" → ERRADO (art. 12, caput: anonimizado não é dado pessoal, salvo reversão; art. 5º, III, define; sensível é o do art. 5º, II)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A LGPD não se aplica aos órgãos do Poder Legislativo\" → ERRADO (art. 1º, caput; Capítulo IV, arts. 23 a 32)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O titular tem direito à revisão de decisões automatizadas obrigatoriamente por pessoa natural\" → ERRADO (a expressão \"por pessoa natural\" foi retirada pela MP 869/2018 e o § 3º da Lei 13.853/2019 foi vetado; conferido pela CQFP em 07/10/2026)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Na LAI, o sigilo é a regra e a publicidade, a exceção\" → ERRADO (art. 3º, I)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O consentimento do titular é a única base legal que autoriza a administração pública a tratar dados pessoais\" → ERRADO (art. 7º, II e III)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O Código de Ética veda ao servidor o uso de avanços técnicos e científicos\" → ERRADO (veda DEIXAR DE utilizá-los — XV, \"e\")."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Quando a decisão é sugerida por sistema de IA, a responsabilidade pelo ato transfere-se ao sistema\" → ERRADO."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Opinião política e filiação sindical não são dados sensíveis\" → ERRADO (art. 5º, II)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Textos de leis e de atos oficiais são protegidos por direito autoral\" → ERRADO (Lei 9.610/1998, art. 8º, IV)."
+  },
+  {
+   "lote": "L4",
+   "itemEdital": "P1-6",
+   "rotulo": "Ética e responsabilidade digital no serviço público",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Ética digital no serviço público limita-se às regras de uso de redes sociais\" → ERRADO."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-7.1",
+   "rotulo": "CONCEITOS",
+   "origem": "subseção",
+   "modo": "ponto-e-virgula",
+   "n": 4,
+   "orig": "calcular média de variável nominal (\"partido médio\"); tratar escala ordinal como se as distâncias entre níveis fossem iguais; chamar \"informação\" de \"dado bruto\"; afirmar que dados estruturados são os \"sem esquema\"."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-7.1",
+   "rotulo": "ATRIBUTOS",
+   "origem": "subseção",
+   "modo": "ponto-e-virgula",
+   "n": 3,
+   "orig": "confundir o atributo (a coluna \"UF\") com o valor do atributo (\"DF\"); afirmar que todo atributo precisa ser único; trocar atributo por métrica (dizer que \"UF do autor\" é métrica)."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-7.1",
+   "rotulo": "MÉTRICAS",
+   "origem": "subseção",
+   "modo": "ponto-e-virgula",
+   "n": 4,
+   "orig": "inverter média e mediana quanto à sensibilidade a extremos; chamar dimensão de métrica; dizer que coluna numérica é automaticamente métrica (o número do projeto é identificador); afirmar que a média é a medida válida para dado ordinal (são a mediana e a moda)."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-7.1",
+   "rotulo": "TRANSFORMAÇÃO DE DADOS",
+   "origem": "subseção",
+   "modo": "ponto-e-virgula",
+   "n": 4,
+   "orig": "definir normalização como \"remoção de duplicatas\" (é limpeza); chamar de \"limpeza\" uma agregação; inverter ETL e ELT; usar normalização e padronização como sinônimos em item que exige a distinção."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.1",
+   "rotulo": "Princípios de visualização de dados",
+   "origem": "edital",
+   "modo": "ponto-e-virgula",
+   "n": 5,
+   "orig": "Afirmar que truncar o eixo de barras é boa prática para realçar diferenças; dizer que mais cores e efeitos 3D aumentam a clareza; usar paleta sequencial ou divergente para categorias sem ordem; afirmar que área ou cor comparam com mais precisão que posição; dizer que pizza é adequada para muitas categorias ou para evolução no tempo."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.2",
+   "rotulo": "Histograma",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 4,
+   "orig": "tratá-lo como gráfico de barras de categorias; dizer que a ordem das classes é intercambiável; tratar altura e área como sempre equivalentes; usar histograma para categorias nominais."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.2",
+   "rotulo": "Gráfico de linha",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 2,
+   "orig": "confundir com dispersão; usar linha para categorias sem ordem (partidos, comissões), o que sugere continuidade inexistente."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.2",
+   "rotulo": "Gráfico de barras (colunas)",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 3,
+   "orig": "confundir com histograma; aceitar eixo truncado; usar para distribuição de variável contínua agrupada em classes; empilhado quando se quer comparar as partes entre si."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.2",
+   "rotulo": "Gráfico de dispersão",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 3,
+   "orig": "afirmar que mostra causa e efeito; confundir com linha; dizer que exige variável categórica em um dos eixos."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.2",
+   "rotulo": "Box plot (diagrama de caixa)",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 1,
+   "orig": "dizer que a linha central é a média; que a caixa vai do mínimo ao máximo ou contém todos os dados; que os bigodes vão até 1,5 desvio padrão; que mostra frequência por intervalo (isso é histograma)."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.3",
+   "rotulo": "Power BI (Microsoft)",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 3,
+   "orig": "inverter o fluxo (criar no serviço, publicar no Desktop); dizer que o Desktop é pago; dizer que o serviço não permite criar dashboards."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.3",
+   "rotulo": "Tableau (Salesforce)",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 2,
+   "orig": "trocar Cloud (hospedado pela Tableau) por Server (hospedado pelo cliente); dizer que o Tableau Public é privado ou pago."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.3",
+   "rotulo": "Data Studio (Google)",
+   "origem": "bloco",
+   "modo": "ponto-e-virgula",
+   "n": 5,
+   "orig": "afirmar que \"o Data Studio foi descontinuado e substituído pelo Looker Studio\" (foi renomeado, e o nome voltou em abril de 2026); confundir Data Studio com Looker; tratar Looker Studio e Data Studio como produtos diferentes; atribuir à ferramenta a responsabilidade pela adequação do gráfico (a ferramenta pode sugerir ou gerar visuais, mas a adequação ao dado e à pergunta é do analista); misturar com Excel/Office (item 1 do edital, MSOffice 365, fora do escopo deste lote)."
+  },
+  {
+   "lote": "L5",
+   "itemEdital": "P1-8.4",
+   "rotulo": "Storytelling para visualização de dados",
+   "origem": "edital",
+   "modo": "ponto-e-virgula",
+   "n": 5,
+   "orig": "Dizer que storytelling é apenas enfeitar o gráfico ou dispensa mensagem explícita; inverter exploratória e explanatória; sugerir mostrar o máximo de métricas para o público concluir sozinho; dizer que narrativa dispensa dados; usar dashboard e storytelling como sinônimos."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O modo Sem Marcação exclui definitivamente as alterações controladas do arquivo\" → ERRADO (só oculta; F1)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Avançar e Anterior, no grupo Acompanhamento, aceitam ou rejeitam a alteração\" → ERRADO (apenas navegam)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Mesclar células divide uma célula em várias\" → ERRADO (mesclar combina; dividir subdivide)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Aceitar uma alteração controlada restabelece o texto original\" → ERRADO (isso é rejeitar)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O sumário automático independe da formatação dos títulos\" → ERRADO (baseia-se nos títulos com estilo de título; F3)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "WORD",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O sumário do Word se atualiza sozinho, sem qualquer ação, a cada alteração no documento\" → ERRADO (o sumário é um campo: após mudanças que o afetem, atualiza-se com o botão direito > \"Atualizar Campo\"; F3)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Na referência B$2, a coluna fica fixa e a linha se ajusta ao copiar\" → ERRADO (o $ antes do 2 trava a linha; a coluna se ajusta)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Toda referência de célula é absoluta por padrão\" → ERRADO (por padrão é relativa; F4)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No PROCV, omitir o quarto argumento produz correspondência exata\" → ERRADO (em branco = aproximada; F6)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O PROCV pesquisa o valor em qualquer coluna do intervalo e devolve valores de colunas à esquerda dela\" → ERRADO (só da esquerda para a direita; F6)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Na função SE, o segundo argumento é o resultado para teste falso\" → ERRADO (o segundo é para verdadeiro)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "EXCEL",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O valor_se_falso é obrigatório na função SE\" → ERRADO (aparece entre colchetes na sintaxe, isto é, opcional; F5)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "POWERPOINT",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A transição é aplicada a um objeto individual do slide e a animação, ao slide inteiro\" → ERRADO (inverso; F8)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "POWERPOINT",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Alterar o slide mestre afeta apenas o slide que está selecionado\" → ERRADO (afeta os slides baseados nele; F7)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "POWERPOINT",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Cada slide pode receber várias transições simultâneas\" → ERRADO (uma transição por slide; F8)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "POWERPOINT",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O slide mestre é aberto na guia Inserir\" → ERRADO (guia Exibir; F7) — VOLÁTIL; não vira item."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "ONEDRIVE",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Ao restaurar uma versão anterior, a versão que era a atual é descartada\" → ERRADO (passa a constar como versão anterior; F11)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "ONEDRIVE",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Quem recebe um link com permissão apenas de exibição pode editar o arquivo original\" → ERRADO."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "ONEDRIVE",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O histórico de versões do OneDrive só funciona com arquivos do Word\" → ERRADO (funciona com todos os tipos de arquivo; F11)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "ONEDRIVE",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site\" → ERRADO (a F11 descreve os dois caminhos)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-1",
+   "rotulo": "ONEDRIVE",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Interromper o compartilhamento transfere a propriedade do arquivo ao destinatário\" → ERRADO (conceito geral; o proprietário mantém o arquivo)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O webmail exige a instalação de um programa cliente no computador\" → ERRADO (acesso por navegador; F13)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O cliente de e-mail é acessado exclusivamente pelo navegador\" → ERRADO (aplicativo próprio; conceito geral)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas\" → ERRADO (isso é o padrão do POP3; F14)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O POP3 serve para enviar mensagens ao servidor de saída\" → ERRADO (o envio é do SMTP; F14, F17)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O destinatário incluído em Cco não recebe a mensagem\" → ERRADO (recebe, mas fica oculto; F12)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Os endereços do campo Cco são visíveis aos demais destinatários\" → ERRADO (F12)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroniza várias pastas\" → ERRADO (essa limitação é do POP3; F14)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "MICROSOFT TEAMS",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No Teams, o canal privado é aberto a todos os membros da equipe e o canal padrão é restrito a membros selecionados\" → ERRADO (inverso; F18)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "MICROSOFT TEAMS",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O canal compartilhado só pode ter membros da própria equipe\" → ERRADO (inclui pessoas dentro e fora da equipe; F18)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "MICROSOFT TEAMS",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Equipe e canal são sinônimos\" → ERRADO (o canal é uma seção dentro da equipe; F18)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "GOOGLE MEET",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Ao apresentar no Meet, só é possível compartilhar a tela inteira\" → ERRADO (guia, janela ou tela inteira; F20)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "GOOGLE MEET",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Teams e Meet são produtos da mesma empresa\" → ERRADO (Microsoft × Google; conceito geral)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "GOOGLE MEET",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda\" → ERRADO (também se cria em \"Nova reunião\", no próprio Meet; F22)."
+  },
+  {
+   "lote": "L6A",
+   "itemEdital": "P1-3",
+   "rotulo": "GOOGLE MEET",
+   "origem": "item do lote",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O compartilhamento de tela no Meet nunca pode ser restringido\" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador; F20)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2",
+   "rotulo": "Redes de computadores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A LAN interliga redes situadas em países distintos; a WAN restringe-se a um edifício\" → ERRADO (invertido: LAN = área restrita; WAN = área distante)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2",
+   "rotulo": "Redes de computadores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O switch interliga redes diferentes e escolhe a rota entre elas\" → ERRADO (isso é o roteador; o switch interliga equipamentos da mesma LAN)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2",
+   "rotulo": "Redes de computadores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O protocolo UDP garante a entrega ordenada e confiável dos dados\" → ERRADO (garantias são do TCP)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2",
+   "rotulo": "Redes de computadores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Endereço IP privado é, por definição, protegido contra qualquer ataque\" → ERRADO (privado = uso interno)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2",
+   "rotulo": "Redes de computadores",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O DHCP traduz nomes de domínio em endereços IP\" → ERRADO (isso é o DNS; DHCP atribui endereços)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A intranet é uma rede que não pode usar TCP/IP nem navegador, por ser de uso interno\" → ERRADO (usa as mesmas tecnologias da Internet; o que a distingue é o acesso restrito)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Intranet é a mesma coisa que extranet\" → ERRADO (a extranet estende o acesso, de modo controlado, a parceiros externos)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A extranet é a rede interna acessível só a empregados; a intranet é a aberta a parceiros\" → ERRADO (invertido)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Internet e Web são sinônimos\" → ERRADO (a Web é um serviço sobre a Internet)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A janela de navegação anônima impede o provedor de Internet de saber quais sites o usuário visita\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O DNS atribui automaticamente endereços IP aos equipamentos\" → ERRADO (DHCP)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Endereços da faixa 192.168.0.0 a 192.168.255.255 são públicos e identificam um único equipamento na Internet\" → ERRADO (faixa privada, RFC 1918)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-2.1",
+   "rotulo": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O navegador e o mecanismo de busca são o mesmo programa\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A integridade garante que a informação esteja disponível ao usuário autorizado sempre que necessária\" → ERRADO (isso é disponibilidade; integridade = não alteração indevida)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"A disponibilidade assegura que a informação só seja acessada por quem está autorizado\" → ERRADO (isso é confidencialidade)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Numa rotina de completo + diferenciais, a restauração exige o completo e todos os diferenciais posteriores\" → ERRADO (basta o completo e o último diferencial)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Para restaurar com backups incrementais, basta o último incremental\" → ERRADO (é preciso o completo e todos os incrementais em sequência)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O backup completo copia apenas o que mudou\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Manter a cópia no mesmo disco do original é suficiente para recuperar dados em caso de falha desse disco\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O worm depende de um arquivo hospedeiro e da ação do usuário para se propagar\" → ERRADO (isso descreve o vírus)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O trojan se replica automaticamente pela rede\" → ERRADO (não se replica; depende de o usuário executá-lo)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Sincronizar uma pasta na nuvem equivale a ter backup, em qualquer situação\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O ransomware é um programa que apenas exibe propagandas indesejadas\" → ERRADO (isso é adware, um tipo de spyware no uso comum; ransomware bloqueia dados e cobra resgate)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.1",
+   "rotulo": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Pagar o resgate assegura a recuperação dos dados\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O firewall é o programa destinado a detectar e remover códigos maliciosos instalados; o antivírus controla o tráfego\" → ERRADO (funções invertidas)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O antivírus atualizado detecta todos os códigos maliciosos, inclusive os desconhecidos\" → ERRADO (nenhum antivírus é infalível)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Com um firewall ativo, não é necessário antivírus\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O antispyware serve para filtrar o tráfego conforme regras de acesso\" → ERRADO (função do firewall)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O firewall impede que o usuário seja vítima de phishing\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O antivírus funciona sem necessidade de atualização\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.2",
+   "rotulo": "Programas de proteção (antivírus, firewall, antispyware)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Quarentena é a exclusão definitiva do arquivo suspeito\" → ERRADO (isola o arquivo; pode ser restaurado ou excluído)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O pharming consiste no envio de mensagens que induzem a vítima a clicar em link, sem alterar a resolução de nomes\" → ERRADO (o pharming redireciona a navegação por adulteração da resolução de nomes)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No phishing, o redirecionamento ocorre pela adulteração do DNS, e o pharming é o envio de mensagem falsa\" → ERRADO (trocado)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"No pharming, o usuário só é levado ao site falso se clicar em link recebido\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O uso de HTTPS comprova que o site é legítimo\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O phishing é um ataque exclusivamente técnico, que independe da ação do usuário\" → ERRADO (engenharia social)."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"Mensagem com a logomarca do banco e boa redação é prova de autenticidade\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O antivírus elimina por completo o risco de phishing\" → ERRADO."
+  },
+  {
+   "lote": "L6B",
+   "itemEdital": "P1-4.3",
+   "rotulo": "Ameaças digitais (phishing, pharming)",
+   "origem": "edital",
+   "modo": "unica",
+   "n": 1,
+   "orig": "\"O phishing só funciona quando a vítima digita dados em página falsa; não envolve instalação de código malicioso\" → ERRADO."
+  }
+ ],
+ "merge": [
+  [
+   "\"Câmara\" (instituição) vs \"câmara\" (sala) é decisão de contexto que o modelo pode errar.",
+   "ilustração do fragmento anterior (L1 P2-1.5)"
+  ],
+  [
+   "empilhado quando se quer comparar as partes entre si.",
+   "depende do verbo do fragmento anterior (L5 barras)"
+  ],
+  [
+   "que a caixa vai do mínimo ao máximo ou contém todos os dados",
+   "depende do verbo do fragmento anterior (L5 box plot)"
+  ],
+  [
+   "que os bigodes vão até 1,5 desvio padrão",
+   "depende do verbo do fragmento anterior (L5 box plot)"
+  ],
+  [
+   "que mostra frequência por intervalo (isso é histograma).",
+   "depende do verbo do fragmento anterior (L5 box plot)"
+  ]
+ ],
+ "hy": 28,
+ "log": [
+  "PARES: par sem \" vs \" (b vazio): 'Confidencialidade, integridade, disponibilidade.'"
+ ],
+ "binfo": {
+  "excl": [
+   [
+    "BQ-0029",
+    "X",
+    "sim"
+   ],
+   [
+    "BQ-0030",
+    "X",
+    "sim"
+   ],
+   [
+    "BQ-0031",
+    "X",
+    "sim"
+   ],
+   [
+    "BQ-0060",
+    "X",
+    "sim"
+   ],
+   [
+    "BQ-0062",
+    "X",
+    "sim"
+   ],
+   [
+    "BQ-0063",
+    "X",
+    "sim"
+   ]
+  ],
+  "vol": [
+   "BQ-0015",
+   "BQ-0017",
+   "BQ-0035",
+   "BQ-0064",
+   "BQ-0075",
+   "BQ-0076",
+   "BQ-0086",
+   "BQ-0089"
+  ],
+  "nota": [
+   "BQ-0003",
+   "BQ-0040"
+  ],
+  "tb": [
+   "BQ-0049",
+   "BQ-0050",
+   "BQ-0051"
+  ],
+  "mp_sim0": []
+ },
+ "item_lote": {
+  "L1-Q01": "L1",
+  "L1-Q02": "L1",
+  "L1-Q03": "L1",
+  "L1-Q04": "L1",
+  "L1-Q05": "L1",
+  "L1-Q06": "L1",
+  "L1-Q07": "L1",
+  "L1-Q08": "L1",
+  "L1-Q09": "L1",
+  "L1-Q10": "L1",
+  "L1-Q11": "L1",
+  "L1-Q12": "L1",
+  "L1-Q13": "L1",
+  "L1-Q14": "L1",
+  "L1-Q15": "L1",
+  "L1-Q16": "L1",
+  "L1-Q17": "L1",
+  "L1-Q18": "L1",
+  "L1-Q19": "L1",
+  "L1-Q20": "L1",
+  "L1C-Q21": "L1C",
+  "L1C-Q22": "L1C",
+  "L1C-Q23": "L1C",
+  "L1C-Q24": "L1C",
+  "L1C-Q25": "L1C",
+  "L1C-Q26": "L1C",
+  "L1C-Q27": "L1C",
+  "L1C-Q28": "L1C",
+  "L1C-Q29": "L1C",
+  "L1C-Q30": "L1C",
+  "L2-Q01": "L2",
+  "L2-Q02": "L2",
+  "L2-Q03": "L2",
+  "L2-Q04": "L2",
+  "L2-Q05": "L2",
+  "L2-Q06": "L2",
+  "L2-Q07": "L2",
+  "L2-Q08": "L2",
+  "L2-Q09": "L2",
+  "L2-Q10": "L2",
+  "L2-Q11": "L2",
+  "L2-Q12": "L2",
+  "L2-Q13": "L2",
+  "L2-Q14": "L2",
+  "L2-Q15": "L2",
+  "L2-Q16": "L2",
+  "L2-Q17": "L2",
+  "L2-Q18": "L2",
+  "L2-Q19": "L2",
+  "L2-Q20": "L2",
+  "L2-Q21": "L2",
+  "L2-Q22": "L2",
+  "L2-Q23": "L2",
+  "L2-Q24": "L2",
+  "L2-Q25": "L2",
+  "L2-Q26": "L2",
+  "L2-Q27": "L2",
+  "L2-Q28": "L2",
+  "L2-Q29": "L2",
+  "L2-Q30": "L2",
+  "L3-Q01": "L3",
+  "L3-Q02": "L3",
+  "L3-Q03": "L3",
+  "L3-Q04": "L3",
+  "L3-Q05": "L3",
+  "L3-Q06": "L3",
+  "L3-Q07": "L3",
+  "L3-Q08": "L3",
+  "L3-Q09": "L3",
+  "L3-Q10": "L3",
+  "L3-Q11": "L3",
+  "L3-Q12": "L3",
+  "L3-Q13": "L3",
+  "L3-Q14": "L3",
+  "L3-Q15": "L3",
+  "L3-Q16": "L3",
+  "L3-Q17": "L3",
+  "L3-Q18": "L3",
+  "L3-Q19": "L3",
+  "L3-Q20": "L3",
+  "L3-Q21": "L3",
+  "L3-Q22": "L3",
+  "L3-Q23": "L3",
+  "L3-Q24": "L3",
+  "L3-Q25": "L3",
+  "L3-Q26": "L3",
+  "L3-Q27": "L3",
+  "L3-Q28": "L3",
+  "L3-Q29": "L3",
+  "L3-Q30": "L3",
+  "L4-01": "L4",
+  "L4-02": "L4",
+  "L4-03": "L4",
+  "L4-04": "L4",
+  "L4-05": "L4",
+  "L4-06": "L4",
+  "L4-07": "L4",
+  "L4-08": "L4",
+  "L4-09": "L4",
+  "L4-10": "L4",
+  "L4-11": "L4",
+  "L4-12": "L4",
+  "L4-13": "L4",
+  "L4-14": "L4",
+  "L4-15": "L4",
+  "L4-16": "L4",
+  "L4-17": "L4",
+  "L4-18": "L4",
+  "L4-19": "L4",
+  "L4-20": "L4",
+  "4C-01": "L4C",
+  "4C-02": "L4C",
+  "4C-03": "L4C",
+  "4C-04": "L4C",
+  "4C-05": "L4C",
+  "4C-06": "L4C",
+  "4C-07": "L4C",
+  "4C-08": "L4C",
+  "4C-09": "L4C",
+  "4C-10": "L4C",
+  "A5-01": "L5",
+  "A5-02": "L5",
+  "A5-03": "L5",
+  "A5-04": "L5",
+  "A5-05": "L5",
+  "A5-06": "L5",
+  "A5-07": "L5",
+  "A5-08": "L5",
+  "A5-09": "L5",
+  "A5-10": "L5",
+  "A5-11": "L5",
+  "A5-12": "L5",
+  "A5-13": "L5",
+  "A5-14": "L5",
+  "A5-15": "L5",
+  "A5-16": "L5",
+  "A5-17": "L5",
+  "A5-18": "L5",
+  "A5-19": "L5",
+  "A5-20": "L5",
+  "5C-01": "L5C",
+  "5C-02": "L5C",
+  "5C-03": "L5C",
+  "5C-04": "L5C",
+  "5C-05": "L5C",
+  "5C-06": "L5C",
+  "5C-07": "L5C",
+  "5C-08": "L5C",
+  "5C-09": "L5C",
+  "5C-10": "L5C",
+  "6A-01": "L6A",
+  "6A-02": "L6A",
+  "6A-03": "L6A",
+  "6A-04": "L6A",
+  "6A-05": "L6A",
+  "6A-06": "L6A",
+  "6A-07": "L6A",
+  "6A-08": "L6A",
+  "6A-09": "L6A",
+  "6A-10": "L6A",
+  "6A-11": "L6A",
+  "6A-12": "L6A",
+  "6A-13": "L6A",
+  "6A-14": "L6A",
+  "6A-15": "L6A",
+  "6B-01": "L6B",
+  "6B-02": "L6B",
+  "6B-03": "L6B",
+  "6B-04": "L6B",
+  "6B-05": "L6B",
+  "6B-06": "L6B",
+  "6B-07": "L6B",
+  "6B-08": "L6B",
+  "6B-09": "L6B",
+  "6B-10": "L6B",
+  "6B-11": "L6B",
+  "6B-12": "L6B",
+  "6B-13": "L6B",
+  "6B-14": "L6B",
+  "6B-15": "L6B"
+ },
+ "ts": {
+  "L1": [
+   "L1-Q02",
+   "L1-Q04",
+   "L1-Q06",
+   "L1-Q08",
+   "L1-Q11",
+   "L1-Q13",
+   "L1-Q16",
+   "L1-Q17",
+   "L1-Q19",
+   "L1-Q20"
+  ],
+  "L1C": [
+   "L1C-Q21",
+   "L1C-Q24",
+   "L1C-Q26",
+   "L1C-Q27",
+   "L1C-Q28"
+  ],
+  "L2": [
+   "L2-Q01",
+   "L2-Q04",
+   "L2-Q06",
+   "L2-Q08",
+   "L2-Q09",
+   "L2-Q12",
+   "L2-Q14",
+   "L2-Q17",
+   "L2-Q18",
+   "L2-Q21",
+   "L2-Q23",
+   "L2-Q24",
+   "L2-Q27",
+   "L2-Q28",
+   "L2-Q29"
+  ],
+  "L3": [
+   "L3-Q02",
+   "L3-Q04",
+   "L3-Q06",
+   "L3-Q08",
+   "L3-Q10",
+   "L3-Q12",
+   "L3-Q14",
+   "L3-Q16",
+   "L3-Q18",
+   "L3-Q19",
+   "L3-Q20",
+   "L3-Q23",
+   "L3-Q25",
+   "L3-Q28",
+   "L3-Q29"
+  ],
+  "L4": [
+   "L4-01",
+   "L4-02",
+   "L4-03",
+   "L4-04",
+   "L4-06",
+   "L4-08",
+   "L4-10",
+   "L4-12",
+   "L4-16",
+   "L4-17"
+  ],
+  "L4C": [
+   "4C-01",
+   "4C-03",
+   "4C-04",
+   "4C-06",
+   "4C-08"
+  ],
+  "L5": [
+   "A5-02",
+   "A5-04",
+   "A5-06",
+   "A5-07",
+   "A5-09",
+   "A5-11",
+   "A5-13",
+   "A5-15",
+   "A5-17",
+   "A5-19"
+  ],
+  "L5C": [
+   "5C-01",
+   "5C-03",
+   "5C-06",
+   "5C-07",
+   "5C-08"
+  ],
+  "L6A": [
+   "6A-01",
+   "6A-03",
+   "6A-04",
+   "6A-05",
+   "6A-06",
+   "6A-10",
+   "6A-12",
+   "6A-13"
+  ],
+  "L6B": [
+   "6B-02",
+   "6B-03",
+   "6B-06",
+   "6B-07",
+   "6B-10",
+   "6B-13",
+   "6B-14",
+   "6B-15"
+  ]
+ },
+ "volreg": {
+  "L1": [
+   "L1-Q14",
+   "L1-Q16",
+   "L1-Q18",
+   "L1-Q19"
+  ],
+  "L1C": [],
+  "L2": [],
+  "L3": [
+   "L3-Q21"
+  ],
+  "L4": [
+   "L4-15"
+  ],
+  "L4C": [],
+  "L5": [
+   "A5-14",
+   "A5-15",
+   "A5-16",
+   "A5-17"
+  ],
+  "L5C": [],
+  "L6A": [
+   "6A-01",
+   "6A-09",
+   "6A-10",
+   "6A-14",
+   "6A-15"
+  ],
+  "L6B": []
+ },
+ "gab_sim": {
+  "SIM-0": {
+   "BQ-0013": "C",
+   "BQ-0018": "E",
+   "BQ-0019": "E",
+   "BQ-0020": "C",
+   "BQ-0026": "C",
+   "BQ-0027": "C",
+   "BQ-0033": "C",
+   "BQ-0034": "C",
+   "BQ-0041": "E",
+   "BQ-0042": "E",
+   "BQ-0043": "E",
+   "BQ-0049": "E",
+   "BQ-0050": "E",
+   "BQ-0051": "C",
+   "BQ-0009": "C",
+   "BQ-0010": "E",
+   "BQ-0014": "C",
+   "BQ-0015": "E",
+   "BQ-0028": "E",
+   "BQ-0058": "E",
+   "BQ-0059": "C",
+   "BQ-0061": "C",
+   "BQ-0064": "C",
+   "BQ-0065": "C",
+   "BQ-0066": "C",
+   "BQ-0016": "E",
+   "BQ-0040": "E",
+   "BQ-0044": "E",
+   "BQ-0054": "C",
+   "BQ-0055": "C",
+   "BQ-0001": "C",
+   "BQ-0021": "C",
+   "BQ-0022": "E",
+   "BQ-0047": "C",
+   "BQ-0052": "E",
+   "BQ-0053": "E",
+   "BQ-0017": "C",
+   "BQ-0035": "C",
+   "BQ-0048": "E",
+   "BQ-0002": "E",
+   "BQ-0003": "E",
+   "BQ-0004": "E",
+   "BQ-0005": "C",
+   "BQ-0006": "C",
+   "BQ-0007": "C",
+   "BQ-0008": "C",
+   "BQ-0023": "E",
+   "BQ-0024": "C",
+   "BQ-0025": "E",
+   "BQ-0032": "C",
+   "BQ-0036": "C",
+   "BQ-0037": "C",
+   "BQ-0045": "C",
+   "BQ-0046": "C",
+   "BQ-0056": "E",
+   "BQ-0057": "E",
+   "BQ-0011": "E",
+   "BQ-0012": "C",
+   "BQ-0038": "C",
+   "BQ-0039": "E"
+  },
+  "SIM-1": {
+   "4C-02": "C",
+   "L4-04": "C",
+   "4C-05": "E",
+   "L4-03": "E",
+   "4C-08": "E",
+   "4C-07": "C",
+   "L4-01": "C",
+   "L4-06": "E",
+   "L4-08": "E",
+   "L4-07": "C",
+   "L4-09": "E",
+   "L4-10": "C",
+   "L4-14": "C",
+   "L4-12": "C",
+   "L4-13": "E",
+   "L4-16": "E",
+   "L4-17": "C",
+   "L4-18": "E",
+   "L4-20": "C",
+   "L4-19": "E",
+   "A5-03": "E",
+   "A5-02": "C",
+   "A5-04": "E",
+   "A5-01": "C",
+   "A5-06": "E",
+   "A5-07": "E",
+   "A5-05": "C",
+   "A5-12": "E",
+   "5C-03": "E",
+   "5C-04": "C",
+   "5C-05": "C",
+   "A5-11": "C",
+   "A5-10": "E",
+   "A5-09": "C",
+   "A5-20": "C",
+   "A5-18": "C",
+   "A5-19": "E",
+   "5C-10": "E",
+   "5C-09": "C",
+   "5C-07": "E"
+  },
+  "SIM-2": {
+   "L3-Q25": "C",
+   "L2-Q27": "C",
+   "L1-Q03": "E",
+   "L3-Q24": "E",
+   "L2-Q22": "C",
+   "L1C-Q28": "E",
+   "L2-Q17": "C",
+   "L2-Q01": "E",
+   "L3-Q02": "E",
+   "L1-Q17": "C",
+   "L3-Q07": "E",
+   "L3-Q28": "E",
+   "L3-Q09": "C",
+   "L1-Q05": "C",
+   "L3-Q05": "C",
+   "L3-Q10": "E",
+   "L1-Q04": "C",
+   "L2-Q16": "E",
+   "L3-Q01": "C",
+   "L2-Q06": "E",
+   "L1C-Q22": "E",
+   "L2-Q11": "E",
+   "L1C-Q24": "C",
+   "L1C-Q21": "E",
+   "L2-Q02": "C",
+   "L2-Q13": "C",
+   "L3-Q16": "C",
+   "L2-Q24": "E",
+   "L2-Q20": "E",
+   "L3-Q27": "C",
+   "L3-Q17": "C",
+   "L2-Q29": "E",
+   "L2-Q08": "C",
+   "L1C-Q30": "E",
+   "L1-Q09": "C",
+   "L3-Q18": "E",
+   "L1-Q10": "C",
+   "L1-Q13": "E",
+   "L2-Q10": "C",
+   "L1-Q20": "E"
+  },
+  "SIM-0-P2": {
+   "L1C-Q29": "C",
+   "L1C-Q27": "C",
+   "L2-Q19": "C",
+   "L3-Q15": "E",
+   "L2-Q04": "C",
+   "L3-Q29": "E",
+   "L1C-Q25": "E",
+   "L3-Q19": "C",
+   "L3-Q12": "C",
+   "L2-Q28": "C",
+   "L1-Q02": "E",
+   "L3-Q14": "E",
+   "L3-Q30": "C",
+   "L2-Q15": "C",
+   "L2-Q09": "E",
+   "L3-Q04": "C",
+   "L3-Q08": "C",
+   "L2-Q07": "E",
+   "L1-Q15": "C",
+   "L1-Q12": "E",
+   "L3-Q23": "E",
+   "L2-Q23": "C",
+   "L2-Q26": "E",
+   "L1-Q06": "E",
+   "L2-Q30": "E"
+  }
+ },
+ "size": 618673,
+ "adendo2": "Contexto institucional — Ato da Mesa nº 225, de 15/12/2025 (DCD, Ed.\nExtra A, 18/12/2025): estabelece diretrizes gerais para a política de\ngovernança de inteligência artificial no âmbito da Câmara dos Deputados\ne determina sua implementação pela Diretoria-Geral. Em síntese, o art.\n3º orienta a política para: princípios éticos, entre eles transparência,\nproteção de dados, não discriminação e supervisão humana (I);\nconformidade com a LGPD (III); disciplina do uso de IA generativa, com\nrequisitos para prompts, para agentes autônomos ou semiautônomos e para\nrevisão humana (V); informação ao usuário quando interage com agentes de\nIA (VIII); supervisão que inclui o monitoramento de vieses e alucinações\n(IX). O art. 4º, IV, prevê comitê de ética de uso da IA. Norma interna;\nreferência de contexto; sem item."
+}

@@ -5,6 +5,7 @@ Salvo nos arquivos do Projeto pela GCB-CPP em 8/10/2026 porque as cópias transp
 LOTE 5 — TID-DADOS-VIZ — v3 CANÔNICA — GCB-CPP — 8/10/2026
 v3 para conferência de aplicação — decisão da GCB de 08/10/2026
 v3.1 — ajustes do Despacho 3 da GCB, 08/10/2026
+v3.2 — errata de forma T-47 (D-ERRATA-L5-TUKEY, Fundador, 13/10/2026) no curso 8.2, bloco do box plot; conferida pela CQFP em 13/10/2026; registro na Tabela de Correções
 Conteúdo: v2 única completa com as correções do Despacho 2 (GCB/Despachos_pendentes_GCB-CPP.md): F1 (= 5g), F2, F3, F4, R1 e NOTA 8.11.2, conferidas pela CQFP em 08/10/2026 (Lote 5 v3: CONFERIDO); e com o ajuste do Despacho 3 (NOTA 8.11.2), aplicado mediante registro na Tabela de Correções, sem nova conferência.
 
 CABEÇALHO
@@ -23,7 +24,7 @@ TABELA DE CORREÇÕES
 | R1 | par C13 | "(aplicativo Windows, gratuito)" → "(aplicativo Windows, download gratuito)" | QA final (GCB) | aplicada (v3); conferida |
 | NOTA 8.11.2 | resumo (b) | Nota sobre pontuação por item (+1,00 / −1,00 / 0,00), só fato e fonte | GCB | aplicada (v3); conferida |
 | NOTA 8.11.2 (ajuste) | resumo (b) | Acrescentado "ou houver marcação dupla (C e E)" | Conferência v3 | aplicada (v3.1) |
-| Errata T-47 (D-ERRATA-L5-TUKEY, 13/10/2026) | 8.2, bloco "Box plot (diagrama de caixa)", linha "Bigodes e outliers" | Acrescentada ao fim da linha a frase: "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta." (errata de forma; gabaritos, itens, [TS], VOLÁTIL, contagens e resumo (b) inalterados; aplicação no pacote pela T-48) | Decisão do Fundador (D-ERRATA-L5-TUKEY) | aplicada (13/10/2026); conferência CQFP pendente |
+| Errata T-47 (D-ERRATA-L5-TUKEY, 13/10/2026) | 8.2, bloco "Box plot (diagrama de caixa)", linha "Bigodes e outliers" | Acrescentada ao fim da linha a frase: "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta." (errata de forma; gabaritos, itens, [TS], VOLÁTIL, contagens e resumo (b) inalterados; aplicação no pacote pela T-48) | Decisão do Fundador (D-ERRATA-L5-TUKEY) | aplicada (v3.2, 13/10/2026); conferida (CQFP, 13/10/2026) |
 
 FONTES DE FERRAMENTA (oficiais do fornecedor; verificadas pela CQFP em 8/10/2026; U1 en-us, GG4 e TB2 reabertas pela CPP em 8/10/2026)
 U1 — Microsoft Learn, "Using Power BI", en-us (canônica): https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/2-using-power-bi

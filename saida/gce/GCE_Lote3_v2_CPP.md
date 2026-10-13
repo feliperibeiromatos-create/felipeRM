@@ -29,7 +29,7 @@ G1 → convenção de evidência, F4; limites, N7; bloco T-08, marca de
      10/10/2026; sem mudança de item, gabarito ou marca V)
 T-44 → (a), 3.1, bloco "CONTEXTO NORMATIVO INTERNO" (errata de forma,
      D-L3-ERRATA-FORMA, 13/10/2026; sem mudança de conteúdo, item,
-     gabarito, fonte, [TS], VOLÁTIL ou marca V): (1) título "CONTEXTO
+     gabarito, fonte, troca sutil, volatilidade ou marca V): (1) título "CONTEXTO
      NORMATIVO INTERNO (ERRATA T-08, 10/10/2026; SEM ITEM)" → "CONTEXTO
      NORMATIVO INTERNO (SEM ITEM)"; (2) retirada da nota "(registro da
      GCB-CQFP, 08/10/2026)" após "fora dos objetos de avaliação"

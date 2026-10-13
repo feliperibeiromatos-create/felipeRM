@@ -1,10 +1,10 @@
-# estilo_banca.md — T-37 — 2026-10-13 — gerado por gbq-estilo
-v1.1.2
+# estilo_banca.md — T-50 — 2026-10-13 — gerado por gbq-estilo
+v1.1.3
 
 ## 1. Cabeçalho
 
-- Versão: v1.1.2 (errata de forma da v1.1.1, T-37; a v1.1.1 foi errata de forma da v1.1, T-23). A v1.1 substituiu a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
-- Data: 2026-10-13 (v1.1.1: 2026-10-10; v1.1: 2026-10-09)
+- Versão: v1.1.3 (errata de forma da v1.1.2, T-50; a v1.1.2 foi errata de forma da v1.1.1, T-37; a v1.1.1 foi errata de forma da v1.1, T-23). A v1.1 substituiu a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
+- Data: 2026-10-13 (v1.1.2: 2026-10-13; v1.1.1: 2026-10-10; v1.1: 2026-10-09)
 - Banco: 66 itens (BQ-0001 a BQ-0066), todos CEBRASPE_ANALOGA, de 9 certames Cebraspe:
   - TRF6 2024: Cargo 2, Análise de Dados; aplicação 19/01/2025.
   - BCB 2024: Analista, TI; aplicação 4/8/2024.
@@ -114,7 +114,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
   - BQ-0016 (E): "a opacidade sobre os algoritmos é encorajada como prática padrão"
   - BQ-0022 (E): "o equilíbrio assimétrico consiste na distribuição do peso uniforme dos objetos em ambas as metades da página"
   - BQ-0028 (E): "o processo de geração de imagens ocorre por meio da aplicação sequencial de ruído gaussiano em uma imagem inicial em branco". Descreve a geração no sentido do treinamento.
-  - BQ-0056 (E, novo): "realiza o tratamento de dados pessoais em nome do operador é denominada de controlador". Os papéis de controlador e operador estão trocados. O texto vigente da definição na LGPD fica com o qa-normativo (T-13).
+  - BQ-0056 (E, novo): "realiza o tratamento de dados pessoais em nome do operador é denominada de controlador". Os papéis de controlador e operador estão trocados. Vigência conferida pelo qa-normativo na T-13: gabarito mantido (10/10/2026; saida/banco/qa_normativo_lgpd_2026-10-10.md).
 - Frequência: n = 5; 8,3% da base; 18,5% dos E.
 - Subitens: P2-4.3 (BQ-0011), P1-6 (BQ-0016), P1-8.1 (BQ-0022), P1-5.3 (BQ-0028), P2-4.1 (BQ-0056).
 - Mudança: a definição foi ampliada para incluir a inversão de relação, por causa de BQ-0056. A correção da v1.0 sobre BQ-0011 continua valendo: o item define integridade pelo seu oposto, e não "como disponibilidade", como diz a semente.
@@ -242,7 +242,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
   - BQ-0037 (C): "os dados deverão ser mantidos em formato interoperável e estruturado para uso compartilhado"
 - Frequência: n = 4; 6,7% da base; 12,1% dos C. Nenhum item novo.
 - Subitem: P2-4.1.
-- A proximidade com o texto vigente não foi conferida por artigo e fica com o qa-normativo (T-13).
+- Vigência conferida por artigo pelo qa-normativo: BQ-0006, BQ-0024 e BQ-0037 na T-13 e BQ-0036 na T-21, gabaritos mantidos (10/10/2026; saida/banco/qa_normativo_lgpd_2026-10-10.md e qa_normativo_marco_civil_cnj_2026-10-10.md).
 
 ### 3.9 [C3] Item C redigido para parecer E
 
@@ -585,5 +585,13 @@ Errata de forma, conforme a reconciliação da GBQ (D1, saida/banco/GBQ_reconcil
 - Vigência (seções 3.3 e 3.11 e ressalva 7): registram a T-13 (17/17 gabarito mantido, 10/10/2026) e a T-21 (BQ-0036 e BQ-0040 mantidos; Res. CNJ 332/2020 revogada pela 615/2025, regra no art. 8º, § 3º; nota de vigência no banco), com remissão à reconciliação. Em 3.11 entra só a T-13, porque a T-21 não alcança BQ-0046.
 - Cabeçalho: versão v1.1.2, data 2026-10-13.
 - A tabela histórica v1.0 → v1.1 e o registro v1.1 → v1.1.1 ficam intactos.
+
+### v1.1.2 → v1.1.3 (T-50)
+
+Errata de forma, conforme a reconciliação da GBQ (D1, saida/banco/GBQ_reconciliacao_2026-10-13.md, seção 3, decisão (3-b)). Nenhum padrão, contagem de padrão ou recomendação mudou. Base, proporção C/E, tipologia, traços e marcadores ficam iguais.
+- Seção 3.2 (E2), nota de BQ-0056: "O texto vigente da definição na LGPD fica com o qa-normativo (T-13)." passa a "Vigência conferida pelo qa-normativo na T-13: gabarito mantido (10/10/2026; saida/banco/qa_normativo_lgpd_2026-10-10.md)."
+- Seção 3.8 (C2): "A proximidade com o texto vigente não foi conferida por artigo e fica com o qa-normativo (T-13)." passa a "Vigência conferida por artigo pelo qa-normativo: BQ-0006, BQ-0024 e BQ-0037 na T-13 e BQ-0036 na T-21, gabaritos mantidos (10/10/2026; saida/banco/qa_normativo_lgpd_2026-10-10.md e qa_normativo_marco_civil_cnj_2026-10-10.md)."
+- Cabeçalho: versão v1.1.3, data 2026-10-13.
+- O AVISO final fica inalterado (D1 GBQ, decisão (3-a)). Os registros anteriores da seção 7 ficam intactos.
 
 AVISO: a classificação é julgamento do agente gbq-estilo, revisada pela GBQ em 09/10/2026 (T-03); apta a orientar produção após os ajustes 1–3 (aplicados nesta v1.1.1, T-23).

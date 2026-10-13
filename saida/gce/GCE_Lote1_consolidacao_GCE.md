@@ -187,3 +187,14 @@ ITENS DO EDITAL DA DISCURSIVA (DISC-L1-Q): CONFIRMADO o que a EXEC
     inferiu, P2-1.4, P2-1.6 e P2-1.7.
     Correspondência: alínea a = 1.7; alínea b = 1.4; alínea c = 1.6.
 FIM DO ADENDO 4
+
+ADENDO 5 GCE — 13/10/2026 — errata E12 (decisão D-E12-L1 do Fundador;
+nenhum gabarito alterado)
+E12 Resumo (b), linha do WER: onde se lê "não mede pontuação nem
+    locutor", leia-se "no cálculo usual, sobre texto normalizado, não
+    mede pontuação nem capitalização; locutor fica fora do WER em
+    qualquer convenção".
+    Motivo: alinhar o resumo à E4, que já trata assim o curso 1.1 e a
+    Q01.
+Nenhum gabarito muda. Aplicação no pacote.json pela T-48.
+FIM DO ADENDO 5

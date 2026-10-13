@@ -27,6 +27,12 @@ T-08 → (a), 3.1, bloco "CONTEXTO NORMATIVO INTERNO" (Ato da Mesa nº
 G1 → convenção de evidência, F4; limites, N7; bloco T-08, marca de
      dispositivo normativo conferido pela CQFP (errata D1 da GCE,
      10/10/2026; sem mudança de item, gabarito ou marca V)
+T-44 → (a), 3.1, bloco "CONTEXTO NORMATIVO INTERNO" (errata de forma,
+     D-L3-ERRATA-FORMA, 13/10/2026; sem mudança de conteúdo, item,
+     gabarito, fonte, [TS], VOLÁTIL ou marca V): (1) título "CONTEXTO
+     NORMATIVO INTERNO (ERRATA T-08, 10/10/2026; SEM ITEM)" → "CONTEXTO
+     NORMATIVO INTERNO (SEM ITEM)"; (2) retirada da nota "(registro da
+     GCB-CQFP, 08/10/2026)" após "fora dos objetos de avaliação"
 
 CONVENÇÃO DE EVIDÊNCIA
 [V 08/10/2026 — Fn] = verificado em 08/10/2026 na fonte oficial Fn.
@@ -127,7 +133,7 @@ que a IA "decide" o que é relevante sem critério humano: critérios,
 tesauro e avaliação são definidos pela instituição. (N6: não cobrar
 descrição de sistema real.)
 
-CONTEXTO NORMATIVO INTERNO (ERRATA T-08, 10/10/2026; SEM ITEM)
+CONTEXTO NORMATIVO INTERNO (SEM ITEM)
 Ato da Mesa nº 225, de 15/12/2025 (Câmara dos Deputados; DCD, Ed. Extra A,
 18/12/2025, p. 9; Boletim Administrativo, 19/12/2025, p. 22; vigência na
 publicação, art. 6º): estabelece diretrizes gerais para a política de
@@ -145,7 +151,7 @@ deste item: reforça, na própria Casa, o princípio "a IA apoia; o registro
 oficial passa por revisão humana". O texto lido NÃO trata de transcrição,
 taquigrafia, reconhecimento de fala nem registro de sessões: não afirmar que
 o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora
-dos objetos de avaliação (registro da GCB-CQFP, 08/10/2026): não cobrar
+dos objetos de avaliação: não cobrar
 numeração de incisos, não gera item e não altera gabarito. [V 10/10/2026 —
 F4 Câmara/Legin: www2.camara.leg.br/legin/int/atomes/2025/
 atodamesa-225-15-dezembro-2025-798483-publicacaooriginal-177429-cd-mesa.html;

@@ -199,6 +199,8 @@ Resposta: [   ]
 
 > De acordo com as Resoluções n.º 468/2022, n.º 396/2021, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.
 
+Nota de vigência: a Resolução CNJ n.º 332/2020 foi revogada pela Resolução CNJ n.º 615/2025; julgue conforme o texto vigente (art. 8º, § 3º, da Resolução n.º 615/2025).
+
 **27.** A impossibilidade de eliminação do viés discriminatório de um modelo de inteligência artificial não enseja a imediata descontinuidade de sua utilização, devendo-se adotar medidas corretivas e efetuar o registro de seu projeto.
 
 Resposta: [   ]

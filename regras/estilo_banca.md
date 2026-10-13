@@ -1,10 +1,10 @@
-# estilo_banca.md — T-23 — 2026-10-10 — gerado por gbq-estilo
-v1.1.1
+# estilo_banca.md — T-37 — 2026-10-13 — gerado por gbq-estilo
+v1.1.2
 
 ## 1. Cabeçalho
 
-- Versão: v1.1.1 (errata de forma da v1.1, T-23). A v1.1 substituiu a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
-- Data: 2026-10-10 (v1.1: 2026-10-09)
+- Versão: v1.1.2 (errata de forma da v1.1.1, T-37; a v1.1.1 foi errata de forma da v1.1, T-23). A v1.1 substituiu a v1.0 de 2026-10-08, que se baseava em 42 itens de BQ-0001 a 0046.
+- Data: 2026-10-13 (v1.1.1: 2026-10-10; v1.1: 2026-10-09)
 - Banco: 66 itens (BQ-0001 a BQ-0066), todos CEBRASPE_ANALOGA, de 9 certames Cebraspe:
   - TRF6 2024: Cargo 2, Análise de Dados; aplicação 19/01/2025.
   - BCB 2024: Analista, TI; aplicação 4/8/2024.
@@ -19,7 +19,7 @@ v1.1.1
 - Base efetiva: 60 itens com gabarito C ou E, sendo C = 33 e E = 27. Confere com a contagem da gbq-gerencia em saida/banco/R03_reconciliacao_2026-10-09.md.
 - Status de QA da base:
   - BQ-0001 a 0046: saida/banco/qualidade_2026-10-09.md (45 APROVADAS e 1 CORRIGIR).
-    - BQ-0025 entra a partir desta versão. O único apontamento contra ela (a falta, em observacoes, da alteração C→E entre preliminar e definitivo) foi sanado por D-RECUPERACAO (c). A linha agora registra "gabarito preliminar C alterado para E no definitivo". O gabarito E já tinha sido conferido como correto. A GBQ deve confirmar essa inclusão (seção 6).
+    - BQ-0025 entra a partir desta versão. O único apontamento contra ela (a falta, em observacoes, da alteração C→E entre preliminar e definitivo) foi sanado por D-RECUPERACAO (c). A linha agora registra "gabarito preliminar C alterado para E no definitivo". O gabarito E já tinha sido conferido como correto. Inclusão confirmada pela GBQ (T-03, D1; seção 6).
   - BQ-0047 a 0066: saida/banco/qualidade_2026-10-09_R03.md (20 APROVADOS), reconciliados em R03_reconciliacao_2026-10-09.md. Nenhuma linha tem mais "QA PENDENTE".
 - Fontes lidas, todas em modo somente leitura:
   - banco/banco.csv, com leitor CSV que respeita as aspas (separador ";").
@@ -136,7 +136,11 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
   - BQ-0057 (E, novo): "pode ser realizado, desde que siga o recomendado no Estatuto da Criança e do Adolescente". Substitui a condição da LGPD por uma remissão a outra lei.
 - Frequência: n = 5; 8,3% da base; 18,5% dos E.
 - Subitens: P2-4.1 (BQ-0003, 0004, 0023, 0057), P1-6 (BQ-0040).
-- Vigência não verificada. Todos os itens de LGPD vão para o qa-normativo (T-13, 17 itens), e BQ-0040 (Resolução CNJ) também está pendente. O mecanismo vale como estilo, não como conteúdo vigente.
+- Vigência verificada pelo qa-normativo em 10/10/2026:
+  - LGPD (BQ-0003, 0004, 0023 e 0057): T-13, 17/17 itens de LGPD com gabarito mantido diante do texto vigente da Lei 13.709/2018, com as alterações da Lei 15.352/2026 (saida/banco/qa_normativo_lgpd_2026-10-10.md).
+  - BQ-0040 (Resolução CNJ): T-21, gabarito E mantido. A Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra está hoje no art. 8º, § 3º, da 615/2025, e o banco traz nota de vigência (saida/banco/qa_normativo_marco_civil_cnj_2026-10-10.md).
+  - Reconciliação: saida/banco/GBQ_reconciliacao_2026-10-10_lote1.md, seções 2 e 3.
+  - O mecanismo vale como estilo, não como conteúdo vigente.
 
 ### 3.4 [E4] Erro de adequação ou de escopo: método, paradigma ou ferramenta × tarefa
 
@@ -171,7 +175,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
   - BQ-0058 (E, novo): "e o aprendizado profundo não conseguiu melhorar o desempenho dos modelos generativos, por isso se tem optado por investir em". A premissa é falsa e a conclusão sobre LLMs autorregressivos, plausível. É a primeira ocorrência na base da forma pura do tipo 3 da semente (verdadeira com causa falsa).
 - Frequência: n = 3; 5,0% da base; 11,1% dos E.
 - Subitens: P2-4.1 (BQ-0002), P1-5.2 (BQ-0041), P1-5.3 (BQ-0058).
-- Mudança: E5 era indício na v1.0 (n = 2, só "cauda falsa") e passa a padrão. A definição foi ampliada de "parte final" para "segmento acessório" com a entrada de BQ-0058. Essa ampliação é julgamento desta coordenação. Se a GBQ preferir o recorte da v1.0, E5 volta a INDÍCIO (n = 2), e BQ-0058 fica como indício isolado de "causa falsa".
+- Mudança: E5 era indício na v1.0 (n = 2, só "cauda falsa") e passa a padrão. A definição foi ampliada de "parte final" para "segmento acessório" com a entrada de BQ-0058. Essa ampliação é julgamento desta coordenação. Ampliação aceita pela GBQ (T-03, D1).
 
 ### 3.6 [E6] Regra relativa convertida em absoluta (generalização indevida) — NOVO
 
@@ -269,7 +273,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
 - Item: BQ-0046 (C): "permitida a países ou organismos internacionais que tenham legislação equivalente à LGPD". O QA anota que a expressão difere da redação do art. 33, I.
 - Frequência: n = 1; 1,7% da base; 3,0% dos C. Continua INDÍCIO.
 - Subitem: P2-4.1.
-- Está pendente de qa-normativo (T-13). Não reproduza no AUTORAL: o gabarito depende de tolerância da banca, que não se pode prever.
+- Vigência verificada pelo qa-normativo na T-13 (17/17 gabarito mantido, 10/10/2026; saida/banco/qa_normativo_lgpd_2026-10-10.md): o art. 33, I, não foi alterado, e BQ-0046 fica C. A paráfrase ("legislação equivalente" × "grau de proteção de dados pessoais adequado") é preexistente e foi aceita no definitivo; o banco traz a nota (saida/banco/GBQ_reconciliacao_2026-10-10_lote1.md, seção 2, decisão (d)). Continua INDÍCIO e não serve de modelo de redação. Não reproduza no AUTORAL: o gabarito depende de tolerância da banca, que não se pode prever.
 
 ### 3.12 [C6] Afirmação parcial verdadeira, sem marcador de exclusividade ("incompleto não é errado") — NOVO
 
@@ -282,7 +286,7 @@ Os traços transversais podem coexistir com o padrão primário e estão em 3.13
 - Frequência: n = 3; 5,0% da base; 9,1% dos C.
 - Subitens: P1-8.1 (BQ-0001), P1-5.1 (BQ-0059), P1-5.3 (BQ-0065).
 - Diferença para C5: em C6, a parte afirmada é verdadeira sem depender de tolerância. Em C5, a paráfrase troca o critério da norma.
-- A leitura de que esses itens são "incompletos" é julgamento desta coordenação. Os três poderiam ser lidos como C1 por um revisor menos rigoroso. Se a GBQ os reclassificar, C6 deixa de existir (n = 0) e C1 volta a 20.
+- A leitura de que esses itens são "incompletos" é julgamento desta coordenação. Os três poderiam ser lidos como C1 por um revisor menos rigoroso. C6 aceito pela GBQ (T-03, D1).
 
 ### 3.13 Traços transversais (pontos da semente reavaliados)
 
@@ -495,9 +499,10 @@ Indícios (usar com parcimônia, nunca como fórmula):
 6. Aderência. Esta coordenação não arbitra. Registram-se:
    - as decisões D1 da R-03: BQ-0049, 0052, 0053 e 0059 DIRETAS; BQ-0055, 0056 e 0057 PARCIAIS;
    - os resultados da arbitragem da T-03 (D1 GBQ, saida/banco/T03_arbitragem_2026-10-09.md) para as 7 divergências do QA de 09/10: DIRETA: BQ-0009 (remapeada de P1-5.3 para P1-5), 0014 (P1-5.3) e 0040 (P1-6); PARCIAL: BQ-0001 (P1-8.1), 0015 (P1-5.3), 0016 (P1-6) e 0036 (P2-4.1).
-7. Vigência e fonte não verificadas:
-   - Itens de LGPD (17, entre eles BQ-0025, 0056 e 0057): T-13 no qa-normativo, por causa da Lei 15.352/2026.
-   - Também pendentes: BQ-0036 (Marco Civil) e BQ-0040 (Resolução CNJ), ambos na T-21 do qa-normativo.
+7. Vigência e fonte:
+   - Itens de LGPD (17, entre eles BQ-0025, 0056 e 0057): verificados pelo qa-normativo na T-13 diante do texto vigente da Lei 13.709/2018, com as alterações da Lei 15.352/2026; 17/17 gabarito mantido, 10/10/2026 (saida/banco/qa_normativo_lgpd_2026-10-10.md).
+   - BQ-0036 (Marco Civil) e BQ-0040 (Resolução CNJ): verificados pelo qa-normativo na T-21; ambos mantidos, 10/10/2026 (saida/banco/qa_normativo_marco_civil_cnj_2026-10-10.md). A Res. CNJ 332/2020, citada no comando de BQ-0040, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra está hoje no art. 8º, § 3º, da 615/2025, e o banco traz nota de vigência.
+   - Remissão: saida/banco/GBQ_reconciliacao_2026-10-10_lote1.md, seções 2 e 3.
    - Ferramentas sem fonte do fornecedor: BQ-0014, 0015, 0017, 0028, 0035, 0048 e 0064. BQ-0064 é VOLÁTIL (T-14).
    - Os mecanismos descritos valem como estilo, não como conteúdo vigente.
 8. Não há coluna de comando no CSV, por isso a proporção por tipo de comando não foi calculada.
@@ -570,5 +575,15 @@ Errata de forma, conforme a revisão da GBQ (D1, saida/banco/T03_arbitragem_2026
 - Seção 6: as ressalvas 1 e 4 registram a revisão da GBQ (BQ-0025 confirmada, E5 ampliado aceito, C6 aceito, fronteiras mantidas); a 6 registra os resultados da T-03; a 7 põe BQ-0036 e BQ-0040 na T-21.
 - Seção 7 e AVISO: registro da revisão da GBQ (T-03).
 - Cabeçalho: versão v1.1.1.
+
+### v1.1.1 → v1.1.2 (T-37)
+
+Errata de forma, conforme a reconciliação da GBQ (D1, saida/banco/GBQ_reconciliacao_2026-10-10_lote1.md, seção 4). Nenhum padrão, contagem de padrão ou recomendação mudou. Base, proporção C/E, tipologia, traços e marcadores ficam iguais. C5 continua INDÍCIO e "não usar como modelo".
+- Seção 1, linha de BQ-0025: "A GBQ deve confirmar essa inclusão (seção 6)" passa a "Inclusão confirmada pela GBQ (T-03, D1; seção 6)".
+- Seção 3.5 (E5): a última frase do item "Mudança" passa a "Ampliação aceita pela GBQ (T-03, D1)."
+- Seção 3.12 (C6): a última frase passa a "C6 aceito pela GBQ (T-03, D1)."
+- Vigência (seções 3.3 e 3.11 e ressalva 7): registram a T-13 (17/17 gabarito mantido, 10/10/2026) e a T-21 (BQ-0036 e BQ-0040 mantidos; Res. CNJ 332/2020 revogada pela 615/2025, regra no art. 8º, § 3º; nota de vigência no banco), com remissão à reconciliação. Em 3.11 entra só a T-13, porque a T-21 não alcança BQ-0046.
+- Cabeçalho: versão v1.1.2, data 2026-10-13.
+- A tabela histórica v1.0 → v1.1 e o registro v1.1 → v1.1.1 ficam intactos.
 
 AVISO: a classificação é julgamento do agente gbq-estilo, revisada pela GBQ em 09/10/2026 (T-03); apta a orientar produção após os ajustes 1–3 (aplicados nesta v1.1.1, T-23).

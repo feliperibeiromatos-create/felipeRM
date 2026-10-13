@@ -23,6 +23,7 @@ TABELA DE CORREÇÕES
 | R1 | par C13 | "(aplicativo Windows, gratuito)" → "(aplicativo Windows, download gratuito)" | QA final (GCB) | aplicada (v3); conferida |
 | NOTA 8.11.2 | resumo (b) | Nota sobre pontuação por item (+1,00 / −1,00 / 0,00), só fato e fonte | GCB | aplicada (v3); conferida |
 | NOTA 8.11.2 (ajuste) | resumo (b) | Acrescentado "ou houver marcação dupla (C e E)" | Conferência v3 | aplicada (v3.1) |
+| Errata T-47 (D-ERRATA-L5-TUKEY, 13/10/2026) | 8.2, bloco "Box plot (diagrama de caixa)", linha "Bigodes e outliers" | Acrescentada ao fim da linha a frase: "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta." (errata de forma; gabaritos, itens, [TS], VOLÁTIL, contagens e resumo (b) inalterados; aplicação no pacote pela T-48) | Decisão do Fundador (D-ERRATA-L5-TUKEY) | aplicada (13/10/2026); conferência CQFP pendente |
 
 FONTES DE FERRAMENTA (oficiais do fornecedor; verificadas pela CQFP em 8/10/2026; U1 en-us, GG4 e TB2 reabertas pela CPP em 8/10/2026)
 U1 — Microsoft Learn, "Using Power BI", en-us (canônica): https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/2-using-power-bi
@@ -114,7 +115,7 @@ Gráfico de dispersão
 
 Box plot (diagrama de caixa)
 - Definição: resume a distribuição de uma variável quantitativa. A caixa vai do 1º quartil (Q1) ao 3º quartil (Q3), ou seja, contém os 50% centrais dos dados; a amplitude da caixa é o intervalo interquartil (AIQ = Q3 − Q1). A linha interna é a mediana (não a média; a média só aparece com marcação extra).
-- Bigodes e outliers (regra usual de Tukey, adotada como convenção por muitos programas, mas que pode variar): calculam-se os limites Q1 − 1,5·AIQ e Q3 + 1,5·AIQ; cada bigode vai até o dado mais extremo DO SEU LADO que ainda esteja dentro do limite respectivo, e os pontos além dos limites são marcados individualmente como outliers. A regra vale por lado: um outlier superior não impede que o bigode inferior termine no mínimo da amostra. Logo, os bigodes só coincidem com o mínimo e o máximo quando não há outliers daquele lado.
+- Bigodes e outliers (regra usual de Tukey, adotada como convenção por muitos programas, mas que pode variar): calculam-se os limites Q1 − 1,5·AIQ e Q3 + 1,5·AIQ; cada bigode vai até o dado mais extremo DO SEU LADO que ainda esteja dentro do limite respectivo, e os pontos além dos limites são marcados individualmente como outliers. A regra vale por lado: um outlier superior não impede que o bigode inferior termine no mínimo da amostra. Logo, os bigodes só coincidem com o mínimo e o máximo quando não há outliers daquele lado. O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta.
 - Comparação entre grupos: a variável resumida é quantitativa; os grupos são categorias de uma variável categórica (uma caixa por comissão). Não mostra a forma detalhada da distribuição (bimodalidade), que o histograma mostra.
 - Exemplo: comparar a distribuição de prazos de análise entre comissões.
 - Pegadinha: dizer que a linha central é a média; que a caixa vai do mínimo ao máximo ou contém todos os dados; que os bigodes vão até 1,5 desvio padrão; que mostra frequência por intervalo (isso é histograma).

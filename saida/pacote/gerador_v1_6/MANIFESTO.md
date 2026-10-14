@@ -1,6 +1,6 @@
 # MANIFESTO — T-67 — gerador v1.6 do pacote e da edição do estudante — 2026-10-14 — gerado por gbq-csc
 
-Origem: cópia de `saida/pacote/gerador_v1_5/` (intacta: `git status` da pasta sem alteração; os 34 arquivos de código e os 71 de `out/` da v1_5 não foram tocados) para `saida/pacote/gerador_v1_6/`, alterada depois; `out/` da v1_5 não foi copiado (é regerado). `conferencias_v15.py` e `relatorio_v1_5.py` não foram trazidos (continuam na v1_5; os da v1.6 são `conferencias_v16.py` e `relatorio_v1_6.py`). Scripts temporários da ocorrência (aplicação das alterações às cópias, geração das conferências e do relatório a partir dos da v1_5, geração deste manifesto, teste do clone) ficaram só no scratchpad. Comando de execução (a partir de qualquer pasta; `-B` evita `__pycache__`, `-I` não serve porque bloqueia os imports entre scripts; só `validar_erros.py`, que não importa módulo do gerador, roda com `-I`): `sh saida/pacote/gerador_v1_6/rodar_tudo.sh` (roda o pipeline abaixo) ou `python3 -B saida/pacote/gerador_v1_6/<script>.py`.
+Origem: cópia de `saida/pacote/gerador_v1_5/` (intacta: `git status` da pasta sem alteração; os 34 arquivos de código e os 71 de `out/` da v1_5 não foram tocados) para `saida/pacote/gerador_v1_6/`, alterada depois; `out/` da v1_5 não foi copiado (é regerado). `conferencias_v15.py` e `relatorio_v1_5.py` não foram trazidos (continuam na v1_5; os da v1.6 são `conferencias_v16.py` e `relatorio_v1_6.py`). Scripts temporários da ocorrência (aplicação das alterações às cópias, geração das conferências e do relatório a partir dos da v1_5, teste do clone) ficaram só no scratchpad; o MANIFESTO é gerado por `manifesto_v1_6.py` (passo 10). Comando de execução (a partir de qualquer pasta; `-B` evita `__pycache__`, `-I` não serve porque bloqueia os imports entre scripts; só `validar_erros.py`, que não importa módulo do gerador, roda com `-I`): `sh saida/pacote/gerador_v1_6/rodar_tudo.sh` (roda o pipeline abaixo) ou `python3 -B saida/pacote/gerador_v1_6/<script>.py`.
 
 ## Ordem de execução
 
@@ -17,6 +17,7 @@ Origem: cópia de `saida/pacote/gerador_v1_5/` (intacta: `git status` da pasta s
 | 7 | `python3 -B fidelidade_mutacao.py` (~2 min: 14 mutações, cada uma com a fidelidade completa) | `> out/mutacao_stdout.txt` | `fidelidade_mutacao.json` (14 mutações, todas detectadas) |
 | 8 | `python3 -B validar_erros_teste.py` (T-59, registro) | `> out/validar_erros_stdout.txt` (12 conferências) | `casos_erros/` (8 arquivos fictícios) |
 | 9 | `python3 -B relatorio_v1_6.py` | `> out/relatorio_stdout.txt` (uma linha: n.º de linhas) | `pacote_relatorio_2026-10-14_v1_6.md` |
+| 10 | `python3 -B manifesto_v1_6.py` | nenhum (a saída-padrão vai ao stderr do runner; um arquivo em `out/` seria listado por este próprio passo) | nenhum em `out/`; grava `MANIFESTO.md` (fora de `out/`) |
 
 Tudo grava em `out/`; a promoção para `saida/pacote/pacote.json`, `saida/estudante/` e `saida/pacote/pacote_relatorio_2026-10-14_v1_6.md` é um passo explícito (cópia) depois de todas as conferências com 0 falhas. Caminhos derivados de `__file__` (raiz do repositório = três níveis acima de `gerador_v1_6/`); as referências v1/v1.1/R0/v1.2/v1.3/v1.4/v1.5 vêm do git por `refs.py` (`git show <commit>:<caminho>`, somente leitura): v1 `5eab2d9`, v1.1 `e97ab1f`, R0 `27e594d`, v1.2 `2684ab1`, v1.3 `9622604`, v1.4 `e9b6402`, **v1.5 `a889100`** (o primeiro commit em que `saida/pacote/pacote.json` tem o SHA-256 `b4bc65c7…`; é a base do diff e da comparação de fontes do relatório). As conferências (2) da v1.6 reconstroem o contrato v1.2.4 (v1.2.3 do git + C-1 a C-5 lidas dos blocos literais de `saida/pacote/T66_decisoes_2026-10-14.md`, seção 6.1); as (6), a regra `importacao_erros.md` v1.2 (bloco D-T59-07 de `T59_decisoes_2026-10-14.md` + E-1 a E-5 + E-6 a E-10 lidas da seção 6.2 de `T66_decisoes`), o exemplo, `.gitignore` (e `git check-ignore`), o validador mantido e seu teste; a (7), a E13 e a consolidação do L1 (SHA-256 `604fa711…`).
 
@@ -31,6 +32,7 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | banco.py | 3184 | `6d6e975561ae53c54021a64cd8f17a2fba68f945d7f5a9ed83992163e750cfaf` | igual à v1_5 | ativo |
 | build_pacote.py | 7995 | `51cd87e568ad2a7c2b30c8ef15fecc2d05254e8bcc31a0aae695fb3eed857ff9` | alterado | ativo |
 | common.py | 6187 | `d34744a8cbfcc85dddda51bcd426eef97005af370424eab7eb963a126ee46859` | alterado | ativo |
+| conferencia_f_2026-10-14.json | 675 | `9eef708d10a8fe33ee6202db80d4287d29b34964db3c7047b6125899309ab6ce` | novo | registro datado da conferência (f) da produção, 14/10/2026; não é regerado |
 | conferencias_R1.py | 31123 | `587a8d4212429b2c4917c669106af4cb4864cd811481de6b473828bc6e6cc92e` | igual à v1_5 | histórico (executável; v1.2/R0/R1; lê do git; se rodado grava out/conferencias_R1.json e out/varredura_volatil.json, que não fazem parte do pipeline) |
 | conferencias_v16.py | 83219 | `a46512129bcd14be2dc46443f23d0f8f9fc43e5d5ef41b41073e57723c5853f0` | novo | ativo (conferências (0) a (7) da v1.6: 155; substitui `conferencias_v15.py`, que continua na v1_5) |
 | diff.py | 1751 | `59fef679b240aa9e1ae7895813f4dd7be8251ae06a69921d37874ff843376bfb` | igual à v1_5 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
@@ -44,6 +46,7 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | gce.py | 5972 | `e007ddaeac3b07f7f47fe7472c1ec6a1d418f731e185f4baaf678e822153212c` | igual à v1_5 | ativo |
 | literais.py | 14182 | `93c64cd58bff76ab3afb8a7429cb3ba2b4d8af7353191e015d8949531b08518b` | igual à v1_5 | ativo |
 | lotes_tab.txt | 912 | `895e4d50479615c6963fcd35c01d3cd57aa8bad3994dec6c08a1a639517d27a2` | igual à v1_5 | ativo |
+| manifesto_v1_6.py | 15208 | `46105133b6896abf7bd80f63dfc2472c3f4bbde1977288673900fa0193456f14` | novo | ativo, passo 10: gera este MANIFESTO inteiro a partir de `out/` (T66 7.2.3; D1-T67-R1) |
 | p1.py | 11025 | `5cfc3a55b838d3f02f6b4f95302ba354aa1a036f08fe83d6817a3dc2e2981a5b` | igual à v1_5 | ativo |
 | p2.py | 27070 | `2fd6fbc7f2f12550ece27cd1022e701bf2f88f2c71ef9ffd0dbd14e4647913f9` | alterado | ativo |
 | peg.py | 4922 | `ee0071445a44c6c043a4e3359299e33aed17ea6da3515aa96f7d656e85115d61` | igual à v1_5 | ativo |
@@ -56,7 +59,7 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | report2.py | 44678 | `92c1fb9c6ac8c727831f16d2db5928bddf3f1f66cee3e6dbb87f35c523c08cc3` | igual à v1_5 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
 | resid.py | 481 | `3e43ef78e0c82b3927ed5108facf18e5bc47307d6f2a5a0c266075e06d368082` | igual à v1_5 | histórico (executável; v1.2/R0/R1) |
 | review.py | 690 | `a1c4f135e564a160e0d09a6347c04c218693fd506e67a6678f9549e7996180ff` | igual à v1_5 | histórico (executável; v1.2/R0/R1) |
-| rodar_tudo.sh | 1120 | `0d8e717fbace660d4728a0077297ffb73d521181890af262c44429a9cfda17c7` | alterado | ativo (runner do pipeline) |
+| rodar_tudo.sh | 1319 | `92d7b0904b9a340de2fb5e534df17404aa9f0b89851385cdd590ff0153372720` | alterado | ativo (runner do pipeline) |
 | sync_check.py | 2868 | `b828c4291295034480eda023081d9b399bdfe11398f611172cf21ccc41e4b7d6` | alterado | ativo |
 | texts.py | 422 | `c3ca12b7283710222c8baf681738b3d0e462207a30b81167d48e84be77bb0102` | igual à v1_5 | ativo (módulo auxiliar importado por relatorio_v1_6.py e pelos históricos) |
 | validar_erros.py | 18500 | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | igual à v1_5 | registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08) — validador do arquivo `camara2026.erros` v1 como foi gerado na T-61; não muda; só biblioteca-padrão, somente leitura; roda com `python3 -I` |
@@ -134,7 +137,7 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | out/validate_stdout.txt | 13069 | `30839636343a1c24e7cb1e4ab4c997fde6b3e58dd520922dd5f2db69326c5c6a` | gerado | saída |
 | out/varredura_volatil_v16.json | 278 | `fc915993c98ad2a7b85545132dd81ca26041b680d3e958f1b4fc68baf72e8705` | gerado | saída |
 
-Total: 105 arquivos listados (34 de código/auxiliares e 71 em `out/`), mais este `MANIFESTO.md` (não tem hash próprio). Código frente à v1_5: 22 iguais, 10 alterados, 2 novos (`conferencias_v16.py`, `relatorio_v1_6.py`). A edição em `out/estudante/` tem 43 arquivos. Manifesto ordenado da edição (SHA-256 das linhas "<sha256>  <nome>"): ver o relatório, seção 13.2 (v1.5 `656e60e5085f3622` → v1.6 `01af0e342b9a7796`). A tabela acima é a da execução do pipeline cujo `out/` foi promovido. Depois da promoção, `out/estudante/` e `saida/estudante/` são idênticos (diff recursivo); `out/pacote.json` e `saida/pacote/pacote.json` têm o mesmo SHA-256; `out/pacote_relatorio_2026-10-14_v1_6.md` e `saida/pacote/pacote_relatorio_2026-10-14_v1_6.md` também.
+Total: 107 arquivos listados (36 de código/auxiliares e 71 em `out/`), mais este `MANIFESTO.md` (não tem hash próprio). Código frente à v1_5: 22 iguais, 10 alterados, 4 novos (`conferencia_f_2026-10-14.json`, `conferencias_v16.py`, `manifesto_v1_6.py`, `relatorio_v1_6.py`). A edição em `out/estudante/` tem 43 arquivos. Manifesto ordenado da edição (SHA-256 das linhas "<sha256>  <nome>"): ver o relatório, seção 13.2 (v1.5 `656e60e5085f3622` → v1.6 `01af0e342b9a7796`). A tabela acima é a da execução do pipeline cujo `out/` foi promovido. Depois da promoção, `out/estudante/` e `saida/estudante/` são idênticos (diff recursivo); `out/pacote.json` e `saida/pacote/pacote.json` têm o mesmo SHA-256; `out/pacote_relatorio_2026-10-14_v1_6.md` e `saida/pacote/pacote_relatorio_2026-10-14_v1_6.md` também.
 
 ## Mudanças frente à v1_5
 
@@ -144,7 +147,7 @@ Total: 105 arquivos listados (34 de código/auxiliares e 71 em `out/`), mais est
 - Desta ocorrência para a v1.6 (T66_decisoes, seção 7): o relatório deixa de trazer frase fixa sobre canônicos alterados; o `MANIFESTO.md` foi **reescrito inteiro** a partir das saídas (as R-1 e R-2 do QA da T-61 estão fechadas no gerador). Pacote: `b4bc65c7…` (v1.5, 621887 bytes) → `ecc284f9055f21046612e5afff7927eb72bf8a2283b7841c2c32c19c172d0a2e` (621907 bytes).
 - Fora do diretório (não copiados): `__pycache__/` (não gerado), `out/` da v1_5 (regerado), `MANIFESTO.md` da v1_5, `conferencias_v15.py` e `relatorio_v1_5.py`.
 
-## Conferência (f): regeração byte a byte numa cópia limpa
+## Conferência (f): regeração byte a byte numa cópia limpa (registro datado da ocorrência de 14/10/2026: clone de `c54ce21` com `gerador_v1_6/` sobreposto; a regeração em clone puro de `569c5dd` está no QA_T67, seção 6)
 
 Método: `git clone` do repositório local (HEAD `c54ce21`) em pasta nova do scratchpad (`s8/clone/` e `s8/clone2/`); o clone só enxerga o que está commitado. Como a T-65 e a T-66 já estão no git (contrato v1.2.4, regra v1.2, `T66_decisoes`, `saida/treino/ferramentas/`, consolidação do L1 com o Adendo 6), a única sobreposição necessária é a pasta nova `saida/pacote/gerador_v1_6/` (sem `out/`, com este `MANIFESTO.md`), ainda não commitada. `saida/pacote/pacote.json` e `saida/estudante/` não foram sobrepostos (ficam na v1.5 do HEAD; a regeração não os lê). Execução de `rodar_tudo.sh` em cada cópia (uma de dentro da própria cópia, outra a partir de `/tmp`) e comparação de `out/` arquivo a arquivo (`filecmp`, byte a byte).
 

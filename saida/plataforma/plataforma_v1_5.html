@@ -764,8 +764,8 @@ function montarErros(agora){
     caderno,respostasCaderno,tentativas,saidas,discursivas};
 }
 async function exportarErros(btn,out){
-  const rot="Exportar meus erros"; btn.disabled=true; btn.textContent="Preparando…";
-  const fim=()=>{ if(btn.isConnected){ btn.disabled=false; btn.textContent=rot; } };
+  const rot="Exportar meus erros"; const comFoco=document.activeElement===btn; btn.disabled=true; btn.textContent="Preparando…";
+  const fim=()=>{ if(btn.isConnected){ btn.disabled=false; btn.textContent=rot; if(comFoco) btn.focus(); } };
   let obj,texto,filename;
   try{ const agora=new Date(); obj=montarErros(agora); filename=expNome(agora); texto=JSON.stringify(obj,null,1); }
   catch(e){ fim(); return toast("Não foi possível preparar o arquivo."); }

@@ -33,6 +33,10 @@ T-44 → (a), 3.1, bloco "CONTEXTO NORMATIVO INTERNO" (errata de forma,
      NORMATIVO INTERNO (ERRATA T-08, 10/10/2026; SEM ITEM)" → "CONTEXTO
      NORMATIVO INTERNO (SEM ITEM)"; (2) retirada da nota "(registro da
      GCB-CQFP, 08/10/2026)" após "fora dos objetos de avaliação"
+T-54 → (a), 4.2, bloco "CONTROVERSO / NÃO GABARITO" (errata de forma,
+     D1 da GCE, T54_item5_decisao_2026-10-13.md; sem mudança de conteúdo,
+     item, gabarito, fonte, troca sutil, volatilidade ou marca V): "que eu
+     possa afirmar" → "que se possa afirmar"
 
 CONVENÇÃO DE EVIDÊNCIA
 [V 08/10/2026 — Fn] = verificado em 08/10/2026 na fonte oficial Fn.
@@ -459,7 +463,7 @@ DEFINIÇÕES (Lei 9.610/1998, F2) [NORMATIVO — QA]
    não sejam verdadeiras reproduções nem impliquem descrédito são livres
    (art. 47).
 CONTROVERSO / NÃO GABARITO (N4; não há texto legal expresso nem
-jurisprudência firmada que eu possa afirmar):
+jurisprudência firmada que se possa afirmar):
  (a) se conteúdo gerado por IA é obra protegida e quem seria o titular;
  (b) se o treinamento de modelos com obras protegidas configura
      reprodução ilícita ou se se enquadra em alguma limitação;

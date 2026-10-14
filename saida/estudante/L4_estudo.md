@@ -233,26 +233,26 @@ P10. "Ética digital no serviço público limita-se às regras de uso de redes s
 
 ## Pares
 
-- **Supervisionado** × **não supervisionado × por reforço** — rótulos | sem rótulos, busca de estrutura | sem rótulos, recompensa por ação e política | Troca: chamar clustering de supervisionado; dizer que reforço usa rótulos; dizer que não supervisionado dispensa humano.
-- **Modelo generativo** × **modelo discriminativo** — modela p(X,Y) ou p(X), a distribuição; gera conteúdo novo; pode também classificar (classificador generativo, ex.: Naive Bayes) | modela p(Y|X), traça fronteiras; usado para classificar | Troca: "toda tarefa de classificação usa modelo discriminativo" (generalização indevida); "a generativa baseia-se prioritariamente em supervisionado".
-- **Zero-shot** × **one-shot × few-shot** — nenhum exemplo | um exemplo | vários exemplos | Troca: definir few-shot como um exemplo.
-- **Chain-of-thought** × **prompt chaining** — um prompt pedindo raciocínio passo a passo | vários prompts encadeados | Troca: descrever um com o nome do outro.
-- **Engenharia de prompts** × **fine-tuning × RAG** — atua na entrada | altera parâmetros | recupera documentos e os insere na entrada | Troca: "prompt ajusta pesos"; "RAG retreina o modelo"; "fine-tuning e RAG são sinônimos".
-- **Temperatura alta** × **baixa** — mais aleatória | mais previsível | Troca: inverter; ou "temperatura baixa garante veracidade".
-- **Regressão** × **classificação** — valor numérico | categoria | Troca: inverter as saídas.
-- **Clustering** × **classificação** — grupos encontrados pelo modelo; o humano pode nomeá-los com base em seu entendimento dos dados; sem rótulos | categorias definidas antes; com rótulos | Troca: "na classificação o modelo descobre as categorias".
-- **Alucinação** × **viés** — conteúdo plausível e falso | tratamento sistematicamente desigual herdado dos dados | Troca: chamar viés de alucinação; reduzir alucinação a erro de formatação.
-- **Modelo de fundação** × **LLM** — modelo enorme pré-treinado em dados diversos, inclusive imagem ou multimodal | modelo de linguagem com muitíssimos parâmetros; os de uso geral costumam ser modelos de fundação de linguagem | Troca: "todo modelo de fundação é LLM"; "modelo de fundação só gera texto".
-- **Conhecimento paramétrico** × **consulta em tempo real** — o que o modelo incorporou até a data de corte | só com RAG, busca ou ferramentas | Troca: "por padrão o LLM consulta a internet".
-- **Dado pessoal** × **dado sensível × dado anonimizado (LGPD 5º, I, II, III; 12, caput)** — identifica pessoa natural | categorias do 5º, II | não é dado pessoal, salvo reversão (12, caput) | Troca: anonimizado como sensível; opinião política como "não sensível".
-- **Controlador** × **operador × encarregado (LGPD 5º, VI, VII, VIII)** — decide sobre o tratamento | trata em nome do controlador | pessoa indicada pelo controlador e operador como canal de comunicação entre o controlador, os titulares e a Agência Nacional de Proteção de Dados (ANPD) — redação do 5º, VIII, dada pela Lei 15.352/2026 | Troca: atribuir ao operador a decisão; ao encarregado, a execução.
-- **Consentimento** × **demais bases legais (LGPD 7º)** — uma das bases (I) | obrigação legal (II), políticas públicas (III), legítimo interesse (IX) etc. | Troca: "consentimento é a única base para o Poder Público".
-- **Publicidade** × **sigilo (LAI 3º, I)** — regra | exceção | Troca: inverter.
-- **Legal** × **ético (Decreto 1.171, Seção I, II)** — conforme a lei | conforme a honestidade e o interesse público, além da lei | Troca: "se é legal, é ético".
-- **Supervisão humana** × **automação total** — IA apoia; humano decide e responde | sistema decide sem revisão | Troca: "a responsabilidade transfere-se ao sistema"; "revisão obrigatoriamente por pessoa natural" (LGPD art. 20 não exige: expressão retirada pela MP 869/2018; § 3º da Lei 13.853/2019 vetado).
-- **Usar IA** × **omitir tecnologia (Decreto 1.171, XV, "e")** — permitido e esperado, em canais autorizados | vedado deixar de usar avanços técnicos | Troca: "o Código de Ética veda o uso de avanços técnicos".
-- **Injeção de prompt** × **jailbreak (conceitos gerais)** — instrução maliciosa embutida em conteúdo lido | tentativa direta do usuário de burlar restrições | Troca: usar um termo pelo outro.
-- **Texto oficial** × **obra protegida (Lei 9.610, 8º, IV × 7º)** — atos oficiais sem proteção autoral | criações intelectuais protegidas | Troca: "atos oficiais são protegidos por direito autoral".
+- C1. **Supervisionado** × **não supervisionado × por reforço** | rótulos | sem rótulos, busca de estrutura | sem rótulos, recompensa por ação e política | Troca: chamar clustering de supervisionado; dizer que reforço usa rótulos; dizer que não supervisionado dispensa humano.
+- C2. **Modelo generativo** × **modelo discriminativo** | modela p(X,Y) ou p(X), a distribuição; gera conteúdo novo; pode também classificar (classificador generativo, ex.: Naive Bayes) | modela p(Y|X), traça fronteiras; usado para classificar | Troca: "toda tarefa de classificação usa modelo discriminativo" (generalização indevida); "a generativa baseia-se prioritariamente em supervisionado".
+- C3. **Zero-shot** × **one-shot × few-shot** | nenhum exemplo | um exemplo | vários exemplos | Troca: definir few-shot como um exemplo.
+- C4. **Chain-of-thought** × **prompt chaining** | um prompt pedindo raciocínio passo a passo | vários prompts encadeados | Troca: descrever um com o nome do outro.
+- C5. **Engenharia de prompts** × **fine-tuning × RAG** | atua na entrada | altera parâmetros | recupera documentos e os insere na entrada | Troca: "prompt ajusta pesos"; "RAG retreina o modelo"; "fine-tuning e RAG são sinônimos".
+- C6. **Temperatura alta** × **baixa** | mais aleatória | mais previsível | Troca: inverter; ou "temperatura baixa garante veracidade".
+- C7. **Regressão** × **classificação** | valor numérico | categoria | Troca: inverter as saídas.
+- C8. **Clustering** × **classificação** | grupos encontrados pelo modelo; o humano pode nomeá-los com base em seu entendimento dos dados; sem rótulos | categorias definidas antes; com rótulos | Troca: "na classificação o modelo descobre as categorias".
+- C9. **Alucinação** × **viés** | conteúdo plausível e falso | tratamento sistematicamente desigual herdado dos dados | Troca: chamar viés de alucinação; reduzir alucinação a erro de formatação.
+- C10. **Modelo de fundação** × **LLM** | modelo enorme pré-treinado em dados diversos, inclusive imagem ou multimodal | modelo de linguagem com muitíssimos parâmetros; os de uso geral costumam ser modelos de fundação de linguagem | Troca: "todo modelo de fundação é LLM"; "modelo de fundação só gera texto".
+- C11. **Conhecimento paramétrico** × **consulta em tempo real** | o que o modelo incorporou até a data de corte | só com RAG, busca ou ferramentas | Troca: "por padrão o LLM consulta a internet".
+- C12. **Dado pessoal** × **dado sensível × dado anonimizado (LGPD 5º, I, II, III; 12, caput)** | identifica pessoa natural | categorias do 5º, II | não é dado pessoal, salvo reversão (12, caput) | Troca: anonimizado como sensível; opinião política como "não sensível".
+- C13. **Controlador** × **operador × encarregado (LGPD 5º, VI, VII, VIII)** | decide sobre o tratamento | trata em nome do controlador | pessoa indicada pelo controlador e operador como canal de comunicação entre o controlador, os titulares e a Agência Nacional de Proteção de Dados (ANPD) — redação do 5º, VIII, dada pela Lei 15.352/2026 | Troca: atribuir ao operador a decisão; ao encarregado, a execução.
+- C14. **Consentimento** × **demais bases legais (LGPD 7º)** | uma das bases (I) | obrigação legal (II), políticas públicas (III), legítimo interesse (IX) etc. | Troca: "consentimento é a única base para o Poder Público".
+- C15. **Publicidade** × **sigilo (LAI 3º, I)** | regra | exceção | Troca: inverter.
+- C16. **Legal** × **ético (Decreto 1.171, Seção I, II)** | conforme a lei | conforme a honestidade e o interesse público, além da lei | Troca: "se é legal, é ético".
+- C17. **Supervisão humana** × **automação total** | IA apoia; humano decide e responde | sistema decide sem revisão | Troca: "a responsabilidade transfere-se ao sistema"; "revisão obrigatoriamente por pessoa natural" (LGPD art. 20 não exige: expressão retirada pela MP 869/2018; § 3º da Lei 13.853/2019 vetado).
+- C18. **Usar IA** × **omitir tecnologia (Decreto 1.171, XV, "e")** | permitido e esperado, em canais autorizados | vedado deixar de usar avanços técnicos | Troca: "o Código de Ética veda o uso de avanços técnicos".
+- C19. **Injeção de prompt** × **jailbreak (conceitos gerais)** | instrução maliciosa embutida em conteúdo lido | tentativa direta do usuário de burlar restrições | Troca: usar um termo pelo outro.
+- C20. **Texto oficial** × **obra protegida (Lei 9.610, 8º, IV × 7º)** | atos oficiais sem proteção autoral | criações intelectuais protegidas | Troca: "atos oficiais são protegidos por direito autoral".
 
 ## Pegadinhas
 

@@ -419,7 +419,7 @@ DEFINIÇÕES (Lei 9.610/1998)
    não sejam verdadeiras reproduções nem impliquem descrédito são livres
    (art. 47).
 CONTROVERSO / NÃO GABARITO (não há texto legal expresso nem
-jurisprudência firmada que eu possa afirmar):
+jurisprudência firmada que se possa afirmar):
  (a) se conteúdo gerado por IA é obra protegida e quem seria o titular;
  (b) se o treinamento de modelos com obras protegidas configura
      reprodução ilícita ou se se enquadra em alguma limitação;
@@ -536,34 +536,34 @@ após o fim do tratamento.
 
 ## Pares
 
-- **Transcrição** × **sumarização** — reproduz / condensa e reformula.
-- **Sumarização extrativa** × **abstrativa** — copia trechos / redige frases novas.
-- **Indexação** × **busca** — organizar para recuperar / recuperar.
-- **Busca lexical** × **busca semântica** — termos exatos / sentido.
-- **Busca semântica** × **busca híbrida** — só vetores / vetores + termos.
-- **Busca semântica** × **RAG** — recupera trechos / recupera e gera resposta.
-- **Precisão** × **revocação** — relevante entre o recuperado / recuperado entre o relevante.
-- **Ata** × **resumo** — registro formal / condensação informativa.
-- **Alucinação** × **reformulação** — informação sem sustentação na fonte / frase nova com sentido fiel.
-- **Fluência** × **fidelidade do texto gerado**
-- **Modelo multilíngue** × **especializado em português**
-- **Especializado (treinado/ajustado em pt)** × **exclusivo (só pt)**
-- **Ajuste fino** × **RAG** — altera o modelo / fornece documentos na consulta.
-- **Controlador (decide)** × **operador (executa em nome)**
-- **Controlador** × **encarregado** — decide / canal de comunicação.
-- **Dado pessoal** × **dado pessoal sensível (enumeração do art. 5º, II)**
-- **Anonimização (art. 12: dado deixa de ser pessoal, salvo reversão por meios próprios ou com esforço razoável)** × **pseudonimização (art. 13, § 4º, definida "para os efeitos deste artigo", com informação adicional guardada separadamente)**
-- **Consentimento** × **outras hipóteses do art. 7º**
-- **Dado de acesso público** × **dado livre para qualquer uso**
-- **Revisão de decisão automatizada (art. 20)** × **revisão por pessoa natural (redação original, suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019)**
-- **Autoridade nacional (art. 5º, XIX)** × **ANPD criada pela Lei 15.352/2026 (autarquia vinculada ao MJSP); órgão da Presidência (redação superada)**
-- **Obra protegida** × **ato oficial não protegido (art. 8º, IV)**
-- **Domínio público** × **disponível na internet**
-- **Direitos morais** × **patrimoniais**
-- **Citação (art. 46, III)** × **reprodução integral**
-- **Confidencialidade, integridade, disponibilidade**
-- **Criptografia em trânsito** × **em repouso**
-- **Incidente de segurança (comunica o controlador)** × **vazamento interno sem risco relevante**
+- **Transcrição** vs **sumarização**: reproduz / condensa e reformula.
+- **Sumarização extrativa** vs **abstrativa**: copia trechos / redige frases novas.
+- **Indexação** vs **busca**: organizar para recuperar / recuperar.
+- **Busca lexical** vs **busca semântica**: termos exatos / sentido.
+- **Busca semântica** vs **busca híbrida**: só vetores / vetores + termos.
+- **Busca semântica** vs **RAG**: recupera trechos / recupera e gera resposta.
+- **Precisão** vs **revocação**: relevante entre o recuperado / recuperado entre o relevante.
+- **Ata** vs **resumo**: registro formal / condensação informativa.
+- **Alucinação** vs **reformulação**: informação sem sustentação na fonte / frase nova com sentido fiel.
+- **Fluência** vs **fidelidade do texto gerado**.
+- **Modelo multilíngue** vs **especializado em português**.
+- **Especializado (treinado/ajustado em pt)** vs **exclusivo (só pt)**.
+- **Ajuste fino** vs **RAG**: altera o modelo / fornece documentos na consulta.
+- **Controlador (decide)** vs **operador (executa em nome)**.
+- **Controlador** vs **encarregado**: decide / canal de comunicação.
+- **Dado pessoal** vs **dado pessoal sensível (enumeração do art. 5º, II)**.
+- **Anonimização (art. 12: dado deixa de ser pessoal, salvo reversão por meios próprios ou com esforço razoável)** vs **pseudonimização (art. 13, § 4º, definida "para os efeitos deste artigo", com informação adicional guardada separadamente)**.
+- **Consentimento** vs **outras hipóteses do art. 7º**.
+- **Dado de acesso público** vs **dado livre para qualquer uso**.
+- **Revisão de decisão automatizada (art. 20)** vs **revisão por pessoa natural (redação original, suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019)**.
+- **Autoridade nacional (art. 5º, XIX)** vs **ANPD criada pela Lei 15.352/2026 (autarquia vinculada ao MJSP); órgão da Presidência (redação superada)**.
+- **Obra protegida** vs **ato oficial não protegido (art. 8º, IV)**.
+- **Domínio público** vs **disponível na internet**.
+- **Direitos morais** vs **patrimoniais**.
+- **Citação (art. 46, III)** vs **reprodução integral**.
+- **Confidencialidade, integridade, disponibilidade**.
+- **Criptografia em trânsito** vs **em repouso**.
+- **Incidente de segurança (comunica o controlador)** vs **vazamento interno sem risco relevante**.
 
 ## Pegadinhas
 

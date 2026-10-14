@@ -436,28 +436,28 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 
 ## Pares
 
-- **Transcrição automática** × **degravação** — software sem humano / pessoa a partir da gravação.
-- **Degravação** × **taquigrafia** — depois, sobre a gravação / ao vivo.
-- **Transcrição automática** × **revisão humana** — rascunho / controle e responsabilidade.
-- **Human IN the loop** × **human ON the loop** — valida cada saída / supervisiona e intervém.
-- **Confiança do ASR** × **correção** — prioriza a atenção / não garante acerto.
-- **Fidelidade** × **literalidade** — preservar sentido e estilo / registrar tudo.
-- **Erro de sentido** × **erro de forma** — altera o que foi dito / não impede a compreensão.
-- **Inaudível marcado** × **inaudível completado** — rastreável / conjectura.
-- **Aparte** × **fala do Presidente vs discurso principal** — tipos de intervenção distintos.
-- **Marcação de evento** × **fala** — evento não é fala; convenção única.
-- **Rótulo de diarização** × **identificação do orador** — genérico / nome.
-- **Normalização (texto→fala)** × **normalização inversa, ITN (fala→texto escrito)**
-- **Normalização de texto** × **correção de conteúdo** — forma / informação.
-- **Normalização de texto** × **normalização de áudio (volume)**
-- **CAT, transcrição assistida (traduz as notas estenotípicas em texto)** × **memória de tradução (reaproveita segmentos já traduzidos entre idiomas); e "tradução das notas" (decifrar sinais e passar para texto) vs tradução de idioma**
-- **Editor de transcrição** × **ASR** — onde o humano trabalha / gerador do rascunho.
-- **Revisão em dupla (2º revisor independente)** × **releitura pelo mesmo revisor**
-- **Auditoria de amostras (estima)** × **revisão integral (examina tudo)**
-- **SLA (prazo e qualidade)** × **apenas prazo**
-- **OOV (ausente do vocabulário)** × **baixa confiança**
-- **Adaptação de modelo de linguagem (sequências, contexto)** × **reforço de termos (palavras isoladas, com peso)**
-- **Reforço moderado** × **sobre-reforço (falsos positivos)**
+- **Transcrição automática** vs **degravação**: software sem humano / pessoa a partir da gravação.
+- **Degravação** vs **taquigrafia**: depois, sobre a gravação / ao vivo.
+- **Transcrição automática** vs **revisão humana**: rascunho / controle e responsabilidade.
+- **Human IN the loop** vs **human ON the loop**: valida cada saída / supervisiona e intervém.
+- **Confiança do ASR** vs **correção**: prioriza a atenção / não garante acerto.
+- **Fidelidade** vs **literalidade**: preservar sentido e estilo / registrar tudo.
+- **Erro de sentido** vs **erro de forma**: altera o que foi dito / não impede a compreensão.
+- **Inaudível marcado** vs **inaudível completado**: rastreável / conjectura.
+- **Aparte** vs **fala do Presidente vs discurso principal**: tipos de intervenção distintos.
+- **Marcação de evento** vs **fala**: evento não é fala; convenção única.
+- **Rótulo de diarização** vs **identificação do orador**: genérico / nome.
+- **Normalização (texto→fala)** vs **normalização inversa, ITN (fala→texto escrito)**.
+- **Normalização de texto** vs **correção de conteúdo**: forma / informação.
+- **Normalização de texto** vs **normalização de áudio (volume)**.
+- **CAT, transcrição assistida (traduz as notas estenotípicas em texto)** vs **memória de tradução (reaproveita segmentos já traduzidos entre idiomas); e "tradução das notas" (decifrar sinais e passar para texto) vs tradução de idioma**.
+- **Editor de transcrição** vs **ASR**: onde o humano trabalha / gerador do rascunho.
+- **Revisão em dupla (2º revisor independente)** vs **releitura pelo mesmo revisor**.
+- **Auditoria de amostras (estima)** vs **revisão integral (examina tudo)**.
+- **SLA (prazo e qualidade)** vs **apenas prazo**.
+- **OOV (ausente do vocabulário)** vs **baixa confiança**.
+- **Adaptação de modelo de linguagem (sequências, contexto)** vs **reforço de termos (palavras isoladas, com peso)**.
+- **Reforço moderado** vs **sobre-reforço (falsos positivos)**.
 
 ## Pegadinhas
 

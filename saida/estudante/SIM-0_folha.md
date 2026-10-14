@@ -98,7 +98,7 @@ Julgue cada item (C = certo, E = errado). Gabarito no arquivo SIM-0_gabarito.md.
 
 **27** — A impossibilidade de eliminação do viés discriminatório de um modelo de inteligência artificial não enseja a imediata descontinuidade de sua utilização, devendo-se adotar medidas corretivas e efetuar o registro de seu projeto.
 
-> Nota: nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
+> nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
 
 
 **Comando.** Acerca do processo ETL (extrair, transformar, carregar) e da manipulação, do tratamento e da visualização de dados, julgue os itens que se seguem.
@@ -155,7 +155,7 @@ Julgue cada item (C = certo, E = errado). Gabarito no arquivo SIM-0_gabarito.md.
 
 **41** — Quando houver tratamento para fins exclusivos de segurança pública ou defesa nacional, a Autoridade Nacional de Proteção de Dados (ANPD) deve ser comunicada previamente pois a ela compete zelar pela proteção dos dados pessoais.
 
-> Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
+> nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
 
 
 **42** — Considere que determinado tribunal de justiça seja controlador dos dados de certo titular e tenha deste obtido consentimento para o tratamento de seus dados pessoais. Nessa situação, caso haja necessidade de o referido tribunal compartilhar os dados do referido titular com o CNJ de forma absoluta, não será necessário novo consentimento do titular.

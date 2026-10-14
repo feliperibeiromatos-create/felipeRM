@@ -11,7 +11,7 @@
 ### BQ-0003 — Gabarito: E
 
 - Item do edital: P2-4.1 (aderência: parcial)
-- Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
+- nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
 
 ### BQ-0004 — Gabarito: E
 
@@ -154,7 +154,7 @@
 ### BQ-0040 — Gabarito: E
 
 - Item do edital: P1-6 (aderência: direta)
-- Nota: nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
+- nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
 
 ### BQ-0041 — Gabarito: E
 

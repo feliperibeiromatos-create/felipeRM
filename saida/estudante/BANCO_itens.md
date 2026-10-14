@@ -38,7 +38,7 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 
 **Enunciado.** Quando houver tratamento para fins exclusivos de segurança pública ou defesa nacional, a Autoridade Nacional de Proteção de Dados (ANPD) deve ser comunicada previamente pois a ela compete zelar pela proteção dos dados pessoais.
 
-> Nota: nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
+> nota de vigência: o enunciado usa a denominação anterior Autoridade Nacional de Proteção de Dados; denominação vigente: Agência Nacional de Proteção de Dados (ANPD), art. 55-A da LGPD, redação da Lei 15.352/2026; texto do item mantido literal
 
 
 ### BQ-0004
@@ -458,7 +458,7 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 
 **Enunciado.** A impossibilidade de eliminação do viés discriminatório de um modelo de inteligência artificial não enseja a imediata descontinuidade de sua utilização, devendo-se adotar medidas corretivas e efetuar o registro de seu projeto.
 
-> Nota: nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
+> nota de vigência: a Res. CNJ 332/2020, citada no comando, foi revogada pela Res. CNJ 615/2025 (art. 46); a regra cobrada está hoje no art. 8º, § 3º, da Res. CNJ 615/2025, que manda descontinuar a solução e cancelar o registro do projeto no Sinapses; Res. CNJ 335/2020, 396/2021 e 468/2022 vigentes, sem efeito no item
 
 
 ### BQ-0041

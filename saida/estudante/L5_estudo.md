@@ -146,21 +146,21 @@ Pegadinha provável
 
 ## Pares
 
-- **Histograma** × **gráfico de barras** — variável quantitativa em classes adjacentes de escala numérica; barras contíguas; ordem fixa; mostra distribuição | categorias discretas; ordem livre; compara valores; espaçamento entre barras é convenção de desenho | chama histograma de "barras"; pede histograma para partidos. Teste: o eixo horizontal é escala numérica dividida em intervalos? Histograma.
-- **Linha** × **dispersão** — pontos ligados em eixo ordenado (tempo); evolução | pontos soltos de duas quantitativas; relação, agrupamentos, outliers | linha para categorias; dispersão "para ver evolução".
-- **Box plot** × **histograma** — quartis, mediana, bigodes, outliers; compara grupos; esconde forma detalhada | frequência por classe; mostra forma e modas; não evidencia quartis | diz que box plot mostra frequência por faixa; que a linha é a média; que os bigodes vão sempre ao mínimo e ao máximo.
-- **Média** × **mediana** — sensível a extremos | robusta; valor central | inverte a sensibilidade.
-- **Atributo** × **métrica (dimensão × medida)** — coluna que descreve/segmenta (partido) | número agregado (total de PLs) | chama "partido" de métrica; toma coluna numérica (número do projeto) por métrica.
-- **Transformação** × **limpeza** — muda forma/escala/estrutura (agregar, normalizar, derivar) | corrige erros, nulos, duplicatas, formatos | define normalização como remoção de duplicatas; "limpeza é agregar". A classificação da limpeza diverge na literatura; o ponto seguro: limpeza corrige qualidade; agregar e derivar não é limpar.
-- **Normalização** × **padronização** — reescala para intervalo (0–1) | média 0 e desvio 1 (z-score) | usa como sinônimos em item que exige distinção.
-- **ETL** × **ELT** — transforma antes da carga | transforma depois, no destino | inverte a ordem.
-- **Paleta sequencial** × **divergente × categórica** — intensidade crescente | afastamento de um centro | categorias sem ordem | divergente ou sequencial para partidos.
-- **Posição** × **área/cor** — leitura mais precisa | leitura menos precisa | afirma que área ou cor compara melhor.
-- **Data Studio** × **Looker Studio × Looker** — nome vigente desde abril de 2026 (edição Data Studio, sem custo; existe a edição paga Pro) | nome do mesmo produto entre 11/10/2022 e abril de 2026 | plataforma de BI corporativa, produto distinto | "Data Studio foi descontinuado/substituído"; Looker = Data Studio.
-- **Tableau Cloud** × **Tableau Server** — hospedado pela Tableau | hospedado pelo cliente (on-premises ou nuvem pública) | inverte quem hospeda.
-- **Power BI Desktop** × **serviço do Power BI** — cria o relatório (aplicativo Windows, download gratuito) | publica, organiza, distribui; permite criar dashboards | diz que se cria no serviço e publica no Desktop; que o Desktop é pago.
-- **Storytelling** × **dashboard** — mensagem única, narrativa, ação | exploração aberta, muitos indicadores | usa como sinônimos.
-- **Explanatória** × **exploratória** — mensagem definida; conduz o público | analista investiga para descobrir | inverte os termos.
+- C1. **Histograma** × **gráfico de barras** | variável quantitativa em classes adjacentes de escala numérica; barras contíguas; ordem fixa; mostra distribuição | categorias discretas; ordem livre; compara valores; espaçamento entre barras é convenção de desenho | chama histograma de "barras"; pede histograma para partidos. Teste: o eixo horizontal é escala numérica dividida em intervalos? Histograma.
+- C2. **Linha** × **dispersão** | pontos ligados em eixo ordenado (tempo); evolução | pontos soltos de duas quantitativas; relação, agrupamentos, outliers | linha para categorias; dispersão "para ver evolução".
+- C3. **Box plot** × **histograma** | quartis, mediana, bigodes, outliers; compara grupos; esconde forma detalhada | frequência por classe; mostra forma e modas; não evidencia quartis | diz que box plot mostra frequência por faixa; que a linha é a média; que os bigodes vão sempre ao mínimo e ao máximo.
+- C4. **Média** × **mediana** | sensível a extremos | robusta; valor central | inverte a sensibilidade.
+- C5. **Atributo** × **métrica (dimensão × medida)** | coluna que descreve/segmenta (partido) | número agregado (total de PLs) | chama "partido" de métrica; toma coluna numérica (número do projeto) por métrica.
+- C6. **Transformação** × **limpeza** | muda forma/escala/estrutura (agregar, normalizar, derivar) | corrige erros, nulos, duplicatas, formatos | define normalização como remoção de duplicatas; "limpeza é agregar". A classificação da limpeza diverge na literatura; o ponto seguro: limpeza corrige qualidade; agregar e derivar não é limpar.
+- C7. **Normalização** × **padronização** | reescala para intervalo (0–1) | média 0 e desvio 1 (z-score) | usa como sinônimos em item que exige distinção.
+- C8. **ETL** × **ELT** | transforma antes da carga | transforma depois, no destino | inverte a ordem.
+- C9. **Paleta sequencial** × **divergente × categórica** | intensidade crescente | afastamento de um centro | categorias sem ordem | divergente ou sequencial para partidos.
+- C10. **Posição** × **área/cor** | leitura mais precisa | leitura menos precisa | afirma que área ou cor compara melhor.
+- C11. **Data Studio** × **Looker Studio × Looker** | nome vigente desde abril de 2026 (edição Data Studio, sem custo; existe a edição paga Pro) | nome do mesmo produto entre 11/10/2022 e abril de 2026 | plataforma de BI corporativa, produto distinto | "Data Studio foi descontinuado/substituído"; Looker = Data Studio.
+- C12. **Tableau Cloud** × **Tableau Server** | hospedado pela Tableau | hospedado pelo cliente (on-premises ou nuvem pública) | inverte quem hospeda.
+- C13. **Power BI Desktop** × **serviço do Power BI** | cria o relatório (aplicativo Windows, download gratuito) | publica, organiza, distribui; permite criar dashboards | diz que se cria no serviço e publica no Desktop; que o Desktop é pago.
+- C14. **Storytelling** × **dashboard** | mensagem única, narrativa, ação | exploração aberta, muitos indicadores | usa como sinônimos.
+- C15. **Explanatória** × **exploratória** | mensagem definida; conduz o público | analista investiga para descobrir | inverte os termos.
 
 ## Pegadinhas
 

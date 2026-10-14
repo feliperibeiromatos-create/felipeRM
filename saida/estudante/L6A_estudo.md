@@ -228,25 +228,25 @@ P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (
 
 ## Pares
 
-- **Referência relativa** × **absoluta × mista (Excel)** — relativa: muda ao copiar (padrão) | absoluta ($B$2): fixa coluna e linha; mista: fixa só uma ($B2 coluna; B$2 linha) | Troca: dizer que B$2 fixa a coluna; que a referência é absoluta por padrão.
-- **Mesclar** × **dividir células (Word)** — mesclar: várias células viram uma | dividir: uma célula vira várias | Troca: inverter os verbos.
-- **Ocultar** × **resolver alterações controladas (Word)** — "Sem Marcação": oculta, temporariamente | aceitar ou rejeitar: decide e remove a marca | Troca: "Sem Marcação remove definitivamente as alterações".
-- **Aceitar** × **rejeitar alteração (Word)** — aceitar: incorpora ao texto | rejeitar: descarta, restabelece o original | Troca: inverter; ou dizer que "Avançar" aceita.
-- **Sumário automático** × **digitado à mão** — gerado a partir dos títulos com estilo | texto digitado sem vínculo com a estrutura | Troca: "o sumário automático independe da formatação dos títulos".
-- **SE: verdadeiro** × **falso** — 2º argumento: resultado se verdadeiro | 3º argumento (opcional): resultado se falso | Troca: inverter a ordem; tornar o 3º obrigatório.
-- **PROCV exata** × **aproximada** — FALSO: exata | VERDADEIRO ou omitido: aproximada | Troca: "omitir o 4º argumento dá correspondência exata".
-- **PROCV** × **ÍNDICE/CORRESP (direção da pesquisa)** — PROCV: pesquisa da esquerda para a direita | ÍNDICE e CORRESP: alternativa quando o valor procurado não está à esquerda | Troca: dizer que o PROCV pesquisa para a esquerda.
-- **Animação** × **transição (PowerPoint)** — animação: elemento do slide (vários por slide) | transição: slide inteiro (um por slide), na passagem de slides | Troca: inverter o alvo.
-- **Slide mestre** × **alteração em slide isolado** — mestre: afeta os slides baseados nele | slide isolado: só aquele | Troca: "editar o mestre afeta só o slide selecionado".
-- **Compartilhar com exibição** × **com edição (OneDrive)** — exibir: leitura | editar: leitura e alteração | Troca: dizer que quem só exibe pode editar o original.
-- **Restaurar versão** × **descartar a atual (OneDrive)** — restaurar: a restaurada vira a atual; a atual anterior vira versão anterior | descartar/apagar | Troca: "ao restaurar, a atual é descartada".
-- **Webmail** × **cliente de e-mail** — navegador, sem instalação de programa de e-mail | aplicativo instalado no dispositivo | Troca: inverter as formas de acesso.
-- **SMTP** × **POP3 × IMAP4** — SMTP: envia | POP3: baixa (por padrão remove do servidor); IMAP4: acessa e sincroniza (por padrão mantém no servidor) | Troca: "POP3 envia"; "IMAP remove do servidor por padrão"; "IMAP baixa só para uma pasta".
-- **Para/Cc** × **Cco** — endereços visíveis a todos | Cco: recebe a cópia, endereço oculto aos demais | Troca: "Cco não recebe a mensagem"; "Cco é visível aos demais".
-- **Equipe** × **canal (Teams)** — equipe: coleção de pessoas, conteúdo e ferramentas | canal: seção dentro da equipe, por tópico/projeto | Troca: tratar como sinônimos.
-- **Canal padrão** × **privado × compartilhado (Teams)** — padrão: todos os membros da equipe | privado: membros selecionados; compartilhado: pessoas dentro e fora da equipe | Troca: inverter padrão e privado; limitar o compartilhado à equipe.
-- **Apresentar guia** × **janela × tela inteira (Meet)** — guia: uma aba (áudio da guia compartilhado por padrão) | janela específica; tela inteira (áudio do sistema só se a opção for ativada) | Troca: "só é possível a tela inteira".
-- **Teams** × **Meet** — Teams: Microsoft | Meet: Google | Troca: atribuir os dois à mesma empresa (conceito geral).
+- C1. **Referência relativa** × **absoluta × mista (Excel)** | relativa: muda ao copiar (padrão) | absoluta ($B$2): fixa coluna e linha; mista: fixa só uma ($B2 coluna; B$2 linha) | Troca: dizer que B$2 fixa a coluna; que a referência é absoluta por padrão.
+- C2. **Mesclar** × **dividir células (Word)** | mesclar: várias células viram uma | dividir: uma célula vira várias | Troca: inverter os verbos.
+- C3. **Ocultar** × **resolver alterações controladas (Word)** | "Sem Marcação": oculta, temporariamente | aceitar ou rejeitar: decide e remove a marca | Troca: "Sem Marcação remove definitivamente as alterações".
+- C4. **Aceitar** × **rejeitar alteração (Word)** | aceitar: incorpora ao texto | rejeitar: descarta, restabelece o original | Troca: inverter; ou dizer que "Avançar" aceita.
+- C5. **Sumário automático** × **digitado à mão** | gerado a partir dos títulos com estilo | texto digitado sem vínculo com a estrutura | Troca: "o sumário automático independe da formatação dos títulos".
+- C6. **SE: verdadeiro** × **falso** | 2º argumento: resultado se verdadeiro | 3º argumento (opcional): resultado se falso | Troca: inverter a ordem; tornar o 3º obrigatório.
+- C7. **PROCV exata** × **aproximada** | FALSO: exata | VERDADEIRO ou omitido: aproximada | Troca: "omitir o 4º argumento dá correspondência exata".
+- C8. **PROCV** × **ÍNDICE/CORRESP (direção da pesquisa)** | PROCV: pesquisa da esquerda para a direita | ÍNDICE e CORRESP: alternativa quando o valor procurado não está à esquerda | Troca: dizer que o PROCV pesquisa para a esquerda.
+- C9. **Animação** × **transição (PowerPoint)** | animação: elemento do slide (vários por slide) | transição: slide inteiro (um por slide), na passagem de slides | Troca: inverter o alvo.
+- C10. **Slide mestre** × **alteração em slide isolado** | mestre: afeta os slides baseados nele | slide isolado: só aquele | Troca: "editar o mestre afeta só o slide selecionado".
+- C11. **Compartilhar com exibição** × **com edição (OneDrive)** | exibir: leitura | editar: leitura e alteração | Troca: dizer que quem só exibe pode editar o original.
+- C12. **Restaurar versão** × **descartar a atual (OneDrive)** | restaurar: a restaurada vira a atual; a atual anterior vira versão anterior | descartar/apagar | Troca: "ao restaurar, a atual é descartada".
+- C13. **Webmail** × **cliente de e-mail** | navegador, sem instalação de programa de e-mail | aplicativo instalado no dispositivo | Troca: inverter as formas de acesso.
+- C14. **SMTP** × **POP3 × IMAP4** | SMTP: envia | POP3: baixa (por padrão remove do servidor); IMAP4: acessa e sincroniza (por padrão mantém no servidor) | Troca: "POP3 envia"; "IMAP remove do servidor por padrão"; "IMAP baixa só para uma pasta".
+- C15. **Para/Cc** × **Cco** | endereços visíveis a todos | Cco: recebe a cópia, endereço oculto aos demais | Troca: "Cco não recebe a mensagem"; "Cco é visível aos demais".
+- C16. **Equipe** × **canal (Teams)** | equipe: coleção de pessoas, conteúdo e ferramentas | canal: seção dentro da equipe, por tópico/projeto | Troca: tratar como sinônimos.
+- C17. **Canal padrão** × **privado × compartilhado (Teams)** | padrão: todos os membros da equipe | privado: membros selecionados; compartilhado: pessoas dentro e fora da equipe | Troca: inverter padrão e privado; limitar o compartilhado à equipe.
+- C18. **Apresentar guia** × **janela × tela inteira (Meet)** | guia: uma aba (áudio da guia compartilhado por padrão) | janela específica; tela inteira (áudio do sistema só se a opção for ativada) | Troca: "só é possível a tela inteira".
+- C19. **Teams** × **Meet** | Teams: Microsoft | Meet: Google | Troca: atribuir os dois à mesma empresa (conceito geral).
 
 ## Pegadinhas
 

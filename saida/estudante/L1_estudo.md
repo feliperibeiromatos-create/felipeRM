@@ -421,10 +421,10 @@ QUADRO-SÍNTESE (categorias, não versões)
  Streaming          | sim (Realt.)  | sim            | sim            | sim
  Batch/arquivo      | sim           | sim            | sim            | sim
  Diarização         | sim (arquivo) | sim (não em    | sim (tempo real| sim (batch e
-                    |               | streaming)     | e fast)* | streaming)
+                    |               | streaming)     | e fast)*       | streaming)
  Vocab./adaptação   | prompt/keyw.  | ≤1.000 frases  | custom speech  | CV (CLM sem pt-BR)
  Execução local     | Whisper OSS   | não verificado | contêiner      | não verificado
-                    |         |                |                |
+                    |               |                |                |
  Tradução p/ inglês | sim (whisper-1)| não verificado| sim (speech    | não verificado
                     |               |                | translation)   |
 * Azure: lote e limites por idioma não verificados.
@@ -449,23 +449,23 @@ custódia do áudio.
 
 ## Pares
 
-- **ASR** × **diarização vs identificação de locutor** — texto / quem-quando / quem-é.
-- **Diarização** × **verificação de locutor** — muitos rótulos / 1 pessoa confirmada.
-- **End-to-end** × **modular** — rede única / módulos separados — ambos supervisionados.
-- **End-to-end** × **não supervisionado** — arquitetura / regime de dados.
-- **LLM de áudio nativo** × **cascata ASR→LLM→TTS** — áudio no modelo / texto no modelo.
-- **Transcrição por LLM** × **ASR dedicado** — geração interpretativa / reconhecimento literal.
-- **Pontuação automática** × **pontuação falada** — inferida / ditada.
-- **Custom vocabulary (adaptação)** × **custom language model** — lista de termos que enviesa / modelo treinado com corpus de texto.
-- **Adaptação de vocabulário** × **modelo acústico customizado** — termos / sotaque e ruído.
-- **Streaming (tempo real)** × **batch (arquivo)** — parciais e latência / contexto completo e mais recursos.
-- **stream=true em arquivo** × **Realtime** — saída incremental de arquivo pronto / áudio ao vivo.
-- **Endpointing sensível** × **preciso** — rápido e corta / lento e completo.
-- **WER** × **DER** — erro de palavras / erro de atribuição de locutor.
-- **Whisper (modelo aberto)** × **API OpenAI (serviço)** — local / nuvem.
-- **Tradução (whisper-1, só para inglês)** × **transcrição (idioma original)**
-- **Timestamps por palavra** × **por enunciado** — granularidade fina (cada palavra com início e fim) / granularidade grossa (cada frase ou trecho).
-- **LLM de áudio nativo** × **ASR aprimorado por LLM** — áudio como entrada do LLM / reconhecimento de fala reforçado por LLM.
+- **ASR** vs **diarização vs identificação de locutor**: texto / quem-quando / quem-é.
+- **Diarização** vs **verificação de locutor**: muitos rótulos / 1 pessoa confirmada.
+- **End-to-end** vs **modular**: rede única / módulos separados — ambos supervisionados.
+- **End-to-end** vs **não supervisionado**: arquitetura / regime de dados.
+- **LLM de áudio nativo** vs **cascata ASR→LLM→TTS**: áudio no modelo / texto no modelo.
+- **Transcrição por LLM** vs **ASR dedicado**: geração interpretativa / reconhecimento literal.
+- **Pontuação automática** vs **pontuação falada**: inferida / ditada.
+- **Custom vocabulary (adaptação)** vs **custom language model**: lista de termos que enviesa / modelo treinado com corpus de texto.
+- **Adaptação de vocabulário** vs **modelo acústico customizado**: termos / sotaque e ruído.
+- **Streaming (tempo real)** vs **batch (arquivo)**: parciais e latência / contexto completo e mais recursos.
+- **stream=true em arquivo** vs **Realtime**: saída incremental de arquivo pronto / áudio ao vivo.
+- **Endpointing sensível** vs **preciso**: rápido e corta / lento e completo.
+- **WER** vs **DER**: erro de palavras / erro de atribuição de locutor.
+- **Whisper (modelo aberto)** vs **API OpenAI (serviço)**: local / nuvem.
+- **Tradução (whisper-1, só para inglês)** vs **transcrição (idioma original)**.
+- **Timestamps por palavra** vs **por enunciado**: granularidade fina (cada palavra com início e fim) / granularidade grossa (cada frase ou trecho).
+- **LLM de áudio nativo** vs **ASR aprimorado por LLM**: áudio como entrada do LLM / reconhecimento de fala reforçado por LLM.
 
 ## Pegadinhas
 

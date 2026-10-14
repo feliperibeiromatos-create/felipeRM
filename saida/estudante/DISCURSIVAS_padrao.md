@@ -504,13 +504,6 @@ Quesito 2.5 — Recomendações e conclusão com dispositivos [valor: 5,50]
 Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
 
 Notas de correção
-Alínea c da discursiva: NÃO se exige enquadrar o
-    pronunciamento parlamentar como obra protegida (Lei 9.610/1998, art.
-    7º, II) nem como ato oficial (art. 8º, IV). Não há texto legal nem
-    jurisprudência firmada sobre isso. Fica descartada a afirmação
-    categórica, segundo a qual os pronunciamentos "são
-    obras intelectuais protegidas". Basta uma razão da lista (ix), com
-    o dispositivo correto.
 Voz como dado sensível (biométrico): nem exigido nem penalizado.
 Base legal do tratamento pelo poder público: aceitam-se o art. 23 e
     o art. 7º, II ou III.

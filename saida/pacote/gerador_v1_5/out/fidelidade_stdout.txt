@@ -1,0 +1,19 @@
+pacote: saida/pacote/gerador_v1_5/out/pacote.json
+estudante: saida/pacote/gerador_v1_5/out/estudante
+comparações: {'texto': 1380, 'metadado': 941, 'estrutura': 48, 'prova/metadado': 1883, 'aviso/nota': 1067, 'gabarito': 451, 'legenda': 20, 'avisos não exibidos': 3} | total 5793
+DIFERENÇAS: 0
+exceções fechadas usadas: CAIXA (C-15) 8 trocas; nota de BQ-0003 (C-18) 4 exibições (['BQ-0003'])
+   CAIXA ('L6A_estudo.md', 'curso', 'DIR CÉLULAS\nConforme a F2 (leitura de 08/10/2026): mesclar combina duas ', 'DIR CÉLULAS\nMesclar combina duas ')
+   CAIXA ('L6A_estudo.md', 'curso', '3 FUNÇÃO SE\nConforme a F5: a função SE compara u', '3 FUNÇÃO SE\nA função SE compara u')
+   CAIXA ('L6A_estudo.md', 'curso', 'UNÇÃO PROCV\nConforme a F6: o PROCV pesquisa um v', 'UNÇÃO PROCV\nO PROCV pesquisa um v')
+   CAIXA ('L6A_estudo.md', 'curso', 'LIDE MESTRE\nConforme a F7: o propósito é fazer t', 'LIDE MESTRE\nO propósito é fazer t')
+   CAIXA ('L6A_estudo.md', 'curso', ' TRANSIÇÕES\nConforme a F8: a animação é aplicada', ' TRANSIÇÕES\nA animação é aplicada')
+   CAIXA ('L6A_estudo.md', 'curso', ' DE VERSÕES\nConforme a F11: o histórico de versõe', ' DE VERSÕES\nO histórico de versõe')
+   CAIXA ('L6A_estudo.md', 'curso', 'n deleted". Segundo a F14, por padrão os cliente', 'n deleted". Por padrão os cliente')
+   CAIXA ('L6A_estudo.md', 'curso', 'te offline. Segundo a F14, por padrão os cliente', 'te offline. Por padrão os cliente')
+exceção fechada v1.4 (D-T54-02, só espaços): 2 linhas do quadro-síntese do L1 realinhadas (L1_estudo.md/curso; L1_estudo.md/curso)
+   REALINHA '                    |               | streaming)     | e fast)* | streaming)' -> '                    |               | streaming)     | e fast)*       | streaming)'
+   REALINHA '                    |         |                |                |' -> '                    |               |                |                |'
+marcas residuais nos arquivos: 2
+   ('L4_gabarito.md', 58, 'F4', ': "prioritariamente supervisionado"). O F4 afirma que "generative models are initi')
+   ('L6A_estudo.md', 83, 'F4', '- A tecla F4, com a referência selecionada na barra ')

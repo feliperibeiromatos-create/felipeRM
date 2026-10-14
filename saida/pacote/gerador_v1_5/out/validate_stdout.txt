@@ -1,0 +1,120 @@
+OK    JSON parseia sem erro; termina em newline; UTF-8 
+OK    formato: indent=1 e ensure_ascii=False (reserialização idêntica) 
+OK    chaves de topo e valores 
+OK    0 id duplicado (286 ids) 
+OK    14 campos obrigatórios presentes em todos os itens 
+OK    tipos: ano/numero int; demais str 
+OK    campos extras só dentre comandoOriginal, volatil, nota 
+OK    nenhum item sem id, enunciado e gabarito C/E []
+OK    0 "QA PENDENTE" no JSON 
+OK    edital: 47 entradas = v1.1 (idêntico) 
+OK    todo itemEdital existe no edital 
+OK    aderencia só direta|parcial; rotulo permitido 
+OK    volatil só true; nota só str não vazia; comandoOriginal só str não vazia 
+OK    0 ocorrência de 'ENTREGA DE LOTE' 
+OK    0 ocorrência de 'FIM DA PARTE' 
+OK    0 ocorrência de 'FIM DO LOTE' 
+OK    0 ocorrência de '=====' 
+OK    0 ocorrência de 'Fundador: gravar' 
+OK    0 ocorrência de 'Observação para a GCB-CQFP' 
+OK    0 ocorrência de 'Derep, antigo DETAQ' 
+OK    banco: 112 linhas no CSV; 106 exportáveis (C/E, não anuladas); exportados = exportáveis 
+OK    banco: 6 anuladas fora (BQ-0029, 0030, 0031, 0060, 0062, 0063) 
+OK    banco: id, gabarito, enunciado, itemEdital, certame, cargo, url, ano, numero = CSV (106/106) 
+OK    banco: 60 C / 46 E {'C': 60, 'E': 46}
+OK    banco: comando = texto_comando; textoBase = texto_base ou "" (106/106) 
+OK    banco: aderencia = coluna aderencia do CSV (106/106), sem recálculo 
+OK    banco: 67 direta / 39 parcial {'parcial': 39, 'direta': 67}
+OK    banco: os 60 da v1.1 com o MESMO comando (60/60) 
+OK    banco: os 60 da v1.1 com aderência igual (37 direta/23 parcial) 
+OK    banco: textoBase não vazio só em BQ-0049, 0050, 0051; os 60 da v1.1: textoBase = texto da v1.1 ou "" 
+OK    banco: volatil = 8 (BQ-0015, 0017, 0035, 0064, 0075, 0076, 0086, 0089) 
+OK    nota: só BQ-0003 e BQ-0040; valor = texto do contrato (regra 4 da v1.1.1) e = trecho final de observacoes 
+OK    banco: BQ-0072, 0077, 0084, 0109, 0110, 0111 presentes; BQ-0110 sem nota 
+OK    banco: 0 item normalizado; BQ-0070, 0071, 0112 com comando inteiro e sem comandoOriginal 
+OK    AUTORAL: 180 ids = registro v3 (180/180) 
+OK    AUTORAL: gabarito = registro v3 (180/180) 
+OK    AUTORAL: subitem compatível com o registro (180/180) []
+OK    AUTORAL: volatil = VOLÁTIL + REVERIFICAR do registro (15) ['6A-01', '6A-09', '6A-10', '6A-14', '6A-15', 'A5-14', 'A5-15', 'A5-16', 'A5-17', 'L1-Q14', 'L1-Q16', 'L1-Q18', 'L1-Q19', 'L3-Q21', 'L4-15']
+OK    AUTORAL: 89 C / 91 E {'E': 91, 'C': 89}
+OK    AUTORAL: [TS] no registro = 91; [TS] lido dos d-G dos arquivos canônicos = registro (180/180) 
+OK    AUTORAL: justificativa não vazia; banco: justificativa vazia 
+OK    AUTORAL: textoBase "" em 180/180 (F2); 0 "nenhum" em textoBase (286) 
+OK    F2: textoBase vazio em 283 de 286 itens (283 = 286 − 3 de BQ-0049..51) 
+OK    volatil total = 23 (banco 8 + AUTORAL 15), L3-Q21 marcado 
+OK    normalização: 90 itens com comandoOriginal = L4 20, A5/L5 20, 4C/L4C 10, 5C/L5C 10, L6A 15, L6B 15 {'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15}
+OK    normalização: comando = comandoOriginal com só o trecho da numeração trocado por "julgue os itens a seguir." 
+OK    normalização: parte da frase anterior a "julgue os itens" idêntica (resto literal) 
+OK    normalização: nenhum comando restante com faixa de itens; L1–L3 (90) sem comandoOriginal e com comando literal 
+OK    normalização: base v1.1 também 90 (mesma contagem por lote) 
+OK    AUTORAL v1.1 → v1.2: campos alterados só textoBase(180), comando/comandoOriginal(90), justificativa(21), enunciado(1: L1-Q04) {'comando': 90, 'comandoOriginal': 90, 'enunciado': 1, 'justificativa': 21, 'textoBase': 180}
+OK    F1: L1-Q04 contém "áudio–texto"; 0 "áudio– texto" no JSON 
+OK    F1: nenhuma outra letra+"– "+letra no JSON (efeito de quebra de linha) 
+OK    F4 (R1): 21 justificativas alteradas (21 = 18 da R0 + 6B-06, 6B-15, L2-Q21) 
+OK    F4 (R1): cada alteração é SÓ deleção, salvo as 2 trocas de caixa fechadas da C-05 (4C-08, 5C-06: minúscula → maiúscula na inicial) 
+OK    F4: justificativas finais = depois 
+OK    F4 (R1/C-09): 0 marca de processo (CQFP/CQE/CPP/GCE/GCB/GBQ/EXEC/T-xx/(vN/Oxx/Lição/R-4C1/Risco + QA, O-n, Retificação, "Gabarito C|E mantido") nas 180 justificativas AUTORAL []
+OK    F5: 0 "Derep, antigo DETAQ"; "Derep (antigo DETAQ)" no L1 (curso, E10) ocorrências totais da forma correta: 13
+OK    contagem por lote = declarada {'L1': 20, 'L1C': 10, 'L2': 30, 'L3': 30, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15} 
+OK    lotes: itensEdital, pares e pegadinhas são listas JSON em 10/10 lotes; itensEdital ⊂ edital 
+OK    lotes: campos id, nome, prova, itensEdital, resumo, curso, pares, pegadinhas (+ legendaMecanismo, opcional, só em L4, L4C, L5, L5C, L6A, L6B) 
+OK    v1.3 legendaMecanismo: 6 lotes, string não vazia, literal da tabela 2.3 do QA da T-53 (L4 = L4C = L5C; L5 "Mecanismos: …"; L6A = L6B "atribuição errada (AT)"); L1, L1C, L2, L3 sem o campo 
+OK    v1.3 legendaMecanismo: sem ponto final, sem quebra de linha, e ocorre literal (1 vez, em linha "Legenda:") no arquivo canônico do lote 
+OK    lotes: itensEdital iguais aos da v1.1 (10/10) 
+OK    v1.4 `id` de par (contrato v1.2.2 ponto 1): chaves [id, a, b, como] só em L4, L5, L6A e L6B (72 pares); L1, L1C, L2, L3 sem `id` (67 pares: [a, b, como]) 
+OK    v1.4 `id` de par: string não vazia que casa ^C\d+$, C1…Cn em sequência, igual (e na mesma ordem) aos rótulos "C<n>." da seção (c) do arquivo canônico: L4 20, L5 15, L6A 19, L6B 18 
+OK    v1.4 remissões a par por id: L5 C1 = Histograma × gráfico de barras; L5 C14 = Storytelling × dashboard; L4 C19 = Injeção de prompt × jailbreak (conceitos gerais) 
+OK    v1.4 `a`, `b` e `como` de todos os pares iguais aos da v1.1, fora o `id`, salvo a errata oficial já aplicada na v1.1 (L3 par 20 = E4; o par 15 do L2, E1c, já estava aplicado na v1.1) {'L3': [20]}
+OK    pares por lote iguais à v1.1 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18) 
+OK    pegadinhas.itemEdital existem no edital 
+OK    F3: toda pegadinha tem itemEdital, rotulo (não vazio) e texto (não vazio), nessa ordem 
+OK    F3: todo rotulo é trecho literal do arquivo canônico do lote ou do edital (sem marcas internas) []
+OK    F3: nenhum rotulo com marca interna ([V, [TS], F1.., U1.., verificado em, ITEM) 
+OK    F3 (R1): pegadinhas L1 19, L5 48, total 262 (R0: 20, 52, 267); 5 reuniões registradas (C-06 a C-08) {'L1': 19, 'L1C': 4, 'L2': 43, 'L3': 42, 'L4': 32, 'L4C': 0, 'L5': 48, 'L5C': 0, 'L6A': 35, 'L6B': 39}
+OK    F3: a junção dos fragmentos (separador original) reproduz cada entrada da v1.1, salvo o ponto final []
+OK    erratas: 32 aplicações registradas; 0 FALHA; estados {'APLICADA': 31, 'JÁ PRESENTE': 1} 
+OK    erratas: Y de cada errata presente no JSON (27 aplicações com Y) []
+OK    erratas: X de cada errata ausente do JSON (fora das ocorrências de Y) []
+OK    erratas fora do exportado: alvo existe no arquivo e X/Y NÃO vai ao JSON [{'lote': 'L1', 'id': 'E6', 'em_arquivo': True, 'no_json': False}, {'lote': 'L1', 'id': 'E11', 'em_arquivo': True, 'no_json': False}, {'lote': 'L1C', 'id': 'E2', 'em_arquivo': True, 'no_json': False}, {'lote': 'L2', 'id': 'E3a', 'em_arquivo': True, 'no_json': False}]
+OK    L1 E12: resumo do L1 contém a Y e não contém "não mede pontuação nem locutor" 
+OK    L2 E7: resumo do L2 (2.4) com Y 
+OK    L3 E4: par 20 com "suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019" e 0 "suprimida pela Lei 13.853/2019)" 
+OK    L3 Adendo 2: "Contexto institucional — Ato da Mesa nº 225" 1 vez no curso (4.1), 3.1 sem duplicata; bloco T-08/T-44 do 3.1 intacto 
+OK    L3 Adendo 2: texto inserido = texto literal do Adendo 2 da consolidação 
+OK    L3 T-58 (D1-T54-b da GCE, errata de forma): curso do L3 com "jurisprudência firmada que se possa afirmar):" (1×) e 0 "que eu possa afirmar"; o canônico atual tem a errata no curso (1×) e o registro "T-54" na Tabela de Correções do cabeçalho (o "que eu possa afirmar" que resta no canônico é o da linha de limites N4, não exportada) 
+OK    L5 Tukey (T-47): curso do L5 8.2 contém "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta." 
+INFO DETAQ residual: []
+OK    discursivas: 5 (D1–D5); D1 a D4 idênticas às da v1.1; D5 igual à da v1.1 exceto o anexo de notas: sem a R2 (trecho literal removido) e com o rótulo "Notas de correção (GCE, R3–R4)" (D1-T54-a da GCE); comando, aspectos e quesitos da D5 iguais 
+OK    discursivas: sem observação "inferido pela EXEC" (0 ocorrência) 
+OK    discursivas: "14,30" (E11) não aparece em comando/padrão (E11 sem efeito no exportado) 
+INFO D1 questao aspectos 3 soma 14.3
+INFO D2 questao aspectos 3 soma 14.3
+INFO D3 peca aspectos 5 soma 28.5
+INFO D4 questao aspectos 3 soma 14.3
+INFO D5 peca aspectos 5 soma 28.5
+OK    D4: anexo R2–R4 é cópia literal das linhas 14–23 do arquivo de padrões 
+OK    D5 (v1.4, D1-T54-a da GCE): anexo R3–R4 é cópia literal das linhas 21–23 do arquivo de padrões; 0 "R2." e 0 "Alínea c da discursiva" na D5; rótulo "Notas de correção (GCE, R3–R4)" 
+OK    simulados: ids [SIM-0, SIM-1, SIM-2, SIM-0-P2]; tipos; versões 
+OK    simulados: n = tamanho de itens = 60, 40, 40, 25; chaves id,nome,tipo,versao,n,itens (+ avisos, opcional, só no SIM-0) 
+OK    v1.3 avisos (SIM-0): lista de 3 strings = avisos 1, 2 e 4 da folha canônica, sem a numeração; aviso 2 com a sublista na mesma string, recuo de 3 espaços; avisos 3, 5, 6, 7 e 8 não entram 
+OK    v1.3 avisos: início literal "**Simulado diagnóstico, não final.**", "**Aderência PARCIAL (23 itens).**", "**Desequilíbrio C/E (contagem real).**"; aviso 1 mantém "(D-ADERENCIA: parcial só em diagnóstico)" no campo (D-T53-07); só o SIM-0 tem o campo 
+OK    simulados: todo id de simulado existe em itens; 0 repetido dentro de cada simulado 
+OK    simulados: gabarito do simulado (arquivo *_gabarito.md) = gabarito do item no pacote (165/165) 
+OK    SIM-0: 60 do banco; = banco (comando+texto da folha); 33 C/27 E; 4 volatil (BQ-0015, 0017, 0035, 0064); 23 parcial 
+OK    SIM-0 = os 60 BQ da v1.1 (mesma lista e ordem) 
+OK    SIM-1 = v1.1 (40 ids, mesma ordem) 
+OK    SIM-1: só AUTORAL; sem volatil; sem parcial; C/E={'C': 20, 'E': 20} 
+OK    SIM-2: só AUTORAL; sem volatil; sem parcial; C/E={'C': 20, 'E': 20} 
+OK    SIM-0-P2: só AUTORAL; sem volatil; sem parcial; C/E={'C': 13, 'E': 12} 
+OK    SIM-1 20 C/20 E; SIM-2 20 C/20 E; SIM-0-P2 13 C/12 E 
+OK    simulados finais SIM-1 e SIM-2 sem item de L4-11 nem BQ-0010; SIM-2 (P2) só L1–L3 
+OK    simulados: SIM-0-P2 ∩ SIM-2 = ∅; SIM-1 ∩ SIM-2 = ∅; SIM-0 ∩ (SIM-1, SIM-2, SIM-0-P2) = ∅ 
+OK    SIM-1: ordem dos ids = ordem do mapa (40); texto da folha = enunciado do pacote (40/40) 
+OK    SIM-2: ordem dos ids = ordem do mapa (40); texto da folha = enunciado do pacote (40/40) 
+OK    SIM-0-P2: ordem dos ids = ordem do mapa (25); texto da folha = enunciado do pacote (25/25) 
+OK    SIM-0: ordem dos ids = ordem do mapa (60); texto da folha = enunciado do pacote (60/60) 
+OK    SIM-0: bloco "Comando" da folha = textoBase + comando do pacote (60/60; 57 só comando, 3 com texto-base) 
+OK    SIM-0 v0.2: Aviso 6 com a frase da errata de forma (T-36) e 0 "aguardam a conferência" 
+INFO rótulos: {'CEBRASPE_ANALOGA': 106, 'AUTORAL': 180}
+INFO C/E total: Counter({'C': 149, 'E': 137})
+112 verificações; 0 falhas

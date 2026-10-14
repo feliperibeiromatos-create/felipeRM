@@ -1,6 +1,6 @@
-# pacote.json — contrato de dados entre a fábrica e a plataforma (v1.2.2, 2026-10-13)
+# pacote.json — contrato de dados entre a fábrica e a plataforma (v1.2.3, 2026-10-14)
 
-Arquivo único, UTF-8, gerado pela fábrica em `saida/pacote/pacote.json`. A plataforma lê e valida; nada além destes campos é necessário. A v1.1 (T-26, errata de forma de 2026-10-10; v1 de 9/10/2026) não muda nenhum campo obrigatório: acrescenta o campo opcional `volatil` e fixa regras de mapeamento e de fonte. A v1.1.1 (T-38 e T-43, 2026-10-13) corrige a forma da regra 2 e do exemplo JSON e acrescenta o campo opcional `nota`; também não muda nenhum campo obrigatório. A seção "Regras da v1.2" foi decidida pela GBQ (D1, 13/10/2026) e vigora a partir da T-48. O campo `versao` do JSON continua 1 (a v1.1, a v1.1.1 e a v1.2 são retrocompatíveis; regra (g) da v1.2). A v1.2.1 (T-53, errata de forma de 2026-10-13; D1 da GBQ, `saida/pacote/T48_reconciliacao_R1_2026-10-13.md`) corrige a forma das regras (b), (d) e (i) da v1.2 e acrescenta os campos opcionais `legendaMecanismo` (lote) e `avisos` (simulado), sem mudar nenhum campo obrigatório nem `versao`; ver a seção "Errata de forma da v1.2.1". A v1.2.2 (T-57, errata de forma de 2026-10-13; D1 da GBQ, `saida/pacote/T54_decisoes_2026-10-13.md`) acrescenta o campo opcional `id` de par e fixa regras de exibição da edição do estudante (pares, `nota` e `legendaMecanismo` nos gabaritos de simulado), sem mudar nenhum campo obrigatório nem `versao`; ver a seção "Errata de forma da v1.2.2".
+Arquivo único, UTF-8, gerado pela fábrica em `saida/pacote/pacote.json`. A plataforma lê e valida; nada além destes campos é necessário. A v1.1 (T-26, errata de forma de 2026-10-10; v1 de 9/10/2026) não muda nenhum campo obrigatório: acrescenta o campo opcional `volatil` e fixa regras de mapeamento e de fonte. A v1.1.1 (T-38 e T-43, 2026-10-13) corrige a forma da regra 2 e do exemplo JSON e acrescenta o campo opcional `nota`; também não muda nenhum campo obrigatório. A seção "Regras da v1.2" foi decidida pela GBQ (D1, 13/10/2026) e vigora a partir da T-48. O campo `versao` do JSON continua 1 (a v1.1, a v1.1.1 e a v1.2 são retrocompatíveis; regra (g) da v1.2). A v1.2.1 (T-53, errata de forma de 2026-10-13; D1 da GBQ, `saida/pacote/T48_reconciliacao_R1_2026-10-13.md`) corrige a forma das regras (b), (d) e (i) da v1.2 e acrescenta os campos opcionais `legendaMecanismo` (lote) e `avisos` (simulado), sem mudar nenhum campo obrigatório nem `versao`; ver a seção "Errata de forma da v1.2.1". A v1.2.2 (T-57, errata de forma de 2026-10-13; D1 da GBQ, `saida/pacote/T54_decisoes_2026-10-13.md`) acrescenta o campo opcional `id` de par e fixa regras de exibição da edição do estudante (pares, `nota` e `legendaMecanismo` nos gabaritos de simulado), sem mudar nenhum campo obrigatório nem `versao`; ver a seção "Errata de forma da v1.2.2". A v1.2.3 (T-59, errata de forma de 2026-10-14; D1 da GBQ, `saida/pacote/T59_decisoes_2026-10-14.md`) acrescenta a seção "Exportação de erros (plataforma → fábrica)", que define o arquivo que a plataforma exporta e remete à regra de importação `regras/importacao_erros.md`, e fixa o id do simulado da semana, sem mudar nenhum campo obrigatório do pacote nem `versao`; ver a seção "Errata de forma da v1.2.3".
 
 ```json
 {
@@ -100,6 +100,33 @@ Esta errata não muda nome, tipo nem obrigatoriedade de nenhum campo e não muda
 3. **Rótulo da `nota` na edição do estudante (D-T54-04; complementa o ponto 3 da v1.2.1).** A edição exibe a `nota` sem rótulo próprio do gerador: a linha começa pelo valor literal ("nota de vigência: …"), sem "Nota:" antes. Continua valendo a deleção do identificador "(D-…)" do ponto 3 da v1.2.1, e só ela.
 4. **`legendaMecanismo` nos gabaritos de simulado (D-T54-07; complementa o ponto 4 da v1.2.1).** No topo de cada `SIM-*_gabarito.md`, depois das linhas de versão e de número de itens e antes do primeiro item, entra a `legendaMecanismo` de cada lote de origem dos itens do simulado que tenha o campo, em linha própria, literal, sem título; legendas idênticas (mesma string) aparecem uma vez; ordem = a da lista `lotes` do pacote. Lote de origem = o lote em cujo `*_gabarito.md` o item é emitido; item de banco não tem lote de origem. Simulado sem item de lote com legenda não recebe linha. Não se uniformizam as variantes entre lotes.
 5. **Aplicação.** A partir da T-57 (pacote v1.4) e nas regerações seguintes. Registro: `saida/pacote/contrato_v1_2_2_2026-10-13.md`.
+
+Errata de forma da v1.2.3 (T-59; D1 da GBQ, 14/10/2026; base: `saida/pacote/T59_decisoes_2026-10-14.md`, D-T59-01 a D-T59-08):
+
+Esta errata não muda nome, tipo nem obrigatoriedade de nenhum campo do `pacote.json` e não muda `versao` (continua 1; regra (g) da v1.2). Um leitor da v1.2.2 continua lendo a v1.2.3. O que ela acrescenta é um segundo arquivo, no sentido inverso (plataforma → fábrica), e uma regra de id de simulado.
+
+1. **Exportação de erros (plataforma → fábrica).**
+   - **O arquivo.** A plataforma oferece "Exportar meus erros" (D-V15-AGORA) e gera um arquivo JSON, UTF-8, de nome sugerido `camara2026-erros-AAAA-MM-DD-HHMM.json` (data e hora locais), com `"formato": "camara2026.erros"` e `"versaoFormato": 1`.
+   - **Conteúdo.** São campos, tipos e ordem exatamente os da tabela D-T59-02 de `saida/pacote/T59_decisoes_2026-10-14.md`, que é a especificação deste arquivo:
+     - `exportadoEm`;
+     - `pacote` {`nome`, `geradoEm`, `versao`, `origem`};
+     - `estadoVersao`, `escolha`, `resumo`, `caderno`, `respostasCaderno`, `tentativas`, `saidas`, `discursivas`.
+   - **Datas.** Em ISO 8601 UTC (`toISOString`). A exceção é `pacote.geradoEm`, que é copiado literalmente.
+   - **Ids.** São os do pacote, literais e sem filtro.
+   - **O que não entra.** Dado de identificação, eventos detalhados (só contagens e as respostas do caderno), `lote`, `vespera`, `boasVindas`, rascunho de discursiva não entregue (só contagem) e conteúdo do pacote.
+   - **Salvamento.** Pela capacidade `downloads` do claude.ai, com confirmação da candidata. Sem ela, o texto vai para a área de transferência ou, em último caso, para um campo de seleção manual.
+   - **Efeito no progresso.** A exportação não altera o estado da plataforma.
+   - **Importação na fábrica.** Segue `regras/importacao_erros.md`: validação, ids desconhecidos listados, diagnóstico da semana, simulado da semana e correção dupla das discursivas. O arquivo fica fora do git e do Projeto do claude.ai.
+   - **Pacote.** Nada que vem do arquivo altera gabarito ou conteúdo canônico. A matéria resultante só entra no pacote por gatilho aceito.
+   - **Versão do formato.** `versaoFormato` 2 fica reservada para mudança que quebre a importação existente (campo retirado, renomeado ou com tipo trocado). Campo opcional novo mantém a versão 1.
+2. **Id do simulado da semana (complementa a regra (e) da v1.2).** O simulado da semana que tiver gatilho aceito entra em `simulados` com:
+   - `id` `"SIM-S-AAAA-MM-DD"`;
+   - `nome` "Simulado da semana — DD/MM/AAAA";
+   - `tipo` "diagnóstico" e `versao` "v1";
+   - `n` pela regra (e).
+
+   Os simulados da semana se acumulam na ordem de data, depois dos simulados numerados. Retirar um deles do pacote é exclusão de ativo canônico, reservada ao Fundador.
+3. **Aplicação.** O ponto 1 vale a partir da T-60 (plataforma) e da primeira rodada semanal (T-62). O ponto 2 vale a partir do primeiro simulado da semana aceito. Esta errata não gera `pacote.json`, e o pacote v1.5 (T-61) só traz `nome` e `geradoEm` novos. Registro: `saida/pacote/contrato_v1_2_3_2026-10-14.md`.
 
 ---
 

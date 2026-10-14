@@ -84,7 +84,11 @@ OK    L3 Adendo 2: texto inserido = texto literal do Adendo 2 da consolidação
 OK    L3 T-58 (D1-T54-b da GCE, errata de forma): curso do L3 com "jurisprudência firmada que se possa afirmar):" (1×) e 0 "que eu possa afirmar"; o canônico atual tem a errata no curso (1×) e o registro "T-54" na Tabela de Correções do cabeçalho (o "que eu possa afirmar" que resta no canônico é o da linha de limites N4, não exportada) 
 OK    L5 Tukey (T-47): curso do L5 8.2 contém "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta." 
 INFO DETAQ residual: []
-OK    discursivas: 5 (D1–D5); D1 a D4 idênticas às da v1.1; D5 igual à da v1.1 exceto o anexo de notas: sem a R2 (trecho literal removido) e com o rótulo "Notas de correção (GCE, R3–R4)" (D1-T54-a da GCE); comando, aspectos e quesitos da D5 iguais 
+OK    discursivas: 5 (D1–D5); D1 e D2 idênticas às da v1.1; D3, D4 e D5 iguais às da v1.1 só no campo `padrao` quanto às demais chaves (comando, aspectos, quesitos, tipo, id) 
+OK    discursivas (T-64): D3 = D3 da v1.1 com UMA troca, a linha da nota da peça "Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL." -> "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL." (literal de GCE_Lote2_padroes_GCE.md, 1 ocorrência no arquivo) 
+OK    discursivas (T-64): D4 = D4 da v1.1 com UMA troca, a nota da R6 (texto da R6 de GCE_Lote3_padroes_GCE.md, unido por espaço, sem recuo e sem o rótulo "R6. ") 
+OK    discursivas (T-64; D1-T54-a da GCE): D5 = D5 da v1.1 sem o trecho literal da nota R2, com o rótulo "Notas de correção (GCE, R3–R4)" e a mesma troca da R6 da D4 
+OK    discursivas (T-64; estado esperado da GCE, D1-T64-5): "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0; a R6 antiga não está mais escrita no código (p2.py lê a R6 do arquivo) 
 OK    discursivas: sem observação "inferido pela EXEC" (0 ocorrência) 
 OK    discursivas: "14,30" (E11) não aparece em comando/padrão (E11 sem efeito no exportado) 
 INFO D1 questao aspectos 3 soma 14.3
@@ -117,4 +121,4 @@ OK    SIM-0: bloco "Comando" da folha = textoBase + comando do pacote (60/60; 57
 OK    SIM-0 v0.2: Aviso 6 com a frase da errata de forma (T-36) e 0 "aguardam a conferência" 
 INFO rótulos: {'CEBRASPE_ANALOGA': 106, 'AUTORAL': 180}
 INFO C/E total: Counter({'C': 149, 'E': 137})
-112 verificações; 0 falhas
+116 verificações; 0 falhas

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """T-61 — conferências da ocorrência v1.5 do pacote e da edição do estudante (independentes do gerador, salvo onde dito).
 Lê out/pacote.json e out/estudante/ (v1.5 gerada) e compara com a v1.4 canônica lida do git (refs.py: commit e9b6402, SHA-256 f8c0c131…) e com a v1.3 (commit 9622604).
-(0) diff v1.4 -> v1.5 do pacote.json: EXATAMENTE `nome` e `geradoEm` (D-T59-10, item 1); o resto idêntico byte a byte.
-(1) diff acumulado v1.3 -> v1.5 do pacote (nome, geradoEm, `id` dos 72 pares, D5, curso do L3): os testes da v1.4, com `nome`/`geradoEm` da v1.5.
+(0) diff v1.4 -> v1.5 do pacote.json: EXATAMENTE `nome`, `geradoEm` (D-T59-10, item 1) e o campo `padrao` de D3, D4 e D5 (T-64: nota de fórmula da peça, D-T63-02/D-T64-V15/D1-T64-5); o resto idêntico byte a byte.
+(1) diff acumulado v1.3 -> v1.5 do pacote (nome, geradoEm, `id` dos 72 pares, D3, D4, D5, curso do L3): os testes da v1.4, com `nome`/`geradoEm` da v1.5 e a troca da T-64 nas D3, D4 e D5.
 (2) contrato: regras/pacote_contrato.md v1.2.2 (git e9b6402) -> v1.2.3 (arquivo atual), restrito às linhas 1 e 3 e à seção nova, contra o texto literal de T59_decisoes (seção 3, D-T59-08).
-(3) edição: v1.4 -> v1.5 (só README, linhas 3-4) e, acumulado v1.3 -> v1.5, a reconstrução exata e os testes T54-1 a T54-8 da v1.4; fidelidade (0 diferenças).
+(3) edição: v1.4 -> v1.5 (README, linhas 3-4, e DISCURSIVAS_padrao.md, só as 3 linhas das notas da T-64) e, acumulado v1.3 -> v1.5, a reconstrução exata e os testes T54-1 a T54-8 da v1.4; fidelidade (0 diferenças).
 (4) não regressão (T57_reconciliacao, seção 3, itens 3, 5, 6 e 7): varreduras da seção 3.5 do QA R2 (com \\bD-[A-Z]{2,}), exceções fechadas da R1 e REALINHA, conferências do QA da T-56, avisos do SIM-0, scripts históricos.
 (5) contagens iguais às da v1.4, da v1.3 e da v1.2.
-(6) artefatos da T-59: regras/importacao_erros.md e exemplo_erros_v1.json iguais, caractere a caractere, aos blocos de T59_decisoes; .gitignore; validador sobre o exemplo.
+(6) artefatos da T-59: regras/importacao_erros.md v1.1 (= bloco D-T59-07 de T59_decisoes com a errata E-1 a E-5 de T59_T60_reconciliacao_2026-10-14.md, reconstruída por script) e exemplo_erros_v1.json iguais, caractere a caractere; .gitignore; validador (registro e versão mantida) sobre o exemplo; MANIFESTO marca o registro.
 Saída: out/conferencias_v15.txt e out/conferencias_v15.json; código de saída 1 se houver falha.
 Uso: python3 conferencias_v15.py [<pacote.json> <pasta_estudante>]  (padrão: out/pacote.json e out/estudante)"""
 import collections, difflib, hashlib, json, os, re, sys
@@ -61,21 +61,49 @@ def walk_diff(a, b, path, out):
         for i, (x, y) in enumerate(zip(a, b)): walk_diff(x, y, '%s[%d]' % (path, i), out)
     elif a != b:
         out.append((path, 'valor', a, b))
-# ======================================================================= (0) diff v1.4 -> v1.5 do pacote (D-T59-10, item 1)
+# ======================================================================= (0) diff v1.4 -> v1.5 do pacote (D-T59-10, item 1; T-64: D-T63-02, D-T64-V15, D1-T64-5)
+# Textos da T-64, escritos aqui como literais (decisão D1-T64-5 da GCE e linha T-64 de TAREFAS.md) e conferidos contra os arquivos de padrões (leitura independente do p2.py).
+N2_ANT = 'Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.'
+N2_NOVA = 'Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.'
+R6_ANT = 'Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.'
+R6_NOVA = ('Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). '
+           'O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.')
+pad2_ln = read('saida/gce/GCE_Lote2_padroes_GCE.md').split('\n')
+pad3_ln = read('saida/gce/GCE_Lote3_padroes_GCE.md').split('\n')
+k6 = next(k for k, l in enumerate(pad3_ln) if l.startswith('R6. '))
+k6b = next(k for k in range(k6, len(pad3_ln)) if not pad3_ln[k].strip())
+r6_arq = ' '.join(l.strip() for l in pad3_ln[k6:k6b])[len('R6. '):]
+n2_arq = [l for l in pad2_ln[:next(k for k, l in enumerate(pad2_ln) if l.startswith('FIM DOS PADRÕES'))] if l.startswith('Nota (edital,')]
+chk('(0) T-64', 'os literais da T-64 conferem com os arquivos de padrões: Lote 2 (f), linha da nota = "%s" (1 linha, antes de "FIM DOS PADRÕES"); Lote 3, R6 (linhas %d–%d, unidas por espaço, sem recuo e sem o rótulo "R6. ") = a R6 corrigida' % (N2_NOVA, k6 + 1, k6b),
+    n2_arq == [N2_NOVA] and pad2_ln[158] == N2_NOVA and r6_arq == R6_NOVA and R6_NOVA != R6_ANT and k6b - k6 == 4,
+    'Lote 2 linha 159; Lote 3 R6 linhas %d–%d' % (k6 + 1, k6b))
 dif0 = []
 walk_diff(P14, P15, '', dif0)
 NOME14, NOME15 = 'Câmara 2026 — pacote F4 (v1.4)', 'Câmara 2026 — pacote F4 (v1.5)'
-chk('(0) DIFF v1.4->v1.5', 'diff estrutural v1.4 -> v1.5 do pacote: exatamente 2 diferenças, `$.nome` e `$.geradoEm`; qualquer outra = falha (D-T59-10, item 1)',
-    sorted((d[0], d[1]) for d in dif0) == [('.geradoEm', 'valor'), ('.nome', 'valor')], 'diferenças: %s' % [(d[0], d[2], d[3]) for d in dif0])
+chk('(0) DIFF v1.4->v1.5', 'diff estrutural v1.4 -> v1.5 do pacote: exatamente 5 diferenças, `$.nome`, `$.geradoEm` e o `padrao` de `$.discursivas[2]` (D3), `[3]` (D4) e `[4]` (D5); qualquer outra = falha (D-T59-10, item 1 + D-T64-V15)',
+    sorted((d[0], d[1]) for d in dif0) == sorted([('.geradoEm', 'valor'), ('.nome', 'valor'), ('.discursivas[2].padrao', 'valor'), ('.discursivas[3].padrao', 'valor'), ('.discursivas[4].padrao', 'valor')])
+    and [P15['discursivas'][k]['id'] for k in (2, 3, 4)] == ['D3', 'D4', 'D5'], 'diferenças: %s' % [d[0] for d in dif0])
 chk('(0) DIFF v1.4->v1.5', '`nome`: "%s" -> "%s"; `geradoEm`: "2026-10-13" -> "2026-10-14"; `versao` 1 nas duas; chaves de topo e sua ordem iguais' % (NOME14, NOME15),
     P14['nome'] == NOME14 and P15['nome'] == NOME15 and P14['geradoEm'] == '2026-10-13' and P15['geradoEm'] == '2026-10-14' and P14['versao'] == P15['versao'] == 1 and list(P14.keys()) == list(P15.keys()))
 s15 = raw15.decode('utf-8')
-volta = s15.replace('"nome": "%s"' % NOME15, '"nome": "%s"' % NOME14, 1).replace('"geradoEm": "2026-10-14"', '"geradoEm": "2026-10-13"', 1)
+def avanca(t):
+    """v1.4 -> v1.5 por substituição de texto (a única reconstrução esperada): nome, geradoEm, nota da peça (D3, 1x) e R6 (D4 e D5, 2x)"""
+    assert t.count(N2_ANT) == 1 and t.count(R6_ANT) == 2 and t.count('"nome": "%s"' % NOME14) == 1 and t.count('"geradoEm": "2026-10-13"') == 1
+    return t.replace('"nome": "%s"' % NOME14, '"nome": "%s"' % NOME15, 1).replace('"geradoEm": "2026-10-13"', '"geradoEm": "2026-10-14"', 1).replace(N2_ANT, N2_NOVA).replace(R6_ANT, R6_NOVA)
 l14_, l15_ = raw14.decode('utf-8').split('\n'), s15.split('\n')
 difl = [(k + 1, x, y) for k, (x, y) in enumerate(zip(l14_, l15_)) if x != y]
-chk('(0) DIFF v1.4->v1.5', 'byte a byte: trocando de volta só as 2 linhas (`geradoEm`, `nome`) a v1.5 vira a v1.4 (%d bytes, mesmo tamanho); %d linhas diferentes (as duas, linhas %s); serialização json.dumps(indent=1, ensure_ascii=False) + "\\n"' % (len(raw15), len(difl), [d[0] for d in difl]),
-    volta.encode('utf-8') == raw14 and len(raw15) == len(raw14) == 621744 and len(l14_) == len(l15_) and len(difl) == 2 and json.dumps(P15, ensure_ascii=False, indent=1) + '\n' == s15)
-chk('(0) DIFF v1.4->v1.5', 'itens (286), simulados (4), lotes (10), discursivas (5) e edital (47) idênticos aos da v1.4', P14['itens'] == P15['itens'] and P14['simulados'] == P15['simulados'] and P14['lotes'] == P15['lotes'] and P14['discursivas'] == P15['discursivas'] and P14['edital'] == P15['edital']
+chk('(0) DIFF v1.4->v1.5', 'byte a byte: aplicando à v1.4 só as 5 trocas de texto (`geradoEm`, `nome`, a nota da peça em D3 [1x] e a R6 em D4 e D5 [2x]) obtém-se a v1.5 (%d bytes; v1.4: 621744); %d linhas diferentes (linhas %s do JSON: as duas de cabeçalho e as de `padrao` de D3, D4 e D5); serialização json.dumps(indent=1, ensure_ascii=False) + "\\n"' % (len(raw15), len(difl), [d[0] for d in difl]),
+    avanca(raw14.decode('utf-8')).encode('utf-8') == raw15 and len(l14_) == len(l15_) and len(difl) == 5 and json.dumps(P15, ensure_ascii=False, indent=1) + '\n' == s15)
+d14_ = {d['id']: d for d in P14['discursivas']}; d15_ = {d['id']: d for d in P15['discursivas']}
+chk('(0) DIFF v1.4->v1.5', 'D3: padrao v1.5 = padrao v1.4 com UMA troca (a linha "%s" -> "%s"); D4 e D5: padrao v1.5 = padrao v1.4 com UMA troca (a R6 antiga -> a R6 de GCE_Lote3_padroes_GCE.md); D1 e D2 idênticas; comando, aspectos, quesitos, tipo e id das 5 idênticos' % (N2_ANT, N2_NOVA),
+    d15_['D3']['padrao'] == d14_['D3']['padrao'].replace(N2_ANT, N2_NOVA) and d14_['D3']['padrao'].count(N2_ANT) == 1 and d15_['D4']['padrao'] == d14_['D4']['padrao'].replace(R6_ANT, R6_NOVA) and d14_['D4']['padrao'].count(R6_ANT) == 1
+    and d15_['D5']['padrao'] == d14_['D5']['padrao'].replace(R6_ANT, R6_NOVA) and d14_['D5']['padrao'].count(R6_ANT) == 1 and d14_['D1'] == d15_['D1'] and d14_['D2'] == d15_['D2']
+    and all({k: v for k, v in d14_[x].items() if k != 'padrao'} == {k: v for k, v in d15_[x].items() if k != 'padrao'} for x in d14_) and list(d14_) == list(d15_))
+cnt15 = lambda t: [d['id'] for d in P15['discursivas'] if t in d['padrao']]
+chk('(0) DIFF v1.4->v1.5', 'estado esperado da GCE (D1-T64-5) em `discursivas[*].padrao`: "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0',
+    cnt15('NQ = NC − 3 × NE ÷ TL') == ['D1', 'D4', 'D5'] and cnt15('NPT = NC − 6 × NE ÷ TL') == ['D3', 'D4', 'D5'] and 'NQ = NC' not in d15_['D3']['padrao'] and 'NE ÷ TL' not in d15_['D2']['padrao'] and '9.8.5.1' not in d15_['D3']['padrao']
+    and 'NQ = NC' in d15_['D1']['padrao'] and '(9.8.5.1, d)' in d15_['D4']['padrao'] and '(9.8.5.2, d)' in d15_['D5']['padrao'])
+chk('(0) DIFF v1.4->v1.5', 'itens (286), simulados (4), lotes (10) e edital (47) idênticos aos da v1.4; discursivas (5): D1 e D2 idênticas e D3 a D5 só em `padrao` (acima)', P14['itens'] == P15['itens'] and P14['simulados'] == P15['simulados'] and P14['lotes'] == P15['lotes'] and P14['edital'] == P15['edital']
     and (len(P15['itens']), len(P15['simulados']), len(P15['lotes']), len(P15['discursivas']), len(P15['edital'])) == (286, 4, 10, 5, 47))
 
 # ======================================================================= (1) diff acumulado v1.3 -> v1.5 (testes da v1.4, com nome e geradoEm da v1.5)
@@ -87,10 +115,10 @@ def nome_caminho(p):
     return p
 dif_n = sorted((nome_caminho(d[0]), d[1]) for d in dif)
 ID_LOTES = {'L4': 20, 'L5': 15, 'L6A': 19, 'L6B': 18}
-esperado = sorted([('.nome', 'valor'), ('.geradoEm', 'valor'), ('discursivas[D5].padrao', 'valor'), ('lotes[L3].curso', 'valor')] +
+esperado = sorted([('.nome', 'valor'), ('.geradoEm', 'valor'), ('discursivas[D3].padrao', 'valor'), ('discursivas[D4].padrao', 'valor'), ('discursivas[D5].padrao', 'valor'), ('lotes[L3].curso', 'valor')] +
                   [('lotes[%s].pares[%d].id' % (lid, k), 'acrescentado') for lid, n in ID_LOTES.items() for k in range(n)])
-chk('(1) DIFF', 'v1.3 -> v1.5 (acumulado) do pacote: só nome (valor), geradoEm (valor: 2026-10-13 -> 2026-10-14), `id` em 72 pares (acrescentado), padrao da D5 (valor) e curso do L3 (valor); qualquer outra diferença = falha',
-    dif_n == esperado and P13['geradoEm'] == '2026-10-13' and P15['geradoEm'] == '2026-10-14', 'diferenças: %d (1 nome + 1 geradoEm + 72 id + 1 D5 + 1 curso L3)' % len(dif_n))
+chk('(1) DIFF', 'v1.3 -> v1.5 (acumulado) do pacote: só nome (valor), geradoEm (valor: 2026-10-13 -> 2026-10-14), `id` em 72 pares (acrescentado), padrao da D3, da D4 e da D5 (valor) e curso do L3 (valor); qualquer outra diferença = falha',
+    dif_n == esperado and P13['geradoEm'] == '2026-10-13' and P15['geradoEm'] == '2026-10-14', 'diferenças: %d (1 nome + 1 geradoEm + 72 id + 3 padrao D3/D4/D5 + 1 curso L3)' % len(dif_n))
 nome_d = [d for d in dif if d[0] == '.nome'][0]
 chk('(1) DIFF', 'nome: "%s" -> "%s"; versao 1 nas duas' % (nome_d[2], nome_d[3]), nome_d[2] == 'Câmara 2026 — pacote F4 (v1.3)' and nome_d[3] == 'Câmara 2026 — pacote F4 (v1.5)' and P13['versao'] == P15['versao'] == 1)
 # `id` de par: 72 entradas, primeira chave, igual ao rótulo do arquivo canônico (leitura independente)
@@ -128,12 +156,15 @@ d13 = {d['id']: d for d in P13['discursivas']}; d14 = {d['id']: d for d in P15['
 pad = read('saida/gce/GCE_Lote3_padroes_GCE.md').split('\n')
 r2 = '\n'.join(l.rstrip() for l in pad[13:20])      # linhas 14–20: nota R2
 r34 = '\n'.join(l.rstrip() for l in pad[20:23])     # linhas 21–23: notas R3 e R4
-p13, p14 = d13['D5']['padrao'], d14['D5']['padrao']
+p13, p14 = d13['D5']['padrao'].replace(R6_ANT, R6_NOVA), d14['D5']['padrao']      # a troca da R6 (T-64) é conferida em (0); aqui só o que a T-54 mudou
+assert d13['D5']['padrao'].count(R6_ANT) == 1
 anexo13 = 'Notas de correção (GCE, R2–R4)\n' + r2 + '\n' + r34
 anexo14 = 'Notas de correção (GCE, R3–R4)\n' + r34
-chk('(1) DIFF', 'D5: padrao v1.4 = padrao v1.3 sem o trecho literal da nota R2 (linhas 14–20 de GCE_Lote3_padroes_GCE.md, 7 linhas) e com o rótulo "Notas de correção (GCE, R3–R4)"; anexo v1.4 = linhas 21–23 literais; comando, aspectos e quesitos da D5 iguais',
+chk('(1) DIFF', 'D5: padrao v1.5 = padrao v1.3 (com a R6 trocada pela da T-64) sem o trecho literal da nota R2 (linhas 14–20 de GCE_Lote3_padroes_GCE.md, 7 linhas) e com o rótulo "Notas de correção (GCE, R3–R4)"; anexo v1.4 = linhas 21–23 literais; comando, aspectos e quesitos da D5 iguais',
     p13.endswith(anexo13) and p14 == p13[:len(p13) - len(anexo13)] + anexo14 and 'R2.' not in p14 and 'Alínea c da discursiva' not in p14 and r2.count('\n') == 6 and {k: v for k, v in d13['D5'].items() if k != 'padrao'} == {k: v for k, v in d14['D5'].items() if k != 'padrao'})
-chk('(1) DIFF', 'D4 inalterada: padrao com o anexo R2–R4 (linhas 14–23 literais) e rótulo "Notas de correção (GCE, R2–R4)"; D1, D2, D3 também idênticas', d13['D4'] == d14['D4'] and d14['D4']['padrao'].endswith('Notas de correção (GCE, R2–R4)\n' + r2 + '\n' + r34) and all(d13[k] == d14[k] for k in ('D1', 'D2', 'D3')))
+chk('(1) DIFF', 'D4: igual à da v1.3 salvo a troca da R6 (T-64); padrao com o anexo R2–R4 (linhas 14–23 literais) e rótulo "Notas de correção (GCE, R2–R4)"; D1 e D2 idênticas; D3 igual à da v1.3 salvo a troca da nota da peça (T-64)',
+    {k: v for k, v in d13['D4'].items() if k != 'padrao'} == {k: v for k, v in d14['D4'].items() if k != 'padrao'} and d14['D4']['padrao'] == d13['D4']['padrao'].replace(R6_ANT, R6_NOVA) and d13['D4']['padrao'].count(R6_ANT) == 1
+    and d14['D4']['padrao'].endswith('Notas de correção (GCE, R2–R4)\n' + r2 + '\n' + r34) and all(d13[k] == d14[k] for k in ('D1', 'D2')) and d14['D3']['padrao'] == d13['D3']['padrao'].replace(N2_ANT, N2_NOVA) and {k: v for k, v in d13['D3'].items() if k != 'padrao'} == {k: v for k, v in d14['D3'].items() if k != 'padrao'})
 def ordem_chaves(P):
     return [list(P.keys())] + [list(i.keys()) for i in P['itens']] + [list(l.keys()) for l in P['lotes']] + [list(p.keys()) for l in P['lotes'] for p in l['pares']] + [list(s.keys()) for s in P['simulados']] + [list(d.keys()) for d in P['discursivas']]
 oc13 = ordem_chaves(P13); oc14 = [[k for k in ks if k != 'id'] if ks[:2] == ['id', 'a'] else ks for ks in ordem_chaves(P15)]
@@ -177,7 +208,12 @@ chk('(2) CONTRATO v1.2.3', 'o pacote v1.5 cumpre os 14 campos obrigatórios de i
     all(all(k in i for k in CAMPOS) for i in P15['itens']) and list(P15.keys()) == ['versao', 'geradoEm', 'nome', 'edital', 'itens', 'simulados', 'lotes', 'discursivas'])
 
 # ======================================================================= (3a) edição v1.4 -> v1.5 (D-T59-10, item 2)
-chk('(3) EDIÇÃO v1.4->v1.5', 'mesmos 43 nomes de arquivo; 42 arquivos idênticos byte a byte aos da v1.4; só `README.md` difere', sorted(E14) == sorted(E15) and len(E15) == 43 and [f for f in E15 if E14[f] != E15[f]] == ['README.md'], str([f for f in E15 if E14[f] != E15[f]]))
+chk('(3) EDIÇÃO v1.4->v1.5', 'mesmos 43 nomes de arquivo; 41 arquivos idênticos byte a byte aos da v1.4; só `README.md` (versão e data) e `DISCURSIVAS_padrao.md` (as 3 notas da T-64) diferem', sorted(E14) == sorted(E15) and len(E15) == 43 and [f for f in E15 if E14[f] != E15[f]] == ['DISCURSIVAS_padrao.md', 'README.md'], str([f for f in E15 if E14[f] != E15[f]]))
+dp14a, dp15a = E14['DISCURSIVAS_padrao.md'].split('\n'), E15['DISCURSIVAS_padrao.md'].split('\n')
+opd = [o for o in difflib.SequenceMatcher(None, dp14a, dp15a, autojunk=False).get_opcodes() if o[0] != 'equal']
+chk('(3) EDIÇÃO v1.4->v1.5', 'DISCURSIVAS_padrao.md: exatamente 3 linhas trocadas e mais nenhuma (321 = nota da peça da D3; 404 = R6 da D4; 504 = R6 da D5), com o texto da T-64 literal; mesmo número de linhas; a linha 99 (D1, NQ) não muda',
+    len(dp14a) == len(dp15a) and [(o[0], o[1] + 1, o[2]) for o in opd] == [('replace', 321, 321), ('replace', 404, 404), ('replace', 504, 504)] and dp14a[320] == N2_ANT and dp15a[320] == N2_NOVA and dp14a[403] == R6_ANT and dp15a[403] == R6_NOVA and dp14a[503] == R6_ANT and dp15a[503] == R6_NOVA
+    and dp14a[98] == dp15a[98] and dp15a[98] == 'Nota de correção (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL, com NC' and E14['DISCURSIVAS_padrao.md'].count(R6_ANT) == 2 and E15['DISCURSIVAS_padrao.md'].count(R6_NOVA) == 2 and E15['DISCURSIVAS_padrao.md'].count(R6_ANT) == 0, str(opd))
 r14, r15 = E14['README.md'].split('\n'), E15['README.md'].split('\n')
 chk('(3) EDIÇÃO v1.4->v1.5', 'README.md: só as linhas 3 e 4 mudam: "- Versão: v1.4 (pacote.json versão 1)" -> "- Versão: v1.5 (pacote.json versão 1)" e "- Data: 2026-10-13" -> "- Data: 2026-10-14"; as demais linhas idênticas',
     len(r14) == len(r15) and [k + 1 for k, (x, y) in enumerate(zip(r14, r15)) if x != y] == [3, 4] and r14[2] == '- Versão: v1.4 (pacote.json versão 1)' and r15[2] == '- Versão: v1.5 (pacote.json versão 1)' and r14[3] == '- Data: 2026-10-13' and r15[3] == '- Data: 2026-10-14')
@@ -242,7 +278,9 @@ def reconstroi(f, tx13):
         assert len(ks) == 2
         k = ks[1]
         assert L[k:k + 7] == L[ks[0]:ks[0] + 7] and L[k - 1] == 'Notas de correção' and L[k + 7].startswith('Voz como dado sensível')
-        return '\n'.join(L[:k] + L[k + 7:])
+        u = '\n'.join(L[:k] + L[k + 7:])
+        assert u.count(N2_ANT) == 1 and u.count(R6_ANT) == 2          # + as 3 notas da T-64
+        return u.replace(N2_ANT, N2_NOVA).replace(R6_ANT, R6_NOVA)
     return tx13
 CAND = ['BANCO_gabarito.md', 'BANCO_itens.md', 'DISCURSIVAS_padrao.md', 'L1_estudo.md', 'L2_estudo.md', 'L3_estudo.md', 'L4_estudo.md', 'L5_estudo.md', 'L6A_estudo.md', 'L6B_estudo.md', 'L6B_gabarito.md', 'README.md', 'SIM-0_folha.md', 'SIM-0_gabarito.md', 'SIM-1_gabarito.md']
 chk('(3) EDIÇÃO', 'mesmos 43 nomes de arquivo', sorted(E13) == sorted(E15) and len(E15) == 43)
@@ -252,7 +290,7 @@ rec_ok = []; rec_bad = []
 for f in sorted(E15):
     esp = reconstroi(f, E13[f])
     (rec_ok if esp == E15[f] else rec_bad).append(f)
-chk('(3) EDIÇÃO', 'reconstrução exata: aplicando à v1.3 SÓ as operações da LISTA (pares com os separadores do canônico e `id`; 2 linhas do quadro do L1; rótulo "Nota:"; 6B-06; legendas no SIM-1_gabarito; 7 linhas da D5; L3 "que se possa afirmar"; README) o resultado é igual à v1.4 em 43/43 arquivos', not rec_bad and len(rec_ok) == 43, 'divergentes: %s' % rec_bad)
+chk('(3) EDIÇÃO', 'reconstrução exata: aplicando à v1.3 SÓ as operações da LISTA (pares com os separadores do canônico e `id`; 2 linhas do quadro do L1; rótulo "Nota:"; 6B-06; legendas no SIM-1_gabarito; 7 linhas da D5; L3 "que se possa afirmar"; README) e as 3 notas da T-64 o resultado é igual à v1.5 em 43/43 arquivos', not rec_bad and len(rec_ok) == 43, 'divergentes: %s' % rec_bad)
 # diff linha a linha por arquivo: contagem de linhas alteradas
 def linhas_diff(f):
     a, b = E13[f].split('\n'), E15[f].split('\n')
@@ -260,8 +298,8 @@ def linhas_diff(f):
     return [o for o in sm.get_opcodes() if o[0] != 'equal']
 nlin = {f: sum(max(o[2] - o[1], o[4] - o[3]) for o in linhas_diff(f)) for f in mudados}
 esperado_lin = {'L1_estudo.md': 17 + 2, 'L2_estudo.md': 22, 'L3_estudo.md': 28 + 1, 'L4_estudo.md': 20, 'L5_estudo.md': 15, 'L6A_estudo.md': 19, 'L6B_estudo.md': 18,
-                'BANCO_itens.md': 2, 'BANCO_gabarito.md': 2, 'SIM-0_folha.md': 2, 'SIM-0_gabarito.md': 2, 'L6B_gabarito.md': 1, 'SIM-1_gabarito.md': 4, 'DISCURSIVAS_padrao.md': 7, 'README.md': 2}
-chk('(3) EDIÇÃO', 'linhas alteradas por arquivo (v1.3 -> v1.5): pares 139 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18) + L1 quadro 2 + L3 curso 1; nota 8; 6B-06 1; SIM-1_gabarito +4; D5 -7; README 2 (versão e data; total %d)' % sum(esperado_lin.values()), nlin == esperado_lin, str(nlin))
+                'BANCO_itens.md': 2, 'BANCO_gabarito.md': 2, 'SIM-0_folha.md': 2, 'SIM-0_gabarito.md': 2, 'L6B_gabarito.md': 1, 'SIM-1_gabarito.md': 4, 'DISCURSIVAS_padrao.md': 7 + 3, 'README.md': 2}
+chk('(3) EDIÇÃO', 'linhas alteradas por arquivo (v1.3 -> v1.5): pares 139 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18) + L1 quadro 2 + L3 curso 1; nota 8; 6B-06 1; SIM-1_gabarito +4; D5 -7 e 3 notas da T-64 trocadas; README 2 (versão e data; total %d)' % sum(esperado_lin.values()), nlin == esperado_lin, str(nlin))
 
 # --- T54-3: pares (D-T54-01)
 def linhas_pares(E, lid):
@@ -362,8 +400,8 @@ chk('(3) T54-7', 'SIM-2_gabarito.md e SIM-0-P2_gabarito.md (L1, L1C, L2, L3; sem
 # --- T54-8: D5 e L3
 dp14 = E15['DISCURSIVAS_padrao.md'].split('\n'); dp13 = E13['DISCURSIVAS_padrao.md'].split('\n')
 op = [o for o in difflib.SequenceMatcher(None, dp13, dp14, autojunk=False).get_opcodes() if o[0] != 'equal']
-chk('(3) T54-8a', 'DISCURSIVAS_padrao.md: só saem as 7 linhas da nota R2 da D5 (507–513 da v1.3); D1 a D4 e o resto da D5 idênticos; a D4 mantém as 7 linhas (407–413); "Notas de correção" da D5 continua (R3 e R4)',
-    len(op) == 1 and op[0][0] == 'delete' and (op[0][1] + 1, op[0][2]) == (507, 513) and dp13[406:413] == dp13[506:513] and dp14[406:413] == dp13[406:413] and dp14.count('Alínea c da discursiva: NÃO se exige enquadrar o') == 1 and len(dp13) - len(dp14) == 7
+chk('(3) T54-8a', 'DISCURSIVAS_padrao.md (v1.3 -> v1.5): saem as 7 linhas da nota R2 da D5 (507–513 da v1.3) e mudam as 3 notas da T-64 (321, 404 e 504; ver acima); D1, D2 e o resto de D3 a D5 idênticos; a D4 mantém as 7 linhas (407–413); "Notas de correção" da D5 continua (R3 e R4)',
+    [(o[0], o[1] + 1, o[2]) for o in op] == [('replace', 321, 321), ('replace', 404, 404), ('replace', 504, 504), ('delete', 507, 513)] and dp13[406:413] == dp13[506:513] and dp14[406:413] == dp13[406:413] and dp14.count('Alínea c da discursiva: NÃO se exige enquadrar o') == 1 and len(dp13) - len(dp14) == 7
     and 'Voz como dado sensível (biométrico): nem exigido nem penalizado.' in dp14[506] and dp14[505] == 'Notas de correção' and E15['DISCURSIVAS.md'] == E13['DISCURSIVAS.md'], str(op))
 l3a = E13['L3_estudo.md'].split('\n'); l3b = E15['L3_estudo.md'].split('\n')
 op3 = [o for o in difflib.SequenceMatcher(None, l3a, l3b, autojunk=False).get_opcodes() if o[0] != 'equal']
@@ -501,12 +539,35 @@ chk('(5) CONT', 'edição: 43 arquivos; itens por lote e por simulado iguais aos
 
 # ======================================================================= (6) artefatos da T-59 (D-T59-07, D-T59-04, D-T59-02; seção 6 da decisão)
 import subprocess
-imp_lit = '\n'.join(bloco_apos('## 2. REGRA DE IMPORTAÇÃO', '```markdown')) + '\n'
+imp_v1 = '\n'.join(bloco_apos('## 2. REGRA DE IMPORTAÇÃO', '```markdown')) + '\n'
 imp_atual = open(os.path.join(REPO_, 'regras', 'importacao_erros.md'), 'rb').read().decode('utf-8')
-chk('(6) T-59', 'regras/importacao_erros.md é igual, caractere a caractere, ao bloco da seção 2 da decisão (D-T59-07: %d linhas, %d caracteres, sem a cerca de código); primeira linha = a da decisão' % (imp_lit.count('\n'), len(imp_lit)),
-    imp_atual == imp_lit and imp_atual.split('\n')[0].startswith('# regras/importacao_erros.md — importação do arquivo "Exportar meus erros"'), 'SHA-256 %s' % hashlib.sha256(imp_atual.encode('utf-8')).hexdigest()[:12])
-chk('(6) T-59', 'importacao_erros.md cita o contrato v1.2.3 e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)',
-    all(s in imp_atual for s in ('(v1.2.3)', '## 1. Entrada e guarda (privacidade)', '## 2. Validação', '## 3. O que a rodada semanal produz', '## 4. O que nada disto faz')))
+# errata v1.1 (T59_T60_reconciliacao_2026-10-14.md, seção 3.1-D): 5 substituições, cada "antes" com ocorrência única (abortar se != 1); literais escritos aqui e conferidos contra o texto da reconciliação
+E1 = ('— v1, 2026-10-14 — D1 da GBQ (saida/pacote/T59_decisoes_2026-10-14.md)\n', '— v1.1, 2026-10-14 — D1 da GBQ (saida/pacote/T59_decisoes_2026-10-14.md; errata v1.1: saida/pacote/T59_T60_reconciliacao_2026-10-14.md)\n')
+E2 = ('## 2. Validação (gbq-csc, por script `python3 -I`, somente leitura; resultado na seção "Validação" do diagnóstico)\n', '## 2. Validação (gbq-csc, por script `python3 -I`, somente leitura, com o validador mantido em `saida/treino/ferramentas/validar_erros.py`; resultado na seção "Validação" do diagnóstico)\n')
+E3 = ('   - abrir como JSON UTF-8;\n', '   - abrir como JSON UTF-8 (`NaN`, `Infinity` e `-Infinity` não são JSON; um BOM UTF-8 inicial é tolerado e registrado como aviso);\n')
+E4 = ('   - ter todos os campos da tabela do contrato, com os tipos dela.\n', '   - ter todos os campos da tabela do contrato, com os tipos dela, salvo que, em `discursivas`, basta `ne` ser número e `tl` ser número ou null (o valor fora do domínio é tratado no item 5).\n')
+E5_LIN = ('   - **Discursiva.** `ne` que não seja inteiro ≥ 0, ou `tl` que não seja inteiro ≥ 1 (inclusive null), é incoerência daquela discursiva: ela é listada com o motivo, e a autoavaliação dela (`notas`, `ne`, `nota`) fica fora do diagnóstico (3.1, item 7, registra "autoavaliação incoerente"). O `texto` segue para a correção dupla (3.3), e o arquivo não é recusado.\n',
+          '   - **Ordem.** A ordem das listas da tabela D-T59-02 (caderno por `errou` decrescente e depois `id`; `respostasCaderno`, `tentativas` e `saidas` por data não decrescente; `discursivas` por `id`) é conferida. Lista fora de ordem gera aviso, sem recusa e sem tirar nada dos cálculos.\n')
+def reconstroi_v11(v1):
+    t = v1
+    for a, b in (E1, E2, E3, E4):
+        assert t.count(a) == 1, a[:50]
+        t = t.replace(a, b)
+    ln = [l for l in t.split('\n') if l.startswith('5. **Coerência.**')]
+    assert len(ln) == 1 and ln[0].endswith('o restante do arquivo é usado.') and t.count(ln[0] + '\n') == 1
+    return t.replace(ln[0] + '\n', ln[0] + '\n' + E5_LIN[0] + E5_LIN[1])
+imp_lit = reconstroi_v11(imp_v1)
+t5960 = read('saida/pacote/T59_T60_reconciliacao_2026-10-14.md')
+lit_ok = all(x.strip() in t5960 for x in (E1[1].split('— ', 1)[1].strip(), E2[1].strip(), E3[1].strip(), E4[1].strip(), E5_LIN[0].strip(), E5_LIN[1].strip()))
+chk('(6) T-59', 'regras/importacao_erros.md v1 (bloco D-T59-07 de T59_decisoes, SHA-256 b19bc0e4adf9…, 127 linhas) + E-1 a E-5 da reconciliação (5 substituições, cada "antes" com 1 ocorrência; textos conferidos contra T59_T60_reconciliacao_2026-10-14.md, seção 3.1-D)',
+    hashlib.sha256(imp_v1.encode('utf-8')).hexdigest() == 'b19bc0e4adf97e41f721ebb3a854e5fdc4fad05459698e0f6fb6bb763f792f34' and imp_v1.count('\n') == 127 and lit_ok, 'v1: %d linhas; v1.1 reconstruída: %d linhas' % (imp_v1.count('\n'), imp_lit.count('\n')))
+chk('(6) T-59', 'regras/importacao_erros.md v1.1 é igual, caractere a caractere, ao bloco D-T59-07 com E-1 a E-5 aplicadas, reconstruída por script (%d linhas, %d caracteres, sem a cerca de código): 2 linhas a mais, 4 trocadas, as demais idênticas e na mesma ordem; sem BOM nem CR; primeira linha com "v1.1, 2026-10-14"' % (imp_lit.count('\n'), len(imp_lit)),
+    imp_atual == imp_lit and imp_atual.split('\n')[0].startswith('# regras/importacao_erros.md — importação do arquivo "Exportar meus erros"') and ' — v1.1, 2026-10-14 — ' in imp_atual.split('\n')[0]
+    and imp_lit.count('\n') - imp_v1.count('\n') == 2 and '\r' not in imp_atual and not imp_atual.startswith('\ufeff')
+    and [(o[0], o[2] - o[1], o[4] - o[3]) for o in difflib.SequenceMatcher(None, imp_v1.split('\n'), imp_atual.split('\n'), autojunk=False).get_opcodes() if o[0] != 'equal'] == [('replace', 1, 1), ('replace', 1, 1), ('replace', 1, 1), ('replace', 1, 1), ('insert', 0, 2)],
+    'SHA-256 %s' % hashlib.sha256(imp_atual.encode('utf-8')).hexdigest()[:12])
+chk('(6) T-59', 'importacao_erros.md v1.1 cita o contrato v1.2.3, o validador mantido (saida/treino/ferramentas/validar_erros.py) e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)',
+    all(s_ in imp_atual for s_ in ('(v1.2.3)', '`saida/treino/ferramentas/validar_erros.py`', '## 1. Entrada e guarda (privacidade)', '## 2. Validação', '## 3. O que a rodada semanal produz', '## 4. O que nada disto faz')))
 ex_lit = '\n'.join(bloco_apos('### D-T59-04', '```json')) + '\n'
 ex_raw = open(os.path.join(REPO_, 'saida', 'pacote', 'exemplo_erros_v1.json'), 'rb').read().decode('utf-8')
 exo = json.loads(ex_raw)
@@ -517,6 +578,18 @@ import validar_erros as VE
 Rex = VE.valida(ex_raw.encode('utf-8'), P15)
 chk('(6) T-59', 'validador (validar_erros.py) sobre o exemplo: ACEITO, 0 incoerência (D-T59-05), ids fictícios listados como desconhecidos (caderno XX-0001; det XX-0001 e XX-0002; discursivas DX)',
     Rex['veredito'] == 'ACEITO' and not Rex['incoerencias'] and {k: sorted(v['ids']) for k, v in Rex['ids_desconhecidos'].items()} == {'caderno': ['XX-0001'], 'tentativas[].det': ['XX-0001', 'XX-0002'], 'discursivas': ['DX']})
+VM = os.path.join(REPO_, 'saida', 'treino', 'ferramentas', 'validar_erros.py')
+rm = subprocess.run([sys.executable, '-I', VM, os.path.join(REPO_, 'saida', 'pacote', 'exemplo_erros_v1.json'), '--pacote', PAC, '--json'], capture_output=True, text=True)
+Rm = json.loads(rm.stdout)
+chk('(6) T-59', 'validador mantido (saida/treino/ferramentas/validar_erros.py, `python3 -I`) sobre o exemplo: ACEITO (código 0), 0 incoerência, 0 aviso `ordem:`, fora_dos_calculos com as 3 chaves vazias, mesmos ids desconhecidos que o registro',
+    rm.returncode == 0 and Rm['veredito'] == 'ACEITO' and not Rm['incoerencias'] and not [x for x in Rm['avisos'] if x.startswith('ordem:')] and Rm['fora_dos_calculos'] == {'tentativas': [], 'caderno': [], 'discursivas': []} and Rm['ids_desconhecidos'] == Rex['ids_desconhecidos'] and Rm['sha256'] == Rex['sha256'])
+HDV = os.path.dirname(os.path.abspath(__file__))
+man = open(os.path.join(HDV, 'MANIFESTO.md'), encoding='utf-8').read().split('\n')
+mv = [l for l in man if l.startswith('| validar_erros.py |')]; mt = [l for l in man if l.startswith('| validar_erros_teste.py |')]
+chk('(6) T-59', 'registro (D-R59-08): gerador_v1_5/validar_erros.py (19ab9c8b…) e validar_erros_teste.py (33132d5a…) continuam com o SHA-256 da T-61; o MANIFESTO os marca "registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)" com o mesmo SHA; a cópia mantida existe e difere do registro',
+    hashlib.sha256(open(os.path.join(HDV, 'validar_erros.py'), 'rb').read()).hexdigest() == '19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e' and hashlib.sha256(open(os.path.join(HDV, 'validar_erros_teste.py'), 'rb').read()).hexdigest() == '33132d5a9d9aaf7ec4bf645ae57b84eca9c2094abdc70f18d6970465278f0186'
+    and len(mv) == 1 and len(mt) == 1 and '19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e' in mv[0] and '33132d5a9d9aaf7ec4bf645ae57b84eca9c2094abdc70f18d6970465278f0186' in mt[0]
+    and all('registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)' in l for l in (mv[0], mt[0])) and os.path.exists(VM) and open(VM, 'rb').read() != open(os.path.join(HDV, 'validar_erros.py'), 'rb').read())
 gi = open(os.path.join(REPO_, '.gitignore'), 'rb').read().decode('utf-8')
 chk('(6) T-59', '.gitignore da raiz = as 2 linhas da decisão (seção 6, item 1): "# T-59 (D1 da GBQ): dados da candidata — nunca no git" e "/entrada/erros/"', gi == '# T-59 (D1 da GBQ): dados da candidata — nunca no git\n/entrada/erros/\n')
 cg = subprocess.run(['git', '-C', REPO_, 'check-ignore', '-v', 'entrada/erros/x.json'], capture_output=True, text=True)

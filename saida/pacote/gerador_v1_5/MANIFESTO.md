@@ -32,7 +32,7 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | build_pacote.py | 7984 | `0683c0d2cc10a59b929f741f9632469aa8cafb49b2455cd7a9614817284c51e3` | alterado | ativo |
 | common.py | 6178 | `2bd544aa84c84158208747327d7d2707997f7475a5cc293391dbbc9eced57704` | alterado | ativo |
 | conferencias_R1.py | 31123 | `587a8d4212429b2c4917c669106af4cb4864cd811481de6b473828bc6e6cc92e` | igual à v1_4 | histórico (executável; v1.2/R0/R1; lê do git; se rodado grava out/conferencias_R1.json e out/varredura_volatil.json, que não fazem parte do pipeline) |
-| conferencias_v15.py | 59549 | `403052890838f52a225e4a6c91169cd8e8e1d4f94317930ae8e5d9c551fc16cd` | novo | ativo (conferências (0) a (6) da v1.5; 134) |
+| conferencias_v15.py | 72320 | `ce72f3b66560281165ea2d9892bab448fcc842d3ab51004fe1ae86c9bc5bf976` | novo | ativo (conferências (0) a (6) da v1.5; 134) |
 | diff.py | 1751 | `59fef679b240aa9e1ae7895813f4dd7be8251ae06a69921d37874ff843376bfb` | igual à v1_4 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
 | diff2.py | 1547 | `6513c3b66b2b0e09669a8624f77408fe8f4f1ce6f350a391e82558e5262901d0` | igual à v1_4 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
 | edital_p.py | 1183 | `0f7ed100392cdba1c09e1cf2dce107801c2fe8225920a5d501d6fc42bf89423d` | igual à v1_4 | ativo |
@@ -40,18 +40,18 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | estudante_gen.py | 14499 | `68f7edaa4076946010e9ffc5faa733be2fd9e754cb0414ddde653605e057e921` | alterado | ativo |
 | estudante_marcas.py | 9897 | `41cf6eecc05d9d52c5115a383a4a2e44af56502f04d6d81ea0bfa040999c485f` | igual à v1_4 | ativo |
 | f4.py | 2542 | `e0fb812b44b2822c9d5caad8c5018b1b0df5c929e5182368e2434413f3f52727` | igual à v1_4 | ativo |
-| fidelidade_mutacao.py | 3122 | `f82e6e730cd71c984e0bbbaaab7a6e22181d3fae73eed90543d686e818ca531a` | alterado | ativo |
+| fidelidade_mutacao.py | 3647 | `9ec19e96dfdf091df033900a7dccb24ace911a200f97959715626dc81f291c11` | alterado | ativo |
 | gce.py | 5972 | `e007ddaeac3b07f7f47fe7472c1ec6a1d418f731e185f4baaf678e822153212c` | igual à v1_4 | ativo |
 | literais.py | 14182 | `93c64cd58bff76ab3afb8a7429cb3ba2b4d8af7353191e015d8949531b08518b` | igual à v1_4 | ativo |
 | lotes_tab.txt | 912 | `895e4d50479615c6963fcd35c01d3cd57aa8bad3994dec6c08a1a639517d27a2` | igual à v1_4 | ativo |
 | p1.py | 11025 | `5cfc3a55b838d3f02f6b4f95302ba354aa1a036f08fe83d6817a3dc2e2981a5b` | igual à v1_4 | ativo |
-| p2.py | 25680 | `516ecfdba01c83ac46dc7b8dfcb11fecc1d2a236d906deb0b661639aa3427e40` | igual à v1_4 | ativo |
+| p2.py | 26268 | `475cc85ca4fe3a31542deb9db294a7537f06225bce0f3f627e0686c1cb040e1e` | alterado | ativo |
 | peg.py | 4922 | `ee0071445a44c6c043a4e3359299e33aed17ea6da3515aa96f7d656e85115d61` | igual à v1_4 | ativo |
 | probe.py | 441 | `f4eb95e47897fb0026e3943ef1aa7951af0d43590292ea4b7fc13be86f71fc7b` | igual à v1_4 | histórico (executável; v1.2/R0/R1) |
 | refs.py | 2850 | `c5be83cb54abb00aab143f7119a91dbeda7e2939771e7ec663a2eaa906bea7bb` | alterado | ativo |
 | registry.py | 897 | `6664fbc7a4bdb9a997a92def4c824c7cf2c1c6a4d31603cd22e77478c7bae78b` | igual à v1_4 | ativo |
 | relatorio_R1.py | 19839 | `616bbbcc9ff4f5ee976f9b92fe1e3e40cb35919da9c3386fa495335ff0db45ea` | igual à v1_4 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
-| relatorio_v1_5.py | 82386 | `cabded89ed24998a8a3f84403e15a36ee47774cb6e6f9e5d7e186e3ee48cb56d` | novo | ativo (relatório completo gerado pelo gerador, N-3) |
+| relatorio_v1_5.py | 94825 | `3b7a6f806579044f20fe85945c7bd0b6eeb6bb806ce63174d2a6714d3be9a851` | novo | ativo (relatório completo gerado pelo gerador, N-3) |
 | report.py | 15830 | `397ac2117c430da380cfcf7d7ffc758db50192081da398abf04c0daa11092ac9` | igual à v1_4 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
 | report2.py | 44678 | `92c1fb9c6ac8c727831f16d2db5928bddf3f1f66cee3e6dbb87f35c523c08cc3` | igual à v1_4 | não executável; registro da R0/R1 (sai com código 1, sem gravar nada) |
 | resid.py | 481 | `3e43ef78e0c82b3927ed5108facf18e5bc47307d6f2a5a0c266075e06d368082` | igual à v1_4 | histórico (executável; v1.2/R0/R1) |
@@ -59,9 +59,9 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | rodar_tudo.sh | 1120 | `7fcaff01cdbff8cff53baa8828531750e6b1ef9519c8369696a60828b33614d9` | alterado | ativo (runner do pipeline) |
 | sync_check.py | 2225 | `9aa9eb1bbd91e682319aaf04d14d82057e62ca1b787b52b831f98902c09b34a2` | igual à v1_4 | ativo |
 | texts.py | 422 | `c3ca12b7283710222c8baf681738b3d0e462207a30b81167d48e84be77bb0102` | igual à v1_4 | ativo (módulo auxiliar importado por relatorio_v1_5.py e pelos históricos) |
-| validar_erros.py | 18500 | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | novo | ativo (T-59: validador do arquivo `camara2026.erros` v1; só biblioteca-padrão, somente leitura; roda com `python3 -I`) |
-| validar_erros_teste.py | 7993 | `33132d5a9d9aaf7ec4bf645ae57b84eca9c2094abdc70f18d6970465278f0186` | novo | ativo (T-59: teste do validador; grava casos fictícios em `out/casos_erros/`) |
-| validate.py | 38840 | `05c8ee1982eda527ed2d718a50e224dfcf4765ea9c607d3907a5d9fdcfdc15c5` | alterado | ativo |
+| validar_erros.py | 18500 | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | novo | registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08) — validador do arquivo `camara2026.erros` v1 como foi gerado na T-61; não muda; só biblioteca-padrão, somente leitura; roda com `python3 -I` |
+| validar_erros_teste.py | 7993 | `33132d5a9d9aaf7ec4bf645ae57b84eca9c2094abdc70f18d6970465278f0186` | novo | registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08) — teste do validador como foi gerado na T-61 (passo 8 do pipeline); não muda; grava casos fictícios em `out/casos_erros/` |
+| validate.py | 41864 | `772eb7495b9549db7d9d525bd99034eb4d9ed20cd8422615c1410b0165f633c3` | alterado | ativo |
 | out/casos_erros/importados_exportadoEm.json | 71 | `ca039c0b82972681b9902b442e44867d80422f9b29b1c0ba8617e17abd25ad71` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
 | out/casos_erros/importados_sha.json | 134 | `ea47a0919f69bded8a0115ab5d560b39a3deeed0319147e4e84b380261a5d8f7` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
 | out/casos_erros/incoerente_D.json | 1383 | `463a23847f577c0c5f6014bc6400cfed5c1cf41e480462faaab98a2de885ec22` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
@@ -70,13 +70,13 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | out/casos_erros/invalido_C2_formato_errado.json | 1380 | `7a1540e0090f683a06902633167559b82660b066a51e61d94340e667b297eff9` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
 | out/casos_erros/invalido_C_json_truncado.json | 588 | `f3fa562491ffc9597ca41671a149f7bc0f739bdcd966743f05087a4eb15b4588` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
 | out/casos_erros/valido_ids_reais.json | 1594 | `adc474d83b47552a341cca1b7ae3fbdb8eaa47ebe51d2b8a32e38cd9fab24e98` | gerado | saída (T-59: caso do teste do validador; dados fictícios) |
-| out/conferencias_stdout.txt | 21139 | `b59515ba310910549c0c17068ed52c66ec60a1c50a4b0be6e349171a2578c9f0` | gerado | saída |
-| out/conferencias_v15.json | 24136 | `4bf64eed8bf490ece79766a5c48117420e21b1118c1f02d6f84da60386566e52` | gerado | saída |
-| out/conferencias_v15.txt | 21139 | `b59515ba310910549c0c17068ed52c66ec60a1c50a4b0be6e349171a2578c9f0` | gerado | saída |
+| out/conferencias_stdout.txt | 24222 | `1798b720c96b956dad46e56c819e96e0b42e3e05ca3cec38a9a63fa2d81cb06a` | gerado | saída |
+| out/conferencias_v15.json | 27388 | `f9e1b865e258a4b04ef20b7053cfc29a3af9545827b76ad20c7e690b2bdba448` | gerado | saída |
+| out/conferencias_v15.txt | 24222 | `1798b720c96b956dad46e56c819e96e0b42e3e05ca3cec38a9a63fa2d81cb06a` | gerado | saída |
 | out/estudante/BANCO_gabarito.md | 9340 | `f7d9bb470356e98962227bc7d19dbd6de2eff053aa718df002b26d6f2b4cb5ed` | gerado | saída (edição do estudante gerada) |
 | out/estudante/BANCO_itens.md | 76551 | `879e1769c76c3bc655510a18a8fd66f49abb6dec52d7e3030adf93132a226c2c` | gerado | saída (edição do estudante gerada) |
 | out/estudante/DISCURSIVAS.md | 6674 | `075b68c83526dab71905bc1370cf939a4d5135c7654d4d4bdc6b5d4374705f9a` | gerado | saída (edição do estudante gerada) |
-| out/estudante/DISCURSIVAS_padrao.md | 31772 | `884abe2c1675c44e9dedfa90a0141568eb9844145379501d5d969c9eb16abe20` | gerado | saída (edição do estudante gerada) |
+| out/estudante/DISCURSIVAS_padrao.md | 31915 | `f14dc1c1588c6a47744b466dd2836a60d870bdcd791f53af8e4a48ce52e77c8e` | gerado | saída (edição do estudante gerada) |
 | out/estudante/L1C_estudo.md | 3684 | `3dccee77e4a1eb4df12e0456dae9079843b49aa99a9f7789bd8025781f44be91` | gerado | saída (edição do estudante gerada) |
 | out/estudante/L1C_gabarito.md | 1998 | `578698c50274793480ffd737559cc36cf3aa6ba15531c5966e08503b20541cf3` | gerado | saída (edição do estudante gerada) |
 | out/estudante/L1C_itens.md | 2549 | `17c3920237a22564346db61b81f05e75cb8b103fd16d08999555a8473090b12c` | gerado | saída (edição do estudante gerada) |
@@ -118,31 +118,32 @@ Não executáveis, mantidos **sem alteração** (idênticos, byte a byte, aos de
 | out/estudante/SIM-2_gabarito.md | 9310 | `e298f570eacb7f5a17465ee2a2ac704cdc597e88513c41b8193e79af440387c6` | gerado | saída (edição do estudante gerada) |
 | out/estudante_contagem.json | 6142 | `e22b3101580c2c3735d5398d28c7f6f16b6ce75530c180260d02573e43289d4b` | gerado | saída |
 | out/estudante_fidelidade.json | 502 | `0c0ae5b09257126f3e5a9098815dc3ba034304408abf6a3be85ab3f4461f12b2` | gerado | saída |
-| out/fidelidade_mutacao.json | 1014 | `9091675073402b4c574b790fd23e4bf4cf19aafabaa83457db4a584ba3cb2eef` | gerado | saída |
+| out/fidelidade_mutacao.json | 1148 | `ece3a3dd8dab30d2c77e2b0d53d2e7cad0b07c169f98c07783c1371280ea8931` | gerado | saída |
 | out/fidelidade_stdout.txt | 2185 | `1c0b9fe154b89191aed9e5b56277ff51d80422dbf10dcebd5941118b8d1ff27c` | gerado | saída |
 | out/gen_stdout.txt | 1498 | `4ff18db1e885114760f141ae98ee5af6476ed5741d1260360f3bafee28c4e2a7` | gerado | saída |
-| out/mutacao_stdout.txt | 848 | `d1463cedd06c27cb55ded67c8eff056fdc50d1f959b3fcc463e770be449ce6aa` | gerado | saída |
-| out/pacote.json | 621744 | `d6b8a5beae074851c1ebb4799aa01e58645e220c6e727d0f51eab9e294678289` | gerado | saída |
-| out/pacote_relatorio_2026-10-14_v1_5.md | 132070 | `06db2d9475f47e409d8f49f9940198338339f8ac6ae3ea3796464a8610c40ecb` | gerado | saída |
-| out/relatorio_stdout.txt | 11 | `ca26ab1aa9f53414521d87346a5b4a6197d4ccd957089ad6f544a6de76005597` | gerado | saída |
-| out/stats.json | 104174 | `7c69e23c88b45509105d5674ab24586005b6e7d98fff5737d6de4de3212fb6e4` | gerado | saída |
+| out/mutacao_stdout.txt | 958 | `b473bc91b1748f595b1240389cccd9cd70291ca3fbdc185a663faf0ba35e7332` | gerado | saída |
+| out/pacote.json | 621887 | `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3` | gerado | saída |
+| out/pacote_relatorio_2026-10-14_v1_5.md | 148566 | `912f0574deb39f3690c0440532201d10efb7b9de11c9faf99d950a0f2806eb2d` | gerado | saída |
+| out/relatorio_stdout.txt | 12 | `b478829a78e5797d140db0310e1b33d25559196517b8b018c163290e32b78e46` | gerado | saída |
+| out/stats.json | 104174 | `0797a1f3be5ed54403f70687d5b3fdf05ce8dc3dde380c2b72b82059b5a39b5e` | gerado | saída |
 | out/sync_check.json | 1931 | `ab32033d7957c0ee57d6a01eeb0ffaf3f33f97d8271d5e6496cfaddcc1cc070f` | gerado | saída |
 | out/sync_check.txt | 2243 | `f5f193737b9dbee88ce40544156bd77f031e1d8bb26aa77cec1c9f67433921b1` | gerado | saída |
 | out/sync_stdout.txt | 2243 | `f5f193737b9dbee88ce40544156bd77f031e1d8bb26aa77cec1c9f67433921b1` | gerado | saída |
 | out/validar_erros_stdout.txt | 1578 | `b154f9f9b248ac3f3aecba63a464b1eb70e8524a4969eadf27c5477b3cc813c0` | gerado | saída |
-| out/validate.json | 15583 | `7665f8559790a6e2174b56850fbc54e0d05e6a5168bf38ef8abf43b4a31ce6bd` | gerado | saída |
-| out/validate_stdout.txt | 11508 | `e1072d0a6704ae03a1fc9e2890dade68caccece10a646f645467947b3804bc2c` | gerado | saída |
+| out/validate.json | 16582 | `5ef57c33d5b2d63e4c3420c0b5b6cdb2b5300545e3c3b82dd8c9fe0fe2f1d5e9` | gerado | saída |
+| out/validate_stdout.txt | 12341 | `3cc274d7eb86e57ca432507ca859abe629c12cacf671e712e65c3eac3a86684d` | gerado | saída |
 | out/varredura_volatil_v15.json | 278 | `fc915993c98ad2a7b85545132dd81ca26041b680d3e958f1b4fc68baf72e8705` | gerado | saída |
 
-Total: 105 arquivos listados (34 de código/auxiliares e 71 em `out/`), mais este `MANIFESTO.md` (não tem hash próprio). Código frente à v1_4: 22 iguais, 8 alterados, 4 novos (`conferencias_v15.py`, `relatorio_v1_5.py`, `validar_erros.py`, `validar_erros_teste.py`). Manifesto ordenado da edição `out/estudante/` (SHA-256 das linhas "<sha256>  <nome>"): ver o relatório, seção 13.2 (v1.4 `562c51398d1e64f8` → v1.5 `0f97d689316a8cf9`). `out/estudante/` e `saida/estudante/` são idênticos (diff recursivo); `out/pacote.json` e `saida/pacote/pacote.json` têm o mesmo SHA-256; `out/pacote_relatorio_2026-10-14_v1_5.md` e `saida/pacote/pacote_relatorio_2026-10-14_v1_5.md` também.
+Total: 105 arquivos listados (34 de código/auxiliares e 71 em `out/`), mais este `MANIFESTO.md` (não tem hash próprio). Código frente à v1_4: 21 iguais, 9 alterados (a regeração R1 acrescentou `p2.py`), 4 novos (`conferencias_v15.py`, `relatorio_v1_5.py`, `validar_erros.py`, `validar_erros_teste.py`; os dois últimos são agora "registro"). Manifesto ordenado da edição `out/estudante/` (SHA-256 das linhas "<sha256>  <nome>"): ver o relatório, seção 13.2 (v1.4 `562c51398d1e64f8` → v1.5 final `656e60e5085f3622`; primeira passagem `0f97d689316a8cf9`). A tabela acima é a da **regeração R1** (14/10/2026); a da primeira passagem da T-61 está no histórico do git. `out/estudante/` e `saida/estudante/` são idênticos (diff recursivo); `out/pacote.json` e `saida/pacote/pacote.json` têm o mesmo SHA-256; `out/pacote_relatorio_2026-10-14_v1_5.md` e `saida/pacote/pacote_relatorio_2026-10-14_v1_5.md` também.
 
 ## Mudanças frente à v1_4
 
 - Novos: `conferencias_v15.py` (conferências (0) diff v1.4 → v1.5 do pacote, (1) diff acumulado v1.3 → v1.5, (2) contrato v1.2.2 → v1.2.3, (3) edição v1.4 → v1.5 e, acumulado, reconstrução 43/43 e testes T54-3 a T54-8, (4) não regressão, (5) contagens, (6) artefatos da T-59; 134 conferências), `relatorio_v1_5.py` (relatório completo gerado pelo gerador, N-3), `validar_erros.py` e `validar_erros_teste.py` (T-59 d: validador do arquivo "Exportar meus erros" e seu teste).
 - Alterados (só o necessário): `refs.py` (referência da v1.4: `C_V14`, `v14()`), `common.py` (só o comentário do caminho), `build_pacote.py` (`nome` "Câmara 2026 — pacote F4 (v1.5)" e `geradoEm` "2026-10-14"), `estudante_gen.py` (README v1.5), `estudante_fidelidade.py` (versão esperada no README), `validate.py` (nome e data esperados), `fidelidade_mutacao.py` (só o cabeçalho), `rodar_tudo.sh` (nomes dos scripts da v1.5 e o passo 8).
+- **Regeração R1 (T59_T60_reconciliacao seção 5 item 3; D-T64-V15; D1-T64-5 da GCE):** `p2.py` (a R6, antes escrita no código nas linhas 392–393, passa a ser lida de `saida/gce/GCE_Lote3_padroes_GCE.md`: linhas da decisão `R6. …` até a linha em branco, unidas por espaço, sem recuo e sem o rótulo; achado O-4 do QA da gce-cqfp), `validate.py` (D3, D4 e D5 = v1.1 com uma troca cada + estado esperado da GCE; 116 verificações), `conferencias_v15.py` (141 conferências: (0) com 5 diferenças e reconstrução byte a byte por 5 trocas, (1) e (3) com D3, D4, D5 e as 3 linhas de `DISCURSIVAS_padrao.md`, (6) com a regra `importacao_erros.md` v1.1 reconstruída por script e a conferência do validador mantido e da marca "registro" abaixo), `fidelidade_mutacao.py` (13 mutações: +2 sobre as notas da T-64) e `relatorio_v1_5.py` (estado final nas seções 1 a 13 e seção 14 nova). `validar_erros.py` e `validar_erros_teste.py` aqui **não mudam** (SHA-256 `19ab9c8b…` e `33132d5a…`) e ficam marcados "registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)"; `report.py` (linha 91, registro da R0/R1) também não muda. `rodar_tudo.sh` não mudou. Pacote: `d6b8a5be…` (primeira passagem) → `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3` (621887 bytes; v1.4: 621744).
 - Fora do diretório (não copiados): `__pycache__/` (não gerado), `out/` da v1_4 (regerado), `MANIFESTO.md`, `conferencias_v14.py` e `relatorio_v1_4.py`.
 
-## Conferência (f): regeração byte a byte numa cópia limpa
+## Conferência (f): regeração byte a byte numa cópia limpa (primeira passagem da T-61; histórico)
 
 Método: `git clone` do repositório (HEAD `a4e2c44`) em pasta nova do scratchpad, mais a sobreposição do que a ocorrência cria fora do git (`regras/pacote_contrato.md` v1.2.3, `regras/importacao_erros.md`, `.gitignore`, `saida/pacote/contrato_v1_2_3_2026-10-14.md`, `saida/pacote/exemplo_erros_v1.json` e as fontes de `gerador_v1_5/` sem `out/` e sem `MANIFESTO.md`), execução de `rodar_tudo.sh` a partir de outro diretório de trabalho e comparação de `out/` arquivo a arquivo (`filecmp`, byte a byte).
 
@@ -153,6 +154,17 @@ Método: `git clone` do repositório (HEAD `a4e2c44`) em pasta nova do scratchpa
 
 Resultado: **as duas cópias regeram `out/` idêntico ao original**. Inclui `pacote.json` (SHA-256 `d6b8a5beae074851c1ebb4799aa01e58645e220c6e727d0f51eab9e294678289`), os 43 arquivos de `out/estudante/`, o relatório, os casos do teste do validador e todos os `*_stdout.txt`.
 
+## Conferência (f) da regeração R1: regeração byte a byte em duas cópias limpas
+
+Método (o mesmo): `git clone` do repositório (HEAD `3acbff3`) em duas pastas novas do scratchpad, mais a sobreposição da árvore de trabalho da ocorrência (tudo o que não está no git ou difere dele: `regras/importacao_erros.md` v1.1, `saida/treino/`, as fontes de `gerador_v1_5/` com este `MANIFESTO.md`, `saida/pacote/pacote.json`, `saida/estudante/`, o relatório; sem `.git` e sem `gerador_v1_5/out/`), execução de `rodar_tudo.sh` (as duas cópias em paralelo) a partir de outro diretório de trabalho e comparação de `out/` arquivo a arquivo (`filecmp`, byte a byte).
+
+| Cópia | cwd | PYTHONHASHSEED | arquivos em `out/` (original / cópia) | idênticos byte a byte | diferenças de nome |
+|---|---|---|---|---|---|
+| A | `/tmp` | 99 | 71 / 71 | 71 | nenhuma |
+| B | `/var` | 2026 | 71 / 71 | 71 | nenhuma |
+
+Resultado: **as duas cópias regeram `out/` idêntico ao original (`PYTHONHASHSEED` 7)**, inclusive `pacote.json` (SHA-256 `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3`), os 43 arquivos de `out/estudante/`, o relatório (SHA-256 `912f0574deb39f3690c0440532201d10efb7b9de11c9faf99d950a0f2806eb2d`), os casos do teste do validador-registro e todos os `*_stdout.txt`. Nas três execuções: `validate.py` 116 verificações, 0 falhas; `conferencias_v15.py` 141 conferências, 0 falhas; `fidelidade_mutacao.py` 13 mutações, todas detectadas (258 diferenças); `estudante_fidelidade.py` 5793 comparações, 0 diferenças; `sync_check.py` TUDO OK. Promoção (cópia, depois das conferências com 0 falhas): `out/pacote.json` = `saida/pacote/pacote.json`; `out/estudante/` = `saida/estudante/` (diff recursivo vazio); `out/pacote_relatorio_2026-10-14_v1_5.md` = `saida/pacote/pacote_relatorio_2026-10-14_v1_5.md`. `gerador_v1_4/` sem alteração (`git status` vazio).
+
 ## Determinismo
 
-O pipeline completo foi executado a partir de `out/` vazio em 3 execuções independentes (o original, mais as cópias limpas acima, em pastas e com `PYTHONHASHSEED` diferentes: original 7); `out/pacote.json`, `out/estudante/` e o relatório têm os mesmos SHA-256 em todas. Nenhum script lê data ou hora do sistema, nem o `HEAD` do git (o relatório não imprime o HEAD).
+O pipeline completo foi executado a partir de `out/` vazio em 3 execuções independentes na primeira passagem e de novo em 3 na regeração R1 (o original, mais as cópias limpas acima, em pastas e com `PYTHONHASHSEED` diferentes: original 7); `out/pacote.json`, `out/estudante/` e o relatório têm os mesmos SHA-256 em todas. Nenhum script lê data ou hora do sistema, nem o `HEAD` do git (o relatório não imprime o HEAD).

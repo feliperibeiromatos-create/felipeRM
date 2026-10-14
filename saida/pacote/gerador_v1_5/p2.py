@@ -389,8 +389,14 @@ def discursivas_p2(lotes):
     ipt = find_idx(pad3, lambda l: l.startswith('PONTOS PARA A RECONCILIAÇÃO'))
     p3e = '\n'.join(trim_blank(pad3[ie + 2:ifp - 1]))
     p3f = '\n'.join(trim_blank(pad3[ifp + 2:ipt]))
-    r6 = ('Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. '
-          'Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.')
+    # R6: lida do arquivo canônico (T-64, D-T64-V15, O-4 do QA da gce-cqfp; D1-T64-5 da GCE): linhas da decisão R6 até a linha em branco, unidas por espaço, sem recuo e sem o rótulo "R6. "
+    i6 = find_idx(pad3, lambda l: l.startswith('R6. '))
+    j6 = next(k for k in range(i6, len(pad3)) if not pad3[k].strip())
+    r6 = ' '.join(l.strip() for l in pad3[i6:j6])
+    assert r6.startswith('R6. ')
+    r6 = r6[len('R6. '):]
+    assert r6.startswith('Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: ') and r6.endswith('O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.')
+    assert 'questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d).' in r6 and r6.count('\n') == 0 and '  ' not in r6, r6
     # T-27 (3): anexo literal das Notas R2-R4 (D1 GBQ, pacote_reconciliacao_2026-10-10.md, seção 2(e))
     i2 = find_idx(pad3, lambda l: l.startswith('R2. '))
     i3 = find_idx(pad3, lambda l: l.startswith('R3. '))

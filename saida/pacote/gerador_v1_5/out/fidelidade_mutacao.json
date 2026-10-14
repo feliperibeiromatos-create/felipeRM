@@ -1,5 +1,5 @@
 {
- "mutacoes": 11,
+ "mutacoes": 13,
  "arquivos_mutados": [
   "BANCO_gabarito.md",
   "DISCURSIVAS_padrao.md",
@@ -13,7 +13,7 @@
   "L6B_gabarito.md",
   "SIM-1_gabarito.md"
  ],
- "diferencas_detectadas": 255,
+ "diferencas_detectadas": 258,
  "por_mutacao": [
   {
    "arquivo": "L1_itens.md",
@@ -58,6 +58,14 @@
   {
    "arquivo": "DISCURSIVAS_padrao.md",
    "diferencas": 2
+  },
+  {
+   "arquivo": "DISCURSIVAS_padrao.md",
+   "diferencas": 2
+  },
+  {
+   "arquivo": "DISCURSIVAS_padrao.md",
+   "diferencas": 1
   }
  ],
  "todas_detectadas": true

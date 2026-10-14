@@ -9,13 +9,19 @@
   "BASE",
   "v1.3 (git 9622604) tem SHA-256 fdcb7afdb4fb449229c6d530e877d839f8d334cd9667731e1b7222c9c7fb0eca, 620956 bytes, e a edição v1.3 tem 43 arquivos com manifesto ordenado 6a60f28116d9ec35",
   true,
-  "v1.3 fdcb7afdb4fb | v1.5 d6b8a5beae07"
+  "v1.3 fdcb7afdb4fb | v1.5 b4bc65c7c582"
+ ],
+ [
+  "(0) T-64",
+  "os literais da T-64 conferem com os arquivos de padrões: Lote 2 (f), linha da nota = \"Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.\" (1 linha, antes de \"FIM DOS PADRÕES\"); Lote 3, R6 (linhas 28–31, unidas por espaço, sem recuo e sem o rótulo \"R6. \") = a R6 corrigida",
+  true,
+  "Lote 2 linha 159; Lote 3 R6 linhas 28–31"
  ],
  [
   "(0) DIFF v1.4->v1.5",
-  "diff estrutural v1.4 -> v1.5 do pacote: exatamente 2 diferenças, `$.nome` e `$.geradoEm`; qualquer outra = falha (D-T59-10, item 1)",
+  "diff estrutural v1.4 -> v1.5 do pacote: exatamente 5 diferenças, `$.nome`, `$.geradoEm` e o `padrao` de `$.discursivas[2]` (D3), `[3]` (D4) e `[4]` (D5); qualquer outra = falha (D-T59-10, item 1 + D-T64-V15)",
   true,
-  "diferenças: [('.geradoEm', '2026-10-13', '2026-10-14'), ('.nome', 'Câmara 2026 — pacote F4 (v1.4)', 'Câmara 2026 — pacote F4 (v1.5)')]"
+  "diferenças: ['.geradoEm', '.nome', '.discursivas[2].padrao', '.discursivas[3].padrao', '.discursivas[4].padrao']"
  ],
  [
   "(0) DIFF v1.4->v1.5",
@@ -25,21 +31,33 @@
  ],
  [
   "(0) DIFF v1.4->v1.5",
-  "byte a byte: trocando de volta só as 2 linhas (`geradoEm`, `nome`) a v1.5 vira a v1.4 (621744 bytes, mesmo tamanho); 2 linhas diferentes (as duas, linhas [3, 4]); serialização json.dumps(indent=1, ensure_ascii=False) + \"\\n\"",
+  "byte a byte: aplicando à v1.4 só as 5 trocas de texto (`geradoEm`, `nome`, a nota da peça em D3 [1x] e a R6 em D4 e D5 [2x]) obtém-se a v1.5 (621887 bytes; v1.4: 621744); 5 linhas diferentes (linhas [3, 4, 7539, 7613, 7680] do JSON: as duas de cabeçalho e as de `padrao` de D3, D4 e D5); serialização json.dumps(indent=1, ensure_ascii=False) + \"\\n\"",
   true,
   ""
  ],
  [
   "(0) DIFF v1.4->v1.5",
-  "itens (286), simulados (4), lotes (10), discursivas (5) e edital (47) idênticos aos da v1.4",
+  "D3: padrao v1.5 = padrao v1.4 com UMA troca (a linha \"Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.\" -> \"Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.\"); D4 e D5: padrao v1.5 = padrao v1.4 com UMA troca (a R6 antiga -> a R6 de GCE_Lote3_padroes_GCE.md); D1 e D2 idênticas; comando, aspectos, quesitos, tipo e id das 5 idênticos",
+  true,
+  ""
+ ],
+ [
+  "(0) DIFF v1.4->v1.5",
+  "estado esperado da GCE (D1-T64-5) em `discursivas[*].padrao`: \"NQ = NC − 3 × NE ÷ TL\" em D1, D4 e D5 (3); \"NPT = NC − 6 × NE ÷ TL\" em D3, D4 e D5 (3); \"NQ = NC\" em D3: 0; D2 sem nota de fórmula; \"9.8.5.1, d\" com NQ em D3: 0",
+  true,
+  ""
+ ],
+ [
+  "(0) DIFF v1.4->v1.5",
+  "itens (286), simulados (4), lotes (10) e edital (47) idênticos aos da v1.4; discursivas (5): D1 e D2 idênticas e D3 a D5 só em `padrao` (acima)",
   true,
   ""
  ],
  [
   "(1) DIFF",
-  "v1.3 -> v1.5 (acumulado) do pacote: só nome (valor), geradoEm (valor: 2026-10-13 -> 2026-10-14), `id` em 72 pares (acrescentado), padrao da D5 (valor) e curso do L3 (valor); qualquer outra diferença = falha",
+  "v1.3 -> v1.5 (acumulado) do pacote: só nome (valor), geradoEm (valor: 2026-10-13 -> 2026-10-14), `id` em 72 pares (acrescentado), padrao da D3, da D4 e da D5 (valor) e curso do L3 (valor); qualquer outra diferença = falha",
   true,
-  "diferenças: 76 (1 nome + 1 geradoEm + 72 id + 1 D5 + 1 curso L3)"
+  "diferenças: 78 (1 nome + 1 geradoEm + 72 id + 3 padrao D3/D4/D5 + 1 curso L3)"
  ],
  [
   "(1) DIFF",
@@ -79,13 +97,13 @@
  ],
  [
   "(1) DIFF",
-  "D5: padrao v1.4 = padrao v1.3 sem o trecho literal da nota R2 (linhas 14–20 de GCE_Lote3_padroes_GCE.md, 7 linhas) e com o rótulo \"Notas de correção (GCE, R3–R4)\"; anexo v1.4 = linhas 21–23 literais; comando, aspectos e quesitos da D5 iguais",
+  "D5: padrao v1.5 = padrao v1.3 (com a R6 trocada pela da T-64) sem o trecho literal da nota R2 (linhas 14–20 de GCE_Lote3_padroes_GCE.md, 7 linhas) e com o rótulo \"Notas de correção (GCE, R3–R4)\"; anexo v1.4 = linhas 21–23 literais; comando, aspectos e quesitos da D5 iguais",
   true,
   ""
  ],
  [
   "(1) DIFF",
-  "D4 inalterada: padrao com o anexo R2–R4 (linhas 14–23 literais) e rótulo \"Notas de correção (GCE, R2–R4)\"; D1, D2, D3 também idênticas",
+  "D4: igual à da v1.3 salvo a troca da R6 (T-64); padrao com o anexo R2–R4 (linhas 14–23 literais) e rótulo \"Notas de correção (GCE, R2–R4)\"; D1 e D2 idênticas; D3 igual à da v1.3 salvo a troca da nota da peça (T-64)",
   true,
   ""
  ],
@@ -139,9 +157,15 @@
  ],
  [
   "(3) EDIÇÃO v1.4->v1.5",
-  "mesmos 43 nomes de arquivo; 42 arquivos idênticos byte a byte aos da v1.4; só `README.md` difere",
+  "mesmos 43 nomes de arquivo; 41 arquivos idênticos byte a byte aos da v1.4; só `README.md` (versão e data) e `DISCURSIVAS_padrao.md` (as 3 notas da T-64) diferem",
   true,
-  "['README.md']"
+  "['DISCURSIVAS_padrao.md', 'README.md']"
+ ],
+ [
+  "(3) EDIÇÃO v1.4->v1.5",
+  "DISCURSIVAS_padrao.md: exatamente 3 linhas trocadas e mais nenhuma (321 = nota da peça da D3; 404 = R6 da D4; 504 = R6 da D5), com o texto da T-64 literal; mesmo número de linhas; a linha 99 (D1, NQ) não muda",
+  true,
+  "[('replace', 320, 321, 320, 321), ('replace', 403, 404, 403, 404), ('replace', 503, 504, 503, 504)]"
  ],
  [
   "(3) EDIÇÃO v1.4->v1.5",
@@ -151,7 +175,7 @@
  ],
  [
   "(3) EDIÇÃO v1.4->v1.5",
-  "manifesto ordenado da edição: v1.4 562c51398d1e64f8… -> v1.5 0f97d689316a8cf9…",
+  "manifesto ordenado da edição: v1.4 562c51398d1e64f8… -> v1.5 656e60e5085f3622…",
   true,
   ""
  ],
@@ -169,15 +193,15 @@
  ],
  [
   "(3) EDIÇÃO",
-  "reconstrução exata: aplicando à v1.3 SÓ as operações da LISTA (pares com os separadores do canônico e `id`; 2 linhas do quadro do L1; rótulo \"Nota:\"; 6B-06; legendas no SIM-1_gabarito; 7 linhas da D5; L3 \"que se possa afirmar\"; README) o resultado é igual à v1.4 em 43/43 arquivos",
+  "reconstrução exata: aplicando à v1.3 SÓ as operações da LISTA (pares com os separadores do canônico e `id`; 2 linhas do quadro do L1; rótulo \"Nota:\"; 6B-06; legendas no SIM-1_gabarito; 7 linhas da D5; L3 \"que se possa afirmar\"; README) e as 3 notas da T-64 o resultado é igual à v1.5 em 43/43 arquivos",
   true,
   "divergentes: []"
  ],
  [
   "(3) EDIÇÃO",
-  "linhas alteradas por arquivo (v1.3 -> v1.5): pares 139 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18) + L1 quadro 2 + L3 curso 1; nota 8; 6B-06 1; SIM-1_gabarito +4; D5 -7; README 2 (versão e data; total 164)",
+  "linhas alteradas por arquivo (v1.3 -> v1.5): pares 139 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18) + L1 quadro 2 + L3 curso 1; nota 8; 6B-06 1; SIM-1_gabarito +4; D5 -7 e 3 notas da T-64 trocadas; README 2 (versão e data; total 167)",
   true,
-  "{'BANCO_gabarito.md': 2, 'BANCO_itens.md': 2, 'DISCURSIVAS_padrao.md': 7, 'L1_estudo.md': 19, 'L2_estudo.md': 22, 'L3_estudo.md': 29, 'L4_estudo.md': 20, 'L5_estudo.md': 15, 'L6A_estudo.md': 19, 'L6B_estudo.md': 18, 'L6B_gabarito.md': 1, 'README.md': 2, 'SIM-0_folha.md': 2, 'SIM-0_gabarito.md': 2, 'SIM-1_gabarito.md': 4}"
+  "{'BANCO_gabarito.md': 2, 'BANCO_itens.md': 2, 'DISCURSIVAS_padrao.md': 10, 'L1_estudo.md': 19, 'L2_estudo.md': 22, 'L3_estudo.md': 29, 'L4_estudo.md': 20, 'L5_estudo.md': 15, 'L6A_estudo.md': 19, 'L6B_estudo.md': 18, 'L6B_gabarito.md': 1, 'README.md': 2, 'SIM-0_folha.md': 2, 'SIM-0_gabarito.md': 2, 'SIM-1_gabarito.md': 4}"
  ],
  [
   "(3) T54-3",
@@ -241,9 +265,9 @@
  ],
  [
   "(3) T54-8a",
-  "DISCURSIVAS_padrao.md: só saem as 7 linhas da nota R2 da D5 (507–513 da v1.3); D1 a D4 e o resto da D5 idênticos; a D4 mantém as 7 linhas (407–413); \"Notas de correção\" da D5 continua (R3 e R4)",
+  "DISCURSIVAS_padrao.md (v1.3 -> v1.5): saem as 7 linhas da nota R2 da D5 (507–513 da v1.3) e mudam as 3 notas da T-64 (321, 404 e 504; ver acima); D1, D2 e o resto de D3 a D5 idênticos; a D4 mantém as 7 linhas (407–413); \"Notas de correção\" da D5 continua (R3 e R4)",
   true,
-  "[('delete', 506, 513, 506, 506)]"
+  "[('replace', 320, 321, 320, 321), ('replace', 403, 404, 403, 404), ('replace', 503, 504, 503, 504), ('delete', 506, 513, 506, 506)]"
  ],
  [
   "(3) T54-8b",
@@ -763,13 +787,19 @@
  ],
  [
   "(6) T-59",
-  "regras/importacao_erros.md é igual, caractere a caractere, ao bloco da seção 2 da decisão (D-T59-07: 127 linhas, 11023 caracteres, sem a cerca de código); primeira linha = a da decisão",
+  "regras/importacao_erros.md v1 (bloco D-T59-07 de T59_decisoes, SHA-256 b19bc0e4adf9…, 127 linhas) + E-1 a E-5 da reconciliação (5 substituições, cada \"antes\" com 1 ocorrência; textos conferidos contra T59_T60_reconciliacao_2026-10-14.md, seção 3.1-D)",
   true,
-  "SHA-256 b19bc0e4adf9"
+  "v1: 127 linhas; v1.1 reconstruída: 129 linhas"
  ],
  [
   "(6) T-59",
-  "importacao_erros.md cita o contrato v1.2.3 e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)",
+  "regras/importacao_erros.md v1.1 é igual, caractere a caractere, ao bloco D-T59-07 com E-1 a E-5 aplicadas, reconstruída por script (129 linhas, 12033 caracteres, sem a cerca de código): 2 linhas a mais, 4 trocadas, as demais idênticas e na mesma ordem; sem BOM nem CR; primeira linha com \"v1.1, 2026-10-14\"",
+  true,
+  "SHA-256 4bc7098a8468"
+ ],
+ [
+  "(6) T-59",
+  "importacao_erros.md v1.1 cita o contrato v1.2.3, o validador mantido (saida/treino/ferramentas/validar_erros.py) e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)",
   true,
   ""
  ],
@@ -782,6 +812,18 @@
  [
   "(6) T-59",
   "validador (validar_erros.py) sobre o exemplo: ACEITO, 0 incoerência (D-T59-05), ids fictícios listados como desconhecidos (caderno XX-0001; det XX-0001 e XX-0002; discursivas DX)",
+  true,
+  ""
+ ],
+ [
+  "(6) T-59",
+  "validador mantido (saida/treino/ferramentas/validar_erros.py, `python3 -I`) sobre o exemplo: ACEITO (código 0), 0 incoerência, 0 aviso `ordem:`, fora_dos_calculos com as 3 chaves vazias, mesmos ids desconhecidos que o registro",
+  true,
+  ""
+ ],
+ [
+  "(6) T-59",
+  "registro (D-R59-08): gerador_v1_5/validar_erros.py (19ab9c8b…) e validar_erros_teste.py (33132d5a…) continuam com o SHA-256 da T-61; o MANIFESTO os marca \"registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)\" com o mesmo SHA; a cópia mantida existe e difere do registro",
   true,
   ""
  ],

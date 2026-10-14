@@ -431,7 +431,27 @@
  },
  {
   "extra": "",
-  "n": "discursivas: 5 (D1–D5); D1 a D4 idênticas às da v1.1; D5 igual à da v1.1 exceto o anexo de notas: sem a R2 (trecho literal removido) e com o rótulo \"Notas de correção (GCE, R3–R4)\" (D1-T54-a da GCE); comando, aspectos e quesitos da D5 iguais",
+  "n": "discursivas: 5 (D1–D5); D1 e D2 idênticas às da v1.1; D3, D4 e D5 iguais às da v1.1 só no campo `padrao` quanto às demais chaves (comando, aspectos, quesitos, tipo, id)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas (T-64): D3 = D3 da v1.1 com UMA troca, a linha da nota da peça \"Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.\" -> \"Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.\" (literal de GCE_Lote2_padroes_GCE.md, 1 ocorrência no arquivo)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas (T-64): D4 = D4 da v1.1 com UMA troca, a nota da R6 (texto da R6 de GCE_Lote3_padroes_GCE.md, unido por espaço, sem recuo e sem o rótulo \"R6. \")",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas (T-64; D1-T54-a da GCE): D5 = D5 da v1.1 sem o trecho literal da nota R2, com o rótulo \"Notas de correção (GCE, R3–R4)\" e a mesma troca da R6 da D4",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas (T-64; estado esperado da GCE, D1-T64-5): \"NQ = NC − 3 × NE ÷ TL\" em D1, D4 e D5 (3); \"NPT = NC − 6 × NE ÷ TL\" em D3, D4 e D5 (3); \"NQ = NC\" em D3: 0; D2 sem nota de fórmula; \"9.8.5.1, d\" com NQ em D3: 0; a R6 antiga não está mais escrita no código (p2.py lê a R6 do arquivo)",
   "ok": true
  },
  {

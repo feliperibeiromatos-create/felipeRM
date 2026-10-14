@@ -1,8 +1,8 @@
 # pacote_relatorio_2026-10-14_v1_5.md — T-61 — EXPORTAR v1.5 — 2026-10-14 — gerado por gbq-csc
 
-Saídas: `saida/pacote/pacote.json` (versao 1, nome "Câmara 2026 — pacote F4 (v1.5)", geradoEm 2026-10-14, 621744 bytes UTF-8, SHA-256 `d6b8a5beae074851c1ebb4799aa01e58645e220c6e727d0f51eab9e294678289`, indent=1, newline final), este relatório (gerado por inteiro pelo gerador, `relatorio_v1_5.py`) e a edição do estudante em `saida/estudante/` (43 arquivos). Contrato: `regras/pacote_contrato.md` v1.2.3 (errata de forma da T-59, registro em `saida/pacote/contrato_v1_2_3_2026-10-14.md`) sobre a v1.2.2 (T-57), a v1.2.1 (T-53), as Regras da v1.2 (a–j) e as D1 da GBQ em `saida/pacote/T48_reconciliacao_R2_2026-10-13.md`, seção 2. Escopo desta ocorrência: D-V15-AGORA (Fundador, 14/10/2026: botão "exportar meus erros" na plataforma; ocorrência da T-12 aberta por decisão do Fundador) = a T-61 e a seção 5 de `saida/pacote/T59_decisoes_2026-10-14.md` (D-T59-10: o pacote v1.5 só troca `nome` e `geradoEm`; edição do estudante só com a versão e a data do README) + a lista PARA A PRÓXIMA T-12 de `saida/pacote/T57_reconciliacao_2026-10-13.md`, seção 3, itens 3, 5, 6 e 7 (o item 1 está cumprido pela decisão do Fundador). Gerador: `saida/pacote/gerador_v1_5/` (cópia alterada de `gerador_v1_4/`, que ficou intacta). A produção não fez commit; o commit é do orquestrador. TAREFAS.md, PARA_PRESIDENCIA.md, DECISOES.md, estado/, banco/, os canônicos dos lotes (`saida/gce`, `saida/gcb`) e `saida/plataforma/` não foram alterados por esta ocorrência. A v1.4 (SHA-256 `f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54`, 621744 bytes) foi guardada antes de qualquer gravação (cópia no scratchpad) e é lida do git (commit e9b6402). Nada deste pacote nem da edição do estudante vai à candidata sem decisão do Fundador; a edição do estudante NÃO é entrega à candidata (a entrega continua reservada ao Fundador; a publicação no mesmo link e a entrega da edição seguem D-V15-AGORA após o gatilho A conjunto com a T-60, D-T59-10 item 6).
+Saídas: `saida/pacote/pacote.json` (versao 1, nome "Câmara 2026 — pacote F4 (v1.5)", geradoEm 2026-10-14, 621887 bytes UTF-8, SHA-256 `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3`, indent=1, newline final), este relatório (gerado por inteiro pelo gerador, `relatorio_v1_5.py`) e a edição do estudante em `saida/estudante/` (43 arquivos). Contrato: `regras/pacote_contrato.md` v1.2.3 (errata de forma da T-59, registro em `saida/pacote/contrato_v1_2_3_2026-10-14.md`) sobre a v1.2.2 (T-57), a v1.2.1 (T-53), as Regras da v1.2 (a–j) e as D1 da GBQ em `saida/pacote/T48_reconciliacao_R2_2026-10-13.md`, seção 2. Escopo desta ocorrência: D-V15-AGORA (Fundador, 14/10/2026: botão "exportar meus erros" na plataforma; ocorrência da T-12 aberta por decisão do Fundador) = a T-61 e a seção 5 de `saida/pacote/T59_decisoes_2026-10-14.md` (D-T59-10: o pacote v1.5 troca `nome` e `geradoEm`; edição do estudante com a versão e a data do README) + **a regeração R1 com a T-64** (D-T64-V15: a nota de fórmula da peça, NPT = NC − 6 × NE ÷ TL, no `padrao` de D3, D4 e D5; seção 14) + a lista PARA A PRÓXIMA T-12 de `saida/pacote/T57_reconciliacao_2026-10-13.md`, seção 3, itens 3, 5, 6 e 7 (o item 1 está cumprido pela decisão do Fundador). Gerador: `saida/pacote/gerador_v1_5/` (cópia alterada de `gerador_v1_4/`, que ficou intacta). A produção não fez commit; o commit é do orquestrador. TAREFAS.md, PARA_PRESIDENCIA.md, DECISOES.md, estado/, banco/, os canônicos dos lotes (`saida/gce`, `saida/gcb`) e `saida/plataforma/` não foram alterados por esta ocorrência. A v1.4 (SHA-256 `f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54`, 621744 bytes) foi guardada antes de qualquer gravação (cópia no scratchpad) e é lida do git (commit e9b6402). Nada deste pacote nem da edição do estudante vai à candidata sem decisão do Fundador; a edição do estudante NÃO é entrega à candidata (a entrega continua reservada ao Fundador; a publicação no mesmo link e a entrega da edição seguem D-V15-AGORA após o gatilho A conjunto com a T-60, D-T59-10 item 6).
 
-Resultado em uma linha: **286 itens** (106 de banco + 180 AUTORAL), 10 lotes (6 com `legendaMecanismo`), 5 discursivas, 4 simulados com `n` e `versao` (SIM-0 com `avisos`); 32 registros de errata (31 APLICADA, 1 JÁ PRESENTE, 0 NÃO ENCONTRADA) e 6 erratas com alvo fora do pacote; validação por script: 112 verificações, 0 falhas; conferências da ocorrência: 134, 0 falhas; edição do estudante: 43 arquivos, fidelidade textual 5793 comparações, 0 diferenças. **Diff v1.4 → v1.5 do pacote: exatamente 2 diferenças, `nome` e `geradoEm`** (o resto idêntico byte a byte, 621744 bytes); **da edição: 1 de 43 arquivos mudam (só `README.md`, linhas 3 e 4: versão e data)**, os outros 42 são idênticos.
+Resultado em uma linha: **286 itens** (106 de banco + 180 AUTORAL), 10 lotes (6 com `legendaMecanismo`), 5 discursivas, 4 simulados com `n` e `versao` (SIM-0 com `avisos`); 32 registros de errata (31 APLICADA, 1 JÁ PRESENTE, 0 NÃO ENCONTRADA) e 6 erratas com alvo fora do pacote; validação por script: 116 verificações, 0 falhas; conferências da ocorrência: 141, 0 falhas; edição do estudante: 43 arquivos, fidelidade textual 5793 comparações, 0 diferenças. **Diff v1.4 → v1.5 do pacote: exatamente 5 diferenças, `nome`, `geradoEm` e o campo `padrao` das discursivas D3, D4 e D5 (nota de fórmula da peça, T-64)** (o resto idêntico byte a byte; 621887 bytes); **da edição: 2 de 43 arquivos mudam (`README.md`, linhas 3 e 4: versão e data; `DISCURSIVAS_padrao.md`, só as linhas 321, 404 e 504)**, os outros 41 são idênticos.
 
 ## 1. Fontes
 
@@ -13,8 +13,8 @@ Lidas em 14/10/2026 (SHA-256, 12 primeiros dígitos). O arquivo canônico de cad
 | Contrato | `regras/pacote_contrato.md` | v1.2.3 (errata de forma da T-59: seção "Exportação de erros (plataforma → fábrica)" e id do simulado da semana) sobre a v1.2.2 (T-57: `id` de par e regras de exibição) e a v1.2.1 (T-53) + Regras da v1.2 (a–j) + v1.1.1 + v1.1 | `be037db8e7c0` |
 | Registro do contrato | `saida/pacote/contrato_v1_2_3_2026-10-14.md` | SHA-256 antes e depois, cópia literal das alterações, conferência por script (T-59) | `5c8a2d14092f` |
 | Registro do contrato (anterior) | `saida/pacote/contrato_v1_2_2_2026-10-13.md` | v1.2.2 (T-57) | `d70d2045dfa7` |
-| Decisão da T-59 e da T-61 | `saida/pacote/T59_decisoes_2026-10-14.md` | D-T59-01 a D-T59-10: seção 3 (errata do contrato), seção 2 (regra de importação), seção 5 (o que muda no pacote v1.5: só `nome` e `geradoEm`; README) | `491cf475def4` |
-| Regra de importação (T-59) | `regras/importacao_erros.md` | v1, 2026-10-14; texto integral da seção 2 da decisão | `b19bc0e4adf9` |
+| Decisão da T-59 e da T-61 | `saida/pacote/T59_decisoes_2026-10-14.md` | D-T59-01 a D-T59-10: seção 3 (errata do contrato), seção 2 (regra de importação), seção 5 (o que muda no pacote v1.5: `nome` e `geradoEm`; README); na regeração R1, a T-64 (D-T64-V15): `padrao` de D3, D4 e D5 e as 3 linhas de `DISCURSIVAS_padrao.md` | `491cf475def4` |
+| Regra de importação (T-59) | `regras/importacao_erros.md` | v1.1, 2026-10-14 (errata em `T59_T60_reconciliacao_2026-10-14.md`, seção 3.1-D, E-1 a E-5); texto da seção 2 da decisão (v1) com as 5 substituições | `4bc7098a8468` |
 | Exemplo do arquivo de erros (T-59) | `saida/pacote/exemplo_erros_v1.json` | exemplo mínimo D-T59-04 | `7af182a8bfa4` |
 | Entrada fora do git (T-59) | `.gitignore` | linhas da seção 6 da decisão (`/entrada/erros/`) | `f7ccc9dcc904` |
 | Escopo da T-61 | `saida/pacote/T57_reconciliacao_2026-10-13.md` | seção 3 (PARA A PRÓXIMA T-12: itens 3, 5, 6 e 7) e D-T57-01 a D-T57-11 | `c8a0ac14a9e5` |
@@ -32,10 +32,10 @@ Lidas em 14/10/2026 (SHA-256, 12 primeiros dígitos). O arquivo canônico de cad
 | L1C | `saida/gce/GCE_Lote1C_consolidacao_GCE.md` | E1–E4 | `eb1ca37bee12` |
 | L2 | `saida/gce/GCE_Lote2_v2_CPP.md` | v2 canônico | `6bb88330fe0f` |
 | L2 | `saida/gce/GCE_Lote2_consolidacao_GCE.md` | E1–E7 | `1d680f9e90bb` |
-| L2 | `saida/gce/GCE_Lote2_padroes_GCE.md` | padrões D2 e D3 | `732e062c5c4e` |
+| L2 | `saida/gce/GCE_Lote2_padroes_GCE.md` | padrões D2 e D3 | `f4b180c9d0c2` |
 | L3 | `saida/gce/GCE_Lote3_v2_CPP.md` | v2 canônico, com a T-44 (título e nota do 3.1) e a errata T-58 (curso 4.2) já gravadas | `58b0dbedb358` |
 | L3 | `saida/gce/GCE_Lote3_consolidacao_GCE.md` | E1–E4 e Adendo 2 (Ato nº 225) | `61fdf619267f` |
-| L3 | `saida/gce/GCE_Lote3_padroes_GCE.md` | padrões D4 e D5 | `cc17ec964b53` |
+| L3 | `saida/gce/GCE_Lote3_padroes_GCE.md` | padrões D4 e D5 | `7651b7a4738e` |
 | L4 | `saida/gcb/GCB_Lote4_v3_canonica_GCB-CPP.md` | v3.4 (cabeçalho: Despacho 9, 09/10/2026); linha "Legenda:" → legendaMecanismo | `d7d820364ac5` |
 | L4C | `saida/gcb/GCB_Lote4C_v1_GCB-CPP.md` | v1.1 (só itens AUTORAL); "Legenda:" → legendaMecanismo | `b412bf79842b` |
 | L5 | `saida/gcb/GCB_Lote5_v3_canonica_GCB-CPP.md` | v3.2 (errata Tukey, T-47, já gravada; D-TRANSPORTE-L5-V32); "Legenda:" (forma "Mecanismos:") → legendaMecanismo | `5f7f736cd369` |
@@ -66,7 +66,7 @@ Lidas em 14/10/2026 (SHA-256, 12 primeiros dígitos). O arquivo canônico de cad
 | Edição do estudante v1.3 (antes) | `git archive 9622604 saida/estudante` | 43 arquivos; mesmo manifesto | `6a60f28116d9` |
 | Contrato v1.2.2 (antes) | `git show e9b6402:regras/pacote_contrato.md` | lido do git | `678cfe6da9c1` |
 
-**Fontes frente à v1.4 (git e9b6402):** das 47 fontes desta tabela, 40 são idênticas (mesmo SHA-256 completo) às que geraram a v1.4; 1 difere: `regras/pacote_contrato.md`; 6 são novas desta ocorrência: `saida/pacote/contrato_v1_2_3_2026-10-14.md`, `saida/pacote/T59_decisoes_2026-10-14.md`, `regras/importacao_erros.md`, `saida/pacote/exemplo_erros_v1.json`, `.gitignore`, `saida/pacote/T57_reconciliacao_2026-10-13.md`. Nenhum canônico de lote, simulado, banco ou edital mudou desde a v1.4 (as fontes que mudaram são o contrato e os documentos da T-59/T-61).
+**Fontes frente à v1.4 (git e9b6402):** das 47 fontes desta tabela, 38 são idênticas (mesmo SHA-256 completo) às que geraram a v1.4; 3 diferem: `regras/pacote_contrato.md`, `saida/gce/GCE_Lote2_padroes_GCE.md`, `saida/gce/GCE_Lote3_padroes_GCE.md`; 6 são novas desta ocorrência: `saida/pacote/contrato_v1_2_3_2026-10-14.md`, `saida/pacote/T59_decisoes_2026-10-14.md`, `regras/importacao_erros.md`, `saida/pacote/exemplo_erros_v1.json`, `.gitignore`, `saida/pacote/T57_reconciliacao_2026-10-13.md`. Nenhum canônico de lote, simulado, banco ou edital mudou desde a v1.4 (as fontes que mudaram são o contrato e os documentos da T-59/T-61).
 
 Condições do contrato (regra 5 e instrução da T-48), que continuam válidas: T-13, T-25, T-29, T-36, T-38, T-42, T-43, T-44, T-46 e T-47 CONCLUÍDAS e reconciliadas; T-40 CONCLUÍDA (BQ-0072, 0077, 0084, 0109, 0110 e 0111 entram, com 6/6 gabaritos sustentados). Simulados canônicos por D-SIM1-CANONICO, D-SIM2-CANONICO e D-SIM0P2-DIAGNOSTICO; SIM-0 v0.2 sem pendência (T-36 aplicada). T-48, T-53, T-55 e T-56 CONCLUÍDAS (a T-56 reconciliada em `T56_reconciliacao_2026-10-13.md`, aceite da v1.3 pela D-PACOTE-V13). T-58 (errata de forma do curso do L3, D1-T54-b da GCE) gravada em `saida/gce/GCE_Lote3_v2_CPP.md` e lida pelo pacote. Nenhuma errata nem texto canônico de simulado mudou desde a v1.3; do canônico dos lotes mudou só a T-58 (uma palavra no curso do L3, mais o registro "T-54" na Tabela de Correções, que não é exportado). Liberar qualquer simulado à candidata continua reservado ao Fundador.
 
@@ -97,12 +97,12 @@ Condições do contrato (regra 5 e instrução da T-48), que continuam válidas:
 | simulados | 2 (SIM-0, SIM-1) | 4 (SIM-0, SIM-1, SIM-2, SIM-0-P2) | 4 (SIM-0, SIM-1, SIM-2, SIM-0-P2) | 4 (SIM-0, SIM-1, SIM-2, SIM-0-P2) | 4 (SIM-0, SIM-1, SIM-2, SIM-0-P2) |
 | simulados `n` | — / — | 60 / 40 / 40 / 25 | 60 / 40 / 40 / 25 | 60 / 40 / 40 / 25 | 60 / 40 / 40 / 25 |
 | simulados com `avisos` (opcional, v1.2.1 ponto 5) | 0 | 0 | SIM-0 (3 avisos) | SIM-0 (3 avisos) | SIM-0 (3 avisos) |
-| bytes | 541533 | 618673 | 620956 | 621744 | 621744 |
-| SHA-256 (12) | d318382639ee | f46ed9f8e43d | fdcb7afdb4fb | f8c0c131f16d | d6b8a5beae07 |
+| bytes | 541533 | 618673 | 620956 | 621744 | 621887 |
+| SHA-256 (12) | d318382639ee | f46ed9f8e43d | fdcb7afdb4fb | f8c0c131f16d | b4bc65c7c582 |
 
-**A v1.5 é a v1.4 (SHA-256 `f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54`, 621744 bytes) mais `nome` ("Câmara 2026 — pacote F4 (v1.5)") e `geradoEm` (2026-10-14)**: todas as medidas da tabela são idênticas às da v1.4 e `versao` continua 1 (seção 13, conferências (0) e (5)); o contrato v1.2.3 não acrescenta campo ao pacote (D-T59-10, item 1).
+**A v1.5 é a v1.4 (SHA-256 `f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54`, 621744 bytes) mais `nome` ("Câmara 2026 — pacote F4 (v1.5)"), `geradoEm` (2026-10-14) e o `padrao` de D3, D4 e D5 (nota de fórmula da peça, T-64)**: todas as medidas da tabela são idênticas às da v1.4 (a troca de texto não muda contagem de aspectos nem de quesitos) e `versao` continua 1 (seção 13, conferências (0) e (5)); o contrato v1.2.3 não acrescenta campo ao pacote (D-T59-10, item 1).
 
-A v1.4, e portanto a v1.5, é a v1.3 (SHA-256 `fdcb7afdb4fb`) mais `nome`, o campo opcional `id` nos 72 pares de L4, L5, L6A e L6B, o `padrao` da D5 (anexo de notas sem a R2) e uma troca de uma palavra no `curso` do L3 (errata T-58): as medidas de itens, simulados, lotes, pegadinhas e discursivas são idênticas (seção 13, conferências (1) e (5)). Banco: 112 linhas em `banco/banco.csv`; 106 exportadas (60 C / 46 E) e 6 excluídas por anulação (gabarito X): BQ-0029, BQ-0030, BQ-0031, BQ-0060, BQ-0062, BQ-0063. Os 60 itens da v1.1 mantêm o mesmo `comando` e a mesma aderência (37 direta / 23 parcial, conferido); os 46 novos são BQ-0061… do terceiro lote de varredura (inclui BQ-0072, 0077, 0084, 0109, 0110 e 0111, liberados pela T-40). BQ-0049 a 0051 são os únicos com `textoBase` (a coluna `texto_base`); nos 283 demais `textoBase` é `""` (F2).
+A v1.4, e portanto a v1.5, é a v1.3 (SHA-256 `fdcb7afdb4fb`) mais `nome`, o campo opcional `id` nos 72 pares de L4, L5, L6A e L6B, o `padrao` da D5 (anexo de notas sem a R2) e uma troca de uma palavra no `curso` do L3 (errata T-58); a v1.5 acrescenta ainda o `padrao` de D3 e D4 e uma segunda troca no de D5 (nota de fórmula da peça, T-64): as medidas de itens, simulados, lotes, pegadinhas e discursivas são idênticas (seção 13, conferências (1) e (5)). Banco: 112 linhas em `banco/banco.csv`; 106 exportadas (60 C / 46 E) e 6 excluídas por anulação (gabarito X): BQ-0029, BQ-0030, BQ-0031, BQ-0060, BQ-0062, BQ-0063. Os 60 itens da v1.1 mantêm o mesmo `comando` e a mesma aderência (37 direta / 23 parcial, conferido); os 46 novos são BQ-0061… do terceiro lote de varredura (inclui BQ-0072, 0077, 0084, 0109, 0110 e 0111, liberados pela T-40). BQ-0049 a 0051 são os únicos com `textoBase` (a coluna `texto_base`); nos 283 demais `textoBase` é `""` (F2).
 
 ### 2.1 Itens por lote (AUTORAL) e `comandoOriginal`
 
@@ -134,7 +134,7 @@ A v1.4, e portanto a v1.5, é a v1.3 (SHA-256 `fdcb7afdb4fb`) mais `nome`, o cam
 
 ### 2.3 Discursivas
 
-D1–D4 idênticas às da v1.1, da v1.2 e da v1.3 (D1 questão (L1), D2 questão e D3 peça (L2), D4 questão (L3)); a **D5** (peça, L3) é igual à da v1.3 em comando, aspectos, quesitos e conceitos e difere só no anexo de notas do `padrao`: a v1.3 acrescentava "Notas de correção (GCE, R2–R4)" (cópia das linhas 14–23 de `GCE_Lote3_padroes_GCE.md`, as mesmas da D4); a v1.4 acrescenta "Notas de correção (GCE, R3–R4)" com as linhas 21–23 literais, sem o trecho da R2 (linhas 14–20, 7 linhas; a R2 trata da alínea c da questão da D4 e não tem objeto na peça; D1-T54-a da GCE). `padrao` da D5: 5094 → 4644 caracteres. A D4 mantém o anexo R2–R4. Aspectos e quesitos conferidos: soma dos aspectos das questões 14,30 + 0,70 de apresentação = 15,00; peças 28,50 + 1,50 = 30,00. A observação "inferido pela EXEC" da D1 (Adendo 4) não é exportada: 0 ocorrência de "EXEC" nas discursivas. D3 e D5 são pareceres técnicos (gênero confirmado para analista e técnico; hipótese por analogia para o Cargo 11). Pesos por quesito são HIPÓTESE do Projeto.
+D1–D4 idênticas às da v1.1, da v1.2 e da v1.3 em comando, aspectos e quesitos (D1 questão (L1), D2 questão e D3 peça (L2), D4 questão (L3); D3 e D4 mudam só a nota de fórmula do `padrao` na v1.5, abaixo); a **D5** (peça, L3) é igual à da v1.3 em comando, aspectos, quesitos e conceitos e difere só no anexo de notas do `padrao`: a v1.3 acrescentava "Notas de correção (GCE, R2–R4)" (cópia das linhas 14–23 de `GCE_Lote3_padroes_GCE.md`, as mesmas da D4); a v1.4 acrescenta "Notas de correção (GCE, R3–R4)" com as linhas 21–23 literais, sem o trecho da R2 (linhas 14–20, 7 linhas; a R2 trata da alínea c da questão da D4 e não tem objeto na peça; D1-T54-a da GCE). `padrao` da D5: 5094 → 4709 caracteres (v1.3 → v1.5; inclui a troca da nota R6 da T-64). A D4 mantém o anexo R2–R4. **v1.5 (T-64, D-T64-V15):** além disso, o `padrao` de D3 (nota da peça: "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.", no lugar da fórmula da questão), de D4 e de D5 (nota R6 lida de `GCE_Lote3_padroes_GCE.md`: "questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d)") mudam uma frase cada; D1 e D2 e todos os `comando`, `aspectos` e `quesitos` ficam iguais (seção 14). Aspectos e quesitos conferidos: soma dos aspectos das questões 14,30 + 0,70 de apresentação = 15,00; peças 28,50 + 1,50 = 30,00. A observação "inferido pela EXEC" da D1 (Adendo 4) não é exportada: 0 ocorrência de "EXEC" nas discursivas. D3 e D5 são pareceres técnicos (gênero confirmado para analista e técnico; hipótese por analogia para o Cargo 11). Pesos por quesito são HIPÓTESE do Projeto.
 
 ## 3. Erratas (consolidações sincronizadas) — estado por errata
 
@@ -432,7 +432,7 @@ Texto corrido que não se separa sem reescrever (ficou como uma entrada só, por
 
 Fragmentos que dependem do verbo ou do sujeito do fragmento anterior e ficaram como entrada própria: **0** (na R0 eram 5, resolvidos pelas reuniões acima; contagem de pegadinhas 267 → 262). Os fragmentos de L5 que restam começam por infinitivo e se leem soltos; L1 P2-1.6 e P2-1.8 começam por minúscula mas se leem sozinhos (fronteira mantida).
 
-## 9. Validação por script (112 verificações, 0 falhas)
+## 9. Validação por script (116 verificações, 0 falhas)
 
 - OK JSON parseia sem erro; termina em newline; UTF-8
 - OK formato: indent=1 e ensure_ascii=False (reserialização idêntica)
@@ -520,7 +520,11 @@ Fragmentos que dependem do verbo ou do sujeito do fragmento anterior e ficaram c
 - OK L3 T-58 (D1-T54-b da GCE, errata de forma): curso do L3 com "jurisprudência firmada que se possa afirmar):" (1×) e 0 "que eu possa afirmar"; o canônico atual tem a errata no curso (1×) e o registro "T-54" na Tabela de Correções do cabeçalho (o "que eu possa afirmar" que resta no canônico é o da linha de limites N4, não exportada)
 - OK L5 Tukey (T-47): curso do L5 8.2 contém "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta."
 - OK INFO DETAQ fora da forma "Derep (antigo DETAQ)" em curso/resumo
-- OK discursivas: 5 (D1–D5); D1 a D4 idênticas às da v1.1; D5 igual à da v1.1 exceto o anexo de notas: sem a R2 (trecho literal removido) e com o rótulo "Notas de correção (GCE, R3–R4)" (D1-T54-a da GCE); comando, aspectos e quesitos da D5 iguais
+- OK discursivas: 5 (D1–D5); D1 e D2 idênticas às da v1.1; D3, D4 e D5 iguais às da v1.1 só no campo `padrao` quanto às demais chaves (comando, aspectos, quesitos, tipo, id)
+- OK discursivas (T-64): D3 = D3 da v1.1 com UMA troca, a linha da nota da peça "Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL." -> "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL." (literal de GCE_Lote2_padroes_GCE.md, 1 ocorrência no arquivo)
+- OK discursivas (T-64): D4 = D4 da v1.1 com UMA troca, a nota da R6 (texto da R6 de GCE_Lote3_padroes_GCE.md, unido por espaço, sem recuo e sem o rótulo "R6. ")
+- OK discursivas (T-64; D1-T54-a da GCE): D5 = D5 da v1.1 sem o trecho literal da nota R2, com o rótulo "Notas de correção (GCE, R3–R4)" e a mesma troca da R6 da D4
+- OK discursivas (T-64; estado esperado da GCE, D1-T64-5): "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0; a R6 antiga não está mais escrita no código (p2.py lê a R6 do arquivo)
 - OK discursivas: sem observação "inferido pela EXEC" (0 ocorrência)
 - OK discursivas: "14,30" (E11) não aparece em comando/padrão (E11 sem efeito no exportado)
 - OK D4: anexo R2–R4 é cópia literal das linhas 14–23 do arquivo de padrões
@@ -636,7 +640,7 @@ Arquivos sem nenhuma remoção: os `*_itens.md`, `BANCO_*`, `*_folha.md`, `READM
 
 ### 10.2 Fidelidade (script `estudante_fidelidade.py`)
 
-O script lê os 43 arquivos com um parser próprio (independente do gerador) e confere, campo a campo, o texto do estudante com o do pacote: (1) igual ao texto do pacote com as deleções das regras; (2) obtido do texto do pacote só por deleção (teste de subsequência linear e, depois, difflib: apenas `equal`/`delete`, salvo as 8 trocas de caixa da lista CAIXA, C-15, e, **v1.4**, o desfazimento dos 2 realinhamentos de espaço do quadro do L1, D-T54-02, exceção fechada de 2 regras com 1 ocorrência cada); (3) comando, texto-base, enunciado, gabarito, item do edital, aderência, nota (com a única exceção da C-18), aviso VOLÁTIL, certame, cargo, ano, número, URL, ordem e `n` dos simulados, valores dos aspectos e conceitos dos quesitos idênticos ao pacote; (4) a `legendaMecanismo` de cada lote com o campo está literal, sozinha, no topo do `*_gabarito.md` do próprio lote (antes do primeiro item) e em nenhum outro arquivo (salvo, **v1.4**, as legendas dos lotes de origem no topo de cada `SIM-*_gabarito.md`, uma vez cada, na ordem de `lotes`); lote sem o campo não tem texto antes do primeiro item; o texto dos `avisos` não aparece na edição; (5) **v1.4:** o parser lê a linha de par nos dois formatos e compara `a`, `b`, `como` e o `id` exibido com o pacote (linha fora do formato é DIFERENÇA); a `nota` é exibida sem rótulo (`- `/`> ` seguido do valor, com a única deleção do identificador da C-18); o README declara v1.5. Teste negativo (`fidelidade_mutacao.py`: 11 mutações aplicadas isoladamente, cada uma em cópia nova da edição — `BANCO_gabarito.md`, `DISCURSIVAS_padrao.md`, `L1_estudo.md`, `L1_itens.md`, `L2_estudo.md`, `L2_gabarito.md`, `L3_estudo.md`, `L4_estudo.md`, `L5_gabarito.md`, `L6B_gabarito.md`, `SIM-1_gabarito.md`) detectou 255 diferenças no total; todas as mutações foram detectadas: sim; portanto o script não é cego.
+O script lê os 43 arquivos com um parser próprio (independente do gerador) e confere, campo a campo, o texto do estudante com o do pacote: (1) igual ao texto do pacote com as deleções das regras; (2) obtido do texto do pacote só por deleção (teste de subsequência linear e, depois, difflib: apenas `equal`/`delete`, salvo as 8 trocas de caixa da lista CAIXA, C-15, e, **v1.4**, o desfazimento dos 2 realinhamentos de espaço do quadro do L1, D-T54-02, exceção fechada de 2 regras com 1 ocorrência cada); (3) comando, texto-base, enunciado, gabarito, item do edital, aderência, nota (com a única exceção da C-18), aviso VOLÁTIL, certame, cargo, ano, número, URL, ordem e `n` dos simulados, valores dos aspectos e conceitos dos quesitos idênticos ao pacote; (4) a `legendaMecanismo` de cada lote com o campo está literal, sozinha, no topo do `*_gabarito.md` do próprio lote (antes do primeiro item) e em nenhum outro arquivo (salvo, **v1.4**, as legendas dos lotes de origem no topo de cada `SIM-*_gabarito.md`, uma vez cada, na ordem de `lotes`); lote sem o campo não tem texto antes do primeiro item; o texto dos `avisos` não aparece na edição; (5) **v1.4:** o parser lê a linha de par nos dois formatos e compara `a`, `b`, `como` e o `id` exibido com o pacote (linha fora do formato é DIFERENÇA); a `nota` é exibida sem rótulo (`- `/`> ` seguido do valor, com a única deleção do identificador da C-18); o README declara v1.5. Teste negativo (`fidelidade_mutacao.py`: 13 mutações aplicadas isoladamente, cada uma em cópia nova da edição — `BANCO_gabarito.md`, `DISCURSIVAS_padrao.md`, `L1_estudo.md`, `L1_itens.md`, `L2_estudo.md`, `L2_gabarito.md`, `L3_estudo.md`, `L4_estudo.md`, `L5_gabarito.md`, `L6B_gabarito.md`, `SIM-1_gabarito.md`) detectou 258 diferenças no total; todas as mutações foram detectadas: sim; portanto o script não é cego.
 
 - comparações: texto 1380, metadado 941, estrutura 48, prova/metadado 1883, aviso/nota 1067, gabarito 451, legenda 20, avisos não exibidos 3 (total 5793)
 - **diferenças: 0** (texto do estudante == texto do pacote com as deleções aplicadas)
@@ -691,20 +695,21 @@ O script lê os 43 arquivos com um parser próprio (independente do gerador) e c
 
 23. **Ordem T-59 → T-61 antes do QA da T-59.** O item 4 da seção 5 da decisão (D-T59-10) manda despachar a T-61 depois da T-59 CONCLUÍDA, com o contrato v1.2.3 aprovado pela gbq-cqe. Esta sessão executou as duas tarefas na ordem pedida (T-59, depois T-61), antes do QA da T-59. O pacote v1.5 só cita o contrato v1.2.3 (relatório e gatilho A) e a regeração não lê o texto do contrato (as conferências (2) o leem, mas não o geram): uma correção do contrato pelo QA não altera `pacote.json` nem a edição. Proposta: aceitar; se a gbq-cqe reprovar o contrato, corrigir só o contrato e o registro, e refazer apenas a conferência (2). Remissão: D-T59-10 item 4.
 24. **Pasta de entrada fora do git.** A decisão (seção 6, item 1) manda o `.gitignore` da raiz com `/entrada/erros/` e não prevê `.gitignore` interno nem LEIA-ME; segui a decisão. A pasta `entrada/erros/` foi criada vazia (o git não rastreia pasta vazia; `git check-ignore -v entrada/erros/x.json` → `.gitignore:2:/entrada/erros/`). Sem decisão a tomar. Remissão: D-T59-07, seção 6 da decisão.
-25. **Onde mora o validador do arquivo de erros.** A decisão não nomeia o script (cita só "o validador da T-62", seção 4.4, item 2). Gravei `validar_erros.py` (e seu teste, `validar_erros_teste.py`, que roda no pipeline) em `gerador_v1_5/`, só com a biblioteca-padrão (roda com `python3 -I`), somente leitura, implementando a seção 2 de `regras/importacao_erros.md` (forma, versão, identidade/duplicado, pacote de origem, ids desconhecidos listados por campo, somas da D-T59-05). A T-62 pode importá-lo ou movê-lo. Sem decisão a tomar; proposta: aceitar. Remissão: D-T59-07; seção 4.4 da decisão.
-26. **O README da edição não ganha instrução sobre a exportação.** Cumprido como decidido (D-T59-10, item 2): só as linhas 3 e 4 (versão e data) mudam; o texto do botão está na plataforma e o que se diz à candidata além disso é do Fundador. Registro; nenhuma decisão pendente.
+25. **Onde mora o validador do arquivo de erros.** A decisão não nomeia o script (cita só "o validador da T-62", seção 4.4, item 2). Gravei `validar_erros.py` (e seu teste, `validar_erros_teste.py`, que roda no pipeline) em `gerador_v1_5/`, só com a biblioteca-padrão (roda com `python3 -I`), somente leitura, implementando a seção 2 de `regras/importacao_erros.md` (forma, versão, identidade/duplicado, pacote de origem, ids desconhecidos listados por campo, somas da D-T59-05). A T-62 pode importá-lo ou movê-lo. Sem decisão a tomar; proposta: aceitar. Remissão: D-T59-07; seção 4.4 da decisão. **Decidido (D-R59-08, `T59_T60_reconciliacao_2026-10-14.md`):** a cópia mantida, com as correções R-1, R-2, R-3 e A1, fica em `saida/treino/ferramentas/validar_erros.py` (teste: `validar_erros_teste.py`, autônomo); a de `gerador_v1_5/` é registro da T-61, não muda e está marcada como tal no `MANIFESTO.md`.
+26. **O README da edição não ganha instrução sobre a exportação.** Cumprido como decidido (D-T59-10, item 2): no README só as linhas 3 e 4 (versão e data) mudam; o texto do botão está na plataforma e o que se diz à candidata além disso é do Fundador. A edição ganha, na regeração R1, 3 linhas de nota de fórmula em `DISCURSIVAS_padrao.md` (T-64), não instrução de exportação. Registro; nenhuma decisão pendente.
 
 ## 13. Ocorrência v1.5 (T-61)
 
-Ocorrência da D-V15-AGORA (Fundador, 14/10/2026), com o gerador de `saida/pacote/gerador_v1_4/` copiado para `saida/pacote/gerador_v1_5/` (a v1_4 ficou intacta: `git status --porcelain` da pasta vazio (nenhuma alteração)). Despacho: T-61, com a seção 5 de `T59_decisoes_2026-10-14.md` (D-T59-10) e a lista PARA A PRÓXIMA T-12 de `T57_reconciliacao_2026-10-13.md`, seção 3 (itens 3, 5, 6 e 7; o item 1, condição de abertura, está cumprido pela decisão do Fundador). Ao gerador v1_4 foram trocados só: `build_pacote.py` (`nome` e `geradoEm`), `estudante_gen.py` (versão do README), `estudante_fidelidade.py` (a versão esperada no README) e `validate.py` (o `nome` e o `geradoEm` esperados), mais as referências (`refs.py`: commit da v1.4), o `rodar_tudo.sh`, as conferências (`conferencias_v15.py`), o relatório (`relatorio_v1_5.py`) e o validador do arquivo de erros (`validar_erros.py`, `validar_erros_teste.py`; T-59 d).
+Ocorrência da D-V15-AGORA (Fundador, 14/10/2026), com o gerador de `saida/pacote/gerador_v1_4/` copiado para `saida/pacote/gerador_v1_5/` (a v1_4 ficou intacta: `git status --porcelain` da pasta vazio (nenhuma alteração)). Despacho: T-61, com a seção 5 de `T59_decisoes_2026-10-14.md` (D-T59-10) e a lista PARA A PRÓXIMA T-12 de `T57_reconciliacao_2026-10-13.md`, seção 3 (itens 3, 5, 6 e 7; o item 1, condição de abertura, está cumprido pela decisão do Fundador). Ao gerador v1_4 foram trocados só: `build_pacote.py` (`nome` e `geradoEm`), `estudante_gen.py` (versão do README), `estudante_fidelidade.py` (a versão esperada no README) e `validate.py` (o `nome` e o `geradoEm` esperados), mais as referências (`refs.py`: commit da v1.4), o `rodar_tudo.sh`, as conferências (`conferencias_v15.py`), o relatório (`relatorio_v1_5.py`) e o validador do arquivo de erros (`validar_erros.py`, `validar_erros_teste.py`; T-59 d). **Regeração R1 (T-64):** ao gerador v1_5 foram trocados ainda `p2.py` (a R6 passa a ser lida de `GCE_Lote3_padroes_GCE.md`), `validate.py`, `conferencias_v15.py`, `fidelidade_mutacao.py` e este relatório; ver a seção 14.
 
 ### 13.1 Itens da decisão e da lista (D-T59-10; `T57_reconciliacao`, seção 3)
 
 | Item | Como foi feito | Onde se confere |
 |---|---|---|
-| D-T59-10 (1) pacote | `nome` "Câmara 2026 — pacote F4 (v1.5)", `geradoEm` "2026-10-14", `versao` 1; nenhum campo novo; diff estrutural v1.4 → v1.5 de exatamente 2 diferenças (`$.nome`, `$.geradoEm`); o resto idêntico byte a byte na serialização `json.dumps(indent=1, ensure_ascii=False)` + `\n` (621744 bytes, igual ao da v1.4) | conferência (0) |
-| D-T59-10 (2) edição | só `README.md`, linhas 3–4: "- Versão: v1.5 (pacote.json versão 1)" e "- Data: 2026-10-14"; os outros 42 arquivos idênticos; o README não ganha instrução sobre a exportação | conferência (3) v1.4 → v1.5 |
+| D-T59-10 (1) pacote | `nome` "Câmara 2026 — pacote F4 (v1.5)", `geradoEm` "2026-10-14", `versao` 1; nenhum campo novo; diff estrutural v1.4 → v1.5 de exatamente 5 diferenças (`$.nome`, `$.geradoEm`, `$.discursivas[2].padrao`, `[3].padrao`, `[4].padrao`; as 3 últimas são a T-64, D-T64-V15); o resto idêntico byte a byte na serialização `json.dumps(indent=1, ensure_ascii=False)` + `\n` (621887 bytes; v1.4: 621744; na primeira passagem da T-61 eram exatamente 2 diferenças e o mesmo tamanho, seção 14) | conferência (0) |
+| D-T59-10 (2) edição | `README.md`, linhas 3–4: "- Versão: v1.5 (pacote.json versão 1)" e "- Data: 2026-10-14" (o README não ganha instrução sobre a exportação) e, pela T-64, `DISCURSIVAS_padrao.md`, só as linhas 321, 404 e 504; os outros 41 arquivos idênticos | conferência (3) v1.4 → v1.5 |
 | D-T59-10 (3) gerador | `gerador_v1_4` copiado para `gerador_v1_5`, que roda com o nome e a data novos; v1_4 intacta; `MANIFESTO.md` com SHA-256 de cada arquivo; regeração byte a byte num clone limpo (registrada no `MANIFESTO.md`) | `MANIFESTO.md` |
+| D-T64-V15 (T-64, regeração R1) | `padrao` de D3 (nota da peça), D4 e D5 (R6) com a fórmula certa (questão: NQ, 9.8.5.1 d; peça: NPT, 9.8.5.2 d), lidas dos padrões corrigidos; R6 deixa de ser literal no código (O-4 do QA da gce-cqfp); `DISCURSIVAS_padrao.md` com as 3 linhas correspondentes | conferências (0), (1), (3) e `validate.py`; seção 14 |
 | D-T59-10 (4) contrato | o relatório e o gatilho A citam o contrato v1.2.3; ver DÚVIDA 23 (ordem frente ao QA da T-59) | seção 1; conferência (2) |
 | T57 s3-3 não regressão | (a) varreduras da seção 3.5 do QA R2 com `\bD-[A-Z]{2,}`; (b) exceções fechadas da R1 (CAIXA C-05/C-15, reunião C-06 a C-08, C-13, C-18) e a REALINHA (D-T57-06), e nada além; (c) conferências do QA da T-56 (N-1, legendas nos `L<lote>_gabarito.md`, avisos não exibidos); (d) testes da v1.4: forma dos 139 pares (D-T54-01), `id` = rótulo "C<n>." do canônico (D-T54-03), 0 "Nota: nota de vigência" (D-T54-04), 6B-06 sem o parêntese (D-T54-06 c), legenda nos `SIM-*_gabarito.md` pela regra de lote de origem (D-T54-07), D5 sem a R2 e rótulo "(GCE, R3–R4)" (D-T57-07), 0 "que eu possa afirmar"; diff restrito ao previsto | conferências (1), (3), (4), (5) |
 | T57 s3-5 avisos do SIM-0 | continuam no pacote (3 strings) e **não** são exibidos na edição (0 arquivo com o texto dos avisos; fidelidade: "avisos não exibidos" 3) | conferência (4), fidelidade |
@@ -713,13 +718,16 @@ Ocorrência da D-V15-AGORA (Fundador, 14/10/2026), com o gerador de `saida/pacot
 
 ### 13.2 Diff v1.4 → v1.5 (literal)
 
-`pacote.json`: 2 linhas diferentes de 7738 (as demais, byte a byte iguais):
+`pacote.json`: 5 linhas diferentes de 7738 (as demais, byte a byte iguais):
 
 ```text
 v1.4 linha 3: "geradoEm": "2026-10-13",
 v1.5 linha 3: "geradoEm": "2026-10-14",
 v1.4 linha 4: "nome": "Câmara 2026 — pacote F4 (v1.4)",
 v1.5 linha 4: "nome": "Câmara 2026 — pacote F4 (v1.5)",
+linha 7539: campo `padrao` da discursiva D3 (linha longa, 4610 → 4611 caracteres); a nota trocada está na tabela da seção 14.2
+linha 7613: campo `padrao` da discursiva D4 (linha longa, 3830 → 3895 caracteres); a nota trocada está na tabela da seção 14.2
+linha 7680: campo `padrao` da discursiva D5 (linha longa, 4721 → 4786 caracteres); a nota trocada está na tabela da seção 14.2
 ```
 
 `saida/estudante/README.md`: 2 linhas diferentes de 39:
@@ -731,49 +739,67 @@ v1.4 linha 4: - Data: 2026-10-13
 v1.5 linha 4: - Data: 2026-10-14
 ```
 
-Os outros 42 arquivos da edição: idênticos byte a byte (manifesto ordenado: v1.4 `562c51398d1e64f8` → v1.5 `0f97d689316a8cf9`).
+`saida/estudante/DISCURSIVAS_padrao.md` (T-64): 3 linhas diferentes de 549:
+
+```text
+v1.4 linha 321: Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.
+v1.5 linha 321: Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.
+v1.4 linha 404: Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+v1.5 linha 404: Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+v1.4 linha 504: Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+v1.5 linha 504: Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+```
+
+Os outros 41 arquivos da edição: idênticos byte a byte (manifesto ordenado: v1.4 `562c51398d1e64f8` → v1.5 `656e60e5085f3622`).
 
 ### 13.3 Conferências por script (`conferencias_v15.py`; saídas em `saida/pacote/gerador_v1_5/out/`)
 
-134 conferências, 0 falhas. Resultado por grupo:
+141 conferências, 0 falhas. Resultado por grupo:
 
 | Grupo | Conferências | OK |
 |---|---|---|
 | base: SHA-256 da v1.4 e da v1.3 | 2 | 2 |
-| (0) diff v1.4 → v1.5 do pacote (só `nome` e `geradoEm`) | 4 | 4 |
-| (1) diff acumulado v1.3 → v1.5 do pacote (nome, geradoEm, `id` de par, D5, curso do L3) | 11 | 11 |
+| (0) diff v1.4 → v1.5 do pacote (`nome`, `geradoEm` e o `padrao` de D3, D4 e D5: T-64) | 7 | 7 |
+| (1) diff acumulado v1.3 → v1.5 do pacote (nome, geradoEm, `id` de par, D3, D4, D5, curso do L3) | 11 | 11 |
 | (2) contrato v1.2.2 → v1.2.3 (T-59, D-T59-08) | 6 | 6 |
-| (3) edição: v1.4 → v1.5 (só README) e, acumulado v1.3 → v1.5, reconstrução exata, fidelidade e testes T54-1 a T54-8 | 23 | 23 |
+| (3) edição: v1.4 → v1.5 (README e as 3 notas de DISCURSIVAS_padrao.md) e, acumulado v1.3 → v1.5, reconstrução exata, fidelidade e testes T54-1 a T54-8 | 24 | 24 |
 | (4) não regressão: varreduras 3.5, exceções fechadas da R1 e REALINHA, QA da T-56, avisos do SIM-0, scripts históricos | 61 | 61 |
 | (5) contagens iguais às da v1.4, da v1.3 e da v1.2 | 20 | 20 |
-| (6) artefatos da T-59 (importação, exemplo, .gitignore, validador) | 7 | 7 |
+| (6) artefatos da T-59 (regra de importação v1.1, exemplo, .gitignore, validador mantido e registro) | 10 | 10 |
 
 Conferências dos grupos BASE, (0), (2), (3) v1.4 → v1.5 e (6), na íntegra (as demais estão em `out/conferencias_v15.txt`):
 
 - OK BASE — v1.4 (git e9b6402) tem SHA-256 f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54, 621744 bytes, e a edição v1.4 tem 43 arquivos com manifesto ordenado 562c51398d1e64f8 — v1.4 f8c0c131f16d | edição v1.4 562c51398d1e64f8
-- OK BASE — v1.3 (git 9622604) tem SHA-256 fdcb7afdb4fb449229c6d530e877d839f8d334cd9667731e1b7222c9c7fb0eca, 620956 bytes, e a edição v1.3 tem 43 arquivos com manifesto ordenado 6a60f28116d9ec35 — v1.3 fdcb7afdb4fb | v1.5 d6b8a5beae07
-- OK (0) DIFF v1.4->v1.5 — diff estrutural v1.4 -> v1.5 do pacote: exatamente 2 diferenças, `$.nome` e `$.geradoEm`; qualquer outra = falha (D-T59-10, item 1) — diferenças: [('.geradoEm', '2026-10-13', '2026-10-14'), ('.nome', 'Câmara 2026 — pacote F4 (v1.4)', 'Câmara 2026 — pacote F4 (v1.5)')]
+- OK BASE — v1.3 (git 9622604) tem SHA-256 fdcb7afdb4fb449229c6d530e877d839f8d334cd9667731e1b7222c9c7fb0eca, 620956 bytes, e a edição v1.3 tem 43 arquivos com manifesto ordenado 6a60f28116d9ec35 — v1.3 fdcb7afdb4fb | v1.5 b4bc65c7c582
+- OK (0) T-64 — os literais da T-64 conferem com os arquivos de padrões: Lote 2 (f), linha da nota = "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL." (1 linha, antes de "FIM DOS PADRÕES"); Lote 3, R6 (linhas 28–31, unidas por espaço, sem recuo e sem o rótulo "R6. ") = a R6 corrigida — Lote 2 linha 159; Lote 3 R6 linhas 28–31
+- OK (0) DIFF v1.4->v1.5 — diff estrutural v1.4 -> v1.5 do pacote: exatamente 5 diferenças, `$.nome`, `$.geradoEm` e o `padrao` de `$.discursivas[2]` (D3), `[3]` (D4) e `[4]` (D5); qualquer outra = falha (D-T59-10, item 1 + D-T64-V15) — diferenças: ['.geradoEm', '.nome', '.discursivas[2].padrao', '.discursivas[3].padrao', '.discursivas[4].padrao']
 - OK (0) DIFF v1.4->v1.5 — `nome`: "Câmara 2026 — pacote F4 (v1.4)" -> "Câmara 2026 — pacote F4 (v1.5)"; `geradoEm`: "2026-10-13" -> "2026-10-14"; `versao` 1 nas duas; chaves de topo e sua ordem iguais
-- OK (0) DIFF v1.4->v1.5 — byte a byte: trocando de volta só as 2 linhas (`geradoEm`, `nome`) a v1.5 vira a v1.4 (621744 bytes, mesmo tamanho); 2 linhas diferentes (as duas, linhas [3, 4]); serialização json.dumps(indent=1, ensure_ascii=False) + "\n"
-- OK (0) DIFF v1.4->v1.5 — itens (286), simulados (4), lotes (10), discursivas (5) e edital (47) idênticos aos da v1.4
+- OK (0) DIFF v1.4->v1.5 — byte a byte: aplicando à v1.4 só as 5 trocas de texto (`geradoEm`, `nome`, a nota da peça em D3 [1x] e a R6 em D4 e D5 [2x]) obtém-se a v1.5 (621887 bytes; v1.4: 621744); 5 linhas diferentes (linhas [3, 4, 7539, 7613, 7680] do JSON: as duas de cabeçalho e as de `padrao` de D3, D4 e D5); serialização json.dumps(indent=1, ensure_ascii=False) + "\n"
+- OK (0) DIFF v1.4->v1.5 — D3: padrao v1.5 = padrao v1.4 com UMA troca (a linha "Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL." -> "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL."); D4 e D5: padrao v1.5 = padrao v1.4 com UMA troca (a R6 antiga -> a R6 de GCE_Lote3_padroes_GCE.md); D1 e D2 idênticas; comando, aspectos, quesitos, tipo e id das 5 idênticos
+- OK (0) DIFF v1.4->v1.5 — estado esperado da GCE (D1-T64-5) em `discursivas[*].padrao`: "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0
+- OK (0) DIFF v1.4->v1.5 — itens (286), simulados (4), lotes (10) e edital (47) idênticos aos da v1.4; discursivas (5): D1 e D2 idênticas e D3 a D5 só em `padrao` (acima)
 - OK (2) CONTRATO v1.2.3 — SHA-256 do contrato: v1.2.2 (git e9b6402) 678cfe6da9c1…; v1.2.3 (arquivo atual) be037db8e7c0
 - OK (2) CONTRATO v1.2.3 — diff linha a linha de regras/pacote_contrato.md v1.2.2 -> v1.2.3: só a linha 1 (título), a linha 3 (acréscimo no fim do parágrafo) e uma inserção contígua (seção nova); 0 outra linha alterada — operações: replace antes[0:1] depois[0:1]; replace antes[2:3] depois[2:3]; insert antes[103:103] depois[103:130]
 - OK (2) CONTRATO v1.2.3 — linha 1 = texto literal (i) da decisão ("# pacote.json — … (v1.2.3, 2026-10-14)"); linha 3 = linha 3 antiga + " " + texto (ii) literal da decisão (ao fim de `ver a seção "Errata de forma da v1.2.2".`)
 - OK (2) CONTRATO v1.2.3 — a seção nova é igual, caractere a caractere, ao bloco (iii) da decisão: 26 linhas, 3073 caracteres; entra depois de uma linha em branco que segue o ponto 5 "Aplicação" da "Errata de forma da v1.2.2" e antes de uma linha em branco e da linha `---`
 - OK (2) CONTRATO v1.2.3 — nenhum campo obrigatório mudou: exemplo JSON, parágrafo "Regras:" (campos obrigatórios), Regras da v1.1, v1.1.1 e v1.2 (até a "Errata de forma da v1.2.1"), seção da v1.2.1 e da v1.2.2, tabela de fonte e PROMPT DE PARTIDA idênticos caractere a caractere; `versao` continua 1; a seção nova diz que não muda nome, tipo nem obrigatoriedade de nenhum campo do `pacote.json` e não muda `versao`
 - OK (2) CONTRATO v1.2.3 — o pacote v1.5 cumpre os 14 campos obrigatórios de item e as chaves de topo do contrato (o exemplo JSON do contrato não mudou): 286/286 itens com os 14 campos; chaves de topo = versao, geradoEm, nome, edital, itens, simulados, lotes, discursivas
-- OK (3) EDIÇÃO v1.4->v1.5 — mesmos 43 nomes de arquivo; 42 arquivos idênticos byte a byte aos da v1.4; só `README.md` difere — ['README.md']
+- OK (3) EDIÇÃO v1.4->v1.5 — mesmos 43 nomes de arquivo; 41 arquivos idênticos byte a byte aos da v1.4; só `README.md` (versão e data) e `DISCURSIVAS_padrao.md` (as 3 notas da T-64) diferem — ['DISCURSIVAS_padrao.md', 'README.md']
+- OK (3) EDIÇÃO v1.4->v1.5 — DISCURSIVAS_padrao.md: exatamente 3 linhas trocadas e mais nenhuma (321 = nota da peça da D3; 404 = R6 da D4; 504 = R6 da D5), com o texto da T-64 literal; mesmo número de linhas; a linha 99 (D1, NQ) não muda — [('replace', 320, 321, 320, 321), ('replace', 403, 404, 403, 404), ('replace', 503, 504, 503, 504)]
 - OK (3) EDIÇÃO v1.4->v1.5 — README.md: só as linhas 3 e 4 mudam: "- Versão: v1.4 (pacote.json versão 1)" -> "- Versão: v1.5 (pacote.json versão 1)" e "- Data: 2026-10-13" -> "- Data: 2026-10-14"; as demais linhas idênticas
-- OK (3) EDIÇÃO v1.4->v1.5 — manifesto ordenado da edição: v1.4 562c51398d1e64f8… -> v1.5 0f97d689316a8cf9…
-- OK (6) T-59 — regras/importacao_erros.md é igual, caractere a caractere, ao bloco da seção 2 da decisão (D-T59-07: 127 linhas, 11023 caracteres, sem a cerca de código); primeira linha = a da decisão — SHA-256 b19bc0e4adf9
-- OK (6) T-59 — importacao_erros.md cita o contrato v1.2.3 e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)
+- OK (3) EDIÇÃO v1.4->v1.5 — manifesto ordenado da edição: v1.4 562c51398d1e64f8… -> v1.5 656e60e5085f3622…
+- OK (6) T-59 — regras/importacao_erros.md v1 (bloco D-T59-07 de T59_decisoes, SHA-256 b19bc0e4adf9…, 127 linhas) + E-1 a E-5 da reconciliação (5 substituições, cada "antes" com 1 ocorrência; textos conferidos contra T59_T60_reconciliacao_2026-10-14.md, seção 3.1-D) — v1: 127 linhas; v1.1 reconstruída: 129 linhas
+- OK (6) T-59 — regras/importacao_erros.md v1.1 é igual, caractere a caractere, ao bloco D-T59-07 com E-1 a E-5 aplicadas, reconstruída por script (129 linhas, 12033 caracteres, sem a cerca de código): 2 linhas a mais, 4 trocadas, as demais idênticas e na mesma ordem; sem BOM nem CR; primeira linha com "v1.1, 2026-10-14" — SHA-256 4bc7098a8468
+- OK (6) T-59 — importacao_erros.md v1.1 cita o contrato v1.2.3, o validador mantido (saida/treino/ferramentas/validar_erros.py) e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)
 - OK (6) T-59 — saida/pacote/exemplo_erros_v1.json é igual, caractere a caractere, ao exemplo mínimo da decisão (D-T59-04); abre como JSON; tem os 12 campos da tabela D-T59-02
 - OK (6) T-59 — validador (validar_erros.py) sobre o exemplo: ACEITO, 0 incoerência (D-T59-05), ids fictícios listados como desconhecidos (caderno XX-0001; det XX-0001 e XX-0002; discursivas DX)
+- OK (6) T-59 — validador mantido (saida/treino/ferramentas/validar_erros.py, `python3 -I`) sobre o exemplo: ACEITO (código 0), 0 incoerência, 0 aviso `ordem:`, fora_dos_calculos com as 3 chaves vazias, mesmos ids desconhecidos que o registro
+- OK (6) T-59 — registro (D-R59-08): gerador_v1_5/validar_erros.py (19ab9c8b…) e validar_erros_teste.py (33132d5a…) continuam com o SHA-256 da T-61; o MANIFESTO os marca "registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)" com o mesmo SHA; a cópia mantida existe e difere do registro
 - OK (6) T-59 — .gitignore da raiz = as 2 linhas da decisão (seção 6, item 1): "# T-59 (D1 da GBQ): dados da candidata — nunca no git" e "/entrada/erros/"
 - OK (6) T-59 — git check-ignore: entrada/erros/x.json e entrada/erros/discursivas/…/resposta_candidata.md são ignorados; saida/treino/diagnostico_….md (agregado sem texto) NÃO é ignorado — .gitignore:2:/entrada/erros/ entrada/erros/x.json
 - OK (6) T-59 — o pacote v1.5 não traz campo novo (D-T59-10, item 1): nenhum `id` de simulado "SIM-S-…" (ainda não há simulado da semana aceito) e os 4 simulados são SIM-0, SIM-1, SIM-2, SIM-0-P2
 
-Resultados dos demais scripts: `validate.py` 112 verificações, 0 falhas (as mesmas 112 da v1.4, com o `nome` e o `geradoEm` esperados da v1.5); `estudante_fidelidade.py` 5793 comparações, 0 diferenças (exceções fechadas usadas: CAIXA 8 trocas, nota de BQ-0003 4 exibições, REALINHA 2 linhas; marcas residuais 2, as mesmas da v1.3: "a tecla F4" e "O F4 afirma que"); `sync_check.py` TUDO OK; `fidelidade_mutacao.py` 11 mutações, todas detectadas (255 diferenças no total).
+Resultados dos demais scripts: `validate.py` 116 verificações, 0 falhas (as 112 da v1.4, com o `nome` e o `geradoEm` esperados da v1.5, mais 4 da T-64 sobre as discursivas: D3, D4 e D5 = v1.1 com uma troca, e o estado esperado da GCE); `estudante_fidelidade.py` 5793 comparações, 0 diferenças (exceções fechadas usadas: CAIXA 8 trocas, nota de BQ-0003 4 exibições, REALINHA 2 linhas; marcas residuais 2, as mesmas da v1.3: "a tecla F4" e "O F4 afirma que"); `sync_check.py` TUDO OK; `fidelidade_mutacao.py` 13 mutações, todas detectadas (258 diferenças no total).
 
 Conferência (f), regeração byte a byte numa cópia limpa do repositório (`git clone` + os arquivos novos desta ocorrência, em outra pasta e com `PYTHONHASHSEED` variados), está registrada no `MANIFESTO.md` (o relatório não pode conter o resultado da própria regeração).
 
@@ -782,13 +808,17 @@ Conferência (f), regeração byte a byte numa cópia limpa do repositório (`gi
 | Artefato | Papel | SHA-256 (12) |
 |---|---|---|
 | `regras/pacote_contrato.md` | contrato v1.2.3 (errata de forma; registro em `saida/pacote/contrato_v1_2_3_2026-10-14.md`) | `be037db8e7c0` |
-| `regras/importacao_erros.md` | regra de importação do arquivo "Exportar meus erros" (texto integral da seção 2 da decisão) | `b19bc0e4adf9` |
+| `regras/importacao_erros.md` | regra de importação do arquivo "Exportar meus erros" **v1.1** (seção 2 da decisão com a errata E-1 a E-5 da T59_T60_reconciliacao, reconstruída por script na conferência (6)) | `4bc7098a8468` |
 | `saida/pacote/exemplo_erros_v1.json` | exemplo mínimo D-T59-04 (ids fictícios) | `7af182a8bfa4` |
 | `.gitignore` | ignora `/entrada/erros/` (dados da candidata; nunca no git) | `f7ccc9dcc904` |
-| `saida/pacote/gerador_v1_5/validar_erros.py` | validador do arquivo `camara2026.erros` v1 (seção 2 da regra; somente leitura) | `19ab9c8b359e` |
-| `saida/pacote/gerador_v1_5/validar_erros_teste.py` | teste do validador (exemplo, arquivo com ids reais, 3 casos inválidos, 1 incoerente, duplicado) | `33132d5a9d9a` |
+| `saida/treino/ferramentas/validar_erros.py` | **validador mantido** (D-R59-08): seção 2 da regra v1.1; R-1 ordem das listas → aviso, R-2 `NaN`/`Infinity` recusados, R-3 BOM tolerado com aviso, A1 `ne`/`tl` fora do domínio = incoerência só daquela discursiva; somente leitura | `e22fc41f2490` |
+| `saida/treino/ferramentas/validar_erros_teste.py` | teste do validador mantido (autônomo; casos em diretório temporário) | `366005291a45` |
+| `saida/pacote/gerador_v1_5/validar_erros.py` | validador como gerado na T-61 — **registro** (não muda; conferência (6) e passo 8 do pipeline) | `19ab9c8b359e` |
+| `saida/pacote/gerador_v1_5/validar_erros_teste.py` | teste do registro (exemplo, arquivo com ids reais, 3 casos inválidos, 1 incoerente, duplicado) | `33132d5a9d9a` |
 
-Saída do teste do validador (`out/validar_erros_stdout.txt`; casos gravados em `out/casos_erros/`):
+Teste do validador **mantido** (`python3 -I saida/treino/ferramentas/validar_erros_teste.py`, rodado de `/`): 50 conferências OK, 0 FALHA, código de saída 0; casos num diretório temporário apagado ao fim (nada gravado no repositório).
+
+Saída do teste do **registro** da T-61 (`out/validar_erros_stdout.txt`; casos gravados em `out/casos_erros/`):
 
 ```text
 OK    exemplo D-T59-04: ACEITO (código 0), forma e tipos ok, 0 incoerência | ACEITO
@@ -814,9 +844,9 @@ Pasta `entrada/erros/` criada vazia e ignorada pelo git. Nenhum dado da candidat
 | Objeto | SHA-256 | bytes |
 |---|---|---|
 | `saida/pacote/pacote.json` v1.4 (git `e9b6402`) | `f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54` | 621744 |
-| `saida/pacote/pacote.json` v1.5 | `d6b8a5beae074851c1ebb4799aa01e58645e220c6e727d0f51eab9e294678289` | 621744 |
+| `saida/pacote/pacote.json` v1.5 | `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3` | 621887 |
 | `saida/estudante/` v1.4 (43 arquivos; manifesto ordenado) | `562c51398d1e64f8baa6d40932b7344b40639ffdf384783bbdc81064db12cb06` | — |
-| `saida/estudante/` v1.5 (43 arquivos; manifesto ordenado) | `0f97d689316a8cf9a30378bb877cae5bb8521ae770385966b3ecc2840bcb2db4` | — |
+| `saida/estudante/` v1.5 (43 arquivos; manifesto ordenado) | `656e60e5085f3622659dc9bf776894e912834b2860eb64d9c38b9aabca6e3761` | — |
 | `regras/pacote_contrato.md` v1.2.2 (git `e9b6402`) | `678cfe6da9c156fe4823d2443db6fe9a50b17f1bded73bd3360d0de1d2ca30da` | 26823 |
 | `regras/pacote_contrato.md` v1.2.3 | `be037db8e7c06e1ae2276f16063ed4b752ef0865a9141511d0e353d642965240` | 30385 |
 
@@ -824,7 +854,55 @@ O SHA-256 do próprio relatório e o manifesto de arquivos do gerador estão em 
 
 ### 13.6 O que NÃO mudou
 
-Nenhum item, enunciado, comando, gabarito, justificativa, nota, aderência, `volatil`, simulado, lote (resumo, curso, pares, pegadinhas, `legendaMecanismo`), discursiva ou padrão de resposta (conferência (0): 286 itens, 4 simulados, 10 lotes, 5 discursivas e 47 entradas de edital idênticos). Nenhum campo obrigatório do contrato; `versao` 1. A edição do estudante: 42 de 43 arquivos idênticos byte a byte. Os avisos do SIM-0 continuam no pacote e não exibidos. A plataforma (`saida/plataforma/`) não foi tocada (a T-60 é de outro agente). A matéria da rodada semanal (diagnóstico, simulado da semana, correção de discursivas) só entra no pacote por gatilho aceito, na ocorrência seguinte da T-12; o pacote v1.5 não traz simulado da semana (D-T59-10, item 1).
+Nenhum item, enunciado, comando, gabarito, justificativa, nota, aderência, `volatil`, simulado, lote (resumo, curso, pares, pegadinhas, `legendaMecanismo`) nem aspecto, quesito, conceito ou valor de discursiva (conferência (0): 286 itens, 4 simulados, 10 lotes e 47 entradas de edital idênticos; nas 5 discursivas, `id`, `tipo`, `comando`, `aspectos` e `quesitos` idênticos, e `padrao` idêntico em D1 e D2; em D3, D4 e D5 muda só a nota de fórmula, seção 14). Nenhum campo obrigatório do contrato; `versao` 1. A edição do estudante: 41 de 43 arquivos idênticos byte a byte (mudam `README.md` e `DISCURSIVAS_padrao.md`). Os avisos do SIM-0 continuam no pacote e não exibidos. A plataforma (`saida/plataforma/`) não foi tocada (a T-60 é de outro agente). A matéria da rodada semanal (diagnóstico, simulado da semana, correção de discursivas) só entra no pacote por gatilho aceito, na ocorrência seguinte da T-12; o pacote v1.5 não traz simulado da semana (D-T59-10, item 1).
+
+## 14. Regeração R1 da T-61 com a T-64 (D-T64-V15) e correção da T-59
+
+Histórico preservado: a primeira passagem da T-61 (seções 1 a 13 na forma em que foram entregues à gbq-cqe) tinha o pacote com SHA-256 `d6b8a5beae074851c1ebb4799aa01e58645e220c6e727d0f51eab9e294678289` (621744 bytes, o mesmo tamanho da v1.4), diff v1.4 → v1.5 de exatamente 2 diferenças (`nome`, `geradoEm`), edição com manifesto ordenado `0f97d689316a8cf9…` (só o README mudava), 112 verificações em `validate.py` e 134 conferências. Esta seção registra a regeração pedida em `saida/pacote/T59_T60_reconciliacao_2026-10-14.md` (seção 5, item 3) e pela D-T64-V15 (`DECISOES.md`), depois da aprovação da T-64 (`saida/gce/QA_T64_2026-10-14_gce-cqfp.md`, APROVADO; reconciliação `saida/gce/T64_reconciliacao_2026-10-14.md`, D1-T64-5). As seções 1 a 13 acima já descrevem o estado final.
+
+### 14.1 O que mudou no gerador (frente à primeira passagem)
+
+| Arquivo | Mudança |
+|---|---|
+| `p2.py` | A R6 (nota de fórmula escrita no código, linhas 392–393; achado O-4 do QA da gce-cqfp) passa a ser **lida de `saida/gce/GCE_Lote3_padroes_GCE.md`**: da linha `R6. …` até a linha em branco, unidas por espaço, sem recuo e sem o rótulo; o gerador aborta se o texto não começar e terminar como a R6 nem trouxer as duas fórmulas com os itens do edital. Não há mais fórmula literal no código. D3 recebe a nota nova pelo recorte (f) do Lote 2, que já lia o arquivo. |
+| `validate.py` | O bloco das discursivas passa a esperar D1 e D2 iguais à v1.1 e D3, D4 e D5 iguais à v1.1 com UMA troca cada (nota lida dos arquivos de padrões por regex, leitura independente do `p2.py`), mais o estado esperado da GCE (D1-T64-5). |
+| `conferencias_v15.py` | (0) passa a esperar 5 diferenças, com reconstrução byte a byte da v1.5 a partir da v1.4 por 5 trocas de texto; (1) e (3) incorporam D3, D4, D5 e as 3 linhas de `DISCURSIVAS_padrao.md`; (6) reconstrói a regra v1.1 (bloco D-T59-07 + E-1 a E-5, cada "antes" com 1 ocorrência) e a compara caractere a caractere, confere o validador mantido e a marca "registro" no `MANIFESTO.md`. |
+| `fidelidade_mutacao.py` | +2 mutações (D3 e R6 voltam à fórmula da questão em `DISCURSIVAS_padrao.md`): 13 no total, todas detectadas. |
+| `relatorio_v1_5.py` | Este relatório: estado final nas seções 1 a 13 e esta seção. |
+| `MANIFESTO.md` | `validar_erros.py` e `validar_erros_teste.py` marcados "registro (T-59); versão mantida em `saida/treino/ferramentas/` (D-R59-08)", com o mesmo SHA-256; tabela de SHA-256 e a conferência (f) refeitas. |
+| Não alterados | `report.py` (linha 91 descreve a R6 antiga) é script histórico não executável da R0/R1 e continua idêntico ao de `gerador_v1_4/` (conferência (4) T57 s3-6); a descrição corrente da R6 está em `relatorio_v1_5.py`. Os demais scripts do gerador, `rodar_tudo.sh` e os dois `validar_erros*.py` (registro) também não mudaram. |
+
+### 14.2 Diff final v1.4 → v1.5 (pacote)
+
+| Campo | Antes (v1.4) | Depois (v1.5) |
+|---|---|---|
+| `nome` | `Câmara 2026 — pacote F4 (v1.4)` | `Câmara 2026 — pacote F4 (v1.5)` |
+| `geradoEm` | `2026-10-13` | `2026-10-14` |
+| `discursivas[D3].padrao` (peca) | `Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.` | `Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.` |
+| `discursivas[D4].padrao` (questao) | `Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.` | `Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.` |
+| `discursivas[D5].padrao` (peca) | `Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.` | `Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.` |
+
+Cada troca confere **literalmente** com os arquivos de padrões: Lote 2, linha 159 (seção (f) PEÇA, antes do registro de errata): "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL."; Lote 3, R6 (linhas 28–31): "Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d)." As fórmulas são as do edital (9.8.5.1, d, para a questão; 9.8.5.2, d, para a peça). Estado esperado pela GCE (D1-T64-5), conferido por `validate.py` e pela conferência (0): `NQ = NC − 3 × NE ÷ TL` em D1, D4 e D5 (3); `NPT = NC − 6 × NE ÷ TL` em D3, D4 e D5 (3); `NQ = NC` em D3: 0. SHA-256 do pacote: primeira passagem `d6b8a5beae074851…`; **final `b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3`** (621887 bytes).
+
+### 14.3 Edição do estudante
+
+`README.md` (versão e data, como antes) e `DISCURSIVAS_padrao.md`, só as linhas 321 (D3), 404 (D4) e 504 (D5), as mesmas três trocas do pacote (listadas na seção 13.2). Os outros 41 arquivos: idênticos byte a byte aos da v1.4. Manifesto ordenado da edição: primeira passagem `0f97d689316a8cf9…`; **final `656e60e5085f3622…`**. A fidelidade (`estudante_fidelidade.py`): 5793 comparações, 0 diferenças; a mutação que desfaz cada uma das 3 notas é detectada.
+
+### 14.4 Correção da T-59 refletida aqui
+
+A regra `regras/importacao_erros.md` passa a **v1.1** (errata E-1 a E-5 de `T59_T60_reconciliacao_2026-10-14.md`, seção 3.1-D). A conferência (6) reconstrói a v1.1 por script e a compara caractere a caractere; o relatório cita a regra como "v1.1, 2026-10-14 (errata em `T59_T60_reconciliacao_2026-10-14.md`)". O validador mantido e seu teste estão em `saida/treino/ferramentas/` (relatório da correção: `saida/treino/ferramentas/T59_correcao_R1_2026-10-14.md`); os de `gerador_v1_5/` são registro e têm o SHA-256 inalterado (`19ab9c8b…` e `33132d5a…`).
+
+### 14.5 Números da regeração
+
+| Medida | Primeira passagem | Regeração R1 (final) |
+|---|---|---|
+| `validate.py` | 112 verificações, 0 falhas | 116 verificações, 0 falhas |
+| `conferencias_v15.py` | 134 conferências, 0 falhas | 141 conferências, 0 falhas |
+| `fidelidade_mutacao.py` | 11 mutações | 13 mutações, todas detectadas |
+| Diff v1.4 → v1.5 do pacote | 2 diferenças (`nome`, `geradoEm`) | 5 diferenças (+ `padrao` de D3, D4 e D5) |
+| Edição: arquivos diferentes da v1.4 | 1 (`README.md`) | 2 (`README.md`, `DISCURSIVAS_padrao.md`) |
+
+A regeração byte a byte numa cópia limpa do repositório, a não regressão integral e o determinismo (3 execuções, `PYTHONHASHSEED` diferentes) estão registrados no `MANIFESTO.md` (o relatório não pode conter o resultado da própria regeração).
 
 ## Apêndice A — regras literais da edição do estudante (trecho apagado em ⟦ ⟧)
 
@@ -986,5 +1064,5 @@ Nota: "n" não é repetido aqui porque as regras da fase "post" casam com o text
 
 ## Pendências
 
-- QA: a gbq-cqe confere a v1.5 (o diff v1.4 → v1.5 restrito a `nome` e `geradoEm`, a edição só com o README alterado, a não regressão da seção 3 da `T57_reconciliacao`, o contrato v1.2.3, `regras/importacao_erros.md`, o `.gitignore` e o validador); a gbq-gerencia reconcilia e emite o gatilho A **conjunto** da v1.5 (pacote, edição e plataforma da T-60, com o QA funcional aprovado; D-T59-10 item 6). Nada disso foi feito aqui.
-- Arquivos do repositório criados ou alterados por esta sessão (T-59 e T-61): `saida/pacote/pacote.json` (v1.5), `saida/estudante/README.md` (regerada, só ele muda), `saida/pacote/pacote_relatorio_2026-10-14_v1_5.md`, `saida/pacote/gerador_v1_5/` (com `MANIFESTO.md`, `validar_erros.py` e `validar_erros_teste.py`), `regras/pacote_contrato.md` (só a errata v1.2.3), `saida/pacote/contrato_v1_2_3_2026-10-14.md`, `regras/importacao_erros.md`, `saida/pacote/exemplo_erros_v1.json`, `.gitignore` e a pasta `entrada/erros/` (vazia, ignorada). Nenhum outro; a secretaria deve atualizar o estado. A promoção de `out/` para o repositório foi um passo explícito, depois de todas as conferências com 0 falhas.
+- QA: a gbq-cqe confere a v1.5 (o diff v1.4 → v1.5 restrito a `nome`, `geradoEm` e ao `padrao` de D3, D4 e D5, a edição só com o README e as 3 notas de `DISCURSIVAS_padrao.md` alterados, a regeração R1 da seção 14, a não regressão da seção 3 da `T57_reconciliacao`, o contrato v1.2.3, `regras/importacao_erros.md` v1.1, o `.gitignore` e o validador mantido); a gbq-gerencia reconcilia e emite o gatilho A **conjunto** da v1.5 (pacote, edição e plataforma da T-60, com o QA funcional aprovado; D-T59-10 item 6). Nada disso foi feito aqui.
+- Arquivos do repositório criados ou alterados por esta sessão (T-59 e T-61): `saida/pacote/pacote.json` (v1.5), `saida/estudante/README.md` e `saida/estudante/DISCURSIVAS_padrao.md` (regeradas; só eles mudam), `saida/pacote/pacote_relatorio_2026-10-14_v1_5.md`, `saida/pacote/gerador_v1_5/` (com `MANIFESTO.md`, `validar_erros.py` e `validar_erros_teste.py`, estes dois como registro), `saida/treino/ferramentas/` (validador mantido, seu teste e o relatório da correção R1), `regras/pacote_contrato.md` (só a errata v1.2.3), `saida/pacote/contrato_v1_2_3_2026-10-14.md`, `regras/importacao_erros.md` (v1.1), `saida/pacote/exemplo_erros_v1.json`, `.gitignore` e a pasta `entrada/erros/` (vazia, ignorada). Nenhum outro; a secretaria deve atualizar o estado. A promoção de `out/` para o repositório foi um passo explícito, depois de todas as conferências com 0 falhas.

@@ -29,6 +29,9 @@ MUT = [
  ('L1_estudo.md', lambda t: t.replace('e fast)*       | streaming)', 'e fast)* | streaming)', 1)),
  ('L6B_gabarito.md', lambda t: t.replace('Fonte: conceito geral. Tema da tríade', 'Fonte: conceito geral (a definição da tríade não foi confirmada em fonte; ver curso 4.1.1). Tema da tríade', 1)),
  ('DISCURSIVAS_padrao.md', lambda t: t[:t.rindex('Notas de correção\n') + len('Notas de correção\n')] + 'Alínea c da discursiva: NÃO se exige enquadrar o\n' + t[t.rindex('Notas de correção\n') + len('Notas de correção\n'):]),
+ # T-64 (v1.5 regerada): a nota de fórmula da peça (D3) e a R6 (D4/D5) voltam ao texto antigo (fórmula da questão) -> a fidelidade tem de acusar
+ ('DISCURSIVAS_padrao.md', lambda t: t.replace('Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.', 'Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.', 1)),
+ ('DISCURSIVAS_padrao.md', lambda t: t.replace('Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso', 'Nota: NQ = NC − 3 × NE ÷ TL. O peso', 1)),
 ]
 
 # cada mutação é aplicada sozinha, numa cópia nova da edição, e a fidelidade tem de acusar diferença nela (a edição gerada não é tocada)

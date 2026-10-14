@@ -289,9 +289,32 @@ print('INFO DETAQ residual:', bare)
 # ---------------- discursivas ----------------
 _ant_d5 = old['discursivas'][4]['padrao']
 _i5 = _ant_d5.index('R2. Alínea c'); _i3 = _ant_d5.index('R3. Voz como dado sensível')
-chk('discursivas: 5 (D1–D5); D1 a D4 idênticas às da v1.1; D5 igual à da v1.1 exceto o anexo de notas: sem a R2 (trecho literal removido) e com o rótulo "Notas de correção (GCE, R3–R4)" (D1-T54-a da GCE); comando, aspectos e quesitos da D5 iguais',
-    len(new['discursivas']) == 5 and new['discursivas'][:4] == old['discursivas'][:4] and {k: v for k, v in new['discursivas'][4].items() if k != 'padrao'} == {k: v for k, v in old['discursivas'][4].items() if k != 'padrao'}
-    and new['discursivas'][4]['padrao'] == _ant_d5[:_i5].replace('Notas de correção (GCE, R2–R4)\n', 'Notas de correção (GCE, R3–R4)\n') + _ant_d5[_i3:])
+# T-64 (D-T63-02, D-T64-V15; D1-T64-5 da GCE): as notas de fórmula vêm dos arquivos canônicos de padrões, lidas aqui por regex sobre o texto normalizado (leitura independente do p2.py)
+_n2 = re.findall(r'Nota \(edital, 9\.8\.5\.2, d\): NPT = NC − 6 × NE ÷ TL\.', nzs(read('saida/gce/GCE_Lote2_padroes_GCE.md')).split('FIM DOS PADRÕES — LOTE 2')[0])   # antes do registro de errata, que repete a fórmula entre aspas
+_n3 = re.findall(r'R6\. (Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um\. Nota: questão: NQ = NC − 3 × NE ÷ TL \(9\.8\.5\.1, d\); peça: NPT = NC − 6 × NE ÷ TL \(9\.8\.5\.2, d\)\. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial\.) ', nzs(read('saida/gce/GCE_Lote3_padroes_GCE.md')))
+assert len(_n2) == 1 and len(_n3) == 1, (_n2, _n3)
+_N2_ANT, _N2_NOVA = 'Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.', _n2[0]
+_R6_ANT = 'Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.'
+_R6_NOVA = _n3[0]
+def _troca(t, a, b):
+    assert t.count(a) == 1, (a[:40], t.count(a))
+    return t.replace(a, b)
+_exp_d3 = _troca(old['discursivas'][2]['padrao'], _N2_ANT, _N2_NOVA)
+_exp_d4 = _troca(old['discursivas'][3]['padrao'], _R6_ANT, _R6_NOVA)
+_exp_d5 = _troca(_ant_d5[:_i5].replace('Notas de correção (GCE, R2–R4)\n', 'Notas de correção (GCE, R3–R4)\n') + _ant_d5[_i3:], _R6_ANT, _R6_NOVA)
+_sem_padrao = lambda d: {k: v for k, v in d.items() if k != 'padrao'}
+chk('discursivas: 5 (D1–D5); D1 e D2 idênticas às da v1.1; D3, D4 e D5 iguais às da v1.1 só no campo `padrao` quanto às demais chaves (comando, aspectos, quesitos, tipo, id)',
+    len(new['discursivas']) == 5 and new['discursivas'][:2] == old['discursivas'][:2] and all(_sem_padrao(new['discursivas'][k]) == _sem_padrao(old['discursivas'][k]) for k in (2, 3, 4)))
+chk('discursivas (T-64): D3 = D3 da v1.1 com UMA troca, a linha da nota da peça "Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL." -> "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL." (literal de GCE_Lote2_padroes_GCE.md, 1 ocorrência no arquivo)',
+    new['discursivas'][2]['padrao'] == _exp_d3 and _N2_NOVA == 'Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.')
+chk('discursivas (T-64): D4 = D4 da v1.1 com UMA troca, a nota da R6 (texto da R6 de GCE_Lote3_padroes_GCE.md, unido por espaço, sem recuo e sem o rótulo "R6. ")',
+    new['discursivas'][3]['padrao'] == _exp_d4 and _R6_NOVA in new['discursivas'][3]['padrao'])
+chk('discursivas (T-64; D1-T54-a da GCE): D5 = D5 da v1.1 sem o trecho literal da nota R2, com o rótulo "Notas de correção (GCE, R3–R4)" e a mesma troca da R6 da D4',
+    new['discursivas'][4]['padrao'] == _exp_d5 and _R6_NOVA in new['discursivas'][4]['padrao'])
+_cnt = lambda t: [d['id'] for d in new['discursivas'] if t in d['padrao']]
+chk('discursivas (T-64; estado esperado da GCE, D1-T64-5): "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0; a R6 antiga não está mais escrita no código (p2.py lê a R6 do arquivo)',
+    _cnt('NQ = NC − 3 × NE ÷ TL') == ['D1', 'D4', 'D5'] and _cnt('NPT = NC − 6 × NE ÷ TL') == ['D3', 'D4', 'D5'] and 'NQ = NC' not in new['discursivas'][2]['padrao'] and 'NE ÷ TL' not in new['discursivas'][1]['padrao']
+    and '9.8.5.1' not in new['discursivas'][2]['padrao'] and 'Nota: NQ = NC − 3 × NE ÷ TL.' not in read('saida/pacote/gerador_v1_5/p2.py'))
 chk('discursivas: sem observação "inferido pela EXEC" (0 ocorrência)', not re.search(r'itensEdital[^"]{0,40}inferid|inferid[^"]{0,40}EXEC|pela EXEC|\bEXEC\b', raw))
 chk('discursivas: "14,30" (E11) não aparece em comando/padrão (E11 sem efeito no exportado)', not any('14,30' in d['comando'] or '14,30' in d['padrao'] for d in new['discursivas']))
 for d in new['discursivas']:

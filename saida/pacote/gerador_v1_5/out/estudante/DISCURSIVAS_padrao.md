@@ -318,7 +318,7 @@ Aspectos:
 Conceito 0 — Não concluiu nem recomendou. Conceito 1 — Um aspecto.
 Conceito 2 — Dois ou três. Conceito 3 — Os quatro.
 
-Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.
+Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.
 Gênero da peça: HIPÓTESE por analogia para o Cargo 11. Se o
 gênero real for outro, os quesitos 2.2 a 2.4 valem como conteúdo.
 ```
@@ -401,7 +401,7 @@ Quesito 2.3 — Direitos autorais e ética [valor: 4,30]
  - Conceito 2: abordou (ix) e (x), mas sem indicar dispositivo correto em (ix).
  - Conceito 3: abordou (ix) e (x), com o dispositivo correto em (ix).
 
-Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
 
 Notas de correção
 Alínea c da discursiva: NÃO se exige enquadrar o
@@ -501,7 +501,7 @@ Quesito 2.5 — Recomendações e conclusão com dispositivos [valor: 5,50]
  - Conceito 2: dois ou três.
  - Conceito 3: quatro ou cinco.
 
-Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
 
 Notas de correção
 Voz como dado sensível (biométrico): nem exigido nem penalizado.

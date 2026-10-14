@@ -140,7 +140,7 @@ Segurança da informação é o conjunto de medidas para proteger a informação
 Engenharia social: manipulação de pessoas, e não de máquinas, para obter informação ou acesso. Boa parte dos golpes do 4.3 explora o fator humano.
 
 4.0.2 GOVERNANÇA DIGITAL (conceito geral)
-Governança digital, no sentido amplo do edital, é o conjunto de políticas, responsabilidades, processos e controles pelos quais uma organização dirige e acompanha o uso da tecnologia e dos dados: quem decide, quem responde, quais regras valem (política de segurança, classificação da informação, gestão de acessos, resposta a incidentes, conscientização dos usuários). Nesta produção NÃO foi aberta fonte institucional que defina o termo, e o edital não o detalha; por isso, NÃO HÁ ITEM sobre governança digital neste lote (a especificação previa o item "se houver base").
+Governança digital, no sentido amplo do edital, é o conjunto de políticas, responsabilidades, processos e controles pelos quais uma organização dirige e acompanha o uso da tecnologia e dos dados: quem decide, quem responde, quais regras valem (política de segurança, classificação da informação, gestão de acessos, resposta a incidentes, conscientização dos usuários). NÃO foi aberta fonte institucional que defina o termo, e o edital não o detalha; por isso, NÃO HÁ ITEM sobre governança digital neste lote.
 
 ### 4.0.3 EXEMPLO APLICADO AO LEGISLATIVO
 Política de segurança: o servidor do Derep (antigo DETAQ) não compartilha a senha da conta institucional, não deixa notas taquigráficas de reunião reservada em pasta aberta e comunica ao setor responsável qualquer e-mail suspeito. Cada medida é um controle; a falta delas é vulnerabilidade.

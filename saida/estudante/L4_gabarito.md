@@ -1,5 +1,7 @@
 # Lote 4 — TID-IA (P1 5.1–5.3 e 6) — gabarito e justificativas
 
+Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)
+
 ### L4-01 — Gabarito: C
 
 - Item do edital: P1-5.1

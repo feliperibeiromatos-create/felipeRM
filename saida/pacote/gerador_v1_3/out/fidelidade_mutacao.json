@@ -1,0 +1,18 @@
+{
+ "mutacoes": 4,
+ "arquivos_mutados": [
+  "L1_itens.md",
+  "L2_gabarito.md",
+  "L3_estudo.md",
+  "L5_gabarito.md"
+ ],
+ "diferencas_detectadas": 5,
+ "arquivos_com_diferenca": [
+  "(legenda)",
+  "L1_itens.md",
+  "L2_gabarito.md",
+  "L3_estudo.md",
+  "L5_gabarito.md"
+ ],
+ "todas_detectadas": true
+}

@@ -1,0 +1,537 @@
+[
+ {
+  "extra": "",
+  "n": "JSON parseia sem erro; termina em newline; UTF-8",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "formato: indent=1 e ensure_ascii=False (reserialização idêntica)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "chaves de topo e valores",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 id duplicado (286 ids)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "14 campos obrigatórios presentes em todos os itens",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "tipos: ano/numero int; demais str",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "campos extras só dentre comandoOriginal, volatil, nota",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "nenhum item sem id, enunciado e gabarito C/E",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 \"QA PENDENTE\" no JSON",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "edital: 47 entradas = v1.1 (idêntico)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "todo itemEdital existe no edital",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "aderencia só direta|parcial; rotulo permitido",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "volatil só true; nota só str não vazia; comandoOriginal só str não vazia",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'ENTREGA DE LOTE'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'FIM DA PARTE'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'FIM DO LOTE'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de '====='",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'Fundador: gravar'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'Observação para a GCB-CQFP'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "0 ocorrência de 'Derep, antigo DETAQ'",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: 112 linhas no CSV; 106 exportáveis (C/E, não anuladas); exportados = exportáveis",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: 6 anuladas fora (BQ-0029, 0030, 0031, 0060, 0062, 0063)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: id, gabarito, enunciado, itemEdital, certame, cargo, url, ano, numero = CSV (106/106)",
+  "ok": true
+ },
+ {
+  "extra": "{'C': 60, 'E': 46}",
+  "n": "banco: 60 C / 46 E",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: comando = texto_comando; textoBase = texto_base ou \"\" (106/106)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: aderencia = coluna aderencia do CSV (106/106), sem recálculo",
+  "ok": true
+ },
+ {
+  "extra": "{'parcial': 39, 'direta': 67}",
+  "n": "banco: 67 direta / 39 parcial",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: os 60 da v1.1 com o MESMO comando (60/60)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: os 60 da v1.1 com aderência igual (37 direta/23 parcial)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: textoBase não vazio só em BQ-0049, 0050, 0051; os 60 da v1.1: textoBase = texto da v1.1 ou \"\"",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: volatil = 8 (BQ-0015, 0017, 0035, 0064, 0075, 0076, 0086, 0089)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "nota: só BQ-0003 e BQ-0040; valor = texto do contrato (regra 4 da v1.1.1) e = trecho final de observacoes",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: BQ-0072, 0077, 0084, 0109, 0110, 0111 presentes; BQ-0110 sem nota",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "banco: 0 item normalizado; BQ-0070, 0071, 0112 com comando inteiro e sem comandoOriginal",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "AUTORAL: 180 ids = registro v3 (180/180)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "AUTORAL: gabarito = registro v3 (180/180)",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "AUTORAL: subitem compatível com o registro (180/180)",
+  "ok": true
+ },
+ {
+  "extra": "['6A-01', '6A-09', '6A-10', '6A-14', '6A-15', 'A5-14', 'A5-15', 'A5-16', 'A5-17', 'L1-Q14', 'L1-Q16', 'L1-Q18', 'L1-Q19', 'L3-Q21', 'L4-15']",
+  "n": "AUTORAL: volatil = VOLÁTIL + REVERIFICAR do registro (15)",
+  "ok": true
+ },
+ {
+  "extra": "{'E': 91, 'C': 89}",
+  "n": "AUTORAL: 89 C / 91 E",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "AUTORAL: [TS] no registro = 91; [TS] lido dos d-G dos arquivos canônicos = registro (180/180)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "AUTORAL: justificativa não vazia; banco: justificativa vazia",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "AUTORAL: textoBase \"\" em 180/180 (F2); 0 \"nenhum\" em textoBase (286)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F2: textoBase vazio em 283 de 286 itens (283 = 286 − 3 de BQ-0049..51)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "volatil total = 23 (banco 8 + AUTORAL 15), L3-Q21 marcado",
+  "ok": true
+ },
+ {
+  "extra": "{'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15}",
+  "n": "normalização: 90 itens com comandoOriginal = L4 20, A5/L5 20, 4C/L4C 10, 5C/L5C 10, L6A 15, L6B 15",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "normalização: comando = comandoOriginal com só o trecho da numeração trocado por \"julgue os itens a seguir.\"",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "normalização: parte da frase anterior a \"julgue os itens\" idêntica (resto literal)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "normalização: nenhum comando restante com faixa de itens; L1–L3 (90) sem comandoOriginal e com comando literal",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "normalização: base v1.1 também 90 (mesma contagem por lote)",
+  "ok": true
+ },
+ {
+  "extra": "{'comando': 90, 'comandoOriginal': 90, 'enunciado': 1, 'justificativa': 21, 'textoBase': 180}",
+  "n": "AUTORAL v1.1 → v1.2: campos alterados só textoBase(180), comando/comandoOriginal(90), justificativa(21), enunciado(1: L1-Q04)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F1: L1-Q04 contém \"áudio–texto\"; 0 \"áudio– texto\" no JSON",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F1: nenhuma outra letra+\"– \"+letra no JSON (efeito de quebra de linha)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F4 (R1): 21 justificativas alteradas (21 = 18 da R0 + 6B-06, 6B-15, L2-Q21)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F4 (R1): cada alteração é SÓ deleção, salvo as 2 trocas de caixa fechadas da C-05 (4C-08, 5C-06: minúscula → maiúscula na inicial)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F4: justificativas finais = depois",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "F4 (R1/C-09): 0 marca de processo (CQFP/CQE/CPP/GCE/GCB/GBQ/EXEC/T-xx/(vN/Oxx/Lição/R-4C1/Risco + QA, O-n, Retificação, \"Gabarito C|E mantido\") nas 180 justificativas AUTORAL",
+  "ok": true
+ },
+ {
+  "extra": "ocorrências totais da forma correta: 13",
+  "n": "F5: 0 \"Derep, antigo DETAQ\"; \"Derep (antigo DETAQ)\" no L1 (curso, E10)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "contagem por lote = declarada {'L1': 20, 'L1C': 10, 'L2': 30, 'L3': 30, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15}",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "lotes: itensEdital, pares e pegadinhas são listas JSON em 10/10 lotes; itensEdital ⊂ edital",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "lotes: campos id, nome, prova, itensEdital, resumo, curso, pares, pegadinhas (+ legendaMecanismo, opcional, só em L4, L4C, L5, L5C, L6A, L6B)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "v1.3 legendaMecanismo: 6 lotes, string não vazia, literal da tabela 2.3 do QA da T-53 (L4 = L4C = L5C; L5 \"Mecanismos: …\"; L6A = L6B \"atribuição errada (AT)\"); L1, L1C, L2, L3 sem o campo",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "v1.3 legendaMecanismo: sem ponto final, sem quebra de linha, e ocorre literal (1 vez, em linha \"Legenda:\") no arquivo canônico do lote",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "lotes: itensEdital iguais aos da v1.1 (10/10)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "pares por lote iguais à v1.1 (L1 17, L2 22, L3 28, L4 20, L5 15, L6A 19, L6B 18)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "pegadinhas.itemEdital existem no edital",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F3: toda pegadinha tem itemEdital, rotulo (não vazio) e texto (não vazio), nessa ordem",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "F3: todo rotulo é trecho literal do arquivo canônico do lote ou do edital (sem marcas internas)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "F3: nenhum rotulo com marca interna ([V, [TS], F1.., U1.., verificado em, ITEM)",
+  "ok": true
+ },
+ {
+  "extra": "{'L1': 19, 'L1C': 4, 'L2': 43, 'L3': 42, 'L4': 32, 'L4C': 0, 'L5': 48, 'L5C': 0, 'L6A': 35, 'L6B': 39}",
+  "n": "F3 (R1): pegadinhas L1 19, L5 48, total 262 (R0: 20, 52, 267); 5 reuniões registradas (C-06 a C-08)",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "F3: a junção dos fragmentos (separador original) reproduz cada entrada da v1.1, salvo o ponto final",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "erratas: 32 aplicações registradas; 0 FALHA; estados {'APLICADA': 31, 'JÁ PRESENTE': 1}",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "erratas: Y de cada errata presente no JSON (27 aplicações com Y)",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "erratas: X de cada errata ausente do JSON (fora das ocorrências de Y)",
+  "ok": true
+ },
+ {
+  "extra": "[{'lote': 'L1', 'id': 'E6', 'em_arquivo': True, 'no_json': False}, {'lote': 'L1', 'id': 'E11', 'em_arquivo': True, 'no_json': False}, {'lote': 'L1C', 'id': 'E2', 'em_arquivo': True, 'no_json': False}, {'lote': 'L2', 'id': 'E3a', 'em_arquivo': True, 'no_json': False}]",
+  "n": "erratas fora do exportado: alvo existe no arquivo e X/Y NÃO vai ao JSON",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L1 E12: resumo do L1 contém a Y e não contém \"não mede pontuação nem locutor\"",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L2 E7: resumo do L2 (2.4) com Y",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L3 E4: par 20 com \"suprimida pela MP nº 869/2018, convertida na Lei 13.853/2019\" e 0 \"suprimida pela Lei 13.853/2019)\"",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L3 Adendo 2: \"Contexto institucional — Ato da Mesa nº 225\" 1 vez no curso (4.1), 3.1 sem duplicata; bloco T-08/T-44 do 3.1 intacto",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L3 Adendo 2: texto inserido = texto literal do Adendo 2 da consolidação",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "L5 Tukey (T-47): curso do L5 8.2 contém \"O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta.\"",
+  "ok": true
+ },
+ {
+  "extra": "[]",
+  "n": "INFO DETAQ fora da forma \"Derep (antigo DETAQ)\" em curso/resumo",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas: 5 (D1–D5) idênticas à v1.1",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas: sem observação \"inferido pela EXEC\" (0 ocorrência)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "discursivas: \"14,30\" (E11) não aparece em comando/padrão (E11 sem efeito no exportado)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "D4: anexo R2–R4 é cópia literal das linhas 14–23 do arquivo de padrões",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "D5: anexo R2–R4 é cópia literal das linhas 14–23 do arquivo de padrões",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados: ids [SIM-0, SIM-1, SIM-2, SIM-0-P2]; tipos; versões",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados: n = tamanho de itens = 60, 40, 40, 25; chaves id,nome,tipo,versao,n,itens (+ avisos, opcional, só no SIM-0)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "v1.3 avisos (SIM-0): lista de 3 strings = avisos 1, 2 e 4 da folha canônica, sem a numeração; aviso 2 com a sublista na mesma string, recuo de 3 espaços; avisos 3, 5, 6, 7 e 8 não entram",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "v1.3 avisos: início literal \"**Simulado diagnóstico, não final.**\", \"**Aderência PARCIAL (23 itens).**\", \"**Desequilíbrio C/E (contagem real).**\"; aviso 1 mantém \"(D-ADERENCIA: parcial só em diagnóstico)\" no campo (D-T53-07); só o SIM-0 tem o campo",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados: todo id de simulado existe em itens; 0 repetido dentro de cada simulado",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados: gabarito do simulado (arquivo *_gabarito.md) = gabarito do item no pacote (165/165)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0: 60 do banco; = banco (comando+texto da folha); 33 C/27 E; 4 volatil (BQ-0015, 0017, 0035, 0064); 23 parcial",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0 = os 60 BQ da v1.1 (mesma lista e ordem)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-1 = v1.1 (40 ids, mesma ordem)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-1: só AUTORAL; sem volatil; sem parcial; C/E={'C': 20, 'E': 20}",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-2: só AUTORAL; sem volatil; sem parcial; C/E={'C': 20, 'E': 20}",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0-P2: só AUTORAL; sem volatil; sem parcial; C/E={'C': 13, 'E': 12}",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-1 20 C/20 E; SIM-2 20 C/20 E; SIM-0-P2 13 C/12 E",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados finais SIM-1 e SIM-2 sem item de L4-11 nem BQ-0010; SIM-2 (P2) só L1–L3",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "simulados: SIM-0-P2 ∩ SIM-2 = ∅; SIM-1 ∩ SIM-2 = ∅; SIM-0 ∩ (SIM-1, SIM-2, SIM-0-P2) = ∅",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-1: ordem dos ids = ordem do mapa (40); texto da folha = enunciado do pacote (40/40)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-2: ordem dos ids = ordem do mapa (40); texto da folha = enunciado do pacote (40/40)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0-P2: ordem dos ids = ordem do mapa (25); texto da folha = enunciado do pacote (25/25)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0: ordem dos ids = ordem do mapa (60); texto da folha = enunciado do pacote (60/60)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0: bloco \"Comando\" da folha = textoBase + comando do pacote (60/60; 57 só comando, 3 com texto-base)",
+  "ok": true
+ },
+ {
+  "extra": "",
+  "n": "SIM-0 v0.2: Aviso 6 com a frase da errata de forma (T-36) e 0 \"aguardam a conferência\"",
+  "ok": true
+ }
+]

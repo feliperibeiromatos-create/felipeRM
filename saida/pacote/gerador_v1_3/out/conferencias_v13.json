@@ -1,0 +1,548 @@
+[
+ [
+  "BASE",
+  "v1.2 (git 2684ab1) tem SHA-256 f46ed9f8e43db76aaeb96eda0b2924028fb7145c048c5eb0189396c9f67304fe e a edição v1.2 tem 43 arquivos",
+  true,
+  "v1.2 f46ed9f8e43d | v1.3 fdcb7afdb4fb"
+ ],
+ [
+  "(1) DIFF",
+  "v1.2 -> v1.3 do pacote: só nome (valor), legendaMecanismo em 6 lotes e avisos no SIM-0 (acrescentados); geradoEm igual (2026-10-13)",
+  true,
+  "diferenças: 8 (.nome valor; lotes[L4C].legendaMecanismo acrescentado; lotes[L4].legendaMecanismo acrescentado; lotes[L5C].legendaMecanismo acrescentado; lotes[L5].legendaMecanismo acrescentado; lotes[L6A].legendaMecanismo acrescentado; lotes[L6B].legendaMecanismo acrescentado; simulados[SIM-0].avisos acrescentado)"
+ ],
+ [
+  "(1) DIFF",
+  "nome: \"Câmara 2026 — pacote F4 (v1.2)\" -> \"Câmara 2026 — pacote F4 (v1.3)\"; versao 1 nas duas",
+  true,
+  ""
+ ],
+ [
+  "(1) DIFF",
+  "sem os campos novos e o nome, v1.3 = v1.2 estruturalmente (itens, edital, pegadinhas, pares, cursos, resumos, discursivas, simulados)",
+  true,
+  ""
+ ],
+ [
+  "(1) DIFF",
+  "ordem das chaves: as mesmas, salvo legendaMecanismo (última chave do lote) e avisos (última chave do SIM-0)",
+  true,
+  ""
+ ],
+ [
+  "(1) DIFF",
+  "serialização: indent=1, ensure_ascii=False, newline final; sem campo vazio nem null nos campos novos",
+  true,
+  ""
+ ],
+ [
+  "(3) EDIÇÃO",
+  "mesmos 43 nomes de arquivo",
+  true,
+  ""
+ ],
+ [
+  "(3) EDIÇÃO",
+  "arquivos que mudam da v1.2 para a v1.3: exatamente 8 (L6B_estudo.md, README.md e os 6 L<lote>_gabarito.md com legenda); os outros 35 idênticos",
+  true,
+  "['L4C_gabarito.md', 'L4_gabarito.md', 'L5C_gabarito.md', 'L5_gabarito.md', 'L6A_gabarito.md', 'L6B_estudo.md', 'L6B_gabarito.md', 'README.md']"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "N-1: L6B_estudo.md muda só na linha 143, por duas deleções puras (\"Nesta produção \" e \" (a especificação previa o item \\\"se houver base\\\")\"); resultado = \"NÃO foi aberta fonte institucional que defina o termo, e o edital não o detalha; por isso, NÃO HÁ ITEM sobre governança digital neste lote.\"",
+  true,
+  "apagado: 'Nesta produção ' e ' (a especificação previa o item \"se houver base\")' (64 caracteres)"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "legenda: nos 6 L<lote>_gabarito.md é a única diferença (inserção de 2 linhas após o título: legenda literal e linha em branco, antes do primeiro item); L1, L1C, L2, L3 idênticos",
+  true,
+  "L4 ok, L4C ok, L5 ok, L5C ok, L6A ok, L6B ok"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "legenda exibida só no topo dos L<lote>_gabarito.md desses lotes: 0 ocorrência em SIM-*_gabarito.md, BANCO_gabarito.md, *_estudo.md, *_itens.md, *_folha.md, README.md",
+  true,
+  "[]"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "README: só a linha de versão (\"v1.2\" -> \"v1.3\"); data e demais linhas iguais",
+  true,
+  ""
+ ],
+ [
+  "(3) EDIÇÃO",
+  "avisos do SIM-0 não exibidos na edição (0 arquivo com o texto dos 3 avisos; SIM-0_folha.md e SIM-0_gabarito.md iguais aos da v1.2)",
+  true,
+  "[]"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "fidelidade (estudante_fidelidade.py): 0 diferenças",
+  true,
+  "comparações 5650, diferenças 0, marcas residuais 2"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "varredura nos 43 arquivos: 0 \"Nesta produção\" e 0 \"especificação previa\"",
+  true,
+  "\"Nesta produção\" 0; \"especificação previa\" 0"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "controle: a v1.2 tinha 1 e 1 (a varredura enxerga o que deve enxergar); no pacote v1.3 a marca fica (D-PACOTE-V11): 1 e 1",
+  true,
+  "v1.2 1/1"
+ ],
+ [
+  "(3) EDIÇÃO",
+  "remoções por deleção da edição: 569 (v1.2) + 2 da N-1 = 571; a regra literal da N-1 ocorre 2 vezes",
+  true,
+  "571"
+ ],
+ [
+  "(4) VARR 3.5",
+  ";\\): 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  " — $: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "\\*\\*\\*\\*: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "abertas? hoje: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "\\(v2,: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "D-LEI-15352: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "neste chat: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "Retificação: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "Gabarito [CE] mantido: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "\\b(?:U[1-6]|GG\\d|TB\\d|CI)\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "\\bN\\d\\b em L1_,L1C_,L2_,L3_,SIM-2,SIM-0-P2: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  " — (?:BQ|L\\d|4C|5C|6A|6B|A5) em SIM-0-P2_folha.md,SIM-0_folha.md,SIM-1_folha.md,SIM-2_folha.md: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5",
+  "erificado em 8/10/2026 em L5_,L5C_: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\[TS\\]: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\[V : 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bCQFP\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bCQE\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bGCE\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bGCB\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bGBQ\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bCPP\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "T-\\d: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bQA\\b: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "O-\\d: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "Lição O: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "R-\\dC\\d: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "NÃO VOLÁTIL: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "não VOLÁTIL: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "Sem marca VOLÁTIL: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "REVERIFICAR: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "\\bD-[A-Z]{2,}: 0",
+  true,
+  "0"
+ ],
+ [
+  "(4) VARR 3.5 extra",
+  "D-[A-Z]{2,} (sem \\b): mesma contagem da v1.2 (só \"TID-IA\", \"TID-DADOS-VIZ\", \"END-TO-END\"); com \\b: 0",
+  true,
+  "v1.2 14; v1.3 14"
+ ],
+ [
+  "(4) VARR 3.5",
+  "códigos F: só L6A_estudo.md:83 (\"a tecla F4\") e L4_gabarito.md:56/58 (L4-11, \"O F4 afirma\")",
+  true,
+  "[('L4_gabarito.md', 58), ('L6A_estudo.md', 83)]"
+ ],
+ [
+  "(4) VARR 3.5",
+  "\"VOLÁTIL\" fora do aviso fixo: só L4_estudo 23 e 210; L5_estudo 24, 104 e 107; L6A_estudo 125 e 268 (em v1.2 igual); os gabaritos com legenda não ganham a palavra",
+  true,
+  "[('L4_estudo.md', 23), ('L4_estudo.md', 210), ('L5_estudo.md', 24), ('L5_estudo.md', 104), ('L5_estudo.md', 107), ('L6A_estudo.md', 125), ('L6A_estudo.md', 268)]"
+ ],
+ [
+  "(4) CAIXA C-05",
+  "4C-08: pacote com inicial maiúscula (1 vez), sem a minúscula; edição: 2 ocorrências (gabarito do lote + simulados), 0 da minúscula",
+  true,
+  "edição 2"
+ ],
+ [
+  "(4) CAIXA C-05",
+  "5C-06: pacote com inicial maiúscula (1 vez), sem a minúscula; edição: 1 ocorrências (gabarito do lote + simulados), 0 da minúscula",
+  true,
+  "edição 1"
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"mesclar combina duas ou mais célul\" -> \"Mesclar combina duas ou mais célul\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"a função SE compara um valor\" -> \"A função SE compara um valor\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"o PROCV pesquisa um valor\" -> \"O PROCV pesquisa um valor\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"o propósito é fazer todos os slide\" -> \"O propósito é fazer todos os slide\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"a animação é aplicada a um único e\" -> \"A animação é aplicada a um único e\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"o histórico de versões permite ver\" -> \"O histórico de versões permite ver\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"deleted\". por padrão os clientes P\" -> \"deleted\". Por padrão os clientes P\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "L6A_estudo: \"offline. por padrão os clientes IM\" -> \"offline. Por padrão os clientes IM\": antes 0, depois 1",
+  true,
+  ""
+ ],
+ [
+  "(4) CAIXA C-15",
+  "lista CAIXA: 8 pares, todos em L6A_estudo; 8 trocas na regeração",
+  true,
+  ""
+ ],
+ [
+  "(4) REUNIÃO C-06",
+  "L1 P2-1.5: 1 entrada, com os dois fragmentos unidos por \"; \" (a de \"\\\"Câmara\\\" (instituição) vs …\" não é entrada própria)",
+  true,
+  ""
+ ],
+ [
+  "(4) REUNIÃO C-07",
+  "L5 Gráfico de barras (colunas): 3 entradas (confundir com histograma; aceitar eixo truncado; reunida \"usar para distribuição…; empilhado quando…\")",
+  true,
+  ""
+ ],
+ [
+  "(4) REUNIÃO C-08",
+  "L5 Box plot (diagrama de caixa): 1 entrada com os 4 fragmentos unidos por \"; \"",
+  true,
+  ""
+ ],
+ [
+  "(4) REUNIÃO",
+  "pegadinhas por lote = v1.2 (L1 19, L1C 4, L2 43, L3 42, L4 32, L4C 0, L5 48, L5C 0, L6A 35, L6B 39; total 262)",
+  true,
+  ""
+ ],
+ [
+  "(4) REUNIÃO",
+  "edição: L1_estudo com 1 linha para P2-1.5 \"Pontuação automática…\"; L5_estudo com 3 linhas \"Gráfico de barras (colunas)\" e 1 \"Box plot (diagrama de caixa)\"",
+  true,
+  ""
+ ],
+ [
+  "(4) C-13",
+  "L4-11: justificativa da edição = a do pacote menos exatamente \" Fonte: F4, reverificado em 7/10/2026.\" (1 ocorrência no pacote); frase que fundamenta o gabarito C presente; gabarito C",
+  true,
+  ""
+ ],
+ [
+  "(4) C-18",
+  "BQ-0003: `nota` no pacote com \" (D-LEI-15352)\" literal; na edição, sem ele, nos 4 pontos (BANCO_itens, BANCO_gabarito, SIM-0_folha, SIM-0_gabarito); BQ-0040 sem o identificador",
+  true,
+  ""
+ ],
+ [
+  "(4) C-10",
+  "folhas: 165 linhas de item sem id de origem; 0 com id (id só no *_gabarito.md)",
+  true,
+  ""
+ ],
+ [
+  "(4) C-11",
+  "texto-base antes do comando: BANCO_itens 3 e SIM-0_folha 1; 0 comando antes de texto-base",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "itens = 286 (v1.2: 286; v1.3: 286)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "ids únicos = 286 (v1.2: 286; v1.3: 286)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "C = 149 (v1.2: 149; v1.3: 149)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "E = 137 (v1.2: 137; v1.3: 137)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "banco = 106 (v1.2: 106; v1.3: 106)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "AUTORAL = 180 (v1.2: 180; v1.3: 180)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "aderência direta = 247 (v1.2: 247; v1.3: 247)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "aderência parcial = 39 (v1.2: 39; v1.3: 39)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "volatil = 23 (v1.2: 23; v1.3: 23)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "nota = 2 (v1.2: 2; v1.3: 2)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "comandoOriginal = 90 (v1.2: 90; v1.3: 90)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "pegadinhas = 262 (v1.2: 262; v1.3: 262)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "simulados n = [60, 40, 40, 25] (v1.2: [60, 40, 40, 25]; v1.3: [60, 40, 40, 25])",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "simulados itens = [60, 40, 40, 25] (v1.2: [60, 40, 40, 25]; v1.3: [60, 40, 40, 25])",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "lotes = 10 (v1.2: 10; v1.3: 10)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "discursivas = 5 (v1.2: 5; v1.3: 5)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "edital = 47 (v1.2: 47; v1.3: 47)",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "pares, aspectos e quesitos das discursivas iguais à v1.2",
+  true,
+  "139/19/19"
+ ],
+ [
+  "(5) CONT",
+  "SIM-0 33 C/27 E (diagnóstico, 23 parciais, 4 voláteis); SIM-1 e SIM-2 20 C/20 E; SIM-0-P2 13 C/12 E",
+  true,
+  ""
+ ],
+ [
+  "(5) CONT",
+  "edição: 43 arquivos; itens por lote e por simulado iguais aos da v1.2",
+  true,
+  ""
+ ]
+]

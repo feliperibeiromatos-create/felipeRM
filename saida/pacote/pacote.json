@@ -1,7 +1,7 @@
 {
  "versao": 1,
  "geradoEm": "2026-10-13",
- "nome": "Câmara 2026 — pacote F4 (v1.2)",
+ "nome": "Câmara 2026 — pacote F4 (v1.3)",
  "edital": [
   {
    "id": "P1-1",
@@ -5000,6 +5000,11 @@
     "BQ-0012",
     "BQ-0038",
     "BQ-0039"
+   ],
+   "avisos": [
+    "**Simulado diagnóstico, não final.** Contém 37 itens de aderência DIRETA e 23 de aderência PARCIAL (D-ADERENCIA: parcial só em diagnóstico), nenhum em arbitragem, e 4 itens VOLÁTEIS (inaptos a simulado final até a reverificação de 4–8/1/2027). Não use esta montagem como simulado final.",
+    "**Aderência PARCIAL (23 itens).** Cada um traz, logo abaixo do item, a marca `[ADERÊNCIA PARCIAL ...]` com o motivo; o mapa do gabarito repete a marca. Eles testam o tema vizinho, não o texto exato do subitem do edital da Câmara.\n   - Dos 23, 17 estão em P2-4.1 (LGPD geral; o item 51 cobra o Marco Civil da Internet, Lei 12.965/2014, não a LGPD), 2 em P1-8.3 (Grafana/Kibana), 1 em P1-5.3 (item 18), 1 em P1-6 (item 26), 1 em P1-7.1 (KPIs) e 1 em P1-8.1 (item 31). **Toda a cobertura do módulo P2 do edital neste simulado é PARCIAL** (só o 4.1 tem item).",
+    "**Desequilíbrio C/E (contagem real).** Total: **33 C e 27 E** (55,0% C / 45,0% E). P1: 21 C e 18 E (53,8% C). P2: 12 C e 9 E (57,1% C). Por módulo do edital: P1 (43 itens) 23 C e 20 E (53,5% C); P2 (17 itens) 10 C e 7 E (58,8% C). O banco aprovado e utilizável é assim; nenhum item aprovado foi removido para equilibrar. Quem marcasse C em todos os itens acertaria 55,0%; **não calibre o desempenho por esta proporção**."
    ]
   },
   {
@@ -6365,7 +6370,8 @@
      "rotulo": "Ética e responsabilidade digital no serviço público",
      "texto": "\"Ética digital no serviço público limita-se às regras de uso de redes sociais\" → ERRADO."
     }
-   ]
+   ],
+   "legendaMecanismo": "Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)"
   },
   {
    "id": "L4C",
@@ -6377,7 +6383,8 @@
    "resumo": "",
    "curso": "",
    "pares": [],
-   "pegadinhas": []
+   "pegadinhas": [],
+   "legendaMecanismo": "Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)"
   },
   {
    "id": "L5",
@@ -6710,7 +6717,8 @@
      "rotulo": "Storytelling para visualização de dados",
      "texto": "usar dashboard e storytelling como sinônimos."
     }
-   ]
+   ],
+   "legendaMecanismo": "Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição errada de técnica; IC inversão de causa e efeito"
   },
   {
    "id": "L5C",
@@ -6723,7 +6731,8 @@
    "resumo": "",
    "curso": "",
    "pares": [],
-   "pegadinhas": []
+   "pegadinhas": [],
+   "legendaMecanismo": "Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)"
   },
   {
    "id": "L6A",
@@ -7008,7 +7017,8 @@
      "rotulo": "GOOGLE MEET",
      "texto": "\"O compartilhamento de tela no Meet nunca pode ser restringido\" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador; F20)."
     }
-   ]
+   ],
+   "legendaMecanismo": "Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada (AT), inversão de causa e efeito (IC)"
   },
   {
    "id": "L6B",
@@ -7311,7 +7321,8 @@
      "rotulo": "Ameaças digitais (phishing, pharming)",
      "texto": "\"O phishing só funciona quando a vítima digita dados em página falsa; não envolve instalação de código malicioso\" → ERRADO."
     }
-   ]
+   ],
+   "legendaMecanismo": "Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada (AT), inversão de causa e efeito (IC)"
   }
  ],
  "discursivas": [

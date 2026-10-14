@@ -1,5 +1,7 @@
 # Lote 5 — TID-DADOS-VIZ (P1 7.1 e 8.1–8.4) — gabarito e justificativas
 
+Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição errada de técnica; IC inversão de causa e efeito
+
 ### A5-01 — Gabarito: C
 
 - Item do edital: P1-7.1

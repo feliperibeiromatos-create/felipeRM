@@ -1,5 +1,7 @@
 # Lote 5-C — TID-DADOS-VIZ, complemento (P1 8.2 e 8.4) — gabarito e justificativas
 
+Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)
+
 ### 5C-01 — Gabarito: C
 
 - Item do edital: P1-8.2

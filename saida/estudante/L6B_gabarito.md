@@ -1,5 +1,7 @@
 # Lote 6b — TI-REDES-SEGURANCA (P1 itens 2 e 4: redes e segurança) — gabarito e justificativas
 
+Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada (AT), inversão de causa e efeito (IC)
+
 ### 6B-01 — Gabarito: E
 
 - Item do edital: P1-2

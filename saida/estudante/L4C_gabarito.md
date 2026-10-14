@@ -1,5 +1,7 @@
 # Lote 4-C — TID-IA, complemento (P1 5.1) — gabarito e justificativas
 
+Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)
+
 ### 4C-01 — Gabarito: E
 
 - Item do edital: P1-5.1

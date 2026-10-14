@@ -1,6 +1,6 @@
 # Câmara 2026 — Edição do estudante
 
-- Versão: v1.6 (pacote.json versão 1)
+- Versão: v1.7 (pacote.json versão 1)
 - Data: 2026-10-14
 - Aviso: material de estudo; gabaritos em arquivo separado.
 - Itens marcados com o aviso "Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027." têm conteúdo volátil.

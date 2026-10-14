@@ -1,0 +1,29 @@
+{
+ "comparacoes": {
+  "texto": 1380,
+  "metadado": 941,
+  "estrutura": 48,
+  "prova/metadado": 1883,
+  "aviso/nota": 1067,
+  "gabarito": 451,
+  "legenda": 20,
+  "avisos não exibidos": 3
+ },
+ "total": 5793,
+ "diferencas": 0,
+ "detalhe": [],
+ "restos": [
+  [
+   "L4_gabarito.md",
+   "58",
+   "F4",
+   ": \"prioritariamente supervisionado\"). O F4 afirma que \"generative models are initi"
+  ],
+  [
+   "L6A_estudo.md",
+   "83",
+   "F4",
+   "- A tecla F4, com a referência selecionada na barra "
+  ]
+ ]
+}

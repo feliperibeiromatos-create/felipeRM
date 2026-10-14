@@ -1,0 +1,802 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Plataforma Câmara 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* Sistema visual v0.2 (CDJ, 13/10/2026): papel, tinta, marcador; verde e vermelho só para acerto e erro. Coluna única de leitura, 560px, barra de seções no polegar. */
+:root{
+  --paper:#FBFBF8; --ink:#1B2A41; --ink-2:#4F5B6B; --rule:#D9DCE1; --soft:#F1F2EE;
+  --marker:#F2C94C; --marker-soft:#FFF7D6; --c:#2E7D5B; --e:#9C2E2E; --on-strong:#FBFBF8; --focus:#1B6BB2;
+  --fig:#FBFBF8;
+  --font:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#14181E; --ink:#ECEEF1; --ink-2:#AEB5BF; --rule:#2F343C; --soft:#1E232A;
+  --marker:#E2BB45; --marker-soft:#2E2A1A; --c:#5EBE92; --e:#E27A7A; --on-strong:#14181E; --focus:#7DB8F0; --fig:#FBFBF8; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#14181E; --ink:#ECEEF1; --ink-2:#AEB5BF; --rule:#2F343C; --soft:#1E232A;
+  --marker:#E2BB45; --marker-soft:#2E2A1A; --c:#5EBE92; --e:#E27A7A; --on-strong:#14181E; --focus:#7DB8F0; --fig:#FBFBF8; color-scheme:dark }
+*{box-sizing:border-box}
+html,body{background:var(--paper)}
+body{color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.5;-webkit-text-size-adjust:100%}
+a{color:var(--focus)}
+button,input,textarea,select{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer;padding:0}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.wrap{max-width:560px;margin:0 auto;padding-inline:18px;padding-block:0 104px}
+.wrap.semnav{padding-block-end:32px}
+h1,h2,h3{text-wrap:balance;margin:0}
+h1{font-size:26px;line-height:1.2;font-weight:700}
+h2{font-size:21px;line-height:1.25;font-weight:700}
+h3{font-size:17px;line-height:1.3;font-weight:700}
+p{margin:0}
+.stack{display:flex;flex-direction:column;gap:12px}
+.stack.l{gap:20px}
+.muted{color:var(--ink-2)}
+.small{font-size:14px;line-height:1.4}
+.xs{font-size:13px;line-height:1.4}
+.num{font-variant-numeric:tabular-nums}
+.eyebrow{font-size:14px;color:var(--ink-2)}
+header.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-block:20px 10px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+header.top b{font-size:17px}
+header.top span{font-size:14px;color:var(--ink-2);white-space:nowrap}
+.btn{display:flex;align-items:center;justify-content:center;gap:12px;min-height:56px;padding:0 18px;border:2px solid var(--ink);border-radius:8px;font-weight:700;font-size:17px;text-decoration:none;color:var(--ink);background:var(--paper);text-align:center}
+.btn.primary{background:var(--ink);color:var(--on-strong)}
+.btn.big{min-height:64px;font-size:19px;justify-content:space-between}
+.btn.big small{font-size:14px;font-weight:400;opacity:.9}
+.btn[disabled]{border-color:var(--rule);color:var(--ink-2);background:var(--soft);cursor:default}
+.btn.primary[disabled]{background:var(--rule);color:var(--ink-2)}
+.row2{display:flex;gap:10px}
+.row2>*{flex:1}.row2>.w2{flex:2}
+.link{color:var(--ink-2);text-decoration:underline;min-height:44px;display:inline-flex;align-items:center}
+.card{border:1px solid var(--rule);border-radius:8px;padding:14px}
+.card.on{border:2px solid var(--ink)}
+.hl{background:var(--marker-soft);border-radius:8px;padding:12px 14px}
+.box{border:2px solid var(--rule);border-radius:8px;padding:10px 12px;font-size:15px;color:var(--ink-2)}
+.box b{color:var(--ink)}
+.vazio{border:1px dashed var(--rule);border-radius:8px;padding:16px;color:var(--ink-2);font-size:15px}
+.spacer{flex:1}
+.screen{min-height:calc(100dvh - 40px);display:flex;flex-direction:column}
+/* barra de seções */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;padding-bottom:env(safe-area-inset-bottom,0px);background:var(--paper);border-top:1px solid var(--rule);z-index:5}
+nav.tabs .in{max-width:560px;margin:0 auto;display:flex}
+nav.tabs button{flex:1;min-height:52px;font-size:14px;color:var(--ink-2);border-top:3px solid transparent;margin-top:-1px}
+nav.tabs button[aria-current="page"]{color:var(--ink);font-weight:700;border-top-color:var(--marker)}
+nav.tabs .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:9px;background:var(--ink);color:var(--on-strong);font-size:12px;line-height:18px}
+/* folha de respostas */
+.folha-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-block:18px 6px;font-size:15px;color:var(--ink-2)}
+.cron{font-variant-numeric:tabular-nums}
+.barras{display:flex;gap:3px;margin-top:4px}
+.barras i{flex:1;height:6px;border-radius:3px;background:var(--rule)}
+.barras i.r{background:var(--ink)}
+.barras i.o{background:var(--paper);border:2px solid var(--ink)}
+.barras i.ok{background:var(--c)}.barras i.er{background:var(--e)}
+.comando{background:var(--soft);border-radius:6px;padding:10px 12px;font-size:16px;line-height:1.45}
+.comando.rep{color:var(--ink-2)}
+.textobase{white-space:pre-wrap;font-size:16px;border:1px solid var(--rule);border-radius:6px;padding:10px 12px}
+.enun{font-size:20px;line-height:1.45}
+.fonte{font-size:14px;color:var(--ink-2)}
+.ce{display:flex;align-items:center;gap:20px}
+.bolha{width:80px;height:80px;border-radius:50%;border:3px solid var(--ink);font-size:32px;font-weight:700;display:grid;place-items:center;flex:none;transition:transform .12s}
+.bolha:active{transform:scale(.96)}
+.bolha[aria-pressed="true"]{background:var(--ink);color:var(--on-strong)}
+.bolha.sm{width:64px;height:64px;font-size:26px}
+.bolha.okk{border-color:var(--c);background:var(--c);color:var(--on-strong)}
+.bolha.err{border-color:var(--e);background:var(--e);color:var(--on-strong)}
+.ce .branco{margin-left:auto;color:var(--ink-2);text-decoration:underline;min-height:44px}
+.ce .branco[aria-pressed="true"]{color:var(--ink);font-weight:700;text-decoration:none}
+/* resultado */
+.placar{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.placar .nota{font-size:56px;line-height:1;font-weight:700}
+.placar .k{font-size:14px;color:var(--ink-2)}
+.placar .v{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.t{width:100%;border-collapse:collapse;font-size:15px}
+.t th,.t td{text-align:left;padding:9px 4px;border-bottom:1px solid var(--rule);vertical-align:middle}
+.t th{font-size:13px;font-weight:400;color:var(--ink-2)}
+.t td.r,.t th.r{text-align:right}
+.pill{display:inline-block;min-width:56px;text-align:center;padding:2px 8px;border-radius:12px;font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+.pill.v{background:var(--e);color:var(--on-strong)}
+.pill.a{background:var(--marker);color:#1B2A41}
+.pill.g{background:var(--c);color:var(--on-strong)}
+.pill.n{color:var(--ink-2);font-weight:400}
+.ok{color:var(--c);font-weight:700}.er{color:var(--e);font-weight:700}
+.gab{display:inline-block;min-width:24px;text-align:center;border:2px solid currentColor;border-radius:4px;font-weight:700;padding:0 4px;font-size:14px}
+details.corr{border-bottom:1px solid var(--rule);padding-block:10px}
+details.corr summary{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:baseline;min-height:44px}
+details.corr summary::-webkit-details-marker{display:none}
+details.corr .just{font-size:15px;color:var(--ink-2);margin-top:6px}
+/* estudo */
+.blocos{display:flex;flex-direction:column;gap:2px;margin-top:10px}
+.bl{display:flex;align-items:center;gap:10px;min-height:28px;font-size:15px}
+.bl .sq{width:14px;height:14px;border-radius:3px;border:2px solid var(--ink);flex:none;background:var(--paper)}
+.bl .sq.half{background:linear-gradient(to right,var(--ink) 50%,var(--paper) 50%)}
+.bl .sq.full{background:var(--ink)}
+.bl .q{margin-left:auto;font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.modhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-top:8px}
+.lotecard{display:block;text-align:left;width:100%;color:inherit;text-decoration:none}
+.lotecard .t1{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.lotecard .t1 b{font-size:17px}
+.lotecard .t1 span{font-size:13px;color:var(--ink-2);white-space:nowrap}
+/* leitura */
+.curso{font-size:17px;line-height:1.55}
+.curso h3{margin-top:22px;font-size:17px}
+.curso p{margin-top:12px}
+.curso ul,.curso ol{margin:10px 0 0;padding-left:22px}
+.curso li{margin-top:6px}
+.curso .def{background:var(--marker-soft);border-radius:8px;padding:12px 14px;margin-top:14px}
+.curso .peg{border:2px solid var(--rule);border-radius:8px;padding:10px 12px;margin-top:14px;color:var(--ink-2);font-size:16px}
+.curso .peg b{color:var(--ink)}
+figure.fig{margin:16px 0 0;background:var(--fig);border-radius:8px;padding:10px}
+figure.fig figcaption{font-size:13px;color:#4F5B6B;margin-top:4px}
+.par{border-bottom:1px solid var(--rule);padding-block:12px}
+.par .ab{display:flex;gap:8px;flex-wrap:wrap;align-items:baseline;font-weight:700}
+.par .ab span{font-weight:400;color:var(--ink-2)}
+.par ul{margin:6px 0 0;padding-left:20px;font-size:15px}
+.tag{display:inline-block;font-size:12px;font-weight:700;border:1px solid var(--ink-2);color:var(--ink-2);border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+/* painel */
+.ped{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding-block:8px;border-bottom:1px solid var(--rule)}
+.ped .id{font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.ped .tx{font-size:14px;line-height:1.35;min-width:0}
+.ped .bar{grid-column:2/3;height:6px;border-radius:3px;background:var(--rule);overflow:hidden}
+.ped .bar i{display:block;height:100%;background:var(--ink)}
+.ped.sub .id{font-weight:400;color:var(--ink-2)}
+.leg{font-size:13px;color:var(--ink-2);line-height:1.45}
+/* discursiva */
+.folhad{display:block;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.folhad .nums{background:var(--soft);font-size:12px;color:var(--ink-2);text-align:right;padding:8px 6px 8px 0;line-height:28px;font-variant-numeric:tabular-nums;overflow:hidden}
+.folhad textarea{border:0;resize:none;padding:8px 10px;line-height:28px;font-size:16px;background:repeating-linear-gradient(to bottom,transparent 0,transparent 35px,var(--rule) 35px,var(--rule) 36px);background-position:0 0;background-attachment:local;color:var(--ink);min-height:560px;width:100%;outline-offset:-3px}
+.folhad textarea{background:repeating-linear-gradient(to bottom,transparent 0 27px,var(--rule) 27px 28px);background-origin:content-box;background-attachment:local}
+.contador{position:sticky;top:env(safe-area-inset-top,0px);background:var(--paper);padding-block:8px;display:flex;justify-content:space-between;align-items:baseline;z-index:2;border-bottom:1px solid var(--rule)}
+.contador b{font-size:20px}
+.contador .exc{color:var(--e);font-weight:700}
+.asp{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--rule);font-size:15px}
+.asp select{border:2px solid var(--ink);border-radius:6px;background:var(--paper);min-height:44px;padding:0 8px}
+.pre{white-space:pre-wrap;font-size:15px;line-height:1.5}
+/* véspera */
+.chk{display:flex;gap:14px;align-items:flex-start;min-height:52px;padding-block:10px;border-bottom:1px solid var(--rule);cursor:pointer}
+.chk input{width:28px;height:28px;margin:0;flex:none;accent-color:var(--ink)}
+input[type=checkbox]{accent-color:var(--ink)}
+textarea.json{width:100%;min-height:120px;border:1px solid var(--rule);border-radius:6px;background:var(--soft);padding:10px;font-size:13px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(70px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--on-strong);padding:10px 16px;border-radius:8px;font-size:15px;z-index:9;max-width:90vw}
+.carregando{padding:60px 0;color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+@media (min-width:600px){ body{font-size:18px} }
+</style>
+
+<div class="wrap" id="app"><p class="carregando">Abrindo o caderno…</p></div>
+<nav class="tabs" id="tabs" hidden aria-label="Seções"><div class="in">
+  <button data-go="simulados">Simulado</button>
+  <button data-go="estudo">Estudo</button>
+  <button data-go="erros">Erros<span class="badge" id="bErr" hidden></span></button>
+  <button data-go="painel">Painel</button>
+</div></nav>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script>
+/* ============ Dados fixos da plataforma ============ */
+const PROVA = new Date(2027,0,17);
+const MODULOS = [
+  {id:"P1", nome:"Tecnologia da Informação e Dados", curto:"TI e Dados", parte:"Conhecimentos básicos", lotes:["L6A","L6B","L4","L4C","L5","L5C"]},
+  {id:"P2", nome:"Reconhecimento de fala, transcrição e IA", curto:"Fala, transcrição e IA", parte:"Prova específica", lotes:["L1","L1C","L2","L3"]}
+];
+const LOTE_INFO = {
+  L1:{pref:"L1-",nome:"Lote 1 · Reconhecimento de fala"}, L1C:{pref:"L1C-",nome:"Lote 1-C · Diarização (complemento)"},
+  L2:{pref:"L2-",nome:"Lote 2 · Degravação e revisão"}, L3:{pref:"L3-",nome:"Lote 3 · IA no Parlamento e proteção de dados"},
+  L4:{pref:"L4-",nome:"Lote 4 · IA: prompts, aprendizado e ética"}, L4C:{pref:"4C-",nome:"Lote 4-C · Prompts (complemento)"},
+  L5:{pref:"A5-",nome:"Lote 5 · Dados e visualização"}, L5C:{pref:"5C-",nome:"Lote 5-C · Gráficos e storytelling (complemento)"},
+  L6A:{pref:"6A-",nome:"Lote 6a · Office 365 e colaboração"}, L6B:{pref:"6B-",nome:"Lote 6b · Redes e segurança"}
+};
+const BOXPLOT = `<svg viewBox="0 0 346 260" style="display:block;width:100%;max-width:346px;height:auto" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Box plot anotado: caixa de Q1 a Q3, mediana, bigodes, limite de 1,5 AIQ e outliers">
+  <title>Box plot anotado</title>
+  <desc>Caixa de Q1 a Q3 com os 50% centrais, mediana como linha interna, bigodes até o dado mais extremo de cada lado dentro de Q1 − 1,5·AIQ e Q3 + 1,5·AIQ, pontos além do limite marcados como outliers.</desc>
+  <g fill="none" stroke="#1B2A41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 44 Q64 36 72 36 L86 36 Q94 36 94 29 Q94 36 102 36 L116 36 Q124 36 124 44"/>
+    <line x1="20" y1="90" x2="64" y2="90"/>
+    <line x1="124" y1="90" x2="190" y2="90"/>
+    <rect x="64" y="70" width="60" height="40" fill="#F2C94C"/>
+    <line x1="214" y1="48" x2="214" y2="126" stroke-dasharray="5 5"/>
+    <circle cx="256" cy="90" r="5" fill="#FBFBF8"/>
+    <circle cx="306" cy="90" r="5" fill="#FBFBF8"/>
+  </g>
+  <g fill="none" stroke="#4F5B6B" stroke-width="1" stroke-linecap="butt">
+    <line x1="84" y1="115" x2="84" y2="140"/>
+    <line x1="20" y1="99" x2="20" y2="182"/>
+    <line x1="190" y1="99" x2="190" y2="182"/>
+  </g>
+  <line x1="84" y1="70" x2="84" y2="110" stroke="#1B2A41" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="20" cy="90" r="4.5" fill="#1B2A41"/>
+  <circle cx="190" cy="90" r="4.5" fill="#1B2A41"/>
+  <g font-family="'Atkinson Hyperlegible', system-ui, sans-serif" fill="#1B2A41">
+    <text x="94" y="22" font-size="14" text-anchor="middle">AIQ = Q3 − Q1</text>
+    <text x="214" y="38" font-size="13" text-anchor="middle">limite: Q3 + 1,5·AIQ</text>
+    <text x="94" y="60" font-size="14" text-anchor="middle">50% centrais</text>
+    <text x="64" y="128" font-size="14" text-anchor="middle">Q1</text>
+    <text x="124" y="128" font-size="14" text-anchor="middle">Q3</text>
+    <text x="281" y="118" font-size="13" text-anchor="middle">outliers</text>
+    <text x="212" y="156" font-size="13">Exemplo ilustrativo,</text>
+    <text x="212" y="172" font-size="13">sem escala.</text>
+    <text x="84" y="156" font-size="13" text-anchor="middle">mediana</text>
+    <text x="84" y="172" font-size="13" text-anchor="middle">(não é a média)</text>
+    <text x="12" y="198" font-size="13">mínimo da amostra</text>
+    <text x="12" y="214" font-size="13">(dentro do limite)</text>
+    <text x="180" y="198" font-size="13">último dado dentro</text>
+    <text x="180" y="214" font-size="13">de Q3 + 1,5·AIQ</text>
+    <text x="12" y="238" font-size="13">A regra vale por lado: outlier em cima</text>
+    <text x="12" y="254" font-size="13">não encurta o bigode de baixo.</text>
+  </g>
+</svg>`;
+const TUKEY = "O fator 1,5·AIQ é a convenção usual (Tukey); outras convenções existem e a prova costuma cobrar esta.";
+const VESPERA = [
+  ["Documento de identidade original","com foto (ou digital no app oficial) — edital 13.11"],
+  ["Caneta esferográfica de tinta preta","corpo transparente; leve duas — edital 13.10.1"],
+  ["Local e horário conferidos","no cartão de confirmação; chegar com uma hora de folga — edital 13.10"],
+  ["Garrafa de água transparente","sem relógio, boné, lápis, borracha — edital 13.23"],
+  ["Regra de marcar","certo +1, errado −1, em branco 0. Em dúvida, deixe em branco — edital 8.11.2"],
+  ["Dormir cedo","o que você sabe hoje é o que vai para a prova"]
+];
+
+/* ============ Estado ============ */
+const K_S="c2026.v01.estado", K_P="c2026.v01.pacote";
+let P=null, M={}, PUB=null;
+let S={};
+function novoEstado(){ return {v:1, boasVindas:false, escolha:{}, tentativas:[], erros:{}, saidas:[], lote:{}, disc:{}, vespera:{}, eventos:[]}; }
+function lsGet(k){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):null; }catch(e){ return null; } }
+function lsSet(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); return true; }catch(e){ return false; } }
+function lsDel(k){ try{ localStorage.removeItem(k); }catch(e){} }
+function salvar(){ lsSet(K_S,S); }
+function ev(nome,extra){ S.eventos.push(Object.assign({e:nome,t:Date.now()},extra||{})); if(S.eventos.length>2000) S.eventos=S.eventos.slice(-2000); salvar(); }
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const app=()=>document.getElementById("app");
+function toast(t){ const el=$("#toast"); el.textContent=t; el.hidden=false; clearTimeout(toast.h); toast.h=setTimeout(()=>el.hidden=true,2600); }
+function diasProva(){ const d=Math.ceil((PROVA-new Date().setHours(0,0,0,0))/86400000); return d>1?`${d} dias`:d===1?"amanhã":d===0?"hoje":"prova feita"; }
+function topo(){ return `<header class="top"><b>Câmara 2026 · Registro e Redação</b><span class="num">${diasProva()}</span></header>`; }
+function modOf(itemEdital){ return (itemEdital||"").slice(0,2); }
+function lotesDoModulo(m){ return m.lotes.filter(id=>P.lotes.find(l=>l.id===id)); }
+function loteObj(id){ return P.lotes.find(l=>l.id===id); }
+function loteNome(id){ return (LOTE_INFO[id]||{}).nome || (loteObj(id)||{}).nome || id; }
+function itensDoLote(id){ const pr=(LOTE_INFO[id]||{}).pref; return pr? P.itens.filter(i=>i.id.startsWith(pr)) : []; }
+function editalTexto(id){ const e=P.edital.find(x=>x.id===id); return e?e.texto:""; }
+function curtoId(id){ return id.replace(/^P[12]-/,""); }
+function notaTxt(it){ if(!it||!it.nota) return ""; let t=String(it.nota).replace(/\s*\(D-[A-Z0-9-]+\)/g,"").replace(/^nota de vigência:\s*/i,""); return t.charAt(0).toUpperCase()+t.slice(1); }
+function notaHtml(it){ const t=notaTxt(it); return t?`<div class="hl small"><b>Nota de vigência.</b> ${esc(t)}</div>`:""; }
+function rotuloPeg(p){ return p&&p.rotulo? limpaTitulo(String(p.rotulo)) : ""; }
+
+/* ============ Simulados disponíveis ============ */
+function listaSimulados(){
+  const out=[];
+  const s0=P.simulados.find(s=>s.id==="SIM-0");
+  MODULOS.forEach(m=>{
+    if(s0){ const ids=s0.itens.filter(id=>M[id] && modOf(M[id].itemEdital)===m.id);
+      if(ids.length) out.push({id:"DIAG-"+m.id, nome:`Diagnóstico · ${m.curto}`, tipo:"diagnóstico", itens:ids, modulo:m.id, origem:"Simulado 0 v0.2, parte de "+m.id}); }
+  });
+  P.simulados.forEach(s=>out.push(Object.assign({},s)));
+  return out;
+}
+function simById(id){ return listaSimulados().find(s=>s.id===id); }
+function minutos(n){ return Math.max(5,Math.round(n*1.2/5)*5); }
+
+/* ============ Roteador ============ */
+let rota={v:"inicio"};
+function ir(v,arg){ if(prova && v!=="prova" && !prova.fim){ clearInterval(prova.timer); } rota={v,arg}; render(); window.scrollTo({top:0}); }
+document.querySelectorAll("#tabs button").forEach(b=>b.addEventListener("click",()=>ir(b.dataset.go)));
+function navAtual(v){ const map={simulados:"simulados",resultado:"simulados",estudo:"estudo",erros:"erros",painel:"painel",dados:"painel"}; return map[v]; }
+function render(){
+  const v=rota.v; const tab=navAtual(v);
+  const nav=$("#tabs"); nav.hidden=!tab;
+  document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-current", b.dataset.go===tab?"page":"false"));
+  app().classList.toggle("semnav",!tab);
+  const n=Object.keys(S.erros).filter(id=>M[id]).length; const be=$("#bErr"); be.hidden=!n; be.textContent=n;
+  ({inicio:vInicio,boas:vBoas,entrada:vEntrada,simulados:vSimulados,prova:vProva,resultado:vResultado,estudo:vEstudo,lote:vLote,erros:vErros,painel:vPainel,disc:vDisc,vespera:vVespera,dados:vDados})[v](rota.arg);
+}
+function vInicio(){
+  const hoje=new Date(); if(hoje.getFullYear()===2027 && hoje.getMonth()===0 && hoje.getDate()===16 && !S.vespera.feito) return ir("vespera");
+  if(!S.boasVindas) return ir("boas");
+  const falta=MODULOS.find(m=>!S.escolha[m.id]); if(falta) return ir("entrada",falta.id);
+  ir("estudo");
+}
+
+/* ============ 0 · Boas-vindas ============ */
+function vBoas(){
+  ev("tela_boas_vindas_aberta");
+  app().innerHTML=`<div class="screen">${topo()}<div class="spacer"></div>
+  <div class="stack l">
+    <h1 style="font-size:32px;line-height:1.15">Oi.</h1>
+    <p style="font-size:19px">Isto é o seu caderno de estudo para a prova de 17 de janeiro: o edital inteiro, lote a lote, com simulados no formato da folha de respostas da Cebraspe.</p>
+    <div class="hl"><div class="small muted">Primeiro passo</div><div style="font-weight:700">Dizer se você já conhece o primeiro assunto. Leva um toque; dá para mudar depois.</div></div>
+  </div><div class="spacer"></div>
+  <div class="stack" style="padding-bottom:16px"><button class="btn primary big" style="justify-content:center" id="go">Começar</button>
+  <p class="small muted" style="text-align:center">Esta tela aparece só na primeira visita.</p></div></div>`;
+  $("#go").onclick=()=>{ S.boasVindas=true; salvar(); ir("inicio"); };
+}
+
+/* ============ 1 · Entrada (D-ENTRADA-C) ============ */
+function vEntrada(mid){
+  const i=MODULOS.findIndex(m=>m.id===mid); const m=MODULOS[i];
+  const diag=listaSimulados().find(s=>s.id==="DIAG-"+m.id); const l1=lotesDoModulo(m)[0];
+  const nItens=P.edital.filter(e=>e.id.startsWith(m.id)&&!/\./.test(e.id)).length;
+  app().innerHTML=`<div class="screen">${topo()}
+   <div class="eyebrow">Módulo ${i+1} de ${MODULOS.length} · ${m.parte} · ${nItens} itens do edital</div>
+   <h1 style="margin-top:4px">${esc(m.nome)}</h1>
+   <div class="spacer"></div>
+   <p style="font-size:24px;line-height:1.3;font-weight:700;margin-bottom:16px">Já conhece este assunto?</p>
+   <div class="stack">
+     <button class="btn primary big" id="sim"><span>Sim → diagnóstico</span><small class="num">${diag?diag.itens.length:0} itens · ${minutos(diag?diag.itens.length:0)} min</small></button>
+     <button class="btn big" id="nao"><span>Não → do zero</span><small class="muted">${esc((loteNome(l1)||"").split(" · ")[0])} · ${minutoLeitura(l1)} min</small></button>
+   </div>
+   <p class="small muted" style="margin-block:14px 18px">Sim: você faz um diagnóstico curto e o curso começa pelos itens em que errou. Não: o curso começa pelo primeiro lote, do básico. Dá para mudar depois, no Painel.</p></div>`;
+  $("#sim").onclick=()=>{ S.escolha[m.id]="diag"; ev("toque_escolha_caminho",{modulo:m.id,caminho:"diagnostico"}); salvar(); iniciar(diag.id); };
+  $("#nao").onclick=()=>{ S.escolha[m.id]="zero"; ev("toque_escolha_caminho",{modulo:m.id,caminho:"do_zero"}); salvar();
+    const prox=MODULOS.find(x=>!S.escolha[x.id]); if(prox) ir("entrada",prox.id); else ir("lote",{id:l1}); };
+}
+
+/* ============ Simulados (lista) ============ */
+function vSimulados(){
+  const sims=listaSimulados();
+  const linha=s=>{ const feitas=S.tentativas.filter(t=>t.ref===s.id); const ult=feitas[feitas.length-1];
+    return `<button class="card lotecard" data-sim="${esc(s.id)}"><div class="t1"><b>${esc(s.nome)}</b><span class="num">${s.itens.length} itens</span></div>
+    <div class="small muted" style="margin-top:4px">${esc(s.tipo||"")}${s.versao&&!/\(v/.test(s.nome||"")?" · "+esc(s.versao):""}${s.origem?" · "+esc(s.origem):""} · cerca de ${minutos(s.itens.length)} min${ult?` · última nota <b class="num" style="color:var(--ink)">${ult.nota}/${ult.total}</b>`:""}</div>
+    ${s.aviso?`<div class="xs muted" style="margin-top:6px">${esc(s.aviso)}</div>`:""}</button>`; };
+  const disc=(P.discursivas||[]).map(d=>{ const st=S.disc[d.id]; const lin=d.tipo==="peca"?50:20;
+    return `<button class="card lotecard" data-disc="${esc(d.id)}"><div class="t1"><b>${d.tipo==="peca"?"Peça técnica":"Questão"} ${esc(d.id)}</b><span>${lin} linhas</span></div>
+    <div class="small muted" style="margin-top:4px">${esc(primeiraFrase(d.comando))}</div>
+    ${st?`<div class="xs" style="margin-top:6px">${st.entregue?"Entregue · nota estimada "+fmt(st.nota):"Rascunho guardado"}</div>`:""}</button>`; }).join("");
+  const hist=S.tentativas.filter(t=>t.tipo==="sim").slice(-5).reverse();
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div><h1>Simulados</h1><p class="small muted" style="margin-top:6px">Itens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).</p></div>
+   <div class="stack">${sims.map(linha).join("")}</div>
+   ${disc?`<div><h2>Discursivas</h2><p class="small muted" style="margin-top:4px">Folha com linhas numeradas e a fórmula de desconto do edital (9.8.5).</p></div><div class="stack">${disc}</div>`:""}
+   ${hist.length?`<div><h2>Últimas provas</h2><table class="t" style="margin-top:6px"><tr><th>Quando</th><th>Simulado</th><th class="r">Nota</th><th class="r">C · E · B</th></tr>${hist.map(t=>`<tr><td class="num">${new Date(t.data).toLocaleDateString("pt-BR")}</td><td>${esc(t.nome)}</td><td class="r num"><b>${t.nota}</b>/${t.total}</td><td class="r num">${t.ac} · ${t.er} · ${t.br}</td></tr>`).join("")}</table></div>`:""}
+  </div>`;
+  app().querySelectorAll("[data-sim]").forEach(b=>b.onclick=()=>iniciar(b.dataset.sim));
+  app().querySelectorAll("[data-disc]").forEach(b=>b.onclick=()=>ir("disc",b.dataset.disc));
+}
+function primeiraFrase(c){ const l=(c||"").split("\n").filter(x=>x.trim()); const t=l[1]||l[0]||""; return t.length>150?t.slice(0,147)+"…":t; }
+function fmt(n){ return (Math.round(n*100)/100).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}); }
+
+/* ============ Folha de respostas (simulado, diagnóstico, teste de lote) ============ */
+let prova=null;
+function iniciar(simId){
+  const s=simById(simId); const ids=s.itens.filter(id=>M[id]);
+  prova={tipo:"sim",ref:s.id,nome:s.nome,ordem:ids,comandos:s.comandos||{},resp:{},i:0,inicio:Date.now(),cron:true,modulo:s.modulo||null};
+  ev("simulado_iniciado",{ref:s.id}); ir("prova");
+}
+function iniciarTeste(lid){
+  const pool=itensDoLote(lid).filter(i=>!i.volatil); const ids=embaralhar(pool.map(i=>i.id)).slice(0,10);
+  prova={tipo:"teste",ref:lid,nome:"Teste do "+loteNome(lid).split(" · ")[0].toLowerCase(),ordem:ids,comandos:{},resp:{},i:0,inicio:Date.now(),cron:false};
+  ev("teste_lote_iniciado",{lote:lid}); ir("prova");
+}
+function iniciarRevisao(ids){
+  prova={tipo:"rev",ref:"ERROS",nome:"Revisão do caderno",ordem:ids,comandos:{},resp:{},i:0,inicio:Date.now(),cron:false};
+  ir("prova");
+}
+function embaralhar(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function fonteItem(it){
+  if(it.rotulo==="AUTORAL") return "Item inédito do Projeto";
+  return `Fonte: Cebraspe, ${esc((it.certame||"").split(" - ")[0])}${it.numero?", item "+it.numero:""}`;
+}
+function vProva(){
+  if(!prova) return ir("simulados");
+  const ids=prova.ordem, i=prova.i, it=M[ids[i]];
+  const cmd=prova.comandos[it.id]||it.comando||"Julgue o item a seguir.";
+  const prev=i>0?M[ids[i-1]]:null; const prevCmd=prev?(prova.comandos[prev.id]||prev.comando):null;
+  const tb=(it.textoBase && it.textoBase!=="nenhum")?it.textoBase:"";
+  const r=prova.resp[it.id];
+  const barras=prova.cron?"":`<div class="barras" aria-hidden="true">${ids.map((id,k)=>`<i class="${k<i||prova.resp[id]!==undefined&&k!==i?"r":k===i?"o":""}"></i>`).join("")}</div>`;
+  app().innerHTML=`<div class="screen">
+   <div class="folha-top"><span>${esc(prova.nome)}${prova.cron?"":" · sem tempo"}</span>${prova.cron?`<span class="cron" id="cron">00:00</span>`:`<span class="num">${i+1} de ${ids.length}</span>`}</div>
+   ${barras}
+   <div class="stack l" style="margin-top:14px">
+    ${prova.cron?`<div class="small muted num">Item ${i+1} de ${ids.length}</div>`:""}
+    ${tb?`<div class="textobase">${esc(tb)}</div>`:""}
+    <div class="comando ${prevCmd===cmd?"rep":""}">${esc(cmd)}</div>
+    <p class="enun">${esc(it.enunciado)}</p>
+    ${notaHtml(it)}
+    <p class="fonte">${fonteItem(it)}. Errar desconta um ponto; em branco não pontua.</p>
+    <div class="ce">
+      <button class="bolha" id="bC" aria-pressed="${r==="C"}" aria-label="Marcar Certo">C</button>
+      <button class="bolha" id="bE" aria-pressed="${r==="E"}" aria-label="Marcar Errado">E</button>
+      <button class="branco" id="bB" aria-pressed="${r===null}">deixar em branco</button>
+    </div>
+   </div>
+   <div class="spacer" style="min-height:24px"></div>
+   <div class="row2" style="padding-bottom:16px">
+     <button class="btn" id="ant" ${i===0?"disabled":""}>Anterior</button>
+     ${i<ids.length-1?`<button class="btn primary w2" id="prox">Próximo</button>`:`<button class="btn primary w2" id="fim">Entregar</button>`}
+   </div>
+   <div id="conf" hidden class="hl stack" style="margin-bottom:16px"></div>
+   <p class="xs muted" style="text-align:center;padding-bottom:12px"><button class="link" id="sair">sair sem entregar</button></p></div>`;
+  const marcar=v=>{ prova.resp[it.id]=(prova.resp[it.id]===v?undefined:v); render(); };
+  $("#bC").onclick=()=>marcar("C"); $("#bE").onclick=()=>marcar("E");
+  $("#bB").onclick=()=>{ prova.resp[it.id]=null; if(prova.i<ids.length-1){prova.i++;} render(); };
+  $("#ant").onclick=()=>{ if(prova.i>0){prova.i--; render();} };
+  if($("#prox")) $("#prox").onclick=()=>{ prova.i++; render(); window.scrollTo({top:0}); };
+  if($("#fim")) $("#fim").onclick=()=>{ const nb=ids.filter(id=>prova.resp[id]!=="C"&&prova.resp[id]!=="E").length;
+     const c=$("#conf"); c.hidden=false; c.innerHTML=`<b>Entregar agora?</b><span class="small">${nb?`${nb} item(ns) em branco valem 0.`:"Todos os itens marcados."} Depois de entregar, a folha não muda.</span><div class="row2"><button class="btn" id="nao2">Voltar</button><button class="btn primary" id="sim2">Entregar</button></div>`;
+     $("#nao2").onclick=()=>c.hidden=true; $("#sim2").onclick=entregar; c.scrollIntoView({block:"nearest"}); };
+  $("#sair").onclick=()=>{ clearInterval(prova.timer); const t=prova.tipo; prova=null; ir(t==="teste"?"estudo":t==="rev"?"erros":"simulados"); };
+  if(prova.cron){ clearInterval(prova.timer); const tick=()=>{ const s=Math.floor((Date.now()-prova.inicio)/1000); const el=$("#cron"); if(el) el.textContent=`${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`; }; tick(); prova.timer=setInterval(tick,1000); }
+}
+function corrigir(ordem,resp){
+  let nota=0,ac=0,er=0,br=0; const por={}; const det=[];
+  ordem.forEach(id=>{ const it=M[id], r=resp[id]; let st;
+    if(r!=="C"&&r!=="E"){br++;st="b";} else if(r===it.gabarito){nota++;ac++;st="c";} else {nota--;er++;st="e";}
+    det.push({id,r:(r==="C"||r==="E")?r:null,st}); const k=it.itemEdital||"?"; por[k]=por[k]||{c:0,e:0,b:0}; por[k][st]++; });
+  return {nota,ac,er,br,por,det};
+}
+function atualizarCaderno(det){
+  det.forEach(d=>{ const e=S.erros[d.id];
+    if(d.st==="e"){ S.erros[d.id]={errou:(e?e.errou:0)+1,seq:0,desde:e?e.desde:Date.now()}; }
+    else if(d.st==="c" && e){ e.seq++; if(e.seq>=2){ delete S.erros[d.id]; S.saidas.push({id:d.id,t:Date.now(),dias:Math.round((Date.now()-e.desde)/86400000)}); ev("item_saiu_caderno",{id:d.id}); } }
+  });
+}
+function entregar(){
+  clearInterval(prova.timer);
+  const c=corrigir(prova.ordem,prova.resp);
+  const t={tipo:prova.tipo,ref:prova.ref,nome:prova.nome,data:Date.now(),nota:c.nota,total:prova.ordem.length,ac:c.ac,er:c.er,br:c.br,seg:Math.floor((Date.now()-prova.inicio)/1000),por:c.por,det:c.det,modulo:prova.modulo};
+  atualizarCaderno(c.det);
+  S.tentativas.push(t);
+  if(prova.tipo==="teste"){ const L=estLote(prova.ref); L.feito.teste=true; ev("teste_lote_respondido",{lote:prova.ref,nota:c.nota}); }
+  ev(prova.tipo==="sim"?"simulado_entregue":"folha_entregue",{ref:prova.ref,nota:c.nota,erros:c.er,brancos:c.br});
+  salvar(); prova.fim=true; const idx=S.tentativas.length-1; prova=null; ir("resultado",idx);
+}
+function nl(v){ const n=v.c+v.e+v.b; return n? (v.c-v.e)/n : null; }
+function pill(x){ if(x===null||x===undefined) return `<span class="pill n">—</span>`; const p=Math.round(x*100); const cls=p<60?"v":p<=80?"a":"g"; return `<span class="pill ${cls}">${p<0?"−"+Math.abs(p):p}%</span>`; }
+
+/* ============ 3 · Resultado ============ */
+function vResultado(idx){
+  const t=S.tentativas[idx]; if(!t) return ir("simulados");
+  const linhas=Object.entries(t.por).sort((a,b)=>a[0].localeCompare(b[0],"pt",{numeric:true}));
+  const pior=linhas.map(([k,v])=>({k,x:nl(v)})).filter(o=>o.x!==null).sort((a,b)=>a.x-b.x)[0];
+  let sugestao="";
+  if(pior && t.tipo==="sim"){ const lote=P.lotes.find(l=>(l.itensEdital||[]).includes(pior.k) && lotesTodos().includes(l.id));
+    if(lote) sugestao=`<div class="hl stack"><h3>Por onde começar</h3><p class="small">Sua nota líquida mais baixa foi em ${esc(curtoId(pior.k))} ${esc(editalTexto(pior.k))}. ${t.er?`Os ${t.er} itens errados já estão no seu caderno de erros.`:""}</p><button class="btn primary" id="comecar">Começar pelo ${esc(loteNome(lote.id).split(" · ")[0])}</button></div>`; }
+  const min=Math.max(1,Math.round(t.seg/60));
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div class="eyebrow">${esc(t.nome)} · ${t.total} itens${t.tipo==="sim"?` · ${min} min`:""}</div>
+   <div class="placar">
+     <div><div class="nota num">${t.nota}</div><div class="k">pontos de ${t.total}</div></div>
+     <div><div class="v ok">${t.ac} <span class="xs">C</span></div><div class="k">certos</div></div>
+     <div><div class="v er">${t.er} <span class="xs">E</span></div><div class="k">errados</div></div>
+     <div><div class="v">${t.br} <span class="xs">B</span></div><div class="k">em branco</div></div>
+   </div>
+   <p class="small muted">Regra do edital: +1 por acerto, −1 por erro, 0 em branco. Nota líquida: ${t.nota} ÷ ${t.total} = ${Math.round(100*t.nota/t.total)}%. ${t.er?`Cada erro custou dois pontos em relação a deixar em branco.`:"Nenhum erro: nada perdido por chute."}</p>
+   ${t.tipo==="teste"?`<div class="barras" style="height:auto" aria-label="${t.ac} certos, ${t.er} errados, ${t.br} em branco">${t.det.map(d=>`<i class="${d.st==="c"?"ok":d.st==="e"?"er":""}" style="height:14px"></i>`).join("")}</div>`:""}
+   <div><h2>Por item do edital</h2>
+   <table class="t" style="margin-top:6px"><tr><th>Subitem</th><th class="r" style="white-space:nowrap">C · E · B</th><th class="r">NL</th></tr>
+   ${linhas.map(([k,v])=>`<tr><td><b class="num">${esc(curtoId(k))}</b> <span class="small muted">${esc(editalTexto(k))}</span></td><td class="r num" style="white-space:nowrap">${v.c} · ${v.e} · ${v.b}</td><td class="r">${pill(nl(v))}</td></tr>`).join("")}</table>
+   <p class="leg" style="margin-top:6px">Nota líquida = (acertos − erros) ÷ itens apresentados. Vermelho abaixo de 60%, amarelo de 60% a 80%, verde acima de 80%.</p></div>
+   ${sugestao}
+   <div><h2>Correção item a item</h2><div style="margin-top:4px">${t.det.map((d,ix)=>{const it=M[d.id]; if(!it) return ""; return `<details class="corr"><summary><span class="num muted">${ix+1}</span><span class="${d.st==="c"?"ok":d.st==="e"?"er":"muted"}">${d.st==="c"?"certo":d.st==="e"?"errado":"em branco"}</span><span class="small">gabarito <span class="gab">${it.gabarito}</span>${d.r?` · você marcou ${d.r}`:""}</span></summary>
+     <p style="margin-top:6px">${esc(it.enunciado)}</p>${notaTxt(it)?`<div style="margin-top:6px">${notaHtml(it)}</div>`:""}<p class="just">${it.justificativa?esc(it.justificativa):"Item oficial da Cebraspe; gabarito definitivo da banca."} <span class="xs">${esc(curtoId(it.itemEdital))}${it.aderencia==="parcial"?" · aderência parcial ao edital":""}${it.volatil?" · fato datado, reverificado em janeiro":""}${it.url&&/^https?:/.test(it.url)?` · <a href="${esc(it.url)}" target="_blank" rel="noopener">caderno oficial</a>`:""}</span></p></details>`;}).join("")}</div></div>
+   <div class="row2"><button class="btn" id="volta">${t.tipo==="teste"?"Voltar ao estudo":t.tipo==="rev"?"Voltar ao caderno":"Voltar aos simulados"}</button>${t.er?`<button class="btn primary" id="cad">Abrir caderno de erros</button>`:""}</div>
+  </div>`;
+  $("#volta").onclick=()=>ir(t.tipo==="teste"?"estudo":t.tipo==="rev"?"erros":"simulados");
+  if($("#cad")) $("#cad").onclick=()=>ir("erros");
+  if($("#comecar")) $("#comecar").onclick=()=>{ const lote=P.lotes.find(l=>(l.itensEdital||[]).includes(pior.k)); const L=estLote(lote.id); const bl=blocosDoLote(lote.id); const k=bl.findIndex(b=>b.item===pior.k); if(k>=0) L.bloco=k; salvar(); ir("lote",{id:lote.id}); };
+  if(t.tipo==="sim"){ const prox=MODULOS.find(x=>!S.escolha[x.id]); if(prox){ const d=document.createElement("div"); d.className="card on stack"; d.innerHTML=`<b>Próximo módulo: ${esc(prox.nome)}</b><button class="btn primary">Escolher o caminho</button>`; d.querySelector("button").onclick=()=>ir("entrada",prox.id); app().querySelector(".stack.l").prepend(d);} }
+}
+
+/* ============ Estudo ============ */
+function lotesTodos(){ return MODULOS.flatMap(m=>lotesDoModulo(m)); }
+function estLote(id){ S.lote[id]=S.lote[id]||{bloco:0,vistos:[],feito:{}}; return S.lote[id]; }
+function blocosDoLote(id){
+  const l=loteObj(id); if(!l) return []; const out=[];
+  const curso=(l.curso||"").trim();
+  if(curso){ const partes=curso.split(/\n(?=## )/);
+    partes.forEach((p,k)=>{ p=p.trim(); if(!p) return; let titulo="Introdução", item=null, corpo=p;
+      const m=p.match(/^## (.+)\n?/); if(m){ corpo=p.slice(m[0].length); const h=m[1];
+        const num=(h.match(/(?:ITEM\s+)?(\d+(?:\.\d+)?)/)||[])[1];
+        if(num){ const cand=l.prova+"-"+num; if(P.edital.find(e=>e.id===cand)){ item=cand; } }
+        titulo = item? `${curtoId(item)} ${editalTexto(item)}` : limpaTitulo(h);
+        if(/VOL[ÁA]TIL/.test(h)) titulo+=" · fato datado";
+      }
+      out.push({tipo:"curso",titulo,item,corpo});
+    });
+  }
+  if((l.resumo||"").trim()) out.push({tipo:"resumo",titulo:"Resumo",corpo:l.resumo});
+  if((l.pares||[]).length) out.push({tipo:"pares",titulo:"Pares confundíveis"});
+  if((l.pegadinhas||[]).length) out.push({tipo:"peg",titulo:"Pegadinhas prováveis"});
+  if(itensDoLote(id).filter(i=>!i.volatil).length) out.push({tipo:"teste",titulo:"Teste de lote"});
+  return out;
+}
+const SIGLAS=["ASR","IA","LGPD","ANPD","WER","API","APIs","CAT","SLA","TCP/IP","IP","URL","LLM","LLMs","RAG","DNS","HTTP","HTTPS","VPN","PDF","CNJ","TI","OCR","CSV","JSON","KPI","AIQ","DETAQ","DEREP","LAI","MFCC","PT-BR","SAC","NLP","PLN","CPU","GPU","SSL","TLS","FTP","SMTP","POP3","IMAP","LAN","WAN","MAN","PAN","MFA","2FA","OneDrive","PowerPoint","Excel","Word","Teams","Google","Meet","Microsoft","Office","Power","BI","Tableau","Data","Studio","Câmara","Cebraspe","Tukey","Internet"];
+const SIG=Object.fromEntries(SIGLAS.map(x=>[x.toLowerCase(),x]));
+function limpaTitulo(h){ h=h.replace(/^ITEM\s+/i,"").replace(/^(\d+(?:\.\d+)*)\s+[—-]\s+/,"$1 ");
+  if(h===h.toUpperCase()){ h=h.toLowerCase().replace(/[\p{L}0-9\/-]+/gu,w=>SIG[w]||w); h=h.replace(/\p{L}/u,c=>c.toUpperCase()); } return h; }
+function palavras(t){ return (t||"").split(/\s+/).length; }
+function minutoLeitura(id){ const b=blocosDoLote(id)[0]; return b? Math.max(3,Math.round(palavras(b.corpo)/180)) : 10; }
+function statusLote(id){ const bl=blocosDoLote(id), L=S.lote[id]; if(!L) return {pct:0,ini:false};
+  const nc=bl.filter(b=>b.tipo==="curso").length; const vistos=new Set(L.vistos||[]);
+  const feitos=bl.filter((b,k)=>b.tipo==="teste"?L.feito.teste:vistos.has(k)).length; return {pct:bl.length?feitos/bl.length:0,ini:true,feitos,total:bl.length,nc}; }
+function loteAtual(){ for(const id of ordemTrilha()){ const s=statusLote(id); if(s.ini && s.pct<1) return id; } for(const id of ordemTrilha()){ const s=statusLote(id); if(s.pct<1) return id; } return null; }
+function ordemTrilha(){ // módulo com diagnóstico feito e escolha "zero" primeiro? Mantém a ordem do edital, começando pelo módulo escolhido primeiro
+  const ms=MODULOS.slice().sort((a,b)=>(S.escolha[a.id]?0:1)-(S.escolha[b.id]?0:1)); return ms.flatMap(m=>lotesDoModulo(m)); }
+function vEstudo(){
+  const atual=loteAtual();
+  const card=id=>{ const bl=blocosDoLote(id), L=S.lote[id]||{vistos:[],feito:{}}; const st=statusLote(id); const vistos=new Set(L.vistos||[]);
+    const l=loteObj(id); const itensE=(l.itensEdital||[]).map(curtoId).join(" · ");
+    if(id!==atual) return `<button class="card lotecard" data-lote="${id}"><div class="t1"><b>${esc(loteNome(id))}</b><span class="num">${st.ini?Math.round(st.pct*100)+"%":esc(itensE)}</span></div>
+      <div class="small muted" style="margin-top:4px">${st.pct>=1?"Concluído · ":""}${bl.map(b=>b.tipo==="curso"?null:b.titulo.split(" ")[0]).filter(Boolean).length?["Curso",...bl.filter(b=>b.tipo!=="curso").map(b=>b.tipo==="pares"?"Pares":b.tipo==="peg"?"Pegadinhas":b.tipo==="teste"?"Teste":b.titulo)].join(" · "):"Curso"}</div></button>`;
+    const cursos=bl.map((b,k)=>({b,k})).filter(o=>o.b.tipo==="curso"); const nv=cursos.filter(o=>vistos.has(o.k)).length;
+    const sq=(done,half)=>`<span class="sq ${done?"full":half?"half":""}" aria-hidden="true"></span>`;
+    const outros=bl.map((b,k)=>({b,k})).filter(o=>o.b.tipo!=="curso");
+    const rotulo=o=>o.b.tipo==="pares"?`${(l.pares||[]).length}`:o.b.tipo==="peg"?`${(l.pegadinhas||[]).length}`:o.b.tipo==="teste"?"10 itens":"—";
+    const feito=o=>o.b.tipo==="teste"?!!L.feito.teste:vistos.has(o.k);
+    const parou=bl[L.bloco||0];
+    return `<div class="card on"><div class="t1 lotecard" style="display:flex;justify-content:space-between;gap:10px;align-items:baseline"><b style="font-size:18px">${esc(loteNome(id))}</b><span class="xs muted">${esc(itensE)}</span></div>
+     <div class="blocos" role="list" aria-label="Blocos do lote">
+      ${cursos.length?`<div class="bl" role="listitem">${sq(nv===cursos.length,nv>0)}<span>Curso · ${cursos.length} bloco${cursos.length>1?"s":""}</span><span class="q">${nv?`${nv} de ${cursos.length}`:"a fazer"}</span></div>`:""}
+      ${outros.map(o=>`<div class="bl" role="listitem">${sq(feito(o),false)}<span>${esc(o.b.titulo)}</span><span class="q">${feito(o)?"feito":rotulo(o)}</span></div>`).join("")}
+     </div>
+     ${st.ini&&parou?`<p class="small muted" style="margin-top:8px">Você parou em: ${esc(parou.titulo)}</p>`:""}
+     <button class="btn primary" style="margin-top:10px;width:100%" data-lote="${id}">${st.ini?"Continuar de onde parei":"Começar o lote"}</button></div>`; };
+  const pegs=P.lotes.flatMap(l=>(l.pegadinhas||[]).map(p=>Object.assign({lote:l.id},p))); const peg=pegs.length?pegs[Math.floor(Date.now()/86400000)%pegs.length]:null;
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div><h1>Sua trilha</h1><p class="small muted" style="margin-top:6px">Na ordem do edital. Cada lote: curso em blocos, resumo, pares confundíveis, pegadinhas e teste de 10 itens.</p></div>
+   ${atual?card(atual):`<div class="hl"><b>Todos os lotes concluídos.</b> Agora é simulado e caderno de erros.</div>`}
+   ${peg?`<div class="comando small"><b>Pegadinha do dia · ${esc(curtoId(peg.itemEdital||""))}${rotuloPeg(peg)?" · "+esc(rotuloPeg(peg)):""}</b> — ${esc(peg.texto.length>260?peg.texto.slice(0,257)+"…":peg.texto)}</div>`:""}
+   ${ordemModulos().map(m=>`<div class="stack"><div class="modhead"><h2>${esc(m.curto)}</h2><span class="small muted">${S.escolha[m.id]==="diag"?"caminho: diagnóstico":S.escolha[m.id]==="zero"?"caminho: do zero":""}</span></div>
+     ${lotesDoModulo(m).filter(id=>id!==atual).map(card).join("")}</div>`).join("")}
+  </div>`;
+  app().querySelectorAll("[data-lote]").forEach(b=>b.onclick=()=>ir("lote",{id:b.dataset.lote}));
+}
+function ordemModulos(){ return MODULOS.slice().sort((a,b)=>(S.escolha[a.id]?0:1)-(S.escolha[b.id]?0:1)); }
+
+/* ============ 4a · Lote em leitura ============ */
+function mdCurso(t,item){
+  const linhas=String(t||"").replace(/\r/g,"").split("\n"); let h=""; let lista=null; let par=[];
+  const inline=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+  const fechaPar=()=>{ if(par.length){ h+=`<p>${par.map(inline).join(" ")}</p>`; par=[]; } };
+  const fechaLista=()=>{ if(lista){ h+=`<${lista.t}>${lista.i.map(x=>`<li>${inline(x)}</li>`).join("")}</${lista.t}>`; lista=null; } };
+  linhas.forEach(raw=>{ const l=raw.trimEnd();
+    if(!l.trim()){ fechaPar(); fechaLista(); return; }
+    let m;
+    if((m=l.match(/^#{2,4}\s+(.+)/))){ fechaPar(); fechaLista(); h+=`<h3>${inline(limpaTitulo(m[1].replace(/^\d+(\.\d+)+\s+/,"")))}</h3>`; return; }
+    if(/^[A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9 ,:\-—()\/.]{6,}$/.test(l.trim()) && /[A-ZÁÉÍÓÚÇ]{4}/.test(l)){ fechaPar(); fechaLista(); h+=`<h3>${inline(limpaTitulo(l.trim().replace(/^\d+(\.\d+)+\s+/,"")))}</h3>`; return; }
+    if((m=l.match(/^\s*[-*•]\s+(.+)/))){ if(par.length===1 && par[0].length<70 && !/[.;:]$/.test(par[0].trim())){ h+=`<h3>${inline(par[0].trim())}</h3>`; par=[]; } fechaPar(); if(!lista||lista.t!=="ul"){ fechaLista(); lista={t:"ul",i:[]}; } lista.i.push(m[1]); return; }
+    if((m=l.match(/^\s*\d+[.)]\s+(.+)/))){ fechaPar(); if(!lista||lista.t!=="ol"){ fechaLista(); lista={t:"ol",i:[]}; } lista.i.push(m[1]); return; }
+    if(lista){ lista.i[lista.i.length-1]+=" "+l.trim(); return; }
+    par.push(l);
+  });
+  fechaPar(); fechaLista();
+  if(item==="P1-8.2"){ const fig=`<figure class="fig"><div role="img">${BOXPLOT}</div><figcaption>${esc(TUKEY)}</figcaption></figure>`;
+    const k=h.search(/<li>Definição: resume a di|Box plot \(diagrama de caixa\)/); if(k>=0){ const fim=h.indexOf("</ul>",k); h=fim>=0? h.slice(0,fim+5)+fig+h.slice(fim+5) : h+fig; } else h+=fig; }
+  return h;
+}
+function vLote(arg){
+  const id=arg.id; const l=loteObj(id); if(!l) return ir("estudo");
+  const bl=blocosDoLote(id); const L=estLote(id); let k=Math.min(L.bloco||0,bl.length-1); L.bloco=k; const b=bl[k];
+  if(b.tipo!=="teste"){ if(!L.vistos.includes(k)) L.vistos.push(k); }
+  ev("lote_bloco_visto",{lote:id,bloco:k}); salvar();
+  const vistos=new Set(L.vistos);
+  const seg=bl.map((x,j)=>`<i class="${j===k||vistos.has(j)||(x.tipo==="teste"&&L.feito.teste)?"r":x.tipo==="curso"?"":"o"}"></i>`).join("");
+  const nc=bl.filter(x=>x.tipo==="curso").length; const pos=bl.slice(0,k+1).filter(x=>x.tipo==="curso").length;
+  let corpo="";
+  if(b.tipo==="curso"){ corpo=`<div class="curso">${mdCurso(b.corpo,b.item)}</div>`; }
+  else if(b.tipo==="resumo"){ corpo=`<div class="curso">${mdCurso(b.corpo)}</div>`; }
+  else if(b.tipo==="pares"){ corpo=(l.pares||[]).map(p=>{ const partes=String(p.como||"").split(" | "); return `<div class="par"><div class="ab">${esc(p.a)} <span>×</span> ${esc(p.b)}</div><ul>${partes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`; }).join(""); }
+  else if(b.tipo==="peg"){ corpo=(l.pegadinhas||[]).map(p=>`<div class="par"><span class="tag">${esc(curtoId(p.itemEdital||""))}</span>${rotuloPeg(p)?`<b>${esc(rotuloPeg(p))}</b> — `:""}${esc(p.texto)}</div>`).join(""); }
+  else if(b.tipo==="teste"){ const ult=S.tentativas.filter(t=>t.tipo==="teste"&&t.ref===id).pop(); corpo=`<div class="stack"><p>Dez itens do lote, sorteados entre os ${itensDoLote(id).filter(i=>!i.volatil).length} disponíveis, na mesma folha de respostas do simulado, sem cronômetro.</p>${ult?`<p class="small muted">Última vez: ${ult.nota} de ${ult.total}.</p>`:""}<button class="btn primary" id="teste">Fazer o teste de 10 itens</button></div>`; }
+  const ant=k>0?bl[k-1]:null, prox=k<bl.length-1?bl[k+1]:null;
+  const nomeCurto=x=>x.tipo==="curso"?(x.item?curtoId(x.item)+" · "+editalTexto(x.item).split(/[,:(]/)[0]:x.titulo):x.titulo;
+  app().innerHTML=`<div class="screen">
+   <div class="folha-top"><span>${esc(loteNome(id))}</span><button class="link" id="sair">sair e guardar</button></div>
+   <div class="barras" role="img" aria-label="Bloco ${k+1} de ${bl.length}">${seg}</div>
+   <div class="small muted" style="margin-top:8px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><span>${b.tipo==="curso"?`Curso · bloco ${pos} de ${nc} · cerca de ${Math.max(1,Math.round(palavras(b.corpo)/180))} min`:esc(b.titulo)}</span><span>${b.tipo==="curso"?"depois: "+bl.filter(x=>x.tipo!=="curso").map(x=>x.tipo==="pares"?"pares":x.tipo==="peg"?"pegadinhas":x.tipo==="teste"?"teste":"resumo").join(", "):""}</span></div>
+   <h1 style="margin-top:20px;font-size:24px">${esc(b.titulo)}</h1>
+   <div style="margin-top:6px">${corpo}</div>
+   <div class="spacer" style="min-height:28px"></div>
+   <div class="row2" style="padding-bottom:16px;position:sticky;bottom:0;background:var(--paper);padding-top:10px">
+     <button class="btn" id="ant" ${ant?"":"disabled"}>${ant?esc(ant.tipo==="curso"&&ant.item?curtoId(ant.item):ant.titulo.split(" ")[0]):"Início"}</button>
+     ${prox?`<button class="btn primary w2" id="prox">${esc(nomeCurto(prox))}</button>`:`<button class="btn primary w2" id="fimlote">Voltar à trilha</button>`}
+   </div></div>`;
+  $("#sair").onclick=()=>ir("estudo");
+  if(ant) $("#ant").onclick=()=>{ L.bloco=k-1; salvar(); render(); window.scrollTo({top:0}); };
+  if(prox) $("#prox").onclick=()=>{ L.bloco=k+1; salvar(); render(); window.scrollTo({top:0}); };
+  if($("#fimlote")) $("#fimlote").onclick=()=>ir("estudo");
+  if($("#teste")) $("#teste").onclick=()=>iniciarTeste(id);
+}
+
+/* ============ 5 · Caderno de erros ============ */
+function vErros(){
+  const ids=Object.keys(S.erros).filter(id=>M[id]).sort((a,b)=>S.erros[b].errou-S.erros[a].errou);
+  const semana=S.saidas.filter(s=>Date.now()-s.t<7*86400000).length;
+  const lote=ids.slice(0,10);
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div><h1>Caderno de erros</h1><p class="small muted" style="margin-top:6px">${ids.length?`${ids.length} item(ns) para revisar. Cada um sai depois de dois acertos seguidos.`:"Todo item errado em simulado ou teste volta aqui e sai depois de dois acertos seguidos."}</p></div>
+   ${ids.length?`<button class="btn primary" id="rev">Revisar ${lote.length} agora</button>`:`<div class="vazio">Nenhum item pendente.</div>`}
+   ${btnExportar()}
+   <div>${ids.map(id=>{ const it=M[id], e=S.erros[id]; return `<div class="par" data-id="${id}">
+     <div class="small muted" style="display:flex;justify-content:space-between;gap:8px"><span><b style="color:var(--ink)">${esc(curtoId(it.itemEdital))}</b> · ${esc(editalTexto(it.itemEdital))}</span><span class="num" style="white-space:nowrap">errou ${e.errou}× · ${e.seq}/2</span></div>
+     <p style="margin-top:6px;font-size:16px">${esc(it.enunciado)}</p>${notaTxt(it)?`<div style="margin-top:6px">${notaHtml(it)}</div>`:""}
+     <div class="ce" style="margin-top:10px"><button class="bolha sm" data-v="C" aria-label="Certo">C</button><button class="bolha sm" data-v="E" aria-label="Errado">E</button></div>
+     <p class="small just" hidden style="margin-top:8px"></p></div>`; }).join("")}</div>
+   ${semana?`<p class="small"><b>Esta semana, ${semana} item(ns) saíram do caderno.</b></p>`:""}
+  </div>`;
+  if($("#rev")) $("#rev").onclick=()=>iniciarRevisao(lote);
+  ligaExportar();
+  app().querySelectorAll(".par[data-id]").forEach(div=>div.querySelectorAll(".bolha").forEach(b=>b.onclick=()=>{
+    const id=div.dataset.id, it=M[id]; const ok=b.dataset.v===it.gabarito; b.classList.add(ok?"okk":"err");
+    const j=div.querySelector(".just"); j.hidden=false;
+    j.innerHTML=`<span class="${ok?"ok":"er"}">${ok?"Certo.":"Errado."}</span> Gabarito <span class="gab">${it.gabarito}</span>. ${esc(it.justificativa||"Item oficial da Cebraspe.")}`;
+    atualizarCaderno([{id,st:ok?"c":"e"}]); if(!S.erros[id]) j.innerHTML+=" <b>Saiu do caderno.</b>"; salvar();
+    div.querySelectorAll(".bolha").forEach(x=>x.disabled=true); ev("caderno_item_respondido",{id,ok});
+    const n=Object.keys(S.erros).filter(x=>M[x]).length; const be=$("#bErr"); be.hidden=!n; be.textContent=n;
+  }));
+}
+
+/* ============ 6 · Painel ============ */
+function statsPorItem(){ const st={}; S.tentativas.forEach(t=>Object.entries(t.por).forEach(([k,v])=>{ st[k]=st[k]||{c:0,e:0,b:0}; st[k].c+=v.c; st[k].e+=v.e; st[k].b+=v.b; })); return st; }
+function proximoPasso(){
+  const falta=MODULOS.find(m=>!S.escolha[m.id]); if(falta) return {t:`Escolher o caminho em ${falta.curto}`,go:()=>ir("entrada",falta.id)};
+  const nErr=Object.keys(S.erros).filter(id=>M[id]).length; if(nErr>=10) return {t:`Revisar o caderno de erros (${nErr} itens)`,go:()=>ir("erros")};
+  const a=loteAtual(); if(a){ const L=S.lote[a]; const b=blocosDoLote(a)[(L&&L.bloco)||0]; return {t:`${loteNome(a).split(" · ")[0]} · ${L?"continuar: "+b.titulo:"começar"}`,go:()=>ir("lote",{id:a})}; }
+  return {t:"Fazer um simulado final",go:()=>ir("simulados")};
+}
+function vPainel(){
+  const st=statsPorItem(); const n=S.tentativas.filter(t=>t.tipo==="sim"); const ult=n[n.length-1];
+  const cont={}; P.itens.forEach(i=>{ cont[i.itemEdital]=(cont[i.itemEdital]||0)+1; });
+  const cursoDe=new Set(P.lotes.flatMap(l=>blocosDoLote(l.id).filter(b=>b.item).map(b=>b.item)));
+  const max=Math.max(...Object.values(cont),1);
+  const pp=proximoPasso();
+  const grupo=m=>{ const es=P.edital.filter(e=>e.id.startsWith(m.id));
+    return `<div><h2 style="margin-top:6px">${esc(m.parte)} · ${esc(m.curto)}</h2><div style="margin-top:4px">${es.map(e=>{ const sub=/\.\d/.test(e.id); const s=st[e.id]; const c=cont[e.id]||0;
+      return `<div class="ped ${sub?"sub":""}"><div class="id">${esc(curtoId(e.id))}</div><div class="tx">${esc(e.texto)}<div class="xs muted">${c?c+" itens":"sem itens próprios"}${cursoDe.has(e.id)?" · curso":""}</div></div><div>${pill(s?nl(s):null)}</div><div class="bar" aria-hidden="true"><i style="width:${Math.round(100*c/max)}%"></i></div></div>`; }).join("")}</div></div>`; };
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div><h1>Painel</h1><p class="small muted num" style="margin-top:6px">${diasProva()} para a prova · ${n.length} prova(s) feita(s)${ult?` · última nota ${ult.nota}/${ult.total}`:""}</p></div>
+   <button class="btn primary big" id="pp" style="min-height:64px;text-align:left"><span><span class="xs" style="display:block;font-weight:400;opacity:.85">Próximo passo</span>${esc(pp.t)}</span><span aria-hidden="true">→</span></button>
+   ${MODULOS.map(grupo).join("")}
+   <p class="leg">Barra: itens disponíveis por subitem do edital. Número: sua nota líquida no subitem — (acertos − erros) ÷ itens apresentados, como na prova. Vermelho abaixo de 60%, amarelo de 60% a 80%, verde acima de 80%. Traço: ainda sem resposta.</p>
+   <div class="stack"><h2>Caminho escolhido</h2>${MODULOS.map(m=>`<div class="card" style="display:flex;justify-content:space-between;align-items:center;gap:10px"><span>${esc(m.curto)}: <b>${S.escolha[m.id]==="diag"?"diagnóstico":S.escolha[m.id]==="zero"?"do zero":"não escolhido"}</b></span><button class="link" data-mud="${m.id}">mudar</button></div>`).join("")}</div>
+   <div class="stack"><button class="btn" id="vesp">Lista da véspera (16/1/2027)</button><button class="btn" id="dad">Pacote de conteúdo e métricas</button></div>
+  </div>`;
+  $("#pp").onclick=pp.go; $("#vesp").onclick=()=>ir("vespera"); $("#dad").onclick=()=>ir("dados");
+  app().querySelectorAll("[data-mud]").forEach(b=>b.onclick=()=>{ delete S.escolha[b.dataset.mud]; salvar(); ir("entrada",b.dataset.mud); });
+}
+
+/* ============ 4c/4d · Discursiva ============ */
+const CPL=66; // caracteres por linha da folha
+function contaLinhas(t){ if(!t) return 0; return t.split("\n").reduce((s,p)=>s+Math.max(1,Math.ceil(p.length/CPL)),0); }
+function vDisc(id){
+  const d=(P.discursivas||[]).find(x=>x.id===id); if(!d) return ir("simulados");
+  const peca=d.tipo==="peca"; const L=peca?50:20; const st=S.disc[id]=S.disc[id]||{texto:"",entregue:false,notas:{},ne:0};
+  const linhasCmd=(d.comando||"").split("\n");
+  app().innerHTML=`<div class="stack l" style="padding-top:16px">
+   <div class="folha-top" style="padding:0"><span>Discursiva · ${peca?"peça técnica":"questão"} ${esc(d.id)} · ${L} linhas</span><button class="link" id="sair">sair e guardar</button></div>
+   <details class="card"><summary style="cursor:pointer;min-height:32px"><b>ver comando</b></summary><div class="pre" style="margin-top:8px">${esc(d.comando)}</div></details>
+   <div class="contador"><span><b class="num" id="ln">0</b> <span class="small muted">de ${L} linhas</span></span><span class="small muted" id="lnr">fora das ${L} linhas não é lido</span></div>
+   <div class="barras" aria-hidden="true" id="lbar">${Array.from({length:L},()=>"<i></i>").join("")}</div>
+   <div class="folhad"><textarea id="tx" aria-label="Texto da resposta, até ${L} linhas" ${st.entregue?"readonly":""} style="min-height:${L*28+16}px">${esc(st.texto)}</textarea></div>
+   <p class="xs muted">Desconto por erro gramatical: ${peca?"NPT = NC − 6 × NE ÷ TL (edital 9.8.5.2; NC máx. 30). Em 50 linhas, um erro = −0,12; em 25 linhas, −0,24. Escrever menos não protege.":"NQ = NC − 3 × NE ÷ TL (edital 9.8.5.1). Em 20 linhas, um erro = −0,15."} Contagem de linhas estimada pela plataforma: cerca de ${CPL} caracteres por linha manuscrita.</p>
+   ${st.entregue?avaliacao(d,st,L,peca):`<div class="row2"><button class="btn" id="guarda">Guardar rascunho</button><button class="btn primary" id="entrega">Entregar</button></div>`}
+  </div>`;
+  const tx=$("#tx"); const upd=()=>{ const n=contaLinhas(tx.value); $("#ln").textContent=n; const r=$("#lnr"); r.textContent=n>L?`${n-L} linha(s) além do limite não serão lidas`:`${L-n} restantes · fora das ${L} linhas não é lido`; r.className=n>L?"small exc":"small muted"; $("#lbar").querySelectorAll("i").forEach((x,k)=>x.className=k<n?(n>L?"er":"r"):""); };
+  tx.addEventListener("input",()=>{ st.texto=tx.value; upd(); clearTimeout(vDisc.h); vDisc.h=setTimeout(salvar,500); }); upd();
+  $("#sair").onclick=()=>{ salvar(); ir("simulados"); };
+  if($("#guarda")) $("#guarda").onclick=()=>{ salvar(); toast("Rascunho guardado neste aparelho."); };
+  if($("#entrega")) $("#entrega").onclick=()=>{ if(!st.texto.trim()) return toast("Escreva a resposta antes de entregar."); st.entregue=true; st.tl=Math.min(contaLinhas(st.texto),L); ev("discursiva_entregue",{id,linhas:st.tl}); salvar(); render(); };
+  ligaAvaliacao(d,st,L,peca);
+}
+function avaliacao(d,st,L,peca){
+  return `<div class="stack"><h2>Correção pelo padrão de resposta</h2><p class="small muted">Compare seu texto com cada aspecto e marque quanto dele você atendeu. Depois conte os erros de língua.</p>
+   <div>${(d.aspectos||[]).map(a=>`<div class="asp"><span><b>${a.n}.</b> ${esc(a.texto)} <span class="muted num">(até ${fmt(a.valor)})</span></span>
+     <label class="sr" for="asp${a.n}" style="position:absolute;left:-9999px">Aspecto ${a.n}</label><select id="asp${a.n}" data-n="${a.n}">${[0,.25,.5,.75,1].map(f=>`<option value="${f}" ${(st.notas[a.n]??0)==f?"selected":""}>${f*100}%</option>`).join("")}</select></div>`).join("")}</div>
+   <div class="asp"><span>Erros de grafia, morfossintaxe ou vocabulário (NE)</span><input id="ne" type="text" inputmode="numeric" autocomplete="off" value="${st.ne||0}" aria-describedby="neAviso" style="width:80px;min-height:44px;border:2px solid var(--ink);border-radius:6px;padding:0 8px;background:var(--paper)"><span id="neAviso" class="xs" role="alert" hidden style="grid-column:1/-1"></span></div>
+   <div class="hl"><div class="small muted">Nota estimada</div><div style="font-size:28px;font-weight:700" class="num" id="nq">—</div><div class="xs muted" id="nqf"></div></div>
+   <details class="card"><summary style="cursor:pointer;min-height:32px"><b>Padrão de resposta completo</b></summary><div class="pre" style="margin-top:8px">${esc(d.padrao||"")}</div>${(d.quesitos||[]).length?`<div class="pre" style="margin-top:8px">${esc(JSON.stringify(d.quesitos,null,1)).replace(/[{}\[\]"]/g,"")}</div>`:""}</details>
+   <button class="btn" id="reabrir">Reescrever do zero</button></div>`;
+}
+function ligaAvaliacao(d,st,L,peca){
+  if(!st.entregue) return;
+  const calc=()=>{ const nc=(d.aspectos||[]).reduce((s,a)=>s+a.valor*(+st.notas[a.n]||0),0); const tl=Math.max(1,st.tl||contaLinhas(st.texto)); const ne=+st.ne||0;
+    const nota=Math.max(0,nc-(peca?6:3)*ne/tl); st.nota=nota; $("#nq").textContent=fmt(nota); $("#nqf").textContent=`NC ${fmt(nc)} − ${peca?6:3} × ${ne} ÷ ${tl} linhas`; salvar(); };
+  app().querySelectorAll("select[data-n]").forEach(s=>s.onchange=()=>{ st.notas[s.dataset.n]=+s.value; calc(); });
+  const neIn=$("#ne"), neAv=$("#neAviso");
+  neIn.oninput=()=>{ const v=neIn.value.trim(), n=v===""?0:(/^[0-9]+$/.test(v)?Number(v):NaN); if(Number.isSafeInteger(n)){ st.ne=n; neAv.hidden=true; neAv.textContent=""; neIn.removeAttribute("aria-invalid"); calc(); } else { neAv.textContent=`Digite um número inteiro (0, 1, 2…). Valor não aceito; a nota segue com NE ${st.ne}.`; neAv.hidden=false; neIn.setAttribute("aria-invalid","true"); } };
+  neIn.onchange=()=>{ if(!neAv.hidden){ neIn.value=String(st.ne); neIn.removeAttribute("aria-invalid"); } };
+  $("#reabrir").onclick=()=>{ S.disc[d.id]={texto:"",entregue:false,notas:{},ne:0}; salvar(); render(); };
+  calc();
+}
+
+/* ============ 4e · Véspera ============ */
+function vVespera(){
+  const marc=VESPERA.filter((_,i)=>S.vespera[i]).length;
+  app().innerHTML=`<div class="screen">${topo()}
+   <h1 style="font-size:28px">Véspera. Hoje não tem estudo.</h1>
+   <p class="muted" style="margin-top:8px">Só esta lista. Quando os seis itens estiverem marcados, feche o app.</p>
+   <div style="margin-top:14px">${VESPERA.map((v,i)=>`<label class="chk" for="vp${i}"><input type="checkbox" id="vp${i}" data-i="${i}" ${S.vespera[i]?"checked":""}><span><b>${esc(v[0])}</b><br><span class="small muted">${esc(v[1])}</span></span></label>`).join("")}</div>
+   <div class="spacer" style="min-height:20px"></div>
+   <p class="small muted num" style="margin-bottom:10px">${marc} de 6 marcados</p>
+   <button class="btn primary" id="pronta" ${marc<6?"disabled":""}>Pronta para amanhã</button>
+   <p style="text-align:center;padding-block:10px"><button class="link" id="volta">voltar ao painel</button></p></div>`;
+  app().querySelectorAll("input[data-i]").forEach(c=>c.onchange=()=>{ S.vespera[c.dataset.i]=c.checked; salvar(); render(); });
+  $("#pronta").onclick=()=>{ S.vespera.feito=true; ev("vespera_concluida"); toast("Boa prova amanhã."); };
+  $("#volta").onclick=()=>ir("painel");
+}
+
+/* ============ Dados ============ */
+function vDados(){
+  const custom=!!lsGet(K_P);
+  const evs={}; S.eventos.forEach(e=>evs[e.e]=(evs[e.e]||0)+1);
+  app().innerHTML=`${topo()}<div class="stack l">
+   <div><h1>Pacote e métricas</h1><p class="small muted" style="margin-top:6px">A plataforma lê o pacote exportado pela fábrica. Progresso e métricas ficam só neste aparelho.</p></div>
+   <div class="card stack"><b>${esc(P.nome||"Pacote")}</b><p class="small">Versão ${esc(P.versao)} · gerado em ${esc(P.geradoEm||"?")} · ${P.itens.length} itens (${P.itens.filter(i=>i.rotulo==="AUTORAL").length} inéditos, ${P.itens.filter(i=>i.rotulo!=="AUTORAL").length} Cebraspe) · ${P.lotes.length} lotes · ${P.simulados.length} simulados · ${(P.discursivas||[]).length} discursivas${custom?" · carregado neste aparelho":" · publicado com a plataforma"}</p></div>
+   <div class="stack"><h2>Exportar meus erros</h2><p class="small muted">Gera um arquivo com seu caderno de erros, suas provas e suas discursivas entregues, para a correção da semana. Nada muda no seu progresso.</p>${btnExportar()}</div>
+   <div class="stack"><label for="js"><b>Carregar outro pacote.json</b></label><textarea class="json" id="js" placeholder='{"versao":1,"itens":[…],"simulados":[…],"lotes":[…]}'></textarea>
+   <div class="row2"><button class="btn primary" id="car">Carregar</button>${custom?`<button class="btn" id="pub">Voltar ao publicado</button>`:""}</div><p class="small muted" id="msg"></p></div>
+   <div><h2>Métricas da jornada</h2><table class="t" style="margin-top:6px"><tr><th>Evento</th><th class="r">Vezes</th></tr>${Object.entries(evs).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="r num">${v}</td></tr>`).join("")||`<tr><td colspan="2" class="muted">Nenhum evento ainda.</td></tr>`}</table>
+   <p class="leg" style="margin-top:6px">Razão erros ÷ brancos nos simulados: ${(()=>{ const s=S.tentativas.filter(t=>t.tipo==="sim"); const e=s.reduce((a,t)=>a+t.er,0), b=s.reduce((a,t)=>a+t.br,0); return s.length? (b? fmt(e/b) : (e? "sem brancos":"—")) : "—"; })()} · itens que saíram do caderno: ${S.saidas.length}.</p></div>
+   <div class="stack" id="zona"><button class="btn" id="apag">Apagar meu progresso</button></div>
+  </div>`;
+  ligaExportar();
+  $("#car").onclick=()=>{ const m=$("#msg"); try{ const j=JSON.parse($("#js").value); validar(j); lsSet(K_P,j); usarPacote(j); m.textContent=`Pacote carregado: ${j.itens.length} itens.`; toast("Pacote carregado."); render(); }catch(e){ m.textContent=`Não carregou: ${e.message}. Confira o JSON e tente de novo.`; } };
+  if($("#pub")) $("#pub").onclick=()=>{ lsDel(K_P); usarPacote(PUB); toast("Pacote publicado ativo."); render(); };
+  $("#apag").onclick=()=>{ const z=$("#zona"); z.innerHTML=`<div class="hl stack"><b>Apagar provas, caderno de erros, lotes e rascunhos deste aparelho?</b><div class="row2"><button class="btn" id="n">Manter</button><button class="btn primary" id="s">Apagar</button></div></div>`; $("#n").onclick=render; $("#s").onclick=()=>{ S=novoEstado(); S.boasVindas=true; salvar(); toast("Progresso apagado."); render(); }; };
+}
+function validar(j){
+  if(!Array.isArray(j.itens)||!Array.isArray(j.simulados)) throw new Error('faltam "itens" ou "simulados"');
+  const falt=j.itens.filter(i=>!i.id||!i.enunciado||!["C","E"].includes(i.gabarito)).length; if(falt) throw new Error(`${falt} item(ns) sem id, enunciado ou gabarito C/E`);
+  j.lotes=j.lotes||[]; j.discursivas=j.discursivas||[]; if(!Array.isArray(j.edital)) j.edital=(PUB||{}).edital||[];
+}
+function usarPacote(j){ P=j; M=Object.fromEntries(P.itens.map(i=>[i.id,i])); }
+
+/* ============ Exportar meus erros (T-60; formato D-T59-02) ============ */
+const DL_P=(window.claude&&typeof window.claude.use==="function")?Promise.resolve().then(()=>window.claude.use("downloads")).catch(()=>null):Promise.resolve(null);
+function btnExportar(){ return `<div class="stack"><button class="btn" id="exp">Exportar meus erros</button><div id="expOut" hidden></div></div>`; }
+function ligaExportar(){ const b=$("#exp"); if(b) b.onclick=()=>exportarErros(b,$("#expOut")); }
+function expIso(ms){ return (typeof ms==="number"&&isFinite(ms))?new Date(ms).toISOString():null; }
+function expNome(d){ const z=n=>String(n).padStart(2,"0"); return `camara2026-erros-${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}-${z(d.getHours())}${z(d.getMinutes())}.json`; }
+function montarErros(agora){
+  const evs=S.eventos||[]; const cont={}; evs.forEach(e=>{ cont[e.e]=(cont[e.e]||0)+1; });
+  const caderno=Object.keys(S.erros).map(id=>{ const e=S.erros[id]; return {id,itemEdital:M[id]?(M[id].itemEdital??null):null,noPacote:!!M[id],errou:e.errou,seq:e.seq,desde:expIso(e.desde)}; })
+    .sort((a,b)=>(b.errou-a.errou)||(a.id<b.id?-1:a.id>b.id?1:0));
+  const respostasCaderno=evs.filter(e=>e.e==="caderno_item_respondido").map(e=>({id:e.id,ok:!!e.ok,em:expIso(e.t)}));
+  const tentativas=S.tentativas.map(t=>{ const por={}; Object.keys(t.por||{}).forEach(k=>{ const v=t.por[k]; por[k]={c:v.c,e:v.e,b:v.b}; });
+    return {tipo:t.tipo,ref:t.ref,nome:t.nome,modulo:t.modulo||null,data:expIso(t.data),seg:t.seg,total:t.total,nota:t.nota,ac:t.ac,er:t.er,br:t.br,por,det:(t.det||[]).map(d=>({id:d.id,r:d.r??null,st:d.st}))}; });
+  const saidas=S.saidas.map(x=>({id:x.id,em:expIso(x.t),dias:x.dias}));
+  const ids=Object.keys(S.disc);
+  const discursivas=ids.filter(id=>S.disc[id].entregue).sort().map(id=>{ const st=S.disc[id]; const d=(P.discursivas||[]).find(x=>x.id===id); const ult=evs.filter(e=>e.e==="discursiva_entregue"&&e.id===id).pop();
+    return {id,tipo:d?(d.tipo==="peca"?"peca":"questao"):null,entregue:true,entregueEm:ult?expIso(ult.t):null,texto:st.texto,tl:st.tl??null,notas:Object.assign({},st.notas),ne:st.ne||0,nota:(typeof st.nota==="number")?st.nota:null}; });
+  const rascunhos=ids.filter(id=>!S.disc[id].entregue&&S.disc[id].texto).length;
+  return {formato:"camara2026.erros",versaoFormato:1,exportadoEm:agora.toISOString(),
+    pacote:{nome:P.nome??null,geradoEm:P.geradoEm??null,versao:P.versao??null,origem:lsGet(K_P)?"carregado":"publicado"},
+    estadoVersao:S.v,escolha:Object.assign({},S.escolha),
+    resumo:{tentativas:tentativas.length,itensNoCaderno:caderno.length,saidas:saidas.length,discursivasEntregues:discursivas.length,discursivasRascunho:rascunhos,eventos:cont,eventosTruncados:evs.length>=2000},
+    caderno,respostasCaderno,tentativas,saidas,discursivas};
+}
+async function exportarErros(btn,out){
+  const rot="Exportar meus erros"; const comFoco=document.activeElement===btn; btn.disabled=true; btn.textContent="Preparando…";
+  const fim=()=>{ if(btn.isConnected){ btn.disabled=false; btn.textContent=rot; if(comFoco) btn.focus(); } };
+  let obj,texto,filename;
+  try{ const agora=new Date(); obj=montarErros(agora); filename=expNome(agora); texto=JSON.stringify(obj,null,1); }
+  catch(e){ fim(); return toast("Não foi possível preparar o arquivo."); }
+  const r=obj.resumo; if(!r.tentativas&&!r.itensNoCaderno&&!r.saidas&&!r.discursivasEntregues){ fim(); return toast("Ainda não há provas, erros nem discursivas entregues para exportar."); }
+  let dl=null; try{ dl=await DL_P; }catch(e){ dl=null; }
+  if(dl){
+    try{ const res=await dl.save({filename,data:texto}); fim(); if(res&&res.status==="saved") toast("Arquivo salvo."); return; }
+    catch(e){ const c=e&&e.code; if(c==="declined"){ fim(); return toast("Arquivo não salvo."); } if(c==="rate_limited"){ fim(); return toast("Já há um pedido de salvamento aberto."); } }
+  }
+  fim();
+  try{ await navigator.clipboard.writeText(texto); return toast("Texto copiado. Cole e envie para a correção."); }catch(e){}
+  if(!out||!out.isConnected) return;
+  out.hidden=false; out.innerHTML=`<label class="small" for="expTxt"><b>Selecione todo o texto abaixo e copie.</b></label><textarea class="json" id="expTxt" readonly></textarea>`;
+  const ta=$("#expTxt"); ta.value=texto; ta.addEventListener("focus",()=>ta.select()); ta.focus(); ta.select();
+}
+
+/* ============ Boot ============ */
+(async function(){
+  S=Object.assign(novoEstado(),lsGet(K_S)||{});
+  try{ const r=await fetch("pacote.json",{cache:"no-cache"}); if(!r.ok) throw new Error("HTTP "+r.status); PUB=await r.json(); validar(PUB); }
+  catch(e){ PUB=null; }
+  const loc=lsGet(K_P);
+  if(loc){ try{ validar(loc); usarPacote(loc); }catch(e){ lsDel(K_P); } }
+  if(!P && PUB) usarPacote(PUB);
+  if(!P){ app().innerHTML=`${topo()}<div class="vazio">Não foi possível abrir o pacote de conteúdo. Recarregue a página; se continuar, cole um pacote.json abaixo.</div><textarea class="json" id="js" style="margin-top:12px"></textarea><button class="btn primary" id="car" style="margin-top:10px">Carregar</button><p id="msg" class="small muted"></p>`;
+    $("#car").onclick=()=>{ try{ const j=JSON.parse($("#js").value); validar(j); lsSet(K_P,j); location.reload(); }catch(e){ $("#msg").textContent="Não carregou: "+e.message; } }; return; }
+  const h=(location.hash||"").slice(1); const ok=["simulados","estudo","erros","painel","vespera","dados"];
+  if(ok.includes(h) && S.boasVindas) ir(h); else ir("inicio");
+})();
+</script>
+
+</body></html>

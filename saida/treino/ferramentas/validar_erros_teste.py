@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""T-59 (d) + correção R1 (T59_T60_reconciliacao_2026-10-14.md, V-6) — teste do validador `validar_erros.py` (arquivo "Exportar meus erros", formato camara2026.erros v1).
+"""T-59 (d) + correção R1 (T59_T60_reconciliacao_2026-10-14.md, V-6) + errata T-66 (T66_decisoes_2026-10-14.md, casos N-1 a N-5 e T-1 a T-9) — teste do validador `validar_erros.py` (arquivo "Exportar meus erros", formato camara2026.erros v1).
 Versão mantida (D-R59-08). AUTÔNOMO: não importa `common` nem nada do gerador; deriva REPO de __file__ (raiz do repositório = três níveis acima desta pasta); usa
 saida/pacote/pacote.json e saida/pacote/exemplo_erros_v1.json; grava os casos fictícios num diretório temporário (tempfile.mkdtemp()), apagado ao fim; NADA é gravado no repositório.
 Cada caso é validado por `python3 -I validar_erros.py` (processo separado: confere também o código de saída). Dados fictícios; nenhum dado da candidata.
 Casos: exemplo da D-T59-04; arquivo válido com ids reais; 4 inválidos; incoerente D; duplicado; uso (código 2); [R1] ordem das listas (5 + empate + extra), constantes NaN/Infinity,
-BOM (aceito, duplicado, BOM + Latin-1), ne/tl fora do domínio (10 casos de V-4 + texto + PACOTE_PADRAO sem --pacote).
+BOM (aceito, duplicado, BOM + Latin-1), ne/tl fora do domínio (10 casos de V-4 + texto + PACOTE_PADRAO sem --pacote); [T-66] pacote.nome/geradoEm/versao null (N-1 a N-5), discursivas[].nota fora de [0, soma] (T-1 a T-9).
 Saída: uma linha OK/FALHA por conferência; código 1 se houver falha. Rodar: python3 -I saida/treino/ferramentas/validar_erros_teste.py (de qualquer diretório)."""
 import copy, hashlib, json, os, shutil, subprocess, sys, tempfile
 
@@ -204,7 +204,75 @@ try:
     chk('V-0a sem --pacote, rodado de outro diretório: ACEITO e o pacote vigente é o de saida/pacote/pacote.json ("%s")' % pacote['nome'],
         rc == 0 and R['pacote_origem']['vigente']['nome'] == pacote['nome'] and R['pacote_origem']['vigente']['geradoEm'] == pacote['geradoEm'])
 
-    # 12. somente leitura e sem resíduo
+    # ---------- T-66 (T66_decisoes_2026-10-14.md) ----------
+    # 12a. N-1 a N-5: pacote.nome/geradoEm/versao null toleráveis com aviso (V-7 a V-10)
+    def com_pac(base, **kw):
+        o = copy.deepcopy(base); o['pacote'] = dict(o['pacote'], **kw); return o
+    AV_ORIG = 'pacote de origem ≠ vigente: '
+    def av_nulo(k): return 'pacote.%s = null (pacote de origem sem esse campo; tolerado)' % k
+    AV_CARR = 'pacote.origem = "carregado" (pacote carregado no aparelho, não o publicado)'
+    def txt(p): return subprocess.run([sys.executable, '-I', VAL, p, '--pacote', PAC], capture_output=True, text=True).stdout
+    rc, R, _ = cli(grava('n1.json', com_pac(va, versao=None, origem='carregado')))
+    chk('N-1 versao null + carregado: ACEITO (código 0); avisos nesta ordem: ≠ vigente, pacote.versao = null, carregado; igual falso; arquivo.versao null',
+        rc == 0 and R['veredito'] == 'ACEITO' and len(R['avisos']) == 3 and R['avisos'][0].startswith(AV_ORIG) and R['avisos'][1] == av_nulo('versao') and R['avisos'][2] == AV_CARR
+        and R['pacote_origem']['igual'] is False and R['pacote_origem']['arquivo']['versao'] is None, str(R['avisos']))
+    rc, R, _ = cli(grava('n2.json', com_pac(va, nome=None, geradoEm=None, versao=None, origem='carregado')))
+    esperado = [AV_ORIG + 'null (arquivo) x "%s" (vigente)' % pacote['nome'], av_nulo('nome'), av_nulo('geradoEm'), av_nulo('versao'), AV_CARR]
+    chk('N-2 nome, geradoEm e versao null + carregado: ACEITO; avisos exatamente: ≠ vigente (nome null sem aspas), 3 avisos null (nome, geradoEm, versao), carregado',
+        rc == 0 and R['veredito'] == 'ACEITO' and R['avisos'] == esperado and R['pacote_origem']['arquivo'] == {'nome': None, 'geradoEm': None, 'versao': None, 'origem': 'carregado'}, str(R['avisos']))
+    linha = [x for x in txt(os.path.join(CASOS, 'n2.json')).split('\n') if x.startswith('pacote de origem:')]
+    chk('N-2 texto: linha `pacote de origem: null (null, versao null, carregado) | vigente: "%s" (%s) | DIVERGENTE`' % (pacote['nome'], pacote['geradoEm']),
+        linha == ['pacote de origem: null (null, versao null, carregado) | vigente: "%s" (%s) | DIVERGENTE' % (pacote['nome'], pacote['geradoEm'])], str(linha))
+    rc, R, _ = cli(grava('n3.json', com_pac(va, versao=None, origem='publicado')))
+    chk('N-3 versao null + publicado: ACEITO, aviso `pacote.versao = null …`, sem aviso de "carregado"',
+        rc == 0 and R['veredito'] == 'ACEITO' and av_nulo('versao') in R['avisos'] and AV_CARR not in R['avisos'] and len(R['avisos']) == 2, str(R['avisos']))
+    n4 = copy.deepcopy(va); del n4['pacote']['versao']
+    rc, R, _ = cli(grava('n4.json', n4))
+    chk('N-4 chave pacote.versao ausente: RECUSADO (código 1), `$.pacote.versao: campo ausente`', rc == 1 and R['veredito'] == 'RECUSADO' and R['motivos_recusa'] == ['$.pacote.versao: campo ausente'], str(R['motivos_recusa']))
+    for rot, kw, msg in (('versao "1"', dict(versao='1'), '$.pacote.versao: esperado inteiro ou null, veio str'), ('versao 1.0', dict(versao=1.0), '$.pacote.versao: esperado inteiro ou null, veio float'),
+                         ('versao true', dict(versao=True), '$.pacote.versao: esperado inteiro ou null, veio bool'),
+                         ('geradoEm "14/10/2026"', dict(geradoEm='14/10/2026'), '$.pacote.geradoEm: esperado string AAAA-MM-DD ou null, veio str'),
+                         ('nome 5', dict(nome=5), '$.pacote.nome: esperado string ou null, veio int')):
+        rc, R, _ = cli(grava('n5_%s.json' % rot.replace(' ', '_').replace('"', '').replace('/', '-'), com_pac(va, **kw)))
+        chk('N-5 %s: RECUSADO (código 1), motivo exato `%s`' % (rot, msg), rc == 1 and R['veredito'] == 'RECUSADO' and R['motivos_recusa'] == [msg], str(R['motivos_recusa']))
+
+    # 12b. T-1 a T-9: discursivas[].nota (V-11). Base: va (D1 do pacote vigente; teto 14.3); `nota` escrita no texto do JSON (1e999 só existe como literal)
+    def com_nota(literal, did=None, **kw):
+        o = copy.deepcopy(va); o['discursivas'][0].update(kw)
+        if did: o['discursivas'][0]['id'] = did
+        raw = json.dumps(o, ensure_ascii=False, indent=1)
+        assert raw.count('"nota": 1.8') == 1
+        return grava('nota_%s.json' % abs(hash(literal + str(did) + str(kw))), raw=(raw.replace('"nota": 1.8', '"nota": ' + literal) + '\n').encode('utf-8'))
+    def inc_nota(literal, did=None, **kw):
+        rc, R, _ = cli(com_nota(literal, did, **kw)); return rc, R, [m for _, m in R['incoerencias']]
+    D1M = 'nota=%s (deve ser número finito entre 0 e 14.3)'
+    rc, R, ms = inc_nota('1e999')
+    chk('T-1 nota 1e999: ACEITO (código 0); incoerencias == [["discursivas[0] (D1)", "nota=Infinity (…entre 0 e 14.3)"]]; fora_dos_calculos.discursivas == [0]',
+        rc == 0 and R['veredito'] == 'ACEITO' and R['incoerencias'] == [['discursivas[0] (D1)', D1M % 'Infinity']] and R['fora_dos_calculos']['discursivas'] == [0], str(R['incoerencias']))
+    rc, R, ms = inc_nota('-1e999'); chk('T-2 nota -1e999: `nota=-Infinity (…entre 0 e 14.3)`', rc == 0 and ms == [D1M % '-Infinity'], str(ms))
+    rc, R, ms = inc_nota('1e308'); chk('T-3 nota 1e308: `nota=1e+308 (…entre 0 e 14.3)`', rc == 0 and ms == [D1M % '1e+308'], str(ms))
+    for lit, rep in (('14.31', '14.31'), ('-0.01', '-0.01')):
+        rc, R, ms = inc_nota(lit); chk('T-4 nota %s: `nota=%s (…entre 0 e 14.3)`' % (lit, rep), rc == 0 and ms == [D1M % rep], str(ms))
+    for lit in ('14.3', '0', '-0.0', 'null', '10.65'):
+        rc, R, ms = inc_nota(lit); chk('T-5 nota %s: nenhuma incoerência, discursivas fora == []' % lit, rc == 0 and R['veredito'] == 'ACEITO' and not R['incoerencias'] and R['fora_dos_calculos']['discursivas'] == [], str(ms))
+    d3 = pacote['discursivas'][2]['id']
+    assert d3 == 'D3'
+    rc, R, ms = inc_nota('28.5', did='D3'); chk('T-6 D3 com 28.5: nenhuma incoerência', rc == 0 and not R['incoerencias'], str(ms))
+    rc, R, ms = inc_nota('28.6', did='D3'); chk('T-6 D3 com 28.6: `nota=28.6 (deve ser número finito entre 0 e 28.5)`', rc == 0 and ms == ['nota=28.6 (deve ser número finito entre 0 e 28.5)'], str(ms))
+    rc, R, ms = inc_nota('50', did='D9'); chk('T-7 id D9 (fora do pacote) com 50: nenhuma incoerência; D9 só em ids desconhecidos', rc == 0 and not R['incoerencias'] and 'D9' in R['ids_desconhecidos']['discursivas']['ids'], str(ms))
+    rc, R, ms = inc_nota('-1', did='D9'); chk('T-7 D9 com -1: `nota=-1 (deve ser número finito >= 0)`', rc == 0 and ms == ['nota=-1 (deve ser número finito >= 0)'], str(ms))
+    rc, R, ms = inc_nota('1e999', did='D9'); chk('T-7 D9 com 1e999: `nota=Infinity (deve ser número finito >= 0)`', rc == 0 and ms == ['nota=Infinity (deve ser número finito >= 0)'], str(ms))
+    rc, R, ms = inc_nota('1e999', ne=1.5)
+    chk('T-8 ne 1.5 e nota 1e999: 2 motivos nesta ordem (ne, nota); discursivas fora == [0] uma vez só',
+        rc == 0 and ms == ['ne=1.5 (deve ser inteiro >= 0)', D1M % 'Infinity'] and R['fora_dos_calculos']['discursivas'] == [0], str(ms))
+    rc, R, ms = inc_nota('"1"')
+    chk('T-9 nota "1" (string): RECUSADO (código 1), `$.discursivas[0].nota: esperado número ou null, veio str` (sem mudança)', rc == 1 and R['veredito'] == 'RECUSADO' and R['motivos_recusa'] == ['$.discursivas[0].nota: esperado número ou null, veio str'], str(R['motivos_recusa']))
+    rc, R, ms = inc_nota('1e999', tl=None)
+    chk('T-8 extra: tl null e nota 1e999: motivos na ordem tl, nota', rc == 0 and ms == ['tl=null (deve ser inteiro >= 1)', D1M % 'Infinity'], str(ms))
+    _, _, ms = inc_nota('14.3000000001')
+    chk('V-11 folga de ponto flutuante (1e-9 acima do teto) aceita; 14.31 recusada (T-4)', ms == [])
+
+    # 13. somente leitura e sem resíduo
     chk('o exemplo e o pacote não foram alterados pelo validador (SHA-256 iguais)', hashlib.sha256(open(EX, 'rb').read()).hexdigest() == SHA_EX0 and hashlib.sha256(open(PAC, 'rb').read()).hexdigest() == SHA_PAC0)
     chk('a pasta do validador não ganhou nem perdeu arquivo durante o teste', sorted(os.listdir(HERE)) == ANTES, str(sorted(set(os.listdir(HERE)) ^ set(ANTES))))
 finally:

@@ -3,6 +3,7 @@
 Implementa a seção 2 de regras/importacao_erros.md (itens 1 a 5) e lista os ids desconhecidos em relação ao pacote vigente. SOMENTE LEITURA:
 não grava nada, não escreve em entrada/erros/. Só biblioteca-padrão (roda com `python3 -I`).
 Versão mantida (D1 da GBQ, `saida/pacote/T59_T60_reconciliacao_2026-10-14.md`, D-R59-08). A cópia de `gerador_v1_5/` é registro da T-61 e não muda.
+Errata T-66 (D1 da GBQ, `saida/pacote/T66_decisoes_2026-10-14.md`).
 
 Uso:
   python3 -I validar_erros.py <arquivo.json> [--pacote <pacote.json>] [--importados <registro.json>] [--json]
@@ -18,8 +19,9 @@ Veredito:
   DUPLICADO  -- mesmo SHA-256 ou mesmo `exportadoEm` de uma importação já feita (só com --importados).
   ACEITO     -- demais casos. Tentativas/entradas incoerentes (D-T59-05) são listadas com o motivo e ficam FORA dos cálculos (campo `fora_dos_calculos`);
                 ids desconhecidos NÃO são descartados em silêncio: vão listados por campo, com a quantidade de ocorrências.
+  Errata T-66 (regra v1.2): `pacote.nome`/`geradoEm`/`versao` null tolerados com aviso; `discursivas[].nota` não finita ou fora de [0, soma de `aspectos[].valor`] é incoerência da discursiva, não recusa.
 """
-import collections, datetime, hashlib, json, os, re, sys
+import collections, datetime, hashlib, json, math, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
@@ -66,7 +68,8 @@ def valida_forma(o):
     p = o.get('pacote')
     if 'pacote' in o:
         if f.tipo('$.pacote', p, lambda v: isinstance(v, dict), 'objeto'):
-            for k, ok, nm in (('nome', is_str, 'string'), ('geradoEm', lambda v: is_str(v) and DATA.match(v), 'string AAAA-MM-DD'), ('versao', is_int, 'inteiro')):
+            for k, ok, nm in (('nome', lambda v: v is None or is_str(v), 'string ou null'), ('geradoEm', lambda v: v is None or (is_str(v) and DATA.match(v)), 'string AAAA-MM-DD ou null'),
+                              ('versao', lambda v: v is None or is_int(v), 'inteiro ou null')):
                 if k not in p: f.e('$.pacote.' + k, 'campo ausente')
                 else: f.tipo('$.pacote.' + k, p[k], ok, nm)
             if 'origem' not in p: f.e('$.pacote.origem', 'campo ausente')
@@ -133,8 +136,18 @@ def valida_forma(o):
     return f.erros
 
 
-def coerencia(o):
-    """D-T59-05 + regra v1.1 (2.5, discursiva). Retorna (incoerencias, indices_tentativas_fora, indices_caderno_fora, indices_discursivas_fora); cada incoerência é (campo, motivo)."""
+def soma_aspectos(pacote):
+    """T-66 (V-11): soma de `aspectos[].valor` por id de discursiva do pacote vigente, somada em ordem a partir de 0."""
+    s = {}
+    for d in pacote['discursivas']:
+        t = 0
+        for a in d.get('aspectos', []): t = t + a['valor']
+        s[d['id']] = t
+    return s
+
+
+def coerencia(o, somas):
+    """D-T59-05 + regra v1.1 (2.5, discursiva) + regra v1.2 (nota; `somas` = soma_aspectos do pacote vigente). Retorna (incoerencias, indices_tentativas_fora, indices_caderno_fora, indices_discursivas_fora); cada incoerência é (campo, motivo)."""
     inc = []; t_fora = set(); c_fora = set(); d_fora = set()
     for i, t in enumerate(o['tentativas']):
         mot = []
@@ -156,6 +169,12 @@ def coerencia(o):
         mot = []
         if not (is_int(d['ne']) and d['ne'] >= 0): mot.append('ne=%s (deve ser inteiro >= 0)' % json.dumps(d['ne']))
         if not (is_int(d['tl']) and d['tl'] >= 1): mot.append('tl=%s (deve ser inteiro >= 1)' % json.dumps(d['tl']))
+        nt = d['nota']
+        if nt is not None:
+            fin = not isinstance(nt, float) or math.isfinite(nt)
+            if d['id'] in somas:
+                if not (fin and 0 <= nt <= somas[d['id']] + 1e-9): mot.append('nota=%s (deve ser número finito entre 0 e %s)' % (json.dumps(nt), json.dumps(somas[d['id']])))
+            elif not (fin and nt >= 0): mot.append('nota=%s (deve ser número finito >= 0)' % json.dumps(nt))
         if mot:
             d_fora.add(i)
             for m in mot: inc.append(('discursivas[%d] (%s)' % (i, d['id']), m))
@@ -211,10 +230,12 @@ def valida(raw, pacote, importados=None):
     R['pacote_origem'] = {'arquivo': {'nome': po['nome'], 'geradoEm': po['geradoEm'], 'versao': po['versao'], 'origem': po['origem']},
                           'vigente': {'nome': pacote['nome'], 'geradoEm': pacote['geradoEm'], 'versao': pacote['versao']},
                           'igual': po['nome'] == pacote['nome'] and po['geradoEm'] == pacote['geradoEm'] and po['versao'] == pacote['versao']}
-    if not R['pacote_origem']['igual']: R['avisos'].append('pacote de origem ≠ vigente: "%s" (arquivo) x "%s" (vigente)' % (po['nome'], pacote['nome']))
+    if not R['pacote_origem']['igual']: R['avisos'].append('pacote de origem ≠ vigente: %s (arquivo) x "%s" (vigente)' % (nome_txt(po['nome']), pacote['nome']))
+    for k in ('nome', 'geradoEm', 'versao'):
+        if po[k] is None: R['avisos'].append('pacote.%s = null (pacote de origem sem esse campo; tolerado)' % k)
     if po['origem'] == 'carregado': R['avisos'].append('pacote.origem = "carregado" (pacote carregado no aparelho, não o publicado)')
     # coerência (item 5)
-    inc, tf, cf, df = coerencia(o)
+    inc, tf, cf, df = coerencia(o, soma_aspectos(pacote))
     R['incoerencias'] = [list(x) for x in inc]; R['fora_dos_calculos'] = {'tentativas': tf, 'caderno': cf, 'discursivas': df}
     R['avisos'] += ordem(o)
     # ids (item 4)
@@ -247,6 +268,10 @@ def valida(raw, pacote, importados=None):
     return R
 
 
+def nulo(v): return 'null' if v is None else v
+def nome_txt(v): return 'null' if v is None else '"%s"' % v
+
+
 def texto(R):
     L = ['VEREDITO: %s' % R['veredito'], 'SHA-256: %s (%d bytes)' % (R['sha256'], R['bytes'])]
     if R['veredito'] != 'ACEITO':
@@ -256,7 +281,7 @@ def texto(R):
         return '\n'.join(L)
     po = R['pacote_origem']
     L.append('exportadoEm: %s' % R['exportadoEm'])
-    L.append('pacote de origem: "%s" (%s, versao %s, %s) | vigente: "%s" (%s) | %s' % (po['arquivo']['nome'], po['arquivo']['geradoEm'], po['arquivo']['versao'], po['arquivo']['origem'],
+    L.append('pacote de origem: %s (%s, versao %s, %s) | vigente: "%s" (%s) | %s' % (nome_txt(po['arquivo']['nome']), nulo(po['arquivo']['geradoEm']), nulo(po['arquivo']['versao']), po['arquivo']['origem'],
              po['vigente']['nome'], po['vigente']['geradoEm'], 'IGUAL' if po['igual'] else 'DIVERGENTE'))
     c = R['contagens']
     L.append('contagens: tentativas %d (válidas %d), caderno %d, respostasCaderno %d, saidas %d, discursivas %d' % (c['tentativas'], c['tentativas_validas'], c['caderno'], c['respostasCaderno'], c['saidas'], c['discursivas']))

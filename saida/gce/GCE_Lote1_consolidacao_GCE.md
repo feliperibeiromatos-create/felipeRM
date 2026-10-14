@@ -198,3 +198,17 @@ E12 Resumo (b), linha do WER: onde se lê "não mede pontuação nem
     Q01.
 Nenhum gabarito muda. Aplicação no pacote.json pela T-48.
 FIM DO ADENDO 5
+
+ADENDO 6 GCE — 14/10/2026 — errata E13 (T-65; D-T63-03; D-V16-ESCOPO;
+nenhum gabarito alterado)
+E13 Enunciado (e) do LOTE 1 v2 (GCE_Lote1_v2_CPP.md), comando da
+    discursiva: onde se lê "redija texto dissertativo em que você",
+    leia-se "redija texto dissertativo, de até 20 linhas, em que você".
+    Motivo: harmonizar o comando com os das questões do Lote 2 e do
+    Lote 3, que já indicam o limite. Fundamento: edital, 9.1, a ("a
+    serem respondidas em até 20 linhas cada"). Não há divergência
+    normativa, porque o limite já vale pelo edital.
+    Alíneas a a c, valores (E8), quesitos, conceitos e padrão de
+    resposta (Parte B, E7) não mudam.
+Nenhum gabarito muda. Aplicação no pacote.json pela T-67.
+FIM DO ADENDO 6

@@ -1,0 +1,56 @@
+# T65_reconciliacao_2026-10-14.md — T-65 — 2026-10-14 — gerado por gce-gerencia
+
+Objeto: reconciliação (D1) da T-65, a harmonização do comando da discursiva D1 (Lote 1, enunciado (e)) com D2 e D4 pelo limite de 20 linhas do edital (D-T63-03; D-V16-ESCOPO). D1 da GCE: `saida/gce/T65_decisoes_2026-10-14.md`. Produção: `saida/gce/lote1_adendo6_2026-10-14.md` (gce-cpp, commit 2970ab2). QA: `saida/gce/QA_T65_2026-10-14_gce-cqfp.md` (gce-cqfp, APROVADO; observações O-1 a O-5, sem ressalva). Fonte do limite: `edital/edital_discursiva_9_8_5.md:6` (9.1, a). Ciclo s8c1. Só leitura (`git show`/`diff`, `sha256sum`, `wc`, Python `-I` com cópias no scratchpad `s8/rec_t65/`, e `project_read`). Nenhum arquivo de lote, da GBQ, do pacote ou de interface foi alterado. Só este arquivo foi gravado. Sem commit nem push. Critério de contagem de linhas (D1-T58-4): número de quebras (`wc -l`).
+
+Notação: X = `redija texto dissertativo em que você`; Y = `redija texto dissertativo, de até 20 linhas, em que você`.
+
+## 1. Conferência da GCE (somente leitura; SHA calculados por mim)
+
+| # | Ponto | Resultado |
+|---|---|---|
+| 1 | `GCE_Lote1_consolidacao_GCE.md` em disco | SHA-256 `604fa711f19949ab4560cece3dd3958b0f7582dd9af3560e5e7bc13c1df503bd`, 11670 bytes, 213 quebras, sem newline final, maior linha 73 colunas (pré-existente). Igual ao "depois" da produção, ao do QA e ao de 2970ab2. OK |
+| 2 | Base e prefixo | A versão em a272d6b e em 3105c95 tem SHA-256 `8304882d57c6fcd445439720b932c09337c4704cbe4c60ec1b4a6543b95b2031` (10917 bytes, 199 quebras): é prefixo exato, em bytes, da nova. Acréscimo = 753 bytes = `"\n\n"` + o bloco literal da D1, seção 3 (751 bytes, 13 linhas, máx. 71 colunas), igual byte a byte. Parte B e Adendos 1–5 intactos por consequência. O `-1` do `git diff --stat` é o artefato de "FIM DO ADENDO 5" sem newline final (O-3). OK |
+| 3 | `GCE_Lote1_v2_CPP.md` | SHA-256 `5ac069292b122defe859064f25cf99a8aec189991cd19b703086cd9a06553228`, 42195 bytes, 793 quebras, inalterado. X = 1 (linha 780), Y = 0. OK |
+| 4 | Literalidade do bloco | Com as quebras unidas por espaço, X 1 e Y 1 no bloco, iguais aos da D1 e da linha T-65. No acréscimo: "Conceito" 0, "[valor" 0, "Quesito" 0, "[TS]" 0, "VOLÁTIL" 0. OK |
+| 5 | Simulação X → Y em cópia do v2_CPP | Só a linha 780 difere: `associadas, redija texto dissertativo, de até 20 linhas, em que você:`. Diff restrito à inserção ", de até 20 linhas,". OK |
+| 6 | Fundamento | `edital_discursiva_9_8_5.md:6`: "a serem respondidas em até 20 linhas cada". Literal no bloco. OK |
+| 7 | Escopo (a272d6b → HEAD) | Na GCE mudaram só a consolidação, a D1 e o relatório de produção; o QA está em disco, não rastreado. Os demais arquivos alterados são da T-66 e da T-68 (O-1). `saida/pacote/pacote.json` continua o v1.5 (SHA-256 `b4bc65c7…beef3`, "Câmara 2026 — pacote F4 (v1.5)"): X 1, Y 1 e "20 linhas" nos comandos D1 0, D2 1, D3 0, D4 1, D5 0. `saida/estudante/DISCURSIVAS.md` tem X 1 e `DISCURSIVAS_padrao.md` tem X 0. Esse é o ponto de partida da T-67. OK |
+| 8 | Gerador v1.5 | `saida/pacote/gerador_v1_5/relatorio_v1_5.py:86` e `report2.py:48` ainda dizem "E1–E12 (Adendos 1–5); padrão D1". Confirma a O-5 |
+| 9 | Projeto do claude.ai (`project_read`, 14/10/2026) | `GCE_Lote1_consolidacao_GCE.md` termina em "FIM DO ADENDO 5", traz a E12 e não traz o Adendo 6 nem a E13. Pelo texto, coincide com a base `8304882d…` (transportada por D-TRANSPORTE-L1-AD5). Conferi o conteúdo, mas não calculei o hash do Projeto |
+
+## 2. Decisões (D1 da GCE)
+
+| # | Observação ou ponto | Decisão | Classe |
+|---|---|---|---|
+| D1-T65-R1 | Veredito da gce-cqfp | APROVADO aceito. O Adendo 6 / E13 está aplicado literalmente, só por acréscimo. A errata tem 0 aspecto, 0 quesito, 0 conceito, 0 valor, 0 padrão e 0 gabarito alterados. O v2_CPP fica intacto, como manda a D1-T65-1. A E13 entra no espelho da fábrica. **A T-65 está CONCLUÍDA e liberada para a T-67**: a condição da linha T-67 ("T-65 incorporada só se reconciliada pela GCE com APROVADO da gce-cqfp") está cumprida, e não se aplica a volta a BACKLOG da D1-T65-6 | AGORA (encerrada) |
+| D1-T65-R2 | Propagação (D1-T65-4, confirmada) | Na T-67, o gerador_v1_6 aplica a E13 a `$.discursivas[0].comando`, depois da montagem com a E8, por `apply_errata(…, 'L1', 'E13', X, Y, expect=1)`, com estado APLICADA. A edição regerada só muda `saida/estudante/DISCURSIVAS.md` na linha do comando de D1 (hoje a linha 9), com a mesma inserção. Estado esperado na v1.6: no comando de D1, X 0 e Y 1; no pacote inteiro, X 0 e Y 2 (D1 e D2), com "Redija texto dissertativo, de até 20 linhas" 1 vez (D4); "20 linhas" nos comandos: D1 1, D2 1, D3 0, D4 1, D5 0. Aspectos, padrão e quesitos de D1 a D5 ficam iguais aos da v1.5, e `DISCURSIVAS_padrao.md` fica idêntico. A GCE prefere que a E13 entre na conferência do `sync_check.py`, mas a forma é escolha da GBQ | AGORA (na T-67; titular GBQ) |
+| D1-T65-R3 | O-5: o relatório do gerador cita o L1 como "E1–E12 (Adendos 1–5)" (`relatorio_v1_5.py:86`; `report2.py:48`) | **Condição de entrada da T-67**: o relatório do gerador_v1_6 tem de citar o L1 como "E1–E13 (Adendos 1–6)" e listar a E13 na tabela de erratas, com estado APLICADA. A gbq-cqe confere isso no QA da T-67. Se o gatilho A da v1.6 chegar com "E1–E12 (Adendos 1–5)" ou sem a E13 na tabela, a GCE não reconhece o delta como conforme à T-65. Não é tarefa nova: a condição já está na D1-T65-4 e fica dentro do diff admitido pela D-V16-ESCOPO | AGORA (na T-67, antes do QA gbq-cqe e do gatilho A) |
+| D1-T65-R4 | O-1: o commit 2970ab2 junta T-65, T-66 e T-68 | Fica registrado. O diff da T-65 se isola pelos caminhos, e o objeto não é afetado. A prática de um commit por tarefa é do orquestrador e não gera tarefa da GCE | BACKLOG |
+| D1-T65-R5 | O-2: a linha T-65 de `TAREFAS.md` continua PENDENTE | Esta reconciliação resolve a observação: a linha passa direto a CONCLUÍDA (seção 4). O estado EM CURSO proposto na D1, seção 6, fica superado | AGORA (nesta reconciliação) |
+| D1-T65-R6 | O-3: a produção partiu de 3105c95, e não da a272d6b citada na D1. Há também o artefato de diff de "FIM DO ADENDO 5" | Sem ação. Os SHA de partida dos dois arquivos são iguais nos dois commits, e o prefixo em bytes passou na conferência da produção, do QA e da GCE | DESCARTADO |
+| D1-T65-R7 | O-4: o bloco usa "valores", "quesitos" etc. só para dizer que não mudam | Sem ação | DESCARTADO |
+| D1-T65-R8 | Transporte ao Projeto (D1-T65-6) | Os arquivos estão fechados: QA APROVADO e reconciliação feita. Por isso o transporte vai agora como GATILHO E (seção 5), sem depender da T-67 nem do gatilho A da v1.6. Vai só a consolidação. O v2_CPP não muda e não é transportado. Até o transporte, o Projeto fica atrás da fábrica só no Adendo 6 (E13), que não altera item, gabarito, padrão ou valor | PRÓXIMO → AGORA (gatilho E) |
+
+## 3. Aviso à GBQ (T-67)
+
+A T-65 está liberada. Ao entrar na T-67, a E13 tem 3 condições, conferidas pela gbq-cqe:
+1. **Pacote**: `$.discursivas[0].comando` com a inserção ", de até 20 linhas," e nada mais (D1-T65-R2).
+2. **Edição**: só a linha do comando de D1 em `DISCURSIVAS.md` muda.
+3. **Relatório (O-5)**: o L1 aparece como "E1–E13 (Adendos 1–6)", com a E13 na tabela de erratas (D1-T65-R3).
+
+## 4. BLOCO TAREFAS
+
+```
+T-65; GCE; Harmonizar o comando da discursiva D1 (Lote 1, GCE_Lote1_v2_CPP.md, enunciado (e)) com D2 e D4: "redija texto dissertativo em que você" → "redija texto dissertativo, de até 20 linhas, em que você" (edital 9.1 a); sem divergência normativa, porque o limite vale pelo edital; 0 aspecto, quesito, valor, padrão ou gabarito alterado; registro = ADENDO 6 GCE, errata E13, só acréscimo ao fim de GCE_Lote1_consolidacao_GCE.md, com o "onde se lê" literal; GCE_Lote1_v2_CPP.md intacto (D1-T65-1); propagação ao pacote só pela T-67 (D1-T65-4); transporte ao Projeto por gatilho E da GCE (D-FUNDADOR-DELEGA-1); origem T-63 (D-T63-03); AGORA (D-V16-ESCOPO); CONCLUÍDA (ciclo 2026-10-14 s8c1; D1 em T65_decisoes_2026-10-14.md; produção gce-cpp lote1_adendo6_2026-10-14.md; QA gce-cqfp APROVADO, O-1 a O-5 decididas; reconciliada pela GCE em T65_reconciliacao_2026-10-14.md; GCE_Lote1_consolidacao_GCE.md SHA-256 604fa711…503bd, 11670 bytes; GCE_Lote1_v2_CPP.md inalterado, 5ac06929…53228; LIBERADA para a T-67: o gerador_v1_6 aplica a E13 em $.discursivas[0].comando e em saida/estudante/DISCURSIVAS.md; condição de entrada da T-67 (O-5; D1-T65-R3): o relatório do gerador cita o L1 como "E1–E13 (Adendos 1–6)" e lista a E13; transporte ao Projeto pedido por GATILHO E); gce-gerencia (D1) → gce-cpp → gce-cqfp → gce-gerencia; saida/gce/T65_decisoes_2026-10-14.md + saida/gce/lote1_adendo6_2026-10-14.md + saida/gce/GCE_Lote1_consolidacao_GCE.md + saida/gce/QA_T65_2026-10-14_gce-cqfp.md + saida/gce/T65_reconciliacao_2026-10-14.md
+```
+
+Nota para a linha da T-67 (titular GBQ; registro informativo, sem mudar a classe): "T-65 reconciliada com APROVADO (T65_reconciliacao_2026-10-14.md): incorporar a E13; condição de entrada O-5 (D1-T65-R3): o relatório cita o L1 como 'E1–E13 (Adendos 1–6)' e lista a E13".
+
+## 5. BLOCO PARA_PRESIDENCIA
+
+```
+GATILHO E | GCE | Transporte ao Projeto do claude.ai de GCE_Lote1_consolidacao_GCE.md com o Adendo 6 (errata E13, T-65; D-T63-03; D-V16-ESCOPO: no comando da discursiva D1, onde se lê "redija texto dissertativo em que você", leia-se "redija texto dissertativo, de até 20 linhas, em que você", edital 9.1 a), substituindo a versão até o Adendo 5 | saida/gce/GCE_Lote1_consolidacao_GCE.md (SHA-256 604fa711f19949ab4560cece3dd3958b0f7582dd9af3560e5e7bc13c1df503bd, 11670 bytes, 213 quebras) → Projeto GCE_Lote1_consolidacao_GCE.md (hoje a versão até o Adendo 5, transportada por D-TRANSPORTE-L1-AD5: SHA-256 8304882d57c6fcd4…, 10917 bytes; conferida por project_read em 14/10: termina em "FIM DO ADENDO 5", sem E13; conteúdo coincide com a base; hash do Projeto não calculado); apoio: saida/gce/T65_decisoes_2026-10-14.md, saida/gce/lote1_adendo6_2026-10-14.md, saida/gce/QA_T65_2026-10-14_gce-cqfp.md, saida/gce/T65_reconciliacao_2026-10-14.md | 1 operação, só acréscimo: "\n\n" + bloco ADENDO 6 de 13 linhas (751 bytes), +753 bytes, 199→213 quebras; a versão do Projeto é prefixo exato, em bytes, da nova, sem perda de texto; Parte A, Parte B e Adendos 1–5 idênticos; 0 aspecto, 0 quesito, 0 conceito, 0 valor, 0 padrão e 0 gabarito alterados; GCE_Lote1_v2_CPP.md não muda e não é transportado; QA gce-cqfp APROVADO e T-65 reconciliada pela GCE; não é gasto, entrega à candidata nem exclusão de ativo canônico; a aplicação no pacote é da T-67 e passa pelo gatilho A da GBQ; o transporte independe da T-67 | Transportar agora saida/gce/GCE_Lote1_consolidacao_GCE.md (604fa711…) para o arquivo de mesmo nome no Projeto do claude.ai, substituindo a versão até o Adendo 5 (8304882d…), no passo 7 do orquestrador (Downloads\para_projeto e Project Knowledge), com a Secretaria registrando o Adendo 6 (E13, T-65) no Estado Canônico pelo rito da D-TRANSPORTE-L3-T58 — SIM ou NÃO? (Matéria do Fundador decidível pela presidencia por delegação D-FUNDADOR-DELEGA-1; precedentes D-TRANSPORTE-L2L3-T64, D-TRANSPORTE-L3-T58 e D-TRANSPORTE-L1-AD5.)
+```
+
+REMETENTE: gce-gerencia
+DESTINATÁRIO: orquestrador (TAREFAS.md e PARA_PRESIDENCIA.md); cópia gce-cpp e gce-cqfp (D1-T65-R1, R4 a R7); gbq-gerencia, gbq-csc e gbq-cqe (D1-T65-R2 e R3, condição de entrada da T-67)

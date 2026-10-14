@@ -1,7 +1,7 @@
 {
  "versao": 1,
  "geradoEm": "2026-10-14",
- "nome": "Câmara 2026 — pacote F4 (v1.5)",
+ "nome": "Câmara 2026 — pacote F4 (v1.6)",
  "edital": [
   {
    "id": "P1-1",
@@ -7401,7 +7401,7 @@
   {
    "id": "D1",
    "tipo": "questao",
-   "comando": "Ao domínio do conteúdo serão atribuídos até 15,00 pontos, dos quais até 0,70 ponto à apresentação e estrutura textual.\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produtos distintos: legendas exibidas ao vivo na TV Câmara e notas taquigráficas oficiais, publicadas após revisão. Considerando os fundamentos do reconhecimento automático de fala e das tecnologias associadas, redija texto dissertativo em que você:\na) explique por que os dois produtos exigem modos de processamento diferentes (tempo real e lote), indicando um recurso que tende a estar disponível em um modo e não no outro; [valor: 5,00 pontos]\nb) diferencie diarização de falantes e identificação de locutor e indique qual delas é necessária para que a nota oficial exiba o nome do parlamentar que falou; [valor: 4,00 pontos]\nc) aponte dois desafios específicos do português brasileiro falado em plenário e, para cada um, o tipo de recurso técnico adequado para mitigá-lo, distinguindo adaptação de vocabulário de customização acústica. [valor: 5,30 pontos]",
+   "comando": "Ao domínio do conteúdo serão atribuídos até 15,00 pontos, dos quais até 0,70 ponto à apresentação e estrutura textual.\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produtos distintos: legendas exibidas ao vivo na TV Câmara e notas taquigráficas oficiais, publicadas após revisão. Considerando os fundamentos do reconhecimento automático de fala e das tecnologias associadas, redija texto dissertativo, de até 20 linhas, em que você:\na) explique por que os dois produtos exigem modos de processamento diferentes (tempo real e lote), indicando um recurso que tende a estar disponível em um modo e não no outro; [valor: 5,00 pontos]\nb) diferencie diarização de falantes e identificação de locutor e indique qual delas é necessária para que a nota oficial exiba o nome do parlamentar que falou; [valor: 4,00 pontos]\nc) aponte dois desafios específicos do português brasileiro falado em plenário e, para cada um, o tipo de recurso técnico adequado para mitigá-lo, distinguindo adaptação de vocabulário de customização acústica. [valor: 5,30 pontos]",
    "aspectos": [
     {
      "n": 1,

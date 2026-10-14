@@ -6,7 +6,7 @@ Hipóteses de questão discursiva e de peça técnica. Padrões de resposta no a
 
 ```text
 Ao domínio do conteúdo serão atribuídos até 15,00 pontos, dos quais até 0,70 ponto à apresentação e estrutura textual.
-A Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produtos distintos: legendas exibidas ao vivo na TV Câmara e notas taquigráficas oficiais, publicadas após revisão. Considerando os fundamentos do reconhecimento automático de fala e das tecnologias associadas, redija texto dissertativo em que você:
+A Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produtos distintos: legendas exibidas ao vivo na TV Câmara e notas taquigráficas oficiais, publicadas após revisão. Considerando os fundamentos do reconhecimento automático de fala e das tecnologias associadas, redija texto dissertativo, de até 20 linhas, em que você:
 a) explique por que os dois produtos exigem modos de processamento diferentes (tempo real e lote), indicando um recurso que tende a estar disponível em um modo e não no outro; [valor: 5,00 pontos]
 b) diferencie diarização de falantes e identificação de locutor e indique qual delas é necessária para que a nota oficial exiba o nome do parlamentar que falou; [valor: 4,00 pontos]
 c) aponte dois desafios específicos do português brasileiro falado em plenário e, para cada um, o tipo de recurso técnico adequado para mitigá-lo, distinguindo adaptação de vocabulário de customização acústica. [valor: 5,30 pontos]

@@ -156,7 +156,13 @@ Aspectos:
 Conceito 0 — Não concluiu nem recomendou. Conceito 1 — Um aspecto.
 Conceito 2 — Dois ou três. Conceito 3 — Os quatro.
 
-Nota (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL.
+Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.
 Gênero da peça: HIPÓTESE por analogia para o Cargo 11 (D-T2). Se o
 gênero real for outro, os quesitos 2.2 a 2.4 valem como conteúdo.
 FIM DOS PADRÕES — LOTE 2
+
+ERRATA GCE — 14/10/2026 (T-64; D-T63-02; D-T64-V15)
+Na seção (f) PEÇA, onde se lê "Nota (edital, 9.8.5.1, d): NQ = NC − 3 ×
+NE ÷ TL.", leia-se "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.",
+conforme o edital (9.8.5.2, d). Sem mudança de aspectos, quesitos,
+conceitos, valores ou gabarito.

@@ -26,8 +26,9 @@ R5. Elementos da versão da CPP já absorvidos pelas listas da CQFP:
     solidariedade do operador (art. 42, § 1º, I); comunicação de
     incidente pelo controlador (art. 48).
 R6. Os aspectos enumerados valem como padrão de resposta, com as bases
-    normativas indicadas em cada um. Nota: NQ = NC − 3 × NE ÷ TL. O peso
-    de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+    normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL
+    (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de
+    cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
 
 ASSUNTO: DUPLA CEGA DO LOTE 3 — PADRÕES DA CQFP PARA (e) E (f), NO FORMATO D-RUBRICA (só por transporte)
 
@@ -146,3 +147,9 @@ Na nota final 1 do bloco da CQFP ("PONTOS PARA A RECONCILIAÇÃO"), onde
 se lê "pressupõe que discursos são obras protegidas", leia-se "é indício
 de que discursos são matéria de direito autoral, sem firmar o
 enquadramento". Isso harmoniza a nota com a decisão R2 e com a S3.
+
+ERRATA GCE — 14/10/2026 (T-64; D-T63-02; D-T64-V15)
+Na decisão R6, onde se lê "Nota: NQ = NC − 3 × NE ÷ TL.", leia-se "Nota:
+questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷
+TL (9.8.5.2, d).", conforme o edital. Sem mudança de aspectos, quesitos,
+conceitos, valores ou gabarito.

@@ -1,0 +1,100 @@
+{
+ "formato": "camara2026.erros",
+ "versaoFormato": 1,
+ "exportadoEm": "2026-01-01T12:00:00.000Z",
+ "pacote": {
+  "nome": "Câmara 2026 — pacote F4 (v1.8)",
+  "geradoEm": "2026-10-17",
+  "versao": 1,
+  "origem": "publicado"
+ },
+ "estadoVersao": 1,
+ "escolha": {
+  "P1": "diag"
+ },
+ "resumo": {
+  "tentativas": 1,
+  "itensNoCaderno": 2,
+  "saidas": 0,
+  "discursivasEntregues": 1,
+  "discursivasRascunho": 0,
+  "eventos": {
+   "simulado_entregue": 1
+  },
+  "eventosTruncados": false
+ },
+ "caderno": [
+  {
+   "id": "BQ-0001",
+   "itemEdital": "P1-8.1",
+   "noPacote": true,
+   "errou": 2,
+   "seq": 0,
+   "desde": "2026-10-15T10:00:00.000Z"
+  },
+  {
+   "id": "OUTRO-PACOTE-9",
+   "itemEdital": null,
+   "noPacote": false,
+   "errou": 1,
+   "seq": 1,
+   "desde": "2026-10-15T10:00:00.000Z"
+  }
+ ],
+ "respostasCaderno": [],
+ "tentativas": [
+  {
+   "tipo": "sim",
+   "ref": "SIM-0",
+   "nome": "Simulado",
+   "modulo": null,
+   "data": "2026-10-15T10:00:00.000Z",
+   "seg": 60,
+   "total": 3,
+   "nota": 2,
+   "ac": 2,
+   "er": 0,
+   "br": 1,
+   "por": {
+    "P1-8.1": {
+     "c": 2,
+     "e": 0,
+     "b": 1
+    }
+   },
+   "det": [
+    {
+     "id": "BQ-0001",
+     "r": "C",
+     "st": "c"
+    },
+    {
+     "id": "BQ-0002",
+     "r": "E",
+     "st": "c"
+    },
+    {
+     "id": "BQ-0003",
+     "r": null,
+     "st": "b"
+    }
+   ]
+  }
+ ],
+ "saidas": [],
+ "discursivas": [
+  {
+   "id": "D1",
+   "tipo": "questao",
+   "entregue": true,
+   "entregueEm": "2026-01-01T11:30:00.000Z",
+   "texto": "(texto da resposta)",
+   "tl": 1,
+   "notas": {
+    "1": 0.5
+   },
+   "ne": 0,
+   "nota": 1.8
+  }
+ ]
+}

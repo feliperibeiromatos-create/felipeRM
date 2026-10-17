@@ -1,0 +1,176 @@
+{
+ "por_arquivo": {
+  "L1_estudo.md": {
+   "V": 38,
+   "F (colchete)": 15,
+   "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
+   "id interno / versão do lote (v2)": 2
+  },
+  "L1_gabarito.md": {
+   "V": 2,
+   "F (colchete)": 8
+  },
+  "L2_estudo.md": {
+   "V (parcial: mantém a orientação ao estudante)": 2,
+   "V": 12,
+   "F (parêntese)": 1,
+   "código N do L2/L3": 8,
+   "F (colchete)": 1,
+   "id interno (R-xx, E-xx, O-xx, D-xx)": 1
+  },
+  "L2_gabarito.md": {
+   "V": 2,
+   "F (colchete)": 1,
+   "classificação interna de VOLÁTIL na justificativa": 1
+  },
+  "L3_estudo.md": {
+   "NORMATIVO — QA (parcial: mantém a orientação ao estudante)": 1,
+   "NORMATIVO — QA (frase de marca e fontes)": 1,
+   "V": 1,
+   "NORMATIVO — QA": 18,
+   "F (fim de parêntese, após vírgula)": 1,
+   "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 2,
+   "código N do L2/L3": 6
+  },
+  "L3_gabarito.md": {
+   "NORMATIVO — QA (prefixo da base legal)": 13,
+   "classificação interna de VOLÁTIL na justificativa": 1
+  },
+  "L4_estudo.md": {
+   "F (parêntese com verificação)": 15,
+   "F (parêntese)": 22,
+   "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 16,
+   "F (fim de parêntese, após vírgula)": 4,
+   "F (início de parêntese)": 5,
+   "F (início de parêntese, antes de aspas)": 1,
+   "F (prosa: referência a fonte)": 15,
+   "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 3,
+   "marca de processo (\"neste chat\")": 1,
+   "F (fim de parêntese, após travessão)": 1
+  },
+  "L4_gabarito.md": {
+   "F (frase \"Fonte(s): …\")": 15,
+   "F (parêntese)": 10,
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 1,
+   "classificação interna de VOLÁTIL na justificativa": 1,
+   "F (prosa: referência a fonte)": 5,
+   "F (início de parêntese)": 1,
+   "F (frase de fonte)": 3
+  },
+  "L5_estudo.md": {
+   "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 1,
+   "código de fonte do L5 (U/GG/TB)": 27
+  },
+  "L5_gabarito.md": {
+   "código de fonte do L5 (U/GG/TB)": 6,
+   "carimbo \"Verificado em 8/10/2026\" (L5)": 4
+  },
+  "L6A_estudo.md": {
+   "F (parêntese)": 39,
+   "F (parêntese com leitura)": 1,
+   "F (fim de parêntese)": 48,
+   "F (fim de parêntese, após vírgula)": 4,
+   "F (início de parêntese)": 4,
+   "F (\"Conforme a Fn (leitura …):\")": 11,
+   "F (prosa: referência a fonte)": 20,
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 2,
+   "carimbo de leitura \"aberta(s) hoje\"": 2,
+   "caixa (minúscula → maiúscula na inicial deixada por deleção)": 8
+  },
+  "L6A_gabarito.md": {
+   "F (frase \"Fonte(s): …\")": 15,
+   "F (parêntese)": 2,
+   "F (prosa: referência a fonte)": 2,
+   "F (início de parêntese)": 1
+  },
+  "L6B_estudo.md": {
+   "F (parêntese com verificação)": 11,
+   "F (parêntese)": 9,
+   "F (parêntese com seção/verificação)": 5,
+   "F (fim de parêntese, após vírgula)": 4,
+   "F (fim de parêntese, \"com Fn\")": 2,
+   "F (frase de fonte)": 1,
+   "F (prosa: referência a fonte)": 4,
+   "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 2,
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 1,
+   "carimbo de leitura \"aberta(s) hoje\"": 6,
+   "marca de processo de produção do lote (\"Nesta produção\" / \"a especificação previa\")": 2,
+   "F (início de parêntese)": 2
+  },
+  "L6B_gabarito.md": {
+   "F (prosa: referência a fonte)": 5,
+   "carimbo de leitura \"aberta(s) hoje\"": 1,
+   "F (frase de fonte)": 5
+  },
+  "BANCO_itens.md": {
+   "id de decisão na nota (D-LEI-15352)": 1
+  },
+  "BANCO_gabarito.md": {
+   "id de decisão na nota (D-LEI-15352)": 1
+  },
+  "SIM-0_folha.md": {
+   "id de decisão na nota (D-LEI-15352)": 1
+  },
+  "SIM-0_gabarito.md": {
+   "id de decisão na nota (D-LEI-15352)": 1
+  },
+  "SIM-1_gabarito.md": {
+   "F (parêntese)": 4,
+   "F (frase de fonte)": 2,
+   "F (frase \"Fonte(s): …\")": 12,
+   "F (prosa: referência a fonte)": 3,
+   "F (início de parêntese)": 1
+  },
+  "SIM-2_gabarito.md": {
+   "NORMATIVO — QA (prefixo da base legal)": 6,
+   "V": 2,
+   "F (colchete)": 1
+  },
+  "SIM-0-P2_gabarito.md": {
+   "NORMATIVO — QA (prefixo da base legal)": 4,
+   "V": 1,
+   "classificação interna de VOLÁTIL na justificativa": 1
+  },
+  "DISCURSIVAS_padrao.md": {
+   "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 4,
+   "id interno (R-xx, E-xx, O-xx, D-xx)": 7
+  }
+ },
+ "total": {
+  "V": 58,
+  "F (colchete)": 26,
+  "id interno (R-xx, E-xx, O-xx, D-xx)": 10,
+  "id interno / versão do lote (v2)": 2,
+  "V (parcial: mantém a orientação ao estudante)": 2,
+  "F (parêntese)": 87,
+  "código N do L2/L3": 14,
+  "classificação interna de VOLÁTIL na justificativa": 4,
+  "NORMATIVO — QA (parcial: mantém a orientação ao estudante)": 1,
+  "NORMATIVO — QA (frase de marca e fontes)": 1,
+  "NORMATIVO — QA": 18,
+  "F (fim de parêntese, após vírgula)": 13,
+  "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 25,
+  "NORMATIVO — QA (prefixo da base legal)": 23,
+  "F (parêntese com verificação)": 26,
+  "F (início de parêntese)": 14,
+  "F (início de parêntese, antes de aspas)": 1,
+  "F (prosa: referência a fonte)": 54,
+  "carimbo datado de verificação/leitura (ligado a F-ref)": 7,
+  "marca de processo (\"neste chat\")": 1,
+  "F (fim de parêntese, após travessão)": 1,
+  "F (frase \"Fonte(s): …\")": 42,
+  "F (frase de fonte)": 11,
+  "código de fonte do L5 (U/GG/TB)": 33,
+  "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+  "F (parêntese com leitura)": 1,
+  "F (fim de parêntese)": 48,
+  "F (\"Conforme a Fn (leitura …):\")": 11,
+  "carimbo de leitura \"aberta(s) hoje\"": 9,
+  "caixa (minúscula → maiúscula na inicial deixada por deleção)": 8,
+  "F (parêntese com seção/verificação)": 5,
+  "F (fim de parêntese, \"com Fn\")": 2,
+  "marca de processo de produção do lote (\"Nesta produção\" / \"a especificação previa\")": 2,
+  "id de decisão na nota (D-LEI-15352)": 4
+ }
+}

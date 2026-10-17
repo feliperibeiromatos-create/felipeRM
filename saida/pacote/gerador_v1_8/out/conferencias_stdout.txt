@@ -1,0 +1,216 @@
+OK    BASE | v1.7 (git 62ab128) tem SHA-256 f20216c22600b7af7cf54b4e79d83accf3568aee8de48ad970fe800451528c7a, 621907 bytes, e a edição v1.7 tem 43 arquivos com manifesto ordenado 67d2bdf85925a232 (D1 da T-81, seção 0: P1 e P2) | v1.7 f20216c22600 | edição v1.7 67d2bdf85925a232
+OK    BASE | v1.4 (git e9b6402) tem SHA-256 f8c0c131f16dab52b1646b3d302670a3afc498b23ac03a7b34a8ff97520ffa54, 621744 bytes, e a edição v1.4 tem 43 arquivos com manifesto ordenado 562c51398d1e64f8 | v1.4 f8c0c131f16d | edição v1.4 562c51398d1e64f8
+OK    BASE | v1.3 (git 9622604) tem SHA-256 fdcb7afdb4fb449229c6d530e877d839f8d334cd9667731e1b7222c9c7fb0eca, 620956 bytes, e a edição v1.3 tem 43 arquivos com manifesto ordenado 6a60f28116d9ec35 | v1.3 fdcb7afdb4fb | v1.8 09d4a4576127
+OK    BASE | v1.5 (git a889100) tem SHA-256 b4bc65c7c5829994856665ae895f9b188be8167d5b78786819ea6cdeb97beef3, 621887 bytes, e a edição v1.5 tem 43 arquivos com manifesto ordenado 656e60e5085f3622 | v1.5 b4bc65c7c582 | edição v1.5 656e60e5085f3622
+OK    BASE | v1.6 (git 569c5dd) tem SHA-256 ecc284f9055f21046612e5afff7927eb72bf8a2283b7841c2c32c19c172d0a2e, 621907 bytes, e a edição v1.6 tem 43 arquivos com manifesto ordenado 01af0e342b9a7796 | v1.6 ecc284f9055f | edição v1.6 01af0e342b9a7796
+OK    BASE | se o HEAD ainda é a v1.7 (antes do commit da v1.8): saida/estudante do HEAD = edição do commit 62ab128 (43 arquivos, mesmo manifesto) e saida/pacote/pacote.json do HEAD = f20216c2… | manifesto HEAD 67d2bdf85925a232
+OK    (1) T-64 | os literais da T-64 conferem com os arquivos de padrões: Lote 2 (f), linha da nota = "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL." (1 linha, antes de "FIM DOS PADRÕES"); Lote 3, R6 (linhas 28–31, unidas por espaço, sem recuo e sem o rótulo "R6. ") = a R6 corrigida | Lote 2 linha 159; Lote 3 R6 linhas 28–31
+OK    (0) DIFF v1.7->v1.8 | diff estrutural v1.7 (git 62ab128) -> v1.8 do pacote: EXATAMENTE 2 caminhos, `$.nome` e `$.geradoEm`; qualquer outro = falha (D1, 1.3) | diferenças: ['.geradoEm', '.nome']
+OK    (0) DIFF v1.7->v1.8 | `nome`: "Câmara 2026 — pacote F4 (v1.7)" -> "Câmara 2026 — pacote F4 (v1.8)"; `geradoEm`: "2026-10-14" -> "2026-10-17"; `versao` 1 nas duas; chaves de topo e sua ordem iguais
+OK    (0) DIFF v1.7->v1.8 | byte a byte: aplicando à v1.7 só 2 trocas de texto (`nome` 1x e `geradoEm` 1x; cada uma ocorre 1 vez) obtém-se a v1.8 (621907 bytes, os mesmos da v1.7: "7" -> "8" e "14" -> "17" mantêm o tamanho); 2 linhas diferentes (linhas [3, 4] do JSON); SHA-256 09d4a457612781275659a3f7fbfd3a182f20fd9d4003e5ba38007d0c26c7a9c0 (esperado na seção 8 da D1: 09d4a457612781275659a3f7fbfd3a182f20fd9d4003e5ba38007d0c26c7a9c0, 621907 bytes); serialização json.dumps(indent=1, ensure_ascii=False) + "\n"
+OK    (0) DIFF v1.7->v1.8 | itens (286), simulados (4), lotes (10), edital (47) e discursivas (5) idênticos aos da v1.7, inteiros; ordem das chaves das discursivas igual
+OK    (0) DIFF v1.7->v1.8 | 286 itens, C/E 149/137, `volatil` 23, 0 "QA PENDENTE", 10 lotes, 4 simulados, 5 discursivas, 47 itens de edital, todos iguais aos da v1.7
+OK    (0) DIFF v1.7->v1.8 | a data da geração: `geradoEm` literal "2026-10-17" em build_pacote.py (sem relógio) e nenhuma leitura de data/hora do sistema no pipeline (D1, 6.3: determinismo)
+OK    (0) DIFF v1.7->v1.8 | E13 e T-54 já aplicadas (F4 e F5 da T81_exequibilidade): a E13 ("de até 20 linhas") está no comando da D1 e do D2 do pacote v1.8 (2 ocorrências de Y, 0 de X) e o curso do L3 traz "que se possa afirmar" (0 "que eu possa afirmar"); a v1.8 não mexe nelas
+OK    (1) HIST v1.6->v1.7 | diff estrutural v1.6 (git 569c5dd) -> v1.7 do pacote: exatamente 1 diferença, `$.nome`; `$.geradoEm` não difere (2026-10-14 nas duas); qualquer outra = falha (D-T71-01) | diferenças: ['.nome']
+OK    (1) HIST v1.6->v1.7 | `nome`: "Câmara 2026 — pacote F4 (v1.6)" -> "Câmara 2026 — pacote F4 (v1.7)"; `geradoEm` "2026-10-14" nas duas; `versao` 1 nas duas; chaves de topo e sua ordem iguais
+OK    (1) HIST v1.6->v1.7 | byte a byte: aplicando à v1.6 só 1 troca de texto (`nome`, 1x; "v1.6" ocorre 1 vez no texto da v1.6 e "v1.7" nenhuma) obtém-se a v1.7 (621907 bytes, os mesmos da v1.6: "6" -> "7" mantém o tamanho); 1 linha diferente (linha [4] do JSON); SHA-256 f20216c22600b7af7cf54b4e79d83accf3568aee8de48ad970fe800451528c7a; serialização json.dumps(indent=1, ensure_ascii=False) + "\n"
+OK    (1) HIST v1.6->v1.7 | itens (286), simulados (4), lotes (10), edital (47) e discursivas (5) idênticos aos da v1.6, inteiros (aspectos, quesitos, valores, `padrao`, `comando`, gabarito); ordem das chaves das discursivas igual
+OK    (1) HIST v1.6->v1.7 | a data da geração: `geradoEm` literal "2026-10-14" em build_pacote.py (sem relógio) e nenhuma leitura de data/hora do sistema no pipeline (a D1, 5.1: execução em 2026-10-14, America/Sao_Paulo)
+OK    (1) HIST E13 | literais da E13 = os do Adendo 6 de GCE_Lote1_consolidacao_GCE.md ("onde se lê" X, "leia-se" Y; 1 par); X ocorre 1 vez em GCE_Lote1_v2_CPP.md (enunciado (e), comando da D1) e Y nenhuma; o arquivo do lote (v2_CPP) fica intacto
+OK    (1) HIST v1.5->v1.6 | diff estrutural v1.5 (git a889100) -> v1.6 do pacote: exatamente 2 diferenças, `$.nome` e `$.discursivas[0].comando` (D1); `$.geradoEm` não difere (2026-10-14 nas duas); qualquer outra = falha (D-V16-ESCOPO, item 7; D1-T65-R2) | diferenças: ['.nome', '.discursivas[0].comando']
+OK    (1) HIST v1.5->v1.6 | `nome`: "Câmara 2026 — pacote F4 (v1.5)" -> "Câmara 2026 — pacote F4 (v1.6)"; `geradoEm` "2026-10-14" nas duas; `versao` 1 nas duas; chaves de topo e sua ordem iguais
+OK    (1) HIST v1.5->v1.6 | byte a byte: aplicando à v1.5 só as 2 trocas de texto (`nome` [1x] e X -> Y no comando da D1 [1x]) obtém-se a v1.6 (621907 bytes; v1.5: 621887; +20 bytes = os 20 bytes da inserção ", de até 20 linhas,"); 2 linhas diferentes (linhas [4, 7404] do JSON: a de `nome` e a do `comando` de D1); serialização json.dumps(indent=1, ensure_ascii=False) + "\n"
+OK    (1) HIST v1.5->v1.6 | D1: comando v1.6 = comando v1.5 com UMA troca (X -> Y; a inserção ", de até 20 linhas," depois de "dissertativo"); id, tipo, aspectos, padrao e quesitos da D1 idênticos aos da v1.5 (0 aspecto, quesito, valor, padrão ou gabarito alterado); D2, D3, D4 e D5 idênticas, inteiras; ordem das chaves igual
+OK    (1) HIST v1.5->v1.6 | valores e aspectos da D1 iguais (soma de `aspectos[].valor` por discursiva: D1 14.3, D2 14.3, D3 28.5, D4 14.3, D5 28.5, as mesmas da v1.5)
+OK    (1) HIST v1.5->v1.6 | estado esperado (D1-T65-R2): "20 linhas" nos comandos D1 1, D2 1, D3 0, D4 1, D5 0 (v1.5: D1 0, D2 1, D3 0, D4 1, D5 0); no pacote inteiro X 0 e Y 2 (D1 e D2); "Redija texto dissertativo, de até 20 linhas" 1 vez (D4) | {'D1': 1, 'D2': 1, 'D3': 0, 'D4': 1, 'D5': 0}
+OK    (1) HIST v1.5->v1.6 | itens (286), simulados (4), lotes (10) e edital (47) idênticos aos da v1.5; discursivas (5): só o comando da D1 difere
+OK    (1) T-64 | estado esperado da GCE (D1-T64-5) em `discursivas[*].padrao`, mantido na v1.8: "NQ = NC − 3 × NE ÷ TL" em D1, D4 e D5 (3); "NPT = NC − 6 × NE ÷ TL" em D3, D4 e D5 (3); "NQ = NC" em D3: 0; D2 sem nota de fórmula; "9.8.5.1, d" com NQ em D3: 0
+OK    (1) DIFF | v1.3 -> v1.8 (acumulado) do pacote: só nome (valor), geradoEm (valor: 2026-10-13 -> 2026-10-17), `id` em 72 pares (acrescentado), comando da D1 (valor; E13 da T-65), padrao da D3, da D4 e da D5 (valor) e curso do L3 (valor); qualquer outra diferença = falha | diferenças: 79 (1 nome + 1 geradoEm + 72 id + 1 comando D1 (E13) + 3 padrao D3/D4/D5 + 1 curso L3)
+OK    (1) DIFF | nome: "Câmara 2026 — pacote F4 (v1.3)" -> "Câmara 2026 — pacote F4 (v1.8)"; versao 1 nas duas
+OK    (1) DIFF | cada `id` de par (72) é o rótulo "C<n>." da seção (c) do canônico do lote, na ordem (L4 C1–C20, L5 C1–C15, L6A C1–C19, L6B C1–C18), é a primeira chave, e a/b/como são idênticos aos da v1.3 | L4 20 ok, L5 15 ok, L6A 19 ok, L6B 18 ok
+OK    (1) DIFF | L1, L1C, L2 e L3 sem `id` (0 de 67 pares); L4C e L5C sem pares
+OK    (1) DIFF | remissões: L5 C1 = Histograma × gráfico de barras; L5 C14 = Storytelling × dashboard; L4 C19 = Injeção de prompt × jailbreak (conceitos gerais)
+OK    (1) DIFF | curso do L3: igual ao da v1.3 com UMA troca ("eu" -> "se" em "jurisprudência firmada que eu possa afirmar):"); 0 "que eu possa afirmar" no pacote | caracteres 27731 -> 27731
+OK    (1) DIFF | o canônico atual do L3 (GCE_Lote3_v2_CPP.md, T-58) traz a errata no curso (1x) e o registro "T-54" na Tabela de Correções; o curso do pacote = curso lido do canônico (sem outra mudança desde a v1.3)
+OK    (1) DIFF | D5: padrao v1.8 = padrao v1.3 (com a R6 trocada pela da T-64) sem o trecho literal da nota R2 (linhas 14–20 de GCE_Lote3_padroes_GCE.md, 7 linhas) e com o rótulo "Notas de correção (GCE, R3–R4)"; anexo v1.4 = linhas 21–23 literais; comando, aspectos e quesitos da D5 iguais
+OK    (1) DIFF | D4: igual à da v1.3 salvo a troca da R6 (T-64); padrao com o anexo R2–R4 (linhas 14–23 literais) e rótulo "Notas de correção (GCE, R2–R4)"; D2 idêntica; D1 igual à da v1.3 salvo o comando (E13, T-65); D3 igual à da v1.3 salvo a troca da nota da peça (T-64)
+OK    (1) DIFF | ordem das chaves: as mesmas da v1.3, salvo `id` como primeira chave dos 72 pares
+OK    (1) DIFF | serialização: indent=1, ensure_ascii=False, newline final; 286 itens idênticos (enunciado, comando, comandoOriginal, textoBase, gabarito, justificativa, itemEdital, aderencia, volatil, nota); simulados idênticos
+OK    (2) CONTRATO v1.2.5 | base: regras/pacote_contrato.md v1.2.4 (git 62ab128) tem SHA-256 75e6a5009be70f5be3cb3e7b9b5087b96086a0884831419d6818fa27babdb27e, 32266 bytes e 143 linhas (D1, P3); C-1 a C-3 lidas dos blocos literais da D1 (3 blocos, na ordem)
+OK    (2) CONTRATO v1.2.5 | cada "antes" de C-1 a C-3 ocorre exatamente 1 vez no estado anterior à troca: [1, 1, 1]
+OK    (2) CONTRATO v1.2.5 | regras/pacote_contrato.md (arquivo atual, conteúdo LF) é igual, caractere a caractere, à v1.2.4 com C-1 a C-3 aplicadas, reconstruído por script: SHA-256 10eac696dbb83049ba12ee793ff4991a1884094b7b88cdaf39f10a3fcc33660e, 35460 bytes, 154 linhas (seção 8 da D1, linha CONTRATO-V125); sem BOM | SHA-256 10eac696dbb8
+OK    (2) CONTRATO v1.2.5 | diff linha a linha v1.2.4 -> v1.2.5: 2 linhas trocadas (1 e 3) e 11 inseridas (o bloco C-3, 10 linhas, mais 1 linha em branco); 0 outra linha alterada; 154 - 143 = 11 | operações: replace antes[0:1] depois[0:1]; replace antes[2:3] depois[2:3]; insert antes[138:138] depois[138:149]
+OK    (2) CONTRATO v1.2.5 | linha 1 = "# pacote.json — contrato de dados entre a fábrica e a plataforma (v1.2.5, 2026-10-17)" (0 "v1.2.4" na linha 1); a seção "Errata de forma da v1.2.5 (T-81;" existe 1 vez; a linha 3 cita a v1.2.5 e remete à seção "Errata de forma da v1.2.5"
+OK    (2) CONTRATO v1.2.5 | nenhum campo obrigatório mudou: exemplo JSON, parágrafo "Regras:" (campos obrigatórios) e todas as regras e errata até a v1.2.4 idênticos (do início da seção "Regras da v1.1" ao "Registro" da v1.2.4); `versao` continua 1; a errata diz que não muda nome, tipo nem obrigatoriedade de nenhum campo do `pacote.json` e não muda `versao`; só acrescenta o arquivo opcional `pacote_estudante.json`
+OK    (2) CONTRATO v1.2.5 | o registro saida/pacote/contrato_v1_2_5_2026-10-17.md existe e traz o SHA-256 antes (75e6a500…) e depois (10eac696…) e a confirmação de que os blocos foram lidos por programa da D1
+OK    (2) CONTRATO v1.2.5 | o pacote v1.8 cumpre os 14 campos obrigatórios de item e as chaves de topo do contrato: 286/286 itens com os 14 campos; chaves de topo = versao, geradoEm, nome, edital, itens, simulados, lotes, discursivas; o pacote_estudante.json tem as mesmas chaves de topo e os mesmos 14 campos nos 286 itens
+OK    (3) EDIÇÃO v1.7->v1.8 | 9 arquivos retirados (L1C_, L4C_ e L5C_ × estudo/itens/gabarito), nenhum arquivo novo, 34 arquivos na v1.8 (43 na v1.7) | ['L1C_estudo.md', 'L1C_gabarito.md', 'L1C_itens.md', 'L4C_estudo.md', 'L4C_gabarito.md', 'L4C_itens.md', 'L5C_estudo.md', 'L5C_gabarito.md', 'L5C_itens.md']
+OK    (3) EDIÇÃO v1.7->v1.8 | 8 alterados: README.md, L1_estudo.md, L1_itens.md, L1_gabarito.md, L4_itens.md, L4_gabarito.md, L5_itens.md e L5_gabarito.md | ['L1_estudo.md', 'L1_gabarito.md', 'L1_itens.md', 'L4_gabarito.md', 'L4_itens.md', 'L5_gabarito.md', 'L5_itens.md', 'README.md']
+OK    (3) EDIÇÃO v1.7->v1.8 | 26 idênticos byte a byte: L2_*, L3_*, L6A_*, L6B_* (12), L4_estudo.md, L5_estudo.md, BANCO_* (2), DISCURSIVAS* (2) e os 8 de simulado | 26 idênticos
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: itens L1
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: gabarito L1
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: itens L4
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: gabarito L4
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: itens L5
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: gabarito L5
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: pegadinhas L1
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: curso L1 = curso v1.7 do L1 + separador + curso v1.7 do 1-C
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: L1_estudo.md v1.8 = v1.7 com 2 inserções (o complemento no fim do curso e as 4 pegadinhas)
+OK    (3) EDIÇÃO v1.7->v1.8 | reconstrução: L4_estudo.md e L5_estudo.md idênticos (curso, resumo, pares e pegadinhas de L4C e L5C vazios)
+OK    (3) EDIÇÃO v1.7->v1.8 | README.md: "- Versão: v1.8 (pacote.json versão 1)" e "- Data: 2026-10-17"; a lista "Por lote" com 7 linhas (L1, L2, L3, L4, L5, L6A, L6B); o resto igual (o README v1.8 = o da v1.7 com as 2 trocas e sem as 3 linhas dos complementos)
+OK    (3) EDIÇÃO v1.7->v1.8 | manifesto ordenado da edição (SHA-256 das linhas "<sha256>  <nome>"): v1.7 67d2bdf85925a232… -> v1.8 0b7391fa01784889… (34 arquivos) | 0b7391fa0178488924de8e6ed420c6108dd5fdad0e10fd1c5ccc40d9cd4bae6c
+OK    (3) EDIÇÃO v1.7->v1.8 | fidelidade (estudante_fidelidade.py): 0 diferenças contra o pacote com as regras de deleção e as exceções fechadas (CAIXA, nota de BQ-0003, realinhamento do quadro do L1), com a fusão | comparações 5765, diferenças 0, marcas residuais 2
+OK    (3) EDIÇÃO v1.7->v1.8 | realinhamento do quadro do L1: exceção fechada, 2 linhas, 1 ocorrência cada (REALINHA_HITS), só espaços; CAIXA: 8 pares
+OK    (4) IDENT json | chaves de topo na ordem, versao 1, geradoEm 2026-10-17, nome próprio
+OK    (4) IDENT json | ids, ordem e gabaritos (286/286)
+OK    (4) IDENT json | enunciado, comando, comandoOriginal e textoBase idênticos (286/286)
+OK    (4) IDENT json | itemEdital, aderencia, volatil, rotulo, certame, cargo, ano e numero idênticos
+OK    (4) IDENT json | url idêntica nos 106 de banco e "" nos 180 AUTORAL
+OK    (4) IDENT json | nota: só BQ-0003 muda, pela deleção única de " (D-LEI-15352)"
+OK    (4) IDENT json | justificativa de banco vazia nos 106; as AUTORAL ficam para a (5)
+OK    (4) IDENT json | simulados idênticos, salvo avisos[0] do SIM-0 (deleção única de "D-ADERENCIA: "); os outros avisos ficam
+OK    (4) IDENT json | edital idêntico
+OK    (4) IDENT json | discursivas: id, tipo, aspectos[].n, aspectos[].valor e quesitos[].id idênticos
+OK    (4) IDENT json | lotes: 7, na ordem L1…L6B; id, nome, prova, itensEdital, legendaMecanismo, pares[].id e pegadinhas[].itemEdital idênticos (L1 com as 4 do 1-C no fim)
+OK    (4) IDENT json | fusão: itensEdital de L1C ⊂ L1, L4C ⊂ L4, L5C ⊂ L5; curso/resumo/pares/pegadinhas de L4C e L5C vazios; L1C sem resumo nem pares
+OK    (4) IDENT json | serialização: json.dumps(indent=1, ensure_ascii=False) + "\n", UTF-8, LF, sem BOM | SHA-256 851e2370a9f5e9c8e5db725ff84777f70c12f81044983d339434ac7504e04c3e, 602815 bytes
+OK    (5) JSON×ED v1.7 | resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C)
+OK    (5) JSON×ED v1.7 | linhas de pares recompostas do JSON pelo formato da edição
+OK    (5) JSON×ED v1.7 | linhas de pegadinhas recompostas do JSON (L1: as 4 do 1-C no fim)
+OK    (5) JSON×ED v1.7 | justificativa de cada item AUTORAL = a linha "- Justificativa: …" do *_gabarito.md de lote (180/180)
+OK    (5) JSON×ED v1.7 | discursivas: comando, padrão, aspectos e quesitos (nome e conceitos) = DISCURSIVAS.md e DISCURSIVAS_padrao.md
+OK    (5) JSON×ED v1.7 | INFO (só registro; o JSON segue o escopo de lote): justificativas de AUTORAL com texto diferente entre o *_gabarito.md de lote e o de simulado na edição v1.7: 0
+OK    (5) JSON×ED v1.7 | no L1, o curso fundido = curso de L1_estudo.md v1.7 + separador + curso de L1C_estudo.md v1.7
+OK    (6) JSON×ED v1.8 | resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C)
+OK    (6) JSON×ED v1.8 | linhas de pares recompostas do JSON pelo formato da edição
+OK    (6) JSON×ED v1.8 | linhas de pegadinhas recompostas do JSON (L1: as 4 do 1-C no fim)
+OK    (6) JSON×ED v1.8 | justificativa de cada item AUTORAL = a linha "- Justificativa: …" do *_gabarito.md de lote (180/180)
+OK    (6) JSON×ED v1.8 | discursivas: comando, padrão, aspectos e quesitos (nome e conceitos) = DISCURSIVAS.md e DISCURSIVAS_padrao.md
+OK    (7) VARREDURA R json | varredura R no pacote_estudante.json: 9 casamentos (X1–X8, Y1), 0 de processo, contagens das listas X e Y conferidas | processo 0; falhas []; contagens {'X1': 1, 'X2': 1, 'X3': 1, 'X4': 1, 'X5': 1, 'X6': 1, 'X7': 1, 'X8': 1, 'Y1': 1}
+OK    (7) VARREDURA R edição | edição v1.8 (34 arquivos): os 11 casamentos da seção 2.4 (X1 2: BANCO_itens.md e SIM-0_folha.md; X2 2: idem; X3 L2_estudo; X4, X5, X6 e X7 L3_estudo [4: X4 1 e, juntos, X5+X6+X7 3, pelos contextos sobrepostos]; X8 L6A_estudo; Y1 L4_gabarito) e 0 de processo | X1 BANCO_itens.md; X2 BANCO_itens.md; X3 L2_estudo.md; X4 L3_estudo.md; X5+X6+X7 L3_estudo.md; X5+X6+X7 L3_estudo.md; X5+X6+X7 L3_estudo.md; Y1 L4_gabarito.md; X8 L6A_estudo.md; X1 SIM-0_folha.md; X2 SIM-0_folha.md
+OK    (7) VARREDURA R edição | localização de X5+X6+X7 em L3_estudo.md (Adendo 1, 9.5 (a)): o contexto de X6 ocorre 3 vezes: 1 no bloco do curso (X5), 1 na seção "## Pares" (X6) e 1 na seção "## Pegadinhas" (X7); X4 1 no curso; as 4 linhas com "Presidência" no arquivo | linhas [363, 559, 595] (curso 59, pares 537, pegadinhas 568)
+OK    (7) VARREDURA R edição | MARK_RX do W.raw (estudante_gen.py) sem disparo em comando, textoBase e enunciado dos 286 itens (campos de prova que a edição exibe sem deleção)
+OK    (7) CONTAGEM | itens por lote, v1.7 -> v1.8-E (D1, 3.4): L1 20+10 -> 30; L4 20+10 -> 30; L5 20+10 -> 30; L2, L3, L6A, L6B 30, 30, 15, 15; AUTORAL 180, banco 106 | v1.7 {'L1': 20, 'L1C': 10, 'L2': 30, 'L3': 30, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15}; v1.8-E {'L1': 30, 'L2': 30, 'L3': 30, 'L4': 30, 'L5': 30, 'L6A': 15, 'L6B': 15}
+OK    (4) VARR 3.5 | ;\): 0 | 0
+OK    (4) VARR 3.5 |  — $: 0 | 0
+OK    (4) VARR 3.5 | \*\*\*\*: 0 | 0
+OK    (4) VARR 3.5 | abertas? hoje: 0 | 0
+OK    (4) VARR 3.5 | \(v2,: 0 | 0
+OK    (4) VARR 3.5 | D-LEI-15352: 0 | 0
+OK    (4) VARR 3.5 | neste chat: 0 | 0
+OK    (4) VARR 3.5 | Retificação: 0 | 0
+OK    (4) VARR 3.5 | Gabarito [CE] mantido: 0 | 0
+OK    (4) VARR 3.5 | \b(?:U[1-6]|GG\d|TB\d|CI)\b: 0 | 0
+OK    (4) VARR 3.5 | \bN\d\b em L1_,L1C_,L2_,L3_,SIM-2,SIM-0-P2: 0 | 0
+OK    (4) VARR 3.5 |  — (?:BQ|L\d|4C|5C|6A|6B|A5) em SIM-0-P2_folha.md,SIM-0_folha.md,SIM-1_folha.md,SIM-2_folha.md: 0 | 0
+OK    (4) VARR 3.5 | erificado em 8/10/2026 em L5_,L5C_: 0 | 0
+OK    (4) VARR 3.5 extra | \[TS\]: 0 | 0
+OK    (4) VARR 3.5 extra | \[V : 0 | 0
+OK    (4) VARR 3.5 extra | \bCQFP\b: 0 | 0
+OK    (4) VARR 3.5 extra | \bCQE\b: 0 | 0
+OK    (4) VARR 3.5 extra | \bGCE\b: 0 | 0
+OK    (4) VARR 3.5 extra | \bGCB\b: 0 | 0
+OK    (4) VARR 3.5 extra | \bGBQ\b: 0 | 0
+OK    (4) VARR 3.5 extra | \bCPP\b: 0 | 0
+OK    (4) VARR 3.5 extra | T-\d: 0 | 0
+OK    (4) VARR 3.5 extra | \bQA\b: 0 | 0
+OK    (4) VARR 3.5 extra | O-\d: 0 | 0
+OK    (4) VARR 3.5 extra | Lição O: 0 | 0
+OK    (4) VARR 3.5 extra | R-\dC\d: 0 | 0
+OK    (4) VARR 3.5 extra | NÃO VOLÁTIL: 0 | 0
+OK    (4) VARR 3.5 extra | não VOLÁTIL: 0 | 0
+OK    (4) VARR 3.5 extra | Sem marca VOLÁTIL: 0 | 0
+OK    (4) VARR 3.5 extra | REVERIFICAR: 0 | 0
+OK    (4) VARR 3.5 extra | \bD-[A-Z]{2,}: 0 | 0
+OK    (4) VARR 3.5 extra | D-[A-Z]{2,} (sem \b): mesma contagem da v1.7 nos arquivos que permanecem (os 9 arquivos retirados repetiam a legenda, que traz as demais ocorrências; só "TID-IA", "TID-DADOS-VIZ", "END-TO-END" e afins; a v1.7 tinha a mesma contagem da v1.2 nos 43); com \b: 0 (errata de registro da T-56, seção 3) | v1.2 (43 arquivos) 14; v1.7 (43) 14; v1.7 nos 34 que permanecem 8; v1.8 8
+OK    (4) VARR 3.5 | códigos F: só L6A_estudo.md:83 ("a tecla F4") e L4_gabarito.md:58 (L4-11, "O F4 afirma") | [('L4_gabarito.md', 58), ('L6A_estudo.md', 83)]
+OK    (4) VARR 3.5 | "VOLÁTIL" fora do aviso fixo: só L4_estudo 23 e 210; L5_estudo 24, 104 e 107; L6A_estudo 125 e 268 (igual à v1.7); os gabaritos com legenda não ganham a palavra | [('L4_estudo.md', 23), ('L4_estudo.md', 210), ('L5_estudo.md', 24), ('L5_estudo.md', 104), ('L5_estudo.md', 107), ('L6A_estudo.md', 125), ('L6A_estudo.md', 268)]
+OK    (4) QA T-56 | N-1: 0 "Nesta produção", 0 "especificação previa" e 0 "se houver base" nos 34 arquivos; no pacote a marca fica (1 e 1; D-PACOTE-V11) | 0/0/0
+OK    (4) QA T-56 | L6B_estudo.md igual ao da v1.7 (N-1 intacta: a linha 143 é igual)
+OK    (4) QA T-56 | legenda: nos 4 L<lote>_gabarito.md com legenda (L4, L5, L6A, L6B) é literal, sozinha, no topo (linha 3), antes do primeiro item (as 4 linhas de topo iguais às da v1.7); L1, L2, L3 sem legenda (a do 1-C, 4-C e 5-C não entra: D1, 3.1); L2, L3, L6A e L6B _gabarito.md iguais aos da v1.7 | L4 ok, L5 ok, L6A ok, L6B ok
+OK    (4) QA T-56 | legenda exibida só nos L<lote>_gabarito.md dos 6 lotes e no SIM-1_gabarito.md (D-T54-07): 0 ocorrência em BANCO_gabarito.md, *_estudo.md, *_itens.md, *_folha.md, README.md, SIM-0, SIM-2 e SIM-0-P2 | []
+OK    (4) QA T-56 | avisos do SIM-0 continuam no pacote (3 strings) e NÃO são exibidos na edição (0 arquivo com o texto dos 3 avisos; 0 "Avisos de montagem", 0 "D-ADERENCIA") | []
+OK    (4) QA T-56 | README, folhas e demais arquivos sem mudança indevida: SIM-0_folha e SIM-0_gabarito mudam só pela nota (a v1.3 sem a nota = a v1.4 sem a nota)
+OK    (4) CAIXA C-05 | 4C-08: pacote com inicial maiúscula (1 vez), sem a minúscula; edição: 2 ocorrências (gabarito do lote + simulados), 0 da minúscula | edição 2
+OK    (4) CAIXA C-05 | 5C-06: pacote com inicial maiúscula (1 vez), sem a minúscula; edição: 1 ocorrências (gabarito do lote + simulados), 0 da minúscula | edição 1
+OK    (4) CAIXA C-15 | L6A_estudo: "mesclar combina duas ou mais célul" -> "Mesclar combina duas ou mais célul": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "a função SE compara um valor" -> "A função SE compara um valor": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "o PROCV pesquisa um valor" -> "O PROCV pesquisa um valor": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "o propósito é fazer todos os slide" -> "O propósito é fazer todos os slide": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "a animação é aplicada a um único e" -> "A animação é aplicada a um único e": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "o histórico de versões permite ver" -> "O histórico de versões permite ver": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "deleted". por padrão os clientes P" -> "deleted". Por padrão os clientes P": antes 0, depois 1
+OK    (4) CAIXA C-15 | L6A_estudo: "offline. por padrão os clientes IM" -> "offline. Por padrão os clientes IM": antes 0, depois 1
+OK    (4) CAIXA C-15 | lista CAIXA: 8 pares, todos em L6A_estudo; 8 trocas na regeração; L6A_estudo.md idêntico ao da v1.3 fora dos 19 pares
+OK    (4) REUNIÃO C-06 | L1 P2-1.5: 1 entrada, com os dois fragmentos unidos por "; "
+OK    (4) REUNIÃO C-07 | L5 Gráfico de barras (colunas): 3 entradas (confundir com histograma; aceitar eixo truncado; reunida "usar para distribuição…; empilhado quando…")
+OK    (4) REUNIÃO C-08 | L5 Box plot (diagrama de caixa): 1 entrada com os 4 fragmentos unidos por "; "
+OK    (4) REUNIÃO | pegadinhas por lote = v1.3 (L1 19, L1C 4, L2 43, L3 42, L4 32, L4C 0, L5 48, L5C 0, L6A 35, L6B 39; total 262)
+OK    (4) REUNIÃO | edição: L1_estudo com 1 linha para P2-1.5 "Pontuação automática…"; L5_estudo com 3 linhas "Gráfico de barras (colunas)" e 1 "Box plot (diagrama de caixa)"
+OK    (4) C-13 | L4-11: justificativa da edição = a do pacote menos exatamente " Fonte: F4, reverificado em 7/10/2026." (1 ocorrência no pacote); frase que fundamenta o gabarito C presente; gabarito C
+OK    (4) C-18 | BQ-0003: `nota` no pacote com " (D-LEI-15352)" literal; na edição, sem ele e sem o rótulo "Nota:", nos 4 pontos (BANCO_itens, BANCO_gabarito, SIM-0_folha, SIM-0_gabarito); BQ-0040 sem o identificador
+OK    (4) C-10 | folhas: 165 linhas de item sem id de origem; 0 com id (id só no *_gabarito.md)
+OK    (4) C-11 | texto-base antes do comando: BANCO_itens 3 e SIM-0_folha 1; 0 comando antes de texto-base
+OK    (4) T57 s3-6 | os 5 scripts históricos não executáveis (relatorio_R1, report, report2, diff, diff2) e conferencias_R1.py (histórico executável) estão em gerador_v1_7/ e são idênticos, byte a byte, aos de gerador_v1_4/ (opção "marcar", D-T57-10: nenhuma alteração) | relatorio_R1.py, report.py, report2.py, diff.py, diff2.py, conferencias_R1.py
+OK    (5) CONT | itens = 286 (v1.2: 286; v1.3: 286; v1.4: 286; v1.5: 286; v1.6: 286; v1.8: 286)
+OK    (5) CONT | ids únicos = 286 (v1.2: 286; v1.3: 286; v1.4: 286; v1.5: 286; v1.6: 286; v1.8: 286)
+OK    (5) CONT | C = 149 (v1.2: 149; v1.3: 149; v1.4: 149; v1.5: 149; v1.6: 149; v1.8: 149)
+OK    (5) CONT | E = 137 (v1.2: 137; v1.3: 137; v1.4: 137; v1.5: 137; v1.6: 137; v1.8: 137)
+OK    (5) CONT | banco = 106 (v1.2: 106; v1.3: 106; v1.4: 106; v1.5: 106; v1.6: 106; v1.8: 106)
+OK    (5) CONT | AUTORAL = 180 (v1.2: 180; v1.3: 180; v1.4: 180; v1.5: 180; v1.6: 180; v1.8: 180)
+OK    (5) CONT | aderência direta = 247 (v1.2: 247; v1.3: 247; v1.4: 247; v1.5: 247; v1.6: 247; v1.8: 247)
+OK    (5) CONT | aderência parcial = 39 (v1.2: 39; v1.3: 39; v1.4: 39; v1.5: 39; v1.6: 39; v1.8: 39)
+OK    (5) CONT | volatil = 23 (v1.2: 23; v1.3: 23; v1.4: 23; v1.5: 23; v1.6: 23; v1.8: 23)
+OK    (5) CONT | nota = 2 (v1.2: 2; v1.3: 2; v1.4: 2; v1.5: 2; v1.6: 2; v1.8: 2)
+OK    (5) CONT | comandoOriginal = 90 (v1.2: 90; v1.3: 90; v1.4: 90; v1.5: 90; v1.6: 90; v1.8: 90)
+OK    (5) CONT | pegadinhas = 262 (v1.2: 262; v1.3: 262; v1.4: 262; v1.5: 262; v1.6: 262; v1.8: 262)
+OK    (5) CONT | simulados n = [60, 40, 40, 25] (v1.2: [60, 40, 40, 25]; v1.3: [60, 40, 40, 25]; v1.4: [60, 40, 40, 25]; v1.5: [60, 40, 40, 25]; v1.6: [60, 40, 40, 25]; v1.8: [60, 40, 40, 25])
+OK    (5) CONT | simulados itens = [60, 40, 40, 25] (v1.2: [60, 40, 40, 25]; v1.3: [60, 40, 40, 25]; v1.4: [60, 40, 40, 25]; v1.5: [60, 40, 40, 25]; v1.6: [60, 40, 40, 25]; v1.8: [60, 40, 40, 25])
+OK    (5) CONT | lotes = 10 (v1.2: 10; v1.3: 10; v1.4: 10; v1.5: 10; v1.6: 10; v1.8: 10)
+OK    (5) CONT | discursivas = 5 (v1.2: 5; v1.3: 5; v1.4: 5; v1.5: 5; v1.6: 5; v1.8: 5)
+OK    (5) CONT | edital = 47 (v1.2: 47; v1.3: 47; v1.4: 47; v1.5: 47; v1.6: 47; v1.8: 47)
+OK    (5) CONT | pares (139), aspectos e quesitos das discursivas iguais aos da v1.3 e da v1.2; pares com `id` 72 | 139/19/19
+OK    (5) CONT | SIM-0 33 C/27 E (diagnóstico, 23 parciais, 4 voláteis, 3 avisos); SIM-1 e SIM-2 20 C/20 E; SIM-0-P2 13 C/12 E
+OK    (5) CONT | edição: 34 arquivos (43 na v1.7); itens por simulado iguais aos da v1.3
+OK    (6) T-59 | regras/importacao_erros.md v1 (bloco D-T59-07 de T59_decisoes, SHA-256 b19bc0e4adf9…, 127 linhas) + E-1 a E-5 da reconciliação (5 substituições, cada "antes" com 1 ocorrência; textos conferidos contra T59_T60_reconciliacao_2026-10-14.md, seção 3.1-D) | v1: 127 linhas; v1.1 reconstruída: 129 linhas
+OK    (6) T-59 | regras/importacao_erros.md v1.1 (git a889100; SHA-256 4bc7098a8468353c8c6bf6f41ef55ae8733813ea525cbc9c76e58ad87f047d0f, 12388 bytes, 129 linhas) é igual, caractere a caractere, ao bloco D-T59-07 com E-1 a E-5 aplicadas, reconstruída por script (129 linhas, 12033 caracteres): 2 linhas a mais, 4 trocadas, as demais idênticas e na mesma ordem; sem BOM nem CR
+OK    (6) T-66 | E-6 a E-10 lidas dos blocos literais da seção 6.2 de T66_decisoes (5 pares, na ordem); cada "onde se lê" ocorre exatamente 1 vez no estado anterior à troca: [1, 1, 1, 1, 1]
+OK    (6) T-66 | regras/importacao_erros.md (arquivo atual) é igual, caractere a caractere, à v1.1 do git (4bc7098a…) com E-6 a E-10 aplicadas e, pela cadeia completa, ao bloco D-T59-07 + E-1 a E-5 + E-6 a E-10 (reconstruída por script): SHA-256 922d77b84543c4cc4bec9fa2b64f705f4afc4ddbc3577e830422d5bd5a7b28b8, 12979 bytes, 130 linhas; sem BOM nem CR | SHA-256 922d77b84543
+OK    (6) T-66 | diff linha a linha v1.1 -> v1.2: 4 linhas trocadas (1, 3, 27 e 39 da v1.1) e 1 inserida depois da 33 (E-9); "(v1.2.4)" presente e "(v1.2.3)" ausente; primeira linha com "v1.2, 2026-10-14" e a errata em T66_decisoes; os 4 títulos de seção intactos | operações: replace antes[0:1] depois[0:1]; replace antes[2:3] depois[2:3]; replace antes[26:27] depois[26:27]; insert antes[33:33] depois[33:34]; replace antes[38:39] depois[39:40]
+OK    (6) T-66 | importacao_erros.md v1.2 cita o contrato v1.2.4, o validador mantido (saida/treino/ferramentas/validar_erros.py) e as 4 seções da regra (1 Entrada e guarda; 2 Validação; 3 O que a rodada semanal produz; 4 O que nada disto faz)
+OK    (6) T-59 | saida/pacote/exemplo_erros_v1.json é igual, caractere a caractere, ao exemplo mínimo da decisão (D-T59-04); abre como JSON; tem os 12 campos da tabela D-T59-02
+OK    (6) T-59 | validador (validar_erros.py) sobre o exemplo: ACEITO, 0 incoerência (D-T59-05), ids fictícios listados como desconhecidos (caderno XX-0001; det XX-0001 e XX-0002; discursivas DX)
+OK    (6) T-59 | validador mantido (saida/treino/ferramentas/validar_erros.py, `python3 -I`) sobre o exemplo: ACEITO (código 0), 0 incoerência, 0 aviso `ordem:`, fora_dos_calculos com as 3 chaves vazias, mesmos ids desconhecidos que o registro
+OK    (6) T-59 | registro (D-R59-08): gerador_v1_8/validar_erros.py (19ab9c8b…) e validar_erros_teste.py (33132d5a…) continuam com o SHA-256 da T-61 (conteúdo LF); a cópia mantida em saida/treino/ferramentas/ existe e difere do registro (a marcação "registro (T-59)" no MANIFESTO é conferida por manifesto_v1_8.py, passo 11)
+OK    (6) T-66 | validador mantido (T-66): saida/treino/ferramentas/validar_erros.py SHA-256 220dd559fa5ac23bda706366c613603654d41533713f45a78969371ee69e9985 e validar_erros_teste.py SHA-256 192581d92c242bbf6649ad11c3d5212ec6eb9c15b2d377d6e0f437d79d4595e2 (T66_producao_2026-10-14.md); o teste, rodado de / com `python3 -I`: 79 conferências OK, 0 FALHA, código 0 | SHA-256 220dd559fa5a / 192581d92c24
+OK    (6) T-59 | .gitignore da raiz = as 2 linhas da decisão (seção 6, item 1): "# T-59 (D1 da GBQ): dados da candidata — nunca no git" e "/entrada/erros/"
+OK    (6) T-59 | git check-ignore: entrada/erros/x.json e entrada/erros/discursivas/…/resposta_candidata.md são ignorados; saida/treino/diagnostico_….md (agregado sem texto) NÃO é ignorado | .gitignore:2:/entrada/erros/ entrada/erros/x.json
+OK    (6) T-59 | o pacote v1.8 não traz campo novo (D-T59-10, item 1): nenhum `id` de simulado "SIM-S-…" (ainda não há simulado da semana aceito) e os 4 simulados são SIM-0, SIM-1, SIM-2, SIM-0-P2
+OK    (7) E13 | o registro de errata do gerador traz a L1 E13 uma vez, estado APLICADA (X encontrado 1 vez livre, Y ausente antes), aplicada ao comando da D1 depois da montagem com a E8 (D1-T65-R2) | [{'lote': 'L1', 'id': 'E13', 'x': 1, 'y': 0, 'x_free': 1, 'y_free': 0, 'estado': 'APLICADA', 'note': 'Adendo 6 (T-65): comando da D1, limite de 20 linhas (edital 9.1, a); 0 aspecto, quesito, valor, padrão ou gabarito alterado'}]
+OK    (7) E13 | sync_check: a E13 (X e Y literais no Adendo 6 da consolidação) consta como conferida (x e y verdadeiros)
+OK    (7) E13 | GCE_Lote1_consolidacao_GCE.md (com o Adendo 6) tem SHA-256 604fa711f19949ab4560cece3dd3958b0f7582dd9af3560e5e7bc13c1df503bd, 11670 bytes e 213 quebras de linha (T65_reconciliacao, seção 1, ponto 1); termina em "FIM DO ADENDO 6"
+OK    (8) GERADOR | arquivos da v1_8 frente à v1_7 (fora de `out/` e do MANIFESTO.md): alterados = banco.py (Adendo 1, 9.3), build_pacote.py, common.py, estudante_fidelidade.py, estudante_gen.py, refs.py, rodar_tudo.sh, validate.py (D1, 1.2); novos = conferencia_f_2026-10-17_v1_8.json, conferencias_v18.py, estudante_json.py, manifesto_v1_8.py, marcas_processo.py, relatorio_v1_8.py (D1, 1.1); não trazidos = conferencia_f_2026-10-14_v1_7.json, conferencias_v17.py, manifesto_v1_7.py, relatorio_v1_7.py; o resto idêntico (inclusive estudante_marcas.py, literais.py, p1.py, p2.py, peg.py, gce.py, banco.py, edital_p.py, f4.py, registry.py, sync_check.py, texts.py, lotes_tab.txt, validar_erros.py, validar_erros_teste.py, fidelidade_mutacao.py e os históricos) | iguais 24, alterados 8, novos 6, não trazidos 4
+OK    (8) GERADOR | linhas alteradas nos copiados (v1_7 -> v1_8): build_pacote.py 2 (docstring e `nome`/`geradoEm`, na mesma linha do `nome`), common.py 1 (comentário do caminho), refs.py 3 (docstring, `C_V17`, `v17()`), validate.py 5 (docstring, `nome`/`geradoEm` esperados, caminho do p2.py, `sys.exit`, nota sem o sufixo) e banco.py 10 (Adendo 1, 9.3) — a lista fechada da D1, 1.2; estudante_gen.py, estudante_fidelidade.py e rodar_tudo.sh: só os pontos da D1 (fusão e versão; mapeamento da fusão e versão; passos de 6.3) | {'banco.py': 10, 'build_pacote.py': 2, 'common.py': 1, 'estudante_fidelidade.py': 32, 'estudante_gen.py': 52, 'refs.py': 3, 'rodar_tudo.sh': 8, 'validate.py': 5}
+OK    (8) GERADOR | refs.py: `C_V17 = '62ab128'` (pacote v1.7 f20216c2… e edição v1.7) e `v17()` acrescentados; as demais referências (v1 a v1.6) idênticas, nada removido
+OK    (8) GERADOR | 62ab128 é o primeiro commit em que saida/pacote/pacote.json tem o SHA-256 f20216c2… (conferido por git log, D1, 1.2) | primeiro commit: 62ab128
+OK    (8) GERADOR | gerador_v1_7/ intacto: `git status --porcelain` e `git diff HEAD` da pasta vazios
+OK    (8) GERADOR | rodar_tudo.sh v1.8 tem os 11 passos de 6.3 na ordem (build_pacote, estudante_gen, estudante_json, estudante_fidelidade, sync_check, validate, conferencias_v18, fidelidade_mutacao, validar_erros_teste, relatorio_v1_8, manifesto_v1_8), `set -e`, cabeçalho no padrão R-1 a R-6 da T-71 (v1.8; passo 11) e nenhuma referência a v1.7, v1_7, v17
+OK    (8) BANCO Adendo 1 | banco/banco.csv 62ab128 -> atual: mesmas linhas e ids (112), diferença em exatamente 20 linhas (BQ-0002 a 0008, 0023 a 0025, 0032, 0037, 0045, 0046, 0056, 0057, 0077, 0084, 0109, 0110), cada uma só em `observacoes` = antiga + o sufixo literal, que aparece 1 vez; nenhum outro campo muda | 20 linhas diferentes
+OK    (8) BANCO Adendo 1 | nenhum item do pacote v1.8 nem do pacote_estudante.json traz "mapeamento adicional" nem "D-DA-BANCO"; a nota do BQ-0003 no pacote = a da v1.7 (sem o sufixo)
+OK    (8) T-69 (4) | validate.py: a última instrução, depois do json.dump, é `sys.exit(1 if fails else 0)`; continuam 118 verificações, nenhuma nova nem retirada (a D1, 1.2 e 5); a saída do passo 6 termina em "118 verificações; 0 falhas" | 118 verificações; 0 falhas
+OK    (8) T-69 (4) | teste negativo: validate.py sobre uma cópia do pacote com 1 gabarito trocado sai com código 1 (e com 0 sobre o pacote íntegro: passo 6 do pipeline) | código 1; 118 verificações; 4 falhas
+OK    (8) ESTUDANTE_JSON | estudante_json.py: 0 falhas nas asserções (a) a (f) de 6.1 (out/estudante_json.json); CAIXA 8 e REALINHA 2, exatamente 1 cada | []
+OK    (8) ESTUDANTE_JSON | out/estudante_json.json: 9 casamentos de R (X1–X8 e Y1), todos com o destino certo; os termos fora da lista só contados
+OK    (9) MUTAÇÕES | linha de base: o JSON íntegro não gera achado em (4), (5), (6) nem na varredura R | []
+OK    (9) MUTAÇÕES | M1 trocar 1 gabarito: detectada | (4) ids, ordem e gabaritos (286/286)
+OK    (9) MUTAÇÕES | M2 trocar 1 caractere de 1 enunciado: detectada | (4) enunciado, comando, comandoOriginal e textoBase idênticos (286/286)
+OK    (9) MUTAÇÕES | M3 inserir "Fundador" num curso: detectada | (5) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C); (6) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C); (7) varredura R no pacote_estudante.json: 9 casamentos (X1–X8, Y1), 0 de processo, contage
+OK    (9) MUTAÇÕES | M4 tirar o separador "## Complemento": detectada | (5) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C); (6) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C)
+OK    (9) MUTAÇÕES | M5 tirar 1 pegadinha do L1C (a última do L1 fundido): detectada | (4) lotes: 7, na ordem L1…L6B; id, nome, prova, itensEdital, legendaMecanismo, pares[].id ; (5) linhas de pegadinhas recompostas do JSON (L1: as 4 do 1-C no fim); (6) linhas de pegadinhas recompostas do JSON (L1: as 4 do 1-C no fim)
+OK    (9) MUTAÇÕES | M6 restaurar a `url` de 1 AUTORAL: detectada | (4) url idêntica nos 106 de banco e "" nos 180 AUTORAL
+OK    (9) MUTAÇÕES | M7 apagar 1 palavra não marcada de 1 justificativa: detectada | (5) justificativa de cada item AUTORAL = a linha "- Justificativa: …" do *_gabarito.md de ; (6) justificativa de cada item AUTORAL = a linha "- Justificativa: …" do *_gabarito.md de 
+OK    (9) MUTAÇÕES | M8 apagar o contexto de X4 (entrada de X com contagem 0): detectada | (5) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C); (6) resumo e curso dos 7 lotes (L1 fundido: curso do L1 + "## Complemento" + curso do 1-C); (7) varredura R no pacote_estudante.json: 9 casamentos (X1–X8, Y1), 0 de processo, contage
+OK    (9) MUTAÇÕES | 8/8 detectadas | [('M1', True), ('M2', True), ('M3', True), ('M4', True), ('M5', True), ('M6', True), ('M7', True), ('M8', True)]
+
+214 conferências; 0 falhas

@@ -1,0 +1,37 @@
+itens 286 banco 106 autoral 180 norm 90 F4 21 F1 1
+LOG: ['PARES: par sem " vs " (b vazio): \'Confidencialidade, integridade, disponibilidade.\'']
+34 arquivos; 568 remoções
+87 F (parêntese)
+58 V
+54 F (prosa: referência a fonte)
+48 F (fim de parêntese)
+42 F (frase "Fonte(s): …")
+33 código de fonte do L5 (U/GG/TB)
+26 F (colchete)
+26 F (parêntese com verificação)
+25 agente/unidade interna (CQFP, QA, GCB, GCE, CPP)
+23 NORMATIVO — QA (prefixo da base legal)
+18 NORMATIVO — QA
+14 código N do L2/L3
+14 F (início de parêntese)
+13 F (fim de parêntese, após vírgula)
+11 F (frase de fonte)
+11 F ("Conforme a Fn (leitura …):")
+10 id interno (R-xx, E-xx, O-xx, D-xx)
+9 carimbo de leitura "aberta(s) hoje"
+8 caixa (minúscula → maiúscula na inicial deixada por deleção)
+7 carimbo datado de verificação/leitura (ligado a F-ref)
+5 F (parêntese com seção/verificação)
+4 classificação interna de VOLÁTIL na justificativa
+4 carimbo "Verificado em 8/10/2026" (L5)
+4 id de decisão na nota (D-LEI-15352)
+2 id interno / versão do lote (v2)
+2 V (parcial: mantém a orientação ao estudante)
+2 F (fim de parêntese, "com Fn")
+2 marca de processo de produção do lote ("Nesta produção" / "a especificação previa")
+1 NORMATIVO — QA (parcial: mantém a orientação ao estudante)
+1 NORMATIVO — QA (frase de marca e fontes)
+1 F (início de parêntese, antes de aspas)
+1 marca de processo ("neste chat")
+1 F (fim de parêntese, após travessão)
+1 F (parêntese com leitura)

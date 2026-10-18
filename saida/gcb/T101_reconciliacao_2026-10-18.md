@@ -68,3 +68,6 @@ Lembretes à GBQ, para depois do aceite:
 - Nada vai à plataforma nem à candidata (PILOT_01) sem o sim do Fundador.
 
 FIM DA RECONCILIAÇÃO T-101
+
+## Conferência da v2.1 (orquestrador, 18/10/2026)
+SHA-256 de saida/gcb/D6_v2_1.md = a983105818ad84e96a57a4f70ff19baa12224e11e939d023c6f7a29ca5414090 (igual ao esperado); diff v2 → v2.1 só nas linhas 1, 130, 259 e 530. Sem nova rodada; gatilho A da seção 6 colado em PARA_PRESIDENCIA.md.

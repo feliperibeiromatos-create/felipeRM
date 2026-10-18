@@ -48,3 +48,6 @@ GATILHO A | GCB | T-102 — saldo do R4 da onda 1 (D-REFORCO-1): L6B-R01 e L6B-R
 - Nenhum item existente muda. Nenhum GATE (0% < 30%). Sem conflito entre Gerências.
 - D-COMPLEMENTOS: nada aberto além do saldo devido. BACKLOG de ferramentas: inalterado.
 - Nada vai à plataforma nem à candidata sem gatilho A aceito e exportação pela GBQ.
+
+## Conferência do v2 (orquestrador, 18/10/2026)
+Diff textual v1 → v2: mudaram só as linhas 1, 9, 10, 31, 40 e 48, com texto idêntico às seções 1.1 a 1.6. Sem R2; vale o estado final da seção 4; gatilho A colado em PARA_PRESIDENCIA.md com SHA-256 785c91e9486af3937439336041d8415f4287f841d5e6d69875294282a1ca682d.

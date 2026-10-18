@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 55 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 56 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -90,6 +90,8 @@ Reforço (ciclo s12c3, 18/10; relato do orquestrador): T-101 (GCB, D6 v2 por fus
 Reforço (ciclo s12c4, 18/10; relato do orquestrador): T-97 (GCE, onda 3, P2 2.1–2.8) CONCLUÍDA, 111 de 112 itens L2-R19 a L2-R130 (L2-R67 retirado); finais saida/gce/L2_reforco_onda3_A_v3, B_v3, C_v3 e D_v3 (.md); QA R1 12,5% e R2 0,9%; 33 normativos CONFEREM (qa-normativo); 43 PARCIAIS de aderência; estilo_onda_3.md sem GATE; gatilhos A e D em decisão pela presidencia. T-105 (saldo L2-R131) BLOQUEADA por GATE (QA reprovou >30%; decisão humana). T-106 (errata do curso do Lote 2, l. 507, e do aspecto (xv) do padrão) proposta reconciliada; aplicação no canônico adiada; dois gatilhos D em decisão pela presidencia. T-74 (Lote D5) com passos preparatórios feitos; produção não iniciada. T-104 (v1.10, GBQ) PRÓXIMO. Fábrica para ao fim do ciclo pelo GATE (condição b; D-RITMO-MAX).
 
 Reforço (ciclo s13c1, 18/10; relato do orquestrador): T-106 (errata do curso do Lote 2, l. 507, e do aspecto (xv) do padrão) CONCLUÍDA; errata aplicada nos canônicos GCE_Lote2_v2_CPP.md (27ef5dc0…) e GCE_Lote2_padroes_GCE.md (4f3dde8e…), conferida pelo orquestrador; gatilho A do curso emitido. T-105 (GCE, saldo L2-R131) CONCLUÍDA: L2-R131 v2 (ponto novo: audio_segments do Amazon Transcribe), R2 aprovado; folha 2.4 = 20; onda 3 = 112 itens, 56 C / 56 E; gatilho A. Decisões do Fundador (18/10): D-GATE-T105 (opção A: o gate de 30% não vale para lote de 1 item; L2-R131 refeito com ponto novo) e D-T97-META-FUNDADOR-RESP (opção A: PARCIAIS contam para a meta de 20, com piso de 10 diretos por folha, também em 1.x e 3.x; sem repor além disso). Os dois itens de PARA_FUNDADOR.md marcados RESPONDIDO. T-104 (v1.10, GBQ) EM CURSO: D1 de escopo da v1.10 e gerador_v1_10 em ensaio (559 itens; 560 com o L2-R131; campo "nucleo"; contrato v1.2.7 na geração final; D1 e D6 no m-da em ocorrência própria); geração final aguarda os gatilhos A da T-106 e da T-105. T-74 (Lote D5, GCB) EM CURSO: D5_v1.md produzido (70 itens, QA PENDENTE); D5_para_leitura_critica.md gravado em 18/10 16:11:47 UTC; aguarda o Fundador levar ao leitor externo e devolver D5_leitura_critica.md até 20/10 16:11:47 UTC. T-107 ABERTA (registro da regra da meta, junto da T-104 e da T-98). PARA_PRESIDENCIA s13c1: 2 gatilhos A (T-106, T-105).
+
+Reforço (ciclo s13c2, 18/10; relato do orquestrador): T-104 (GBQ, pacote v1.10) EM CURSO até o aceite do gatilho A: geração final feita; pacote.json SHA-256 d43c32de4b8afb221da91d94573adc426e4ce0fab0de1b1994b149e9d70c2fed; pacote_estudante.json SHA-256 d8a68156f00e40c6a03937e678d2b3949c68c9ad24e8a7489ff883b5a3497b7f; 560 itens; contrato v1.2.7; fidelidade_v1_10_gbq-cqe.md; T104_reconciliacao_2026-10-18.md; cobertura_v1_10.md; gatilhos A (aceite), D (fundamento (c) da D-NUCLEO-CRITERIO falso: o núcleo depende das datas do banco) e E (publicação v1.10 à candidata, do Fundador) em PARA_PRESIDENCIA.md; ocorrência v1.10 da T-95 concluída. T-98 (GCE, onda 4, P2 3.1–3.4, 4.2, 4.3) EM CURSO até o aceite do gatilho A: produção v1/v2 (gce-cpp); QA R1 4/84 (4,8%) e R2 0/84 (gce-cqfp); normativo 25 CONFEREM (qa-normativo, incl. adendos v2 R50, R80, R92, R95); reconciliação saida/gce/T98_reconciliacao_2026-10-18.md (D1: L3-R12 e L3-R95 PARCIAIS; R13/R14 PARCIAIS mantidos; instrução 3.4 da T97 revogada para ondas seguintes); finais A_v3 5be29411…, B_v2 09d9d521…, C_v3 d9faf9a7…; 84 itens L3-R12 a L3-R95, folhas de 6 → 20 (36 → 120), 42 C / 42 E, 61 [TS], 10 VOLÁTEIS (nenhum alto), diretos 15/20/18/19/20/19, 6 PARCIAIS, gêmeos 0; estilo saida/banco/estilo_onda_4.md 0/9 NÃO CONFORMES (4 ressalvas, errata opcional); gatilhos A (aceite para v1.11) e E (piso de 10 diretos na P2-4.1, 26 itens/5 diretos) emitidos. T-74 (Lote D5, GCB) EM CURSO: D5_v1 pronto; aguarda leitura crítica externa (saida/gcb/D5_leitura_critica.md) até 20/10/2026 16:11:47 UTC; R1 depois disso. T-105 e T-106 CONCLUÍDAS (aceites D-T105-SALDO-ACEITE e D-T106-CURSO-ACEITE aplicados no início do ciclo). T-107 PRÓXIMO. Sessão s13 com trava SESSAO_EM_CURSO.lock (D-RITMO-MAX).
 
 ## 3. DECISÕES VIGENTES
 
@@ -320,6 +322,10 @@ Reforço (ciclo s13c1, 18/10; relato do orquestrador): T-106 (errata do curso do
 | D-ONDA4-FILA | 18/10 (ciclo s13c1) | Aplicada em 18/10 (relato do orquestrador, s13c1); texto integral em DECISOES.md | Não informado no relato |
 | D-GATE-T105 | 18/10 (ciclo s13c1) | Resposta do Fundador ao item GATE de PARA_FUNDADOR.md, opção A: o gate de "QA reprovou >30%" não vale para lote de 1 item; L2-R131 refeito com ponto novo (T-105). Aplicada em 18/10; texto integral em DECISOES.md | Fundador |
 | D-T97-META-FUNDADOR-RESP | 18/10 (ciclo s13c1) | Resposta do Fundador, opção A: PARCIAIS de aderência contam para a meta de 20, com piso de 10 diretos por folha, também em 1.x e 3.x; sem reposição além disso. Código pedido D-META20-PARCIAL ajustado para este código (o código do item já existia como encaminhamento da presidencia). Aplicada em 18/10; texto integral em DECISOES.md | Fundador |
+| D-T106-CURSO-ACEITE | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
+| D-T105-SALDO-ACEITE | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
+| D-NUCLEO-CRITERIO | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
+| D-ONDA4-FILA-2 | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
 
 * Registros da fila de 8/10 (Fundador_Fila_Presidencia.md): decisões D1 das Gerências, que a Presidência ainda não viu; entram aqui como "conforme bloco" e a Secretaria não as valida. Em 9/10 (v27) a Presidência processou a Fila e decidiu as matérias nomeadas nas linhas de 9/10 acima. As linhas com asterisco que o bloco não nomeia (regra P9 da GCE, GBQ-CSC-RES, GCE-CPP-2 e demais) seguem como estavam, sem ratificação expressa. Nota de datas: o bloco da Presidência data as decisões de 9/10 e as atribui à Presidência; o registro da PRES-S (10/10) data as mesmas decisões de 08/10 e as atribui à PRES-S sob a D-DELEG-12H; a Secretaria registra as duas leituras e não as concilia.
 
@@ -470,6 +476,12 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | saida/gcb/D5_ficha_lote.md | Ficha do Lote D5 (70 itens; 10 por folha 10.1–10.7) (T-74) | PRODUZIDO (18/10, s12c4); passo preparatório; produção da gcb-cpp não iniciada |
 | D5_v1.md (Lote D5, 70 itens; pasta não informada no relato) | Curso D5 v1, produzido pela GCB | PRODUZIDO (18/10, s13c1); QA PENDENTE; não entra em simulado (D-QA-PENDENTE) |
 | D5_para_leitura_critica.md (pasta não informada no relato) | Arquivo de leitura crítica externa do D5 | GRAVADO em 18/10 16:11:47 UTC; o Fundador leva ao leitor externo; devolução D5_leitura_critica.md até 20/10 16:11:47 UTC |
+| pacote.json v1.10 (T-104; pasta não informada no relato) | SHA-256 d43c32de4b8afb221da91d94573adc426e4ce0fab0de1b1994b149e9d70c2fed; 560 itens; contrato v1.2.7 | GERADO (18/10, s13c2); gatilhos A, D e E em PARA_PRESIDENCIA.md; aguarda o aceite do A |
+| pacote_estudante.json v1.10 (T-104; pasta não informada no relato) | SHA-256 d8a68156f00e40c6a03937e678d2b3949c68c9ad24e8a7489ff883b5a3497b7f | GERADO (18/10, s13c2); aguarda o aceite do gatilho A |
+| fidelidade_v1_10_gbq-cqe.md; T104_reconciliacao_2026-10-18.md; cobertura_v1_10.md (T-104; pasta não informada no relato) | QA de fidelidade, reconciliação e cobertura da v1.10 | PRODUZIDO (18/10, s13c2) |
+| saida/gce/T98_reconciliacao_2026-10-18.md | Reconciliação da T-98 (onda 4, P2 3.1–3.4, 4.2, 4.3; D1 L3-R12 e L3-R95 PARCIAIS) | PRODUZIDO (18/10, s13c2) |
+| Finais da onda 4 (T-98; pasta não informada no relato): A_v3 5be29411…, B_v2 09d9d521…, C_v3 d9faf9a7… | 84 itens L3-R12 a L3-R95 | PRODUZIDO (18/10, s13c2); aguarda o aceite do gatilho A |
+| saida/banco/estilo_onda_4.md | Estilo da onda 4 (T-98): 0/9 NÃO CONFORMES; 4 ressalvas, errata opcional | PRODUZIDO (18/10, s13c2) |
 
 ## 5. PENDÊNCIAS ABERTAS
 
@@ -596,11 +608,17 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | T-74 (Lote D5, GCB): passos preparatórios feitos (saida/gcb/D5_anexo_N_mapa_normativo.md; saida/gcb/D5_ficha_lote.md, 70 itens, 10 por folha 10.1–10.7); alterações das Leis 15.210/2025, 15.266/2025 e 15.471/2026 marcadas REVERIFICAR; produção da gcb-cpp não iniciada (D-ONDA3-FILA) Superada na v55 pela linha de T-74 EM CURSO (s13c1). | GCB | 18/10 (s12c4) |
 | T-104 (PRÓXIMO, GBQ): pacote v1.10 Superada na v55 pela linha de T-104 EM CURSO (s13c1). | GBQ | 18/10 (s12c4) |
 | T-11 acrescida com o D6 (v2.1, canônico), com a onda 2 e com a onda 3 | Não informado no relato | 18/10 (s12c4) |
-| Gatilho A da T-105 (GCE, saldo L2-R131 v2; saida/gce/ com R2 aprovado; folha 2.4 = 20; onda 3 = 112 itens, 56 C / 56 E) em decisão pela presidencia | Presidência | 18/10 (s13c1) |
-| Gatilho A da T-106 (errata do curso do Lote 2, emitido em s13c1) em decisão pela presidencia; é um dos dois gatilhos A que travam a geração final da T-104 | Presidência | 18/10 (s13c1) |
+| Gatilho A da T-105 (GCE, saldo L2-R131 v2; saida/gce/ com R2 aprovado; folha 2.4 = 20; onda 3 = 112 itens, 56 C / 56 E) em decisão pela presidencia Superada na v56: aceite aplicado (D-T105-SALDO-ACEITE, s13c2). | Presidência | 18/10 (s13c1) |
+| Gatilho A da T-106 (errata do curso do Lote 2, emitido em s13c1) em decisão pela presidencia; é um dos dois gatilhos A que travam a geração final da T-104 Superada na v56: aceite aplicado (D-T106-CURSO-ACEITE, s13c2). | Presidência | 18/10 (s13c1) |
 | T-74 (Lote D5, GCB) EM CURSO: D5_v1.md produzido (70 itens, QA PENDENTE); D5_para_leitura_critica.md gravado em 18/10 16:11:47 UTC; Fundador leva ao leitor externo e devolve D5_leitura_critica.md até 20/10 16:11:47 UTC | Fundador | 18/10 (s13c1) |
-| T-104 EM CURSO (GBQ, pacote v1.10): D1 de escopo e gerador_v1_10 em ensaio (559 itens; 560 com L2-R131; campo "nucleo"; contrato v1.2.7 na geração final; D1 e D6 no m-da em ocorrência própria); geração final aguarda os gatilhos A da T-106 e da T-105 | GBQ | 18/10 (s13c1) |
-| T-107 ABERTA (registro da regra da meta, junto da T-104 e da T-98) | Não informado no relato | 18/10 (s13c1) |
+| T-104 EM CURSO (GBQ, pacote v1.10): D1 de escopo e gerador_v1_10 em ensaio (559 itens; 560 com L2-R131; campo "nucleo"; contrato v1.2.7 na geração final; D1 e D6 no m-da em ocorrência própria); geração final aguarda os gatilhos A da T-106 e da T-105 Superada na v56 (s13c2): geração final feita; gatilhos A da T-106 e da T-105 aceitos (D-T106-CURSO-ACEITE e D-T105-SALDO-ACEITE); T-104 EM CURSO até o aceite do gatilho A da própria T-104. | GBQ | 18/10 (s13c1) |
+| T-107 ABERTA (registro da regra da meta, junto da T-104 e da T-98) Atualizada na v56 (s13c2): T-107 PRÓXIMO. | Não informado no relato | 18/10 (s13c1) |
+| T-98 (GCE, onda 4) EM CURSO até o aceite do gatilho A (saida/gce/T98_reconciliacao_2026-10-18.md) | GCE | 18/10 (s13c2) |
+| Gatilho A da T-104 (GBQ, pacote v1.10; 560 itens; contrato v1.2.7) em decisão pela presidencia | Presidência | 18/10 (s13c2) |
+| Gatilho D da T-104 (fundamento (c) da D-NUCLEO-CRITERIO falso: o núcleo depende das datas do banco) em decisão pela presidencia | Presidência | 18/10 (s13c2) |
+| Gatilho E da T-104 (publicação da v1.10 à candidata; do Fundador) em PARA_PRESIDENCIA.md | Fundador | 18/10 (s13c2) |
+| Gatilho A da T-98 (GCE, onda 4; aceite para a v1.11; finais A_v3, B_v2 e C_v3) em decisão pela presidencia | Presidência | 18/10 (s13c2) |
+| Gatilho E da T-98 (piso de 10 diretos na P2-4.1: 26 itens, 5 diretos) em decisão pela presidencia | Presidência | 18/10 (s13c2) |
 
 Fechadas na v6: identificar o conteúdo do 4536C347…pdf (cargo permanece em aberto, acima).
 Fechadas na v14 (conforme a GCB; as decisões da Presidência não chegaram diretamente à Secretaria): rota dos itens AUTORAL (pacote.json, sem bloco à GBQ); FV INATIVO em vez de DESCARTADO.
@@ -649,6 +667,8 @@ Respondidas em 18/10 (s12c3), conforme o relato do orquestrador: três itens de 
 Respondidas em 18/10 (s12c4), conforme o relato do orquestrador por decisões aplicadas: D-FUNDADOR-RESP-1810 (Fundador; GATE de push resolvido; item superado na v54), D-LOTED6-CANONICO (gatilho A da GCB, T-101), D-T96-ONDA2-ACEITE (gatilho A da GCE, T-96) e D-T103-SALDO-ACEITE (gatilho A da GCE, T-103). Fechadas na v54: nenhuma linha identificada no relato. Abertas na v54: 7 linhas novas (seção 5, acima).
 
 Respondidas em 18/10 (s13c1), conforme o relato do orquestrador: D-GATE-T105 (Fundador, opção A; item GATE de PARA_FUNDADOR.md marcado RESPONDIDO) e D-T97-META-FUNDADOR-RESP (Fundador, opção A; item marcado RESPONDIDO). Fechadas na v55: nenhuma. Superadas na v55 (anotadas acima, sem fechamento de linha): T-105 BLOQUEADA, gatilhos A e D da T-97, dois gatilhos D da T-106, passos preparatórios de T-74 e linha PRÓXIMO de T-104. Abertas na v55: 5 linhas novas (seção 5, acima).
+
+Respondidas em 18/10 (s13c2), conforme o relato do orquestrador por decisões aplicadas: D-T105-SALDO-ACEITE e D-T106-CURSO-ACEITE (aceites dos gatilhos A da T-105 e da T-106). Fechadas na v56: nenhuma.
 
 ## 6. LOG
 
@@ -801,3 +821,9 @@ Respondidas em 18/10 (s13c1), conforme o relato do orquestrador: D-GATE-T105 (Fu
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c1) | T-105 CONCLUÍDA (L2-R131 v2 com ponto novo, audio_segments do Amazon Transcribe; R2 aprovado; folha 2.4 = 20; onda 3 = 112 itens, 56 C / 56 E; gatilho A) |
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c1) | T-104 EM CURSO (pacote v1.10; 559 itens, 560 com L2-R131; geração final aguarda os gatilhos A da T-106 e da T-105) |
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c1) | T-74 EM CURSO (Lote D5: D5_v1.md produzido, 70 itens, QA PENDENTE; D5_para_leitura_critica.md gravado 16:11:47 UTC; devolução até 20/10 16:11:47 UTC) |
+| 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c2) | Estado v56: decisões D-T106-CURSO-ACEITE, D-T105-SALDO-ACEITE, D-NUCLEO-CRITERIO e D-ONDA4-FILA-2 aplicadas (seção 3) |
+| 18/10 | GBQ (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-104 (pacote v1.10): geração final feita (pacote.json d43c32de…; pacote_estudante.json d8a68156…; 560 itens; contrato v1.2.7); gatilhos A, D e E em PARA_PRESIDENCIA.md; T-104 EM CURSO até o aceite do A |
+| 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-95 ocorrência v1.10 concluída |
+| 18/10 | GCE (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-98 (onda 4, P2 3.1–3.4, 4.2, 4.3): 84 itens L3-R12 a L3-R95; QA R1 4/84 e R2 0/84; normativo 25 CONFEREM; reconciliação saida/gce/T98_reconciliacao_2026-10-18.md; gatilhos A e E emitidos; EM CURSO até o aceite do A |
+| 18/10 | GCB (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-74 (Lote D5): D5_v1 pronto; aguarda leitura crítica externa até 20/10/2026 16:11:47 UTC; R1 depois disso |
+| 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-105 e T-106 CONCLUÍDAS; T-107 PRÓXIMO; sessão s13 com trava SESSAO_EM_CURSO.lock (D-RITMO-MAX) |

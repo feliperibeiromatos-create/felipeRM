@@ -134,7 +134,7 @@ Cada ponto foi comparado, item a item, com os 6 existentes da folha e com os out
 - VOLÁTIL (D-REFORCO-2, regra 4): 2.5 com 4 de 20 (20%, no teto, com o R85 marcado conforme a QA R1); 2.6 com 3 de 20 (15%); 7 novos na parte; nenhum de risco alto.
 - Aderência (D-ADERENCIA): 21 direta e 7 PARCIAL (R79, R84, R85, R91, R94, R101, R102), estes só para simulado diagnóstico.
 - Gabarito da parte (D-REFORCO-2, regra 5): 14 C / 14 E em 28 (50% de C; faixa de 40% a 60%, isto é, de 11 a 17 C, cumprida); por folha, 7 C / 7 E.
-- Estilo (T93, O-1 a O-8; estilo_onda_2, recomendações): O-1, extensão: C com média de 49,7 palavras e E com 46,8 (E de 40 a 57, com vários acima de 50), nenhum C acima de 65 (maior: 63); O-2, "independentemente" em C (R92) e em E (R85); O-3, "pode" também em E (R85); O-4, nenhum item cita norma, e a ambientação parlamentar fica fora do escopo de "Segundo a documentação…"; O-5, nenhuma cauda falsa autocontraditória nem absolutos empilhados num E; O-6, [TS] em 4 itens C como espelho; O-7, restritivos e causais distribuídos em C e E; O-8, "ainda que" em C (R76) e em E (R84); abertura "Segundo a…" em número reduzido e variada; fonte nomeada sempre que o item usa "a orientação" ou "a documentação".
+- Estilo (T93, O-1 a O-8; estilo_onda_2, recomendações): O-1, extensão: C com média de 50,1 palavras e E com 48,6 (E de 42 a 62, com cinco acima de 50), nenhum C acima de 65 (maior: 62); O-2, "independentemente" em C (R92) e em E (R85); O-3, "pode" também em E (R85); O-4, nenhum item cita norma, e a ambientação parlamentar fica fora do escopo de "Segundo a documentação…"; O-5, nenhuma cauda falsa autocontraditória nem absolutos empilhados num E; O-6, [TS] em 4 itens C como espelho; O-7, restritivos e causais distribuídos em C e E; O-8, "ainda que" em C (R76) e em E (R84); abertura "Segundo a…" em número reduzido e variada; fonte nomeada sempre que o item usa "a orientação" ou "a documentação".
 - Base por item: 28 de 28 com documentação oficial do fornecedor ou arquivo do repositório oficial do fornecedor, URL e "verificado em 18/10/2026" (abertos hoje). As citações literais foram conferidas por script contra o texto das páginas e dos arquivos baixados hoje; os gabaritos dos normalizadores do Whisper (R79, R83, R84, R85) decorrem do texto do repositório (docstring, comentário, expressão regular, assinatura; SHA-256 na tabela de proveniência); a execução de teste feita hoje é corroboração de registro, e não base.
 
 FIM DA PARTE 1/3
@@ -388,7 +388,7 @@ REVERIFICAR: conferência de base em 4–8/1/2027, sem efeito de VOLÁTIL.
 | formatos de P2-2.5 (20) | D 2; SH 5; AP 5; PC 4; TS 3; NP 1 |
 | formatos de P2-2.6 (20) | D 2; PC 4; SH 4; TS 4; AP 4; NP 2 |
 | formatos dos 28 novos | PC 6; SH 7; AP 7; TS 5; NP 3; D 0 |
-| extensão (palavras do enunciado) | C: média 49,7, mediana 50,5, de 40 a 63; E: média 46,8, mediana 46, de 40 a 57 (diferença de 2,9 palavras; na onda 1 era de 9,2 e na onda 2, de 0,1); nenhum C acima de 65 palavras |
+| extensão (palavras do enunciado) | C: média 50,1, mediana 50,5, de 40 a 62; E: média 48,6, mediana 46,5, de 42 a 62 (diferença de 1,5 palavra; na onda 1 era de 9,2 e na onda 2, de 0,1); nenhum C acima de 65 palavras |
 | aritmética conferida por script | R90: 12.500.000 ÷ 10.000.000 = 1,25 s. Corroboração de registro, não base: a execução do código do Whisper em 18/10/2026 coincidiu com a leitura do texto do repositório em R79, R83, R84 e R85 |
 | aderência | 21 direta; 7 PARCIAL (R79, R84, R85, R91, R94, R101, R102: só simulado diagnóstico); ver dúvida 1 |
 

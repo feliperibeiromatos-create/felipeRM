@@ -42,6 +42,7 @@ Natureza: tabela de conversão código → nome por extenso, por lote (o mesmo c
 | 5 | U5 | Google Cloud, notas de versão do Data Studio (16/04/2026) | GCB_Lote5_v3_canonica_GCB-CPP.md, linha 35 (seção FONTES DE FERRAMENTA, cabeçalho na linha 29) | 08/10/2026 (verificada pela CQFP) | 16/04/2026 é a data da página, não da verificação. |
 | 5 | U6 | Google Cloud Blog, 10/04/2026 ("Data Studio (formerly Looker Studio)") | GCB_Lote5_v3_canonica_GCB-CPP.md, linha 36 (seção FONTES DE FERRAMENTA, cabeçalho na linha 29) | 08/10/2026 (verificada pela CQFP) | 10/04/2026 é a data da publicação, não da verificação. |
 | 5 | GG4 | Google Cloud Blog, 11/10/2022 ("And starting today, Data Studio is now Looker Studio.") | GCB_Lote5_v3_canonica_GCB-CPP.md, linha 37 (seção FONTES DE FERRAMENTA, cabeçalho na linha 29) | 08/10/2026 (verificada pela CQFP) | 11/10/2022 é a data da publicação. Reaberta pela CPP em 08/10/2026. |
+| 5 | CI | Google Cloud, Data Studio, "Conversational Analytics — Code Interpreter" | GCB_Lote5_v3_canonica_GCB-CPP.md, linha 38 (seção FONTES DE FERRAMENTA, cabeçalho na linha 29) | 08/10/2026 (verificada pela CQFP) | Código fora do padrão do inventário; ocorrência sem id no CSV. |
 
 ## Lote 5-C
 
@@ -95,4 +96,4 @@ Natureza: tabela de conversão código → nome por extenso, por lote (o mesmo c
 | 6b | F14 | CERT.br, fascículo "Computadores" (Cartilha de Segurança para Internet) | GCB_Lote6b_v2_producao_auto.md, linha 41 (seção FONTES, cabeçalho na linha 27) | 08/10/2026 (por acesso direto) |  |
 | 6b | F15 | CERT.br, fascículo "Golpes: Evite Fraudes" (Cartilha de Segurança para Internet) | GCB_Lote6b_v2_producao_auto.md, linha 42 (seção FONTES, cabeçalho na linha 27) | 08/10/2026 (por acesso direto) |  |
 
-Resumo: Lote 4 = 15 códigos (F1-F5, N1-N10); 4-C = 3 (F1-F3 do Lote 4); Lote 5 = 8 (U1-U6, TB2, GG4); 5-C = 0 (sem códigos); 6a = 22 (F1-F22); 6b = 14 (F2-F15). NÃO IDENTIFICADO: 0 em todos os lotes.
+Resumo: Lote 4 = 15 códigos (F1-F5, N1-N10); 4-C = 3 (F1-F3 do Lote 4); Lote 5 = 9 (U1-U6, TB2, GG4, CI; CI é código fora do padrão U/GG/TB do inventário, linha acrescentada na T-108 pela GCB-C0006 e conferida na R2 da parte C; resumo corrigido na reconciliação da GCB de 18/10/2026); 5-C = 0 (sem códigos); 6a = 22 (F1-F22); 6b = 14 (F2-F15). NÃO IDENTIFICADO: 0 em todos os lotes.

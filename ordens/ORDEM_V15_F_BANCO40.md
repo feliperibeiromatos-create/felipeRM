@@ -12,3 +12,11 @@ d) Arquivos-base: pacote resultante das ordens C e D; regras de produção e QA 
 e) Regras específicas: priorizar primeiro os tópicos que estão mais perto de 30 (para a nota aparecer cedo), depois os demais; sem duplicata de questão já existente; fonte e rótulo (Cebraspe ou inédita) em toda questão.
 f) Saída: pacotes incrementais numerados, contagem por tópico a cada pacote, parecer de QA.
 g) Classificação: CONTÍNUO (ciclos sucessivos). O prazo não foi definido pelo Fundador; manter 12/12/2026 para a meta anterior e registrar a projeção para 40.
+
+AJUSTE DO FUNDADOR (18/10/2026; D-V15-F-AJUSTE):
+1. Gerência titular: GBQ.
+2. Primeiro entregar só a projeção: prazo, ondas e custo por onda. Não produzir as ondas antes do "sim" do Fundador para o gasto.
+3. Fazer a projeção em dois cenários para cada ponto abaixo:
+   a) os itens 2, 4 e 5 de TI com 40 questões próprias, ou sem essa exigência;
+   b) questões de fato datado contando dentro das 40, ou fora delas.
+As demais ordens (C, D, B, A, E) seguem como enviadas.

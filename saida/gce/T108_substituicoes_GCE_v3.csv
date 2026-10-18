@@ -1,0 +1,366 @@
+id_edicao,ids_ocorrencia,caminho,lote,categoria,antes,depois,acao,regra,fonte_origem,nota
+GCE-0001,D-C04-c0e856c2,lotes[L1].curso,1,C04,"[V 07/10/2026 — F9, artigo ""Robust Speech Recognition via Large-Scale
+Weak Supervision"", 06/12/2022; F10, repositório openai/whisper]","(artigo do Whisper, ""Robust Speech Recognition via Large-Scale Weak Supervision"", 06/12/2022; repositório openai/whisper no GitHub, verificado em 07/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:57;saida/gce/GCE_Lote1_v2_CPP.md:58,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0002,D-C04-2148be44,lotes[L1].curso,1,C04,2 [V 08/10/2026]).,"2, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1C_v2_CPP.md:27,"etiqueta [V …] dentro de parêntese: nome e ""verificado em"" sem novo parêntese; a fonte (arXiv 2006.11477) está no próprio trecho"
+GCE-0003,D-C04-c877d857,lotes[L1].curso,1,C04,vivo [V 07/10/2026 — F2].,"vivo (documentação da OpenAI sobre áudio, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:49,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0004,D-C04-190b3ef4,lotes[L1].curso,1,C04,"tokens [V 07/10/2026 —
+   F8].","tokens (documentação do Google sobre áudio e transcrição na API Gemini, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:55,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0005,D-C04-3d37d144,lotes[L1].curso,1,C04,"[V 07/10/2026 — F8,
+   /transcribe]","(documentação do Google sobre áudio e transcrição na API Gemini, página /transcribe, verificado em 07/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:55,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0006,D-C04-d93cba02,lotes[L1].curso,1,C04,PRÉ-GRAVADO [V 07/10/2026 — F4].,"PRÉ-GRAVADO (documentação da Microsoft sobre o Azure AI Speech, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:51,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0007,D-C04-401cc833,lotes[L1].curso,1,C04,conversação [V 07/10/2026 — F2].,"conversação (documentação da OpenAI sobre áudio, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:49,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0008,D-C04-dc188efa,lotes[L1].curso,1,C04,segmentos [V 07/10/2026 — F1].,"segmentos (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0009,D-C04-61cc1667,lotes[L1].curso,1,C04,chirp_3 [V 07/10/2026 — F3];,"chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0010,D-C04-10f22142,lotes[L1].curso,1,C04,transcrição [V 07/10/2026 — F1];,"transcrição (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0011,D-C04-45c9810e,lotes[L1].curso,1,C04,"ShowSpeakerLabel)
+[V 07/10/2026 — F7].","ShowSpeakerLabel)
+(referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0012,D-C04-606e981d,lotes[L1].curso,1,C04,desativadas [V 07/10/2026 — F3].,"desativadas (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0013,D-C04-646dea76,lotes[L1].curso,1,C04,"números [V 07/10/2026 —
+    F6].","números (visão geral da documentação do Amazon Transcribe, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:53,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0014,D-C04-f46f7cdb,lotes[L1].curso,1,C04,"[V 07/10/2026 — F3, menu de recursos]","(documentação do Google Cloud sobre o modelo Chirp 3, menu de recursos, verificado em 07/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0015,D-C04-a8930eaa,lotes[L1].curso,1,C04,suportados) [V 07/10/2026 — F1].,"suportados) (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0016,D-C04-3da67f42,lotes[L1].curso,1,C04,resto [V 07/10/2026 — F3].,"resto (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0017,D-C04-e4f2cab8,lotes[L1].curso,1,C04,"base) [V
+   07/10/2026 — F6] e","base) (visão geral da documentação do Amazon Transcribe, verificado em 07/10/2026) e",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:53,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0018,D-C04-8a627d89,lotes[L1].curso,1,C04,vocabulary [V 07/10/2026 — F11].,"vocabulary (documentação do Amazon Transcribe sobre modelos de linguagem personalizados, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:59,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0019,D-C04-2f0e2b02,lotes[L1].curso,1,C04,oficial [V 07/10/2026 — F5];,"oficial (documentação do Amazon Transcribe sobre idiomas suportados, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:52,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0020,D-C04-e91778af,lotes[L1].curso,1,C04,pronúncia [V 07/10/2026 — F4].,"pronúncia (documentação da Microsoft sobre o Azure AI Speech, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:51,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0021,D-C04-1b46ec1f,lotes[L1].curso,1,C04,"tokens [V
+   07/10/2026 — F1].","tokens (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0022,D-C04-f3e5b909,lotes[L1].curso,1,C04,risco [V 07/10/2026 — F3];,"risco (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0023,D-C04-498911a6,lotes[L1].curso,1,C04,stabilization) [V 07/10/2026 — F7];,"stabilization) (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0024,D-C04-85f7c3ed,lotes[L1].curso,1,C04,"chirp_3 [V
+   07/10/2026 — F3] e","chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026) e",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0025,D-C04-db723ef9,lotes[L1].curso,1,C04,"OpenAI [V 07/10/2026 —
+   F1],","OpenAI (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026),",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0026,D-C04-4325a996,lotes[L1].curso,1,C04,"Transcribe [V 07/10/2026
+   — F7];","Transcribe (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0027,D-C04-0e836bab,lotes[L1].curso,1,C04,"PII [V 07/10/2026 —
+   F7].","PII (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0028,D-C04-26ae6dbd,lotes[L1].curso,1,C04,"fluxo [V
+07/10/2026 — F1].","fluxo (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0029,D-C04-133494b0,lotes[L1].curso,1,C04,"sensíveis [V
+   07/10/2026 — F10].","sensíveis (repositório openai/whisper no GitHub, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:58,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0030,D-C04-69d04362,lotes[L1].curso,1,C04,idioma [V 07/10/2026 — F1].,"idioma (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0031,D-C04-02d5b48b,lotes[L1].curso,1,C04,(gpt-live-transcribe) [V 07/10/2026 — F1].,"(gpt-live-transcribe) (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0032,D-C04-e320330b,lotes[L1].curso,1,C04,"frases)
+   [V 07/10/2026 — F1].","frases)
+   (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0033,D-C04-f4fee7fe,lotes[L1].curso,1,C04,"vocabulário
+   [V 07/10/2026 — F1].","vocabulário
+   (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0034,D-C04-1e626faa,lotes[L1].curso,1,C04,"SPEECH-TO-TEXT [V 07/10/2026 — F3]
+ -","SPEECH-TO-TEXT (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026)
+ -",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0035,D-C04-53be2256,lotes[L1].curso,1,C04,"(Microsoft) [V 07/10/2026 — F4, F12]
+ -","(Microsoft) (documentação da Microsoft sobre o Azure AI Speech; documentação da Microsoft sobre diarização no Azure AI Speech, verificado em 07/10/2026)
+ -",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:51;saida/gce/GCE_Lote1_v2_CPP.md:60,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0036,D-C04-81df9bf7,lotes[L1].curso,1,C04,transcription [F12];,transcription (documentação da Microsoft sobre diarização no Azure AI Speech);,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:60,forma fixa D1: (Fn) -> (nome)
+GCE-0037,D-C04-ff86eca0,lotes[L1].curso,1,C04,"[V 07/10/2026 — F5, F6, F7, F11]","(documentação do Amazon Transcribe sobre idiomas suportados; visão geral da documentação do Amazon Transcribe; referência da API StartStreamTranscription, da AWS; documentação do Amazon Transcribe sobre modelos de linguagem personalizados, verificado em 07/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:52;saida/gce/GCE_Lote1_v2_CPP.md:53;saida/gce/GCE_Lote1_v2_CPP.md:54;saida/gce/GCE_Lote1_v2_CPP.md:59,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0038,D-C04-c5cc5a0b,lotes[L1].curso,1,C04,streaming [F5].,streaming (documentação do Amazon Transcribe sobre idiomas suportados).,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:52,forma fixa D1: (Fn) -> (nome)
+GCE-0039,D-C04-b95292cc,lotes[L1].curso,1,C04,base) [F6];,base) (visão geral da documentação do Amazon Transcribe);,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:53,forma fixa D1: (Fn) -> (nome)
+GCE-0040,D-C04-07ab5267,lotes[L1].curso,1,C04,vocabulary [F11];,vocabulary (documentação do Amazon Transcribe sobre modelos de linguagem personalizados);,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:59,forma fixa D1: (Fn) -> (nome)
+GCE-0041,D-C04-7750244e,lotes[L1].curso,1,C04,oficial [F5].,oficial (documentação do Amazon Transcribe sobre idiomas suportados).,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:52,forma fixa D1: (Fn) -> (nome)
+GCE-0042,D-C04-87f7cdd6,lotes[L1].curso,1,C04,(ShowSpeakerLabel) [F7];,"(ShowSpeakerLabel) (referência da API StartStreamTranscription, da AWS);",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,forma fixa D1: (Fn) -> (nome)
+GCE-0043,D-C04-fd5b5aa8,lotes[L1].curso,1,C04,números [F6].,números (visão geral da documentação do Amazon Transcribe).,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:53,forma fixa D1: (Fn) -> (nome)
+GCE-0044,D-C04-76b78a21,lotes[L1].curso,1,C04,redação [F7].,"redação (referência da API StartStreamTranscription, da AWS).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:54,forma fixa D1: (Fn) -> (nome)
+GCE-0045,D-C04-9d8f426a,lotes[L1].curso,1,C04,fast) [F12]*,fast) (documentação da Microsoft sobre diarização no Azure AI Speech)*,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:60,forma fixa D1: (Fn) -> (nome)
+GCE-0046,D-C04-5b428033,lotes[L1].curso,1,C04,| [F10]         |,| (repositório openai/whisper no GitHub)         |,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:58,forma fixa D1: (Fn) -> (nome)
+GCE-0047,D-C04-d0686528,lotes[L1].curso,1,C04,local [F10] e,local (repositório openai/whisper no GitHub) e,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:58,forma fixa D1: (Fn) -> (nome)
+GCE-0048,D-C04-64258b81,lotes[L1].curso,1,C04,Azure [F4];,Azure (documentação da Microsoft sobre o Azure AI Speech);,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:51,forma fixa D1: (Fn) -> (nome)
+GCE-0049,D-C04-edc4a755,lotes[L1].curso,1,C04,documenta [F3];,documenta (documentação do Google Cloud sobre o modelo Chirp 3);,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,forma fixa D1: (Fn) -> (nome)
+GCE-0050,D-C04-9b6b3acf,lotes[L1].curso,1,C04,"chirp_3 [F3],","chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3),",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:50,forma fixa D1: (Fn) -> (nome)
+GCE-0051,D-C04-e9a714b7,lotes[L1].curso,1,C04,OpenAI [F1].,OpenAI (documentação da OpenAI sobre fala para texto).,SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,forma fixa D1: (Fn) -> (nome)
+GCE-0052,D-C04-ffc2e0b6,lotes[L1].pegadinhas[4].texto,1,C04,conversação [V 07/10/2026 — F2].,"conversação (documentação da OpenAI sobre áudio, verificado em 07/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:49,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0053,D-C04-ff9145d7,itens[L1-Q05].justificativa,1,C04,LLM [V 07/10/2026 — F8].,"LLM (documentação do Google sobre áudio e transcrição na API Gemini, verificado em 07/10/2026).",SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:55,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0054,D-C04-22921a81,itens[L1-Q14].justificativa,1,C04,base [F6];,base (visão geral da documentação do Amazon Transcribe);,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:53,forma fixa D1: (Fn) -> (nome)
+GCE-0055,D-C04-d508e1f0,itens[L1-Q14].justificativa,1,C04,texto [F11].,texto (documentação do Amazon Transcribe sobre modelos de linguagem personalizados).,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:59,forma fixa D1: (Fn) -> (nome)
+GCE-0056,D-C04-f929d301,itens[L1-Q16].justificativa,1,C04,distinto [F1].,distinto (documentação da OpenAI sobre fala para texto).,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:48,forma fixa D1: (Fn) -> (nome)
+GCE-0057,D-C04-dad456ba,itens[L1-Q18].justificativa,1,C04,MIT [F10];,MIT (repositório openai/whisper no GitHub);,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:58,forma fixa D1: (Fn) -> (nome)
+GCE-0058,D-C04-223ced9d,itens[L1-Q18].justificativa,1,C04,tradução [F1].,tradução (documentação da OpenAI sobre fala para texto).,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:48,forma fixa D1: (Fn) -> (nome)
+GCE-0059,D-C04-dc8ff5ba,itens[L1-Q19].justificativa,1,C04,contêineres [F4].,contêineres (documentação da Microsoft sobre o Azure AI Speech).,SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:51,forma fixa D1: (Fn) -> (nome)
+GCE-0060,D-C10-d4a596af,itens[L1-R103].justificativa,1,C10,REVERIFICAR. Os,Os,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0061,D-C10-457f4898,itens[L1-R104].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0062,D-C10-62032380,itens[L1-R105].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0063,D-C10-cf131420,itens[L1-R106].justificativa,1,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0064,D-C10-b5cd4692,itens[L1-R107].justificativa,1,C10,REVERIFICAR. Trocados,Trocados,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0065,D-C10-c7935226,itens[L1-R108].justificativa,1,C10,REVERIFICAR. Trocados,Trocados,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0066,D-C10-b7e77a92,itens[L1-R109].justificativa,1,C10,REVERIFICAR. No,No,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0067,D-C10-1827fbd9,itens[L1-R109].justificativa,1,C10, (o número do limite não é cobrado),,DELETAR,5,,"instrução ""não cobrar"" retirada"
+GCE-0068,D-C10-8e9ce4b7;D-C10-a4470179,itens[L1-R110].justificativa,1,C10,"VOLÁTIL (risco médio; limitação documentada de serviço, verificado em 18/10/2026). REVERIFICAR. ","Dado sujeito a mudança (risco médio; limitação documentada de serviço, verificado em 18/10/2026). ",SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0069,D-C10-f00e6715,itens[L1-R111].justificativa,1,C10,REVERIFICAR. Fala,Fala,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0070,D-C10-f0ee3ab3,itens[L1-R112].justificativa,1,C10,REVERIFICAR. Falsa,Falsa,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0071,D-C10-0ff0c7ca,itens[L1-R113].justificativa,1,C10,REVERIFICAR. Ao,Ao,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0072,D-C10-cc7ec1de;D-C10-e71e4835,itens[L1-R114].justificativa,1,C10,"VOLÁTIL (risco médio; limite de serviço, verificado em 18/10/2026). REVERIFICAR. ","Dado sujeito a mudança (risco médio; limite de serviço, verificado em 18/10/2026). ",SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0073,D-C10-da8473ea,itens[L1-R115].justificativa,1,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0074,D-C10-91f36ec7,itens[L1-R116].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0075,D-C10-b2645995,itens[L1-R117].justificativa,1,C10,REVERIFICAR. Os,Os,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0076,D-C10-b756a7b1,itens[L1-R118].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0077,D-C10-2852b112,itens[L1-R119].justificativa,1,C10,REVERIFICAR. Cerca,Cerca,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0078,D-C10-6150b7fb,itens[L1-R120].justificativa,1,C10,REVERIFICAR. Falsa,Falsa,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0079,D-C10-109aa120,itens[L1-R121].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0080,D-C10-8c033b7e,itens[L1-R122].justificativa,1,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0081,D-C10-eb45e25b,itens[L1-R123].justificativa,1,C10,REVERIFICAR. Trocado,Trocado,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0082,D-C10-959f7c3c,itens[L1-R124].justificativa,1,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0083,D-C10-7fd40244,itens[L1-R125].justificativa,1,C10,REVERIFICAR. Polaridade,Polaridade,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0084,D-C10-4d1052ec,itens[L1-R126].justificativa,1,C10,REVERIFICAR. Falsa,Falsa,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0085,D-C10-173c4fce,itens[L1-R127].justificativa,1,C10,REVERIFICAR. Papéis,Papéis,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0086,D-C10-4a47febc,itens[L1-R128].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0087,D-C10-583c0a1a,itens[L1-R129].justificativa,1,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0088,D-C10-0d313cc5,itens[L1-R130].justificativa,1,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0089,D-C08-a4e6bc47,lotes[L1C].curso,1-C,C08,"referência (errata E1),","referência,",DELETAR,5,,errata E1 retirada
+GCE-0090,D-C09-326b983d,lotes[L1C].curso,1-C,C09,"alegada (v2, item 1.4).",alegada (item 1.4).,SUBSTITUIR,5,,vN retirado
+GCE-0091,D-C09-33a0f6a6,lotes[L1C].curso,1-C,C09,"(v2, exemplo parlamentar do 1.4)",(exemplo parlamentar do 1.4),SUBSTITUIR,5,,vN retirado
+GCE-0092,D-C04-002e9481,lotes[L1C].curso,1-C,C04,"nomes
+[V 07/10/2026 — F1, v2])","nomes; documentação da OpenAI sobre fala para texto, verificado em 07/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote1_v2_CPP.md:48,"etiqueta [V …] dentro de parêntese: nome e ""verificado em"" sem novo parêntese"
+GCE-0093,D-C04-e0f0ebf7,itens[L1C-Q23].justificativa,1-C,C04,(Azure [F4]).,"(Azure, documentação da Microsoft sobre o Azure AI Speech).",SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:51,"forma fixa D1: [Fn] dentro de parêntese -> "", nome"""
+GCE-0094,D-C04-fab063a1,itens[L1C-Q24].justificativa,1-C,C04,"Whisper [F9]),","Whisper, segundo o artigo ""Robust Speech Recognition via Large-Scale Weak Supervision""),",SUBSTITUIR,2;5,saida/gce/GCE_Lote1_v2_CPP.md:57,R1 CORRIGIR aceito (D1 pós-R1 §1)
+GCE-0095,D-C04-2f335a95,itens[L1C-Q24].justificativa,1-C,C04,[V 08/10/2026 — arXiv 2006.11477],"(artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026)",SUBSTITUIR,2;5,saida/gce/GCE_Lote1C_v2_CPP.md:27,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0096,D-C04-eb09fa2c,lotes[L2].resumo,2,C04,final [F6].,"final (Rol do DETAQ, no portal da Câmara).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:96,forma fixa D1: (Fn) -> (nome)
+GCE-0097,D-C04-695b0948,lotes[L2].resumo,2,C04,Discursos [V 08/10/2026]);,"Discursos, verificado em 08/10/2026);",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:73,"etiqueta [V …] dentro de parêntese: nome e ""verificado em"" sem novo parêntese"
+GCE-0098,D-C05-43ed5a69,lotes[L2].resumo,2,C05,2026 (N1; E3).,2026.,DELETAR,2,saida/gce/GCE_Lote2_v2_CPP.md:117,"Nn e código de errata retirados; E3 não inventariado [inclui E3, não inventariado]"
+GCE-0099,D-C05-c2ff6622,lotes[L2].resumo,2,C05,VERIFICADA (N2).,VERIFICADA.,DELETAR,2,saida/gce/GCE_Lote2_v2_CPP.md:122,Nn retirado
+GCE-0100,D-C04-3f2af0f2,lotes[L2].resumo,2,C04,texto [V 08/10/2026 — F7].,"texto (""Computer-Aided Transcription in the Courts"", do OJP/NCJRS, Departamento de Justiça dos EUA, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:99,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0101,D-C04-ac04b65c,lotes[L2].resumo,2,C04,falante [V 08/10/2026].,falante (verificado em 08/10/2026).,SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:73,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0102,D-C01-58aa4624,lotes[L2].curso,2,C01,"fala (ASR, Lote 1) a","fala (ASR, item 1.1) a",SUBSTITUIR,5,,Lote de produção -> tópico do edital
+GCE-0103,D-C05-f80144d7,lotes[L2].curso,2,C05,"vivo.
+   [Ver N5: definição de","vivo.
+   [Definição de",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:135,Nn retirado; frase de conteúdo mantida
+GCE-0104,D-C04-66063975,lotes[L2].curso,2,C04,"DETAQ) [V 08/10/2026 — F2],","DETAQ) (página ""Como pesquisar no Banco de Discursos"", da Câmara, verificado em 08/10/2026),",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:79,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0105,D-C04-1c24390d;D-C05-411f0c55,lotes[L2].curso,2,C04;C05,[V 08/10/2026 — F8; NORMATIVO — QA],"(Legin, verificado em 08/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:103,R1 CORRIGIR aceito (D1 pós-R1 §1)
+GCE-0106,D-C04-22929718,lotes[L2].curso,2,C04,final [V 08/10/2026 — F6].,"final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:96,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0107,D-C04-456154bf,lotes[L2].curso,2,C04,"[V 08/10/2026 — F4; NORMATIVO — QA; norma de
+caráter experimental, não cobrar o texto]","(Ordem de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, norma de caráter experimental, verificado em 08/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:84,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0108,D-C01-164a381e,lotes[L2].curso,2,C01,"(Lote 1, itens 1.2 e 1.3)",(itens 1.2 e 1.3),SUBSTITUIR,5,,Lote de produção retirado
+GCE-0109,D-C04-7e8b15d9,lotes[L2].curso,2,C04,Final [V 08/10/2026 — F6].,"Final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:96,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0110,NAO_INVENTARIADA-01,lotes[L2].curso,2,C05,Parlamentar (F8). O curso NÃO,"Parlamentar (Ato da Mesa nº 251/2026 da Câmara, no Legin). O curso NÃO",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:103,ocorrência não inventariada (F8); código de fonte não inventariado -> nome
+GCE-0111,D-C05-695ad418,lotes[L2].curso,2,C05,Câmara (N2): mostra apenas,Câmara: mostra apenas,SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:122,Nn retirado
+GCE-0112,D-C01-4647b929,lotes[L2].curso,2,C01,"(tema do Lote 1,
+não repetido aqui)","(tema dos itens 1.1 a 1.8, não repetido aqui)",SUBSTITUIR,5,,Lote de produção -> tópico do edital
+GCE-0113,D-C05-f3f4dc78,lotes[L2].curso,2,C05,2026 (N1); o curso ensina o,2026; o curso ensina o,SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:117,Nn retirado
+GCE-0114,D-C04-26445a79,lotes[L2].curso,2,C04,voto [V 08/10/2026 — F1].,"voto (Banco de Discursos da Câmara, Pesquisa Avançada, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:77,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0115,D-C10-1729b19d,lotes[L2].curso,2,C10,; nenhum item depende dela.,.,SUBSTITUIR,5,,"D1 seção 4: oração ""nenhum item depende dela"" retirada"
+GCE-0116,D-C05-f1e6c1f9,lotes[L2].curso,2,C05,instituições (N2); dentro,instituições; dentro,SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:122,Nn retirado
+GCE-0117,D-C01-8002b46d,lotes[L2].curso,2,C01,ver o complemento do Lote 1 (adendo ao 1.4),ver o adendo ao item 1.4,SUBSTITUIR,5,,Lote de produção -> tópico do edital
+GCE-0118,D-C04-d8f26c47,lotes[L2].curso,2,C04,1º) [V 08/10/2026 — Legin].,"1º) (Legin, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:84,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0119,D-C04-9949b88b,lotes[L2].curso,2,C04,"[V 08/10/2026 — F5;
+NORMATIVO — QA]","(Portaria DG nº 77/2017 da Câmara, no Legin, verificado em 08/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:87,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0120,D-C05-bea45b6d,lotes[L2].curso,2,C05,"foi
+verificado (N2). Ilustrativo","foi
+verificado. Ilustrativo",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:122,Nn retirado
+GCE-0121,D-C04-b36c194f,lotes[L2].curso,2,C04,texto [V 08/10/2026 — F7].,"texto (""Computer-Aided Transcription in the Courts"", do OJP/NCJRS, Departamento de Justiça dos EUA, verificado em 08/10/2026).",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:99,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0122,D-C04-1ba48a5e,lotes[L2].curso,2,C04,[V 08/10/2026 — F4; NORMATIVO — QA; contexto histórico],"(Ordem de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, contexto histórico, verificado em 08/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:84,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0123,D-C05-b2fda829,lotes[L2].curso,2,C05,"produto; ver N3):
+ -","produto):
+ -",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:128,Nn retirado
+GCE-0124,D-C04-f1d26e3f,lotes[L2].curso,2,C04,"[V 08/10/2026 — F3, trecho indexado]","(especificação WebVTT, do W3C, trecho indexado, verificado em 08/10/2026)",SUBSTITUIR,2,saida/gce/GCE_Lote2_v2_CPP.md:82,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0125,D-C01-33f2bcce;D-C01-f1271e2b,lotes[L2].curso,2,C01,"(custódia; Lote 1, item 1.8; Lote 3, item 4.3)",(custódia; itens 1.8 e 4.3),SUBSTITUIR,5,,Lotes de produção -> tópicos do edital
+GCE-0126,D-C01-034128ac,lotes[L2].curso,2,C01,"1.6)
+O Lote 1 já cobre o","1.6)
+O item 1.6 já cobre o",SUBSTITUIR,5,,"Lote de produção -> tópico do edital (a nota de escopo é ""sobreposição com o 1.6"")"
+GCE-0127,D-C01-42bcb9d2;D-C02-69fda34b;D-C02-9e9dfc71,lotes[L2].curso,2,C01;C02,não repete os julgamentos de Q12 a Q14 do Lote 1.,não repete os julgamentos do item 1.6.,SUBSTITUIR,5,,códigos de item e Lote -> tópico do edital
+GCE-0128,D-C01-a24d777a,lotes[L2].curso,2,C01,"(Lote 3, itens 4.1 e 4.2)",(itens 4.1 e 4.2),SUBSTITUIR,5,,Lote de produção retirado
+GCE-0129,D-C01-17508679,lotes[L2].pegadinhas[14].texto,2,C01,"(tema do Lote 1, não repetido aqui)","(tema dos itens 1.1 a 1.8, não repetido aqui)",SUBSTITUIR,5,,Lote de produção -> tópico do edital
+GCE-0130,D-C04-bd7dc499,itens[L2-Q12].justificativa,2,C04,pronunciamentos [V 08/10/2026 — F6].,"pronunciamentos (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026).",SUBSTITUIR,2;5,saida/gce/GCE_Lote2_v2_CPP.md:96,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0131,D-C04-facaa97f,itens[L2-Q21].justificativa,2,C04,texto [F7].,"texto (""Computer-Aided Transcription in the Courts"", do OJP/NCJRS, Departamento de Justiça dos EUA).",SUBSTITUIR,2;5,saida/gce/GCE_Lote2_v2_CPP.md:99,forma fixa D1: (Fn) -> (nome)
+GCE-0132,D-C04-3965ef2c,itens[L2-Q23].justificativa,2,C04,falante [V 08/10/2026 — F3].,"falante (especificação WebVTT, do W3C, verificado em 08/10/2026).",SUBSTITUIR,2;5,saida/gce/GCE_Lote2_v2_CPP.md:82,"forma fixa D1: [V dd/mm/aaaa — Fn] -> (nome, verificado em dd/mm/aaaa)"
+GCE-0133,D-C10-1d6090ed,itens[L2-Q23].justificativa,2,C10,produto; NÃO VOLÁTIL.,produto.,SUBSTITUIR,5,,classificação interna retirada
+GCE-0134,D-C10-1cb5b5a1;D-C10-ebcec22e,itens[L2-R07].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0135,D-C02-ab1a2dcf,itens[L2-R11].justificativa,2,C02,acerto (ver L2-Q06).,acerto.,DELETAR,5,,código de item retirado
+GCE-0136,D-C02-eefca7f7,itens[L2-R13].justificativa,2,C02,acerto (ver L2-Q06).,acerto.,DELETAR,5,,código de item retirado
+GCE-0137,D-C10-7c8f0e3a;D-C10-55061a1a,itens[L2-R18].justificativa,2,C10,VOLÁTIL (ALTO: limite numérico de produto); REVERIFICAR. ,Dado sujeito a mudança (ALTO: limite numérico de produto). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0138,D-C10-784ec8a3;D-C10-ba67ef79,itens[L2-R24].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0139,D-C10-4c97aaf5;D-C10-c7c233c5,itens[L2-R25].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0140,D-C10-b20226ea;D-C10-122e1505,itens[L2-R37].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0141,D-C02-e63ff348,itens[L2-R48].justificativa,2,C02,"Espelho da troca ""o aparte irregular é publicado mesmo assim"".","A afirmação oposta (""o aparte irregular é publicado mesmo assim"") estaria errada.",SUBSTITUIR,4;5,,D1 seção 4: espelho da troca -> frase legível
+GCE-0142,D-C02-38d363ff,itens[L2-R52].justificativa,2,C02,Taquigrafia (ver L2-R01).,Taquigrafia.,DELETAR,5,,código de item retirado
+GCE-0143,D-C02-77d62c8c,itens[L2-R55].justificativa,2,C02,; ver L2-R64); os dois itens não devem figurar no mesmo simulado.,).,SUBSTITUIR,5,,"código de item retirado; nota de deduplicação ""os dois itens não devem figurar no mesmo simulado"" retirada"
+GCE-0144,D-C10-e7d92e38;D-C10-4b7a8151,itens[L2-R56].justificativa,2,C10,VOLÁTIL (médio); REVERIFICAR. ,Dado sujeito a mudança (médio). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0145,D-C10-a23ea7b3;D-C10-8a7213a4,itens[L2-R57].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0146,D-C02-3d85f963,itens[L2-R58].justificativa,2,C02,"Espelho da troca ""a transcrição ocultada preserva o registro completo"".","A afirmação oposta (""a transcrição ocultada preserva o registro completo"") estaria errada.",SUBSTITUIR,4;5,,D1 seção 4
+GCE-0147,D-C10-cead97d1;D-C10-996eb51e,itens[L2-R60].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0148,D-C02-ea19be67,itens[L2-R60].justificativa,2,C02,L2-R06 julga a fórmula; este item julga só a escala de apresentação.,"Este item julga só a escala de apresentação, não a fórmula.",SUBSTITUIR,5,,código de item -> descrição do conteúdo
+GCE-0149,D-C10-72ba72ab;D-C10-7962d4d8,itens[L2-R61].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0150,D-C10-33a0e88f;D-C10-7722cd92,itens[L2-R66].justificativa,2,C10,VOLÁTIL (baixo); REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0151,D-C10-a8787478,itens[L2-R77].justificativa,2,C10,VOLÁTIL (baixo/médio). A,Dado sujeito a mudança (baixo/médio). A,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0152,D-C08-7b1c653c,itens[L2-R77].justificativa,2,C08, (hipótese (b) da D-T96-ONDA2-ACEITE),,DELETAR,5,,id de decisão e hipótese de classificação retirados
+GCE-0153,D-C10-70b15a87,itens[L2-R81].justificativa,2,C10,VOLÁTIL (baixo/médio). A,Dado sujeito a mudança (baixo/médio). A,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0154,D-C02-85409e3b,itens[L2-R81].justificativa,2,C02,"o item é o espelho da troca sutil ""C.P.I.s"" ou ""CPI-s"", que seria incorreta.","as grafias ""C.P.I.s"" ou ""CPI-s"" estariam incorretas.",SUBSTITUIR,4;5,,R1 CORRIGIR aceito (D1 pós-R1 §1)
+GCE-0155,D-C10-8c4bd9d1,itens[L2-R81].justificativa,2,C10,VOLÁTIL pela hipótese (c): a própria página,"O dado pode mudar, pois a própria página",SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0156,D-C10-22b0ae5a,itens[L2-R82].justificativa,2,C10,VOLÁTIL (baixo/médio). Na,Dado sujeito a mudança (baixo/médio). Na,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0157,D-C10-e7c53bdf,itens[L2-R82].justificativa,2,C10,VOLÁTIL pela hipótese (c): recurso de,"O dado pode mudar, pois é recurso de",SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0158,D-C02-a479f3dd,itens[L2-R82].justificativa,2,C02,", mesma natureza de base do L1-R87.",.,SUBSTITUIR,5,,código de item e comparação de base retirados
+GCE-0159,D-C02-572f0f0c,itens[L2-R83].justificativa,2,C02,"; é o espelho da troca ""o normalizador do inglês serve ao português sem adaptação"".",". A afirmação oposta (""o normalizador do inglês serve ao português sem adaptação"") estaria errada.",SUBSTITUIR,4;5,,D1 seção 4
+GCE-0160,D-C10-98b4b6f7,itens[L2-R85].justificativa,2,C10,VOLÁTIL (baixo). Com,Dado sujeito a mudança (baixo). Com,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0161,D-C08-8d2a9505;D-C10-70f4d7c1,itens[L2-R85].justificativa,2,C08;C10,VOLÁTIL pela hipótese (c) da D-T96-ONDA2-ACEITE: o gabarito,"O dado pode mudar, pois o gabarito",SUBSTITUIR,5,,classificação interna -> frase legível; id de decisão retirado
+GCE-0162,D-C10-bfb2acd3,itens[L2-R88].justificativa,2,C10,fixa. Não VOLÁTIL: a,fixa. Não é dado sujeito a mudança: a,SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0163,D-C02-d24a4368;D-C10-4c0f97f9,itens[L2-R88].justificativa,2,C02;C10," (mesmo tipo de base do L2-R10, aceito como não VOLÁTIL)",,DELETAR,5,,código de item e classificação interna retirados
+GCE-0164,D-C07-8d2259bf,itens[L2-R90].justificativa,2,C07, (conta conferida por script),,DELETAR,5,,A-3 da GBQ: menção a conferência por script retirada
+GCE-0165,D-C02-2f964fef,itens[L2-R92].justificativa,2,C02,"O item é o espelho da troca ""o deslocamento é contado desde o início da transmissão"".","A afirmação oposta (""o deslocamento é contado desde o início da transmissão"") estaria errada.",SUBSTITUIR,4;5,,D1 seção 4
+GCE-0166,D-C10-ec7b320f,itens[L2-R94].justificativa,2,C10,VOLÁTIL (baixo/médio). A,Dado sujeito a mudança (baixo/médio). A,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0167,D-C10-67d7fff3,itens[L2-R94].justificativa,2,C10,VOLÁTIL pela hipótese (b): padrão do produto,"O dado pode mudar, pois é padrão do produto",SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0168,D-C10-37309093,itens[L2-R96].justificativa,2,C10,editor. Não VOLÁTIL: mecanismo,editor. Não é dado sujeito a mudança: mecanismo,SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0169,D-C10-39c0214c,itens[L2-R99].justificativa,2,C10,VOLÁTIL (baixo). O,Dado sujeito a mudança (baixo). O,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0170,D-C10-be6216c5,itens[L2-R99].justificativa,2,C10,VOLÁTIL pela hipótese (c): recurso de,"O dado pode mudar, pois é recurso de",SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0171,D-C10-b5250461,itens[L2-R100].justificativa,2,C10,VOLÁTIL (baixo/médio). A,Dado sujeito a mudança (baixo/médio). A,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…)."""
+GCE-0172,D-C10-ff2bb64b,itens[L2-R100].justificativa,2,C10,VOLÁTIL pela hipótese (b): comportamento de produto,"O dado pode mudar, pois é comportamento de produto",SUBSTITUIR,5,,classificação interna -> frase legível
+GCE-0173,D-C02-8e3fbc9a,itens[L2-R102].justificativa,2,C02,"O item é o espelho da troca ""a legenda contém todas as informações e o serviço não gera outro arquivo"".","A afirmação oposta (""a legenda contém todas as informações e o serviço não gera outro arquivo"") estaria errada.",SUBSTITUIR,4;5,,D1 seção 4
+GCE-0174,D-C10-8b6fb009,itens[L2-R103].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0175,D-C10-1f1bf18b,itens[L2-R104].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0176,D-C10-7d9733a8,itens[L2-R105].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0177,D-C10-21b06eb9,itens[L2-R106].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0178,D-C10-789e0094,itens[L2-R107].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0179,D-C10-2ed3f0b5,itens[L2-R108].justificativa,2,C10,REVERIFICAR. Na,Na,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0180,D-C10-d648c265,itens[L2-R109].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0181,D-C10-9066ea64,itens[L2-R110].justificativa,2,C10,REVERIFICAR. Um,Um,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0182,D-C10-013081e2,itens[L2-R111].justificativa,2,C10,REVERIFICAR. Para,Para,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0183,D-C10-b8f1a1c1,itens[L2-R112].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0184,D-C10-378d4d05,itens[L2-R113].justificativa,2,C10,REVERIFICAR. Só,Só,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0185,D-C10-42d127a8,itens[L2-R114].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0186,D-C10-46d3a9b7,itens[L2-R115].justificativa,2,C10,REVERIFICAR. Áudio,Áudio,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0187,D-C10-6e88e67d,itens[L2-R116].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0188,D-C10-f822f1c1,itens[L2-R117].justificativa,2,C10,REVERIFICAR. Com,Com,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0189,D-C10-0b392e7b,itens[L2-R118].justificativa,2,C10,REVERIFICAR. Classes,Classes,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0190,D-C10-3acced9f,itens[L2-R119].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0191,D-C10-727007b6;D-C10-ef75b212,itens[L2-R120].justificativa,2,C10,VOLÁTIL (baixo). REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0192,D-C10-d0b326f7;D-C10-5aeb90d6,itens[L2-R121].justificativa,2,C10,VOLÁTIL (baixo). REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0193,D-C10-5ba4087a,itens[L2-R122].justificativa,2,C10,REVERIFICAR. A,A,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0194,D-C10-6ed73748,itens[L2-R123].justificativa,2,C10,REVERIFICAR. Ao,Ao,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0195,D-C10-53ef1c4b,itens[L2-R124].justificativa,2,C10,REVERIFICAR. Os,Os,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0196,D-C10-524054ee;D-C10-ae0bb2ac,itens[L2-R125].justificativa,2,C10,VOLÁTIL (baixo). REVERIFICAR. ,Dado sujeito a mudança (baixo). ,SUBSTITUIR,5,,"forma fixa D1: VOLÁTIL (…) -> ""Dado sujeito a mudança (…).""; REVERIFICAR retirado"
+GCE-0197,D-C10-15c59a4f,itens[L2-R126].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0198,D-C10-88d1e25b,itens[L2-R127].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0199,D-C10-3593970a,itens[L2-R128].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0200,D-C10-bd0a521f,itens[L2-R129].justificativa,2,C10,REVERIFICAR. O,O,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0201,D-C10-e935f2e0,itens[L2-R130].justificativa,2,C10,REVERIFICAR. As,As,DELETAR,5,,"REVERIFICAR retirado (o fato e o ""verificado em"" ficam)"
+GCE-0202,D-C10-fa1930ed,lotes[L3].resumo,3,C10,"modelos: voláteis, não cobrar.
+4.1","modelos: voláteis.
+4.1",SUBSTITUIR,5,,"instrução ""não cobrar"" retirada"
+GCE-0203,D-C04-787da289,lotes[L3].resumo,3,C04,LGPD [NORMATIVO — QA]:,LGPD:,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0204,D-C04-e3f664e6,lotes[L3].resumo,3,C04,9.610/1998 [NORMATIVO — QA]:,9.610/1998:,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0205,D-C10-bfe7338f;D-C10-4e9779cf,lotes[L3].resumo,3,C10,CONTROVERSO (não cobrar):,Pontos controversos:,SUBSTITUIR,5,,D1 pós-R1 §2 R1: sem afirmação sobre a banca
+GCE-0206,D-C01-6dd46a3d;D-C01-de5cb59b,lotes[L3].curso,3,C01,texto (Lotes 1 e 2).,texto (itens 1.1 a 1.8 e 2.1 a 2.8).,SUBSTITUIR,5,,Lotes de produção -> tópicos do edital
+GCE-0207,D-C01-d477dc3e,lotes[L3].curso,3,C01,"humana (Lote 2, item 2.2).",humana (item 2.2).,SUBSTITUIR,5,,Lote de produção retirado
+GCE-0208,D-C05-5cd90e1e;D-C10-d5a9a3b1,lotes[L3].curso,3,C05;C10," (N6: não cobrar
+descrição de sistema real.)",,DELETAR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:80,"Nn e instrução ""não cobrar"" retirados"
+GCE-0209,D-C10-4c81eafb;D-C10-f16d0912,lotes[L3].curso,3,C10,"CONTEXTO NORMATIVO INTERNO (SEM ITEM)
+Ato da Mesa",Ato da Mesa,SUBSTITUIR,5,,rótulo interno retirado; o parágrafo se identifica sozinho
+GCE-0210,D-C04-aff28abd,lotes[L3].curso,3,C04,"IA. [NORMATIVO — QA]
+Como","IA.
+Como",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0211,D-C04-dcb1c6d8;D-C10-5834c294,lotes[L3].curso,3,C04;C10,"fora
+dos objetos de avaliação: não cobrar
+numeração de incisos, não gera item e não altera gabarito. [V 10/10/2026 —
+F4 Câmara/Legin: www2.camara.leg.br/legin/int/atomes/2025/
+atodamesa-225-15-dezembro-2025-798483-publicacaooriginal-177429-cd-mesa.html;
+leitura automatizada via WebFetch; paráfrase, sem transcrição literal]","fora dos objetos de avaliação (Ato da Mesa nº 225/2025 da Câmara, no Legin, paráfrase, sem transcrição literal, verificado em 10/10/2026).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:55,"forma fixa [V — F4, complemento]; URL e ""leitura automatizada via WebFetch"" (processo) retirados; instrução ""não cobrar"" retirada"
+GCE-0212,D-C05-2972a369,lotes[L3].curso,3,C05,"verificado (N6); o
+curso trata só",verificado; o curso trata só,SUBSTITUIR,2,saida/gce/GCE_Lote3_v2_CPP.md:80,Nn retirado
+GCE-0213,D-C01-d367ab08,lotes[L3].curso,3,C01,o ASR multilíngue (Lote 1) e,o ASR multilíngue (itens 1.1 a 1.8) e,SUBSTITUIR,5,,Lote de produção -> tópico do edital
+GCE-0214,D-C05-6e267c13,lotes[L3].curso,3,C05,"verificados
+   (N5). A banca",verificados. A banca,SUBSTITUIR,2,saida/gce/GCE_Lote3_v2_CPP.md:78,Nn retirado
+GCE-0215,D-C04-8359ba5e;D-C05-55e52924;D-C05-73b57844,lotes[L3].curso,3,C04;C05,", com a marca
+[NORMATIVO — QA]. Fontes: F1 (LGPD compilada) e F2 (Lei 9.610/1998),
+lidas",". Fontes: LGPD compilada (Planalto) e Lei 9.610/1998 (Planalto), lidas",SUBSTITUIR,2,saida/gce/GCE_Lote3_v2_CPP.md:45;saida/gce/GCE_Lote3_v2_CPP.md:48,etiqueta NORMATIVO sem base retirada; F1 e F2 -> nomes
+GCE-0216,D-C04-c59c81f1,lotes[L3].curso,3,C04,"pessoal. [NORMATIVO — QA]
+ -","pessoal.
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0217,D-C04-27850d7c,lotes[L3].curso,3,C04,"natural. [NORMATIVO — QA]
+   O","natural.
+   O",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0218,D-C10-331bbb41;D-C10-66c887c4;D-C10-26d64ac6,lotes[L3].curso,3,C10,"debate doutrinário; não cobrar.
+   CONTROVERSO / NÃO GABARITO: a lei","debate doutrinário.
+   O ponto é controverso: a lei",SUBSTITUIR,5,,D1 pós-R1 §2 R1: sem afirmação sobre a banca
+GCE-0219,D-C10-8188bfb7,lotes[L3].curso,3,C10,biométrica; não cobrar como certo.,"biométrica, mas isso não deve ser tomado como certo.",SUBSTITUIR,5,,"instrução ""não cobrar como certo"" -> frase de conteúdo equivalente"
+GCE-0220,D-C04-7d2c6597,lotes[L3].curso,3,C04,"operador). [NORMATIVO — QA]
+ -","operador).
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0221,D-C04-2596230d,lotes[L3].curso,3,C04,"tratamento. [NORMATIVO — QA]
+ -","tratamento.
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0222,D-C04-1c52e362,lotes[L3].curso,3,C04,pseudonimização [NORMATIVO — QA]:,pseudonimização:,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0223,D-C04-e29a8e48,lotes[L3].curso,3,C04,"contas. [NORMATIVO — QA]
+ -","contas.
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0224,D-C04-045c015b,lotes[L3].curso,3,C04,"7º).
+   [NORMATIVO — QA]
+ -","7º).
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0225,D-C04-825c6fec,lotes[L3].curso,3,C04,"público. [NORMATIVO — QA]
+ -","público.
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0226,D-C07-42b3fea6,lotes[L3].curso,3,C07,conforme a conferência da CQFP; na,na,SUBSTITUIR,5,,menção a CQFP retirada
+GCE-0227,D-C04-1d405002,lotes[L3].curso,3,C04,"superada. [NORMATIVO — QA]
+ -","superada.
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0228,D-C04-d88e5d1a,lotes[L3].curso,3,C04,"41). [NORMATIVO — QA]
+ -","41).
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0229,D-C04-ab97c3d9,lotes[L3].curso,3,C04,"I). [NORMATIVO — QA]
+ -","I).
+ -",DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0230,D-C07-5c524b66,lotes[L3].curso,3,C07,"15.352/2026, conforme a
+   CQFP).",15.352/2026).,SUBSTITUIR,5,,menção a CQFP retirada
+GCE-0231,D-C04-e7db7252,lotes[L3].curso,3,C04," [NORMATIVO — QA; D-LEI-15352; REVERIFICAR
+   (normativo) 04–08/01/2027]",,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0232,D-C04-3a82de06,lotes[L3].curso,3,C04,"
+   [NORMATIVO — QA; não cobrar além do texto]",,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0233,D-C10-ac892184,lotes[L3].curso,3,C10,"Norma interna;
+referência de contexto; sem item.",Norma interna; referência de contexto.,SUBSTITUIR,5,,"""sem item"" retirado"
+GCE-0234,D-C04-82efc1cb;D-C05-6db0daa0,lotes[L3].curso,3,C04;C05,"DEFINIÇÕES (Lei 9.610/1998, F2) [NORMATIVO — QA]","DEFINIÇÕES (Lei 9.610/1998, texto do Planalto)",SUBSTITUIR,2,saida/gce/GCE_Lote3_v2_CPP.md:48,F2 -> nome; etiqueta NORMATIVO sem base retirada
+GCE-0235,D-C05-c01d04ce;D-C10-8d226984;D-C10-fd22b5bc,lotes[L3].curso,3,C05;C10,CONTROVERSO / NÃO GABARITO (N4; não há texto legal,Pontos controversos (não há texto legal,SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:75,D1 pós-R1 §2 R1: sem afirmação sobre a banca; razão já no texto (N4)
+GCE-0236,D-C05-616f2c9f,lotes[L3].curso,3,C05,"específica verificada — N7):
+transparência","específica verificada):
+transparência",SUBSTITUIR,2,saida/gce/GCE_Lote3_v2_CPP.md:83,Nn retirado
+GCE-0237,D-C04-3b1c5294,lotes[L3].curso,3,C04,LGPD [NORMATIVO — QA]);,LGPD);,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0238,NAO_INVENTARIADA-02,lotes[L3].curso,3,C01,"(perda de custódia; Lote 1, 1.8)",(perda de custódia; item 1.8),SUBSTITUIR,5,,ocorrência não inventariada (Lote); Lote de produção -> tópico do edital; não inventariado
+GCE-0239,D-C04-093db71a,lotes[L3].curso,3,C04,(paráfrase) [NORMATIVO — QA]:,(paráfrase):,DELETAR,2,saida/gce/GCE_Lote3_v2_CPP.md:43,"forma fixa D1: [NORMATIVO — QA…] sem base legal -> etiqueta retirada (lei, artigo e inciso ficam no texto)"
+GCE-0240,D-C05-befd232d;D-C10-90ef5447,lotes[L3].pegadinhas[4].texto,3,C05;C10, (N6: não cobrar descrição de sistema real.),,DELETAR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:80,"Nn e instrução ""não cobrar"" retirados"
+GCE-0241,D-C04-4a1067c9,itens[L3-Q17].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 5º, I.]","(LGPD, art. 5º, I).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0242,D-C04-8f80c0ab,itens[L3-Q18].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 5º, VI e VII; art. 39.]","(LGPD, art. 5º, VI e VII; art. 39).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0243,D-C04-372c0606,itens[L3-Q19].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 7º, § 3º.]","(LGPD, art. 7º, § 3º).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0244,D-C04-8f94aed8,itens[L3-Q20].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 20, caput.]","(LGPD, art. 20, caput).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0245,D-C04-6e6c9646,itens[L3-Q21].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026.]","(LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0246,D-C10-7cc6af84;D-C10-56f1a65b,itens[L3-Q21].justificativa,3,C10, REVERIFICAR (normativo) 04–08/01/2027; não VOLÁTIL.,,DELETAR,5,,REVERIFICAR e frase de instrução retirados
+GCE-0247,D-C04-f71a8834,itens[L3-Q22].justificativa,3,C04,"[NORMATIVO — QA: Lei 9.610/1998, art. 7º, II; art. 29, I e IX.]","(Lei 9.610/1998, art. 7º, II; art. 29, I e IX).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0248,D-C04-7918e253,itens[L3-Q23].justificativa,3,C04,"[NORMATIVO — QA: Lei 9.610/1998, art. 8º, IV.]","(Lei 9.610/1998, art. 8º, IV).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0249,D-C04-ad9df960,itens[L3-Q24].justificativa,3,C04,"[NORMATIVO — QA: Lei 9.610/1998, arts. 41 e 45.]","(Lei 9.610/1998, arts. 41 e 45).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0250,D-C04-e77d21ce,itens[L3-Q25].justificativa,3,C04,"[NORMATIVO — QA: Lei 9.610/1998, art. 24, II; art. 27; art. 49, I.]","(Lei 9.610/1998, art. 24, II; art. 27; art. 49, I).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0251,D-C04-91f2b625,itens[L3-Q27].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 46, caput e § 2º.]","(LGPD, art. 46, caput e § 2º).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0252,D-C04-418691db,itens[L3-Q28].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º.]","(LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0253,D-C04-2fdc6f34,itens[L3-Q29].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 48, caput.]","(LGPD, art. 48, caput).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0254,D-C04-332c2c06,itens[L3-Q30].justificativa,3,C04,"[NORMATIVO — QA: LGPD, art. 5º, XV; art. 33, I e II.]","(LGPD, art. 5º, XV; art. 33, I e II).",SUBSTITUIR,2;5,saida/gce/GCE_Lote3_v2_CPP.md:43,forma fixa D1: [NORMATIVO — QA: base] -> (base)
+GCE-0255,D-C02-e48d14f9,itens[L3-R08].justificativa,3,C02,idiomas (compatível com L3-Q13).,idiomas.,DELETAR,5,,código de item retirado
+GCE-0256,D-C07-f5c8a6bf,discursivas[D3].padrao,DISCURSIVA,C07,"cinco.
+Decisão da GCE: sem","cinco.
+Nota de correção: sem",SUBSTITUIR,5,,D1 seção 4
+GCE-0257,D-C08-21b8cfbc,discursivas[D3].padrao,DISCURSIVA,C08,11 (D-T2).,11.,DELETAR,5,,"D1 seção 4: só ""(D-T2)"" sai"
+GCE-0258,D-C07-86eeb452,discursivas[D4].padrao,DISCURSIVA,C07,"Notas de correção (GCE, R2–R4)
+R2. Alínea c da discursiva (R4 do Projeto):","Notas de correção
+1. Alínea c da discursiva:",SUBSTITUIR,5,,"D1 seção 4: rótulo e ""R4 do Projeto"" retirados; R2 vira numeração simples [inclui R2., não inventariado]"
+GCE-0259,D-C07-8bc64e69,discursivas[D4].padrao,DISCURSIVA,C07,"categórica da versão da CPP, segundo","categórica, segundo",SUBSTITUIR,5,,D1 seção 4
+GCE-0260,NAO_INVENTARIADA-03,discursivas[D4].padrao,DISCURSIVA,C07,"correto.
+R3. Voz como dado sensível","correto.
+2. Voz como dado sensível",SUBSTITUIR,5,,ocorrência não inventariada (R3.); rótulo R3 vira numeração simples; não inventariado
+GCE-0261,NAO_INVENTARIADA-04,discursivas[D4].padrao,DISCURSIVA,C07,"penalizado.
+R4. Base legal do","penalizado.
+3. Base legal do",SUBSTITUIR,5,,ocorrência não inventariada (R4.); rótulo R4 vira numeração simples; não inventariado
+GCE-0262,D-C07-f0f49d93,discursivas[D5].padrao,DISCURSIVA,C07,"Notas de correção (GCE, R3–R4)
+R3. Voz como dado","Notas de correção
+1. Voz como dado",SUBSTITUIR,5,,"D1 seção 4: rótulo retirado; R3 vira numeração simples [inclui R3., não inventariado]"
+GCE-0263,NAO_INVENTARIADA-05,discursivas[D5].padrao,DISCURSIVA,C07,"penalizado.
+R4. Base legal do","penalizado.
+2. Base legal do",SUBSTITUIR,5,,ocorrência não inventariada (R4.); rótulo R4 vira numeração simples; não inventariado
+GCE-0264,NAO_INVENTARIADA-06,itens[L2-R18].justificativa,2,C10," Inapto a simulado final até a reverificação de 4–8/1/2027; se a página mudar o número antes de janeiro, reescrever o item sem o limite.",,DELETAR,5,,QA R1 §3.4; instrução ao produtor; restrição de simulado vai ao campo interno (D-V15-C-M2)
+GCE-0265,NAO_INVENTARIADA-07,discursivas[D3].padrao,DISCURSIVA,C07,"é HIPÓTESE do Projeto,","é HIPÓTESE deste material,",SUBSTITUIR,5,,D1 pós-R1 §2 R2; rótulo HIPÓTESE mantido
+GCE-0266,NAO_INVENTARIADA-08,discursivas[D4].padrao,DISCURSIVA,C07,"é HIPÓTESE do Projeto,","é HIPÓTESE deste material,",SUBSTITUIR,5,,D1 pós-R1 §2 R2; rótulo HIPÓTESE mantido
+GCE-0267,NAO_INVENTARIADA-09,discursivas[D5].padrao,DISCURSIVA,C07,"é HIPÓTESE do Projeto,","é HIPÓTESE deste material,",SUBSTITUIR,5,,D1 pós-R1 §2 R2; rótulo HIPÓTESE mantido
+GCE-0268,NAO_INVENTARIADA-10,lotes[L3].curso,3,C10,"não afirmar que
+o Ato regula","por isso, não se pode afirmar que
+o Ato regula",SUBSTITUIR,5,,D1 pós-R1 §2 R3; sem fato novo
+GCE-0269,NAO_INVENTARIADA-11,lotes[L3].curso,3,C10,"(inferência de aplicação, não afirmar)","(inferência de aplicação, que não se pode afirmar como certa)",SUBSTITUIR,5,,D1 pós-R1 §2 R3; sem fato novo
+GCE-0270,NAO_INVENTARIADA-12,discursivas[D1].padrao,DISCURSIVA,C07,"são HIPÓTESE
+do Projeto:","são HIPÓTESE
+deste material:",SUBSTITUIR,5,,D1 pós-R2 (O1 do QA R2); forma de GCE-0265 a 0267; rótulo HIPÓTESE mantido
+GCE-0271,NAO_INVENTARIADA-13,discursivas[D2].padrao,DISCURSIVA,C07,"é HIPÓTESE do Projeto,","é HIPÓTESE deste material,",SUBSTITUIR,5,,D1 pós-R2 (O1 do QA R2); forma de GCE-0265 a 0267; rótulo HIPÓTESE mantido

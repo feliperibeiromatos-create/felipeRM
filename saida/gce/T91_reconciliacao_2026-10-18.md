@@ -113,3 +113,6 @@ GATILHO A | GCE | T-91 (R3, Lote 3, onda 1 do reforço, D-REFORCO-1) — aceite 
 
 ## 8. Ordem imediata
 gce-cpp: gravar saida/gce/L3_reforco_onda1_v3.md conforme a seção 4, por transcrição literal, sem nenhuma outra mudança. Em seguida, o orquestrador ou a gce-gerencia confere por diff. Texto idêntico: estado CONCLUÍDA e gatilho A colado.
+
+## Conferência do v3 (orquestrador, 18/10/2026)
+Diff textual v2 → v3: mudaram só a linha 1, a linha inserida depois dela e as linhas 45–47, 114, 202–203, 207–208, 212–213, 222–223 e 235 da v2, com texto idêntico ao fixado na seção 4. Sem R3; vale a seção 6 (CONCLUÍDA) e o gatilho A da seção 7 foi colado em PARA_PRESIDENCIA.md.

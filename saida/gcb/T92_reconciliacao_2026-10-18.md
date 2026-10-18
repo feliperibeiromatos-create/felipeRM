@@ -48,3 +48,6 @@ T-<nova>; GCB; REFORÇO onda 1 — R4, saldo do Lote 6b (D-REFORCO-1; transferid
 
 ## 7. Ordem imediata
 gcb-cpp: gravar saida/gcb/L6_reforco_onda1_v3.md conforme a seção 2, por transcrição literal, sem nenhuma outra mudança. Em seguida, o orquestrador ou a gcb-gerencia confere conforme a seção 2.3.
+
+## 8. Conferência do v3 (orquestrador, 18/10/2026, seção 2.3)
+Diff textual v2 → v3: mudaram só as linhas 1 (cabeçalho), 39-40 (Parte 2, = seção 2.1), 45-46 (justificativa e [TS], = seção 2.2, sem o marcador de lista "- ", que não é texto do item) e 49 (linha QA, = seção 2.2). Texto idêntico: sem R2; vale a seção 4 (CONCLUÍDA parcial) e o gatilho A da seção 5 foi colado em PARA_PRESIDENCIA.md. Tarefa nova = T-102.

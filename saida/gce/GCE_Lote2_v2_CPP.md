@@ -32,6 +32,10 @@ T-28 → 2.1, "Contexto institucional": forma "Derep (antigo DETAQ)"
      (D-DEREP; E4/N4), errata de 10/10/2026, QA gce-cqfp APROVADO;
      quebra da linha longa pela GCE (D1), sem mudança de texto; sem
      mudança de item, gabarito, fonte ou marca V
+T-84 → 2.4, "Ligação com o 1.4" (errata de forma, D1 da GCE,
+     T84_reconciliacao_2026-10-17.md; D-RT81-03; sem mudança de
+     conteúdo, item, gabarito, fonte, troca sutil, volatilidade ou marca
+     V): "ver Lote 1-C" → "ver o complemento do Lote 1 (adendo ao 1.4)"
 
 NOTAS DE CONFERÊNCIA PARA A GCE E A CQFP (leitura desta unidade em
 08/10/2026, por trecho retornado pela busca)
@@ -308,7 +312,7 @@ TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
    quê.
 Ligação com o 1.4: diarização separa locutores com rótulos genéricos;
 a identificação por NOME é cadastro ou atribuição humana. Adendo de
-pegadinha do título do edital: ver Lote 1-C.
+pegadinha do título do edital: ver o complemento do Lote 1 (adendo ao 1.4).
 
 EXEMPLO PARLAMENTAR
 O orador discursa; outro parlamentar pede um aparte; o Presidente

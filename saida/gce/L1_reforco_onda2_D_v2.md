@@ -1,5 +1,21 @@
 # L1_reforco_onda2_D_v2.md — T-96 — 2026-10-18 — gerado por gce-cpp
 
+## RESPOSTA AO PARECER QA_T96D_R1_2026-10-18_gce-cqfp (rodada 2, item a item)
+
+Os 28 itens permanecem AUTORAL e QA PENDENTE. Só mudaram os itens abaixo; os demais 22 APROVADOS ficam byte a byte como na v1 (inclusive R105, R106 a R113, R115 a R118, R120 a R122, R125 a R128, R130).
+
+| id | parecer | resposta | o que mudou |
+|---|---|---|---|
+| L1-R103 | AJUSTAR | acatado | Enunciado ancorado no Amazon Transcribe: "No Amazon Transcribe em streaming, que permite estabilizar os resultados parciais, o nível de estabilidade mais alto produz o texto mais preciso, enquanto o nível mais baixo entrega o texto com maior rapidez, ainda que com acurácia ligeiramente menor." Gabarito E, [TS] e ponto inalterados; mapa e justificativa ajustados. |
+| L1-R104 | AJUSTAR (a) cauda, (b) fornecedor | acatado (a) e (b) | Cauda "como ocorre nos intervalos de uma sessão suspensa" retirada; fornecedor posto no enunciado; elemento parlamentar no sujeito: "Na transmissão de áudio PCM de uma reunião de comissão ao Amazon Transcribe em streaming, o cliente deve enviar a mesma quantidade de áudio, independentemente de haver fala, codificando o silêncio como bytes zero." Gabarito C; formato AP e "independentemente" em C (O-2) mantidos. |
+| L1-R114 | AJUSTAR | acatado | Enunciado ancorado: "...fluxo de transcrição em streaming do Amazon Transcribe. Nesse caso, o procedimento correto é solicitar à AWS o aumento desse limite de duração, que pode ser ampliado sob pedido." Gabarito E; VOLÁTIL médio mantido (limite de serviço). Justificativa passa a dizer "No Amazon Transcribe". |
+| L1-R119 | APROVADO (âncora indispensável) | acatado | Nenhuma mudança: "De acordo com o model card do Whisper" permanece no enunciado; REVERIFICAR mantido. |
+| L1-R123 | AJUSTAR (só justificativa) | acatado | Retirada a frase sobre "fast transcription" e a menção ao contêiner de armazenamento (o parecer constatou que a página citada não traz "fast transcription"; a menção ao contêiner não consta do trecho literal conferido; só "retrieve transcription results asynchronously" é base). Enunciado e gabarito E inalterados. |
+| L1-R124 | REPROVADO | acatado: item substituído (mesmo id, folha 1.8) | Novo ponto: advertência do model card do Whisper contra transcrever gravações de pessoas feitas sem consentimento. Enunciado: "Ao planejar a degravação de reuniões reservadas das comissões com o Whisper, a equipe deve levar em conta que o model card adverte contra o uso dos modelos para transcrever gravações de pessoas feitas sem o consentimento delas." Gabarito C; formato AP (o mesmo do item retirado); não [TS]; não VOLÁTIL (artefato publicado; nenhum fato mutável); sem restritivo e sem exemplo discutível. Base: model-card.md, seção "Evaluated Use", aberto e lido hoje (HTTP 200): "we caution against using Whisper models to transcribe recordings of individuals taken without their consent". Ponto distinto dos canônicos da 1.8 (Q18 a Q20, R16 a R18), dos demais 13 novos da folha e das partes A, B e C (conferido por busca; "sem consentimento" só aparece, no acervo, em itens de LGPD). Proximidades com R126, R122 e R106 registradas na seção 1.3. A linha da fonte AWS "Custom language models" saiu da tabela de proveniência (nenhum item a usa mais). |
+| L1-R129 | AJUSTAR | acatado | Predicado avaliativo explícito: "Uma equipe estimou o tempo de degravação do acervo com as velocidades relativas da tabela do Whisper, medidas com fala em inglês em GPU A100, e agiu corretamente ao ressalvar que a velocidade real pode variar muito com o idioma e o hardware." Gabarito C. Formato passa a SH: a 1.8 fica com SH 6/20 = 30% (no teto) e AP 3/20; tabela de formatos atualizada. |
+
+Registros para a Gerência, sem alterar nada (competência D1/D2 da gce-gerencia, D-T89-R1-ACEITE): (1) R120 (phrase list) e R128 (custom speech e WER) seguem marcados não VOLÁTEIS, como na v1. A letra da D-T89-R1-ACEITE inclui "existência de recurso", e o parecer (seção 4) assinala que o C de ambos pressupõe que o recurso nomeado exista. Se a Gerência os enquadrar como VOLÁTEIS, a 1.8 vai a 4/20 = 20% (Q18, Q19, R120, R128), no teto da regra 4, mas com 2 VOLÁTEIS novos, contra a restrição da T89_reconciliacao, seção 3; sem esse enquadramento, nada muda. Pedido: registro expresso de que funcionamento documentado de recurso central, sem número, versão, preço ou disponibilidade, é não VOLÁTIL (fica com REVERIFICAR). (2) A substituição do R124 eliminou o terceiro caso (custom language model do Amazon Transcribe) da mesma questão. (3) Contagem: parte D mantém 14 C / 14 E, [TS] 17/28, VOLÁTEIS novos 2 (R110, R114; ambos na 1.7). Por folha, a 1.7 tem 6 C / 8 E e a 1.8 tem 8 C / 6 E (R124 continua C); o equilíbrio 7/7 por folha não é alcançável sem inverter o gabarito de um item aprovado, o que não foi feito (mantido o 14/14 da parte).
+
 Onda 2 do reforço, parte D (ciclo 2026-10-18 s12c3). Escopo: P2-1.7 (+14, ids L1-R103 a L1-R116) e P2-1.8 (+14, ids L1-R117 a L1-R130). Cada folha passa de 6 para 20. Total: 28 itens.
 Rótulo de todos os itens: AUTORAL (produtor gce-cpp, lote L1-R, onda 2 do reforço, D-REFORCO-2). QA PENDENTE: nenhum item deste arquivo entra em simulado antes da QA e da reconciliação (D-QA-PENDENTE). Nenhum item existente foi alterado.
 Convenção: "verificado em 18/10/2026" = página aberta e lida nesta data (curl, HTTP 200; trechos conferidos no texto extraído). Nenhuma base de data anterior foi usada (D-FONTE-DATA-ANTERIOR não se aplica). Nenhum item cita número de versão, preço ou limite numérico de produto; os dois itens que dependem de comportamento ou limite documentado de serviço estão marcados VOLÁTIL.
@@ -279,18 +295,18 @@ Base: Google Cloud, Speech-to-Text, "Cloud Speech-to-Text overview", seção "Mo
 | quesito | valor |
 |---|---|
 | total | 28 (P2-1.7: 14; P2-1.8: 14) |
-| C | 14 (P2-1.7: R104, R105, R109, R112, R113, R116; P2-1.8: R118, R120, R122, R124, R126, R128, R129, R130) = 50,0% (faixa de 11 a 17 C cumprida) |
+| C | 14 (P2-1.7: R104, R105, R109, R112, R113, R116; P2-1.8: R118, R120, R122, R124, R126, R128, R129, R130) = 50,0% (faixa de 11 a 17 C cumprida); por folha: 1.7 com 6 C / 8 E; 1.8 com 8 C / 6 E (R124 segue C, mesmo id: sem mudança na contagem da v1) |
 | E | 14 (P2-1.7: R103, R106, R107, R108, R110, R111, R114, R115; P2-1.8: R117, R119, R121, R123, R125, R127) |
 | [TS] | 17 de 28 = 60,7% (meta "metade mais 2" = 16, cumprida): P2-1.7: R103, R106, R107, R108, R110, R111, R112, R114, R115 (9; 8 E e 1 C); P2-1.8: R117, R119, R120, R121, R123, R125, R126, R127 (8; 6 E e 2 C) |
 | [TS] com gabarito C | 3 (R112, R120, R126), por convenção "espelho"; sem relação fixa entre [TS] e gabarito |
 | VOLÁTIL | 2 novos, ambos em P2-1.7: R110 e R114 (risco médio); risco alto novo 0. P2-1.8: 0 novos |
 | VOLÁTIL por folha de 20 | P2-1.7: Q16, R110, R114 = 3/20 = 15%; P2-1.8: Q18, Q19 = 2/20 = 10% |
-| formato máximo por folha de 20 | P2-1.7: 20% (D, SH, AP com 4); P2-1.8: 25% (SH com 5) |
+| formato máximo por folha de 20 | P2-1.7: 20% (D, SH, AP com 4); P2-1.8: 30% (SH com 6, no teto) |
 | REVERIFICAR (4–8/1/2027) | 28 (todos têm base em página de fornecedor); 2 desses também VOLÁTEIS (R110, R114) |
-| extensão (palavras do enunciado) | C: média 35,4 (de 30 a 42); E: média 37,2 (de 31 a 48); nenhum C acima de 65 palavras (O-1) |
+| extensão (palavras do enunciado) | C: média 35,6 (de 30 a 43); E: média 37,4 (de 31 a 48); nenhum C acima de 65 palavras (O-1) |
 
 Observações de estilo (registros O-1 a O-8 da T-93):
-- O-1: nenhum C passa de 65 palavras (máximo 42); o E mais longo (R110, 48 palavras) supera o C mais longo; a média de E (37,2) é maior que a de C (35,4).
+- O-1: nenhum C passa de 65 palavras (máximo 43); o E mais longo (R110, 48 palavras) supera o C mais longo (R129, 43); a média de E (37,4) é maior que a de C (35,6).
 - O-2: "independentemente" em C (R104).
 - O-3: "pode" também em E (R106, R110, R114, R117), além de C (R112, R118, R122, R126, R129, R130).
 - O-4: as remissões a documentos ("Segundo as boas práticas", "De acordo com o model card", "o model card adverte") não têm, na mesma oração, vínculo que a fonte não traga.

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """T-104 — reescreve o MANIFESTO.md do gerador v1.10 (passo 8): todos os arquivos da pasta (fora o próprio MANIFESTO.md) e de out/, com SHA-256 e bytes, e o estado de
-cada arquivo frente à v1_9 (igual, alterado, novo; ativo ou só registro). Modo ENSAIO: nada é promovido (a geração final espera o gatilho A da T-106; D-ONDA4-FILA (3)). Não lê relógio."""
+cada arquivo frente à v1_9 (igual, alterado, novo; ativo ou só registro). O modo (ENSAIO ou GERAÇÃO FINAL) vem de config_v110.FINAL. Não lê relógio."""
 import hashlib, json, os
 from common import HERE, OUT, REPO
 import config_v110 as cfg

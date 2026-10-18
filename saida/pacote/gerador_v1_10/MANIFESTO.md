@@ -27,7 +27,7 @@ Modo desta execução: E_CURSO=True; E_PADRAO=True; E_L2R131=True (ATO_L2R131 D-
 | `common.py` | `e81bc75dfb4faae7832f5ae8262c5f4b4c3992a249bb8529370112f1f3771848` | 6205 | igual | módulo |
 | `conferencia_f_2026-10-17_v1_8.json` | `3badf68f4f9a0d188c23f7c6558b67d3b92b8178553b51b9ce58d0e8e9399d02` | 1553 | igual | herdado; só registro (não executado) |
 | `conferencias_R1.py` | `587a8d4212429b2c4917c669106af4cb4864cd811481de6b473828bc6e6cc92e` | 31123 | igual | herdado; só registro (não executado) |
-| `conferencias_v110.py` | `dbbb09fcd4d7f132be7a9f006121a525681d2eecc4e3237d1689793fc93c49c9` | 11854 | novo | passo 6 |
+| `conferencias_v110.py` | `243f458ca1b7bb33559900f8940572b5bb4534ba0c609b926ca35cec38eea179` | 12000 | novo | passo 6 |
 | `conferencias_v18.py` | `0b41b1cf8d02e148de32b7480a84ea0f7c28138b52f58b353c936a72b4e357e1` | 107983 | igual | herdado; só registro (não executado) |
 | `conferencias_v19.py` | `7989b577d1e5424feba5817c1b352c8ee69b827e37878b1cbbf3b66acfc9727c` | 11042 | igual | herdado; só registro (não executado) |
 | `config_v110.py` | `cfe023934ef0153b994349299fbf0210c7898c8c4d32edcd67a63c3b5d97a281` | 1640 | novo | módulo (chaves da ocorrência) |
@@ -44,7 +44,7 @@ Modo desta execução: E_CURSO=True; E_PADRAO=True; E_L2R131=True (ATO_L2R131 D-
 | `gce.py` | `e007ddaeac3b07f7f47fe7472c1ec6a1d418f731e185f4baaf678e822153212c` | 5972 | igual | herdado; só registro (não executado) |
 | `literais.py` | `93c64cd58bff76ab3afb8a7429cb3ba2b4d8af7353191e015d8949531b08518b` | 14182 | igual | herdado; só registro (não executado) |
 | `lotes_tab.txt` | `895e4d50479615c6963fcd35c01d3cd57aa8bad3994dec6c08a1a639517d27a2` | 912 | igual | herdado; só registro (não executado) |
-| `manifesto_v1_10.py` | `9b2e8fed4b283f1a77d8c189ac4d4437570f0c13d2f1e96b553cb102073d3736` | 5421 | novo | passo 8 |
+| `manifesto_v1_10.py` | `794ba0f10e64a4e44fe30f05bb5a84d9fc2164924a4b4fe7d0feddee0e7ddbb6` | 5384 | novo | passo 8 |
 | `manifesto_v1_8.py` | `0c8c61f097bc749a7acaa782bcf9ef5755e8222fb970686ffac8f8b79e825030` | 18423 | igual | herdado; só registro (não executado) |
 | `manifesto_v1_9.py` | `2b7b4bb020daa347a747ac3adac692e9262ab4f5bf2fe76a122c4cf4642113cc` | 4712 | igual | herdado; só registro (não executado) |
 | `marcas_processo.py` | `7ee30de455a5c0332aca1dae2148d7670eb86bac08294f0c61a80da4484cc140` | 8200 | igual | passo 2 (módulo: varredura R) |
@@ -68,7 +68,7 @@ Modo desta execução: E_CURSO=True; E_PADRAO=True; E_L2R131=True (ATO_L2R131 D-
 | `report2.py` | `92c1fb9c6ac8c727831f16d2db5928bddf3f1f66cee3e6dbb87f35c523c08cc3` | 44678 | igual | herdado; só registro (não executado) |
 | `resid.py` | `3e43ef78e0c82b3927ed5108facf18e5bc47307d6f2a5a0c266075e06d368082` | 481 | igual | herdado; só registro (não executado) |
 | `review.py` | `a1c4f135e564a160e0d09a6347c04c218693fd506e67a6678f9549e7996180ff` | 690 | igual | herdado; só registro (não executado) |
-| `rodar_tudo.sh` | `7f8d29ae6e8021d97d80429d396eef9b0c320cde5fe63a13bc00beafe28b25db` | 1733 | alterado | runner |
+| `rodar_tudo.sh` | `ce1b03b69cc6191c1b780bf5ff91da490a4456d922ab25b3b4b592df5b79283b` | 1815 | alterado | runner |
 | `sync_check.py` | `b828c4291295034480eda023081d9b399bdfe11398f611172cf21ccc41e4b7d6` | 2868 | igual | herdado; só registro (não executado) |
 | `texts.py` | `c3ca12b7283710222c8baf681738b3d0e462207a30b81167d48e84be77bb0102` | 422 | igual | herdado; só registro (não executado) |
 | `validar_erros.py` | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | 18500 | igual | passo 7 (módulo e CLI) |
@@ -80,8 +80,8 @@ Modo desta execução: E_CURSO=True; E_PADRAO=True; E_L2R131=True (ATO_L2R131 D-
 ## out/ (regerado a cada execução; fonte dos promovidos)
 | Arquivo | SHA-256 | Bytes |
 |---|---|---|
-| `out/conferencias_stdout.txt` | `4ae80709e24ee16585cb5a9110a28028f7cf7a98a1fa7d0e5297add655ecdf48` | 3072 |
-| `out/conferencias_v110.json` | `32b6155a74c504670efdb9edc53e5ea2a0e3a7e7340d4af9372fa1368f392e40` | 3694 |
+| `out/conferencias_stdout.txt` | `4ed28c310d983e0170fe101d05e3f3654c28fbd8f0b4948adbfade4248ba81c7` | 3082 |
+| `out/conferencias_v110.json` | `723c463d6c97d492bce89aeed5b248d566ed9f263d9c9f7b72000668f5f6c7ef` | 3704 |
 | `out/estudante_json.json` | `bba3ceadaf69db4f1f68c58008f96ffd808b2b2b80e6e3351683eccad1b6bdfd` | 32596 |
 | `out/estudante_json_stdout.txt` | `ae8415ca3bb760fc3cbbd6930bec9c0bc017a1c12b0334fce7ba6d19fea20f1a` | 2438 |
 | `out/estudante_md_stdout.txt` | `af046cbc50fa2566010646b66012fe63dd37863851b57214ed7f49598cf852f6` | 207 |

@@ -112,13 +112,14 @@ else:
     ok('3c', d18 == 0 and not any(l[3:].startswith('saida/estudante/') for l in linhas) or estudante_igual_out(),
        'FINAL: saida/estudante = edição v1.8 (46496ca) ou = out/estudante/ byte a byte (35 arquivos, promovidos)')
 
-# (4) contrato v1.2.7 (D1, seção 5; registro saida/pacote/contrato_v1_2_7_<data>.md): diff contra a v1.2.6 do HEAD limitado a C-1 a C-3
+# (4) contrato v1.2.7 (D1, seção 5; registro saida/pacote/contrato_v1_2_7_<data>.md): diff contra a v1.2.6 do commit fixo refs.C_V19 (c26fc13) limitado a C-1 a C-3
+# (T-104, reconciliação, A-1 da fidelidade: a base era o HEAD, que passou a ter a v1.2.7 depois do commit cacd606; agora é o commit fixo da v1.2.6)
 if getattr(cfg, 'FINAL', False):
     import difflib
-    c6 = subprocess.run(['git', '-C', REPO, 'show', 'HEAD:regras/pacote_contrato.md'], capture_output=True).stdout.replace(b'\r\n', b'\n').decode('utf-8')
+    c6 = refs.git_show(refs.C_V19, 'regras/pacote_contrato.md').replace(b'\r\n', b'\n').decode('utf-8')
     c7b = open(PATH('regras/pacote_contrato.md'), 'rb').read().replace(b'\r\n', b'\n'); c7 = c7b.decode('utf-8')
     A6, A7 = c6.split('\n'), c7.split('\n')
-    ok('4a', hashlib.sha256(c6.encode()).hexdigest() == '7e749c88ae1e194a38529e13105b5b43c53571e0e06d76747cab21fb83d510a8', 'base: v1.2.6 do HEAD = 7e749c88…')
+    ok('4a', hashlib.sha256(c6.encode()).hexdigest() == '7e749c88ae1e194a38529e13105b5b43c53571e0e06d76747cab21fb83d510a8', 'base: v1.2.6 do commit %s = 7e749c88…' % refs.C_V19)
     ok('4b', A7[0].endswith('(v1.2.7, 2026-10-18)') and c7.count('Errata de forma da v1.2.7 (T-104') == 1 and A7[2].startswith(A6[2]) and A7[2].endswith('ver a seção "Errata de forma da v1.2.7".'), 'linha 1 = v1.2.7; linha 3 = a da v1.2.6 + a frase da v1.2.7; uma só seção "Errata de forma da v1.2.7"')
     sm = difflib.SequenceMatcher(None, A6, A7, autojunk=False)
     ops = [(t, i1, i2, j1, j2) for t, i1, i2, j1, j2 in sm.get_opcodes() if t != 'equal']

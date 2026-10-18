@@ -16,7 +16,7 @@
 3a                         OK   FINAL: saida/pacote/pacote.json e pacote_estudante.json = v1.9 (antes da promoção) ou = out/ byte a byte (promovidos): promovidos
 3b                         OK   FINAL: saida/simulados e gerador_v1_9 sem mudança; em regras só pacote_contrato.md (v1.2.7); em saida/gbq só o adendo 2 = out/registro_adendo2.md ([])
 3c                         OK   FINAL: saida/estudante = edição v1.8 (46496ca) ou = out/estudante/ byte a byte (35 arquivos, promovidos)
-4a                         OK   base: v1.2.6 do HEAD = 7e749c88…
+4a                         OK   base: v1.2.6 do commit c26fc13 = 7e749c88…
 4b                         OK   linha 1 = v1.2.7; linha 3 = a da v1.2.6 + a frase da v1.2.7; uma só seção "Errata de forma da v1.2.7"
 4c                         OK   diff contra a v1.2.6 = C-1 (l. 1), C-2 (l. 3) e C-3 (inserção depois da l. 167): [('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 168, 168, 168, 195)]
 4d                         OK   registro contrato_v1_2_7_2026-10-18.md com os SHA antes (7e749c88…) e depois (461acdce…)

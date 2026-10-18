@@ -265,3 +265,6 @@ for p,s in S.items():
     print('  ',changed)
     print('   PENDENTE NORMATIVO restantes:',[j+1 for j,x in enumerate(out) if 'PENDENTE NORMATIVO' in x][:20], ' R67 restantes:',[j+1 for j,x in enumerate(out) if 'R67' in x])
 ```
+
+## Conferência dos v3 (orquestrador, 18/10/2026)
+SHA-256 de A_v3, B_v3, C_v3 e D_v3 iguais aos esperados no Apêndice (b6911efb…, f3b33204…, 4bbde472…, 892526fc…). Sem R3. Próximo passo: auditoria do gbq-estilo (seção 8).

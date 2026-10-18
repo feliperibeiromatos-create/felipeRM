@@ -1,7 +1,7 @@
 # claude_GBQ_Registro_AUTORAL_v3_adendo1_2026-10-18.md — T-94 — 2026-10-18 — gerado por gbq-gerencia
 # GBQ — REGISTRO DE ITENS AUTORAL — v3, ADENDO 1: onda 1 do reforço (18/10/2026)
 Emitido pela GBQ (D1, saida/pacote/T94_D1_v1_9_2026-10-18.md, seção 2). Acrescenta ao registro v3 (claude_GBQ_Registro_AUTORAL_v3.md, que fica intacto) os 48 itens AUTORAL da onda 1 do reforço aceitos como canônicos (D-T89-R1-ACEITE, D-T90-R2-ACEITE, D-T91-R3-ACEITE, D-T92-R4-PARCIAL). Registro vigente = v3 + este adendo.
-Não reproduz enunciados; só metadados para montagem, conferência e calibração. O texto e o gabarito comentado estão nos arquivos de origem.
+Não reproduz enunciados; só metadados para montagem, conferência e calibração. O texto e o gabarito comentado estão nos arquivos de origem. Texto gerado por saida/pacote/gerador_v1_9/registro_adendo_v19.py.
 
 ## Fontes (versões finais aceitas; SHA-256 do conteúdo LF)
 | Lote | Arquivo de origem | Ids | SHA-256 | Decisão de aceite |
@@ -16,7 +16,7 @@ L6B-R01 e L6B-R02 (T-102) não entram: SUSPENSOS, sem texto nem gabarito (D-T92-
 ## Regras de elegibilidade acrescentadas (GBQ, D1)
 - R4-b. A regra R4 do v3 ("os AUTORAL são de aderência direta por construção") passa a valer com uma exceção: item de reforço que a decisão de aceite declare de aderência PARCIAL. Hoje: L2-R02, L2-R14, L2-R15, L3-R01, L3-R02, L3-R05. Só simulado diagnóstico (D-ADERENCIA).
 - R1 (VOLÁTIL) vale para L2-R07 (baixo) e L2-R18 (ALTO): só simulado diagnóstico até a reverificação de 4–8/1/2027.
-- R6. REVERIFICAR de base (conferência de base na janela de 4–8/1/2027, sem efeito de VOLÁTIL; D-T89-R1-ACEITE, critério de VOLÁTIL): L1-R03, R04, R11, R16, R17, R18; L2-R03, R04, R09, R10, R11, R12, R13, R17; L6A-R01 (fila da T-11). Não afasta o item de simulado final.
+- R6. Conferência de base na janela de 4–8/1/2027, sem efeito de VOLÁTIL (D-T89-R1-ACEITE, critério de VOLÁTIL; D-T90-R2-ACEITE; D-T92-R4-PARCIAL): L1-R03, R04, R11, R16, R17, R18; L2-R03, R04, R09, R10, R11, R12, R13, R17; L6A-R01 (fila da T-11). Não afasta o item de simulado final.
 - Núcleo (D-REFORCO-2): o campo "nucleo" não é atribuído neste adendo (D1 da GBQ, T94_D1, seção 4).
 - Identificadores: L1-Rnn, L2-Rnn, L3-Rnn, L6A-Rnn (L6B-Rnn reservados).
 
@@ -28,9 +28,9 @@ L6B-R01 e L6B-R02 (T-102) não entram: SUSPENSOS, sem texto nem gabarito (D-T92-
 | L3 | 11 | 6 | 5 | 5 | 0 | 3 (L3-R01, L3-R02, L3-R05) | 8 |
 | L6A | 1 | 0 | 1 | 1 | 0 | 0 | 1 |
 | TOTAL | 48 | 23 | 25 | 23 | 2 | 6 | 40 |
-Gabarito da onda 1: 23 C / 25 E (47,9% de C; faixa de 40% a 60%, D-REFORCO-2, regra 5; conferida pelo gbq-estilo, saida/banco/estilo_onda_1.md). Contagens conferidas por script (gerador_v1_9/validate_v19.py) contra os arquivos de origem e as decisões de aceite.
+Gabarito da onda 1: 23 C / 25 E (47,9% de C; faixa de 40% a 60%, D-REFORCO-2, regra 5; conferida pelo gbq-estilo em saida/banco/estilo_onda_1.md). Contagens conferidas por script (gerador_v1_9/validate_v19.py) contra os arquivos de origem e as decisões de aceite.
 
-## Itens por folha (v1.8 → v1.9)
+## Itens por folha (v1.8 → v1.9; todos os itens do pacote, banco e AUTORAL)
 | Folha | v1.8 | + reforço | v1.9 |
 |---|---|---|---|
 | P1-3 | 5 | 1 | 6 |
@@ -96,16 +96,16 @@ Gabarito da onda 1: 23 C / 25 E (47,9% de C; faixa de 40% a 60%, D-REFORCO-2, re
 | L2-R16 | E | P2-2.8 | TS |  | direta | D | O TECAD, usado na indexação dos discursos, é vocabulário controlado, com relações preestabelecidas entre os termos (não é vocabulário livre) |
 | L2-R17 | E | P2-2.8 | TS |  | direta | TS | Na adaptação de modelo de linguagem, os melhores dados são transcrições precisas do mesmo domínio; textos relacionados ao domínio entram na falta delas |
 | L2-R18 | C | P2-2.8 |  | VOLÁTIL | direta | NP | A lista de frases do Azure Speech não deve passar de 2.000 frases; listas maiores afetam qualidade e latência |
-| L3-R01 | C | P2-3.1 |  |  | parcial | — | — |
-| L3-R02 | E | P2-3.1 | TS |  | parcial | — | — |
-| L3-R03 | E | P2-3.2 | TS |  | direta | — | — |
-| L3-R04 | C | P2-3.2 |  |  | direta | — | — |
-| L3-R05 | C | P2-3.3 |  |  | parcial | — | — |
-| L3-R06 | E | P2-3.3 | TS |  | direta | — | — |
-| L3-R07 | C | P2-3.4 |  |  | direta | — | — |
-| L3-R08 | C | P2-3.4 |  |  | direta | — | — |
-| L3-R09 | C | P2-4.2 |  |  | direta | — | — |
-| L3-R10 | E | P2-4.3 | TS |  | direta | — | — |
-| L3-R11 | E | P2-4.3 | TS |  | direta | — | — |
+| L3-R01 | C | P2-3.1 |  |  | parcial | situação hipotética | A taquigrafia só inicia o apanhamento do discurso depois que o Presidente concede a palavra (início do registro condicionado à concessão). |
+| L3-R02 | E | P2-3.1 | TS |  | parcial | troca de sujeito | Quem autoriza previamente a gravação das sessões é o Presidente, e quem fixa as normas é a Mesa (competências não se trocam com o Plenário). |
+| L3-R03 | E | P2-3.2 | TS |  | direta | troca de sujeito | KNN exaustivo dá os vizinhos exatos; os algoritmos ANN (como o HNSW) são aproximados e trocam algum grau de exatidão por velocidade. |
+| L3-R04 | C | P2-3.2 |  |  | direta | número ou prazo (fórmula numérica; classificação limítrofe, ver 1.3) | Distância de cosseno = 1 menos a similaridade de cosseno (maior similaridade, menor distância). |
+| L3-R05 | C | P2-3.3 |  |  | parcial | número ou prazo | Prazo de cinco sessões para o orador devolver o discurso retirado na Taquigrafia; vencido, a Taquigrafia publica o texto sem a revisão do orador. |
+| L3-R06 | E | P2-3.3 | TS |  | direta | troca de sujeito | A ata registra a sinopse dos trabalhos, em padrão uniforme adotado pela Mesa (não pelo Segundo-Secretário). |
+| L3-R07 | C | P2-3.4 |  |  | direta | troca de sujeito (atribuição ao sujeito correto: o mesmo modelo, não módulos separados) | Modelo de fala multitarefa: reconhecimento multilíngue, tradução e identificação do idioma são tarefas aprendidas conjuntamente por um único modelo, e não etapas de módulos independentes encadeados (nível de categoria, sem produto). |
+| L3-R08 | C | P2-3.4 |  |  | direta | situação hipotética | Em espaço vetorial multilíngue, consulta em um idioma pode recuperar trecho equivalente em outro idioma sem analisador de idioma nem tradução prévia. |
+| L3-R09 | C | P2-4.2 |  |  | direta | número ou prazo | Prazo dos direitos patrimoniais: setenta anos, contados de 1º de janeiro do ano subsequente ao do falecimento (aplicável também às obras póstumas). |
+| L3-R10 | E | P2-4.3 | TS |  | direta | número ou prazo | A LGPD não fixa prazo em horas para comunicar incidente: o prazo é "razoável, conforme definido pela autoridade nacional" (art. 48, § 1º). |
+| L3-R11 | E | P2-4.3 | TS |  | direta | situação hipotética | O dever de garantir a segurança da informação persiste mesmo após o término do tratamento (art. 47). |
 | L6A-R01 | E | P1-3 | TS |  | direta | situação hipotética | programas de e-mail que acessam a caixa por POP3 ou IMAP4 dependem do SMTP para ENVIAR mensagens (POP3/IMAP4 não servem ao envio) |
-Formato e ponto de julgamento: coluna do mapa (Parte 1) do arquivo de origem; o L3 não traz mapa com essas colunas (—; ver saida/gce/T91_reconciliacao_2026-10-18.md). L1-R10 e L1-R16: ponto VIGENTE da T89_reconciliacao, seção 4.
+Formato e ponto de julgamento: colunas do mapa (Parte 1) do arquivo de origem, literais (siglas do L2: SH situação hipotética, PC par confundível, TS troca de sujeito, NP número ou prazo, AP aplicação parlamentar, D definição). L1-R10 e L1-R16: ponto VIGENTE da T89_reconciliacao, seção 4.

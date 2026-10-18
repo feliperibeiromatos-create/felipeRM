@@ -6,7 +6,7 @@ Ocorrência v1.9 de D-COBERTURA-AUTO (D-COBERTURA-AUTO-2 para DA). Contagem por 
 
 **Definições.** Total = itens na folha. AUTORAL = rotulo AUTORAL. Reais = rotulo CEBRASPE_ANALOGA (banco CEBRASPE; no pacote v1.9 não há CEBRASPE_OFICIAL). VOLÁTEIS = campo volatil verdadeiro no pacote, marca como estiver no item. Núcleo: n/d (campo ainda não existe na v1.9). Formatos: n/d (nenhum item declara formato; o reforço de DA e de P1/P2 ainda não gerou arquivo final com formato).
 
-**Ressalvas de cobertura.** (a) Itens com itemEdital de título (não folha) ficam fora das folhas: P1-2: 6; P1-4: 5; P1-5: 2 (total 13). (b) DA: o banco.csv indexa DA só por seção (P1-DA-1 a P1-DA-12), não por folha; por isso as células de reais em DA são n/d. (c) DA: o D1 tem 8 itens sob subitem 1.0 (caput do título 1: D1-01 a D1-08), que não correspondem a nenhuma folha e ficam fora das folhas.
+**Ressalvas de cobertura.** (a) Itens com itemEdital de título (não folha) ficam fora das folhas: P1-2: 6; P1-4: 5; P1-5: 2 (total 13). (b) DA: o banco.csv indexa DA só por seção (P1-DA-1 a P1-DA-12), não por folha; as folhas 7, 11 e 12 são a própria seção e recebem reais por folha; nas seções com mais de uma folha as células de reais são n/d (regra D1-b, saida/gcb/T95_conferencia_DA_2026-10-18.md). (c) DA: o D1 tem 8 itens sob subitem 1.0 (caput do título 1: D1-01 a D1-08), que não correspondem a nenhuma folha e ficam fora das folhas (regra D1-a, saida/gcb/T95_conferencia_DA_2026-10-18.md).
 
 ## P1 — TI (itens 1 a 8; 15 folhas)
 
@@ -81,7 +81,7 @@ Ocorrência v1.9 de D-COBERTURA-AUTO (D-COBERTURA-AUTO-2 para DA). Contagem por 
 | DA 6.3 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 6.4 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 6.5 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
-| DA 7 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
+| DA 7 | 0 | 3 (+1 anulada) | 0 | n/d | n/d | 20 | 17 | sim (T-100) |
 | DA 8.1 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 8.2 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 8.3 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
@@ -97,11 +97,13 @@ Ocorrência v1.9 de D-COBERTURA-AUTO (D-COBERTURA-AUTO-2 para DA). Contagem por 
 | DA 10.5 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 10.6 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
 | DA 10.7 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
-| DA 11 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
-| DA 12 | 0 | n/d | 0 | n/d | n/d | 20 | 20 | sim (T-100) |
-| **Soma (37 folhas)** | 52 | n/d | 0 | n/d | n/d | | | |
+| DA 11 | 0 | 4 | 0 | n/d | n/d | 20 | 16 | sim (T-100) |
+| DA 12 | 0 | 24 (4 + 20 adicional D-DA-BANCO) | 0 | n/d | n/d | 20 | 0 | sim (T-100) |
+| **Soma (37 folhas)** | 52 | 31 nas folhas 7, 11, 12; demais n/d | 0 | n/d | n/d | | | |
 
 D1 canônico: 60 itens; 60 AUTORAL; VOLÁTIL=sim em 0; sem folha (subitem 1.0): 8 (D1-01, D1-02, D1-03, D1-04, D1-05, D1-06, D1-07, D1-08). QA PENDENTE no cabeçalho do próprio arquivo.
+
+DA 1 (caput; não é folha) = 8, fora das 37
 
 ### DA — banco.csv por seção (coluna item_edital_camara; 40 linhas, todas CEBRASPE_ANALOGA)
 
@@ -121,11 +123,13 @@ D1 canônico: 60 itens; 60 AUTORAL; VOLÁTIL=sim em 0; sem folha (subitem 1.0): 
 | P1-DA-12 | 4 | 0 | 4 |
 | **Total** | 40 | 2 | 38 |
 
-Fora da contagem: banco/mapeamento_adicional.csv tem 20 linhas (D-DA-BANCO) com item_edital_adicional P1-DA-12, sem alterar a coluna do banco; não somadas.
+Fora da tabela por seção: banco/mapeamento_adicional.csv tem 20 linhas (D-DA-BANCO) com item_edital_adicional P1-DA-12, sem alterar a coluna do banco; somadas em DA 12 como parcela adicional (D1-b, T-95).
 
 ## Folhas abaixo de 20 fora de onda programada
 
 Ondas programadas: T-96 P2 1.1–1.8; T-97 P2 2.1–2.8; T-98 P2 3.1–3.4, 4.2, 4.3; T-99 P1 (todas abaixo de 20); T-100 DA (todas as folhas, BACKLOG).
 
 Resultado: nenhuma
+
+Corrigido em 18/10/2026 conforme saida/gcb/T95_conferencia_DA_2026-10-18.md
 

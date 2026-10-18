@@ -226,3 +226,6 @@ GATILHO A | GCE | T-96 — REFORÇO onda 2, P2 folhas 1.1 a 1.8 (D-REFORCO-2): 1
 
 ## Conferência dos v3 (orquestrador, 18/10/2026)
 Conferência por script (python -I) contra as seções 5.1 e 5.2: A_v3 = A_v2 com as 26 linhas fixadas, a linha inserida e as 7 linhas apagadas (L1-R43) — IDÊNTICO; D_v3 = D_v2 com as 3 linhas fixadas e a linha inserida — IDÊNTICO. Sem R3. Próximo passo: auditoria do gbq-estilo (seção 7).
+
+## Fechamento (orquestrador, 18/10/2026)
+saida/banco/estilo_onda_2.md sem GATE (12/12 aprovados; 56 C / 55 E). Condições da seção 10 cumpridas; estado final da seção 8 aplicado em TAREFAS.md e gatilho A da seção 9 colado em PARA_PRESIDENCIA.md (saldo = T-103).

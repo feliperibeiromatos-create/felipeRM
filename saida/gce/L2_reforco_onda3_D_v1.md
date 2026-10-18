@@ -122,19 +122,19 @@ L2-R103. Julgue o item.
 Ao preparar a medição da acurácia de um serviço de ASR para as reuniões de comissão, a equipe da Câmara consulta a documentação do Google Cloud Speech-to-Text, segundo a qual a transcrição de referência (ground truth) costuma ser obtida por transcrição feita por outro sistema automático, em passagem única ou dupla.
 
 L2-R104. Julgue o item.
-Ao preparar a transcrição de referência para calcular o WER do ASR usado nas comissões, a equipe da Câmara procura fazer com que as convenções dela, como pontuação, números e capitalização, coincidam o máximo possível com as do sistema avaliado, pois não existe um formato de transcrição único aceito por todos para um mesmo áudio.
+Ao calcular o WER do ASR usado nas comissões, a equipe da Câmara elabora a transcrição de referência com convenções, como as de pontuação, números e capitalização, o mais próximas possível das do sistema avaliado, pois não existe formato de transcrição único aceito por todos.
 
 L2-R105. Julgue o item.
-A equipe da Câmara observou que a confiança atribuída pelo ASR às transcrições das reuniões é alta e concluiu que o WER será baixo. Nessa situação, a conclusão não se sustenta, porque, segundo a documentação do Google Cloud Speech-to-Text, o WER e a confiança são métricas independentes, que não se deve esperar que se correlacionem.
+A equipe da Câmara notou que a confiança atribuída pelo ASR às transcrições das reuniões é alta e concluiu que o WER será baixo. Essa conclusão não se sustenta, porque, segundo a documentação do Google Cloud Speech-to-Text, WER e confiança são métricas independentes, sem correlação esperada.
 
 L2-R106. Julgue o item.
-A Câmara contratou o Google Cloud Speech-to-Text para transcrever reuniões de comissão e entende que o SLA do serviço, ao fixar o percentual mensal de tempo de atividade, assegura uma taxa máxima de erros de palavras nas transcrições entregues.
+A Câmara contratou o Google Cloud Speech-to-Text para transcrever reuniões de comissão e entende que o SLA do serviço, ao fixar o percentual mensal de tempo de atividade, assegura uma taxa máxima de erros de palavras nas transcrições entregues, de modo que a equipe poderia dispensar a auditoria de amostras.
 
 L2-R107. Julgue o item.
 De acordo com o SLA do Google Cloud Speech-to-Text, o descumprimento do objetivo de nível de serviço dá ao cliente que cumpra as exigências do acordo direito a crédito financeiro em faturas futuras, e o próprio acordo declara esse crédito como o único e exclusivo remédio do cliente para a falha.
 
 L2-R108. Julgue o item.
-No SLA do Google Cloud Speech-to-Text, o crédito financeiro devido pelo descumprimento do objetivo de nível de serviço é aplicado pelo fornecedor, independentemente de solicitação do cliente, bastando que o percentual mensal de tempo de atividade fique abaixo do objetivo.
+No SLA do Google Cloud Speech-to-Text, o crédito financeiro devido pelo descumprimento do objetivo de nível de serviço é aplicado pelo fornecedor às faturas seguintes, independentemente de solicitação do cliente, bastando que o percentual mensal de tempo de atividade apurado fique abaixo do objetivo.
 
 L2-R109. Julgue o item.
 O sistema da Câmara que envia áudios ao Google Cloud Speech-to-Text passou a receber respostas de erro porque as suas requisições continham campos inválidos. Segundo o SLA do serviço, esses erros devem ser computados como indisponibilidade no cálculo do percentual mensal de tempo de atividade, ainda que as requisições não estivessem de acordo com a documentação.
@@ -143,7 +143,7 @@ L2-R110. Julgue o item.
 Em um mês de 30 dias, um serviço de reconhecimento de fala somou 432 minutos de indisponibilidade. Pelo cálculo do percentual mensal de tempo de atividade adotado no SLA do Google Cloud Speech-to-Text (minutos do mês menos minutos de indisponibilidade, divididos pelos minutos do mês), esse percentual foi de 99%.
 
 L2-R111. Julgue o item.
-No SLA do Google Cloud Speech-to-Text, a indisponibilidade que dá direito ao crédito financeiro é aferida a partir da taxa de erros observada pelo cliente nas suas próprias requisições, e não da taxa de erros medida no lado do servidor.
+No SLA do Google Cloud Speech-to-Text, a indisponibilidade que dá direito ao crédito financeiro é aferida, em cada período de apuração, a partir da taxa de erros observada pelo cliente nas suas próprias requisições, e não da taxa de erros medida no lado do servidor.
 
 L2-R112. Julgue o item.
 Na avaliação de transcrições automáticas de sessões, ferramentas de pontuação como o sclite, do NIST, totalizam os erros por locutor e por par de referência e hipótese, o que permite à equipe de qualidade identificar os oradores cujas falas o sistema transcreve pior e orientar a auditoria para elas.
@@ -152,19 +152,19 @@ L2-R113. Julgue o item.
 Com referência e hipótese em formato trn e alinhamento por programação dinâmica, o sclite pontua apenas as falas identificadas no arquivo de hipótese, de modo que o arquivo de referência pode conter registros a mais, o que permite pontuar somente uma parte das falas.
 
 L2-R114. Julgue o item.
-Em um teste do Azure Speech com gravações de várias comissões, o valor global do WER é suficiente para que a equipe saiba que tipos de erro ocorrem e em quais arquivos, não sendo necessário examinar os resultados arquivo a arquivo.
+Em um teste do Azure Speech com gravações de várias comissões, o valor global do WER é suficiente para que a equipe saiba que tipos de erro ocorrem e em quais arquivos, de modo que se torna desnecessário examinar os resultados arquivo a arquivo para direcionar as melhorias.
 
 L2-R115. Julgue o item.
-Para medir quantitativamente o WER de um modelo no Azure Speech, a equipe da Câmara pode usar gravações de reuniões em áudio sem as transcrições de referência produzidas por pessoas, pois os dados somente de áudio servem à avaliação quantitativa da acurácia.
+Para medir quantitativamente o WER de um modelo no Azure Speech, a equipe da Câmara pode usar gravações de reuniões em áudio sem as transcrições de referência produzidas por pessoas, pois os dados somente de áudio servem à avaliação quantitativa da acurácia do modelo avaliado.
 
 L2-R116. Julgue o item.
-Ao decidir se substitui a versão do modelo de ASR em uso nas comissões, a equipe da Câmara só aprova o novo modelo se ele apresentar melhorias significativas em todos os cenários avaliados, e não apenas em alguns, critério que corresponde ao descrito na nota de transparência do Azure Speech.
+Quando decide se substitui a versão do modelo de ASR em uso nas comissões, a equipe da Câmara só aprova o novo modelo se ele apresentar melhorias significativas em todos os cenários avaliados, e não apenas em alguns, critério que corresponde ao descrito na nota de transparência do Azure Speech.
 
 L2-R117. Julgue o item.
 No Google Cloud Speech-to-Text, ao se incluir na adaptação do modelo uma expressão de várias palavras, como questão de ordem, aumenta-se a probabilidade de a expressão ser reconhecida por inteiro, sem efeito sobre a probabilidade de reconhecimento das palavras que a compõem, tomadas isoladamente.
 
 L2-R118. Julgue o item.
-Para melhorar o reconhecimento de valores monetários e de datas ditos nas reuniões, que variam a cada fala, a adaptação de modelo do Google Cloud Speech-to-Text oferece classes, cuja disponibilidade depende do modelo e do idioma, que agrupam palavras de um conceito comum e dispensam listar cada valor possível, independentemente de quais valores sejam ditos.
+Para reconhecer melhor valores monetários e datas que variam a cada fala, a adaptação de modelo do Google Cloud Speech-to-Text oferece classes, cuja disponibilidade depende do modelo e do idioma, que agrupam palavras de um conceito comum e dispensam listar cada valor, independentemente de quais sejam ditos.
 
 L2-R119. Julgue o item.
 No Google Cloud Speech-to-Text, a classe personalizada, formada por lista de itens definida pelo usuário, como os nomes dos municípios de um estado, funciona como as classes predefinidas, e uma mesma frase de adaptação pode combinar classes predefinidas e personalizadas.
@@ -176,7 +176,7 @@ L2-R121. Julgue o item.
 Uma equipe da Câmara pretende degravar sessões já gravadas com a API de transcrição em lote do Azure Speech e supõe que a lista de frases (phrase list), por não exigir treinamento de modelo, também pode ser usada nesse modo para favorecer o reconhecimento de nomes de parlamentares.
 
 L2-R122. Julgue o item.
-Em reunião cuja pauta e cujos oradores inscritos são conhecidos de antemão, a equipe pode prever os nomes e termos que serão falados. Nessa situação, a nota de transparência do Azure Speech sugere considerar a lista de frases para favorecer o reconhecimento desses termos e, se a acurácia permanecer baixa, o custom speech.
+Em reunião cuja pauta e cujos oradores inscritos são conhecidos de antemão, a equipe pode prever os nomes e termos que serão falados. Nesse caso, a nota de transparência do Azure Speech sugere a lista de frases para favorecer esses termos e, se a acurácia permanecer baixa, o custom speech.
 
 L2-R123. Julgue o item.
 Na criação de um modelo de linguagem personalizado no Amazon Transcribe com dados de treinamento e de ajuste (tuning), a equipe da Câmara deve usar os mesmos textos nos dois conjuntos, pois a sobreposição reforça o aprendizado dos termos das comissões e não prejudica a acurácia do modelo.
@@ -188,19 +188,19 @@ L2-R125. Julgue o item.
 Uma equipe da Câmara criou o vocabulário personalizado com siglas e nomes de comissões no Amazon Transcribe em uma região da AWS e pretende iniciar a transcrição em outra região. Nessa situação, o vocabulário poderá ser usado, independentemente da região em que foi criado.
 
 L2-R126. Julgue o item.
-Um modelo personalizado do Azure Speech, implantado em ponto de extremidade próprio, permanece fixo até que o usuário decida atualizá-lo, de modo que, durante o período de validade do modelo, o lançamento de um novo modelo base não altera sua acurácia nem o desempenho obtido com o vocabulário adaptado.
+Um modelo personalizado do Azure Speech, implantado em ponto de extremidade próprio, permanece fixo até que o usuário decida atualizá-lo, de modo que, ainda que seja lançado um novo modelo base, enquanto vigente o modelo mantém sua acurácia e o desempenho com o vocabulário adaptado.
 
 L2-R127. Julgue o item.
 Em sessão do Plenário, um Deputado formulou uma questão de ordem. Segundo o Regimento Interno da Câmara dos Deputados, questão de ordem é toda dúvida sobre a interpretação do Regimento, na sua prática exclusiva ou relacionada com a Constituição Federal.
 
 L2-R128. Julgue o item.
-No tempo que se segue à leitura da matéria do expediente, destinado aos Deputados inscritos para breves comunicações, cada orador pode falar por dez minutos, não sendo permitidos apartes, conforme o Regimento Interno da Câmara dos Deputados.
+Em sessão ordinária do Plenário, no tempo que se segue à leitura da matéria do expediente, destinado aos Deputados inscritos para breves comunicações, cada orador pode falar por dez minutos, não sendo permitidos apartes, conforme o Regimento Interno da Câmara dos Deputados.
 
 L2-R129. Julgue o item.
 Ao revisar uma nota taquigráfica sobre emendas, o revisor encontra a expressão emenda de redação. Segundo o Regimento Interno da Câmara dos Deputados, emenda de redação é a emenda aditiva que visa a sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto.
 
 L2-R130. Julgue o item.
-Segundo o Regimento Interno da Câmara dos Deputados, as Comunicações Parlamentares destinam-se aos Líderes que queiram fazer uso da palavra, por período de tempo proporcional ao número de membros das respectivas bancadas.
+Nas sessões ordinárias do Plenário, segundo o Regimento Interno da Câmara dos Deputados, as Comunicações Parlamentares destinam-se aos Líderes que queiram fazer uso da palavra, por período de tempo proporcional ao número de membros das respectivas bancadas.
 
 FIM DA PARTE 2/3
 
@@ -338,18 +338,18 @@ Base: RICD, arts. 66, IV, 89, caput, e 90, caput, no Legin: https://www2.camara.
 | formato máximo por folha de 20 | P2-2.7: 25% (SH e TSj com 5 cada); P2-2.8: 25% (TSj com 5) |
 | aderência | 28 DIRETA; 0 PARCIAL novos (legado da 2.7: R14, R15) |
 | REVERIFICAR (4–8/1/2027) | 28 (base em página de fornecedor ou no Legin); 2 desses também VOLÁTEIS (R120, R121) |
-| extensão (palavras do enunciado) | C: média 48,4 (de 40 a 55); E: média 43,3 (de 32 a 56); nenhum C acima de 65 palavras (O-1) |
+| extensão (palavras do enunciado) | C: média 46,0 (de 40 a 51); E: média 46,1 (de 37 a 56); nenhum C acima de 65 palavras (O-1) |
 
 Observações de estilo (registros O-1 a O-8 da T-93 e recomendações do estilo_onda_2.md):
-- O-1 (extensão): C com média 48,4 e E com média 43,3 palavras; a diferença é de 5,1 palavras, sem pista de extensão; o E mais longo (R109, 56 palavras) supera o C mais longo (55).
-- O-2 ("independe"): em C: R105, R118; em E: R108, R125. Presente nos dois gabaritos, como pedido na recomendação 1.
+- O-1 (extensão): C com média 46,0 e E com média 46,1 palavras; a diferença é de 0,1 palavra, sem pista de extensão; o E mais longo (R109, 56 palavras) supera o C mais longo (51).
+- O-2 ("independe"): em C: R118; em E: R108, R125. Presente nos dois gabaritos, como pedido na recomendação 1.
 - O-3 ("pode/poderá"): em C: R113, R119, R122; em E: R115, R121, R125, R128.
 - O-4 (remissão): nas remissões a documentação ou norma ("Segundo", "De acordo com", "a nota de transparência sugere", "conforme"), a ambientação parlamentar (reuniões de comissão, pauta, oradores inscritos, sessão do Plenário) fica fora do escopo da remissão, em frase própria ou no sujeito.
 - O-5 (cauda que se denuncia): não há cauda falsa autocontraditória (o R103 foi escrito sem a cauda "para que a referência seja precisa", que denunciaria a troca); os erros são trocas de conceito, de sujeito, de número ou de condição. Nenhum E empilha absolutos: R115 tem um "somente".
 - O-6 ([TS] em C): R107, R113, R116, R119, R126 são C com espelho declarado.
-- O-7 (restritivos): "apenas" em C: R113, R116; em E: . "somente" em C: R113; em E: R115. "pois" só em E (R115, R123) e "porque" em C (R104) e em E (R109).
-- O-8 (concessiva): "ainda que" em C: ; em E: R109.
-- Aberturas (recomendação 3): "Segundo" abre R116 (C) e R130 (E); "De acordo com" abre R107 (C); "No/Na/Em/Para/Uma/Considere…" abrem os demais; não há concentração de "Segundo a…".
+- O-7 (restritivos e causais): "apenas" em C: R113, R116; em E: nenhum. "somente" em C: R113; em E: R115. "só" restritivo em C: R116. "pois" em C: R104; em E: R115, R123. "porque" em C: R105; em E: R109.
+- O-8 (concessiva): "ainda que" em C: R126; em E: R109; alternada entre os dois gabaritos.
+- Aberturas (recomendação 3): "Segundo" abre nenhum item; "De acordo com" abre R107; os demais abrem com sujeito, circunstância ou "Considere que"; não há concentração de "Segundo a…".
 
 ## Tabela de proveniência (todas abertas e lidas em 18/10/2026)
 | fonte | URL oficial | data da página / verificação | usada em |

@@ -28,3 +28,28 @@ Objeto: conferência normativa de saida/gce/L3_reforco_onda4_B_v1.md (L3-R40 a L
 - URL, data e trechos literais declarados na base de R51–R53 coincidem com a cópia de 18/10/2026.
 - A marca "REVERIFICAR" nos três itens pode ser baixada no tocante à norma (texto conferido hoje); a decisão cabe à Gerência. Nenhuma alteração recente do art. 97 localizada no texto atualizado.
 - Resultado: 3/3 CONFERE; 0 DIVERGE.
+
+## Adendo — v2 (L3-R50)
+Objeto: item novo L3-R50 de saida/gce/L3_reforco_onda4_B_v2.md (substitui o R50 da v1). Itens não reescritos.
+
+### Fonte
+- Câmara dos Deputados, Regimento Interno (Resolução nº 17/1989), Legin, texto atualizado.
+- URL: https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html
+- Cópia: verificado em 18/10/2026 (curl -sSL com User-Agent de navegador; HTTP 200; 1.007.742 bytes; texto extraído por script).
+- Vigência: Resolução nº 17/1989 vigente; o art. 98, caput e §§ 1º a 5º, aparece sem marcação "(Redação dada pela ...)" ou "(Incluído pela ...)" — redação original. A única marcação no artigo está no § 6º ("Parágrafo com redação adaptada aos termos da Resolução nº 25, de 2001 ..."), fora do objeto do item.
+
+### Texto literal (art. 98, caput, §§ 4º e 5º)
+"Art. 98. O Diário da Câmara dos Deputados publicará a ata da sessão do dia anterior, com toda a sequência dos trabalhos.
+[...]
+§ 4º As informações enviadas à Câmara em virtude de solicitação desta, a requerimento de qualquer Deputado ou Comissão, serão, em regra, publicadas na ata impressa, antes de entregues, em cópia autêntica, ao solicitante, mas poderão ser publicadas em resumo ou apenas mencionadas, a juízo do Presidente, ficando, em qualquer hipótese, o original no Arquivo da Câmara, inclusive para o fornecimento de cópia aos demais Deputados interessados.
+§ 5º Não se dará publicidade a informações e documentos oficiais de caráter reservado. As informações solicitadas por Comissão serão confiadas ao Presidente desta pelo Presidente da Câmara para que as leia a seus pares; as solicitadas por Deputado serão lidas a este pelo Presidente da Câmara. Cumpridas essas formalidades, serão fechadas em invólucro lacrado, etiquetado, datado e rubricado por dois Secretários, e assim arquivadas."
+
+### Conferência
+| Item | Dispositivo | Gabarito | Citação no gabarito comentado | Resultado |
+|---|---|---|---|---|
+| L3-R50 | RICD, art. 98, § 5º, primeira parte (contraste: § 4º) | C [TS] | literal confere (§ 5º, 1ª parte, e trecho do § 4º) | CONFERE — a ata é publicada no Diário (caput); a regra geral do § 4º (publicação na ata impressa das informações pedidas por Deputado ou Comissão) cede ao § 5º para documento oficial de caráter reservado, que não recebe publicidade (o § 5º, 2ª parte, prevê leitura aos pares e arquivamento lacrado). Reproduzir o inteiro teor na minuta de ata é indevido; o espelho E (aplicar o § 4º) está corretamente construído. |
+
+### Observações
+- URL, data e trechos literais declarados na base do R50 coincidem com a cópia de 18/10/2026. Nenhuma alteração recente dos §§ 4º e 5º localizada no texto atualizado.
+- A marca REVERIFICAR pode ser baixada no tocante à norma; a decisão cabe à Gerência.
+- Resultado: 1/1 CONFERE; 0 DIVERGE.

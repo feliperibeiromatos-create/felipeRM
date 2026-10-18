@@ -1,0 +1,2 @@
+itens 324 banco 144 autoral 180 norm 90 F4 21 F1 1
+LOG: ['PARES: par sem " vs " (b vazio): \'Confidencialidade, integridade, disponibilidade.\'']

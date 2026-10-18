@@ -1,0 +1,316 @@
+{
+ "arquivo": "out/pacote_estudante.json",
+ "bytes": 635253,
+ "regras": {
+  "url AUTORAL (valor inteiro apagado)": 180,
+  "F (parêntese)": 83,
+  "V": 55,
+  "F (prosa: referência a fonte)": 51,
+  "F (fim de parêntese)": 48,
+  "código de fonte do L5 (U/GG/TB)": 33,
+  "F (frase \"Fonte(s): …\")": 30,
+  "F (parêntese com verificação)": 26,
+  "F (colchete)": 25,
+  "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 25,
+  "NORMATIVO — QA": 18,
+  "código N do L2/L3": 14,
+  "F (fim de parêntese, após vírgula)": 13,
+  "F (início de parêntese)": 13,
+  "NORMATIVO — QA (prefixo da base legal)": 13,
+  "F (\"Conforme a Fn (leitura …):\")": 11,
+  "id interno (R-xx, E-xx, O-xx, D-xx)": 10,
+  "F (frase de fonte)": 9,
+  "carimbo de leitura \"aberta(s) hoje\"": 9,
+  "caixa (minúscula → maiúscula na inicial deixada por deleção)": 8,
+  "carimbo datado de verificação/leitura (ligado a F-ref)": 7,
+  "F (parêntese com seção/verificação)": 5,
+  "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+  "classificação interna de VOLÁTIL na justificativa": 3,
+  "F (fim de parêntese, \"com Fn\")": 2,
+  "V (parcial: mantém a orientação ao estudante)": 2,
+  "id interno / versão do lote (v2)": 2,
+  "marca de processo de produção do lote (\"Nesta produção\" / \"a especificação previa\")": 2,
+  "D-ADERENCIA no aviso do SIM-0 (deleção literal única)": 1,
+  "F (fim de parêntese, após travessão)": 1,
+  "F (início de parêntese, antes de aspas)": 1,
+  "F (parêntese com leitura)": 1,
+  "NORMATIVO — QA (frase de marca e fontes)": 1,
+  "NORMATIVO — QA (parcial: mantém a orientação ao estudante)": 1,
+  "id de decisão na nota (D-LEI-15352)": 1,
+  "marca de processo (\"neste chat\")": 1
+ },
+ "total_remocoes": 709,
+ "por_campo": {
+  "lotes[].resumo": {
+   "campos_alterados": 6,
+   "remocoes": 35,
+   "regras": {
+    "V": 3,
+    "F (colchete)": 1,
+    "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
+    "código N do L2/L3": 2,
+    "NORMATIVO — QA": 2,
+    "F (parêntese)": 20,
+    "F (fim de parêntese, após travessão)": 1,
+    "código de fonte do L5 (U/GG/TB)": 1,
+    "F (fim de parêntese, após vírgula)": 2,
+    "F (início de parêntese)": 2
+   }
+  },
+  "lotes[].curso": {
+   "campos_alterados": 8,
+   "remocoes": 341,
+   "regras": {
+    "V": 47,
+    "F (colchete)": 15,
+    "id interno (R-xx, E-xx, O-xx, D-xx)": 2,
+    "id interno / versão do lote (v2)": 2,
+    "V (parcial: mantém a orientação ao estudante)": 2,
+    "F (parêntese)": 48,
+    "código N do L2/L3": 11,
+    "NORMATIVO — QA (parcial: mantém a orientação ao estudante)": 1,
+    "NORMATIVO — QA (frase de marca e fontes)": 1,
+    "NORMATIVO — QA": 16,
+    "F (fim de parêntese, após vírgula)": 11,
+    "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 19,
+    "F (parêntese com verificação)": 26,
+    "F (início de parêntese)": 7,
+    "F (início de parêntese, antes de aspas)": 1,
+    "F (prosa: referência a fonte)": 37,
+    "carimbo datado de verificação/leitura (ligado a F-ref)": 6,
+    "marca de processo (\"neste chat\")": 1,
+    "código de fonte do L5 (U/GG/TB)": 26,
+    "F (parêntese com leitura)": 1,
+    "F (fim de parêntese)": 24,
+    "F (\"Conforme a Fn (leitura …):\")": 11,
+    "carimbo de leitura \"aberta(s) hoje\"": 8,
+    "caixa (minúscula → maiúscula na inicial deixada por deleção)": 8,
+    "F (parêntese com seção/verificação)": 5,
+    "F (fim de parêntese, \"com Fn\")": 2,
+    "F (frase de fonte)": 1,
+    "marca de processo de produção do lote (\"Nesta produção\" / \"a especificação previa\")": 2
+   }
+  },
+  "lotes[].pares[].a": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pares[].b": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pares[].como": {
+   "campos_alterados": 3,
+   "remocoes": 3,
+   "regras": {
+    "F (parêntese)": 2,
+    "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 1
+   }
+  },
+  "lotes[].pegadinhas[].rotulo": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pegadinhas[].texto": {
+   "campos_alterados": 32,
+   "remocoes": 32,
+   "regras": {
+    "V": 1,
+    "código N do L2/L3": 1,
+    "F (início de parêntese)": 2,
+    "F (prosa: referência a fonte)": 2,
+    "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 1,
+    "F (fim de parêntese)": 24,
+    "F (parêntese)": 1
+   }
+  },
+  "itens[].nota": {
+   "campos_alterados": 1,
+   "remocoes": 1,
+   "regras": {
+    "id de decisão na nota (D-LEI-15352)": 1
+   }
+  },
+  "itens[].justificativa (AUTORAL)": {
+   "campos_alterados": 75,
+   "remocoes": 105,
+   "regras": {
+    "V": 4,
+    "F (colchete)": 9,
+    "classificação interna de VOLÁTIL na justificativa": 3,
+    "NORMATIVO — QA (prefixo da base legal)": 13,
+    "F (frase \"Fonte(s): …\")": 30,
+    "F (parêntese)": 12,
+    "carimbo datado de verificação/leitura (ligado a F-ref)": 1,
+    "F (prosa: referência a fonte)": 12,
+    "F (início de parêntese)": 2,
+    "F (frase de fonte)": 8,
+    "código de fonte do L5 (U/GG/TB)": 6,
+    "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+    "carimbo de leitura \"aberta(s) hoje\"": 1
+   }
+  },
+  "itens[].url (AUTORAL)": {
+   "campos_alterados": 180,
+   "remocoes": 180,
+   "regras": {
+    "url AUTORAL (valor inteiro apagado)": 180
+   }
+  },
+  "simulados[SIM-0].avisos[0]": {
+   "campos_alterados": 1,
+   "remocoes": 1,
+   "regras": {
+    "D-ADERENCIA no aviso do SIM-0 (deleção literal única)": 1
+   }
+  },
+  "discursivas[].comando": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].padrao": {
+   "campos_alterados": 3,
+   "remocoes": 11,
+   "regras": {
+    "agente/unidade interna (CQFP, QA, GCB, GCE, CPP)": 4,
+    "id interno (R-xx, E-xx, O-xx, D-xx)": 7
+   }
+  },
+  "discursivas[].aspectos[].texto": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].quesitos[].nome": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].quesitos[].conceitos[]": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  }
+ },
+ "campos_comparados_so_delecao": 1265,
+ "caixa": {
+  "pares": 8,
+  "ocorrencias": 8
+ },
+ "realinha": {
+  "pares": 2,
+  "ocorrencias": 2
+ },
+ "casamentos_R": [
+  {
+   "campo": "itens[BQ-0040].comando",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "21, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.",
+   "destino": "X1"
+  },
+  {
+   "campo": "itens[BQ-0064].enunciado",
+   "rotulo": "modelo",
+   "casamento": "ChatGPT",
+   "contexto": "O ChatGPT e o DeepSeek são plataformas de IA",
+   "destino": "X2"
+  },
+  {
+   "campo": "lotes[L2].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": " Presidente (ou no exercício↵   da Presidência), orientação de bancada, pela orde",
+   "destino": "X3"
+  },
+  {
+   "campo": "lotes[L3].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": " ela. A redação anterior (órgão da Presidência da↵   República) está SUPERADA.↵ -",
+   "destino": "X4"
+  },
+  {
+   "campo": "lotes[L3].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "↵superada). (6) ANPD como órgão da Presidência (redação superada), ou↵\"a autorida",
+   "destino": "X5"
+  },
+  {
+   "campo": "lotes[L3].pares[20].b",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "rquia vinculada ao MJSP); órgão da Presidência (redação superada)",
+   "destino": "X6"
+  },
+  {
+   "campo": "lotes[L3].pegadinhas[25].texto",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "ANPD como órgão da Presidência (redação superada), ou \"a autorida",
+   "destino": "X7"
+  },
+  {
+   "campo": "lotes[L6A].curso",
+   "rotulo": "Fn",
+   "casamento": "F4",
+   "contexto": "B2) ou só a linha (B$2).↵- A tecla F4, com a referência selecionada na b",
+   "destino": "X8"
+  }
+ ],
+ "contagem_X_Y": {
+  "X1": 1,
+  "X2": 1,
+  "X3": 1,
+  "X4": 1,
+  "X5": 1,
+  "X6": 1,
+  "X7": 1,
+  "X8": 1,
+  "Y1": 0
+ },
+ "processo": 0,
+ "termos_fora_da_lista": {
+  "Presidente": 15,
+  "Projeto": 188,
+  "OpenAI": 31,
+  "Anthropic": 6,
+  "Gemini": 3,
+  "GPT": 5,
+  "Whisper": 21,
+  "insumo": 2
+ },
+ "itens_por_lote": {
+  "antes_v1_7": {
+   "L1": 20,
+   "L1C": 10,
+   "L2": 30,
+   "L3": 30,
+   "L4": 20,
+   "L4C": 10,
+   "L5": 20,
+   "L5C": 10,
+   "L6A": 15,
+   "L6B": 15
+  },
+  "depois_v1_8_E": {
+   "L1": 30,
+   "L2": 30,
+   "L3": 30,
+   "L4": 30,
+   "L5": 30,
+   "L6A": 15,
+   "L6B": 15
+  },
+  "banco": 144
+ },
+ "falhas": [
+  "(e) Y1 (dúvida): contagem real 0, esperada 1 (contexto 'O F4 afirma que' em itens[L4-11].justificativa: 0 ocorrência(s) do contexto)",
+  "(e) esperado 9 casamentos (X1–X8, Y1) e 0 de processo; achados: 8"
+ ]
+}

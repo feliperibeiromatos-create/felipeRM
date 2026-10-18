@@ -86,3 +86,10 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 - Justificativa: sem armadilha (ancoragem). Curso 3.3.3: "apresentar uma guia, uma janela específica ou a tela inteira".
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+## Itens de reforço
+
+### L6A-R01 — Gabarito: E
+
+- Item do edital: P1-3
+- Justificativa: o POP3 serve para baixar mensagens da caixa postal; o envio, em programas que acessam a caixa por POP3 ou IMAP4, fica com o SMTP, outro protocolo. O item atribui ao POP3 o envio, o que a documentação do Exchange Online nega.

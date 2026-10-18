@@ -234,7 +234,7 @@ TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
    quê.
 Ligação com o 1.4: diarização separa locutores com rótulos genéricos;
 a identificação por NOME é cadastro ou atribuição humana. Adendo de
-pegadinha do título do edital: ver Lote 1-C.
+pegadinha do título do edital: ver o complemento do Lote 1 (adendo ao 1.4).
 
 EXEMPLO PARLAMENTAR
 O orador discursa; outro parlamentar pede um aparte; o Presidente interrompe para advertir sobre o tempo. Aparte: interrupção breve e oportuna do orador, por outro Deputado que obtém sua permissão (RICD, art. 176, caput e § 1º). O registro taquigráfico do aparte é a regra; o não apanhamento depende de determinação do Presidente (RICD, art. 17, I, 'h'). Texto bem formatado: três
@@ -415,7 +415,9 @@ DEFINIÇÃO
  - Riscos: reforço excessivo faz o sistema inserir o termo reforçado
    onde ele não foi dito (falso positivo) e pode piorar outras palavras;
    listas ficam desatualizadas (nomes mudam a cada legislatura);
-   adaptação não corrige sotaque nem ruído.
+   adaptação não remove o ruído nem trata a causa acústica (sotaque pede
+   dados acústicos), embora possa melhorar o reconhecimento dos termos
+   esperados quando o áudio é ruidoso ou pouco claro.
  - Avaliação correta: separar os dados usados para adaptar dos dados de
    teste; medir o WER geral e também o acerto dos termos-alvo, antes e
    depois.

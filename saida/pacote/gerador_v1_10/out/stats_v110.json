@@ -5,14 +5,15 @@
   "itens": 334
  },
  "modo": {
-  "E_CURSO": false,
+  "E_CURSO": true,
   "E_PADRAO": true,
   "GERADO_EM": "2026-10-18"
  },
  "trocas": [
   "a1: itens[5C-08].justificativa, 1 troca",
   "a2: lotes[L2].curso, 1 troca",
-  "e1: discursivas[D3].padrao, 1 troca"
+  "e1: discursivas[D3].padrao, 1 troca",
+  "e2: lotes[L2].curso, 1 troca"
  ],
  "reforco": {
   "L6B-R01": {
@@ -3389,6 +3390,21 @@
    "formato": "PC",
    "ponto": "Quem fala nas Comunicações Parlamentares (representantes de Partidos e Blocos indicados pelos Líderes) e nas Comunicações de Lideranças (os Líderes, por tempo proporcional à bancada)",
    "just1": "REVERIFICAR. As Comunicações de Lideranças (art. 89, a que remete o art. 66, § 1º) destinam-se aos Líderes, por tempo proporcional às bancadas; as Comunicações Parlamentares (arts. 66, IV, e 90) cabem a oradores indicados pelos Líderes, chamados alternadamente por Partidos e Blocos (art. 90, parágrafo único)."
+  },
+  "L2-R131": {
+   "grupo": "SALDO3",
+   "ato": "D-T105-SALDO-ACEITE",
+   "lote": "L2",
+   "arquivo": "saida/gce/L2_reforco_onda3_saldo_v2.md",
+   "folha": "P2-2.4",
+   "gab": "E",
+   "ts": true,
+   "espelho": false,
+   "volatil": false,
+   "aderencia": "direta",
+   "formato": "PC (fala contínua × pausa; items × audio_segments)",
+   "ponto": "Na saída em lote do Amazon Transcribe, o elemento audio_segments registra, com início e fim, trechos de fala contínua (pausas mínimas); a pausa fica fora do segmento, e não é ela que o segmento delimita",
+   "just1": "Segundo a documentação do Amazon Transcribe, um segmento de áudio é um trecho da gravação com fala ininterrupta e pausas mínimas, registrado em audio_segments com horário de início e de fim; a pausa não é o que o segmento registra. O item troca \"trechos de fala contínua\" por \"as pausas existentes entre as falas\" (única troca); a oração sobre o elemento items é verdadeira."
   }
  },
  "log": [
@@ -3452,7 +3468,14 @@
     "sha256": "892526fcb3fd62ba266976e2f223fd49fb392e766ac3eb26fade700af646d293",
     "ids": 28
    }
+  ],
+  "SALDO3": [
+   {
+    "arquivo": "saida/gce/L2_reforco_onda3_saldo_v2.md",
+    "sha256": "22e4c1e2fe47fdcf02c215447a00b79026131678ff9db8991c7b25c1fcaf0888",
+    "ids": 1
+   }
   ]
  },
- "size": 858857
+ "size": 860070
 }

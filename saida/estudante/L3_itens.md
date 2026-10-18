@@ -65,3 +65,27 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **L3-Q29** — Segundo a LGPD, a comunicação à autoridade nacional e ao titular sobre incidente de segurança que possa acarretar risco ou dano relevante é dever do operador, e não do controlador.
 
 **L3-Q30** — O envio do áudio de sessões a serviço de transcrição operado em servidores localizados no exterior pode configurar transferência internacional de dados pessoais, que só é permitida nos casos previstos na LGPD, como o de país que proporcione grau de proteção adequado ou o de garantias oferecidas pelo controlador.
+
+## Itens de reforço
+
+**L3-R01** — Em sessão do Plenário da Câmara dos Deputados, cujo áudio é captado continuamente por sistema automático de transcrição, um Deputado começa a falar antes de o Presidente lhe conceder a palavra. Nessa situação, segundo o Regimento Interno da Câmara dos Deputados, o apanhamento taquigráfico do discurso somente se inicia depois da concessão da palavra pelo Presidente.
+
+**L3-R02** — Segundo o Regimento Interno da Câmara dos Deputados, a gravação das sessões da Câmara, que pode servir de insumo para a transcrição e a indexação por inteligência artificial, depende de prévia autorização do Plenário e obedece às normas fixadas pela Mesa.
+
+**L3-R03** — Em um sistema de busca vetorial sobre um acervo de pronunciamentos, o algoritmo de vizinhos mais próximos exaustivo (KNN) é um método aproximado, que sacrifica alguma exatidão em troca de velocidade, ao passo que os algoritmos de vizinhos mais próximos aproximados (ANN), como o HNSW, calculam a distância entre todos os pares de pontos e retornam os vizinhos exatos.
+
+**L3-R04** — Na busca semântica que usa a similaridade de cosseno, a distância de cosseno é definida como 1 menos a similaridade de cosseno, de modo que, quanto maior a similaridade entre o vetor da consulta e o vetor de um trecho do acervo, menor é a distância entre eles.
+
+**L3-R05** — Na publicação dos discursos proferidos em sessão, segundo o Regimento Interno da Câmara dos Deputados, se o Deputado que retirou o seu discurso na Taquigrafia, para revisão, não o devolver dentro de cinco sessões, a Taquigrafia dará à publicação o texto sem revisão do orador.
+
+**L3-R06** — Segundo o Regimento Interno da Câmara dos Deputados, lavra-se ata com a sinopse dos trabalhos de cada sessão, cuja redação obedecerá a padrão uniforme adotado pelo Segundo-Secretário.
+
+**L3-R07** — Em reunião de comissão com oradores que se expressam em vários idiomas, um modelo de reconhecimento de fala treinado de forma multitarefa pode aprender, em conjunto, o reconhecimento multilíngue da fala, a tradução e a identificação do idioma falado, de modo que essas tarefas são executadas por um único modelo, e não por módulos independentes encadeados, um para cada etapa do processamento.
+
+**L3-R08** — Uma comissão mantém acervo de pronunciamentos em português e em espanhol e indexa os trechos por meio de vetores (embeddings) gerados por um modelo multilíngue, no mesmo espaço vetorial. Nessa situação, uma consulta feita em português pode recuperar um trecho em espanhol de sentido equivalente, sem que a busca exija analisadores de idioma nem tradução prévia.
+
+**L3-R09** — Segundo a Lei n.º 9.610/1998, os direitos patrimoniais do autor perduram por setenta anos, contados de 1.º de janeiro do ano subsequente ao de seu falecimento, obedecida a ordem sucessória da lei civil, prazo que se aplica também às obras póstumas.
+
+**L3-R10** — Segundo a Lei Geral de Proteção de Dados Pessoais, o controlador deve comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares no prazo de setenta e duas horas, fixado na própria lei.
+
+**L3-R11** — Concluído o contrato com a empresa que operava o serviço de transcrição de áudios de sessões e encerrado o tratamento dos dados pessoais, cessa, segundo a Lei Geral de Proteção de Dados Pessoais, o dever de garantir a segurança da informação por parte dos agentes de tratamento e de quem tenha intervindo em alguma fase do tratamento.

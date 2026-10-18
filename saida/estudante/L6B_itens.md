@@ -39,3 +39,13 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **6B-14** — No pharming, o usuário pode ser levado a um site falso mesmo ao digitar corretamente o endereço do site legítimo, pois o redirecionamento decorre de alteração na resolução do nome para o endereço IP, como a adulteração de um servidor DNS.
 
 **6B-15** — A utilização do protocolo HTTPS indica que a comunicação entre o navegador e o site é cifrada, mas, por si só, não garante que o site pertença à instituição que o usuário pretende acessar, pois páginas fraudulentas, hospedadas em domínios próprios, também podem utilizar HTTPS.
+
+## Itens de reforço
+
+*Um servidor do Derep (antigo DETAQ) recebeu uma mensagem eletrônica que diz ter sido enviada por uma área administrativa da Casa e que traz um link para "confirmar dados" cadastrais. Considerando essa mensagem e as boas práticas de segurança da informação, julgue o item a seguir.*
+
+**L6B-R01** — A conduta adequada do servidor é não acessar o endereço indicado no link e confirmar a solicitação com a área apontada como remetente, por meio de endereço eletrônico ou telefone oficiais obtidos de forma independente da mensagem recebida.
+
+*Acerca de golpes praticados pela Internet, julgue o item a seguir.*
+
+**L6B-R02** — O phishing é um tipo específico de pharming, de modo que o pharming é o gênero e o phishing, uma de suas espécies.

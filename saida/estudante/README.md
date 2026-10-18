@@ -1,7 +1,7 @@
 # Câmara 2026 — Edição do estudante
 
-- Versão: v1.8 (pacote.json versão 1)
-- Data: 2026-10-17
+- Versão: v1.10 (pacote.json versão 1)
+- Data: 2026-10-18
 - Aviso: material de estudo; gabaritos em arquivo separado.
 - Itens marcados com o aviso "Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027." têm conteúdo volátil.
 
@@ -16,6 +16,12 @@
 - L5: [L5_estudo.md](L5_estudo.md) (resumo, curso, pares, pegadinhas); [L5_itens.md](L5_itens.md) (itens sem gabarito); [L5_gabarito.md](L5_gabarito.md) (gabarito e justificativas)
 - L6A: [L6A_estudo.md](L6A_estudo.md) (resumo, curso, pares, pegadinhas); [L6A_itens.md](L6A_itens.md) (itens sem gabarito); [L6A_gabarito.md](L6A_gabarito.md) (gabarito e justificativas)
 - L6B: [L6B_estudo.md](L6B_estudo.md) (resumo, curso, pares, pegadinhas); [L6B_itens.md](L6B_itens.md) (itens sem gabarito); [L6B_gabarito.md](L6B_gabarito.md) (gabarito e justificativas)
+
+- L1, L2, L3, L6A e L6B: os itens de reforço estão ao fim de cada arquivo _itens.md e _gabarito.md, na seção "Itens de reforço".
+
+### Núcleo de estudo
+
+- [NUCLEO.md](NUCLEO.md) (os 10 itens-núcleo de cada item do edital)
 
 ### Banco de itens
 

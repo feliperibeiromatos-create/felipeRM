@@ -1,6 +1,6 @@
 # claude_GBQ_Registro_AUTORAL_v3_adendo2_2026-10-18.md — T-104 — 2026-10-18 — gerado por gbq-gerencia
-# GBQ — REGISTRO DE ITENS AUTORAL — v3, ADENDO 2: L6B-R01/R02, ondas 2 e 3 do reforço e saldo L1-R131 (2026-10-18)
-Emitido pela GBQ (D1, saida/pacote/T104_D1_v1_10_2026-10-18.md, seção 2). Acrescenta ao registro v3 + adendo 1 (que ficam intactos) os 225 itens AUTORAL aceitos como canônicos depois da v1.9 (D-T102-R4-SALDO, D-T96-ONDA2-ACEITE, D-T103-SALDO-ACEITE, D-T97-ONDA3-ACEITE). Registro vigente = v3 + adendo 1 + este adendo.
+# GBQ — REGISTRO DE ITENS AUTORAL — v3, ADENDO 2: L6B-R01/R02, ondas 2 e 3 do reforço e saldos L1-R131 e L2-R131 (2026-10-18)
+Emitido pela GBQ (D1, saida/pacote/T104_D1_v1_10_2026-10-18.md, seção 2). Acrescenta ao registro v3 + adendo 1 (que ficam intactos) os 226 itens AUTORAL aceitos como canônicos depois da v1.9 (D-T102-R4-SALDO, D-T96-ONDA2-ACEITE, D-T103-SALDO-ACEITE, D-T97-ONDA3-ACEITE, D-T105-SALDO-ACEITE). Registro vigente = v3 + adendo 1 + este adendo.
 Não reproduz enunciados; só metadados para montagem, conferência e calibração. Texto gerado por saida/pacote/gerador_v1_10/registro_adendo_v110.py.
 
 ## Fontes (versões finais aceitas; SHA-256 do conteúdo LF)
@@ -16,13 +16,14 @@ Não reproduz enunciados; só metadados para montagem, conferência e calibraç�
 | L2, onda 3 | saida/gce/L2_reforco_onda3_B_v3.md | 27 | f3b3320408e36265638a0f742b4df5a10121520e2631ebc16994df83069510f1 | D-T97-ONDA3-ACEITE |
 | L2, onda 3 | saida/gce/L2_reforco_onda3_C_v3.md | 28 | 4bbde472b049203c784f2e1840119ab13aad2a17c34accc35465661228c4ff3d | D-T97-ONDA3-ACEITE |
 | L2, onda 3 | saida/gce/L2_reforco_onda3_D_v3.md | 28 | 892526fcb3fd62ba266976e2f223fd49fb392e766ac3eb26fade700af646d293 | D-T97-ONDA3-ACEITE |
-Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10-18.md, seção 3 (L1-R99 com formato PC); T97_reconciliacao_2026-10-18.md, seções 2 a 7. L1-R43 e L2-R67 retirados (ids não reutilizados). L2-R131 (T-105) não entra neste adendo sem aceite.
+| L2, saldo da onda 3 | saida/gce/L2_reforco_onda3_saldo_v2.md | 1 | 22e4c1e2fe47fdcf02c215447a00b79026131678ff9db8991c7b25c1fcaf0888 | D-T105-SALDO-ACEITE |
+Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10-18.md, seção 3 (L1-R99 com formato PC); T97_reconciliacao_2026-10-18.md, seções 2 a 7. L1-R43 e L2-R67 retirados (ids não reutilizados). L2-R131 (T-105) entra com o aceite D-T105-SALDO-ACEITE, em reposição ao L2-R67; a Tabela de Correções da seção 2 de saida/gce/T105_reconciliacao_2026-10-18.md prevalece sobre a Parte 1 do saldo_v2 (registro, sem efeito no item).
 
 ## Regras de elegibilidade (GBQ, D1)
 - R4-b (adendo 1) vale para os 43 PARCIAIS da onda 3 (seção 3.1 da T97_reconciliacao): só simulado diagnóstico (D-ADERENCIA).
 - R1 (VOLÁTIL) vale para 29 itens: L1-R49, L1-R54, L1-R57, L1-R65, L1-R67, L1-R69, L1-R86, L1-R87, L1-R88, L1-R110, L1-R114, L2-R24, L2-R25, L2-R37, L2-R56, L2-R57, L2-R60, L2-R61, L2-R66, L2-R77, L2-R81, L2-R82, L2-R85, L2-R94, L2-R99, L2-R100, L2-R120, L2-R121, L2-R125. Só simulado diagnóstico até a reverificação de 4–8/1/2027.
 - R6 (adendo 1): conferência de base em 4–8/1/2027, sem efeito de VOLÁTIL, para todos os demais itens com base em página de fornecedor ou norma (T-11, partes P1 e P2).
-- Montagem (D2 da GBQ, a aplicar nos simulados): os pares da T97_reconciliacao, seção 6 (R23 × L2-Q03; R40 × R33; R55 × R64; R105 × L2-Q06; R108 × R115; R111 × R43; R24 × R37; R27 × L1-R37; R122 × L1-R94; R121 × L1-R120; R62 × R84) não figuram no mesmo simulado ou caderno.
+- Montagem (D2 da GBQ, a aplicar nos simulados): os pares da T97_reconciliacao, seção 6 (R23 × L2-Q03; R40 × R33; R55 × R64; R105 × L2-Q06; R108 × R115; R111 × R43; R24 × R37; R27 × L1-R37; R122 × L1-R94; R121 × L1-R120; R62 × R84); e L2-R131 × L2-R68 (D-T105-SALDO-ACEITE; 12ª proximidade da T97_reconciliacao, seção 6) não figuram no mesmo simulado ou caderno.
 - Núcleo (D-REFORCO-2): campo "nucleo" no pacote_estudante.json, critério da D1 (seção 3); não é marca deste registro.
 - Identificadores: L1-Rnnn, L2-Rnnn e L6B-Rnn passam a admitir três dígitos no número (R100 a R131).
 
@@ -33,7 +34,8 @@ Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10
 | L1, onda 2 | 111 | 56 | 55 | 65 | 11 | 0 | 100 |
 | L1, saldo da onda 2 | 1 | 0 | 1 | 1 | 0 | 0 | 1 |
 | L2, onda 3 | 111 | 56 | 55 | 69 | 18 | 43 | 56 |
-| TOTAL | 225 | 113 | 112 | 136 | 29 | 43 | 159 |
+| L2, saldo da onda 3 | 1 | 0 | 1 | 1 | 0 | 0 | 1 |
+| TOTAL | 226 | 113 | 113 | 137 | 29 | 43 | 160 |
 
 ## Itens por folha (v1.9 → v1.10; todos os itens do pacote, banco e AUTORAL)
 | Folha | v1.9 | + novos | v1.10 | diretas v1.10 |
@@ -50,7 +52,7 @@ Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10
 | P2-2.1 | 6 | 14 | 20 | 10 |
 | P2-2.2 | 6 | 14 | 20 | 13 |
 | P2-2.3 | 6 | 14 | 20 | 10 |
-| P2-2.4 | 6 | 13 | 19 | 10 |
+| P2-2.4 | 6 | 14 | 20 | 11 |
 | P2-2.5 | 6 | 14 | 20 | 17 |
 | P2-2.6 | 6 | 14 | 20 | 16 |
 | P2-2.7 | 6 | 14 | 20 | 18 |
@@ -284,4 +286,5 @@ Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10
 | L2-R128 | E | P2-2.8 | TS |  | direta | D | Definição regimental de parecer: proposição com que uma Comissão (e não o Plenário da Câmara) se pronuncia sobre qualquer matéria sujeita a seu estudo |
 | L2-R129 | E | P2-2.8 | TS |  | direta | PC | Emenda de redação é a emenda modificativa (e não aditiva) que visa a sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto |
 | L2-R130 | E | P2-2.8 | TS |  | parcial | PC | Quem fala nas Comunicações Parlamentares (representantes de Partidos e Blocos indicados pelos Líderes) e nas Comunicações de Lideranças (os Líderes, por tempo proporcional à bancada) |
+| L2-R131 | E | P2-2.4 | TS |  | direta | PC (fala contínua × pausa; items × audio_segments) | Na saída em lote do Amazon Transcribe, o elemento audio_segments registra, com início e fim, trechos de fala contínua (pausas mínimas); a pausa fica fora do segmento, e não é ela que o segmento delimita |
 Formato e ponto de julgamento: colunas do mapa (Parte 1) do arquivo de origem, literais (SH situação hipotética, PC par confundível, TS troca de sujeito, NP número ou prazo, AP aplicação parlamentar, D definição), salvo L1-R99 (PC, T96_reconciliacao, seção 3).

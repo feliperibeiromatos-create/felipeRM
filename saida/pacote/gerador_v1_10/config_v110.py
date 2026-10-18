@@ -8,10 +8,13 @@ E_L2R131: L2-R131 (T-105), só com o gatilho A da T-105 aceito antes da geraçã
 GERADO_EM: data da geração (a final fixa a do dia em que rodar; o ensaio usa 18/10/2026)."""
 import os
 
-E_CURSO = os.environ.get('T104_E_CURSO', '') == '1'
+# GERAÇÃO FINAL (18/10/2026, ciclo s13c2; D-ONDA4-FILA-2 (2)): chaves fixadas pelos aceites da presidencia — E_CURSO pela D-T106-CURSO-ACEITE; E_L2R131 e ATO_L2R131
+# pela D-T105-SALDO-ACEITE (adendo 1 da D1). As variáveis de ambiente do ensaio deixam de ser lidas. FINAL: a conferência (3) admite os promovidos e o contrato v1.2.7.
+E_CURSO = True
 E_PADRAO = True
-E_L2R131 = os.environ.get('T104_L2R131', '') == '1'
-ATO_L2R131 = os.environ.get('T104_ATO_L2R131', 'D-T105-SALDO-ACEITE')
+E_L2R131 = True
+ATO_L2R131 = 'D-T105-SALDO-ACEITE'
 GERADO_EM = '2026-10-18'
+FINAL = True
 NOME = 'Câmara 2026 — pacote F4 (v1.10)'
 NOME_E = 'Câmara 2026 — pacote do estudante (v1.10-E)'

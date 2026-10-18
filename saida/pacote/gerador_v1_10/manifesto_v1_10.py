@@ -14,11 +14,13 @@ ATIVOS = {'_run.py': 'passos 1–8 (executor isolado)', 'config_v110.py': 'módu
           'manifesto_v1_10.py': 'passo 8', 'common.py': 'módulo', 'refs.py': 'módulo', 'rodar_tudo.sh': 'runner'}
 def h(p): b = open(p, 'rb').read(); return hashlib.sha256(b).hexdigest(), len(b)
 L = []; w = L.append
-w('# MANIFESTO — T-104 — gerador v1.10 do pacote.json, do pacote_estudante.json e da edição .md (ENSAIO) — 2026-10-18 — gerado por gbq-gerencia (manifesto_v1_10.py)')
+w('# MANIFESTO — T-104 — gerador v1.10 do pacote.json, do pacote_estudante.json e da edição .md (%s) — 2026-10-18 — gerado por gbq-gerencia (manifesto_v1_10.py)' % ('GERAÇÃO FINAL' if getattr(cfg, 'FINAL', False) else 'ENSAIO'))
 w('')
 w('Origem: cópia de `saida/pacote/gerador_v1_9/` (intacta), sem `out/`, mais as mudanças mínimas da D1 da GBQ (`saida/pacote/T104_D1_v1_10_2026-10-18.md`). Base do pacote: a v1.9 aceita (D-PACOTE-V19), lida do git no commit `c26fc13` (SHA-256 `13660554…`); os 334 itens e os demais blocos não são regenerados, salvo as trocas da D-ABSORCAO-V110 e da D-ABSORCAO-V110-E. Novos: 225 itens (L6B-R01/R02, onda 2, L1-R131, onda 3).')
 w('')
-w('Modo desta execução: E_CURSO=%s; E_PADRAO=%s; E_L2R131=%s; geradoEm %s. ENSAIO: nenhuma saída promovida; `saida/pacote/pacote.json` e `pacote_estudante.json` continuam a v1.9.' % (cfg.E_CURSO, cfg.E_PADRAO, cfg.E_L2R131, cfg.GERADO_EM))
+w('Modo desta execução: E_CURSO=%s; E_PADRAO=%s; E_L2R131=%s (ATO_L2R131 %s); geradoEm %s. %s' % (cfg.E_CURSO, cfg.E_PADRAO, cfg.E_L2R131, cfg.ATO_L2R131, cfg.GERADO_EM,
+  'GERAÇÃO FINAL (D-T106-CURSO-ACEITE; D-T105-SALDO-ACEITE; D-ONDA4-FILA-2 (2); adendo 1 da D1): `out/pacote.json`, `out/pacote_estudante.json`, `out/estudante/` (35) e `out/registro_adendo2.md` promovidos byte a byte a `saida/pacote/`, `saida/estudante/` e `saida/gbq/claude_GBQ_Registro_AUTORAL_v3_adendo2_%s.md`; contrato v1.2.7 aplicado (`saida/pacote/contrato_v1_2_7_2026-10-18.md`).' % cfg.GERADO_EM
+  if getattr(cfg, 'FINAL', False) else 'ENSAIO: nenhuma saída promovida; `saida/pacote/pacote.json` e `pacote_estudante.json` continuam a v1.9.'))
 w('')
 w('## Pipeline (`sh rodar_tudo.sh`; cada passo com `python3 -I -B _run.py <script>`)')
 w('| Passo | Script | Saída |')
@@ -41,7 +43,7 @@ for f in sorted(os.listdir(HERE)):
     est = 'novo' if not os.path.exists(q) else ('igual' if open(q, 'rb').read() == open(p, 'rb').read() else 'alterado')
     w('| `%s` | `%s` | %d | %s | %s |' % (f, s, b, est, ATIVOS.get(f, 'herdado; só registro (não executado)')))
 w('')
-w('## out/ (regerado a cada execução; prévia do ensaio)')
+w('## out/ (regerado a cada execução; %s)' % ('fonte dos promovidos' if getattr(cfg, 'FINAL', False) else 'prévia do ensaio'))
 w('| Arquivo | SHA-256 | Bytes |')
 w('|---|---|---|')
 for r, ds, fs in sorted(os.walk(OUT)):

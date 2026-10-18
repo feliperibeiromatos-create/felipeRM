@@ -151,3 +151,60 @@
 
 - Item do edital: P2-4.3
 - Justificativa: LGPD, art. 5º, XV; art. 33, I e II. Transferência de dados pessoais para o exterior só é permitida nos casos do art. 33; "pode configurar" ressalva a análise do caso.
+
+## Itens de reforço
+
+### L3-R01 — Gabarito: C
+
+- Item do edital: P2-3.1 (aderência: parcial)
+- Justificativa: RICD, art. 73, VI: "somente após essa concessão [da palavra pelo Presidente] a taquigrafia iniciará o apanhamento do discurso". A captação contínua do áudio pelo sistema automático não altera a regra regimental sobre o início do apanhamento do discurso.
+
+### L3-R02 — Gabarito: E
+
+- Item do edital: P2-3.1 (aderência: parcial)
+- Justificativa: RICD, art. 78: a gravação das sessões "depende de prévia autorização do Presidente" e obedece às normas fixadas pela Mesa. O item troca o sujeito da autorização (Presidente) por "Plenário".
+
+### L3-R03 — Gabarito: E
+
+- Item do edital: P2-3.2
+- Justificativa: o KNN exaustivo faz varredura de todo o espaço e fornece os vizinhos exatos; os ANN, como o HNSW, "sacrificam alguma exatidão" por escala e velocidade. O item inverte os papéis dos dois métodos.
+
+### L3-R04 — Gabarito: C
+
+- Item do edital: P2-3.2
+- Justificativa: "Cosine distance is defined as 1 - cosine_similarity": quanto maior a similaridade, menor a distância. O item descreve o conceito, sem referir pontuações específicas de produto.
+
+### L3-R05 — Gabarito: C
+
+- Item do edital: P2-3.3 (aderência: parcial)
+- Justificativa: RICD, art. 98, § 2º: o Deputado pode retirar o discurso na Taquigrafia para revisão e, "caso o orador não devolva o discurso dentro de cinco sessões", a Taquigrafia publica o texto sem a revisão do orador. O item reproduz o prazo e a consequência.
+
+### L3-R06 — Gabarito: E
+
+- Item do edital: P2-3.3
+- Justificativa: RICD, art. 97, caput: a ata é lavrada com a sinopse dos trabalhos, "cuja redação obedecerá a padrão uniforme adotado pela Mesa". O item troca "Mesa" por "Segundo-Secretário" (a quem cabe ler a ata, art. 80, e não fixar o padrão).
+
+### L3-R07 — Gabarito: C
+
+- Item do edital: P2-3.4
+- Justificativa: o README oficial descreve o modelo como treinado em várias tarefas de processamento de fala (reconhecimento multilíngue, tradução, identificação do idioma falado), "allowing a single model to replace many stages of a traditional speech-processing pipeline". O item parece trocar o sujeito, mas atribui corretamente as tarefas ao mesmo modelo, e não a módulos encadeados.
+
+### L3-R08 — Gabarito: C
+
+- Item do edital: P2-3.4
+- Justificativa: "If the embedding space includes multilingual content, vector queries can find the match with no language analyzers or translation required". O item usa "pode recuperar", sem prometer desempenho igual entre idiomas (compatível com L3-Q13).
+
+### L3-R09 — Gabarito: C
+
+- Item do edital: P2-4.2
+- Justificativa: Lei 9.610/1998, art. 41, caput: setenta anos contados de 1º de janeiro do ano subsequente ao do falecimento, obedecida a ordem sucessória da lei civil; parágrafo único: prazo aplicável às obras póstumas.
+
+### L3-R10 — Gabarito: E
+
+- Item do edital: P2-4.3
+- Justificativa: LGPD, art. 48, § 1º: a comunicação será feita "em prazo razoável, conforme definido pela autoridade nacional"; a lei não fixa 72 horas. O item troca o prazo definido pela autoridade por prazo numérico fixado na própria lei.
+
+### L3-R11 — Gabarito: E
+
+- Item do edital: P2-4.3
+- Justificativa: LGPD, art. 47: os agentes de tratamento e quem intervenha em qualquer fase do tratamento obrigam-se a garantir a segurança da informação "mesmo após o seu término". O item troca "mesmo após" por cessação com o fim do contrato.

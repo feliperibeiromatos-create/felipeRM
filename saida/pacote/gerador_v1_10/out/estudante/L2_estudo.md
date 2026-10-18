@@ -415,7 +415,9 @@ DEFINIÇÃO
  - Riscos: reforço excessivo faz o sistema inserir o termo reforçado
    onde ele não foi dito (falso positivo) e pode piorar outras palavras;
    listas ficam desatualizadas (nomes mudam a cada legislatura);
-   adaptação não corrige sotaque nem ruído.
+   adaptação não remove o ruído nem trata a causa acústica (sotaque pede
+   dados acústicos), embora possa melhorar o reconhecimento dos termos
+   esperados quando o áudio é ruidoso ou pouco claro.
  - Avaliação correta: separar os dados usados para adaptar dos dados de
    teste; medir o WER geral e também o acerto dos termos-alvo, antes e
    depois.

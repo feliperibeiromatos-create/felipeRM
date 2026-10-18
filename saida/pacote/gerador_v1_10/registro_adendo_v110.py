@@ -14,7 +14,7 @@ GRUPOS = collections.OrderedDict([('L6B', 'L6B (saldo do R4 da onda 1)'), ('ONDA
 ATO = {'L6B': 'D-T102-R4-SALDO', 'ONDA2': 'D-T96-ONDA2-ACEITE', 'SALDO2': 'D-T103-SALDO-ACEITE', 'ONDA3': 'D-T97-ONDA3-ACEITE', 'SALDO3': cfg.ATO_L2R131}
 L = []; w = L.append
 w('# claude_GBQ_Registro_AUTORAL_v3_adendo2_%s.md — T-104 — %s — gerado por gbq-gerencia' % (cfg.GERADO_EM, cfg.GERADO_EM))
-w('# GBQ — REGISTRO DE ITENS AUTORAL — v3, ADENDO 2: L6B-R01/R02, ondas 2 e 3 do reforço e saldo L1-R131 (%s)' % cfg.GERADO_EM)
+w('# GBQ — REGISTRO DE ITENS AUTORAL — v3, ADENDO 2: L6B-R01/R02, ondas 2 e 3 do reforço e saldos L1-R131%s (%s)' % (' e L2-R131' if cfg.E_L2R131 else '', cfg.GERADO_EM))
 w('Emitido pela GBQ (D1, saida/pacote/T104_D1_v1_10_2026-10-18.md, seção 2). Acrescenta ao registro v3 + adendo 1 (que ficam intactos) os %d itens AUTORAL aceitos como canônicos depois da v1.9 (%s). Registro vigente = v3 + adendo 1 + este adendo.'
   % (len(m), ', '.join(ATO[g] for g in ATO if g in st['arquivos'])))
 w('Não reproduz enunciados; só metadados para montagem, conferência e calibração. Texto gerado por saida/pacote/gerador_v1_10/registro_adendo_v110.py.')
@@ -25,7 +25,7 @@ w('|---|---|---|---|---|')
 for gk, arqs in st['arquivos'].items():
     for a in arqs:
         w('| %s | %s | %d | %s | %s |' % (GRUPOS[gk], a['arquivo'], a['ids'], a['sha256'], ATO[gk]))
-w('Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10-18.md, seção 3 (L1-R99 com formato PC); T97_reconciliacao_2026-10-18.md, seções 2 a 7. L1-R43 e L2-R67 retirados (ids não reutilizados). L2-R131 (T-105) não entra neste adendo sem aceite.' if 'SALDO3' not in st['arquivos'] else 'L2-R131 (T-105) entra com o aceite %s.' % cfg.ATO_L2R131)
+w('Registros que prevalecem sobre a Parte 1 dos arquivos: T96_reconciliacao_2026-10-18.md, seção 3 (L1-R99 com formato PC); T97_reconciliacao_2026-10-18.md, seções 2 a 7. L1-R43 e L2-R67 retirados (ids não reutilizados). ' + ('L2-R131 (T-105) não entra neste adendo sem aceite.' if 'SALDO3' not in st['arquivos'] else 'L2-R131 (T-105) entra com o aceite %s, em reposição ao L2-R67; a Tabela de Correções da seção 2 de saida/gce/T105_reconciliacao_2026-10-18.md prevalece sobre a Parte 1 do saldo_v2 (registro, sem efeito no item).' % cfg.ATO_L2R131))
 w('')
 w('## Regras de elegibilidade (GBQ, D1)')
 par = [k for k, v in m.items() if v['aderencia'] == 'parcial']
@@ -33,7 +33,7 @@ vol = [k for k, v in m.items() if v['volatil']]
 w('- R4-b (adendo 1) vale para os %d PARCIAIS da onda 3 (seção 3.1 da T97_reconciliacao): só simulado diagnóstico (D-ADERENCIA).' % len(par))
 w('- R1 (VOLÁTIL) vale para %d itens: %s. Só simulado diagnóstico até a reverificação de 4–8/1/2027.' % (len(vol), ', '.join(vol)))
 w('- R6 (adendo 1): conferência de base em 4–8/1/2027, sem efeito de VOLÁTIL, para todos os demais itens com base em página de fornecedor ou norma (T-11, partes P1 e P2).')
-w('- Montagem (D2 da GBQ, a aplicar nos simulados): os pares da T97_reconciliacao, seção 6 (R23 × L2-Q03; R40 × R33; R55 × R64; R105 × L2-Q06; R108 × R115; R111 × R43; R24 × R37; R27 × L1-R37; R122 × L1-R94; R121 × L1-R120; R62 × R84) não figuram no mesmo simulado ou caderno.')
+w('- Montagem (D2 da GBQ, a aplicar nos simulados): os pares da T97_reconciliacao, seção 6 (R23 × L2-Q03; R40 × R33; R55 × R64; R105 × L2-Q06; R108 × R115; R111 × R43; R24 × R37; R27 × L1-R37; R122 × L1-R94; R121 × L1-R120; R62 × R84)%s não figuram no mesmo simulado ou caderno.' % ('; e L2-R131 × L2-R68 (D-T105-SALDO-ACEITE; 12ª proximidade da T97_reconciliacao, seção 6)' if cfg.E_L2R131 else ''))
 w('- Núcleo (D-REFORCO-2): campo "nucleo" no pacote_estudante.json, critério da D1 (seção 3); não é marca deste registro.')
 w('- Identificadores: L1-Rnnn, L2-Rnnn e L6B-Rnn passam a admitir três dígitos no número (R100 a R131).')
 w('')

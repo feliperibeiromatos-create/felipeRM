@@ -836,3 +836,8 @@
 
 - Item do edital: P2-2.8 (aderência: parcial)
 - Justificativa: As Comunicações de Lideranças (art. 89, a que remete o art. 66, § 1º) destinam-se aos Líderes, por tempo proporcional às bancadas; as Comunicações Parlamentares (arts. 66, IV, e 90) cabem a oradores indicados pelos Líderes, chamados alternadamente por Partidos e Blocos (art. 90, parágrafo único).
+
+### L2-R131 — Gabarito: E
+
+- Item do edital: P2-2.4
+- Justificativa: Segundo a documentação do Amazon Transcribe, um segmento de áudio é um trecho da gravação com fala ininterrupta e pausas mínimas, registrado em audio_segments com horário de início e de fim; a pausa não é o que o segmento registra. O item troca "trechos de fala contínua" por "as pausas existentes entre as falas" (única troca); a oração sobre o elemento items é verdadeira.

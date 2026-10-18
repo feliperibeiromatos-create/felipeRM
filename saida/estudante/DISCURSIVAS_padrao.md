@@ -297,7 +297,7 @@ Aspectos:
        sobre sequências e contexto;
  (xv) risco, em lista fechada: sobre-reforço com inserção de termo não
       dito; listas desatualizadas (a cada legislatura); a adaptação não
-      corrige sotaque nem ruído;
+      trata a causa acústica (ruído, sotaque), que pede dados acústicos;
  (xvi) atualização periódica e avaliação em dados distintos dos usados
        para adaptar.
 Conceito 0 — Não abordou, ou equiparou adaptação a retreino acústico.

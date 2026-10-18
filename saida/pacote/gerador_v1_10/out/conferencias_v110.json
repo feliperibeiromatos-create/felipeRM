@@ -1,11 +1,11 @@
 {
- "total": 18,
- "ok": 18,
+ "total": 23,
+ "ok": 23,
  "conferencias": [
   {
    "id": "0a",
    "ok": true,
-   "msg": "v1.10 sem os 225, sem as trocas ['a1', 'a2', 'e1'] e com nome/data da v1.9 = v1.9 byte a byte (13660554…)"
+   "msg": "v1.10 sem os 225, sem as trocas ['a1', 'a2', 'e1', 'e2'] e com nome/data da v1.9 = v1.9 byte a byte (13660554…)"
   },
   {
    "id": "0b",
@@ -80,17 +80,42 @@
   {
    "id": "3a",
    "ok": true,
-   "msg": "saida/pacote/pacote.json e pacote_estudante.json = v1.9 (não sobrescritos)"
+   "msg": "FINAL: saida/pacote/pacote.json e pacote_estudante.json = v1.9 (antes da promoção) ou = out/ byte a byte (promovidos): promovidos"
   },
   {
    "id": "3b",
    "ok": true,
-   "msg": "saida/estudante, saida/simulados, saida/gbq, regras e gerador_v1_9 sem mudança no disco ('')"
+   "msg": "FINAL: saida/simulados e gerador_v1_9 sem mudança; em regras só pacote_contrato.md (v1.2.7); em saida/gbq só o adendo 2 = out/registro_adendo2.md ([])"
   },
   {
    "id": "3c",
    "ok": true,
-   "msg": "saida/estudante = edição v1.8 (46496ca)"
+   "msg": "FINAL: saida/estudante = edição v1.8 (46496ca) ou = out/estudante/ byte a byte (35 arquivos, promovidos)"
+  },
+  {
+   "id": "4a",
+   "ok": true,
+   "msg": "base: v1.2.6 do HEAD = 7e749c88…"
+  },
+  {
+   "id": "4b",
+   "ok": true,
+   "msg": "linha 1 = v1.2.7; linha 3 = a da v1.2.6 + a frase da v1.2.7; uma só seção \"Errata de forma da v1.2.7\""
+  },
+  {
+   "id": "4c",
+   "ok": true,
+   "msg": "diff contra a v1.2.6 = C-1 (l. 1), C-2 (l. 3) e C-3 (inserção depois da l. 167): [('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 168, 168, 168, 195)]"
+  },
+  {
+   "id": "4d",
+   "ok": true,
+   "msg": "registro contrato_v1_2_7_2026-10-18.md com os SHA antes (7e749c88…) e depois (461acdce…)"
+  },
+  {
+   "id": "4e",
+   "ok": true,
+   "msg": "tabela de fonte da v1.2.7 = os 11 arquivos lidos pelo gerador, com o prefixo do SHA-256 (11 linhas)"
   }
  ]
 }

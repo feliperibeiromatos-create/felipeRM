@@ -1,8 +1,8 @@
 {
  "arquivo": "out/pacote_estudante.json",
- "bytes": 838639,
+ "bytes": 839834,
  "regras": {
-  "url AUTORAL (valor inteiro apagado)": 453,
+  "url AUTORAL (valor inteiro apagado)": 454,
   "F (parêntese)": 83,
   "V": 55,
   "F (prosa: referência a fonte)": 51,
@@ -44,7 +44,7 @@
   "id de decisão na nota (D-LEI-15352)": 1,
   "marca de processo (\"neste chat\")": 1
  },
- "total_remocoes": 1065,
+ "total_remocoes": 1066,
  "por_campo": {
   "lotes[].resumo": {
    "campos_alterados": 6,
@@ -159,10 +159,10 @@
    }
   },
   "itens[].url (AUTORAL)": {
-   "campos_alterados": 453,
-   "remocoes": 453,
+   "campos_alterados": 454,
+   "remocoes": 454,
    "regras": {
-    "url AUTORAL (valor inteiro apagado)": 453
+    "url AUTORAL (valor inteiro apagado)": 454
    }
   },
   "itens[].justificativa (AUTORAL, reforço)": {
@@ -218,7 +218,7 @@
    "regras": {}
   }
  },
- "campos_comparados_so_delecao": 1538,
+ "campos_comparados_so_delecao": 1539,
  "caixa": {
   "pares": 8,
   "ocorrencias": 8
@@ -354,7 +354,7 @@
  "processo": 0,
  "termos_fora_da_lista": {
   "Presidente": 42,
-  "Projeto": 461,
+  "Projeto": 462,
   "OpenAI": 32,
   "Anthropic": 6,
   "Gemini": 6,
@@ -1041,7 +1041,7 @@
    }
   },
   "P2-2.4": {
-   "itens": 19,
+   "itens": 20,
    "nucleo": 10,
    "ids_nucleo": [
     "L2-Q13",
@@ -1297,7 +1297,7 @@
   "origem_v1_10": {
    "L1": 150,
    "L1C": 10,
-   "L2": 159,
+   "L2": 160,
    "L3": 41,
    "L4": 20,
    "L4C": 10,
@@ -1308,7 +1308,7 @@
   },
   "depois_v1_10_E": {
    "L1": 160,
-   "L2": 159,
+   "L2": 160,
    "L3": 41,
    "L4": 30,
    "L5": 30,

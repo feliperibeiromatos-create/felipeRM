@@ -76,3 +76,15 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 
 - Item do edital: P1-4.3
 - Justificativa: GI invertida (tentação: saber que o HTTPS autentica o servidor e concluir que ele garante que o site é o da instituição pretendida → marcar E). Curso 4.3.4: HTTPS é o HTTP sobre conexão TLS; o servidor é autenticado para o domínio acessado e a comunicação ganha confidencialidade e integridade, mas isso não garante que o domínio seja o da instituição pretendida nem a boa-fé do titular; páginas fraudulentas, em domínios próprios, também podem usar HTTPS. Fonte: o restante é conceito geral.
+
+## Itens de reforço
+
+### L6B-R01 — Gabarito: C
+
+- Item do edital: P1-4.3
+- Justificativa: diante de mensagem suspeita que pede dados por link, a orientação é não clicar no link e verificar a solicitação com a organização por meio de canais oficiais, obtidos de forma independente da mensagem. O item descreve exatamente essa conduta, sem exigir que a mensagem seja de fato fraudulenta.
+
+### L6B-R02 — Gabarito: E
+
+- Item do edital: P1-4.3
+- Justificativa: a relação é a inversa da apresentada: o pharming é um tipo específico de phishing, e não o contrário. O item faz do phishing a espécie e do pharming o gênero.

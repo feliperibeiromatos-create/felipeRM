@@ -18,4 +18,4 @@ python3 -I -B _run.py validate_v110.py > out/validate_stdout.txt
 python3 -I -B _run.py conferencias_v110.py > out/conferencias_stdout.txt
 python3 -I -B _run.py validar_erros_teste.py > out/validar_erros_stdout.txt
 python3 -I -B _run.py manifesto_v1_10.py >&2
-echo "pipeline completo (ENSAIO): out/ regerado em $D/out" >&2
+echo "pipeline completo: out/ regerado em $D/out (modo em config_v110.py; promoção é ato separado da geração final)" >&2

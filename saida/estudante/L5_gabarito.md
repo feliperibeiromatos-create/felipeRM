@@ -148,7 +148,7 @@ Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição e
 ### 5C-08 — Gabarito: E
 
 - Item do edital: P1-8.4
-- Justificativa: TC (título descritivo no lugar do título que afirma a conclusão). Curso 8.4, método: dirigir a atenção (cor, contraste, tamanho, posição, anotações; título que afirma a conclusão); curso 8.4, estrutura: análise explanatória = mensagem definida, o público é conduzido; resumo 8.1: título afirmativo. O item restringe-se ao caso explanatório (mensagem já definida e público a conduzir) e nega o título afirmativo. Difere do item A5-20 porque aquele julga cor de destaque e anotações; este julga o título. É o item deste lote mais próximo de um canônico (A5-20): o ponto de julgamento é outro instrumento, mas o princípio, dirigir a atenção, é o mesmo.
+- Justificativa: TC (título descritivo no lugar do título que afirma a conclusão). Curso 8.4, método: dirigir a atenção (cor, contraste, tamanho, posição, anotações; título que afirma a conclusão); curso 8.4, estrutura: análise explanatória = mensagem definida, o público é conduzido; resumo 8.1: título afirmativo. O item restringe-se ao caso explanatório (mensagem já definida e público a conduzir) e nega o título afirmativo. Difere do item A5-20 porque aquele julga cor de destaque e anotações; este julga o título. É, entre os itens 5C, o mais próximo do item A5-20: o ponto de julgamento é outro instrumento, mas o princípio, dirigir a atenção, é o mesmo.
 
 ### 5C-09 — Gabarito: C
 

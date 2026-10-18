@@ -1,11 +1,11 @@
 A1   OK   versao, nome e geradoEm da v1.10
 A2   OK   chaves de topo iguais às da v1.9
-A3   OK   559 itens; os 334 da v1.9 primeiro, na mesma ordem
+A3   OK   560 itens; os 334 da v1.9 primeiro, na mesma ordem
 A4   OK   dos 334 da v1.9, só o 5C-08 muda (['5C-08'])
 A5   OK   5C-08: só a troca da errata T-83 na justificativa
 A6   OK   edital e simulados idênticos aos da v1.9
 A7   OK   lotes: só o L2 muda (['L2'])
-A8   OK   L2: só o curso, com a(s) troca(s) T-84
+A8   OK   L2: só o curso, com a(s) troca(s) T-84 e T-106
 A9   OK   discursivas: só D3.padrao, aspecto (xv) (['D3'])
 A10  OK   L4-11 com o texto da v1.8 (D-ABSORCAO-V110 (c))
 B1   OK   forma: 14 campos na ordem do contrato (+ volatil só quando verdadeiro)
@@ -14,7 +14,7 @@ B3   OK   rotulo, certame, ano, textoBase, gabarito e justificativa
 B4   OK   todo itemEdital existe no edital
 B5   OK   0 "QA PENDENTE" nos itens
 B6   OK   ids e ordem: L6B-R01/R02, L1-R19…R130 (sem R43), L1-R131, L2-R19…R130 (sem R67)
-B7   OK   C/E: novos 113/112; pacote 285/274
+B7   OK   C/E: novos 113/113; pacote 285/275
 B8   OK   volatil: os 29 das decisões; 54 no pacote
 B9   OK   parcial: os 43 da T97_reconciliacao 3.1; 88 no pacote
 B10  OK   cargo e numero
@@ -35,4 +35,4 @@ C10  OK   nucleo: min(10, n) por folha
 D1   OK   registro adendo 2: 225 linhas de item, mesmos ids e ordem do pacote
 E1   OK   edição .md: 35 arquivos (34 + NUCLEO.md)
 E2   OK   edição .md: seção "Itens de reforço" em 10 arquivos (_itens e _gabarito de L1, L2, L3, L6A, L6B)
-validate_v110: 37/37 OK (modo E_CURSO=False, E_PADRAO=True, E_L2R131=False)
+validate_v110: 37/37 OK (modo E_CURSO=True, E_PADRAO=True, E_L2R131=True)

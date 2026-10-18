@@ -1,8 +1,8 @@
-# MANIFESTO — T-104 — gerador v1.10 do pacote.json, do pacote_estudante.json e da edição .md (ENSAIO) — 2026-10-18 — gerado por gbq-gerencia (manifesto_v1_10.py)
+# MANIFESTO — T-104 — gerador v1.10 do pacote.json, do pacote_estudante.json e da edição .md (GERAÇÃO FINAL) — 2026-10-18 — gerado por gbq-gerencia (manifesto_v1_10.py)
 
 Origem: cópia de `saida/pacote/gerador_v1_9/` (intacta), sem `out/`, mais as mudanças mínimas da D1 da GBQ (`saida/pacote/T104_D1_v1_10_2026-10-18.md`). Base do pacote: a v1.9 aceita (D-PACOTE-V19), lida do git no commit `c26fc13` (SHA-256 `13660554…`); os 334 itens e os demais blocos não são regenerados, salvo as trocas da D-ABSORCAO-V110 e da D-ABSORCAO-V110-E. Novos: 225 itens (L6B-R01/R02, onda 2, L1-R131, onda 3).
 
-Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 2026-10-18. ENSAIO: nenhuma saída promovida; `saida/pacote/pacote.json` e `pacote_estudante.json` continuam a v1.9.
+Modo desta execução: E_CURSO=True; E_PADRAO=True; E_L2R131=True (ATO_L2R131 D-T105-SALDO-ACEITE); geradoEm 2026-10-18. GERAÇÃO FINAL (D-T106-CURSO-ACEITE; D-T105-SALDO-ACEITE; D-ONDA4-FILA-2 (2); adendo 1 da D1): `out/pacote.json`, `out/pacote_estudante.json`, `out/estudante/` (35) e `out/registro_adendo2.md` promovidos byte a byte a `saida/pacote/`, `saida/estudante/` e `saida/gbq/claude_GBQ_Registro_AUTORAL_v3_adendo2_2026-10-18.md`; contrato v1.2.7 aplicado (`saida/pacote/contrato_v1_2_7_2026-10-18.md`).
 
 ## Pipeline (`sh rodar_tudo.sh`; cada passo com `python3 -I -B _run.py <script>`)
 | Passo | Script | Saída |
@@ -27,10 +27,10 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `common.py` | `e81bc75dfb4faae7832f5ae8262c5f4b4c3992a249bb8529370112f1f3771848` | 6205 | igual | módulo |
 | `conferencia_f_2026-10-17_v1_8.json` | `3badf68f4f9a0d188c23f7c6558b67d3b92b8178553b51b9ce58d0e8e9399d02` | 1553 | igual | herdado; só registro (não executado) |
 | `conferencias_R1.py` | `587a8d4212429b2c4917c669106af4cb4864cd811481de6b473828bc6e6cc92e` | 31123 | igual | herdado; só registro (não executado) |
-| `conferencias_v110.py` | `17b2debb768bae58ea07c5a150fe32dd960de290df59cad990c0477a27b2eada` | 6469 | novo | passo 6 |
+| `conferencias_v110.py` | `dbbb09fcd4d7f132be7a9f006121a525681d2eecc4e3237d1689793fc93c49c9` | 11854 | novo | passo 6 |
 | `conferencias_v18.py` | `0b41b1cf8d02e148de32b7480a84ea0f7c28138b52f58b353c936a72b4e357e1` | 107983 | igual | herdado; só registro (não executado) |
 | `conferencias_v19.py` | `7989b577d1e5424feba5817c1b352c8ee69b827e37878b1cbbf3b66acfc9727c` | 11042 | igual | herdado; só registro (não executado) |
-| `config_v110.py` | `5d2d29a6eac570c7ef46d8d7821fbe8da8e2594bbca5770bf3afcae86d1f8343` | 1396 | novo | módulo (chaves da ocorrência) |
+| `config_v110.py` | `cfe023934ef0153b994349299fbf0210c7898c8c4d32edcd67a63c3b5d97a281` | 1640 | novo | módulo (chaves da ocorrência) |
 | `diff.py` | `59fef679b240aa9e1ae7895813f4dd7be8251ae06a69921d37874ff843376bfb` | 1751 | igual | herdado; só registro (não executado) |
 | `diff2.py` | `6513c3b66b2b0e09669a8624f77408fe8f4f1ce6f350a391e82558e5262901d0` | 1547 | igual | herdado; só registro (não executado) |
 | `edital_p.py` | `0f7ed100392cdba1c09e1cf2dce107801c2fe8225920a5d501d6fc42bf89423d` | 1183 | igual | herdado; só registro (não executado) |
@@ -44,7 +44,7 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `gce.py` | `e007ddaeac3b07f7f47fe7472c1ec6a1d418f731e185f4baaf678e822153212c` | 5972 | igual | herdado; só registro (não executado) |
 | `literais.py` | `93c64cd58bff76ab3afb8a7429cb3ba2b4d8af7353191e015d8949531b08518b` | 14182 | igual | herdado; só registro (não executado) |
 | `lotes_tab.txt` | `895e4d50479615c6963fcd35c01d3cd57aa8bad3994dec6c08a1a639517d27a2` | 912 | igual | herdado; só registro (não executado) |
-| `manifesto_v1_10.py` | `672491db8f10077dc1f21f2cbeb9bbc924e5e6870996287a543c46804a390a35` | 4803 | novo | passo 8 |
+| `manifesto_v1_10.py` | `9b2e8fed4b283f1a77d8c189ac4d4437570f0c13d2f1e96b553cb102073d3736` | 5421 | novo | passo 8 |
 | `manifesto_v1_8.py` | `0c8c61f097bc749a7acaa782bcf9ef5755e8222fb970686ffac8f8b79e825030` | 18423 | igual | herdado; só registro (não executado) |
 | `manifesto_v1_9.py` | `2b7b4bb020daa347a747ac3adac692e9262ab4f5bf2fe76a122c4cf4642113cc` | 4712 | igual | herdado; só registro (não executado) |
 | `marcas_processo.py` | `7ee30de455a5c0332aca1dae2148d7670eb86bac08294f0c61a80da4484cc140` | 8200 | igual | passo 2 (módulo: varredura R) |
@@ -59,7 +59,7 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `reforco_marcas_v110.py` | `0bf36b9b608734d9b9bf30d7e09524cad05a61c29036a4965d1e45f4282b4b71` | 2944 | novo | passo 2 (módulo; 225 novos) |
 | `reforco_v110.py` | `20a081e36790583b4f7f4347e9fb696425976ee9fd50ac3afc2d7154521f8db7` | 15313 | novo | passo 1 (módulo) |
 | `refs.py` | `c3135e2eaf196f7651bf98a9d4fb3a0675069ce74ac90cf78ebcf24699a94524` | 4183 | alterado | módulo |
-| `registro_adendo_v110.py` | `776a5c734f01764f9b576d4d50a8d6d01edf72cb8b31baa8c325e27fe23c13b9` | 5828 | novo | passo 3 |
+| `registro_adendo_v110.py` | `8d977fee42567649a60e70c807c7ed7b839aa663fdf57db7cf23debf15406297` | 6183 | novo | passo 3 |
 | `registro_adendo_v19.py` | `7e7c4ac1cc9a137d906e50abc65d744617128e0c761977fcb0c89b99f74acb3b` | 5817 | igual | herdado; só registro (não executado) |
 | `registry.py` | `6664fbc7a4bdb9a997a92def4c824c7cf2c1c6a4d31603cd22e77478c7bae78b` | 897 | igual | herdado; só registro (não executado) |
 | `relatorio_R1.py` | `616bbbcc9ff4f5ee976f9b92fe1e3e40cb35919da9c3386fa495335ff0db45ea` | 19839 | igual | herdado; só registro (não executado) |
@@ -68,7 +68,7 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `report2.py` | `92c1fb9c6ac8c727831f16d2db5928bddf3f1f66cee3e6dbb87f35c523c08cc3` | 44678 | igual | herdado; só registro (não executado) |
 | `resid.py` | `3e43ef78e0c82b3927ed5108facf18e5bc47307d6f2a5a0c266075e06d368082` | 481 | igual | herdado; só registro (não executado) |
 | `review.py` | `a1c4f135e564a160e0d09a6347c04c218693fd506e67a6678f9549e7996180ff` | 690 | igual | herdado; só registro (não executado) |
-| `rodar_tudo.sh` | `190dcd7d712e35e33da0e5ca49d68710f5894959ba7e57a8367a712812943154` | 1670 | alterado | runner |
+| `rodar_tudo.sh` | `7f8d29ae6e8021d97d80429d396eef9b0c320cde5fe63a13bc00beafe28b25db` | 1733 | alterado | runner |
 | `sync_check.py` | `b828c4291295034480eda023081d9b399bdfe11398f611172cf21ccc41e4b7d6` | 2868 | igual | herdado; só registro (não executado) |
 | `texts.py` | `c3ca12b7283710222c8baf681738b3d0e462207a30b81167d48e84be77bb0102` | 422 | igual | herdado; só registro (não executado) |
 | `validar_erros.py` | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | 18500 | igual | passo 7 (módulo e CLI) |
@@ -77,23 +77,23 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `validate_v110.py` | `85c29703b02fd2b8cc5b4879427464c6897fe25000a513aa85c88212ee7a4cdf` | 16075 | novo | passo 5 |
 | `validate_v19.py` | `5e3581239299b9c90faf991733599b4e93adac1e1a5e739816ab97282ed7ae9d` | 14513 | igual | herdado; só registro (não executado) |
 
-## out/ (regerado a cada execução; prévia do ensaio)
+## out/ (regerado a cada execução; fonte dos promovidos)
 | Arquivo | SHA-256 | Bytes |
 |---|---|---|
-| `out/conferencias_stdout.txt` | `9a273ab93294eba416fdf151913aaf36b899daa8f2715d8cd31ce17f84f8a54e` | 2226 |
-| `out/conferencias_v110.json` | `0871d1b23e38ca60428c8648311a4eef757632125e33fe1d56cbdd325381bbeb` | 2751 |
-| `out/estudante_json.json` | `8b20160fdde6e0f57c9ef78d3ba1f82376dee85aa28631eed7ef08f96228bea5` | 32596 |
-| `out/estudante_json_stdout.txt` | `e9d76ed337c82fa4fa956c83a7f6579402cbb7fda96728cfb47485947e905957` | 2438 |
-| `out/estudante_md_stdout.txt` | `4e6b799ad8070e45f66e1395050d547ca767d459d31b6f8e531aedcd9b8bd2a9` | 201 |
-| `out/gen_stdout.txt` | `8d9cb779860411f1cc683d8c8809011649efa90e680287af4db0eba256ecccd1` | 388 |
-| `out/pacote.json` | `1816020369e481ca06a633a75cfa7291272aee02c4b6eb9c77200540941884a8` | 858857 |
-| `out/pacote_estudante.json` | `562516d4cb7b71f58034224327ced70109a4aa8e5a7bee978f15609a315f2f9b` | 838639 |
-| `out/registro_adendo2.md` | `b2f3cd92e7477f190fbec7e1a51596af69eaafefe10a336127f8109c53dfea42` | 49148 |
-| `out/registro_stdout.txt` | `e6ba56ade2ec22ec651d02fb0e1923335c46425fde4004313e33f871f4cf1bd2` | 43 |
-| `out/stats_v110.json` | `4e1e09caf18a08be77b92c80622ce5745992825f83abddd13cb825dfe221761a` | 156758 |
+| `out/conferencias_stdout.txt` | `4ae80709e24ee16585cb5a9110a28028f7cf7a98a1fa7d0e5297add655ecdf48` | 3072 |
+| `out/conferencias_v110.json` | `32b6155a74c504670efdb9edc53e5ea2a0e3a7e7340d4af9372fa1368f392e40` | 3694 |
+| `out/estudante_json.json` | `bba3ceadaf69db4f1f68c58008f96ffd808b2b2b80e6e3351683eccad1b6bdfd` | 32596 |
+| `out/estudante_json_stdout.txt` | `ae8415ca3bb760fc3cbbd6930bec9c0bc017a1c12b0334fce7ba6d19fea20f1a` | 2438 |
+| `out/estudante_md_stdout.txt` | `af046cbc50fa2566010646b66012fe63dd37863851b57214ed7f49598cf852f6` | 207 |
+| `out/gen_stdout.txt` | `2284e993f4e8dda628fd59394bee9cd01471907570438975a0f952255d531c82` | 419 |
+| `out/pacote.json` | `d43c32de4b8afb221da91d94573adc426e4ce0fab0de1b1994b149e9d70c2fed` | 860070 |
+| `out/pacote_estudante.json` | `d8a68156f00e40c6a03937e678d2b3949c68c9ad24e8a7489ff883b5a3497b7f` | 839834 |
+| `out/registro_adendo2.md` | `3c1ba9a60e0cfe1e13458eea7fd414c702ddd9f99843f06795cb7f7effdce75c` | 49975 |
+| `out/registro_stdout.txt` | `024f9181bf1e256b337510c7803a538baafe04bac3de492f0c0f70ca779a216a` | 43 |
+| `out/stats_v110.json` | `170dde4129e0d7897f69b0686b2565b2d3abc94e4499773624aa52c540c7554d` | 157944 |
 | `out/validar_erros_stdout.txt` | `b154f9f9b248ac3f3aecba63a464b1eb70e8524a4969eadf27c5477b3cc813c0` | 1578 |
-| `out/validate_stdout.txt` | `58514bb74ee3649c282127369160a500d4ee0bbac8c3f5e1f9a75b0ed0f5ec8a` | 2436 |
-| `out/validate_v110.json` | `9688f4991e2d61ead05da8622f6c0b6126975ea00375fd489bd88ebabe9518fe` | 3944 |
+| `out/validate_stdout.txt` | `06cbe3473acf34b177520f570ed3b53b2b1edb9e3cb693bd589b794ff99d809d` | 2442 |
+| `out/validate_v110.json` | `556fa7c3c03395b283748aeeb48290f25f2a34d1416637528229d870ceda9d21` | 3952 |
 | `out/casos_erros/importados_exportadoEm.json` | `ca039c0b82972681b9902b442e44867d80422f9b29b1c0ba8617e17abd25ad71` | 71 |
 | `out/casos_erros/importados_sha.json` | `ea47a0919f69bded8a0115ab5d560b39a3deeed0319147e4e84b380261a5d8f7` | 134 |
 | `out/casos_erros/incoerente_D.json` | `463a23847f577c0c5f6014bc6400cfed5c1cf41e480462faaab98a2de885ec22` | 1383 |
@@ -109,9 +109,9 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `out/estudante/L1_estudo.md` | `146708b5eb002d2a2a450b65e857ce2cf0c0bbaa29385be2003b8fdb1af147ec` | 34999 |
 | `out/estudante/L1_gabarito.md` | `0102316f3fe2158f9999ad0014ab2b160ead34e80b8b5697db90fd11245edc7c` | 43395 |
 | `out/estudante/L1_itens.md` | `f1efb02761da3382315e9c3e80910edb146c06f181a87255a7b1270fb9fd1f67` | 44578 |
-| `out/estudante/L2_estudo.md` | `be325c0aa741ef3ca9c23bcd6282c543479e257aa7c4ffa2aac713c9ad6af815` | 33431 |
-| `out/estudante/L2_gabarito.md` | `178d864f78dc90ce315f09846a023b483448a75bb8d992d7e418423988ef01ae` | 47632 |
-| `out/estudante/L2_itens.md` | `d4c82030387910ead200a691ca207978e19b8e3be0d58993c0fc263dfb2a7b20` | 48651 |
+| `out/estudante/L2_estudo.md` | `7809cf70e1b57aa7a740f00bb7d928d3f40a103fb48a8891b7d87f08135e7117` | 33589 |
+| `out/estudante/L2_gabarito.md` | `89bd5dc2e3e703b836e65a18c35d6d0acd6251b1e0a712165c8eb8f8df6407f1` | 48095 |
+| `out/estudante/L2_itens.md` | `9e0e3b1139ee9cbf799d708c42ffb2345b27cda2cde102a90e21e9411ac5a7b0` | 48961 |
 | `out/estudante/L3_estudo.md` | `3d226e76971a7e67f64feed0e8d8a10cdd695253f28fc58e9b734c9e505cefd3` | 40424 |
 | `out/estudante/L3_gabarito.md` | `c0fff87eeaa317d4fed5655c327c05f87ed1c1ae533d94ee9321de5323942c57` | 9987 |
 | `out/estudante/L3_itens.md` | `0364d5f683db642c1e92b2b600de6c194e94d1456a53c911a3ed5cb91e0ef751` | 11220 |
@@ -127,7 +127,7 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `out/estudante/L6B_estudo.md` | `454d6962e88296ab8a151ab21df48d20fd6402d0270ce9c7aa98db47350bd603` | 54664 |
 | `out/estudante/L6B_gabarito.md` | `782b3f66127c79c7b914f1a9e590957b0ef232a50b4aef6932098bad7b9ff0cc` | 5985 |
 | `out/estudante/L6B_itens.md` | `e8e4baf9d7fb9aec02b8b8a67ae96820fa2b12e0b4aad962ae66f218a281b0ed` | 5052 |
-| `out/estudante/NUCLEO.md` | `3ce3f759867e78db74fc937946fdbb6058271351ba1a3ebc105d0a941a0ad1c3` | 3924 |
+| `out/estudante/NUCLEO.md` | `105d4d3390955b92bd365af4defe14e53c434d352475179e790cc3a86e8c117a` | 3924 |
 | `out/estudante/README.md` | `49ccc58871d82f0426a4d8ba7fe51459198b6edb198cf73edbaf3684b2f71b1c` | 2564 |
 | `out/estudante/SIM-0-P2_folha.md` | `f69efe607e7b575c246b46eded5ce15d5b6cf1e14ae755bc1bff23087c8bdab5` | 6063 |
 | `out/estudante/SIM-0-P2_gabarito.md` | `1f3acd3ae9c994ca2ba046b238c8700c16043942ab8bfa9d2793c5b4f981e10a` | 5889 |
@@ -138,4 +138,4 @@ Modo desta execução: E_CURSO=False; E_PADRAO=True; E_L2R131=False; geradoEm 20
 | `out/estudante/SIM-2_folha.md` | `d576cc3fecc6f9973a028f82e303abb65aedd00ad14000cbc263c51423daaa92` | 9658 |
 | `out/estudante/SIM-2_gabarito.md` | `e298f570eacb7f5a17465ee2a2ac704cdc597e88513c41b8193e79af440387c6` | 9310 |
 
-Resultado desta execução: validate_v110 37/37 OK; conferencias_v110 18/18 OK.
+Resultado desta execução: validate_v110 37/37 OK; conferencias_v110 23/23 OK.

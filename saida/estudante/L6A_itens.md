@@ -45,3 +45,9 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **6A-15** — Ao apresentar durante uma reunião do Google Meet em um computador, o usuário pode optar por compartilhar uma guia, uma janela específica ou a tela inteira.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+## Itens de reforço
+
+*Um servidor configurou, em seu computador, um programa de e-mail para acessar, por meio do protocolo POP3, a caixa postal institucional hospedada no Exchange Online. Considerando essa situação hipotética, julgue o item a seguir.*
+
+**L6A-R01** — Nessa situação, o programa de e-mail enviará as mensagens redigidas pelo servidor também por meio do POP3, dispensando outro protocolo para a saída das mensagens.

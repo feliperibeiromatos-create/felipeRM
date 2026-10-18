@@ -363,3 +363,5 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **L2-R129** — Ao revisar uma nota taquigráfica sobre emendas, o revisor encontra a expressão emenda de redação. Segundo o Regimento Interno da Câmara dos Deputados, emenda de redação é a emenda aditiva que visa a sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto.
 
 **L2-R130** — Nas sessões ordinárias do Plenário, segundo o Regimento Interno da Câmara dos Deputados, as Comunicações Parlamentares destinam-se aos Líderes que queiram fazer uso da palavra, por período de tempo proporcional ao número de membros das respectivas bancadas.
+
+**L2-R131** — Na transcrição em lote de uma reunião de comissão pelo Amazon Transcribe, o arquivo de saída traz o elemento items, com dados de cada palavra e de cada sinal de pontuação, e o elemento audio_segments, que registra, com horário de início e de fim, as pausas existentes entre as falas.

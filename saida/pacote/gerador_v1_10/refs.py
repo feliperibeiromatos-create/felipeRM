@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""T-56 (T-67: acrescenta a v1.5, C_V15; T-71: acrescenta a v1.6, C_V16; T-81: acrescenta a v1.7, C_V17; T-94: acrescenta a v1.8, C_V18) — referências de comparação lidas do git (somente leitura), em vez de arquivos soltos no diretório do gerador.
+"""T-56 (T-67: acrescenta a v1.5, C_V15; T-71: acrescenta a v1.6, C_V16; T-81: acrescenta a v1.7, C_V17; T-94: acrescenta a v1.8, C_V18; T-104: acrescenta a v1.9, C_V19) — referências de comparação lidas do git (somente leitura), em vez de arquivos soltos no diretório do gerador.
 Cada referência é um par (commit, caminho); a leitura usa `git show <commit>:<caminho>` e `git archive <commit> <caminho>`.
 Nada é gravado no repositório."""
 import hashlib, io, json, os, subprocess, tarfile
@@ -15,6 +15,7 @@ C_V15 = 'a889100'    # pacote v1.5 R1 (T-61 regerada com a T-64; SHA-256 b4bc65c
 C_V16 = '569c5dd'    # pacote v1.6 (T-67 produção, 14/10/2026; SHA-256 ecc284f9…, aceito pela D-PACOTE-V16) e a edição v1.6 (T-71 / T70_T71_decisoes, 5.3)
 C_V17 = '62ab128'    # pacote v1.7 (T-71 produção, 14/10/2026; SHA-256 f20216c2…, aceito pela D-PACOTE-V17): primeiro commit em que saida/pacote/pacote.json tem esse SHA (T-81 / T81_D1_escopo_v1_8, 1.2; conferido por git log)
 C_V18 = '46496ca'    # pacote v1.8 e pacote_estudante.json v1.8-E (T-81, 17/10/2026; SHA-256 09d4a457… e 851e2370…, aceitos pela D-PACOTE-V18): primeiro commit com esses SHA (T-94; conferido por git log)
+C_V19 = 'c26fc13'    # pacote v1.9 e pacote_estudante.json v1.9-E (T-94, 18/10/2026; SHA-256 13660554… e 8fa81b45…, aceitos pela D-PACOTE-V19): primeiro commit com esses SHA (T-104; conferido por git log)
 C_V14 = 'e9b6402'    # pacote v1.4, edição v1.4 e contrato v1.2.2 (T-57 produção, 13/10/2026; SHA-256 f8c0c131…, aceito pela D-PACOTE-V14)
 PACOTE = 'saida/pacote/pacote.json'
 RELATORIO_R0 = 'saida/pacote/pacote_relatorio_2026-10-13.md'
@@ -43,6 +44,7 @@ def v15(): return pacote(C_V15)
 def v16(): return pacote(C_V16)
 def v17(): return pacote(C_V17)
 def v18(): return pacote(C_V18)
+def v19(): return pacote(C_V19)
 
 
 def pasta(commit, caminho_dir):

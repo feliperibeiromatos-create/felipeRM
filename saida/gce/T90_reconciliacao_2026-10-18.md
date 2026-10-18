@@ -148,3 +148,6 @@ GATILHO A | GCE | T-90 (R2, Lote 2, onda 1 do reforço, D-REFORCO-1) — aceite 
 
 ## 10. Ordem imediata
 gce-cpp: gravar saida/gce/L2_reforco_onda1_v3.md conforme a seção 5, por transcrição literal, sem nenhuma outra mudança. Em seguida, o orquestrador ou a gce-gerencia confere por diff. Texto idêntico: estado CONCLUÍDA (seção 7) e gatilho A (seção 8) colados.
+
+## Conferência do v3 (orquestrador, 18/10/2026)
+Conferência por script (python -I): v3 = v2 com as 22 linhas fixadas na seção 5 e a linha inserida depois da linha 1; resultado IDÊNTICO. Sem R3; vale o estado CONCLUÍDA e o gatilho A da seção 8 foi colado em PARA_PRESIDENCIA.md.

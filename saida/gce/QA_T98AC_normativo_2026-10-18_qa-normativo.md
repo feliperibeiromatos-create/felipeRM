@@ -188,3 +188,35 @@ Transcrição literal (artigo de caput único, sem parágrafos nem incisos; sem 
 | L3-R95 | C | LGPD, art. 37 | CONFERE | O texto é o vigente e não tem redação alterada. O trecho citado é igual à letra da lei. O enunciado atribui o dever aos dois agentes, como faz o art. 37. A contratada que trata dados "em nome" da Câmara é operadora (art. 5º, VII). A omissão de "especialmente quando baseado no legítimo interesse" não muda o sentido, porque o dever é geral. O gabarito C é compatível com a lei. |
 
 Alterações recentes: a Lei 15.352/2026 (a ANPD como Agência) não tocou no art. 37 da LGPD. O art. 46, III, da Lei 9.610/1998 não tem alteração registrada no compilado. Do ponto de vista normativo, R80 e R95 podem perder a marca PENDENTE NORMATIVO. A decisão é da gce-gerencia, e a QA PENDENTE (gce-cqfp) continua.
+
+## Adendo v2 — L3-R92 (18/10/2026)
+
+Objeto: L3-R92 da v2 (saida/gce/L3_reforco_onda4_C_v2.md, l. 190 e l. 325–328). Na v2, o ponto de contraste mudou de controlador para encarregado. A confirmação foi pedida em saida/gce/QA_T98C_R2_2026-10-18_gce-cqfp.md, § 4 e § 7, item 2. Não alterei a produção.
+
+URL: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm. Aberta diretamente com User-Agent de navegador: HTTP 200. Verificado em 18/10/2026.
+
+### LGPD, art. 41 (transcrição literal)
+> Art. 41. O controlador deverá indicar encarregado pelo tratamento de dados pessoais.
+> § 1º A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador.
+> § 2º As atividades do encarregado consistem em:
+> I - aceitar reclamações e comunicações dos titulares, prestar esclarecimentos e adotar providências;
+> II - receber comunicações da autoridade nacional e adotar providências;
+> III - orientar os funcionários e os contratados da entidade a respeito das práticas a serem tomadas em relação à proteção de dados pessoais; e
+> IV - executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares.
+> § 3º A autoridade nacional poderá estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.
+> § 4º (VETADO). (Incluído pela Lei nº 13.853, de 2019) Vigência
+
+### LGPD, art. 46 (transcrição literal)
+> Art. 46. Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
+> § 1º A autoridade nacional poderá dispor sobre padrões técnicos mínimos para tornar aplicável o disposto no caput deste artigo, considerados a natureza das informações tratadas, as características específicas do tratamento e o estado atual da tecnologia, especialmente no caso de dados pessoais sensíveis, assim como os princípios previstos no caput do art. 6º desta Lei.
+> § 2º As medidas de que trata o caput deste artigo deverão ser observadas desde a fase de concepção do produto ou do serviço até a sua execução.
+
+No original, os arts. 41, caput, §§ 1º a 3º, e 46 não têm marcação de redação dada, inclusão ou revogação. A Lei 15.352/2026 aparece no compilado em outros dispositivos e não tocou nos arts. 41 e 46.
+
+### Resultado
+
+| id | gabarito | dispositivos | resultado | motivo |
+|---|---|---|---|---|
+| L3-R92 | C | LGPD, art. 46, § 1º (base); art. 41, § 2º (contraste); art. 50, caput (contestação afastada) | CONFERE | O enunciado reproduz o § 1º do art. 46 ("poderá dispor sobre padrões técnicos mínimos", com os três critérios). A competência é da autoridade nacional. O contraste "e não o encarregado" é verdadeiro: o § 2º do art. 41 (I a IV) não dá ao encarregado competência para dispor sobre padrões técnicos mínimos. Pelo § 3º, a autoridade nacional é quem normatiza as atribuições do encarregado. O art. 50 fala de controladores e operadores, não do encarregado, e por isso não abre contestação. A omissão do trecho "especialmente no caso de dados pessoais sensíveis..." não muda o sentido. O gabarito C é compatível com a lei. |
+
+Registro de forma, sem efeito no resultado: a citação do § 1º no (d-G) (l. 326) fecha as aspas em "estado atual da tecnologia", mas o parágrafo continua na lei. Recomendo acrescentar "(...)" antes de fechar as aspas. A edição, se houver, é da produção. Do ponto de vista normativo, o R92 pode perder a marca PENDENTE NORMATIVO. A decisão é da gce-gerencia.

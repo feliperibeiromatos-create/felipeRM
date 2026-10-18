@@ -33,7 +33,7 @@ AVISOS À GERÊNCIA: (1) Todas as bases foram abertas em 18/10/2026 (HTTP 200): 
 
 ## PARTE 1/3 — Mapa
 
-Convenção de verificação: todas as páginas abaixo foram abertas em 18/10/2026 e o trecho citado foi lido. "L9610" = https://www.planalto.gov.br/ccivil_03/leis/l9610.htm (texto compilado). "LGPD" = https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm (texto compilado). Siglas de fornecedor: AWS-DP = https://docs.aws.amazon.com/transcribe/latest/dg/data-protection.html; AWS-PII = https://docs.aws.amazon.com/transcribe/latest/dg/pii-redaction.html; GCP-RAI = https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/responsible-ai; GCP-LOG = https://docs.cloud.google.com/speech-to-text/docs/v1/data-logging; MS-TN = https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/transparency-note; MS-DPS = https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security.
+Convenção de verificação: todas as páginas abaixo foram abertas em 18/10/2026 e o trecho citado foi lido. "L9610" = https://www.planalto.gov.br/ccivil_03/leis/l9610.htm (texto compilado). "LGPD" = https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm (texto compilado). Siglas de fornecedor: AWS-DP = https://docs.aws.amazon.com/transcribe/latest/dg/data-protection.html; GCP-RAI = https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/responsible-ai; GCP-LOG = https://docs.cloud.google.com/speech-to-text/docs/v1/data-logging; MS-TN = https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/transparency-note; MS-DPS = https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security.
 
 ### 1.1 Itens novos
 
@@ -266,120 +266,6 @@ Aderência: direta.
 Justificativa: art. 46, III: não constitui ofensa aos direitos autorais "a citação em livros, jornais, revistas ou qualquer outro meio de comunicação, de passagens de qualquer obra, para fins de estudo, crítica ou polêmica, na medida justificada para o fim a atingir, indicando-se o nome do autor e a origem da obra". O item reproduz as condições da citação (finalidade, medida justificada, indicação de autor e origem).
 Base: Lei 9.610/1998, art. 46, III, planalto.gov.br (https://www.planalto.gov.br/ccivil_03/leis/l9610.htm), texto compilado, verificado em 18/10/2026 (HTTP 200; User-Agent de navegador; trecho literal conferido no texto baixado hoje). Sem [TS]. Não VOLÁTIL. Vizinho de L3-Q22 (art. 29: autorização prévia como regra; o R80 julga a limitação do art. 46, III). Sem gêmeo no pacote (busca por ponto registrada no topo). O item não afirma nada sobre conteúdo gerado por IA nem sobre treinamento de modelos.
 Aderência: direta. QA PENDENTE; PENDENTE NORMATIVO.
-
-**L3-R81** (P2-4.2)
-Conforme a nota de transparência do Azure Speech, o desempenho de um sistema de IA como o de reconhecimento de fala é uniforme entre grupos de pessoas, ainda que não haja esforço consciente voltado a melhorá-lo para todos os grupos, razão pela qual a avaliação do sistema usado nas sessões da Câmara dos Deputados dispensa a verificação por grupos de oradores.
-
-**L3-R82** (P2-4.3)
-Segundo a Lei Geral de Proteção de Dados Pessoais, o tratamento de dados pessoais é irregular quando não fornece a segurança que o titular dele pode esperar, consideradas circunstâncias como o modo pelo qual é realizado, o resultado e os riscos que razoavelmente dele se esperam e as técnicas de tratamento disponíveis à época em que o dano foi apurado.
-
-**L3-R83** (P2-4.3)
-Segundo a Lei Geral de Proteção de Dados Pessoais, responde pelos danos decorrentes da violação da segurança dos dados apenas o controlador que deixe de adotar as medidas de segurança previstas na lei, ainda que o operador, ao não as adotar, tenha dado causa ao dano.
-
-**L3-R84** (P2-4.3)
-Segundo a Lei Geral de Proteção de Dados Pessoais, os sistemas utilizados para o tratamento de dados pessoais, como os de transcrição de sessões, devem ser estruturados de forma a atender não apenas aos requisitos de segurança, mas também aos padrões de boas práticas e de governança e aos princípios gerais previstos na lei.
-
-**L3-R85** (P2-4.3)
-Segundo a documentação do Amazon Transcribe, pelo modelo de responsabilidade compartilhada, a AWS protege a infraestrutura global que executa a nuvem e também responde pelas tarefas de configuração e de gerenciamento de segurança dos serviços que o cliente utiliza.
-
-**L3-R86** (P2-4.3)
-Terceiros não autorizados acessaram arquivos de áudio de reuniões de comissão armazenados por um órgão, mas o controlador comprova que os arquivos estavam cifrados, de modo que os dados pessoais se tornaram ininteligíveis para quem os acessou. Nessa situação, segundo a Lei Geral de Proteção de Dados Pessoais, essa comprovação será avaliada no juízo de gravidade do incidente.
-
-**L3-R87** (P2-4.3)
-Uma unidade da Câmara dos Deputados cria trabalhos de transcrição no Amazon Transcribe. Segundo a documentação do serviço, recomenda-se que informações confidenciais ou sensíveis, como dados pessoais de participantes de uma audiência, não sejam inseridas em tags nem em campos de texto livre, como o campo de nome, porque esses campos podem ser usados em registros de cobrança ou de diagnóstico.
-
-**L3-R88** (P2-4.3)
-Segundo a Lei Geral de Proteção de Dados Pessoais, o controlador é obrigado a implementar programa de governança em privacidade que contenha, entre outros requisitos, planos de resposta a incidentes e remediação.
-
-**L3-R89** (P2-4.3)
-Um painel da Câmara dos Deputados exibe automaticamente, em formato Markdown ou HTML, resumos de sessões gerados por modelo de linguagem. Nessa situação, segundo as orientações de IA responsável do Google Cloud, a renderização automática da saída do modelo pode expor o painel a injeção indireta de prompt e à exfiltração de dados, e recomenda-se sanitizar a saída antes de exibi-la.
-
-**L3-R90** (P2-4.3)
-Verificada a gravidade de incidente de segurança que lhe foi comunicado, a autoridade nacional pode apenas recomendar ao controlador a ampla divulgação do fato em meios de comunicação, sem poder determiná-la, segundo a Lei Geral de Proteção de Dados Pessoais.
-
-**L3-R91** (P2-4.3)
-Segundo a documentação da Microsoft sobre dados e privacidade do reconhecimento de fala, na transcrição em lote o áudio é processado apenas na memória do servidor do Azure, sem armazenamento em repouso, enquanto na transcrição em tempo real o cliente indica o local de armazenamento do áudio e do texto gerado e controla a sua retenção.
-
-**L3-R92** (P2-4.3)
-Segundo a Lei Geral de Proteção de Dados Pessoais, a autoridade nacional, e não o encarregado, poderá dispor sobre padrões técnicos mínimos para tornar aplicável o dever de os agentes de tratamento adotarem medidas de segurança, considerados a natureza das informações tratadas, as características específicas do tratamento e o estado atual da tecnologia.
-
-**L3-R93** (P2-4.3)
-Segundo a documentação do Amazon Transcribe, recomenda-se configurar usuários individuais para acessar o serviço, de modo que cada um receba apenas as permissões necessárias ao cumprimento de suas funções.
-
-**L3-R94** (P2-4.3)
-Uma unidade da Câmara dos Deputados aderiu, em um projeto do Google Cloud Speech-to-Text, ao programa de registro de dados e, ao final de um teste com áudios de reuniões, excluiu o projeto. Nessa situação, segundo a documentação do serviço, a exclusão do projeto bastou para que os dados registrados também fossem excluídos, sem necessidade de pedido específico de exclusão ao Google.
-
-**L3-R95** (P2-4.3)
-Uma unidade da Câmara dos Deputados contratou empresa para transcrever, em serviço de nuvem, os áudios de reuniões de comissão, e a contratada realiza o tratamento dos dados pessoais em nome da Câmara. Nessa situação, segundo a Lei Geral de Proteção de Dados Pessoais, tanto o controlador quanto o operador devem manter registro das operações de tratamento de dados pessoais que realizarem.
-
-FIM DA PARTE 2/3
-
-## PARTE 3/3 — (d-G) Gabarito comentado
-
-**L3-R68** (P2-4.2) Gabarito: C.
-Justificativa: Lei 9.610/1998, art. 11: "Autor é a pessoa física criadora de obra literária, artística ou científica"; parágrafo único: a proteção ao autor "poderá aplicar-se às pessoas jurídicas nos casos previstos nesta Lei". O item reproduz a regra e a exceção.
-Base: Lei 9.610/1998, art. 11, planalto.gov.br (https://www.planalto.gov.br/ccivil_03/leis/l9610.htm), texto compilado, verificado em 18/10/2026. Sem [TS]. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R69** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 5º, VI: reprodução é a cópia "de qualquer forma tangível, incluindo qualquer armazenamento permanente ou temporário por meios eletrônicos". O item exclui o armazenamento temporário.
-Base: Lei 9.610/1998, art. 5º, VI, planalto.gov.br (mesma URL), verificado em 18/10/2026. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R70** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 43: nas obras anônimas ou pseudônimas, setenta anos "contado de 1° de janeiro do ano imediatamente posterior ao da primeira publicação". O item troca a primeira publicação pelo falecimento do autor (termo do art. 41).
-Base: Lei 9.610/1998, art. 43, caput, planalto.gov.br (mesma URL), verificado em 18/10/2026. Vizinho de L3-R09 (art. 41), com termo inicial diverso. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R71** (P2-4.2) Gabarito: C.
-Justificativa: art. 49, III: "na hipótese de não haver estipulação contratual escrita, o prazo máximo será de cinco anos". O item reproduz a regra.
-Base: Lei 9.610/1998, art. 49, III, planalto.gov.br (mesma URL), verificado em 18/10/2026. Sem [TS]. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R72** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 24, § 2º: "Compete ao Estado a defesa da integridade e autoria da obra caída em domínio público". O item troca o Estado pelos sucessores do autor.
-Base: Lei 9.610/1998, art. 24, § 2º, planalto.gov.br (mesma URL), verificado em 18/10/2026. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R73** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 17, § 2º: "Cabe ao organizador a titularidade dos direitos patrimoniais sobre o conjunto da obra coletiva"; o caput assegura a proteção das participações individuais. O item troca o organizador por cada participante, e só a segunda oração é correta.
-Base: Lei 9.610/1998, art. 17, caput e § 2º, e art. 5º, VIII, "h" (obra coletiva), planalto.gov.br (mesma URL), verificado em 18/10/2026. Não VOLÁTIL. Registro (parecer R1): "coletânea de estudos" pode ser lida como compilação (art. 7º, XIII) e não como obra coletiva (art. 5º, VIII, "h", que exige a fusão das contribuições); o E se sustenta nas duas leituras, porque a titularidade do conjunto não cabe a cada participante em nenhuma delas.
-Aderência: direta.
-
-**L3-R74** (P2-4.2) Gabarito: C.
-Justificativa: art. 18: "A proteção aos direitos de que trata esta Lei independe de registro"; o art. 19 apenas faculta ao autor registrar a obra. A ausência de registro não afasta a proteção.
-Base: Lei 9.610/1998, arts. 18 e 19, planalto.gov.br (mesma URL), verificado em 18/10/2026. Sem [TS]. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R75** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 37: a aquisição do original ou de exemplar "não confere ao adquirente qualquer dos direitos patrimoniais do autor, salvo convenção em contrário entre as partes e os casos previstos nesta Lei". O item afirma que a aquisição transferiu os direitos e dispensa a autorização do autor.
-Base: Lei 9.610/1998, art. 37, planalto.gov.br (mesma URL), verificado em 18/10/2026. Vizinho de L3-Q22 (autorização para reprodução). Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R76** (P2-4.2) Gabarito: C. [TS] (espelho)
-Justificativa: art. 14: é titular de direitos de autor quem traduz obra caída no domínio público, "não podendo opor-se a outra adaptação, arranjo, orquestração ou tradução, salvo se for cópia da sua". O item reproduz as duas metades ("mas não pode opor-se"); a ressalva da cópia não é julgada.
-Base: Lei 9.610/1998, art. 14, planalto.gov.br (mesma URL), verificado em 18/10/2026. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R77** (P2-4.2) Gabarito: C. [TS] (espelho)
-Justificativa: art. 49, V: "a cessão só se operará para modalidades de utilização já existentes à data do contrato". O item aplica a regra; "somente" traduz o "só" da lei, sem exceder o texto.
-Base: Lei 9.610/1998, art. 49, V, planalto.gov.br (mesma URL), verificado em 18/10/2026. Vizinho de L3-Q25 (art. 49, I). Não VOLÁTIL. O item não afirma nada sobre IA.
-Aderência: direta.
-
-**L3-R78** (P2-4.2) Gabarito: E. [TS]
-Justificativa: art. 7º, XIII: a base de dados é obra protegida quando, "por sua seleção, organização ou disposição de seu conteúdo", constitui criação intelectual; § 2º: a proteção "não abarca os dados ou materiais em si mesmos". O item estende a proteção aos dados.
-Base: Lei 9.610/1998, art. 7º, XIII e § 2º, planalto.gov.br (mesma URL), verificado em 18/10/2026. Vizinho de L3-Q22 (art. 29, IX). Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R79** (P2-4.2) Gabarito: C.
-Justificativa: art. 47: "São livres as paráfrases e paródias que não forem verdadeiras reproduções da obra originária nem lhe implicarem descrédito". O item reproduz o limite da liberdade (reprodução e descrédito).
-Base: Lei 9.610/1998, art. 47, planalto.gov.br (mesma URL), verificado em 18/10/2026. Sem [TS]. Não VOLÁTIL.
-Aderência: direta.
-
-**L3-R80** (P2-4.2) Gabarito: C.
-Justificativa: a nota de transparência recomenda "Customer feedback loop: Provide a feedback channel that allows users and individuals to report issues with the service once it's been deployed", com "ongoing monitoring and improvement". O item reproduz a recomendação, sem torná-la obrigação legal.
-Base: Microsoft Learn, Transparency Note for Azure Speech speech to text, seção "Guidance for integration and responsible use with speech to text" (https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/transparency-note), verificado em 18/10/2026 (página atualizada em 31/03/2026 segundo o rodapé). Sem [TS]. Não VOLÁTIL (boa prática documentada, sem número nem versão); conferência de base em 4–8/1/2027.
-Aderência: direta.
 
 **L3-R81** (P2-4.2) Gabarito: E. [TS]
 Justificativa: a nota informa que, "without conscious effort focused on improving performance for all groups, it is often possible for the performance of an AI system to vary across groups based on factors such as race, ethnicity, region, gender, and age". O item afirma uniformidade e dispensa a verificação por grupos.

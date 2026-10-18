@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 53 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 54 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -86,6 +86,8 @@ Reforço (ciclo s12c1, 18/10; relato do orquestrador): T-89 (GCE, Lote 1, onda 1
 Reforço (ciclo s12c2, 18/10; relato do orquestrador): T-93 (estilo da onda 1: 5 de 48 itens auditados, 0% de reprovação; saida/banco/estilo_onda_1.md; reconciliação T93_reconciliacao) CONCLUÍDA; T-102 (GCB, L6B-R01 C, L6B-R02 E, P1-4.3 de 4 para 6; base de R02 pela D-FONTE-DATA-ANTERIOR; final saida/gcb/L6B_reforco_onda1_saldo_v2.md; gatilho A; entra na v1.10) CONCLUÍDA (antes BLOQUEADA); T-94 (pacote v1.9, 334 itens; pacote.json 1366055…; pacote_estudante.json 8fa81b45…; contrato v1.2.6; adendo 1 ao registro AUTORAL; fidelidade gbq-cqe ACEITO COM RESSALVAS; reconciliada pela GBQ; gatilhos A, D e E; campo "nucleo" fica para a v1.10); T-95 (ocorrência v1.9: saida/pacote/cobertura_v1_9.md; P1 14 de 15 folhas abaixo de 20; P2 22 de 23; DA 36 de 37; nenhuma folha fora de onda; conferência DA em saida/gcb/T95_conferencia_DA_2026-10-18.md) concluída. Onda 1: 48 itens aceitos pelas Gerências, canônicos (D-ONDA1-FILA); pacote 286 → 334 (v1.9). Fluxo de T-74 a T-77 segue alterado pela D-DA-PRODUTOR, cuja manutenção está em pergunta ao Fundador (seção 5).
 
 Reforço (ciclo s12c3, 18/10; relato do orquestrador): T-101 (GCB, D6 v2 por fusão, base A; R2 gcb-cqfp 50/50, 0%; errata de forma A-1 a A-3 em saida/gcb/D6_v2_1.md, SHA-256 a983105818ad84e96a57a4f70ff19baa12224e11e939d023c6f7a29ca5414090; cabeçalho neutro) CONCLUÍDA, gatilho A; T-96 (GCE, onda 2, P2 1.1–1.8) CONCLUÍDA, 111 de 112 itens L1-R19 a L1-R130 (L1-R43 retirado), 4 partes (A_v3, B_v2, C_v2, D_v3 em saida/gce/), QA R1 8,9% e R2 0,9%, estilo_onda_2.md 12/12 sem GATE, gatilho A; T-103 (GCE, L1-R131 repõe o L1-R43; saida/gce/L1_reforco_onda2_saldo_v2.md) CONCLUÍDA, folha 1.2 = 20, onda 2 = 112 itens, 56 C / 56 E, [TS] 66, gatilho A. Tudo entra na v1.10.
+
+Reforço (ciclo s12c4, 18/10; relato do orquestrador): T-97 (GCE, onda 3, P2 2.1–2.8) CONCLUÍDA, 111 de 112 itens L2-R19 a L2-R130 (L2-R67 retirado); finais saida/gce/L2_reforco_onda3_A_v3, B_v3, C_v3 e D_v3 (.md); QA R1 12,5% e R2 0,9%; 33 normativos CONFEREM (qa-normativo); 43 PARCIAIS de aderência; estilo_onda_3.md sem GATE; gatilhos A e D em decisão pela presidencia. T-105 (saldo L2-R131) BLOQUEADA por GATE (QA reprovou >30%; decisão humana). T-106 (errata do curso do Lote 2, l. 507, e do aspecto (xv) do padrão) proposta reconciliada; aplicação no canônico adiada; dois gatilhos D em decisão pela presidencia. T-74 (Lote D5) com passos preparatórios feitos; produção não iniciada. T-104 (v1.10, GBQ) PRÓXIMO. Fábrica para ao fim do ciclo pelo GATE (condição b; D-RITMO-MAX).
 
 ## 3. DECISÕES VIGENTES
 
@@ -304,6 +306,11 @@ Reforço (ciclo s12c3, 18/10; relato do orquestrador): T-101 (GCB, D6 v2 por fus
 | D-ONDA2-FILA | 18/10 (ciclo s12c3) | Aplicada em 18/10 (relato do orquestrador); texto integral em DECISOES.md | Não informado no relato |
 | D-DA-PRODUTOR (nova, s12c3) | 18/10 (ciclo s12c3) | Aplicada em 18/10 (relato do orquestrador), opção (a) do Fundador: curso de D2 a D5 pela fábrica, com leitura crítica externa antes do QA R1; supera a D-DA-PRODUTOR anterior | Fundador |
 | D-FUNDADOR-RESP-1810 | 18/10 (ciclo s12c3) | NOVA, a aplicar no próximo ciclo: Fundador responde v1.9 opção A, sem publicação agora; item da v1.5 superado; GATE de push resolvido; D-DA-PRODUTOR mantida; commits do Fundador pela web registrados | Fundador |
+| D-FUNDADOR-RESP-1810 (aplicada) | 18/10 (ciclo s12c4) | Aplicada em 18/10 (relato do orquestrador, s12c4): Fundador responde v1.9 opção A, sem publicação agora; item da v1.5 superado; GATE de push resolvido; D-DA-PRODUTOR mantida; commits do Fundador pela web registrados | Fundador |
+| D-LOTED6-CANONICO | 18/10 (ciclo s12c4) | Aplicada em 18/10 (relato do orquestrador, s12c4): D6 v2.1 canônico (gatilho A da GCB, T-101; saida/gcb/D6_v2_1.md); T-11 acrescida; texto integral em DECISOES.md | Não informado no relato |
+| D-T96-ONDA2-ACEITE | 18/10 (ciclo s12c4) | Aplicada em 18/10 (relato do orquestrador, s12c4): SIM às duas partes do reforço da onda 2, P2 folhas 1.1 a 1.8 (gatilho A da GCE, T-96; D-REFORCO-2); T-11 acrescida; texto integral em DECISOES.md | Não informado no relato |
+| D-T103-SALDO-ACEITE | 18/10 (ciclo s12c4) | Aplicada em 18/10 (relato do orquestrador, s12c4): saldo da onda 2 (L1-R131) ACEITO como canônico, para consolidação (gatilho A da GCE, T-103; D-REFORCO-2); texto integral em DECISOES.md | Não informado no relato |
+| D-ONDA3-FILA | 18/10 (ciclo s12c4) | Aplicada em 18/10 (relato do orquestrador, s12c4): ordem da fila da onda 3 (presidencia, ciclo s12c3); T-97 e T-74 AGORA; T-104 (v1.10) aberta; texto integral em DECISOES.md | Presidência |
 
 * Registros da fila de 8/10 (Fundador_Fila_Presidencia.md): decisões D1 das Gerências, que a Presidência ainda não viu; entram aqui como "conforme bloco" e a Secretaria não as valida. Em 9/10 (v27) a Presidência processou a Fila e decidiu as matérias nomeadas nas linhas de 9/10 acima. As linhas com asterisco que o bloco não nomeia (regra P9 da GCE, GBQ-CSC-RES, GCE-CPP-2 e demais) seguem como estavam, sem ratificação expressa. Nota de datas: o bloco da Presidência data as decisões de 9/10 e as atribui à Presidência; o registro da PRES-S (10/10) data as mesmas decisões de 08/10 e as atribui à PRES-S sob a D-DELEG-12H; a Secretaria registra as duas leituras e não as concilia.
 
@@ -446,6 +453,10 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | saida/gce/ (partes A_v3, B_v2, C_v2, D_v3; onda 2, T-96) | P2 1.1–1.8, 111 itens (L1-R19 a L1-R130) | PRODUZIDO (18/10, s12c3); QA R1 8,9% e R2 0,9%; gatilho A em decisão pela presidencia; nomes completos dos arquivos não informados no relato |
 | saida/gce/L1_reforco_onda2_saldo_v2.md | Reposição do L1-R43 (L1-R131; T-103) | PRODUZIDO (18/10, s12c3); folha 1.2 = 20; gatilho A em decisão pela presidencia; entra na v1.10 |
 | estilo_onda_2.md | Estilo da onda 2 (T-96): 12 de 12 sem GATE | PRODUZIDO (18/10, s12c3); caminho não informado no relato |
+| saida/gce/L2_reforco_onda3_A_v3.md, B_v3.md, C_v3.md e D_v3.md (T-97; partes da onda 3, P2 2.1–2.8; 111 itens) | Reforço da onda 3 (L2-R19 a L2-R130; L2-R67 retirado) | PRODUZIDO (18/10, s12c4); QA R1 12,5% e R2 0,9%; gatilho A em decisão pela presidencia |
+| saida/gce/estilo_onda_3.md | Estilo da onda 3 (T-97), sem GATE | PRODUZIDO (18/10, s12c4) |
+| saida/gcb/D5_anexo_N_mapa_normativo.md | Anexo N do Lote D5: Lei 14.133 integral (1.435 dispositivos); alterações das Leis 15.210/2025, 15.266/2025 e 15.471/2026 marcadas REVERIFICAR (T-74) | PRODUZIDO (18/10, s12c4); passo preparatório |
+| saida/gcb/D5_ficha_lote.md | Ficha do Lote D5 (70 itens; 10 por folha 10.1–10.7) (T-74) | PRODUZIDO (18/10, s12c4); passo preparatório; produção da gcb-cpp não iniciada |
 
 ## 5. PENDÊNCIAS ABERTAS
 
@@ -564,7 +575,14 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | Gatilho A da T-103 (GCE, L1-R131; saida/gce/L1_reforco_onda2_saldo_v2.md) em decisão pela presidencia; onda 2 com 112 itens, entra na v1.10 | Presidência | 18/10 (s12c3) |
 | T-74 a T-77 (lotes D5, D2, D3, D4) com o fluxo da nova D-DA-PRODUTOR (curso de D2 a D5 pela fábrica, com leitura crítica externa antes do QA R1) | Presidência / Gerências | 18/10 (s12c3) |
 | T-11 acrescida com L6B-R01 e L6B-R02 | Não informado no relato | 18/10 (s12c3) |
-| D-FUNDADOR-RESP-1810 (NOVA, para o próximo ciclo): GATE de push resolvido; commits do Fundador pela web registrados (linha de origem não identificada no relato) | Próximo ciclo (a aplicar) | 18/10 (s12c3) |
+| D-FUNDADOR-RESP-1810 (NOVA, para o próximo ciclo): GATE de push resolvido; commits do Fundador pela web registrados (linha de origem não identificada no relato) | Superada na v54: aplicada em 18/10 (s12c4) | 18/10 (s12c3) |
+| T-105 BLOQUEADA (s12c4): saldo L2-R131 (1/1 reprovado, gêmeo do L1-R64); "GATE: QA reprovou >30% — decisão humana"; item GATE gravado em PARA_FUNDADOR.md | Fundador | 18/10 (s12c4) |
+| Gatilho A da T-97 (GCE, onda 3, P2 2.1–2.8; finais A_v3, B_v3, C_v3, D_v3 em saida/gce/) em decisão pela presidencia; 111 de 112 itens (L2-R67 retirado) | Presidência | 18/10 (s12c4) |
+| Gatilho D da T-97 (leitura da meta de 20 por folha diante dos 43 itens PARCIAIS de aderência) em decisão pela presidencia | Presidência | 18/10 (s12c4) |
+| Dois gatilhos D da T-106 (errata do curso do Lote 2, l. 507, e do aspecto (xv) do padrão; proposta reconciliada) em decisão pela presidencia; aplicação no canônico adiada para a próxima sessão por causa do GATE | Presidência | 18/10 (s12c4) |
+| T-74 (Lote D5, GCB): passos preparatórios feitos (saida/gcb/D5_anexo_N_mapa_normativo.md; saida/gcb/D5_ficha_lote.md, 70 itens, 10 por folha 10.1–10.7); alterações das Leis 15.210/2025, 15.266/2025 e 15.471/2026 marcadas REVERIFICAR; produção da gcb-cpp não iniciada (D-ONDA3-FILA) | GCB | 18/10 (s12c4) |
+| T-104 (PRÓXIMO, GBQ): pacote v1.10 | GBQ | 18/10 (s12c4) |
+| T-11 acrescida com o D6 (v2.1, canônico), com a onda 2 e com a onda 3 | Não informado no relato | 18/10 (s12c4) |
 
 Fechadas na v6: identificar o conteúdo do 4536C347…pdf (cargo permanece em aberto, acima).
 Fechadas na v14 (conforme a GCB; as decisões da Presidência não chegaram diretamente à Secretaria): rota dos itens AUTORAL (pacote.json, sem bloco à GBQ); FV INATIVO em vez de DESCARTADO.
@@ -609,6 +627,8 @@ Respondida em 18/10 (s12c1): D-LOTED1-CANONICO-RESP (Fundador: SIM, aceite do D1
 Respondidas em 18/10 (s12c2), conforme o relato do orquestrador por decisões aplicadas: gatilhos A da T-89, T-90 e T-91 (D-T89-R1-ACEITE, D-T90-R2-ACEITE, D-T91-R3-ACEITE) e gatilho A parcial da T-92 (D-T92-R4-PARCIAL). Sem fechamento de linha. O gatilho D da GCB (T-92) não consta do relato como respondido. T-93 e T-102 CONCLUÍDAS; T-94 gerada e reconciliada; T-95 concluída. Abertas na v52: 6 linhas novas (seção 5, acima); fechadas na v52: nenhuma.
 
 Respondidas em 18/10 (s12c3), conforme o relato do orquestrador: três itens de PARA_FUNDADOR.md marcados RESPONDIDO (identificação não informada no relato); D-DA-PRODUTOR anterior REVOGADA (superada pela nova, opção (a)). Correção ao registro de 18/10 (s12c2): o gatilho D da GCB (T-92) foi respondido no ciclo s12c1 pela D-FONTE-DATA-ANTERIOR (presidencia, SIM na forma estrita); a observação de s12c2 que o dava como não respondido fica superada. Fechadas na v53: nenhuma linha identificada no relato. Abertas na v53: 6 linhas novas (seção 5, acima).
+
+Respondidas em 18/10 (s12c4), conforme o relato do orquestrador por decisões aplicadas: D-FUNDADOR-RESP-1810 (Fundador; GATE de push resolvido; item superado na v54), D-LOTED6-CANONICO (gatilho A da GCB, T-101), D-T96-ONDA2-ACEITE (gatilho A da GCE, T-96) e D-T103-SALDO-ACEITE (gatilho A da GCE, T-103). Fechadas na v54: nenhuma linha identificada no relato. Abertas na v54: 7 linhas novas (seção 5, acima).
 
 ## 6. LOG
 
@@ -753,3 +773,6 @@ Respondidas em 18/10 (s12c3), conforme o relato do orquestrador: três itens de 
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s12c2) | T-95 ocorrência v1.9 concluída (saida/pacote/cobertura_v1_9.md; P1 14 de 15 folhas abaixo de 20; P2 22 de 23; DA 36 de 37; conferência DA pela gcb-gerencia em saida/gcb/T95_conferencia_DA_2026-10-18.md) |
 | 18/10 | Fundador | Sessão s12c3 retomada depois da parada do s12c2; trava SESSAO_EM_CURSO.lock recriada |
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s12c3) | Estado v53: decisões D-D6-VEREDITO, D-CABECALHO-NEUTRO, D-T102-R4-SALDO, D-ABSORCAO-V110, D-PACOTE-V19, D-PLATAFORMA-V19-FUNDADOR, D-ONDA2-FILA e D-DA-PRODUTOR (nova) aplicadas (seção 3); D-FUNDADOR-RESP-1810 registrada como NOVA; D-DA-PRODUTOR anterior REVOGADA; T-101, T-96 e T-103 CONCLUÍDAS (seções 2 e 4); T-74 a T-77 com o fluxo da nova D-DA-PRODUTOR; T-11 acrescida com L6B-R01 e L6B-R02; 3 gatilhos A do PARA_PRESIDENCIA.md em decisão pela presidencia; 3 itens de PARA_FUNDADOR.md RESPONDIDOS; correção: gatilho D da GCB (T-92) respondido em s12c1 pela D-FONTE-DATA-ANTERIOR; 6 aberturas e 0 fechamentos informados (seção 5) |
+| 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s12c4) | Estado v54: decisões D-FUNDADOR-RESP-1810 (aplicada), D-LOTED6-CANONICO, D-T96-ONDA2-ACEITE, D-T103-SALDO-ACEITE e D-ONDA3-FILA aplicadas (seção 3); T-11 acrescida (D6; onda 2; onda 3); T-104 aberta em PRÓXIMO; T-105 BLOQUEADA por GATE; 4 gatilhos do PARA_PRESIDENCIA.md em decisão pela presidencia (T-97: A e D; T-106: D e D); seções 2, 3, 4 e 5 atualizadas; 0 fechamentos informados; sem commit pela Secretaria |
+| 18/10 | GCE (relato do orquestrador, ciclo 2026-10-18 s12c4) | T-97 CONCLUÍDA (onda 3, P2 2.1–2.8): 111 de 112 itens L2-R19 a L2-R130 (L2-R67 retirado); finais saida/gce/L2_reforco_onda3_A_v3, B_v3, C_v3 e D_v3; QA R1 12,5%, R2 0,9%; 33 normativos CONFEREM (qa-normativo); 43 PARCIAIS de aderência; estilo_onda_3.md sem GATE; gatilhos A e D |
+| 18/10 | GCB e GCE (relato do orquestrador, ciclo 2026-10-18 s12c4) | T-105 BLOQUEADA por "GATE: QA reprovou >30% — decisão humana" (L2-R131, 1/1 reprovado; item gravado em PARA_FUNDADOR.md); T-106 proposta reconciliada, aplicação no canônico adiada, dois gatilhos D; T-74 passos preparatórios (Anexo N e ficha, 70 itens); fábrica para ao fim do ciclo pelo GATE (CICLO_CONTINUO, condição b) |

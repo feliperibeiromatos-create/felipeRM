@@ -75,3 +75,8 @@ Em cada linha, o trecho "QA PENDENTE (…)" foi substituído no mesmo lugar. O r
 - GATILHO D | GBQ | BQ-0141 (REVERIFICAR). A recomendação é SIM: manter "QA PENDENTE" e o item fora de simulado até haver fonte oficial do STF, pela T-87.
 
 Estado da T-79: reconciliada pela GBQ. A linha da T-79 em TAREFAS.md não foi alterada por esta Gerência.
+
+## Adendo — ciclo 2026-10-17 s11c4 (gbq-gerencia)
+- **D-BQ0151-DIVERGE cumprida.** Em banco/banco.csv, linha BQ-0151, coluna observacoes, o trecho "QA PENDENTE (qa-normativo-da T-79: DIVERGE; … ciclo s11c3)" foi substituído no mesmo lugar por "DIVERGE do texto vigente do Decreto 9.203/2017 (art. 14 revogado pelo Decreto 9.901/2019); inapto a qualquer simulado". O resto da célula foi mantido. Gabarito C, texto, comando, rótulo, mapeamento e aderência ficaram inalterados.
+- **Conferência por script:** comparação com o git HEAD, ignorando CR. Só uma célula mudou (BQ-0151/observacoes). O CSV continua válido: 18 colunas em todas as linhas, 152 registros e CRLF preservado.
+- **Regra para a próxima T-12 (pacote):** BQ-0151 (D-BQ0151-DIVERGE, item 4) e BQ-0141 (D-BQ0141-REVERIFICAR, QA PENDENTE) ficam fora de pacote.json, de pacote_estudante.json e da edição do estudante. A BQ-0151 só volta a ser considerada por decisão D1 da GBQ sobre a forma de exibição, com QA da gbq-cqe. A BQ-0141 só volta depois da T-87. Nenhuma das duas entra em simulado. A BQ-0151 está inapta em caráter permanente, a qualquer simulado.

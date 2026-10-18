@@ -9,6 +9,7 @@ v3.2 — Despacho 4 da GCB (referências A CONFIRMAR), 08/10/2026
 v3.3 — Despacho 7 da GCB (1b e 1g), 08/10/2026
 v3.4 — Despacho 9 da GCB (O6 e D-DEREP), 09/10/2026
 v3.5 — errata de forma T-83 (D-RT81-04) na justificativa do item 11, Parte 3; conferida pela CQFP em 17/10/2026; registro na Tabela de Correções
+v3.6 — errata de forma T-85 (curso 5.1.5, exemplo; curso 5.2.5; curso 5.3.2; rótulo F4 da tabela de fontes); conferida pela CQFP em 18/10/2026; registro na Tabela de Correções
 Conteúdo: v2 completa com as correções do Despacho 1 (GCB/Despachos_pendentes_GCB-CPP.md), conferidas pela CQFP em 08/10/2026, e com os ajustes do Despacho 3 (L1, itens 18–20, ANPD, NOTA 8.11.2), aplicados mediante registro na Tabela de Correções, sem nova conferência; Despacho 4 (v3.2) e Despacho 7 (v3.3), correções textuais de curso; Despacho 9 (v3.4), correções textuais.
 
 CABEÇALHO
@@ -42,12 +43,13 @@ TABELA DE CORREÇÕES
 | Fechamento 1b e 1g | 6.3; fontes normativas; nota de produção | Lei 8.112/1990, art. 117, IX (corrigido), XVI e art. 121 (conferem); Ato da Mesa nº 225/2025 inserido como N10, sem item (ADENDO 1 da CQFP) | Conferência A CONFIRMAR, adendo 1 (CQFP, 08/10/2026) | aplicada (v3.3) |
 | Repasses da Presidência | 5.1.5; 5.2.6; 5.2.5; 5.3.6 P2; 6.4; d-G item 11; fontes normativas | O6 (item 81 = E) e D-DEREP (Derep, antigo DETAQ; N11) | Presidência, 09/10/2026 | aplicada (v3.4) |
 | Errata T-83 (D-RT81-04, 17/10/2026) | d-G item 11, justificativa | Onde se lia "O F4 afirma que", lê-se "A página "What is Machine Learning?", do curso Introduction to Machine Learning do Google for Developers, afirma que" (título conforme a página aberta pela CQFP em 17/10/2026). Errata de forma: gabarito C, enunciado, citações literais, fonte, demais frases da justificativa e contagens inalterados; aplicação no pacote na próxima ocorrência da T-12 | gcb-cpp (proposta) + QA gcb-cqfp (ajuste do título) + D1 da GCB | aplicada (v3.5, 17/10/2026); conferida (CQFP, 17/10/2026) |
+| Errata T-85 (D1 da GCB na T-83, 18/10/2026) | curso, exemplo de engenharia de prompts; 5.2.5; 5.3.2; tabela de fontes, linha F4 | Nomeada em palavras a fonte que o gerador da edição do estudante retira por código, deixando frase sem sujeito ou complemento: (P1) onde se lia "É o que afirma o F4:", lê-se "É o que afirma a página "What is Machine Learning?", do curso Introduction to Machine Learning do Google for Developers:"; (P2) onde se lia "ficar com a formulação do F4", lê-se "ficar com a formulação da página "What is Machine Learning?""; (B1) onde se lia "— as técnicas de F1 e F2.", lê-se "— as técnicas descritas nos guias de engenharia de prompts da Anthropic e da OpenAI (F1, F2)."; (B2) onde se lia "Segundo o F5 (verificado em 7/10/2026):", lê-se "Segundo a página "Background: What is a Generative Model?", do curso sobre GAN do Google for Developers (F5, verificado em 7/10/2026):"; (P3) rótulo F4, onde se lia ""Introduction to ML: What is Machine Learning?"", lê-se ""What is Machine Learning?" (curso Introduction to Machine Learning)" (título conforme a página aberta pela CQFP em 18/10/2026; URL inalterada). Errata de forma: gabaritos, itens, enunciados, citações literais, URLs e contagens inalterados; aplicação no pacote na próxima ocorrência da T-12 após o aceite | gcb-cpp (proposta) + QA gcb-cqfp (ajustes de B1 e B2) + D1 da GCB | aplicada (v3.6, 18/10/2026); conferida (CQFP, 18/10/2026) |
 
 FONTES DE FORNECEDOR (verificadas em 7/10/2026, acesso direto; F4 reverificado em 7/10/2026)
 F1 — Anthropic, "Prompt engineering overview", platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 F2 — OpenAI, "Prompt engineering", developers.openai.com/api/docs/guides/prompt-engineering
 F3 — Google for Developers, "Machine Learning Glossary: Generative AI", developers.google.com/machine-learning/glossary/generative
-F4 — Google for Developers, "Introduction to ML: What is Machine Learning?", developers.google.com/machine-learning/intro-to-ml/what-is-ml
+F4 — Google for Developers, "What is Machine Learning?" (curso Introduction to Machine Learning), developers.google.com/machine-learning/intro-to-ml/what-is-ml
 F5 — Google for Developers, "GAN — Background: What is a Generative Model?", developers.google.com/machine-learning/gan/generative
 Regra aplicada: afirmações conceituais gerais não dependem de fornecedor; afirmações sobre comportamento de ferramenta, API ou modelo trazem F1–F5. Nada neste lote afirma versão, preço ou limite numérico de produto.
 
@@ -103,7 +105,7 @@ Prompt estruturado:
   [Formato] Um parágrafo por orador, na ordem das falas; ao final, lista das propostas concretas apresentadas.
   [Restrições] Não atribua a um orador fala que ele não tenha feito; não acrescente informação externa; trechos marcados [inaudível] permanecem assim.
   [Contexto] <notas> ... texto ... </notas>
-O que mudou: papel, instrução clara, formato de saída, restrições contra alucinação e delimitação do contexto com tags — as técnicas de F1 e F2. Se o resumo precisasse ainda ser comparado com o relatório do relator, caberia um segundo prompt, encadeado (prompt chaining).
+O que mudou: papel, instrução clara, formato de saída, restrições contra alucinação e delimitação do contexto com tags — as técnicas descritas nos guias de engenharia de prompts da Anthropic e da OpenAI (F1, F2). Se o resumo precisasse ainda ser comparado com o relatório do relator, caberia um segundo prompt, encadeado (prompt chaining).
 
 5.1.6 PEGADINHAS PROVÁVEIS
 P1. "A engenharia de prompts ajusta os pesos do modelo para a tarefa" → ERRADO (isso é fine-tuning).
@@ -141,8 +143,8 @@ Diferença essencial: não há rótulo com a "resposta certa" para cada entrada;
 Ponte com LLMs — RLHF (aprendizado por reforço com feedback humano): "using feedback from human raters to improve the quality of a model's responses"; o glossário do Google cita avaliações como 👍 e 👎 (F3, verificado em 7/10/2026). RLHF é uma etapa de AJUSTE de modelos generativos, não o método de pré-treinamento.
 
 5.2.5 COMO OS TRÊS SE COMBINAM NOS MODELOS ATUAIS
-Os modelos de IA generativa são, em regra, pré-treinados com grandes volumes de dados sem rótulos atribuídos manualmente e, em etapa posterior, podem ser ajustados por aprendizado supervisionado ou por reforço para tarefas específicas. É o que afirma o F4: "generative models are initially trained using an unsupervised approach" e "the model is sometimes trained further using supervised or reinforcement learning" (reverificado em 7/10/2026). Conclusão para a prova: afirmar que a IA generativa se baseia PRIORITARIAMENTE em aprendizado supervisionado é ERRADO. Mecanismo semelhante aparece no item 81 do TRF6 2024, Cargo 2 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01); o lote usa o F4 como fundamento, não o TRF6.
-Observação de prudência: a literatura também chama o pré-treinamento de LLMs de "auto-supervisionado" (o próprio texto fornece o alvo). O enquadramento desse termo como subtipo do "não supervisionado" é disputado; o candidato deve ficar com a formulação do F4 e evitar itens que dependam da classificação do "auto-supervisionado".
+Os modelos de IA generativa são, em regra, pré-treinados com grandes volumes de dados sem rótulos atribuídos manualmente e, em etapa posterior, podem ser ajustados por aprendizado supervisionado ou por reforço para tarefas específicas. É o que afirma a página "What is Machine Learning?", do curso Introduction to Machine Learning do Google for Developers: "generative models are initially trained using an unsupervised approach" e "the model is sometimes trained further using supervised or reinforcement learning" (reverificado em 7/10/2026). Conclusão para a prova: afirmar que a IA generativa se baseia PRIORITARIAMENTE em aprendizado supervisionado é ERRADO. Mecanismo semelhante aparece no item 81 do TRF6 2024, Cargo 2 (CEBRASPE_ANALOGA; gabarito definitivo E, conferido no GAB_DEFINITIVO_034_TRF6_002_01); o lote usa o F4 como fundamento, não o TRF6.
+Observação de prudência: a literatura também chama o pré-treinamento de LLMs de "auto-supervisionado" (o próprio texto fornece o alvo). O enquadramento desse termo como subtipo do "não supervisionado" é disputado; o candidato deve ficar com a formulação da página "What is Machine Learning?" e evitar itens que dependam da classificação do "auto-supervisionado".
 Variantes que a banca pode citar (conceitos gerais): semi-supervisionado (poucos dados rotulados + muitos sem rótulo) e auto-supervisionado (rótulos derivados dos próprios dados).
 
 5.2.6 EXEMPLO APLICADO AO LEGISLATIVO
@@ -169,7 +171,7 @@ IA generativa é o ramo da IA cujos modelos CRIAM conteúdo novo — texto, imag
 Distinção de vocabulário (O11): CLASSIFICAR é uma TAREFA; GENERATIVO e DISCRIMINATIVO são TIPOS DE MODELO. Modelos generativos também podem ser usados para classificar: um classificador generativo (exemplo clássico: Naive Bayes, usado em filtros de spam) aprende a distribuição dos dados em cada classe e decide pela classe mais provável. Logo, "classifica" não implica "discriminativo".
 
 5.3.2 GENERATIVA × DISCRIMINATIVA
-Segundo o F5 (verificado em 7/10/2026):
+Segundo a página "Background: What is a Generative Model?", do curso sobre GAN do Google for Developers (F5, verificado em 7/10/2026):
 - Modelo generativo modela a distribuição conjunta p(X, Y) — ou p(X), sem rótulos —, isto é, aprende COMO OS DADOS SE DISTRIBUEM e por isso consegue gerar novas instâncias realistas (fotos novas de animais; a próxima palavra de uma sequência). "Generative models have to model more."
 - Modelo discriminativo modela a probabilidade condicional p(Y | X): aprende apenas a FRONTEIRA entre categorias ("discriminative models try to draw boundaries in the data space"), sem se importar com a plausibilidade de uma instância. Exemplo: distinguir cachorro de gato.
 Tradução didática: o discriminativo responde "isto é A ou B?" traçando a fronteira; o generativo responde "como seria um novo exemplar de A?" — e, por conhecer a distribuição de cada classe, também pode responder "isto é A ou B?" (classificador generativo). Nenhum dos dois precisa necessariamente retornar uma probabilidade (F5).

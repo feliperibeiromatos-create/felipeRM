@@ -1,0 +1,1294 @@
+{
+ "arquivo": "out/pacote_estudante.json",
+ "bytes": 880331,
+ "regras": {
+  "url AUTORAL (valor inteiro apagado)": 454,
+  "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6,
+  "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+  "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
+  "carimbo de leitura \"aberta(s) hoje\"": 4,
+  "id interno (R-xx, E-xx, O-xx, D-xx)": 4,
+  "F (prosa: referência a fonte)": 1,
+  "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1,
+  "marca de processo (\"neste chat\")": 1
+ },
+ "total_remocoes": 479,
+ "por_campo": {
+  "lotes[].resumo": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].curso": {
+   "campos_alterados": 3,
+   "remocoes": 16,
+   "regras": {
+    "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
+    "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
+    "marca de processo (\"neste chat\")": 1,
+    "F (prosa: referência a fonte)": 1,
+    "carimbo de leitura \"aberta(s) hoje\"": 3,
+    "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6
+   }
+  },
+  "lotes[].pares[].a": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pares[].b": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pares[].como": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pegadinhas[].rotulo": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "lotes[].pegadinhas[].texto": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "itens[].justificativa (AUTORAL)": {
+   "campos_alterados": 5,
+   "remocoes": 5,
+   "regras": {
+    "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+    "carimbo de leitura \"aberta(s) hoje\"": 1
+   }
+  },
+  "itens[].url (AUTORAL)": {
+   "campos_alterados": 454,
+   "remocoes": 454,
+   "regras": {
+    "url AUTORAL (valor inteiro apagado)": 454
+   }
+  },
+  "itens[].justificativa (AUTORAL, reforço)": {
+   "campos_alterados": 1,
+   "remocoes": 1,
+   "regras": {
+    "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
+   }
+  },
+  "itens[].justificativa (AUTORAL, reforço v1.10)": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].comando": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].padrao": {
+   "campos_alterados": 2,
+   "remocoes": 3,
+   "regras": {
+    "id interno (R-xx, E-xx, O-xx, D-xx)": 3
+   }
+  },
+  "discursivas[].aspectos[].texto": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].quesitos[].nome": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  },
+  "discursivas[].quesitos[].conceitos[]": {
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
+  }
+ },
+ "campos_comparados_so_delecao": 1539,
+ "caixa": {
+  "pares": 8,
+  "ocorrencias": 6
+ },
+ "realinha": {
+  "pares": 2,
+  "ocorrencias": 0
+ },
+ "casamentos_R": [
+  {
+   "campo": "itens[BQ-0040].comando",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "21, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.",
+   "destino": "X1"
+  },
+  {
+   "campo": "itens[BQ-0064].enunciado",
+   "rotulo": "modelo",
+   "casamento": "ChatGPT",
+   "contexto": "O ChatGPT e o DeepSeek são plataformas de IA",
+   "destino": "X2"
+  },
+  {
+   "campo": "itens[L2-R29].enunciado",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "as das sessões plenárias compete à Secretaria-Geral da Mesa, e não ao Derep (ant",
+   "destino": "X9"
+  },
+  {
+   "campo": "itens[L2-R29].justificativa",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "lenárias; o item troca o órgão por Secretaria-Geral da Mesa.",
+   "destino": "X10"
+  },
+  {
+   "campo": "itens[L2-R38].enunciado",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "Ato da Mesa nº 251/2026, compete à Secretaria-Geral da Mesa, e não ao Derep (ant",
+   "destino": "X11"
+  },
+  {
+   "campo": "itens[L2-R38].justificativa",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "strados; o item troca o órgão pela Secretaria-Geral da Mesa.",
+   "destino": "X12"
+  },
+  {
+   "campo": "itens[L2-R45].enunciado",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "Quando a Secretaria-Geral da Mesa solicita o registro ",
+   "destino": "X13"
+  },
+  {
+   "campo": "itens[L2-R45].justificativa",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": " de Líderes quando solicitado pela Secretaria-Geral da Mesa.",
+   "destino": "X14"
+  },
+  {
+   "campo": "lotes[L2].curso",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "m de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, norma de cará",
+   "destino": "X15"
+  },
+  {
+   "campo": "lotes[L2].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": " Presidente (ou no exercício↵   da Presidência), orientação de bancada, pela orde",
+   "destino": "X3"
+  },
+  {
+   "campo": "lotes[L2].curso",
+   "rotulo": "ampliada",
+   "casamento": "Secretaria",
+   "contexto": "m de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, contexto hist",
+   "destino": "X16"
+  },
+  {
+   "campo": "lotes[L3].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": " ela. A redação anterior (órgão da Presidência da↵   República) está SUPERADA.↵ -",
+   "destino": "X4"
+  },
+  {
+   "campo": "lotes[L3].curso",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "↵superada). (6) ANPD como órgão da Presidência (redação superada), ou↵\"a autorida",
+   "destino": "X5"
+  },
+  {
+   "campo": "lotes[L3].pares[20].b",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "rquia vinculada ao MJSP); órgão da Presidência (redação superada)",
+   "destino": "X6"
+  },
+  {
+   "campo": "lotes[L3].pegadinhas[25].texto",
+   "rotulo": "ampliada",
+   "casamento": "Presidência",
+   "contexto": "ANPD como órgão da Presidência (redação superada), ou \"a autorida",
+   "destino": "X7"
+  },
+  {
+   "campo": "lotes[L6A].curso",
+   "rotulo": "Fn",
+   "casamento": "F4",
+   "contexto": "B2) ou só a linha (B$2).↵- A tecla F4, com a referência selecionada na b",
+   "destino": "X8"
+  }
+ ],
+ "contagem_X_Y": {
+  "X1": 1,
+  "X2": 1,
+  "X3": 1,
+  "X4": 1,
+  "X5": 1,
+  "X6": 1,
+  "X7": 1,
+  "X8": 1,
+  "X9": 1,
+  "X10": 1,
+  "X11": 1,
+  "X12": 1,
+  "X13": 1,
+  "X14": 1,
+  "X15": 1,
+  "X16": 1,
+  "Y1": 0
+ },
+ "processo": 0,
+ "termos_fora_da_lista": {
+  "Presidente": 42,
+  "Projeto": 462,
+  "OpenAI": 67,
+  "Anthropic": 17,
+  "Gemini": 9,
+  "GPT": 5,
+  "Whisper": 65,
+  "insumo": 3
+ },
+ "reforco_delecoes": {
+  "itens[L2-R18].justificativa | V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
+ },
+ "reforco_v110_delecoes": {},
+ "nucleo": {
+  "P1-1": {
+   "itens": 16,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "6A-01",
+    "6A-02",
+    "6A-03",
+    "6A-04",
+    "6A-05",
+    "6A-06",
+    "6A-07",
+    "6A-08",
+    "6A-09",
+    "6A-10"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6A-CANONICO": 10
+   }
+  },
+  "P1-2": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "6B-01",
+    "BQ-0069",
+    "BQ-0070",
+    "BQ-0071",
+    "BQ-0078",
+    "BQ-0079"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6B-CANONICO": 1,
+    "banco (data_verificacao)": 5
+   }
+  },
+  "P1-2.1": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "6B-02",
+    "6B-03",
+    "6B-04",
+    "6B-05",
+    "BQ-0086",
+    "BQ-0089"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6B-CANONICO": 4,
+    "banco (data_verificacao)": 2
+   }
+  },
+  "P1-3": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "6A-11",
+    "6A-12",
+    "6A-13",
+    "6A-14",
+    "6A-15",
+    "L6A-R01"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6A-CANONICO": 5,
+    "D-T92-R4-PARCIAL": 1
+   }
+  },
+  "P1-4": {
+   "itens": 5,
+   "nucleo": 5,
+   "ids_nucleo": [
+    "BQ-0011",
+    "BQ-0012",
+    "BQ-0038",
+    "BQ-0039",
+    "BQ-0111"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "banco (data_verificacao)": 5
+   }
+  },
+  "P1-4.1": {
+   "itens": 11,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "6B-06",
+    "6B-07",
+    "6B-08",
+    "6B-09",
+    "BQ-0073",
+    "BQ-0082",
+    "BQ-0083",
+    "BQ-0090",
+    "BQ-0094",
+    "BQ-0095"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6B-CANONICO": 4,
+    "banco (data_verificacao)": 6
+   }
+  },
+  "P1-4.2": {
+   "itens": 8,
+   "nucleo": 8,
+   "ids_nucleo": [
+    "6B-10",
+    "6B-11",
+    "6B-12",
+    "BQ-0074",
+    "BQ-0075",
+    "BQ-0088",
+    "BQ-0093",
+    "BQ-0067"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0067"
+   ],
+   "atos": {
+    "D-LOTE6B-CANONICO": 3,
+    "banco (data_verificacao)": 5
+   }
+  },
+  "P1-4.3": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "6B-13",
+    "6B-14",
+    "6B-15",
+    "BQ-0076",
+    "L6B-R01",
+    "L6B-R02"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-LOTE6B-CANONICO": 3,
+    "banco (data_verificacao)": 1,
+    "D-T102-R4-SALDO": 2
+   }
+  },
+  "P1-5": {
+   "itens": 2,
+   "nucleo": 2,
+   "ids_nucleo": [
+    "BQ-0009",
+    "BQ-0102"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "banco (data_verificacao)": 2
+   }
+  },
+  "P1-5.1": {
+   "itens": 17,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "BQ-0059",
+    "L4-01",
+    "L4-02",
+    "L4-03",
+    "L4-04",
+    "L4-05",
+    "L4-06",
+    "4C-01",
+    "4C-02",
+    "4C-03"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "banco (data_verificacao)": 1,
+    "D-CANONICOS": 9
+   }
+  },
+  "P1-5.2": {
+   "itens": 23,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "BQ-0013",
+    "BQ-0018",
+    "BQ-0019",
+    "BQ-0020",
+    "BQ-0026",
+    "BQ-0027",
+    "BQ-0034",
+    "BQ-0041",
+    "BQ-0042",
+    "BQ-0043"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "banco (data_verificacao)": 10
+   }
+  },
+  "P1-5.3": {
+   "itens": 15,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "BQ-0010",
+    "BQ-0014",
+    "BQ-0028",
+    "BQ-0033",
+    "BQ-0058",
+    "BQ-0061",
+    "BQ-0064",
+    "BQ-0065",
+    "BQ-0066",
+    "BQ-0015"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0015"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 10
+   }
+  },
+  "P1-6": {
+   "itens": 7,
+   "nucleo": 7,
+   "ids_nucleo": [
+    "BQ-0040",
+    "BQ-0016",
+    "L4-17",
+    "L4-18",
+    "L4-19",
+    "L4-20",
+    "BQ-0072"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0016"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 3,
+    "D-CANONICOS": 4
+   }
+  },
+  "P1-7.1": {
+   "itens": 9,
+   "nucleo": 9,
+   "ids_nucleo": [
+    "BQ-0044",
+    "BQ-0054",
+    "BQ-0055",
+    "A5-01",
+    "A5-02",
+    "A5-03",
+    "A5-04",
+    "BQ-0108",
+    "BQ-0107"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0055",
+    "BQ-0107"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 5,
+    "D-CANONICOS": 4
+   }
+  },
+  "P1-8.1": {
+   "itens": 7,
+   "nucleo": 7,
+   "ids_nucleo": [
+    "BQ-0021",
+    "BQ-0022",
+    "BQ-0001",
+    "A5-05",
+    "A5-06",
+    "A5-07",
+    "BQ-0099"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0001",
+    "BQ-0099"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 4,
+    "D-CANONICOS": 3
+   }
+  },
+  "P1-8.2": {
+   "itens": 19,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "BQ-0047",
+    "BQ-0052",
+    "BQ-0053",
+    "A5-08",
+    "A5-09",
+    "A5-10",
+    "A5-11",
+    "A5-12",
+    "A5-13",
+    "5C-01"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "banco (data_verificacao)": 3,
+    "D-CANONICOS": 7
+   }
+  },
+  "P1-8.3": {
+   "itens": 7,
+   "nucleo": 7,
+   "ids_nucleo": [
+    "BQ-0048",
+    "BQ-0017",
+    "BQ-0035",
+    "A5-14",
+    "A5-15",
+    "A5-16",
+    "A5-17"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0017",
+    "BQ-0035"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 3,
+    "D-CANONICOS": 4
+   }
+  },
+  "P1-8.4": {
+   "itens": 8,
+   "nucleo": 8,
+   "ids_nucleo": [
+    "A5-18",
+    "A5-19",
+    "A5-20",
+    "5C-07",
+    "5C-08",
+    "5C-09",
+    "5C-10",
+    "BQ-0098"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 7,
+    "banco (data_verificacao)": 1
+   }
+  },
+  "P2-1.1": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q01",
+    "L1-Q02",
+    "L1C-Q21",
+    "L1C-Q22",
+    "L1-R01",
+    "L1-R02",
+    "L1-R19",
+    "L1-R20",
+    "L1-R21",
+    "L1-R22"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T89-R1-ACEITE": 2,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.2": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q03",
+    "L1-Q04",
+    "L1C-Q23",
+    "L1C-Q24",
+    "L1-R03",
+    "L1-R04",
+    "L1-R33",
+    "L1-R34",
+    "L1-R35",
+    "L1-R36"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T89-R1-ACEITE": 2,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.3": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q05",
+    "L1-Q06",
+    "L1C-Q25",
+    "L1C-Q26",
+    "L1-R05",
+    "L1-R06",
+    "L1-R47",
+    "L1-R48",
+    "L1-R49",
+    "L1-R50"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T89-R1-ACEITE": 2,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.4": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q07",
+    "L1-Q08",
+    "L1-Q09",
+    "L1C-Q27",
+    "L1C-Q28",
+    "L1-R07",
+    "L1-R61",
+    "L1-R62",
+    "L1-R63",
+    "L1-R64"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 5,
+    "D-T89-R1-ACEITE": 1,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.5": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q10",
+    "L1-Q11",
+    "L1C-Q29",
+    "L1C-Q30",
+    "L1-R08",
+    "L1-R09",
+    "L1-R75",
+    "L1-R76",
+    "L1-R77",
+    "L1-R78"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T89-R1-ACEITE": 2,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.6": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q12",
+    "L1-Q13",
+    "L1-Q14",
+    "L1-R10",
+    "L1-R11",
+    "L1-R12",
+    "L1-R89",
+    "L1-R90",
+    "L1-R91",
+    "L1-R92"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 3,
+    "D-T89-R1-ACEITE": 3,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.7": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q15",
+    "L1-Q16",
+    "L1-Q17",
+    "L1-R13",
+    "L1-R14",
+    "L1-R15",
+    "L1-R103",
+    "L1-R104",
+    "L1-R105",
+    "L1-R106"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 3,
+    "D-T89-R1-ACEITE": 3,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-1.8": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L1-Q18",
+    "L1-Q19",
+    "L1-Q20",
+    "L1-R16",
+    "L1-R17",
+    "L1-R18",
+    "L1-R117",
+    "L1-R118",
+    "L1-R119",
+    "L1-R120"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 3,
+    "D-T89-R1-ACEITE": 3,
+    "D-T96-ONDA2-ACEITE": 4
+   }
+  },
+  "P2-2.1": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q01",
+    "L2-Q02",
+    "L2-Q03",
+    "L2-Q04",
+    "L2-R01",
+    "L2-R02",
+    "L2-R20",
+    "L2-R23",
+    "L2-R24",
+    "L2-R26"
+   ],
+   "parciais_no_nucleo": [
+    "L2-R02"
+   ],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.2": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q05",
+    "L2-Q06",
+    "L2-Q07",
+    "L2-Q08",
+    "L2-R03",
+    "L2-R04",
+    "L2-R33",
+    "L2-R34",
+    "L2-R36",
+    "L2-R37"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.3": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q09",
+    "L2-Q10",
+    "L2-Q11",
+    "L2-Q12",
+    "L2-R05",
+    "L2-R06",
+    "L2-R48",
+    "L2-R49",
+    "L2-R56",
+    "L2-R57"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.4": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q13",
+    "L2-Q14",
+    "L2-Q15",
+    "L2-Q16",
+    "L2-R07",
+    "L2-R08",
+    "L2-R62",
+    "L2-R68",
+    "L2-R70",
+    "L2-R72"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.5": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q17",
+    "L2-Q18",
+    "L2-Q19",
+    "L2-Q20",
+    "L2-R09",
+    "L2-R10",
+    "L2-R75",
+    "L2-R76",
+    "L2-R77",
+    "L2-R78"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.6": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q21",
+    "L2-Q22",
+    "L2-Q23",
+    "L2-R11",
+    "L2-R12",
+    "L2-R13",
+    "L2-R89",
+    "L2-R90",
+    "L2-R92",
+    "L2-R93"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 3,
+    "D-T90-R2-ACEITE": 3,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.7": {
+   "itens": 20,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q24",
+    "L2-Q25",
+    "L2-Q26",
+    "L2-Q27",
+    "L2-R14",
+    "L2-R15",
+    "L2-R103",
+    "L2-R104",
+    "L2-R105",
+    "L2-R106"
+   ],
+   "parciais_no_nucleo": [
+    "L2-R14",
+    "L2-R15"
+   ],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 4
+   }
+  },
+  "P2-2.8": {
+   "itens": 19,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "L2-Q28",
+    "L2-Q29",
+    "L2-Q30",
+    "L2-R17",
+    "L2-R18",
+    "L2-R117",
+    "L2-R118",
+    "L2-R119",
+    "L2-R120",
+    "L2-R121"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 3,
+    "D-T90-R2-ACEITE": 2,
+    "D-T97-ONDA3-ACEITE": 5
+   }
+  },
+  "P2-3.1": {
+   "itens": 7,
+   "nucleo": 7,
+   "ids_nucleo": [
+    "L3-Q01",
+    "L3-Q02",
+    "L3-Q03",
+    "L3-Q04",
+    "L3-R01",
+    "L3-R02",
+    "L2-R16"
+   ],
+   "parciais_no_nucleo": [
+    "L3-R01",
+    "L3-R02"
+   ],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T91-R3-ACEITE": 2,
+    "D-T90-R2-ACEITE": 1
+   }
+  },
+  "P2-3.2": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "L3-Q05",
+    "L3-Q06",
+    "L3-Q07",
+    "L3-Q08",
+    "L3-R03",
+    "L3-R04"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T91-R3-ACEITE": 2
+   }
+  },
+  "P2-3.3": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "L3-Q09",
+    "L3-Q10",
+    "L3-Q11",
+    "L3-Q12",
+    "L3-R06",
+    "L3-R05"
+   ],
+   "parciais_no_nucleo": [
+    "L3-R05"
+   ],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T91-R3-ACEITE": 2
+   }
+  },
+  "P2-3.4": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "L3-Q13",
+    "L3-Q14",
+    "L3-Q15",
+    "L3-Q16",
+    "L3-R07",
+    "L3-R08"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T91-R3-ACEITE": 2
+   }
+  },
+  "P2-4.1": {
+   "itens": 26,
+   "nucleo": 10,
+   "ids_nucleo": [
+    "BQ-0002",
+    "BQ-0003",
+    "BQ-0004",
+    "BQ-0005",
+    "BQ-0006",
+    "BQ-0007",
+    "BQ-0008",
+    "BQ-0023",
+    "BQ-0024",
+    "BQ-0025"
+   ],
+   "parciais_no_nucleo": [
+    "BQ-0002",
+    "BQ-0003",
+    "BQ-0004",
+    "BQ-0005",
+    "BQ-0006",
+    "BQ-0007",
+    "BQ-0008",
+    "BQ-0023",
+    "BQ-0024",
+    "BQ-0025"
+   ],
+   "atos": {
+    "banco (data_verificacao)": 10
+   }
+  },
+  "P2-4.2": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "L3-Q22",
+    "L3-Q23",
+    "L3-Q24",
+    "L3-Q25",
+    "L3-Q26",
+    "L3-R09"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 5,
+    "D-T91-R3-ACEITE": 1
+   }
+  },
+  "P2-4.3": {
+   "itens": 6,
+   "nucleo": 6,
+   "ids_nucleo": [
+    "L3-Q27",
+    "L3-Q28",
+    "L3-Q29",
+    "L3-Q30",
+    "L3-R10",
+    "L3-R11"
+   ],
+   "parciais_no_nucleo": [],
+   "atos": {
+    "D-CANONICOS": 4,
+    "D-T91-R3-ACEITE": 2
+   }
+  }
+ },
+ "nucleo_total": 344,
+ "itens_por_lote": {
+  "origem_v1_10": {
+   "L1": 150,
+   "L1C": 10,
+   "L2": 160,
+   "L3": 41,
+   "L4": 20,
+   "L4C": 10,
+   "L5": 20,
+   "L5C": 10,
+   "L6A": 16,
+   "L6B": 17
+  },
+  "depois_v1_10_E": {
+   "L1": 160,
+   "L2": 160,
+   "L3": 41,
+   "L4": 30,
+   "L5": 30,
+   "L6A": 16,
+   "L6B": 17
+  },
+  "banco": 106
+ },
+ "verificacao_residual": {
+  "modo": "ENSAIO",
+  "regras_herdadas": {
+   "id interno (R-xx, E-xx, O-xx, D-xx)": 4,
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
+   "marca de processo (\"neste chat\")": 1,
+   "F (prosa: referência a fonte)": 1,
+   "carimbo de leitura \"aberta(s) hoje\"": 4,
+   "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+   "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
+  },
+  "campos_com_casamento": [
+   [
+    "lotes[L4].curso",
+    {
+     "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
+     "carimbo datado de verificação/leitura (ligado a F-ref)": 2,
+     "marca de processo (\"neste chat\")": 1
+    }
+   ],
+   [
+    "lotes[L6A].curso",
+    {
+     "F (prosa: referência a fonte)": 1,
+     "carimbo datado de verificação/leitura (ligado a F-ref)": 2,
+     "carimbo de leitura \"aberta(s) hoje\"": 1,
+     "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6
+    }
+   ],
+   [
+    "lotes[L6B].curso",
+    {
+     "carimbo de leitura \"aberta(s) hoje\"": 2
+    }
+   ],
+   [
+    "itens[A5-14].justificativa",
+    {
+     "carimbo \"Verificado em 8/10/2026\" (L5)": 1
+    }
+   ],
+   [
+    "itens[A5-15].justificativa",
+    {
+     "carimbo \"Verificado em 8/10/2026\" (L5)": 1
+    }
+   ],
+   [
+    "itens[A5-16].justificativa",
+    {
+     "carimbo \"Verificado em 8/10/2026\" (L5)": 1
+    }
+   ],
+   [
+    "itens[A5-17].justificativa",
+    {
+     "carimbo \"Verificado em 8/10/2026\" (L5)": 1
+    }
+   ],
+   [
+    "itens[6B-06].justificativa",
+    {
+     "carimbo de leitura \"aberta(s) hoje\"": 1
+    }
+   ],
+   [
+    "itens[L2-R18].justificativa",
+    {
+     "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
+    }
+   ],
+   [
+    "discursivas[D4].padrao",
+    {
+     "id interno (R-xx, E-xx, O-xx, D-xx)": 2
+    }
+   ],
+   [
+    "discursivas[D5].padrao",
+    {
+     "id interno (R-xx, E-xx, O-xx, D-xx)": 1
+    }
+   ]
+  ],
+  "total": 19,
+  "liquido": 19,
+  "excecoes": {},
+  "caixa": [
+   [
+    "L6A_estudo",
+    "mesclar combina duas ou mais células",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "a função SE compara um valor",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "o PROCV pesquisa um valor",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "o propósito é fazer todos os slides",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "a animação é aplicada a um único element",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "o histórico de versões permite ver",
+    1
+   ],
+   [
+    "L6A_estudo",
+    "deleted\". por padrão os clientes POP3",
+    0
+   ],
+   [
+    "L6A_estudo",
+    "offline. por padrão os clientes IMAP4",
+    0
+   ]
+  ],
+  "realinha": [
+   [
+    "L1_estudo",
+    "                    |               | st",
+    0
+   ],
+   [
+    "L1_estudo",
+    "                    |         |         ",
+    0
+   ]
+  ],
+  "achados_X_Y": 16,
+  "verificado_em_mantidos": 146,
+  "XY_contagem_diferente": [
+   "Y1 (dúvida): contagem real 0, esperada 1 (contexto 'O F4 afirma que' em itens[L4-11].justificativa: 0 ocorrência(s) do contexto)"
+  ],
+  "X": 16,
+  "Y": 0,
+  "reforco_hits": 1,
+  "reforco_v110_hits": 0,
+  "objetos_com_interno_no_pacote": 208
+ },
+ "falhas": []
+}

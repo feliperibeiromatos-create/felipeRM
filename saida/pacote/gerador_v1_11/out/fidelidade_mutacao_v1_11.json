@@ -1,0 +1,223 @@
+{
+ "total": 22,
+ "ok": 22,
+ "casos": [
+  {
+   "caso": "controle (sem mutação): o gerador passa",
+   "esperado": [],
+   "parou": false,
+   "mensagem": "772 edições aplicadas, 1 MANTER",
+   "ok": true
+  },
+  {
+   "caso": "1 caractere de um antes alterado",
+   "esperado": [
+    "C-3",
+    "GCB-A0001",
+    "antes ocorre 0 vez"
+   ],
+   "parou": true,
+   "mensagem": "C-3: GCB-A0001: antes ocorre 0 vez(es) em lotes[L4].curso (esperado 1)",
+   "ok": true
+  },
+  {
+   "caso": "id de ocorrência em duas linhas",
+   "esperado": [
+    "C-2",
+    "mais de uma linha"
+   ],
+   "parou": true,
+   "mensagem": "C-2: id de ocorrência em mais de uma linha: D-C05-81059dd6",
+   "ok": true
+  },
+  {
+   "caso": "id de ocorrência repetido na própria linha",
+   "esperado": [
+    "C-2",
+    "GCB-A0001",
+    "repetido"
+   ],
+   "parou": true,
+   "mensagem": "C-2: m2b.csv GCB-A0001: ids_ocorrencia vazio ou com id repetido na própria linha",
+   "ok": true
+  },
+  {
+   "caso": "sobreposição de intervalos do mesmo campo",
+   "esperado": [
+    "C-3",
+    "sobrepõe"
+   ],
+   "parou": true,
+   "mensagem": "C-3: GCB-A0002: intervalo do antes se sobrepõe ao de outra linha em lotes[L4].curso",
+   "ok": true
+  },
+  {
+   "caso": "código de fonte (F3) no depois",
+   "esperado": [
+    "C-7",
+    "GCB-A0001",
+    "proibição no depois"
+   ],
+   "parou": true,
+   "mensagem": "C-7: GCB-A0001: proibição no depois: F/N nn em 'F3'",
+   "ok": true
+  },
+  {
+   "caso": "FP-R1/FP-CONTEUDO citado em linha",
+   "esperado": [
+    "C-2",
+    "FP"
+   ],
+   "parou": true,
+   "mensagem": "C-2: GCB-A0001: cita o id D-C01-c561255b, que é FP (FP-R1/FP-CONTEUDO não entra em linha)",
+   "ok": true
+  },
+  {
+   "caso": "antes que engole um FP sem repô-lo no depois",
+   "esperado": [
+    "C-3",
+    "FP"
+   ],
+   "parou": true,
+   "mensagem": "C-3: GCB-A0019: o FP D-C08-6b054c13 ('produção') não reaparece no depois",
+   "ok": true
+  },
+  {
+   "caso": "BOM no início da tabela",
+   "esperado": [
+    "C-1",
+    "BOM"
+   ],
+   "parou": true,
+   "mensagem": "C-1: m6.csv: BOM no início do arquivo",
+   "ok": true
+  },
+  {
+   "caso": "caractere \\r no depois",
+   "esperado": [
+    "C-1",
+    "\\r"
+   ],
+   "parou": true,
+   "mensagem": "C-1: m7.csv GCB-A0001: caractere \\r em antes ou depois",
+   "ok": true
+  },
+  {
+   "caso": "SHA-256 da tabela diferente do fixado",
+   "esperado": [
+    "C-1",
+    "SHA-256"
+   ],
+   "parou": true,
+   "mensagem": "C-1: SHA-256 de saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv = 2a634da3b7e2508a1bc98b95f56abbb55f691ca4396eccd9f9a2bb6526c1103d != fixado 0000000000000000000000000000000000000000000000000000000000000000",
+   "ok": true
+  },
+  {
+   "caso": "id de ocorrência fora do universo",
+   "esperado": [
+    "C-2",
+    "fora do universo"
+   ],
+   "parou": true,
+   "mensagem": "C-2: GCB-A0001: cita o id D-C99-00000000, fora do universo (PROCESSO ou VERIFICAR do pacote.json)",
+   "ok": true
+  },
+  {
+   "caso": "coluna obrigatória ausente",
+   "esperado": [
+    "C-1",
+    "coluna obrigatória ausente"
+   ],
+   "parou": true,
+   "mensagem": "C-1: m10.csv: coluna obrigatória ausente: depois",
+   "ok": true
+  },
+  {
+   "caso": "cobertura incompleta (uma linha a menos)",
+   "esperado": [
+    "C-2",
+    "cobertura"
+   ],
+   "parou": true,
+   "mensagem": "C-2: cobertura: 1 ids do universo sem linha (ex.: D-C05-ddabce78)",
+   "ok": true
+  },
+  {
+   "caso": "prefixo do id_edicao fora da Gerência dona da tabela",
+   "esperado": [
+    "C-2",
+    "prefixo"
+   ],
+   "parou": true,
+   "mensagem": "C-2: m11b.csv GCE-7777: prefixo do id_edicao fora da Gerência GCB",
+   "ok": true
+  },
+  {
+   "caso": "`interno` com pos adulterado (reversibilidade)",
+   "esperado": [
+    "C-5"
+   ],
+   "parou": true,
+   "mensagem": "C-5: GCE-0053: texto[pos:pos+len(depois)] != depois em itens[L1-Q05].justificativa",
+   "ok": true
+  },
+  {
+   "caso": "T109 sem a linha \"L2-R16 | itemEdital | P2-2.8 | P2-3.1\"",
+   "esperado": [
+    "C-4",
+    "ausente"
+   ],
+   "parou": true,
+   "mensagem": "C-4: T109: linha \"L2-R16 | itemEdital | P2-2.8 | P2-3.1\" ausente da seção 2",
+   "ok": true
+  },
+  {
+   "caso": "L2-R16 fora de P2-2.8 na base",
+   "esperado": [
+    "C-4"
+   ],
+   "parou": true,
+   "mensagem": "C-4: L2-R16 ausente da base ou fora de P2-2.8",
+   "ok": true
+  },
+  {
+   "caso": "L2-R16 num simulado",
+   "esperado": [
+    "C-4",
+    "SIM-0"
+   ],
+   "parou": true,
+   "mensagem": "C-4: L2-R16 está em SIM-0",
+   "ok": true
+  },
+  {
+   "caso": "literal do número da versão fora de config_v111.py",
+   "esperado": [
+    "C-16"
+   ],
+   "parou": true,
+   "mensagem": "C-16: literal de versão fora do config: [('x.py', 2, '\"pacote v1.11\"')]",
+   "ok": true
+  },
+  {
+   "caso": "geração final sem E1–E5 cumpridas (SHA das tabelas, ATO_L2R16)",
+   "esperado": [
+    "C-1",
+    "condições de entrada"
+   ],
+   "parou": true,
+   "mensagem": "C-1: condições de entrada da geração final não cumpridas: E1-E3: SHA-256 da tabela GCE não fixado; E1-E3: SHA-256 da tabela GCB não fixado; E1-E3: SHA-256 da tabela GBQ não fixado; E4: ATO_L2R16 ausente",
+   "ok": true
+  },
+  {
+   "caso": "edição .md: valor antigo sem a contagem esperada no arquivo",
+   "esperado": [
+    "C-11",
+    "ocorrência"
+   ],
+   "parou": true,
+   "mensagem": "C-11: lotes[L1].curso: L1_estudo.md tem 0 ocorrência(s) do valor antigo, esperadas 1",
+   "ok": true
+  }
+ ]
+}

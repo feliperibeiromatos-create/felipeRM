@@ -1,0 +1,23 @@
+OK    controle (sem mutação): o gerador passa | 772 edições aplicadas, 1 MANTER
+OK    1 caractere de um antes alterado | C-3: GCB-A0001: antes ocorre 0 vez(es) em lotes[L4].curso (esperado 1)
+OK    id de ocorrência em duas linhas | C-2: id de ocorrência em mais de uma linha: D-C05-81059dd6
+OK    id de ocorrência repetido na própria linha | C-2: m2b.csv GCB-A0001: ids_ocorrencia vazio ou com id repetido na própria linha
+OK    sobreposição de intervalos do mesmo campo | C-3: GCB-A0002: intervalo do antes se sobrepõe ao de outra linha em lotes[L4].curso
+OK    código de fonte (F3) no depois | C-7: GCB-A0001: proibição no depois: F/N nn em 'F3'
+OK    FP-R1/FP-CONTEUDO citado em linha | C-2: GCB-A0001: cita o id D-C01-c561255b, que é FP (FP-R1/FP-CONTEUDO não entra em linha)
+OK    antes que engole um FP sem repô-lo no depois | C-3: GCB-A0019: o FP D-C08-6b054c13 ('produção') não reaparece no depois
+OK    BOM no início da tabela | C-1: m6.csv: BOM no início do arquivo
+OK    caractere \r no depois | C-1: m7.csv GCB-A0001: caractere \r em antes ou depois
+OK    SHA-256 da tabela diferente do fixado | C-1: SHA-256 de saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv = 2a634da3b7e2508a1bc98b95f56abbb55f691ca4396eccd9f9a2bb6526c1103d != fixado 000000000
+OK    id de ocorrência fora do universo | C-2: GCB-A0001: cita o id D-C99-00000000, fora do universo (PROCESSO ou VERIFICAR do pacote.json)
+OK    coluna obrigatória ausente | C-1: m10.csv: coluna obrigatória ausente: depois
+OK    cobertura incompleta (uma linha a menos) | C-2: cobertura: 1 ids do universo sem linha (ex.: D-C05-ddabce78)
+OK    prefixo do id_edicao fora da Gerência dona da tabela | C-2: m11b.csv GCE-7777: prefixo do id_edicao fora da Gerência GCB
+OK    `interno` com pos adulterado (reversibilidade) | C-5: GCE-0053: texto[pos:pos+len(depois)] != depois em itens[L1-Q05].justificativa
+OK    T109 sem a linha "L2-R16 | itemEdital | P2-2.8 | P2-3.1" | C-4: T109: linha "L2-R16 | itemEdital | P2-2.8 | P2-3.1" ausente da seção 2
+OK    L2-R16 fora de P2-2.8 na base | C-4: L2-R16 ausente da base ou fora de P2-2.8
+OK    L2-R16 num simulado | C-4: L2-R16 está em SIM-0
+OK    literal do número da versão fora de config_v111.py | C-16: literal de versão fora do config: [('x.py', 2, '"pacote v1.11"')]
+OK    geração final sem E1–E5 cumpridas (SHA das tabelas, ATO_L2R16) | C-1: condições de entrada da geração final não cumpridas: E1-E3: SHA-256 da tabela GCE não fixado; E1-E3: SHA-256 da tabela GCB não fixado; E1-E3: SHA-256 da tabela GBQ n
+OK    edição .md: valor antigo sem a contagem esperada no arquivo | C-11: lotes[L1].curso: L1_estudo.md tem 0 ocorrência(s) do valor antigo, esperadas 1
+fidelidade_mutacao_v1_11: 22/22 casos pararam o gerador com a mensagem certa (inclui o controle)

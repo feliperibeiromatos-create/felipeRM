@@ -1,0 +1,21 @@
+A1       OK   pacote.json: serialização canônica, versao 1, nome e geradoEm de config_v111, chaves de topo da v1.10
+A2       OK   pacote.json: 560 itens, mesmos ids e mesma ordem da v1.10
+A3       OK   `interno`: último campo do objeto, nunca vazio, registros {edicao, campo, pos, antes, depois, regra, ocorrencias}; 772 registros em 208 objetos = edições aplicadas
+A4       OK   `interno` ausente do pacote_estudante.json
+C-4      OK   retirados o interno, nome, geradoEm, os 251 campos editados e itens[L2-R16].itemEdital, o pacote.json é idêntico à BASE (ids, ordem, enunciado, comando, textoBase, gabarito, itemEdital, aderencia, volatil, url, rotulo, simulados, edital, itensEdital, legendaMecanismo, pares[].id, valores, quesitos)
+C-4b     OK   L2-R16 em P2-3.1
+C-9a     OK   pacote_estudante.json: asserções (a) a (f) da v1.10 sem falha (estudante_json_v111.py); nome e data de config_v111
+C-9b     OK   "nucleo" booleano e último campo de todo item do -E
+C-9c     OK   fusão 1-C/4-C/5-C: lotes L1, L2, L3, L4, L5, L6A, L6B
+C-9d     OK   url vazia nos AUTORAL do -E (todos)
+C-9e     OK   verificação residual: 19 casamento(s) das regras de deleção herdadas no pacote.json limpo (ENSAIO: informativo)
+C-10a    OK   nucleo: 1 diferença(s) frente à v1.10-E, todas em itens das folhas P2-2.8 e P2-3.1: ['L2-R121']
+C-10b    OK   P2-2.8 com 19 itens (18 diretos, 4 VOLÁTEIS); P2-3.1 com 7 itens, todos nucleo true
+C-10c    OK   nucleo = min(10, total) em cada uma das 41 folhas (out/folhas_v1_11.json)
+C-13a    OK   simulados: ids, composição e ordem iguais à v1.10
+C-13b    OK   L4-11 e BQ-0010 (TRF6, item 81) nunca no mesmo simulado
+C-13c    OK   nenhum item VOLÁTIL em simulado final
+C-13d    OK   nenhum item com "QA PENDENTE"
+C-13e    OK   avisos: iguais aos da v1.10 fora do SIM-0; SIM-0 com o mesmo número de avisos
+C-16     OK   nenhum literal de versão ("1.11", "v1_11") fora de config_v111.py ([])
+validate_v1_11: 20/20 OK (modo ENSAIO)

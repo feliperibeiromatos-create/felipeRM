@@ -1,0 +1,489 @@
+{
+ "producao": [
+  {
+   "arquivo": "saida/gce/T108_substituicoes_GCE.csv",
+   "existe": true,
+   "sha256": "5732a193f49f753e7becd1ec5783682f7a6609b4ecccb175dc09435b3fe42024",
+   "linhas": 263,
+   "recusadas_na_forma": 75,
+   "erros_forma": [
+    [
+     "GCE-0060",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0060: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0061",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0061: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0062",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0062: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0063",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0063: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0064",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0064: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0065",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0065: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0066",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0066: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0069",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0069: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0070",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0070: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0071",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0071: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0073",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0073: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0074",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0074: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0075",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0075: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0076",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0076: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0077",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0077: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0078",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0078: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0079",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0079: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0080",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0080: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0081",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0081: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0082",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0082: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0083",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0083: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0084",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0084: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0085",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0085: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0086",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0086: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0087",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0087: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0088",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0088: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0089",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0089: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0098",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0098: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0099",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0099: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0135",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0135: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0136",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0136: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0142",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0142: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0174",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0174: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0175",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0175: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0176",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0176: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0177",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0177: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0178",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0178: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0179",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0179: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0180",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0180: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0181",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0181: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0182",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0182: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0183",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0183: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0184",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0184: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0185",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0185: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0186",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0186: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0187",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0187: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0188",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0188: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0189",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0189: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0190",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0190: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0193",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0193: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0194",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0194: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0195",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0195: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0197",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0197: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0198",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0198: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0199",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0199: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0200",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0200: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0201",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0201: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0203",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0203: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0204",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0204: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0210",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0210: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0216",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0216: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0217",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0217: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0220",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0220: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0221",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0221: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0222",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0222: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0223",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0223: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0224",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0224: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0225",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0225: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0227",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0227: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0228",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0228: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0229",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0229: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0237",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0237: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0239",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0239: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0255",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0255: DELETAR com depois não vazio"
+    ],
+    [
+     "GCE-0257",
+     "C-1: saida/gce/T108_substituicoes_GCE.csv GCE-0257: DELETAR com depois não vazio"
+    ]
+   ]
+  },
+  {
+   "arquivo": "saida/gcb/T108_substituicoes_GCB_parteA.csv",
+   "existe": true,
+   "sha256": "3e83a970006368d9928da22e97e19dd10701b2d3f5284424af857302ab2bdaa9",
+   "linhas": 178,
+   "recusadas_na_forma": 28,
+   "erros_forma": [
+    [
+     "GCB-A0060",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0060: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0061",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0061: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0063",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0063: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0064",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0064: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0065",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0065: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0066",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0066: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0067",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0067: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0068",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0068: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0069",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0069: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0070",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0070: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0071",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0071: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0072",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0072: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0073",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0073: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0074",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0074: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0075",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0075: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0076",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0076: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0077",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0077: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0078",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0078: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0079",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0079: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0080",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0080: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0081",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0081: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0082",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0082: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0083",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0083: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0087",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0087: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0092",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0092: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0100",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0100: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0102",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0102: DELETAR com depois não vazio"
+    ],
+    [
+     "GCB-A0174",
+     "C-1: saida/gcb/T108_substituicoes_GCB_parteA.csv GCB-A0174: DELETAR com depois não vazio"
+    ]
+   ]
+  },
+  {
+   "arquivo": "saida/gcb/T108_substituicoes_GCB_parteB.csv",
+   "existe": true,
+   "sha256": "a2463cc6d503ea749963271498302b4c74f1cbdc647499445b57d2e20a7768d0",
+   "linhas": 175,
+   "recusadas_na_forma": 0,
+   "erros_forma": []
+  },
+  {
+   "arquivo": "saida/gcb/T108_substituicoes_GCB_parteC.csv",
+   "existe": true,
+   "sha256": "31d8b6b0717aadcefb0bb954d630f0e9f839a501551fef1b50132a0af7693863",
+   "linhas": 155,
+   "recusadas_na_forma": 0,
+   "erros_forma": []
+  }
+ ],
+ "gbq": "4 linhas da seção 1.9 da D1 (tabela ainda não gravada em saida/pacote/ pela gbq-csc)",
+ "aceitas_por_tabela": {
+  "saida/gce/T108_substituicoes_GCE.csv": 178,
+  "saida/gcb/T108_substituicoes_GCB_parteA.csv": 150,
+  "saida/gcb/T108_substituicoes_GCB_parteB.csv": 175,
+  "saida/gcb/T108_substituicoes_GCB_parteC.csv": 155,
+  "ensaio": 4
+ },
+ "recusadas": 10,
+ "motivos_recusa": {
+  "C-2:": 5,
+  "C-3: casamento(s) D-C05-411f0c55 fora do intervalo do antes": 1,
+  "C-3: casamento(s) D-C01-de5cb59b fora do intervalo do antes": 1,
+  "C-3: casamento(s) D-C01-d477dc3e fora do intervalo do antes": 1,
+  "C-3: casamento(s) D-C01-d367ab08 fora do intervalo do antes": 1,
+  "C-7: verificado": 1
+ },
+ "recusadas_ids": {
+  "GCE-0110": "C-2: id NAO_INVENTARIADA-01 fora do universo (inexistente ou FP)",
+  "GCE-0238": "C-2: id NAO_INVENTARIADA-02 fora do universo (inexistente ou FP)",
+  "GCE-0260": "C-2: id NAO_INVENTARIADA-03 fora do universo (inexistente ou FP)",
+  "GCE-0261": "C-2: id NAO_INVENTARIADA-04 fora do universo (inexistente ou FP)",
+  "GCE-0263": "C-2: id NAO_INVENTARIADA-05 fora do universo (inexistente ou FP)",
+  "GCE-0105": "C-3: GCE-0105: casamento(s) D-C05-411f0c55 fora do intervalo do antes em lotes[L2].curso",
+  "GCE-0206": "C-3: GCE-0206: casamento(s) D-C01-de5cb59b fora do intervalo do antes em lotes[L3].curso",
+  "GCE-0207": "C-3: GCE-0207: casamento(s) D-C01-d477dc3e fora do intervalo do antes em lotes[L3].curso",
+  "GCE-0213": "C-3: GCE-0213: casamento(s) D-C01-d367ab08 fora do intervalo do antes em lotes[L3].curso",
+  "GCE-0211": "C-7: GCE-0211: verificado em / base legal: base legal 'inciso' perdida (1 -> 0)"
+ },
+ "sinteticas": {
+  "linhas": 111,
+  "por_gerencia": {
+   "GCE": 83,
+   "GCB": 28
+  },
+  "lacunas": [],
+  "excecoes_depois_ensaio": 0,
+  "nao_resolvidas": []
+ }
+}

@@ -1,0 +1,21 @@
+C-1a    OK       BASE (git cacd606): pacote.json e pacote_estudante.json = SHA-256 do config
+C-1b    OK       inventário de ocorrências e T109 = SHA-256 do config
+C-1c    PENDENTE SHA-256 das tabelas ['GCE', 'GCB', 'GBQ'] não fixado (gatilho A da Gerência pendente; ENSAIO lê as tabelas de ensaio: ['saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCE_ensaio.csv', 'saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv', 'saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GBQ_ensaio.csv'])
+C-1d    OK       SHA-256 gravados em out/stats_v1_11.json = os dos arquivos lidos agora
+C-2     OK       cobertura: 872 ids do universo, cada um em exatamente uma linha (GCE 293, GCB 575, GBQ 4); nenhum dos 143 FP em linha
+C-3     OK       antes único, casamentos dentro do intervalo, sem sobreposição e FP intactos (772 edições, 1 MANTER); a limpeza refeita é igual ao out/pacote.json byte a byte
+C-7     OK       proibições do depois, "verificado em" e base legal: 0 violação em 772 edições (exceções do depois registradas: 0)
+C-5     OK       reversibilidade: o `interno` aplicado em ordem decrescente de pos devolve o pacote.json v1.10 byte a byte
+C-6b    OK       pacote.json: FP-R1 28 (esperado 28), FP-CONTEUDO 115 (esperado 115), os mesmos 143 FP por (campo, classe, casamento); ids de ocorrência diferentes: 1 (o índice k do hash muda quando uma ocorrência anterior do mesmo literal sai do campo)
+C-6c    OK       pacote_estudante.json: PROCESSO 0 (meta 0); VERIFICAR 1; FP-R1 28; FP-CONTEUDO 115
+C-6d    OK       edição .md (34 arquivos, fora README.md; ids de item exatos desconsiderados): PROCESSO 98 (v1.10: 320), nenhum novo; os que restam são cabeçalho, metadado, legenda de mecanismo (TC/IC/GI/AT) e texto de enunciado, fora dos campos do inventário JSON, que tem 0 PROCESSO no pacote.json e no -E (por categoria: {'C08 produção': 6, 'C08 rótulo ou arquivo interno': 1, 'C01 lote': 21, 'C03 Pn': 36, 'C06 TC/IC/GI/AT': 24, 'C09 vN': 10}); VERIFICAR 1; FP-R1 37; FP-CONTEUDO 112
+C-8     PENDENTE ENSAIO: 19 casamento(s) residual(is) das listas de deleção herdadas no pacote.json limpo ({'id interno (R-xx, E-xx, O-xx, D-xx)': 4, 'carimbo datado de verificação/leitura (ligado a F-ref)': 4, 'marca de processo ("neste chat")': 1, 'F (prosa: referência a fonte)': 1, 'carimbo de leitura "aberta(s) hoje"': 4, 'carimbo "Verificado em 8/10/2026" (L5)': 4, 'V (instrução de montagem e de reescrita do item volátil, L2-R18)': 1}); a geração final exige 0 ou lista fechada declarada na reconciliação
+C-11a   OK       35 arquivos; mudam 20: só os dos campos alterados, NUCLEO.md, L2_gabarito.md e README.md
+C-11b   OK       a troca de volta (valor novo -> antigo; L2-R16 P2-3.1 -> P2-2.8) devolve a v1.10 byte a byte, salvo NUCLEO.md e README.md
+C-12    OK       registro por id: 773 linhas = 772 edições aplicadas + 1 (L2-R16); conjunto (edicao, antes, depois) igual ao do `interno`
+C-14    PENDENTE só na geração final: diff de regras/pacote_contrato.md contra a v1.2.7 do commit cacd606, restrito ao cabeçalho e à seção da v1.2.8 (ENSAIO não grava o contrato)
+C-15    OK       validar_erros_teste.py com o pacote novo (ids inalterados): código 0; 12 conferências; 0 falhas
+C-17    OK       informativa, sem efeito no aceite (leitura somente do código plataforma_v1_7.html, o mais novo em saida/plataforma; pode não ser o publicado): validar(j) exige só itens[] e simulados[] como listas e, em cada item, id, enunciado e gabarito C/E; não enumera chaves e a palavra "interno" não ocorre no código; chave desconhecida é aceita e nada a exibe. Confirmar na plataforma publicada fica com o Fundador (D-V15-PLATAFORMA).
+C-G1    OK       arquivos do gerador frente ao v1_10: novos []; alterados ['_run.py', 'rodar_tudo.sh', 'validar_erros_teste.py']; removidos []
+C-G2    OK       gerador_v1_10, pacote.json, pacote_estudante.json, saida/estudante, saida/gbq, saida/simulados, regras  no disco ('')
+conferencias_v1_11: 17 OK, 3 PENDENTE, 0 FALHA (modo ENSAIO)

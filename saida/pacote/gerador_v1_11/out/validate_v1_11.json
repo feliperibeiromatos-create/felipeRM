@@ -1,0 +1,106 @@
+{
+ "total": 20,
+ "ok": 20,
+ "verificacoes": [
+  {
+   "id": "A1",
+   "ok": true,
+   "msg": "pacote.json: serialização canônica, versao 1, nome e geradoEm de config_v111, chaves de topo da v1.10"
+  },
+  {
+   "id": "A2",
+   "ok": true,
+   "msg": "pacote.json: 560 itens, mesmos ids e mesma ordem da v1.10"
+  },
+  {
+   "id": "A3",
+   "ok": true,
+   "msg": "`interno`: último campo do objeto, nunca vazio, registros {edicao, campo, pos, antes, depois, regra, ocorrencias}; 772 registros em 208 objetos = edições aplicadas"
+  },
+  {
+   "id": "A4",
+   "ok": true,
+   "msg": "`interno` ausente do pacote_estudante.json"
+  },
+  {
+   "id": "C-4",
+   "ok": true,
+   "msg": "retirados o interno, nome, geradoEm, os 251 campos editados e itens[L2-R16].itemEdital, o pacote.json é idêntico à BASE (ids, ordem, enunciado, comando, textoBase, gabarito, itemEdital, aderencia, volatil, url, rotulo, simulados, edital, itensEdital, legendaMecanismo, pares[].id, valores, quesitos)"
+  },
+  {
+   "id": "C-4b",
+   "ok": true,
+   "msg": "L2-R16 em P2-3.1"
+  },
+  {
+   "id": "C-9a",
+   "ok": true,
+   "msg": "pacote_estudante.json: asserções (a) a (f) da v1.10 sem falha (estudante_json_v111.py); nome e data de config_v111"
+  },
+  {
+   "id": "C-9b",
+   "ok": true,
+   "msg": "\"nucleo\" booleano e último campo de todo item do -E"
+  },
+  {
+   "id": "C-9c",
+   "ok": true,
+   "msg": "fusão 1-C/4-C/5-C: lotes L1, L2, L3, L4, L5, L6A, L6B"
+  },
+  {
+   "id": "C-9d",
+   "ok": true,
+   "msg": "url vazia nos AUTORAL do -E (todos)"
+  },
+  {
+   "id": "C-9e",
+   "ok": true,
+   "msg": "verificação residual: 19 casamento(s) das regras de deleção herdadas no pacote.json limpo (ENSAIO: informativo)"
+  },
+  {
+   "id": "C-10a",
+   "ok": true,
+   "msg": "nucleo: 1 diferença(s) frente à v1.10-E, todas em itens das folhas P2-2.8 e P2-3.1: ['L2-R121']"
+  },
+  {
+   "id": "C-10b",
+   "ok": true,
+   "msg": "P2-2.8 com 19 itens (18 diretos, 4 VOLÁTEIS); P2-3.1 com 7 itens, todos nucleo true"
+  },
+  {
+   "id": "C-10c",
+   "ok": true,
+   "msg": "nucleo = min(10, total) em cada uma das 41 folhas (out/folhas_v1_11.json)"
+  },
+  {
+   "id": "C-13a",
+   "ok": true,
+   "msg": "simulados: ids, composição e ordem iguais à v1.10"
+  },
+  {
+   "id": "C-13b",
+   "ok": true,
+   "msg": "L4-11 e BQ-0010 (TRF6, item 81) nunca no mesmo simulado"
+  },
+  {
+   "id": "C-13c",
+   "ok": true,
+   "msg": "nenhum item VOLÁTIL em simulado final"
+  },
+  {
+   "id": "C-13d",
+   "ok": true,
+   "msg": "nenhum item com \"QA PENDENTE\""
+  },
+  {
+   "id": "C-13e",
+   "ok": true,
+   "msg": "avisos: iguais aos da v1.10 fora do SIM-0; SIM-0 com o mesmo número de avisos"
+  },
+  {
+   "id": "C-16",
+   "ok": true,
+   "msg": "nenhum literal de versão (\"1.11\", \"v1_11\") fora de config_v111.py ([])"
+  }
+ ]
+}

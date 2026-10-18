@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 56 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 57 — 18/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -56,6 +56,12 @@ Sugestões de novas unidades em aberto (aguardam aceite do destinatário ou do F
 | D2 (módulo m-da) | P1-DA (itens do lote não informados à Secretaria) | GCB (titular) | PRÓXIMO | 4º na ordem. Sem discursiva. Produtor a definir após o veredito do teste cego do D6 (D-CEGO-2). Despacho em lotes/loteD2/DESPACHO.md (D-DA-LOTES, 17/10). T-73 a T-77 PRÓXIMO. |
 | D3 (módulo m-da) | P1-DA (itens do lote não informados à Secretaria) | GCB (titular) | PRÓXIMO | 5º na ordem. Sem discursiva. Produtor a definir após o veredito do teste cego do D6 (D-CEGO-2). Despacho em lotes/loteD3/DESPACHO.md (D-DA-LOTES, 17/10). T-73 a T-77 PRÓXIMO. |
 | D4 (módulo m-da) | P1-DA (itens do lote não informados à Secretaria) | GCB (titular) | PRÓXIMO | 6º na ordem. Sem discursiva. Produtor a definir após o veredito do teste cego do D6 (D-CEGO-2). Despacho em lotes/loteD4/DESPACHO.md (D-DA-LOTES, 17/10). T-73 a T-77 PRÓXIMO. |
+| C — LIMPEZA (encomenda v15, ORDEM C; T-108) | Substituição do termo GBQ no pacote (pacote.json v1.10: 860 ocorrências; 243 em -E) | GBQ (titular) | AGORA | EM CURSO: inventário feito; tabelas de substituição GCE v3 (271 linhas) e GCB (525 linhas) aprovadas em QA R1 e R2 (0% de reprovação) e reconciliadas (D-T108-GCE-TABELA, D-T108-GCB-TABELA); gerador_v1_11 implementado em ENSAIO pela gbq-csc; pacote final NÃO gerado. A limpeza também vai ao pacote.json, como campo interno (D-V15-C-M2). |
+| D — L2-R16 (encomenda v15, ORDEM D; T-109) | P2 2.8 → P2 3.1 (L2-R16) | GCE | AGORA | CONCLUÍDA: QA gce-cqfp APROVADO; aceite pela Presidência (D-T109-L2R16-ACEITE); entra na v1.11. |
+| B — PARES; A — RESUMOS; E — PILOTO_VISUAL (encomenda v15) | Não informado no relato | Não informado no relato | PRÓXIMO | T-110, T-111 e T-112 PRÓXIMO (relato s14c1); a correspondência entre cada tarefa e as ordens B, A e E não foi informada. |
+| F — BANCO40 (encomenda v15, ORDEM F; T-113) | Banco de questões | GBQ (titular; D-V15-F-AJUSTE) | AGORA | ONDA 1 AUTORIZADA pelo Fundador (cenário A, D-T113-FUNDADOR-RESP); projeção em saida/banco/T113_projecao_2026-10-18.md; só projeção antes do sim (D-V15-F-AJUSTE). |
+
+Reforço (ciclo s14c1, 18/10; relato do orquestrador): T-99 AGORA atrás de T-108 e T-109 (Presidência, s14c1); a parte (3) da D-T113-FUNDADOR, que trata do T-99, segue sem resposta do Fundador. v1.11 = ordens C e D + A-3; ondas 4 e 5 vão à v1.12 (D-V111-NUMERACAO).
 
 Módulo m-da (D-ESCOPO-3 e D-DA-LOTES, 15/10): seis lotes, D1 a D6, na ordem D6, D1, D5, D2, D3, D4; D6 AGORA, os demais PRÓXIMO. A Secretaria só conhece a distribuição dos itens do edital no D6 (itens 11 e 12). Leitura da Secretaria no "Edital - Camara 2026.pdf" (Projeto): o bloco que antecede "NOÇÕES DE DIREITO CONSTITUCIONAL E DE REGIMENTO INTERNO DA CÂMARA DOS DEPUTADOS" traz o item 7 (Improbidade Administrativa, Lei nº 8.429/1992), o 8 (evolução dos modelos de gestão pública), o 9 (governança na administração pública; 9.4 Decreto nº 9.203/2017), o 10 (Noções de Licitações e Contratos, Lei nº 14.133/2021), o 11 (Lei de Acesso à Informação) e o 12 (Lei Geral de Proteção de Dados Pessoais), com o texto idêntico ao que a ficha do D6 transcreve para 11 e 12; a Secretaria não leu os itens 1 a 6 nem o título da disciplina nesse trecho. Observação da Secretaria: o marco "escopo de conteúdo P1+P2 completo — 9/10" (acima) não consta como revisto pela D-ESCOPO-3; a D-CRONO v3 (seção 3) diz que o módulo DA entra em paralelo ao treino e não altera as datas da P2 nem da entrega à candidata. Atualização 17/10: D-DA-LOTES e D-ESCOPO-3 aplicadas (lotes/loteD1 a loteD6 com DESPACHO.md; edital/DA_itens_1_12_P1.md criado). T-72 CONCLUÍDA (D6); T-73 a T-77 PRÓXIMO; T-78 CONCLUÍDA (D-DA-BANCO: 20 itens reais a P1-DA-12); T-79 PRÓXIMO; T-80 PRÓXIMO (D-K005-ESTILO). Atualização 17/10 (s11c3, D-FUNDADOR-AGORA-2, Fundador): T-82, T-83, T-84, T-79 e T-73 promovidas a AGORA (limite de 4 por ciclo; T-73 no ciclo seguinte; a GCB julgou cumprida a sua condição de abertura). T-79 CONCLUÍDA (GBQ; seção 4); T-82 CONCLUÍDA (D6); T-73 AGORA PENDENTE (próximo ciclo); T-74 a T-77 PRÓXIMO. O relato não diz a correspondência entre T-73 a T-77 e os lotes D1 a D5, e a Secretaria não a presume.
 
@@ -326,6 +332,22 @@ Reforço (ciclo s13c2, 18/10; relato do orquestrador): T-104 (GBQ, pacote v1.10)
 | D-T105-SALDO-ACEITE | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
 | D-NUCLEO-CRITERIO | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
 | D-ONDA4-FILA-2 | 18/10 (ciclo s13c2) | Aplicada em 18/10 (relato do orquestrador, s13c2); texto integral em DECISOES.md | Não informado no relato |
+| D-PACOTE-V110 e demais 5 NOVA da s13c2 | 18/10 (ciclo s14c1) | Aplicadas as 6 decisões NOVA da s13c2 (relato do orquestrador, s14c1); texto integral em DECISOES.md; os nomes além de D-PACOTE-V110 não constam do relato | Não informado no relato |
+| D-V15-ENCOMENDA | 18/10 (ciclo s14c1) | Encomenda v15 do Fundador: ordens C, D, B, A, E e F gravadas em ordens/ (C LIMPEZA, D L2R16, B PARES, A RESUMOS, E PILOTO_VISUAL, F BANCO40); tarefas T-108 a T-113; texto integral em DECISOES.md | Fundador |
+| D-V15-PLATAFORMA | 18/10 (ciclo s14c1) | Decisão da encomenda v15; texto integral em DECISOES.md | Fundador |
+| D-V15-NOTA-DISTINTAS | 18/10 (ciclo s14c1) | Decisão da encomenda v15; texto integral em DECISOES.md | Fundador |
+| D-V15-PILOTO | 18/10 (ciclo s14c1) | Decisão da encomenda v15; texto integral em DECISOES.md | Fundador |
+| D-V15-C-M2 | 18/10 (ciclo s14c1) | Limpeza (ORDEM C) também no pacote.json, como campo interno | Fundador |
+| D-V15-F-AJUSTE | 18/10 (ciclo s14c1) | ORDEM F: titular GBQ; só projeção antes do sim | Fundador |
+| D-S14-CONTINUAR | 18/10 (ciclo s14c1) | Seguir a ordem C, D, B, A, E (resposta do Fundador no chat) | Fundador (chat) |
+| D-T108-GCE-TABELA | 18/10 (ciclo s14c1) | Tabela de substituição GCE v3 (saida/gce/T108_substituicoes_GCE_v3.csv, 271 linhas, SHA-256 77ad3ac3…) aprovada e reconciliada; texto integral em DECISOES.md | Presidência |
+| D-T108-GCB-TABELA | 18/10 (ciclo s14c1) | Tabela de substituição GCB (saida/gcb/T108_substituicoes_GCB.csv, 525 linhas, SHA-256 10d9e558…) aprovada e reconciliada; texto integral em DECISOES.md | Presidência |
+| D-T109-L2R16-ACEITE | 18/10 (ciclo s14c1) | Aceite de L2-R16 (P2-2.8 → P2-3.1; QA gce-cqfp APROVADO); entra na v1.11 | Presidência |
+| D-V111-NUMERACAO | 18/10 (ciclo s14c1) | v1.11 = ordens C e D + A-3; ondas 4 e 5 vão à v1.12 | Presidência |
+| D-V19-PUBLICACAO-REGISTRO | 18/10 (ciclo s14c1) | Registro da publicação da v1.9; texto integral em DECISOES.md | Presidência |
+| D-T113-FUNDADOR | 18/10 (ciclo s14c1) | Decisão sobre T-113 e as perguntas ao Fundador; texto integral em DECISOES.md; parte (3), sobre T-99, sem resposta (seção 5) | Presidência |
+| D-T113-FUNDADOR-RESP | 18/10 (ciclo s14c1) | Resposta do Fundador no chat: cenário A; SIM à 1ª onda (T-113 onda 1 autorizada) | Fundador (chat) |
+| D-V19-PUBLICACAO-RESP | 18/10 (ciclo s14c1) | Resposta do Fundador no chat: SIM; a v1.9 foi publicada com o sim dele | Fundador (chat) |
 
 * Registros da fila de 8/10 (Fundador_Fila_Presidencia.md): decisões D1 das Gerências, que a Presidência ainda não viu; entram aqui como "conforme bloco" e a Secretaria não as valida. Em 9/10 (v27) a Presidência processou a Fila e decidiu as matérias nomeadas nas linhas de 9/10 acima. As linhas com asterisco que o bloco não nomeia (regra P9 da GCE, GBQ-CSC-RES, GCE-CPP-2 e demais) seguem como estavam, sem ratificação expressa. Nota de datas: o bloco da Presidência data as decisões de 9/10 e as atribui à Presidência; o registro da PRES-S (10/10) data as mesmas decisões de 08/10 e as atribui à PRES-S sob a D-DELEG-12H; a Secretaria registra as duas leituras e não as concilia.
 
@@ -482,6 +504,8 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | saida/gce/T98_reconciliacao_2026-10-18.md | Reconciliação da T-98 (onda 4, P2 3.1–3.4, 4.2, 4.3; D1 L3-R12 e L3-R95 PARCIAIS) | PRODUZIDO (18/10, s13c2) |
 | Finais da onda 4 (T-98; pasta não informada no relato): A_v3 5be29411…, B_v2 09d9d521…, C_v3 d9faf9a7… | 84 itens L3-R12 a L3-R95 | PRODUZIDO (18/10, s13c2); aguarda o aceite do gatilho A |
 | saida/banco/estilo_onda_4.md | Estilo da onda 4 (T-98): 0/9 NÃO CONFORMES; 4 ressalvas, errata opcional | PRODUZIDO (18/10, s13c2) |
+
+Reforço (ciclo s14c1, 18/10; relato do orquestrador): ordens/ (C, D, B, A, E, F; encomenda v15, no repositório); saida/gce/T108_substituicoes_GCE_v3.csv (271 linhas, SHA-256 77ad3ac3…); saida/gcb/T108_substituicoes_GCB.csv (525 linhas, SHA-256 10d9e558…); saida/pacote/gerador_v1_11/ e saida/pacote/T108_ensaio_gerador_v1_11_2026-10-18.md (ENSAIO, gbq-csc; pacote final não gerado); saida/banco/T113_projecao_2026-10-18.md (projeção, T-113).
 
 ## 5. PENDÊNCIAS ABERTAS
 
@@ -670,6 +694,8 @@ Respondidas em 18/10 (s13c1), conforme o relato do orquestrador: D-GATE-T105 (Fu
 
 Respondidas em 18/10 (s13c2), conforme o relato do orquestrador por decisões aplicadas: D-T105-SALDO-ACEITE e D-T106-CURSO-ACEITE (aceites dos gatilhos A da T-105 e da T-106). Fechadas na v56: nenhuma.
 
+Reforço (ciclo s14c1, 18/10; relato do orquestrador): (a) geração final e fidelidade da v1.11 (pacote final não gerado; gerador_v1_11 em ENSAIO); (b) T-110, T-111 e T-112 PRÓXIMO; (c) T-113 onda 1 AUTORIZADA (D-T113-FUNDADOR-RESP); (d) parte (3) da D-T113-FUNDADOR (T-99) sem resposta do Fundador; T-99 AGORA atrás de T-108 e T-109; (e) itens RESERVADA anteriores seguem abertos: D-PLATAFORMA-V110-FUNDADOR, D-PISO-41-FUNDADOR e AUDITORIA D-NUCLEO-CRITERIO-2.
+
 ## 6. LOG
 
 | Data | Remetente | Evento |
@@ -827,3 +853,4 @@ Respondidas em 18/10 (s13c2), conforme o relato do orquestrador por decisões ap
 | 18/10 | GCE (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-98 (onda 4, P2 3.1–3.4, 4.2, 4.3): 84 itens L3-R12 a L3-R95; QA R1 4/84 e R2 0/84; normativo 25 CONFEREM; reconciliação saida/gce/T98_reconciliacao_2026-10-18.md; gatilhos A e E emitidos; EM CURSO até o aceite do A |
 | 18/10 | GCB (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-74 (Lote D5): D5_v1 pronto; aguarda leitura crítica externa até 20/10/2026 16:11:47 UTC; R1 depois disso |
 | 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s13c2) | T-105 e T-106 CONCLUÍDAS; T-107 PRÓXIMO; sessão s13 com trava SESSAO_EM_CURSO.lock (D-RITMO-MAX) |
+| 18/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s14c1) | Versão 57: encomenda v15 gravada (ordens C, D, B, A, E, F; D-V15-*; T-108 a T-113); T-108 tabelas GCE v3 e GCB aprovadas e reconciliadas, gerador_v1_11 em ENSAIO, pacote final não gerado; T-109 L2-R16 aceita (D-T109-L2R16-ACEITE); T-113 projeção e onda 1 autorizada; 6 NOVA da s13c2 aplicadas; T-99 atrás de T-108 e T-109; nenhuma decisão marcada como superada no relato |

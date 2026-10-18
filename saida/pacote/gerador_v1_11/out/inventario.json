@@ -1,0 +1,29 @@
+{
+ "D": {
+  "arquivo": "out/pacote.json",
+  "sha256_LF": "34c131e276b5b74a2cc4f30a9099a48cdbac231189f6e418415b5a41bed17c78",
+  "ocorrencias": {
+   "FP-R1": 28,
+   "FP-CONTEUDO": 115,
+   "VERIFICAR": 1
+  }
+ },
+ "E": {
+  "arquivo": "out/pacote_estudante.json",
+  "sha256_LF": "4f423e707631210c829cbb17511bcffee50c90bc1826da9686482df5bce1ee77",
+  "ocorrencias": {
+   "FP-R1": 28,
+   "FP-CONTEUDO": 115,
+   "VERIFICAR": 1
+  }
+ },
+ "MD": {
+  "arquivo": "out/estudante",
+  "ocorrencias": {
+   "PROCESSO": 98,
+   "FP-R1": 37,
+   "FP-CONTEUDO": 112,
+   "VERIFICAR": 1
+  }
+ }
+}

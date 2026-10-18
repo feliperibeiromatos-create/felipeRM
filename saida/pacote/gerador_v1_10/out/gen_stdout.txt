@@ -1,0 +1,4 @@
+itens 559 (334 da v1.9 + 225 novos) C/E 285/274 volatil 54 parcial 88 bytes 858857 sha256 1816020369e481ca06a633a75cfa7291272aee02c4b6eb9c77200540941884a8
+modo: E_CURSO=False E_PADRAO=True
+trocas: ['a1: itens[5C-08].justificativa, 1 troca', 'a2: lotes[L2].curso, 1 troca', 'e1: discursivas[D3].padrao, 1 troca']
+LOG: ["L1-R99: formato 'D' do mapa -> 'PC' (T96_reconciliacao, seção 3)"]

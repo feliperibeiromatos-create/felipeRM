@@ -1,0 +1,96 @@
+{
+ "total": 18,
+ "ok": 18,
+ "conferencias": [
+  {
+   "id": "0a",
+   "ok": true,
+   "msg": "v1.10 sem os 225, sem as trocas ['a1', 'a2', 'e1'] e com nome/data da v1.9 = v1.9 byte a byte (13660554…)"
+  },
+  {
+   "id": "0b",
+   "ok": true,
+   "msg": "v1.10-E sem os 225, sem \"nucleo\", sem as trocas e com nome/data da v1.9-E = v1.9-E byte a byte (8fa81b45…)"
+  },
+  {
+   "id": "1.0",
+   "ok": true,
+   "msg": "verifica() sem mutação: 34/34"
+  },
+  {
+   "id": "1.gabarito",
+   "ok": true,
+   "msg": "mutação \"gabarito\" apanhada por ['B7', 'B14', 'C6']"
+  },
+  {
+   "id": "1.enunciado legado",
+   "ok": true,
+   "msg": "mutação \"enunciado legado\" apanhada por ['A4']"
+  },
+  {
+   "id": "1.volatil a mais",
+   "ok": true,
+   "msg": "mutação \"volatil a mais\" apanhada por ['B8', 'C6']"
+  },
+  {
+   "id": "1.item a menos",
+   "ok": true,
+   "msg": "mutação \"item a menos\" apanhada por ['exceção: KeyError']"
+  },
+  {
+   "id": "1.aderencia",
+   "ok": true,
+   "msg": "mutação \"aderencia\" apanhada por ['B9', 'B12', 'C6']"
+  },
+  {
+   "id": "1.nucleo trocado",
+   "ok": true,
+   "msg": "mutação \"nucleo trocado\" apanhada por ['C9', 'C10']"
+  },
+  {
+   "id": "1.item novo em simulado",
+   "ok": true,
+   "msg": "mutação \"item novo em simulado\" apanhada por ['A6', 'B13']"
+  },
+  {
+   "id": "1.curso do L2",
+   "ok": true,
+   "msg": "mutação \"curso do L2\" apanhada por ['A8']"
+  },
+  {
+   "id": "1.justificativa do estudante",
+   "ok": true,
+   "msg": "mutação \"justificativa do estudante\" apanhada por ['C7', 'C8']"
+  },
+  {
+   "id": "1.padrão D1",
+   "ok": true,
+   "msg": "mutação \"padrão D1\" apanhada por ['A9']"
+  },
+  {
+   "id": "2a",
+   "ok": true,
+   "msg": "arquivos novos = ['build_v110.py', 'conferencias_v110.py', 'config_v110.py', 'estudante_md_v110.py', 'manifesto_v1_10.py', 'marcas_x_v110.py', 'nucleo.py', 'reforco_marcas_v110.py', 'reforco_v110.py', 'registro_adendo_v110.py', 'validate_v110.py'] (['build_v110.py', 'conferencias_v110.py', 'config_v110.py', 'estudante_md_v110.py', 'manifesto_v1_10.py', 'marcas_x_v110.py', 'nucleo.py', 'reforco_marcas_v110.py', 'reforco_v110.py', 'registro_adendo_v110.py', 'validate_v110.py'])"
+  },
+  {
+   "id": "2b",
+   "ok": true,
+   "msg": "alterados = ['estudante_json.py', 'refs.py', 'rodar_tudo.sh']; removidos: nenhum (['estudante_json.py', 'refs.py', 'rodar_tudo.sh']; [])"
+  },
+  {
+   "id": "3a",
+   "ok": true,
+   "msg": "saida/pacote/pacote.json e pacote_estudante.json = v1.9 (não sobrescritos)"
+  },
+  {
+   "id": "3b",
+   "ok": true,
+   "msg": "saida/estudante, saida/simulados, saida/gbq, regras e gerador_v1_9 sem mudança no disco ('')"
+  },
+  {
+   "id": "3c",
+   "ok": true,
+   "msg": "saida/estudante = edição v1.8 (46496ca)"
+  }
+ ]
+}

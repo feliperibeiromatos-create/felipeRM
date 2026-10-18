@@ -1,0 +1,19 @@
+0a                         OK   v1.10 sem os 225, sem as trocas ['a1', 'a2', 'e1'] e com nome/data da v1.9 = v1.9 byte a byte (13660554…)
+0b                         OK   v1.10-E sem os 225, sem "nucleo", sem as trocas e com nome/data da v1.9-E = v1.9-E byte a byte (8fa81b45…)
+1.0                        OK   verifica() sem mutação: 34/34
+1.gabarito                 OK   mutação "gabarito" apanhada por ['B7', 'B14', 'C6']
+1.enunciado legado         OK   mutação "enunciado legado" apanhada por ['A4']
+1.volatil a mais           OK   mutação "volatil a mais" apanhada por ['B8', 'C6']
+1.item a menos             OK   mutação "item a menos" apanhada por ['exceção: KeyError']
+1.aderencia                OK   mutação "aderencia" apanhada por ['B9', 'B12', 'C6']
+1.nucleo trocado           OK   mutação "nucleo trocado" apanhada por ['C9', 'C10']
+1.item novo em simulado    OK   mutação "item novo em simulado" apanhada por ['A6', 'B13']
+1.curso do L2              OK   mutação "curso do L2" apanhada por ['A8']
+1.justificativa do estudante OK   mutação "justificativa do estudante" apanhada por ['C7', 'C8']
+1.padrão D1                OK   mutação "padrão D1" apanhada por ['A9']
+2a                         OK   arquivos novos = ['build_v110.py', 'conferencias_v110.py', 'config_v110.py', 'estudante_md_v110.py', 'manifesto_v1_10.py', 'marcas_x_v110.py', 'nucleo.py', 'reforco_marcas_v110.py', 'reforco_v110.py', 'registro_adendo_v110.py', 'validate_v110.py'] (['build_v110.py', 'conferencias_v110.py', 'config_v110.py', 'estudante_md_v110.py', 'manifesto_v1_10.py', 'marcas_x_v110.py', 'nucleo.py', 'reforco_marcas_v110.py', 'reforco_v110.py', 'registro_adendo_v110.py', 'validate_v110.py'])
+2b                         OK   alterados = ['estudante_json.py', 'refs.py', 'rodar_tudo.sh']; removidos: nenhum (['estudante_json.py', 'refs.py', 'rodar_tudo.sh']; [])
+3a                         OK   saida/pacote/pacote.json e pacote_estudante.json = v1.9 (não sobrescritos)
+3b                         OK   saida/estudante, saida/simulados, saida/gbq, regras e gerador_v1_9 sem mudança no disco ('')
+3c                         OK   saida/estudante = edição v1.8 (46496ca)
+conferencias_v110: 18/18 OK

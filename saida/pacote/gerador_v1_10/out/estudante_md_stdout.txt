@@ -1,0 +1,2 @@
+edição .md v1.10 (ensaio): 35 arquivos em out/estudante/ (34 da v1.8 + NUCLEO.md); trocas ['a1', 'a2', 'e1']; itens de reforço por lote {'L1': 130, 'L2': 129, 'L3': 11, 'L6A': 1, 'L6B': 2}
+0 falhas

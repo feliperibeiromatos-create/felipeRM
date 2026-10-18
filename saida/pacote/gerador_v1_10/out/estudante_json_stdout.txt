@@ -1,0 +1,22 @@
+pacote_estudante.json: 838639 bytes; 1065 remoções em 41 regras; 1538 campos comparados (só deleção)
+CAIXA 8/8, REALINHA 2/2 (exatamente 1 cada)
+varredura R: 15 casamentos (X 14, Y 1), 0 de processo
+   X1 | itens[BQ-0040].comando | 'Presidência' | 21, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.
+   X2 | itens[BQ-0064].enunciado | 'ChatGPT' | O ChatGPT e o DeepSeek são plataformas de IA
+   Y1 | itens[L4-11].justificativa | 'F4' | ioritariamente supervisionado"). O F4 afirma que "generative models are 
+   X9 | itens[L2-R29].enunciado | 'Secretaria' | as das sessões plenárias compete à Secretaria-Geral da Mesa, e não ao Derep (ant
+   X10 | itens[L2-R29].justificativa | 'Secretaria' | lenárias; o item troca o órgão por Secretaria-Geral da Mesa.
+   X11 | itens[L2-R38].enunciado | 'Secretaria' | Ato da Mesa nº 251/2026, compete à Secretaria-Geral da Mesa, e não ao Derep (ant
+   X12 | itens[L2-R38].justificativa | 'Secretaria' | strados; o item troca o órgão pela Secretaria-Geral da Mesa.
+   X13 | itens[L2-R45].enunciado | 'Secretaria' | Quando a Secretaria-Geral da Mesa solicita o registro 
+   X14 | itens[L2-R45].justificativa | 'Secretaria' |  de Líderes quando solicitado pela Secretaria-Geral da Mesa.
+   X3 | lotes[L2].curso | 'Presidência' |  Presidente (ou no exercício↵   da Presidência), orientação de bancada, pela orde
+   X4 | lotes[L3].curso | 'Presidência' |  ela. A redação anterior (órgão da Presidência da↵   República) está SUPERADA.↵ -
+   X5 | lotes[L3].curso | 'Presidência' | ↵superada). (6) ANPD como órgão da Presidência (redação superada), ou↵"a autorida
+   X6 | lotes[L3].pares[20].b | 'Presidência' | rquia vinculada ao MJSP); órgão da Presidência (redação superada)
+   X7 | lotes[L3].pegadinhas[25].texto | 'Presidência' | ANPD como órgão da Presidência (redação superada), ou "a autorida
+   X8 | lotes[L6A].curso | 'F4' | B2) ou só a linha (B$2).↵- A tecla F4, com a referência selecionada na b
+termos fora da lista: {'Presidente': 42, 'Projeto': 461, 'OpenAI': 32, 'Anthropic': 6, 'Gemini': 6, 'GPT': 5, 'Whisper': 62, 'insumo': 3}
+nucleo: 343 itens true em 41 folhas
+itens por lote (origem -> v1.10-E): {'L1': 150, 'L1C': 10, 'L2': 159, 'L3': 41, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 16, 'L6B': 17} -> {'L1': 160, 'L2': 159, 'L3': 41, 'L4': 30, 'L5': 30, 'L6A': 16, 'L6B': 17}
+0 falhas

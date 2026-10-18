@@ -1,0 +1,191 @@
+{
+ "total": 37,
+ "ok": 37,
+ "verificacoes": [
+  {
+   "id": "A1",
+   "ok": true,
+   "msg": "versao, nome e geradoEm da v1.10"
+  },
+  {
+   "id": "A2",
+   "ok": true,
+   "msg": "chaves de topo iguais às da v1.9"
+  },
+  {
+   "id": "A3",
+   "ok": true,
+   "msg": "559 itens; os 334 da v1.9 primeiro, na mesma ordem"
+  },
+  {
+   "id": "A4",
+   "ok": true,
+   "msg": "dos 334 da v1.9, só o 5C-08 muda (['5C-08'])"
+  },
+  {
+   "id": "A5",
+   "ok": true,
+   "msg": "5C-08: só a troca da errata T-83 na justificativa"
+  },
+  {
+   "id": "A6",
+   "ok": true,
+   "msg": "edital e simulados idênticos aos da v1.9"
+  },
+  {
+   "id": "A7",
+   "ok": true,
+   "msg": "lotes: só o L2 muda (['L2'])"
+  },
+  {
+   "id": "A8",
+   "ok": true,
+   "msg": "L2: só o curso, com a(s) troca(s) T-84"
+  },
+  {
+   "id": "A9",
+   "ok": true,
+   "msg": "discursivas: só D3.padrao, aspecto (xv) (['D3'])"
+  },
+  {
+   "id": "A10",
+   "ok": true,
+   "msg": "L4-11 com o texto da v1.8 (D-ABSORCAO-V110 (c))"
+  },
+  {
+   "id": "B1",
+   "ok": true,
+   "msg": "forma: 14 campos na ordem do contrato (+ volatil só quando verdadeiro)"
+  },
+  {
+   "id": "B2",
+   "ok": true,
+   "msg": "ids únicos"
+  },
+  {
+   "id": "B3",
+   "ok": true,
+   "msg": "rotulo, certame, ano, textoBase, gabarito e justificativa"
+  },
+  {
+   "id": "B4",
+   "ok": true,
+   "msg": "todo itemEdital existe no edital"
+  },
+  {
+   "id": "B5",
+   "ok": true,
+   "msg": "0 \"QA PENDENTE\" nos itens"
+  },
+  {
+   "id": "B6",
+   "ok": true,
+   "msg": "ids e ordem: L6B-R01/R02, L1-R19…R130 (sem R43), L1-R131, L2-R19…R130 (sem R67)"
+  },
+  {
+   "id": "B7",
+   "ok": true,
+   "msg": "C/E: novos 113/112; pacote 285/274"
+  },
+  {
+   "id": "B8",
+   "ok": true,
+   "msg": "volatil: os 29 das decisões; 54 no pacote"
+  },
+  {
+   "id": "B9",
+   "ok": true,
+   "msg": "parcial: os 43 da T97_reconciliacao 3.1; 88 no pacote"
+  },
+  {
+   "id": "B10",
+   "ok": true,
+   "msg": "cargo e numero"
+  },
+  {
+   "id": "B11",
+   "ok": true,
+   "msg": "itens por folha: P2-1.x e 2.x com 20 (2.4: 19), P1-4.3 com 6 ({})"
+  },
+  {
+   "id": "B12",
+   "ok": true,
+   "msg": "diretas por folha 2.x = T97 3.1; piso de 10 diretas em 1.x e 2.x"
+  },
+  {
+   "id": "B13",
+   "ok": true,
+   "msg": "nenhum item novo em simulado; L4-11 e BQ-0010 nunca juntos"
+  },
+  {
+   "id": "B14",
+   "ok": true,
+   "msg": "comando, enunciado, gabarito e justificativa = leitura própria dos arquivos finais ([])"
+  },
+  {
+   "id": "C1",
+   "ok": true,
+   "msg": "estudante: topo, nome, data"
+  },
+  {
+   "id": "C2",
+   "ok": true,
+   "msg": "estudante: mesmos ids; \"nucleo\" booleano e último campo"
+  },
+  {
+   "id": "C3",
+   "ok": true,
+   "msg": "estudante: dos 334 da v1.9-E (sem \"nucleo\"), só o 5C-08 muda (['5C-08'])"
+  },
+  {
+   "id": "C4",
+   "ok": true,
+   "msg": "estudante: edital e simulados idênticos aos da v1.9-E"
+  },
+  {
+   "id": "C5",
+   "ok": true,
+   "msg": "estudante: só lotes[L2] e discursivas[D3] mudam"
+  },
+  {
+   "id": "C6",
+   "ok": true,
+   "msg": "estudante, 225 novos: url \"\" e demais campos (fora justificativa) iguais"
+  },
+  {
+   "id": "C7",
+   "ok": true,
+   "msg": "estudante, 225 novos: justificativa diferente em 73 itens (80 deleções da lista fechada; 7 itens com duas; 73)"
+  },
+  {
+   "id": "C8",
+   "ok": true,
+   "msg": "estudante, 225 novos: sem marcas internas na justificativa"
+  },
+  {
+   "id": "C9",
+   "ok": true,
+   "msg": "nucleo = os 10 primeiros por (data, ato, direta antes de parcial, posição) em cada folha, recalculado"
+  },
+  {
+   "id": "C10",
+   "ok": true,
+   "msg": "nucleo: min(10, n) por folha"
+  },
+  {
+   "id": "D1",
+   "ok": true,
+   "msg": "registro adendo 2: 225 linhas de item, mesmos ids e ordem do pacote"
+  },
+  {
+   "id": "E1",
+   "ok": true,
+   "msg": "edição .md: 35 arquivos (34 + NUCLEO.md)"
+  },
+  {
+   "id": "E2",
+   "ok": true,
+   "msg": "edição .md: seção \"Itens de reforço\" em 10 arquivos (_itens e _gabarito de L1, L2, L3, L6A, L6B)"
+  }
+ ]
+}

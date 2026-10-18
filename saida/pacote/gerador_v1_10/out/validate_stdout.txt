@@ -1,0 +1,38 @@
+A1   OK   versao, nome e geradoEm da v1.10
+A2   OK   chaves de topo iguais às da v1.9
+A3   OK   559 itens; os 334 da v1.9 primeiro, na mesma ordem
+A4   OK   dos 334 da v1.9, só o 5C-08 muda (['5C-08'])
+A5   OK   5C-08: só a troca da errata T-83 na justificativa
+A6   OK   edital e simulados idênticos aos da v1.9
+A7   OK   lotes: só o L2 muda (['L2'])
+A8   OK   L2: só o curso, com a(s) troca(s) T-84
+A9   OK   discursivas: só D3.padrao, aspecto (xv) (['D3'])
+A10  OK   L4-11 com o texto da v1.8 (D-ABSORCAO-V110 (c))
+B1   OK   forma: 14 campos na ordem do contrato (+ volatil só quando verdadeiro)
+B2   OK   ids únicos
+B3   OK   rotulo, certame, ano, textoBase, gabarito e justificativa
+B4   OK   todo itemEdital existe no edital
+B5   OK   0 "QA PENDENTE" nos itens
+B6   OK   ids e ordem: L6B-R01/R02, L1-R19…R130 (sem R43), L1-R131, L2-R19…R130 (sem R67)
+B7   OK   C/E: novos 113/112; pacote 285/274
+B8   OK   volatil: os 29 das decisões; 54 no pacote
+B9   OK   parcial: os 43 da T97_reconciliacao 3.1; 88 no pacote
+B10  OK   cargo e numero
+B11  OK   itens por folha: P2-1.x e 2.x com 20 (2.4: 19), P1-4.3 com 6 ({})
+B12  OK   diretas por folha 2.x = T97 3.1; piso de 10 diretas em 1.x e 2.x
+B13  OK   nenhum item novo em simulado; L4-11 e BQ-0010 nunca juntos
+B14  OK   comando, enunciado, gabarito e justificativa = leitura própria dos arquivos finais ([])
+C1   OK   estudante: topo, nome, data
+C2   OK   estudante: mesmos ids; "nucleo" booleano e último campo
+C3   OK   estudante: dos 334 da v1.9-E (sem "nucleo"), só o 5C-08 muda (['5C-08'])
+C4   OK   estudante: edital e simulados idênticos aos da v1.9-E
+C5   OK   estudante: só lotes[L2] e discursivas[D3] mudam
+C6   OK   estudante, 225 novos: url "" e demais campos (fora justificativa) iguais
+C7   OK   estudante, 225 novos: justificativa diferente em 73 itens (80 deleções da lista fechada; 7 itens com duas; 73)
+C8   OK   estudante, 225 novos: sem marcas internas na justificativa
+C9   OK   nucleo = os 10 primeiros por (data, ato, direta antes de parcial, posição) em cada folha, recalculado
+C10  OK   nucleo: min(10, n) por folha
+D1   OK   registro adendo 2: 225 linhas de item, mesmos ids e ordem do pacote
+E1   OK   edição .md: 35 arquivos (34 + NUCLEO.md)
+E2   OK   edição .md: seção "Itens de reforço" em 10 arquivos (_itens e _gabarito de L1, L2, L3, L6A, L6B)
+validate_v110: 37/37 OK (modo E_CURSO=False, E_PADRAO=True, E_L2R131=False)

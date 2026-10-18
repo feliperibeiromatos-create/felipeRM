@@ -19,6 +19,7 @@ Mapeamento (contrato v1.2.6, ponto 2, com a precisão da errata v1.2.7 proposta 
 - formato de L1-R99 = PC (T96_reconciliacao, seção 3, prevalece sobre o mapa do C_v2)."""
 import collections, hashlib, re
 from common import read, P
+import config_v110 as cfg
 
 G = collections.OrderedDict()      # grupo (ato de aceite) -> dict
 G['L6B'] = dict(ato='D-T102-R4-SALDO', lote='L6B', cargo='Lote 6b', prova='P1', arquivos=[
@@ -35,8 +36,10 @@ G['ONDA3'] = dict(ato='D-T97-ONDA3-ACEITE', lote='L2', cargo='Lote 2', prova='P2
     ('saida/gce/L2_reforco_onda3_B_v3.md', 'f3b3320408e36265638a0f742b4df5a10121520e2631ebc16994df83069510f1', ['R%02d' % k for k in range(47, 75) if k != 67]),
     ('saida/gce/L2_reforco_onda3_C_v3.md', '4bbde472b049203c784f2e1840119ab13aad2a17c34accc35465661228c4ff3d', ['R%02d' % k for k in range(75, 103)]),
     ('saida/gce/L2_reforco_onda3_D_v3.md', '892526fcb3fd62ba266976e2f223fd49fb392e766ac3eb26fade700af646d293', ['R%02d' % k for k in range(103, 131)])])
-# T-105: preencher só com o aceite (arquivo final, SHA-256 da decisão, gabarito, [TS], folha, VOLÁTIL, aderência) antes da geração final; vazio = L2-R131 fora (v1.11)
-ACEITE_L2_R131 = None
+# T-105: L2-R131 só com config.E_L2R131 (gatilho A da T-105 aceito antes da geração final); senão fica para a v1.11. SHA-256 e marcas do gatilho A da GCE (PARA_PRESIDENCIA, ciclo s13c1)
+if cfg.E_L2R131:
+    G['SALDO3'] = dict(ato=cfg.ATO_L2R131, lote='L2', cargo='Lote 2', prova='P2', arquivos=[
+        ('saida/gce/L2_reforco_onda3_saldo_v2.md', '22e4c1e2fe47fdcf02c215447a00b79026131678ff9db8991c7b25c1fcaf0888', ['R131'])])
 
 
 def folha_por_faixa(prefixo, k):
@@ -57,6 +60,7 @@ ACEITE = {
                            'R79', 'R84', 'R85', 'R91', 'R94', 'R101', 'R102', 'R130'],
                   folha={'P2-2.1': (7, 7), 'P2-2.2': (7, 7), 'P2-2.3': (7, 7), 'P2-2.4': (7, 6), 'P2-2.5': (7, 7), 'P2-2.6': (7, 7), 'P2-2.7': (7, 7), 'P2-2.8': (7, 7)}),
 }
+ACEITE['SALDO3'] = dict(n=1, C=0, E=1, ts=['R131'], vol=[], parcial=[], gab={'R131': 'E'}, folha={'P2-2.4': (0, 1)})
 FORMATO_PREVALECE = {'L1-R99': 'PC'}     # T96_reconciliacao, seção 3 (D-T96-ONDA2-ACEITE: os registros da seção 3 prevalecem sobre o mapa)
 LOG = []
 
@@ -232,10 +236,8 @@ def carrega():
             itens.append(it)
             meta[iid] = dict(grupo=gk, ato=g['ato'], lote=lote, arquivo=v['arquivo'], folha=v['folha'], gab=v['gab'], ts=v['ts'], espelho=v['espelho'],
                              volatil=v['volatil'], aderencia=v['aderencia'], formato=v['formato'], ponto=v['ponto'], just1=v['just1'])
-    if ACEITE_L2_R131 is not None:
-        falha('ACEITE_L2_R131 preenchido: implementar a leitura do arquivo final aceito antes da geração final (T-105)')
-    if len(itens) != 225:
-        falha('total %d != 225' % len(itens))
+    if len(itens) != 225 + cfg.E_L2R131:
+        falha('total %d != %d' % (len(itens), 225 + cfg.E_L2R131))
     return itens, meta
 
 

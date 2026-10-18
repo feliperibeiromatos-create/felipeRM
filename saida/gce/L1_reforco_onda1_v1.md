@@ -223,7 +223,7 @@ Base: AWS, "Custom vocabularies" (aviso "Important").
 L1-R11. E. O desempenho de um mesmo modelo multilíngue varia amplamente conforme o idioma, e o WER em inglês não se transfere ao pt-BR; é preciso avaliar com áudio do domínio.
 Base: repositório openai/whisper, README ("performance varies widely depending on the language"; WER por idioma).
 
-L1-R12. E. Quem usa o contexto das palavras vizinhas é o modelo de linguagem; o acústico liga som a unidades sonoras e não separa homófonas.
+L1-R12. E [TS]. Quem usa o contexto das palavras vizinhas é o modelo de linguagem; o acústico liga som a unidades sonoras e não separa homófonas.
 Base: AWS, "Custom language models" (modelo que aprende como e quando a palavra é usada, p.ex. "ice floe" × "ice flow", ao contrário do vocabulário personalizado, que fornece dicas).
 
 L1-R13. E [TS]. A latência depende do tamanho dos blocos de áudio enviados; a própria documentação recomenda blocos de tamanho uniforme e curto para reduzir o atraso. O erro está em atribuir a latência só ao servidor.
@@ -250,4 +250,29 @@ Base: repositório openai/whisper, README, seção "Available models and languag
 | total | 18 |
 | C | 9 (R02, R04, R05, R07, R08, R10, R14, R16, R18) |
 | E | 9 (R01, R03, R06, R09, R11, R12, R13, R15, R17) |
-| [TS] | 7 (R01, R03, R07, R09, R12? não: ver nota) |
+| [TS] | 7 (R01, R03, R07, R09, R12, R13, R17): 1 com gabarito C (R07) e 6 com gabarito E |
+| VOLÁTIL | 0 novos (P2-1.1 a 1.5: 0; 1.6: 0; 1.7: 0; 1.8: 0). Existentes no lote: 4 (Q14, Q16, Q18, Q19), 1 de risco alto (Q16) |
+| distribuição por folha | 1.1: 2; 1.2: 2; 1.3: 2; 1.4: 1; 1.5: 2; 1.6: 3; 1.7: 3; 1.8: 3 (soma 18) |
+
+Observação sobre risco residual: R03, R04, R11, R16 e R18 (Whisper) e R17 (Amazon Transcribe) nomeiam produto e foram classificados como não VOLÁTEIS por afirmarem propriedade arquitetural ou fato de lançamento. Se a Gerência discordar, a reclassificação ultrapassa o teto do lote (4 existentes) e o item deve ser trocado por ponto sem dependência de produto.
+
+## Tabela de proveniência (todas abertas e lidas em 18/10/2026)
+| fonte | URL oficial | data da página / verificação | usada em |
+|---|---|---|---|
+| Google Cloud, Speech-to-Text, Compare transcription models | https://docs.cloud.google.com/speech-to-text/docs/transcription-model | "Last updated 2026-10-13"; verificado em 18/10/2026 | R01 |
+| Google Cloud, Speech-to-Text, Best practices | https://cloud.google.com/speech-to-text/docs/best-practices | "Last updated 2026-10-13"; verificado em 18/10/2026 | R01, R07 |
+| Google Cloud, Speech-to-Text, Enable automatic punctuation | https://docs.cloud.google.com/speech-to-text/docs/automatic-punctuation | verificado em 18/10/2026 | R08 |
+| Google Cloud, Vertex AI, Audio understanding | https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/audio-understanding | "Last updated 2026-10-15"; verificado em 18/10/2026 | R05, R06 |
+| AWS, Amazon Transcribe, How Amazon Transcribe works | https://docs.aws.amazon.com/transcribe/latest/dg/how-it-works.html | verificado em 18/10/2026 | R02, R08, R17 |
+| AWS, Amazon Transcribe, Streaming and partial results | https://docs.aws.amazon.com/transcribe/latest/dg/streaming-partial-results.html | verificado em 18/10/2026 | R02 |
+| AWS, Amazon Transcribe, Transcribing streaming audio | https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html | verificado em 18/10/2026 | R13, R14, R15, R17 |
+| AWS, Amazon Transcribe features | https://docs.aws.amazon.com/transcribe/latest/dg/feature-matrix.html | verificado em 18/10/2026 | R07 |
+| AWS, Amazon Transcribe, Custom vocabularies | https://docs.aws.amazon.com/transcribe/latest/dg/custom-vocabulary.html | verificado em 18/10/2026 | R10 |
+| AWS, Amazon Transcribe, Custom language models | https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html | verificado em 18/10/2026 | R12 |
+| Microsoft, Azure Speech, Speech to text REST API for short audio | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text-short | verificado em 18/10/2026 | R09 |
+| OpenAI, repositório openai/whisper (README) | https://github.com/openai/whisper | README lido via https://raw.githubusercontent.com/openai/whisper/main/README.md em 18/10/2026 (a página github.com foi bloqueada pelo proxy do ambiente) | R03, R04, R11, R16, R18 |
+
+Fontes que não consegui abrir (nenhum item delas entrou): developers.openai.com e platform.openai.com (documentação da API da OpenAI), arxiv.org (artigo do Whisper), planalto.gov.br e camara.leg.br (nenhuma norma foi usada), ai.google.dev. Em 18/10/2026 o acesso a esses hosts falhou no proxy do ambiente.
+
+FIM DA PARTE 3/3
+FIM DO LOTE

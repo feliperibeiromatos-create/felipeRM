@@ -135,7 +135,7 @@ Aspectos:
        sobre sequências e contexto;
  (xv) risco, em lista fechada: sobre-reforço com inserção de termo não
       dito; listas desatualizadas (a cada legislatura); a adaptação não
-      corrige sotaque nem ruído;
+      trata a causa acústica (ruído, sotaque), que pede dados acústicos;
  (xvi) atualização periódica e avaliação em dados distintos dos usados
        para adaptar.
 Conceito 0 — Não abordou, ou equiparou adaptação a retreino acústico.
@@ -166,3 +166,13 @@ Na seção (f) PEÇA, onde se lê "Nota (edital, 9.8.5.1, d): NQ = NC − 3 ×
 NE ÷ TL.", leia-se "Nota (edital, 9.8.5.2, d): NPT = NC − 6 × NE ÷ TL.",
 conforme o edital (9.8.5.2, d). Sem mudança de aspectos, quesitos,
 conceitos, valores ou gabarito.
+
+ERRATA GCE — 18/10/2026 (T-106)
+Errata T-106 (18/10/2026): aspecto (xv), terceiro risco, de 'a
+adaptação não corrige sotaque nem ruído' para 'a adaptação não trata a
+causa acústica (ruído, sotaque), que pede dados acústicos'. Núcleo
+pontuável: a adaptação não trata a causa acústica; a formulação
+anterior é aceita por equivalência. Base: Google (adaptation-model,
+'Last updated 2026-10-13 UTC') e Microsoft
+(how-to-custom-speech-test-and-train), verificados em 18/10/2026. Sem
+mudança de aspectos, quesitos, conceitos, valores ou gabarito.

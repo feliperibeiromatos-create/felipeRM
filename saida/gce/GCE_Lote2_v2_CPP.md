@@ -36,6 +36,16 @@ T-84 → 2.4, "Ligação com o 1.4" (errata de forma, D1 da GCE,
      T84_reconciliacao_2026-10-17.md; D-RT81-03; sem mudança de
      conteúdo, item, gabarito, fonte, troca sutil, volatilidade ou marca
      V): "ver Lote 1-C" → "ver o complemento do Lote 1 (adendo ao 1.4)"
+T-106 → 2.8, "Riscos" (errata de conteúdo do curso, D1 da GCE,
+     T106_reconciliacao_2026-10-18.md; QA gce-cqfp R1 APROVADO COM
+     RESSALVAS, A1 e A2 aplicados; sem mudança de item, gabarito, troca
+     sutil, volatilidade ou marca V): "adaptação não corrige sotaque nem
+     ruído" → "adaptação não remove o ruído nem trata a causa acústica
+     (sotaque pede dados acústicos), embora possa melhorar o
+     reconhecimento dos termos esperados quando o áudio é ruidoso ou
+     pouco claro"; fontes, F9 e F10 (verificadas em 18/10/2026); o
+     aspecto (xv) do padrão segue em errata própria, sujeita ao gatilho
+     D (GCE_Lote2_padroes_GCE.md)
 
 NOTAS DE CONFERÊNCIA PARA A GCE E A CQFP (leitura desta unidade em
 08/10/2026, por trecho retornado pela busca)
@@ -94,6 +104,14 @@ demais não foram abertas na íntegra. A CQFP deve reabri-las.
     original): transforma o Departamento de Taquigrafia, Revisão e
     Redação em Departamento de Registro Oficial e Redação Parlamentar
     (Derep). [NORMATIVO — QA]
+ F9 Google Cloud — "Improve transcription results with model adaptation"
+    (Speech-to-Text): docs.cloud.google.com/speech-to-text/docs/
+    adaptation-model ("Last updated 2026-10-13 UTC"; aberta em
+    18/10/2026, T-106). Base do 2.8, "Riscos".
+ F10 Microsoft — "Training and testing datasets" (custom speech):
+    learn.microsoft.com/en-us/azure/ai-services/speech-service/
+    how-to-custom-speech-test-and-train (ms.date 2025-12-19; aberta em
+    18/10/2026, T-106). Base do 2.8, "Riscos".
 
 LIMITES DE EVIDÊNCIA (o que NÃO foi verificado — não presumi)
 N1 Forma de identificar o orador na nota taquigráfica (nome, partido,
@@ -504,7 +522,9 @@ DEFINIÇÃO
  - Riscos: reforço excessivo faz o sistema inserir o termo reforçado
    onde ele não foi dito (falso positivo) e pode piorar outras palavras;
    listas ficam desatualizadas (nomes mudam a cada legislatura);
-   adaptação não corrige sotaque nem ruído.
+   adaptação não remove o ruído nem trata a causa acústica (sotaque pede
+   dados acústicos), embora possa melhorar o reconhecimento dos termos
+   esperados quando o áudio é ruidoso ou pouco claro.
  - Avaliação correta: separar os dados usados para adaptar dos dados de
    teste; medir o WER geral e também o acerto dos termos-alvo, antes e
    depois.

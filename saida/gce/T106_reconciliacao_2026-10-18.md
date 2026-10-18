@@ -165,3 +165,9 @@ for name, txt in (('GCE_Lote2_v2_CPP.md', na), ('GCE_Lote2_padroes_GCE.md', nb))
     data = txt.encode('utf-8'); open(os.path.join(out, name), 'wb').write(data)
     print(name, len(data), txt.count('\n'), hashlib.sha256(data).hexdigest(), max(len(l) for l in txt.split('\n')))
 ```
+
+## Aplicação, 18/10/2026 (ciclo s13c1; gce-gerencia; D-T106-XV-ERRATA, D-ABSORCAO-V110-E, D-ONDA4-FILA item 2)
+- Script do Apêndice extraído deste arquivo e rodado com python -I sobre os canônicos (saída no scratchpad); asserts de partida passaram: GCE_Lote2_v2_CPP.md de87e7a9… (51 718 bytes) e GCE_Lote2_padroes_GCE.md f4b180c9… (8 543 bytes). Só os dois arquivos gerados foram copiados para saida/gce/; nenhuma outra mudança.
+- Resultado conferido pela gce-gerencia: GCE_Lote2_v2_CPP.md 53 045 bytes, 994 linhas, SHA-256 27ef5dc0ed702bf63766a422f9078d1748f37115f09d1b9a55265c7243dbacf4 (= esperado); GCE_Lote2_padroes_GCE.md 9 150 bytes, SHA-256 4f3dde8e7e48bffeb562868d704935943a8aaec9fa92cc8dd41d4d32c684e6a0 (= esperado); LF preservado (0 CR); padrão sem newline final, como antes.
+- git diff -U0: curso, 3 blocos (@@ -38,0 +39,10 @@; @@ -96,0 +107,8 @@; @@ -507 +525,3 @@); padrão, 2 blocos (@@ -138 +138 @@; @@ -168 +168,11 @@). Correção de registro, sem efeito: o 3º bloco do curso é +525,3 (507 + 10 + 8), e não +526,3 como em D1-T106-04.
+- Itens, gabaritos, [TS], VOLÁTIL alterados: 0. Sem commit (cabe ao orquestrador). Pendente: conferência do orquestrador e gatilho A da errata do curso.

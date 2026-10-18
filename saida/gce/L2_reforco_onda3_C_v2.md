@@ -147,7 +147,7 @@ L2-R75. Julgue o item.
 Segundo a documentação do Azure Speech sobre transcrições rotuladas por pessoas (orientação para o inglês dos Estados Unidos), a abreviação pronunciada como uma palavra, a exemplo de NATO, deve ser escrita com as letras separadas por espaço, ao passo que a abreviação pronunciada letra a letra deve ser mantida como está.
 
 L2-R76. Julgue o item.
-Uma equipe prepara transcrições rotuladas por pessoas, a partir do áudio de uma audiência pública conduzida em inglês, para treinar um modelo no Azure Speech. Um orador diz “one oh one” ao citar o número 101. Segundo a documentação do serviço para o inglês dos Estados Unidos, o número deve ser transcrito por extenso como foi pronunciado, ainda que o revisor considere mais usual outra leitura.
+Uma equipe prepara, para treinar um modelo no Azure Speech, transcrições rotuladas por pessoas do áudio de uma audiência pública conduzida em inglês. Um orador diz “one oh one” ao citar o número 101. Segundo a documentação para o inglês dos Estados Unidos, o número deve ser transcrito por extenso como foi pronunciado, ainda que o revisor considere mais usual outra leitura.
 
 L2-R77. Julgue o item.
 Entre as regras de normalização que o Azure Speech aplica automaticamente às transcrições rotuladas enviadas para treinamento, segundo a documentação, estão a conversão das letras para minúsculas, a remoção da pontuação, exceto apóstrofos no interior de palavras, e a conversão dos números escritos por extenso em algarismos.
@@ -168,7 +168,7 @@ L2-R82. Julgue o item.
 Uma equipe quer que o Azure Speech escreva sempre em um mesmo formato um código alfanumérico, como “JO:500”, usado como exemplo na documentação. Nessa situação, na regra de ITN personalizada, a equipe informa o formato escrito desejado, e o serviço deduz as maneiras pelas quais o código pode ser falado.
 
 L2-R83. Julgue o item.
-Uma equipe compara a transcrição de uma sessão de comissão, em português do Brasil, com a de referência, aplicando sem adaptação o normalizador de texto que o Whisper oferece para o inglês, o qual remove as vírgulas entre algarismos. Como, no português do Brasil, a vírgula separa a parte decimal, “3,5” seria convertido em “35”, o que distorceria a comparação de valores entre a referência e o texto reconhecido.
+Uma equipe compara a transcrição de uma sessão de comissão, em português do Brasil, com a de referência, aplicando sem adaptação o normalizador de texto do Whisper para o inglês, que remove as vírgulas entre algarismos. Como no Brasil a vírgula separa a parte decimal, “3,5” seria convertido em “35”, o que distorceria a comparação de valores.
 
 L2-R84. Julgue o item.
 Ao preparar a comparação entre a transcrição automática e a de referência de uma sessão, o normalizador básico de texto do Whisper mantém no texto as marcações entre colchetes ou parênteses, ainda que se refiram a eventos não falados, como [aplausos] e (risos).

@@ -261,7 +261,7 @@ def build(pacote):
 
 def lote_of(item_id):
     """lote de ORIGEM na v1.7 (prefixo do id): define o escopo das deleções (arquivo de origem)."""
-    m = {'L1': 'L1', 'L1C': 'L1C', 'L2': 'L2', 'L3': 'L3', 'L4': 'L4', '4C': 'L4C', 'A5': 'L5', '5C': 'L5C', '6A': 'L6A', '6B': 'L6B'}
+    m = {'L1': 'L1', 'L1C': 'L1C', 'L2': 'L2', 'L3': 'L3', 'L4': 'L4', '4C': 'L4C', 'A5': 'L5', '5C': 'L5C', '6A': 'L6A', '6B': 'L6B', 'L6A': 'L6A', 'L6B': 'L6B'}      # T-94: prefixos L6A-/L6B- dos ids de reforço (L6A-R01)
     return m[item_id.split('-')[0]]
 
 def lote_fund(item_id):

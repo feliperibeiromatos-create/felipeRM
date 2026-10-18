@@ -1,16 +1,15 @@
-FALHA: (e) Y1 (dúvida): contagem real 0, esperada 1 (contexto 'O F4 afirma que' em itens[L4-11].justificativa: 0 ocorrência(s) do contexto)
-FALHA: (e) esperado 9 casamentos (X1–X8, Y1) e 0 de processo; achados: 8
-pacote_estudante.json: 635253 bytes; 709 remoções em 36 regras; 1265 campos comparados (só deleção)
+pacote_estudante.json: 642374 bytes; 760 remoções em 38 regras; 1313 campos comparados (só deleção)
 CAIXA 8/8, REALINHA 2/2 (exatamente 1 cada)
-varredura R: 8 casamentos (X 8, Y 0), 0 de processo
+varredura R: 9 casamentos (X 8, Y 1), 0 de processo
    X1 | itens[BQ-0040].comando | 'Presidência' | 21, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.
    X2 | itens[BQ-0064].enunciado | 'ChatGPT' | O ChatGPT e o DeepSeek são plataformas de IA
+   Y1 | itens[L4-11].justificativa | 'F4' | ioritariamente supervisionado"). O F4 afirma que "generative models are 
    X3 | lotes[L2].curso | 'Presidência' |  Presidente (ou no exercício↵   da Presidência), orientação de bancada, pela orde
    X4 | lotes[L3].curso | 'Presidência' |  ela. A redação anterior (órgão da Presidência da↵   República) está SUPERADA.↵ -
    X5 | lotes[L3].curso | 'Presidência' | ↵superada). (6) ANPD como órgão da Presidência (redação superada), ou↵"a autorida
    X6 | lotes[L3].pares[20].b | 'Presidência' | rquia vinculada ao MJSP); órgão da Presidência (redação superada)
    X7 | lotes[L3].pegadinhas[25].texto | 'Presidência' | ANPD como órgão da Presidência (redação superada), ou "a autorida
    X8 | lotes[L6A].curso | 'F4' | B2) ou só a linha (B$2).↵- A tecla F4, com a referência selecionada na b
-termos fora da lista: {'Presidente': 15, 'Projeto': 188, 'OpenAI': 31, 'Anthropic': 6, 'Gemini': 3, 'GPT': 5, 'Whisper': 21, 'insumo': 2}
-itens por lote (v1.7 -> v1.8-E): {'L1': 20, 'L1C': 10, 'L2': 30, 'L3': 30, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15} -> {'L1': 30, 'L2': 30, 'L3': 30, 'L4': 30, 'L5': 30, 'L6A': 15, 'L6B': 15}
-2 falhas
+termos fora da lista: {'Presidente': 24, 'Projeto': 236, 'OpenAI': 31, 'Anthropic': 6, 'Gemini': 3, 'GPT': 5, 'Whisper': 26, 'insumo': 3}
+itens por lote (origem -> v1.9-E): {'L1': 38, 'L1C': 10, 'L2': 48, 'L3': 41, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 16, 'L6B': 15} -> {'L1': 48, 'L2': 48, 'L3': 41, 'L4': 30, 'L5': 30, 'L6A': 16, 'L6B': 15}
+0 falhas

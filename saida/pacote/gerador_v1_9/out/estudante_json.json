@@ -1,8 +1,8 @@
 {
  "arquivo": "out/pacote_estudante.json",
- "bytes": 635253,
+ "bytes": 642374,
  "regras": {
-  "url AUTORAL (valor inteiro apagado)": 180,
+  "url AUTORAL (valor inteiro apagado)": 228,
   "F (parêntese)": 83,
   "V": 55,
   "F (prosa: referência a fonte)": 51,
@@ -27,6 +27,7 @@
   "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
   "classificação interna de VOLÁTIL na justificativa": 3,
   "F (fim de parêntese, \"com Fn\")": 2,
+  "V (classificação interna de VOLÁTIL no início da justificativa do reforço)": 2,
   "V (parcial: mantém a orientação ao estudante)": 2,
   "id interno / versão do lote (v2)": 2,
   "marca de processo de produção do lote (\"Nesta produção\" / \"a especificação previa\")": 2,
@@ -36,10 +37,11 @@
   "F (parêntese com leitura)": 1,
   "NORMATIVO — QA (frase de marca e fontes)": 1,
   "NORMATIVO — QA (parcial: mantém a orientação ao estudante)": 1,
+  "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1,
   "id de decisão na nota (D-LEI-15352)": 1,
   "marca de processo (\"neste chat\")": 1
  },
- "total_remocoes": 709,
+ "total_remocoes": 760,
  "por_campo": {
   "lotes[].resumo": {
    "campos_alterados": 6,
@@ -154,10 +156,18 @@
    }
   },
   "itens[].url (AUTORAL)": {
-   "campos_alterados": 180,
-   "remocoes": 180,
+   "campos_alterados": 228,
+   "remocoes": 228,
    "regras": {
-    "url AUTORAL (valor inteiro apagado)": 180
+    "url AUTORAL (valor inteiro apagado)": 228
+   }
+  },
+  "itens[].justificativa (AUTORAL, reforço)": {
+   "campos_alterados": 2,
+   "remocoes": 3,
+   "regras": {
+    "V (classificação interna de VOLÁTIL no início da justificativa do reforço)": 2,
+    "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
    }
   },
   "simulados[SIM-0].avisos[0]": {
@@ -196,7 +206,7 @@
    "regras": {}
   }
  },
- "campos_comparados_so_delecao": 1265,
+ "campos_comparados_so_delecao": 1313,
  "caixa": {
   "pares": 8,
   "ocorrencias": 8
@@ -219,6 +229,13 @@
    "casamento": "ChatGPT",
    "contexto": "O ChatGPT e o DeepSeek são plataformas de IA",
    "destino": "X2"
+  },
+  {
+   "campo": "itens[L4-11].justificativa",
+   "rotulo": "Fn",
+   "casamento": "F4",
+   "contexto": "ioritariamente supervisionado\"). O F4 afirma que \"generative models are ",
+   "destino": "Y1"
   },
   {
    "campo": "lotes[L2].curso",
@@ -272,45 +289,47 @@
   "X6": 1,
   "X7": 1,
   "X8": 1,
-  "Y1": 0
+  "Y1": 1
  },
  "processo": 0,
  "termos_fora_da_lista": {
-  "Presidente": 15,
-  "Projeto": 188,
+  "Presidente": 24,
+  "Projeto": 236,
   "OpenAI": 31,
   "Anthropic": 6,
   "Gemini": 3,
   "GPT": 5,
-  "Whisper": 21,
-  "insumo": 2
+  "Whisper": 26,
+  "insumo": 3
+ },
+ "reforco_delecoes": {
+  "itens[L2-R07].justificativa | V (classificação interna de VOLÁTIL no início da justificativa do reforço)": 1,
+  "itens[L2-R18].justificativa | V (classificação interna de VOLÁTIL no início da justificativa do reforço)": 1,
+  "itens[L2-R18].justificativa | V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
  },
  "itens_por_lote": {
-  "antes_v1_7": {
-   "L1": 20,
+  "origem_v1_9": {
+   "L1": 38,
    "L1C": 10,
-   "L2": 30,
-   "L3": 30,
+   "L2": 48,
+   "L3": 41,
    "L4": 20,
    "L4C": 10,
    "L5": 20,
    "L5C": 10,
-   "L6A": 15,
+   "L6A": 16,
    "L6B": 15
   },
-  "depois_v1_8_E": {
-   "L1": 30,
-   "L2": 30,
-   "L3": 30,
+  "depois_v1_9_E": {
+   "L1": 48,
+   "L2": 48,
+   "L3": 41,
    "L4": 30,
    "L5": 30,
-   "L6A": 15,
+   "L6A": 16,
    "L6B": 15
   },
-  "banco": 144
+  "banco": 106
  },
- "falhas": [
-  "(e) Y1 (dúvida): contagem real 0, esperada 1 (contexto 'O F4 afirma que' em itens[L4-11].justificativa: 0 ocorrência(s) do contexto)",
-  "(e) esperado 9 casamentos (X1–X8, Y1) e 0 de processo; achados: 8"
- ]
+ "falhas": []
 }

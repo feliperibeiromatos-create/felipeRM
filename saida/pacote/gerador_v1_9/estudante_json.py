@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""T-81 (v1.8) — gera out/pacote_estudante.json (v1.8-E) a partir de out/pacote.json (fonte única), conforme a D1 da GBQ (saida/pacote/T81_D1_escopo_v1_8_2026-10-17.md, seções 2, 3 e 6.1).
+"""T-94 (v1.9; cópia do estudante_json.py da T-81 com as mudanças da D1 da GBQ, saida/pacote/T94_D1_v1_9_2026-10-18.md, seção 3: nome, data, e os 48 itens de reforço
+só com as deleções fechadas de reforco_marcas.py) — T-81 (v1.8) — gera out/pacote_estudante.json (v1.8-E) a partir de out/pacote.json (fonte única), conforme a D1 da GBQ (saida/pacote/T81_D1_escopo_v1_8_2026-10-17.md, seções 2, 3 e 6.1).
 Só deleção (estudante_marcas.strip_text, mais as 3 regras fechadas da seção 2.2: nota, url e aviso do SIM-0), com as exceções fechadas CAIXA e REALINHA da v1.7 e a fusão 1-C/4-C/5-C
 (única inserção de texto: o separador mandado pela D-T12-V13 (c)). Falha (sys.exit(1)) se qualquer asserção de 6.1 (a) a (f) não valer.
 Saídas: out/pacote_estudante.json, out/estudante_json.json (contagens por regra e por campo, casamentos de R, termos fora da lista) e, redirecionada pelo runner, out/estudante_json_stdout.txt."""
@@ -8,13 +9,16 @@ import estudante_marcas as em
 import estudante_gen as gen
 import estudante_fidelidade as F
 import marcas_processo as mp
+import reforco_marcas as rm
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, 'out', 'pacote.json')
 DST = os.path.join(HERE, 'out', 'pacote_estudante.json')
 REL = os.path.join(HERE, 'out', 'estudante_json.json')
-NOME_E = 'Câmara 2026 — pacote do estudante (v1.8-E)'
-GERADO_EM = '2026-10-17'
+NOME_E = 'Câmara 2026 — pacote do estudante (v1.9-E)'
+GERADO_EM = '2026-10-18'
+REF_IDS = list(json.load(open(os.path.join(HERE, 'out', 'stats_v19.json'), encoding='utf-8'))['reforco'])      # T-94: os 48 ids de reforço
+ESC_REF = 'REFORCO'      # escopo próprio dos itens de reforço (reforco_marcas.strip_reforco)
 NOTA_DEL = ' (D-LEI-15352)'
 AVISO_ANTES, AVISO_DEPOIS = '(D-ADERENCIA: parcial só em diagnóstico)', '(parcial só em diagnóstico)'
 TOPO = ['versao', 'geradoEm', 'nome', 'edital', 'itens', 'simulados', 'lotes', 'discursivas']
@@ -47,7 +51,7 @@ def reg(cat):
 def S(cat, caminho, texto, escopo):
     """aplica strip_text com o escopo de origem e registra a operação."""
     c = collections.Counter()
-    novo = em.strip_text(texto, c, escopo)
+    novo = rm.strip_reforco(texto, c, caminho) if escopo == ESC_REF else em.strip_text(texto, c, escopo)
     r = reg(cat)
     if novo != texto:
         r['campos'] += 1
@@ -71,7 +75,9 @@ for L in E['lotes']:
 n_nota = 0
 for it in E['itens']:
     if it['rotulo'] == 'AUTORAL':
-        if it['justificativa']:
+        if it['justificativa'] and it['id'] in REF_IDS:      # T-94: reforço da onda 1 (lista fechada de reforco_marcas.py)
+            it['justificativa'] = S('itens[].justificativa (AUTORAL, reforço)', 'itens[%s].justificativa' % it['id'], it['justificativa'], ESC_REF)
+        elif it['justificativa']:
             esc = gen.lote_of(it['id']) + '_gabarito.md'
             it['justificativa'] = S('itens[].justificativa (AUTORAL)', 'itens[%s].justificativa' % it['id'], it['justificativa'], esc)
         asserta(it['url'] != '', '%s: url AUTORAL já vazia' % it['id'])
@@ -183,7 +189,7 @@ asserta(saida['edital'] == P['edital'] and [i['id'] for i in saida['itens']] == 
 for campo in ('enunciado', 'comando', 'comandoOriginal', 'textoBase', 'gabarito', 'itemEdital', 'aderencia', 'volatil', 'rotulo', 'certame', 'cargo', 'ano', 'numero'):
     asserta(all(a.get(campo) == b.get(campo) and (campo in a) == (campo in b) for a, b in zip(P['itens'], saida['itens'])), '(b) item: campo %s difere' % campo)
 asserta(all(a['url'] == b['url'] for a, b in zip(P['itens'], saida['itens']) if a['rotulo'] != 'AUTORAL'), '(b) url dos itens de banco difere')
-asserta(sum(1 for b in saida['itens'] if b['rotulo'] == 'AUTORAL' and b['url'] == '') == 180, '(b) url vazia em 180 AUTORAL')
+asserta(sum(1 for b in saida['itens'] if b['rotulo'] == 'AUTORAL' and b['url'] == '') == 228, '(b) url vazia em 228 AUTORAL (180 + 48 do reforço)')
 
 # ------------------------------------------------------------------ (c) cada campo = strip_text com o escopo de origem; só deleção (subsequência), salvo CAIXA, REALINHA e fusão
 casos_antes = len(F.CASE_LOG); realinha_antes = len(F.REALINHA_LOG)
@@ -191,7 +197,7 @@ ncomp = 0
 for cat, caminho, esc, antes, depois in OPS:
     ncomp += 1
     c = collections.Counter()
-    esperado = em.strip_text(antes, c, esc)           # segunda aplicação, independente do valor guardado
+    esperado = rm.strip_reforco(antes, c) if esc == ESC_REF else em.strip_text(antes, c, esc)           # segunda aplicação, independente do valor guardado
     if esperado != depois:
         falha('(c) %s: strip_text com escopo %s difere do valor gravado' % (caminho, esc))
     bad = F.only_deletions(antes, depois, esc, caminho)
@@ -223,8 +229,11 @@ fora = mp.fora_da_lista(strings)
 asserta([L['id'] for L in saida['lotes']] == ORDEM_LOTES and 'L1C' not in {L['id'] for L in saida['lotes']}, '(f) lotes')
 cont_antes = collections.Counter(gen.lote_of(i['id']) for i in P['itens'] if i['rotulo'] == 'AUTORAL')
 cont_depois = collections.Counter(gen.lote_fund(i['id']) for i in saida['itens'] if i['rotulo'] == 'AUTORAL')
-asserta(cont_antes == collections.Counter({'L1': 20, 'L1C': 10, 'L2': 30, 'L3': 30, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 15, 'L6B': 15}), '(f) contagem v1.7: %s' % dict(cont_antes))
-asserta(cont_depois == collections.Counter({'L1': 30, 'L2': 30, 'L3': 30, 'L4': 30, 'L5': 30, 'L6A': 15, 'L6B': 15}), '(f) contagem v1.8-E: %s' % dict(cont_depois))
+asserta(cont_antes == collections.Counter({'L1': 38, 'L1C': 10, 'L2': 48, 'L3': 41, 'L4': 20, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 16, 'L6B': 15}), '(f) contagem por lote de origem (pacote.json v1.9): %s' % dict(cont_antes))
+asserta(cont_depois == collections.Counter({'L1': 48, 'L2': 48, 'L3': 41, 'L4': 30, 'L5': 30, 'L6A': 16, 'L6B': 15}), '(f) contagem v1.9-E: %s' % dict(cont_depois))
+# T-94: deleções do reforço = lista fechada, com as contagens esperadas (reforco_marcas.ESPERADO), só nos itens de reforço
+asserta({lab: sum(n for (i_, l_), n in rm.HITS.items() if l_ == lab) for lab in rm.ESPERADO} == rm.ESPERADO, '(g) deleções do reforço: %s' % rm.HITS)
+asserta(sorted(k for k, _ in rm.HITS) == ['itens[L2-R07].justificativa', 'itens[L2-R18].justificativa', 'itens[L2-R18].justificativa'], '(g) itens tocados pelas deleções do reforço: %s' % sorted(rm.HITS))
 L1s = {L['id']: L for L in saida['lotes']}['L1']
 L1o = {L['id']: L for L in P['lotes']}
 op = {c: d for _, c, _, _, d in OPS}
@@ -251,7 +260,8 @@ rel['casamentos_R'] = [dict(campo=c_, rotulo=lab, casamento=g, contexto=ctx, des
 rel['contagem_X_Y'] = dict(res['contagem'])
 rel['processo'] = len(res['processo'])
 rel['termos_fora_da_lista'] = dict(fora)
-rel['itens_por_lote'] = {'antes_v1_7': dict(cont_antes), 'depois_v1_8_E': dict(cont_depois), 'banco': sum(1 for i in P['itens'] if i['rotulo'] != 'AUTORAL')}
+rel['reforco_delecoes'] = {'%s | %s' % k: v for k, v in sorted(rm.HITS.items())}
+rel['itens_por_lote'] = {'origem_v1_9': dict(cont_antes), 'depois_v1_9_E': dict(cont_depois), 'banco': sum(1 for i in P['itens'] if i['rotulo'] != 'AUTORAL')}
 rel['falhas'] = FALHAS
 with open(REL, 'w', encoding='utf-8', newline='\n') as fh:
     json.dump(rel, fh, ensure_ascii=False, indent=1)
@@ -262,6 +272,6 @@ print('varredura R: %d casamentos (X %d, Y %d), %d de processo' % (len(res['todo
 for c_, lab, g, ctx, d in res['todos']:
     print('   %s | %s | %r | %s' % (d, c_, g, ctx))
 print('termos fora da lista:', dict(fora))
-print('itens por lote (v1.7 -> v1.8-E):', dict(sorted(cont_antes.items())), '->', dict(sorted(cont_depois.items())))
+print('itens por lote (origem -> v1.9-E):', dict(sorted(cont_antes.items())), '->', dict(sorted(cont_depois.items())))
 print('%d falhas' % len(FALHAS))
 sys.exit(1 if FALHAS else 0)

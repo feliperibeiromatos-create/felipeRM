@@ -223,3 +223,6 @@ GATILHO A | GCE | T-96 — REFORÇO onda 2, P2 folhas 1.1 a 1.8 (D-REFORCO-2): 1
 5. A lista de conferência de janeiro (T-11, parte P2) recebe:
    - VOLÁTEIS: R49, R54, R57, R65, R67, R69, R86, R87, R88, R110, R114;
    - conferência de base (sem efeito de VOLÁTIL): os outros 100 itens; no R100, comparar o SHA-256 do transcribe.py; as 3 URLs redirecionadas da parte B, reabertas na URL final.
+
+## Conferência dos v3 (orquestrador, 18/10/2026)
+Conferência por script (python -I) contra as seções 5.1 e 5.2: A_v3 = A_v2 com as 26 linhas fixadas, a linha inserida e as 7 linhas apagadas (L1-R43) — IDÊNTICO; D_v3 = D_v2 com as 3 linhas fixadas e a linha inserida — IDÊNTICO. Sem R3. Próximo passo: auditoria do gbq-estilo (seção 7).

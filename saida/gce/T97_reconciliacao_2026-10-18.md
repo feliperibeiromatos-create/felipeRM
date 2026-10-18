@@ -268,3 +268,5 @@ for p,s in S.items():
 
 ## Conferência dos v3 (orquestrador, 18/10/2026)
 SHA-256 de A_v3, B_v3, C_v3 e D_v3 iguais aos esperados no Apêndice (b6911efb…, f3b33204…, 4bbde472…, 892526fc…). Sem R3. Próximo passo: auditoria do gbq-estilo (seção 8).
+
+Fechamento (orquestrador, 18/10/2026): saida/banco/estilo_onda_3.md sem GATE (12/12 e L1-R131 aprovados; 56 C / 55 E). Estado final da seção 9 aplicado em TAREFAS.md (saldo = T-105; errata = T-106) e gatilhos 10.1 e 10.2 colados em PARA_PRESIDENCIA.md.

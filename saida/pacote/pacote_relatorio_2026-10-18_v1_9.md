@@ -49,8 +49,8 @@ Reforço da onda 1:
 | Onda 1 | 48 | 23 | 25 | 23 | 2 | 6 | 47,9% de C (faixa de 40% a 60%) |
 
 Itens por folha depois da v1.9 (banco e AUTORAL):
-- P2-1.1 a 1.8, 2.1 a 2.8, 3.1 a 3.4, 4.2 e 4.3, e P1-3: 6 cada (25 folhas; meta intermediária da D-REFORCO-1);
-- P1-4.3: 4 (sem item novo; a meta fica com a T-102).
+- P2-1.1 a 1.8, 2.1 a 2.8, 3.1 a 3.4, 4.2 e 4.3, e P1-3: 6 cada (23 folhas com item novo; meta intermediária da D-REFORCO-1; corrigido na reconciliação, A-1 da fidelidade: o texto dizia "25 folhas");
+- P1-4.3: 4 (sem item novo; a meta fica com a T-102). A onda 1 tem 24 folhas: as 23 acima e a P1-4.3.
 
 L6B-R01 e L6B-R02 não entram (SUSPENSOS).
 
@@ -77,7 +77,7 @@ O total de remoções é 760, em 38 regras: as 709 da v1.8 (36 regras, iguais), 
 | 1 | `build_v19.py` | 334 itens; base v1.8 com SHA conferido; 48 lidos com os SHA das decisões e as contagens das decisões (falha se divergir) |
 | 2 | `estudante_json.py` | 0 falhas (estrutura, identidade fora da lista, só deleção, CAIXA/REALINHA, varredura R, contagem por lote, deleções do reforço = lista fechada) |
 | 3 | `registro_adendo_v19.py` | adendo 1 com 48 itens, igual ao promovido |
-| 4 | `validate_v19.py` | 47/47 OK |
+| 4 | `validate_v19.py` | 47/47 OK (rótulo da linha 119 corrigido na reconciliação, A-1: "23 folhas"; verificação e lista `FOLHAS` sem mudança; pipeline rodado de novo com código 0 e os mesmos 3 SHA de saída; MANIFESTO atualizado só em 3 linhas: `validate_v19.py`, `out/validate_stdout.txt` e `out/validate_v19.json`) |
 | 5 | `conferencias_v19.py` | 23/23 OK, entre elas 9 testes negativos (gabarito trocado, campo `nucleo`, item retirado, aderência, volatil, texto novo no estudante, linha Base na justificativa, 1 espaço num item da v1.8, 1 caractere a menos na v1.8-E), todos acusados |
 | 6 | `validar_erros_teste.py` (herdado, sem mudança) | 12/12 OK com o pacote v1.9 |
 | 7 | `manifesto_v1_9.py` | `MANIFESTO.md` com SHA-256 e bytes de cada arquivo do gerador e de `out/`; saídas promovidas iguais à origem: sim (3/3) |

@@ -61,7 +61,7 @@ Origem: cópia de `saida/pacote/gerador_v1_8/` (intacta), sem `out/`, mais as mu
 | `validar_erros.py` | `19ab9c8b359e4a59f209ecbca3e29f2ecc16a0dd5fb49b8892538bbe7eb8f33e` | 18500 | igual | passo 6 (módulo e CLI) |
 | `validar_erros_teste.py` | `33132d5a9d9aaf7ec4bf645ae57b84eca9c2094abdc70f18d6970465278f0186` | 7993 | igual | passo 6 |
 | `validate.py` | `7cde528368ee261693addfb8642ba3deac40fa5db36177eabdb27d493bb795f5` | 44115 | igual | herdado; só registro (não executado) |
-| `validate_v19.py` | `49e0721d99ce0d0274c93c09792a0f738e0012ed2029e1d4fe580b3eff68a48f` | 14477 | novo | passo 4 |
+| `validate_v19.py` | `5e3581239299b9c90faf991733599b4e93adac1e1a5e739816ab97282ed7ae9d` | 14513 | novo | passo 4 |
 
 ## out/ (regerado a cada execução)
 | Arquivo | SHA-256 | Bytes |
@@ -77,8 +77,8 @@ Origem: cópia de `saida/pacote/gerador_v1_8/` (intacta), sem `out/`, mais as mu
 | `out/registro_stdout.txt` | `0df2479b64c0a766a43cfa956dc12dd8d44fc389c0b960cd50b2e5abe4b25736` | 42 |
 | `out/stats_v19.json` | `98bde429f04b857c5604563ce8879e406dc59e5d4c8713724886b4270bef9fba` | 42191 |
 | `out/validar_erros_stdout.txt` | `b154f9f9b248ac3f3aecba63a464b1eb70e8524a4969eadf27c5477b3cc813c0` | 1578 |
-| `out/validate_stdout.txt` | `52a27f50b741121f71b6952afc9ce4606f41fc237bb85b9ca13c2c23a9b42592` | 4080 |
-| `out/validate_v19.json` | `383b746b9a39d2acdec21294643ce720a87c7e8dd7a8f3d58a8cb10fba0f7638` | 6284 |
+| `out/validate_stdout.txt` | `5e380e715056ce3d23ba4638c44e5d5c3c5713b5d7fded7d9f5774daf97bc59d` | 4116 |
+| `out/validate_v19.json` | `4b32afd3f1c3076f467eba64eae015d862f045c5b677fa6e9e4e1d4f4ea3b4ca` | 6320 |
 | `out/casos_erros/importados_exportadoEm.json` | `ca039c0b82972681b9902b442e44867d80422f9b29b1c0ba8617e17abd25ad71` | 71 |
 | `out/casos_erros/importados_sha.json` | `ea47a0919f69bded8a0115ab5d560b39a3deeed0319147e4e84b380261a5d8f7` | 134 |
 | `out/casos_erros/incoerente_D.json` | `463a23847f577c0c5f6014bc6400cfed5c1cf41e480462faaab98a2de885ec22` | 1383 |

@@ -116,7 +116,7 @@ cw = collections.Counter(byid[k]['gabarito'] for k in REF)
 chk('(B) onda 1: 23 C / 25 E (47,9% de C, faixa 40–60%, regra 5 da D-REFORCO-2)', (cw['C'], cw['E']) == (23, 25) and 0.40 <= cw['C'] / 48 <= 0.60)
 FOLHAS = ['P2-1.%d' % k for k in range(1, 9)] + ['P2-2.%d' % k for k in range(1, 9)] + ['P2-3.%d' % k for k in range(1, 5)] + ['P2-4.2', 'P2-4.3', 'P1-3']
 cf = collections.Counter(i['itemEdital'] for i in items)
-chk('(B) meta intermediária da D-REFORCO-1: 6 itens por folha nas 25 folhas da onda 1 (P1-4.3 fica com a T-102)', all(cf[f] == 6 for f in FOLHAS), str({f: cf[f] for f in FOLHAS if cf[f] != 6}))
+chk('(B) meta intermediária da D-REFORCO-1: 6 itens por folha nas 23 folhas com item novo da onda 1 (a onda tem 24; P1-4.3 fica com 4 até a T-102)', all(cf[f] == 6 for f in FOLHAS), str({f: cf[f] for f in FOLHAS if cf[f] != 6}))
 vf = collections.Counter(byid[k]['itemEdital'] for k in REF if byid[k].get('volatil'))
 chk('(B) VOLÁTEIS do reforço: 1 de 6 em P2-2.4 e 1 de 6 em P2-2.8 (teto 20% por folha, regra 4)', dict(vf) == {'P2-2.4': 1, 'P2-2.8': 1})
 chk('(B) L1-R10/L1-R16: correção de registro do ponto não toca o item (enunciado, gabarito e justificativa = arquivo v2)', not any(x in v for v in bad.values() for x in ('L1-R10', 'L1-R16')))

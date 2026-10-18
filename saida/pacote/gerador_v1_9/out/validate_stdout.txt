@@ -35,7 +35,7 @@ OK    (B) L2: C/E 8/10; [TS] R02 R03 R04 R05 R09 R12 R14 R15 R16 R17; volatil {R
 OK    (B) L3: C/E 6/5; [TS] R02 R03 R06 R10 R11; volatil {}; parcial {R01 R02 R05} (decisão de aceite) C/E 6/5
 OK    (B) L6A: C/E 0/1; [TS] R01; volatil {}; parcial {} (decisão de aceite) C/E 0/1
 OK    (B) onda 1: 23 C / 25 E (47,9% de C, faixa 40–60%, regra 5 da D-REFORCO-2) 
-OK    (B) meta intermediária da D-REFORCO-1: 6 itens por folha nas 25 folhas da onda 1 (P1-4.3 fica com a T-102) {}
+OK    (B) meta intermediária da D-REFORCO-1: 6 itens por folha nas 23 folhas com item novo da onda 1 (a onda tem 24; P1-4.3 fica com 4 até a T-102) {}
 OK    (B) VOLÁTEIS do reforço: 1 de 6 em P2-2.4 e 1 de 6 em P2-2.8 (teto 20% por folha, regra 4) 
 OK    (B) L1-R10/L1-R16: correção de registro do ponto não toca o item (enunciado, gabarito e justificativa = arquivo v2) 
 OK    (C) registro adendo 1: 48 linhas; gabarito, folha, [TS], VOLÁTIL e aderência = pacote (48/48) 

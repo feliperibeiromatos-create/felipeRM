@@ -1,0 +1,48 @@
+OK    (A) JSON termina em 1 newline; serialização canônica (indent=1, ensure_ascii=False) 
+OK    (A) chaves de topo, versao 1, nome "(v1.9)", geradoEm 2026-10-18 
+OK    (A) 334 itens, 0 id duplicado 334
+OK    (A) 14 campos obrigatórios em todos; tipos (ano/numero int; demais str) 
+OK    (A) campos extras só comandoOriginal, volatil, nota (nenhum campo novo; "nucleo" ausente) 
+OK    (A) gabarito C/E, enunciado e id não vazios 
+OK    (A) aderencia direta|parcial; rotulo permitido (0 CEBRASPE_ESTILO); volatil só true 
+OK    (A) todo itemEdital existe no edital (47 entradas) 
+OK    (A) 0 ocorrência de 'QA PENDENTE' 
+OK    (A) 0 ocorrência de 'ENTREGA DE LOTE' 
+OK    (A) 0 ocorrência de 'FIM DA PARTE' 
+OK    (A) 0 ocorrência de 'FIM DO LOTE' 
+OK    (A) 0 ocorrência de 'PARTE 2/3' 
+OK    (A) 0 ocorrência de 'PARTE 3/3' 
+OK    (A) 0 ocorrência de '=====' 
+OK    (A) 0 ocorrência de 'Derep, antigo DETAQ' 
+OK    (A) 0 ocorrência de 'CEBRASPE_ESTILO' 
+OK    (A) justificativa não vazia em AUTORAL e vazia no banco 
+OK    (A) contagens: 334 itens, 172 C / 162 E, banco 106, AUTORAL 228, volatil 25, parcial 45 (39 banco + 6 reforço), reforço 48 {'itens': 334, 'C': 172, 'E': 162, 'banco': 106, 'AUTORAL': 228, 'volatil': 25, 'parcial': 45, 'reforco': 48}
+OK    (A) os 48 de reforço são os 48 últimos itens, na ordem L1-R01…R18, L2-R01…R18, L3-R01…R11, L6A-R01; nenhum L6B-R 
+OK    (A) simulados: 4 (SIM-0, SIM-1, SIM-2, SIM-0-P2); nenhum item de reforço em simulado; todo id de simulado existe 
+OK    (A) simulados finais sem item VOLÁTIL ou parcial; nenhum simulado com L4-11 e BQ-0010 (TRF6 2024, Cargo 2, item 81) juntos (regra R2 do registro) 
+OK    (B) reforço: metadados (48/48) []
+OK    (B) reforço: enunciado = linha literal da parte (d) (48/48) []
+OK    (B) reforço: comando literal da parte (d) (48/48) []
+OK    (B) reforço: comando "Julgue o item." (48/48) []
+OK    (B) reforço: L6A: situação+comando e enunciado (48/48) []
+OK    (B) reforço: enunciado não aparece na parte (d-G) (48/48) []
+OK    (B) reforço: justificativa literal da parte (d-G), sem "Base:"/"Aderência:" (48/48) []
+OK    (B) reforço: gabarito e justificativa pela regex do (d-G) (48/48) []
+OK    (B) reforço: itemEdital = folha do mapa (48/48) []
+OK    (B) arquivos finais: Parte 2 (d) sem gabarito, [TS], VOLÁTIL nem REVERIFICAR; FIM DO LOTE presente (4/4) 
+OK    (B) L1: C/E 9/9; [TS] R01 R03 R07 R09 R12 R13 R17; volatil {}; parcial {} (decisão de aceite) C/E 9/9
+OK    (B) L2: C/E 8/10; [TS] R02 R03 R04 R05 R09 R12 R14 R15 R16 R17; volatil {R07 R18}; parcial {R02 R14 R15} (decisão de aceite) C/E 8/10
+OK    (B) L3: C/E 6/5; [TS] R02 R03 R06 R10 R11; volatil {}; parcial {R01 R02 R05} (decisão de aceite) C/E 6/5
+OK    (B) L6A: C/E 0/1; [TS] R01; volatil {}; parcial {} (decisão de aceite) C/E 0/1
+OK    (B) onda 1: 23 C / 25 E (47,9% de C, faixa 40–60%, regra 5 da D-REFORCO-2) 
+OK    (B) meta intermediária da D-REFORCO-1: 6 itens por folha nas 25 folhas da onda 1 (P1-4.3 fica com a T-102) {}
+OK    (B) VOLÁTEIS do reforço: 1 de 6 em P2-2.4 e 1 de 6 em P2-2.8 (teto 20% por folha, regra 4) 
+OK    (B) L1-R10/L1-R16: correção de registro do ponto não toca o item (enunciado, gabarito e justificativa = arquivo v2) 
+OK    (C) registro adendo 1: 48 linhas; gabarito, folha, [TS], VOLÁTIL e aderência = pacote (48/48) 
+OK    (C) registro adendo 1 promovido = out/registro_adendo1.md (registro_adendo_v19.py), byte a byte 
+OK    (C) registro adendo 1: ponto VIGENTE de L1-R10 e L1-R16 (T89_reconciliacao, seção 4) 
+OK    (C) pacote_estudante: nome "(v1.9-E)", geradoEm 2026-10-18, 334 itens com ids e ordem iguais, lotes L1 L2 L3 L4 L5 L6A L6B 
+OK    (C) pacote_estudante, 48 de reforço: url "", demais campos iguais salvo justificativa 
+OK    (C) pacote_estudante, 48 de reforço: justificativa = a do pacote.json; só L2-R07 e L2-R18 com as deleções literais da D1 (seção 3) 
+OK    (C) pacote_estudante, 48 de reforço: 0 "VOLÁTIL", "REVERIFICAR", "[TS]", "verificado em", "Base:" na justificativa 
+47 verificações, 0 falhas

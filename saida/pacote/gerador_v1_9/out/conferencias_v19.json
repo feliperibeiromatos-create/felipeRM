@@ -1,0 +1,144 @@
+{
+ "total": 23,
+ "falhas": 0,
+ "res": [
+  {
+   "sec": "(0)",
+   "n": "base v1.8 do git (46496ca): SHA-256 09d4a457…, 621907 bytes",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(0)",
+   "n": "diff v1.8 -> v1.9: só $.nome, $.geradoEm e 48 itens no fim de $.itens; 286 itens, edital (47), simulados (4), lotes (10) e discursivas (5) idênticos; reconstrução byte a byte",
+   "ok": true,
+   "extra": "[]"
+  },
+  {
+   "sec": "(0)",
+   "n": "os 48 acrescentados: ids L1-R01…L6A-R01, nenhum id da v1.8; rótulo AUTORAL",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(0)",
+   "n": "pacote.json v1.9: 663235 bytes, SHA-256 1366055496457792bf55f541d901e2d1f277ee42611060b03bbf82b4427610bb",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(1)",
+   "n": "base v1.8-E do git: SHA-256 851e2370…, 602815 bytes",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(1)",
+   "n": "diff v1.8-E -> v1.9-E: só $.nome, $.geradoEm e 48 itens no fim; 286 itens e demais blocos idênticos; reconstrução byte a byte",
+   "ok": true,
+   "extra": "[]"
+  },
+  {
+   "sec": "(1)",
+   "n": "os 48 do estudante = os 48 do pacote.json com url \"\" e justificativa só por deleção (subsequência)",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(1)",
+   "n": "pacote_estudante.json v1.9-E: 642374 bytes, SHA-256 8fa81b45a92095f8973c2787083d144869fdc195031455f7ff75ecb337e509e2",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(2)",
+   "n": "contrato: commit da v1.8 = v1.2.5 (10eac696…); disco = v1.2.6: linha 1 \"(v1.2.6, 2026-10-18)\", 1 seção \"Errata de forma da v1.2.6 (T-94;\", antes do separador \"---\"",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(2)",
+   "n": "diff contra a v1.2.5: linha 1 e linha 3 trocadas; 19 linhas inseridas depois da linha 149; nada mais",
+   "ok": true,
+   "extra": "[('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 149, 149, 149, 168)]"
+  },
+  {
+   "sec": "(2)",
+   "n": "registro contrato_v1_2_6_2026-10-18.md com os SHA antes (10eac696…) e depois (7e749c88…)",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "controle: validate_v19.py sobre cópias sem mutação sai 0",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"gabarito de L2-R05 trocado\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"campo \"nucleo\" acrescentado\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"1 item de reforço retirado\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"L3-R01 como direta\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"L2-R18 sem volatil\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"justificativa do estudante de L1-R01 com texto novo\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"justificativa de L1-R03 com a linha Base\": validate_v19.py sai 1",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"1 espaço no enunciado de BQ-0006 (item da v1.8)\": a conferência (0) acusa",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(3)",
+   "n": "mutação \"1 caractere a menos numa justificativa da v1.8-E\": a conferência (1) acusa",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "sec": "(4)",
+   "n": "v1_9 frente à v1_8 (fora de out/ e MANIFESTO.md): alterados = ['estudante_gen.py', 'estudante_json.py', 'refs.py', 'rodar_tudo.sh']; novos = ['_run.py', 'build_v19.py', 'conferencias_v19.py', 'manifesto_v1_9.py', 'reforco.py', 'reforco_marcas.py', 'registro_adendo_v19.py', 'validate_v19.py']; nenhum retirado",
+   "ok": true,
+   "extra": "alterados ['estudante_gen.py', 'estudante_json.py', 'refs.py', 'rodar_tudo.sh']; novos ['_run.py', 'build_v19.py', 'conferencias_v19.py', 'manifesto_v1_9.py', 'reforco.py', 'reforco_marcas.py', 'registro_adendo_v19.py', 'validate_v19.py']"
+  },
+  {
+   "sec": "(4)",
+   "n": "git status vazio em banco/, gerador_v1_8/, saida/estudante, saida/simulados, saida/plataforma, saida/treino, nos 4 arquivos finais do reforço e no registro v3",
+   "ok": true,
+   "extra": ""
+  }
+ ]
+}

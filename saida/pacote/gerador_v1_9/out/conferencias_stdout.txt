@@ -1,0 +1,24 @@
+OK    (0) | base v1.8 do git (46496ca): SHA-256 09d4a457…, 621907 bytes 
+OK    (0) | diff v1.8 -> v1.9: só $.nome, $.geradoEm e 48 itens no fim de $.itens; 286 itens, edital (47), simulados (4), lotes (10) e discursivas (5) idênticos; reconstrução byte a byte | []
+OK    (0) | os 48 acrescentados: ids L1-R01…L6A-R01, nenhum id da v1.8; rótulo AUTORAL 
+OK    (0) | pacote.json v1.9: 663235 bytes, SHA-256 1366055496457792bf55f541d901e2d1f277ee42611060b03bbf82b4427610bb 
+OK    (1) | base v1.8-E do git: SHA-256 851e2370…, 602815 bytes 
+OK    (1) | diff v1.8-E -> v1.9-E: só $.nome, $.geradoEm e 48 itens no fim; 286 itens e demais blocos idênticos; reconstrução byte a byte | []
+OK    (1) | os 48 do estudante = os 48 do pacote.json com url "" e justificativa só por deleção (subsequência) 
+OK    (1) | pacote_estudante.json v1.9-E: 642374 bytes, SHA-256 8fa81b45a92095f8973c2787083d144869fdc195031455f7ff75ecb337e509e2 
+OK    (2) | contrato: commit da v1.8 = v1.2.5 (10eac696…); disco = v1.2.6: linha 1 "(v1.2.6, 2026-10-18)", 1 seção "Errata de forma da v1.2.6 (T-94;", antes do separador "---" 
+OK    (2) | diff contra a v1.2.5: linha 1 e linha 3 trocadas; 19 linhas inseridas depois da linha 149; nada mais | [('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 149, 149, 149, 168)]
+OK    (2) | registro contrato_v1_2_6_2026-10-18.md com os SHA antes (10eac696…) e depois (7e749c88…) 
+OK    (3) | controle: validate_v19.py sobre cópias sem mutação sai 0 
+OK    (3) | mutação "gabarito de L2-R05 trocado": validate_v19.py sai 1 
+OK    (3) | mutação "campo "nucleo" acrescentado": validate_v19.py sai 1 
+OK    (3) | mutação "1 item de reforço retirado": validate_v19.py sai 1 
+OK    (3) | mutação "L3-R01 como direta": validate_v19.py sai 1 
+OK    (3) | mutação "L2-R18 sem volatil": validate_v19.py sai 1 
+OK    (3) | mutação "justificativa do estudante de L1-R01 com texto novo": validate_v19.py sai 1 
+OK    (3) | mutação "justificativa de L1-R03 com a linha Base": validate_v19.py sai 1 
+OK    (3) | mutação "1 espaço no enunciado de BQ-0006 (item da v1.8)": a conferência (0) acusa 
+OK    (3) | mutação "1 caractere a menos numa justificativa da v1.8-E": a conferência (1) acusa 
+OK    (4) | v1_9 frente à v1_8 (fora de out/ e MANIFESTO.md): alterados = ['estudante_gen.py', 'estudante_json.py', 'refs.py', 'rodar_tudo.sh']; novos = ['_run.py', 'build_v19.py', 'conferencias_v19.py', 'manifesto_v1_9.py', 'reforco.py', 'reforco_marcas.py', 'registro_adendo_v19.py', 'validate_v19.py']; nenhum retirado | alterados ['estudante_gen.py', 'estudante_json.py', 'refs.py', 'rodar_tudo.sh']; novos ['_run.py', 'build_v19.py', 'conferencias_v19.py', 'manifesto_v1_9.py', 'reforco.py', 'reforco_marcas.py', 'registro_adendo_v19.py', 'validate_v19.py']
+OK    (4) | git status vazio em banco/, gerador_v1_8/, saida/estudante, saida/simulados, saida/plataforma, saida/treino, nos 4 arquivos finais do reforço e no registro v3 
+23 conferências, 0 falhas

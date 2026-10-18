@@ -1,2 +1,2 @@
-itens 324 banco 144 autoral 180 norm 90 F4 21 F1 1
-LOG: ['PARES: par sem " vs " (b vazio): \'Confidencialidade, integridade, disponibilidade.\'']
+itens 334 (286 da v1.8 + 48 do reforço) C/E 172/162 volatil 25 bytes 663235 sha256 1366055496457792bf55f541d901e2d1f277ee42611060b03bbf82b4427610bb
+LOG: ['L1-R10: ponto de julgamento = VIGENTE da T89_reconciliacao seção 4', 'L1-R16: ponto de julgamento = VIGENTE da T89_reconciliacao seção 4']

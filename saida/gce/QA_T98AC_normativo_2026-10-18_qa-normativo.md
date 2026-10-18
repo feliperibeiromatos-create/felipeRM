@@ -163,3 +163,28 @@ Resultado: 20 de 20 itens CONFERE (o R12 e os 19 itens de lei federal); nenhum D
 ## 5. Encaminhamento
 
 Do ponto de vista normativo, os 20 itens podem perder a pendência de conferência normativa. A decisão é da gce-gerencia, e a edição, se houver, é da produção; eu não alterei os arquivos dos itens. A QA de estilo e mérito (gce-cqfp R1) e a aderência não são matéria deste parecer. Este registro vale para os dispositivos conferidos: se a v2 trocar de dispositivo ou de ponto de troca em algum item, esse item volta ao qa-normativo.
+
+## Adendo v2 — L3-R80 e L3-R95 (18/10/2026)
+
+Objeto: os dois itens novos de lei federal da v2 (saida/gce/L3_reforco_onda4_C_v2.md). Texto compilado aberto diretamente no planalto.gov.br em 18/10/2026, com User-Agent de navegador, HTTP 200 nas duas URLs. Não alterei a produção.
+
+### Lei 9.610/1998, art. 46, III
+URL: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm — verificado em 18/10/2026.
+Transcrição literal (caput e inciso III; o inciso não tem marcação de redação dada, inclusão ou revogação no original):
+> Art. 46. Não constitui ofensa aos direitos autorais:
+> (...)
+> III - a citação em livros, jornais, revistas ou qualquer outro meio de comunicação, de passagens de qualquer obra, para fins de estudo, crítica ou polêmica, na medida justificada para o fim a atingir, indicando-se o nome do autor e a origem da obra;
+
+### LGPD (Lei 13.709/2018), art. 37
+URL: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm — verificado em 18/10/2026.
+Transcrição literal (artigo de caput único, sem parágrafos nem incisos; sem marcação de redação dada no original):
+> Art. 37. O controlador e o operador devem manter registro das operações de tratamento de dados pessoais que realizarem, especialmente quando baseado no legítimo interesse.
+
+### Resultado
+
+| id | gabarito | dispositivo | resultado | motivo |
+|---|---|---|---|---|
+| L3-R80 | C | Lei 9.610/1998, art. 46, III | CONFERE | O texto é o vigente e não tem redação alterada. O trecho citado na justificativa é igual à letra da lei. O enunciado traz as três condições do inciso: a finalidade (estudo, crítica ou polêmica), a medida justificada para o fim a atingir e a indicação do nome do autor e da origem da obra. O estudo técnico se encaixa em "qualquer outro meio de comunicação". O gabarito C é compatível com a lei. |
+| L3-R95 | C | LGPD, art. 37 | CONFERE | O texto é o vigente e não tem redação alterada. O trecho citado é igual à letra da lei. O enunciado atribui o dever aos dois agentes, como faz o art. 37. A contratada que trata dados "em nome" da Câmara é operadora (art. 5º, VII). A omissão de "especialmente quando baseado no legítimo interesse" não muda o sentido, porque o dever é geral. O gabarito C é compatível com a lei. |
+
+Alterações recentes: a Lei 15.352/2026 (a ANPD como Agência) não tocou no art. 37 da LGPD. O art. 46, III, da Lei 9.610/1998 não tem alteração registrada no compilado. Do ponto de vista normativo, R80 e R95 podem perder a marca PENDENTE NORMATIVO. A decisão é da gce-gerencia, e a QA PENDENTE (gce-cqfp) continua.

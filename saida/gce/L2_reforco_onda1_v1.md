@@ -29,10 +29,8 @@ PARTE 1/3 — MAPA
 | L2-R14 | P2-2.7 | O terceiro contratado para assistir o fiscal do contrato não pode exercer atribuição própria e exclusiva de fiscal | AP | Lei 14.133/2021, art. 117, caput e §4º, I: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm | n |
 | L2-R15 | P2-2.7 | Os prazos e métodos do recebimento provisório e definitivo são definidos em regulamento ou no contrato, não fixados pela Lei 14.133 | NP | Lei 14.133/2021, art. 140, §3º (mesma URL de R14) | n |
 | L2-R16 | P2-2.8 | O TECAD, usado na indexação dos discursos, é vocabulário controlado, com relações preestabelecidas entre os termos (não é vocabulário livre) | D | Câmara, "Como pesquisar", campo "Indexação" (mesma URL de R07) | n (descrição institucional datada; ver observação) |
-| L2-R17 | P2-2.8 | Na adaptação de modelo de linguagem, os melhores dados são transcrições precisas do mesmo domínio; textos genéricos só entram na falta delas | SH → ver nota | AWS, "Custom language models", "Data sources": https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html | n (princípio de adaptação; item sem nome de produto) |
+| L2-R17 | P2-2.8 | Na adaptação de modelo de linguagem, os melhores dados são transcrições precisas do mesmo domínio; textos genéricos só entram na falta delas | TS | AWS, "Custom language models", "Data sources": https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html | n (princípio de adaptação; item sem nome de produto) |
 | L2-R18 | P2-2.8 | A lista de frases do Azure Speech não deve passar de 2.000 frases; listas maiores afetam qualidade e latência | NP | Microsoft Learn, "Improve recognition accuracy with phrase list": https://learn.microsoft.com/en-us/azure/ai-services/speech-service/improve-accuracy-phrase-list | S (ALTO: limite numérico de produto); REVERIFICAR |
-
-Nota sobre R17: o enunciado compara o tipo de dado a usar (transcrição precisa do domínio × texto genérico); por atribuir a um tipo de dado o papel que é de outro, o formato declarado é TS, e a coluna acima fica corrigida aqui: formato de R17 = TS. (Não é SH.)
 
 Observação sobre R07 e R16: descrevem a organização do Banco de Discursos no portal da Câmara (fonte institucional oficial, página aberta em 18/10/2026). Não dependem de produto de fornecedor; se a Gerência preferir tratá-las como dependentes de página, a reclassificação para VOLÁTIL (baixo) levaria 2.4 e 2.8 a 2/6 = 33,3% e 2.8 a 3 VOLÁTEIS por conta própria; por isso, a CPP as classificou como institucionais, como foram as fontes F1 e F2 do lote.
 
@@ -244,7 +242,7 @@ Base: Lei 14.133/2021, art. 140, §3º (leitura do art. 140 inteiro: não há pr
 L2-R16. E [TS]. Troca: o TECAD é "vocabulário controlado organizado em uma ordem preestabelecida", com relacionamentos de equivalência, homografia, hierarquia e associação entre termos, não vocabulário livre.
 Base: Câmara, "Como pesquisar", campo "Indexação" (TECAD 1.0, Tesauros da Câmara dos Deputados).
 
-L2-R17. E [TS]. Troca: os melhores dados são transcrições precisas (dados do mesmo domínio, com os mesmos termos, uso e contexto do áudio); textos relacionados, como artigos, atas e notícias, só são alternativa quando faltam transcrições.
+L2-R17. E [TS]. Troca: os melhores dados são transcrições precisas (dados do mesmo domínio, com os mesmos termos, uso e contexto do áudio); textos relacionados, como artigos, relatórios e notícias, só são alternativa quando faltam transcrições.
 Base: AWS, "Custom language models", seção "Data sources" ("the closer your text content is to your audio content, the more accurate your model"; "the best data for training a model are accurate transcripts").
 
 L2-R18. C. VOLÁTIL (ALTO: limite numérico de produto); REVERIFICAR. A página afirma que uma lista de frases não deve ter mais de 2.000 frases e que listas mais longas afetam a qualidade e a latência.

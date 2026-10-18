@@ -57,3 +57,20 @@ Observação de precisão (sem efeito no gabarito): o gabarito comentado atribui
 | L2-R130 | RICD art. 66, IV e § 1º; 89, caput; 90, caput e par. único | Res. 3/1991; 45/2013; 21/2021; 3/1991 | CONFERE (obs.: citar par. único do art. 90) |
 | L2-R103–R126 | sem dispositivo normativo | — | fora do escopo normativo |
 Divergências: 0. Lei federal: nenhuma citada.
+
+## Adendo — v2 (L2-R128)
+Objeto: item novo L2-R128 de saida/gce/L2_reforco_onda3_D_v2.md (substitui o L2-R128 da v1, sobre o art. 81, conferido na seção 2 e no resumo da seção 5; aquele registro fica superado quanto a este id). Enunciado v2: "parecer é a proposição com que o Plenário se pronuncia sobre qualquer matéria sujeita a seu estudo"; gabarito E [TS] (Comissão → Plenário).
+- Fonte: Legin — Resolução nº 17/1989 (RICD), texto atualizado: https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html — aberta diretamente por curl com User-Agent de navegador, HTTP 200, 1.007.742 bytes, 18/10/2026 13:48 UTC; verificado em 18/10/2026.
+
+Texto literal (RICD, Título IV, Capítulo VI — Dos Pareceres, art. 126; verificado em 18/10/2026):
+> Art. 126. Parecer é a proposição com que uma Comissão se pronuncia sobre qualquer matéria sujeita a seu estudo.
+> Parágrafo único. A Comissão que tiver de apresentar parecer sobre proposições e demais assuntos submetidos à sua apreciação cingir-se-á à matéria de sua exclusiva competência, quer se trate de proposição principal, de acessória, ou de matéria ainda não objetivada em proposição.
+
+Vigência: redação original da Resolução nº 17/1989; o Legin não traz marcação de alteração no caput nem no parágrafo único. Sem alteração recente.
+Citação da base no item (gabarito comentado): idêntica ao Legin.
+**CONFERE.** O enunciado troca apenas "uma Comissão" por "o Plenário"; o restante é literal. Gabarito E se sustenta.
+
+| Item | Dispositivo | Vigência (última redação) | Resultado |
+|---|---|---|---|
+| L2-R128 (v2) | RICD art. 126, caput | original | CONFERE |
+Divergências no adendo: 0.

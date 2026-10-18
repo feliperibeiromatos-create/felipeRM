@@ -1,6 +1,57 @@
-# L2_reforco_onda3_A_v1.md — T-97 — 2026-10-18 — gerado por gce-cpp
+# L2_reforco_onda3_A_v2.md — T-97 — 2026-10-18 — gerado por gce-cpp
 
-Tarefa T-97, onda 3 do reforço, parte A (ciclo s12c4), v1. Escopo: P2 folhas 2.1 e 2.2, 28 itens AUTORAL novos, ids L2-R19 a L2-R46 (L2-R19 a L2-R32 na folha 2.1; L2-R33 a L2-R46 na folha 2.2). Cada folha passa de 6 para 20 itens. As folhas 2.3 a 2.8 são das outras produtoras da onda 3 e não aparecem aqui. Nenhum item existente foi alterado.
+=====================================================================
+RESPOSTA AO RELATÓRIO DE QA (QA_T97A_R1_2026-10-18_gce-cqfp.md, rodada R1)
+=====================================================================
+
+Parecer recebido: APROVADO COM RESSALVAS; 3/28 reprovados (R23, R24, R40; 10,7%); 8 ajustes de texto ou marca; reclassificação de aderência em 13 itens; 14 itens PENDENTE NORMATIVO. Resposta item a item; "acatado" = aplicado no texto abaixo, com a redação exata do parecer.
+
+Questões gerais
+- Seção 2.1 (Rol do DETAQ de 2009 inadmissível como base): acatado. R23, R24 e R40 substituídos (mesmos ids) por itens novos de aderência direta, com base em documentação oficial de fornecedor aberta hoje; o Rol saiu do mapa, dos itens e da proveniência.
+- Seção 2.2 (A2I fechado a novos clientes; R37): acatado; texto exato aplicado; VOLÁTIL (baixo) e REVERIFICAR mantidos.
+- Seção 2.3 (aderência do Ato 251 e do RICD art. 98): acatado; só R20 fica direta; as demais marcadas PARCIAL (lista abaixo).
+- Seção 2.4 (formatos e tetos; defeito de AP sem elemento parlamentar em R36, R43, R44): acatado; textos exatos aplicados; os substitutos da 2.1 não são TS (R23 SH, R24 PC), de modo que a 2.1 fica com TS 5/20; nenhum formato acima de 25% em nenhuma folha.
+- Seção 2.5 (PENDENTE NORMATIVO nos 14 itens normativos): acatado; marca mantida no mapa e no gabarito comentado até o registro do qa-normativo (conferência em paralelo).
+- Seção 4 (recomendação 2 do estilo_onda_2, concessiva também em E): acatado como registro (O-8); o parecer não pede ajuste e a rodada manda não mudar mais nada.
+- Seção 5, ressalva 1 (concentração institucional): acatado; os 3 substitutos são de aderência direta (2.1 fecha com 10 diretas em 20; 2.2 com 13 em 20); a decisão de trocar mais itens institucionais fica com a Gerência.
+- Seção 5, ressalvas 2 e 3 (PENDENTE NORMATIVO; gêmeos com a parte B): acatado; a parte B ainda não existe em saida/gce, e C_v1 e D_v1 foram relidos contra os substitutos, sem gêmeo.
+
+Item a item
+- L2-R19: acatado (aderência PARCIAL, forma de publicação; PENDENTE NORMATIVO).
+- L2-R20: acatado (texto exato do parecer: "fornecedor da ferramenta"; justificativa "Derep → fornecedor da ferramenta"; ponto do mapa ajustado; aderência direta; PENDENTE NORMATIVO).
+- L2-R21: acatado (PARCIAL, competência entre órgãos e coordenações; PENDENTE NORMATIVO).
+- L2-R22: acatado (PARCIAL, idem; PENDENTE NORMATIVO).
+- L2-R23: REPROVADO, acatado; substituído por item novo, folha 2.1, gabarito C, SH, base nota de transparência do Azure Speech ("Limitations").
+- L2-R24: REPROVADO, acatado; substituído por item novo, folha 2.1, gabarito E [TS], PC, base A2I ("Amazon A2I Use Case Examples"); VOLÁTIL (baixo).
+- L2-R25: acatado (PARCIAL, vocabulário do Banco de Discursos).
+- L2-R26: aprovado; sem alteração.
+- L2-R27: acatado (PARCIAL, advertência de uso em alto risco).
+- L2-R28: acatado (PARCIAL, forma de publicação; PENDENTE NORMATIVO).
+- L2-R29: aprovado; PARCIAL já declarada; acatado o PENDENTE NORMATIVO.
+- L2-R30: aprovado; sem alteração.
+- L2-R31: acatado ([TS] retirado: gabarito "L2-R31. C."; justificativa sem "espelho"; PARCIAL, missão institucional; PENDENTE NORMATIVO).
+- L2-R32: acatado (PARCIAL, competência; PENDENTE NORMATIVO).
+- L2-R33: acatado (texto exato do parecer, sem "independentemente de seu desempenho").
+- L2-R34: aprovado; sem alteração.
+- L2-R35: acatado (texto exato do parecer; justificativa sem "A recomendação de nova tentativa está correta."; ponto do mapa ajustado; PARCIAL, UX de comando de voz).
+- L2-R36: acatado (texto exato do parecer, com "nas reuniões de comissão da Câmara dos Deputados").
+- L2-R37: acatado (texto exato do parecer, "Uma equipe que já utiliza o Amazon Augmented AI (A2I)"; VOLÁTIL baixo e REVERIFICAR mantidos).
+- L2-R38: acatado (PARCIAL, competência; PENDENTE NORMATIVO).
+- L2-R39: acatado (PARCIAL, competência; PENDENTE NORMATIVO).
+- L2-R40: REPROVADO, acatado; substituído por item novo, folha 2.2, gabarito E [TS], SH, base nota de transparência do Azure Speech (Human-in-the-loop, intervenção humana em tempo real).
+- L2-R41: acatado (PARCIAL, competência; PENDENTE NORMATIVO).
+- L2-R42: acatado (PARCIAL, competência; PENDENTE NORMATIVO).
+- L2-R43: acatado (texto exato do parecer, com "usado na transcrição das sessões plenárias da Câmara dos Deputados").
+- L2-R44: acatado (texto exato do parecer, com "uma audiência pública de comissão da Câmara dos Deputados").
+- L2-R45: aprovado; PARCIAL já declarada; acatado o PENDENTE NORMATIVO.
+- L2-R46: aprovado; PARCIAL já declarada; acatado o PENDENTE NORMATIVO.
+
+Nenhum item foi reprovado sem resposta; nenhum ponto do parecer foi "não acatado". O restante do lote não foi alterado, salvo as contagens, os mapas e as tabelas que decorrem das mudanças acima.
+
+FIM DA RESPOSTA AO QA
+
+
+Tarefa T-97, onda 3 do reforço, parte A (ciclo s12c4), v2 (rodada de correção R1, em resposta a QA_T97A_R1_2026-10-18_gce-cqfp.md). Escopo: P2 folhas 2.1 e 2.2, 28 itens AUTORAL novos, ids L2-R19 a L2-R46 (L2-R19 a L2-R32 na folha 2.1; L2-R33 a L2-R46 na folha 2.2). Cada folha passa de 6 para 20 itens. As folhas 2.3 a 2.8 são das outras produtoras da onda 3 e não aparecem aqui. Nenhum item existente foi alterado.
 Rótulo de todos os itens: AUTORAL (produtora gce-cpp, lote L2-R, onda 3 do reforço, D-REFORCO-2). QA PENDENTE: nenhum item deste arquivo passou por QA (D-QA-PENDENTE); não entra em simulado antes da QA da gce-cqfp.
 Convenção de base: "verificado em 18/10/2026" significa página, arquivo ou PDF aberto e lido nesta data, nesta sessão (curl com User-Agent de navegador para o Legin; sem base de data anterior, D-FONTE-DATA-ANTERIOR). Nomenclatura: "Derep (antigo DETAQ)" (Ato da Mesa nº 251/2026, aberto e lido hoje no Legin). Itens não citam versão, preço nem limite numérico de produto.
 Critérios aplicados: D-REFORCO-1/2 (um ponto de julgamento por item, único na folha e conferido contra o pacote inteiro; formato declarado, no máximo 30% de um formato por folha de 20; VOLÁTIL ≤ 20% por folha; gabarito da parte entre 40% e 60% de C); critério de VOLÁTIL da D-T96-ONDA2-ACEITE (D2 de rótulo); diluição do legado de T90_reconciliacao (nenhum item "aplicação parlamentar" na 2.1 e nenhum "definição" na 2.2); registros O-1 a O-8 e recomendações de saida/banco/estilo_onda_2.md (seção 5): "independentemente" também em E, "ainda que" também em C, aberturas variadas, fonte nomeada, um só absoluto por E, ambientação parlamentar fora do escopo da remissão, extensão equilibrada entre C e E.
@@ -327,13 +378,13 @@ Base: Ato da Mesa nº 251/2026, art. 3º, I a IV, Legin, verificado em 18/10/202
 | PENDENTE NORMATIVO | 14 (R19, R20, R21, R22, R28, R29, R31, R32, R38, R39, R41, R42, R45, R46) |
 
 Registros de estilo (O-1 a O-8, recomendações da estilo_onda_2.md, seção 5):
-- O-1 extensão (recontada por script): C média 40,1 palavras (máximo 52); E média 39,9 (máximo 52); nenhum C acima de 65.
-- O-2: "independentemente" em E (R20, R33).
-- O-3: "pode" aparece em C (R24, R30, R44) e em E (R25 não; R35 não); sem uso sistemático que denuncie o gabarito.
-- O-4: remissões a norma ficam no sujeito ("de acordo com o Ato", "segundo o RICD"); a ambientação parlamentar (R24, R27, R32, R37) não entra no escopo da fonte além do que a fonte diz.
+- O-1 extensão (recontada por script sobre o enunciado de cada item, sem a linha "Julgue o item."): C média 41,4 palavras (máximo 57); E média 38,9 (máximo 57); nenhum C acima de 65.
+- O-2: "independentemente" em E (R20).
+- O-3: "pode" aparece em C (R30, R34, R44) e em nenhum E; sem uso sistemático que denuncie o gabarito.
+- O-4: remissões a norma ficam no sujeito ("de acordo com o Ato", "segundo o RICD"); a ambientação parlamentar (R27, R32, R36, R40, R43, R44, os quatro últimos por determinação do parecer ou de forma mínima) não entra no escopo da fonte além do que a fonte diz.
 - O-5: um só absoluto por E (R42 "exclusiva"; R33 "constante" é da fonte).
-- O-7: "apenas"/"somente" não usados; causais "pois" em C (R27, R36) e "por isso" em E (R35).
-- O-8: "ainda que" em C (R24, R36) e nenhum em E nesta parte.
+- O-7: "apenas"/"somente" não usados; causais "pois" em C (R27, R36) e nenhum "por isso" em E.
+- O-8: "ainda que" em C (R36) e nenhum em E nesta parte (registro do parecer, seção 4: recomendação 2 do estilo_onda_2 não cumprida; sem reprovação e sem pedido de ajuste).
 - Aberturas "Segundo a…" no máximo 7 em 28 e variadas; fonte nomeada em todo item que usa "a nota", "a documentação", "o cartão" ou "o rol".
 
 ## Tabela de proveniência (todas as páginas, arquivos e PDFs abertos e lidos em 18/10/2026)
@@ -341,20 +392,23 @@ Registros de estilo (O-1 a O-8, recomendações da estilo_onda_2.md, seção 5):
 |---|---|---|---|
 | Câmara dos Deputados, Regimento Interno (Resolução nº 17/1989, texto atualizado, Legin) | https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | HTTP 200 em 18/10/2026 (art. 98, § 1º, primeira e segunda partes) | R19, R28 |
 | Câmara dos Deputados, Ato da Mesa nº 251, de 16/03/2026 (Legin, publicação original) | https://www2.camara.leg.br/legin/int/atomes/2026/atodamesa-251-16-marco-2026-798819-publicacaooriginal-178493-cd-mesa.html | HTTP 200 em 18/10/2026; publicado no Diário da Câmara de 17/3/2026, p. 1251; arts. 1º, 2º (I, III, V, VI, VII, X), 3º, 4º (VIII), 5º, 6º, 7º (I) | R20, R21, R22, R29, R31, R32, R38, R39, R41, R42, R45, R46 |
-| Câmara dos Deputados, "Produtos e Serviços do Departamento de Taquigrafia, Revisão e Redação – DETAQ" (PDF, setembro de 2009) | https://www2.camara.leg.br/a-camara/estruturaadm/consultoria-geral/estrutura-1/detaq/discursos/rol-do-detaq (devolve PDF de 24 páginas) | PDF aberto e lido em 18/10/2026 (itens 5, 6, 9 e 10); documento de 2009, do então DETAQ | R23, R24, R40 |
 | Câmara dos Deputados, Banco de Discursos, "Como pesquisar" | https://www2.camara.leg.br/atividade-legislativa/discursos-e-notas-taquigraficas/pesquisa/como-pesquisar | HTTP 200 em 18/10/2026; página sem data de edição | R25 |
-| Microsoft, Azure Speech, nota de transparência de speech to text ("Use cases for Speech to text") | https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/transparency-note (a URL /legal/cognitive-services/speech-service/speech-to-text/transparency-note redireciona para esta) | "Last updated on 2026-03-31"; verificado em 18/10/2026 | R30, R33, R34, R35, R36, R43 |
+| Microsoft, Azure Speech, nota de transparência de speech to text ("Use cases for Speech to text") | https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/transparency-note (a URL /legal/cognitive-services/speech-service/speech-to-text/transparency-note redireciona para esta) | "Last updated on 2026-03-31"; verificado em 18/10/2026 | R23, R30, R33, R34, R35, R36, R40, R43 |
 | Microsoft, Azure Speech, "How to create human-labeled transcriptions" | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-custom-speech-human-labeled-transcriptions | "Last updated on 2025-12-29"; verificado em 18/10/2026 | R26 |
 | OpenAI, repositório oficial openai/whisper, model-card.md (ramo main) | https://raw.githubusercontent.com/openai/whisper/main/model-card.md | arquivo aberto e lido em 18/10/2026 (HTTP 200) | R27 |
-| AWS, Amazon SageMaker AI, "Using Amazon Augmented AI for Human Review" | https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html | verificado em 18/10/2026 (a página informa que o A2I não está aberto a novos clientes) | R37 |
+| AWS, Amazon SageMaker AI, "Using Amazon Augmented AI for Human Review" | https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html | verificado em 18/10/2026 (a página informa que o A2I não está aberto a novos clientes) | R24, R37 |
 | Google Cloud, Speech-to-Text, Best practices | https://docs.cloud.google.com/speech-to-text/docs/best-practices | "Last updated 2026-10-13 UTC"; verificado em 18/10/2026 | R44 |
+
+Reabertas nesta rodada (18/10/2026, HTTP 200, trechos relidos): Ato da Mesa nº 251/2026 e RICD no Legin; nota de transparência do Azure Speech (trechos de R23 e R40, na seção "Limitations" e no item Human-in-the-loop de "Guidance for integration and responsible use"); página do A2I (trecho de R24, seção "Amazon A2I Use Case Examples"; aviso de fechamento a novos clientes no topo). O Rol do DETAQ (2009) não é mais base de nenhum item.
 
 Fontes que tentei abrir e não abri (nenhum item depende delas): www.camara.leg.br e www12.senado.leg.br (conexão recusada pelo proxy), páginas "Discursos em tempo real" e "Arquivo sonoro" do portal da Câmara (conteúdo em iframe ou host fechado), A2I "Core Components" e "Use Cases" (a URL tentada devolveu a página-índice). Nenhum item usa base de data anterior (D-FONTE-DATA-ANTERIOR).
 
 ## Dúvidas à Gerência (D1 da gce-gerencia)
-1. Documento de 2009 (ROL) como base de R23, R24 e R40: é documento oficial da Câmara, aberto hoje, mas descreve o então DETAQ e fluxo de serviço de 2009. Foi tratado como VOLÁTIL baixo, sem número (os prazos de 2 horas e 2 dias úteis do documento não foram cobrados). Se a Gerência preferir não usar documento de 2009 em item, R23, R24 e R40 precisam ser trocados; os demais não são afetados.
-2. Aderência do Ato nº 251/2026 à 2.1 e à 2.2: R29, R45 e R46 foram marcados PARCIAL (ata e estrutura do departamento). Os demais itens do Ato (R20, R21, R22, R31, R32, R38, R39, R41, R42) tratam do registro oficial, da redação final, da responsabilidade pelo texto e do uso de IA no processo, e foram marcados direta. A Gerência decide se mantém.
-3. Proximidade com as partes B, C e D da onda 3 (folhas 2.3 a 2.8): a nota de transparência do Azure e o Ato nº 251/2026 podem servir também às folhas 2.3 (supressão de expressões antirregimentais, art. 2º, IV), 2.4, 2.7 (qualidade, art. 6º, V; amostragem) e às folhas 3.x. Os pontos desta parte são os listados na Parte 1; a conferência cruzada com as outras partes fica com a Gerência.
+1. Rol do DETAQ de 2009: dúvida da v1 resolvida pelo parecer (seção 2.1, base inadmissível); R23, R24 e R40 substituídos por itens de aderência direta com base em documentação de fornecedor. Nenhum item do lote cita mais documento de unidade extinta.
+2. Aderência: aplicadas as marcas do parecer; a parte fecha com 12 itens diretos e 16 PARCIAIS (só simulado diagnóstico). A 2.1 fecha com 10 diretas em 20 e a 2.2 com 13 diretas em 20. Se a Gerência quiser mais diretas na 2.1, o caminho é trocar itens institucionais do Ato 251 e do RICD (art. 98), não acrescentar outros desses.
+3. A2I em dois itens (R24 na 2.1 e R37 na 2.2, mesma página): ambos VOLÁTEIS (baixo) pela hipótese (c); se a página sair do ar ou mudar até 4–8/1/2027, retirar os dois. Os itens não afirmam disponibilidade do serviço. A Gerência pode preferir não usar A2I na 2.1; nesse caso, o R24 precisa de substituto de outra fonte (as fontes abertas hoje para a 2.1 são escassas e os pontos de nota de transparência e de model card já estão tomados por Q01 a Q04 e por itens das folhas 1.x e 2.7).
+4. Proximidades dos substitutos: R23 × L2-Q03 (revisão humana não dispensável) e R40 × L2-R33 (mesmo item "Human-in-the-loop" da nota) estão declaradas na verificação de não repetição; cada par julga frase distinta da fonte.
+5. Proximidade com as partes B, C e D da onda 3: conferidos contra C_v1 (2.5/2.6, R75–R102) e D_v1 (2.7/2.8, R103–R130) lidos hoje, sem gêmeo; a parte B (2.3/2.4) ainda não existe em saida/gce, e a conferência com ela (Ato 251, art. 2º, IV e 6º, V; página "Como pesquisar" × R25) fica com a Gerência ou com a R2.
 
 FIM DA PARTE 3/3
 FIM DO LOTE

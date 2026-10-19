@@ -1,0 +1,32 @@
+(M-o) SHA-256 do conteúdo LF mutado: d45f2b59839214c3453fb10d623d90314a70e94464bfb3f0a62af93a91214897
+OK    controle (sem mutação): nenhuma conferência de checks_v112 falha | 
+OK    (herdada) `interno` com pos adulterado (reversibilidade) | C-N1b, C-L
+OK    (herdada) literal do número da versão fora de config_v112.py | C-16
+OK    (herdada) geração final sem o ato D-V112-BAEF-P2-ACEITE em DECISOES.md | Falha: C-1: DECISOES.md sem a linha "| id |" de: ['D-V112-BAEF-P2-ACEITE']
+OK    (herdada) edição .md: nome antigo do lote sem a contagem esperada no arquivo | C-11
+OK    (herdada) 1 caractere de um `antes` das tabelas | n/a
+OK    (herdada) id de ocorrência duplicado ou fora do universo | n/a
+OK    (herdada) sobreposição de intervalos | n/a
+OK    (herdada) código de fonte no `depois` | n/a
+OK    (herdada) FP em linha ou engolido por um `antes` | n/a
+OK    (herdada) BOM / \r / coluna ausente / cobertura incompleta nas tabelas | n/a
+OK    (herdada) linha do T109 ausente | n/a
+OK    (M-a) trocar o gabarito de um item novo (L3-R20) | C-N1b, C-N1c, C-N2
+OK    (M-b) apagar o `volatil` de um item novo (L3-R12) | C-N1b, C-N1c, C-N2, C-V
+OK    (M-c) acrescentar `volatil` a um item novo não VOLÁTIL (L3-R20) | C-N1b, C-N1c, C-N2, C-V
+OK    (M-d) mudar a `aderencia` do L3-R53 (parcial -> direta) | C-N1b, C-N1c, C-N2, C-A
+OK    (M-e) desfazer a errata do L1-R167 | C-N1b, C-E
+OK    (M-f) reintroduzir "REVERIFICAR. " numa justificativa (L3-R20) | C-N1b, C-L, C-R
+OK    (M-g) mover uma pegadinha nova uma posição | C-2p
+OK    (M-h) trocar o `rotulo` de uma pegadinha nova | C-2p
+OK    (M-i) acrescentar um campo a `topicos[P2-1.4]` | C-T
+OK    (M-j) mudar um caractere de um resumo | C-T
+OK    (M-k) inverter a ordem de duas chaves de `topicos` | C-T
+OK    (M-l) incluir o id vago L1-R140 | C-N1a, C-N1b, C-N1c, C-N2, C-L, C-5
+OK    (M-l) incluir o id diferido L3-R103 | C-N1a, C-N1b, C-N1c, C-N2, C-L, C-5
+OK    (M-m) pôr um item novo (L3-R20) em SIM-2 | C-3p, C-S, C-5
+OK    (M-n) mudar um byte do contrato fora das linhas da C-14 | C-14
+OK    (M-o) mudar um byte de um insumo (T113_onda1_B_v2.md): falha de SHA-256 LF | Falha: C-1: saida/gce/T113_onda1_B_v2.md: SHA-256 (LF) d45f2b59839214c3453fb10d623d90314a70e94464bfb3f0a62af93a91214897 diferente do aceito 74602cafd5
+OK    (M-p) repor o nome antigo na linha 1 do L3_estudo.md | C-MD1
+OK    (M-q) repor uma legenda no L5_gabarito.md | C-MD2
+fidelidade_mutacao_v1_12: 30/30 casos ok (23 aplicáveis; mutações detectadas: 22/22; inclui o controle)

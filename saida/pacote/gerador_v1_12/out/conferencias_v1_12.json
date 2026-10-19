@@ -1,0 +1,143 @@
+{
+ "total": 27,
+ "ok": 27,
+ "pendentes": 0,
+ "falhas": 0,
+ "conferencias": [
+  {
+   "id": "C-1a",
+   "estado": "OK",
+   "msg": "BASE (git fe17830): pacote.json e pacote_estudante.json = SHA-256 do config (1b5657c7… e 8533b0c0…)"
+  },
+  {
+   "id": "C-1b",
+   "estado": "OK",
+   "msg": "os 23 insumos lidos com CRLF → LF: SHA-256 LF de cada um = o da tabela da seção 1 (23 conferidos)"
+  },
+  {
+   "id": "C-1d",
+   "estado": "OK",
+   "msg": "SHA-256 gravados em out/stats_v1_12.json = os da tabela de config_v112"
+  },
+  {
+   "id": "C-1e",
+   "estado": "OK",
+   "msg": "DECISOES.md traz os três atos de aceite (D-T98-ONDA4-ACEITE, D-V112-BAEF-P1-ACEITE, D-V112-BAEF-P2-ACEITE)"
+  },
+  {
+   "id": "C-3",
+   "estado": "OK",
+   "msg": "o pacote.json regerado das fontes pelo build é igual ao out/pacote.json byte a byte"
+  },
+  {
+   "id": "C-6b",
+   "estado": "OK",
+   "msg": "pacote.json: PROCESSO 3, todos na lista MANTER da seção 3.5 (['itens[L1-R176].justificativa', 'itens[L1-R196].justificativa', 'itens[L3-R64].justificativa']); VERIFICAR 2 (1 MANTER da v1.11 + 1 em `topicos`); FP-R1 36 (28 da v1.11 + 8 nos textos novos); FP-CONTEUDO 115 (115, sem mudança)"
+  },
+  {
+   "id": "C-6c",
+   "estado": "OK",
+   "msg": "pacote_estudante.json: as mesmas ocorrências do pacote.json (PROCESSO 3, VERIFICAR 2, FP-R1 36, FP-CONTEUDO 115)"
+  },
+  {
+   "id": "C-6d",
+   "estado": "OK",
+   "msg": "edição .md (34 arquivos, fora README.md; ids de item exatos desconsiderados): PROCESSO 79 (v1.11: 98); os novos (7) são só homônimos de conteúdo dos MANTER/enunciados da D1 ([(('L1_gabarito.md', 'F1'), 1), (('L1_gabarito.md', 'v2'), 1), (('L1_itens.md', 'v2'), 3), (('L3_gabarito.md', 'F1'), 1), (('L3_itens.md', 'F1'), 1)]); VERIFICAR 2; FP-R1 49; FP-CONTEUDO 112"
+  },
+  {
+   "id": "C-8",
+   "estado": "OK",
+   "msg": "listas de deleção herdadas: 9 casamentos no pacote.json limpo, todos na lista fechada EXCECOES_RESIDUAL {'carimbo datado de verificação/leitura (ligado a F-ref)': 4, 'carimbo \"Verificado em 8/10/2026\" (L5)': 4, 'F (prosa: referência a fonte)': 1}; líquido 0"
+  },
+  {
+   "id": "C-11a",
+   "estado": "OK",
+   "msg": "35 arquivos; mudam 26: os 21 de lote (nome do lote), SIM-0_folha e SIM-0_gabarito (nome), SIM-1_gabarito (legendas), NUCLEO.md e README.md; os outros 9 são byte a byte os da v1.11"
+  },
+  {
+   "id": "C-11b",
+   "estado": "OK",
+   "msg": "a troca de volta (nome novo → antigo; retirados os tópicos, as pegadinhas novas e os itens novos) devolve a v1.11 byte a byte, salvo NUCLEO.md e README.md"
+  },
+  {
+   "id": "C-MD1",
+   "estado": "OK",
+   "msg": "C-MD1: nos 35 .md, 0 ocorrência dos nomes antigos de lote, dos códigos de produção e de \"(v0.2)\"; linha 1 dos 7 _estudo.md = \"# \" + nome do lote no -E"
+  },
+  {
+   "id": "C-MD2",
+   "estado": "OK",
+   "msg": "C-MD2: 0 linha começando por \"Mecanismo: troca de conceito (TC)\" ou \"Mecanismos: TC troca de conceito\" nos .md"
+  },
+  {
+   "id": "C-LF",
+   "estado": "OK",
+   "msg": "C-LF: 0 arquivo com o byte CR em gerador_v1_12/ fora de out/ e __pycache__/"
+  },
+  {
+   "id": "C-11c",
+   "estado": "OK",
+   "msg": ".md: 40 \"Resumo do tópico\" (parágrafos do -E) e 3 \"Em 1 minuto\" nos _estudo.md; cada item novo tem o enunciado e a justificativa do -E nos _itens.md e _gabarito.md"
+  },
+  {
+   "id": "C-11d",
+   "estado": "OK",
+   "msg": "os 189 itens novos aparecem com enunciado (_itens.md) e justificativa (_gabarito.md) do -E"
+  },
+  {
+   "id": "C-11e",
+   "estado": "OK",
+   "msg": "NUCLEO.md = o recalculado do campo `nucleo` do -E; README.md com a versão e a data de config_v112"
+  },
+  {
+   "id": "C-12",
+   "estado": "OK",
+   "msg": "registro por id: 447 linhas = 447 ({'T115-I': 189, 'T115-L': 53, 'T115-E': 3, 'T115-U': 2, 'T115-P': 139, 'T115-T': 43, 'T115-N': 10, 'T115-S': 1, 'T115-LM': 6, 'T115-R': 1}); id único em cada linha; objetos existentes; conjunto (edicao, antes, depois) dos registros T115 do `interno` (70) = o das linhas L, N, S e LM"
+  },
+  {
+   "id": "C-RG",
+   "estado": "OK",
+   "msg": "C-RG: T115-P: 70 CONVERTIDO (73 pegadinhas, com o caminho `lotes[Lx].pegadinhas[k]` de cada uma) e 69 DESCARTADO (com motivo); a contagem por prefixo é a da seção 5"
+  },
+  {
+   "id": "C-RGb",
+   "estado": "OK",
+   "msg": "cada caminho `lotes[Lx].pegadinhas[k]` do rastro aponta para a pegadinha de mesmo texto no pacote.json"
+  },
+  {
+   "id": "C-14",
+   "estado": "OK",
+   "msg": "C-14: diff de regras/pacote_contrato.md (LF) contra o blob de fe17830 só com os opcodes replace 0–1, replace 2–3, insert 206 → 206–218, \"v1.2.9\" na linha 1 e SHA-256 LF = o da D1: [('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 206, 206, 206, 218)]"
+  },
+  {
+   "id": "C-15",
+   "estado": "OK",
+   "msg": "validar_erros_teste.py com o pacote novo (ids inalterados): código 0; 12 conferências; 0 falhas"
+  },
+  {
+   "id": "C-17",
+   "estado": "OK",
+   "msg": "informativa, sem efeito no aceite (leitura somente do código plataforma_v1_7.html, o mais novo em saida/plataforma; pode não ser o publicado): validar(j) não enumera chaves e a palavra \"interno\" não ocorre no código; chave de topo desconhecida (`topicos`) é aceita. Confirmar na plataforma publicada fica com o Fundador (D-V15-PLATAFORMA)."
+  },
+  {
+   "id": "C-D1",
+   "estado": "OK",
+   "msg": "C-D: nenhum id novo no banco/banco.csv nem no pacote v1.11"
+  },
+  {
+   "id": "C-D",
+   "estado": "OK",
+   "msg": "C-D (informativa, não falha; insumo da fidelidade): Jaccard de 7 palavras ≥ 0,30 entre os 189 enunciados e os 560 itens do pacote v1.11 + 46 linhas do banco fora do pacote: 0 par(es) em out/similaridade_v1_12.csv (maior Jaccard medido: 0.095)"
+  },
+  {
+   "id": "C-G1",
+   "estado": "OK",
+   "msg": "gerador_v1_11 intacto: 71 arquivos (fora out/) = a tabela \"Arquivos da pasta\" do MANIFESTO v1.11 e o blob de fe17830 (comparação em LF; SHA em disco, LF ou CRLF); o MANIFESTO tem SHA-256 d0d827c8… (D1: d0d827c8…) = o do blob; divergentes: nenhum; git status da pasta: ''"
+  },
+  {
+   "id": "C-G2",
+   "estado": "OK",
+   "msg": "git status de regras/ (impresso, não falha): 'M regras/pacote_contrato.md'"
+  }
+ ]
+}

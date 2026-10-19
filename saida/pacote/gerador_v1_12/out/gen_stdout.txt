@@ -1,0 +1,1 @@
+modo FINAL; itens 749 (189 novos); C/E 380/369; PARCIAL 94; VOLÁTIL 86 (32 novos); pegadinhas 335 (+73); topicos 40 (3 pilotos); deleções 53 em 52 itens; bytes 1396410; sha256 3476525319b027fe4427bf93598d516087ad6f18fb8dd5bbed4ad8c04be6024f

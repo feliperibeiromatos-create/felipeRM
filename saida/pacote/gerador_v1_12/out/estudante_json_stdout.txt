@@ -1,0 +1,29 @@
+pacote_estudante.json: 1134920 bytes; 658 remoções em 5 regras; 1874 campos comparados (só deleção)
+CAIXA 6/8, REALINHA 0/2 (exatamente 1 cada)
+varredura R: 21 casamentos (X 21, Y 0), 0 de processo
+   X1 | itens[BQ-0040].comando | 'Presidência' | 21, n.º 335/2020 e n.º 332/2020 da Presidência do CNJ, julgue os itens a seguir.
+   X2 | itens[BQ-0064].enunciado | 'ChatGPT' | O ChatGPT e o DeepSeek são plataformas de IA
+   X9 | itens[L2-R29].enunciado | 'Secretaria' | as das sessões plenárias compete à Secretaria-Geral da Mesa, e não ao Derep (ant
+   X10 | itens[L2-R29].justificativa | 'Secretaria' | lenárias; o item troca o órgão por Secretaria-Geral da Mesa.
+   X11 | itens[L2-R38].enunciado | 'Secretaria' | Ato da Mesa nº 251/2026, compete à Secretaria-Geral da Mesa, e não ao Derep (ant
+   X12 | itens[L2-R38].justificativa | 'Secretaria' | strados; o item troca o órgão pela Secretaria-Geral da Mesa.
+   X13 | itens[L2-R45].enunciado | 'Secretaria' | Quando a Secretaria-Geral da Mesa solicita o registro 
+   X14 | itens[L2-R45].justificativa | 'Secretaria' |  de Líderes quando solicitado pela Secretaria-Geral da Mesa.
+   X17 | itens[L3-R64].enunciado | 'F1' | eadas (NER), ao passo que a medida F1 é usada na tarefa de similaridade 
+   X18 | itens[L3-R64].justificativa | 'F1' | ção de Pearson para STS e a medida F1 para RTE e NER.
+   X19 | itens[L1-R176].justificativa | 'F1' | om as métricas Precision, Recall e F1. O item troca os dois relatórios d
+   X15 | lotes[L2].curso | 'Secretaria' | m de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, norma de cará
+   X3 | lotes[L2].curso | 'Presidência' |  Presidente (ou no exercício↵   da Presidência), orientação de bancada, pela orde
+   X16 | lotes[L2].curso | 'Secretaria' | m de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, contexto hist
+   X4 | lotes[L3].curso | 'Presidência' |  ela. A redação anterior (órgão da Presidência da↵   República) está SUPERADA.↵ -
+   X5 | lotes[L3].curso | 'Presidência' | ↵superada). (6) ANPD como órgão da Presidência (redação superada), ou↵"a autorida
+   X6 | lotes[L3].pares[20].b | 'Presidência' | rquia vinculada ao MJSP); órgão da Presidência (redação superada)
+   X7 | lotes[L3].pegadinhas[32].texto | 'Presidência' | ANPD como órgão da Presidência (redação superada), ou "a autorida
+   X8 | lotes[L6A].curso | 'F4' | B2) ou só a linha (B$2).↵- A tecla F4, com a referência selecionada na b
+   X20 | topicos.P1-1.resumo | 'F4' | a coluna e B$2 só a linha. A tecla F4 alterna entre os tipos.↵↵A função 
+   X21 | topicos.P2-4.1.resumo | 'Presidência' | ida por ela; a redação de órgão da Presidência está superada. A multa não consta 
+termos fora da lista: {'Presidente': 47, 'Projeto': 646, 'OpenAI': 79, 'Anthropic': 17, 'Gemini': 11, 'GPT': 7, 'Whisper': 96, 'insumo': 3}
+nucleo: 367 itens true em 41 folhas
+itens por lote (origem -> v1.10-E): {'L1': 229, 'L1C': 10, 'L2': 169, 'L3': 135, 'L4': 27, 'L4C': 10, 'L5': 20, 'L5C': 10, 'L6A': 16, 'L6B': 17} -> {'L1': 239, 'L2': 169, 'L3': 135, 'L4': 37, 'L5': 30, 'L6A': 16, 'L6B': 17}
+verificação residual (FINAL): 9 casamento(s) das regras herdadas no pacote.json limpo (líquido 0); varredura R: 0 de processo fora de X/Y
+0 falhas

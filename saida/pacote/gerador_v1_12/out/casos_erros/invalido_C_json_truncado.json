@@ -1,0 +1,9 @@
+{
+ "formato": "camara2026.erros",
+ "versaoFormato": 1,
+ "exportadoEm": "2026-01-01T12:00:00.000Z",
+ "pacote": { "nome": "Câmara 2026 — pacote F4 (vX.Y)", "geradoEm": "2026-01-01", "versao": 1, "origem": "publicado" },
+ "estadoVersao": 1,
+ "escolha": { "P1": "diag" },
+ "resumo": { "tentativas": 1, "itensNoCaderno": 1, "saidas": 0, "discursivasEntregues": 1, "discursivasRascunho": 0, "eventos": { "simulado_entregue": 1 }, "eventosTruncados": false },
+ "caderno": [ { "id": "XX-0001", "itemEdital": "P1-0.1", "noPacote": true, "errou": 1, "seq": 0, "desde": "2026-01-01T11:00:00.000Z"

@@ -1,0 +1,14 @@
+OK    exemplo D-T59-04: ACEITO (código 0), forma e tipos ok, 0 incoerência | ACEITO
+OK    exemplo: ids desconhecidos listados por campo, com ocorrências (caderno XX-0001; det XX-0001 e XX-0002; discursivas DX)
+OK    exemplo: pacote de origem ≠ vigente registrado (aviso), SHA-256 do arquivo = 9676b0f3032a…
+OK    arquivo válido com ids reais: ACEITO; pacote de origem IGUAL ao vigente; só o id fora do pacote ("OUTRO-PACOTE-9") é desconhecido; 0 incoerência; 0 aviso | avisos []; incoerências []
+OK    INVÁLIDO A (versaoFormato 2): RECUSADO (código 1) com o motivo "versão 2 desconhecida" | $.versaoFormato: versão 2 desconhecida; só a versão 1 é aceita
+OK    INVÁLIDO B (resumo ausente, seg como string, nota 0.3 fora da escala): RECUSADO (código 1) com 3 motivos | $.resumo: campo ausente || $.tentativas[0].seg: esperado inteiro, veio str || $.discursivas[0].notas.1: valor 0.3; esperado 0, 0.25, 0.5, 0.75 ou 1
+OK    INVÁLIDO C (JSON truncado): RECUSADO (código 1) "não abre como JSON UTF-8"
+OK    INVÁLIDO C2 (formato diferente): RECUSADO
+OK    INCOERENTE D (ac+er+br≠total, nota≠ac−er, soma de `por`≠ac, errou 0, itensNoCaderno≠len): ACEITO com tentativa 0 e caderno 0 fora dos cálculos | 6 incoerências
+OK    DUPLICADO por SHA-256 e por exportadoEm (código 3); sem registro, ACEITO | mesmo SHA-256 de uma importação já feita / mesmo exportadoEm de uma importação já feita
+OK    sem argumento: código 2 (uso)
+OK    o exemplo e o pacote não foram alterados pelo validador (SHA-256 do exemplo igual)
+
+12 conferências; 0 falhas

@@ -1,0 +1,33 @@
+A0       OK   pacote.json: serialização canônica (indent=1, ensure_ascii=False, newline final)
+A1       OK   pacote.json: versao 1, nome e geradoEm de config_v112, chaves de topo da v1.11 mais `topicos` (último)
+C-1p     OK   C-1': os 560 itens da v1.11: id, ordem e todos os campos iguais ao blob v1.11 (byte a byte na serialização)
+C-2p     OK   C-2': lotes: curso, resumo, pares, itensEdital e prova iguais; pegadinhas = lista da v1.11 com as 73 inseridas nas posições da seção 3.6 (por código próprio); nome e legendaMecanismo só como na seção 3.8 (sem diferença)
+C-3p     OK   C-3': simulados e discursivas iguais à v1.11, salvo o `nome` do SIM-0 e o `interno` dele (sem diferença)
+C-N1a    OK   C-N1: 749 itens, ids únicos; os 189 novos na ordem da seção 3.3 (onda 4, F1 P1, F1 P2 A–D)
+C-N1b    OK   C-N1: cada item novo = o lido do arquivo final, com a errata (se houver), a limpeza L-1 a L-5 e o `interno` (comparação byte a byte com a montagem própria da fonte)
+C-N1c    OK   C-N1: por grupo (n, C, E, VOLÁTEIS, PARCIAIS, [TS]) {'ONDA4': (84, 42, 42, 10, 6, 61), 'F1P1': (7, 4, 3, 0, 0, 3), 'F1P2': (98, 49, 49, 22, 0, 49)} e folhas conforme as constantes de aceite; total C/E 380/369
+C-N2     OK   C-N2: as 19 folhas que mudam (total da base e da versão nova, C/E, diretos, PARCIAIS, VOLÁTEIS) = seção 8 da D1 
+C-E      OK   C-E: as 3 erratas (antes 1/1/1 vez na fonte; depois literal 1 vez no enunciado e na seção 2 do estilo) e a URL (3 ocorrências da antiga, 0 da nova no D_v2; fora do pacote) 
+C-L      OK   C-L: limpeza: 53 deleções por regra {'L-4': 18, 'L-1': 25, 'L-5': 1, 'L-2': 3, 'L-3': 6} em 52 itens; reverter o `interno` de cada item devolve a justificativa lida do arquivo final 
+C-R      OK   C-R: varredura residual (regras do inventario_v111, sem mudança, sobre justificativas dos 189, pegadinhas novas e `topicos`): 0 PROCESSO e 0 VERIFICAR fora da lista MANTER da seção 3.5 (11 ocorrências MANTER presentes, esperado 11; fora da lista: 0)
+C-T      OK   C-T: `topicos`: 40 chaves na ordem do edital; campos e regras do contrato v1.2.9, ponto 1; textos iguais aos blocos json dos arquivos 8 a 16 da tabela (só a fusão por chave)
+C-V      OK   C-V: `volatil: true` em exatamente 86 itens: os 54 da v1.11 + os 32 de saida/pacote/T115_volateis_T11.md, seção 1
+C-A      OK   C-A: `aderencia` "parcial" em 94 itens (88 da v1.11 + 6)
+C-S      OK   C-S: nenhum dos 189 em simulado; L4-11 e o item 81 do TRF6 (BQ-0010) não estão no mesmo simulado; nenhum VOLÁTIL em simulado final; nenhum item com "QA PENDENTE"
+C-5      OK   C-5: reversão: desfeitos os registros T115 do `interno` (ordem inversa), retirados os 189 itens, as 73 pegadinhas e `topicos`, obtém-se a v1.11 byte a byte (1b5657c7…)
+A3       OK   `interno`: último campo do objeto, nunca vazio, registros {edicao, campo, pos, antes, depois, regra, ocorrencias}; 869 registros em 264 objetos (v1.11 799 + 53 + 10 + 1 + 6)
+A4       OK   `interno` ausente do pacote_estudante.json
+C-9b     OK   "nucleo" booleano e último campo de todo item do -E
+C-9c     OK   fusão 1-C/4-C/5-C: lotes L1, L2, L3, L4, L5, L6A, L6B
+C-9d     OK   url vazia nos AUTORAL do -E (todos)
+C-9f     OK   cada campo de texto exibido do -E é igual ao do pacote.json sem `interno` (fora a fusão 1-C/4-C/5-C no L1 e a url vazia): 0 diferença
+C-E1     OK   C-E1: pacote_estudante.json: estrutura do pacote.json sem `interno` e com `nucleo`; `topicos` idêntico; sem legendaMecanismo; url "" nos AUTORAL; textos exibidos iguais
+C-NU     OK   C-NU: `nucleo` = 10 primeiros por (k1, k2, k3, k4) em cada folha (recálculo próprio; atos D-T98-ONDA4-ACEITE -> D-V112-BAEF-P1-ACEITE -> D-V112-BAEF-P2-ACEITE depois dos atos da v1.11); folha com ≤10 toda true; 3.2 a 3.4, 4.2 e 4.3 com os 4 primeiros diretos da onda 4; 3.1 com os 7 da v1.11 e L3-R15, R16, R17; só essas folhas mudam ([])
+C-9a     OK   pacote_estudante.json: asserções (a) a (f) da v1.10 sem falha (estudante_json_v112.py); nome e data de config_v112
+C-9e     OK   verificação residual: 9 casamento(s) das regras de deleção herdadas no pacote.json limpo (líquido 0 frente à lista fechada EXCECOES_RESIDUAL; 9 no total)
+C-13a    OK   simulados: ids, composição e ordem iguais à v1.11
+C-13e    OK   avisos dos simulados iguais aos da v1.11
+C-13c    OK   nenhum item VOLÁTIL em simulado final
+C-13f    OK   L2-R18 (restrição de montagem no `interno`) fora de todo simulado final e VOLÁTIL
+C-16     OK   nenhum literal de versão ("1.12", "v1_12") fora de config_v112.py ([])
+validate_v1_12: 32/32 OK (modo FINAL)

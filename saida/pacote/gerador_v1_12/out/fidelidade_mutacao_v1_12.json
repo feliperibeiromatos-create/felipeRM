@@ -1,0 +1,295 @@
+{
+ "total": 30,
+ "ok": 30,
+ "aplicaveis": 23,
+ "casos": [
+  {
+   "caso": "controle (sem mutação): nenhuma conferência de checks_v112 falha",
+   "esperado": "0 falha",
+   "detectada": false,
+   "detectada_por": [],
+   "ok": true
+  },
+  {
+   "caso": "(herdada) `interno` com pos adulterado (reversibilidade)",
+   "esperado": "C-L ou C-N1b ou C-5",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-L"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(herdada) literal do número da versão fora de config_v112.py",
+   "esperado": "C-16",
+   "detectada": true,
+   "detectada_por": [
+    "C-16"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(herdada) geração final sem o ato D-V112-BAEF-P2-ACEITE em DECISOES.md",
+   "esperado": "C-1",
+   "detectada": true,
+   "detectada_por": [
+    "Falha: C-1: DECISOES.md sem a linha \"| id |\" de: ['D-V112-BAEF-P2-ACEITE']"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(herdada) edição .md: nome antigo do lote sem a contagem esperada no arquivo",
+   "esperado": "C-11",
+   "detectada": true,
+   "detectada_por": [
+    "C-11"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(herdada) 1 caractere de um `antes` das tabelas",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) id de ocorrência duplicado ou fora do universo",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) sobreposição de intervalos",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) código de fonte no `depois`",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) FP em linha ou engolido por um `antes`",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) BOM / \\r / coluna ausente / cobertura incompleta nas tabelas",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(herdada) linha do T109 ausente",
+   "esperado": "não aplicável: a versão nova não usa as tabelas da T-108",
+   "detectada": null,
+   "detectada_por": [],
+   "ok": true,
+   "nao_aplicavel": true
+  },
+  {
+   "caso": "(M-a) trocar o gabarito de um item novo (L3-R20)",
+   "esperado": "C-N1b, C-N1c, C-N2",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-N1c",
+    "C-N2"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-b) apagar o `volatil` de um item novo (L3-R12)",
+   "esperado": "C-N1b, C-V",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-N1c",
+    "C-N2",
+    "C-V"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-c) acrescentar `volatil` a um item novo não VOLÁTIL (L3-R20)",
+   "esperado": "C-N1b, C-V",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-N1c",
+    "C-N2",
+    "C-V"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-d) mudar a `aderencia` do L3-R53 (parcial -> direta)",
+   "esperado": "C-N1b, C-A",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-N1c",
+    "C-N2",
+    "C-A"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-e) desfazer a errata do L1-R167",
+   "esperado": "C-E, C-N1b",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-E"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-f) reintroduzir \"REVERIFICAR. \" numa justificativa (L3-R20)",
+   "esperado": "C-R, C-N1b, C-L",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1b",
+    "C-L",
+    "C-R"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-g) mover uma pegadinha nova uma posição",
+   "esperado": "C-2p",
+   "detectada": true,
+   "detectada_por": [
+    "C-2p"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-h) trocar o `rotulo` de uma pegadinha nova",
+   "esperado": "C-2p",
+   "detectada": true,
+   "detectada_por": [
+    "C-2p"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-i) acrescentar um campo a `topicos[P2-1.4]`",
+   "esperado": "C-T",
+   "detectada": true,
+   "detectada_por": [
+    "C-T"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-j) mudar um caractere de um resumo",
+   "esperado": "C-T",
+   "detectada": true,
+   "detectada_por": [
+    "C-T"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-k) inverter a ordem de duas chaves de `topicos`",
+   "esperado": "C-T",
+   "detectada": true,
+   "detectada_por": [
+    "C-T"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-l) incluir o id vago L1-R140",
+   "esperado": "C-N1a, C-N1b",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1a",
+    "C-N1b",
+    "C-N1c",
+    "C-N2",
+    "C-L",
+    "C-5"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-l) incluir o id diferido L3-R103",
+   "esperado": "C-N1a, C-N1b",
+   "detectada": true,
+   "detectada_por": [
+    "C-N1a",
+    "C-N1b",
+    "C-N1c",
+    "C-N2",
+    "C-L",
+    "C-5"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-m) pôr um item novo (L3-R20) em SIM-2",
+   "esperado": "C-S, C-3p",
+   "detectada": true,
+   "detectada_por": [
+    "C-3p",
+    "C-S",
+    "C-5"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-n) mudar um byte do contrato fora das linhas da C-14",
+   "esperado": "C-14",
+   "detectada": true,
+   "detectada_por": [
+    "C-14"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-o) mudar um byte de um insumo (T113_onda1_B_v2.md): falha de SHA-256 LF",
+   "esperado": "C-1",
+   "detectada": true,
+   "detectada_por": [
+    "Falha: C-1: saida/gce/T113_onda1_B_v2.md: SHA-256 (LF) d45f2b59839214c3453fb10d623d90314a70e94464bfb3f0a62af93a91214897 diferente do aceito 74602cafd57d6bf10722068ecd3"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-p) repor o nome antigo na linha 1 do L3_estudo.md",
+   "esperado": "C-MD1",
+   "detectada": true,
+   "detectada_por": [
+    "C-MD1"
+   ],
+   "ok": true
+  },
+  {
+   "caso": "(M-q) repor uma legenda no L5_gabarito.md",
+   "esperado": "C-MD2",
+   "detectada": true,
+   "detectada_por": [
+    "C-MD2"
+   ],
+   "ok": true
+  }
+ ]
+}

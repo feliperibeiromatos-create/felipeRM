@@ -1,0 +1,2 @@
+edição .md v1.12 (FINAL): 35 arquivos; 26 mudam; novos por lote {'L1': 79, 'L2': 9, 'L3': 94, 'L4': 7}; 40 tópicos
+0 falhas

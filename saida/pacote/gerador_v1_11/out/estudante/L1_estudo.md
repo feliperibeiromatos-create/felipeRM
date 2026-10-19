@@ -474,7 +474,7 @@ orador"; "informar a identidade"; "indicar qual parlamentar falou".
 REGRA DE DECISÃO PARA A PROVA
  1. Se o item fala em IDENTIDADE, NOME, CADASTRO, "qual parlamentar" ou
     "quem é": é identificação propriamente dita. Diarização sozinha, sem
-    amostras de referência ( E1), não basta.
+    amostras de referência, não basta.
  2. Se o item fala em DISTINGUIR, SEPARAR, "quantos oradores" ou rótulos
     genéricos: é diarização, mesmo que use o verbo "identificar".
  3. Se o item usa "identificar" sem mais contexto, não o julgue pelo

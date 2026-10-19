@@ -1,2 +1,0 @@
-ensaio: linhas reais aceitas {'saida/gce/T108_substituicoes_GCE.csv': 178, 'saida/gcb/T108_substituicoes_GCB_parteA.csv': 150, 'saida/gcb/T108_substituicoes_GCB_parteB.csv': 175, 'saida/gcb/T108_substituicoes_GCB_parteC.csv': 155, 'ensaio': 4}; recusadas 10; sintéticas 111 (lacunas 0; exceções do depois 0)
-universo 872; cobertos por real 761; sintéticos cobrem 111

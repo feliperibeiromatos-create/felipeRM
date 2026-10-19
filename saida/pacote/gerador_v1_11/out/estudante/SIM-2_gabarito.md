@@ -116,7 +116,7 @@
 ### 23 — L1C-Q24 — Gabarito: C
 
 - Item do edital: P2-1.2 (aderência: direta)
-- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, artigo do Whisper, "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
+- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, segundo o artigo "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
 
 ### 24 — L1C-Q21 — Gabarito: E
 

@@ -28,6 +28,16 @@ def le_bytes(rel_ou_abs):
         return f.read()
 
 
+def deleta_ok(antes, depois):
+    """D1 pré-FINAL 1.2: em DELETAR, `depois` vazio ou igual ao `antes` menos um único trecho contíguo (existe k com antes[:k] == depois[:k] e antes[k+len(antes)-len(depois):] == depois[k:]; len(depois) < len(antes))."""
+    if depois == '':
+        return True
+    if len(depois) >= len(antes):
+        return False
+    d = len(antes) - len(depois)
+    return any(antes[:k] == depois[:k] and antes[k + d:] == depois[k:] for k in range(len(depois) + 1))
+
+
 def le_csv(raw, nome, ger=None, prefixos=None, erros=None):
     """Bytes -> lista de dicts, com as conferências de forma da seção 1.3 (pontos 1 a 3). Com `erros` (lista), os erros de linha são acumulados e a linha é descartada (modo tolerante)."""
     if raw.startswith(b'\xef\xbb\xbf'):
@@ -63,8 +73,8 @@ def le_csv(raw, nome, ger=None, prefixos=None, erros=None):
                 raise Falha('C-1', '%s: regra inválida %r' % (ctx, r['regra']))
             if '\r' in r['antes'] or '\r' in r['depois']:
                 raise Falha('C-1', '%s: caractere \\r em antes ou depois' % ctx)
-            if r['acao'] == 'DELETAR' and r['depois'] != '':
-                raise Falha('C-1', '%s: DELETAR com depois não vazio' % ctx)
+            if r['acao'] == 'DELETAR' and not deleta_ok(r['antes'], r['depois']):
+                raise Falha('C-1', '%s: DELETAR com depois que não é o antes menos um único trecho contíguo' % ctx)
             if r['acao'] == 'SUBSTITUIR' and (r['depois'] == '' or r['depois'] == r['antes']):
                 raise Falha('C-1', '%s: SUBSTITUIR com depois vazio ou igual ao antes' % ctx)
             if r['acao'] == 'MANTER' and not (r.get('nota') or '').strip():
@@ -215,7 +225,12 @@ def resolve(P, cam):
 def valida_cobertura(rows, oc, inv, completa=True, ger_por_tabela=None):
     """Seção 1.3, ponto 4. oc: {id: linha de T108_ocorrencias.csv (pacote.json)}; inv: {id: ocorrência recalculada} (para conferir caminho). Devolve dict de estatísticas.
     completa=False (ENSAIO com tabelas em produção): não exige que todo id do universo apareça, só que nenhuma linha cite id fora dele."""
-    universo = {i for i, o in oc.items() if o['classe'] in ('PROCESSO', 'VERIFICAR')}
+    import config_v111 as cfg
+    universo_inv = {i for i, o in oc.items() if o['classe'] in ('PROCESSO', 'VERIFICAR')}
+    extra = dict(cfg.IDS_EXTRA)
+    if set(extra) & set(oc):
+        raise Falha('C-2', 'IDS_EXTRA contém id do inventário: %s' % sorted(set(extra) & set(oc))[:3])
+    universo = universo_inv | set(extra)
     fps = {i for i, o in oc.items() if o['classe'] in ('FP-R1', 'FP-CONTEUDO')}
     cont = collections.Counter()
     for r in rows:
@@ -224,7 +239,11 @@ def valida_cobertura(rows, oc, inv, completa=True, ger_por_tabela=None):
             if i in fps:
                 raise Falha('C-2', '%s: cita o id %s, que é FP (FP-R1/FP-CONTEUDO não entra em linha)' % (r['id_edicao'], i))
             if i not in universo:
-                raise Falha('C-2', '%s: cita o id %s, fora do universo (PROCESSO ou VERIFICAR do pacote.json)' % (r['id_edicao'], i))
+                raise Falha('C-2', '%s: cita o id %s, fora do universo (PROCESSO ou VERIFICAR do pacote.json, nem IDS_EXTRA)' % (r['id_edicao'], i))
+            if i in extra:
+                if extra[i] != (r['_ger'], r['caminho']):
+                    raise Falha('C-2', '%s: o id extra %s é de %s e a linha é %s (Gerência, caminho)' % (r['id_edicao'], i, extra[i], (r['_ger'], r['caminho'])))
+                continue
             o = oc[i]
             if o['caminho'] != r['caminho']:
                 raise Falha('C-2', '%s: o id %s é do caminho %s e a linha diz %s' % (r['id_edicao'], i, o['caminho'], r['caminho']))
@@ -236,4 +255,5 @@ def valida_cobertura(rows, oc, inv, completa=True, ger_por_tabela=None):
     faltam = sorted(universo - set(cont))
     if completa and faltam:
         raise Falha('C-2', 'cobertura: %d ids do universo sem linha (ex.: %s)' % (len(faltam), ', '.join(faltam[:3])))
-    return dict(universo=len(universo), cobertos=len(cont), faltam=len(faltam), fp=len(fps), por_gerencia={g: sum(1 for i in cont if oc[i]['gerencia'] == g) for g in ('GCE', 'GCB', 'GBQ')})
+    ger_de = lambda i: extra[i][0] if i in extra else oc[i]['gerencia']
+    return dict(universo=len(universo), cobertos=len(cont), faltam=len(faltam), fp=len(fps), extras=len(extra), por_gerencia={g: sum(1 for i in cont if ger_de(i) == g) for g in ('GCE', 'GCB', 'GBQ')})

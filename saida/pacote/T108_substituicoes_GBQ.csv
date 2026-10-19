@@ -1,0 +1,5 @@
+"id_edicao","ids_ocorrencia","caminho","lote","categoria","antes","depois","acao","regra","fonte_origem","nota"
+"GBQ-0001","D-C08-b44a9812","itens[BQ-0003].nota","8","C08"," (D-LEI-15352)","","DELETAR","5","","Igual ao NOTA_DEL do -E v1.10. A denominação, a lei e o artigo ficam."
+"GBQ-0002","D-C08-894022ae","simulados[SIM-0].avisos[0]","SIMULADO","C08","(D-ADERENCIA: parcial só em diagnóstico)","(parcial só em diagnóstico)","SUBSTITUIR","5","","Só deleção de ""D-ADERENCIA: "", igual ao AVISO do -E v1.10."
+"GBQ-0003","D-C10-a5ba3541","simulados[SIM-0].avisos[0]","SIMULADO","C10","4 itens VOLÁTEIS (inaptos","4 itens (inaptos","SUBSTITUIR","5","","Só deleção do rótulo. O motivo (""inaptos a simulado final até a reverificação"") fica."
+"GBQ-0004","D-C10-8984f5b2","simulados[SIM-0].avisos[2]","SIMULADO","C10","nenhum item aprovado foi removido para equilibrar","","MANTER","5","","Conteúdo à candidata sobre o equilíbrio C/E. Não é instrução interna."

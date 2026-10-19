@@ -33,7 +33,7 @@ intervenção (aparte, fala do Presidente, pela ordem, questão de ordem…
 na lista do Banco de Discursos, verificado em 08/10/2026); pausa só se relevante;
 eventos não falados em convenção ÚNICA e distinguível; sobreposição
 registrada. Rótulo de diarização ≠ identificação. O aparteante tem
-rótulo próprio. Forma de identificar o orador: observada nas notas oficiais de 2026 (; E3). Convenção da Câmara para marcação de pausas e eventos não falados e para grafia: NÃO VERIFICADA ().
+rótulo próprio. Forma de identificar o orador: observada nas notas oficiais de 2026. Convenção da Câmara para marcação de pausas e eventos não falados e para grafia: NÃO VERIFICADA.
 2.5 NORMALIZAÇÃO = padronizar a FORMA. ITN (fala→escrita) é formatação
 pós-ASR, não reconhecimento. Números, siglas, abreviações, termos:
 regra única e glossário. Não corrige o conteúdo. Ambiguidade (ano ×
@@ -84,7 +84,7 @@ de qualidade e responsabilidade pelo texto final.
 Contexto institucional: o Banco de Discursos reúne notas taquigráficas
 registradas pelo Derep (antigo DETAQ) (página "Como pesquisar no Banco de Discursos", da Câmara, verificado em 08/10/2026),
 Departamento de Registro Oficial e Redação Parlamentar, por força do
-Ato da Mesa nº 251/2026 . A prática
+Ato da Mesa nº 251/2026 (Legin, verificado em 08/10/2026). A prática
 oficial inclui a revisão e a redação final
 dos pronunciamentos, com divulgação das notas sem redação final e,
 depois, com redação final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026). Como curiosidade
@@ -174,7 +174,7 @@ Contexto oficial: a prática da Câmara inclui a revisão e a redação final
 dos pronunciamentos e debates; as notas taquigráficas são divulgadas sem
 redação final e, depois, com Redação Final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026). O
 departamento responsável hoje se chama Departamento de Registro Oficial e
-Redação Parlamentar (). O curso NÃO afirma critério gramatical da
+Redação Parlamentar (Ato da Mesa nº 251/2026 da Câmara, no Legin). O curso NÃO afirma critério gramatical da
 Câmara: mostra apenas que existe etapa de revisão e redação final.
 
 Critérios de qualidade usuais na revisão:

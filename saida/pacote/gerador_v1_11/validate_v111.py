@@ -124,7 +124,30 @@ def main():
     ok('C-9b', all(list(i)[-1] == 'nucleo' and isinstance(i['nucleo'], bool) for i in E['itens']), '"nucleo" booleano e último campo de todo item do -E')
     ok('C-9c', [l['id'] for l in E['lotes']] == ['L1', 'L2', 'L3', 'L4', 'L5', 'L6A', 'L6B'], 'fusão 1-C/4-C/5-C: lotes L1, L2, L3, L4, L5, L6A, L6B')
     ok('C-9d', all(i['url'] == '' for i in E['itens'] if i['rotulo'] == 'AUTORAL') and sum(1 for i in E['itens'] if i['rotulo'] == 'AUTORAL' and i['url'] == '') == sum(1 for i in P['itens'] if i['rotulo'] == 'AUTORAL'), 'url vazia nos AUTORAL do -E (todos)')
-    ok('C-9e', est_rel['verificacao_residual']['liquido'] == 0 or cfg.ENSAIO, 'verificação residual: %d casamento(s) das regras de deleção herdadas no pacote.json limpo (%s)' % (est_rel['verificacao_residual']['liquido'], 'FINAL exige 0' if cfg.FINAL else 'ENSAIO: informativo'))
+    _ep = {i['id']: i for i in E['itens']}
+    _dif = []
+    for _i in P['itens']:
+        for _c in ('justificativa', 'nota', 'enunciado', 'comando', 'textoBase'):
+            if _c in _i and _ep[_i['id']].get(_c) != _i[_c]:
+                _dif.append('%s.%s' % (_i['id'], _c))
+    _lp = {l['id']: l for l in P['lotes']}
+    for _l in E['lotes']:
+        if _l['id'] in ('L1',):
+            continue
+        for _c in ('resumo', 'curso'):
+            if _l[_c] != _lp[_l['id']][_c]:
+                _dif.append('%s.%s' % (_l['id'], _c))
+        if _l['pares'] != _lp[_l['id']]['pares'] or _l['pegadinhas'] != _lp[_l['id']]['pegadinhas']:
+            _dif.append('%s.pares/pegadinhas' % _l['id'])
+    _dp = {d['id']: d for d in P['discursivas']}
+    for _d in E['discursivas']:
+        _x = _dp[_d['id']]
+        if (_d['comando'], _d['padrao'], _d['aspectos'], _d['quesitos']) != (_x['comando'], _x['padrao'], _x['aspectos'], _x['quesitos']):
+            _dif.append(_d['id'])
+    _sp = {x['id']: x for x in P['simulados']}
+    _dif += [x['id'] for x in E['simulados'] if x.get('avisos') != _sp[x['id']].get('avisos')]
+    ok('C-9f', not _dif, 'cada campo de texto exibido do -E é igual ao do pacote.json sem `interno` (fora a fusão 1-C/4-C/5-C no L1 e a url vazia): %s' % (_dif[:5] or '0 diferença'))
+    ok('C-9e', est_rel['verificacao_residual']['liquido'] == 0 or cfg.ENSAIO, 'verificação residual: %d casamento(s) das regras de deleção herdadas no pacote.json limpo (%s)' % (est_rel['verificacao_residual']['liquido'], 'FINAL: líquido 0 frente à lista fechada EXCECOES_RESIDUAL, %d no total' % est_rel['verificacao_residual']['total'] if cfg.FINAL else 'ENSAIO: informativo'))
 
     # C-10 nucleo
     dif = [i['id'] for i, j in zip(E['itens'], EB['itens']) if i['nucleo'] != j['nucleo']]
@@ -146,6 +169,7 @@ def main():
     ok('C-13b', all(not ({'L4-11', 'BQ-0010'} <= set(s['itens'])) for s in P['simulados']), 'L4-11 e BQ-0010 (TRF6, item 81) nunca no mesmo simulado')
     vol = {i['id'] for i in P['itens'] if i.get('volatil')}
     ok('C-13c', all(not (set(s['itens']) & vol) for s in P['simulados'] if s['tipo'] == 'final'), 'nenhum item VOLÁTIL em simulado final')
+    ok('C-13f', not any('L2-R18' in s['itens'] for s in P['simulados'] if s['tipo'] == 'final') and next(i for i in P['itens'] if i['id'] == 'L2-R18').get('volatil'), 'L2-R18 (restrição de montagem no `interno`) fora de todo simulado final e VOLÁTIL')
     ok('C-13d', not any('QA PENDENTE' in json.dumps(i, ensure_ascii=False) for i in P['itens']), 'nenhum item com "QA PENDENTE"')
     # avisos: só mudam por linhas GBQ ou das tabelas; composição igual
     ok('C-13e', all(s.get('avisos') == b.get('avisos') for s, b in zip(P['simulados'], B['simulados']) if s['id'] != 'SIM-0') and len(P['simulados'][0]['avisos']) == len(B['simulados'][0]['avisos']), 'avisos: iguais aos da v1.10 fora do SIM-0; SIM-0 com o mesmo número de avisos')

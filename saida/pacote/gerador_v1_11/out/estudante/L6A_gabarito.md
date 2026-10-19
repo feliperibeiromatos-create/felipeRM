@@ -17,7 +17,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 6A-03 — Gabarito: C
 
 - Item do edital: P1-1
-- Justificativa: Armadilha: generalização indevida, em sentido invertido (tentação: ler "pode deixar de constar" como erro e marcar E, ou supor que o Word identifica títulos pelo aspecto do texto). Curso 1.1.4: o sumário se baseia nos títulos do documento; quando faltam entradas, a causa costuma ser títulos sem estilo de título, e a solução indicada é aplicar o Título 1. O item diz "pode deixar de constar", não "sempre deixa". Fonte: Microsoft, documentação de suporte, "Inserir um sumário", verificado em 08/10/2026.
+- Justificativa: Armadilha: generalização indevida, às avessas (tentação: ler "pode deixar de constar" como erro e marcar E, ou supor que o Word identifica títulos pelo aspecto do texto). Curso 1.1.4: o sumário se baseia nos títulos do documento; quando faltam entradas, a causa costuma ser títulos sem estilo de título, e a solução indicada é aplicar o Título 1. O item diz "pode deixar de constar", não "sempre deixa". Fonte: Microsoft, documentação de suporte, "Inserir um sumário", verificado em 08/10/2026.
 
 ### 6A-04 — Gabarito: E
 
@@ -27,7 +27,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 6A-05 — Gabarito: C
 
 - Item do edital: P1-1
-- Justificativa: Armadilha: troca de conceito invertida (tentação: achar que o 3º argumento é obrigatório ou que a ordem é falso/verdadeiro). Curso 1.2.3: SE(teste_lógico; valor_se_verdadeiro; [valor_se_falso]); o colchete indica o opcional; o 2º é o resultado para verdadeiro. Fonte: Microsoft, documentação de suporte, "SE (Função SE)", verificado em 08/10/2026.
+- Justificativa: Armadilha: troca de conceito, às avessas (tentação: achar que o 3º argumento é obrigatório ou que a ordem é falso/verdadeiro). Curso 1.2.3: SE(teste_lógico; valor_se_verdadeiro; [valor_se_falso]); o colchete indica o opcional; o 2º é o resultado para verdadeiro. Fonte: Microsoft, documentação de suporte, "SE (Função SE)", verificado em 08/10/2026.
 
 ### 6A-06 — Gabarito: E
 
@@ -42,7 +42,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 6A-08 — Gabarito: E
 
 - Item do edital: P1-1
-- Justificativa: Armadilha: troca de conceito (inversão; não sutil). Curso 1.3.3: a animação é aplicada a um elemento do slide; a transição, ao slide inteiro. O item troca os alvos. Fonte: Microsoft, documentação de suporte, "A diferença entre animações e transições", verificado em 08/10/2026.
+- Justificativa: Armadilha: troca de conceito (inversão). Curso 1.3.3: a animação é aplicada a um elemento do slide; a transição, ao slide inteiro. O item troca os alvos. Fonte: Microsoft, documentação de suporte, "A diferença entre animações e transições", verificado em 08/10/2026.
 
 ### 6A-09 — Gabarito: C
 
@@ -61,7 +61,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 6A-11 — Gabarito: E
 
 - Item do edital: P1-3
-- Justificativa: Armadilha: troca de conceito (inversão; não sutil). Curso 3.1.1: webmail = acesso por navegador, sem aplicativo específico (Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android"); cliente = aplicativo instalado (conceito geral; a fonte Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android" descreve o Outlook para PC como aplicativo de e-mail). O item troca as duas formas. Fonte: Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android", verificado em 08/10/2026.
+- Justificativa: Armadilha: troca de conceito (inversão). Curso 3.1.1: webmail = acesso por navegador, sem aplicativo específico (Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android"); cliente = aplicativo instalado (conceito geral; a fonte Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android" descreve o Outlook para PC como aplicativo de e-mail). O item troca as duas formas. Fonte: Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android", verificado em 08/10/2026.
 
 ### 6A-12 — Gabarito: E
 

@@ -25,7 +25,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### L4-05 — Gabarito: C
 
 - Item do edital: P1-5.1
-- Justificativa: Armadilha: generalização indevida invertida (tentação: ver delimitadores como preciosismo). Delimitar instruções, exemplos e dados ajuda o modelo a tratar o conteúdo de referência como dado, não como instrução; é recomendação de documentação oficial — Anthropic, "XML structuring" (em "Prompt engineering overview") e OpenAI, "Message formatting with Markdown and XML" (em "Prompt engineering"), verificadas em 7/10/2026. O item afirma o conceito, não recurso de produto; não depende de informação sujeita a mudança.
+- Justificativa: Armadilha: generalização indevida, às avessas (tentação: ver delimitadores como preciosismo). Delimitar instruções, exemplos e dados ajuda o modelo a tratar o conteúdo de referência como dado, não como instrução; é recomendação de documentação oficial — Anthropic, "XML structuring" (em "Prompt engineering overview") e OpenAI, "Message formatting with Markdown and XML" (em "Prompt engineering"), verificadas em 7/10/2026. O item afirma o conceito, não recurso de produto; não depende de informação sujeita a mudança.
 
 ### L4-06 — Gabarito: E
 
@@ -55,7 +55,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### L4-11 — Gabarito: C
 
 - Item do edital: P1-5.2
-- Justificativa: Armadilha: generalização indevida invertida (tentação: "prioritariamente supervisionado"). A página do Google for Developers ("Introduction to ML: What is Machine Learning?") afirma que "generative models are initially trained using an unsupervised approach" e que "the model is sometimes trained further using supervised or reinforcement learning"; o item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", reverificado em 7/10/2026. Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (item análogo do Cebraspe; gabarito definitivo E, conferido no gabarito definitivo do TRF6) — referência, não fundamento.
+- Justificativa: Armadilha: generalização indevida, às avessas (tentação: "prioritariamente supervisionado"). A página do Google for Developers ("Introduction to ML: What is Machine Learning?") afirma que "generative models are initially trained using an unsupervised approach" e que "the model is sometimes trained further using supervised or reinforcement learning"; o item descreve o pré-treino como "sem rótulos atribuídos manualmente", sem classificar o "auto-supervisionado". Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", reverificado em 7/10/2026. Mecanismo semelhante: TRF6 2024, Cargo 2, item 81 (item análogo do Cebraspe; gabarito definitivo E, conferido no gabarito definitivo do TRF6) — referência, não fundamento.
 
 ### L4-12 — Gabarito: C
 
@@ -102,7 +102,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### L4-20 — Gabarito: C
 
 - Item do edital: P1-6
-- Justificativa: Armadilha: generalização indevida invertida. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: Lei 12.527/2011 (LAI), arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I.
+- Justificativa: Armadilha: generalização indevida, às avessas. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: Lei 12.527/2011 (LAI), arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I.
 
 ### 4C-01 — Gabarito: E
 
@@ -117,7 +117,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 4C-03 — Gabarito: C
 
 - Item do edital: P1-5.1
-- Justificativa: Armadilha: generalização indevida invertida (tentação: "engenharia de prompts controla a saída; logo o prompt é o único fator" → marcar E). Curso 5.1.1: o resultado depende, entre outros fatores, dos dados de treinamento e da temperatura (Google for Developers, "Machine Learning Glossary: Generative AI"). O item diz que o prompt não é o único fator, sem afirmar que o texto do prompt é irrelevante. Fonte: Google for Developers, "Machine Learning Glossary: Generative AI".
+- Justificativa: Armadilha: generalização indevida, às avessas (tentação: "engenharia de prompts controla a saída; logo o prompt é o único fator" → marcar E). Curso 5.1.1: o resultado depende, entre outros fatores, dos dados de treinamento e da temperatura (Google for Developers, "Machine Learning Glossary: Generative AI"). O item diz que o prompt não é o único fator, sem afirmar que o texto do prompt é irrelevante. Fonte: Google for Developers, "Machine Learning Glossary: Generative AI".
 
 ### 4C-04 — Gabarito: E
 
@@ -142,7 +142,7 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 4C-08 — Gabarito: E
 
 - Item do edital: P1-5.1
-- Justificativa: Armadilha: generalização indevida (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo "restringe-se" nega. O item não usa o par injeção × jailbreak  como critério. Fonte: curso 5.1.4.
+- Justificativa: Armadilha: generalização indevida (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo "restringe-se" nega. O item não usa o par injeção × jailbreak como critério. Fonte: curso 5.1.4.
 
 ### 4C-09 — Gabarito: C
 
@@ -152,4 +152,4 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 ### 4C-10 — Gabarito: E
 
 - Item do edital: P1-5.1
-- Justificativa: Armadilha: troca de conceito (formato × restrição; não sutil). Curso 5.1.2 (item 6): restrições e critérios indicam o que o modelo NÃO deve fazer ("não invente nomes"); curso 5.1.5: no exemplo, "não atribua a um orador fala que ele não tenha feito" é restrição, e não formato. Formato de saída (item 5 do curso 5.1.2) é a forma da resposta (tabela, JSON, número de linhas). O item julga apenas a natureza da determinação negativa, sem depender da fronteira entre formato e restrição em instruções mistas. Fonte: curso 5.1.2 e 5.1.5.
+- Justificativa: Armadilha: troca de conceito (formato × restrição). Curso 5.1.2 (item 6): restrições e critérios indicam o que o modelo NÃO deve fazer ("não invente nomes"); curso 5.1.5: no exemplo, "não atribua a um orador fala que ele não tenha feito" é restrição, e não formato. Formato de saída (item 5 do curso 5.1.2) é a forma da resposta (tabela, JSON, número de linhas). O item julga apenas a natureza da determinação negativa, sem depender da fronteira entre formato e restrição em instruções mistas. Fonte: curso 5.1.2 e 5.1.5.

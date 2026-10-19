@@ -1,0 +1,7 @@
+# bytes fixados por SHA-256 (T108_reconciliacao_v1_11, seção 2)
+saida/gce/T108_substituicoes_GCE_v3.csv -text
+saida/gcb/T108_substituicoes_GCB.csv -text
+saida/pacote/T108_ocorrencias.csv -text
+saida/pacote/T108_substituicoes_GBQ.csv -text
+saida/gce/T109_reconciliacao_2026-10-18.md -text
+saida/pacote/exemplo_erros_v1.json -text

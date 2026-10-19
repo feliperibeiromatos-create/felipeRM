@@ -1,7 +1,7 @@
 {
  "D": {
   "arquivo": "out/pacote.json",
-  "sha256_LF": "34c131e276b5b74a2cc4f30a9099a48cdbac231189f6e418415b5a41bed17c78",
+  "sha256_LF": "1b5657c726b5852885fe0e69e7835d6ec331e6d43dd19191cf451ff4ac069517",
   "ocorrencias": {
    "FP-R1": 28,
    "FP-CONTEUDO": 115,
@@ -10,7 +10,7 @@
  },
  "E": {
   "arquivo": "out/pacote_estudante.json",
-  "sha256_LF": "4f423e707631210c829cbb17511bcffee50c90bc1826da9686482df5bce1ee77",
+  "sha256_LF": "8533b0c085594a42dd066b3e7a6161f0ea94f4f60bb2ad2cfbafc969369f6bd7",
   "ocorrencias": {
    "FP-R1": 28,
    "FP-CONTEUDO": 115,

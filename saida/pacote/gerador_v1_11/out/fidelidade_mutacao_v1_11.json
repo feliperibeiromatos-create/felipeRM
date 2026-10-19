@@ -1,12 +1,12 @@
 {
- "total": 22,
- "ok": 22,
+ "total": 25,
+ "ok": 25,
  "casos": [
   {
    "caso": "controle (sem mutação): o gerador passa",
    "esperado": [],
    "parou": false,
-   "mensagem": "772 edições aplicadas, 1 MANTER",
+   "mensagem": "799 edições aplicadas, 1 MANTER",
    "ok": true
   },
   {
@@ -109,7 +109,7 @@
     "SHA-256"
    ],
    "parou": true,
-   "mensagem": "C-1: SHA-256 de saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv = 2a634da3b7e2508a1bc98b95f56abbb55f691ca4396eccd9f9a2bb6526c1103d != fixado 0000000000000000000000000000000000000000000000000000000000000000",
+   "mensagem": "C-1: SHA-256 de saida/gcb/T108_substituicoes_GCB.csv = 10d9e5588753bc9ad273a529b56148b20e1f643bb4f312751a8fbd371b8751ef != fixado 0000000000000000000000000000000000000000000000000000000000000000",
    "ok": true
   },
   {
@@ -119,7 +119,7 @@
     "fora do universo"
    ],
    "parou": true,
-   "mensagem": "C-2: GCB-A0001: cita o id D-C99-00000000, fora do universo (PROCESSO ou VERIFICAR do pacote.json)",
+   "mensagem": "C-2: GCB-A0001: cita o id D-C99-00000000, fora do universo (PROCESSO ou VERIFICAR do pacote.json, nem IDS_EXTRA)",
    "ok": true
   },
   {
@@ -150,6 +150,36 @@
    ],
    "parou": true,
    "mensagem": "C-2: m11b.csv GCE-7777: prefixo do id_edicao fora da Gerência GCB",
+   "ok": true
+  },
+  {
+   "caso": "DELETAR com depois que não é o antes menos um trecho contíguo",
+   "esperado": [
+    "C-1",
+    "DELETAR com depois"
+   ],
+   "parou": true,
+   "mensagem": "C-1: m17.csv GCB-A0062: DELETAR com depois que não é o antes menos um único trecho contíguo",
+   "ok": true
+  },
+  {
+   "caso": "id extra fora de IDS_EXTRA",
+   "esperado": [
+    "C-2",
+    "fora do universo",
+    "GCB-EXTRA-99"
+   ],
+   "parou": true,
+   "mensagem": "C-2: GCB-A0001: cita o id GCB-EXTRA-99, fora do universo (PROCESSO ou VERIFICAR do pacote.json, nem IDS_EXTRA)",
+   "ok": true
+  },
+  {
+   "caso": "id do inventário fora de todo antes",
+   "esperado": [
+    "C-2b"
+   ],
+   "parou": true,
+   "mensagem": "C-2b: GCE-0105: EXCECAO_INTERVALO: o casamento citado (D-C05-411f0c55) não está no antes da linha GCE-0110",
    "ok": true
   },
   {
@@ -206,7 +236,7 @@
     "condições de entrada"
    ],
    "parou": true,
-   "mensagem": "C-1: condições de entrada da geração final não cumpridas: E1-E3: SHA-256 da tabela GCE não fixado; E1-E3: SHA-256 da tabela GCB não fixado; E1-E3: SHA-256 da tabela GBQ não fixado; E4: ATO_L2R16 ausente",
+   "mensagem": "C-1: condições de entrada da geração final não cumpridas: E1-E3: SHA-256 da tabela GCE não fixado; E1-E3: SHA-256 da tabela GCB não fixado; E1-E3: SHA-256 da tabela GBQ não fixado",
    "ok": true
   },
   {

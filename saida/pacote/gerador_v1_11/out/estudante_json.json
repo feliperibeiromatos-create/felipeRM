@@ -1,18 +1,14 @@
 {
  "arquivo": "out/pacote_estudante.json",
- "bytes": 880331,
+ "bytes": 880435,
  "regras": {
   "url AUTORAL (valor inteiro apagado)": 454,
   "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6,
   "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
   "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
-  "carimbo de leitura \"aberta(s) hoje\"": 4,
-  "id interno (R-xx, E-xx, O-xx, D-xx)": 4,
-  "F (prosa: referência a fonte)": 1,
-  "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1,
-  "marca de processo (\"neste chat\")": 1
+  "F (prosa: referência a fonte)": 1
  },
- "total_remocoes": 479,
+ "total_remocoes": 469,
  "por_campo": {
   "lotes[].resumo": {
    "campos_alterados": 0,
@@ -20,14 +16,11 @@
    "regras": {}
   },
   "lotes[].curso": {
-   "campos_alterados": 3,
-   "remocoes": 16,
+   "campos_alterados": 2,
+   "remocoes": 11,
    "regras": {
-    "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
     "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
-    "marca de processo (\"neste chat\")": 1,
     "F (prosa: referência a fonte)": 1,
-    "carimbo de leitura \"aberta(s) hoje\"": 3,
     "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6
    }
   },
@@ -57,11 +50,10 @@
    "regras": {}
   },
   "itens[].justificativa (AUTORAL)": {
-   "campos_alterados": 5,
-   "remocoes": 5,
+   "campos_alterados": 4,
+   "remocoes": 4,
    "regras": {
-    "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
-    "carimbo de leitura \"aberta(s) hoje\"": 1
+    "carimbo \"Verificado em 8/10/2026\" (L5)": 4
    }
   },
   "itens[].url (AUTORAL)": {
@@ -72,11 +64,9 @@
    }
   },
   "itens[].justificativa (AUTORAL, reforço)": {
-   "campos_alterados": 1,
-   "remocoes": 1,
-   "regras": {
-    "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
-   }
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
   },
   "itens[].justificativa (AUTORAL, reforço v1.10)": {
    "campos_alterados": 0,
@@ -89,11 +79,9 @@
    "regras": {}
   },
   "discursivas[].padrao": {
-   "campos_alterados": 2,
-   "remocoes": 3,
-   "regras": {
-    "id interno (R-xx, E-xx, O-xx, D-xx)": 3
-   }
+   "campos_alterados": 0,
+   "remocoes": 0,
+   "regras": {}
   },
   "discursivas[].aspectos[].texto": {
    "campos_alterados": 0,
@@ -250,23 +238,20 @@
   "X13": 1,
   "X14": 1,
   "X15": 1,
-  "X16": 1,
-  "Y1": 0
+  "X16": 1
  },
  "processo": 0,
  "termos_fora_da_lista": {
   "Presidente": 42,
-  "Projeto": 462,
+  "Projeto": 457,
   "OpenAI": 67,
   "Anthropic": 17,
   "Gemini": 9,
   "GPT": 5,
-  "Whisper": 65,
+  "Whisper": 64,
   "insumo": 3
  },
- "reforco_delecoes": {
-  "itens[L2-R18].justificativa | V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
- },
+ "reforco_delecoes": {},
  "reforco_v110_delecoes": {},
  "nucleo": {
   "P1-1": {
@@ -1139,23 +1124,17 @@
   "banco": 106
  },
  "verificacao_residual": {
-  "modo": "ENSAIO",
+  "modo": "FINAL",
   "regras_herdadas": {
-   "id interno (R-xx, E-xx, O-xx, D-xx)": 4,
    "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
-   "marca de processo (\"neste chat\")": 1,
    "F (prosa: referência a fonte)": 1,
-   "carimbo de leitura \"aberta(s) hoje\"": 4,
-   "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
-   "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
+   "carimbo \"Verificado em 8/10/2026\" (L5)": 4
   },
   "campos_com_casamento": [
    [
     "lotes[L4].curso",
     {
-     "id interno (R-xx, E-xx, O-xx, D-xx)": 1,
-     "carimbo datado de verificação/leitura (ligado a F-ref)": 2,
-     "marca de processo (\"neste chat\")": 1
+     "carimbo datado de verificação/leitura (ligado a F-ref)": 2
     }
    ],
    [
@@ -1163,14 +1142,7 @@
     {
      "F (prosa: referência a fonte)": 1,
      "carimbo datado de verificação/leitura (ligado a F-ref)": 2,
-     "carimbo de leitura \"aberta(s) hoje\"": 1,
      "caixa (minúscula → maiúscula na inicial deixada por deleção)": 6
-    }
-   ],
-   [
-    "lotes[L6B].curso",
-    {
-     "carimbo de leitura \"aberta(s) hoje\"": 2
     }
    ],
    [
@@ -1196,35 +1168,15 @@
     {
      "carimbo \"Verificado em 8/10/2026\" (L5)": 1
     }
-   ],
-   [
-    "itens[6B-06].justificativa",
-    {
-     "carimbo de leitura \"aberta(s) hoje\"": 1
-    }
-   ],
-   [
-    "itens[L2-R18].justificativa",
-    {
-     "V (instrução de montagem e de reescrita do item volátil, L2-R18)": 1
-    }
-   ],
-   [
-    "discursivas[D4].padrao",
-    {
-     "id interno (R-xx, E-xx, O-xx, D-xx)": 2
-    }
-   ],
-   [
-    "discursivas[D5].padrao",
-    {
-     "id interno (R-xx, E-xx, O-xx, D-xx)": 1
-    }
    ]
   ],
-  "total": 19,
-  "liquido": 19,
-  "excecoes": {},
+  "total": 9,
+  "liquido": 0,
+  "excecoes": {
+   "carimbo datado de verificação/leitura (ligado a F-ref)": 4,
+   "carimbo \"Verificado em 8/10/2026\" (L5)": 4,
+   "F (prosa: referência a fonte)": 1
+  },
   "caixa": [
    [
     "L6A_estudo",
@@ -1280,15 +1232,13 @@
    ]
   ],
   "achados_X_Y": 16,
-  "verificado_em_mantidos": 146,
-  "XY_contagem_diferente": [
-   "Y1 (dúvida): contagem real 0, esperada 1 (contexto 'O F4 afirma que' em itens[L4-11].justificativa: 0 ocorrência(s) do contexto)"
-  ],
+  "verificado_em_mantidos": 151,
+  "XY_contagem_diferente": [],
   "X": 16,
   "Y": 0,
-  "reforco_hits": 1,
+  "reforco_hits": 0,
   "reforco_v110_hits": 0,
-  "objetos_com_interno_no_pacote": 208
+  "objetos_com_interno_no_pacote": 210
  },
  "falhas": []
 }

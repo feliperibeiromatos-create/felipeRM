@@ -1,7 +1,7 @@
 {
- "total": 20,
- "ok": 17,
- "pendentes": 3,
+ "total": 24,
+ "ok": 24,
+ "pendentes": 0,
  "falhas": 0,
  "conferencias": [
   {
@@ -16,8 +16,8 @@
   },
   {
    "id": "C-1c",
-   "estado": "PENDENTE",
-   "msg": "SHA-256 das tabelas ['GCE', 'GCB', 'GBQ'] não fixado (gatilho A da Gerência pendente; ENSAIO lê as tabelas de ensaio: ['saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCE_ensaio.csv', 'saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv', 'saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GBQ_ensaio.csv'])"
+   "estado": "OK",
+   "msg": "SHA-256 das tabelas = os do config"
   },
   {
    "id": "C-1d",
@@ -27,22 +27,42 @@
   {
    "id": "C-2",
    "estado": "OK",
-   "msg": "cobertura: 872 ids do universo, cada um em exatamente uma linha (GCE 293, GCB 575, GBQ 4); nenhum dos 143 FP em linha"
+   "msg": "cobertura: 907 ids do universo, cada um em exatamente uma linha (GCE 306, GCB 597, GBQ 4); nenhum dos 143 FP em linha"
+  },
+  {
+   "id": "C-2a",
+   "estado": "OK",
+   "msg": "universo 907 = 872 do inventário + 35 ids fora dele (IDS_EXTRA: GCE 13, GCB 22); caminho e Gerência de cada um conferidos contra a lista fechada"
+  },
+  {
+   "id": "C-1e",
+   "estado": "OK",
+   "msg": "DELETAR com `depois` não vazio: GCE 75 (esperado 75), GCB 0 (esperado 0); cada `depois` é o `antes` menos um único trecho contíguo"
   },
   {
    "id": "C-3",
    "estado": "OK",
-   "msg": "antes único, casamentos dentro do intervalo, sem sobreposição e FP intactos (772 edições, 1 MANTER); a limpeza refeita é igual ao out/pacote.json byte a byte"
+   "msg": "antes único, casamentos dentro do intervalo, sem sobreposição e FP intactos (799 edições, 1 MANTER); a limpeza refeita é igual ao out/pacote.json byte a byte"
   },
   {
    "id": "C-7",
    "estado": "OK",
-   "msg": "proibições do depois, \"verificado em\" e base legal: 0 violação em 772 edições (exceções do depois registradas: 0)"
+   "msg": "proibições do depois, \"verificado em\" e base legal: 0 violação em 799 edições (exceções do depois registradas: 0)"
   },
   {
    "id": "C-5",
    "estado": "OK",
    "msg": "reversibilidade: o `interno` aplicado em ordem decrescente de pos devolve o pacote.json v1.10 byte a byte"
+  },
+  {
+   "id": "C-2b",
+   "estado": "OK",
+   "msg": "cobertura posicional: 872/872 ids do inventário caem no `antes` de exatamente uma linha da Gerência dona, no mesmo caminho; 4 linhas da GCE com id deslocado (EXCECAO_INTERVALO) têm o casamento citado na linha indicada [('GCE-0105', 'GCE-0110'), ('GCE-0206', 'GCE-0207'), ('GCE-0207', 'GCE-0213'), ('GCE-0213', 'GCE-0238')]"
+  },
+  {
+   "id": "C-18",
+   "estado": "OK",
+   "msg": "contagens: 799 edições (GCE 271, GCB 525, GBQ 3), MANTER 1, SUBSTITUIR 678, DELETAR 121, `interno` em 210 objetos, 195 AUTORAL com justificativa editada, 560 itens C/E 285/275; SHA-256 do pacote.json = o fixado na D1 pré-FINAL"
   },
   {
    "id": "C-6b",
@@ -61,8 +81,8 @@
   },
   {
    "id": "C-8",
-   "estado": "PENDENTE",
-   "msg": "ENSAIO: 19 casamento(s) residual(is) das listas de deleção herdadas no pacote.json limpo ({'id interno (R-xx, E-xx, O-xx, D-xx)': 4, 'carimbo datado de verificação/leitura (ligado a F-ref)': 4, 'marca de processo (\"neste chat\")': 1, 'F (prosa: referência a fonte)': 1, 'carimbo de leitura \"aberta(s) hoje\"': 4, 'carimbo \"Verificado em 8/10/2026\" (L5)': 4, 'V (instrução de montagem e de reescrita do item volátil, L2-R18)': 1}); a geração final exige 0 ou lista fechada declarada na reconciliação"
+   "estado": "OK",
+   "msg": "listas de deleção herdadas: 9 casamentos no pacote.json limpo, todos na lista fechada EXCECOES_RESIDUAL {'carimbo datado de verificação/leitura (ligado a F-ref)': 4, 'carimbo \"Verificado em 8/10/2026\" (L5)': 4, 'F (prosa: referência a fonte)': 1} (campos conferidos em estudante_json_v111.py); líquido 0"
   },
   {
    "id": "C-11a",
@@ -77,12 +97,12 @@
   {
    "id": "C-12",
    "estado": "OK",
-   "msg": "registro por id: 773 linhas = 772 edições aplicadas + 1 (L2-R16); conjunto (edicao, antes, depois) igual ao do `interno`"
+   "msg": "registro por id: 800 linhas = 799 edições aplicadas + 1 (L2-R16); conjunto (edicao, antes, depois) igual ao do `interno`"
   },
   {
    "id": "C-14",
-   "estado": "PENDENTE",
-   "msg": "só na geração final: diff de regras/pacote_contrato.md contra a v1.2.7 do commit cacd606, restrito ao cabeçalho e à seção da v1.2.8 (ENSAIO não grava o contrato)"
+   "estado": "OK",
+   "msg": "diff contra a v1.2.7 restrito às linhas 1 a 3 (cabeçalho) e à seção da v1.2.8: [('replace', 0, 1, 0, 1), ('replace', 2, 3, 2, 3), ('insert', 195, 195, 195, 206)]"
   },
   {
    "id": "C-15",
@@ -102,7 +122,7 @@
   {
    "id": "C-G2",
    "estado": "OK",
-   "msg": "gerador_v1_10, pacote.json, pacote_estudante.json, saida/estudante, saida/gbq, saida/simulados, regras  no disco ('')"
+   "msg": "gerador_v1_10, pacote.json, pacote_estudante.json, saida/estudante, saida/gbq, saida/simulados, regras  no disco ('M regras/pacote_contrato.md')"
   }
  ]
 }

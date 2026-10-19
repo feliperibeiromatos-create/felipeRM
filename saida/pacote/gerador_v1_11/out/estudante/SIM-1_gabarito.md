@@ -30,7 +30,7 @@ Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição e
 ### 5 — 4C-08 — Gabarito: E
 
 - Item do edital: P1-5.1 (aderência: direta)
-- Justificativa: Armadilha: generalização indevida (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo "restringe-se" nega. O item não usa o par injeção × jailbreak  como critério. Fonte: curso 5.1.4.
+- Justificativa: Armadilha: generalização indevida (restrição indevida do conceito; tentação: tratar a injeção de prompt como sinônimo do ataque direto do usuário). Curso 5.1.4: injeção de prompt = instruções maliciosas embutidas em textos que o modelo lê e que tentam sobrepor-se às instruções legítimas (conceito geral, sem fonte de fornecedor, como no curso). O item não depende de a literatura tratar o jailbreak como espécie de injeção ou como categoria distinta; basta que a injeção abranja as instruções embutidas em textos lidos, o que o curso afirma e o termo "restringe-se" nega. O item não usa o par injeção × jailbreak como critério. Fonte: curso 5.1.4.
 
 ### 6 — 4C-07 — Gabarito: C
 
@@ -100,7 +100,7 @@ Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição e
 ### 19 — L4-20 — Gabarito: C
 
 - Item do edital: P1-6 (aderência: direta)
-- Justificativa: Armadilha: generalização indevida invertida. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: Lei 12.527/2011 (LAI), arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I.
+- Justificativa: Armadilha: generalização indevida, às avessas. LAI, art. 3º, I: publicidade como preceito geral e sigilo como exceção; exceções legais incluem informações pessoais (art. 31, caput, e § 1º, I) e informações classificadas (art. 23, caput; art. 24, § 1º, I a III). Base: Lei 12.527/2011 (LAI), arts. 3º, I; 23, caput; 24, § 1º, I a III; 31, caput, e § 1º, I.
 
 ### 20 — L4-19 — Gabarito: E
 

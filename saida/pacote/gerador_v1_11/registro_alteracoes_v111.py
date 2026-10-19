@@ -22,6 +22,21 @@ def grava(nome, linhas, cols):
         fh.write(buf.getvalue())
 
 
+def qa(g):
+    v = cfg.PARECER_QA.get(g)
+    return ';'.join(v) if isinstance(v, list) else (v or '')
+
+
+def lote_cat(r, ids, oc):
+    """lote e categoria: da tabela, quando traz; senão do inventário; ids fora do inventário (IDS_EXTRA) só pela tabela (D1 pré-FINAL 1.8)."""
+    no_inv = [i for i in ids if i in oc]
+    lote = r.get('lote') or (oc[no_inv[0]]['lote'] if no_inv else '')
+    cat = r.get('categoria') or ';'.join(sorted({oc[i]['categoria'] for i in no_inv}))
+    if not lote or not cat:
+        raise SystemExit('registro: %s sem lote/categoria (tabela e inventário)' % r['id_edicao'])
+    return lote, cat
+
+
 def main():
     P = json.load(open(os.path.join(OUT, 'pacote.json'), encoding='utf-8'), object_pairs_hook=collections.OrderedDict)
     st = json.load(open(os.path.join(OUT, 'stats_%s.json' % cfg.TAG), encoding='utf-8'))
@@ -33,11 +48,11 @@ def main():
         for o in P[lista]:
             for rc in o.get('interno', []):
                 r = rows[rc['edicao']]
-                o1 = oc[rc['ocorrencias'][0]]
+                lote_, cat_ = lote_cat(r, rc['ocorrencias'], oc)
                 linhas.append(dict(id_edicao=rc['edicao'], ids_ocorrencia=';'.join(rc['ocorrencias']), objeto=o['id'], caminho='%s[%s].%s' % (lista, o['id'], rc['campo']),
-                                   lote=r.get('lote') or o1['lote'], categoria=r.get('categoria') or ';'.join(sorted({oc[i]['categoria'] for i in rc['ocorrencias']})), acao=r['acao'],
+                                   lote=lote_, categoria=cat_, acao=r['acao'],
                                    regra=rc['regra'], antes=rc['antes'], depois=rc['depois'], fonte_origem=r.get('fonte_origem', ''),
-                                   tabela='%s (SHA-256 %s)' % (r['_tabela'], r['_sha']), parecer_qa=cfg.PARECER_QA.get(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else ''),
+                                   tabela='%s (SHA-256 %s)' % (r['_tabela'], r['_sha']), parecer_qa=qa(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else ''),
                                    aceite=cfg.ACEITE.get(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else '')))
                 usados.add((rc['edicao'], rc['antes'], rc['depois']))
     linhas.sort(key=lambda l: l['id_edicao'])
@@ -52,10 +67,10 @@ def main():
     manter = []
     for r in rows.values():
         if r['acao'] == 'MANTER':
-            o1 = oc[r['_ids'][0]]
-            manter.append(dict(id_edicao=r['id_edicao'], ids_ocorrencia=';'.join(r['_ids']), objeto=r['caminho'].split(']')[0].split('[')[1], caminho=r['caminho'], lote=r.get('lote') or o1['lote'],
-                               categoria=r.get('categoria') or o1['categoria'], acao='MANTER', regra=r['regra'], antes=r['antes'], depois='', fonte_origem=r.get('fonte_origem', ''),
-                               tabela='%s (SHA-256 %s)' % (r['_tabela'], r['_sha']), parecer_qa=cfg.PARECER_QA.get(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else ''),
+            lote_, cat_ = lote_cat(r, r['_ids'], oc)
+            manter.append(dict(id_edicao=r['id_edicao'], ids_ocorrencia=';'.join(r['_ids']), objeto=r['caminho'].split(']')[0].split('[')[1], caminho=r['caminho'], lote=lote_,
+                               categoria=cat_, acao='MANTER', regra=r['regra'], antes=r['antes'], depois='', fonte_origem=r.get('fonte_origem', ''),
+                               tabela='%s (SHA-256 %s)' % (r['_tabela'], r['_sha']), parecer_qa=qa(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else ''),
                                aceite=cfg.ACEITE.get(r['_ger']) or ('ENSAIO' if cfg.ENSAIO else ''), nota=r.get('nota', '')))
     grava('registro_alteracoes_%s_manter.csv' % cfg.TAG, manter, COLS + ['nota'])
     # resumo
@@ -88,6 +103,13 @@ def main():
     for c in sorted({k[0] for k in fim}):
         w('| %s | %d | %d | %d | %d |' % (c, fim[(c, 'PROCESSO')], fim[(c, 'VERIFICAR')], fim[(c, 'FP-R1')], fim[(c, 'FP-CONTEUDO')]))
     w('| TOTAL | %d | %d | %d | %d |' % tuple(sum(v for (c, k), v in fim.items() if k == cl) for cl in ('PROCESSO', 'VERIFICAR', 'FP-R1', 'FP-CONTEUDO')))
+    w('')
+    w('## Linhas da GCE com id deslocado (C-2b; EXCECAO_INTERVALO)')
+    w('O id citado não está no intervalo do `antes` da linha; o casamento está na linha indicada. Texto e ação estão certos (aprovados pelo QA); só o rótulo de id está deslocado. O `interno` guarda os ids como na tabela.')
+    w('| Linha | id citado fora do intervalo | Linha em cujo `antes` está o casamento |')
+    w('|---|---|---|')
+    for lin, alvo in sorted(cfg.EXCECAO_INTERVALO.items()):
+        w('| %s | %s | %s |' % (lin, ';'.join(rows[lin]['_ids']), alvo))
     with open(os.path.join(OUT, 'registro_alteracoes_%s_resumo.md' % cfg.TAG), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write('\n'.join(L) + '\n')
     print('registro de alterações: %d edições + %d (L2-R16) + %d MANTER; PROCESSO residual no pacote.json: %d' % (n_interno, 1 if st['l2r16'] else 0, len(manter), sum(v for (c, k), v in fim.items() if k == 'PROCESSO')))

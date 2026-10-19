@@ -1,3 +1,3 @@
-modo ENSAIO; itens 560; C/E 285/275; edições aplicadas 772; MANTER 1; interno em 208 objetos; bytes 1114632; sha256 34c131e276b5b74a2cc4f30a9099a48cdbac231189f6e418415b5a41bed17c78
-cobertura: {'universo': 872, 'cobertos': 872, 'faltam': 0, 'fp': 143, 'por_gerencia': {'GCE': 293, 'GCB': 575, 'GBQ': 4}}
+modo FINAL; itens 560; C/E 285/275; edições aplicadas 799; MANTER 1; interno em 210 objetos; bytes 1123649; sha256 1b5657c726b5852885fe0e69e7835d6ec331e6d43dd19191cf451ff4ac069517
+cobertura: {'universo': 907, 'cobertos': 907, 'faltam': 0, 'fp': 143, 'extras': 35, 'por_gerencia': {'GCE': 306, 'GCB': 597, 'GBQ': 4}}
 L2-R16: {'id': 'L2-R16', 'campo': 'itemEdital', 'antes': 'P2-2.8', 'depois': 'P2-3.1'}

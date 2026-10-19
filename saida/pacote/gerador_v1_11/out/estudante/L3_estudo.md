@@ -30,7 +30,7 @@ ROUGE mede semelhança de texto.
 tokenização pior em idioma sub-representado. Especializado em
 português: treinado ou ajustado em pt, não exclusivo de idioma. Domínio:
 ajuste fino, RAG, prompt. Nomes de modelos: voláteis.
-4.1 LGPD : dado pessoal (art. 5º, I); controlador decide
+4.1 LGPD: dado pessoal (art. 5º, I); controlador decide
 × operador executa (5º, VI e VII; 39; 42, § 1º, I); encarregado = canal
 (5º, VIII; 41); princípios (6º, I–X); consentimento não é a única base
 (7º); acesso público não é livre (7º, § 3º); LGPD vale para o poder
@@ -39,11 +39,11 @@ especial vinculada ao MJSP (55-A), e transfere a ela os acervos;
 anonimizado deixa de ser pessoal, salvo reversão por meios próprios ou
 com esforço razoável (12); a definição de pseudonimização (13, § 4º) vale
 "para os efeitos deste artigo".
-4.2 Lei 9.610/1998 : alocuções protegidas (7º, II); leis
+4.2 Lei 9.610/1998: alocuções protegidas (7º, II); leis
 e atos oficiais não (8º, IV); autor = pessoa física (11); direitos
 morais inalienáveis (24; 27; 49, I); patrimoniais exigem autorização
 (29); domínio público ≠ disponível na internet (41; 45); limitações (46).
-Pontos controversos, que não costumam ser cobrados em prova objetiva: autoria e proteção de conteúdo gerado por IA;
+Pontos controversos: autoria e proteção de conteúdo gerado por IA;
 licitude do treinamento; enquadramento do pronunciamento parlamentar
 (7º, II × 8º, IV), com o art. 46, I, "b", só como indício. Ética:
 transparência, responsável humano, revisão, não atribuir palavras não
@@ -63,7 +63,7 @@ embeddings não são anônimos por presunção. LGPD: arts. 6º VII-VIII, 46,
 
 DEFINIÇÃO
 Quatro famílias de aplicação sobre o acervo de sessões e reuniões:
- - Transcrição: fala → texto ( 1 e 2). É a base das demais.
+ - Transcrição: fala → texto (itens 1.1 a 1.8 e 2.1 a 2.8). É a base das demais.
  - Sumarização: condensar o conteúdo. Pode ser EXTRATIVA (seleciona e
    copia trechos do original) ou ABSTRATIVA (redige frases novas a
    partir do original; é o caso dos LLMs).
@@ -82,7 +82,7 @@ institucional, ganho de escala. Riscos usuais: erro e texto fluente
 porém falso, viés, perda de fidelidade, exposição de dados pessoais
 (4.1), segurança do pipeline (4.3), opacidade, dependência de
 fornecedor. Princípio de uso: a IA APOIA; o que vira registro oficial
-passa por revisão humana ( 2, item 2.2).
+passa por revisão humana (item 2.2).
 
 EXEMPLO PARLAMENTAR
 Sessão de comissão: o sistema transcreve; gera um resumo por pauta;
@@ -110,14 +110,12 @@ da LGPD (III); regras para IA generativa, com requisitos para prompts,
 agentes autônomos ou semiautônomos e revisão humana (V); informação ao
 usuário que interage com agente de IA (VIII); supervisão contínua, inclusive
 de falhas, vieses e alucinações (IX); o art. 4º, IV, atribui à
-Diretoria-Geral criar e manter o comitê de ética de uso da IA. 
+Diretoria-Geral criar e manter o comitê de ética de uso da IA.
 Como contexto
 deste item: reforça, na própria Casa, o princípio "a IA apoia; o registro
 oficial passa por revisão humana". O texto lido NÃO trata de transcrição,
-taquigrafia, reconhecimento de fala nem registro de sessões: não afirmar que
-o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora
-dos objetos de avaliação: 
-numeração de incisos, não gera item e não altera gabarito. 
+taquigrafia, reconhecimento de fala nem registro de sessões: por isso, não se pode afirmar que
+o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora dos objetos de avaliação (Ato da Mesa nº 225/2025 da Câmara, no Legin, paráfrase, sem transcrição literal, verificado em 10/10/2026).
 
 ## 3.2 BUSCA SEMÂNTICA EM ACERVOS PARLAMENTARES
 
@@ -224,7 +222,7 @@ DEFINIÇÃO
  - Modelo de domínio (legislativo): obtém-se por ajuste fino com textos
    do domínio, por recuperação de documentos oficiais (RAG, 3.2) ou por
    instruções (prompts); não exige treinar do zero.
- - Fala e texto: o ASR multilíngue ( 1) e o LLM multilíngue são
+ - Fala e texto: o ASR multilíngue (itens 1.1 a 1.8) e o LLM multilíngue são
    componentes distintos; ser multilíngue num não garante no outro.
  - Particularidades do contexto: estrangeirismos, latinismos, siglas,
    mistura de idiomas na mesma fala e variação regional.
@@ -255,14 +253,14 @@ Todos os dispositivos abaixo estão em paráfrase. Fontes: LGPD compilada (Plana
 DEFINIÇÕES (LGPD)
  - Dado pessoal: informação relacionada a pessoa natural identificada ou
    identificável (art. 5º, I). A gravação da voz e as falas
-   transcritas de pessoa identificada são dado pessoal. 
+   transcritas de pessoa identificada são dado pessoal.
  - Dado pessoal sensível: o art. 5º, II, enumera origem
    racial ou étnica, convicção religiosa, opinião política, filiação a
    sindicato ou a organização de caráter religioso, filosófico ou
    político, dado referente à saúde ou à vida sexual, dado genético e
-   dado biométrico quando vinculado a pessoa natural. 
+   dado biométrico quando vinculado a pessoa natural.
    O caráter taxativo dessa enumeração é debate doutrinário.
-   O ponto é controverso e não costuma ser cobrado em prova objetiva: a lei não define "dado biométrico"; se
+   O ponto é controverso: a lei não define "dado biométrico"; se
    toda gravação de voz, ou se uma fala parlamentar, é dado sensível
    depende de interpretação. Já a impressão vocal usada para identificar
    o locutor tende a ser tratada como biométrica, mas isso não deve ser tomado como certo.
@@ -270,11 +268,11 @@ DEFINIÇÕES (LGPD)
    sobre o tratamento), operador (VII: realiza o tratamento EM NOME do
    controlador), encarregado (VIII: canal de comunicação entre
    controlador, titulares e ANPD), agentes de tratamento (IX: controlador
-   e operador). 
+   e operador).
  - Tratamento (art. 5º, X): qualquer operação com dados pessoais; inclui
    coleta, armazenamento, processamento, compartilhamento e eliminação.
-   Transcrever e sumarizar são tratamento. 
- - Anonimização e pseudonimização : dado anonimizado é o
+   Transcrever e sumarizar são tratamento.
+ - Anonimização e pseudonimização: dado anonimizado é o
    que não pode ser associado a um titular por meios técnicos razoáveis
    e disponíveis (art. 5º, III); anonimização é a utilização desses
    meios para que o dado perca a possibilidade de associação, direta ou
@@ -294,7 +292,7 @@ DEFINIÇÕES (LGPD)
    mínimo necessário), livre acesso, qualidade dos dados (exatidão,
    clareza, relevância e atualização), transparência, segurança,
    prevenção, não discriminação e responsabilização e prestação de
-   contas. 
+   contas.
  - Hipóteses de tratamento (art. 7º): entre outras, consentimento (I),
    obrigação legal (II), pela administração pública para políticas
    públicas (III), legítimo interesse (IX). O consentimento NÃO é a
@@ -304,11 +302,10 @@ DEFINIÇÕES (LGPD)
    dados manifestamente públicos pelo titular não afasta os direitos
    do titular nem os princípios (art. 7º, § 4º); o uso para novas
    finalidades exige propósito legítimo e específico (art. 7º, § 7º).
-   
  - Poder público (Capítulo IV): tratamento para a finalidade pública, com
    informação clara das hipóteses e indicação de encarregado (art. 23, I
    e III); o uso compartilhado atende a finalidades específicas (art. 26).
-   A LGPD SE APLICA ao poder público. 
+   A LGPD SE APLICA ao poder público.
  - Decisões automatizadas (art. 20): o titular pode solicitar a revisão
    de decisões tomadas unicamente com base em tratamento automatizado
    que afetem seus interesses, e o controlador deve informar os critérios
@@ -317,15 +314,15 @@ DEFINIÇÕES (LGPD)
    original do caput exigia revisão "por pessoa natural", e a MP nº 869/2018, convertida na Lei 13.853/2019, suprimiu a expressão (na
    página compilada, o caput traz a anotação "Redação dada pela Lei nº
    13.853, de 2019"). O § 3º, incluído pela Lei 13.853/2019, consta como vetado na página compilada, com remissão à VEP nº 288/2019; o conteúdo do veto não foi conferido. Cuidado com a
-   redação superada. 
+   redação superada.
  - Governança: registro das operações (art. 37); relatório de impacto à
    proteção de dados (RIPD, art. 5º, XVII) que a autoridade nacional
    pode determinar (art. 38) e pedir ao poder público (art. 32);
    operador segue as instruções do controlador (art. 39); encarregado
-   indicado pelo controlador (art. 41). 
+   indicado pelo controlador (art. 41).
  - Responsabilidade: o operador responde solidariamente quando descumpre
    a legislação ou as instruções lícitas do controlador (art. 42, § 1º,
-   I). 
+   I).
  - Autoridade nacional e ANPD: a "autoridade nacional" é a entidade da
    administração pública responsável por zelar, implementar e fiscalizar o
    cumprimento da Lei em todo o território nacional (art. 5º, XIX, redação
@@ -414,7 +411,7 @@ DEFINIÇÕES (Lei 9.610/1998, texto do Planalto)
    interesses legítimos dos autores (VIII). Paráfrases e paródias que
    não sejam verdadeiras reproduções nem impliquem descrédito são livres
    (art. 47).
-Pontos controversos, que não costumam ser cobrados em prova objetiva (não há texto legal expresso nem
+Pontos controversos (não há texto legal expresso nem
 jurisprudência firmada que se possa afirmar):
  (a) se conteúdo gerado por IA é obra protegida e quem seria o titular;
  (b) se o treinamento de modelos com obras protegidas configura
@@ -422,7 +419,7 @@ jurisprudência firmada que se possa afirmar):
  (c) a responsabilidade por saídas que reproduzam trechos protegidos;
  (d) a aplicação do art. 46, VIII ao treinamento;
  (e) a aplicação do direito de integridade (art. 24, IV) a um resumo de
-     discurso gerado por IA (inferência de aplicação, não afirmar);
+     discurso gerado por IA (inferência de aplicação, que não se pode afirmar como certa);
  (f) o ENQUADRAMENTO do pronunciamento parlamentar em sessão: alocução
      protegida (art. 7º, II) ou ato oficial (art. 8º, IV). NÃO está
      firmado. INDÍCIO legal, e não enquadramento definitivo: o art. 46, I,
@@ -434,7 +431,7 @@ Itens C/E só sobre o texto da Lei 9.610/1998 ou conceitos estáveis.
 transparência sobre o uso de IA; responsabilidade humana pelo texto
 publicado; revisão humana; não atribuir a ninguém palavras que não disse;
 rastreabilidade das fontes; não discriminação (princípio do art. 6º, IX,
-da LGPD ); proteção de dados (4.1).
+da LGPD); proteção de dados (4.1).
 
 EXEMPLO PARLAMENTAR
 O serviço publica um resumo automático de um discurso sem indicar que
@@ -478,7 +475,7 @@ Pipeline típico, e onde agir:
     16).
  7. Resposta a incidentes e comunicação.
 Riscos específicos de IA:
- - Envio do áudio a serviço externo (perda de custódia;  1, 1.8).
+ - Envio do áudio a serviço externo (perda de custódia; item 1.8).
  - Injeção de instruções (prompt injection): texto transcrito ou
    recuperado, que contém comandos maliciosos, manipula o LLM que o
    processa; tratar conteúdo transcrito como dado, não como instrução.
@@ -486,7 +483,7 @@ Riscos específicos de IA:
    informação sobre o texto original.
  - Integridade: sem controle (por exemplo, impressão digital criptográfica
    do arquivo), a transcrição pode ser alterada sem rastro.
-Dispositivos da LGPD (paráfrase) :
+Dispositivos da LGPD (paráfrase):
  - Segurança e prevenção como princípios (art. 6º, VII e VIII).
  - Dever de adotar medidas de segurança técnicas e administrativas aptas
    a proteger os dados de acessos não autorizados e de situações

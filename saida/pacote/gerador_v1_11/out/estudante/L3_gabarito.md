@@ -192,7 +192,7 @@
 ### L3-R08 — Gabarito: C
 
 - Item do edital: P2-3.4
-- Justificativa: "If the embedding space includes multilingual content, vector queries can find the match with no language analyzers or translation required". O item usa "pode recuperar", sem prometer desempenho igual entre idiomas (compatível com ).
+- Justificativa: "If the embedding space includes multilingual content, vector queries can find the match with no language analyzers or translation required". O item usa "pode recuperar", sem prometer desempenho igual entre idiomas.
 
 ### L3-R09 — Gabarito: C
 

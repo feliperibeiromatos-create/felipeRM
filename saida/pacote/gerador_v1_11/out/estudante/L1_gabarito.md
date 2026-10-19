@@ -126,7 +126,7 @@
 ### L1C-Q24 — Gabarito: C
 
 - Item do edital: P2-1.2
-- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, artigo do Whisper, "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
+- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, segundo o artigo "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
 
 ### L1C-Q25 — Gabarito: E
 
@@ -686,37 +686,37 @@
 ### L1-R103 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . Os papéis dos níveis estão trocados (no Amazon Transcribe): o nível de estabilidade alto transcreve mais rápido, com acurácia ligeiramente menor, e o baixo dá a maior acurácia.
+- Justificativa: Os papéis dos níveis estão trocados (no Amazon Transcribe): o nível de estabilidade alto transcreve mais rápido, com acurácia ligeiramente menor, e o baixo dá a maior acurácia.
 
 ### L1-R104 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . A boa prática do Amazon Transcribe é, quando o fluxo não contém fala, enviar a mesma quantidade de silêncio; no PCM, o silêncio é uma sequência de bytes zero.
+- Justificativa: A boa prática do Amazon Transcribe é, quando o fluxo não contém fala, enviar a mesma quantidade de silêncio; no PCM, o silêncio é uma sequência de bytes zero.
 
 ### L1-R105 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . A documentação indica gravar a 16.000 Hz quando possível, como melhor compromisso entre qualidade e volume de dados pela rede, e observa que microfones de alta qualidade gravam a 44.100 ou 48.000 Hz.
+- Justificativa: A documentação indica gravar a 16.000 Hz quando possível, como melhor compromisso entre qualidade e volume de dados pela rede, e observa que microfones de alta qualidade gravam a 44.100 ou 48.000 Hz.
 
 ### L1-R106 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . O model card diz que os modelos Whisper não podem ser usados para transcrição em tempo real fora da caixa; terceiros podem construir aplicações de tempo quase real sobre eles. A equipe não pode dispensar a aplicação adicional.
+- Justificativa: O model card diz que os modelos Whisper não podem ser usados para transcrição em tempo real fora da caixa; terceiros podem construir aplicações de tempo quase real sobre eles. A equipe não pode dispensar a aplicação adicional.
 
 ### L1-R107 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . Trocados os papéis: o síncrono é bloqueante e responde só depois de processar todo o áudio; o streaming fornece resultados intermediários enquanto o áudio é captado.
+- Justificativa: Trocados os papéis: o síncrono é bloqueante e responde só depois de processar todo o áudio; o streaming fornece resultados intermediários enquanto o áudio é captado.
 
 ### L1-R108 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . Trocados os papéis: Recognizing carrega os resultados intermediários e Recognized, os finais (tentativa de reconhecimento bem-sucedida).
+- Justificativa: Trocados os papéis: Recognizing carrega os resultados intermediários e Recognized, os finais (tentativa de reconhecimento bem-sucedida).
 
 ### L1-R109 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . No enunciado único o fim é determinado por silêncio ao final ou por um máximo de áudio processado; no contínuo, a aplicação controla quando parar.
+- Justificativa: No enunciado único o fim é determinado por silêncio ao final ou por um máximo de áudio processado; no contínuo, a aplicação controla quando parar.
 
 ### L1-R110 — Gabarito: E
 
@@ -728,17 +728,17 @@
 ### L1-R111 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . Fala longa sem pausas, na segmentação só por silêncio, gera subsegmentação (bloco longo de texto sem quebras); a fragmentação por pausas curtas é a sobressegmentação, outro problema.
+- Justificativa: Fala longa sem pausas, na segmentação só por silêncio, gera subsegmentação (bloco longo de texto sem quebras); a fragmentação por pausas curtas é a sobressegmentação, outro problema.
 
 ### L1-R112 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . Falsa pegadinha: "streaming" descreve a entrega do áudio em blocos sequenciais e inclui mídia pré-gravada, além de transmissões ao vivo.
+- Justificativa: Falsa pegadinha: "streaming" descreve a entrega do áudio em blocos sequenciais e inclui mídia pré-gravada, além de transmissões ao vivo.
 
 ### L1-R113 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . Ao exceder a cota de fluxos simultâneos, repete-se com backoff exponencial e, se o limite for atingido de forma recorrente, solicita-se aumento da cota.
+- Justificativa: Ao exceder a cota de fluxos simultâneos, repete-se com backoff exponencial e, se o limite for atingido de forma recorrente, solicita-se aumento da cota.
 
 ### L1-R114 — Gabarito: E
 
@@ -750,82 +750,82 @@
 ### L1-R115 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: . O identificador do falante é genérico, atribuído pelo serviço durante o reconhecimento; o nome do parlamentar não vem do serviço, e a associação continua necessária.
+- Justificativa: O identificador do falante é genérico, atribuído pelo serviço durante o reconhecimento; o nome do parlamentar não vem do serviço, e a associação continua necessária.
 
 ### L1-R116 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: . A documentação recomenda fortemente os SDKs em vez de HTTP/2 ou WebSockets diretos, por serem o método mais simples e confiável.
+- Justificativa: A documentação recomenda fortemente os SDKs em vez de HTTP/2 ou WebSockets diretos, por serem o método mais simples e confiável.
 
 ### L1-R117 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . Os modelos .en são as versões somente em inglês (tiny, base, small, medium); para transcrever português é preciso um modelo multilíngue.
+- Justificativa: Os modelos .en são as versões somente em inglês (tiny, base, small, medium); para transcrever português é preciso um modelo multilíngue.
 
 ### L1-R118 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . A boa prática é usar codec sem perdas (FLAC ou LINEAR16); MP3 e outros codecs com perdas podem reduzir a acurácia.
+- Justificativa: A boa prática é usar codec sem perdas (FLAC ou LINEAR16); MP3 e outros codecs com perdas podem reduzir a acurácia.
 
 ### L1-R119 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . Cerca de 65% (438 mil horas) é áudio em inglês com transcrição em inglês; a fala não inglesa com transcrição no próprio idioma é cerca de 17% (117 mil horas).
+- Justificativa: Cerca de 65% (438 mil horas) é áudio em inglês com transcrição em inglês; a fala não inglesa com transcrição no próprio idioma é cerca de 17% (117 mil horas).
 
 ### L1-R120 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . Falsa pegadinha: a lista de frases é recurso de tempo de execução, fornecido pouco antes do reconhecimento, e não exige treinar modelo (diferente do custom speech).
+- Justificativa: Falsa pegadinha: a lista de frases é recurso de tempo de execução, fornecido pouco antes do reconhecimento, e não exige treinar modelo (diferente do custom speech).
 
 ### L1-R121 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . A orientação é evitar reamostrar e enviar o áudio na taxa nativa (por exemplo, 8.000 Hz da telefonia); o ideal de 16.000 Hz vale para a captação, não para conversão posterior.
+- Justificativa: A orientação é evitar reamostrar e enviar o áudio na taxa nativa (por exemplo, 8.000 Hz da telefonia); o ideal de 16.000 Hz vale para a captação, não para conversão posterior.
 
 ### L1-R122 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . O model card atribui a alucinação ao treinamento fracamente supervisionado com dados ruidosos em larga escala; a revisão humana cobre esse risco.
+- Justificativa: O model card atribui a alucinação ao treinamento fracamente supervisionado com dados ruidosos em larga escala; a revisão humana cobre esse risco.
 
 ### L1-R123 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . Trocado o modo: no lote, submete-se o áudio e recupera-se o resultado depois, de forma assíncrona; o item o descreve como síncrono, na própria chamada.
+- Justificativa: Trocado o modo: no lote, submete-se o áudio e recupera-se o resultado depois, de forma assíncrona; o item o descreve como síncrono, na própria chamada.
 
 ### L1-R124 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . O model card adverte contra o uso dos modelos Whisper para transcrever gravações de pessoas feitas sem o consentimento delas; o item reproduz a advertência, sem acrescentar vínculo.
+- Justificativa: O model card adverte contra o uso dos modelos Whisper para transcrever gravações de pessoas feitas sem o consentimento delas; o item reproduz a advertência, sem acrescentar vínculo.
 
 ### L1-R125 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . Polaridade invertida: aplicar redução de ruído antes do envio tende a reduzir a acurácia, e o controle automático de ganho não deve ser usado; o serviço foi projetado para áudio ruidoso.
+- Justificativa: Polaridade invertida: aplicar redução de ruído antes do envio tende a reduzir a acurácia, e o controle automático de ganho não deve ser usado; o serviço foi projetado para áudio ruidoso.
 
 ### L1-R126 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . Falsa pegadinha: o model card admite que os modelos podem apresentar diarização, sobretudo se ajustados, mas diz que não foi avaliada de forma robusta; não é capacidade validada.
+- Justificativa: Falsa pegadinha: o model card admite que os modelos podem apresentar diarização, sobretudo se ajustados, mas diz que não foi avaliada de forma robusta; não é capacidade validada.
 
 ### L1-R127 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: . Papéis trocados: o vocabulário personalizado melhora a acurácia de palavras específicas; o filtro de vocabulário altera palavras na saída (mascarar, remover ou marcar).
+- Justificativa: Papéis trocados: o vocabulário personalizado melhora a acurácia de palavras específicas; o filtro de vocabulário altera palavras na saída (mascarar, remover ou marcar).
 
 ### L1-R128 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . A documentação recomenda comparar a transcrição do modelo base com a transcrição humana do mesmo áudio, obter o WER e, se alto, treinar um modelo personalizado.
+- Justificativa: A documentação recomenda comparar a transcrição do modelo base com a transcrição humana do mesmo áudio, obter o WER e, se alto, treinar um modelo personalizado.
 
 ### L1-R129 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . O README informa, e a conduta de ressalvar é a correta, porque as velocidades relativas foram medidas com fala em inglês em uma A100 e a velocidade real pode variar significativamente com idioma, velocidade da fala e hardware.
+- Justificativa: O README informa, e a conduta de ressalvar é a correta, porque as velocidades relativas foram medidas com fala em inglês em uma A100 e a velocidade real pode variar significativamente com idioma, velocidade da fala e hardware.
 
 ### L1-R130 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: . A documentação diz que o serviço usa modelos treinados para tipos de áudio específicos e que informar a fonte do áudio na requisição pode melhorar os resultados; nenhum nome de modelo é cobrado.
+- Justificativa: A documentação diz que o serviço usa modelos treinados para tipos de áudio específicos e que informar a fonte do áudio na requisição pode melhorar os resultados; nenhum nome de modelo é cobrado.
 
 ### L1-R131 — Gabarito: E
 

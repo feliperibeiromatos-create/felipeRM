@@ -82,8 +82,8 @@ def S(cat, caminho, texto, escopo):
     r['remocoes'] += sum(c.values()); r['regras'].update(c); REGRAS.update(c)
     if c:
         HITS_CAMPO.append((caminho, dict(c)))
-    OPS.append((cat, caminho, escopo, texto, novo))
-    return novo
+    OPS.append((cat, caminho, escopo, texto, texto))      # D1 pré-FINAL 2.2: as regras herdadas só contam; o texto do -E é o do pacote.json
+    return texto
 
 # lotes (escopo = <lid>_estudo.md, o do lote de ORIGEM na v1.7)
 for L in E['lotes']:
@@ -118,21 +118,12 @@ for it in E['itens']:
         asserta(it['justificativa'] == '', '%s: justificativa de item de banco não está vazia' % it['id'])
     if 'nota' in it and NOTA_DEL in it['nota']:
         n_nota += it['nota'].count(NOTA_DEL)
-        asserta(it['nota'].count(NOTA_DEL) == 1 and it['id'] == 'BQ-0003', 'nota com %r fora de BQ-0003 ou repetida (%s)' % (NOTA_DEL, it['id']))
-        it['nota'] = it['nota'].replace(NOTA_DEL, '')
-        reg('itens[].nota')['campos'] += 1; reg('itens[].nota')['remocoes'] += 1; reg('itens[].nota')['regras'].update(['id de decisão na nota (D-LEI-15352)'])
-        REGRAS.update(['id de decisão na nota (D-LEI-15352)'])
 RESIDUAL_EXTRA['nota (D-LEI-15352)'] = n_nota
 
 # simulados: só SIM-0.avisos[0]
 for s in E['simulados']:
     if s['id'] == 'SIM-0':
         RESIDUAL_EXTRA['aviso SIM-0 (D-ADERENCIA)'] = s['avisos'][0].count(AVISO_ANTES)
-        if s['avisos'][0].count(AVISO_ANTES):
-            s['avisos'][0] = s['avisos'][0].replace(AVISO_ANTES, AVISO_DEPOIS)
-            reg('simulados[SIM-0].avisos[0]')['campos'] += 1; reg('simulados[SIM-0].avisos[0]')['remocoes'] += 1
-            reg('simulados[SIM-0].avisos[0]')['regras'].update(['D-ADERENCIA no aviso do SIM-0 (deleção literal única)'])
-            REGRAS.update(['D-ADERENCIA no aviso do SIM-0 (deleção literal única)'])
 
 # discursivas
 for d in E['discursivas']:
@@ -242,8 +233,8 @@ for cat, caminho, esc, antes, depois in OPS:
     ncomp += 1
     c = collections.Counter()
     esperado = rm.strip_reforco(antes, c) if esc == ESC_REF else rm2.strip_reforco(antes, c) if esc == ESC_REF2 else em.strip_text(antes, c, esc)           # segunda aplicação, independente do valor guardado
-    if esperado != depois:
-        falha('(c) %s: strip_text com escopo %s difere do valor gravado' % (caminho, esc))
+    if depois != antes:
+        falha('(c) %s: o texto do -E difere do do pacote.json (as regras herdadas só contam)' % caminho)
     bad = F.only_deletions(antes, depois, esc, caminho)
     if bad:
         falha('(c) %s: não é só deleção (%s)' % (caminho, bad[:2]))
@@ -261,7 +252,7 @@ VERIF_RX = re.compile(r'(?<![\w])(?:re)?verificad[oa]s? em \d{1,2}/\d{1,2}/\d{4}
 mp.R['carimbo'] = re.compile(r'conferid[oa]s? pel[ao]')
 strings = list(mp.walk(saida))
 N_VERIF_EM = sum(len(VERIF_RX.findall(t)) for _, t in strings)
-res = mp.classifica(strings, mp.X + mx.X_V110 + mx1.X_V111, mp.Y)      # T-104: X9–X14 (marcas_x_v110.py)
+res = mp.classifica(strings, mp.X + mx.X_V110 + mx1.X_V111, [y for y in mp.Y if y[0] != 'Y1'])      # T-104: X9–X14 (marcas_x_v110.py)
 CONT_DIF = [f for f in res['falhas'] if ': contagem real' in f]      # X/Y com contagem diferente da v1.10: o texto do campo foi editado pela tabela (informativo)
 for f in res['falhas']:
     if f not in CONT_DIF:
@@ -299,6 +290,23 @@ RES_LIQ = sum(max(0, v - cfg.EXCECOES_RESIDUAL.get(k, 0)) for k, v in RES.items(
 if cfg.FINAL:
     asserta(RES_LIQ == 0, 'verificação residual: %d casamento(s) das listas de deleção herdadas no pacote.json limpo (%s)' % (RES_LIQ, dict(RES)))
     asserta(not res['processo'], 'varredura R: PROCESSO residual')
+
+# C-9f: cada campo de texto exibido do -E é igual ao do pacote.json sem `interno` (fora a fusão 1-C/4-C/5-C, já em Pf, e a `url` vazia dos AUTORAL)
+Pu = sem_nucleo(copy.deepcopy(Pf))
+for it_ in Pu['itens']:
+    if it_['rotulo'] == 'AUTORAL':
+        it_['url'] = ''
+Pu['nome'] = NOME_E
+asserta(json.dumps(Pu, ensure_ascii=False) == json.dumps(sem_nucleo(saida), ensure_ascii=False), 'C-9f: o -E difere do pacote.json sem `interno` fora da fusão 1-C/4-C/5-C e da url vazia')
+# lista fechada do residual: mesmo conjunto de regras, mesmos números e mesmos campos (outro campo ou outro número = falha)
+if cfg.FINAL:
+    asserta(dict(RES) == dict(cfg.EXCECOES_RESIDUAL), 'C-8: residual %s != lista fechada %s' % (dict(RES), dict(cfg.EXCECOES_RESIDUAL)))
+    _campos = collections.defaultdict(set)
+    for _c, _d in HITS_CAMPO:
+        for _r in _d:
+            if _r in cfg.EXCECOES_RESIDUAL:
+                _campos[_r].add(_c)
+    asserta({k: sorted(v) for k, v in _campos.items()} == {k: sorted(v) for k, v in cfg.EXCECOES_RESIDUAL_CAMPOS.items()}, 'C-8: campos do residual %s != %s' % ({k: sorted(v) for k, v in _campos.items()}, cfg.EXCECOES_RESIDUAL_CAMPOS))
 
 # ------------------------------------------------------------------ saídas
 if not FALHAS:

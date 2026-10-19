@@ -1,5 +1,5 @@
 {
- "modo": "ENSAIO",
+ "modo": "FINAL",
  "versao": "1.11",
  "alvo": "M2",
  "base": {
@@ -10,21 +10,21 @@
  "tabelas": [
   {
    "gerencia": "GCE",
-   "arquivo": "saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCE_ensaio.csv",
-   "sha256": "c0b71558291095c73e18997fe37984573caeb0f91dea25561d1c66b32c0ae0c4",
-   "sha256_fixado": null
+   "arquivo": "saida/gce/T108_substituicoes_GCE_v3.csv",
+   "sha256": "77ad3ac331ec120c6fb086c0b3f7c05cb77776c1e06b3dcaa6df2ab1d52fc599",
+   "sha256_fixado": "77ad3ac331ec120c6fb086c0b3f7c05cb77776c1e06b3dcaa6df2ab1d52fc599"
   },
   {
    "gerencia": "GCB",
-   "arquivo": "saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GCB_ensaio.csv",
-   "sha256": "2a634da3b7e2508a1bc98b95f56abbb55f691ca4396eccd9f9a2bb6526c1103d",
-   "sha256_fixado": null
+   "arquivo": "saida/gcb/T108_substituicoes_GCB.csv",
+   "sha256": "10d9e5588753bc9ad273a529b56148b20e1f643bb4f312751a8fbd371b8751ef",
+   "sha256_fixado": "10d9e5588753bc9ad273a529b56148b20e1f643bb4f312751a8fbd371b8751ef"
   },
   {
    "gerencia": "GBQ",
-   "arquivo": "saida/pacote/gerador_v1_11/ensaio/T108_substituicoes_GBQ_ensaio.csv",
+   "arquivo": "saida/pacote/T108_substituicoes_GBQ.csv",
    "sha256": "528eb620dc6c95e1e27390fe90774acb861e391a467ff969932cd12f97a323dd",
-   "sha256_fixado": null
+   "sha256_fixado": "528eb620dc6c95e1e27390fe90774acb861e391a467ff969932cd12f97a323dd"
   }
  ],
  "ocorrencias": {
@@ -35,29 +35,30 @@
   "arquivo": "saida/gce/T109_reconciliacao_2026-10-18.md",
   "sha256": "bb95046b0783eecf24b64814b2a2294ad65ace1050f0258d92df401f31a3eb84",
   "E_L2R16": true,
-  "ATO_L2R16": null
+  "ATO_L2R16": "D-T109-L2R16-ACEITE"
  },
  "cobertura": {
-  "universo": 872,
-  "cobertos": 872,
+  "universo": 907,
+  "cobertos": 907,
   "faltam": 0,
   "fp": 143,
+  "extras": 35,
   "por_gerencia": {
-   "GCE": 293,
-   "GCB": 575,
+   "GCE": 306,
+   "GCB": 597,
    "GBQ": 4
   }
  },
- "edicoes_aplicadas": 772,
+ "edicoes_aplicadas": 799,
  "linhas_manter": 1,
  "por_acao": {
-  "SUBSTITUIR": 665,
-  "DELETAR": 107,
+  "SUBSTITUIR": 678,
+  "DELETAR": 121,
   "MANTER": 1
  },
  "por_gerencia": {
-  "GCE": 261,
-  "GCB": 508,
+  "GCE": 271,
+  "GCB": 525,
   "GBQ": 4
  },
  "l2r16": {
@@ -294,6 +295,6 @@
   "L2-R130",
   "L2-R131"
  ],
- "size": 1114632,
- "sha256_pacote": "34c131e276b5b74a2cc4f30a9099a48cdbac231189f6e418415b5a41bed17c78"
+ "size": 1123649,
+ "sha256_pacote": "1b5657c726b5852885fe0e69e7835d6ec331e6d43dd19191cf451ff4ac069517"
 }

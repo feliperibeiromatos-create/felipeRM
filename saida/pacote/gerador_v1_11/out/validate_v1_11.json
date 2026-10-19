@@ -1,6 +1,6 @@
 {
- "total": 20,
- "ok": 20,
+ "total": 22,
+ "ok": 22,
  "verificacoes": [
   {
    "id": "A1",
@@ -15,7 +15,7 @@
   {
    "id": "A3",
    "ok": true,
-   "msg": "`interno`: último campo do objeto, nunca vazio, registros {edicao, campo, pos, antes, depois, regra, ocorrencias}; 772 registros em 208 objetos = edições aplicadas"
+   "msg": "`interno`: último campo do objeto, nunca vazio, registros {edicao, campo, pos, antes, depois, regra, ocorrencias}; 799 registros em 210 objetos = edições aplicadas"
   },
   {
    "id": "A4",
@@ -25,7 +25,7 @@
   {
    "id": "C-4",
    "ok": true,
-   "msg": "retirados o interno, nome, geradoEm, os 251 campos editados e itens[L2-R16].itemEdital, o pacote.json é idêntico à BASE (ids, ordem, enunciado, comando, textoBase, gabarito, itemEdital, aderencia, volatil, url, rotulo, simulados, edital, itensEdital, legendaMecanismo, pares[].id, valores, quesitos)"
+   "msg": "retirados o interno, nome, geradoEm, os 253 campos editados e itens[L2-R16].itemEdital, o pacote.json é idêntico à BASE (ids, ordem, enunciado, comando, textoBase, gabarito, itemEdital, aderencia, volatil, url, rotulo, simulados, edital, itensEdital, legendaMecanismo, pares[].id, valores, quesitos)"
   },
   {
    "id": "C-4b",
@@ -53,9 +53,14 @@
    "msg": "url vazia nos AUTORAL do -E (todos)"
   },
   {
+   "id": "C-9f",
+   "ok": true,
+   "msg": "cada campo de texto exibido do -E é igual ao do pacote.json sem `interno` (fora a fusão 1-C/4-C/5-C no L1 e a url vazia): 0 diferença"
+  },
+  {
    "id": "C-9e",
    "ok": true,
-   "msg": "verificação residual: 19 casamento(s) das regras de deleção herdadas no pacote.json limpo (ENSAIO: informativo)"
+   "msg": "verificação residual: 0 casamento(s) das regras de deleção herdadas no pacote.json limpo (FINAL: líquido 0 frente à lista fechada EXCECOES_RESIDUAL, 9 no total)"
   },
   {
    "id": "C-10a",
@@ -86,6 +91,11 @@
    "id": "C-13c",
    "ok": true,
    "msg": "nenhum item VOLÁTIL em simulado final"
+  },
+  {
+   "id": "C-13f",
+   "ok": true,
+   "msg": "L2-R18 (restrição de montagem no `interno`) fora de todo simulado final e VOLÁTIL"
   },
   {
    "id": "C-13d",

@@ -207,7 +207,7 @@
 ### L2-R11 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Alguns serviços devolvem, além da versão principal, versões alternativas do trecho; a ordenação é do serviço (da mais para a menos provável), e a decisão sobre qual versão corresponde ao que foi dito é do revisor, que confere no áudio. A ordenação não garante acerto (ver ).
+- Justificativa: Alguns serviços devolvem, além da versão principal, versões alternativas do trecho; a ordenação é do serviço (da mais para a menos provável), e a decisão sobre qual versão corresponde ao que foi dito é do revisor, que confere no áudio. A ordenação não garante acerto.
 
 ### L2-R12 — Gabarito: E
 
@@ -217,7 +217,7 @@
 ### L2-R13 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Há serviços que fornecem a confiança por palavra além da confiança da transcrição inteira; o uso para destacar trechos é aplicação possível, não recurso atribuído a produto. A confiança orienta a conferência, sem garantir acerto (ver ).
+- Justificativa: Há serviços que fornecem a confiança por palavra além da confiança da transcrição inteira; o uso para destacar trechos é aplicação possível, não recurso atribuído a produto. A confiança orienta a conferência, sem garantir acerto.
 
 ### L2-R14 — Gabarito: E
 
@@ -420,7 +420,7 @@
 ### L2-R52 — Gabarito: E
 
 - Item do edital: P2-2.3 (aderência: parcial)
-- Justificativa: O art. 93, § 4º, permite ao Deputado e ao Ministro de Estado que participaram dos debates da sessão secreta reduzir o discurso a escrito, para arquivo em segundo envelope lacrado, em prazo não excedente de uma sessão. O item troca "uma sessão" por "cinco sessões", prazo do art. 98, § 2º, para devolver o discurso retirado na Taquigrafia (ver ).
+- Justificativa: O art. 93, § 4º, permite ao Deputado e ao Ministro de Estado que participaram dos debates da sessão secreta reduzir o discurso a escrito, para arquivo em segundo envelope lacrado, em prazo não excedente de uma sessão. O item troca "uma sessão" por "cinco sessões", prazo do art. 98, § 2º, para devolver o discurso retirado na Taquigrafia.
 
 ### L2-R53 — Gabarito: E
 
@@ -572,7 +572,7 @@
 ### L2-R81 — Gabarito: C
 
 - Item do edital: P2-2.5
-- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação manda separar por pontos as letras pronunciadas da sigla (A.B.C.) e ligar por hífen o s do plural (A.B.C.-s); a afirmação oposta ("C.P.I.s" ou "CPI-s") estaria errada. O dado pode mudar, pois a própria página ressalva que siglas não são suportadas em todos os idiomas; o item não afirma suporte a nenhum idioma.
+- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação manda separar por pontos as letras pronunciadas da sigla (A.B.C.) e ligar por hífen o s do plural (A.B.C.-s); as grafias "C.P.I.s" ou "CPI-s" estariam incorretas. O dado pode mudar, pois a própria página ressalva que siglas não são suportadas em todos os idiomas; o item não afirma suporte a nenhum idioma.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -694,87 +694,87 @@
 ### L2-R103 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . A documentação indica que a referência costuma ser obtida por transcrição humana, em passagem única ou dupla, para ser uma transcrição precisa contra a qual se medem os resultados automáticos.
+- Justificativa: A documentação indica que a referência costuma ser obtida por transcrição humana, em passagem única ou dupla, para ser uma transcrição precisa contra a qual se medem os resultados automáticos.
 
 ### L2-R104 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . A documentação do Google orienta que a referência siga, o mais possível, as convenções do sistema avaliado (pontuação, números, capitalização), porque não há um formato de transcrição único aceito por todos para o mesmo áudio.
+- Justificativa: A documentação do Google orienta que a referência siga, o mais possível, as convenções do sistema avaliado (pontuação, números, capitalização), porque não há um formato de transcrição único aceito por todos para o mesmo áudio.
 
 ### L2-R105 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . A confiança se baseia em verossimilhança, e o WER, em a palavra estar ou não correta; por isso as métricas são independentes e não se deve esperar correlação entre elas.
+- Justificativa: A confiança se baseia em verossimilhança, e o WER, em a palavra estar ou não correta; por isso as métricas são independentes e não se deve esperar correlação entre elas.
 
 ### L2-R106 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . O objetivo do SLA é o percentual mensal de tempo de atividade, calculado a partir de respostas de erro do servidor; ele não fixa taxa de erros de palavras.
+- Justificativa: O objetivo do SLA é o percentual mensal de tempo de atividade, calculado a partir de respostas de erro do servidor; ele não fixa taxa de erros de palavras.
 
 ### L2-R107 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . O SLA prevê crédito financeiro em faturas futuras e afirma que ele é o único e exclusivo remédio do cliente para o descumprimento do objetivo.
+- Justificativa: O SLA prevê crédito financeiro em faturas futuras e afirma que ele é o único e exclusivo remédio do cliente para o descumprimento do objetivo.
 
 ### L2-R108 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . Na inspeção de qualidade com dados somente de áudio, a pessoa reproduz o áudio carregado e determina se o resultado do reconhecimento fornecido está correto; a decisão não é tomada automaticamente pelo serviço.
+- Justificativa: Na inspeção de qualidade com dados somente de áudio, a pessoa reproduz o áudio carregado e determina se o resultado do reconhecimento fornecido está correto; a decisão não é tomada automaticamente pelo serviço.
 
 ### L2-R109 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . O SLA exclui os erros resultantes de uso do serviço em desacordo com a documentação, inclusive campos inválidos na requisição; só requisições válidas entram no cálculo.
+- Justificativa: O SLA exclui os erros resultantes de uso do serviço em desacordo com a documentação, inclusive campos inválidos na requisição; só requisições válidas entram no cálculo.
 
 ### L2-R110 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . Um mês de 30 dias tem 43.200 minutos; (43.200 − 432) ÷ 43.200 = 0,99, isto é, 99%.
+- Justificativa: Um mês de 30 dias tem 43.200 minutos; (43.200 − 432) ÷ 43.200 = 0,99, isto é, 99%.
 
 ### L2-R111 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . Para avaliar a acurácia, a documentação recomenda amostra representativa, que cubra vários locutores e falas típicas dos usuários; para melhorar o reconhecimento, exige amostra grande.
+- Justificativa: Para avaliar a acurácia, a documentação recomenda amostra representativa, que cubra vários locutores e falas típicas dos usuários; para melhorar o reconhecimento, exige amostra grande.
 
 ### L2-R112 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . O sclite tabula os erros por locutor e por par referência–hipótese; a quebra por locutor permite ver onde o sistema falha mais.
+- Justificativa: O sclite tabula os erros por locutor e por par referência–hipótese; a quebra por locutor permite ver onde o sistema falha mais.
 
 ### L2-R113 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . Só os identificadores de fala presentes na hipótese são alinhados e pontuados; a referência pode ter mais registros, o que viabiliza pontuar só uma amostra.
+- Justificativa: Só os identificadores de fala presentes na hipótese são alinhados e pontuados; a referência pode ter mais registros, o que viabiliza pontuar só uma amostra.
 
 ### L2-R114 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . A documentação ressalta que a distribuição dos erros importa e que a análise por arquivo mostra os tipos de erro próprios de cada um e ajuda a direcionar a melhoria.
+- Justificativa: A documentação ressalta que a distribuição dos erros importa e que a análise por arquivo mostra os tipos de erro próprios de cada um e ajuda a direcionar a melhoria.
 
 ### L2-R115 — Gabarito: E
 
 - Item do edital: P2-2.7
-- Justificativa: . Áudio sem transcrição serve para inspecionar a acurácia; para quantificá-la, usam-se áudio e transcrições rotuladas por pessoas.
+- Justificativa: Áudio sem transcrição serve para inspecionar a acurácia; para quantificá-la, usam-se áudio e transcrições rotuladas por pessoas.
 
 ### L2-R116 — Gabarito: C
 
 - Item do edital: P2-2.7
-- Justificativa: . O critério descrito na nota considera melhor o modelo que mostra melhorias significativas em todos os cenários avaliados, e não em apenas alguns; serve de exemplo de controle de qualidade na troca de versão.
+- Justificativa: O critério descrito na nota considera melhor o modelo que mostra melhorias significativas em todos os cenários avaliados, e não em apenas alguns; serve de exemplo de controle de qualidade na troca de versão.
 
 ### L2-R117 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: . Com uma frase de várias palavras, o serviço tende a reconhecê-las em sequência e também aumenta a probabilidade de reconhecer partes da frase, inclusive palavras individuais.
+- Justificativa: Com uma frase de várias palavras, o serviço tende a reconhecê-las em sequência e também aumenta a probabilidade de reconhecer partes da frase, inclusive palavras individuais.
 
 ### L2-R118 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . Classes servem a grandes grupos de palavras que remetem a um conceito comum sem serem idênticas, como unidades monetárias e datas; listar todos os valores seria impraticável.
+- Justificativa: Classes servem a grandes grupos de palavras que remetem a um conceito comum sem serem idênticas, como unidades monetárias e datas; listar todos os valores seria impraticável.
 
 ### L2-R119 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . A classe personalizada reúne itens do usuário (a página dá como exemplo nomes de restaurantes) e funciona como os tokens predefinidos; uma frase pode usar os dois tipos.
+- Justificativa: A classe personalizada reúne itens do usuário (a página dá como exemplo nomes de restaurantes) e funciona como os tokens predefinidos; uma frase pode usar os dois tipos.
 
 ### L2-R120 — Gabarito: C
 
@@ -793,17 +793,17 @@
 ### L2-R122 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . A nota sugere a lista de frases quando se pode antecipar o que será falado, e a personalização por custom speech quando a acurácia continua baixa.
+- Justificativa: A nota sugere a lista de frases quando se pode antecipar o que será falado, e a personalização por custom speech quando a acurácia continua baixa.
 
 ### L2-R123 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: . Ao usar os dois tipos de dados, não se deve sobrepô-los: treinamento e ajuste devem ser distintos, porque a sobreposição pode enviesar o modelo e afetar a acurácia.
+- Justificativa: Ao usar os dois tipos de dados, não se deve sobrepô-los: treinamento e ajuste devem ser distintos, porque a sobreposição pode enviesar o modelo e afetar a acurácia.
 
 ### L2-R124 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . Os dados de treinamento ensinam termos e contexto; os de ajuste refinam as relações aprendidas, não são exigidos e são recomendados na falta de dados de treinamento do próprio domínio.
+- Justificativa: Os dados de treinamento ensinam termos e contexto; os de ajuste refinam as relações aprendidas, não são exigidos e são recomendados na falta de dados de treinamento do próprio domínio.
 
 ### L2-R125 — Gabarito: E
 
@@ -815,27 +815,27 @@
 ### L2-R126 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . O modelo implantado em endpoint próprio é fixo até a decisão do usuário e mantém acurácia e qualidade mesmo com novo modelo base, o que preserva o vocabulário adaptado; vale pelo período de vigência do modelo.
+- Justificativa: O modelo implantado em endpoint próprio é fixo até a decisão do usuário e mantém acurácia e qualidade mesmo com novo modelo base, o que preserva o vocabulário adaptado; vale pelo período de vigência do modelo.
 
 ### L2-R127 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: . O art. 95 considera questão de ordem toda dúvida sobre a interpretação do Regimento, na sua prática exclusiva ou relacionada com a Constituição Federal.
+- Justificativa: O art. 95 considera questão de ordem toda dúvida sobre a interpretação do Regimento, na sua prática exclusiva ou relacionada com a Constituição Federal.
 
 ### L2-R128 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: . O art. 126 define parecer como a proposição com que uma Comissão se pronuncia sobre qualquer matéria sujeita a seu estudo.
+- Justificativa: O art. 126 define parecer como a proposição com que uma Comissão se pronuncia sobre qualquer matéria sujeita a seu estudo.
 
 ### L2-R129 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: . O § 8º do art. 118 denomina emenda de redação a modificativa que visa a sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto; a aditiva é a que se acrescenta a outra proposição (§ 6º).
+- Justificativa: O § 8º do art. 118 denomina emenda de redação a modificativa que visa a sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto; a aditiva é a que se acrescenta a outra proposição (§ 6º).
 
 ### L2-R130 — Gabarito: E
 
 - Item do edital: P2-2.8 (aderência: parcial)
-- Justificativa: . As Comunicações de Lideranças (art. 89, a que remete o art. 66, § 1º) destinam-se aos Líderes, por tempo proporcional às bancadas; as Comunicações Parlamentares (arts. 66, IV, e 90) cabem a oradores indicados pelos Líderes, chamados alternadamente por Partidos e Blocos (art. 90, parágrafo único).
+- Justificativa: As Comunicações de Lideranças (art. 89, a que remete o art. 66, § 1º) destinam-se aos Líderes, por tempo proporcional às bancadas; as Comunicações Parlamentares (arts. 66, IV, e 90) cabem a oradores indicados pelos Líderes, chamados alternadamente por Partidos e Blocos (art. 90, parágrafo único).
 
 ### L2-R131 — Gabarito: E
 

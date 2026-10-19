@@ -1,2 +1,2 @@
-edição .md v1.11 (ENSAIO): 35 arquivos; 249 campos mudaram (249 valores distintos); 298 trocas; arquivos alterados: 20
+edição .md v1.11 (FINAL): 35 arquivos; 201 campos mudaram (201 valores distintos); 250 trocas; arquivos alterados: 20
 0 falhas

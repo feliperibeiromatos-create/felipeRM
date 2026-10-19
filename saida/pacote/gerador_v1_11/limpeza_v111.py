@@ -3,6 +3,7 @@
 gravação do campo `interno`. `aplica` devolve o pacote novo e o resultado; em modo tolerante (usado só pelo montador de tabelas de ensaio e pelo relatório de leitura real)
 as linhas que falham são descartadas e listadas, em vez de parar. Nada é gravado aqui."""
 import collections, copy, re
+import config_v111 as cfg
 from tabelas_v111 import Falha, resolve, _split
 
 # união das expressões das D1 da GCE e da GCB (ponto 7 da seção 1.4)
@@ -50,7 +51,8 @@ def aplica(P0, rows, inv, excecoes_depois=None, tolerante=False):
         obj, rel, cont, chave = resolve(P, cam)
         texto = cont[chave]
         ok = []
-        # fase 2 e 3: antes único; casamentos dentro do intervalo
+        # fase 2 e 3: antes único; casamentos dentro do intervalo (C-2b: cobertura posicional; EXCECAO_INTERVALO; ids extras sem posição)
+        todas = []
         for r in rs:
             rid = r['id_edicao']
             pos_ant = _acha(texto, r['antes'])
@@ -58,11 +60,20 @@ def aplica(P0, rows, inv, excecoes_depois=None, tolerante=False):
                 if _erro(tolerante, descartadas, rid, 'C-3', 'antes ocorre %d vez(es) em %s (esperado 1)' % (len(pos_ant), cam)):
                     continue
             i = pos_ant[0]; j = i + len(r['antes'])
-            fora = [x for x in r['_ids'] if x not in inv or not (i <= inv[x]['_a'] and inv[x]['_b'] <= j)]
-            if fora:
+            r['_i'], r['_j'] = i, j
+            todas.append(r)
+        por_id = {r['id_edicao']: r for r in todas}
+        for r in todas:
+            rid, i, j = r['id_edicao'], r['_i'], r['_j']
+            fora = [x for x in r['_ids'] if x in inv and not (i <= inv[x]['_a'] and inv[x]['_b'] <= j)]
+            if rid in cfg.EXCECAO_INTERVALO:
+                alvo = por_id.get(cfg.EXCECAO_INTERVALO[rid])
+                bad = (not fora) or alvo is None or any(not (alvo['_i'] <= inv[x]['_a'] and inv[x]['_b'] <= alvo['_j']) for x in fora)
+                if bad and _erro(tolerante, descartadas, rid, 'C-2b', 'EXCECAO_INTERVALO: o casamento citado (%s) não está no antes da linha %s' % (','.join(fora) or '(nenhum fora)', cfg.EXCECAO_INTERVALO[rid])):
+                    continue
+            elif fora:
                 if _erro(tolerante, descartadas, rid, 'C-3', 'casamento(s) %s fora do intervalo do antes em %s' % (','.join(fora), cam)):
                     continue
-            r['_i'], r['_j'] = i, j
             ok.append(r)
         # fase 4: sobreposição
         ok.sort(key=lambda x: x['_i'])
@@ -75,6 +86,14 @@ def aplica(P0, rows, inv, excecoes_depois=None, tolerante=False):
             fim = max(fim, r['_j'])
             sem.append(r)
         ok = sem
+        if not tolerante:
+            # C-2b: cada id do inventário (PROCESSO ou VERIFICAR) da Gerência dona cai no antes de exatamente uma linha dela, neste caminho
+            for xid, o in inv.items():
+                if o['classe'] not in ('PROCESSO', 'VERIFICAR') or o['caminho'] != cam:
+                    continue
+                n = sum(1 for r in todas if r['_ger'] == o['gerencia'] and r['_i'] <= o['_a'] and o['_b'] <= r['_j'])
+                if n != 1:
+                    raise Falha('C-2b', 'o id %s cai no antes de %d linha(s) da %s em %s (esperado 1)' % (xid, n, o['gerencia'], cam))
         # fase 5: FP intactos; fase 7: proibições no depois; fase 8: verificado em e base legal
         ok2 = []
         for r in ok:
@@ -112,13 +131,14 @@ def aplica(P0, rows, inv, excecoes_depois=None, tolerante=False):
                     continue
             if '3' not in [x.strip() for x in r['regra'].split(';')]:
                 perda = None
+                isentos = cfg.EXCECAO_BASE_LEGAL.get(rid, [])
                 for lit in set(VERIF_EM.findall(r['antes'])):
                     if dep.count(lit) < r['antes'].count(lit):
                         perda = '"%s" perdido' % lit
                 for rx in (BASE_LEGAL,):
                     ca = collections.Counter(rx.findall(r['antes'])); cd = collections.Counter(rx.findall(dep))
                     for k, v in ca.items():
-                        if cd[k] < v:
+                        if cd[k] < v and k not in isentos:
                             perda = 'base legal %r perdida (%d -> %d)' % (k, v, cd[k])
                 if perda:
                     if _erro(tolerante, descartadas, rid, 'C-7', 'verificado em / base legal: %s' % perda):

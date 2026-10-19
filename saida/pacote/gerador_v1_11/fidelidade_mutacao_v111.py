@@ -63,7 +63,7 @@ def main():
             with open(p, 'wb') as fh:
                 fh.write(out)
             nova = list(base_itens)
-            nova[idx] = (g, nome, open(p, 'rb').read(), h)
+            nova[idx] = (g, nome, open(p, 'rb').read(), None)      # SHA fixado vale só para o arquivo real; o caso do SHA é o m8
             return nova
 
         def roda(itens, **kw):
@@ -210,6 +210,29 @@ def main():
             return cols, rows
         caso('prefixo do id_edicao fora da Gerência dona da tabela', ('C-2', 'prefixo'), lambda: roda(muda_tabela(ig, m11b, 'm11b.csv')))
 
+        # 7b. três casos da FINAL (D1 pré-FINAL, seção 6, ponto 2)
+        ge = [r for r in le_csv_bytes(base_itens[0][2])[1]]
+        def m17(cols, rows):          # DELETAR cujo depois não é o antes menos um trecho contíguo
+            for r in rows:
+                if r['acao'] == 'DELETAR':
+                    r['depois'] = 'Z' if 'Z' not in r['antes'] else 'Y'
+                    break
+            return cols, rows
+        caso('DELETAR com depois que não é o antes menos um trecho contíguo', ('C-1', 'DELETAR com depois'), lambda: roda(muda_tabela(ig, m17, 'm17.csv')))
+        def m18(cols, rows):          # id extra fora de IDS_EXTRA
+            for r in rows:
+                if r['id_edicao'] == alvo['id_edicao']:
+                    r['ids_ocorrencia'] = r['ids_ocorrencia'] + ';GCB-EXTRA-99'
+            return cols, rows
+        caso('id extra fora de IDS_EXTRA', ('C-2', 'fora do universo', 'GCB-EXTRA-99'), lambda: roda(muda_tabela(ig, m18, 'm18.csv')))
+        def m19(cols, rows):          # a linha GCE-0110 deixa de cobrir o casamento que a GCE-0105 cita (id do inventário fora de todo antes)
+            for r in rows:
+                if r['id_edicao'] == 'GCE-0110':
+                    r['antes'] = r['antes'][r['antes'].index(')') + 1:]          # sem o '(F8)', que contém o casamento citado pela GCE-0105
+                    r['depois'] = r['antes'].replace('. O', ', o', 1)
+            return cols, rows
+        caso('id do inventário fora de todo antes', ('C-2b',), lambda: roda(muda_tabela(0, m19, 'm19.csv')))
+
         # 8. `interno` adulterado: reversibilidade
         def m12():
             P, _ = roda(base_itens)
@@ -251,7 +274,12 @@ def main():
 
         # 11. condições de entrada da geração final
         def m15():
-            pend = cfg.confere_final()
+            salvo = cfg.TABELAS_FINAL
+            cfg.TABELAS_FINAL = [(g, c, None) for g, c, h in salvo]
+            try:
+                pend = cfg.confere_final()
+            finally:
+                cfg.TABELAS_FINAL = salvo
             if pend:
                 raise T.Falha('C-1', 'condições de entrada da geração final não cumpridas: ' + '; '.join(pend))
         caso('geração final sem E1–E5 cumpridas (SHA das tabelas, ATO_L2R16)', ('C-1', 'condições de entrada'), m15)

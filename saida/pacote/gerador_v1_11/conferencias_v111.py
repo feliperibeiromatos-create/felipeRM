@@ -61,6 +61,11 @@ def main():
         cob = T.valida_cobertura(rows, oc, inv, completa=True)
         ok('C-2', cob['universo'] == cfg.UNIVERSO and cob['faltam'] == 0 and cob['fp'] == cfg.FP_R1 + cfg.FP_CONTEUDO,
            'cobertura: %d ids do universo, cada um em exatamente uma linha (GCE %d, GCB %d, GBQ %d); nenhum dos %d FP em linha' % (cob['universo'], cob['por_gerencia']['GCE'], cob['por_gerencia']['GCB'], cob['por_gerencia']['GBQ'], cob['fp']))
+        ok('C-2a', cob['extras'] == 35 and sum(1 for v in cfg.IDS_EXTRA.values() if v[0] == 'GCE') == 13 and sum(1 for v in cfg.IDS_EXTRA.values() if v[0] == 'GCB') == 22 and cfg.UNIVERSO == 907,
+           'universo 907 = 872 do inventário + 35 ids fora dele (IDS_EXTRA: GCE 13, GCB 22); caminho e Gerência de cada um conferidos contra a lista fechada')
+        dd = collections.Counter(r['_ger'] for r in rows if r['acao'] == 'DELETAR' and r['depois'] != '')
+        ok('C-1e', dd.get('GCE', 0) == 75 and dd.get('GCB', 0) == 0 and sum(dd.values()) == 75 and all(T.deleta_ok(r['antes'], r['depois']) for r in rows if r['acao'] == 'DELETAR'),
+           'DELETAR com `depois` não vazio: GCE %d (esperado 75), GCB %d (esperado 0); cada `depois` é o `antes` menos um único trecho contíguo' % (dd.get('GCE', 0), dd.get('GCB', 0)))
     except T.Falha as e:
         reg('C-2', 'FALHA', str(e))
 
@@ -80,6 +85,49 @@ def main():
     except T.Falha as e:
         reg('C-3', 'FALHA', str(e)); reg('C-7', 'FALHA', str(e)); reg('C-5', 'FALHA', str(e))
 
+    # C-2b cobertura posicional (recalculada aqui, independente de limpeza_v111)
+    try:
+        pos_ger = collections.defaultdict(list)
+        for r in rows:
+            texto_c = T.resolve(P0, r['caminho'])
+            tx = texto_c[2][texto_c[3]]
+            i0 = tx.find(r['antes'])
+            pos_ger[(r['caminho'], r['_ger'])].append((r['id_edicao'], i0, i0 + len(r['antes'])))
+        ruim_c = []
+        n_c = 0
+        for xid, o in inv.items():
+            if o['classe'] not in ('PROCESSO', 'VERIFICAR'):
+                continue
+            n_c += 1
+            lin = [l for l in pos_ger.get((o['caminho'], o['gerencia']), []) if l[1] <= o['_a'] and o['_b'] <= l[2]]
+            if len(lin) != 1:
+                ruim_c.append((xid, len(lin)))
+        n_exc = 0
+        for lin_id, alvo in cfg.EXCECAO_INTERVALO.items():
+            r_ = [r for r in rows if r['id_edicao'] == lin_id][0]
+            for x in r_['_ids']:
+                if x in inv:
+                    a_ = [l for l in pos_ger[(r_['caminho'], r_['_ger'])] if l[0] == lin_id][0]
+                    if not (a_[1] <= inv[x]['_a'] and inv[x]['_b'] <= a_[2]):
+                        n_exc += 1
+                        b_ = [l for l in pos_ger[(r_['caminho'], r_['_ger'])] if l[0] == alvo][0]
+                        if not (b_[1] <= inv[x]['_a'] and inv[x]['_b'] <= b_[2]):
+                            ruim_c.append((x, 'fora de %s' % alvo))
+        ok('C-2b', not ruim_c and n_c == 872 and n_exc == 4, 'cobertura posicional: %d/872 ids do inventário caem no `antes` de exatamente uma linha da Gerência dona, no mesmo caminho; %d linhas da GCE com id deslocado (EXCECAO_INTERVALO) têm o casamento citado na linha indicada %s%s' % (n_c - len(ruim_c), n_exc, sorted(cfg.EXCECAO_INTERVALO.items()), (' ; falhas: %s' % ruim_c[:3]) if ruim_c else ''))
+    except T.Falha as e:
+        reg('C-2b', 'FALHA', str(e))
+    # C-18 contagens da seção 1.7 da D1 pré-FINAL
+    n_int_c = sum(len(o.get('interno', [])) for l in ('itens', 'lotes', 'simulados', 'discursivas') for o in P[l])
+    por_g = collections.Counter(r['_ger'] for r in rows if r['acao'] != 'MANTER')
+    por_a = collections.Counter(r['acao'] for r in rows)
+    cEc = collections.Counter(i['gabarito'] for i in P['itens'])
+    aut_j = sum(1 for i in P['itens'] if i['rotulo'] == 'AUTORAL' and any(r['campo'] == 'justificativa' for r in i.get('interno', [])))
+    obj_int = sum(1 for l in ('itens', 'lotes', 'simulados', 'discursivas') for o in P[l] if 'interno' in o)
+    ok('C-18', n_int_c == 799 and dict(por_g) == {'GCE': 271, 'GCB': 525, 'GBQ': 3} and por_a.get('MANTER') == 1 and por_a.get('SUBSTITUIR') == 678 and por_a.get('DELETAR') == 121 and obj_int == 210
+       and aut_j == 195 and len(P['itens']) == 560 and (cEc['C'], cEc['E']) == (285, 275) and st['sha256_pacote'] == '1b5657c726b5852885fe0e69e7835d6ec331e6d43dd19191cf451ff4ac069517',
+       'contagens: %d edições (GCE %d, GCB %d, GBQ %d), MANTER %d, SUBSTITUIR %d, DELETAR %d, `interno` em %d objetos, %d AUTORAL com justificativa editada, %d itens C/E %d/%d; SHA-256 do pacote.json = o fixado na D1 pré-FINAL' % (
+           n_int_c, por_g['GCE'], por_g['GCB'], por_g['GBQ'], por_a.get('MANTER', 0), por_a.get('SUBSTITUIR', 0), por_a.get('DELETAR', 0), obj_int, aut_j, len(P['itens']), cEc['C'], cEc['E']))
+
     # C-6 inventário
     Pj, oj, _ = I.varre_pacote(os.path.join(OUT, 'pacote.json'), 'D')
     Ej, oe, _ = I.varre_pacote(os.path.join(OUT, 'pacote_estudante.json'), 'E')
@@ -98,7 +146,7 @@ def main():
     fp_new = collections.Counter((o['caminho'], o['classe'], o['casamento']) for o in oj if o['classe'] in ('FP-R1', 'FP-CONTEUDO'))
     ids_old = {i for i, o in oc.items() if o['classe'] in ('FP-R1', 'FP-CONTEUDO')}
     ids_new = {o['id_ocorrencia'] for o in oj if o['classe'] in ('FP-R1', 'FP-CONTEUDO')}
-    ok('C-6b', cj.get('FP-R1', 0) == cfg.FP_R1 and cj.get('FP-CONTEUDO', 0) == cfg.FP_CONTEUDO and fp_old == fp_new,
+    ok('C-6b', cj.get('FP-R1', 0) == cfg.FP_R1 and cj.get('FP-CONTEUDO', 0) == cfg.FP_CONTEUDO and fp_old == fp_new and len(ids_old ^ ids_new) // 2 <= 1,
        'pacote.json: FP-R1 %d (esperado %d), FP-CONTEUDO %d (esperado %d), os mesmos %d FP por (campo, classe, casamento); ids de ocorrência diferentes: %d (o índice k do hash muda quando uma ocorrência anterior do mesmo literal sai do campo)' % (
            cj.get('FP-R1', 0), cfg.FP_R1, cj.get('FP-CONTEUDO', 0), cfg.FP_CONTEUDO, sum(fp_old.values()), len(ids_old ^ ids_new) // 2))
     ok('C-6c', ce.get('PROCESSO', 0) == 0, 'pacote_estudante.json: PROCESSO %d (meta 0); VERIFICAR %d; FP-R1 %d; FP-CONTEUDO %d' % (ce.get('PROCESSO', 0), ce.get('VERIFICAR', 0), ce.get('FP-R1', 0), ce.get('FP-CONTEUDO', 0)))
@@ -110,14 +158,14 @@ def main():
     pm0 = collections.Counter((o['arquivo'], o['categoria'], o['subtipo'], o['casamento']) for o in om0 if o['classe'] == 'PROCESSO')
     pm1 = collections.Counter((o['arquivo'], o['categoria'], o['subtipo'], o['casamento']) for o in om if o['classe'] == 'PROCESSO')
     novos_md = pm1 - pm0
-    ok('C-6d', cm.get('PROCESSO', 0) == 0 or not novos_md and cj.get('PROCESSO', 0) == 0 and ce.get('PROCESSO', 0) == 0,
+    ok('C-6d', not novos_md and cm.get('PROCESSO', 0) <= 98 and cj.get('PROCESSO', 0) == 0 and ce.get('PROCESSO', 0) == 0,
        'edição .md (34 arquivos, fora README.md; ids de item exatos desconsiderados): PROCESSO %d (v1.10: %d), nenhum novo; os que restam são cabeçalho, metadado, legenda de mecanismo (TC/IC/GI/AT) e texto de enunciado, fora dos campos do inventário JSON, que tem 0 PROCESSO no pacote.json e no -E (por categoria: %s); VERIFICAR %d; FP-R1 %d; FP-CONTEUDO %d' % (
            cm.get('PROCESSO', 0), sum(pm0.values()), dict(collections.Counter(k[1] + ' ' + k[2] for k in pm1.elements())), cm.get('VERIFICAR', 0), cm.get('FP-R1', 0), cm.get('FP-CONTEUDO', 0)))
 
     # C-8 residual
     er = carrega('estudante_json.json')['verificacao_residual']
-    if er['liquido'] == 0:
-        reg('C-8', 'OK', 'listas de deleção herdadas com 0 casamento no pacote.json limpo')
+    if er['liquido'] == 0 and er['regras_herdadas'] == cfg.EXCECOES_RESIDUAL and er['total'] == 9:
+        reg('C-8', 'OK', 'listas de deleção herdadas: 9 casamentos no pacote.json limpo, todos na lista fechada EXCECOES_RESIDUAL %s (campos conferidos em estudante_json_v111.py); líquido 0' % dict(cfg.EXCECOES_RESIDUAL))
     elif cfg.FINAL:
         reg('C-8', 'FALHA', '%d casamento(s) residual(is): %s' % (er['liquido'], dict(er['regras_herdadas'])))
     else:

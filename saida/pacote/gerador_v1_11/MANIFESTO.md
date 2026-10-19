@@ -1,10 +1,10 @@
-# MANIFESTO — T-108 e T-109 — gerador v1.11 do pacote.json, do pacote_estudante.json e da edição .md (ENSAIO) — 2026-10-18 — gerado por gbq-csc (manifesto_v1_11.py)
+# MANIFESTO — T-108 e T-109 — gerador v1.11 do pacote.json, do pacote_estudante.json e da edição .md (GERAÇÃO FINAL) — 2026-10-18 — gerado por gbq-csc (manifesto_v1_11.py)
 
 Origem: cópia de `saida/pacote/gerador_v1_10/` (intacta; nenhum byte mudou), sem `out/` e sem `__pycache__/`, mais as mudanças da D1 da GBQ (`saida/pacote/T108_D1_pacote_M2_2026-10-18.md`). Base do pacote: o pacote.json v1.10 aceito, lido do git no commit `cacd606` (SHA-256 `d43c32de4b8afb221da91d94573adc426e4ce0fab0de1b1994b149e9d70c2fed`); itens, ids, ordem, enunciados, gabaritos, simulados e demais blocos não mudam. Mudam só as edições das tabelas de limpeza (registradas no campo `interno`), o `itemEdital` do L2-R16 (T-109), `nome` e `geradoEm`.
 
-Modo desta execução: ALVO=M2; VERSAO=1.11; E_L2R16=True (ATO_L2R16 None); geradoEm 2026-10-18. ENSAIO: lê as tabelas de ensaio de `ensaio/` (linhas reais das Gerências onde passam nas conferências, mais linhas sintéticas); nenhuma saída é promovida; `saida/pacote/pacote.json` e `pacote_estudante.json` continuam a v1.10.
+Modo desta execução: ALVO=M2; VERSAO=1.11; E_L2R16=True (ATO_L2R16 D-T109-L2R16-ACEITE); geradoEm 2026-10-18. GERAÇÃO FINAL.
 
-Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 da tabela GCE não fixado; E1-E3: SHA-256 da tabela GCB não fixado; E1-E3: SHA-256 da tabela GBQ não fixado; E4: ATO_L2R16 ausente.
+Condições de entrada da geração final ainda não cumpridas: nenhuma.
 
 ## Pipeline (`sh rodar_tudo.sh`; cada passo com `python3 -I -B _run.py <script>`)
 | Passo | Script | Saída |
@@ -34,27 +34,27 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `conferencia_f_2026-10-17_v1_8.json` | `3badf68f4f9a0d188c23f7c6558b67d3b92b8178553b51b9ce58d0e8e9399d02` | 1553 | igual | herdado; só registro (não executado) |
 | `conferencias_R1.py` | `99dcdd33c9af370f71f14e87fe6b53319ced4103c71c20316eba315882ca8620` | 31439 | igual | herdado; só registro (não executado) |
 | `conferencias_v110.py` | `6ecf299fc9f81e2a0bcbda1ff2b8337224e232fe7f761e60e9d747c46ac4dadd` | 12146 | igual | herdado; só registro (não executado) |
-| `conferencias_v111.py` | `a4cce62232fd399d126e19861bcee454a8c4dbd3fe33adb7776d5bf4de365212` | 16461 | novo | passo 7 |
+| `conferencias_v111.py` | `b8675958b19504fedc960a7a6111c616a28f6e97f71c58dcaa8d6cc2f4a9bd39` | 20857 | novo | passo 7 |
 | `conferencias_v18.py` | `097f61747ae108ebc1bfa77028cbc39dc33b4996424937bbe7311418218c4efd` | 108913 | igual | herdado; só registro (não executado) |
 | `conferencias_v19.py` | `9c5acdd936c3d11eeb725761416c40049982902b6bd7934f7d3f52321c002bf8` | 11156 | igual | herdado; só registro (não executado) |
 | `config_v110.py` | `0871b2d7af08f42540931e9ccc9e053a8bf4c07f22b2c198b79ccc83f229081b` | 1660 | igual | módulo (E_L2R131, ATO_L2R131 lidos por nucleo.py e estudante_json_v111.py) |
-| `config_v111.py` | `3ceedbae4cedd404652f3738fe46360b7fc4c88982921172c462071dc832b150` | 4794 | novo | módulo (chaves da ocorrência; único lugar do número da versão) |
+| `config_v111.py` | `7e0f1fda1df07dca020940853827260fa8d01f168b8b23e1225a0582415f6136` | 9059 | novo | módulo (chaves da ocorrência; único lugar do número da versão) |
 | `diff.py` | `a992af7d0bc1a5f587a99db51facf56412dbc99603148faf929132289b2a73b4` | 1786 | igual | herdado; só registro (não executado) |
 | `diff2.py` | `88ec4bd7fd5df6587c547961b237cd49c572a7920f4e89fdd4bc8d5096becb60` | 1578 | igual | herdado; só registro (não executado) |
 | `edital_p.py` | `76adfd601e8dbc4b7cea35f8a3538939e67b9307f65524cdae6dcf70d036d67e` | 1211 | igual | herdado; só registro (não executado) |
 | `estudante_fidelidade.py` | `58e77d0274c256748e75277ae3811adc1e356ae4981c809d785774c4d9b06f99` | 27275 | igual | passo 2 (módulo: only_deletions) |
 | `estudante_gen.py` | `16eed1bed5a3eccc8c5bae8516812b1806829c3cb8643178c47bfbcc2bddb8d0` | 17729 | igual | passos 2 e 4 (módulo: lote_of, lote_fund, COMPL, FUSAO) |
 | `estudante_json.py` | `8dd215a4f33e32aeec66f5dd68cb401c7965106e0c7575dcc5623ea0c2c92688` | 21711 | igual | herdado; só registro (não executado) |
-| `estudante_json_v111.py` | `6c521466f1188889acf39295bf5af5b995fc4c3ddf4d31808229a8dd77c97c55` | 24357 | novo | passo 2 |
+| `estudante_json_v111.py` | `8b76fd1c67fab22f2e00d84b263d3de179fe0fe36982d7cbf8fdbad8a3483764` | 24782 | novo | passo 2 |
 | `estudante_marcas.py` | `598cfce4be4ffc30bb2817b54c25efdf26586eaef8b4be8fef1a522c4addbd8b` | 10065 | igual | passo 2 (módulo) |
 | `estudante_md_v110.py` | `ee7ce49f45fa76ccf4baed7e505c46597f27462e8cef8ec271dac5aff4f3e6f2` | 6095 | igual | herdado; só registro (não executado) |
 | `estudante_md_v111.py` | `895e498b3caf24d8e87c421c7800cb0be31268f8e81c6f297617dd4dbf776391` | 13304 | novo | passo 4 |
 | `f4.py` | `084421fbea636c9264580ad8baef50e27778dcfb7cce6e23c6ac68b0fc7603b8` | 2597 | igual | herdado; só registro (não executado) |
 | `fidelidade_mutacao.py` | `50cfb459b0210b205841e2527b98b0454976b62f114b349ace2b5ba93cf8f776` | 3989 | igual | herdado; só registro (não executado) |
-| `fidelidade_mutacao_v111.py` | `4b3c6c95bebf864e15a52c896ce7d13359d680d2f407b2c4be5eba006e4eb00b` | 15117 | novo | passo 9 |
+| `fidelidade_mutacao_v111.py` | `04a382fd4363b44f738476b6cad26b4a9db20972291784d824d4f522357e720a` | 16938 | novo | passo 9 |
 | `gce.py` | `ba575e4c66a0da2bba65c05fd8318378908ebaffbca5bc36b40a0640966d2417` | 6171 | igual | herdado; só registro (não executado) |
 | `inventario_v111.py` | `16e3cf25ba053531e0c8db24a484d7bbe2095af53978f72d98190d491188a222` | 16988 | novo | passo 8 e módulo (posições dos casamentos; extensão aos .md) |
-| `limpeza_v111.py` | `6f7303ef432a0fa00ab114c58a408908b7acfe98ab9d4357a6a2094d509b49ca` | 10199 | novo | módulo (aplicação ocorrência a ocorrência; `interno`) |
+| `limpeza_v111.py` | `e3fe3f4f17bc95b81c502752ab342c173912bae0a5b442efd538f15737113e95` | 11651 | novo | módulo (aplicação ocorrência a ocorrência; `interno`) |
 | `literais.py` | `ef637881862fc6c9ee72e8f25686abef4bccaeb84514d4aae6c7defc68c97314` | 14340 | igual | herdado; só registro (não executado) |
 | `lotes_tab.txt` | `d3ca792baeb70967479abc27b63213558b121fd70554140f5bdd521538ad1f94` | 921 | igual | herdado; só registro (não executado) |
 | `manifesto_v1_10.py` | `f73c3b668565adee30ba384922c28449effd3db4650500cc14a3704d04ff408f` | 5441 | igual | herdado; só registro (não executado) |
@@ -77,7 +77,7 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `registro_adendo_v110.py` | `e9a449af1675ceb53d16135411c19a7eb5909c7182f7effec67e866dded54124` | 6252 | igual | herdado; só registro (não executado) |
 | `registro_adendo_v111.py` | `443a5fbeb30128d88387a4f9e96667d1b03aa9a9208b3066e860810b03b40aa4` | 3688 | novo | passo 3 |
 | `registro_adendo_v19.py` | `ce6940a319c243a411ed5b4672f09e49613eaa6982b364a2b85ffcfe0824e56d` | 5883 | igual | herdado; só registro (não executado) |
-| `registro_alteracoes_v111.py` | `3d6643fe34aa7ecbdd46fc13d8b3e79b1a2e32302266e9502b411842f6f54b54` | 6856 | novo | passo 5 |
+| `registro_alteracoes_v111.py` | `5f8e52f63ccaa8b729044220260e021164979dd4e4441c73ba5ab0a5cdfef5ec` | 7887 | novo | passo 5 |
 | `registry.py` | `b207f93606e5f5f9ded316f01cda586812416c36f6c97434a43ad8a12d653546` | 918 | igual | herdado; só registro (não executado) |
 | `relatorio_R1.py` | `22b76c83b69311de7fffcd51ce5716a10b157dc34527d31ebee9bb98f45aae6c` | 19988 | igual | herdado; só registro (não executado) |
 | `relatorio_v1_8.py` | `9ff7a0cea99488cbcb4a4bf00287cf23a8e31ec47f55479bf353292ba2000033` | 25389 | igual | herdado; só registro (não executado) |
@@ -87,13 +87,13 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `review.py` | `97ca017b42394314433bbe4a01c595948eb5c68da70b23afcb0c3a1cae6f2aaf` | 708 | igual | herdado; só registro (não executado) |
 | `rodar_tudo.sh` | `cda6013ff968017ea65d384d356eccb8c83ad0e264920f099028b8304a783b2f` | 2123 | alterado | runner |
 | `sync_check.py` | `c1804b93f20c30782bb4b04c82b49550d95a84687d584ca0a1e47cb682cc4592` | 2918 | igual | herdado; só registro (não executado) |
-| `tabelas_v111.py` | `e365b56cf5a53262423e87f4a513f388eded73ded47838961e0db1319ac0d28d` | 11121 | novo | módulo (leitura e validação das tabelas, inventário e caminhos) |
+| `tabelas_v111.py` | `6ddabc4c880e1af72c50de41d428c0807dabc6e5a92e60f51cfaf2fbe0053635` | 12287 | novo | módulo (leitura e validação das tabelas, inventário e caminhos) |
 | `texts.py` | `83353c975f401a62a2699a98f2ab7b2618d076ece0f7f4b4d26bdd7662fb2970` | 435 | igual | herdado; só registro (não executado) |
 | `validar_erros.py` | `540dd6aabc9ecd3b1aee1d08176e8a06db0eac991984ee01d2929bc81616ab78` | 18764 | igual | passo 7 (módulo e CLI) |
 | `validar_erros_teste.py` | `fe1202a3b4cabbac57c4376c4b489aa3f7f3274d16ef233bbd0fb1602336c998` | 8136 | alterado | passo 7 (C-15) |
 | `validate.py` | `7da151a3ded9e3184f6265a383d27c5259f3275efbad76d802d37df5a3dd68d8` | 44517 | igual | herdado; só registro (não executado) |
 | `validate_v110.py` | `8edf47de79481bd3a4b0f27d476abab1e09dc0eb8a5e1f25c47c5c8cbc5e54ee` | 16262 | igual | herdado; só registro (não executado) |
-| `validate_v111.py` | `cf7dc8f0a8d244431956d6a1106e31253d3c449f37019162a99f92a0e4a03518` | 10610 | novo | passo 6 |
+| `validate_v111.py` | `cff58f6685fbb0dd1abdf7f0660c869c85f83e7ca8febb5282f3d90a2ebd3fc6` | 12274 | novo | passo 6 |
 | `validate_v19.py` | `1ed674a5bed2db1071cc724ec68f9be6a89310735190533f4491fe5d84a88da4` | 14667 | igual | herdado; só registro (não executado) |
 
 ## ensaio/ (regerado no passo 0; só ENSAIO)
@@ -106,35 +106,34 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `ensaio/gera_tabelas_ensaio.py` | `871e07a4541eda08c67dcd12fa98cc9eb556b2a2a0a6b858a079144471a184c4` | 11990 |
 | `ensaio/relatorio_ensaio.json` | `febaec8b0c76df656b5ef05a4fe7be4a042d44f2e62f86d0c313c2c456c16ab6` | 15296 |
 
-## out/ (regerado a cada execução; prévia do ensaio, nada promovido)
+## out/ (regerado a cada execução; fonte dos promovidos)
 | Arquivo | SHA-256 | Bytes |
 |---|---|---|
-| `out/conferencias_stdout.txt` | `002591e94977dfb96b0fd58cca795e6752c7280c404e7f7161abfa338ce1dd63` | 4060 |
-| `out/conferencias_v1_11.json` | `ee84b7db7fae82a98e931cc78c599fd0661564e6edb8b7ca9616a71c2573deb8` | 4884 |
-| `out/ensaio_stdout.txt` | `d121efc584d075e1501233e0f2fc4a05f94b9b5a34bc34200d9978488bb3b926` | 373 |
-| `out/estudante_json.json` | `46e2b1bdc5c0b94af24735732b59ca3b3984148702f5ebe4bbfdbb6e9617f6a7` | 23209 |
-| `out/estudante_json_stdout.txt` | `91b8da3ab513c982d7c3d1735d86d627b3e5d92aafe9057d81431abe101846e4` | 2741 |
-| `out/estudante_md_stdout.txt` | `c8ac62fadbb3e2e6278936d9c05209e4157f22600c3701a648ae3b0977c154d5` | 132 |
-| `out/estudante_md_v1_11.json` | `6a7ec16210bd6984dc3f4e4a3d2d0b1ad835d9931a13559c60a1ec676f83bab9` | 31512 |
-| `out/fidelidade_mutacao_stdout.txt` | `608885ec1daa9e31e3c4b1aa14a546d9834d62b8dbffe030e58dd7ef4e6bcb87` | 2856 |
-| `out/fidelidade_mutacao_v1_11.json` | `dfadd51da29da099ac7d2076f92ffcc2c20f14ad3a70432001b27ba1821cfb22` | 5409 |
+| `out/conferencias_stdout.txt` | `d9808f7046b2b376feb5c5f45cead572783c7ff545587626a0f10878a886f298` | 4493 |
+| `out/conferencias_v1_11.json` | `80d47588b1b192c9ece09b4857beed0f49b8c0f9c03c4f0b221ada9444e8c015` | 5452 |
+| `out/estudante_json.json` | `f309c984c3d8ee6bac71c0022047460cfa2e9a61cf9aa0754785917eb22f49dd` | 21692 |
+| `out/estudante_json_stdout.txt` | `b0a2f67b12cb6751a7787fa41aba2ba23615aca693120e08872a3e1192cbbf18` | 2738 |
+| `out/estudante_md_stdout.txt` | `bff197fd9cc91d7ae19dfcd2101f42ce49e2543adc27b4c4609748e96d6a2ae9` | 131 |
+| `out/estudante_md_v1_11.json` | `b016e12ca0d0dbf59f1e21e2616112657e7b8f8a6a3cb570c0145799a1e77400` | 26474 |
+| `out/fidelidade_mutacao_stdout.txt` | `ba54d093803047519f09e24ff3f22bc2882cbb0c26a16c9fa5fcf7743015c3af` | 3343 |
+| `out/fidelidade_mutacao_v1_11.json` | `f31e9473c24f5a532d50a01dcf3bffc9a0289132150c99f468ab6299167fae60` | 6204 |
 | `out/folhas_v1_11.json` | `8791434d61e21190cbddb8ef108211067c1930041a038d21f41b5c6bc21ca3b1` | 3257 |
-| `out/gen_stdout.txt` | `ff5ce96d4ad51b0c978e49a7fb24138ae52cd89cd17e59d543d9c36a6c390f8d` | 395 |
-| `out/inventario.csv` | `729a9cc8db535f9a0d4afee1a32d3f1f4d3a450379de20ecb7dd1c0d2acf1fe5` | 142822 |
-| `out/inventario.json` | `77bb8a0a8c0184443036ba69c26bafb7eea489c7fc0eeba81c77268890bbf4a1` | 596 |
-| `out/inventario_stdout.txt` | `d7065531536255fc8f7da50a885d9b4220cd4f9fe29072a3abb00808a74b4f8b` | 598 |
-| `out/pacote.json` | `34c131e276b5b74a2cc4f30a9099a48cdbac231189f6e418415b5a41bed17c78` | 1114632 |
-| `out/pacote_estudante.json` | `4f423e707631210c829cbb17511bcffee50c90bc1826da9686482df5bce1ee77` | 880331 |
-| `out/registro_adendo3.md` | `5da45403400d54dbb89b260e003913a9b37e4220c79dbf04bf0aee073b7af46d` | 3920 |
-| `out/registro_alteracoes_stdout.txt` | `e460e81b2c0119b201c09fb73265dd2db8b35f8540f7257235778e3396ee3a32` | 102 |
-| `out/registro_alteracoes_v1_11.csv` | `910f201116f1fb994858cf1be8d491bceebf79dc19c32600f459e3a90bd8dfb0` | 288645 |
-| `out/registro_alteracoes_v1_11_manter.csv` | `a985b8692c48dc874b3d75a73236fe95109f951d85798a990d823b097a9ac8ac` | 547 |
-| `out/registro_alteracoes_v1_11_resumo.md` | `c8effbb0c060dc8406ecda925be3d571b24ab62f043d62346839c22067dd5bfa` | 5107 |
-| `out/registro_stdout.txt` | `d96c206dbb5ad1fe30591148119a9b2e92e4aec6342f90640d136efe8e3a2003` | 92 |
-| `out/stats_v1_11.json` | `b25fa706d2484d9f116e03af4af8c3cad3897bf8fef72966e8f70e68322d199a` | 4550 |
+| `out/gen_stdout.txt` | `337fa5f8582aa8f1d575a42f4e7c03b00cdc8b01bb656c15001cb3224d4878df` | 408 |
+| `out/inventario.csv` | `6c771ec984cb05d62593e99de72dfef2e78d6926c9ae42c093e8a03b360ce21f` | 142815 |
+| `out/inventario.json` | `9acbe258ce23f5785d376ec376a5c2f898d71d0c6052567d1948c314f838251e` | 596 |
+| `out/inventario_stdout.txt` | `54a7406a2ba939ee20c8aa8e9b707fd28c8d707cb55d45cfbb2eb9115935669e` | 598 |
+| `out/pacote.json` | `1b5657c726b5852885fe0e69e7835d6ec331e6d43dd19191cf451ff4ac069517` | 1123649 |
+| `out/pacote_estudante.json` | `8533b0c085594a42dd066b3e7a6161f0ea94f4f60bb2ad2cfbafc969369f6bd7` | 880435 |
+| `out/registro_adendo3.md` | `b9f8e2837ef28ad9632464557dcb85990086fe579c5652cf426a6eafd72f611e` | 3817 |
+| `out/registro_alteracoes_stdout.txt` | `ead02ebc6f6e42c45e53550562f0e667398c7ba0189b8a27bbe3b60f8efb7b23` | 102 |
+| `out/registro_alteracoes_v1_11.csv` | `faf9007df6760c1f6223efe0966fa10f2697241aec42e00425f744d9441f36fb` | 464765 |
+| `out/registro_alteracoes_v1_11_manter.csv` | `d210cb87546cbf0341cb646ab6a42f420b18ce2ba981401a78464f7eb7ba0805` | 563 |
+| `out/registro_alteracoes_v1_11_resumo.md` | `9ea415b85553a03fbe037181c5e8de7d579ec3a51bacca7d235c4293b2d8b67e` | 5712 |
+| `out/registro_stdout.txt` | `9bcc6ee9edb955fe079950338de0fa3f0992adc37b0e016cdb4eb49b9802f298` | 92 |
+| `out/stats_v1_11.json` | `9fe957e43458c6d949ac5f296b23eed523fea3dcaaed71898eeae1c44955a667` | 4681 |
 | `out/validar_erros_stdout.txt` | `a96eb28566ac456533bf65c5345e5f17422d6462619b7c90df97ddac36b29d2d` | 1578 |
-| `out/validate_stdout.txt` | `c1b60ed3504217d4295a72798823d3f55da88ea65b84b48561510fce0cd43190` | 1996 |
-| `out/validate_v1_11.json` | `5b3c19678d12b636ec77f3e798d7ddc2a814225ace59b056d6cf90fb4afb1ccf` | 2773 |
+| `out/validate_stdout.txt` | `3888f7ddd9658ada9a05b964a48f53093ff4cd160f0c2fc664f9a22f7953a060` | 2298 |
+| `out/validate_v1_11.json` | `a21d1138a1f0e41aee8fb7dc7e4069c8823df866134ae731170b04e78bb39a6a` | 3153 |
 | `out/casos_erros/importados_exportadoEm.json` | `ca039c0b82972681b9902b442e44867d80422f9b29b1c0ba8617e17abd25ad71` | 71 |
 | `out/casos_erros/importados_sha.json` | `7c2b3afd60182ce1c3ae36d744272baac4b1d8e2cc108d3849fdc06980fb7ceb` | 134 |
 | `out/casos_erros/incoerente_D.json` | `463a23847f577c0c5f6014bc6400cfed5c1cf41e480462faaab98a2de885ec22` | 1383 |
@@ -146,27 +145,27 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `out/estudante/BANCO_gabarito.md` | `f7d9bb470356e98962227bc7d19dbd6de2eff053aa718df002b26d6f2b4cb5ed` | 9340 |
 | `out/estudante/BANCO_itens.md` | `879e1769c76c3bc655510a18a8fd66f49abb6dec52d7e3030adf93132a226c2c` | 76551 |
 | `out/estudante/DISCURSIVAS.md` | `7777c52ca635cdd0e33a525aadd3b86699d333def9bb61816c79b67653f17bd0` | 6694 |
-| `out/estudante/DISCURSIVAS_padrao.md` | `7805b84684f12e32d9e7b241c97af4137db4cba61c887c04770e76fd996b7577` | 31976 |
-| `out/estudante/L1_estudo.md` | `5ca71cf9b411eb688b8fb317103a0c67c120682909bbcc021ca7ccecab79347f` | 39186 |
-| `out/estudante/L1_gabarito.md` | `a80a63205ba5a434e3db55a4794f26cc00ce4acad97a4d9a1f8cb0a565060707` | 44222 |
+| `out/estudante/DISCURSIVAS_padrao.md` | `4d5a4e6e9cb23fffee9b401f7b8b9537ce9475cdc8127e34cd27c6592f77dcb4` | 32002 |
+| `out/estudante/L1_estudo.md` | `a43a55df8c57e43c5908b760d49d2437d92b90849033905a13c55c7d20cfee61` | 39180 |
+| `out/estudante/L1_gabarito.md` | `57cc505f623da7d28baabd0407ce7147b90d5d13c8a130011f8d40e0834f2f23` | 44168 |
 | `out/estudante/L1_itens.md` | `f1efb02761da3382315e9c3e80910edb146c06f181a87255a7b1270fb9fd1f67` | 44578 |
-| `out/estudante/L2_estudo.md` | `e60e2e9dac6fcfa62a48b1525b7db40790770f43348dd0083ed5954dd42ccf64` | 34521 |
-| `out/estudante/L2_gabarito.md` | `f1750fd7ad8f7bdc07b584e72f3f1939db11fe8d9dd3bd1850136aa8eb3037e7` | 50070 |
+| `out/estudante/L2_estudo.md` | `5e09d1e5cccfd443767e61bebb550e53d7d737a275292f77565d90e5a787c8b4` | 34589 |
+| `out/estudante/L2_gabarito.md` | `2438f956e8c9ae1c78d3739e4b4513d1f3d804ab81d700f79165d9431595e0d0` | 49992 |
 | `out/estudante/L2_itens.md` | `9e0e3b1139ee9cbf799d708c42ffb2345b27cda2cde102a90e21e9411ac5a7b0` | 48961 |
-| `out/estudante/L3_estudo.md` | `3a429d9c6bbd26c4ef5b512712e9afaa1a9d3026a10c6b3752737cf5e823e9a3` | 40471 |
-| `out/estudante/L3_gabarito.md` | `9dac83f670351f72bcc4c9ae3cf57da6e1ebe597eead431aa57ffec97a3c824f` | 10007 |
+| `out/estudante/L3_estudo.md` | `f2132f27da95f4ac90b0a1a10a0244a9b165f870733789c45ded12f42ee63861` | 40427 |
+| `out/estudante/L3_gabarito.md` | `7e410a86e835a3eb055ae521d1b15d7e90fd3aea8ca8538c532523ea008ef176` | 9988 |
 | `out/estudante/L3_itens.md` | `0364d5f683db642c1e92b2b600de6c194e94d1456a53c911a3ed5cb91e0ef751` | 11220 |
-| `out/estudante/L4_estudo.md` | `e4a9cef51da6dda1d2e2a9a18450618d87bfd792f412ec19989e819422af0e1e` | 54394 |
-| `out/estudante/L4_gabarito.md` | `abda4dd5aa515ff0de48dbfadf377c5e3f8a04c47d7b90846ef0c2d9fe6283b6` | 15004 |
+| `out/estudante/L4_estudo.md` | `160b63aea41e0bbf963ceef019f7809ed4f98919404285b636def2d1bc239d55` | 54480 |
+| `out/estudante/L4_gabarito.md` | `2b7493a1f8f01268d86d5524eee9d2b452f392bf09b44a2bd51c4a728cb3cffd` | 15003 |
 | `out/estudante/L4_itens.md` | `6bac01242ecd239589d5098c326d06a3cf08fe02f0fb099608a23ab7859751d2` | 6761 |
-| `out/estudante/L5_estudo.md` | `5bc013bdd5a66564b919cf2b61450569a6530e721664c97147d8b1cb0fd1a4bc` | 33809 |
-| `out/estudante/L5_gabarito.md` | `96b39703fda1647ccfaf8213306852eec9e3fd3ffedc6066bffae79ee5c8bd47` | 9641 |
+| `out/estudante/L5_estudo.md` | `9804c6f7d8c3c0c65cd3e280ab7eab10eee77523dc9ed151b9d329a4a6e5c8a5` | 33881 |
+| `out/estudante/L5_gabarito.md` | `cd36b24596d3eb6a974ac8c63d84a6cda7d9e6570b72b6d8f7a7dc14638abf2b` | 9741 |
 | `out/estudante/L5_itens.md` | `a51ca726cd3331cc452bbf3d6c26b36a67204f87e562b5483e37cf8df3564678` | 7098 |
-| `out/estudante/L6A_estudo.md` | `e0bfde9af8cdf1ac8ac4a6c010ef26685296a9dee6f58235f5ce2ce5f6ac1f89` | 49491 |
-| `out/estudante/L6A_gabarito.md` | `0b0cdc856e7a450cd234b05c1c36a094874b8337c64762058c8855808bdbe56c` | 8211 |
+| `out/estudante/L6A_estudo.md` | `3a7515c5d7328ae76e4bb6127b5eaf1e327e4043dcbcd128c3d9c2c62d3654da` | 49433 |
+| `out/estudante/L6A_gabarito.md` | `fd4b9095ca8291b634cbe6352d1391af7f83c463093ea6ee38fe7babaa64c01b` | 8181 |
 | `out/estudante/L6A_itens.md` | `56d6fad58fd1cf88febc4f24509ecd9acfd4d473201999020e00fc05802f4e40` | 4206 |
-| `out/estudante/L6B_estudo.md` | `d4dd07131c34bd44886e80aa56a959f3436c3f74fad61b2340fee4d770d2d8e0` | 58036 |
-| `out/estudante/L6B_gabarito.md` | `1e25660998d4ac8139e92ac97b497c00da533a5e84e2f0a46ed4ae762394d074` | 8794 |
+| `out/estudante/L6B_estudo.md` | `653d683685bea5e1fd04daf2f40cab6697001a2e0a8d5b6d9d40666bfc501fd7` | 58017 |
+| `out/estudante/L6B_gabarito.md` | `eb5a045ae17afec2a7b7094924c9a392f4e4eb4b5365ccefc693312975d655a0` | 8856 |
 | `out/estudante/L6B_itens.md` | `e8e4baf9d7fb9aec02b8b8a67ae96820fa2b12e0b4aad962ae66f218a281b0ed` | 5052 |
 | `out/estudante/NUCLEO.md` | `a61f095db8579354baf51c06052b8e9ae3f849d4429b1ed9c877c7e6ae0088ad` | 3933 |
 | `out/estudante/README.md` | `bdb05cbe09489884490f3d22f3f2ad60f72400ba1453cba43695220ff59d3951` | 2564 |
@@ -175,8 +174,8 @@ Condições de entrada da geração final ainda não cumpridas: E1-E3: SHA-256 d
 | `out/estudante/SIM-0_folha.md` | `50d509be3f26a93f5d2fe0d8739dd8e66c9c963ce5c0b88ccd35f1987298baaa` | 19465 |
 | `out/estudante/SIM-0_gabarito.md` | `780a8f30abd0730cb5ca5945f2fc9456e94af2f0a1cd07ca2dcf947fc1a5f597` | 5986 |
 | `out/estudante/SIM-1_folha.md` | `e0e21ea32da954f4d20ac9df23937dab412179873d28211876600e938c2b9a38` | 8625 |
-| `out/estudante/SIM-1_gabarito.md` | `61d3ebad39cc2d231ea2cb392fb8329533d8746f0f86a6ff21dfa4bef02485e8` | 15352 |
+| `out/estudante/SIM-1_gabarito.md` | `535287fa7cfe59fd2e1f5297cd7058ac7af3234d728934eaeb8b09238462c2ca` | 15354 |
 | `out/estudante/SIM-2_folha.md` | `d576cc3fecc6f9973a028f82e303abb65aedd00ad14000cbc263c51423daaa92` | 9658 |
-| `out/estudante/SIM-2_gabarito.md` | `71c8290b31732e0a83bac2aa881b5ed654dc6868c038b981d66beb1b761b024a` | 9567 |
+| `out/estudante/SIM-2_gabarito.md` | `2113d4a7c1e399a1ce25b71d5819fe565121d3fc41c9a4d4c2b3e3e75e248c9e` | 9565 |
 
-Resultado desta execução: validate_v111 20/20 OK; conferencias_v111 17 OK, 3 PENDENTE, 0 FALHA; fidelidade_mutacao_v111 22/22 casos.
+Resultado desta execução: validate_v111 22/22 OK; conferencias_v111 24 OK, 0 PENDENTE, 0 FALHA; fidelidade_mutacao_v111 25/25 casos.

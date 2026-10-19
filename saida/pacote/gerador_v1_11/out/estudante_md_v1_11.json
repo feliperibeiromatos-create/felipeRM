@@ -36,6 +36,11 @@
    "ocorrencias": 1
   },
   {
+   "campo": "discursivas[D1].padrao",
+   "arquivo": "DISCURSIVAS_padrao.md",
+   "ocorrencias": 1
+  },
+  {
    "campo": "discursivas[D5].padrao",
    "arquivo": "DISCURSIVAS_padrao.md",
    "ocorrencias": 1
@@ -63,6 +68,11 @@
   {
    "campo": "lotes[L5].resumo",
    "arquivo": "L5_estudo.md",
+   "ocorrencias": 1
+  },
+  {
+   "campo": "discursivas[D2].padrao",
+   "arquivo": "DISCURSIVAS_padrao.md",
    "ocorrencias": 1
   },
   {
@@ -321,11 +331,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L2-R130].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[6B-02].justificativa",
    "arquivo": "L6B_gabarito.md",
    "ocorrencias": 1
@@ -516,21 +521,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R106].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R129].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R104].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[6B-05].justificativa",
    "arquivo": "L6B_gabarito.md",
    "ocorrencias": 1
@@ -566,27 +556,12 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L2-R108].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R129].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "lotes[L4].pares[7].como",
    "arquivo": "L4_estudo.md",
    "ocorrencias": 1
   },
   {
    "campo": "itens[L2-Q21].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R126].justificativa",
    "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
@@ -608,11 +583,6 @@
   {
    "campo": "itens[5C-04].justificativa",
    "arquivo": "SIM-1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R116].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -646,11 +616,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R105].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[L2-R82].justificativa",
    "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
@@ -666,17 +631,7 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R130].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[L2-R94].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R103].justificativa",
    "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
@@ -691,28 +646,8 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R125].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[A5-08].justificativa",
    "arquivo": "L5_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R111].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R124].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R111].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -722,11 +657,6 @@
   },
   {
    "campo": "itens[L1-R109].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R124].justificativa",
    "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
@@ -741,18 +671,8 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R126].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[6A-13].justificativa",
    "arquivo": "L6A_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R103].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -766,23 +686,8 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R121].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[6A-06].justificativa",
    "arquivo": "L6A_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R117].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R118].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -808,26 +713,6 @@
   {
    "campo": "itens[6A-07].justificativa",
    "arquivo": "L6A_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R105].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R119].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R127].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R109].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -876,16 +761,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R107].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R115].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[L2-Q23].justificativa",
    "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
@@ -893,11 +768,6 @@
   {
    "campo": "itens[L2-Q23].justificativa",
    "arquivo": "SIM-0-P2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R114].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -911,48 +781,13 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R120].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R123].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "lotes[L1].pegadinhas[4].texto",
    "arquivo": "L1_estudo.md",
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R128].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R104].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R119].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[A5-17].justificativa",
    "arquivo": "L5_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R113].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R106].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -976,23 +811,8 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R113].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R127].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "lotes[L4].pegadinhas[15].texto",
    "arquivo": "L4_estudo.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R123].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1026,11 +846,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L2-R122].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[A5-06].justificativa",
    "arquivo": "L5_gabarito.md",
    "ocorrencias": 1
@@ -1038,11 +853,6 @@
   {
    "campo": "itens[A5-06].justificativa",
    "arquivo": "SIM-1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R122].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1058,11 +868,6 @@
   {
    "campo": "itens[A5-16].justificativa",
    "arquivo": "L5_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R107].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1108,21 +913,6 @@
   {
    "campo": "itens[L4-10].justificativa",
    "arquivo": "SIM-1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R108].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R112].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R117].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1176,16 +966,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L1-R116].justificativa",
-   "arquivo": "L1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R115].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "lotes[L6A].pegadinhas[27].texto",
    "arquivo": "L6A_estudo.md",
    "ocorrencias": 1
@@ -1198,11 +978,6 @@
   {
    "campo": "itens[A5-07].justificativa",
    "arquivo": "SIM-1_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L2-R112].justificativa",
-   "arquivo": "L2_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1241,11 +1016,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L2-R128].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "lotes[L6A].pegadinhas[16].texto",
    "arquivo": "L6A_estudo.md",
    "ocorrencias": 1
@@ -1278,11 +1048,6 @@
   {
    "campo": "itens[L2-R120].justificativa",
    "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
-   "campo": "itens[L1-R118].justificativa",
-   "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
   },
   {
@@ -1466,11 +1231,6 @@
    "ocorrencias": 1
   },
   {
-   "campo": "itens[L2-R110].justificativa",
-   "arquivo": "L2_gabarito.md",
-   "ocorrencias": 1
-  },
-  {
    "campo": "itens[L1-Q19].justificativa",
    "arquivo": "L1_gabarito.md",
    "ocorrencias": 1
@@ -1513,6 +1273,6 @@
   "SIM-1_gabarito.md",
   "SIM-2_gabarito.md"
  ],
- "mudancas": 249,
- "valores_distintos": 249
+ "mudancas": 201,
+ "valores_distintos": 201
 }

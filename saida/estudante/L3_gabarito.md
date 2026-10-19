@@ -83,49 +83,49 @@
 ### L3-Q17 — Gabarito: C
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 5º, I. Voz e falas de pessoa identificada são informação relacionada a pessoa natural identificada.
+- Justificativa: (LGPD, art. 5º, I). Voz e falas de pessoa identificada são informação relacionada a pessoa natural identificada.
 
 ### L3-Q18 — Gabarito: E
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 5º, VI e VII; art. 39. Inverte os papéis: o controlador decide; o operador executa em nome dele, segundo as instruções.
+- Justificativa: (LGPD, art. 5º, VI e VII; art. 39). Inverte os papéis: o controlador decide; o operador executa em nome dele, segundo as instruções.
 
 ### L3-Q19 — Gabarito: C
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 7º, § 3º. Falsa pegadinha: parece que "público" afastaria a lei, mas o tratamento deve considerar finalidade, boa-fé e interesse público da disponibilização.
+- Justificativa: (LGPD, art. 7º, § 3º). Falsa pegadinha: parece que "público" afastaria a lei, mas o tratamento deve considerar finalidade, boa-fé e interesse público da disponibilização.
 
 ### L3-Q20 — Gabarito: E
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 20, caput. O titular pode pedir a revisão, mas o texto vigente não exige que seja por pessoa natural: a MP nº 869/2018, convertida na Lei 13.853/2019, suprimiu a expressão da redação original; o § 3º foi vetado (VEP nº 288/2019).
+- Justificativa: (LGPD, art. 20, caput). O titular pode pedir a revisão, mas o texto vigente não exige que seja por pessoa natural: a MP nº 869/2018, convertida na Lei 13.853/2019, suprimiu a expressão da redação original; o § 3º foi vetado (VEP nº 288/2019).
 
 ### L3-Q21 — Gabarito: C
 
 - Item do edital: P2-4.1
-- Justificativa: LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026. A Lei cria a Agência (nova redação do art. 55-A) e transfere a ela os acervos (art. 15 da Lei 15.352/2026); a "autoridade nacional" passou a ser exercida por ela.
+- Justificativa: (LGPD, art. 55-A e art. 5º, XIX, com a Lei 15.352/2026). A Lei cria a Agência (nova redação do art. 55-A) e transfere a ela os acervos (art. 15 da Lei 15.352/2026); a "autoridade nacional" passou a ser exercida por ela.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L3-Q22 — Gabarito: C
 
 - Item do edital: P2-4.2
-- Justificativa: Lei 9.610/1998, art. 7º, II; art. 29, I e IX. Conferências e alocuções são obras protegidas; reprodução e inclusão em base de dados dependem, em regra, de autorização. O item NÃO enquadra o pronunciamento parlamentar (7º, II × 8º, IV: não firmado).
+- Justificativa: (Lei 9.610/1998, art. 7º, II; art. 29, I e IX). Conferências e alocuções são obras protegidas; reprodução e inclusão em base de dados dependem, em regra, de autorização. O item NÃO enquadra o pronunciamento parlamentar (7º, II × 8º, IV: não firmado).
 
 ### L3-Q23 — Gabarito: E
 
 - Item do edital: P2-4.2
-- Justificativa: Lei 9.610/1998, art. 8º, IV. Leis, decretos e decisões judiciais NÃO são objeto de proteção; a premissa e a conclusão sobre os discursos estão invertidas.
+- Justificativa: (Lei 9.610/1998, art. 8º, IV). Leis, decretos e decisões judiciais NÃO são objeto de proteção; a premissa e a conclusão sobre os discursos estão invertidas.
 
 ### L3-Q24 — Gabarito: E
 
 - Item do edital: P2-4.2
-- Justificativa: Lei 9.610/1998, arts. 41 e 45. Erro por extrapolação: domínio público tem hipóteses legais; disponibilidade na internet não é uma delas.
+- Justificativa: (Lei 9.610/1998, arts. 41 e 45). Erro por extrapolação: domínio público tem hipóteses legais; disponibilidade na internet não é uma delas.
 
 ### L3-Q25 — Gabarito: C
 
 - Item do edital: P2-4.2
-- Justificativa: Lei 9.610/1998, art. 24, II; art. 27; art. 49, I. Falsa pegadinha: parece que a cessão total abrangeria tudo, mas os direitos morais são inalienáveis e ficam fora dela.
+- Justificativa: (Lei 9.610/1998, art. 24, II; art. 27; art. 49, I). Falsa pegadinha: parece que a cessão total abrangeria tudo, mas os direitos morais são inalienáveis e ficam fora dela.
 
 ### L3-Q26 — Gabarito: C
 
@@ -135,22 +135,22 @@
 ### L3-Q27 — Gabarito: C
 
 - Item do edital: P2-4.3
-- Justificativa: LGPD, art. 46, caput e § 2º. Medidas de segurança técnicas e administrativas, desde a concepção até a execução.
+- Justificativa: (LGPD, art. 46, caput e § 2º). Medidas de segurança técnicas e administrativas, desde a concepção até a execução.
 
 ### L3-Q28 — Gabarito: E
 
 - Item do edital: P2-4.3
-- Justificativa: LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º. O art. 13, § 4º, define pseudonimização só "para os efeitos deste artigo"; a distinção geral vem do art. 12: com a tabela em poder do próprio órgão, a reversão é possível por meios próprios, e o dado continua pessoal.
+- Justificativa: (LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º). O art. 13, § 4º, define pseudonimização só "para os efeitos deste artigo"; a distinção geral vem do art. 12: com a tabela em poder do próprio órgão, a reversão é possível por meios próprios, e o dado continua pessoal.
 
 ### L3-Q29 — Gabarito: E
 
 - Item do edital: P2-4.3
-- Justificativa: LGPD, art. 48, caput. O dever de comunicar à autoridade nacional e ao titular é do controlador.
+- Justificativa: (LGPD, art. 48, caput). O dever de comunicar à autoridade nacional e ao titular é do controlador.
 
 ### L3-Q30 — Gabarito: C
 
 - Item do edital: P2-4.3
-- Justificativa: LGPD, art. 5º, XV; art. 33, I e II. Transferência de dados pessoais para o exterior só é permitida nos casos do art. 33; "pode configurar" ressalva a análise do caso.
+- Justificativa: (LGPD, art. 5º, XV; art. 33, I e II). Transferência de dados pessoais para o exterior só é permitida nos casos do art. 33; "pode configurar" ressalva a análise do caso.
 
 ## Itens de reforço
 
@@ -192,7 +192,7 @@
 ### L3-R08 — Gabarito: C
 
 - Item do edital: P2-3.4
-- Justificativa: "If the embedding space includes multilingual content, vector queries can find the match with no language analyzers or translation required". O item usa "pode recuperar", sem prometer desempenho igual entre idiomas (compatível com L3-Q13).
+- Justificativa: "If the embedding space includes multilingual content, vector queries can find the match with no language analyzers or translation required". O item usa "pode recuperar", sem prometer desempenho igual entre idiomas.
 
 ### L3-R09 — Gabarito: C
 

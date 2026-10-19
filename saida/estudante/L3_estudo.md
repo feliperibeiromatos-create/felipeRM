@@ -29,7 +29,7 @@ ROUGE mede semelhança de texto.
 3.4 Multilíngue: um modelo, vários idiomas, desempenho desigual,
 tokenização pior em idioma sub-representado. Especializado em
 português: treinado ou ajustado em pt, não exclusivo de idioma. Domínio:
-ajuste fino, RAG, prompt. Nomes de modelos: voláteis, não cobrar.
+ajuste fino, RAG, prompt. Nomes de modelos: voláteis.
 4.1 LGPD: dado pessoal (art. 5º, I); controlador decide
 × operador executa (5º, VI e VII; 39; 42, § 1º, I); encarregado = canal
 (5º, VIII; 41); princípios (6º, I–X); consentimento não é a única base
@@ -43,7 +43,7 @@ com esforço razoável (12); a definição de pseudonimização (13, § 4º) val
 e atos oficiais não (8º, IV); autor = pessoa física (11); direitos
 morais inalienáveis (24; 27; 49, I); patrimoniais exigem autorização
 (29); domínio público ≠ disponível na internet (41; 45); limitações (46).
-CONTROVERSO (não cobrar): autoria e proteção de conteúdo gerado por IA;
+Pontos controversos: autoria e proteção de conteúdo gerado por IA;
 licitude do treinamento; enquadramento do pronunciamento parlamentar
 (7º, II × 8º, IV), com o art. 46, I, "b", só como indício. Ética:
 transparência, responsável humano, revisão, não atribuir palavras não
@@ -63,7 +63,7 @@ embeddings não são anônimos por presunção. LGPD: arts. 6º VII-VIII, 46,
 
 DEFINIÇÃO
 Quatro famílias de aplicação sobre o acervo de sessões e reuniões:
- - Transcrição: fala → texto (Lotes 1 e 2). É a base das demais.
+ - Transcrição: fala → texto (itens 1.1 a 1.8 e 2.1 a 2.8). É a base das demais.
  - Sumarização: condensar o conteúdo. Pode ser EXTRATIVA (seleciona e
    copia trechos do original) ou ABSTRATIVA (redige frases novas a
    partir do original; é o caso dos LLMs).
@@ -82,7 +82,7 @@ institucional, ganho de escala. Riscos usuais: erro e texto fluente
 porém falso, viés, perda de fidelidade, exposição de dados pessoais
 (4.1), segurança do pipeline (4.3), opacidade, dependência de
 fornecedor. Princípio de uso: a IA APOIA; o que vira registro oficial
-passa por revisão humana (Lote 2, item 2.2).
+passa por revisão humana (item 2.2).
 
 EXEMPLO PARLAMENTAR
 Sessão de comissão: o sistema transcreve; gera um resumo por pauta;
@@ -97,10 +97,8 @@ reformula; transcrição reproduz). (2) Dizer que acervo público dispensa
 supervisão e avaliação. (3) Ignorar a propagação de erros entre
 etapas. (4) Chamar de "indexação" o que é busca, e vice-versa. (5) Dizer
 que a IA "decide" o que é relevante sem critério humano: critérios,
-tesauro e avaliação são definidos pela instituição. (não cobrar
-descrição de sistema real.)
+tesauro e avaliação são definidos pela instituição.
 
-CONTEXTO NORMATIVO INTERNO (SEM ITEM)
 Ato da Mesa nº 225, de 15/12/2025 (Câmara dos Deputados; DCD, Ed. Extra A,
 18/12/2025, p. 9; Boletim Administrativo, 19/12/2025, p. 22; vigência na
 publicação, art. 6º): estabelece diretrizes gerais para a política de
@@ -116,10 +114,8 @@ Diretoria-Geral criar e manter o comitê de ética de uso da IA.
 Como contexto
 deste item: reforça, na própria Casa, o princípio "a IA apoia; o registro
 oficial passa por revisão humana". O texto lido NÃO trata de transcrição,
-taquigrafia, reconhecimento de fala nem registro de sessões: não afirmar que
-o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora
-dos objetos de avaliação: não cobrar
-numeração de incisos, não gera item e não altera gabarito.
+taquigrafia, reconhecimento de fala nem registro de sessões: por isso, não se pode afirmar que
+o Ato regula os sistemas descritos nos itens 3.1 a 3.3. Norma interna, fora dos objetos de avaliação (Ato da Mesa nº 225/2025 da Câmara, no Legin, paráfrase, sem transcrição literal, verificado em 10/10/2026).
 
 ## 3.2 BUSCA SEMÂNTICA EM ACERVOS PARLAMENTARES
 
@@ -169,8 +165,7 @@ DEFINIÇÃO
 Ata: documento formal que registra o ocorrido numa reunião (data, local,
 presenças, pauta, deliberações, votações, encaminhamentos). Resumo:
 condensação do conteúdo, de caráter informativo. O regime jurídico da ata
-na Câmara (Regimento Interno e atos próprios) NÃO foi verificado; o
-curso trata só do princípio: documento que pode produzir efeitos exige
+na Câmara (Regimento Interno e atos próprios) NÃO foi verificado; o curso trata só do princípio: documento que pode produzir efeitos exige
 conferência e responsável humano.
 Fluxo típico de geração automática:
  1. Transcrição verificada (a qualidade do que entra limita a do que
@@ -227,7 +222,7 @@ DEFINIÇÃO
  - Modelo de domínio (legislativo): obtém-se por ajuste fino com textos
    do domínio, por recuperação de documentos oficiais (RAG, 3.2) ou por
    instruções (prompts); não exige treinar do zero.
- - Fala e texto: o ASR multilíngue (Lote 1) e o LLM multilíngue são
+ - Fala e texto: o ASR multilíngue (itens 1.1 a 1.8) e o LLM multilíngue são
    componentes distintos; ser multilíngue num não garante no outro.
  - Particularidades do contexto: estrangeirismos, latinismos, siglas,
    mistura de idiomas na mesma fala e variação regional.
@@ -251,7 +246,7 @@ zero. (4) Dizer que um modelo especializado "conhece" normas novas sem
 atualização. (5) Cobrar nome de modelo (volátil e não verificado).
 
 
-Todos os dispositivos abaixo estão em paráfrase.
+Todos os dispositivos abaixo estão em paráfrase. Fontes: LGPD compilada (Planalto) e Lei 9.610/1998 (Planalto), lidas em 08/10/2026.
 
 ## 4.1 LGPD E PROTEÇÃO DE DADOS EM SISTEMAS DE TRANSCRIÇÃO E IA
 
@@ -264,11 +259,11 @@ DEFINIÇÕES (LGPD)
    sindicato ou a organização de caráter religioso, filosófico ou
    político, dado referente à saúde ou à vida sexual, dado genético e
    dado biométrico quando vinculado a pessoa natural.
-   O caráter taxativo dessa enumeração é debate doutrinário; não cobrar.
-   CONTROVERSO / NÃO GABARITO: a lei não define "dado biométrico"; se
+   O caráter taxativo dessa enumeração é debate doutrinário.
+   O ponto é controverso: a lei não define "dado biométrico"; se
    toda gravação de voz, ou se uma fala parlamentar, é dado sensível
    depende de interpretação. Já a impressão vocal usada para identificar
-   o locutor tende a ser tratada como biométrica; não cobrar como certo.
+   o locutor tende a ser tratada como biométrica, mas isso não deve ser tomado como certo.
  - Titular (art. 5º, V), controlador (VI: a quem competem as DECISÕES
    sobre o tratamento), operador (VII: realiza o tratamento EM NOME do
    controlador), encarregado (VIII: canal de comunicação entre
@@ -340,7 +335,6 @@ DEFINIÇÕES (LGPD)
  - Sanções (art. 52, § 3º): algumas sanções administrativas podem ser
    aplicadas a entes e órgãos públicos (incisos I, IV, V, VI, X, XI e
    XII do caput); a multa (incisos II e III) não consta dessa lista.
-   [não cobrar além do texto]
 
 APLICAÇÃO A TRANSCRIÇÃO E IA
 Fala, voz e transcrição de pessoas identificadas são dados pessoais. Ao
@@ -377,12 +371,11 @@ conformidade com a LGPD (III); disciplina do uso de IA generativa, com
 requisitos para prompts, para agentes autônomos ou semiautônomos e para
 revisão humana (V); informação ao usuário quando interage com agentes de
 IA (VIII); supervisão que inclui o monitoramento de vieses e alucinações
-(IX). O art. 4º, IV, prevê comitê de ética de uso da IA. Norma interna;
-referência de contexto; sem item.
+(IX). O art. 4º, IV, prevê comitê de ética de uso da IA. Norma interna; referência de contexto.
 
 ## 4.2 DIREITOS AUTORAIS E ÉTICA NO USO DE IA PARA CONTEÚDO GERADO
 
-DEFINIÇÕES (Lei 9.610/1998)
+DEFINIÇÕES (Lei 9.610/1998, texto do Planalto)
  - Obras protegidas (art. 7º): criações do espírito fixadas em qualquer
    suporte; entre elas, as conferências, alocuções, sermões e outras da
    mesma natureza (II); adaptações e traduções apresentadas como criação
@@ -418,7 +411,7 @@ DEFINIÇÕES (Lei 9.610/1998)
    interesses legítimos dos autores (VIII). Paráfrases e paródias que
    não sejam verdadeiras reproduções nem impliquem descrédito são livres
    (art. 47).
-CONTROVERSO / NÃO GABARITO (não há texto legal expresso nem
+Pontos controversos (não há texto legal expresso nem
 jurisprudência firmada que se possa afirmar):
  (a) se conteúdo gerado por IA é obra protegida e quem seria o titular;
  (b) se o treinamento de modelos com obras protegidas configura
@@ -426,7 +419,7 @@ jurisprudência firmada que se possa afirmar):
  (c) a responsabilidade por saídas que reproduzam trechos protegidos;
  (d) a aplicação do art. 46, VIII ao treinamento;
  (e) a aplicação do direito de integridade (art. 24, IV) a um resumo de
-     discurso gerado por IA (inferência de aplicação, não afirmar);
+     discurso gerado por IA (inferência de aplicação, que não se pode afirmar como certa);
  (f) o ENQUADRAMENTO do pronunciamento parlamentar em sessão: alocução
      protegida (art. 7º, II) ou ato oficial (art. 8º, IV). NÃO está
      firmado. INDÍCIO legal, e não enquadramento definitivo: o art. 46, I,
@@ -482,7 +475,7 @@ Pipeline típico, e onde agir:
     16).
  7. Resposta a incidentes e comunicação.
 Riscos específicos de IA:
- - Envio do áudio a serviço externo (perda de custódia; Lote 1, 1.8).
+ - Envio do áudio a serviço externo (perda de custódia; item 1.8).
  - Injeção de instruções (prompt injection): texto transcrito ou
    recuperado, que contém comandos maliciosos, manipula o LLM que o
    processa; tratar conteúdo transcrito como dado, não como instrução.
@@ -571,7 +564,7 @@ após o fim do tratamento.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que acervo público dispensa supervisão e avaliação.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Ignorar a propagação de erros entre etapas.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Chamar de "indexação" o que é busca, e vice-versa.
-- [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que a IA "decide" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição. (não cobrar descrição de sistema real.)
+- [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que a IA "decide" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição.
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica = dicionário de sinônimos (é similaridade aprendida por modelo).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica sempre mais precisa que a lexical (para nome e número exato, não é).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Dizer que a busca semântica "entende" ou "verifica" fatos.

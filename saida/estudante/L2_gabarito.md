@@ -58,7 +58,7 @@
 ### L2-Q12 — Gabarito: C
 
 - Item do edital: P2-2.3
-- Justificativa: Falsa pegadinha: parece infidelidade, mas é compatível com a fidelidade se houver critério editorial explícito e o sentido não mudar. Contexto: a prática oficial de revisão e redação final dos pronunciamentos. O item NÃO afirma critério gramatical da Câmara.
+- Justificativa: Falsa pegadinha: parece infidelidade, mas é compatível com a fidelidade se houver critério editorial explícito e o sentido não mudar. Contexto: a prática oficial de revisão e redação final dos pronunciamentos (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026). O item NÃO afirma critério gramatical da Câmara.
 
 ### L2-Q13 — Gabarito: C
 
@@ -103,7 +103,7 @@
 ### L2-Q21 — Gabarito: E
 
 - Item do edital: P2-2.6
-- Justificativa: Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto.
+- Justificativa: Memória de tradução reaproveita segmentos já traduzidos entre idiomas e é recurso de ferramentas de tradução; o CAT do edital é transcrição assistida, que na taquigrafia traduz as notas estenotípicas em texto ("Computer-Aided Transcription in the Courts", do OJP/NCJRS, Departamento de Justiça dos EUA).
 
 ### L2-Q22 — Gabarito: C
 
@@ -113,7 +113,7 @@
 ### L2-Q23 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto.
+- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante (especificação WebVTT, do W3C, verificado em 08/10/2026). Depende de padrão técnico estável, não de produto.
 
 ### L2-Q24 — Gabarito: E
 
@@ -185,7 +185,7 @@
 ### L2-R07 — Gabarito: E
 
 - Item do edital: P2-2.4
-- Justificativa: Nas sessões plenárias há discursos individualizados; nas reuniões de comissão "não há discursos individualizados", apenas a íntegra das notas taquigráficas. Além disso, o registro taquigráfico dos debates em comissão depende de determinação do Presidente da Comissão, quando julgá-lo necessário (RICD, art. 41, XXII).
+- Justificativa: Dado sujeito a mudança (baixo). Nas sessões plenárias há discursos individualizados; nas reuniões de comissão "não há discursos individualizados", apenas a íntegra das notas taquigráficas. Além disso, o registro taquigráfico dos debates em comissão depende de determinação do Presidente da Comissão, quando julgá-lo necessário (RICD, art. 41, XXII).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -207,7 +207,7 @@
 ### L2-R11 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Alguns serviços devolvem, além da versão principal, versões alternativas do trecho; a ordenação é do serviço (da mais para a menos provável), e a decisão sobre qual versão corresponde ao que foi dito é do revisor, que confere no áudio. A ordenação não garante acerto (ver L2-Q06).
+- Justificativa: Alguns serviços devolvem, além da versão principal, versões alternativas do trecho; a ordenação é do serviço (da mais para a menos provável), e a decisão sobre qual versão corresponde ao que foi dito é do revisor, que confere no áudio. A ordenação não garante acerto.
 
 ### L2-R12 — Gabarito: E
 
@@ -217,7 +217,7 @@
 ### L2-R13 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Há serviços que fornecem a confiança por palavra além da confiança da transcrição inteira; o uso para destacar trechos é aplicação possível, não recurso atribuído a produto. A confiança orienta a conferência, sem garantir acerto (ver L2-Q06).
+- Justificativa: Há serviços que fornecem a confiança por palavra além da confiança da transcrição inteira; o uso para destacar trechos é aplicação possível, não recurso atribuído a produto. A confiança orienta a conferência, sem garantir acerto.
 
 ### L2-R14 — Gabarito: E
 
@@ -231,7 +231,7 @@
 
 ### L2-R16 — Gabarito: E
 
-- Item do edital: P2-2.8
+- Item do edital: P2-3.1
 - Justificativa: Troca: o TECAD é "vocabulário controlado organizado em uma ordem preestabelecida", com relacionamentos de equivalência, homografia, hierarquia e associação entre termos, não vocabulário livre.
 
 ### L2-R17 — Gabarito: E
@@ -242,7 +242,7 @@
 ### L2-R18 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: A página afirma que uma lista de frases não deve ter mais de 2.000 frases e que listas mais longas afetam a qualidade e a latência.
+- Justificativa: Dado sujeito a mudança (ALTO: limite numérico de produto). A página afirma que uma lista de frases não deve ter mais de 2.000 frases e que listas mais longas afetam a qualidade e a latência.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -274,14 +274,14 @@
 ### L2-R24 — Gabarito: E
 
 - Item do edital: P2-2.1
-- Justificativa: A documentação do A2I descreve o caso de uso com o Amazon Transcribe como pessoas que revisam as transcrições geradas pelo serviço; as pessoas não transcrevem o áudio do zero. O item troca a revisão do texto automático pela transcrição humana integral.
+- Justificativa: Dado sujeito a mudança (baixo). A documentação do A2I descreve o caso de uso com o Amazon Transcribe como pessoas que revisam as transcrições geradas pelo serviço; as pessoas não transcrevem o áudio do zero. O item troca a revisão do texto automático pela transcrição humana integral.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R25 — Gabarito: E
 
 - Item do edital: P2-2.1 (aderência: parcial)
-- Justificativa: A página define notas taquigráficas como o conjunto de discursos e discurso como a transcrição tratada individualmente; o item inverte os dois termos.
+- Justificativa: Dado sujeito a mudança (baixo). A página define notas taquigráficas como o conjunto de discursos e discurso como a transcrição tratada individualmente; o item inverte os dois termos.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -343,7 +343,7 @@
 ### L2-R37 — Gabarito: C
 
 - Item do edital: P2-2.2
-- Justificativa: O item parece contradizer a ideia de que a revisão só de baixa confiança não basta, mas a documentação lista as duas formas de revisão humana (baixa confiança e amostras aleatórias).
+- Justificativa: Dado sujeito a mudança (baixo). O item parece contradizer a ideia de que a revisão só de baixa confiança não basta, mas a documentação lista as duas formas de revisão humana (baixa confiança e amostras aleatórias).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -400,7 +400,7 @@
 ### L2-R48 — Gabarito: C
 
 - Item do edital: P2-2.3
-- Justificativa: O art. 176, § 1º, só permite apartear o orador a quem solicita e obtém a permissão dele, e o § 4º manda não publicar os apartes proferidos em desacordo com os dispositivos regimentais. Espelho da troca "o aparte irregular é publicado mesmo assim".
+- Justificativa: O art. 176, § 1º, só permite apartear o orador a quem solicita e obtém a permissão dele, e o § 4º manda não publicar os apartes proferidos em desacordo com os dispositivos regimentais. A afirmação oposta ("o aparte irregular é publicado mesmo assim") estaria errada.
 
 ### L2-R49 — Gabarito: C
 
@@ -420,7 +420,7 @@
 ### L2-R52 — Gabarito: E
 
 - Item do edital: P2-2.3 (aderência: parcial)
-- Justificativa: O art. 93, § 4º, permite ao Deputado e ao Ministro de Estado que participaram dos debates da sessão secreta reduzir o discurso a escrito, para arquivo em segundo envelope lacrado, em prazo não excedente de uma sessão. O item troca "uma sessão" por "cinco sessões", prazo do art. 98, § 2º, para devolver o discurso retirado na Taquigrafia (ver L2-R01).
+- Justificativa: O art. 93, § 4º, permite ao Deputado e ao Ministro de Estado que participaram dos debates da sessão secreta reduzir o discurso a escrito, para arquivo em segundo envelope lacrado, em prazo não excedente de uma sessão. O item troca "uma sessão" por "cinco sessões", prazo do art. 98, § 2º, para devolver o discurso retirado na Taquigrafia.
 
 ### L2-R53 — Gabarito: E
 
@@ -435,26 +435,26 @@
 ### L2-R55 — Gabarito: C
 
 - Item do edital: P2-2.3 (aderência: parcial)
-- Justificativa: O art. 17, I, "l", atribui ao Presidente autorizar a publicação de informações ou documentos em inteiro teor, em resumo ou apenas mediante referência na ata. O item repete o dispositivo. Registro: para documentos não lidos integralmente pelo Deputado, a publicação integral depende de autorização da Mesa, a requerimento do orador (art. 98, § 3º; ver L2-R64); os dois itens não devem figurar no mesmo simulado.
+- Justificativa: O art. 17, I, "l", atribui ao Presidente autorizar a publicação de informações ou documentos em inteiro teor, em resumo ou apenas mediante referência na ata. O item repete o dispositivo. Registro: para documentos não lidos integralmente pelo Deputado, a publicação integral depende de autorização da Mesa, a requerimento do orador (art. 98, § 3º).
 
 ### L2-R56 — Gabarito: E
 
 - Item do edital: P2-2.3
-- Justificativa: A página classifica WER de 5% a 10% como boa qualidade, 20% como aceitável (com possível treinamento adicional) e 30% ou mais como má qualidade, que exige personalização e treinamento. O item atribui ao patamar de 20% a consequência do patamar de 30%.
+- Justificativa: Dado sujeito a mudança (médio). A página classifica WER de 5% a 10% como boa qualidade, 20% como aceitável (com possível treinamento adicional) e 30% ou mais como má qualidade, que exige personalização e treinamento. O item atribui ao patamar de 20% a consequência do patamar de 30%.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R57 — Gabarito: C
 
 - Item do edital: P2-2.3
-- Justificativa: Com profanityFilter verdadeiro, o servidor tenta filtrar palavrões, substituindo todos os caracteres da palavra, exceto o inicial, por asteriscos; a palavra dita deixa de aparecer literalmente no texto. O item não nomeia o parâmetro.
+- Justificativa: Dado sujeito a mudança (baixo). Com profanityFilter verdadeiro, o servidor tenta filtrar palavrões, substituindo todos os caracteres da palavra, exceto o inicial, por asteriscos; a palavra dita deixa de aparecer literalmente no texto. O item não nomeia o parâmetro.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R58 — Gabarito: C
 
 - Item do edital: P2-2.3 (aderência: parcial)
-- Justificativa: Se a equipe gera só a transcrição com dados ocultados, a mídia é o único local em que a conversa completa está armazenada; apagada a mídia, não resta registro dos dados ocultados, e a documentação sugere gerar também a transcrição sem ocultação. Espelho da troca "a transcrição ocultada preserva o registro completo".
+- Justificativa: Se a equipe gera só a transcrição com dados ocultados, a mídia é o único local em que a conversa completa está armazenada; apagada a mídia, não resta registro dos dados ocultados, e a documentação sugere gerar também a transcrição sem ocultação. A afirmação oposta ("a transcrição ocultada preserva o registro completo") estaria errada.
 
 ### L2-R59 — Gabarito: E
 
@@ -464,14 +464,14 @@
 ### L2-R60 — Gabarito: C
 
 - Item do edital: P2-2.3 (aderência: parcial)
-- Justificativa: Na CLI e na API REST o WER não é multiplicado por 100; no portal o quociente é multiplicado por 100 e exibido em percentual. Logo, 0,2 na API equivale a 20% no portal. L2-R06 julga a fórmula; este item julga só a escala de apresentação.
+- Justificativa: Dado sujeito a mudança (baixo). Na CLI e na API REST o WER não é multiplicado por 100; no portal o quociente é multiplicado por 100 e exibido em percentual. Logo, 0,2 na API equivale a 20% no portal. Este item julga só a escala de apresentação, não a fórmula.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R61 — Gabarito: C
 
 - Item do edital: P2-2.4 (aderência: parcial)
-- Justificativa: A Pesquisa Avançada traz o campo Tipo Fala, com as opções Discurso, Fala do Presidente e Questão de Ordem, e uma caixa própria para a Fala do Presidente. O item descreve esse campo e a distinção entre a fala do Presidente da sessão e o discurso dos demais oradores.
+- Justificativa: Dado sujeito a mudança (baixo). A Pesquisa Avançada traz o campo Tipo Fala, com as opções Discurso, Fala do Presidente e Questão de Ordem, e uma caixa própria para a Fala do Presidente. O item descreve esse campo e a distinção entre a fala do Presidente da sessão e o discurso dos demais oradores.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -498,7 +498,7 @@
 ### L2-R66 — Gabarito: C
 
 - Item do edital: P2-2.4 (aderência: parcial)
-- Justificativa: O campo Fase da Pesquisa Avançada lista as fases da sessão plenária (entre elas Pequeno Expediente, Grande Expediente e Ordem do Dia) e as descreve como caracterizando o tempo disponível para a fala dos Deputados e o tipo de discussão.
+- Justificativa: Dado sujeito a mudança (baixo). O campo Fase da Pesquisa Avançada lista as fases da sessão plenária (entre elas Pequeno Expediente, Grande Expediente e Ordem do Dia) e as descreve como caracterizando o tempo disponível para a fala dos Deputados e o tipo de discussão.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -550,7 +550,7 @@
 ### L2-R77 — Gabarito: E
 
 - Item do edital: P2-2.5
-- Justificativa: A documentação lista, entre as regras automáticas, expandir números em palavras (forma falada), e não convertê-los em algarismos; o item troca o sentido da conversão (normalização × normalização inversa).
+- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação lista, entre as regras automáticas, expandir números em palavras (forma falada), e não convertê-los em algarismos; o item troca o sentido da conversão (normalização × normalização inversa). Regra automática do serviço = comportamento padrão de produto.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -572,21 +572,21 @@
 ### L2-R81 — Gabarito: C
 
 - Item do edital: P2-2.5
-- Justificativa: A documentação manda separar por pontos as letras pronunciadas da sigla (A.B.C.) e ligar por hífen o s do plural (A.B.C.-s); o item é o espelho da troca sutil "C.P.I.s" ou "CPI-s", que seria incorreta.
+- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação manda separar por pontos as letras pronunciadas da sigla (A.B.C.) e ligar por hífen o s do plural (A.B.C.-s); as grafias "C.P.I.s" ou "CPI-s" estariam incorretas. O dado pode mudar, pois a própria página ressalva que siglas não são suportadas em todos os idiomas; o item não afirma suporte a nenhum idioma.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R82 — Gabarito: C
 
 - Item do edital: P2-2.5
-- Justificativa: Na ITN personalizada o usuário especifica a saída que deseja ver, e o serviço deduz como as palavras podem ser faladas (o código JO:500 pode ser dito "J O" ou "joe", "five hundred" ou "five oh oh").
+- Justificativa: Dado sujeito a mudança (baixo/médio). Na ITN personalizada o usuário especifica a saída que deseja ver, e o serviço deduz como as palavras podem ser faladas (o código JO:500 pode ser dito "J O" ou "joe", "five hundred" ou "five oh oh"). O dado pode mudar, pois é recurso de custom speech que a página condiciona a locais com suporte (pt-BR consta da lista da página).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R83 — Gabarito: C
 
 - Item do edital: P2-2.5
-- Justificativa: O normalizador de texto do Whisper para o inglês remove vírgulas entre algarismos (comentário e expressão regular do código); aplicado a "3,5" sem adaptação, o resultado é "35", porque a remoção ocorre antes da padronização dos números. O item não afirma que o Whisper é inadequado ao português, e sim que esse normalizador, sem adaptação, distorce valores decimais escritos com vírgula; é o espelho da troca "o normalizador do inglês serve ao português sem adaptação".
+- Justificativa: O normalizador de texto do Whisper para o inglês remove vírgulas entre algarismos (comentário e expressão regular do código); aplicado a "3,5" sem adaptação, o resultado é "35", porque a remoção ocorre antes da padronização dos números. O item não afirma que o Whisper é inadequado ao português, e sim que esse normalizador, sem adaptação, distorce valores decimais escritos com vírgula. A afirmação oposta ("o normalizador do inglês serve ao português sem adaptação") estaria errada.
 
 ### L2-R84 — Gabarito: E
 
@@ -596,7 +596,7 @@
 ### L2-R85 — Gabarito: E
 
 - Item do edital: P2-2.5 (aderência: parcial)
-- Justificativa: Com a opção de descartar diacríticos, a docstring prevê que os diacríticos são descartados, de modo que "sessão" e "sessao" ficam idênticas; sem a opção (padrão desligado), mantêm-se distintas. O item afirma que continuam distintas com o descarte.
+- Justificativa: Dado sujeito a mudança (baixo). Com a opção de descartar diacríticos, a docstring prevê que os diacríticos são descartados, de modo que "sessão" e "sessao" ficam idênticas; sem a opção (padrão desligado), mantêm-se distintas. O item afirma que continuam distintas com o descarte. O dado pode mudar, pois o gabarito depende de opção configurável de módulo periférico do Whisper (normalizador de avaliação).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -613,7 +613,7 @@
 ### L2-R88 — Gabarito: E
 
 - Item do edital: P2-2.5
-- Justificativa: A normalização de transcrição do Google troca trechos do texto por frases escolhidas pelo usuário, e cada entrada informa se a busca distingue maiúsculas de minúsculas. Com a busca sensível à caixa, "Tcu" não corresponde a "TCU": só as duas ocorrências com a grafia exata são trocadas, e não as três. O item troca "duas" por "três", isto é, ignora a sensibilidade à caixa que o próprio enunciado fixa.
+- Justificativa: A normalização de transcrição do Google troca trechos do texto por frases escolhidas pelo usuário, e cada entrada informa se a busca distingue maiúsculas de minúsculas. Com a busca sensível à caixa, "Tcu" não corresponde a "TCU": só as duas ocorrências com a grafia exata são trocadas, e não as três. O item troca "duas" por "três", isto é, ignora a sensibilidade à caixa que o próprio enunciado fixa. Não é dado sujeito a mudança: a sensibilidade à caixa é premissa declarada no enunciado, que não nomeia campo, limite nem padrão.
 
 ### L2-R89 — Gabarito: E
 
@@ -623,7 +623,7 @@
 ### L2-R90 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: Um tick equivale a 100 nanossegundos, isto é, a um décimo de milionésimo de segundo; 12.500.000 ticks ÷ 10.000.000 ticks por segundo = 1,25 s (conta conferida por script). O deslocamento é contado a partir do primeiro byte de áudio processado.
+- Justificativa: Um tick equivale a 100 nanossegundos, isto é, a um décimo de milionésimo de segundo; 12.500.000 ticks ÷ 10.000.000 ticks por segundo = 1,25 s. O deslocamento é contado a partir do primeiro byte de áudio processado.
 
 ### L2-R91 — Gabarito: C
 
@@ -633,7 +633,7 @@
 ### L2-R92 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: O deslocamento começa em zero no primeiro byte processado, isto é, quando o reconhecimento começa; com início dez minutos depois da transmissão, a marca zero não coincide com o início do vídeo, e a soma dos dez minutos é consequência aritmética. O item é o espelho da troca "o deslocamento é contado desde o início da transmissão".
+- Justificativa: O deslocamento começa em zero no primeiro byte processado, isto é, quando o reconhecimento começa; com início dez minutos depois da transmissão, a marca zero não coincide com o início do vídeo, e a soma dos dez minutos é consequência aritmética. A afirmação oposta ("o deslocamento é contado desde o início da transmissão") estaria errada.
 
 ### L2-R93 — Gabarito: E
 
@@ -643,7 +643,7 @@
 ### L2-R94 — Gabarito: C
 
 - Item do edital: P2-2.6 (aderência: parcial)
-- Justificativa: A documentação informa o índice inicial padrão 0 do serviço, diferente do 1, mais usado, e adverte para erros de compatibilidade; recomenda verificar o índice exigido antes de criar as legendas.
+- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação informa o índice inicial padrão 0 do serviço, diferente do 1, mais usado, e adverte para erros de compatibilidade; recomenda verificar o índice exigido antes de criar as legendas. O dado pode mudar, pois é padrão do produto; o item não nomeia o parâmetro que altera o índice.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -655,7 +655,7 @@
 ### L2-R96 — Gabarito: E
 
 - Item do edital: P2-2.6
-- Justificativa: A documentação manda, quando falta a opção de adicionar nova linha entre duas linhas (porque não há intervalo entre o fim de uma e o início da seguinte), ajustar os horários de início e de término das linhas vizinhas para que a nova linha caiba onde se deseja; o item troca horário por texto. O espaço de uma nova linha é um intervalo de tempo na linha do tempo do editor.
+- Justificativa: A documentação manda, quando falta a opção de adicionar nova linha entre duas linhas (porque não há intervalo entre o fim de uma e o início da seguinte), ajustar os horários de início e de término das linhas vizinhas para que a nova linha caiba onde se deseja; o item troca horário por texto. O espaço de uma nova linha é um intervalo de tempo na linha do tempo do editor. Não é dado sujeito a mudança: mecanismo documentado de função do editor, sem versão, limite, padrão ou parâmetro nomeado.
 
 ### L2-R97 — Gabarito: E
 
@@ -670,14 +670,14 @@
 ### L2-R99 — Gabarito: C
 
 - Item do edital: P2-2.6
-- Justificativa: O README informa que o texto é salvo automaticamente no localStorage do navegador, que é armazenamento do navegador do equipamento e não de servidor; a segunda parte do enunciado é consequência desse armazenamento.
+- Justificativa: Dado sujeito a mudança (baixo). O README informa que o texto é salvo automaticamente no localStorage do navegador, que é armazenamento do navegador do equipamento e não de servidor; a segunda parte do enunciado é consequência desse armazenamento. O dado pode mudar, pois é recurso de uma ferramenta específica, periférico ao tema.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R100 — Gabarito: E
 
 - Item do edital: P2-2.6
-- Justificativa: A documentação diz que, nas várias edições da mesma linha, só a última versão é usada para atualizar o modelo de linguagem; o item afirma que todas as versões sucessivas são usadas.
+- Justificativa: Dado sujeito a mudança (baixo/médio). A documentação diz que, nas várias edições da mesma linha, só a última versão é usada para atualizar o modelo de linguagem; o item afirma que todas as versões sucessivas são usadas. O dado pode mudar, pois é comportamento de produto, em página compartilhada por duas ofertas do serviço.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -689,7 +689,7 @@
 ### L2-R102 — Gabarito: C
 
 - Item do edital: P2-2.6 (aderência: parcial)
-- Justificativa: Com legendas, o serviço produz também o arquivo de transcrição regular, que contém informações adicionais; o revisor pode recorrer a ele quando a legenda não bastar. O item é o espelho da troca "a legenda contém todas as informações e o serviço não gera outro arquivo".
+- Justificativa: Com legendas, o serviço produz também o arquivo de transcrição regular, que contém informações adicionais; o revisor pode recorrer a ele quando a legenda não bastar. A afirmação oposta ("a legenda contém todas as informações e o serviço não gera outro arquivo") estaria errada.
 
 ### L2-R103 — Gabarito: E
 
@@ -779,14 +779,14 @@
 ### L2-R120 — Gabarito: C
 
 - Item do edital: P2-2.8
-- Justificativa: O serviço ignora o token inválido sem acionar erro e aproveita o resto da frase como contexto; a falha é silenciosa.
+- Justificativa: Dado sujeito a mudança (baixo). O serviço ignora o token inválido sem acionar erro e aproveita o resto da frase como contexto; a falha é silenciosa.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L2-R121 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: A lista de frases é recurso de tempo de execução, não exige treinamento, mas não é suportada pela API de transcrição em lote.
+- Justificativa: Dado sujeito a mudança (baixo). A lista de frases é recurso de tempo de execução, não exige treinamento, mas não é suportada pela API de transcrição em lote.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -808,7 +808,7 @@
 ### L2-R125 — Gabarito: E
 
 - Item do edital: P2-2.8
-- Justificativa: Para usar um vocabulário personalizado, ele deve ter sido criado na mesma região da AWS da transcrição.
+- Justificativa: Dado sujeito a mudança (baixo). Para usar um vocabulário personalizado, ele deve ter sido criado na mesma região da AWS da transcrição.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 

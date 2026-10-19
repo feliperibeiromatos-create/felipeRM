@@ -1,0 +1,2 @@
+"id_edicao","ids_ocorrencia","objeto","caminho","lote","categoria","acao","regra","antes","depois","fonte_origem","tabela","parecer_qa","aceite","nota"
+"GBQ-0004","D-C10-8984f5b2","SIM-0","simulados[SIM-0].avisos[2]","SIMULADO","C10","MANTER","5","nenhum item aprovado foi removido para equilibrar","","","saida/pacote/T108_substituicoes_GBQ.csv (SHA-256 528eb620dc6c95e1e27390fe90774acb861e391a467ff969932cd12f97a323dd)","","D1 da GBQ (T108_D1_pacote_M2, 1.9; T108_D1_pre_FINAL, 3)","Conteúdo à candidata sobre o equilíbrio C/E. Não é instrução interna."

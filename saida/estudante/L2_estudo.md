@@ -27,10 +27,10 @@ automação.
 2.3 FIDELIDADE ≠ literalidade. Graus: literal / verbatim limpo / editado,
 por decisão da instituição. Critérios: exatidão, completude, nomes-siglas-números, consistência, conformidade, rastreabilidade (inaudível se
 marca, não se completa). Erro de sentido > erro de forma. Prática
-oficial: revisão e redação final; notas sem e com redação final.
+oficial: revisão e redação final; notas sem e com redação final (Rol do DETAQ, no portal da Câmara).
 2.4 FORMATAÇÃO: orador padronizado e troca sinalizada; tipo de
 intervenção (aparte, fala do Presidente, pela ordem, questão de ordem…
-na lista do Banco de Discursos); pausa só se relevante;
+na lista do Banco de Discursos, verificado em 08/10/2026); pausa só se relevante;
 eventos não falados em convenção ÚNICA e distinguível; sobreposição
 registrada. Rótulo de diarização ≠ identificação. O aparteante tem
 rótulo próprio. Forma de identificar o orador: observada nas notas oficiais de 2026. Convenção da Câmara para marcação de pausas e eventos não falados e para grafia: NÃO VERIFICADA.
@@ -40,11 +40,11 @@ regra única e glossário. Não corrige o conteúdo. Ambiguidade (ano ×
 quantidade). Também usada para normalizar antes do WER. Manual de
 Redação: obrigatório para documentos administrativos, recomendado para o
 resto (Portaria DG nº 77/2017).
-2.6 CAT do edital = TRANSCRIÇÃO assistida; na taquigrafia, traduz as notas estenotípicas em texto. "Tradução das notas" = decifrar os
+2.6 CAT do edital = TRANSCRIÇÃO assistida; na taquigrafia, traduz as notas estenotípicas em texto ("Computer-Aided Transcription in the Courts", do OJP/NCJRS, Departamento de Justiça dos EUA, verificado em 08/10/2026). "Tradução das notas" = decifrar os
 sinais, não verter de idioma. Memória de tradução é recurso de tradução
 entre idiomas, não da transcrição assistida. Editor: áudio sincronizado,
 timecodes, rótulos, glossário, histórico, exportação. WebVTT: segmentos
-com tempo e voice span para falante. Produto comercial:
+com tempo e voice span para falante (verificado em 08/10/2026). Produto comercial:
 NÃO VERIFICADO.
 2.7 DUPLA REVISÃO = segundo revisor INDEPENDENTE. AUDITORIA = amostra
 estima a qualidade; não prova ausência de erro no resto. SLA = metas de
@@ -64,7 +64,7 @@ dados separados, com WER geral e acerto de termos.
 DEFINIÇÃO
 Três conceitos que o edital manda diferenciar:
  - Transcrição automática: texto produzido por software de
-   reconhecimento de fala (ASR, Lote 1) a partir do áudio, sem
+   reconhecimento de fala (ASR, item 1.1) a partir do áudio, sem
    intervenção humana na produção. A saída é um RASCUNHO: não garante
    fidelidade em nomes, siglas, números, pontuação nem atribuição de
    falas.
@@ -72,7 +72,7 @@ Três conceitos que o edital manda diferenciar:
    escrito, tradicionalmente por uma pessoa que ouve e redige, com ou
    sem apoio de ferramentas. É feita DEPOIS, sobre a gravação. Contrasta
    com a taquigrafia, que registra a fala simultaneamente, ao vivo.
-   [definição de uso corrente; sem fonte oficial verificada.]
+   [Definição de uso corrente; sem fonte oficial verificada.]
  - Revisão humana: etapa em que pessoa qualificada confronta o texto
    (automático ou degravado) com o áudio e com o contexto (pauta, lista
    de oradores, glossário), corrige conteúdo e forma segundo critérios
@@ -82,16 +82,15 @@ degravação = trabalho humano a partir da gravação; revisão = controle
 de qualidade e responsabilidade pelo texto final.
 
 Contexto institucional: o Banco de Discursos reúne notas taquigráficas
-registradas pelo Derep (antigo DETAQ),
+registradas pelo Derep (antigo DETAQ) (página "Como pesquisar no Banco de Discursos", da Câmara, verificado em 08/10/2026),
 Departamento de Registro Oficial e Redação Parlamentar, por força do
-Ato da Mesa nº 251/2026. A prática
+Ato da Mesa nº 251/2026 (Legin, verificado em 08/10/2026). A prática
 oficial inclui a revisão e a redação final
 dos pronunciamentos, com divulgação das notas sem redação final e,
-depois, com redação final. Como curiosidade
+depois, com redação final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026). Como curiosidade
 histórica, a Ordem de Serviço nº 1/1970 tratava a primeira tradução das
 notas como rascunho sujeito a correção e a suprimento de omissões, antes
-da versão definitiva [norma de
-caráter experimental, não cobrar o texto].
+da versão definitiva (Ordem de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, norma de caráter experimental, verificado em 08/10/2026).
 
 EXEMPLO PARLAMENTAR
 Audiência pública em comissão. (1) O sistema gera, em minutos, uma
@@ -137,7 +136,7 @@ Fluxo típico, em ordem:
 Nota de confiança: muitos ASR devolvem pontuação de confiança por
 palavra. Serve para PRIORIZAR a atenção do revisor, não para dispensar
 a leitura: o sistema pode errar com alta confiança, e o modelo pode
-gerar texto fluente e falso (Lote 1, itens 1.2 e 1.3). Risco humano
+gerar texto fluente e falso (itens 1.2 e 1.3). Risco humano
 associado: viés de automação, a tendência de aceitar o texto da máquina
 por parecer plausível.
 
@@ -173,9 +172,9 @@ Qual grau vale é decisão editorial da instituição, explícita e aplicada
 de modo uniforme.
 Contexto oficial: a prática da Câmara inclui a revisão e a redação final
 dos pronunciamentos e debates; as notas taquigráficas são divulgadas sem
-redação final e, depois, com Redação Final. O
+redação final e, depois, com Redação Final (Rol do DETAQ, no portal da Câmara, verificado em 08/10/2026). O
 departamento responsável hoje se chama Departamento de Registro Oficial e
-Redação Parlamentar. O curso NÃO afirma critério gramatical da
+Redação Parlamentar (Ato da Mesa nº 251/2026 da Câmara, no Legin). O curso NÃO afirma critério gramatical da
 Câmara: mostra apenas que existe etapa de revisão e redação final.
 
 Critérios de qualidade usuais na revisão:
@@ -205,8 +204,7 @@ PEGADINHA PROVÁVEL
 gramatical é infidelidade (ou, no extremo oposto, o revisor pode
 "melhorar" o conteúdo). (3) Completar o inaudível pelo contexto sem
 marcar. (4) Tratar todos os erros como equivalentes. (5) Reduzir
-qualidade a um número único de acerto de palavras (tema do Lote 1,
-não repetido aqui).
+qualidade a um número único de acerto de palavras (tema dos itens 1.1 a 1.8, não repetido aqui).
 
 ## 2.4 FORMATAÇÃO DE TRANSCRIÇÕES PARLAMENTARES
 
@@ -221,8 +219,8 @@ TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
    por tipos como aparte, apresentação de proposição, declaração de
    voto, encaminhamento de votação, fala do Presidente (ou no exercício
    da Presidência), orientação de bancada, pela ordem, questão de ordem
-   e registro de voto. Lição: aparte e fala do
-   Presidente são categorias distintas do discurso principal. A lista pode mudar; nenhum item depende dela. Lista variável conforme a consulta à página (08/10/2026).
+   e registro de voto (Banco de Discursos da Câmara, Pesquisa Avançada, verificado em 08/10/2026). Lição: aparte e fala do
+   Presidente são categorias distintas do discurso principal. A lista pode mudar. Lista variável conforme a consulta à página (08/10/2026).
  - Marcação de pausa: depende do grau de fidelidade (2.3); numa
    transcrição editada, só pausa que tenha relevância para o registro.
  - Eventos não falados e ruído: palmas, risos, trecho inaudível, fala
@@ -234,10 +232,10 @@ TIPO DE INTERVENÇÃO e O QUE aconteceu além da fala. Elementos:
    quê.
 Ligação com o 1.4: diarização separa locutores com rótulos genéricos;
 a identificação por NOME é cadastro ou atribuição humana. Adendo de
-pegadinha do título do edital: ver o complemento do Lote 1 (adendo ao 1.4).
+pegadinha do título do edital: ver o adendo ao item 1.4.
 
 EXEMPLO PARLAMENTAR
-O orador discursa; outro parlamentar pede um aparte; o Presidente interrompe para advertir sobre o tempo. Aparte: interrupção breve e oportuna do orador, por outro Deputado que obtém sua permissão (RICD, art. 176, caput e § 1º). O registro taquigráfico do aparte é a regra; o não apanhamento depende de determinação do Presidente (RICD, art. 17, I, 'h'). Texto bem formatado: três
+O orador discursa; outro parlamentar pede um aparte; o Presidente interrompe para advertir sobre o tempo. Aparte: interrupção breve e oportuna do orador, por outro Deputado que obtém sua permissão (RICD, art. 176, caput e § 1º) (Legin, verificado em 08/10/2026). O registro taquigráfico do aparte é a regra; o não apanhamento depende de determinação do Presidente (RICD, art. 17, I, 'h'). Texto bem formatado: três
 orações com rótulos distintos, o aparte identificado como aparte, a fala
 do Presidente identificada como tal e a sobreposição final sinalizada
 por marca única.
@@ -276,7 +274,7 @@ Norma de referência: a Câmara tem Manual de Redação. A Portaria DG nº
 77/2017 determina o uso das normas de padronização do Manual para os
 documentos administrativos (art. 2º, caput) e as recomenda para as
 demais modalidades de material escrito, respeitadas as características
-de cada gênero textual (art. 2º, parágrafo único). O conteúdo do Manual sobre números e siglas NÃO foi
+de cada gênero textual (art. 2º, parágrafo único) (Portaria DG nº 77/2017 da Câmara, no Legin, verificado em 08/10/2026). O conteúdo do Manual sobre números e siglas NÃO foi
 verificado. Ilustrativo apenas: "projeto de lei mil duzentos e
 trinta e quatro de dois mil e vinte e seis" → "PL 1.234/2026" (a forma
 exata dependeria do manual da Casa).
@@ -307,12 +305,12 @@ administrativos e apenas recomenda para os demais.
 DEFINIÇÃO
 O edital escreve "CAT (Computer Assisted Transcription)": transcrição
 assistida por computador.
-SENTIDO PRÓPRIO NA TAQUIGRAFIA: software que traduz as notas da máquina estenotípica em texto.
+SENTIDO PRÓPRIO NA TAQUIGRAFIA: software que traduz as notas da máquina estenotípica em texto ("Computer-Aided Transcription in the Courts", do OJP/NCJRS, Departamento de Justiça dos EUA, verificado em 08/10/2026).
 Em torno desse sentido estão os editores de transcrição de áudio, onde o
 revisor trabalha o rascunho do ASR. ATENÇÃO À PALAVRA "tradução": no
 jargão da taquigrafia, "tradução das notas" é decifrar os sinais
 registrados e passá-los para texto, e NÃO verter o texto para outro
-idioma [contexto histórico]. A
+idioma (Ordem de Serviço nº 1/1970 da Primeira-Secretaria da Câmara, no Legin, contexto histórico, verificado em 08/10/2026). A
 "memória de tradução", que reaproveita segmentos já traduzidos entre
 idiomas, é recurso de ferramentas de tradução e não é o recurso central
 da transcrição assistida.
@@ -331,10 +329,11 @@ produto):
  - Exportação em formatos de texto, de documento e de legenda.
 Formato de legenda como exemplo de padrão técnico: o WebVTT organiza o
 texto em segmentos (cues) associados a intervalos de tempo e admite
-indicar o falante de cada segmento por marcação própria (voice span). Serve para legendas e também
+indicar o falante de cada segmento por marcação própria (voice span)
+(especificação WebVTT, do W3C, trecho indexado, verificado em 08/10/2026). Serve para legendas e também
 carrega informação de locutor.
 Segurança: se o editor é local ou em nuvem decide onde o áudio fica
-(custódia; Lote 1, item 1.8; Lote 3, item 4.3).
+(custódia; itens 1.8 e 4.3).
 
 EXEMPLO PARLAMENTAR
 O revisor abre a reunião no editor, clica na fala do relator, ouve o
@@ -389,10 +388,10 @@ garante zero erros.
 ## 2.8 VOCABULÁRIO TÉCNICO PARLAMENTAR E MODELO DE LINGUAGEM ADAPTADO
 
 NOTA DE ESCOPO (sobreposição com o 1.6)
-O Lote 1 já cobre o que são adaptação de vocabulário (lista de termos),
+O item 1.6 já cobre o que são adaptação de vocabulário (lista de termos),
 modelo de linguagem customizado e customização acústica, e a regra de
 que sotaque pede dados acústicos. Este item aprofunda o que é PRÓPRIO
-do 2.8; não repete os julgamentos de Q12 a Q14 do Lote 1.
+do 2.8; não repete os julgamentos do item 1.6.
 
 DEFINIÇÃO
  - Vocabulário técnico parlamentar (o que adaptar): siglas (PEC, MPV,
@@ -422,7 +421,7 @@ DEFINIÇÃO
    teste; medir o WER geral e também o acerto dos termos-alvo, antes e
    depois.
  - Dados de adaptação: textos de pronunciamentos e atas podem envolver
-   direitos autorais e dados pessoais (Lote 3, itens 4.1 e 4.2).
+   direitos autorais e dados pessoais (itens 4.1 e 4.2).
 
 EXEMPLO PARLAMENTAR
 Em 2027 entram novos parlamentares: nomes que o modelo nunca viu viram
@@ -477,7 +476,7 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Qualquer correção gramatical é infidelidade (ou, no extremo oposto, o revisor pode "melhorar" o conteúdo).
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Completar o inaudível pelo contexto sem marcar.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Tratar todos os erros como equivalentes.
-- [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Reduzir qualidade a um número único de acerto de palavras (tema do Lote 1, não repetido aqui).
+- [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Reduzir qualidade a um número único de acerto de palavras (tema dos itens 1.1 a 1.8, não repetido aqui).
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Confundir marcação (evento) com fala.
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Afirmar que toda pausa deve ser registrada.
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Misturar fala do Presidente, aparte e discurso numa só linha.

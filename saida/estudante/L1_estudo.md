@@ -112,7 +112,8 @@ a construção separada de modelo acústico + léxico + modelo de linguagem.
 Toda a rede é otimizada conjuntamente para o objetivo final (texto
 correto). Famílias arquiteturais mais citadas: CTC (Connectionist
 Temporal Classification), RNN-Transducer e codificador-decodificador com
-atenção (Transformers). O Whisper, da OpenAI, é um codificador-decodificador Transformer treinado com supervisão fraca em larga escala.
+atenção (Transformers). O Whisper, da OpenAI, é um codificador-decodificador Transformer treinado com supervisão fraca em larga escala
+(artigo do Whisper, "Robust Speech Recognition via Large-Scale Weak Supervision", 06/12/2022; repositório openai/whisper no GitHub, verificado em 07/10/2026).
 
 O que "end-to-end" NÃO significa:
  - não significa "sem dados rotulados": continua precisando de pares
@@ -121,7 +122,7 @@ O que "end-to-end" NÃO significa:
  - não significa "sem modelo de linguagem": o conhecimento linguístico
    fica implícito na rede e, em muitos sistemas, ainda se pode acoplar
    um modelo de linguagem externo na decodificação;
- - não significa "sem pré-processamento": em geral (por exemplo, no Whisper) o áudio é convertido em espectrograma antes de entrar na rede; há modelos que recebem a forma de onda bruta (por exemplo, wav2vec 2.0, arXiv 2006.11477, seção 2).
+ - não significa "sem pré-processamento": em geral (por exemplo, no Whisper) o áudio é convertido em espectrograma antes de entrar na rede; há modelos que recebem a forma de onda bruta (por exemplo, wav2vec 2.0, arXiv 2006.11477, seção 2, verificado em 08/10/2026).
 
 Vantagens: simplicidade de treinamento, melhor desempenho com muitos
 dados, menos engenharia manual de pronúncia. Custos: exige grande volume
@@ -154,17 +155,17 @@ Evidência de que a categoria existe comercialmente:
  - OpenAI: o guia oficial distingue (i) "Audio in Chat Completions"
    (entrada/saída de áudio em requisições multimodais), (ii) a Realtime
    API e o GPT-Live (agentes fala-a-fala) e (iii) os endpoints dedicados
-   de transcrição de arquivo e transcrição ao vivo.
+   de transcrição de arquivo e transcrição ao vivo (documentação da OpenAI sobre áudio, verificado em 07/10/2026).
  - Google: a documentação "Audio understanding" descreve o uso de áudio
    como entrada dos modelos Gemini para transcrição, sumarização e
    análise de trechos por timestamp; a mesma documentação informa que
-   cada segundo de áudio é representado por 32 tokens. Há também um modelo dedicado de transcrição (gemini-3.5-transcribe) com diarização, timestamps por palavra e dicas de vocabulário
+   cada segundo de áudio é representado por 32 tokens (documentação do Google sobre áudio e transcrição na API Gemini, verificado em 07/10/2026). Há também um modelo dedicado de transcrição (gemini-3.5-transcribe) com diarização, timestamps por palavra e dicas de vocabulário
    (custom_vocabulary); as dicas de vocabulário não se combinam com
-   diarização nem com timestamps por palavra.
+   diarização nem com timestamps por palavra (documentação do Google sobre áudio e transcrição na API Gemini, página /transcribe, verificado em 07/10/2026).
 
 Contraste: ASR aprimorado por LLM. O "LLM speech" do Azure AI Speech é
 um exemplo de outra categoria — um serviço de ASR aprimorado por LLM,
-que transcreve ou traduz áudio PRÉ-GRAVADO. Não é
+que transcreve ou traduz áudio PRÉ-GRAVADO (documentação da Microsoft sobre o Azure AI Speech, verificado em 07/10/2026). Não é
 um LLM de áudio nativo conversacional: é reconhecimento de fala com
 qualidade e contexto reforçados por LLM. A distinção importa para a
 prova: "usa LLM" não é sinônimo de "áudio nativo".
@@ -188,7 +189,7 @@ PEGADINHA PROVÁVEL
 cascata só recebe texto. (2) Dizer que o LLM nativo "elimina a necessidade de revisão humana" — contraria o próprio edital (2.2, human in the
 loop). (3) Confundir "transcrição por LLM" com "ASR dedicado": o próprio
 fornecedor recomenda endpoint dedicado para transcrição de arquivos e
-LLM/Realtime para conversação. (4) Confundir "ASR
+LLM/Realtime para conversação (documentação da OpenAI sobre áudio, verificado em 07/10/2026). (4) Confundir "ASR
 aprimorado por LLM" com "LLM de áudio nativo". (5) Nomes e versões de
 modelos mudam em meses: a banca pode cobrar o CONCEITO, não o nome do
 produto.
@@ -213,16 +214,17 @@ Três conceitos que a banca adora misturar:
    alegada (1 para 1), como em autenticação.
 A diarização pode ser ligada à identificação quando se fornecem amostras de referência: a API da OpenAI permite até quatro referências
 curtas (2 a 10 s) com nomes de locutores conhecidos para mapear os
-segmentos.
+segmentos (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
 
 Limitações recorrentes: fala sobreposta (apartes), locutores com vozes
 parecidas, mudança rápida de orador, áudio de canal único com ruído de
 plenário. A disponibilidade por modo varia entre fornecedores: no
 Google Speech-to-Text V2, não há diarização em StreamingRecognize no
-modelo chirp_3; na OpenAI, a rotulagem de locutores
+modelo chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026); na OpenAI, a rotulagem de locutores
 está no endpoint de transcrição de arquivo e não é suportada em sessões
-Realtime de transcrição; em contrapartida, o Amazon
-Transcribe oferece diarização em streaming (parâmetro ShowSpeakerLabel). A lição para a prova: "diarização em streaming"
+Realtime de transcrição (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026); em contrapartida, o Amazon
+Transcribe oferece diarização em streaming (parâmetro ShowSpeakerLabel)
+(referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026). A lição para a prova: "diarização em streaming"
 não é regra geral nem impossibilidade geral — depende do serviço.
 
 EXEMPLO PARLAMENTAR
@@ -250,11 +252,12 @@ interrogações e maiúsculas. Duas formas de obter isso:
  2. Geração direta: modelos end-to-end modernos aprendem a emitir texto
     já pontuado e capitalizado, como parte da própria saída. No chirp_3,
     pontuação e capitalização automáticas são geradas pelo modelo e
-    podem ser desativadas. No Amazon Transcribe, o
-    serviço adiciona pontuação e formatação de números.
+    podem ser desativadas (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026). No Amazon Transcribe, o
+    serviço adiciona pontuação e formatação de números (visão geral da documentação do Amazon Transcribe, verificado em 07/10/2026).
 Recurso DIFERENTE: "pontuação falada" (spoken punctuation), em que o
 orador dita "vírgula", "ponto", e o sistema converte a palavra no sinal.
-O Google documenta esse recurso separadamente da pontuação automática. Isso serve para ditado, não para
+O Google documenta esse recurso separadamente da pontuação automática
+(documentação do Google Cloud sobre o modelo Chirp 3, menu de recursos, verificado em 07/10/2026). Isso serve para ditado, não para
 sessões.
 
 EXEMPLO PARLAMENTAR
@@ -288,21 +291,21 @@ DEFINIÇÃO / MAPA DOS DESAFIOS
  6. Desequilíbrio de dados: há muito menos áudio transcrito em pt-BR
     que em inglês; modelos multilíngues cobrem pt-BR, mas a acurácia
     varia por idioma (a própria OpenAI avisa que, no Whisper, a acurácia
-    varia entre os idiomas suportados).
+    varia entre os idiomas suportados) (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
 
 FERRAMENTAS DE MITIGAÇÃO (o que cada fornecedor chama de quê):
  - Google: "speech adaptation"/model adaptation — lista de palavras e
    frases que elevam a probabilidade de reconhecimento; o chirp_3 aceita
    até 1.000 frases, e a própria documentação recomenda poucas entradas
-   para não degradar o resto.
- - AWS: "custom vocabulary" (acrescenta termos ao vocabulário base) e "custom language model" (CLM), treinado com dados
+   para não degradar o resto (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026).
+ - AWS: "custom vocabulary" (acrescenta termos ao vocabulário base) (visão geral da documentação do Amazon Transcribe, verificado em 07/10/2026) e "custom language model" (CLM), treinado com dados
    de TEXTO do domínio fornecidos pelo usuário, recurso distinto do
-   custom vocabulary. CLM indisponível para pt-BR
-   na tabela oficial; para pt-BR, o recurso de
+   custom vocabulary (documentação do Amazon Transcribe sobre modelos de linguagem personalizados, verificado em 07/10/2026). CLM indisponível para pt-BR
+   na tabela oficial (documentação do Amazon Transcribe sobre idiomas suportados, verificado em 07/10/2026); para pt-BR, o recurso de
    mitigação lexical documentado é o custom vocabulary.
  - Azure: "custom speech" — modelos personalizados treinados com dados
-   acústicos, de linguagem e de pronúncia.
- - OpenAI: parâmetros prompt, keywords e languages no modelo de transcrição recomendado; no whisper-1, prompt limitado a 224 tokens.
+   acústicos, de linguagem e de pronúncia (documentação da Microsoft sobre o Azure AI Speech, verificado em 07/10/2026).
+ - OpenAI: parâmetros prompt, keywords e languages no modelo de transcrição recomendado; no whisper-1, prompt limitado a 224 tokens (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
 Distinção decisiva: adaptação de vocabulário é VIÉS de reconhecimento
 (empurra o decodificador para termos esperados); não é retreinamento
 acústico e não garante acerto em qualquer condição. Sotaque se trata
@@ -335,17 +338,17 @@ já existe e é processado inteiro. Características do streaming:
  - "endpointing": decisão de que o orador terminou uma frase, geralmente
    por silêncio; sensibilidade maior = resposta mais rápida, mas risco
    de cortar o orador — o Google documenta três níveis de sensibilidade
-   e avisa exatamente esse risco;
+   e avisa exatamente esse risco (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026);
  - estabilização de resultados parciais: recurso para reduzir "idas e
    vindas" do texto exibido (documentado pela AWS como partial-result
-   stabilization);
+   stabilization) (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026);
  - recursos que podem não existir em streaming — e isso varia por
-   fornecedor: diarização ausente em StreamingRecognize do chirp_3 e nas sessões Realtime da OpenAI, mas disponível em streaming no Amazon Transcribe; na AWS, a identificação automática de idioma em streaming não
-   pode ser combinada com CLM nem com redação de PII.
+   fornecedor: diarização ausente em StreamingRecognize do chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026) e nas sessões Realtime da OpenAI (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026), mas disponível em streaming no Amazon Transcribe (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026); na AWS, a identificação automática de idioma em streaming não
+   pode ser combinada com CLM nem com redação de PII (referência da API StartStreamTranscription, da AWS, verificado em 07/10/2026).
 Cuidado conceitual: "streaming de SAÍDA" ≠ "tempo real". Na OpenAI, o
 endpoint de transcrição de arquivo aceita stream=true para devolver o
 texto aos poucos enquanto processa um ARQUIVO COMPLETO; áudio ao vivo
-de microfone usa a Realtime/Live transcription, outro fluxo.
+de microfone usa a Realtime/Live transcription, outro fluxo (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
 
 EXEMPLO PARLAMENTAR
 Legenda ao vivo da sessão na TV Câmara: streaming com baixa latência;
@@ -369,19 +372,21 @@ Observação: o edital grafa "Whisper (Open AI)"; a grafia oficial do
 fornecedor é "OpenAI". A diferença não afeta o julgamento de itens.
  - Modelo de código aberto, com código e pesos publicados no GitHub
    (openai/whisper) sob licença MIT; pode ser executado localmente, sem
-   enviar áudio a terceiros — relevante para dados sensíveis.
+   enviar áudio a terceiros — relevante para dados sensíveis (repositório openai/whisper no GitHub, verificado em 07/10/2026).
  - A documentação da API informa que o Whisper suporta 98 idiomas, com
-   acurácia variável por idioma.
+   acurácia variável por idioma (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
  - Na API: whisper-1 é indicado quando se precisa de timestamps por
    palavra/segmento, formatos de legenda ou tradução para o inglês
    (endpoint /audio/translations, só para inglês). Para transcrição
    geral, a OpenAI recomenda hoje o modelo gpt-transcribe; para rótulos
-   de locutor, gpt-4o-transcribe-diarize; para áudio ao vivo, a transcrição Realtime (gpt-live-transcribe).
- - Limite de arquivo: 25 MB (dividir arquivos maiores sem cortar frases).
+   de locutor, gpt-4o-transcribe-diarize; para áudio ao vivo, a transcrição Realtime (gpt-live-transcribe) (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
+ - Limite de arquivo: 25 MB (dividir arquivos maiores sem cortar frases)
+   (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
  - Prompt do whisper-1 limitado a 224 tokens; o modelo não segue
-   instruções como um LLM, só usa o prompt como contexto de vocabulário.
+   instruções como um LLM, só usa o prompt como contexto de vocabulário
+   (documentação da OpenAI sobre fala para texto, verificado em 07/10/2026).
 
-GOOGLE CLOUD SPEECH-TO-TEXT
+GOOGLE CLOUD SPEECH-TO-TEXT (documentação do Google Cloud sobre o modelo Chirp 3, verificado em 07/10/2026)
  - Modelo atual: chirp_3, exclusivo da API V2.
  - Três métodos: StreamingRecognize (tempo real), Recognize (áudio
    curto, < 1 min) e BatchRecognize (longo).
@@ -392,39 +397,39 @@ GOOGLE CLOUD SPEECH-TO-TEXT
    prompt de formatação (preview); redutor de ruído (não remove vozes
    humanas de fundo); sensibilidade de endpointing.
 
-AZURE AI SPEECH (Microsoft)
+AZURE AI SPEECH (Microsoft) (documentação da Microsoft sobre o Azure AI Speech; documentação da Microsoft sobre diarização no Azure AI Speech, verificado em 07/10/2026)
  - Modos: transcrição em tempo real (streaming), "fast transcription"
    (arquivo) e transcrição em lote (grandes volumes, assíncrona).
  - Custom speech: modelos personalizados com dados acústicos, de linguagem e de pronúncia, para ruído e jargão de domínio.
- - Diarização documentada em tempo real e na fast transcription;
+ - Diarização documentada em tempo real e na fast transcription (documentação da Microsoft sobre diarização no Azure AI Speech);
    lote e limites por idioma: não verificados.
  - Identificação de idioma; "LLM speech (preview)" para transcribe e
    translate de áudio pré-gravado; execução em nuvem OU em contêineres
    on-premises; acesso por SDK, CLI e REST.
 
-AMAZON TRANSCRIBE (AWS)
+AMAZON TRANSCRIBE (AWS) (documentação do Amazon Transcribe sobre idiomas suportados; visão geral da documentação do Amazon Transcribe; referência da API StartStreamTranscription, da AWS; documentação do Amazon Transcribe sobre modelos de linguagem personalizados, verificado em 07/10/2026)
  - Modos batch (arquivo no S3) e streaming.
- - pt-BR suportado em batch e streaming.
- - Custom vocabulary (termos adicionados ao vocabulário base);
+ - pt-BR suportado em batch e streaming (documentação do Amazon Transcribe sobre idiomas suportados).
+ - Custom vocabulary (termos adicionados ao vocabulário base) (visão geral da documentação do Amazon Transcribe);
    custom language model, treinado com dados de texto, distinto do
-   custom vocabulary; CLM indisponível para pt-BR na tabela
-   oficial.
+   custom vocabulary (documentação do Amazon Transcribe sobre modelos de linguagem personalizados); CLM indisponível para pt-BR na tabela
+   oficial (documentação do Amazon Transcribe sobre idiomas suportados).
  - Filtro de vocabulário (remover termos indesejados); redação de PII;
    particionamento de locutores (diarização), inclusive em streaming
-   (ShowSpeakerLabel); timestamp por palavra; identificação
-   automática de idioma; pontuação e formatação de números.
+   (ShowSpeakerLabel) (referência da API StartStreamTranscription, da AWS); timestamp por palavra; identificação
+   automática de idioma; pontuação e formatação de números (visão geral da documentação do Amazon Transcribe).
  - Restrição documentada: identificação de idioma em streaming não se
-   combina com CLM nem com redação.
+   combina com CLM nem com redação (referência da API StartStreamTranscription, da AWS).
 
 QUADRO-SÍNTESE (categorias, não versões)
  Recurso            | OpenAI        | Google chirp_3 | Azure          | AWS
  Streaming          | sim (Realt.)  | sim            | sim            | sim
  Batch/arquivo      | sim           | sim            | sim            | sim
  Diarização         | sim (arquivo) | sim (não em    | sim (tempo real| sim (batch e
-                    |               | streaming)     | e fast)*       | streaming)
+                    |               | streaming)     | e fast) (documentação da Microsoft sobre diarização no Azure AI Speech)* | streaming)
  Vocab./adaptação   | prompt/keyw.  | ≤1.000 frases  | custom speech  | CV (CLM sem pt-BR)
  Execução local     | Whisper OSS   | não verificado | contêiner      | não verificado
-                    |               |                |                |
+                    | (repositório openai/whisper no GitHub)         |                |                |
  Tradução p/ inglês | sim (whisper-1)| não verificado| sim (speech    | não verificado
                     |               |                | translation)   |
 * Azure: lote e limites por idioma não verificados.
@@ -432,11 +437,11 @@ QUADRO-SÍNTESE (categorias, não versões)
 EXEMPLO PARLAMENTAR
 Escolha de ferramenta para o departamento de registro da Câmara (Derep (antigo DETAQ); Ato da Mesa nº 251/2026): se a exigência
 for "áudio não sai do prédio", entre as opções verificadas estão o
-Whisper local e o contêiner Azure; se for "diarização em
-pt-BR em lote", o Google documenta; se for "legenda ao vivo",
+Whisper local (repositório openai/whisper no GitHub) e o contêiner Azure (documentação da Microsoft sobre o Azure AI Speech); se for "diarização em
+pt-BR em lote", o Google documenta (documentação do Google Cloud sobre o modelo Chirp 3); se for "legenda ao vivo",
 qualquer um dos quatro em modo streaming — sem diarização no caso do
-chirp_3, e sem rótulos de locutor também na transcrição Realtime
-da OpenAI.
+chirp_3 (documentação do Google Cloud sobre o modelo Chirp 3), e sem rótulos de locutor também na transcrição Realtime
+da OpenAI (documentação da OpenAI sobre fala para texto).
 
 PEGADINHA PROVÁVEL
 Trocar o modo em que um recurso existe (diarização em streaming vs
@@ -481,7 +486,7 @@ Ligação com a prática da Casa: na nota taquigráfica, o nome do
 parlamentar vem de cadastro ou da atribuição humana; o rótulo da
 diarização é só ponto de partida (exemplo parlamentar do 1.4).
 Ponte que confunde: diarização ligada à identificação por amostras de
-referência (a API da OpenAI aceita até quatro amostras com nomes) mapeia rótulos para nomes. Aí o nome existe
+referência (a API da OpenAI aceita até quatro amostras com nomes; documentação da OpenAI sobre fala para texto, verificado em 07/10/2026) mapeia rótulos para nomes. Aí o nome existe
 por causa das amostras, não da diarização em si.
 
 PEGADINHAS ADICIONAIS
@@ -519,7 +524,7 @@ amostras terem sido fornecidas.
 - [P2-1.2] **Modelos de fala end-to-end** — Trocar "end-to-end" por "não supervisionado" ou "sem modelo de linguagem". Também: afirmar que modelos end-to-end "nunca alucinam" ou que "sempre superam" os modulares em qualquer condição — generalizações indevidas.
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Dizer que a cascata "preserva prosódia" — não preserva; o LLM da cascata só recebe texto.
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Dizer que o LLM nativo "elimina a necessidade de revisão humana" — contraria o próprio edital (2.2, human in the loop).
-- [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "transcrição por LLM" com "ASR dedicado": o próprio fornecedor recomenda endpoint dedicado para transcrição de arquivos e LLM/Realtime para conversação.
+- [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "transcrição por LLM" com "ASR dedicado": o próprio fornecedor recomenda endpoint dedicado para transcrição de arquivos e LLM/Realtime para conversação (documentação da OpenAI sobre áudio, verificado em 07/10/2026).
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "ASR aprimorado por LLM" com "LLM de áudio nativo".
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Nomes e versões de modelos mudam em meses: a banca pode cobrar o CONCEITO, não o nome do produto.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Definir diarização como "identificação" ou "verificação". Afirmar que diarização está disponível "em qualquer modo" de qualquer serviço — ou que nunca existe em streaming. Afirmar que a diarização resolve sozinha a fala sobreposta.

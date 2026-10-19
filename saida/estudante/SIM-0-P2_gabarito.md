@@ -31,7 +31,7 @@
 ### 6 — L3-Q29 — Gabarito: E
 
 - Item do edital: P2-4.3 (aderência: direta)
-- Justificativa: LGPD, art. 48, caput. O dever de comunicar à autoridade nacional e ao titular é do controlador.
+- Justificativa: (LGPD, art. 48, caput). O dever de comunicar à autoridade nacional e ao titular é do controlador.
 
 ### 7 — L1C-Q25 — Gabarito: E
 
@@ -41,7 +41,7 @@
 ### 8 — L3-Q19 — Gabarito: C
 
 - Item do edital: P2-4.1 (aderência: direta)
-- Justificativa: LGPD, art. 7º, § 3º. Falsa pegadinha: parece que "público" afastaria a lei, mas o tratamento deve considerar finalidade, boa-fé e interesse público da disponibilização.
+- Justificativa: (LGPD, art. 7º, § 3º). Falsa pegadinha: parece que "público" afastaria a lei, mas o tratamento deve considerar finalidade, boa-fé e interesse público da disponibilização.
 
 ### 9 — L3-Q12 — Gabarito: C
 
@@ -66,7 +66,7 @@
 ### 13 — L3-Q30 — Gabarito: C
 
 - Item do edital: P2-4.3 (aderência: direta)
-- Justificativa: LGPD, art. 5º, XV; art. 33, I e II. Transferência de dados pessoais para o exterior só é permitida nos casos do art. 33; "pode configurar" ressalva a análise do caso.
+- Justificativa: (LGPD, art. 5º, XV; art. 33, I e II). Transferência de dados pessoais para o exterior só é permitida nos casos do art. 33; "pode configurar" ressalva a análise do caso.
 
 ### 14 — L2-Q15 — Gabarito: C
 
@@ -106,12 +106,12 @@
 ### 21 — L3-Q23 — Gabarito: E
 
 - Item do edital: P2-4.2 (aderência: direta)
-- Justificativa: Lei 9.610/1998, art. 8º, IV. Leis, decretos e decisões judiciais NÃO são objeto de proteção; a premissa e a conclusão sobre os discursos estão invertidas.
+- Justificativa: (Lei 9.610/1998, art. 8º, IV). Leis, decretos e decisões judiciais NÃO são objeto de proteção; a premissa e a conclusão sobre os discursos estão invertidas.
 
 ### 22 — L2-Q23 — Gabarito: C
 
 - Item do edital: P2-2.6 (aderência: direta)
-- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante. Depende de padrão técnico estável, não de produto.
+- Justificativa: Falsa pegadinha: o formato é de legenda, mas organiza segmentos com intervalo de tempo e admite indicar o falante (especificação WebVTT, do W3C, verificado em 08/10/2026). Depende de padrão técnico estável, não de produto.
 
 ### 23 — L2-Q26 — Gabarito: E
 

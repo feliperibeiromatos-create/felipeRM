@@ -6,7 +6,7 @@
 ### 1 — L3-Q25 — Gabarito: C
 
 - Item do edital: P2-4.2 (aderência: direta)
-- Justificativa: Lei 9.610/1998, art. 24, II; art. 27; art. 49, I. Falsa pegadinha: parece que a cessão total abrangeria tudo, mas os direitos morais são inalienáveis e ficam fora dela.
+- Justificativa: (Lei 9.610/1998, art. 24, II; art. 27; art. 49, I). Falsa pegadinha: parece que a cessão total abrangeria tudo, mas os direitos morais são inalienáveis e ficam fora dela.
 
 ### 2 — L2-Q27 — Gabarito: C
 
@@ -21,7 +21,7 @@
 ### 4 — L3-Q24 — Gabarito: E
 
 - Item do edital: P2-4.2 (aderência: direta)
-- Justificativa: Lei 9.610/1998, arts. 41 e 45. Erro por extrapolação: domínio público tem hipóteses legais; disponibilidade na internet não é uma delas.
+- Justificativa: (Lei 9.610/1998, arts. 41 e 45). Erro por extrapolação: domínio público tem hipóteses legais; disponibilidade na internet não é uma delas.
 
 ### 5 — L2-Q22 — Gabarito: C
 
@@ -61,7 +61,7 @@
 ### 12 — L3-Q28 — Gabarito: E
 
 - Item do edital: P2-4.3 (aderência: direta)
-- Justificativa: LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º. O art. 13, § 4º, define pseudonimização só "para os efeitos deste artigo"; a distinção geral vem do art. 12: com a tabela em poder do próprio órgão, a reversão é possível por meios próprios, e o dado continua pessoal.
+- Justificativa: (LGPD, art. 12, caput e § 1º; art. 5º, III e XI; art. 13, § 4º). O art. 13, § 4º, define pseudonimização só "para os efeitos deste artigo"; a distinção geral vem do art. 12: com a tabela em poder do próprio órgão, a reversão é possível por meios próprios, e o dado continua pessoal.
 
 ### 13 — L3-Q09 — Gabarito: C
 
@@ -71,7 +71,7 @@
 ### 14 — L1-Q05 — Gabarito: C
 
 - Item do edital: P2-1.3 (aderência: direta)
-- Justificativa: É o que distingue o modelo nativo da arquitetura em cascata: áudio como entrada do próprio LLM.
+- Justificativa: É o que distingue o modelo nativo da arquitetura em cascata: áudio como entrada do próprio LLM (documentação do Google sobre áudio e transcrição na API Gemini, verificado em 07/10/2026).
 
 ### 15 — L3-Q05 — Gabarito: C
 
@@ -116,7 +116,7 @@
 ### 23 — L1C-Q24 — Gabarito: C
 
 - Item do edital: P2-1.2 (aderência: direta)
-- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper), mas não é universal; o wav2vec 2.0 recebe áudio bruto.
+- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, segundo o artigo "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
 
 ### 24 — L1C-Q21 — Gabarito: E
 
@@ -151,12 +151,12 @@
 ### 30 — L3-Q27 — Gabarito: C
 
 - Item do edital: P2-4.3 (aderência: direta)
-- Justificativa: LGPD, art. 46, caput e § 2º. Medidas de segurança técnicas e administrativas, desde a concepção até a execução.
+- Justificativa: (LGPD, art. 46, caput e § 2º). Medidas de segurança técnicas e administrativas, desde a concepção até a execução.
 
 ### 31 — L3-Q17 — Gabarito: C
 
 - Item do edital: P2-4.1 (aderência: direta)
-- Justificativa: LGPD, art. 5º, I. Voz e falas de pessoa identificada são informação relacionada a pessoa natural identificada.
+- Justificativa: (LGPD, art. 5º, I). Voz e falas de pessoa identificada são informação relacionada a pessoa natural identificada.
 
 ### 32 — L2-Q29 — Gabarito: E
 
@@ -181,7 +181,7 @@
 ### 36 — L3-Q18 — Gabarito: E
 
 - Item do edital: P2-4.1 (aderência: direta)
-- Justificativa: LGPD, art. 5º, VI e VII; art. 39. Inverte os papéis: o controlador decide; o operador executa em nome dele, segundo as instruções.
+- Justificativa: (LGPD, art. 5º, VI e VII; art. 39). Inverte os papéis: o controlador decide; o operador executa em nome dele, segundo as instruções.
 
 ### 37 — L1-Q10 — Gabarito: C
 

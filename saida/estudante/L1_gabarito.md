@@ -23,7 +23,7 @@
 ### L1-Q05 — Gabarito: C
 
 - Item do edital: P2-1.3
-- Justificativa: É o que distingue o modelo nativo da arquitetura em cascata: áudio como entrada do próprio LLM.
+- Justificativa: É o que distingue o modelo nativo da arquitetura em cascata: áudio como entrada do próprio LLM (documentação do Google sobre áudio e transcrição na API Gemini, verificado em 07/10/2026).
 
 ### L1-Q06 — Gabarito: E
 
@@ -68,7 +68,7 @@
 ### L1-Q14 — Gabarito: C
 
 - Item do edital: P2-1.6
-- Justificativa: Distinção documentada pela AWS: custom vocabulary amplia o vocabulário base; custom language model é treinado com dados de texto.
+- Justificativa: Distinção documentada pela AWS: custom vocabulary amplia o vocabulário base (visão geral da documentação do Amazon Transcribe); custom language model é treinado com dados de texto (documentação do Amazon Transcribe sobre modelos de linguagem personalizados).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -80,7 +80,7 @@
 ### L1-Q16 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: stream=true devolve texto incremental de um arquivo já completo; áudio ao vivo usa a transcrição Realtime, fluxo distinto.
+- Justificativa: stream=true devolve texto incremental de um arquivo já completo; áudio ao vivo usa a transcrição Realtime, fluxo distinto (documentação da OpenAI sobre fala para texto).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -92,14 +92,14 @@
 ### L1-Q18 — Gabarito: C
 
 - Item do edital: P2-1.8
-- Justificativa: Código e pesos abertos no repositório openai/whisper, licença MIT; a API recomenda gpt-transcribe para transcrição geral e reserva whisper-1 a timestamps, legendas e tradução.
+- Justificativa: Código e pesos abertos no repositório openai/whisper, licença MIT (repositório openai/whisper no GitHub); a API recomenda gpt-transcribe para transcrição geral e reserva whisper-1 a timestamps, legendas e tradução (documentação da OpenAI sobre fala para texto).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
 ### L1-Q19 — Gabarito: E
 
 - Item do edital: P2-1.8
-- Justificativa: A documentação oficial prevê implantação em nuvem ou on-premises via contêineres.
+- Justificativa: A documentação oficial prevê implantação em nuvem ou on-premises via contêineres (documentação da Microsoft sobre o Azure AI Speech).
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -121,12 +121,12 @@
 ### L1C-Q23 — Gabarito: C
 
 - Item do edital: P2-1.2
-- Justificativa: Sem léxico separado, a correção passa, em regra, por adaptação (1.6) ou mais dados; dados de pronúncia são recurso de custom speech (Azure).
+- Justificativa: Sem léxico separado, a correção passa, em regra, por adaptação (1.6) ou mais dados; dados de pronúncia são recurso de custom speech (Azure, documentação da Microsoft sobre o Azure AI Speech).
 
 ### L1C-Q24 — Gabarito: C
 
 - Item do edital: P2-1.2
-- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper), mas não é universal; o wav2vec 2.0 recebe áudio bruto.
+- Justificativa: Falsa pegadinha: em muitos sistemas há espectrograma (ex.: Whisper, segundo o artigo "Robust Speech Recognition via Large-Scale Weak Supervision"), mas não é universal; o wav2vec 2.0 recebe áudio bruto (artigo do wav2vec 2.0, arXiv 2006.11477, verificado em 08/10/2026).
 
 ### L1C-Q25 — Gabarito: E
 
@@ -716,12 +716,12 @@
 ### L1-R109 — Gabarito: C
 
 - Item do edital: P2-1.7
-- Justificativa: No enunciado único o fim é determinado por silêncio ao final ou por um máximo de áudio processado; no contínuo, a aplicação controla quando parar (o número do limite não é cobrado).
+- Justificativa: No enunciado único o fim é determinado por silêncio ao final ou por um máximo de áudio processado; no contínuo, a aplicação controla quando parar.
 
 ### L1-R110 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: A API REST para áudio curto devolve apenas resultados finais e não oferece resultados parciais; para texto parcial ao vivo usa-se o Speech SDK.
+- Justificativa: Dado sujeito a mudança (risco médio; limitação documentada de serviço, verificado em 18/10/2026). A API REST para áudio curto devolve apenas resultados finais e não oferece resultados parciais; para texto parcial ao vivo usa-se o Speech SDK.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 
@@ -743,7 +743,7 @@
 ### L1-R114 — Gabarito: E
 
 - Item do edital: P2-1.7
-- Justificativa: No Amazon Transcribe, a duração máxima é limite fixo que não pode ser aumentado; para continuar, inicia-se nova sessão de streaming.
+- Justificativa: Dado sujeito a mudança (risco médio; limite de serviço, verificado em 18/10/2026). No Amazon Transcribe, a duração máxima é limite fixo que não pode ser aumentado; para continuar, inicia-se nova sessão de streaming.
 
 > Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
 

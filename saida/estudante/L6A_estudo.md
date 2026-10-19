@@ -10,16 +10,16 @@ Prova: P1
 ## Resumo
 
 ```text
-NOTA DO EDITAL (8.11.2): na prova objetiva, cada item vale +1,00 ponto se a marcação concordar com o gabarito oficial definitivo, −1,00 ponto se discordar e 0,00 se não houver marcação ou houver marcação dupla (C e E) (Edital nº 1/2026, subitem 8.11.2). Só o fato e a fonte.
+NOTA DO EDITAL (8.11.2): na prova objetiva, cada item vale +1,00 ponto se a marcação concordar com o gabarito oficial definitivo, −1,00 ponto se discordar e 0,00 se não houver marcação ou houver marcação dupla (C e E) (Edital nº 1/2026, subitem 8.11.2).
 
-1.1 WORD. Controle de alterações: "Aceitar" incorpora; "Rejeitar" descarta; "Avançar/Anterior" só navegam; o modo "Sem Marcação" apenas OCULTA (as marcas voltam ao reabrir); para remover é preciso aceitar ou rejeitar; Inspetor de Documentos verifica alterações, comentários e informações ocultas. Tabelas: MESCLAR = duas ou mais células adjacentes viram uma; DIVIDIR = uma célula vira várias linhas/colunas. Sumário automático: baseia-se nos títulos com estilo de título (Título 1, Título 2...); título sem esse estilo pode faltar; atualizar o campo após mudanças.
-1.2 EXCEL. Referência RELATIVA (padrão) muda ao copiar; ABSOLUTA ($B$2) fixa coluna e linha; MISTA fixa só uma ($B2 fixa a coluna; B$2 fixa a linha): o $ trava o que vem logo depois. SE(teste_lógico; valor_se_verdadeiro; [valor_se_falso]): o 2º argumento é para verdadeiro, o 3º, opcional, para falso. PROCV: 4º argumento FALSO = correspondência exata; VERDADEIRO ou em branco = aproximada; pesquisa só da esquerda para a direita.
-1.3 POWERPOINT. Slide mestre concentra fontes e imagens (logotipo); editar o mestre altera os slides baseados nele. ANIMAÇÃO = efeito num elemento do slide (vários por slide); TRANSIÇÃO = efeito no slide inteiro, na passagem de um slide a outro (um por slide).
-1.4 ONEDRIVE. Compartilhar: permissão de exibir ou de editar; o proprietário pode interromper o compartilhamento; X ao lado do link o desabilita. Histórico de versões: ver e restaurar versões anteriores; a versão restaurada vira a atual, e a atual anterior passa a constar como versão anterior. Prazos de retenção e planos: não cobrados.
-3.1 CORREIO ELETRÔNICO. WEBMAIL = navegador, sem programa instalado (ex.: Outlook na Web); CLIENTE = aplicativo instalado (ex.: Outlook para PC; definição geral). SMTP ENVIA; POP3 baixa e, por padrão, remove do servidor, uma única pasta; IMAP4 acessa/sincroniza, por padrão mantém no servidor, várias pastas. Cco: o destinatário recebe a cópia e seu endereço não é visível aos demais.
-3.2 TEAMS. Equipe = coleção de pessoas, conteúdo e ferramentas; canal = seção dentro da equipe; canal padrão (todos os membros), privado (membros selecionados), compartilhado (pessoas dentro e fora da equipe).
-3.3 MEET (Google). Iniciar por "Nova reunião" ou por evento do Agenda (link associado ao evento); participar por link, código/apelido ou Agenda; sem Conta Google, o organizador ou um participante precisa autorizar; apresentar = guia, janela ou tela inteira; o compartilhamento pode ser limitado por administrador ou organizador.
-Validade: itens VOLÁTEIS (6A-01, 6A-09, 6A-10, 6A-14, 6A-15) dependem de interface e comportamento de serviço; reverificar entre 4 e 8/1/2027.
+1.1 WORD. Controle de alterações: "Aceitar" incorpora; "Rejeitar" descarta; "Avançar/Anterior" só navegam; o modo "Sem Marcação" apenas OCULTA (as marcas voltam ao reabrir); para remover é preciso aceitar ou rejeitar; Inspetor de Documentos verifica alterações, comentários e informações ocultas (Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word"). Tabelas: MESCLAR = duas ou mais células adjacentes viram uma; DIVIDIR = uma célula vira várias linhas/colunas (Microsoft, documentação de suporte, "Mesclar ou dividir células em uma tabela"). Sumário automático: baseia-se nos títulos com estilo de título (Título 1, Título 2...); título sem esse estilo pode faltar; atualizar o campo após mudanças (Microsoft, documentação de suporte, "Inserir um sumário").
+1.2 EXCEL. Referência RELATIVA (padrão) muda ao copiar; ABSOLUTA ($B$2) fixa coluna e linha; MISTA fixa só uma ($B2 fixa a coluna; B$2 fixa a linha): o $ trava o que vem logo depois (Microsoft, documentação de suporte, "Alternar entre referências relativas, absolutas e mistas"). SE(teste_lógico; valor_se_verdadeiro; [valor_se_falso]): o 2º argumento é para verdadeiro, o 3º, opcional, para falso (Microsoft, documentação de suporte, "SE (Função SE)"). PROCV: 4º argumento FALSO = correspondência exata; VERDADEIRO ou em branco = aproximada; pesquisa só da esquerda para a direita (Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP").
+1.3 POWERPOINT. Slide mestre concentra fontes e imagens (logotipo); editar o mestre altera os slides baseados nele (Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?"). ANIMAÇÃO = efeito num elemento do slide (vários por slide); TRANSIÇÃO = efeito no slide inteiro, na passagem de um slide a outro (um por slide) (Microsoft, documentação de suporte, "A diferença entre animações e transições").
+1.4 ONEDRIVE. Compartilhar: permissão de exibir ou de editar; o proprietário pode interromper o compartilhamento; X ao lado do link o desabilita (Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files"; Microsoft, documentação de suporte, "Gerenciar compartilhamento e permissões no OneDrive e no SharePoint"). Histórico de versões: ver e restaurar versões anteriores; a versão restaurada vira a atual, e a atual anterior passa a constar como versão anterior (Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive"). Prazos de retenção e planos: ficam fora do estudo.
+3.1 CORREIO ELETRÔNICO. WEBMAIL = navegador, sem programa instalado (ex.: Outlook na Web, Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android"); CLIENTE = aplicativo instalado (ex.: Outlook para PC; definição geral). SMTP ENVIA (IETF, RFC 5321, "Simple Mail Transfer Protocol"; Microsoft Learn, "POP3 e IMAP4 em Exchange Online"); POP3 baixa e, por padrão, remove do servidor, uma única pasta (IETF, RFC 1939, "Post Office Protocol - Version 3"; Microsoft Learn, "POP3 e IMAP4 em Exchange Online"); IMAP4 acessa/sincroniza, por padrão mantém no servidor, várias pastas (IETF, RFC 9051, "Internet Message Access Protocol (IMAP) - Version 4rev2"; Microsoft Learn, "POP3 e IMAP4 em Exchange Online"). Cco: o destinatário recebe a cópia e seu endereço não é visível aos demais (Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows").
+3.2 TEAMS. Equipe = coleção de pessoas, conteúdo e ferramentas; canal = seção dentro da equipe; canal padrão (todos os membros), privado (membros selecionados), compartilhado (pessoas dentro e fora da equipe) (Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+3.3 MEET (Google). Iniciar por "Nova reunião" ou por evento do Agenda (link associado ao evento); participar por link, código/apelido ou Agenda; sem Conta Google, o organizador ou um participante precisa autorizar; apresentar = guia, janela ou tela inteira; o compartilhamento pode ser limitado por administrador ou organizador (Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador"; Ajuda do Google Meet, "Participar de uma reunião - Computador"; Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
+Validade: os pontos sobre o modo de exibição das alterações no Word, o compartilhamento e a restauração de versões no OneDrive, os canais do Teams e a apresentação de tela no Meet dependem de interface e comportamento de serviço e estão sujeitos a mudança.
 ```
 
 ## Curso
@@ -28,13 +28,13 @@ Validade: itens VOLÁTEIS (6A-01, 6A-09, 6A-10, 6A-14, 6A-15) dependem de interf
 ## ITEM 1 — MSOFFICE 365 (WORD, EXCEL, POWERPOINT E ONEDRIVE) — VISÃO GERAL
 
 ### 1.0.1 O QUE É
-O edital escreve "MSOffice 365". Nas páginas de suporte, a Microsoft trata Word, Excel, PowerPoint e Outlook como aplicativos do pacote Microsoft 365 (o Outlook para PC é descrito como "disponível para compra como parte do Microsoft 365"). Para a prova, o que importa é o que cada aplicativo FAZ e a lógica de seus recursos, não o plano de assinatura. Preço, licença, plano e versão: NÃO são cobrados neste lote (risco alto e volátil).
+O edital escreve "MSOffice 365". Nas páginas de suporte consultadas em 08/10/2026, a Microsoft trata Word, Excel, PowerPoint e Outlook como aplicativos do pacote Microsoft 365 (Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android": o Outlook para PC é descrito como "disponível para compra como parte do Microsoft 365", conforme a leitura de 08/10/2026). Para a prova, o que importa é o que cada aplicativo FAZ e a lógica de seus recursos, não o plano de assinatura. Preço, licença, plano e versão: ficam fora do estudo dos itens 1 e 3 de TI e Dados (informação sujeita a mudança).
 Mapa mental dos quatro aplicativos do item 1:
 - Word: texto (documentos, relatórios, minutas, ofícios).
 - Excel: cálculo e análise de dados em planilhas (células, fórmulas, funções).
 - PowerPoint: apresentações em slides.
 - OneDrive: armazenamento de arquivos em nuvem, com compartilhamento e histórico de versões.
-Observação metodológica: o curso abaixo prefere conceitos estáveis (que a banca costuma cobrar e que pouco mudam). Nomes de botões e caminhos de menu mudam entre versões; por isso os itens VOLÁTEIS do lote são poucos e marcados.
+Observação metodológica: o curso abaixo prefere conceitos estáveis (que a banca costuma cobrar e que pouco mudam). Nomes de botões e caminhos de menu mudam entre versões; por isso os pontos sujeitos a mudança são poucos e vêm sinalizados.
 
 ## ITEM 1.1 — WORD
 
@@ -43,6 +43,7 @@ Word é o editor de texto do pacote. Organiza o documento em parágrafos, estilo
 
 ### 1.1.2 CONTROLE DE ALTERAÇÕES (REVISÃO)
 Conceito: o recurso registra as edições feitas por revisores (inserções, exclusões, formatações) sem apagar o texto original, para que o autor decida depois.
+O que a fonte Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word" afirma (leitura de 08/10/2026):
 - Na guia "Revisão", no grupo "Acompanhamento", escolhe-se "Aceitar" ou "Rejeitar" para cada alteração; "Avançar" e "Anterior" apenas navegam, sem decidir.
 - Para decidir de uma vez: lista suspensa "Aceitar" > "Aceitar Todas as Alterações"; lista suspensa "Rejeitar" > "Rejeitar Todas as Alterações".
 - Antes de compartilhar o documento: o modo "Sem Marcação" só oculta as alterações temporariamente, e elas voltam a aparecer quando o documento é reaberto. Para removê-las de fato, é preciso aceitá-las ou rejeitá-las. A página também recomenda o Inspetor de Documentos para verificar alterações, comentários e informações ocultas.
@@ -50,26 +51,26 @@ Distinções que a banca explora:
 - OCULTAR (modo de exibição) × RESOLVER (aceitar/rejeitar). Ocultar muda só a exibição; aceitar/rejeitar decide o conteúdo.
 - ACEITAR (incorpora a alteração ao texto) × REJEITAR (descarta a alteração, restabelecendo o texto original).
 - Navegar (Avançar/Anterior) não aceita nem rejeita.
-Limite do curso: NÃO descreve como ativar o acompanhamento; nada sobre isso entra em item.
+Limite do curso: a fonte Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word" NÃO descreve como ativar o acompanhamento.
 
 ### 1.1.3 TABELAS: MESCLAR × DIVIDIR CÉLULAS
-Mesclar combina duas ou mais células da tabela em uma única célula; a página descreve a combinação de células "na mesma linha ou coluna" e orienta, se o comando não aparecer, verificar se foram selecionadas "várias células adjacentes"; há comando para desfazer a mesclagem. O item 6A-02 usa o requisito de adjacência e não reproduz a expressão "na mesma linha ou coluna", para que ela não seja lida como definição exaustiva. Dividir parte de uma ou mais células marcadas e pergunta em quantas colunas ou linhas se quer subdividir. Os comandos ficam no contexto da tabela (guia "Layout" da tabela; também no clique com o botão direito, para mesclar). A página não diz o que acontece com o conteúdo das células; nada sobre isso entra em item.
+Conforme Microsoft, documentação de suporte, "Mesclar ou dividir células em uma tabela" (leitura de 08/10/2026): mesclar combina duas ou mais células da tabela em uma única célula; a página descreve a combinação de células "na mesma linha ou coluna" e orienta, se o comando não aparecer, verificar se foram selecionadas "várias células adjacentes"; há comando para desfazer a mesclagem. O item sobre mesclar células usa o requisito de adjacência e não reproduz a expressão "na mesma linha ou coluna", para que ela não seja lida como definição exaustiva. Dividir parte de uma ou mais células marcadas e pergunta em quantas colunas ou linhas se quer subdividir. Os comandos ficam no contexto da tabela (guia "Layout" da tabela; também no clique com o botão direito, para mesclar). A página não diz o que acontece com o conteúdo das células.
 Chave de prova: MESCLAR = muitas células viram uma; DIVIDIR = uma célula vira várias. Quem inverte, erra.
 
 ### 1.1.4 SUMÁRIO AUTOMÁTICO
-"Os sumários no Word se baseiam nos títulos do documento." Quando faltam entradas, a causa costuma ser que os títulos não receberam estilo de título ("não estão formatados como cabeçalhos", no sentido de títulos de seção, e não do recurso Cabeçalho, que é o cabeçalho de página); a solução indicada é aplicar o estilo Título 1 ao texto de cada título que deve constar. Para atualizar após mudanças, clica-se com o botão direito no sumário e escolhe-se "Atualizar Campo". O sumário automático é inserido pela guia "Referências".
+Conforme Microsoft, documentação de suporte, "Inserir um sumário": "Os sumários no Word se baseiam nos títulos do documento." Quando faltam entradas, a causa costuma ser que os títulos não receberam estilo de título (a fonte Microsoft, documentação de suporte, "Inserir um sumário" diz "não estão formatados como cabeçalhos", no sentido de títulos de seção, e não do recurso Cabeçalho, que é o cabeçalho de página); a solução indicada é aplicar o estilo Título 1 ao texto de cada título que deve constar. Para atualizar após mudanças, clica-se com o botão direito no sumário e escolhe-se "Atualizar Campo". O sumário automático é inserido pela guia "Referências".
 Ideia estável: o sumário automático é GERADO a partir dos estilos de título; digitar manualmente "Capítulo 1 ...... 3" não cria estrutura que o Word reconheça.
 
 1.1.5 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (situação hipotética de redação/revisão)
-Uma nota taquigráfica de reunião de comissão, trabalho típico do Derep (antigo DETAQ), chega ao revisor em Word. O revisor ativa o acompanhamento e corrige concordância, pontuação e grafia de nomes. O chefe da seção quer devolver o texto ao orador "limpo". Procedimento correto: percorrer as alterações, aceitar as pertinentes e rejeitar as indevidas; só trocar o modo para "Sem Marcação" NÃO limpa o arquivo, e as marcas voltariam ao reabrir. Antes de enviar a versão a terceiros, passar o Inspetor de Documentos. Em relatório longo com capítulos, usar estilos de título e inserir sumário automático; ao reorganizar capítulos, atualizar o campo. Em quadro de presenças com cabeçalho comum a várias colunas, usar mesclar para o cabeçalho e dividir para criar subcolunas.
+Uma nota taquigráfica de reunião de comissão, trabalho típico do Derep (antigo DETAQ), chega ao revisor em Word. O revisor ativa o acompanhamento e corrige concordância, pontuação e grafia de nomes. O chefe da seção quer devolver o texto ao orador "limpo". Procedimento correto: percorrer as alterações, aceitar as pertinentes e rejeitar as indevidas (Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word"); só trocar o modo para "Sem Marcação" NÃO limpa o arquivo, e as marcas voltariam ao reabrir. Antes de enviar a versão a terceiros, passar o Inspetor de Documentos (Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word"). Em relatório longo com capítulos, usar estilos de título e inserir sumário automático; ao reorganizar capítulos, atualizar o campo. Em quadro de presenças com cabeçalho comum a várias colunas, usar mesclar para o cabeçalho e dividir para criar subcolunas.
 
 ### 1.1.6 PEGADINHAS PROVÁVEIS
-P1. "O modo Sem Marcação exclui definitivamente as alterações controladas do arquivo" → ERRADO (só oculta).
+P1. "O modo Sem Marcação exclui definitivamente as alterações controladas do arquivo" → ERRADO (só oculta; Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word").
 P2. "Avançar e Anterior, no grupo Acompanhamento, aceitam ou rejeitam a alteração" → ERRADO (apenas navegam).
 P3. "Mesclar células divide uma célula em várias" → ERRADO (mesclar combina; dividir subdivide).
 P4. "Aceitar uma alteração controlada restabelece o texto original" → ERRADO (isso é rejeitar).
-P5. "O sumário automático independe da formatação dos títulos" → ERRADO (baseia-se nos títulos com estilo de título).
-P6. "O sumário do Word se atualiza sozinho, sem qualquer ação, a cada alteração no documento" → ERRADO (o sumário é um campo: após mudanças que o afetem, atualiza-se com o botão direito > "Atualizar Campo").
+P5. "O sumário automático independe da formatação dos títulos" → ERRADO (baseia-se nos títulos com estilo de título; Microsoft, documentação de suporte, "Inserir um sumário").
+P6. "O sumário do Word se atualiza sozinho, sem qualquer ação, a cada alteração no documento" → ERRADO (o sumário é um campo: após mudanças que o afetem, atualiza-se com o botão direito > "Atualizar Campo"; Microsoft, documentação de suporte, "Inserir um sumário").
 
 ## ITEM 1.2 — EXCEL
 
@@ -77,19 +78,20 @@ P6. "O sumário do Word se atualiza sozinho, sem qualquer ação, a cada altera�
 Excel é o programa de planilhas: dados em células (identificadas por coluna e linha, como B2), organizados em planilhas de uma pasta de trabalho; cálculos feitos por fórmulas (começam com "=") e funções.
 
 ### 1.2.2 REFERÊNCIAS: RELATIVA, ABSOLUTA E MISTA
+Conforme Microsoft, documentação de suporte, "Alternar entre referências relativas, absolutas e mistas" (leitura de 08/10/2026):
 - Por padrão, uma referência de célula é RELATIVA: muda de posição conforme a fórmula é copiada para outra célula.
 - ABSOLUTA: para manter fixa a referência ao copiar, precede-se coluna e linha com o cifrão ($), por exemplo $B$2.
 - MISTA: mistura as duas, fixando só a coluna ($B2) ou só a linha (B$2).
-- A tecla F4, com a referência selecionada na barra de fórmulas, alterna entre os tipos (a página documenta isso; não há item sobre atalho).
+- A tecla F4, com a referência selecionada na barra de fórmulas, alterna entre os tipos (a página documenta isso).
 Regra de ouro: O $ TRAVA o que vem imediatamente depois dele. $B2 trava a coluna B; B$2 trava a linha 2; $B$2 trava ambas.
 Exemplo de leitura: fórmula =C3*$F$1 em D3, copiada para D4, vira =C4*$F$1: C3 (relativa) acompanhou a linha; $F$1 (absoluta) ficou. Uso típico: uma taxa ou um total fixo numa célula usado por muitas linhas.
 
 ### 1.2.3 FUNÇÃO SE
-A função SE compara um valor com o esperado e verifica se a condição é atendida. Sintaxe: SE(teste_lógico, valor_se_verdadeiro, [valor_se_falso]). O primeiro resultado vale se a comparação for Verdadeira; o segundo, se for Falsa. O colchete na sintaxe indica o argumento opcional (valor_se_falso).
+Conforme Microsoft, documentação de suporte, "SE (Função SE)": a função SE compara um valor com o esperado e verifica se a condição é atendida. Sintaxe: SE(teste_lógico, valor_se_verdadeiro, [valor_se_falso]). O primeiro resultado vale se a comparação for Verdadeira; o segundo, se for Falsa. O colchete na sintaxe indica o argumento opcional (valor_se_falso).
 Exemplo: =SE(B2>=10; "Quórum"; "Sem quórum") devolve "Quórum" se B2 (presentes) for 10 ou mais; caso contrário, "Sem quórum". (Valores do exemplo são ilustrativos.)
 
 ### 1.2.4 FUNÇÃO PROCV
-O PROCV pesquisa um valor e devolve outro, relacionado, de uma coluna do intervalo. O quarto argumento é opcional: com FALSO, devolve correspondência EXATA; com VERDADEIRO, ou deixando o argumento em branco, devolve correspondência APROXIMADA (o valor mais próximo que não ultrapasse o procurado). A página afirma que o PROCV "só pode pesquisar um valor da esquerda para a direita": a coluna com o valor procurado precisa estar à esquerda da coluna de retorno; caso contrário, recomenda ÍNDICE e CORRESP.
+Conforme Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP": o PROCV pesquisa um valor e devolve outro, relacionado, de uma coluna do intervalo. O quarto argumento é opcional: com FALSO, devolve correspondência EXATA; com VERDADEIRO, ou deixando o argumento em branco, devolve correspondência APROXIMADA (o valor mais próximo que não ultrapasse o procurado). A página afirma que o PROCV "só pode pesquisar um valor da esquerda para a direita": a coluna com o valor procurado precisa estar à esquerda da coluna de retorno; caso contrário, recomenda ÍNDICE e CORRESP.
 Chave de prova: para código, matrícula, nome (identificadores) quase sempre se quer EXATA (FALSO); aproximada serve a faixas ordenadas (ex.: tabela de alíquotas). Omitir o quarto argumento NÃO equivale a FALSO.
 
 1.2.5 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
@@ -97,11 +99,11 @@ Planilha de controle de entrega de notas taquigráficas por comissão: coluna A 
 
 ### 1.2.6 PEGADINHAS PROVÁVEIS
 P1. "Na referência B$2, a coluna fica fixa e a linha se ajusta ao copiar" → ERRADO (o $ antes do 2 trava a linha; a coluna se ajusta).
-P2. "Toda referência de célula é absoluta por padrão" → ERRADO (por padrão é relativa).
-P3. "No PROCV, omitir o quarto argumento produz correspondência exata" → ERRADO (em branco = aproximada).
-P4. "O PROCV pesquisa o valor em qualquer coluna do intervalo e devolve valores de colunas à esquerda dela" → ERRADO (só da esquerda para a direita).
+P2. "Toda referência de célula é absoluta por padrão" → ERRADO (por padrão é relativa; Microsoft, documentação de suporte, "Alternar entre referências relativas, absolutas e mistas").
+P3. "No PROCV, omitir o quarto argumento produz correspondência exata" → ERRADO (em branco = aproximada; Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP").
+P4. "O PROCV pesquisa o valor em qualquer coluna do intervalo e devolve valores de colunas à esquerda dela" → ERRADO (só da esquerda para a direita; Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP").
 P5. "Na função SE, o segundo argumento é o resultado para teste falso" → ERRADO (o segundo é para verdadeiro).
-P6. "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre colchetes na sintaxe, isto é, opcional).
+P6. "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre colchetes na sintaxe, isto é, opcional; Microsoft, documentação de suporte, "SE (Função SE)").
 
 ## ITEM 1.3 — POWERPOINT
 
@@ -109,44 +111,45 @@ P6. "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre 
 PowerPoint é o programa de apresentações: slides com texto, imagens, gráficos e mídia, exibidos em sequência. Dois temas são estáveis e cobráveis: slide mestre e animações × transições.
 
 ### 1.3.2 SLIDE MESTRE
-O propósito é fazer todos os slides terem as mesmas fontes e imagens (como logotipos). "Quando você edita o slide mestre, todos os slides baseados nele conterão essas alterações." Acesso: guia "Exibir" > "Slide Mestre". Ideia estável: o mestre concentra o padrão visual; alterar o mestre muda os slides baseados nele, de uma vez; alterar um slide individual muda só aquele.
+Conforme Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?": o propósito é fazer todos os slides terem as mesmas fontes e imagens (como logotipos). "Quando você edita o slide mestre, todos os slides baseados nele conterão essas alterações." Acesso: guia "Exibir" > "Slide Mestre". Ideia estável: o mestre concentra o padrão visual; alterar o mestre muda os slides baseados nele, de uma vez; alterar um slide individual muda só aquele.
 
 ### 1.3.3 ANIMAÇÕES × TRANSIÇÕES
-A animação é aplicada a um único elemento em um slide (um slide pode ter várias); a transição é aplicada a um slide inteiro (só uma por slide) e acontece na passagem do slide anterior para aquele que a recebe.
+Conforme Microsoft, documentação de suporte, "A diferença entre animações e transições": a animação é aplicada a um único elemento em um slide (um slide pode ter várias); a transição é aplicada a um slide inteiro (só uma por slide) e acontece na passagem do slide anterior para aquele que a recebe.
 Chave de prova: ANIMAÇÃO = efeito num OBJETO dentro do slide; TRANSIÇÃO = efeito na MUDANÇA DE SLIDE.
 
 1.3.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
-Apresentação institucional de treinamento sobre fluxo de revisão de notas taquigráficas, com 30 slides: o logotipo e a fonte padrão são colocados uma única vez no slide mestre; todos os slides herdam. Para fazer um tópico de lista aparecer ponto a ponto, aplica-se animação ao texto (objeto); para suavizar a passagem de um slide a outro, aplica-se transição ao slide. Efeitos em excesso distraem do conteúdo; a apresentação serve ao orador, não o contrário.
+Apresentação institucional de treinamento sobre fluxo de revisão de notas taquigráficas, com 30 slides: o logotipo e a fonte padrão são colocados uma única vez no slide mestre (Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?"); todos os slides herdam. Para fazer um tópico de lista aparecer ponto a ponto, aplica-se animação ao texto (objeto); para suavizar a passagem de um slide a outro, aplica-se transição ao slide (Microsoft, documentação de suporte, "A diferença entre animações e transições"). Efeitos em excesso distraem do conteúdo; a apresentação serve ao orador, não o contrário.
 
 ### 1.3.5 PEGADINHAS PROVÁVEIS
-P1. "A transição é aplicada a um objeto individual do slide e a animação, ao slide inteiro" → ERRADO (inverso).
-P2. "Alterar o slide mestre afeta apenas o slide que está selecionado" → ERRADO (afeta os slides baseados nele).
-P3. "Cada slide pode receber várias transições simultâneas" → ERRADO (uma transição por slide).
-P4. "O slide mestre é aberto na guia Inserir" → ERRADO (guia Exibir) — VOLÁTIL; não vira item.
+P1. "A transição é aplicada a um objeto individual do slide e a animação, ao slide inteiro" → ERRADO (inverso; Microsoft, documentação de suporte, "A diferença entre animações e transições").
+P2. "Alterar o slide mestre afeta apenas o slide que está selecionado" → ERRADO (afeta os slides baseados nele; Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?").
+P3. "Cada slide pode receber várias transições simultâneas" → ERRADO (uma transição por slide; Microsoft, documentação de suporte, "A diferença entre animações e transições").
+P4. "O slide mestre é aberto na guia Inserir" → ERRADO (guia Exibir; Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?") — informação sujeita a mudança.
 
 ## ITEM 1.4 — ONEDRIVE
 
 ### 1.4.1 DEFINIÇÃO
-OneDrive é o serviço de armazenamento de arquivos em nuvem da Microsoft: o arquivo fica guardado online, acessível por navegador e (com o aplicativo de sincronização) pelo Explorador de Arquivos. Recursos cobráveis: compartilhamento com permissões e histórico de versões.
+OneDrive é o serviço de armazenamento de arquivos em nuvem da Microsoft: o arquivo fica guardado online, acessível por navegador e (com o aplicativo de sincronização) pelo Explorador de Arquivos (Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive"). Recursos cobráveis: compartilhamento com permissões e histórico de versões.
 
 ### 1.4.2 COMPARTILHAMENTO E PERMISSÕES
-- Seleciona-se o item e escolhe-se Compartilhar (Partilhar); na configuração do link ("Todas as pessoas com este link podem editar este item"), marca-se "Permitir edição" para que outras pessoas possam editar ou desmarca-se para que possam apenas visualizar.
-- Se você for o proprietário do arquivo (ou tiver permissão de edição), pode parar o compartilhamento ou alterar as permissões; selecionando o X ao lado de um link, desabilita-se o link.
-- NÃO é possível mudar o tipo de permissão de um LINK de compartilhamento (de edição para exibição ou o contrário). As duas páginas descrevem a gestão de permissões de maneiras diferentes; por isso o lote NÃO cobra "como alterar a permissão de um link existente".
+Conforme Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files" e Microsoft, documentação de suporte, "Gerenciar compartilhamento e permissões no OneDrive e no SharePoint" (leitura de 08/10/2026):
+- Seleciona-se o item e escolhe-se Compartilhar (Partilhar); na configuração do link ("Todas as pessoas com este link podem editar este item"), marca-se "Permitir edição" para que outras pessoas possam editar ou desmarca-se para que possam apenas visualizar (Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files"). A fonte Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files" também usa os rótulos "Pode editar" e "Pode exibir".
+- Se você for o proprietário do arquivo (ou tiver permissão de edição), pode parar o compartilhamento ou alterar as permissões (Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files"); selecionando o X ao lado de um link, desabilita-se o link (Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files").
+- A fonte Microsoft, documentação de suporte, "Gerenciar compartilhamento e permissões no OneDrive e no SharePoint" trata de "Interromper o compartilhamento" e de alternar permissões "entre exibir e editar" para quem tem acesso direto; ela ainda avisa que NÃO é possível mudar o tipo de permissão de um LINK de compartilhamento (de edição para exibição ou o contrário) e orienta excluir o link e criar outro. As duas páginas descrevem a gestão de permissões de maneiras diferentes; por isso fica fora do estudo o ponto "como alterar a permissão de um link existente".
 Chave de prova: EXIBIR = ler; EDITAR = ler e alterar. Compartilhar não transfere a propriedade do arquivo (conceito geral).
 
 ### 1.4.3 HISTÓRICO DE VERSÕES
-O histórico de versões permite ver e restaurar versões mais antigas dos arquivos; "funciona com todos os tipos de ficheiros"; em contas escolares ou profissionais o administrador pode ter desativado o controle de versões. Para restaurar: selecionar o arquivo > "Histórico de versões" > reticências ao lado da versão > "Restaurar"; só um arquivo por vez. A versão restaurada torna-se a versão atual, e a versão que era a atual passa a aparecer na lista como versão anterior. A página menciona um prazo de retenção do histórico; esse dado é numérico e NÃO é cobrado.
-Chave de prova: restaurar uma versão NÃO apaga a versão que era a atual; ela vira "anterior". Histórico de versões ≠ lixeira (que recupera arquivo excluído — conceito geral, sem fonte aberta; sem item).
+Conforme Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive": o histórico de versões permite ver e restaurar versões mais antigas dos arquivos; "funciona com todos os tipos de ficheiros"; em contas escolares ou profissionais o administrador pode ter desativado o controle de versões. Para restaurar: selecionar o arquivo > "Histórico de versões" > reticências ao lado da versão > "Restaurar"; só um arquivo por vez. A versão restaurada torna-se a versão atual, e a versão que era a atual passa a aparecer na lista como versão anterior. A página menciona um prazo de retenção do histórico; esse dado é numérico e fica fora do estudo.
+Chave de prova: restaurar uma versão NÃO apaga a versão que era a atual; ela vira "anterior". Histórico de versões ≠ lixeira (que recupera arquivo excluído — conceito geral, sem fonte aberta).
 
 1.4.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
-Uma minuta de ato é produzida em Word e guardada no OneDrive. A chefia compartilha o link com dois revisores com permissão de edição e com o gabinete solicitante apenas com exibição. Um revisor salva por engano uma versão com trecho apagado; o autor abre o histórico de versões, restaura a versão anterior à edição indevida, e a versão que estava em vigor permanece listada como versão anterior. Terminado o trabalho, o autor interrompe o compartilhamento.
+Uma minuta de ato é produzida em Word e guardada no OneDrive. A chefia compartilha o link com dois revisores com permissão de edição e com o gabinete solicitante apenas com exibição (Microsoft, documentação de suporte, "Colaborar no Microsoft OneDrive: partilhar, editar e gerir Files"). Um revisor salva por engano uma versão com trecho apagado; o autor abre o histórico de versões, restaura a versão anterior à edição indevida, e a versão que estava em vigor permanece listada como versão anterior (Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive"). Terminado o trabalho, o autor interrompe o compartilhamento (Microsoft, documentação de suporte, "Gerenciar compartilhamento e permissões no OneDrive e no SharePoint").
 
 ### 1.4.5 PEGADINHAS PROVÁVEIS
-P1. "Ao restaurar uma versão anterior, a versão que era a atual é descartada" → ERRADO (passa a constar como versão anterior).
+P1. "Ao restaurar uma versão anterior, a versão que era a atual é descartada" → ERRADO (passa a constar como versão anterior; Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive").
 P2. "Quem recebe um link com permissão apenas de exibição pode editar o arquivo original" → ERRADO.
-P3. "O histórico de versões do OneDrive só funciona com arquivos do Word" → ERRADO (funciona com todos os tipos de arquivo).
-P4. "Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site" → ERRADO (descreve os dois caminhos).
+P3. "O histórico de versões do OneDrive só funciona com arquivos do Word" → ERRADO (funciona com todos os tipos de arquivo; Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive").
+P4. "Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site" → ERRADO (a fonte Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive" descreve os dois caminhos).
 P5. "Interromper o compartilhamento transfere a propriedade do arquivo ao destinatário" → ERRADO (conceito geral; o proprietário mantém o arquivo).
 
 ## ITEM 3 — FERRAMENTAS DE COMUNICAÇÃO E COLABORAÇÃO
@@ -155,75 +158,77 @@ P5. "Interromper o compartilhamento transfere a propriedade do arquivo ao destin
 
 ### 3.1.1 DEFINIÇÃO
 Correio eletrônico é o serviço de troca de mensagens entre caixas postais, mantidas em servidores. Há duas formas de acesso, que a banca costuma confrontar:
-- WEBMAIL: acesso à caixa postal por navegador, sem necessidade de aplicativo específico instalado no dispositivo. Exemplo documentado: Outlook na Web, "acessível a partir da maioria dos browsers".
-- CLIENTE DE E-MAIL: programa de correio próprio, em regra instalado no computador ou no celular, que acessa a caixa postal no servidor (por exemplo, por POP3 ou IMAP4) e envia por SMTP (conceito geral) (exemplo documentado: Outlook para PC, "aplicação de e-mail e calendário com as funcionalidades mais completa"). A definição de "cliente = aplicativo instalado" é conceito geral.
+- WEBMAIL: acesso à caixa postal por navegador, sem necessidade de aplicativo específico instalado no dispositivo. Exemplo documentado: Outlook na Web, "acessível a partir da maioria dos browsers" (Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android", leitura de 08/10/2026).
+- CLIENTE DE E-MAIL: programa de correio próprio, em regra instalado no computador ou no celular, que acessa a caixa postal no servidor (por exemplo, por POP3 ou IMAP4) e envia por SMTP (conceito geral; Microsoft Learn, "POP3 e IMAP4 em Exchange Online" para os protocolos) (exemplo documentado: Outlook para PC, "aplicação de e-mail e calendário com as funcionalidades mais completa", Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android"). A definição de "cliente = aplicativo instalado" é conceito geral; a fonte Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android" não usa a palavra "instalado".
 
-3.1.2 PROTOCOLOS (CONCEITO ESTÁVEL; RFCs DA IETF)
-- SMTP: transferência de mensagens. A RFC 5321 diz que "The objective of the Simple Mail Transfer Protocol (SMTP) is to transfer mail reliably and efficiently" (seção 1.1). Cliente de e-mail POP3/IMAP4 depende do SMTP para ENVIAR ("dependem do protocolo SMTP para enviar mensagens").
-- POP3 (RFC 1939): permite à estação de trabalho acessar a caixa postal no servidor; normalmente, "mail is downloaded and then deleted". Por padrão os clientes POP3 removem as mensagens baixadas do servidor, o que dificulta o acesso por vários computadores (pode-se configurar para manter cópias); baixam para uma única pasta e não sincronizam várias pastas.
-- IMAP4 (RFC 9051): permite a um cliente acessar e manipular mensagens no servidor, com caixas de correio (pastas remotas) e ressincronização de cliente offline. Por padrão os clientes IMAP4 NÃO removem as mensagens baixadas do servidor (facilita o acesso por vários computadores) e dão suporte a várias pastas. A RFC 9051 diz que o IMAP4rev2 "does not specify a means of posting mail" e remete o envio a um protocolo de submissão de mensagens (RFC 6409); na prática do cliente de e-mail, o envio fica com o SMTP (os programas POP3 e IMAP4 "dependem do protocolo SMTP para enviar mensagens").
+3.1.2 PROTOCOLOS (CONCEITO ESTÁVEL; RFCs DA IETF E Microsoft Learn, "POP3 e IMAP4 em Exchange Online")
+- SMTP: transferência de mensagens. A RFC 5321 (IETF, RFC 5321, "Simple Mail Transfer Protocol") diz que "The objective of the Simple Mail Transfer Protocol (SMTP) is to transfer mail reliably and efficiently" (seção 1.1; leitura de 08/10/2026). Cliente de e-mail POP3/IMAP4 depende do SMTP para ENVIAR (Microsoft Learn, "POP3 e IMAP4 em Exchange Online": "dependem do protocolo SMTP para enviar mensagens").
+- POP3 (IETF, RFC 1939, "Post Office Protocol - Version 3"): permite à estação de trabalho acessar a caixa postal no servidor; normalmente, "mail is downloaded and then deleted". Segundo Microsoft Learn, "POP3 e IMAP4 em Exchange Online", por padrão os clientes POP3 removem as mensagens baixadas do servidor, o que dificulta o acesso por vários computadores (pode-se configurar para manter cópias); baixam para uma única pasta e não sincronizam várias pastas.
+- IMAP4 (IETF, RFC 9051, "Internet Message Access Protocol (IMAP) - Version 4rev2"): permite a um cliente acessar e manipular mensagens no servidor, com caixas de correio (pastas remotas) e ressincronização de cliente offline. Segundo Microsoft Learn, "POP3 e IMAP4 em Exchange Online", por padrão os clientes IMAP4 NÃO removem as mensagens baixadas do servidor (facilita o acesso por vários computadores) e dão suporte a várias pastas. A RFC 9051 diz que o IMAP4rev2 "does not specify a means of posting mail" e remete o envio a um protocolo de submissão de mensagens (RFC 6409); na prática do cliente de e-mail, o envio fica com o SMTP (Microsoft Learn, "POP3 e IMAP4 em Exchange Online": os programas POP3 e IMAP4 "dependem do protocolo SMTP para enviar mensagens").
 Resumo: SMTP = ENVIA; POP3 = BAIXA (e, por padrão, apaga do servidor); IMAP4 = ACESSA/SINCRONIZA (as mensagens ficam no servidor).
+A fonte Microsoft Learn, "POP3 e IMAP4 em Exchange Online" lista portas e criptografia do Exchange Online; esses números são específicos de produto e ficam fora do estudo.
 
 ### 3.1.3 CAMPOS DE DESTINATÁRIO: PARA, CC E CCO
 - Para: destinatários principais. Cc (com cópia): destinatários de ciência; os endereços aparecem para todos (conceito geral).
-- Cco (cópia oculta): quem é inserido no campo Cco recebe a cópia do e-mail "sem que seu nome seja visível para os outros destinatários"; "Outras pessoas que recebem a mensagem não veem o endereço de quem está na linha Cco."
+- Cco (cópia oculta): conforme Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows" (leitura de 08/10/2026), quem é inserido no campo Cco recebe a cópia do e-mail "sem que seu nome seja visível para os outros destinatários"; "Outras pessoas que recebem a mensagem não veem o endereço de quem está na linha Cco."
 Chave de prova: Cco RECEBE a mensagem, mas fica OCULTO para os demais.
 
 3.1.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
-Servidor do Derep (antigo DETAQ) envia a convocação de uma reunião de revisão a trinta colegas externos à unidade. Se colocar todos em "Para" ou "Cc", os endereços ficam visíveis uns para os outros; para preservar os endereços, usa-se o campo Cco. Em casa, o servidor lê o e-mail pelo webmail, no navegador, sem instalar nada; no computador de trabalho, usa um cliente de e-mail instalado, que, quando configurado com IMAP4, mantém as mensagens no servidor e sincroniza as pastas e envia por SMTP. Fora do ambiente institucional (conta pessoal, rede externa), valem os cuidados de sigilo do Lote 4 (item 6).
+Servidor do Derep (antigo DETAQ) envia a convocação de uma reunião de revisão a trinta colegas externos à unidade. Se colocar todos em "Para" ou "Cc", os endereços ficam visíveis uns para os outros; para preservar os endereços, usa-se o campo Cco (Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows"). Em casa, o servidor lê o e-mail pelo webmail, no navegador, sem instalar nada; no computador de trabalho, usa um cliente de e-mail instalado, que, quando configurado com IMAP4, mantém as mensagens no servidor e sincroniza as pastas (Microsoft Learn, "POP3 e IMAP4 em Exchange Online") e envia por SMTP (Microsoft Learn, "POP3 e IMAP4 em Exchange Online"). Fora do ambiente institucional (conta pessoal, rede externa), valem os cuidados de sigilo do tópico 6 de TI e Dados.
 
 ### 3.1.5 PEGADINHAS PROVÁVEIS
-P1. "O webmail exige a instalação de um programa cliente no computador" → ERRADO (acesso por navegador).
+P1. "O webmail exige a instalação de um programa cliente no computador" → ERRADO (acesso por navegador; Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android").
 P2. "O cliente de e-mail é acessado exclusivamente pelo navegador" → ERRADO (aplicativo próprio; conceito geral).
-P3. "Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas" → ERRADO (isso é o padrão do POP3).
-P4. "O POP3 serve para enviar mensagens ao servidor de saída" → ERRADO (o envio é do SMTP).
-P5. "O destinatário incluído em Cco não recebe a mensagem" → ERRADO (recebe, mas fica oculto).
-P6. "Os endereços do campo Cco são visíveis aos demais destinatários" → ERRADO.
-P7. "O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroniza várias pastas" → ERRADO (essa limitação é do POP3).
+P3. "Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas" → ERRADO (isso é o padrão do POP3; Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
+P4. "O POP3 serve para enviar mensagens ao servidor de saída" → ERRADO (o envio é do SMTP; Microsoft Learn, "POP3 e IMAP4 em Exchange Online"; IETF, RFC 5321, "Simple Mail Transfer Protocol").
+P5. "O destinatário incluído em Cco não recebe a mensagem" → ERRADO (recebe, mas fica oculto; Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows").
+P6. "Os endereços do campo Cco são visíveis aos demais destinatários" → ERRADO (Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows").
+P7. "O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroniza várias pastas" → ERRADO (essa limitação é do POP3; Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
 
 ## ITEM 3.2 — MICROSOFT TEAMS
 
 ### 3.2.1 DEFINIÇÃO
-Microsoft Teams é a plataforma de comunicação e colaboração da Microsoft. Reuniões e chamadas existem no Teams (conceito geral; sem item).
+Microsoft Teams é a plataforma de comunicação e colaboração da Microsoft. A fonte Microsoft, documentação de suporte, "Explore a nova experiência de chat e canais no Microsoft Teams" descreve a nova experiência como a que "simplifica as conversas ao colocar o chat, as equipas e os canais num único local" (leitura de 08/10/2026). Reuniões e chamadas existem no Teams (conceito geral; sem fonte consultada para detalhes).
 
 ### 3.2.2 EQUIPES E CANAIS
+Conforme Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams" (leitura de 08/10/2026):
 - Equipes são "coleções de pessoas, conteúdo e ferramentas que envolvem diferentes projetos e resultados dentro de uma organização".
 - Canais são seções dedicadas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos etc.
 - Os canais podem ser abertos a todos os membros da equipe (canais padrão), a membros selecionados da equipe (canais privados) ou a pessoas selecionadas dentro e fora da equipe (canais compartilhados). Segundo a tabela da página, no canal compartilhado pessoas podem ser adicionadas sem entrarem na equipe e participantes externos (Conexão Direta B2B) podem participar.
 Hierarquia: ORGANIZAÇÃO > EQUIPE > CANAIS. A equipe agrupa; o canal organiza a conversa por assunto.
-Limite: não define o canal padrão em sentença própria (a frase acima é a descrição mais próxima) e não diz quem pode ver as conversas; esses pontos não entram em item além da descrição acima.
+Limite: a fonte Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams" não define o canal padrão em sentença própria (a frase acima é a descrição mais próxima) e a fonte Microsoft, documentação de suporte, "Explore a nova experiência de chat e canais no Microsoft Teams" não diz quem pode ver as conversas.
 
 3.2.3 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
-Uma equipe "Revisão de notas" com canais por comissão para discutir dúvidas de grafia de nomes; um canal privado reservado à chefia; um canal compartilhado com pessoa de outro órgão convidada a colaborar sem integrar a equipe. Informações sigilosas só podem circular em ferramenta homologada pela Casa (Lote 4, item 6).
+Uma equipe "Revisão de notas" com canais por comissão para discutir dúvidas de grafia de nomes; um canal privado reservado à chefia; um canal compartilhado com pessoa de outro órgão convidada a colaborar sem integrar a equipe (Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams"). Informações sigilosas só podem circular em ferramenta homologada pela Casa (tópico 6 de TI e Dados).
 
 ### 3.2.4 PEGADINHAS PROVÁVEIS
-P1. "No Teams, o canal privado é aberto a todos os membros da equipe e o canal padrão é restrito a membros selecionados" → ERRADO (inverso).
-P2. "O canal compartilhado só pode ter membros da própria equipe" → ERRADO (inclui pessoas dentro e fora da equipe).
-P3. "Equipe e canal são sinônimos" → ERRADO (o canal é uma seção dentro da equipe).
+P1. "No Teams, o canal privado é aberto a todos os membros da equipe e o canal padrão é restrito a membros selecionados" → ERRADO (inverso; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+P2. "O canal compartilhado só pode ter membros da própria equipe" → ERRADO (inclui pessoas dentro e fora da equipe; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+P3. "Equipe e canal são sinônimos" → ERRADO (o canal é uma seção dentro da equipe; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
 
 ## ITEM 3.3 — GOOGLE MEET
 
 ### 3.3.1 DEFINIÇÃO
-Google Meet é o serviço de videoconferência do Google (conceito geral). É produto DISTINTO do Teams: Teams é da Microsoft; Meet é do Google.
+Google Meet é o serviço de videoconferência do Google (conceito geral; as fontes Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador"; Ajuda do Google Meet, "Participar de uma reunião - Computador"; Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet" descrevem o uso). É produto DISTINTO do Teams: Teams é da Microsoft; Meet é do Google.
 
 ### 3.3.2 INICIAR, AGENDAR E PARTICIPAR
-- Iniciar: no computador, abre-se o Meet e escolhe-se "Nova reunião" (criar para mais tarde, com link para compartilhar, ou iniciar instantânea).
-- Agendar: ao criar um evento no Google Agenda (em pt-PT, chama-o "Calendário Google"), clica-se em "Adicionar videoconferência do Google Meet" para associar um link de videoconferência ao evento, que é compartilhado com os convidados.
-- Participar: pelo link da reunião (clicar e "Participar agora"); por código ou apelido, em meet.google.com; ou pelo evento do Google Agenda ("Entrar com o Google Meet").
-- Sem Conta do Google: a página diz que "o organizador ou um participante precisa autorizar seu acesso"; o usuário digita o nome e escolhe "Pedir para participar".
+- Iniciar: no computador, abre-se o Meet e escolhe-se "Nova reunião" (criar para mais tarde, com link para compartilhar, ou iniciar instantânea) (Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
+- Agendar: ao criar um evento no Google Agenda (a fonte Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet", em pt-PT, chama-o "Calendário Google"), clica-se em "Adicionar videoconferência do Google Meet" para associar um link de videoconferência ao evento, que é compartilhado com os convidados (Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
+- Participar: pelo link da reunião (clicar e "Participar agora"); por código ou apelido, em meet.google.com; ou pelo evento do Google Agenda ("Entrar com o Google Meet") (Ajuda do Google Meet, "Participar de uma reunião - Computador").
+- Sem Conta do Google: a página diz que "o organizador ou um participante precisa autorizar seu acesso"; o usuário digita o nome e escolhe "Pedir para participar" (Ajuda do Google Meet, "Participar de uma reunião - Computador").
 
 ### 3.3.3 APRESENTAR (COMPARTILHAR TELA)
-"Você pode apresentar uma guia, uma janela específica ou a tela inteira em uma reunião"; no passo de apresentação seleciona-se "Uma guia", "Uma janela" ou "A tela inteira". Ao apresentar uma guia do Chrome, o áudio é compartilhado por padrão; em janela ou tela inteira, o áudio do sistema só é compartilhado se a opção "Compartilhar também o áudio do sistema" for ativada. Para parar: "Parar apresentação". A página informa que o compartilhamento pode estar desativado por configurações do administrador ou limitado por controles do organizador. A página não diz que os participantes precisam de permissão para ver a apresentação.
+Conforme Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador" (leitura de 08/10/2026): "Você pode apresentar uma guia, uma janela específica ou a tela inteira em uma reunião"; no passo de apresentação seleciona-se "Uma guia", "Uma janela" ou "A tela inteira". Ao apresentar uma guia do Chrome, o áudio é compartilhado por padrão; em janela ou tela inteira, o áudio do sistema só é compartilhado se a opção "Compartilhar também o áudio do sistema" for ativada. Para parar: "Parar apresentação". A página informa que o compartilhamento pode estar desativado por configurações do administrador ou limitado por controles do organizador. A página não diz que os participantes precisam de permissão para ver a apresentação.
 Chave de prova: três escopos de compartilhamento: GUIA, JANELA, TELA INTEIRA. Quanto mais restrito o escopo, menos conteúdo exposto (conceito geral).
 
 3.3.4 EXEMPLO APLICADO AO TRABALHO LEGISLATIVO (hipotético)
-Reunião de alinhamento de revisão com colaboradores externos que usam o Meet: o organizador cria o evento no Agenda e associa a ele um link de videoconferência, clicando em "Adicionar videoconferência do Google Meet"; para mostrar apenas o documento de trabalho, compartilha-se a janela do programa, e não a tela inteira, evitando expor e-mails ou outras janelas abertas (cuidado de privacidade é conceito geral).
+Reunião de alinhamento de revisão com colaboradores externos que usam o Meet: o organizador cria o evento no Agenda e associa a ele um link de videoconferência, clicando em "Adicionar videoconferência do Google Meet" (Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet"); para mostrar apenas o documento de trabalho, compartilha-se a janela do programa, e não a tela inteira, evitando expor e-mails ou outras janelas abertas (Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador"; cuidado de privacidade é conceito geral).
 
 ### 3.3.5 PEGADINHAS PROVÁVEIS
-P1. "Ao apresentar no Meet, só é possível compartilhar a tela inteira" → ERRADO (guia, janela ou tela inteira).
+P1. "Ao apresentar no Meet, só é possível compartilhar a tela inteira" → ERRADO (guia, janela ou tela inteira; Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador").
 P2. "Teams e Meet são produtos da mesma empresa" → ERRADO (Microsoft × Google; conceito geral).
-P3. "O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda" → ERRADO (também se cria em "Nova reunião", no próprio Meet).
-P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador).
+P3. "O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda" → ERRADO (também se cria em "Nova reunião", no próprio Meet; Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
+P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador; Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador").
 ```
 
 ## Pares
@@ -250,38 +255,38 @@ P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (
 
 ## Pegadinhas
 
-- [P1-1] **WORD** — "O modo Sem Marcação exclui definitivamente as alterações controladas do arquivo" → ERRADO (só oculta).
+- [P1-1] **WORD** — "O modo Sem Marcação exclui definitivamente as alterações controladas do arquivo" → ERRADO (só oculta; Microsoft, documentação de suporte, "Aceitar ou rejeitar alterações controladas no Word").
 - [P1-1] **WORD** — "Avançar e Anterior, no grupo Acompanhamento, aceitam ou rejeitam a alteração" → ERRADO (apenas navegam).
 - [P1-1] **WORD** — "Mesclar células divide uma célula em várias" → ERRADO (mesclar combina; dividir subdivide).
 - [P1-1] **WORD** — "Aceitar uma alteração controlada restabelece o texto original" → ERRADO (isso é rejeitar).
-- [P1-1] **WORD** — "O sumário automático independe da formatação dos títulos" → ERRADO (baseia-se nos títulos com estilo de título).
-- [P1-1] **WORD** — "O sumário do Word se atualiza sozinho, sem qualquer ação, a cada alteração no documento" → ERRADO (o sumário é um campo: após mudanças que o afetem, atualiza-se com o botão direito > "Atualizar Campo").
+- [P1-1] **WORD** — "O sumário automático independe da formatação dos títulos" → ERRADO (baseia-se nos títulos com estilo de título; Microsoft, documentação de suporte, "Inserir um sumário").
+- [P1-1] **WORD** — "O sumário do Word se atualiza sozinho, sem qualquer ação, a cada alteração no documento" → ERRADO (o sumário é um campo: após mudanças que o afetem, atualiza-se com o botão direito > "Atualizar Campo"; Microsoft, documentação de suporte, "Inserir um sumário").
 - [P1-1] **EXCEL** — "Na referência B$2, a coluna fica fixa e a linha se ajusta ao copiar" → ERRADO (o $ antes do 2 trava a linha; a coluna se ajusta).
-- [P1-1] **EXCEL** — "Toda referência de célula é absoluta por padrão" → ERRADO (por padrão é relativa).
-- [P1-1] **EXCEL** — "No PROCV, omitir o quarto argumento produz correspondência exata" → ERRADO (em branco = aproximada).
-- [P1-1] **EXCEL** — "O PROCV pesquisa o valor em qualquer coluna do intervalo e devolve valores de colunas à esquerda dela" → ERRADO (só da esquerda para a direita).
+- [P1-1] **EXCEL** — "Toda referência de célula é absoluta por padrão" → ERRADO (por padrão é relativa; Microsoft, documentação de suporte, "Alternar entre referências relativas, absolutas e mistas").
+- [P1-1] **EXCEL** — "No PROCV, omitir o quarto argumento produz correspondência exata" → ERRADO (em branco = aproximada; Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP").
+- [P1-1] **EXCEL** — "O PROCV pesquisa o valor em qualquer coluna do intervalo e devolve valores de colunas à esquerda dela" → ERRADO (só da esquerda para a direita; Microsoft, documentação de suporte, "Pesquisar valores com PROCV, ÍNDICE ou CORRESP").
 - [P1-1] **EXCEL** — "Na função SE, o segundo argumento é o resultado para teste falso" → ERRADO (o segundo é para verdadeiro).
-- [P1-1] **EXCEL** — "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre colchetes na sintaxe, isto é, opcional).
-- [P1-1] **POWERPOINT** — "A transição é aplicada a um objeto individual do slide e a animação, ao slide inteiro" → ERRADO (inverso).
-- [P1-1] **POWERPOINT** — "Alterar o slide mestre afeta apenas o slide que está selecionado" → ERRADO (afeta os slides baseados nele).
-- [P1-1] **POWERPOINT** — "Cada slide pode receber várias transições simultâneas" → ERRADO (uma transição por slide).
-- [P1-1] **POWERPOINT** — "O slide mestre é aberto na guia Inserir" → ERRADO (guia Exibir) — VOLÁTIL; não vira item.
-- [P1-1] **ONEDRIVE** — "Ao restaurar uma versão anterior, a versão que era a atual é descartada" → ERRADO (passa a constar como versão anterior).
+- [P1-1] **EXCEL** — "O valor_se_falso é obrigatório na função SE" → ERRADO (aparece entre colchetes na sintaxe, isto é, opcional; Microsoft, documentação de suporte, "SE (Função SE)").
+- [P1-1] **POWERPOINT** — "A transição é aplicada a um objeto individual do slide e a animação, ao slide inteiro" → ERRADO (inverso; Microsoft, documentação de suporte, "A diferença entre animações e transições").
+- [P1-1] **POWERPOINT** — "Alterar o slide mestre afeta apenas o slide que está selecionado" → ERRADO (afeta os slides baseados nele; Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?").
+- [P1-1] **POWERPOINT** — "Cada slide pode receber várias transições simultâneas" → ERRADO (uma transição por slide; Microsoft, documentação de suporte, "A diferença entre animações e transições").
+- [P1-1] **POWERPOINT** — "O slide mestre é aberto na guia Inserir" → ERRADO (guia Exibir; Microsoft, documentação de suporte, "O que é um slide master no PowerPoint?") — informação sujeita a mudança.
+- [P1-1] **ONEDRIVE** — "Ao restaurar uma versão anterior, a versão que era a atual é descartada" → ERRADO (passa a constar como versão anterior; Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive").
 - [P1-1] **ONEDRIVE** — "Quem recebe um link com permissão apenas de exibição pode editar o arquivo original" → ERRADO.
-- [P1-1] **ONEDRIVE** — "O histórico de versões do OneDrive só funciona com arquivos do Word" → ERRADO (funciona com todos os tipos de arquivo).
-- [P1-1] **ONEDRIVE** — "Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site" → ERRADO (descreve os dois caminhos).
+- [P1-1] **ONEDRIVE** — "O histórico de versões do OneDrive só funciona com arquivos do Word" → ERRADO (funciona com todos os tipos de arquivo; Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive").
+- [P1-1] **ONEDRIVE** — "Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site" → ERRADO (a fonte Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive" descreve os dois caminhos).
 - [P1-1] **ONEDRIVE** — "Interromper o compartilhamento transfere a propriedade do arquivo ao destinatário" → ERRADO (conceito geral; o proprietário mantém o arquivo).
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O webmail exige a instalação de um programa cliente no computador" → ERRADO (acesso por navegador).
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O webmail exige a instalação de um programa cliente no computador" → ERRADO (acesso por navegador; Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android").
 - [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O cliente de e-mail é acessado exclusivamente pelo navegador" → ERRADO (aplicativo próprio; conceito geral).
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas" → ERRADO (isso é o padrão do POP3).
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O POP3 serve para enviar mensagens ao servidor de saída" → ERRADO (o envio é do SMTP).
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O destinatário incluído em Cco não recebe a mensagem" → ERRADO (recebe, mas fica oculto).
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "Os endereços do campo Cco são visíveis aos demais destinatários" → ERRADO.
-- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroniza várias pastas" → ERRADO (essa limitação é do POP3).
-- [P1-3] **MICROSOFT TEAMS** — "No Teams, o canal privado é aberto a todos os membros da equipe e o canal padrão é restrito a membros selecionados" → ERRADO (inverso).
-- [P1-3] **MICROSOFT TEAMS** — "O canal compartilhado só pode ter membros da própria equipe" → ERRADO (inclui pessoas dentro e fora da equipe).
-- [P1-3] **MICROSOFT TEAMS** — "Equipe e canal são sinônimos" → ERRADO (o canal é uma seção dentro da equipe).
-- [P1-3] **GOOGLE MEET** — "Ao apresentar no Meet, só é possível compartilhar a tela inteira" → ERRADO (guia, janela ou tela inteira).
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas" → ERRADO (isso é o padrão do POP3; Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O POP3 serve para enviar mensagens ao servidor de saída" → ERRADO (o envio é do SMTP; Microsoft Learn, "POP3 e IMAP4 em Exchange Online"; IETF, RFC 5321, "Simple Mail Transfer Protocol").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O destinatário incluído em Cco não recebe a mensagem" → ERRADO (recebe, mas fica oculto; Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "Os endereços do campo Cco são visíveis aos demais destinatários" → ERRADO (Microsoft, documentação de suporte, "Mostre, oculte e exiba o campo Cco (cópia oculta) no Outlook para Windows").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O IMAP4 baixa as mensagens para uma única pasta do cliente e não sincroniza várias pastas" → ERRADO (essa limitação é do POP3; Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
+- [P1-3] **MICROSOFT TEAMS** — "No Teams, o canal privado é aberto a todos os membros da equipe e o canal padrão é restrito a membros selecionados" → ERRADO (inverso; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+- [P1-3] **MICROSOFT TEAMS** — "O canal compartilhado só pode ter membros da própria equipe" → ERRADO (inclui pessoas dentro e fora da equipe; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+- [P1-3] **MICROSOFT TEAMS** — "Equipe e canal são sinônimos" → ERRADO (o canal é uma seção dentro da equipe; Microsoft Learn, "Visão geral de equipes e canais no Microsoft Teams").
+- [P1-3] **GOOGLE MEET** — "Ao apresentar no Meet, só é possível compartilhar a tela inteira" → ERRADO (guia, janela ou tela inteira; Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador").
 - [P1-3] **GOOGLE MEET** — "Teams e Meet são produtos da mesma empresa" → ERRADO (Microsoft × Google; conceito geral).
-- [P1-3] **GOOGLE MEET** — "O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda" → ERRADO (também se cria em "Nova reunião", no próprio Meet).
-- [P1-3] **GOOGLE MEET** — "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador).
+- [P1-3] **GOOGLE MEET** — "O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda" → ERRADO (também se cria em "Nova reunião", no próprio Meet; Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
+- [P1-3] **GOOGLE MEET** — "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador; Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador").

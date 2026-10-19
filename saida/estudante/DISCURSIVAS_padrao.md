@@ -98,7 +98,7 @@ Apresentação e estrutura textual: 0,70
 Base normativa: não se aplica (questão sem dispositivo normativo).
 Nota de correção (edital, 9.8.5.1, d): NQ = NC − 3 × NE ÷ TL, com NC
 máximo de 15,00. Os valores máximos por quesito (5,00 / 4,00 / 5,30), mais 0,70 de apresentação são HIPÓTESE
-do Projeto: os padrões oficiais publicam os conceitos, mas não o peso de
+deste material: os padrões oficiais publicam os conceitos, mas não o peso de
 cada quesito.
 ```
 
@@ -135,7 +135,7 @@ cada quesito.
 ```text
 Valores conforme o caderno oficial (questão: 15,00, com 0,70 de
 apresentação; peça: 30,00, com 1,50 de apresentação). O peso de cada
-quesito é HIPÓTESE do Projeto, alinhado à soma oficial.
+quesito é HIPÓTESE deste material, alinhado à soma oficial.
 Base normativa: não exigível. A menção correta à Portaria DG nº
 77/2017 (Manual de Redação) é aceita, mas não exigida. Não se exige
 convenção específica da Câmara.
@@ -229,7 +229,7 @@ revisão em dupla; amostra sem erro provar lote sem erro.
 ```text
 Valores conforme o caderno oficial (questão: 15,00, com 0,70 de
 apresentação; peça: 30,00, com 1,50 de apresentação). O peso de cada
-quesito é HIPÓTESE do Projeto, alinhado à soma oficial.
+quesito é HIPÓTESE deste material, alinhado à soma oficial.
 Base normativa: não exigível. A menção correta à Portaria DG nº
 77/2017 (Manual de Redação) é aceita, mas não exigida. Não se exige
 convenção específica da Câmara.
@@ -303,7 +303,7 @@ Aspectos:
 Conceito 0 — Não abordou, ou equiparou adaptação a retreino acústico.
 Conceito 1 — Um aspecto. Conceito 2 — Dois. Conceito 3 — Três ou
 quatro. Conceito 4 — Os cinco.
-Decisão: sem trava "obrigatoriamente", conforme o modelo
+Nota de correção: sem trava "obrigatoriamente", conforme o modelo
 oficial. O risco (xv) é aspecto próprio, e sem ele não se chega ao
 conceito máximo.
 
@@ -401,18 +401,18 @@ Quesito 2.3 — Direitos autorais e ética [valor: 4,30]
  - Conceito 2: abordou (ix) e (x), mas sem indicar dispositivo correto em (ix).
  - Conceito 3: abordou (ix) e (x), com o dispositivo correto em (ix).
 
-Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE deste material, alinhada à soma oficial.
 
 Notas de correção
-Alínea c da discursiva: NÃO se exige enquadrar o
+1. Alínea c da discursiva: NÃO se exige enquadrar o
     pronunciamento parlamentar como obra protegida (Lei 9.610/1998, art.
     7º, II) nem como ato oficial (art. 8º, IV). Não há texto legal nem
     jurisprudência firmada sobre isso. Fica descartada a afirmação
     categórica, segundo a qual os pronunciamentos "são
     obras intelectuais protegidas". Basta uma razão da lista (ix), com
     o dispositivo correto.
-Voz como dado sensível (biométrico): nem exigido nem penalizado.
-Base legal do tratamento pelo poder público: aceitam-se o art. 23 e
+2. Voz como dado sensível (biométrico): nem exigido nem penalizado.
+3. Base legal do tratamento pelo poder público: aceitam-se o art. 23 e
     o art. 7º, II ou III.
 ```
 
@@ -501,11 +501,11 @@ Quesito 2.5 — Recomendações e conclusão com dispositivos [valor: 5,50]
  - Conceito 2: dois ou três.
  - Conceito 3: quatro ou cinco.
 
-Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE do Projeto, alinhada à soma oficial.
+Os aspectos enumerados valem como padrão de resposta, com as bases normativas indicadas em cada um. Nota: questão: NQ = NC − 3 × NE ÷ TL (9.8.5.1, d); peça: NPT = NC − 6 × NE ÷ TL (9.8.5.2, d). O peso de cada quesito é HIPÓTESE deste material, alinhada à soma oficial.
 
 Notas de correção
-Voz como dado sensível (biométrico): nem exigido nem penalizado.
-Base legal do tratamento pelo poder público: aceitam-se o art. 23 e
+1. Voz como dado sensível (biométrico): nem exigido nem penalizado.
+2. Base legal do tratamento pelo poder público: aceitam-se o art. 23 e
     o art. 7º, II ou III.
 ```
 

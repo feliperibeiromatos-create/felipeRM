@@ -1,4 +1,4 @@
-# Lote 6b — TI-REDES-SEGURANCA (P1 itens 2 e 4: redes e segurança) — itens
+# Lote 6b — Redes de computadores; Conceitos gerais de segurança e governança digital (P1 itens 2 e 4) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L6B_gabarito.md.
 

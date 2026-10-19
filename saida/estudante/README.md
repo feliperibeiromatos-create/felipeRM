@@ -1,6 +1,6 @@
 # Câmara 2026 — Edição do estudante
 
-- Versão: v1.11 (pacote.json versão 1)
+- Versão: v1.12 (pacote.json versão 1)
 - Data: 2026-10-18
 - Aviso: material de estudo; gabaritos em arquivo separado.
 - Itens marcados com o aviso "Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027." têm conteúdo volátil.
@@ -17,7 +17,8 @@
 - L6A: [L6A_estudo.md](L6A_estudo.md) (resumo, curso, pares, pegadinhas); [L6A_itens.md](L6A_itens.md) (itens sem gabarito); [L6A_gabarito.md](L6A_gabarito.md) (gabarito e justificativas)
 - L6B: [L6B_estudo.md](L6B_estudo.md) (resumo, curso, pares, pegadinhas); [L6B_itens.md](L6B_itens.md) (itens sem gabarito); [L6B_gabarito.md](L6B_gabarito.md) (gabarito e justificativas)
 
-- L1, L2, L3, L6A e L6B: os itens de reforço estão ao fim de cada arquivo _itens.md e _gabarito.md, na seção "Itens de reforço".
+- L1, L2, L3, L4, L6A e L6B: os itens de reforço estão ao fim de cada arquivo _itens.md e _gabarito.md, na seção "Itens de reforço".
+- Cada arquivo _estudo.md traz, ao fim, uma seção "Tópico" por tópico do lote: o resumo ("Resumo do tópico") e, em alguns tópicos, "Em 1 minuto" e os visuais em texto.
 
 ### Núcleo de estudo
 

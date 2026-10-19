@@ -1,4 +1,4 @@
-# Simulado 0 — diagnóstico (v0.2) — folha
+# Simulado 0 — diagnóstico — folha
 
 - Tipo: diagnóstico
 - Versão: v0.2

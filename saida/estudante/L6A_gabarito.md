@@ -1,6 +1,4 @@
-# Lote 6a — TI-FERRAMENTAS (P1 itens 1 e 3: MSOffice 365 e comunicação/colaboração) — gabarito e justificativas
-
-Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada (AT), inversão de causa e efeito (IC)
+# Lote 6a — MSOffice 365; Ferramentas de comunicação e colaboração (P1 itens 1 e 3) — gabarito e justificativas
 
 ### 6A-01 — Gabarito: E
 

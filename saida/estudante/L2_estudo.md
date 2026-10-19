@@ -1,4 +1,4 @@
-# Lote 2 — RF-DEGRAVACAO (degravação e pós-processamento, P2 2.1–2.8)
+# Lote 2 — Degravação e Pós-processamento de Transcrições (P2 2.1–2.8)
 
 Prova: P2
 
@@ -467,16 +467,19 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 - [P2-2.1] **Diferença entre transcrição automática, degravação e revisão humana** — Tratar degravação como sinônimo de taquigrafia (uma é posterior à gravação; a outra é simultânea).
 - [P2-2.1] **Diferença entre transcrição automática, degravação e revisão humana** — Dizer que revisão humana é digitar tudo de novo.
 - [P2-2.1] **Diferença entre transcrição automática, degravação e revisão humana** — Supor que o humano não erra: o controle da qualidade humana é o tema do 2.7.
+- [P2-2.1] **Diferença entre transcrição automática, degravação e revisão humana** — Não confunda transcrição automática com revisão humana: a transcrição automática é um rascunho, produzido por software sem intervenção humana, que não garante fidelidade em nomes, siglas, números, pontuação nem atribuição de falas; a revisão humana confronta o texto com o áudio e responde pela versão publicada.
 - [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — HITL ≠ o revisor só olha trechos de baixa confiança.
 - [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — HITL ≠ o humano transcreve do zero.
 - [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — Revisão só de uma amostra no fim é supervisão ou auditoria (ON the loop), não HITL.
 - [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — "Assistida" ≠ automática com publicação direta.
 - [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — Retroalimentar o sistema com correções melhora o fluxo, mas não elimina a revisão seguinte.
+- [P2-2.2] **Fluxo de trabalho de degravação assistida por IA (Human in the loop)** — Não confunda confiança do ASR com correção: a pontuação de confiança por palavra serve para priorizar a atenção do revisor, não para dispensar a leitura, porque o sistema pode errar com alta confiança.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Fidelidade = literalidade absoluta.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Qualquer correção gramatical é infidelidade (ou, no extremo oposto, o revisor pode "melhorar" o conteúdo).
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Completar o inaudível pelo contexto sem marcar.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Tratar todos os erros como equivalentes.
 - [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Reduzir qualidade a um número único de acerto de palavras (tema dos itens 1.1 a 1.8, não repetido aqui).
+- [P2-2.3] **Revisão e edição de transcrições: critérios de qualidade e fidelidade** — Não confunda erro de sentido com erro de forma: o erro de sentido altera o que foi dito, como omitir "não" ou trocar número, nome ou orador, e é mais grave; o erro de forma, como acento ou grafia, não impede a compreensão.
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Confundir marcação (evento) com fala.
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Afirmar que toda pausa deve ser registrada.
 - [P2-2.4] **Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.** — Misturar fala do Presidente, aparte e discurso numa só linha.
@@ -489,6 +492,7 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 - [P2-2.5] **Normalização de texto: números, siglas, abreviações e termos técnicos** — Dizer que a ITN é etapa do modelo acústico.
 - [P2-2.5] **Normalização de texto: números, siglas, abreviações e termos técnicos** — Achar que a máquina decide sem erro entre ano e quantidade.
 - [P2-2.5] **Normalização de texto: números, siglas, abreviações e termos técnicos** — Tratar o Manual de Redação como obrigatório para todo texto: a Portaria o torna obrigatório para documentos administrativos e apenas recomenda para os demais.
+- [P2-2.5] **Normalização de texto: números, siglas, abreviações e termos técnicos** — Não confunda normalização (texto para fala) com normalização inversa (ITN): a primeira converte a forma escrita em forma falada, como "25%" em "vinte e cinco por cento", típica de síntese de voz; a ITN converte a forma falada reconhecida em forma escrita convencional, etapa de formatação posterior ao reconhecimento.
 - [P2-2.6] **Ferramentas de CAT (Computer Assisted Transcription) e editores de transcrição** — Atribuir ao CAT da transcrição a memória de tradução, recurso de ferramentas de tradução entre idiomas.
 - [P2-2.6] **Ferramentas de CAT (Computer Assisted Transcription) e editores de transcrição** — Confundir editor (onde o humano trabalha) com ASR (que gera o rascunho).
 - [P2-2.6] **Ferramentas de CAT (Computer Assisted Transcription) e editores de transcrição** — Dizer que a ferramenta dispensa a revisão.
@@ -505,3 +509,127 @@ melhor" (generalização). (3) Adaptação de LM = retreino acústico.
 - [P2-2.8] **Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)** — Adaptação de LM = retreino acústico.
 - [P2-2.8] **Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)** — Testar a adaptação nos mesmos dados usados para adaptar.
 - [P2-2.8] **Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)** — Pós-correção por LLM como garantia de fidelidade.
+- [P2-2.8] **Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)** — Não confunda adaptação do modelo de linguagem (LM) com reforço contextual de termos: a adaptação usa textos do domínio e eleva a probabilidade de sequências de palavras, ajudando a escolher entre palavras de som parecido pelo contexto; o reforço atua sobre uma lista de termos com peso.
+- [P2-2.8] **Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)** — Não confunda reforço moderado com reforço excessivo: o moderado favorece os termos esperados; o excessivo faz o sistema inserir o termo reforçado onde ele não foi dito, um falso positivo, e pode piorar outras palavras.
+
+## Tópico P2-2.1 — Diferença entre transcrição automática, degravação e revisão humana
+
+### Resumo do tópico
+
+Transcrição automática, degravação e revisão humana são três conceitos distintos. A transcrição automática é o texto produzido por software de reconhecimento de fala a partir do áudio, sem intervenção humana. Sua saída é um rascunho: não garante fidelidade em nomes, siglas, números, pontuação nem atribuição de falas.
+
+A degravação é a conversão de uma gravação em texto escrito, tradicionalmente por uma pessoa que ouve e redige, com ou sem apoio de ferramentas. Ocorre depois, sobre a gravação, e por isso contrasta com a taquigrafia, que registra a fala simultaneamente, ao vivo. É definição de uso corrente, não de fonte oficial.
+
+A revisão humana é a etapa em que pessoa qualificada confronta o texto, automático ou degravado, com o áudio e o contexto (pauta, lista de oradores, glossário), corrige conteúdo e forma segundo os critérios da instituição e responde pela versão publicada. A qualidade do reconhecimento automático não a dispensa.
+
+Os três podem conviver no mesmo fluxo, em funções distintas. Numa audiência pública, o sistema gera o rascunho, uma pessoa degrava e um revisor confere o texto contra o áudio, corrige o nome de um convidado e uma sigla e valida a versão a publicar.
+
+## Tópico P2-2.2 — Fluxo de trabalho de degravação assistida por IA (Human in the loop)
+
+### Resumo do tópico
+
+Degravação assistida por IA é o fluxo em que o sistema faz o trabalho de volume e a pessoa valida o resultado, sem transcrever do zero. Human in the loop (HITL) é o ponto de intervenção humana obrigatório antes de produzir efeito (aqui, a publicação).
+
+Por uso corrente em governança de IA, e não por norma, distinguem-se três modelos. Em in the loop, o humano intervém em cada ciclo e valida cada saída. Em on the loop, supervisiona e pode intervir, sem validar cada saída (revisão de amostra no fim é supervisão ou auditoria). Sem humano, o sistema decide e publica sozinho.
+
+O fluxo típico vai do preparo do áudio ao reconhecimento, à diarização, à identificação dos oradores, à revisão humana, ao controle de qualidade, à publicação e à retroalimentação, que não elimina a revisão seguinte.
+
+A pontuação de confiança por palavra serve para priorizar a atenção do revisor, não para dispensar a leitura, pois o sistema pode errar com alta confiança. Soma-se o viés de automação: aceitar o texto da máquina por parecer plausível.
+
+## Tópico P2-2.3 — Revisão e edição de transcrições: critérios de qualidade e fidelidade
+
+### Resumo do tópico
+
+Fidelidade é a preservação do que o orador disse: conteúdo, sentido e, conforme o critério da instituição, o estilo. Não equivale necessariamente a literalidade. Qual grau de tratamento do texto vale é decisão editorial da instituição, explícita e aplicada de modo uniforme.
+
+Há três graus de tratamento. O literal registra tudo, inclusive hesitações, repetições, falsas partidas e vícios de linguagem. O verbatim limpo retira disfluências sem conteúdo e mantém palavras e ordem com sentido. O texto editado adapta à norma culta e ao estilo da instituição, preservando o sentido.
+
+Os critérios usuais de qualidade são exatidão, completude com o orador certo, correção de nomes, siglas e números, consistência de grafia, conformidade com o manual da Casa e rastreabilidade da dúvida: trecho inaudível ou incerto é marcado, não completado por conjectura.
+
+Os erros não pesam igual. O que altera o sentido, como omitir um "não" ou trocar número, nome ou orador, é mais grave que o erro de forma que não impede a compreensão, como acento ou grafia. "Concordo com o destaque" no lugar de "Não concordo" é erro crítico, mesmo com WER baixo.
+
+## Tópico P2-2.4 — Formatação de transcrições parlamentares: identificação de oradores, marcação de pausa ruído, etc.
+
+### Resumo do tópico
+
+Formatar é organizar o texto para que o leitor saiba quem falou, em que tipo de intervenção e o que aconteceu além da fala. Os oradores recebem rótulo padronizado por fala, com a troca sempre sinalizada; o curso ensina esse princípio, não a forma exata adotada na Câmara. O rótulo genérico da diarização, como Locutor 2, não identifica o orador: o nome vem de cadastro ou atribuição humana.
+
+O Banco de Discursos da Câmara permite pesquisar por tipos de intervenção, como aparte, fala do Presidente e questão de ordem; a lista pode mudar. Aparte e fala do Presidente são categorias distintas do discurso principal e não se misturam numa só linha nem se atribuem ao orador com a palavra.
+
+Aparte é a interrupção breve e oportuna do orador por outro Deputado que obtém sua permissão (RICD, art. 176, caput e § 1º). Seu registro taquigráfico é a regra; o não apanhamento depende de determinação do Presidente (RICD, art. 17, I, 'h').
+
+A marcação de pausa depende do grau de fidelidade e, na transcrição editada, cabe só à relevante. Eventos não falados, como palmas, risos, inaudível e sobreposição, seguem convenção que varia entre instituições, mas é uma só por transcrição e distinguível do texto falado.
+
+## Tópico P2-2.5 — Normalização de texto: números, siglas, abreviações e termos técnicos
+
+### Resumo do tópico
+
+Normalização de texto é padronizar a forma de escrever sem mudar o conteúdo, e a banca pode misturar dois sentidos. A normalização converte a forma escrita em falada, como "25%" em "vinte e cinco por cento". A normalização inversa, ou ITN, converte a fala reconhecida em forma escrita convencional; é etapa de formatação posterior ao reconhecimento, não reconhecimento acústico.
+
+Na transcrição parlamentar, as decisões cobrem números (algarismos ou extenso, percentuais, moeda, datas, ordinais), siglas (forma escrita, expansão ou não na primeira ocorrência, glossário), abreviações como Sr. e Dep., que se uniformizam, e termos técnicos, que pedem grafia única. O ASR pode devolver as letras ou a pronúncia de uma sigla, não a sigla.
+
+Há ambiguidades: "dois mil e vinte e seis" pode ser ano ou quantidade, e a ITN decide por contexto e pode errar, de modo que o revisor confere.
+
+A padronização por regra institucional elimina oscilações como "5%" numa página e "cinco por cento" em outra, e melhora a busca posterior. A Portaria DG nº 77/2017, art. 2º, determina o uso das normas de padronização do Manual de Redação da Câmara nos documentos administrativos e, no parágrafo único, as recomenda para as demais modalidades de material escrito, respeitado cada gênero textual. O Manual não é obrigatório para todo texto, e a forma exata de números e siglas dependeria dele.
+
+### Em 1 minuto
+
+- Normalização de texto padroniza a forma de escrever sem mudar o conteúdo; não é corrigir o que o orador disse.
+- Em sentido estrito, a normalização converte escrita em falada; a inversa (ITN) converte a fala reconhecida em escrita convencional, como 'vinte e cinco por cento' em '25%'.
+- A ITN decide por contexto e pode errar, por exemplo entre ano e quantidade; por isso o revisor confere o resultado.
+
+#### Normalização na transcrição parlamentar
+
+| Categoria | Decisão de padronização | Exemplo do curso |
+|---|---|---|
+| Números | Algarismos ou extenso, separador de milhar, percentuais, moeda, datas | Oscilação a evitar: "5%" e "cinco por cento" no mesmo texto |
+| Siglas | Forma escrita, expansão na primeira ocorrência ou não, glossário | PEC, MPV, CCJ |
+| Abreviações | Uniformizar | Sr., Sra., Dep. |
+| Termos técnicos | Grafia única, glossário | Latinismos, estrangeirismos, expressões regimentais |
+| Ambiguidades | A ITN decide por contexto e pode errar; o revisor confere | "dois mil e vinte e seis": ano ou quantidade |
+
+#### Normalização e normalização inversa
+
+- **Normalização de texto**
+  - Normalização (texto → fala): "25%" vira por extenso
+  - Texto → fala: típica de síntese de voz e de treino
+  - ITN (fala → texto): "vinte e cinco por cento" vira "25%"
+  - ITN é formatação posterior ao reconhecimento, não acústica
+
+## Tópico P2-2.6 — Ferramentas de CAT (Computer Assisted Transcription) e editores de transcrição
+
+### Resumo do tópico
+
+O edital escreve CAT, transcrição assistida por computador; no sentido próprio da taquigrafia, é o software que traduz as notas da máquina estenotípica em texto. Em torno dele estão os editores de transcrição de áudio, onde o revisor trabalha o rascunho do ASR.
+
+Atenção à palavra tradução: no jargão da taquigrafia, tradução das notas é decifrar os sinais registrados e passá-los para texto, não verter o texto para outro idioma. A memória de tradução, que reaproveita segmentos já traduzidos entre idiomas, é recurso de ferramentas de tradução, não o recurso central da transcrição assistida.
+
+Os recursos típicos dos editores, em categorias, são reprodução sincronizada de texto e áudio, marcas de tempo, controle de velocidade, rótulos de orador e de intervenção, busca e glossário, destaque de trechos de baixa confiança do ASR, histórico de versões e exportação em formatos de texto, documento e legenda.
+
+O WebVTT é exemplo de padrão técnico de legenda: organiza o texto em segmentos associados a intervalos de tempo e admite indicar o falante de cada segmento por marcação própria. Formato de legenda, portanto, pode carregar identificação de falante.
+
+O editor é onde o humano trabalha e não se confunde com o ASR, que gera o rascunho. Nenhuma ferramenta de transcrição, editor ou CAT, dispensa a revisão humana.
+
+## Tópico P2-2.7 — Controle de qualidade: revisão em dupla, auditorias de amostras, SLA
+
+### Resumo do tópico
+
+Revisão em dupla é o exame do texto por um segundo revisor, independente do primeiro; o mesmo revisor relendo não é revisão em dupla. Ela não garante zero erros.
+
+A auditoria de amostras reexamina parte das transcrições já revisadas para estimar a qualidade do conjunto e devolver feedback, com seleção aleatória, estratificada ou dirigida a risco. A amostra estima, mas não prova ausência de erro nas peças não examinadas, e a auditoria não é revisão integral.
+
+O SLA, acordo de nível de serviço, fixa metas, em geral de prazo de entrega e de qualidade mínima, como taxa máxima de erros críticos, com forma de medição e consequências. Prazo cumprido sem a meta de qualidade não cumpre o acordo, e meta só de prazo incentiva pressa.
+
+## Tópico P2-2.8 — Vocabulário técnico parlamentar e vocabulário adaptado (language model adaptation)
+
+### Resumo do tópico
+
+O vocabulário técnico parlamentar é o que se adapta: siglas como PEC, MPV e CCJ, termos regimentais como questão de ordem, destaque e requerimento, nomes de parlamentares, municípios e órgãos, termos jurídicos, latinismos e proposições. OOV é a palavra ausente do vocabulário, caso típico do nome novo de parlamentar; não é o mesmo que baixa confiança.
+
+O modelo de linguagem estima a probabilidade de sequências de palavras. Adaptá-lo com textos do domínio eleva a probabilidade de sequências típicas e ajuda a escolher, pelo contexto, entre homófonas como sessão, seção e cessão.
+
+As técnicas gerais, de nomes variáveis por fornecedor, são interpolar um modelo de domínio com o geral, reforçar termos por lista com peso, acrescentar pronúncias de termos novos e pós-corrigir por glossário ou por LLM, que pode alterar o conteúdo e não garante fidelidade.
+
+Os riscos da adaptação são o reforço excessivo, que insere o termo reforçado onde não foi dito e pode piorar outras palavras, e as listas desatualizadas, pois os nomes mudam a cada legislatura. A adaptação tampouco remove o ruído nem trata a causa acústica, embora possa melhorar o acerto dos termos esperados em áudio ruidoso.
+
+A avaliação correta separa os dados de adaptação dos de teste e mede, antes e depois, o WER geral e também o acerto dos termos-alvo.

@@ -1,4 +1,4 @@
-# Lote 4 — TID-IA (P1 5.1–5.3 e 6) — itens
+# Lote 4 — Conceitos básicos de inteligência artificial; Ética e responsabilidade digital no serviço público (P1 5.1–5.3 e 6) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L4_gabarito.md.
 
@@ -73,3 +73,29 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **4C-09** — Para que um modelo de linguagem, sem acesso a ferramentas externas (como a busca) ou a RAG e sem retreinamento, resuma um relatório interno elaborado depois do seu treinamento, o texto do relatório deve ser incluído no prompt, como contexto.
 
 **4C-10** — A determinação, no prompt, de que o modelo não atribua a um orador fala que ele não tenha feito constitui especificação do formato de saída, e não restrição ao comportamento do modelo.
+
+## Itens de reforço
+
+**Texto-base.** Uma unidade da Câmara pretende treinar um modelo para indexar automaticamente proposições por tema, usando como exemplos de treinamento a indexação já feita por servidores em anos anteriores.
+
+**L4-R01** — Nessa situação, o modelo será treinado por aprendizado supervisionado, em tarefa de classificação, porque a indexação anterior funciona como o rótulo de cada proposição.
+
+**Texto-base.** Revisores do Derep (antigo DETAQ) avaliam, com aprovação ou reprovação, as minutas geradas por um assistente de redação baseado em IA generativa.
+
+**L4-R02** — Se a equipe técnica usar essas avaliações como feedback humano para ajustar as respostas futuras do modelo, a técnica empregada corresponde ao aprendizado por reforço com feedback humano (RLHF).
+
+**L4-R03** — No aprendizado por reforço, denomina-se política a recompensa que o agente recebe em razão das ações que executa no ambiente.
+
+**Texto-base.** Um laboratório treina um robô para aprender a caminhar por uma sala, por tentativa e erro, em interação com o ambiente.
+
+**L4-R04** — Nessa situação, o treinamento descrito constitui exemplo de aprendizado não supervisionado.
+
+**L4-R05** — Um modelo de classificação cuja saída é apenas uma entre duas classes, como "chuva" ou "sem chuva", é denominado de classificação binária; se admitir mais de duas classes, é de classificação multiclasse.
+
+**Texto-base.** Um órgão da Câmara recebeu cerca de 40 mil contribuições escritas em uma consulta pública e pretende agrupá-las por semelhança de conteúdo, sem temas definidos antes, para descobrir os assuntos mais citados.
+
+**L4-R06** — Nessa situação, a tarefa descrita configura aprendizado supervisionado.
+
+**Texto-base.** Uma equipe constrói um modelo de regressão para estimar o preço futuro de uma casa.
+
+**L4-R07** — Nesse modelo, a metragem, o CEP, o número de quartos e de banheiros e a taxa de juros do financiamento são atributos de entrada, e o preço da casa é o valor previsto.

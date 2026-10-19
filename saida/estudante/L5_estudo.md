@@ -1,4 +1,4 @@
-# Lote 5 — TID-DADOS-VIZ (P1 7.1 e 8.1–8.4)
+# Lote 5 — Dados; Visualização de dados (P1 7.1 e 8.1–8.4)
 
 Prova: P1
 
@@ -179,11 +179,18 @@ Pegadinha provável
 - [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — chamar de "limpeza" uma agregação
 - [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — inverter ETL e ELT
 - [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — usar normalização e padronização como sinônimos em item que exige a distinção.
+- [P1-7.1] **MÉTRICAS** — Não confunda média com mediana: a média é sensível a valores extremos; a mediana, valor do meio, é robusta a extremos, e por isso descreve melhor o caso típico quando há um valor muito alto. Armadilha: para dado ordinal valem a mediana e a moda, não a média.
+- [P1-7.1] **ATRIBUTOS** — Não confunda atributo com métrica: o atributo (dimensão) é a coluna pela qual se fatia a análise, como o partido; a métrica é o valor quantitativo mensurável, em geral resultado de agregação, como o número de proposições. Armadilha: coluna numérica não é automaticamente métrica (o número do projeto é identificador).
+- [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — Não confunda transformação com limpeza: a transformação altera forma, escala, conteúdo ou estrutura dos dados, como agregar, derivar e normalizar; a limpeza corrige problemas de qualidade, como duplicatas, valores ausentes e erros de digitação. Armadilha: tratar agregar ou derivar como se fosse limpar.
+- [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — Não confunda normalização com padronização: a normalização reescala os dados para um intervalo, como de 0 a 1; a padronização leva os dados a média 0 e desvio 1. Armadilha: tratá-las como sinônimos em item que exige a distinção.
+- [P1-7.1] **TRANSFORMAÇÃO DE DADOS** — Não confunda ETL com ELT: no ETL (extrair, transformar, carregar), a transformação precede a carga; no ELT, a transformação ocorre depois da carga, no destino.
 - [P1-8.1] **Princípios de visualização de dados** — Afirmar que truncar o eixo de barras é boa prática para realçar diferenças
 - [P1-8.1] **Princípios de visualização de dados** — dizer que mais cores e efeitos 3D aumentam a clareza
 - [P1-8.1] **Princípios de visualização de dados** — usar paleta sequencial ou divergente para categorias sem ordem
 - [P1-8.1] **Princípios de visualização de dados** — afirmar que área ou cor comparam com mais precisão que posição
 - [P1-8.1] **Princípios de visualização de dados** — dizer que pizza é adequada para muitas categorias ou para evolução no tempo.
+- [P1-8.1] **Princípios de visualização de dados** — Não confunda paleta sequencial com divergente e categórica: a sequencial representa magnitude ordenada; a divergente, desvios em torno de um ponto central; a categórica, categorias. Armadilha: usar paleta sequencial ou divergente para categorias sem ordem.
+- [P1-8.1] **Princípios de visualização de dados** — Não confunda posição com área ou cor na leitura de um gráfico: segundo Cleveland e McGill, a precisão decresce de posição em escala comum a comprimento, ângulo, área e, por fim, volume ou cor; por isso barras são lidas com mais exatidão que pizzas. Armadilha: afirmar que área ou cor comparam melhor que posição.
 - [P1-8.2] **Histograma** — tratá-lo como gráfico de barras de categorias
 - [P1-8.2] **Histograma** — dizer que a ordem das classes é intercambiável
 - [P1-8.2] **Histograma** — tratar altura e área como sempre equivalentes
@@ -197,6 +204,9 @@ Pegadinha provável
 - [P1-8.2] **Gráfico de dispersão** — confundir com linha
 - [P1-8.2] **Gráfico de dispersão** — dizer que exige variável categórica em um dos eixos.
 - [P1-8.2] **Box plot (diagrama de caixa)** — dizer que a linha central é a média; que a caixa vai do mínimo ao máximo ou contém todos os dados; que os bigodes vão até 1,5 desvio padrão; que mostra frequência por intervalo (isso é histograma).
+- [P1-8.2] **Histograma** — Não confunda histograma com gráfico de barras: o histograma mostra a distribuição de uma variável quantitativa em classes adjacentes de escala numérica, com barras contíguas; o de barras compara valores entre categorias discretas. Armadilha: o espaçamento entre as barras é só convenção de desenho.
+- [P1-8.2] **Gráfico de linha** — Não confunda gráfico de linha com gráfico de dispersão: a linha liga pontos sucessivos e mostra a evolução de uma variável em eixo ordenado, em geral o tempo; a dispersão tem observações com coordenadas em duas variáveis quantitativas e revela relação e agrupamentos. Armadilha: correlação visível não prova causalidade.
+- [P1-8.2] **Box plot (diagrama de caixa)** — Não confunda box plot com histograma: o box plot resume a distribuição pelos quartis, com a mediana na linha interna, bigodes e outliers, e permite comparar grupos; o histograma mostra a frequência por classe e, assim, a forma da distribuição, como a bimodalidade, que o box plot não mostra.
 - [P1-8.3] **Power BI (Microsoft)** — inverter o fluxo (criar no serviço, publicar no Desktop)
 - [P1-8.3] **Power BI (Microsoft)** — dizer que o Desktop é pago
 - [P1-8.3] **Power BI (Microsoft)** — dizer que o serviço não permite criar dashboards.
@@ -207,8 +217,103 @@ Pegadinha provável
 - [P1-8.3] **Data Studio (Google)** — tratar Looker Studio e Data Studio como produtos diferentes
 - [P1-8.3] **Data Studio (Google)** — atribuir à ferramenta a responsabilidade pela adequação do gráfico (a ferramenta pode sugerir ou gerar visuais, mas a adequação ao dado e à pergunta é do analista)
 - [P1-8.3] **Data Studio (Google)** — misturar com Excel/Office (item 1 do edital, MSOffice 365, fora do escopo dos itens 7 e 8 de TI e Dados).
+- [P1-8.3] **Data Studio (Google)** — Não confunda Data Studio com Looker Studio e Looker: Data Studio é o nome vigente desde abril de 2026; o mesmo produto se chamou Looker Studio entre 11/10/2022 e abril de 2026; o Looker é uma plataforma de BI corporativa, produto distinto (Google Cloud, verificado em 08/10/2026).
 - [P1-8.4] **Storytelling para visualização de dados** — Dizer que storytelling é apenas enfeitar o gráfico ou dispensa mensagem explícita
 - [P1-8.4] **Storytelling para visualização de dados** — inverter exploratória e explanatória
 - [P1-8.4] **Storytelling para visualização de dados** — sugerir mostrar o máximo de métricas para o público concluir sozinho
 - [P1-8.4] **Storytelling para visualização de dados** — dizer que narrativa dispensa dados
 - [P1-8.4] **Storytelling para visualização de dados** — usar dashboard e storytelling como sinônimos.
+- [P1-8.4] **Storytelling para visualização de dados** — Não confunda storytelling com dashboard: o storytelling com dados combina dados, elementos visuais e narrativa em torno de uma mensagem central, para conduzir o público a uma conclusão ou ação; o dashboard é exploração aberta, com muitos indicadores.
+- [P1-8.4] **Storytelling para visualização de dados** — Não confunda análise exploratória com explanatória: na exploratória, o analista investiga os dados para descobrir algo; na explanatória, o público é conduzido a uma mensagem já definida.
+
+## Tópico P1-7.1 — Conceitos, atributos, métricas, transformação de dados
+
+### Resumo do tópico
+
+Dado é o registro bruto de um fato; informação é o dado organizado e interpretado em contexto; conhecimento é a informação aplicada a uma decisão. O dado é estruturado, semiestruturado ou não estruturado, como texto livre, áudio e vídeo.
+
+O dado quantitativo é discreto, na contagem, ou contínuo, na medida. As escalas são nominal, sem ordem; ordinal, com ordem sem distância definida; intervalar, com distâncias iguais e zero arbitrário; e de razão, com zero absoluto.
+
+Em dado tabular, atributo é coluna, variável ou campo, e registro é linha ou instância; a chave identifica unicamente o registro. Dimensões são os atributos pelos quais se fatia a análise, e métricas são o que se mede.
+
+A média é sensível a valores extremos, a mediana é robusta a eles e a moda é a única aplicável a dado nominal.
+
+Transformar é alterar forma, escala, conteúdo ou estrutura dos dados para a análise, como agregar, filtrar, juntar, normalizar e padronizar. A limpeza corrige qualidade; agregar e derivar não é limpar. No ETL a transformação precede a carga; no ELT, vem depois.
+
+## Tópico P1-8.1 — Princípios de visualização de dados
+
+### Resumo do tópico
+
+A visualização traduz dados em representações visuais que facilitam percepção, comparação e decisão; ela responde a uma pergunta, e o tipo de gráfico decorre da natureza do dado.
+
+Os princípios incluem clareza e foco na mensagem, razão dados/tinta alta, sem decoração como o 3D, e integridade gráfica, com escalas honestas e barras partindo de zero. A cor tem uso funcional: paleta categórica para categorias, sequencial para magnitude ordenada e divergente para desvios em torno de um ponto central.
+
+Na precisão de leitura, a posição em escala comum supera comprimento, ângulo, área e volume ou cor; por isso barras são lidas com mais exatidão que pizzas.
+
+## Tópico P1-8.2 — Tipos de gráficos (histograma, linha, barra, dispersão, box plot)
+
+### Resumo do tópico
+
+O histograma mostra a distribuição de frequência de uma variável quantitativa dividida em classes adjacentes de uma escala numérica; por isso as barras são contíguas e a ordem das classes é fixa. Com amplitudes desiguais, a área da barra é que deve ser proporcional à frequência, e a altura representa a densidade.
+
+O gráfico de barras compara valores entre categorias discretas, com a base em zero. O que o distingue do histograma é a natureza da variável, categórica nele e quantitativa em classes no histograma, e não o espaçamento entre as barras, que é convenção de desenho.
+
+O gráfico de linha mostra a evolução de uma variável em um eixo ordenado, tipicamente o tempo.
+
+O gráfico de dispersão mostra a relação entre duas variáveis quantitativas, cada ponto sendo uma observação; correlação visível não prova causalidade.
+
+No box plot, a caixa vai do primeiro ao terceiro quartil e contém os 50% centrais dos dados; sua amplitude é o intervalo interquartil, Q3 menos Q1. A linha interna é a mediana, não a média.
+
+Na regra usual de Tukey, que pode variar entre programas, os limites são Q1 menos 1,5 vezes o intervalo interquartil e Q3 mais 1,5 vezes esse intervalo. Cada bigode vai até o dado mais extremo do seu lado dentro do limite; pontos além dele são outliers.
+
+### Em 1 minuto
+
+- Histograma: variável quantitativa em classes adjacentes; barras: categorias; a diferença está na natureza da variável.
+- Linha mostra evolução em eixo ordenado; dispersão mostra relação entre duas quantitativas, sem provar causa.
+- Box plot: caixa do Q1 ao Q3, linha na mediana, bigodes limitados a Q1 − 1,5·AIQ e Q3 + 1,5·AIQ (regra usual de Tukey).
+
+#### Qual gráfico para qual pergunta
+
+| Gráfico | Variáveis | O que mostra | Armadilha |
+|---|---|---|---|
+| Histograma | Quantitativa, em classes adjacentes | Distribuição: forma, centro, dispersão, modas | Tratá-lo como barras de categorias |
+| Gráfico de linha | Uma variável em eixo ordenado, como o tempo | Evolução: tendência, sazonalidade, variações | Usar para categorias sem ordem |
+| Gráfico de barras | Categorias discretas e seus valores | Comparação de valores entre categorias | Confundir com histograma; eixo truncado |
+| Gráfico de dispersão | Duas variáveis quantitativas | Relação, agrupamentos e outliers | Afirmar causa e efeito |
+| Box plot | Quantitativa; uma caixa por grupo | Resumo da distribuição: Q1, mediana, Q3 | Dizer que a linha central é a média |
+
+*Box plot: regra usual de Tukey, que pode variar entre programas*
+
+#### Como ler um box plot
+
+- **Box plot**
+  - Caixa do Q1 ao Q3: os 50% centrais dos dados
+  - AIQ = Q3 − Q1 é a amplitude da caixa
+  - Linha interna: mediana, não a média
+  - Limites: Q1 − 1,5·AIQ e Q3 + 1,5·AIQ (regra usual de Tukey)
+  - Cada bigode vai ao dado mais extremo do seu lado dentro do limite
+  - Pontos além dos limites são marcados como outliers
+
+## Tópico P1-8.3 — Ferramentas de visualização de dados (Power BI, Tableau e Data Studio)
+
+### Resumo do tópico
+
+Ferramenta de visualização conecta fontes de dados, constrói visuais, os reúne em painéis e compartilha análises; ela pode sugerir ou gerar visuais, mas a adequação do gráfico ao dado e à pergunta é do analista.
+
+Segundo o Microsoft Learn, verificado em 8/10/2026, o Power BI tem três componentes: o Power BI Desktop, aplicativo para Windows gratuito para baixar; o serviço do Power BI, plataforma on-line; e o Power BI Mobile. O fluxo é criar o relatório no Desktop, publicá-lo no serviço e distribuí-lo aos consumidores.
+
+Segundo o Tableau Help, verificado em 8/10/2026, o Desktop serve à criação e à análise; o Cloud é hospedado pela Tableau e o Server, pelo próprio cliente; o Public é gratuito para compartilhar visualizações publicamente.
+
+O Data Studio é o nome vigente da ferramenta do Google: passou a Looker Studio em 11/10/2022 e voltou a Data Studio em abril de 2026, segundo o Google Cloud, verificado em 8/10/2026; foi renomeada, não descontinuada.
+
+Segundo o Google Cloud, verificado em 8/10/2026, a edição Data Studio é sem custo e existe a edição paga Data Studio Pro; por isso não basta dizer que é gratuito. O Looker é uma plataforma de inteligência de negócios distinta do Data Studio.
+
+## Tópico P1-8.4 — Storytelling para visualização de dados
+
+### Resumo do tópico
+
+O storytelling com dados combina dados, elementos visuais e narrativa para comunicar uma mensagem central e conduzir o público a uma conclusão ou ação. Difere do dashboard, que é exploração aberta com muitos indicadores.
+
+A estrutura narrativa vai do contexto ao conflito ou problema que os dados revelam e à resolução ou chamada à ação.
+
+O método define a mensagem antes de escolher gráficos, elimina ruído e dirige a atenção. A análise exploratória descobre; a explanatória conduz o público a uma mensagem definida.

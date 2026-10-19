@@ -1,4 +1,4 @@
-# Lote 6a — TI-FERRAMENTAS (P1 itens 1 e 3: MSOffice 365 e comunicação/colaboração)
+# Lote 6a — MSOffice 365; Ferramentas de comunicação e colaboração (P1 itens 1 e 3)
 
 Prova: P1
 
@@ -276,6 +276,13 @@ P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (
 - [P1-1] **ONEDRIVE** — "O histórico de versões do OneDrive só funciona com arquivos do Word" → ERRADO (funciona com todos os tipos de arquivo; Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive").
 - [P1-1] **ONEDRIVE** — "Só é possível restaurar versões usando o aplicativo de sincronização, nunca pelo site" → ERRADO (a fonte Microsoft, documentação de suporte, "Restaurar uma versão anterior de um ficheiro armazenado no OneDrive" descreve os dois caminhos).
 - [P1-1] **ONEDRIVE** — "Interromper o compartilhamento transfere a propriedade do arquivo ao destinatário" → ERRADO (conceito geral; o proprietário mantém o arquivo).
+- [P1-1] **EXCEL** — Não confunda referência relativa com absoluta e mista: a relativa, que é o padrão, muda de posição quando a fórmula é copiada; a absoluta ($B$2) fixa coluna e linha; a mista fixa só a coluna ($B2) ou só a linha (B$2). Armadilha: o $ trava o que vem imediatamente depois dele.
+- [P1-1] **WORD** — Não confunda ocultar alterações com resolvê-las no Word: o modo Sem Marcação só oculta as alterações, temporariamente, e elas voltam ao reabrir o documento; aceitar ou rejeitar decide o conteúdo e é o que as remove de fato. Armadilha: trocar para Sem Marcação não limpa o arquivo.
+- [P1-1] **WORD** — Não confunda aceitar com rejeitar uma alteração controlada: aceitar incorpora a alteração ao texto; rejeitar a descarta, restabelecendo o texto original. Armadilha: Avançar e Anterior apenas navegam, sem aceitar nem rejeitar.
+- [P1-1] **WORD** — Não confunda sumário automático com sumário digitado à mão: o automático é gerado a partir dos títulos com estilo de título e é atualizado com Atualizar Campo; o digitado à mão não cria estrutura que o Word reconheça. Armadilha: dizer que o sumário automático independe da formatação dos títulos.
+- [P1-1] **EXCEL** — Não confunda correspondência exata com aproximada no PROCV: com FALSO no quarto argumento, a correspondência é exata; com VERDADEIRO ou com o argumento em branco, é aproximada, isto é, o valor mais próximo que não ultrapasse o procurado. Armadilha: omitir o quarto argumento não equivale a FALSO.
+- [P1-1] **EXCEL** — Não confunda PROCV com ÍNDICE e CORRESP quanto à direção da pesquisa: o PROCV só pesquisa da esquerda para a direita, e a coluna do valor procurado precisa estar à esquerda da coluna de retorno; se não estiver, recomendam-se ÍNDICE e CORRESP.
+- [P1-1] **ONEDRIVE** — Não confunda compartilhar com exibição e com edição no OneDrive: com exibição, quem recebe o link apenas lê; com edição, lê e altera o arquivo. Armadilha: achar que compartilhar transfere a propriedade do arquivo.
 - [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O webmail exige a instalação de um programa cliente no computador" → ERRADO (acesso por navegador; Microsoft, documentação de suporte, "Comparar o Outlook para PC, Outlook na web e o Outlook para iOS & Android").
 - [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "O cliente de e-mail é acessado exclusivamente pelo navegador" → ERRADO (aplicativo próprio; conceito geral).
 - [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — "Por padrão, clientes IMAP4 removem do servidor as mensagens baixadas" → ERRADO (isso é o padrão do POP3; Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
@@ -290,3 +297,44 @@ P4. "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (
 - [P1-3] **GOOGLE MEET** — "Teams e Meet são produtos da mesma empresa" → ERRADO (Microsoft × Google; conceito geral).
 - [P1-3] **GOOGLE MEET** — "O link de uma reunião do Meet só pode ser criado por meio de um evento do Google Agenda" → ERRADO (também se cria em "Nova reunião", no próprio Meet; Ajuda do Google Meet, "Inicie ou agende uma videoconferência do Google Meet").
 - [P1-3] **GOOGLE MEET** — "O compartilhamento de tela no Meet nunca pode ser restringido" → ERRADO (pode ser desativado por administrador ou limitado pelo organizador; Ajuda do Google Meet, "Apresentar durante uma videochamada - Computador").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — Não confunda SMTP com POP3: o SMTP transfere e envia as mensagens; o POP3 permite à estação acessar a caixa postal no servidor, em geral baixando as mensagens. Armadilha: o POP3 não envia; o programa de e-mail depende do SMTP para enviar.
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — Não confunda POP3 com IMAP4: por padrão, os clientes POP3 removem as mensagens baixadas do servidor, baixam para uma única pasta e não sincronizam várias pastas; os clientes IMAP4 não as removem por padrão e dão suporte a várias pastas (Microsoft Learn, "POP3 e IMAP4 em Exchange Online").
+- [P1-3] **CORREIO ELETRÔNICO (WEBMAIL, CLIENTE DE E-MAIL)** — Não confunda Para e Cc com Cco: em Para (destinatários principais) e em Cc (ciência), os endereços aparecem para todos; quem está em Cco recebe a cópia, mas seu endereço fica oculto para os demais. Armadilha: dizer que o destinatário em Cco não recebe a mensagem.
+- [P1-3] **MICROSOFT TEAMS** — Não confunda equipe com canal no Teams: a equipe é a coleção de pessoas, conteúdo e ferramentas dos projetos e resultados de uma organização; o canal é uma seção dedicada dentro da equipe, que organiza as conversas por tópicos ou projetos.
+- [P1-3] **GOOGLE MEET** — Não confunda apresentar uma guia com apresentar uma janela ou a tela inteira no Meet: a guia é uma aba do Chrome, com áudio compartilhado por padrão; na janela ou na tela inteira, o áudio do sistema só é compartilhado se a opção for ativada (Ajuda do Google Meet, verificado em 08/10/2026).
+
+## Tópico P1-1 — MSOffice 365 (Word, Excel, PowerPoint e OneDrive)
+
+### Resumo do tópico
+
+O edital escreve MSOffice 365; segundo a documentação de suporte da Microsoft, lida em 08/10/2026, Word, Excel, PowerPoint e Outlook são aplicativos do pacote Microsoft 365. Importa o que cada aplicativo faz, e não plano, licença ou preço. Word trata texto, Excel calcula, PowerPoint apresenta e OneDrive guarda arquivos na nuvem.
+
+No Word, o controle de alterações registra as edições sem apagar o texto original. O modo Sem Marcação só oculta as marcas, que voltam ao reabrir o documento. Aceitar incorpora a alteração, rejeitar restabelece o texto original, e Avançar e Anterior só navegam.
+
+Mesclar combina células adjacentes em uma; dividir subdivide uma célula em várias. O sumário automático é gerado a partir dos estilos de título e, após mudanças, atualiza-se com Atualizar Campo.
+
+No Excel, a referência é relativa por padrão e muda quando a fórmula é copiada. O cifrão trava o que vem logo depois: $B$2 fixa coluna e linha, $B2 só a coluna e B$2 só a linha. A tecla F4 alterna entre os tipos.
+
+A função SE tem teste lógico, valor se verdadeiro e valor se falso, este opcional. O PROCV pesquisa da esquerda para a direita; no quarto argumento, FALSO dá correspondência exata, e VERDADEIRO ou em branco dá aproximada.
+
+No PowerPoint, alterar o slide mestre, aberto na guia Exibir, muda de uma vez os slides baseados nele. A animação age num elemento do slide; a transição age no slide inteiro, uma só por slide.
+
+O OneDrive guarda arquivos na nuvem, com permissões de exibição, que é ler, ou de edição, que é ler e alterar. Restaurar uma versão não apaga a atual, que passa a constar como anterior.
+
+## Tópico P1-3 — Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet)
+
+### Resumo do tópico
+
+No correio eletrônico, o webmail é acessado pelo navegador, sem programa instalado, e o cliente de e-mail é um programa próprio que acessa a caixa postal no servidor.
+
+O SMTP envia; o POP3 baixa e, por padrão, apaga do servidor; o IMAP4 acessa e sincroniza, mantendo as mensagens no servidor e dando suporte a várias pastas.
+
+Segundo a documentação de suporte da Microsoft, lida em 08/10/2026, quem está em Cco recebe a mensagem, mas seu endereço não é visto pelos outros destinatários. Em Para e Cc, os endereços aparecem para todos.
+
+O Microsoft Teams é a plataforma de comunicação e colaboração da Microsoft. Segundo o Microsoft Learn, lido em 08/10/2026, a equipe reúne pessoas, conteúdo e ferramentas, e o canal é uma seção dentro dela que organiza as conversas por assunto.
+
+Os canais padrão são abertos a todos os membros, os privados a membros selecionados e os compartilhados a pessoas de dentro e de fora da equipe.
+
+O Google Meet é o serviço de videoconferência do Google, produto distinto do Teams, que é da Microsoft. A reunião pode ser iniciada em Nova reunião ou agendada pelo evento do Google Agenda, e acessada pelo link.
+
+Ao apresentar, escolhe-se guia, janela ou tela inteira; o compartilhamento pode ser desativado pelo administrador ou limitado pelo organizador.

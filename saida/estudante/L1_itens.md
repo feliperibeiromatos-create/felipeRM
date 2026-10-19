@@ -1,4 +1,4 @@
-# Lote 1 — RF-ASR (reconhecimento de fala e transcrição, P2 1.1–1.8) — itens
+# Lote 1 — Reconhecimento de Fala e Transcrição de Áudio (P2 1.1–1.8) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L1_gabarito.md.
 
@@ -355,3 +355,197 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **L1-R130** — No Google Cloud Speech-to-Text, a requisição pode indicar o modelo de reconhecimento, treinado para determinado tipo de áudio, o que tende a melhorar os resultados quando a fonte do áudio é conhecida.
 
 **L1-R131** — Uma equipe da Câmara dispõe de extenso acervo de áudio de sessões sem transcrição e de poucas horas de áudio transcrito. Nessa situação, segundo o README oficial do wav2vec 2.0, o pré-treinamento auto-supervisionado e o autotreinamento (self-training) são técnicas excludentes.
+
+**L1-R132** — Ao segmentar o áudio de uma sessão por silêncios para submetê-lo ao reconhecimento, a equipe obtém trechos que, na terminologia da documentação do CMUSphinx, são chamados de utterances: trechos de áudio separados por pausas, formados por palavras e sons não linguísticos, que não correspondem necessariamente a sentenças.
+
+**L1-R133** — Segundo a documentação do CMUSphinx, a velocidade de um decodificador pode ser expressa em múltiplos do tempo de gravação (xRT). Nessa convenção, um arquivo de áudio com 2 horas de gravação cuja decodificação levou 6 horas tem velocidade de 3xRT.
+
+**L1-R134** — No sclite, do NIST, palavras da referência podem ser marcadas como opcionais, colocando-as entre parênteses. De acordo com a documentação, quando se usa a opção -D, a palavra opcional da referência que o sistema deixa de emitir é tratada como correta, e não como supressão.
+
+**L1-R135** — Ao pontuar a transcrição de uma sessão com o sclite, do NIST, a equipe usa referência e hipótese no formato ctm e a opção -T, que ativa o alinhamento mediado por tempo. Segundo a documentação, esse alinhamento substitui os pesos fixos de distância entre palavras por medidas baseadas em pesos predefinidos atribuídos a cada palavra.
+
+**L1-R136** — Segundo a documentação do CMUSphinx sobre os conceitos básicos do reconhecimento de fala, os trifones, que são fones considerados em contexto, com o fone vizinho à esquerda e o da direita, correspondem a partes de fones entre dois fones consecutivos, ao passo que os difones ocupam o mesmo trecho da forma de onda que o fone isolado e diferem deste apenas pelo nome.
+
+**L1-R137** — De acordo com a documentação do Google Cloud Speech-to-Text, descrever na configuração da requisição a codificação correta do áudio e usar o idioma e o modelo de reconhecimento corretos contribui para a transcrição mais precisa e para a cobrança correta da requisição.
+
+**L1-R138** — Entre as medidas de desempenho de um sistema de reconhecimento de fala citadas na documentação do CMUSphinx, a acurácia (accuracy) é calculada com as mesmas contagens de erros usadas no WER, exceto por não levar em conta as supressões.
+
+**L1-R139** — Na API REST de reconhecimento de áudio curto do Azure Speech, o resultado com status NoMatch indica que foi detectada fala no fluxo de áudio, mas nenhuma palavra do idioma-alvo foi reconhecida, o que normalmente significa que o idioma de reconhecimento configurado é diferente do idioma falado pelo usuário.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R141** — Segundo a documentação do CMUSphinx, o lattice é um grafo dirigido que representa variantes do reconhecimento, ao passo que a lista N-best representa essas variantes de forma mais densa que o lattice.
+
+**L1-R142** — O artigo que apresenta o Whisper informa que os modelos são treinados para prever o texto bruto das transcrições, sem padronização significativa, o que dispensa uma etapa separada de normalização inversa de texto para a obtenção de transcrições de aspecto natural.
+
+**L1-R143** — Segundo o artigo que apresenta o Whisper, os autores mantiveram no conjunto de treinamento as transcrições geradas por outros sistemas de reconhecimento automático de fala, em vez de removê-las por meio de heurísticas de detecção.
+
+**L1-R144** — Na montagem dos dados de treinamento do Whisper, segundo o artigo que apresenta o modelo, um par formado por áudio em francês e transcrição em inglês não é incluído como exemplo de reconhecimento de fala, pois o idioma falado não corresponde ao da transcrição; esse par é aproveitado como exemplo de tradução da fala para o inglês.
+
+**L1-R145** — De acordo com o artigo do Whisper, os trechos de áudio sem fala foram excluídos do conjunto de treinamento.
+
+**L1-R146** — Segundo o artigo do Whisper, o áudio é reamostrado a 16.000 Hz e convertido em um espectrograma log-Mel de 80 canais, calculado em janelas de 10 milissegundos com deslocamento de 25 milissegundos.
+
+**L1-R147** — Uma equipe pretende usar a versão multilíngue do Whisper para transcrever sessões em português. Segundo o artigo que apresenta o modelo, nos modelos multilíngues o vocabulário do tokenizador foi reajustado, mantido o mesmo tamanho, porque o vocabulário BPE do GPT-2, usado nos modelos apenas em inglês, fragmentaria excessivamente outros idiomas.
+
+**L1-R148** — Na transcrição de áudio longo, o artigo do Whisper descreve que a temperatura de decodificação parte de 0 e é elevada em 0,2, até o máximo de 1,0, sempre que o texto gerado apresenta taxa de compressão gzip inferior a 2,4.
+
+**L1-R149** — Para evitar que o modelo ignore as primeiras palavras do áudio na transcrição de gravações longas, o artigo do Whisper restringe o token de carimbo de tempo inicial a um valor entre 0,0 e 1,0 segundo.
+
+**L1-R150** — Segundo o artigo do Whisper, na detecção de trechos sem fala em áudio longo, a probabilidade do token de ausência de fala é, por si só, suficiente para distinguir um segmento sem fala.
+
+**L1-R151** — No pré-treinamento do wav2vec 2.0, a entrada de fala é mascarada no espaço latente, e o modelo resolve uma tarefa contrastiva definida sobre uma quantização das representações latentes, aprendidas em conjunto.
+
+**L1-R152** — O artigo que apresenta o AudioPaLM descreve um modelo que funde um modelo de linguagem textual e um de fala em uma arquitetura multimodal única, capaz de processar e gerar texto e fala, e que herda do AudioLM a capacidade de preservar informações paralinguísticas, como a identidade do falante e a entonação.
+
+**L1-R153** — Segundo o artigo do AudioPaLM, inicializar o modelo com os pesos de um grande modelo de linguagem treinado somente com texto prejudica o processamento de fala.
+
+**L1-R154** — O SALMONN integra um grande modelo de linguagem textual pré-treinado a codificadores de fala e de áudio em um único modelo multimodal, o que permite ao LLM processar diretamente entradas de áudio de natureza geral, entre elas fala, eventos sonoros e música.
+
+**L1-R155** — No SALMONN, o módulo de conexão entre os codificadores de áudio e o LLM converte a saída do codificador em um número fixo de tokens de áudio, qualquer que seja a duração da gravação.
+
+**L1-R156** — O Qwen2-Audio apresenta dois modos de interação com áudio: no modo de conversa por voz, o usuário interage com o modelo por voz, sem entrada de texto; no modo de análise de áudio, o usuário fornece áudio e instruções em texto para a análise.
+
+**L1-R157** — Segundo o artigo do Qwen2-Audio, diante de um trecho de áudio que contém ao mesmo tempo sons, conversa entre vários falantes e um comando de voz, o modelo é capaz de entender diretamente o comando e fornecer uma interpretação e uma resposta ao áudio.
+
+**L1-R158** — Segundo o artigo do Qwen2-Audio, o pré-treinamento foi simplificado com o uso de tags hierárquicas complexas no lugar de prompts em linguagem natural para os diferentes dados e tarefas.
+
+**L1-R159** — Em um serviço de atendimento por voz da Casa baseado em modelo de fala para fala, segundo a documentação do Amazon Nova 2 Sonic, a resposta falada pode ter a forma de entrega ajustada dinamicamente de acordo com a prosódia da fala do usuário.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R160** — Uma equipe pretende enviar, em um único prompt a modelo Gemini por meio do Google Cloud, os arquivos de áudio de três reuniões de comissão. Segundo a documentação sobre compreensão de áudio, o número máximo de arquivos de áudio por prompt é um, de modo que as três gravações não podem ser enviadas, como três arquivos, no mesmo prompt.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R161** — Segundo a documentação de áudio da Mistral AI, a oferta de modelos para tratamento de áudio inclui apenas modelo de entrada de áudio voltado a tarefas por instrução, não havendo modelo de áudio otimizado especificamente para transcrição.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R162** — Uma equipe avalia, com a taxa de erro de diarização (DER) do pyannote.metrics em sua configuração padrão, um sistema de diarização que não inclui módulo de detecção de fala sobreposta, usando gravações de comissão com muitos apartes. Nessa situação, segundo a documentação, a métrica leva em conta a fala sobreposta, o que pode aumentar a detecção perdida atribuída ao sistema.
+
+**L1-R163** — Na avaliação de sistemas de diarização, é comum remover da avaliação uma faixa (colar) em torno de cada fronteira de turno de fala, porque os sistemas automáticos não conseguem determinar essas fronteiras com precisão no nível da amostra de áudio.
+
+**L1-R164** — Considere um arquivo de 100 s em que a fala de referência soma 80 s. Um sistema de diarização apresentou 4 s de falso alarme, 2 s de fala perdida e 6 s de confusão de falantes. Nessa situação, segundo a definição de DER da documentação do pyannote.metrics, a DER é de 12%, resultado de 12 s de erro divididos pelos 100 s de duração do arquivo.
+
+**L1-R165** — Na avaliação de um sistema de diarização, o sistema rotulou como spk_0 o orador que a anotação de referência chama de Presidente. Nessa situação, a diferença entre os nomes dos rótulos não constitui, por si só, erro de confusão, pois a DER se apoia em um mapeamento um a um entre os falantes da referência e os do sistema, que, na versão ótima, é calculado pelo algoritmo húngaro de modo a minimizar a confusão.
+
+**L1-R166** — Segundo a documentação do pyannote.metrics, resultados com segmentação excessiva (muitos agrupamentos de falantes) tendem a produzir alta cobertura e baixa pureza, ao passo que resultados com subsegmentação (dois falantes fundidos em um grande agrupamento) levam a alta pureza e cobertura menor.
+
+**L1-R167** — Segundo a nota de transparência do Azure Speech, a qualidade da diarização é medida pela taxa de erro de palavras (WER).
+
+**L1-R168** — Uma equipe envia à transcrição em lote do Azure Speech, com a diarização habilitada, um arquivo estéreo que traz dois oradores. Nessa situação, segundo a documentação, a diarização é aplicada normalmente, pois o recurso foi concebido para gravações com mais de um canal.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R169** — Uma comissão grava a reunião em um único arquivo, com todos os parlamentares falando para um microfone comum na mesma sala, e envia a gravação ao Azure Speech para obter a transcrição com a indicação de quem falou. Nessa situação, segundo a nota de transparência, estar todos os falantes no mesmo ambiente acústico, como o de uma sala em que falam para um microfone comum, é a condição em que o sistema tende a ter melhor desempenho.
+
+**L1-R170** — O sistema de som de um comitê grava o áudio, com um microfone por canal, em um arquivo de quatro canais. Nessa situação, segundo a documentação do Amazon Transcribe, a identificação de canais pode ser usada para transcrever separadamente cada um dos quatro canais.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R171** — Para que a transcrição de uma audiência exiba o nome do presidente da sessão, a API de transcrição da OpenAI, no modelo especializado em diarização, aceita o envio de trechos curtos de áudio de referência de falantes conhecidos, acompanhados dos respectivos nomes, para associar os segmentos de fala a esses falantes.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R172** — No modelo de pontuação e capitalização documentado pelo NeMo, para cada palavra do texto de entrada o modelo prevê a marca de pontuação que deve preceder a palavra e se ela deve ser grafada com inicial maiúscula.
+
+**L1-R173** — Segundo a documentação do NeMo, por padrão o modelo de pontuação e capitalização considera vírgulas, pontos finais e pontos de interrogação, tendo os demais sinais sido removidos dos dados; para que sinais como o ponto e vírgula e os dois-pontos fossem restaurados em transcrições, seria preciso introduzir novos rótulos.
+
+**L1-R174** — Uma equipe usa o script de inferência de pontuação e capitalização do NeMo em um texto de transcrição muito longo, que é dividido em segmentos. Nessa situação, segundo a documentação, como o desempenho do modelo é pior junto às bordas dos segmentos, as previsões feitas para os tokens próximos dessas bordas são privilegiadas no cálculo das previsões finais.
+
+**L1-R175** — O modelo de pontuação e capitalização do NeMo é composto de dois classificadores no nível de token, um para a pontuação e outro para a capitalização, treinados em conjunto sobre um modelo de linguagem pré-treinado, e opera sobre texto, e não sobre o sinal de áudio.
+
+**L1-R176** — A avaliação do modelo de pontuação e capitalização do NeMo gera um único relatório de taxa de erro de palavras (WER), que cobre ao mesmo tempo a pontuação e a capitalização.
+
+**L1-R177** — Uma equipe percebe que a transcrição de audiências, feita com um modelo de transcrição da API da OpenAI que aceita prompt, vem sem a pontuação e as iniciais maiúsculas adotadas na Casa. Nessa situação, segundo o guia da API, o prompt não é recurso adequado para isso, pois serve apenas para melhorar o reconhecimento de nomes, siglas e vocabulário específico da gravação, e não para preservar pontuação nem capitalização.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R178** — Segundo a documentação do Google Cloud Speech-to-Text, por padrão o serviço já insere pontuação nos resultados do reconhecimento, de modo que a pontuação automática precisa ser desabilitada quando não for desejada.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R179** — Segundo a documentação do NeMo, no treinamento do modelo de pontuação e capitalização recomenda-se balancear os dados, especialmente para a tarefa de pontuação.
+
+**L1-R180** — Em legenda ao vivo de uma sessão produzida com o Azure Speech, a equipe percebe que os resultados parciais (evento Recognizing) chegam sem pontuação. Segundo a documentação do serviço, isso é esperado, pois a pontuação dos resultados parciais não está disponível.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R181** — O normalizador de texto básico do repositório oficial do Whisper, usado para uniformizar textos antes de compará-los, converte o texto em minúsculas e substitui por espaço símbolos e sinais de pontuação; por isso, depois dessa normalização, os trechos "Senhor Presidente, a sessão" e "senhor presidente a sessão" tornam-se idênticos, e a comparação não registra a diferença de vírgula nem de maiúsculas entre eles.
+
+**L1-R182** — Uma sessão do Plenário começa em português e, em certo momento, um convidado passa a falar em espanhol. Se o idioma não for informado ao Whisper de código aberto, segundo o código de referência, o modelo detecta o idioma a cada janela de 30 segundos, o que faz o trecho em espanhol ser transcrito como espanhol.
+
+**L1-R183** — Para melhorar o reconhecimento de siglas da Casa, a equipe pode preencher, na tabela de vocabulário personalizado do Amazon Transcribe, as colunas SoundsLike e IPA, que o serviço usa para orientar a pronúncia dos termos.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R184** — Uma equipe do Amazon Transcribe envia, na mesma requisição, um modelo de linguagem personalizado e um vocabulário personalizado com formas de exibição (DisplayAs) para siglas da Casa. Nessa situação, segundo a documentação, as formas de exibição do vocabulário não são aplicadas à saída enquanto o modelo de linguagem personalizado estiver ativo.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R185** — Uma equipe pretende usar, na transcrição de audiências, um modelo de linguagem personalizado do Amazon Transcribe e, ao mesmo tempo, a identificação automática de idioma. Nessa situação, segundo a documentação, ao se incluir um modelo de linguagem personalizado na requisição não é possível habilitar a identificação de idioma, sendo preciso especificar o código do idioma.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R186** — Segundo o cartão do modelo Whisper, os estudos indicam que, em comparação com muitos sistemas de ASR existentes, os modelos exibem robustez melhorada a sotaques e a ruído de fundo, mas essa melhora não alcança a linguagem técnica.
+
+**L1-R187** — Segundo a documentação do Google Cloud Speech-to-Text, a adaptação de modelo tem, por padrão, efeito forte sobre o reconhecimento, sobretudo para frases de uma só palavra.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R188** — Segundo a nota de transparência do Azure Speech, os modelos de fala são treinados com dados de voz que incluem diversos estilos de fala, idiomas, sotaques, dialetos e entonações, além de variações acústicas geradas por diferentes tipos de dispositivos de gravação.
+
+**L1-R189** — A lista de idiomas do Whisper de código aberto traz códigos de idioma distintos para o português do Brasil e para o português de Portugal, o que permite informar ao modelo a variante regional da fala a ser transcrita.
+
+**L1-R190** — Uma equipe do Google Cloud Speech-to-Text inclui sessão e seção em um conjunto de frases de adaptação, sem atribuir valores de boost. Nessa situação, segundo a documentação, o modelo passa a reconhecer sessão com probabilidade maior que seção.
+
+**L1-R191** — Ao cadastrar, no vocabulário personalizado do Amazon Transcribe para o português, termos da Casa como Constituição e proposições, a equipe verifica que, segundo a documentação, só podem ser usados os caracteres do conjunto do idioma e que o conjunto do português para o campo Phrase inclui, além das letras de A a Z, o apóstrofo, o hífen e o ponto, letras acentuadas e o cedilha.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R192** — Segundo a documentação do Amazon Transcribe, na transcrição em streaming de uma sessão, o serviço divide o áudio recebido em segmentos naturais de fala, como a troca de orador ou uma pausa no áudio, e devolve os resultados parciais de cada segmento até que ele seja integralmente transcrito.
+
+**L1-R193** — Uma equipe da Câmara transmite ao Amazon Transcribe, em streaming, áudio PCM de dois canais, um por microfone, em blocos de 2.002 bytes. Segundo a documentação, esse tamanho é adequado, pois, com dois canais, cada amostra ocupa dois bytes e basta que o bloco tenha número par de bytes.
+
+**L1-R194** — Uma equipe pretende legendar ao vivo as sessões do Plenário com o Cloud Speech-to-Text, do Google, mas dispõe apenas de aplicações que fazem chamadas REST. Segundo a documentação do serviço, o reconhecimento em streaming está disponível somente por gRPC, de modo que essas aplicações não poderão usá-lo para esse fim.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R195** — Durante um teste de carga, a equipe da Câmara aumentou rapidamente o número de fluxos simultâneos de transcrição em streaming no Amazon Transcribe e recebeu o erro LimitExceededException. Segundo a documentação, nessa causa específica do erro, a solução é pedir o aumento da cota de fluxos simultâneos pelo console de Service Quotas.
+
+**L1-R196** — Para exibir ao público a legenda de uma sessão à medida que o orador fala, a equipe deve habilitar, na configuração do reconhecimento em streaming do Google Cloud Speech-to-Text (API v2), o envio de resultados intermediários; sem essa opção, apenas a resposta final é devolvida ao cliente.
+
+**L1-R197** — Na configuração de tempo limite por atividade de voz do reconhecimento em streaming do Google Cloud Speech-to-Text (API v2), o speech_start_timeout encerra o fluxo quando, depois de detectada a fala, não se detecta mais fala dentro da duração definida, ao passo que o speech_end_timeout encerra o fluxo quando a fala não começa dentro dessa duração.
+
+**L1-R198** — Uma equipe da Câmara usa a identificação automática de idioma do Amazon Transcribe em streaming em reuniões de comissão nas quais predomina o português, com falas ocasionais em outro idioma. Segundo a referência da API, informar um idioma preferencial pode ajudar o serviço a identificar o idioma mais rapidamente do que se esse parâmetro fosse omitido.
+
+**L1-R199** — No reconhecimento em streaming do Google Cloud Speech-to-Text (API v2), com os eventos de atividade de voz habilitados, o evento SPEECH_ACTIVITY_END indica que o servidor detectou o início da voz humana no fluxo, e o evento SPEECH_ACTIVITY_BEGIN, o seu fim.
+
+**L1-R200** — Na legenda ao vivo de uma sessão com o Azure Speech, a equipe quer manter a baixa latência dos resultados parciais e obter resultados finais mais precisos. Segundo a documentação, o refinamento pós-fluxo (post-stream refinement) atende a esse objetivo: executa uma segunda passagem de reconhecimento em paralelo ao streaming e substitui apenas o resultado final por uma versão mais precisa, que usa contexto de áudio mais amplo.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R201** — Uma equipe da Câmara pretende transcrever em streaming, no Amazon Transcribe, reuniões com falas em mais de um idioma, com redação automática de dados pessoais (PII). Segundo a referência da API, a identificação automática de idioma em streaming pode ser combinada com a redação de conteúdo na mesma requisição.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L1-R202** — Ao avaliar o Whisper para a degravação de sessões em português, a equipe da Câmara deve considerar que, segundo o model card, os usuários primários pretendidos dos modelos são pesquisadores de IA que estudam sua robustez, generalização, capacidades, vieses e restrições, embora o Whisper também possa ser útil como solução de ASR para desenvolvedores, especialmente para o inglês.
+
+**L1-R203** — Segundo o model card do Whisper, a Câmara pode usar os modelos, além de transcrever os pronunciamentos, para inferir atributos dos oradores, como o estado emocional, a partir do áudio das sessões, pois a classificação é um uso avaliado e apropriado para esses modelos.
+
+**L1-R204** — Uma equipe pretende executar localmente o modelo medium multilíngue do Whisper para degravar sessões em português, em estação cuja placa de vídeo tem 4 GB de memória. Segundo a tabela de modelos do repositório do Whisper, a memória de vídeo (VRAM) requerida por esse modelo é superior à dessa placa.
+
+**L1-R205** — Ao instalar o Whisper em servidor do órgão para degravar as sessões, a equipe constata, pelo repositório do projeto, que o uso do pacote dispensa a instalação, no sistema, da ferramenta de linha de comando ffmpeg.
+
+**L1-R206** — Para degravar a gravação de uma reunião longa de comissão, a equipe usará o reconhecimento assíncrono do Google Cloud Speech-to-Text. Segundo a documentação, esse modo inicia uma operação de longa duração, cujos resultados a aplicação pode consultar periodicamente, ao contrário do reconhecimento síncrono, que é bloqueante.
+
+**L1-R207** — Para obter a transcrição de um arquivo de áudio de audiência o mais rápido possível, com latência previsível, a equipe usa a API de transcrição rápida (fast transcription) do Azure Speech, que, segundo a documentação, devolve os resultados de forma assíncrona, por consulta posterior.
+
+**L1-R208** — Ao usar o Cloud Speech-to-Text, do Google, na degravação de sessões, a equipe deve considerar que o filtro de palavrões, quando ativado, substitui as palavras filtradas por sua primeira letra seguida de asteriscos e opera sobre palavras isoladas, sem detectar fala ofensiva expressa em frase ou em combinação de palavras.
+
+**L1-R209** — No Amazon Transcribe, o vocabulário personalizado aprende o contexto associado a uma palavra, isto é, como e quando ela é usada e sua relação com outras palavras, ao passo que o modelo de linguagem personalizado aumenta o reconhecimento da palavra por meio de dicas, como pronúncias.
+
+**L1-R210** — A Câmara pretende degravar um grande acervo de gravações com a transcrição em lote do Azure Speech. Segundo a documentação, como o serviço agenda os trabalhos em regime de melhor esforço e cada região processa as requisições uma de cada vez, enviá-las em taxa mais alta não acelera o processamento, sendo recomendável distribuí-las ao longo do tempo.
+
+**L1-R211** — Para que o texto de uma reunião reservada, transcrita em streaming no Amazon Transcribe, traga os dados pessoais (PII) sinalizados e, ao mesmo tempo, ocultados, a equipe pode incluir na mesma requisição a identificação de conteúdo (ContentIdentificationType) e a redação de conteúdo (ContentRedactionType); segundo a referência da API, o serviço aceita as duas opções juntas.

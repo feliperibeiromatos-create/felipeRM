@@ -1,4 +1,4 @@
-# Lote 6b — TI-REDES-SEGURANCA (P1 itens 2 e 4: redes e segurança)
+# Lote 6b — Redes de computadores; Conceitos gerais de segurança e governança digital (P1 itens 2 e 4)
 
 Prova: P1
 
@@ -298,6 +298,7 @@ P8. "O phishing só funciona quando a vítima digita dados em página falsa; nã
 - [P1-2] **Redes de computadores** — "O protocolo UDP garante a entrega ordenada e confiável dos dados" → ERRADO (garantias são do TCP).
 - [P1-2] **Redes de computadores** — "Endereço IP privado é, por definição, protegido contra qualquer ataque" → ERRADO (privado = uso interno).
 - [P1-2] **Redes de computadores** — "O DHCP traduz nomes de domínio em endereços IP" → ERRADO (isso é o DNS; DHCP atribui endereços).
+- [P1-2] **Redes de computadores** — Não confunda TCP com UDP: o TCP entrega os dados de forma confiável, ordenada e com controle de erros; o UDP entrega sem essas garantias, com menor atraso, e por isso é usado em voz e vídeo ao vivo.
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "A intranet é uma rede que não pode usar TCP/IP nem navegador, por ser de uso interno" → ERRADO (usa as mesmas tecnologias da Internet; o que a distingue é o acesso restrito).
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "Intranet é a mesma coisa que extranet" → ERRADO (a extranet estende o acesso, de modo controlado, a parceiros externos).
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "A extranet é a rede interna acessível só a empregados; a intranet é a aberta a parceiros" → ERRADO (invertido).
@@ -306,6 +307,9 @@ P8. "O phishing só funciona quando a vítima digita dados em página falsa; nã
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "O DNS atribui automaticamente endereços IP aos equipamentos" → ERRADO (DHCP).
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "Endereços da faixa 192.168.0.0 a 192.168.255.255 são públicos e identificam um único equipamento na Internet" → ERRADO (faixa privada, RFC 1918).
 - [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — "O navegador e o mecanismo de busca são o mesmo programa" → ERRADO.
+- [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — Não confunda Internet com Web: a Internet é a rede mundial de computadores formada pela interligação de redes, a infraestrutura que usa TCP/IP; a Web é um serviço sobre a Internet, de páginas interligadas por hiperlinks, acessadas por HTTP/HTTPS e identificadas por URLs. Armadilha: tratá-las como sinônimos.
+- [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — Não confunda Internet com intranet e extranet: a Internet é aberta e mundial; a intranet é rede privada de uma organização, de acesso restrito ao público autorizado, com as mesmas tecnologias da Internet; a extranet é a extensão controlada da intranet a um público externo autorizado, como parceiros e fornecedores.
+- [P1-2.1] **Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet** — Não confunda navegador com mecanismo de busca: o navegador é o programa cliente que solicita páginas aos servidores web e as exibe; o mecanismo de busca é um serviço que indexa páginas e as localiza por palavras-chave, acessado por meio do navegador.
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "A integridade garante que a informação esteja disponível ao usuário autorizado sempre que necessária" → ERRADO (isso é disponibilidade; integridade = não alteração indevida).
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "A disponibilidade assegura que a informação só seja acessada por quem está autorizado" → ERRADO (isso é confidencialidade).
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "Numa rotina de completo + diferenciais, a restauração exige o completo e todos os diferenciais posteriores" → ERRADO (basta o completo e o último diferencial).
@@ -317,6 +321,13 @@ P8. "O phishing só funciona quando a vítima digita dados em página falsa; nã
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "Sincronizar uma pasta na nuvem equivale a ter backup, em qualquer situação" → ERRADO.
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "O ransomware é um programa que apenas exibe propagandas indesejadas" → ERRADO (isso é adware, um tipo de spyware no uso comum; ransomware bloqueia dados e cobra resgate).
 - [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — "Pagar o resgate assegura a recuperação dos dados" → ERRADO.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda confidencialidade com integridade e disponibilidade: confidencialidade é só quem está autorizado ter acesso; integridade é a informação não ser alterada, apagada ou corrompida de modo não autorizado ou acidental; disponibilidade é ela estar acessível a quem está autorizado sempre que necessário.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda backup completo com incremental e diferencial: o completo copia todos os dados selecionados, tenham mudado ou não, e a restauração usa o último completo; o incremental e o diferencial copiam apenas o que mudou, e a restauração exige o completo mais cópias adicionais.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda backup incremental com diferencial: o incremental copia o que mudou desde o último completo ou incremental, marca os arquivos e, na restauração, exige o completo e todos os incrementais; o diferencial não marca os arquivos, acumula o que mudou desde o completo e exige o completo e o último diferencial.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda backup com sincronização: o backup guarda um ponto no tempo; a sincronização espelha o estado atual, de modo que uma exclusão ou uma criptografia por ransomware pode ser replicada. Armadilha: a sincronização só funciona como backup se houver histórico e retenção.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda vírus com worm: o vírus insere cópias de si em programas e arquivos hospedeiros e só age quando o hospedeiro é executado; o worm é programa independente que se replica e se propaga automaticamente pelas redes, explorando vulnerabilidades, sem hospedeiro nem ação do usuário.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda vírus com trojan: o vírus propaga-se inserindo cópias de si em programas e arquivos; o trojan (cavalo de Troia) parece um programa legítimo, mas executa também funções maliciosas, não se replica e depende de o usuário instalá-lo e executá-lo.
+- [P1-4.1] **Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais** — Não confunda spyware com ransomware: o spyware monitora as atividades do usuário e envia as informações a terceiros (confidencialidade); o ransomware torna os dados inacessíveis, em geral por criptografia, e exige resgate (disponibilidade). Armadilha: pagar o resgate não garante a devolução dos dados.
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "O firewall é o programa destinado a detectar e remover códigos maliciosos instalados; o antivírus controla o tráfego" → ERRADO (funções invertidas).
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "O antivírus atualizado detecta todos os códigos maliciosos, inclusive os desconhecidos" → ERRADO (nenhum antivírus é infalível).
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "Com um firewall ativo, não é necessário antivírus" → ERRADO.
@@ -324,6 +335,7 @@ P8. "O phishing só funciona quando a vítima digita dados em página falsa; nã
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "O firewall impede que o usuário seja vítima de phishing" → ERRADO.
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "O antivírus funciona sem necessidade de atualização" → ERRADO.
 - [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — "Quarentena é a exclusão definitiva do arquivo suspeito" → ERRADO (isola o arquivo; pode ser restaurado ou excluído).
+- [P1-4.2] **Programas de proteção (antivírus, firewall, antispyware)** — Não confunda firewall com antispyware: o firewall controla o tráfego de rede, permitindo ou bloqueando conexões segundo regras; o antispyware detecta e remove spyware, que monitora o usuário e envia informações a terceiros. Armadilha: pacotes de segurança que reúnem as funções não eliminam a distinção.
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "O pharming consiste no envio de mensagens que induzem a vítima a clicar em link, sem alterar a resolução de nomes" → ERRADO (o pharming redireciona a navegação por adulteração da resolução de nomes).
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "No phishing, o redirecionamento ocorre pela adulteração do DNS, e o pharming é o envio de mensagem falsa" → ERRADO (trocado).
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "No pharming, o usuário só é levado ao site falso se clicar em link recebido" → ERRADO.
@@ -332,3 +344,88 @@ P8. "O phishing só funciona quando a vítima digita dados em página falsa; nã
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "Mensagem com a logomarca do banco e boa redação é prova de autenticidade" → ERRADO.
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "O antivírus elimina por completo o risco de phishing" → ERRADO.
 - [P1-4.3] **Ameaças digitais (phishing, pharming)** — "O phishing só funciona quando a vítima digita dados em página falsa; não envolve instalação de código malicioso" → ERRADO.
+- [P1-4.3] **Ameaças digitais (phishing, pharming)** — Não confunda HTTPS com legitimidade do site: o HTTPS, com certificado digital, autentica o servidor para o domínio acessado e protege a comunicação; ele não garante que o domínio seja o da instituição pretendida nem que o titular aja de boa-fé. Armadilha: dizer que o HTTPS não autentica nada também é erro.
+
+## Tópico P1-2 — Redes de computadores
+
+### Resumo do tópico
+
+Rede de computadores é o conjunto de equipamentos interligados por meios físicos ou sem fio para trocar dados e compartilhar recursos. Protocolos são regras que definem o formato e a sequência das mensagens.
+
+A classificação segue o alcance geográfico: PAN é pessoal, LAN é restrita, MAN cobre uma cidade e WAN liga áreas distantes, sendo a Internet a maior WAN. A banca troca as definições de LAN e WAN.
+
+No cliente-servidor, o cliente solicita o serviço e o servidor o oferece; no par a par, cada equipamento é os dois ao mesmo tempo.
+
+O switch interliga equipamentos de uma LAN; o roteador interliga redes diferentes e escolhe o caminho dos pacotes.
+
+O IPv4 usa 32 bits e o IPv6, 128. Segundo a RFC 1918, verificada em 08/10/2026, os blocos 10/8, 172.16/12 e 192.168/16 são privados, de uso interno, e dependem de NAT para acessar a Internet; privado não significa seguro.
+
+O DHCP atribui endereços automaticamente, e o DNS traduz nomes de domínio em endereços IP. O TCP entrega os dados de forma confiável e ordenada; o UDP não dá essas garantias.
+
+## Tópico P1-2.1 — Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet
+
+### Resumo do tópico
+
+A Internet é a infraestrutura: a rede mundial de redes que usa TCP/IP. A Web é um serviço sobre ela, de páginas ligadas por hiperlinks e acessadas por HTTP ou HTTPS; Internet e Web não são sinônimos.
+
+A intranet é a rede privada de uma organização, com as mesmas tecnologias da Internet e acesso restrito a público autorizado; o que a define é o público e o controle de acesso. A extranet estende esse acesso, de modo controlado, a parceiros e fornecedores autorizados.
+
+Na URL, protocolo, domínio, porta, recurso e parâmetros são partes distintas, e a aparência do nome não prova a autenticidade do site.
+
+O navegador é o programa cliente que solicita páginas aos servidores; o mecanismo de busca é um serviço, acessado por ele, que indexa páginas. A navegação privada não grava histórico, cookies e dados de formulário no equipamento, mas não oculta a navegação do provedor, do administrador da rede nem dos sites.
+
+A VPN cria um canal cifrado sobre a Internet e é a forma usual de acessar a intranet de fora da organização.
+
+O DNS permite acessar um site pelo nome, sem decorar o IP; se a resposta for adulterada, o usuário cai em outro servidor mesmo digitando o nome correto, base do pharming.
+
+## Tópico P1-4 — Conceitos gerais de segurança e governança digital
+
+### Resumo do tópico
+
+Segurança da informação é o conjunto de medidas para proteger a informação, em qualquer meio, de acesso, alteração, destruição ou indisponibilidade indevidos. Ativo é o que tem valor para a organização, ameaça é causa potencial de incidente e vulnerabilidade é fraqueza que uma ameaça pode explorar.
+
+O risco combina a probabilidade de a ameaça explorar a vulnerabilidade com o impacto; controle é o que reduz o risco; incidente é o evento que compromete a segurança.
+
+A engenharia social manipula pessoas, e não máquinas, para obter informação ou acesso.
+
+Em sentido amplo, a governança digital reúne políticas, responsabilidades, processos e controles para dirigir o uso da tecnologia e dos dados.
+
+## Tópico P1-4.1 — Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais
+
+### Resumo do tópico
+
+A tríade CIA reúne confidencialidade, só para quem está autorizado; integridade, sem alteração, apagamento ou corrupção indevidos; e disponibilidade, acesso sempre que necessário a quem é autorizado. O erro clássico é trocar integridade por disponibilidade.
+
+Backup é a cópia que permite recuperar dados após perda, corrupção ou ataque. O completo copia tudo; o incremental guarda o que mudou desde o último backup e exige o completo e todos os incrementais. Numa rotina de completo mais diferenciais, cada um acumula o que mudou desde o último completo, e restaura-se com o completo e o último diferencial.
+
+A cópia deve ficar em local diferente do original, inclusive fora do ambiente, e sua restauração deve ser testada. Sincronização na nuvem não é backup, pois espelha o estado atual e pode replicar uma exclusão ou a criptografia, salvo com histórico de versões e retenção.
+
+Malware é o gênero; vírus, worm, trojan, spyware, ransomware, bot, backdoor e rootkit são espécies. O vírus precisa de hospedeiro e de sua execução; o worm é independente e se espalha sozinho pela rede, explorando vulnerabilidades. O trojan parece legítimo e não se replica.
+
+O ransomware torna os dados inacessíveis, em geral por criptografia, e exige resgate; pagar não garante a devolução, e o backup é a defesa.
+
+## Tópico P1-4.2 — Programas de proteção (antivírus, firewall, antispyware)
+
+### Resumo do tópico
+
+O antivírus detecta, bloqueia e remove códigos maliciosos por varredura de arquivos e memória, por assinaturas ou por heurística e comportamento, e a quarentena isola o arquivo suspeito. Nenhum antivírus detecta todas as ameaças, precisa estar atualizado e não impede o phishing.
+
+O firewall controla o tráfego de rede, permitindo ou bloqueando conexões segundo regras de origem, destino, porta e protocolo; a Microsoft o descreve, em página verificada em 08/10/2026, como funcionalidade que filtra o tráfego que entra e sai do dispositivo.
+
+O firewall filtra comunicações: não varre nem remove vírus de arquivos, não impede que o usuário abra um arquivo malicioso recebido por conexão permitida e não substitui o antivírus.
+
+O antispyware detecta e remove spyware, que monitora o usuário e envia informações a terceiros. Mesmo reunidos numa suíte de segurança, o antivírus olha arquivos e programas e o firewall olha o tráfego, e a função de cada mecanismo continua distinta.
+
+## Tópico P1-4.3 — Ameaças digitais (phishing, pharming)
+
+### Resumo do tópico
+
+Segundo a Cartilha de Segurança para Internet do CERT.br, verificada em 08/10/2026, o phishing é a fraude em que um golpista tenta obter dados pessoais e financeiros de um usuário, passando-se por entidade conhecida para induzi-lo a clicar, abrir anexo ou digitar senha.
+
+É engenharia social, que atua sobre a pessoa e não sobre a máquina, e visa a confidencialidade. São sinais de alerta a urgência, o link parecido com o oficial e o pedido de senha que a instituição não faria por mensagem.
+
+O pharming é, segundo a Cartilha, um tipo específico de phishing que redireciona a navegação para sites falsos por alterações no serviço de DNS. Quem altera a associação entre nome e IP faz o nome correto apontar para o servidor do golpista.
+
+No phishing, um engodo leva a vítima a agir; no pharming, ela digita o endereço correto e cai no site falso sem clicar em link algum. Chamar o pharming de espécie de phishing não é erro; erro é trocar o mecanismo de um pelo do outro.
+
+O HTTPS autentica o servidor para o domínio acessado, mas não garante que seja o domínio da instituição pretendida nem a boa-fé do titular. Um golpista pode obter certificado válido para um domínio parecido, e o cadeado aparece; por isso se confere o domínio letra a letra.

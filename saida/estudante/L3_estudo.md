@@ -1,4 +1,4 @@
-# Lote 3 — RF-IA-PARLAMENTAR + RF-PROTECAO (P2 3.1–4.3)
+# Lote 3 — IA Aplicada no Contexto Parlamentar; Proteção e segurança da informação (P2 3.1–4.3)
 
 Prova: P2
 
@@ -565,21 +565,28 @@ após o fim do tratamento.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Ignorar a propagação de erros entre etapas.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Chamar de "indexação" o que é busca, e vice-versa.
 - [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Dizer que a IA "decide" o que é relevante sem critério humano: critérios, tesauro e avaliação são definidos pela instituição.
+- [P2-3.1] **Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca** — Não confunda sumarização extrativa com sumarização abstrativa: a extrativa seleciona e copia trechos do original; a abstrativa redige frases novas a partir do original, caso dos LLMs.
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica = dicionário de sinônimos (é similaridade aprendida por modelo).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Semântica sempre mais precisa que a lexical (para nome e número exato, não é).
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Dizer que a busca semântica "entende" ou "verifica" fatos.
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Dizer que RAG elimina a alucinação.
 - [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Confundir precisão com revocação.
+- [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Não confunda busca semântica com busca híbrida: a semântica converte consulta e trechos em vetores (embeddings) e devolve os mais próximos; a híbrida combina busca lexical e semântica, porque termos exatos, como número de proposição, nome próprio e sigla, e semelhança de sentido atendem a necessidades diferentes.
+- [P2-3.2] **Sistemas de busca semântica em acervos parlamentares** — Não confunda busca semântica com RAG (geração com recuperação): a busca semântica devolve os trechos mais próximos da consulta; o RAG recupera trechos e pede a um LLM que responda com base neles, citando a origem.
 - [P2-3.3] **Geração automática de atas e resumos de sessões** — Trocar extrativa por abstrativa (extrativa copia; abstrativa redige).
 - [P2-3.3] **Geração automática de atas e resumos de sessões** — Texto fluente = texto fiel.
 - [P2-3.3] **Geração automática de atas e resumos de sessões** — Resumo automático como substituto da ata sem validação.
 - [P2-3.3] **Geração automática de atas e resumos de sessões** — Achar que "frase nova" já é erro.
 - [P2-3.3] **Geração automática de atas e resumos de sessões** — Achar que métrica de sobreposição mede verdade.
+- [P2-3.3] **Geração automática de atas e resumos de sessões** — Não confunda ata com resumo: a ata é o documento formal que registra o ocorrido numa reunião, com data, local, presenças, pauta, deliberações, votações e encaminhamentos; o resumo é a condensação do conteúdo, de caráter informativo.
+- [P2-3.3] **Geração automática de atas e resumos de sessões** — Não confunda alucinação com reformulação: alucinação é conteúdo não sustentado pela fonte, isto é, informação que a transcrição não contém; a reformulação é frase nova com sentido fiel, própria da sumarização abstrativa. Frase nova, por si, não é erro.
 - [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Multilíngue = desempenho igual em todos os idiomas.
 - [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Especializado = treinado exclusivamente em um idioma.
 - [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Especializar exige treinar do zero.
 - [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Dizer que um modelo especializado "conhece" normas novas sem atualização.
 - [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Cobrar nome de modelo (volátil e não verificado).
+- [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Não confunda modelo multilíngue com modelo especializado em português: o multilíngue é um único modelo treinado com dados de vários idiomas, com desempenho que varia por idioma; o especializado é treinado ou ajustado com corpora em português, para captar vocabulário e variedades do pt-BR.
+- [P2-3.4] **Modelos de IA multilíngues e especializados em português** — Não confunda ajuste fino com recuperação de documentos oficiais (RAG): o ajuste fino com textos do domínio altera o modelo; o RAG fornece documentos na consulta, por recuperação. Nenhum dos dois exige treinar do zero.
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Consentimento como única base legal.
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Dado público = livre para qualquer fim (art. 7º, § 3º).
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — LGPD não se aplica ao poder público.
@@ -589,6 +596,7 @@ após o fim do tratamento.
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Pseudonimização = anonimização (a definição do art. 13, § 4º, tem alcance restrito; a distinção geral vem do art. 12).
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Encarregado como quem decide as finalidades (é canal de comunicação).
 - [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Citar a página multivigente da LGPD, que mistura redações.
+- [P2-4.1] **LGPD e proteção de dados em sistemas de transcrição e IA** — Não confunda dado pessoal com dado pessoal sensível: dado pessoal é a informação relacionada a pessoa natural identificada ou identificável (art. 5º, I); sensível é o que o art. 5º, II, enumera, como origem racial ou étnica, opinião política, dado referente à saúde e dado genético.
 - [P2-4.2] **Direitos autorais e ética no uso de IA para conteúdo gerado** — Textos de lei são protegidos (art. 8º, IV: não são).
 - [P2-4.2] **Direitos autorais e ética no uso de IA para conteúdo gerado** — "Disponível na internet" = domínio público.
 - [P2-4.2] **Direitos autorais e ética no uso de IA para conteúdo gerado** — Direitos morais se cedem com os patrimoniais (art. 27; art. 49, I).
@@ -602,3 +610,104 @@ após o fim do tratamento.
 - [P2-4.3] **Segurança da informação em pipelines de áudio e transcrição** — Segurança só no armazenamento, e não na transmissão e no processamento.
 - [P2-4.3] **Segurança da informação em pipelines de áudio e transcrição** — Achar que nuvem no exterior nunca é possível ou que sempre é livre: depende do art. 33.
 - [P2-4.3] **Segurança da informação em pipelines de áudio e transcrição** — Esquecer o dever de segurança após o fim do tratamento.
+- [P2-4.3] **Segurança da informação em pipelines de áudio e transcrição** — Não confunda criptografia em trânsito com criptografia em repouso: a primeira protege os dados durante a transmissão; a segunda protege os dados armazenados, como áudio bruto, transcrições, embeddings, registros de acesso e backups, e se acompanha de gestão de chaves.
+
+## Tópico P2-3.1 — Aplicações de IA em parlamentos: transcrição de sessões, sumarização, indexação e busca
+
+### Resumo do tópico
+
+A IA em parlamentos se organiza em quatro famílias de aplicação sobre o acervo de sessões e reuniões. A transcrição converte fala em texto e é a base das demais. A sumarização condensa o conteúdo, de modo extrativo, que seleciona e copia trechos, ou abstrativo, que redige frases novas, caso dos LLMs. A indexação associa metadados, como tema, orador, proposição e órgão. A busca localiza documentos ou trechos.
+
+As etapas são encadeadas: a saída de uma é a entrada da seguinte. Um erro de transcrição, como nome trocado ou "não" omitido, se propaga para o resumo, o índice e a busca, e o produto final parece mais confiável do que é. Se a transcrição trocar o número da proposição, o índice associa a fala à proposição errada.
+
+Os benefícios usuais são rapidez, acessibilidade, memória institucional e ganho de escala. Os riscos são erro e texto fluente porém falso, viés, perda de fidelidade, exposição de dados pessoais, opacidade e dependência de fornecedor. A IA apoia, e o que vira registro oficial passa por revisão humana.
+
+Sumarização não é transcrição menor, pois o resumo condensa e reformula e a transcrição reproduz. A IA também não decide sozinha o que é relevante: critérios, tesauro e avaliação são definidos pela instituição, e acervo público não dispensa supervisão e avaliação.
+
+O Ato da Mesa nº 225/2025, norma interna fora dos objetos de avaliação, fixa diretrizes de governança de IA na Câmara, como supervisão humana (art. 3º, I) e conformidade com a LGPD (III). Não trata de transcrição, taquigrafia nem registro de sessões, e não se pode afirmar que regule os sistemas aqui descritos.
+
+## Tópico P2-3.2 — Sistemas de busca semântica em acervos parlamentares
+
+### Resumo do tópico
+
+A busca lexical recupera documentos que contêm os termos da consulta e falha quando a palavra do usuário não é a do documento. A busca semântica converte consulta e trechos em embeddings, vetores numéricos, e devolve os trechos de sentido mais próximo.
+
+Os passos típicos são dividir os documentos em trechos, gerar embeddings, guardar em índice vetorial, embutir a consulta, recuperar os mais próximos e, opcionalmente, reordenar.
+
+A busca híbrida combina as duas, porque termos exatos, como o número de uma proposição, pedem a busca lexical, e a semelhança de sentido atende outra necessidade. A semântica nem sempre é mais precisa.
+
+Nem a busca semântica nem o RAG, geração com recuperação, verificam fatos. O RAG pede ao LLM que responda com base nos trechos recuperados e reduz, mas não elimina, a resposta inventada.
+
+A avaliação da busca usa duas medidas: a precisão, que mede quanto do recuperado é relevante, e a revocação, que mede quanto do relevante foi recuperado.
+
+## Tópico P2-3.3 — Geração automática de atas e resumos de sessões
+
+### Resumo do tópico
+
+Ata é o documento formal que registra o ocorrido na reunião, com presenças, pauta, deliberações, votações e encaminhamentos. Resumo é a condensação informativa do conteúdo. O regime jurídico da ata na Câmara não é tratado aqui; fica o princípio: documento que pode produzir efeitos exige conferência e responsável humano.
+
+O fluxo típico parte de transcrição verificada, segmenta por item de pauta, extrai campos estruturados, gera o texto em geral de forma abstrativa com modelo de estrutura fixo e termina em revisão humana obrigatória.
+
+Os riscos específicos são omissão e inversão, como "aprovado" por "rejeitado", atribuição errada de fala ou voto, números e nomes trocados e fluência enganosa. Alucinação é conteúdo não sustentado pela fonte; a frase ser nova não é o problema.
+
+A mitigação separa campos factuais, extraídos, da narrativa gerada, exige citação do trecho-fonte e mantém revisão humana. Métricas de sobreposição, como ROUGE, medem semelhança de texto, não fidelidade factual.
+
+## Tópico P2-3.4 — Modelos de IA multilíngues e especializados em português
+
+### Resumo do tópico
+
+O modelo multilíngue é um único modelo treinado com dados de vários idiomas. Seu desempenho varia por idioma, em geral melhor nos de mais dados. O tokenizador pode fragmentar mais as palavras de idiomas sub-representados, o que aumenta tokens, custo e latência.
+
+O modelo especializado em português é treinado ou ajustado com corpora em português, para captar vocabulário e variedades do pt-BR. Pode ser treinado do zero ou adaptado de um multilíngue, sem exclusividade de idioma. Pode ganhar em expressões locais e termos regimentais, mas pode perder generalidade.
+
+Um modelo de domínio legislativo se obtém por ajuste fino, por recuperação de documentos oficiais (RAG) ou por instruções, sem treinar do zero. Como o modelo não conhece normas posteriores ao treino, a recuperação de fontes oficiais atualizadas é prática comum.
+
+O ASR multilíngue e o LLM multilíngue são componentes distintos: ser multilíngue num não garante no outro. A avaliação deve usar dados em português do domínio de uso.
+
+Nomes e versões de modelos mudam em meses e são voláteis, e a banca pode cobrar o conceito, como multilíngue, especializado ou de domínio, e não o nome do produto.
+
+## Tópico P2-4.1 — LGPD e proteção de dados em sistemas de transcrição e IA
+
+### Resumo do tópico
+
+Dado pessoal é a informação relacionada a pessoa natural identificada ou identificável (art. 5º, I), inclusive voz e falas transcritas de pessoa identificada. O dado sensível, do art. 5º, II, inclui o dado biométrico vinculado a pessoa natural. É controverso se toda gravação de voz é sensível, pois a lei não define dado biométrico.
+
+O controlador decide sobre o tratamento (art. 5º, VI), o operador trata em nome dele (VII) e o encarregado é canal de comunicação (VIII), sem decidir finalidades. Transcrever e sumarizar são tratamento. O operador que usa o áudio para finalidade própria extrapola as instruções e responde solidariamente (art. 42, § 1º, I).
+
+O dado anonimizado não é dado pessoal (art. 12, caput), salvo se o processo for revertido exclusivamente com meios próprios ou for reversível com esforços razoáveis. Pseudonimizar não é, por si, anonimizar: a definição do art. 13, § 4º, vale só para esse artigo, e, se o próprio controlador reverte com a informação que guarda, o dado continua pessoal.
+
+O consentimento não é a única base legal (art. 7º). A dispensa para dado tornado manifestamente público pelo titular não afasta os direitos do titular nem os princípios (art. 7º, § 4º). A LGPD se aplica ao poder público, cujo tratamento deve atender à finalidade pública (art. 23).
+
+O titular pode solicitar revisão de decisão tomada unicamente com base em tratamento automatizado que afete seus interesses (art. 20). O texto vigente não exige revisão por pessoa natural; a Lei 13.853/2019 suprimiu essa exigência da redação original.
+
+A Lei 15.352/2026 criou a ANPD, autarquia vinculada ao Ministério da Justiça e Segurança Pública, e a autoridade nacional passou a ser exercida por ela; a redação de órgão da Presidência está superada. A multa não consta das sanções aplicáveis a órgãos públicos (art. 52, § 3º).
+
+## Tópico P2-4.2 — Direitos autorais e ética no uso de IA para conteúdo gerado
+
+### Resumo do tópico
+
+São protegidas as criações do espírito fixadas em qualquer suporte, entre elas conferências e alocuções (art. 7º, II), e a proteção independe de registro (art. 18). Não são protegidos ideias e métodos como tais, textos de leis e demais atos oficiais, informações de uso comum e nomes ou títulos isolados (art. 8º).
+
+Os direitos morais, como reivindicar a autoria e assegurar a integridade (art. 24), são inalienáveis e irrenunciáveis (art. 27), e a cessão total não os compreende (art. 49, I). Os patrimoniais dependem de autorização prévia e expressa para reprodução, adaptação e inclusão em base de dados (arts. 28 e 29).
+
+Estar disponível na internet não é estar em domínio público, que ocorre setenta anos contados de 1º de janeiro do ano seguinte ao falecimento (art. 41), além das hipóteses do art. 45.
+
+Entre as limitações do art. 46 estão a citação para estudo, crítica ou polêmica, na medida justificada e com indicação do autor e da origem (III); citação não é reprodução integral livre.
+
+Há pontos controversos, sem texto legal expresso nem jurisprudência firmada, e nenhum se afirma como certo: se o conteúdo gerado por IA é obra protegida, se o treinamento com obras protegidas é reprodução ilícita ou se cabe em limitação, e se o pronunciamento parlamentar é alocução protegida (art. 7º, II) ou ato oficial (art. 8º, IV). O art. 46, I, b, é só indício legal de que discursos são matéria autoral.
+
+No campo ético, os conceitos estáveis são transparência sobre o uso de IA, responsabilidade humana pelo texto publicado, revisão humana, rastreabilidade das fontes e não atribuir a ninguém palavras que não disse.
+
+## Tópico P2-4.3 — Segurança da informação em pipelines de áudio e transcrição
+
+### Resumo do tópico
+
+A segurança da informação protege a confidencialidade, a integridade e a disponibilidade: só quem pode acessa, o dado não é alterado sem autorização e está acessível quando necessário.
+
+No pipeline, a captação exige autenticidade da fonte, por causa do áudio sintético; a transmissão, criptografia em trânsito; o armazenamento, criptografia em repouso e gestão de chaves; a revisão e publicação, privilégio mínimo, registro e trilha de auditoria; e a retenção, prazo definido e eliminação do áudio bruto quando cessar a finalidade, salvo conservação autorizada (arts. 15 e 16). Cifrar o áudio não dispensa acesso restrito, registro e retenção.
+
+No processamento, é preciso verificar no contrato, sem presumir, quem é o fornecedor, onde processa, se há subcontratados e se usa os dados do cliente para outro fim. Enviar áudio a serviço externo implica perda de custódia, e enviar áudio de pessoas identificadas a servidores no exterior pode configurar transferência internacional, permitida só nos casos do art. 33.
+
+Há riscos próprios de IA. Na injeção de instruções, o texto transcrito ou recuperado traz comandos maliciosos que manipulam o LLM, e por isso o conteúdo transcrito é dado, não instrução. Embeddings não se presumem anônimos. Sem controle de integridade, a transcrição pode ser alterada sem rastro.
+
+A LGPD impõe medidas de segurança técnicas e administrativas desde a concepção do serviço (art. 46, caput e § 2º), e o dever persiste após o término do tratamento (art. 47). Em incidente que possa acarretar risco ou dano relevante, quem comunica a autoridade nacional e o titular é o controlador (art. 48).

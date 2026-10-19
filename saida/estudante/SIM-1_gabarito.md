@@ -3,10 +3,6 @@
 - Versão: v1
 - Número de itens: 40
 
-Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)
-
-Mecanismos: TC troca de conceito; GI generalização indevida; AT atribuição errada de técnica; IC inversão de causa e efeito
-
 ### 1 — 4C-02 — Gabarito: C
 
 - Item do edital: P1-5.1 (aderência: direta)

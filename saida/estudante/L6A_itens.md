@@ -1,4 +1,4 @@
-# Lote 6a — TI-FERRAMENTAS (P1 itens 1 e 3: MSOffice 365 e comunicação/colaboração) — itens
+# Lote 6a — MSOffice 365; Ferramentas de comunicação e colaboração (P1 itens 1 e 3) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L6A_gabarito.md.
 

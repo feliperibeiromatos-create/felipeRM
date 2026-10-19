@@ -1,4 +1,4 @@
-# Simulado 0 — diagnóstico (v0.2) — gabarito
+# Simulado 0 — diagnóstico — gabarito
 
 - Versão: v0.2
 - Número de itens: 60

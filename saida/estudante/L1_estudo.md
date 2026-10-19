@@ -1,4 +1,4 @@
-# Lote 1 — RF-ASR (reconhecimento de fala e transcrição, P2 1.1–1.8)
+# Lote 1 — Reconhecimento de Fala e Transcrição de Áudio (P2 1.1–1.8)
 
 Prova: P2
 
@@ -521,25 +521,166 @@ amostras terem sido fornecidas.
 ## Pegadinhas
 
 - [P2-1.1] **Reconhecimento automático de fala (ASR – Automatic Speech Recognition)** — A banca tende a atribuir ao ASR funções que são de outros módulos: "o ASR identifica o orador", "o ASR interpreta o sentido da fala", "o ASR corrige o conteúdo". Todas erradas. ASR = transcrição literal. Outra: afirmar que WER "varia de 0% a 100%". Errado: inserções permitem WER > 100%. Outra: tratar WER de 0% como prova de transcrição "perfeita" em todos os aspectos — no cálculo usual ele ignora pontuação, e em qualquer convenção ignora locutores.
+- [P2-1.1] **Reconhecimento automático de fala (ASR – Automatic Speech Recognition)** — Não confunda ASR com diarização nem com identificação de locutor: o ASR só converte fala em texto; a diarização responde a quem falou e quando; a identificação de locutor diz quem é a pessoa. Decidir quem falou não é função do ASR.
 - [P2-1.2] **Modelos de fala end-to-end** — Trocar "end-to-end" por "não supervisionado" ou "sem modelo de linguagem". Também: afirmar que modelos end-to-end "nunca alucinam" ou que "sempre superam" os modulares em qualquer condição — generalizações indevidas.
+- [P2-1.2] **Modelos de fala end-to-end** — Não confunda modelo end-to-end com modelo modular: no end-to-end, uma única rede neural é treinada para mapear diretamente o áudio ao texto; no modular, modelo acústico, léxico e modelo de linguagem são componentes separados. Os dois são supervisionados.
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Dizer que a cascata "preserva prosódia" — não preserva; o LLM da cascata só recebe texto.
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Dizer que o LLM nativo "elimina a necessidade de revisão humana" — contraria o próprio edital (2.2, human in the loop).
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "transcrição por LLM" com "ASR dedicado": o próprio fornecedor recomenda endpoint dedicado para transcrição de arquivos e LLM/Realtime para conversação (documentação da OpenAI sobre áudio, verificado em 07/10/2026).
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Confundir "ASR aprimorado por LLM" com "LLM de áudio nativo".
 - [P2-1.3] **LLMs multimodais de áudio nativo** — Nomes e versões de modelos mudam em meses: a banca pode cobrar o CONCEITO, não o nome do produto.
+- [P2-1.3] **LLMs multimodais de áudio nativo** — Não confunda LLM de áudio nativo com cascata ASR → LLM → TTS: no modelo nativo, o áudio entra no próprio LLM, sem módulo ASR separado; na cascata, o LLM só vê texto e perde o que não está nas palavras, como entonação, hesitação, sobreposição e risos.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Definir diarização como "identificação" ou "verificação". Afirmar que diarização está disponível "em qualquer modo" de qualquer serviço — ou que nunca existe em streaming. Afirmar que a diarização resolve sozinha a fala sobreposta.
+- [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Não confunda WER (Word Error Rate) com DER (Diarization Error Rate): o WER mede erros de palavras; o DER soma erro de falante, fala perdida e falso alarme.
 - [P2-1.5] **Pontuação automática e capitalização em transcrições** — Dizer que a pontuação automática "detecta os sinais pronunciados" (isso é pontuação falada). Dizer que capitalização automática identifica nomes próprios "com certeza" — ela estima; "Câmara" (instituição) vs "câmara" (sala) é decisão de contexto que o modelo pode errar.
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — Igualar custom vocabulary a retreinamento
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — dizer que CLM se treina com áudio (no AWS é com texto)
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — dizer que "modelos multilíngues eliminam o problema do pt-BR"
 - [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — dizer que lista de termos garante reconhecimento "em qualquer condição acústica".
+- [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — Não confunda custom vocabulary com custom language model (CLM): o custom vocabulary acrescenta termos ao vocabulário base e age como viés de reconhecimento; o CLM, no Amazon Transcribe, é treinado com dados de texto do domínio, e não com áudio.
+- [P2-1.6] **Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar** — Não confunda adaptação de vocabulário com modelo acústico customizado: a adaptação de vocabulário é viés de reconhecimento, que empurra o decodificador para termos esperados, e não altera o modelo acústico; sotaque e ruído se tratam com dados acústicos, em modelo customizado ou com mais dados.
 - [P2-1.7] **Transcrição em tempo real** — "Streaming é sempre mais preciso" (não; batch vê contexto completo). "Streaming oferece os mesmos recursos que batch" (não necessariamente; ver diarização). "stream=true em arquivo = tempo real" (não).
+- [P2-1.7] **Transcrição em tempo real** — Não confunda endpointing sensível com endpointing preciso: o endpointing decide que o orador terminou a frase, em geral por silêncio. O sensível responde mais rápido, mas corre o risco de cortar o orador; o preciso é mais lento, porém corre menos risco de cortá-lo.
 - [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — Trocar o modo em que um recurso existe (diarização em streaming vs batch)
 - [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — atribuir "código aberto" à API (o aberto é o modelo Whisper, não os serviços)
 - [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — afirmar limites numéricos ou preços sem data
 - [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — dizer que a tradução do whisper-1 é "para qualquer idioma" (é só para inglês)
 - [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — tratar modelo local e serviço em nuvem como equivalentes quanto à custódia do áudio.
+- [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — Não confunda tradução com transcrição no whisper-1: a tradução, pelo endpoint /audio/translations, devolve o texto em inglês, e só para o inglês; a transcrição mantém o idioma original do áudio.
+- [P2-1.8] **Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe** — Não confunda timestamps por palavra com timestamps por segmento: os primeiros marcam início e fim de cada palavra, em granularidade fina; os segundos marcam cada frase ou trecho, em granularidade grossa. O whisper-1 é indicado quando se precisa de timestamps por palavra ou por segmento.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Ler "identificação" do título como "o sistema sabe os nomes".
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Ler "identificar" no item como identificação de locutor sem checar o objeto.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Dizer que diarização que distingue oradores também verifica identidade.
 - [P2-1.4] **Diarização de falantes: identificação e separação de múltiplos oradores** — Dizer que, por existirem amostras de referência, a diarização "sempre" entrega nomes: depende de as amostras terem sido fornecidas.
+
+## Tópico P2-1.1 — Reconhecimento automático de fala (ASR – Automatic Speech Recognition)
+
+### Resumo do tópico
+
+O ASR, reconhecimento automático de fala, converte áudio com fala em texto e só faz isso. Não decide quem falou, tarefa da diarização ou da identificação de locutor, nem o que o texto significa, tarefa da compreensão de linguagem natural.
+
+O pipeline clássico é modular: pré-processamento, modelo acústico, léxico de pronúncia, modelo de linguagem e decodificador, que escolhe a hipótese de texto mais provável. Nos sistemas modernos uma rede única funde essas etapas, mas as funções continuam existindo por dentro.
+
+A métrica central é o WER: substituições mais deleções mais inserções, divididas pelo número de palavras da referência humana; quanto menor, melhor. Como as inserções entram só no numerador, o WER pode ultrapassar 100%. No cálculo usual, sobre texto normalizado, não mede pontuação nem capitalização, e a atribuição de locutor fica fora do WER em qualquer convenção.
+
+A banca tende a atribuir ao ASR funções de outros módulos, como identificar o orador, interpretar o sentido ou corrigir o conteúdo, quando ASR é transcrição literal. Também é errado dizer que o WER varia de 0% a 100%, ou que WER de 0% prova transcrição perfeita em todos os aspectos.
+
+## Tópico P2-1.2 — Modelos de fala end-to-end
+
+### Resumo do tópico
+
+Modelo end-to-end é aquele em que uma única rede neural é treinada para mapear diretamente o áudio ao texto, no lugar de modelo acústico, léxico e modelo de linguagem construídos separadamente. As famílias mais citadas são CTC, RNN-Transducer e codificador-decodificador com atenção; o Whisper, da OpenAI, é um codificador-decodificador Transformer treinado com supervisão fraca em larga escala.
+
+Há equívocos sobre o que end-to-end significa. Não significa ausência de dados rotulados, pois continua precisando de pares áudio-texto; nem de modelo de linguagem, cujo conhecimento fica implícito na rede; nem de pré-processamento, já que em geral o áudio vira espectrograma antes de entrar, embora haja modelos que recebem a forma de onda bruta.
+
+As vantagens são simplicidade de treinamento, melhor desempenho com muitos dados e menos engenharia manual de pronúncia. Os custos são a exigência de grande volume de dados e a dificuldade de consertar pontualmente, pois não há dicionário para editar. Os erros podem ser fluentes porém falsos, de modo que afirmar que nunca alucinam ou sempre superam os modulares é generalização indevida.
+
+## Tópico P2-1.3 — LLMs multimodais de áudio nativo
+
+### Resumo do tópico
+
+Um LLM multimodal de áudio nativo recebe o áudio como entrada do próprio modelo, e em alguns casos produz áudio como saída, sem depender de um módulo ASR separado que converta a fala em texto antes. O contraste é a arquitetura em cascata, ASR, LLM sobre texto e síntese de voz, em que o LLM só vê texto e perde entonação, hesitação, sobreposição e risos.
+
+A categoria existe comercialmente. A OpenAI distingue áudio em Chat Completions, a Realtime API para agentes fala-a-fala e endpoints dedicados de transcrição de arquivo e ao vivo. A documentação do Google descreve o áudio como entrada dos modelos Gemini para transcrição, sumarização e análise por timestamp.
+
+ASR aprimorado por LLM é outra categoria. O LLM speech do Azure AI Speech transcreve ou traduz áudio pré-gravado, com qualidade e contexto reforçados por LLM, mas não é um LLM de áudio nativo conversacional. Usar LLM não é sinônimo de áudio nativo.
+
+Na transcrição parlamentar, o modelo nativo pode transcrever, resumir e responder perguntas sobre o áudio na mesma passada, mas corre o risco de transcrição interpretativa: por gerar texto plausível, pode normalizar, completar ou omitir trechos. Para registro oficial, isso exige revisão humana, e o resultado continua sendo geração, não cópia fiel.
+
+A banca pode dizer que a cascata preserva prosódia, quando o LLM da cascata só recebe texto, ou que o LLM nativo elimina a revisão humana. Pode confundir transcrição por LLM com ASR dedicado, pois a OpenAI recomenda endpoint dedicado para arquivos e LLM ou Realtime para conversação. Nomes e versões mudam em meses; cobra-se o conceito, não o produto.
+
+## Tópico P2-1.4 — Diarização de falantes: identificação e separação de múltiplos oradores
+
+### Resumo do tópico
+
+Diarização responde a "quem falou quando": segmenta o áudio em trechos e atribui a cada um um rótulo genérico de locutor, como Locutor 1 e Locutor 2. As etapas vão da detecção de atividade de voz à rotulagem, passando por embeddings e agrupamento por semelhança. A métrica usual é o DER, distinta do WER, que mede erros de palavras.
+
+Três conceitos se misturam. A diarização separa os locutores sem dizer quem são. A identificação de locutor diz quem é, comparando a voz com um banco de vozes cadastradas. A verificação de locutor confirma se a voz é de uma pessoa específica alegada, de um para um, como na autenticação.
+
+O verbo "identificar" também é armadilha. Se o item trata de identidade, nome, cadastro ou "qual parlamentar", exige identificação propriamente dita. Se trata de distinguir, separar ou contar oradores, é diarização, ainda que use o verbo. Sem contexto, julga-se pelo objeto: identificar que há três oradores é distinguir; identificar os oradores pelo nome é identificação.
+
+A diarização pode ser ligada à identificação quando se fornecem amostras de referência: a API da OpenAI permite até quatro referências curtas com nomes de locutores conhecidos para mapear os segmentos. O nome existe por causa das amostras, não da diarização em si. Num texto com nomes, como "O SR. FULANO (Relator)", há amostra cadastrada ou revisão humana com a lista de inscritos.
+
+A diarização tem limites técnicos e de oferta: sofre com fala sobreposta, vozes parecidas e ruído de plenário em canal único. A disponibilidade varia por serviço e modo: o Google Speech-to-Text V2 não tem diarização em StreamingRecognize no modelo chirp_3, a OpenAI não a suporta em sessões Realtime e o Amazon Transcribe a oferece em streaming. Logo, diarização em streaming não é regra geral nem impossibilidade geral.
+
+### Em 1 minuto
+
+- Diarização responde a quem falou quando: segmenta o áudio em trechos e dá a cada um um rótulo genérico de locutor, sem dizer quem são.
+- Identificação de locutor compara a voz com um banco de vozes cadastradas; verificação confirma se a voz é de uma pessoa específica alegada, de um para um.
+- Diarização em streaming não é regra geral nem impossibilidade geral, pois depende do serviço; fala sobreposta e vozes parecidas seguem como limitações.
+
+#### Etapas típicas da diarização
+
+1. Detecção de atividade de voz (VAD)
+2. Segmentação do áudio em trechos
+3. Extração de embeddings de voz por segmento
+4. Agrupamento (clustering) por semelhança de voz
+5. Rotulagem (Locutor 1, Locutor 2...)
+
+#### Diarização, identificação e verificação de locutor
+
+| Conceito | Pergunta que responde | Como funciona |
+|---|---|---|
+| Diarização | Quem falou quando? | Separa os locutores, sem dizer quem são |
+| Identificação de locutor | Quem é? | Compara a voz com banco de vozes cadastradas (cadastro prévio) |
+| Verificação de locutor | É a pessoa alegada? | Confirma se a voz é da pessoa alegada (1 para 1), como em autenticação |
+
+*A diarização pode ser ligada à identificação quando há amostras de referência.*
+
+#### Limitações recorrentes da diarização
+
+- **Diarização de falantes**
+  - Fala sobreposta (apartes)
+  - Locutores com vozes parecidas
+  - Mudança rápida de orador
+  - Áudio de canal único com ruído de plenário
+
+## Tópico P2-1.5 — Pontuação automática e capitalização em transcrições
+
+### Resumo do tópico
+
+A saída crua de muitos sistemas ASR é texto em minúsculas e sem pontuação, porque o modelo aprende sons, não sinais gráficos. Pontuação automática e capitalização restauram vírgulas, pontos, interrogações e maiúsculas.
+
+Há duas formas de obtê-las. No pós-processamento, um modelo separado lê o texto cru, às vezes com pistas de pausa ou prosódia, e insere os sinais. Na geração direta, modelos end-to-end já emitem texto pontuado e capitalizado; no chirp_3 isso é gerado pelo modelo e pode ser desativado.
+
+Pontuação falada é recurso diferente: o orador dita "vírgula" ou "ponto" e o sistema converte a palavra no sinal. Serve para ditado, não para sessões.
+
+Pontuação e capitalização automáticas são estimativas; a interrogação é inferida da estrutura da frase e da entonação, não ouvida, e a capitalização estima nomes próprios. Uma interrogação indevida muda o sentido ("Aprovado." e "Aprovado?"); por isso, a revisão confere pontuação, não só palavras.
+
+## Tópico P2-1.6 — Desafios do ASR em Português Brasileiro: sotaques, vocabulário técnico e parlamentar
+
+### Resumo do tópico
+
+O ASR em português brasileiro enfrenta seis desafios: variação regional e social, com perda de acurácia nos padrões menos treinados; vocabulário técnico e parlamentar, em que palavras raras são trocadas por comuns de som parecido; condições acústicas do plenário; números, datas e abreviaturas, que exigem normalização; fala espontânea; e desequilíbrio de dados, pois há muito menos áudio transcrito em pt-BR que em inglês.
+
+Cada fornecedor chama a mitigação de um modo. O Google usa speech adaptation, e o chirp_3 aceita até 1.000 frases, com recomendação de poucas entradas. A AWS tem custom vocabulary e custom language model, este treinado com texto do domínio e indisponível para pt-BR na tabela oficial. O Azure tem custom speech, e a OpenAI, os parâmetros prompt, keywords e languages.
+
+A adaptação de vocabulário é viés de reconhecimento: empurra o decodificador para termos esperados, não é retreinamento acústico e não garante acerto em qualquer condição. Sotaque se trata com dados acústicos, não com lista de palavras. Carregar nomes de deputados e siglas reduz erros como PEC virar pec, mas não o erro de sotaque.
+
+A banca pode igualar custom vocabulary a retreinamento, dizer que o CLM da AWS se treina com áudio, quando é com texto, afirmar que modelos multilíngues eliminam o problema do pt-BR ou que lista de termos garante reconhecimento em qualquer condição acústica.
+
+## Tópico P2-1.7 — Transcrição em tempo real
+
+### Resumo do tópico
+
+Transcrição em tempo real, ou streaming, processa o áudio enquanto ele chega, em pequenos blocos, devolvendo texto com atraso de segundos. Na transcrição em lote, o áudio completo já existe e é processado inteiro.
+
+No streaming há resultados parciais, que podem mudar, e finais, em geral consolidados quando se detecta fim de enunciado. O endpointing decide, geralmente por silêncio, que o orador terminou a frase: sensibilidade maior responde mais rápido, mas arrisca cortar o orador. A estabilização de parciais reduz as idas e vindas do texto exibido.
+
+Recursos podem faltar em streaming, e isso varia por fornecedor: não há diarização em StreamingRecognize do chirp_3 nem nas sessões Realtime da OpenAI, mas há no Amazon Transcribe. Streaming de saída não é tempo real: na OpenAI, stream=true devolve o texto aos poucos, mas de um arquivo completo.
+
+A legenda ao vivo da TV Câmara tolera correção de texto parcial; notas taquigráficas oficiais convêm melhor em lote, com diarização e revisão. Streaming não é sempre mais preciso, pois o lote vê contexto completo, nem oferece necessariamente os mesmos recursos.
+
+## Tópico P2-1.8 — Ferramentas e APIs: Whisper (Open AI), Google Speech-to-text, Azure Speech, AWS Transcribe
+
+### Resumo do tópico
+
+O conteúdo sobre ferramentas é retrato de 07/10/2026: nomes de modelo e limites mudam, e a prova tende a cobrar a categoria de recurso, como batch ou streaming, diarização, vocabulário, idioma e execução local. O edital grafa Whisper (Open AI), mas a grafia oficial do fornecedor é OpenAI, o que não afeta o julgamento.
+
+O Whisper tem código e pesos publicados no GitHub sob licença MIT e pode rodar localmente, sem enviar áudio a terceiros, o que importa para dados sensíveis. Na API, o whisper-1 serve para timestamps, formatos de legenda e tradução apenas para o inglês, e a OpenAI recomenda hoje outros modelos para transcrição geral, rótulos de locutor e áudio ao vivo.
+
+O Google Cloud Speech-to-Text usa o modelo chirp_3, exclusivo da API V2, com três métodos: StreamingRecognize para tempo real, Recognize para áudio curto e BatchRecognize para longo. Há pt-BR em disponibilidade geral, diarização com pt-BR suportado mas não em StreamingRecognize, e adaptação com até 1.000 frases.
+
+O Azure AI Speech oferece transcrição em tempo real, fast transcription para arquivo e transcrição em lote, custom speech, diarização documentada em tempo real e na fast transcription, e execução em nuvem ou em contêineres on-premises. O Amazon Transcribe oferece batch e streaming, com pt-BR em ambos, custom vocabulary e diarização inclusive em streaming.
+
+A banca tende a trocar o modo em que um recurso existe, como diarização em streaming ou em lote; atribuir código aberto à API, quando o aberto é o modelo Whisper; afirmar limites ou preços sem data; dizer que a tradução do whisper-1 é para qualquer idioma; e tratar modelo local e serviço em nuvem como equivalentes quanto à custódia do áudio.

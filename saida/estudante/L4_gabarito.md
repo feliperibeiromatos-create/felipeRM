@@ -1,6 +1,4 @@
-# Lote 4 — TID-IA (P1 5.1–5.3 e 6) — gabarito e justificativas
-
-Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição errada de técnica (AT), inversão de causa e efeito (IC)
+# Lote 4 — Conceitos básicos de inteligência artificial; Ética e responsabilidade digital no serviço público (P1 5.1–5.3 e 6) — gabarito e justificativas
 
 ### L4-01 — Gabarito: C
 
@@ -153,3 +151,40 @@ Mecanismo: troca de conceito (TC), generalização indevida (GI), atribuição e
 
 - Item do edital: P1-5.1
 - Justificativa: Armadilha: troca de conceito (formato × restrição). Curso 5.1.2 (item 6): restrições e critérios indicam o que o modelo NÃO deve fazer ("não invente nomes"); curso 5.1.5: no exemplo, "não atribua a um orador fala que ele não tenha feito" é restrição, e não formato. Formato de saída (item 5 do curso 5.1.2) é a forma da resposta (tabela, JSON, número de linhas). O item julga apenas a natureza da determinação negativa, sem depender da fronteira entre formato e restrição em instruções mistas. Fonte: curso 5.1.2 e 5.1.5.
+
+## Itens de reforço
+
+### L4-R01 — Gabarito: C
+
+- Item do edital: P1-5.2
+- Justificativa: Os exemplos já indexados trazem a resposta correta (o tema) para cada proposição, e prever uma categoria é classificação, tarefa do aprendizado supervisionado. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.
+
+### L4-R02 — Gabarito: C
+
+- Item do edital: P1-5.2
+- Justificativa: O glossário define o RLHF como o uso de feedback de avaliadores humanos para melhorar as respostas do modelo, que passa a ajustar suas respostas futuras com base nesse retorno. O item descreve esse uso. Fonte: Google for Developers, "Machine Learning Glossary: Generative AI", verificado em 18/10/2026.
+
+### L4-R03 — Gabarito: E
+
+- Item do edital: P1-5.2
+- Justificativa: Armadilha: troca de conceito. A recompensa é o sinal que o agente recebe pelas ações que executa; a política é a estratégia que o sistema gera para obter o máximo de recompensas. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.
+
+### L4-R04 — Gabarito: E
+
+- Item do edital: P1-5.2
+- Justificativa: Armadilha: troca de tipo de aprendizado. Treinar robôs para caminhar por uma sala, por tentativa e erro em interação com o ambiente, é exemplo de aprendizado por reforço, e não de aprendizado não supervisionado, que busca padrões em dados sem rótulos. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.
+
+### L4-R05 — Gabarito: C
+
+- Item do edital: P1-5.2
+- Justificativa: O critério é o número de classes na saída: duas, binária; mais de duas, multiclasse. Os dois tipos são classificação, tarefa supervisionada. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.
+
+### L4-R06 — Gabarito: E
+
+- Item do edital: P1-5.2
+- Justificativa: Armadilha: troca de tipo de aprendizado. Agrupar por semelhança dados sem resposta correta é clustering, técnica do aprendizado não supervisionado: os grupos são descobertos pelo modelo, e o servidor pode nomeá-los depois. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.
+
+### L4-R07 — Gabarito: C
+
+- Item do edital: P1-5.2
+- Justificativa: Os atributos são os dados de entrada do modelo (metragem, CEP, quartos, banheiros e juros); o preço da casa é o resultado que o modelo devolve, isto é, o valor previsto. Fonte: Google for Developers, "Introduction to ML: What is Machine Learning?", verificado em 18/10/2026.

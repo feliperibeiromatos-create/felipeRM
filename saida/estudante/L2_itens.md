@@ -1,4 +1,4 @@
-# Lote 2 — RF-DEGRAVACAO (degravação e pós-processamento, P2 2.1–2.8) — itens
+# Lote 2 — Degravação e Pós-processamento de Transcrições (P2 2.1–2.8) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L2_gabarito.md.
 
@@ -365,3 +365,27 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **L2-R130** — Nas sessões ordinárias do Plenário, segundo o Regimento Interno da Câmara dos Deputados, as Comunicações Parlamentares destinam-se aos Líderes que queiram fazer uso da palavra, por período de tempo proporcional ao número de membros das respectivas bancadas.
 
 **L2-R131** — Na transcrição em lote de uma reunião de comissão pelo Amazon Transcribe, o arquivo de saída traz o elemento items, com dados de cada palavra e de cada sinal de pontuação, e o elemento audio_segments, que registra, com horário de início e de fim, as pausas existentes entre as falas.
+
+**L2-R133** — Uma equipe quer medir a acurácia da transcrição automática de uma audiência no Google Cloud Speech-to-Text, mas não dispõe de arquivo de referência (ground truth). Segundo a documentação, ela pode baixar a transcrição em formato de texto, editá-la conforme necessário e enviá-la como referência, devendo verificar se o arquivo representa com exatidão as transcrições corretas, pois isso afeta diretamente as métricas de acurácia.
+
+**L2-R134** — Segundo a nota de transparência do Azure Speech, o texto de saída do recurso de fala para texto é gerado de forma automática por modelos de fala, sendo por vezes chamado de transcrição de máquina ou de reconhecimento automático de fala (ASR). Trata-se de transcrição totalmente automatizada e, por isso, diferente da transcrição humana, que é o texto gerado por transcritores humanos.
+
+**L2-R135** — Segundo artigo de analistas legislativos da Câmara dos Deputados sobre o uso de inteligência artificial no processo legislativo, publicado na revista Agenda Brasileira em 2025, os taquígrafos que atuam na retaguarda são necessários para registrar as falas que não são captadas pelos microfones, ao passo que os que atuam na linha de frente fazem a transcrição a partir dos áudios e das notas taquigráficas.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L2-R138** — Segundo o artigo de pesquisa que apresenta o Whisper, na comparação com serviços de transcrição feita por profissionais em 25 gravações em inglês, o desempenho dos serviços de transcrição inteiramente humana foi melhor que o do Whisper em apenas uma fração de ponto percentual de WER, o que indica que o desempenho do Whisper no reconhecimento de fala em inglês, embora não seja perfeito, é muito próximo da acurácia de nível humano.
+
+**L2-R139** — Segundo o artigo de pesquisa que apresenta o Whisper, uma transcrição escrita inteiramente em letras maiúsculas ou inteiramente em letras minúsculas é muito improvável de ter sido gerada por um sistema automático de reconhecimento de fala, constituindo indício de transcrição feita por humano.
+
+**L2-R141** — Segundo a Agência Senado, no modelo digital de registro das notas taquigráficas do Senado, depois de transcrito o texto é revisado e, por fim, passa pela montagem final das notas.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L2-R142** — Segundo a Agência Senado, no Senado o registro em Plenário é feito por degravação do áudio, seguida de revisão, ao passo que nas comissões o registro é feito presencialmente, conferido com o áudio e depois revisado para a versão final.
+
+> Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027.
+
+**L2-R143** — No caso de uso da Câmara dos Comuns do Canadá publicado pela União Interparlamentar, quando a tecnologia de reconhecimento automático de fala estiver indisponível ou sua integração com o sistema de informação parlamentar for interrompida, o transcritor transcreve manualmente o segmento de áudio, a partir do áudio e dos metadados, antes de concluir sua tarefa.
+
+**L2-R132** — Segundo o caso de uso do sistema de atas literais HANS, do Parlamento da Estônia, publicado pela União Interparlamentar, o modelo de linguagem do sistema de conversão de fala em texto, depois de treinado com material suficiente, não demanda a inclusão de palavras novas nem treinamento adicional.

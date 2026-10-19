@@ -1,4 +1,4 @@
-# Lote 4 — TID-IA (P1 5.1–5.3 e 6)
+# Lote 4 — Conceitos básicos de inteligência artificial; Ética e responsabilidade digital no serviço público (P1 5.1–5.3 e 6)
 
 Prova: P1
 
@@ -264,6 +264,9 @@ P10. "Ética digital no serviço público limita-se às regras de uso de redes s
 - [P1-5.1] **Engenharia de prompts** — "Um prompt bem elaborado elimina a possibilidade de alucinação" → ERRADO (reduz, não elimina).
 - [P1-5.1] **Engenharia de prompts** — "RAG consiste em retreinar o modelo com os documentos da organização" → ERRADO (RAG recupera documentos e os insere no prompt).
 - [P1-5.1] **Engenharia de prompts** — "Zero-shot é a técnica em que o modelo recebe exemplos sem rótulo" → ERRADO (zero-shot = nenhum exemplo).
+- [P1-5.1] **Engenharia de prompts** — Não confunda zero-shot com one-shot e few-shot: o zero-shot traz só a instrução, sem nenhum exemplo; o one-shot traz um único exemplo; o few-shot traz mais de um. Armadilha: definir few-shot como um único exemplo, o que é one-shot.
+- [P1-5.1] **Engenharia de prompts** — Não confunda chain-of-thought com prompt chaining: o chain-of-thought é um único prompt que pede ao modelo que explique o raciocínio passo a passo; o prompt chaining divide a tarefa em vários prompts sequenciais, em que a saída de um alimenta o seguinte.
+- [P1-5.1] **Engenharia de prompts** — Não confunda engenharia de prompts com fine-tuning e RAG: a engenharia de prompts atua na entrada, sem alterar os parâmetros do modelo; o fine-tuning altera os parâmetros; o RAG recupera documentos e os insere no prompt, sem retreinar o modelo.
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "No aprendizado não supervisionado não há participação humana" → ERRADO.
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "Clustering é tarefa de aprendizado supervisionado" → ERRADO.
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "Regressão é a tarefa supervisionada que prevê a categoria à qual o dado pertence" → ERRADO.
@@ -271,6 +274,10 @@ P10. "Ética digital no serviço público limita-se às regras de uso de redes s
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "RLHF é uma técnica de aprendizado não supervisionado" → ERRADO.
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "Os modelos de IA generativa são pré-treinados predominantemente por aprendizado supervisionado em pares pergunta-resposta rotulados manualmente" → ERRADO (Google for Developers, "Introduction to ML: What is Machine Learning?": pré-treino sem rótulos; supervisionado e reforço no ajuste).
 - [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — "Na classificação, o modelo descobre as categorias por conta própria" → ERRADO (isso é clustering).
+- [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — Não confunda aprendizado supervisionado com não supervisionado: o supervisionado aprende com dados rotulados, que já trazem a resposta correta; o não supervisionado recebe dados sem rótulos e busca padrões ou estruturas. Armadilha: não supervisionado significa sem rótulos, não sem participação humana.
+- [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — Não confunda aprendizado não supervisionado com aprendizado por reforço: o não supervisionado busca estrutura em dados sem rótulos; no reforço, o agente age em um ambiente, recebe recompensas ou penalidades e constrói uma política. Armadilha: no reforço não há rótulo com a resposta certa para cada entrada.
+- [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — Não confunda regressão com classificação: a regressão prevê um valor numérico contínuo, como o preço futuro de uma casa; a classificação prevê uma categoria, como um e-mail ser spam ou não. Armadilha: atribuir à regressão a previsão de categorias; ambas são supervisionadas.
+- [P1-5.2] **Aprendizado supervisionado, não supervisionado e por reforço** — Não confunda clustering com classificação: na classificação, as categorias são definidas previamente pelo humano e o modelo atribui cada dado a uma delas; no clustering, o modelo encontra os grupos em dados sem rótulos, e o humano pode nomeá-los depois.
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "Modelo generativo e modelo discriminativo são o mesmo tipo de modelo, distinguindo-se apenas pela tarefa executada" → ERRADO (são tipos distintos: um modela a distribuição, o outro, a fronteira; a tarefa de classificar pode ser feita por ambos).
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "A IA generativa baseia-se prioritariamente em aprendizado supervisionado" → ERRADO (Google for Developers, "Introduction to ML: What is Machine Learning?"; mecanismo semelhante no TRF6 2024, item 81, gabarito definitivo E).
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "Por padrão, um LLM consulta a internet e bases de dados atualizadas antes de responder" → ERRADO.
@@ -279,6 +286,8 @@ P10. "Ética digital no serviço público limita-se às regras de uso de redes s
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "Modelos de fundação restringem-se à geração de texto" → ERRADO (podem ser multimodais).
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "Alucinação é o erro de digitação ou de formatação da resposta" → ERRADO.
 - [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — "Todo modelo de fundação é um LLM" → ERRADO (há modelos de fundação de imagem e multimodais; o glossário do Google for Developers, "Machine Learning Glossary: Generative AI" define os termos separadamente).
+- [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — Não confunda modelo de fundação com LLM: o modelo de fundação é um modelo muito grande, pré-treinado em um conjunto enorme e diverso, que pode ser multimodal; o LLM é, no mínimo, um modelo de linguagem com número muito alto de parâmetros. Armadilha: nem todo modelo de fundação é LLM.
+- [P1-5.3] **IA generativa: conceitos, exemplos e casos de uso** — Não confunda conhecimento paramétrico com consulta em tempo real: o conhecimento paramétrico é o que o modelo incorporou no treinamento, até a data de corte; sem ferramentas ou RAG, o modelo em si não consulta a internet nem bancos de dados.
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "Dado anonimizado é espécie de dado pessoal sensível" → ERRADO (art. 12, caput: anonimizado não é dado pessoal, salvo reversão; art. 5º, III, define; sensível é o do art. 5º, II).
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "A LGPD não se aplica aos órgãos do Poder Legislativo" → ERRADO (art. 1º, caput; Capítulo IV, arts. 23 a 32).
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "O titular tem direito à revisão de decisões automatizadas obrigatoriamente por pessoa natural" → ERRADO (a expressão "por pessoa natural" foi retirada pela MP 869/2018 e o § 3º da Lei 13.853/2019 foi vetado; conferido em 07/10/2026).
@@ -289,3 +298,63 @@ P10. "Ética digital no serviço público limita-se às regras de uso de redes s
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "Opinião política e filiação sindical não são dados sensíveis" → ERRADO (art. 5º, II).
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "Textos de leis e de atos oficiais são protegidos por direito autoral" → ERRADO (Lei 9.610/1998, art. 8º, IV).
 - [P1-6] **Ética e responsabilidade digital no serviço público** — "Ética digital no serviço público limita-se às regras de uso de redes sociais" → ERRADO.
+- [P1-6] **Ética e responsabilidade digital no serviço público** — Não confunda o que é legal com o que é ético: o juízo legal separa o legal do ilegal; o ético, pelo Decreto 1.171/1994 (Código de Ética do servidor do Executivo federal, Seção I, II, verificado em 08/10/2026), separa principalmente o honesto do desonesto. Armadilha: a ética vai além da legalidade.
+- [P1-6] **Ética e responsabilidade digital no serviço público** — Não confunda supervisão humana com automação total: com supervisão humana, a IA apoia e a pessoa responsável decide e responde pelo ato; a IA não decide sozinha. Armadilha: a responsabilidade não se transfere ao sistema, pois a ferramenta não responde e o agente público responde.
+
+## Tópico P1-5.1 — Engenharia de prompts
+
+### Resumo do tópico
+
+Prompt é a entrada em linguagem natural fornecida a um modelo de linguagem, e a engenharia de prompts projeta, testa e itera prompts sem alterar os parâmetros internos do modelo. Ela atua na entrada; o fine-tuning, que o glossário do Google for Developers (verificado em 7/10/2026) define como segunda passagem de treinamento, atua nos parâmetros.
+
+Um prompt estruturado reúne papel, instrução, contexto, exemplos, formato de saída, restrições e delimitadores, que separam as instruções dos dados de referência.
+
+Zero-shot não traz exemplo, one-shot traz um e few-shot traz mais de um. No chain-of-thought, um prompt pede raciocínio passo a passo; no prompt chaining, vários prompts se encadeiam e a saída de um alimenta o seguinte. O RAG recupera documentos e os insere no prompt, sem retreinar o modelo.
+
+A temperatura controla a aleatoriedade da saída: baixa dá respostas mais previsíveis, não mais verdadeiras. Um prompt bem construído reduz as alucinações, mas não as elimina. Na injeção de prompt, instruções maliciosas vêm embutidas em textos que o modelo lê; o conteúdo externo deve ser tratado como dado, não como instrução.
+
+## Tópico P1-5.2 — Aprendizado supervisionado, não supervisionado e por reforço
+
+### Resumo do tópico
+
+Aprendizado de máquina é o campo em que sistemas aprendem padrões a partir de dados, em vez de seguir regras explicitamente programadas. Segundo a página do Google for Developers, verificada em 7/10/2026, os sistemas se classificam por como aprendem: supervisionado, não supervisionado, por reforço e IA generativa.
+
+No supervisionado, o modelo aprende com dados rotulados; a regressão prevê um valor numérico e a classificação prevê uma categoria, ambas com rótulos no treino.
+
+No não supervisionado, os dados não têm rótulos e o modelo busca padrões, como no clustering. Na classificação, as categorias são definidas previamente; no clustering, o modelo encontra os grupos e o humano pode nomeá-los. Não supervisionado significa sem rótulos, e não sem participação humana.
+
+No reforço, um agente aprende por tentativa e erro num ambiente: age, recebe recompensas ou penalidades e constrói uma política, a melhor estratégia para acumular recompensas. Não há rótulo da resposta certa para cada entrada, e a recompensa muitas vezes é atrasada. O RLHF, com feedback humano, é uma etapa de ajuste, não o pré-treinamento.
+
+Os modelos de IA generativa são pré-treinados sem rótulos atribuídos manualmente e depois podem ser ajustados por aprendizado supervisionado ou por reforço; dizer que se baseiam prioritariamente no supervisionado é erro.
+
+## Tópico P1-5.3 — IA generativa: conceitos, exemplos e casos de uso
+
+### Resumo do tópico
+
+IA generativa é o ramo da IA cujos modelos criam conteúdo novo, como texto, imagem, áudio, vídeo e código, a partir de uma entrada do usuário. Não consiste em prever valor ou categoria de conteúdo existente.
+
+Classificar é uma tarefa; generativo e discriminativo são tipos de modelo. Segundo a página do Google for Developers, verificada em 7/10/2026, o generativo modela a distribuição dos dados e por isso gera novas instâncias; o discriminativo aprende apenas a fronteira entre categorias. A tarefa de classificar pode ser feita pelos dois.
+
+Modelo de fundação é um modelo muito grande, pré-treinado em conjunto enorme e diverso, serve de base para ajustes e pode ser multimodal. LLM é um modelo de linguagem com número muito alto de parâmetros, e nem todo modelo de fundação é LLM.
+
+A alucinação é a saída plausível, porém factualmente incorreta, e é propriedade do mecanismo: o modelo gera o provável, não o verificado. Temperatura baixa não a resolve, apenas torna a invenção mais repetível. O RAG insere documentos externos no prompt, e o fine-tuning altera o modelo; não são sinônimos.
+
+Sem ferramentas ou RAG, o modelo responde com o que incorporou no treinamento e não consulta a internet.
+
+Os usos incluem sumarização e apoio à revisão, sempre com revisão humana; os riscos, alucinação, viés e vazamento de dados sigilosos.
+
+## Tópico P1-6 — Ética e responsabilidade digital no serviço público
+
+### Resumo do tópico
+
+Ética digital aplica os deveres éticos do servidor ao ambiente digital; com meios digitais, inclusive com IA, a ferramenta não responde: o agente público responde.
+
+Os princípios do art. 37, caput, da Constituição são a base. O Decreto 1.171/1994 (Anexo, Seção I, inciso II), norma do Executivo federal, mostra que a ética vai além da legalidade; na Câmara, o regime do servidor é a Lei 8.112/1990.
+
+A LGPD vale para pessoas de direito público ou privado, inclusive o Legislativo (art. 1º, caput). Opinião política e filiação sindical são dados sensíveis (art. 5º, II), e o dado anonimizado não é pessoal, salvo se revertido (art. 12).
+
+O consentimento não é a única base legal, nem a principal para o Poder Público (art. 7º). O titular pode pedir revisão de decisão automatizada (art. 20), não necessariamente por pessoa natural. Incidente de segurança é comunicado à Agência Nacional de Proteção de Dados (ANPD) e ao titular (art. 48).
+
+Na LAI, a publicidade é a regra e o sigilo, a exceção (art. 3º, I). A Lei 8.112/1990 impõe sigilo sobre assunto da repartição (art. 116, VIII) e responsabiliza o servidor civil, penal e administrativamente (art. 121).
+
+O mesmo decreto veda deixar de usar os avanços técnicos (inciso XV, alínea e); a conduta correta é usar IA em canais autorizados, com revisão humana.

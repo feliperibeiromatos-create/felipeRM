@@ -1,4 +1,4 @@
-# Lote 5 — TID-DADOS-VIZ (P1 7.1 e 8.1–8.4) — itens
+# Lote 5 — Dados; Visualização de dados (P1 7.1 e 8.1–8.4) — itens
 
 Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo L5_gabarito.md.
 

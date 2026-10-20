@@ -1,0 +1,2411 @@
+URL: https://revista.enap.gov.br/index.php/RSP/article/download/10595/6962/33297 | verificado em 20/10/2026 | obtido por curl (HTTP 200), texto por pdftotext -layout | SHA-256 do PDF: 784eda014adc328c4dbea062788f044aa8a18181302d675a935665dbba49fce0 | 773942 bytes
+                                                                                                      O Eestado Neoweberiano:
+                                                                                                 do modelo tipo ideal à realidade?
+
+
+
+
+O ESTADO NEOWEBERIANO: DO MODELO TIPO
+IDEAL À REALIDADE?1
+
+
+
+
+                                                                                                    Geert Bouckaert
+
+                                          UCL, Institute for Innovation and Public Purpose, Londres – Reino Unido
+
+
+
+
+As reformas do setor público têm sido uma característica das últimas décadas. Muitas destas reformas
+reagiram contra a hierarquia e a burocracia para mudarem para mercados e redes. Ao lado da New
+Public Management (NPM) e da Nova Governança Pública (New Public Governance - NPG), o Estado
+Neoweberiano (neo-Weberian State - NWS) também permaneceu um tipo ideal crucial, certamente para a
+prática da Europa Ocidental que está incorporada na administração pública (AP) weberiana. Uma questão
+teórica e empírica é se o NWS é sustentável e resiliente na reinvenção e reavaliação da “burocracia” no
+século 21. Esta contribuição afirma que inicialmente houve uma observação empírica, certamente na
+Europa continental, da administração pública neoweberiana derivada da dinâmica das reformas do setor
+público na segunda metade do século 20. Essa discussão foi “atualizada” para um modelo de tipo ideal
+do NWS por razões teóricas. O NWS é um sistema orientado por hierarquia dentro de um espaço de
+hierarquia-mercado-rede. Este Estado Neoweberiano (NWS-baseado e direcionado pela hierarquia) passou
+a ser um dos modelos de reforma normativa.Também se afirma e se presume que o NWS, ao contrário da
+NPM (orientada para o mercado) e da NPG (orientada para a rede), assegurará as três funções centrais
+de uma estratégia de “whole-of-government” (governo integral) num contexto de “Whole-of-society” (toda
+a sociedade): prestação de serviços públicos equitativos e inclusivos, governança resiliente a crises, e
+inovação eficiente para o governo e a sociedade.
+
+Palavras-chave: Estado Neoweberiano (NWS); Estado Neoweberiano; hierarquia; burocracia.
+
+
+
+
+1
+    Agradecemos a Carolina da Cunha Rocha e a Raphael Amorim Machado pela tradução e revisão técnica deste trabalho.
+
+
+DOI: https://doi.org/10.21874/rsp.v75i.10595                          ISSN: 0034-9240 | e-ISSN: 2357-8017
+
+
+
+                                                    Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 13
+                                                                                                O Eestado Neoweberiano:
+                                                                                           do modelo tipo ideal à realidade?
+
+
+
+EL ESTADO NEOWEBERIANO: ¿DEL MODELO IDEAL A LA REALIDAD?
+
+Las reformas del sector público han sido una característica de las últimas décadas. Muchas de estas
+reformas reaccionaron contra la jerarquía y la burocracia para desplazarse hacia los mercados y las redes.
+Junto a la Nueva Gestión Pública (NPM) y la Nueva Gobernanza Pública (NPG), el Estado Neoweberiano
+(NWS) también siguió siendo ciertamente un tipo ideal crucial para la práctica de Europa occidental que
+se incorpora a la administración pública weberiana (AP). Una cuestión teórica y empírica es si el NWS es
+sostenible y resiliente en la reinvención y reevaluación de la “burocracia” en el siglo XXI. Esta contribución
+afirma que, inicialmente, hubo una observación empírica en Europa continental de la administración
+pública neoweberiana derivada de la dinámica de las reformas del sector público en la segunda mitad del
+siglo XX. Esta discusión ha sido "actualizada" a un modelo de tipo ideal del NWS por razones teóricas.
+El NWS es un sistema impulsado por jerarquías dentro de un espacio de jerarquía-mercado-red. Este
+NWS (basado en jerarquías e impulsado) pasó, entonces, a ser uno de los modelos de reforma normativa.
+También se afirma y supone que el NWS, a diferencia del NPM (orientado al mercado) y el NPG (orientado
+a la red), garantizará las tres funciones básicas de una estrategia de “todo el gobierno” en un contexto de
+“toda la sociedad”: provisión de servicios públicos equitativos e inclusivos, gobernanza resistente a las
+crisis e innovación eficiente para el gobierno y la sociedad.
+
+Palabras clave: Estado Neoweberiano (NWS); Estado Neoweberiano; jerarquía; burocracia.
+
+
+
+
+THE NEO-WEBERIAN STATE: FROM IDEAL TYPE MODEL TO REALITY?
+
+Public sector reforms have been a feature of past decades. Many reforms reacted against hierarchy and
+bureaucracy to shift to markets and networks. Next to New Public Management (NPM) and New Public
+Governance (NPG), the neo-Weberian state (NWS) also remained a crucial ideal type, certainly for the
+Western European practice which is embedded in Weberian public administration (PA). A theoretical
+and empirical question is whether NWS is sustainable and resilient in re-inventing and re-appraising
+‘bureaucracy’ in the 21st century. This contribution claims that initially there was an empirical observation,
+certainly in continental Europe, of neo-Weberian public administration derived from the dynamics of
+public sector reforms in the second half of the 20th century. It was then ‘upgraded’ as an NWS ideal type
+model for theoretical reasons. NWS is a hierarchy-driven system within a hierarchy-market-network
+space. This NWS (based and driven by hierarchy) then moved to be one of the normative reform models.
+It is also claimed and assumed that NWS, contrary to NPM (market-driven) and NPG (network-driven),
+will ensure the three core functions of a ‘whole of government’ strategy within a ‘whole of society’
+context: inclusive and equitable service delivery, resilient crises governance, and effective innovation for
+government and society.
+
+Keywords: Neo-Weberian State (NWS); neo-Weberian State; hierarchy; bureaucracy.
+
+
+
+
+                                              Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 14
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+1. DA AMINISTRAÇÃO PÚBLICA DE WEBER À ADMINISTRAÇÃO
+   PÚBLICA WEBERIANA E SUAS REFORMAS
+      No início do século 20, a gestão científica era um paradigma chave com foco na
+produtividade das organizações.
+      Em 1911, nos EUA, Frederick Taylor (1856–1915), um engenheiro, publicou The Principles
+of Scientific Management, que resultou no “Taylorismo” como expressão de organizações
+racionais. Em 1916, na França, Henry Fayol (1841– 1925), também engenheiro, publicou
+Administration Industrielle et Générale. Em 1923, na Segunda Conferência Internacional
+de Ciências Administrativas em Bruxelas (que em 1930 resultou na criação do Instituto
+Internacional de Ciências Administrativas com sede em Bruxelas), Fayol apresentou um artigo
+no qual aplicou os seus princípios à “administração pública”. O estadunidense Lyndall Urwick
+(1891–1983), que trabalhou no International Management Institute em Genebra, traduziu
+a obra de Fayol em 1929 (Industrial and General Administration.) (Sager et al., 2018). Luther
+Gulick (1892–1993), do Instituto de Administração Pública da Universidade de Columbia, em
+Nova Iorque, reconheceu estas contribuições europeias para a ciência da gestão, mas também
+focou numa melhor administração, melhorando e formando “o topo” de uma organização.
+Num esforço combinado, em 1937, Gulick e Urwick publicaram os seus Papers On the Science
+of Administration, resultando no ainda famoso acrônimo POSDCORB (planning, organising,
+staffing, directing, coordinating, reporting, budgeting).
+      Embora sua formação disciplinar e contexto histórico fossem muito diferentes, Max Weber
+(1864-1920) estudou a burocracia e contribuiu para este Zeitgeist de produtividade (Drechsler,
+2020). Seu capítulo sobre burocracia (Weber, 1947: 196-244) abriu caminho em seu pensamento
+sobre a transição progressiva da comunidade tradicional (Gemeinschaft) para as relações
+sociais modernas (Vergesellschaftung) e autoridade legal. Suas reflexões enfatizaram uma visão
+instrumental das burocracias. Apesar de Weber não ser um engenheiro, sua visão sociológica/
+econômica e racional/instrumental estava alinhada com a abordagem de gestão científica da
+época (Weber 2012; Whimster 2007; Whimster; Lash, 1987).
+      Em última análise, a visão weberiana da burocracia e da administração pública evoluiu
+para uma “AP weberiana” (um tipo ideal que se tornou um modelo normativo e uma realidade
+concreta), que depois evoluiu de uma forma quase dialética para reformas pós-burocráticas
+(para uma excelente visão geral de sete paradigmas: ver Torfing et al., 2021).
+      Ao tentar trazer à tona a essência das reformas do setor público desde o final da década
+de 1970, as tendências de reforma mudaram como resultado de ações corretivas e mudanças
+ideológicas. As edições iniciais da Public Management Reform (Pollitt; Bouckaert, 2000, 2004)
+cobriram cerca de 20 a 25 anos do período de reforma (do final da década de 1970 até o início da
+década de 2000). As nossas reflexões finais resultaram em quatro modelos de reforma, expressos
+como os 4Ms: manter, modernizar, mercantilizar e minimizar.
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 15
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+      Segundo Weber, os tipos ideais são uma ferramenta metodológica para interpretar a
+realidade. Em seu ensaio de 1904 sobre “Objetividade” (Objektivität), ele discutiu esse tipo
+puro de pensamento ao aplicá-lo à teoria econômica abstrata, o que lhe permitiu oferecer uma
+representação de tipo ideal de processos baseados em ação racional em uma chamada economia
+de mercado livre (Weber, 2012 [1904]: 123-134; 1968: 146-204). Obviamente, a construção de
+tipos ideais é inspirada nas teorias existentes, nos modelos praxeológicos e na realidade concreta.
+      Um tipo ideal é uma construção obtida ao elevar conceitualmente aspectos específicos da
+realidade, por exemplo, relacionamentos. Um tipo nos ajuda a compreender e pensar a realidade
+construindo relações que existem na realidade, mas que são enfatizados no tipo construído e
+consolidado. Os tipos ideais são, portanto, construções puras de relacionamentos. O requisito para
+uma ênfase aceitável é que eles sejam “suficientemente motivados” e “objetivamente prováveis”.
+Isso os torna suficientemente adequados para intensificar um processo causal de mecanismos.
+Embora estas construções não precisem ser comprovadas, há necessidade de evidências que
+apoiem esta probabilidade objetiva. Isto resulta num valor cientificamente aceitável adicionado
+ao conhecimento dos “fenômenos culturais concretos nas suas interconexões, nas suas causas e
+no seu significado” (Weber, 1904; Whimster, 2007; ver também Bouckaert; Halligan, 2008: 211).
+      Os tipos ideais são representações do comportamento modelado reduzido à sua essência, e
+que, portanto, tem um sabor “puro” e pode ser considerado como tipos puros, com características
+de modelos, módulos e ligações causais verificáveis. Tipos ideias são mais do que denominadores
+comuns da realidade devido à sua coerência causal intrínseca. O seu propósito não é apenas
+alimentar uma praxeologia, mas ajudar a interpretar realidades complexas (Bouckaert; Halligan,
+2008: 212).
+      Tornou-se claro que o tipo ideal manter, essencialmente, mantinha o sistema weberiano
+clássico ao reforçar os controles tradicionais (Pollitt; Bouckaert, 2004: 186). O nível federal
+alemão, em contraste com os sistemas de nível estadual e local, é uma boa opção para este
+modelo de “manutenção”.
+      A versão modernizada do tipo ideal é baseada na distinção da provisão pública e na
+necessidade de fortalecer, em vez de enfraquecer ou diluir o Estado. Denominamos isso como o
+Estado Neoweberiano (NWS) com duas variações do tipo ideal. A primeira:
+      Enfatiza a necessidade de gestão profissional orientada para o desempenho, partindo
+do pressuposto de que os funcionários públicos muitas vezes têm iniciativa e melhorarão suas
+próprias operações uma vez libertos da regulamentação burocrática pesada das hierarquias
+tradicionais superiores.
+
+
+
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 16
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+                        A segunda, ao contrário, enfatiza que a melhor maneira de modernizar é envolver
+                        os cidadãos e usuários de serviços em uma variedade de processos participativos.
+                        Ela deposita sua confiança em uma influência de baixo para cima’ da sociedade civil,
+                        enquanto a primeira variante está mais preocupada em reduzir a quantidade de
+                        regulamentação ‘de cima para baixo’ (Pollitt; Bouckaert, 2004: 187).
+
+
+      O tipo ideal mercantilizado, que aplica mecanismos de mercado dentro do setor público,
+aproxima-se da NGP como modelo de Estado “supermercado” (Christensen; Laegreid, 2011). O
+modelo minimalista entrega tantas tarefas quanto forem possíveis ao mercado e, portanto, está
+“esvaziando” a máquina estatal (Frederickson; Frederickson, 2006), resultando na ligação da
+política à economia, sem mediação de estruturas burocráticas.
+      Na realidade, porém, vemos misturas de tipos, combinando-se em modelos (híbridos).
+Manter e modernizar são combinados na realidade e enquadram-se principalmente no NWS,
+dependendo das especificidades do campo político. Mercantilizar e minimizar também podem
+ser combinados, adequando-se principalmente à NPM, e são certamente compatíveis do ponto
+de vista ideológico.
+      As edições subsequentes da Public Management Reform (Pollitt; Bouckaert, 2011, 2017)
+cobrem um período de reforma de cerca de 30 a 35 anos (desde o final da década de 1970 até cerca
+de 2015). Tornou-se claro que os quatro tipos ideais iniciais não cobriam toda a gama de sistemas
+de governança possíveis e imagináveis. A presença da governança de redes tornou-se uma prática
+real e não foi contemplada pelos 4M’s. Abandonamos nossa ideia inicial de adicionar um quinto
+M (como mediação ou moderação). Assim, mudamos o nosso nível de definição e qualificação
+do tipo ideal de um verbo (manter, modernizar, mercantilizar , minimizar), que correspondia
+à reforma como um processo ativo e deliberado de mudança, para um tipo ideal descrito como
+um princípio orientador, que aciona todos os mecanismos e determina todo o sistema. Como
+conclusão, observamos, em primeiro lugar, que o princípio orientador da “hierarquia” resulta
+inicialmente num Estado Weberiano e, finalmente, num Estado Neoweberiano (NWS). Em
+segundo lugar, o princípio orientador do “mercado” resulta na Nova Gestão Pública (NPM). Por
+último, o princípio orientador das “redes” resulta na Nova Governança Pública (NPG).
+      Ao observar a NPM sendo promovida e promovida pela OCDE como The Way Forward
+(O Caminho a Seguir) (OCDE 2015), e apresentada pelo país de NPM mais extrema, a Nova
+Zelândia, também ficou claro que há uma “limitação de discutir a reforma exclusivamente em
+termos de ‘mais ou menos NPM’”. Resumindo, sugerimos que não se trata simplesmente de
+alguns países estarem relutantes ou se oporem à NPM: “existem conceitos alternativos e positivos
+de modernização, um dos quais descrevemos como o ‘Estado Neoweberiano’ (NWS)” (Pollitt;
+Bouckaert, 2004: 3), especialmente para a Europa continental.
+      Um esforço fundamental para chamar a atenção do público para o NWS foi o Trans-
+European Dialogue (TED) em 2008, organizado pelo professor Drechsler na Universidade de
+Tecnologia de Tallinn (TUT), um esforço combinado do Grupo Europeu para a Administração
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 17
+                                                                                          O Eestado Neoweberiano:
+                                                                                     do modelo tipo ideal à realidade?
+
+
+
+Pública (EGPA) e da Rede de Institutos e Escolas de Administração Pública da Europa Central
+e Oriental (NISPACEE). Os artigos do tema da conferência (Towards the Neo-Weberian State?
+Europe and Beyond) foram publicados no NISPacee Journal of Public Administration and Policy
+(Volume 1, No. 2: Winter, 2008– 2009) como uma edição especial A distinctive European Model?
+The Neo-Weberian State (Um modelo europeu distinto? O Estado Neoweberiano').
+      Este artigo tenta descrever esta mudança sistêmica de um modelo de Estado Weberiano
+para um modelo (tipo ideal) Neoweberiano e avaliar até que ponto o Estado Neoweberiano não
+é apenas um modelo de tipo ideal, mas também se torna uma realidade e até mesmo um modelo
+normativo de reforma.
+
+
+2. ELEMENTOS DE UM MODELO DE ESTADO DE TIPO IDEAL WEBERIANO
+      De acordo com Sager e Rosser, “Weber concebeu o Estado como um fenômeno mecanicista”
+(Sager; Rosser, 2009: 1137). Para Weber, as burocracias públicas e privadas emergentes foram um
+importante indicador de uma transição de um modo de administração tradicional e carismático
+para um modo de administração racional-legal (Thompson, 2003). A burocracia, como uma
+administração estatal baseada no princípio da hierarquia orientada por regras, definiu a sua
+autoridade dentro do Estado (Torfing et al., 2021). Em geral, a racionalização é o motor que
+conduz à hierarquia por meio de administrações baseadas em regras, o que resulta em burocracias.
+Como afirmou Thompson: “A necessidade de cálculos e tomadas de decisão constantes resultou
+numa espécie de organização baseada na aceitação de um sistema racionalizado de operações”
+(Thompson, 1976: 30). Weber chamou este controle de “racional-legal”.
+      Pode-se concluir que os principais vetores analíticos do Estado Weberiano são a sua
+administração estatal como uma burocracia (Bürokratie), a sua economia (Wirtschaft) e a sua
+sociedade (Gesellschaft) (ver Figura 1). Todas as dimensões estão sujeitas e direcionadas pela
+“racionalização”.
+
+
+
+
+                                        Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 18
+                                                                                          O Eestado Neoweberiano:
+                                                                                     do modelo tipo ideal à realidade?
+
+
+
+Figura 1: Componentes do modelo de Estado Weberiano
+
+
+
+
+Fonte: elaborada pelo autor
+
+
+
+3. ALGUMAS RAZÕES PARA IR ALÉM DE WEBER E DO MODELO DE
+   ESTADO WEBERIANO
+      Weber presumiu que o espírito racional da burocracia era tão eficiente e poderoso que a
+burocracia ganhou um impulso irreversível (1968: Economia e Sociedade). Esta dinâmica foi
+impulsionada pela concorrência nos mercados, pela concorrência entre Estados e pela igualdade
+de proteção perante a lei (Weber, 1968: 974). No entanto, DeMaggio e Powell argumentam que,
+“as causas da burocratização mudaram… A burocratização e outras formas de homogeneização
+emergem… a partir da estruturação… Esse processo, por sua vez, é efetuado em grande parte
+pelo Estado e pelas profissões, que se tornaram os grandes racionalizadores da segunda metade
+do século 20 (Dimaggio; Powell, 1983: 147). O que, em última análise, impulsiona os processos
+de racionalização permanece uma questão em aberto, mesmo para Weber.
+      Isto implica uma mudança de um “sistema fechado de lógica” para uma “lógica aberta”,
+tendo em conta a “racionalidade limitada”, a “satisfação” (Simon, 1957) e a “incerteza”, o que
+“reflete algo fundamental sobre as culturas que cercam organizações complexas - o fato de
+que nossa cultura não contém conceitos para pensar simultaneamente sobre a racionalidade
+e a indeterminação… A tradição mais recente, com seu foco na adaptação organizacional à
+incerteza, é de fato um grande avanço” (Thompson, 2003: 9-10).
+      Em seu Understanding Weber, Sam Whimster dedica um capítulo separado sobre “Indo
+além de Weber”, no qual afirma que, “a expansão no escopo do pensamento de Weber não deve
+ser deliberada como se fosse uma estratégia planejada ou pré-concebida. Em vez disso, talvez seja
+melhor considerá-la como uma eflorescência notável da capacidade de Weber em desenvolver
+uma tese original numa variedade de contextos diferentes” (Whimster, 2007: 193-94).
+
+
+
+                                        Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 19
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+     Este artigo não está abordando a necessidade de avançar "além de Weber" ao discutir
+a necessidade de superar os conceitos de "lógica", "singularidade de causalidade para a
+modernidade", "racionalismo" ou "agência" em Weber (Bruun; Whimster, 2012; Whimster; Lash,
+1987). No entanto, uma análise crítica desses conceitos também permite avançar para o Estado
+Neoweberiano (NWS). A discussão "além de Weber" também é relevante para o debate sobre o
+quão bem Weber "viaja" para sistemas democráticos não ocidentais e menos desenvolvidos. Ang
+estuda o contexto chinês e contrasta as "burocracias públicas" clássicas com o "franqueamento
+de burocracias" como um modelo "além de Weber", onde mercado e hierarquia são combinados
+(Ang, 2017). Cho et al. concluíram que a burocracia profissional weberiana "funciona de maneira
+diferente dentro de diferentes contextos democráticos... [e] funciona melhor em países menos
+democráticos em termos de seu impacto no desempenho burocrático" (Cho et al., 2013: 131).
+     As transições do sistema são múltiplas. De fechados e certos a abertos e incertos,
+impactando a teoria organizacional; do nacional para o global, impactando a teoria da
+transferência de políticas de reforma; do Estado para a sociedade, impactando a teoria da
+inovação; das consequências (resultados) às consequências e adequação (valores), impactando
+as teorias comportamentais; desde administrações como burocracias padrão até organizações
+híbridas de variedades mistas, impactando as teorias de coordenação.
+     Estas transições sugerem uma necessidade positiva de ir “além de Weber”. No entanto,
+há também um afastamento negativo de Weber, enfatizando todas patologias da burocracia,
+como a red-tape ou obstáculos à inovação e à mudança (Rhodes, 1997). Existem críticas mais
+fundamentais baseadas na descrença na “legalidade” para a legitimidade (ver também Stivers,
+2000) ou nos argumentos baseados na teoria da escolha pública, na qual as burocracias expansivas
+monopolistas pressionam pela maximização do orçamento, pela redução da capacidade de
+resposta aos usuários e o aumento da prestação ineficiente de serviços.
+     No entanto, também existem argumentos que variam desde a defesa de versões (emendadas)
+da “burocracia” até ao verdadeiro “elogio da burocracia” (du Gay, 2000). Em princípio, a
+burocracia poderia apoiar o crescimento econômico. Evans e Rauch desenvolveram uma escala
+de weberianismo apontando que “o weberianismo fornece uma explicação parcimoniosa e
+analiticamente satisfatória das diferenças observadas no desempenho do crescimento regional”
+(Evans; Rauch, 1999: 760). Além disso, “a eficácia burocrática das instituições públicas, num
+determinado país, será provavelmente decisiva para a capacidade desse país de reduzir a pobreza”
+(Henderson et al., 2007: 528). Ou, “[um] caso prima facie foi apresentado para a proposição de
+que a chegada de formas organizacionais pós-burocráticas tendeu a reduzir tanto a completude
+como a influência real das memórias organizacionais” (Pollitt, 2009: 215).
+
+                       Em seu elogio à burocracia, du Gay afirma que “se permitirmos que a crítica humanista
+                       radical ou o discurso empresarial definam os termos pelos quais o ethos burocrático do
+                       cargo deve ser compreendido e avaliado, então poderemos esperar que o trabalho que
+
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 20
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                        o serviço público desempenha para nós, entre nós, se torne cada vez mais inconcebível.
+                        Talvez seja hora, mais uma vez, de apreciar o ethos do cargo burocrático – embora de
+                        maneira adequadamente contextualizada, como uma extensão positiva do repertório
+                        de possibilidades humanas, e não apenas como uma subtração desumanizante ou
+                        desempoderadora” (du Gay, 2000: x).
+
+
+      Há um debate teórico entre, de um lado, as teorias “organizacionais”, que incluem os
+quadros weberianos que consideram a burocracia e a hierarquia como funcionais, eficazes
+e eficientes, e, de outro, as teorias da escolha pública, que consideram as burocracias
+economicamente e administrativamente ineficientes (Farrell; Morris, 1999). Para as teorias da
+escolha pública, “acredita-se que três características específicas da burocracia pública levam
+à falta de eficiência e eficácia: a estrutura monopolista dos mercados de serviços públicos, a
+ausência de indicadores válidos de desempenho organizacional e o tamanho excessivo de muitas
+agências governamentais” (Boyne, 1999b: 43).
+      Há um debate ideológico entre as duas escolas, de um lado, seguindo o argumento de
+Weber em Economia e Sociedade, e confirmado por Polanyi (1944), de que a burocracia é uma
+ferramenta para o crescimento (capitalista), e de outro temos a 'visão smithiana', de que o
+governo é inimigo desse crescimento (Evans; Rauch, 1999: 749).
+      Há um debate prático que analisa, por exemplo, saúde e educação (ou seja, médicos de
+família no Reino Unido, diretores de escola e assistentes sociais), que afirma que “Reformas
+baseadas no mercado foram destinadas a minar características-chave associadas à burocracia”
+(Farrell; Morris, 1999: 35). No entanto, esse debate conclui que “Os serviços públicos não estão
+‘além da burocracia’” (Farrell; Morris 1999: 36).
+      No topo das transições e do debate, há a observação de que “as questões políticas e
+jurídicas básicas da gestão responsável numa era pós-moderna são inadequadamente definidas
+e abordadas” (Lynn, 2001: 155). Isto nos leva a considerar a questão do que está “além de Weber”,
+mesmo quando as burocracias podem ser necessárias, mas não suficientes para combinar a
+prestação estável de serviços com a governança de crises crônicas em um contexto de inovações
+necessárias.
+
+
+4. CONSTRUINDO O MODELO DE “TIPO IDEAL” DO ESTADO
+   NEOWEBERIANO “ALÉM DE WEBER”
+      Um debate crucial é se a administração pública faz o Estado moderno ou se o Estado faz
+a administração pública (Stillmann, 1997). Em qualquer caso, conceber o NWS tem a ver com
+“instituições” e “desenho institucional”, mesmo quando alguns estudiosos observam uma crise
+nas ciências administrativas (Bull, 2012). “Neste modo, como NPM e NPG, o NWS serve como
+um ômega” (Pollitt; Bouckaert, 2011: 119). Isto significa, de acordo com Stivers:
+
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 21
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                        Que vale a pena imaginar uma alternativa – não um regresso à versão anterior,
+                        que definia a governança como a arte de governar por parte dos administradores
+                        governamentais, mas um modelo construído sobre pressupostos de que já existe uma
+                        realidade compartilhada, que vê o Estado como o resultado de promessas mútuas e
+                        a política como um diálogo que reúne diferentes pessoas em torno de preocupações
+                        mútuas (Stivers, 2008: 111-12).
+
+
+      Ir “além de Weber” obviamente levanta a questão da direção do “neo”. A mudança nas
+burocracias certamente faz parte da "modernização" dos sistemas. De acordo com Riggs,
+a dinâmica da industrialização, da democratização e do nacionalismo como expressões da
+"modernidade" têm implicações para mudanças dinâmicas na burocracia e na administração
+pública; por exemplo, o movimento da New Public Administration “buscou democratizar a
+burocracia ao induzir os funcionários a serem mais responsivos às clientelas afetadas por eles e
+com as quais tinham que trabalhar” (Riggs, 1997: 349; veja também os debates de Minnowbrook
+I). Repensar as burocracias implica uma série de dinâmicas hipotéticas (subjacentes) que foram
+modeladas ao longo do tempo, com base em ciclos de vida, dialética ou evoluções (Kaufman
+1981: 8).
+      Uma posição de partida, num conjunto de afirmações centrais, em Pollitt e Bouckaert
+(2004) foi a de que as três dimensões do espaço weberiano (ver Figura 1) mudaram sua natureza.
+Dois espaços podem ser definidos. Há um espaço de atores com três dimensões: o Estado com
+o seu setor público; os negócios com o setor privado com fins lucrativos; e a sociedade com
+o seu setor sem fins lucrativos. Existe um espaço indutor (ver Figura 2) com três vetores que
+desencadeiam e impulsionam estes atores a agir dentro e entre as suas esferas, utilizando uma
+variedade de mecanismos: hierarquia (com HTM ou mecanismos do tipo hierarquia - hierarchy-
+typemechanisms), mercados (com MTM ou mecanismos de mercado - market-type-mechanisms)
+e redes (com NTM ou mecanismos do tipo rede - network-type-mechanisms). Os vetores
+ajustam seu conteúdo para um espaço de atores duplo e um espaço de indutores. O espaço de
+indutores define um espaço consolidado de governança HMN (Hierarquia, Mercado e Rede)
+para os três atores. A racionalização de Weber transforma-se então numa lógica combinada de
+consequências e adequações.
+      A hierarquia continua a ser o mecanismo de coordenação mais comum: “autoridade
+exercida através de uma hierarquia disciplinada de funcionários imparciais e profissionais”
+(Pollitt; Bouckaert, 2017: 22). Outra reivindicação central era o “Estado de Direito” (Rule of
+Law) e o “Estado”:
+
+                        Modernizar o aparelho estatal tradicional para que se torne mais profissional, mais
+                        eficiente e mais receptivo aos cidadãos. Os métodos empresariais podem ter um papel
+                        subsidiário neste contexto, mas o Estado continua a ser um ator distintivo com as suas
+                        próprias regras, métodos e cultura (Pollitt; Bouckaert, 2017, 22).
+
+
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 22
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+      O NWS tem sua força em nos lembrar do que os estados podem fazer e de como a política
+democrática é importante como força orientadora e de monitoramento. Ele reconhece que
+existem contextos específicos nos quais o Estado deve coagir seus cidadãos e onde a ordem
+pública deve ser mantida, mesmo a um certo preço em termos de liberdades individuais. Ele
+coloca a ética no serviço público mais próxima do centro das atenções e evita a suposição
+simplista de que todos são maximizadores de utilidade auto interessados. Por outro lado, a
+perspectiva do NWS é muito menos clara sobre como o Estado deve lidar com outros atores
+poderosos no processo político - grandes corporações, organizações intergovernamentais e não-
+governamentais internacionais ou organizações que administram "nuvens de dados". Além disso,
+tende a pressupor que os funcionários públicos sempre ou geralmente se mostrarão flexíveis às
+reformas sensatas e modernizadoras (Pollitt; Bouckaert, 2017: 214).
+      Um componente crucial dos sistemas é o “locus” das atividades, como uma divisão
+do “trabalho” para organizar e prestar serviços. Em geral, existem três atores principais com
+propósitos e dinâmicas diferentes (Fig. 2).
+      O Estado, com o seu setor público e a sua administração, é direcionado por dotações
+orçamentais e financiado principalmente por impostos. O setor empresarial privado com fins
+lucrativos, com as suas empresas privadas, é impulsionado pelos rendimentos provenientes
+de transações de mercado. O setor sem fins lucrativos, ou não-governamental, com as suas
+organizações da sociedade civil como ONGs, é movido por subsídios e doações. É importante
+mapear estes três atores por três razões.
+      Em primeiro lugar, mesmo quando a riqueza consolidada de um país é gerada pelos três
+atores em conjunto, os grupos e volumes de atividades podem diferir significativamente. Em
+vários domínios políticos, os três atores desempenham um papel complementar nos ciclos
+políticos e na prestação de serviços.
+      Em segundo lugar, “locus” e “foco” estão conectados. Como a interação de responsabilidade
+e prestação de contas será diferente, a maneira de focar em quais resultados e quais valores
+será diferente. O interesse geral é diferente dos interesses individuais ou de grupo. A maneira
+de governar ou administrar também será diferente: a administração de empresas difere da
+administração pública, que difere da gestão sem fins lucrativos. Isso pode ser enfatizado por
+molduras legais: o direito público difere do direito privado, mesmo em países que têm sistemas
+de Common Law. Alguns países permitem um locus diferenciado de serviços, com um foco
+diferenciado relacionado, por exemplo, para hospitais, escolas ou serviços de segurança que
+podem ser públicos, privados com fins lucrativos ou privados sem fins lucrativos.
+      Terceiro, pela conexão entre o “locus” e o “foco”, as mudanças de atividades entre estes três
+atores estão impulsionando as reformas. As mudanças entre os atores são comuns: de “público”
+para “privado” (privatização) ou vice-versa (nacionalização); do “público” para a sociedade
+(coprodução) ou vice-versa; das empresas para a sociedade e vice-versa.
+
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 23
+                                                                                          O Eestado Neoweberiano:
+                                                                                     do modelo tipo ideal à realidade?
+
+
+
+Figura 2: Três atores: Estado, Empresas e Sociedade Civil
+
+
+
+
+Fonte: Elaborado pelo autor.
+
+
+      O contexto de Weber era o de um Estado “vigia noturno” e isso mudou, após a Segunda
+Guerra Mundial, para um Estado de Bem-Estar Social, que então evoluiu para modelos de Estado
+mínimo. O NWS implica um papel significativo do Estado e seu setor público na formação e
+entrega de políticas e serviços. A reivindicação central fundamental do NWS não é (apenas) sua
+participação estatal no PIB, mas sua natureza predominantemente orientada pela hierarquia
+do sistema. Isso difere de sistemas predominantemente orientados pelo mercado ou orientados
+pela rede.
+      Um “modelo de tipo ideal” direcionado pela “hierarquia” baseia-se em leis, normas e padrões
+para orientação, controle e direcionamento (Figura 3). O Estado, seu governo e administração
+(burocracia) respondem à lei para ser um “Estado de Direito” (State of Law) e para legitimar
+a sua autoridade e poder democráticos. Os fundamentos teóricos são fornecidos pelas teorias
+do “Estado de Direito” e dos sistemas burocráticos weberianos. Atualmente, o NWS baseia-se
+nestas teorias racionalidades e lógicas, para ir “além de Weber”. O NWS não segue (apenas) uma
+lógica de “racionalização” weberiana, mas sim tanto as lógicas das consequências (resultados)
+como a da adequação (inclusão, equidade, valores dentro do Estado de Direito) (March; Olson,
+2009, 2011). Ambas as lógicas não orientam apenas o funcionamento da “hierarquia” dentro
+do Estado e do seu setor público, mas também orientam a forma como os mecanismos do tipo
+hierarquia são usados para lidar com atores com e sem fins lucrativos, e seus “ mercados' (M) e
+'redes' (N) em sua meta-governça do NWS.
+      Um “modelo de tipo ideal” direcionado pelo “mercado” baseia-se em princípios de troca
+e concorrência para a sua orientação, controle e direção (Figura 4). A “mão invisível” conduz
+
+
+                                        Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 24
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+a oferta e a demanda, moldada por mecanismos de preços e baseada no auto interesse como
+lucros e perdas. O governo é o guardião desses mercados, regulando a negociação, a informação
+e o poder. Os fundamentos teóricos são fornecidos pela economia neoinstitucional. Atualmente,
+a NPM (new public management) está moldando um espaço de governança orientado pelo
+mercado dentro do setor privado com fins lucrativos, mas também usando mecanismos de tipo
+mercado dentro e entre o setor público e o setor sem fins lucrativos.
+      Um “modelo de tipo ideal” orientado pela “rede” baseia-se em princípios de cooperação e
+solidariedade para a sua orientação, controle e direcionamento (Figura 5). Valores compartilhados,
+análises de problemas comuns, consenso, lealdade, reciprocidade, informalidade e reputação
+impulsionam este sistema. O governo se torna um facilitador e participante destas redes, apoiando
+a cooperação mútua, a coprodução, as parcerias e a confiança na rede. Os fundamentos teóricos
+são as teorias de rede. A Nova Governança Pública (New Public Governance) está moldando um
+espaço de governança orientado para redes dentro do setor sem fins lucrativos, mas também
+usando de sistemas de governança do tipo rede mecanismos dentro e entre o setor público e o
+setor privado com fins lucrativos.
+
+Figura 3: Estado Neoweberiano como um espaço de governança Hierarquia, Mercado e
+Redes dominado e orientado por Hierarquia
+
+
+
+
+Fonte: Elaborado pelo autor.
+
+
+Da Burocracia (Bürokratie) à Hierarquia
+
+      De acordo com du Gay (2005: 1, 2-3) “a burocracia... provou ser notavelmente resiliente...
+as formas burocráticas de organização desempenharam, e continuam a desempenhar, um
+papel vital e produtivo na ordenação da existência em vários domínios – público e privado,
+governamental e voluntário”. Contudo, a burocracia não é apenas uma expressão instrumental e
+organizacional da hierarquia como impulsora do sistema. A burocracia, como hierarquia, muda
+de instrumento para instituição (Olson, 1997, 2006).
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 25
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+        Uma "preocupação renovada com formas hierárquicas de gestão" (du Gay, 2005: 2) tem
+"atualizado um foco clássico na burocracia". Essa atualização também poderia ocorrer através
+da "flexibilização" da burocracia, o que "não é o mesmo que transcendê-la" (Newman, 2005:
+206): “em vez de uma mudança para a governança em rede, muitos praticantes têm passado por
+experiências do ressurgimento de modos burocráticos de governança (hierárquica)” (Newman,
+2005: 207). Isso também inclui uma referência ao "bureau" como uma unidade de governança
+(Goodsell, 2005).
+        Este artigo não desenvolverá a transformação da “economia” (Wirt-schaft) em negócios
+com fins lucrativos no mercado, nem a transição da “comunidade” (Gemeinschaft) para a
+“sociedade” (Gesellschaft) e nem sem fins lucrativos com “redes”.
+
+
+Hierarquia versus Mercado
+
+        Segundo Williamson, alinhado com os custos de transação dos neoinstitucionalistas
+econômicos, é necessário fornecer uma apreciação econômica para modos alternativos de
+governança, mesmo para uma administração como o Departamento de Estado e a sua possível
+privatização (Williamson, 1999: 307- 308). Williamson conclui que, “existe um lugar eficiente
+para a burocracia pública, mas que todos os modos de governança (mercados, híbridos,
+empresas, regulação), dos quais a burocracia pública é um deles, precisam de ser mantidos em
+seus lugares” (Williamson, 1999: 306).
+        Reconhecendo que “a política e a economia são diferentes”, Williamson responde à
+questão: “Pode uma burocracia privada, com ou sem apoio da regulação, replicar os atributos
+das burocracias públicas?” afirmando que “a replicação de uma repartição pública por uma
+empresa privada, com ou sem o apoio da regulamentação, é impossível” (Williamson, 1999:
+311).
+        A interação entre hierarquias e mercados diz respeito a “porque alguns serviços são
+fornecidos pelo governo, mas também como a mistura eficiente de serviços públicos muda ao
+longo do tempo” (MacLeod, 1999: 345). Isto está ligado a uma “combinação ótima entre governo
+e mercados como um problema na economia dinâmica dos custos de transação” (MacLeod,
+1999: 345). No entanto, mesmo quando as reformas visam uma mudança da hierarquia para os
+mercados, “a suposta ‘'transformação’ das estruturas de mercado no setor público parece ter sido
+exagerada” (Boyne, 1999b: 45). Existem quatro razões:
+
+                        Alguns serviços continuaram a operar principalmente por meio de hierarquia em vez
+                        de contratos... a alocação de recursos do governo central para agências locais continuou
+                        a refletir estimativas da necessidade de serviço... o vínculo entre novas 'estruturas' e
+                        mudanças na 'conduta' no setor público parece ter sido enfraquecido pela resistência
+                        burocrática... os novos arranjos de mercado envolveram pouca ou nenhuma escolha
+                        direta do consumidor entre fornecedores alternativos (Boyne, 1999b: 45).
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 26
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+Hierarquia versus Rede
+
+      Há uma escola teórica que afirma que um sistema pós-burocrático leva a um sistema em
+rede (Klijn; Koppenjan, 2015). Esta mudança deverá ser o resultado de uma tendência sistémica
+de afastamento da hierarquia para redes, em combinação com uma política de desburocratização
+e desregulamentação. Essa tendência e política combinadas foram uma reação a uma percepção
+de “gaiola de ferro” que precisava de ser desmantelada: “a ‘'gaiola de ferro’ tornou-se menos uma
+questão de expertise técnica e eficiência econômica e muito mais uma questão de legitimação
+cultural e estabilização política”. (Reed, 2015: 124). Reed continua afirmando:
+
+                        A teoria pós-burocrática de redes tenta nos convencer de que atingimos um período na
+                        história e no desenvolvimento humano em que a ‘geometria variável’ da organização
+                        em rede é forte e poderosa o suficiente para deslocar, marginalizar e, eventualmente,
+                        substituir a ‘geometria fixa’ da organização burocrática(Reed, 2015: 133).
+
+
+      Como resultado, a combinação de H (hierarquia) com N (rede) resulta num “mundo
+burocrático em rede”, onde “a administração pública é menos hierárquica e insular e está
+cada vez mais ligada em rede” (O'toole, 1997: 443). Uma das razões para ampliar a reflexão da
+hierarquia e rede é colocá-la num contexto de governança democrática eficaz. Segundo O'Toole,
+“a questão principal… é como, e não se, os ideais democráticos podem ser mais integrados
+no tecido da administração” (O'toole, 1997: 444), especialmente porque “os administradores
+públicos podem estar bem posicionados para ajudar a facilitar o desenvolvimento horizontal das
+matrizes de rede, ao mesmo tempo que incentivam dentro dessas matrizes um caráter voltado
+para o interesse público” (O'toole, 1997: 457).
+
+
+Estado Neoweberiano como Hierarquia, Mercado e Redes: uma abordagem
+integral governo (Whole of Government - WoG) em um espaço da sociedade com
+um todo (Whole of Society - WoS)
+
+      Um dos pontos cruciais de atenção para políticas e prestação de serviços eficazes é a
+coordenação (Bouckaert et al., 2010). Passar da gestão de organizações únicas para a gestão
+de grupos de organizações, que fornecem insumos para alcançar resultados compartilhados,
+para concretizar políticas comuns, está se tornando uma necessidade para concretizar, por
+exemplo, os 17 Objetivos de Desenvolvimento Sustentável (UN World Public Sector Report
+2018; UN CEPA 2018), bem como para combater grandes crises, como a pandemia de
+Covid-19 ou crises futuras (Bouckaert et al., 2022).
+      Isto tem impulsionado uma consolidação vertical com uma perspectiva de governo
+integral (WoG), que integra níveis de governo desde o governo central (e europeu) até ao
+governo local. Também promove a consolidação horizontal, parcerias e cooperação com uma
+perspectiva de toda a sociedade (WoS), que liga organizações do setor público com organizações
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 27
+                                                                                          O Eestado Neoweberiano:
+                                                                                     do modelo tipo ideal à realidade?
+
+
+
+do setor privado, ONGs e grupos de cidadãos. De acordo com Putnam, uma comunidade cívica
+estimula desenvolvimentos econômicos baseados no mercado, bem como um governo eficaz:
+“eEssa história sugere que tanto os estados como os mercados operam de forma mais eficiente
+em ambientes cívicos” (Putnam, 1993: 181).
+     Num contexto de Estado Neoweberiano, o setor público assume a liderança ao assegurar a
+meta-governança de hierarquias, mercados e redes, incluindo as abordagens de governo integral
+e toda a sociedade, seguindo tanto as lógicas das consequências e da adequação.
+
+
+5. EXPLORANDO A DINÂMICA DO ESPAÇO HIERARQUIA-MERCADO-
+   REDE DO ESTADO NEOWEBERIANO
+      A reforma no setor público não consiste em uma única iteração em que uma “solução”
+resolve um “problema”. É um conjunto complexo de medidas em uma sequência dinâmica de
+interações entre problemas e soluções, que pode gerar novos problemas.
+      Primeiro, uma solução pode não ser a resposta para a questão a ser resolvida. Em alguns
+casos, as características da solução não cobrem as falhas do problema. Em alguns casos, isso é
+resultado combinado de não analisar e avaliar suficientemente um problema, juntamente com
+a cópia de soluções oferecidas por outros em condições diferentes. Segundo, mesmo quando a
+solução é uma resposta para o problema, a implementação da solução pode não ser adequada.
+Este é o caso, por exemplo, quando a desregulamentação às vezes se tornou tão extrema que
+as condições de mercado funcionais foram perturbadas. Além disso, a mercantilização nem
+sempre seguiu as condições de especificidade de saída de um campo político específico. Terceiro,
+mesmo quando as soluções respondem aos problemas e são bem implementadas, em alguns
+casos essas soluções se tornaram objetivos em si mesmas e se transformaram em um sistema de
+crenças, que se tornou um princípio ideológico, como em "o mercado sempre está certo".
+      Poderíamos ler as mudanças de reforma de Hierarquia para Mercado, de Mercado para
+Redes com Mercado, e de Mercado-Rede de volta para Hierarquia, como uma sequência
+dinâmica de interações entre problemas e soluções.
+      A narrativa geral da reforma, quase como um silogismo, é:
+      (1) Hierarquia, a burocracia é disfuncional e negativa (ver King; Stivers 1998; Stivers
+2008), portanto, há uma necessidade de uma mudança para Mercado, uma vez que o Mercado é
+funcional e eficiente, no entanto, falhas no Mercado estão surgindo, portanto há uma necessidade
+de mudar e/ou adicionar.
+      (2) Rede como uma “terceira via”, no entanto, a Rede parece não ser uma panaceia,
+portanto, especialmente em períodos de crise, há a necessidade de voltar para a
+      (3) Hierarquia, mesmo quando Mercado e Rede permanecem parcialmente em vigor.
+
+
+
+
+                                        Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 28
+                                                                                                       O Eestado Neoweberiano:
+                                                                                                  do modelo tipo ideal à realidade?
+
+
+
+(1) Da Hierarquia para Mercado
+
+       Sim, uma vez que os mercados (ou quase-mercados ou mercados desregulamentados)
+resolvem todas as falhas da Hierarquia e das burocracias. A concorrência impulsiona a obtenção
+de ganhos de eficiência e a redução de custos, com base na informação disponível e enquadrada
+por contratos de custo mínimo (Williamson, 1985). Isto acontece numa “era antigoverno” (King;
+Stivers, 1998, capítulo 1 e capítulo 12).
+       Mas, em última análise, os mercados não são uma panaceia. Algumas funções de produção
+são muito complexas e têm especificidades de produção bastante elevadas, o que complica o
+monitoramento. Isto desencadeia problemas de coordenação entre a oferta ou fornecedores e a
+demanda ou compradores.
+       Um dos elementos complicadores é que, para alguns serviços públicos, há uma desconexão
+entre os diferentes papéis assumidos pelos cidadãos como clientes, como decidir, pagar, utilizar
+e beneficiar (por exemplo, jardins de infância ou prisões), que não são compatíveis com um
+campo de jogo “competitivo”.
+       No entanto, os mercados e quase-mercados, que utilizam contratos adversarial (adversarial
+contract)2, têm alguns problemas que podem transformar-se em falhas, com base nas condições
+dos mercados funcionais e/ou quase-mercados, tais como concorrência suficiente para empurrar
+os preços para baixo, níveis suficientes de transparência de informações para fornecedores e
+compradores, e custos suficientemente baixos para contratação e coordenação. É claro que em
+setores como a saúde ou a assistência social este não é o caso (ver Kirkpatrick, 1999, para o
+governo local no Reino Unido; ver Aulich, 1999, para o governo local na Austrália).
+       Isso se deve a uma série de razões, como, por exemplo, um número bastante pequeno de
+fornecedores e funções de produção complexas, devido às especificidades dos serviços prestados.
+
+
+(2) Portanto: do Mercado para a Rede
+
+       Sim, redes estão a utilizar contratos vinculativos que são muito mais adequados à sua
+finalidade em contextos que necessitam de acordos mais abertos, baseados na boa vontade e em
+valores compartilhados: “Isso se baseia na suposição de que muitos dos custos associados aos
+mercados poderiam ser reduzidos se os compradores e os prestadores puderam colaborar de
+forma mais eficaz” (Kirkpatrick, 1999: 9). A preferência pelas redes também deriva da suposição
+de que estes mecanismos funcionam bem no setor empresarial (Pollitt, 1993: 7) e se adaptam
+bem ao setor público: “uma visão comum é que relações contratuais de plena concorrência são
+menos apropriadas do que abordagens mais colaborativas, para trabalhar… [A] estrutura de
+governança mais apropriada no futuro será alguma forma intermediária de quase-mercado
+
+2
+ Um contrato de tipo adversarial é aquele em que as pessoas que o assinaram provavelmente agirão em seus próprios interesses
+se algo der errado. (NT)
+
+
+                                                   Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 29
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+(incorporada em redes sociais)” (Kirkpatrick, 1999: 9).
+      Mas as redes geram problemas: “o estudo das redes levanta questões de importância
+equivalente ao estudo da burocracia e da accountability democrática… A accountability já não
+pode ser específica de uma instituição” (Rhodes, 1996: 667; ver também Stivers, 2008: 111). Essa
+crítica é compartilhada por Stivers: “a conotação de governança se expandiu para incluir uma
+variedade de organizações sem fins lucrativos e empresariais, enquanto a imagem do ‘gestor’
+público estreitou-se para o negociador e monitor de contratos” (Stivers, 2008: 5). As redes, em
+combinação com os mercados e um Estado mínimo, redefinem a governança de forma crítica.
+
+
+(3) Portanto: da Hierarquia para Mercado e Rede, e de volta para Hierarquia?
+
+      Sim, “a literatura sobre quase-mercados tende a exagerar as vantagens das redes e a ignorar
+os benefícios potenciais da hierarquia ‘tradicional’” (Kirkpatrick, 1999: 12).
+      Boyne (1999b) conclui que as reformas do Novo Trabalhismo no Reino Unido, que
+envolvem o aumento em vez da redução, a internalização em vez da terceirização, e o reajuste
+em vez da abolição, "representam um afastamento dos mercados e dos contratos em direção
+à burocracia e à hierarquia" (Boyne, 1999b: 48). Ele acrescenta que "mudanças de uma forma
+organizacional para outra provavelmente serão difíceis, em parte devido à resistência profissional
+e gerencial à mudança" (Boyne, 1999a: 2).
+      Ao estudar a licitação competitiva obrigatória (compulsory competitive tendering - CCT)
+para tornar o governo local em Victoria, Austrália, mais "empresarial" e orientado para o mercado,
+Aulich (1999) observa novos processos (mas com orientação de conformidade), divisão cliente-
+fornecedor (mas gerando incertezas e tensões), gestão estratégica (mas de forma pragmática)
+e também captura organizacional por parte de altos burocratas. Aulich conclui que a CCT e a
+sua tendência para mais mercado “não reconfiguraram os conselhos como organizações pós-
+burocráticas nesta fase” (Aulich, 1999: 43).
+      Os conceitos de “burocracia” e “pós-burocracia” também suscitam alguma controvérsia. De
+acordo com Höpfl, “se a “burocracia weberiana” for equiparada da maneira antiga à hierarquia,
+elementos de burocracia certamente serão encontrados em qualquer organização. Também será
+fácil identificar elementos não burocráticos (isto é, não hierárquicos). Mas se a burocracia for
+inerentemente flexível, por exemplo, e for compatível com todos os diferentes tipos de arranjos,
+então o que foi diagnosticado como arranjos “pós-burocrático” devem aparecer como meras
+variantes dentro da burocracia... Dado este ponto de referência, o advento da “pós-burocracia”
+exigiria ou o completo desaparecimento das hierarquias, o que é inconcebível, ou a identificação
+de alguns arranjos como inerentemente incompatíveis com a burocracia” (Höpfl, 2006: 19).
+
+
+
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 30
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+A dinâmica de mudança entre Hierarquia, Mercado e Rede também pode ter uma
+série de fatores
+
+      Em alguns casos, existem escolhas ideológicas claras contra a Hierarquia. Há uma "falha
+em grande parte desta literatura em avaliar todas as possíveis alternativas aos mercados. Isso
+significa que muito menos ênfase é colocada na possibilidade de um retorno à hierarquia como
+uma estrutura de governança futura para os serviços públicos" (Kirkpatrick, 1999: 10). Este
+preconceito teórico está relacionado com a agenda de “modernização” do Partido Trabalhista
+para o serviço público [e] baseia-se no pressuposto de que uma “terceira via” é possível. Por
+definição, isto exclui outras alternativas da equação, como a hierarquia” (Kirkpatrick, 1999: 12).
+      Também há uma forma de compreender a dinâmica no espaço do Estado Neoweberiano
+com Hierarquia, Mercado e Rede através da teoria da contingência e do pragmatismo. A escolha
+entre H, M e N deveria ser uma questão de “praticidade” em vez de “convicção ideológica”
+(Rhodes, 1996: 653): “para mercados e hierarquias, podemos agora adicionar redes. Nenhuma
+dessas estruturas para alocar recursos com autoridade e exercer controle e coordenação é
+intrinsecamente “boa” ou “má”. A escolha não é necessariamente ou inevitavelmente uma
+questão de convicção ideológica, mas de praticidade: isto é, sob que condições cada estrutura
+governamental funciona eficazmente” (Rhodes, 1996: 653).
+      Uma terceira abordagem, ligada ao neo-institucionalismo histórico, especialmente à
+dependência de trajetória (path dependency), poderia afirmar que “é improvável que qualquer
+governo seja capaz de restabelecer formas mais antigas de controle hierárquico” (Kirkpatrick,
+1999: 12).
+
+
+Janelas de oportunidades restantes para a Hierarquia
+
+      Mesmo quando a economia institucional reconhece os pontos fortes da Hierarquia como
+burocracia (Ouchi, 1980), aceita-se que “a burocracia continua a ser o principal exemplo de
+hierarquia ou coordenação por ordem administrativa e, apesar de todas as mudanças recentes,
+ainda é uma forma importante de prestação de serviços” (Rhodes, 1996: 653).
+      Existem também novas escolas pró-burocracia na teoria organizacional que enfatizam
+“contratos de trabalho mais seguros e burocráticos e como estes podem ajudar a promover a
+lealdade e a flexibilidade dos funcionários” (Kirkpatrick, 1999: 12).
+      Atualmente, a governança de crises, sejam elas ameaças terroristas desde o 11 de setembro
+(2001), a crise financeira e bancária global (2008), o desastre japonês de Fukushima (2011) ou a
+pandemia de covid-19 (2020-2022), demonstram que apenas ou predominantemente Mercado
+ou Redes, não teriam gerido ou tratado estas crises. O Estado está de volta e as obsessões
+neoliberais com o mercado estão perdendo força.
+
+
+
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 31
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+      Além disso, além da prestação rotineira de serviços e da governança de crises, os
+mecanismos para desencadear a inovação em última análise – e efetivamente – parecem vir do
+Estado, com o seu setor público e a sua hierarquia (Mazzucato, 2013, 2018, 2021).
+      Em geral, Olson “questiona as ideias em voga de que a organização burocrática é obsoleta
+e que houve uma mudança paradigmática da burocracia (weberiana) para a organização de
+mercado ou organização em rede” (Olson, 2006: 2, especialmente nota de rodapé 1).
+
+
+Tipologia das dinâmicas entre Hierarquia, Mercado e Redes
+
+      A mudança para novos sistemas e a transição entre sistemas ideais “puros” (e as suas
+quase-versões) poderiam seguir uma variedade de padrões.
+      Poderia haver uma dinâmica sequencial: da burocracia e Hierarquia para Mercado, para
+Rede e de volta para a Hierarquia. Esta tentativa lógica poderia ser vista como uma sequência
+cronológica. No entanto, ao aplicar isto ao NHS (National Health Service) inglês, Exworthy et
+al. concluem: “a suposição de mudanças de paradigma é demasiado simplista: as três formas
+organizacionais sempre coexistiram e continuam a fazê-lo” (Exworthy et al., 1999: 15).
+      Isto leva-nos a dinâmicas simultâneas, que combinam diferentes intensidades de
+Hierarquia, Mercado e Rede, como mostra Olson para a União Europeia: “a União Europeia
+também ilustra que a construção de mercados e de redes não exclui a organização burocrática…
+A administração pública é organizada com base na autoridade, bem como na competição e na
+cooperação” (Olson, 2006: 14,18).
+      Isso nos leva à hibridização, mistura e quase modelos e à questão empírica da dinâmica
+convergente, que ainda é um debate pendente: “a hipótese da inevitabilidade e da convergência
+não é apoiada por observações empíricas” (Olson, 2006: 13). Contudo, Pollitt (2007) observa
+convergência e divergência no cenário de reformas europeu.
+
+
+6. ESTADO NEOWEBERIANO COMO HIERARQUIA, MERCADO E REDES,
+   E NÃO HIERARQUIA, MERCADO E REDES
+      De acordo com Exworthy et al. “Os tipos não representam um contínuo bidimensional, com os
+mercados e a hierarquia ocupando extremos opostos de um espectro linear. São melhor visualizados
+em termos ortogonais ou tridimensionais” (Exworthy et al., 1999: 20). A Figura 3 fornece um espaço
+tridimensional onde inicialmente Hierarquia, Mercado e Rede são fatores do sistema analiticamente
+iguais e separados. No entanto, a questão é sobre o principal fator e as proporções numa combinação
+de fatores da Hierarquia, Mercado e Redes que criam espaços de governança para - e entre - os três
+intervenientes (Figura 2) do setor público, do setor privado e do setor sem fins lucrativos. Quando o
+Mercado seria um vetor dominante, em tamanho e por dominar os outros dois vetores, o modelo do
+tipo ideal pode ser denominado NPM (New Public Management), como na Figura 4.
+
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 32
+                                                                                                   O Eestado Neoweberiano:
+                                                                                              do modelo tipo ideal à realidade?
+
+
+
+
+Figura 4: NPM como um espaço de governança Hierarquia, Mercado e Rede dominado e
+orientado pelo Mercado.
+
+
+
+
+Fonte: elaborada pelo autor.
+
+
+
+       Na sua essência, a NPM é dirigida por mecanismos de mercado para fornecer serviços.
+O tipo ideal de NPM resulta, em última análise, num “Estado mercado” onde os cidadãos são
+reduzidos a clientes. Como clientes, estão sujeitos à oferta e à demanda de bens e serviços.
+A divisão cliente-provedor garante essa interação. Quando a plena concorrência no mercado
+não é possível, são concebidos quase-mercados, resultando numa concorrência público-pública
+ou público-privada. A legitimidade deste modelo é baseada no suposto desempenho eficiente
+do mercado. Isto resulta numa mudança de “formas tradicionais de governança ancoradas em
+hierarquias estatais” (Newman, 2005: 193) para mercados e redes com desregulamentação,
+coprodução e parcerias.
+       Quando a Rede se torna o vetor dominante e direcionador, em tamanho e por dominar os
+outros dois vetores, o modelo de tipo ideal pode ser rotulado como Nova Governança Pública
+(NPG - New Public Governance), como na Figura 5. Em sua essência, o NGP é direcionado
+por redes com valores e objetivos compartilhados (Kostakis, 2011). Este modelo ideal do NGP
+resulta, em última análise, num “Estado de rede” com membros de rede consensuais, onde a
+confiança mútua é um princípio de ligação para a prestação de serviços. A legitimidade baseia-se
+em valores compartilhados e numa cultura de copojetar, codecisão, coprodução e co-avaliação.
+       Ao analisar o espaço Hierarquia, Mercado e Rede a partir de Rede como uma perspectiva
+de “comuns” (commons), Palumbo e Scott afirmam que:
+
+                               Como um conjunto de práticas gerenciais, os bens comuns são resultado das
+                               estratégias cooperativas bem-sucedidas... baseadas em uma base motivacional maior
+                               do que as hierarquias subjacentes e os mercados… Um modelo não convencional
+                               de burocracia poderia empregar este capital social de diversas maneiras. Primeiro,
+
+                                                 Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 33
+                                                                                                O Eestado Neoweberiano:
+                                                                                           do modelo tipo ideal à realidade?
+
+
+
+                           poderia utilizar os bens comuns para abrir novos espaços democráticos e, assim,
+                           aprofundar a legitimidade do sistema político. Em segundo lugar, poderia contar com
+                           eles para redefinir a articulação política do Estado moderno, de modo a fortalecer
+                           as identidades coletivas. Terceiro, poderia integrar os bens comuns num sistema de
+                           controles revistos e equilíbrios sociais que aumentaria a accountability e reduziria os
+                           custos do governo. Em suma, um modelo não convencional de burocracia vê os bens
+                           comuns como um meio fundamental para concretizar uma forma de governança em
+                           vários níveis” (Palumbo; Scott, 2005: 302).
+
+
+Figura 5: NGP como um espaço de governança Hierarquia, Mercado e Redes dominado e
+orientado por Redes
+
+
+
+
+Fonte: Elaborada pelo autor.
+
+Hierarquia como um vetor sempre presente em Hierarquia, Mercado e Redes
+
+      Quando Hierarquia for o vetor dominante em tamanho, e por dominar os outros dois
+vetores, o modelo do tipo ideal pode ser denominado Estado Neoweberiano NWS, conforme
+Figura 2.
+      Existem muitas razões e evidências empíricas para confirmar que Hierarquia, em última
+análise, domina e deveria/poderia garantir mercados e redes funcionais. Para as Redes, Palumbo
+e Scott afirmam: “O que justifica a ação estatal e a burocracia pública? Como a comunidade
+conectada a um comum geral é o estado-nação como um todo, ou várias comunidades nacionais,
+apenas agências estatais ou organizações interestaduais parecem ter o poder de tomada de
+decisão para arrecadar os recursos e a expertise necessários para gerir os comuns de maneira
+adequada e eficaz” (Palumbo; Scott, 2005: 298). A Hierarquia não só é capaz de garantir Rede,
+mas também pode proteger a Rede contra o Mercado:
+
+
+
+
+                                              Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 34
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                        para nós, a burocracia pública encontra uma justificação adicional na proteção dos bens
+                        comuns do cerco pelo mercado e da atividade corrosiva dos caroneiros. As burocracias
+                        públicas podem alcançar este objetivo não substituindo redes por hierarquias, mas
+                        capacitando as comunidades locais com o poder de tomada de decisão necessário para
+                        dissuadir os caroneiros e promover a cooperação social” (Palumbo; Scott, 2005: 299).
+
+
+      Isto é confirmado por Stivers, que afirma “a questão de saber se é possível contar com os
+mercados e as redes para manter o tipo de ordem que os cidadãos esperam até mesmo do Estado
+mínimo” (Stivers, 2008: 110).
+      Isto está de acordo com o argumento de que a Hierarquia tem a capacidade de garantir
+a coordenação e metagovernança de Hierarquia, Mercado e Rede (Meuleman 2018; Bouckaert;
+Peters; Verhoest, 2022) dentro de uma estrutura de governo e sociedade integrais - WoG/WoS
+(ver também Christensen e Laegreid, 2007). Isto também está em linha com o “imperativo
+trabalho intersetorial” entre os três atores (público, privado com fins lucrativos e sociedade civil
+sem fins lucrativos) para garantir a prestação de serviços (Butler; Gilchrist, 2016).
+
+
+Diferentes Hierarquias para modelos diferentes
+
+      Pode-se observar que a natureza da Hierarquia muda de acordo com o espaço contextual
+do Estado Neoweberiano, New Public Management (NPM) ou Nova Governança Pública (NGP).
+A hierarquia no Estado Neoweberiano é baseada na autoridade ancorada na lei. Hierarquia
+na NPM está relacionada a um “princípio hierárquico” para seus “agentes” em seus mercados.
+Hierarquia na Nova Governança Pública é provavelmente mais informal em suas redes:
+
+                        Algumas das maiores reformas de NPM (como a introdução de um quase-mercado
+                        no NHS do Reino Unido a partir de 1989) foram implementadas com forte uso da
+                        autoridade hierárquica, derrotando a oposição e as críticas. A autoridade hierárquica
+                        também tem sido frequentemente usada para tornar obrigatórias as parcerias da Nova
+                        Governança Pública ou a contratação de NPM” (Pollitt; Bouckaert, 2017: 114).
+
+
+      De acordo com Diefenbach e Sillince, “a ordem hierárquica é bastante persistente” e “a
+hierarquia é muito mais difundida do que se pensava” (Diefenbach; Sillince, 2011: 1515). Eles
+concluem que, “sempre que a hierarquia formal diminui, a hierarquia informal aumenta… as
+pessoas aplicam os princípios dominantes da ordenação hierárquica formal também à ordenação
+informal das estruturas e processos sociais” (Diefenbach; Sillince, 2011: 1530).
+
+
+Estado Neoweberiano: atualizando a Hierarquia com a democracia
+
+      Weber estava consciente de que uma visão tecnocrática e racional da burocracia poderia
+levar aos seus perigos de dominação (especializada) e isolamento. É por isso que era necessário
+um controle democrático, baseado numa distinção entre o político e o funcionário público.
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 35
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+      Quais são os freios e contrapesos no Estado Neoweberiano? A Hierarquia está sendo
+equilibrada por Mercados e Redes? Mercados e Redes são equilibrados pela Hierarquia? A
+Hierarquia é equilibrada por mecanismos democráticos? Em linha com o debate histórico
+Friedrich/Finer, onde Friedrich confiava na ética profissional interna dos funcionários públicos
+para garantir mecanismos de responsabilização, Finer baseou-se em mecanismos democráticos
+de accountability entre o setor público, seu governo e o parlamento. Deste ponto de vista, deve-
+se levar em conta que “a insatisfação com o desempenho burocrático se espalha e a capacidade
+das instituições representativas para monitorar e inspirar as suas burocracias tornou-se cada vez
+mais problemática” (Riggs, 1997: 350). Stivers é claro nesse ponto, pois “a capacidade de resposta
+começa com a escuta (…), os administradores públicos com mentalidade democrática podem
+querer prestar atenção as suas próprias capacidades de escuta, a fim de serem capazes de dar
+mais atenção – para responder – ao público” (Stivers, 2001: 232 -33).
+      Segundo Olson, “a democracia é uma ordem política distinta que fornece um contexto
+histórico-institucional distinto para a governança e o design” (Olson, 1997: 206). Isto implica que
+as hierarquias nas democracias serão diferentes das hierarquias nos sistemas não democráticos.
+      A desconexão acadêmica - em muitos países - da ciência política e da administração pública,
+também desencadeou um pensamento crítico tendencioso sobre como a burocracia, enquanto
+hierarquia, deve interagir com a política e as instituições democráticas. As diferenças nos ecossistemas
+político-administrativos têm um impacto diferente na forma de conciliar as burocracias nas democracias.
+Por exemplo, de acordo com a instigante análise de Meier, os EUA precisam de “mais burocracia e
+menos democracia” (Meier 1997) – pelo menos era o que precisavam no final da década de 1990.
+      No entanto, a lógica também poderia ser invertida. De acordo com Cho et al. “é provável
+que o nível de democracia dentro de um determinado contexto nacional também influencie
+a forma como características administrativas associadas à burocracia do Estado funcionam,
+como aquelas associadas à burocracia weberiana… em contextos democraticamente mais
+desenvolvidos, pode ser melhor que a burocracia seja menos isolada do que em contextos
+em desenvolvimento” (Cho et al., 2013: 131). Como afirma Savage, “as associações formais
+permanecem formas cruciais que são essenciais para uma política democrática com uma
+sociedade civil ativa” (Savage, 2005: 311).
+      Há uma tensão paradoxal entre a burocracia – Hierarquia – , e a democracia. Por um
+lado, existe uma burocracia weberiana como uma “gaiola de ferro” fechada, que, na sequência
+do fortalecimento do seu impulso científico racional, instrumental e tecnocrático, poderia
+tornar-se desconectada e autocentrada. Por outro lado, a democracia se baseia e necessita de
+administrações burocráticas: “Instituições, ideias e valores estão entrelaçados no complexo
+tecido que constitui a governança democrática” (Lynn, 2001: 145).
+      Enfatizar apenas um Estado forte pode resultar numa ênfase tendenciosa de reformas.
+Por esta razão, é necessário “incluir os aspectos da sociedade civil e a participação na discussão.
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 36
+                                                                                                     O Eestado Neoweberiano:
+                                                                                                do modelo tipo ideal à realidade?
+
+
+
+Nesse sentido, pode-se argumentar que o Estado Neoweberiano pressupõe uma democracia
+viável ao lado da burocracia weberiana” (Drechsel; Kattel, 2008/2009: 97).
+       Como resultado, no Estado Neoweberiano, a integração da democracia com a Hierarquia
+garante uma visão dinâmica e aberta do Estado Neoweberiano além de uma mera condução
+instrumental através da racionalização (Stivers, 2001). Em linha com Waldo, Stivers concorda
+que duas forças em tensão, eficiência e democracia, definem a administração pública como
+um empreendimento intelectual. Por essa razão, a construção da administração pública, como
+forma de fazer com que as ciências administrativas e a democracia funcionem em conjunto, não
+deve ser feita num “plano muito baixo” (Stivers citando Waldo, Stivers, 2000: 134). Como afirma
+Olson:
+
+                              Uma melhor compreensão teórica de como as principais características das instituições
+                              democráticas influenciam a importância relativa do design na mudança institucional
+                              requer ideias que vão além daquelas que retratam o design como uma questão de
+                              encontrar a ferramenta mais eficaz em termos de custos para alcançar benefícios
+                              políticos imediatos” (Olson, 1997: 224-225).
+
+
+       March e Olson resumem isso dizendo: “a justificativa para a governança democrática e a
+mudança democrática reside, em última análise, não numa lógica de consequências, mas numa
+lógica de adequação” (March; Olson, 1995: 251). Portanto, a concepção do Estado Neoweberiano
+deve seguir ambas as lógicas de consequências e adequação de maneira consolidada e mutuamente
+reforçada.
+       A visão instrumental de Weber sobre a burocracia destaca a sua superioridade devido à
+sua racionalidade procedimental. No entanto, a imagem da “gaiola de ferro” de Weber afirma que
+“a humanidade está condenada a aceitar os custos humanos da burocracia porque a sociedade
+moderna não pode prescindir dos seus benefícios técnicos” (Adler, 2012: 247). Por essa razão,
+o Estado Neoweberiano deveria ser um modelo aberto e democrático em combinação com
+elementos de mercados e redes.
+       Como a burocracia é uma “pedra angular do Estado moderno e dos regimes governamentais
+democráticos representativos” (du Gay, 2020: 78), poderia se proteger contra mudanças políticas
+no sentido de versões antidemocráticas ou iliberais da democracia (Hajnal, 2020). Contudo, uma
+questão é se essa é uma resposta adequada a uma perspectiva de Deep State3. O Estado Neoweberiano
+é uma ferramenta eficaz contra a “desconstrução do estado administrativo”? (Kettl, 2017)
+
+
+
+
+3
+ Referência à discussão da existência de estruturas burocráticas no interior do Estado que não mais respondem à liderança
+democrática legalmente estabelecida (NT).
+
+
+                                                  Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 37
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+7. ESTADO NEOWEBERIANO: DO TIPO IDEAL À REALIDADE?
+      “Acreditamos que o que vemos nos estados da Europa continental é um modelo de reforma
+distinto, que anteriormente rotulamos de Estado Neoweberiano (NWS)” (Pollitt; Bouckaert,
+2017: 121).
+
+
+Estado Neoweberiano: Hierarquia com Mercado e Rede, Hierarquia é necessária e
+indispensável, mas não suficiente
+
+      Para passar de um tipo ideal para a realidade, o Estado Neoweberiano precisa combinar
+Hierarquia com Mercado e Rede, como Olson também confirma: “A organização burocrática
+faz parte de um repertório de formas sobrepostas, suplementares e concorrentes que coexistem
+nas democracias contemporâneas, assim como são organizações de mercado e organizações em
+rede” (Olson, 2006: 18).
+      No entanto, a realidade do Estado Neoweberiano implica algumas características
+essenciais, mesmo quando há variações significativas entre os países (da Europa continental).
+Essas premissas fundamentais do tipo ideal do Estado Neoweberiano são:
+
+    • Um Estado democrático como estrutura para a governança e tomada de decisões;
+
+    • O “Estado de Direito” como princípio supremo, que resulta na “hierarquia”' como o fator
+      dominante da organização, o que também leva a uma “burocracia” e a um setor público
+      aberto, acessível, participativo, transparente, sólido e confiável para todos cidadãos;
+
+    • Uma Hierarquia responsável e significativa, que também dirige proativamente Mercados
+      e Redes, seguindo não apenas lógicas de consequências (para o seu desempenho), mas
+      também lógicas de adequação (que incluem explicitamente equidade e inclusão). Isto inclui
+      interações proativas e a utilização (hierárquica) de mecanismos de mercado e de rede do
+      ponto de vista do governo integral (Whole-of-government), para uma perspectiva de toda
+      a sociedade (Whole-of-society), com atores privados com fins lucrativos, da sociedade civil
+      sem fins lucrativos e do setor público.
+
+      Isto deve resultar numa combinação funcional de (i) garantia de prestação de serviços
+rotineiros de maneira inclusiva, combinada (ii) com o tratamento eficaz de crises crônicas de
+governança e alimentada por (iii) inovações constantes para o governo e a sociedade. O Estado
+Neoweberiano é responsável por estas três principais missões sistêmicas. Nesse contexto, há
+espaço para melhorar e atualizar o sistema Weberiano para o Estado Neoweberiano, para se
+ajustar às circunstâncias e gerar a capacidade de resolver ou lidar com grandes problemas sociais.
+      De acordo com a NPM e a NGP, existe uma narrativa de esvaziamento do Estado
+(Frederickson; Frederickson, 2006; Stivers, 2008) nos níveis internacional e global, aos mercados
+e à sociedade em geral. Afirma-se também que, “quanto mais um governo estiver orientado para
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 38
+                                                                                                         O Eestado Neoweberiano:
+                                                                                                    do modelo tipo ideal à realidade?
+
+
+
+resultados políticos, em vez de resultados organizacionais, menos será capaz de exercer controle
+através de canais hierárquicos que fluem através de organizações burocráticas” (Newman,
+2005: 194). No entanto, com o Estado Neoweberiano isto não precisa ser o caso quando uma
+Hierarquia funcional também direciona a funcionalidade das parcerias com o Mercado e Redes,
+seguindo ambas as lógicas de consequências e adequação.
+          Como Reed conclui:
+
+                                  Em vez da ‘geometria fixa’ característica das formas organizacionais burocráticas
+                                  definidas por hierarquias extensas, tecnocracias inchadas e autarquias intransigentes, o
+                                  processo de hibridização – no qual elementos de mercados, hierarquias, comunidades
+                                  e redes são combinados de forma frouxa – pode produzir uma situação em que serão
+                                  necessários regimes mais complexos de coordenação e controle para mantê-los unidos
+                                  de alguma forma. Mas é pouco provável que estas ‘neoburocracias’ exibam a geometria
+                                  variável totalmente desenvolvida da ‘heterarquia’4… porque exigem e asseguram um
+                                  grau muito mais elevado de continuidade e estabilidade (Reed, 2005: 134).
+
+
+          Se ou quando for verdade que as redes (as teorias de rede) e os mercados (as teorias de
+mercado) são demasiado fracos para manter o sistema efetivamente unido, e se a lógica e a
+filosofia do Estado Neoweberiano não permitirem a experimentação da infraestrutura básica
+e fundamental dos sistemas de governança, como o Estado e a sua administração, há uma
+necessidade de reconhecer o que Reed disse:
+
+                                  Entre todo o entusiasmo sobre a organização virtual, pós-burocrática ou em rede, há
+                                  uma necessidade muito real de reafirmar os fundamentos técnicos, virtudes políticas e
+                                  éticas da organização burocrática de estilo weberiano que corre o risco de ser arrastada
+                                  por um romantismo tecnológico ingênuo e um determinismo histórico desonesto
+                                  (Reed, 2015: 136).
+
+
+          Isto confirma a conclusão de Selznick: “Se existir um mundo pós-burocrático, não será um
+mundo em que a burocracia seja eliminada… Pelo contrário, as novas formas não burocráticas
+serão um fermento essencial na massa burocrática” (Selznick, 1992, 288).
+
+
+Evidência empírica do Estado Neoweberiano
+
+          O NWS é europeu (Drechsler 2005; Drechsler; Kattel, 2008/9; FERRERA 2020) e está
+dentro da União Europeia? (Drechsler, 2009; Trondal, 2012). Pode-se observar que a NPM
+só poderia se desenvolver, inicialmente e substancialmente, nos países anglo-saxões que têm
+uma base de Common law, o que leva mais facilmente a uma aplicação de “gestão comum”
+(common management). Essa correlação geográfica, que se refere à dependência da trajetória
+(path dependency), poderia explicar esta realidade, da mesma forma que o Estado Neoweberiano
+
+4
+    Organização social descentralizada entre iguais (NT).
+
+
+                                                       Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 39
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+parece se desenvolver mais facilmente em países que têm uma tradição de “direito administrativo”
+(admnistrative law), que molda as condições para instrumentos gerenciais específicos e até
+mesmo para reformas digitais. Este tipo de correlação geográfica refere-se a uma dependência
+de trajetória dos sistemas weberianos, mas também dos sistemas napoleônicos (Ongaro, 2009).
+
+
+Estado Neoweberiano na Europa Ocidental
+
+      Na Alemanha, o novo modelo de direção do governo local (NSM - New Steering Model)
+foi um experimento “em tempo real” de aplicação de reformas inspiradas na NPM para
+transformar sua burocracia “weberiana” (Kuhlmann et al., 2008/2009). Após cerca de dez anos
+de implementação, uma avaliação conclui que não ocorreu uma “mudança de paradigma”
+abrangente da burocracia weberiana para uma administração gerencial do NSM” (Kuhlman et
+al., 2008/2009: 48). Mesmo quando os “antigos” métodos de gestão (regras legais e hierarquia)
+são enfraquecidos face aos “novos” métodos de gestão”, Kuhlmann et al. concluem que o Estado
+Neoweberiano “ainda não foi posto em prática… Resta saber se uma mistura neoweberiana de
+elementos legalistas e gerenciais irá finalmente funcionar” (Kuhlmann et al., 2008-2009: 48).
+      Para a parte do Norte da Europa, com base no inquérito COCOPS (ver também Greve
+et al., 2016), de acordo com Greve e Ejersbo, “o desenvolvimento geral da Dinamarca pode
+ser descrito como o desenvolvimento rumo a um Estado Neoweberiano na era digital” (Greve;
+Ejersbo, 2016: 127). Contudo, numa análise subsequente dos países nórdicos em geral, e do caso
+dinamarquês em particular, Byrkjeflot et al. afirmam que, “a ideia do Estado Neoweberiano
+parece à primeira vista adequar-se a essa situação. Há muitos sinais de que a Dinamarca,
+juntamente com os outros países nórdicos, está se afastando do foco principal de gestão e
+nos mercados que estavam associados à NPM ou ao ideal puramente em rede que caracteriza
+parte do pensamento de governança em rede/ Nova Governança Pública” (Byrkjeflot; du Gay;
+Greve, 2018: 1000), mesmo quando apontam para “algumas contradições que atraem o conceito
+emergente do Estado Neoweberiano” (ibid.: 1007). A “variante Norte do Estado Neoweberiano
+previa um Estado cidadão, com ampla participação, facilitada por um sistema modernizado
+de direito público que garantiria direitos e deveres. Os proponentes da variante do Estado
+Neoweberiano da Europa Central favoreciam um Estado profissional – moderno, eficiente e
+flexível, mas ainda identificado de forma única com os “propósitos superiores” do interesse
+geral” (Pollitt; Bouckaert, 2004: 100).
+      No caso português, o Estado Neoweberiano parece enquadrar-se nas características
+weberianas ainda identificáveis numa administração mais modernizada (Mendes, 2006). Ongaro
+compara as trajetórias de reforma da França, Grécia, Portugal e Espanha. Ele conclui que os
+países napoleônicos estão localizados entre os paradigmas globais e o Estado Neoweberiano
+(Ongaro, 2009). Isso é confirmado na Itália, onde os esforços para mudar para a NPM “foram
+mitigados por uma abordagem de Estado Neoweberiano” (Cavatorto; La Spina, 2020: 44).
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 40
+                                                                                         O Eestado Neoweberiano:
+                                                                                    do modelo tipo ideal à realidade?
+
+
+
+      Ao resumir os paradigmas de reforma nos governos centrais europeus, com base na
+pesquisa COCOPS, Andrews et al. sugerem que, “de fato, ocorreram múltiplas reformas
+administrativas em toda a Europa entre 2008 e 2013, mas que foram em grande parte no estilo
+neo-weberiana/ Nova Governança Pública, especialmente reformas centradas em melhorias na
+transparência, colaboração e governo eletrônico” (Andrews et al., 2016: 275).
+
+
+Estado Neoweberiano e Estados pós-soviéticos na Europa Central e Oriental
+
+      A emergência de “Weber” foi essencial para os estados pós-soviéticos da Europa Central e
+Oriental (Drechsler, 2005). No entanto, mesmo quando os países da Europa Central e Oriental
+nunca seguiram sistematicamente o modelo do Estado Neoweberiano, este é o mais próximo
+de como as administrações públicas na maioria dos novos Estados-membros evoluíram
+naturalmente (…) Ao mesmo tempo que o Estado Neoweberiano, outros novos paradigmas
+pós-NPM surgiram (…) ” (Randma; Drechsler, 2017: 601).
+      No caso húngaro, Jenei afirma que “sem um sistema democrático weberiano funcional,
+sem poder regulador e de monitoramento do Estado, os passos iniciais das “Reformas da Gestão
+Pública” resultaram em incertezas e desvios no estado legal e até fortaleceram a corrupção”
+(Jenei, 2008/2009: 65). Houve uma sequência de primeiramente entender o “Estado de Direito”
+como parte da concretização do acervo comunitário para aderir à União Europeia e depois para
+introduzir reformas na gestão pública. No caso húngaro, um “Estado Neoweberiano tornou-se
+uma exigência… no qual as ações governamentais são baseadas no “Estado de Direito”, no qual as
+empresas privadas concorrem pela qualidade na prestação de serviços, e em que as organizações
+da sociedade civil têm pleno envolvimento na elaboração de políticas públicas, desde a tomada
+de decisões até à prestação de serviços” (Jenei, 2008–2009: 65). Cerca de uma década depois,
+Hajnal e Rosta, ao compararem analiticamente o ajuste húngaro com as três reformas típicas-
+ideais (NPM, Estado Neoweberiano e Nova Governança Pública) concluem que mesmo com
+uma retórica oficial para denunciar a NPM “há importantes características semelhantes à NPM
+da reforma húngara de governança subnacional; e embora as reformas sejam apontadas como
+promotoras do Estado Neoweberiano, mostram desvios significativos em relação ao modelo”
+(Hajnal; Rosta, 2019: 422).
+      Também, para o caso da Estônia, aceita-se que é desejável inicialmente “buscar as opções
+mais estáveis, isto é, os elementos ‘weberianos’ do quadro do Estado Neoweberiano” (Randma,
+2008-2009: 72). Enquanto isso, há uma “melhor adequação do Estado Neoweberiano do que a
+burocracia weberiana convencional” para as reformas da Estônia (Randma, 2008/2009: 79).
+      Para a República Checa, Potucek conclui que o Estado Neoweberiano e os seus três
+reguladores interagindo (Estado, mercado e sociedade civil) são compatíveis, complementares e
+não contraditórios (Potucek, 2008/2009: 90-92).
+
+
+
+                                       Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 41
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+Quão bem o Estado Neoweberiano navega fora da Europa?
+
+      Nos Estados Unidos Dunn e Miller (2007) criticam tanto a NPM como “uma crítica
+europeia relativamente nova sobre a NPM, que os seus autores chamam de Estado Neoweberiano”
+(Dunn; Miller, 2007: 345). Mesmo com a eminente exceção do “Estado administrativo” de Waldo
+como uma teoria política da administração pública americana (1948), “não muitos estudiosos
+americanos tentaram estudar o estado, ou mesmo ousaram mencionar o estado em um livro
+até recentemente” (Stillman, 1997: 332). E Stillman continua a comentar sobre as ciências
+administrativas europeias:
+
+                         A razão de Estado, (…) continua a ser proeminente no léxico continental da
+                         Administração Pública. (…) o método da lógica administrativa é, portanto, em grande
+                         parte dedutivo, e não indutivo. A centralidade do Estado, a sua evolução histórica e
+                         uma tradição de direito positivo que levou à autonomia do Estado servem para definir
+                         as ciências administrativas como uma empresa de cima para baixo, com primeiros
+                         princípios claros a partir dos quais se podem deduzir abordagens corretas para pensar
+                         a administração pública. (Stillman, 1997: 336).
+
+
+      Assumindo que as crises globais exigem novos tipos de intervencionismo, Durant expressa
+a esperança de “mostrar a promessa de uma perspectiva neoweberiana para o avanço da teoria
+da reforma administrativa nos Estados Unidos” (Durant, 2011: 271).
+      Não há muitos casos analisados. Na América Latina, Ramos e Milanesi estudaram o
+caso do Uruguai: “Enquanto em algumas áreas do aparelho estatal podem acontecer reformas
+de agencificação e flexibilidade de tipo gerencialista, noutras, a tendência será para modelos
+neoweberianos de fortalecimento do poder central de controle” (Ramos; Milanesi, 2020: 273).
+Mas acrescentam também: “Infelizmente, o Estado Neoweberiano ainda não foi suficientemente
+teorizado na região” (ibid.: 274).
+      Um estudo sobre o sistema de saúde marroquino conclui:
+
+                         Mesmo supondo que a NPM pudesse oferecer um paradigma coerente, a consideração
+                         desequilibrada das pressões e incentivos externos, e das exigências específicas dos
+                         países em desenvolvimento, poderia levar ao fracasso sistemático da reforma do setor
+                         público... Propomos, portanto, uma redescoberta da burocracia, nomeadamente
+                         através do modelo de Estado Neoweberiano (Errami; Cargnello, 2018: 310).
+
+
+      Mesmo quando as circunstâncias recentes mudaram significativamente em Hong Kong,
+Brewer et al. observam em uma discussão sobre ética administrativa que o sistema “evoluiu de
+uma burocracia weberiana clássica para uma burocracia neoweberiana” (Brewer et al., 2014: 908).
+      Na sua visão geral da reforma do Estado indonésio, Gaus et al. concluem que:
+
+                         Os traços do Estado Neoweberiano nesta reforma são evidentes nas tentativas feitas
+                         pelo governo indonésio em modernizar a existente burocracia racional weberiana
+
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 42
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                         incorporada na burocracia patrimonial (…) É, portanto, dentro do modelo de reforma
+                         do Estado Neoweberiano, no qual há uma mudança de papel entre o Estado e a
+                         burocracia, entre o Estado e os profissionais (Gaus et al., 2017: 667-668).
+
+
+      Parece que o Estado Neoweberiano está transitando cuidadosamente, se é que o faz, para
+fora da Europa continental: “a concepção do Estado Neoweberiano também é menos aplicável
+em sistemas políticos que nunca alcançaram um estado totalmente weberiano” (Peters, 2017:
+611). Isto também é confirmado por Solli e Leysens que afirmam que a África deveria procurar
+“um tipo ideal africano de Estado, que seja diferente do tipo ideal neoweberiano eurocêntrico”
+(Solli; Leysens, 2011: 295).
+
+
+Estado Neoweberiano, combinações e híbridos, ou algo entre Hierarquia, Mercado e
+Redes
+
+                         O mapa empírico, na verdade, é bastante confuso e mostra todos os sinais de que
+                         continuará assim. Na realidade, estes modelos de tipo ideal são traduzidos em
+                         combinações e híbridos, por vezes dependendo do campo político, e em muitos casos,
+                         misturados dentro de um país (Pollitt; Bouckaert, 2017: 214).
+
+
+      Hierarquia, Mercado e Redes “não são encontrados em sua forma pura. Todos são
+tratados aqui como tipos ideais” (Rhodes, 1997: 46). Na sua “comparação estilizada de formas
+de organização econômica” (isto é, mercado, hierarquia e rede), Powell fala de “combinação de
+formas” (Powell, 1991: 269). Ao discutir os “tipos ideais (ou os polos do continuum)”, isto é,
+hierarquia e mercado, Bradach e Eccles afirmam que “as transações raramente são governadas
+apenas pelo mercado, hierarquia ou confiança, esses mecanismos servem como blocos de
+construção para estruturas sociais complexas comuns da vida organizacional” (Bradach; Eccles,
+1991: 277-78). Além disso, de acordo com a hierarquia de Thompson, o mercado e a rede “estão
+parcialmente separados, mas também parcialmente sobrepostos” (Thompson, 2003: 51).
+      Isso implica que, na realidade, quasi poderiam ser híbridos e/ou ou combinações,
+onde “híbrido” é uma variação (enfraquecimento) de um modelo ideal puro e “mistura” é
+uma combinação de dois ou três modelos: “Nas sociedades modernas e pluralistas com uma
+variedade de critérios de sucesso e diferentes entendimentos causais, é, no entanto, improvável
+que a administração pública possa ser organizada com base apenas em um único princípio”
+(Olson, 2006, 16).
+      Para quasi Hierarquia, existem híbridos no qual o “centro de governo” está ou foi
+enfraquecido (OCDE, 2018). Para a coordenação política existem misturas de hierarquia onde
+Hierarquia coexiste com Mercado e Redes para a concepção de políticas (Bouckaert; Peters;
+Verhoest, 2022).
+      Para o quasi Mercado existem combinações de Mercado: “o quase-mercado do NHS
+(National Health Service) exibiu uma mistura de ideias e práticas do setor privado com
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 43
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+financiamento e regulamentação do setor público” (Exworthy et al., 1999: 18). Drechsler refere-
+se a “pseudomercados” (Drechsler, 2005: 96). Como afirma du Gay:
+
+                         Os simples contrastes entre mercados e hierarquias revelam-se insuficientes para captar
+                         a grande inovação na arte da governança que este mecanismo representa [mercados
+                         internos]... O que temos aqui não é nem uma burocracia tradicional nem um mercado
+                         livre, mas sim um constituído quasi-mercado (du Gay, 2000: 100, 101).
+
+      Para quasi Redes há uma mudança das “velhas” redes profissionais para “novas” redes que
+são “mais inclusivas, abrangendo ligações privadas, voluntárias e informais com a governança”
+(Exworthy et al., 1999: 19). Este hibridismo e diversidade também são demonstrados por
+McMullin que “desafia a tese de que a coprodução é mais compatível com o modelo do Nova
+Governança Pública, demonstrando a variedade de atividades de coprodução” em Lyon (França)
+com um contexto de Estado Neoweberiano, em Sheffield (Inglaterra) com um contexto New
+Public Management, e em Montreal (Québec) com um contexto Nova Governança Pública
+(Mcmullin, 2021: 5).
+      Essa mistura de Hierarquia, Mercado e Redes poderia assumir uma série de opções na
+realidade. Três abordagens possíveis de combinação como sistemas de governança “diferenciados”
+poderiam ser:
+
+    • Uma justaposição de Hierarquia, Mercado e Redes;
+    • Um combinado de Hierarquia, Mercado e Redes: como “água e óleo” (Rhodes, 1997: 47)
+      ou como bolo marmorizado;
+    • Híbridos combinados de Hierarquia, Mercado e Redes como resultado de uma “reação
+      química” (Exworthy,1999: 20): “Os elementos podem reagir de maneiras diferentes em
+      circunstâncias diferentes”.
+
+      Para concluir como o Estado Neoweberiano aparece como híbrido e misturado na
+realidade, é útil perceber que, por um lado, o Estado Neoweberiano não é apenas um sistema
+weberiano com outros elementos (de New Public Management e/ou Nova Governança Pública):
+“Uma leitura cuidadosa dos elementos “neo” mostrarão que não correspondem à receita familiar
+da NPM de desagregação com mais competição e incentivos” (Pollitt; Bouckaert, 2011: 119).
+Por outro lado, “a mistura organizacional em políticas públicas diferenciadas… pode ser difícil
+‘escolher e misturar’ as principais características das diferentes formas para alcançar a melhor
+política” (Exworthy et al., 1999: 20).
+      Isso também resulta em modelos combinados. Greve e Ejersbo (2016) referem-se ao
+Estado Neoweberiano como um modelo digital para a Dinamarca. Campomori e Casula (2021)
+referem-se à
+
+
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 44
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                        Possível coexistência dos paradigmas que estão surgindo nas últimas décadas para
+                        revigorar o setor público e remediar os problemas da NPM… o paradigma da NGP,
+                        ao mesmo tempo que salvaguarda o princípio da participação proativa dos cidadãos
+                        na produção de políticas sociais e de bem-estar, pode funcionar em combinação
+                        com outros paradigmas pós-NPM, e em particular com o Estado Neoweberiano
+                        (Campomori; Casula, 2021: 12).
+
+
+      Concluindo:
+
+                        Como tais, eles [os três modelos] podem servir como heurísticas orientadoras ou,
+                        além disso, como visões. Podem estimular debates e fornecer quadros para a análise de
+                        reformas específicas. O que é evidente, no entanto, é que esses modelos não forneceram
+                        um mapa empírico claro de onde nossos 12 países vieram, estão agora ou parecem
+                        estar indo (Pollitt; Bouckaert, 2017: 213-214).
+
+
+
+8. O ESTADO NEOWEBERIANO É UM MODELO (TIPO IDEAL)
+   SUSTENTÁVEL E RESILIENTE?
+      A sustentabilidade e resiliência de um modelo tipo ideal são questões teóricas, práticas e
+normativas (ou ideológicas).
+      Em 2004, Pollitt e eu estávamos cientes de que a utilização do rótulo de Estado Neoweberiano
+poderia ter surpreendido alguns especialistas continentais:
+
+                        Entre os estudiosos alemães, por exemplo, os modernizadores caracterizaram-se por
+                        vezes como anti-weberianos ou, pelo menos, como se afastando do Welt (mundo) à la
+                        Max Weber. Não discordaríamos da alegação deles de que muitas das suas reformas
+                        poderiam ser vistas como uma diluição ou adição de novas características ao tipo
+                        ideal weberiano original. Nem negaríamos que os conservadores que se opuseram a
+                        estes modernizadores pudessem ser vistos como mantenedores dos velhos sistemas
+                        e valores – como defensores da herança weberiana. No entanto, visto de fora, o
+                        que é surpreendente em comparação com os principais estados da NPM é até que
+                        ponto os pressupostos subjacentes de um estado positivo, um serviço público
+                        distinto e uma ordem jurídica específica sobreviveram como uma base sob os vários
+                        pacotes de reformas modernizadoras. O que estava acontecendo, ao que parece, era
+                        a modernização da tradição weberiana, e não a sua rejeição total: um processo de
+                        adição, não de demolição (mesmo que algumas das adições se ajustassem às fundações
+                        de maneira um tanto estranha)(Pollitt; Bouckaert, 2004, 100).
+
+
+      Na edição de 2011, os estudiosos da Europa do Leste começaram a debater até que ponto
+o Estado Neoweberiano poderia servir de modelo para a reconstrução das suas administrações
+pós-comunistas (Drechsler; Kattel, 2008-2009). De qualquer forma, o Estado Neoweberiano
+não apresenta um padrão nítido de implementação. Certamente, com as suas variantes híbridas
+e mistas como as reformas de modernização, “o padrão é muito grosseiro e aproximado, tanto
+por razões políticas como organizacionais” (Pollitt; Bouckaert, 2004: 100).
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 45
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+      Politicamente, os governos mudam e podem ter diferentes visões do futuro, de modo
+que, após as eleições, certos tipos de reforma são menos enfatizados e outros tipos recebem
+maior destaque. Um segundo conjunto das razões políticas para a “desordem” encontra-se entre
+as pressões representadas pelas forças socioeconômicas externas e pelas exigências políticas.
+Isto pode resultar em objetivos contraditórios, por exemplo entre economias, melhoria de
+desempenho e pressão para accountability. Além disso, do ponto de vista organizacional,
+diferentes governos têm diferentes capacidades para reformas:
+
+                         As trajetórias e retóricas foram significativamente diferentes entre, primeiro, os
+                         principais entusiastas do NPM anglo-australiano-americano; segundo, os primeiros
+                         modernizadores participativos no norte da Europa (primeira variante do Estado
+                         Neoweberiano); e terceiro, os modernizadores um pouco posteriores e mais orientados
+                         para a gestão na Europa Central e na Comissão da União Europeia (segunda variante
+                         do Estado Neoweberiano)(Pollitt; Bouckaert, 2004: 102).
+
+
+      Mesmo se um determinado governo fosse capaz de elaborar e implementar uma reforma
+de algum “modelo puro”, isso não significaria que o setor público se tornasse então um exemplo
+igualmente puro de NPM, Estado Neoweberiano ou NGP. Isso porque nenhuma reforma poderia
+concebivelmente afetar simultaneamente todos os aspectos do Estado moderno.
+      É tentador ver um padrão dialético além do modelo de Estado Weberiano. Mudar da antítese
+(NPM e NGP) para a síntese (Estado Neoweberiano) não é dizer que o Estado Neoweberiano
+é “Weber” mais NPM, é “Weber” reagindo, processando, transformando, remodelando alguns
+instrumentos NPM e NGP para torná-los compatíveis com o da autoridade democrática de seu
+Estado de Direito orientado por Hierarquia. Em qualquer caso, os modelos expressam diferentes
+princípios de organização e diferentes visões da relação preferencial entre o Estado, o mercado
+e a sociedade civil (Pollitt; Bouckaert, 2017: 213).
+      Do ponto de vista normativo, o Estado Neoweberiano protege a “polis” e o “Estado
+administrativo”. E o Estado Neoweberiano ajuda a evitar a “desconstrução do Estado administrativo”.
+Uma burocracia orientada pela hierarquia numa democracia será diferente de uma burocracia
+orientada pela hierarquia num sistema não democrático, uma vez que a democracia “fornece
+um contexto histórico-institucional distinto para a governança e o design” (Olson, 1997: 206).
+Enquanto um sistema weberiano clássico, mesmo com a sua tendência em se deslocar para uma
+maior racionalização, é mais estático por natureza, o Estado Neoweberiano é, em essência, como a
+democracia, “um projeto aberto e um ‘tema para o desenvolvimento’”, uma vez que “as democracias
+vivem com tensões e contradições entre instituições, princípios e ideias ordenadoras” (Olson, 1997:
+206). Isso também está de acordo com a afirmação de Lynn de que:
+
+
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 46
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+                        as estruturas e processos do Estado administrativo constituem um quadro apropriado
+                        para alcançar o equilíbrio entre a capacidade administrativa e o controle popular em
+                        nome de fins públicos definidos por instituições eleitorais e judiciais, que são meios
+                        constitucionalmente autorizados para a expressão da vontade pública (Lynn, 2001: 154).
+
+
+      O Estado Neoweberiano aborda debates iminentes e enquadra a governança com a democracia,
+com o governo, e a governança baseada na inclusão. Três escolhas que não são garantidas em sistemas
+baseados apenas nos mercados (NPM) e/ou exclusivamente em redes (NGP).
+      Com base nos “mitos que impedem o progresso” de Mazzucato (2021:25-56) e em linha
+com os seus princípios derivados para uma nova economia política, hierarquias flexíveis e
+dinâmicas devem dirigir e moldar mercados e redes (como parcerias e participação aberta)
+para criar valores sociais inclusivos definidos como resultados. Os oito Objetivos do Milênio
+(2000-2015) e os subsequentes 17 Objetivos de Desenvolvimento Sustentável (2015 - 2030)
+são resultados que um Estado Neoweberiano deve assegurar para toda a sociedade com a sua
+abordagem de governo integral (WoG), mesmo e especialmente depois de 2030.
+      Nós afirmamos e hipotetizamos que o Estado Neoweberiano garantirá as três funções
+centrais de uma estratégia de governo integral dentro do contexto de toda a sociedade de melhor
+maneira e até mesmo contrária à NPM (orientada para o mercado) e à NGP (orientada para a
+rede): desempenho, inclusiva e prestação equitativa de serviços, governança resiliente a crises e
+inovação eficaz para o governo e a sociedade.
+      Prestação eficiente de serviços, inclusiva e equitativa: como organizar a prestação de
+serviços de uma forma econômica, eficiente, eficaz, inclusiva e equitativa é uma questão de
+investigação substancial. Os debates sobre (onde organizar) as funções essenciais do governo
+(Sekera, 2020), sobre a contratação dentro e fora, e sobre as parcerias e a prestação intersetorial
+(Gilchrist 2016; Ronalds, 2016) são elementos cruciais nas estratégias de reforma. A definição
+de combinações ótimas de Hierarquia Mercado e Redes é diferente entre campos de políticas e
+deve ter em conta a especificidade dos resultados. Os estados de mercado deixaram de capacitar
+os cidadãos para capacitar os clientes num ambiente de oferta e procura, organizando uma
+divisão fornecedor/cliente. Uma questão crucial permanece: como as misturas e os híbridos
+de Hierarquia, Mercado e Redes combinados, e em que condições, proporcionarão uma
+prestação de serviços performática, inclusiva e equitativa. Hierarquias significativas do Estado
+Neoweberiano, que também impulsionam os mercados e as redes, devem ser consideradas.
+      Governança resiliente a crises: As crises passadas, sejam elas de terrorismo, finanças,
+catástrofes naturais, ecologia, saúde ou migração, não puderam ser resolvidas apenas por
+sistemas baseados no mercado ou apenas em redes. Os Estados e os centros de governo, como
+hierarquias, são necessários e assumem a liderança no tratamento das crises e na orientação dos
+mercados e redes de forma sinérgica (para a Covid-19: ver Kuhlmann et al., 2021). Isto implica
+que as hierarquias do Estado Neoweberiano são significativas e orientam os mercados e as redes.
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 47
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+      Inovação eficaz para o governo e para a sociedade: Uma das inovações emergentes diz
+respeito ao governo e à sociedade digitais. Há uma necessidade de dispor de quadros jurídicos
+para que os mercados e as redes combinem o desempenho digital com a adequação (privacidade,
+transparência…). A Comissão Europeia, por exemplo, dirige o Mecanismo Interligar a Europa
+para uma Conectividade Inovadora e Segura e a Aliança Europeia para Dados Industriais, Borda
+e Nuvem (Connecting Europe Facility for Innovative and Secure Connectivity and the European
+Alliance for Industrial Data, Edge and Cloud). A estratégia digital e a Bússola Digital para 2030
+da Comissão da União Europeia devem ser “centradas no usuário”, “orientadas pelos dados” e
+“ágeis” (Comissão Europeia 2018 2021; ver também Drechsler 2009). Além disso, para combater
+a pandemia de Covid-19, o governo patrocinou pesquisas e permitiu ao mercado responder e
+produzir as vacinas (Mazzucato, 2021). O mesmo raciocínio se aplica ao “roteiro para os ODS”
+(Miedzinski; Mazzucato; Ekins, 2019). Isto implica que as hierarquias Estado Neoweberiano são
+significativas e direcionam os mercados e as redes.
+
+
+9. ESTADO NEOWEBERIANO: CRÍTICAS E QUESTÕES RESTANTES PARA
+   UMA AGENDA DE PESQUISA
+      O Estado Neoweberiano evoluiu de uma observação empírica para um tipo ideal, com
+um enquadramento teórico, e até como um possível programa normativo de reforma. Isso está
+sendo debatido sob diferentes ângulos. No contexto dos estudos de assuntos internacionais,
+houve uma releitura de Weber para reconceitualizar a construção do Estado, pensando em
+termos de abordagens neo-weberianas a pós-weberianas do Estado, legitimidade e construção
+do Estado (Lottholz; Lemay- Hebert, 2016: 1467).
+      De uma perspectiva de teoria crítica, Dunn e Miller comentam a Nova Governança
+Pública (NGP) e o Estado Neoweberiano como “um compromisso com um tipo de racionalidade
+instrumental que tornou difícil para ambos compreenderem os contextos de significado que
+envolvem a reforma administrativa” (Dunn; Miller, 2007: 346).
+      Do ponto de vista de “Weber”, Torbing et al. afirmam que, “o Estado Neoweberiano parece
+apresentar uma caracterização superficial de um modelo de governança burocrático que não consegue
+fazer justiça ao pensamento e argumentação complexos de Weber, bem como falha em apreciar o
+papel da habilidade administrativa no moldar da governança pública e da administração” e “ignora
+a descrição crítica de Weber sobre a burocracia como uma ‘gaiola de ferro’” (Torbing et al., 2020: 85).
+      De um ponto de vista empírico, uma vez que a maioria dos países foi influenciada tanto
+pela mercantilização, gerencialismo e pelas redes, “poucos Estados podem ser caracterizados
+como estados ‘Estados Neoweberianos puros’” (Torfing et al., 2020: 85), mesmo que, “a ideia do
+Estado Neoweberiano pareça à primeira vista se adequar a essa situação” (Byrkjeflot et al., 2018:
+1000). Obviamente, uma vez que o Estado Neoweberiano, assim como a NPM e a NGP são tipos
+puros, como tipos ideais, eles não irão aparecer na realidade.
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 48
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+      Distinguir o Estado Neoweberiano da NPM e da NGP (ver Figuras 3, 4 e 5) deve provar
+que estes modelos têm identidades teóricas muito diferentes e que o Estado Neoweberiano
+não é um “argumento intermediário, tentando se posicionar como uma alternativa pragmática
+aos mercados NPM e ao gerencialismo e às redes NGP e aos processos de cocriação. Em um
+gesto bastante eclético, tenta incorporar partes dos dois paradigmas de governança no quadro
+do Estado Neoweberiano para produzir a imagem de um Estado mais eficaz e mais amigável”
+(Torfing et al., 2020: 85).
+      Do ponto de vista teórico, Byrkjeflot, du Gay e Greve, também com base numa análise
+do caso dinamarquês, sugerem falar sobre “graus de weberianismo em vez de distinguir entre
+Estados que são (neo-)Weberianos e aqueles que não o são” (Byrkjeflot et al., 2018: 991).
+Contudo, estudos comparativos mostram claramente que alguns países, em alguns períodos de
+tempo, não estão a seguir uma trajetória do Estado Neoweberiano.
+      Para Olson, “a teoria burocrática conota um conjunto de ideias teóricas e hipóteses relativas
+às relações entre características organizacionais e mentalidade administrativa, comportamento,
+desempenho e mudança”. No entanto, Olson segue e cita Merton ao afirmar que, “seria prematuro
+referir-se à ‘teoria da burocracia’, como se existisse um esquema conceitual único e bem definido,
+adequado para a compreensão desta forma de organização” (Olson, 2006: 3 e nota de rodapé 3,
+citando Merton et al., 1952: 17). O mesmo se aplica ao Estado Neoweberiano, com a sua teoria e
+o seu funcionamento na realidade seguindo a Hierarquia como um princípio condutor em linha
+com as lógicas das consequências e da adequação.
+      Obviamente, as questões remanescentes (ver também Lynn, 2008-2009) são sobre como
+definir uma combinação funcional de Hierarquia Mercado e Redes no Estado Neoweberiano;
+como explicar as diferenças entre os países (europeus); e como mapear e operacionalizar o
+processo de transformação.
+      Faz parte da agenda de pesquisa estudar como as organizações e sistemas orientados por
+Hierarquia são consolidados e institucionalizados como Estados Neoweberianos num espaço de
+Hierarquia Mercado e Redes. De acordo com Selznick, institucionalizar é “infundir valor além
+dos requisitos técnicos da tarefa em questão” (Selznick, 1992: 233). A combinação da lógica das
+consequências e da adequação, num sistema democrático e baseado no Estado de Direito, define
+o Estado Neoweberiano.
+      De acordo com Constas, “somente se uma burocracia estiver enraizada numa ordem
+jurídico-racional poderá permanecer inteiramente como um instrumento técnico e, portanto,
+uma burocracia responsável” (Constas, 1958: 409). Contudo, pode-se questionar se esse é o
+caso quando essas burocracias não fazem parte de um sistema democrático. Esta abordagem
+fechada e instrumental da burocracia resulta numa “gaiola de ferro” que é potencialmente
+disfuncional e até ameaçadora para uma sociedade aberta. Portanto, seguindo a necessidade de
+atualizar a “burocracia” de uma ferramenta e instrumento racional para uma instituição (Olson,
+
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 49
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+2006: 19), há a necessidade de considerar a “hierarquia” como uma instituição. Assim, o Estado
+Neoweberiano está alinhado com as teorias (neo) institucionais, considerando a “hierarquia”
+como um mecanismo institucional direcionador e a “burocracia” como instrumento institucional.
+Este contexto institucional refere-se à “democracia”, ao “Estado de Direito”.
+
+
+10.      CONCLUINDO
+       A contribuição científica de Max Weber para a compreensão das mudanças na sociedade
+impactou muitos debates do século 20, mesmo quando suas publicações e suas traduções
+nem sempre geraram conceitos e modelos lineares e diretos (Lichtblau, 2022). As definições,
+métodos e compreensão de Weber de “racionalidade”, “singularidade de causalidade”, “lógica”
+e até mesmo “tipos ideais” foram discutidos, interpretados e criticados (Whimster; Lash 1987;
+Whimster 2008; Bruun; Whimster 2012).
+       A teoria da “burocracia” de Weber evoluiu para uma teoria weberiana da “burocracia”
+e, em última análise, para um modelo weberiano de administração pública, e mesmo para um
+modelo de Estado Weberiano, como um modelo de tipo ideal. No entanto, foram desencadeadas
+reações teóricas, ideológicas e práticas em consequência destas realidades e modelos weberianos.
+
+
+As reações foram triplas:
+
+      • Mantendo “Weber por seus crentes”, passando para novos graus de Weberianismo;
+
+      • Culpar e criticar Weber, demonstrando todas as disfunções práticas das burocracias e
+       teorizando modelos alternativos, como por exemplo, teorias de escolha pública;
+
+      • Ir “além de Weber”, mantendo uma base weberiana, porém, indo além e acima de Weber,
+       que é a essência desta contribuição e do seu modelo de tipo ideal de Estado Neoweberiano.
+
+       As abordagens neoweberianas foram utilizadas num sentido ideológico e filosófico para se
+opor, por exemplo, às abordagens marxistas em conceitos de Estado, mas também em domínios
+políticos como as relações internacionais ou a educação.
+       Nesta contribuição, o Estado Neoweberiano é desenvolvido no contexto de um amplo
+espectro de reforma do setor público ou mesmo de reforma do Estado, como mudanças para “o
+governo como um todo” (WoG), como parte de transições sociais ou mudanças da “sociedade
+como um todo” (WoS).
+       Seguindo a dinâmica do chamado Big Government e dos chamados Estados de Bem-Estar
+Social expansivos, o pêndulo começou a oscilar em direção ao “governo pequeno é bonito”,
+com corridas para níveis de tributação cada vez mais baixos em uma competição internacional.
+Desde o final da década de 1970, começando no Reino Unido, com a primeira-ministra Margaret
+Thatcher, e nos Estados Unidos com o presidente Ronald Reagan, o modelo neozelandês de
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 50
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+New Public Management (NPM) ganhou impulso. A NGP foi baseada em teorias econômicas
+neoinstitucionalistas com transações entre principais e agentes e postas em prática. Era uma
+combinação de um Estado mínimo com uma lógica de mercado como motor principal de todo
+o sistema (ver Figura 2 e Figura 3). O Estado mínimo e sua administração mínima aplicaram
+mecanismos de mercado não apenas entre organizações, mas também dentro das organizações,
+dentro do setor público, e entre o setor público e outros atores (privados com fins lucrativos e
+privados sem fins lucrativos). Em sua forma mais radical ou mais pura, resultou num (quase)
+“Estado Oco” (Frederickson; Frederickson, 2006) e numa aplicação sistemática de “licitação
+competitiva compulsória” para (quase) todas as atividades na esfera pública. Como tal, a NPM
+passou de uma teoria econômica neoinstitucional para uma prática e para um modelo de tipo
+ideal, e esse modelo puro foi então generalizado na prática como um modelo normativo de
+reforma. Em 2015, a publicação da OCDE intitulada “fazendo um balanço” a enquadrava como
+“o caminho a seguir” (the way forward).
+      A Nova Governança Pública, o modelo de tipo ideal orientado por rede também
+tem fragmentos e realidades, no entanto, mesmo quando promovido academicamente e
+ideologicamente, nunca se tornou uma prática generalizada como tal, mas certamente se
+tornou um forte modelo adicional ou complementar para ser combinado com outros modelos
+direcionados por hierarquia ou mercados.
+      Fragmentos da realidade do Estado Neoweberiano tornaram-se visíveis nos países
+europeus da OCDE que notavam que os métodos e técnicas de cópia e colagem da NPM
+não eram (sempre) compatíveis com os quadros weberianos do “Estado de Direito”. O
+neoinstitucionalismo histórico, com a sua dependência de trajetória, complicou a integração de
+uma forma compatível.
+      O Estado Neoweberiano mantém uma parcela significativa do setor público e tem a
+“hierarquia” como o seu principal motor dentro do setor público, mas também para orientar a
+sua meta-governança entre o setor público e o setor privado com e sem fins lucrativos. O Estado
+Neoweberiano mantém vários elementos-chave do modelo de Estado Weberiano, como o papel
+do Estado que é democrático (direto e representativo) e que está sujeito ao “Estado de Direito”
+(Rule of Law). O direito administrativo adequadamente modernizado preserva princípios
+básicos para as relações cidadãos e Estado, incluindo a igualdade perante a lei, a privacidade, a
+segurança jurídica e uma sólida disponibilidade para o escrutínio jurídico das ações do Estado.
+É também central a preservação da ideia e da prática do “serviço público”, com o seu estatuto,
+cultura e até mesmo termos e condições distintivos.
+      A parte “Neo” do Estado Neoweberiano inclui uma mudança de uma orientação interna
+para o cumprimento de regras burocráticas para uma orientação externa, de satisfação das
+necessidades e desejos dos cidadãos. A principal via para alcançar isto não é o emprego de
+mecanismos de mercado (embora possam ocasionalmente ser úteis), mas sim a criação de
+
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 51
+                                                                                           O Eestado Neoweberiano:
+                                                                                      do modelo tipo ideal à realidade?
+
+
+
+uma cultura profissional de qualidade e serviço. Além disso, há um complemento (e não uma
+substituição) do papel da democracia representativa por uma série de dispositivos de consulta
+e de representação direta das opiniões dos cidadãos (esse aspecto é mais visível nos estados
+do norte da Europa e na Alemanha em nível local do que na Bélgica, França ou Itália). Na
+gestão de recursos dentro do governo, há uma modernização das leis pertinentes para incentivar
+uma maior orientação na obtenção de resultados, ao invés de apenas o correto seguimento dos
+procedimentos. Isso se expressa, em parte, numa mudança no equilíbrio dos controles ex ante
+para controles ex post, mas não num abandono total dos primeiros. Também pode se manifestar
+na forma de um grau de gestão de desempenho em um contexto de responsabilidade e prestação
+de contas pelo desempenho de um sistema que se trata de resultados e adequação. Além disso,
+inclui uma profissionalização do serviço público, para que o “burocrata” se torne não apenas
+um especialista na legislação relevante para a sua esfera de atividade, mas também um gestor
+profissional, orientado para satisfazer as necessidades do seu cidadão/usuário (Pollitt; Bouckaert,
+2011: 118-19).
+      O Estado Neoweberiano é um “modelo de tipo ideal”, o que significa que existem módulos
+e fragmentos empíricos significativos na realidade que podem ser reunidos e consolidados num
+modelo coerente e consistente que se pode “pensar” como um modelo funcional. Esse modelo
+puro aproveita a realidade, uma vez que se torna um modelo normativo que impulsiona os
+programas de reforma. O Estado Neoweberiano tem a capacidade de se tornar um modelo
+normativo, uma vez que se presume que é muito mais capaz do que a NPM e a NGP para
+garantir e combinar um desempenho sustentável e resiliente com equidade e inclusão. Isso se
+aplica simultaneamente à “prestação de serviços”, à “governança de crises” e à “inovação”. Por
+esta razão, o Estado Neoweberiano, enquanto tipo ideal “puro”, parece transformar-se numa
+realidade e passa a ser um modelo desejável de governança e reforma que se torna necessário
+numa perspectiva da sociedade como um todo (WoS) para o futuro.
+
+
+Observação:
+Este artigo é baseado UCL/IIPP Working Paper 2022/6 que foi apresentado no UC London IIPP seminar
+on NWS em 14 de janeiro de 2022. O autor deseja agradecer aos comentaristas (Wolfgang Drechsler,
+Camilla Stivers, Nadia Monira Mohamed Taib e Sam Whimster) pelos seus comentários e discussão.
+
+
+
+
+                                         Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 52
+                                                                                                O Eestado Neoweberiano:
+                                                                                           do modelo tipo ideal à realidade?
+
+
+
+REFERÊNCIAS
+ADLER, Paul S. ‘Perspective—The Sociological Ambivalence of Bureaucracy: From Weber via Gouldner
+to Marx’. Organization Science, v.23, n.1, p.244-66, 2012. https://doi.org/10.1287/orsc.1100.0615
+
+ALDENHOFF-HÜBINGER, Rita. ‘Max Weber’s Inaugural Address of 1895 in the Context of the
+Contemporary Debates in Political Economy’. Max Weber Studies: Max Weber’s Relevance as a
+Theorist of Politics, v.4, n.2, p.143-56, 2004. https://doi.org/10.15543/MWS/2004/2/3
+
+ANDREWS, Rhys, PHILIPPE BEZES, Gerhard Hammerschmid; Steven Van de Walle. ‘Conclusion: A
+Kaleidoscope of Administrative Reforms in Europe’. In: Public Administration Reforms in Europe, The
+View from the Top, eds. Hammer-schmid, Gerhard, Steven Van de Walle, Rhys Andrews and Philippe
+Bezes. Cheltenham: Edward Elgar: 273-80, 2016.
+
+ANG, Yuen Yuen. ‘Beyond Weber: Conceptualizing an alternative ideal type of bureaucracy in
+developing contexts’. Regulation & Governance 11: 282-98, 2017. https://doi.org/10.1111/rego.12123
+
+AULICH, Chris. ‘Markets, Bureaucracy and Public Management: Bureaucratic Limits to Markets:
+The Case of Local Government in Victoria, Australia’. Public Money and Management 19: 4: 37-43, 1999.
+https://doi.org/10.1111/1467-9302.00187
+
+BOUCKAERT, Geert. (in print). ‘A “Government Positioning System” (GPS) for Reform. In: Colombo
+E., ed. Le istituzioni e le idee. Studi indisciplinati offerti a Fabio Rugge per il suo settantesimo compleanno.
+Milan: Giuffrè Francis Lefebvre,2022.
+
+BOUCKAERT, Geert; PETERS, B.G.; VERHOEST, Koen. The Coordination of Public Sector
+Organisations: Shifting Patterns of Public Management. Basingstoke: Palgrave Macmillan. 2010.
+https://doi.org/10.1057/9780230275256
+
+BOUCKAERT, Geert; PETERS, B.G.; VERHOEST, Koen. Chapter 21—’Policy Design for Policy
+Coordination’. In: Research Handbook of Policy Design, ed. Peters B.G., Guillaume Fontaine. Cheltenham:
+Edward Elgar: Ch 1, 355-74, 2022.
+
+BOUCKAERT, Geert. ‘Die Dynamik von Verwaltungsreformen: Zusammenhänge und Kontexte von
+Reform und Wandel’. In Status-Report Verwaltungsreform: Eine Zwischenbilanz nach zehn Jahren.
+Modernisierung des öffentlichen Sektors Nr 24, ed. Jann, Werner et al. Berlin: Edition Sigma: 22-35, 2004.
+
+BOUCKAERT, Geert. ‘Auf dem Weg zu einer neo-weberianischen Verwaltung. New Public Management
+im internationalen Vergleich’. In Politik und Verwaltung. PVS Politische Vierteljahresschrift. Sonderheft
+37/2006. Deutsche Vereinigung für Politikwissenschaft, ed. Bögumil, Jörg, Jann, Werner, and Nullmeier,
+Frank. Wiesbaden: Verlag für Sozialwissenschaften: 354-72, 2006.
+
+BOUCKAERT, Geert. ‘Public Management Reforms: the cultural context’. In Theoretische Aspekte
+einer Managerialistischen Verwaltungskultur. Deutsche Forschungsinstitut für öffentliche Verwaltung,
+ed. König, Klaus, Reichard, Christoph. Speyer: Speyer: 39-63, 2007.
+
+BOYNE, George. ‘Public Services Under New Labour: Back to Bureaucracy?’. Public Money and
+Management19(4):43-50,1999a. https://doi.org/10.1111/1467-9302.00126
+
+BOYNE, George. ‘Viewpoint: Editorial: Markets, Bureaucracy and Public Management’. Public
+Money and Management19(4):1-2,1999b. https://doi.org/10. 1111/1467-9302.00181
+
+BRADACH, Jeffrey; ROBERT, L.; ECCLES, G. ‘Price, Authority and trust: From Ideal Types to Plural
+Forms’. In Markets, Hierarchies, and Networks: The Co-ordination of Social Life, ed. Thompson, G.L.,
+
+                                              Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 53
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+Levacic, F.R., Mitchell, J. Sage: London: 277-92, 1991.
+
+BREWER Brian, Joan Y.H. LEUNG; Ian Scott. ‘Valuesin Perspective: Administrative Ethics and the
+Hong Kong Public Servant Revisited’. Administration & Society 46(8): 908-28, 2014. https://doi.
+org/10.1177/0095399713494742
+
+BULL, Hans Peter. ‘Die Krise der Verwaltungstheorie, Vom New Public Manage-ment zum Governance
+Ansatz, und wie weiter?’ Verwaltungs-Archiv 103(1): 1-30, 2012.
+
+BUTCHER, John R.; GILCHRIST, David J. eds. The Three Sector Solution, Delivering public policy in
+collaboration with not-for-profits and business. Canberra: Australian National University Press, 2016.
+
+BYRKJEFLOT, Haldor, du Gay, Paul; Greve, Carsten. ‘What is the “Neo-Weberian State” as a Regime of
+Public Administration?’ In The Palgrave Handbook of Public Administration and Management in Europe,
+ed. Ongaro, Eduardo, and Van Thiel, Sandra. London: Palgrave MacMillan: 991-1009, 2018. https://doi.
+org/10.1057/978-1-137-55269-3_50
+
+CAMPOMORI, Francesca; MATTIA, Casula. ‘Institutionalizing innovation in welfare local services
+through co-production: toward a Neo-Weberian State?’ Italian Political Science Review/ Rivista Italiana
+di Scienza Politica. 2021. Open Access: https://doi.org/10.1017/ipo.2021.43
+
+CAVATORTO, Sabrina; LA SPINA, Antonia. The Politics of Public Administration Reform in Italy.
+Springer/ Palgrave Macmillan, 2020. https://doi.org/10.1007/978-3-030-32288-5
+
+CHO, Wonhyuk et al. ‘A Cross-Country Study of the Relationship between Weberian Bureaucracy
+and Government Performance’. International Review of Public Administration 18(3): 115-37, 2013.
+https://doi.org/10.1080/12294659.2013.10 805266
+
+CHRISTENSEN, T.; LÆGREID, P. ‘The Whole-of-Government Approach to Public Sector Reform’.
+Public Administration Review 67(6): 1059-66, 2007. https://doi.org/10.1111/j.1540-6210.2007.00797.x
+
+CHRISTENSEN, T.; LÆGREID, P. eds. The Ashgate Research Companion to New Public Management.
+Aldershot: Ashgate. 2011.
+
+CONSTAS, Helen. ‘Max Weber’s Two Conceptions of Bureaucracy’. American Journal of Sociology
+63(4): 400-409,1958. https://doi.org/10.1086/222263
+
+DIEFENBACH, Thomas; SILLINCE, John A.A. ‘Formal and Informal Hierarchy in Different Types of
+Organization’. Organization Studies 32(11): 1515-37, 2011. https://doi.org/10.1177/0170840611421254
+
+DIMAGGIO, Paul J.; POWELL, Walter W. ‘The Iron Cage Revisited: Institutional Isomorphism and
+Collective Rationality in Organizational Fields’. American Sociological Review 48(2): 147-60, 1983.
+https://doi.org/10.2307/2095101
+
+DRECHSLER, Wolfgang; KATTEL, Rainer. ‘Towards the Neo-Weberian State? Perhaps, but certainly
+Adieu NPM’. The NISPAcee Journal of Public Administration and Policy I (2): 95-99, 2008/2009.
+
+DRECHSLER, Wolfgang. ‘The Re-Emergence of “Weberian” Public Administration after the Fall of New
+Public Management: The Central and Eastern European Perspective’. Halduskultuur 6: 94-118, 2005.
+
+DRECHSLER, Wolfgang. ‘Towards a Neo-Weberian European Union? Lisbon Agenda and Public.
+Administration’. Halduskultuur 10(1): 6-21, 2009.
+
+DRECHSLER, Wolfgang. Max Weber (1864-2020) and Public Administration Today’. Haduskultuur
+
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 54
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+20(1): 86-91, 2020. https://doi.org/10.32994/hk.v21i1.260
+
+du GAY, Paul. In Praise of Bureaucracy: Weber, Organization, Ethics. London: Sage Publications, 2000.
+https://doi.org/10.4135/9781446217580
+
+du GAY, Paul. ‘The Bureaucratic Vocation: State/Office/Ethics’. New Formations, vol. 100(6): 77-96, 2020.
+https://doi.org/10.3898/neWF:100-101.06.2020
+
+du GAY, Paul. ed. The Values of Bureaucracy. Oxford: Oxford University Press, 2005.
+
+DUNN, N. William; MILLER, David Y. ‘A Critique of the New Public Management and the Neo-
+Weberian State: Advancing a Critical Theory of Administrative Reform’. Public Organizational Review
+7: 345-58, 2007. https://doi.org/10.1007/s11115-007-0042-3
+
+DURANT, Robert F. Global Crises, American Public Administration, and the ‘New Interventionism’
+Revisited. Administration & Society 43(3): 267-300, 2011. https://doi.org/10.1177/0095399711407613
+
+DUSZA, Karl. ‘Max Weber’s Conception of the State’. International Journal of Politics, Culture, and
+Society 3(1): 71-105, 1989. https://doi.org/10.1007/BF01430691
+
+EJERSBO, Niels; GREVE, Carsten. ‘Denmark: towards the Neo-Weberian State in the digital era’. In
+Hammerschmidt G. et al., Public Administration Reforms in Europe: The View from the Top. Cheltenham,
+UK: Edward Elgar Publishing: 119-28, 2016.
+
+ERRAMI, Youssef; CARGNELLO, Charles Emmanuelle. ‘The pertinence of new public management
+in a developing country: The healthcare system in Morocco’. Canadian Journal of Administrative
+Sciences/Revue canadienne des sciences de l’administration 35: 304-312, 2018. https://doi.org/10.1002/
+cjas.1417
+
+EUROPEAN COMMISSION. Communication to the Commission, European Commission Digital Strategy:
+A digitally transformed, user-focused and data-driven Commission. Brussels, 21.11.2018, C (2018) 7118
+final.
+
+EUROPEAN COMMISSION. Communication from the Commission to the European Parliament, the
+Council, the European Economic and Social Committee and the Committee of the Regions 2030 Digital
+Compass: the European way for the Digital Decade. Brussels, 9.3.2021, COM(2021) 118 final.
+
+EVANS, Peter; RAUCH, James E. ‘Bureaucracy and Growth: A Cross-National Analysis of the Effects
+of “Weberian” State Structures on Economic Growth’. American Sociological Review 64(5): 748-65, 1999.
+https://doi.org/10.2307/2657374
+
+EXWORTHY, Mark, POWELL, Martin; MOHAN, John. ‘Markets, Bureaucracy and Public
+Management: The NHS: Quasi-Market, Quasi-Hierarchy and Quasi-Network?’. Public Money and
+Management v . 19, n.4p . 15-22, 1999.https://doi.org/10.1111/1467-9302.00184
+
+FARRELL, Catherine M. MORRIS, Jonathan. ‘Professional Perception of Bureaucratic Change in the
+Public Sector: GPs, Headteachers and Social Workers’. Public Money & Management, 31-36. October-
+December 1999. https://doi.org/ 10.1111/1467-9302.00186
+
+FERRERA, Maurizio.        ‘Mass democracy, the welfare state and European integration:
+A neo-Weberian analysis’. European Journal of Social Theory 23(2): 165-83, 2020. https://doi.
+org/10.1177/1368431018779176
+
+FREDERICKSON, David G.; FREDERICKSON, H. George. Measuring the Performance of the Hollow
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 55
+                                                                                            O Eestado Neoweberiano:
+                                                                                       do modelo tipo ideal à realidade?
+
+
+
+State. Washington DC: Georgetown University Press. 2006.
+
+GALE, Scott A.; HUMMEL, Ralph P. ‘A Debt Unpaid—Reinterpreting Max Weber on Bureaucracy’.
+Administrative Theory & Praxis 25(3): 409-18, 2003. https://doi.org/10.1080/10841806.2003.11029411
+
+GAUS Nurdiana, SULTAN Sultan; BASRI, Muhammad. ‘State Bureaucracy in Indonesia and its
+Reforms: An Overview’. International Journal of Public Administration40(8):658-69,2017. https://doi.
+org/10.1080/01900692.2016.1186179
+
+GILCHRIST, David J. ‘Partnerships between Government and the Third Sector at a Subnational Level:
+The experience of an Australian Subnational Government’. In The Three Sector Solution, Delivering
+public policy in collaboration with not-for-profits and business. ed. Butcher, John R. and Gilchrist,
+David J. Canberra: Australian National University Press: 61-78, 2016. https://doi.org/10.22459/
+TSS.07.2016.04
+
+GOODSELL, Charles T. ‘The Bureau as Unit of Governance’. In The Values of Bureaucracy, ed. Paul
+du Gay. Oxford: Oxford University Press: 17-40, 2005.
+
+GREVE, Carsten, LAEGREID, Per; RYKKJA, L.H. eds. Nordic Administrative Reforms: Lessons for
+Public Management. London: Palgrave/Macmillan. 2016. https:// doi.org/10.1057/978-1-137-56363-7
+
+HAJNAL György; MIKLOS Rosta. ‘A New Doctrine in the Making? Doctrinal Foundations of Sub-
+National Governance Reforms in Hungary (2010-2014)’. Administration & Society 51(3): 404-30,
+2019. https://doi.org/10.1177/ 0095399715626202
+
+HAJNAL, Gyorgy. ‘Public Administration in Hungary. Emerging dynamics in an illiberal democracy’.
+In European Perspectives for Public Administration, ed. Bouckaert, Geert and Jann, Werner. Leuven
+Leuven University Press: 367-85, 2020. https://doi.org/10.2307/j.ctvv417th.23
+
+HENDERSON, Jeffrey et al. ‘Bureaucratic Effects: “Weberian” State Agencies and Poverty Reduction’.
+Sociology 41(3): 515-32, 2007. https://doi.org/10.1177/ 0038038507076620
+
+HÖPFL, Harro M. ‘Post-bureaucracy and Weber’s “modern” bureaucrat’. Journal of Organizational
+Change Management 19(1): 8-21, 2006. https://doi.org/10.1108/ 09534810610643659
+
+JENEI, György. ‘A Post-Accession Crisis? Political Developments and Public Sector Modernization
+in Hungary’. The NISPAcee Journal of Public Administration and Policy, I(2) Winter: 55-67, 2008/2009.
+
+KAUFMAN, Herbert. ‘Fear of Bureaucracy: A Raging Pandemic’. Public Adminis-tration Review (Jan-
+Feb.) 41(1): 1-9, 1981. https://doi.org/10.2307/975718
+
+KETTL, Donald. ‘The Clumsy War against the “Administrative State”‘. Public Administration Review
+639-40, (September/October, 2017). https://doi.org/10. 1111/puar.12834
+
+KING, Cheryl Simrell; STIVERS, Camilla, eds. Government is Us, Public Administration in an Anti-
+Government Era. Thousand Oaks: Sage, 1998.
+
+KIRKPATRICK, Ian. ‘Markets, Bureaucracy and Public Management: The Worst of Both Worlds? Public
+Services without Markets or Bureaucracy’. Public Money and Management. 19(4): 7-14, 1999. https://doi.
+org/10.1111/1467-9302.00183
+
+KLIJN, Erik Hans; KOPPENJAN, Joop. Governance Networks in the Public Sector. London: Taylor &
+Francis, 2015. https://doi.org/10.4324/9781315887098
+
+
+
+                                          Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 56
+                                                                                              O Eestado Neoweberiano:
+                                                                                         do modelo tipo ideal à realidade?
+
+
+
+KOSTAKIS, Vasilis. ‘Commons-Based Peer Production and the Neo-Weberian State: Synergies and
+Interdependencies’. Haduskultuur-Administrative Culture 12(2): 146-61, 2011.
+
+KUHLMANN, Sabine et al. ‘Opportunity management of the COVID-19 pandemic: Testing the crisis
+from a global perspective’. International Review of Administrative Sciences, 87(3): 497-517, 2021. https://
+doi.org/10.1177/0020852321992102
+
+KUHLMANN, Sabine, BOGUMIL, Jörg; GROHS, Stephan. ‘Evaluating Administrative Modernization
+in German Local Governments: Success of Failure of the “New Steering Model”?’The NISPAcee
+Journal of Public Administration and Policy I(2) Winter: 31-54, 2008/2009.
+
+LICHTBLAU, Klaus. ‘Review Essay: On the conclusion of the Max Weber Gesamt-ausgabe, A meta-critical
+review’. Max Weber Studies 22.1: 74-124, 2022. https://doi.org/10.15543/ maxweberstudies.22.1.000
+
+LOTTHOLZ, Philipp; LEMAY-HÉBERT, Nicolas. ‘Re-reading Weber, re-concep-tualizing state-
+building: from neo-Weberian to post-Weberian approaches to state, legitimacy and state-building’.
+Cambridge Review of International Affairs 29(4): 1467-1485, 2016. https://doi.org/10.1080/09557571.20
+16.1230588
+
+LYNN, Laurence E., Jr. ‘The Myth of the Bureaucratic Paradigm: What Traditional Public Administration
+Really Stood For’. Public Administration Review, March-April, 61(2): 144-60, 2001. https://doi.
+org/10.1111/0033-3352.00016
+
+LYNN, Laurence E., Jr. ‘What is a Neo-Weberian State? Reflections on a Concept and its Implications’.
+The NISPAcee Journal of Public Administration and Policy, I(2) Winter: 17-30, 2008-2009.
+
+MARCH, James G.; Johan P. Olson. Democratic Governance. New York: Free Press, 1995.
+
+MARCH, James; OLSON, Johan. ‘The Logic of Appropriateness’. In The Oxford Handbook of Political
+Science, ed. Goodin. Oxford, Oxford University Press, 2011.
+
+MARCH, James; OLSON, Johan. ‘The Logic of Appropriateness’. Arena Working Papers WP 04/09.
+Oslo: Arena, Centre for European Studies, Uni-versity of Oslo, 2009.
+
+MAZZUCATO, Mariana. The Entrepreneurial State: debunking public vs. private sector myths. London:
+Anthem Press, 2013.
+
+MAZZUCATO, Mariana. The Value of Everything: making and taking in the global economy. London:
+Allen Lane, 2018.
+
+MAZZUCATO, Mariana. Mission Economy: A Moonshot Guide to Changing Capitalism. London: Allen
+Lane, 2021.
+
+MCKINLAY, Alan, CARTER, Chris; PEZET, Eric. ‘Governmentality, power and organisation’.
+Management & Organisational History 7(1): 3-15, 2012. https://doi.org/ 10.1177/1744935911429414
+
+MCMULLIN, Caitlin. ‘Challenging the necessity of New Public Governance: Co-production by third
+sector organizations under different models of public management’. Public Administration 99(5): 5-22,
+2021. https://doi.org/10.1111/padm. 12672
+
+MEIER, Kenneth J. ‘Bureaucracy and Democracy: The Case for More Bureaucracy and Less Democracy’.
+Public Administration Review (May–June) 57(3): 193-99, 1997. https://doi.org/10.2307/976648
+
+MENDES, Joana. La réforme du système administrative portugais: New Public Management ou Etat
+
+
+                                            Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 57
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+Néo-Wéberien? Revue française d’administration publique, 119(3): 533-53, 2006. https://doi.org/10.3917/
+rfap.119.0533
+
+MEULEMAN, Louis.         Metagovernance for Sustainability, A Framework for Implementing the
+Sustainable Development Goals. London: Routledge, 2018. https://doi.org/10.4324/9781351250603
+
+MIEDZINSKI, Michal, MAZZUCATO, Marianna; EKINS, Paul. ’A Framework for Mission-Oriented
+Innovation Policy Roadmapping for SDGs: The Case of Plastic-Free Oceans’. UCL Institute for Innovation
+and Public Purpose, Working Paper WP 2019-03. https://doi.org/10.1093/oso/9780198841760.003.0004
+
+NEWMAN, Janet. ‘Bending Bureaucracy: Leadership and Multi-Level Governance’. In The Values
+of Bureaucracy, ed. du Gay, Paul. Oxford: Oxford University Press: 191-209, 2005.
+
+O’TOOLE, Laurence J. ‘The Implications for Democracy in a Networked Bureaucratic World’.
+Journal of Public Administration Research and Theory J-PART 7.3: 43-459, 1997. https://doi.org/10.1093/
+oxfordjournals.jpart.a024358
+
+OECD. The Way Forward. Paris: OECD, 2015.
+
+OECD. The organization and functioning of the center of government in OECD countries. Centre Stage,
+OECD Centers of Government. Paris: OECD, 2018.
+
+OLSON, Johan P. ‘Institutional Design in Democratic Context’. The Journal of Political Philosophy
+5(3): 203-29, 1997. https://doi.org/10.1111/1467-9760.00032
+
+OLSON, Johan P. ‘Maybe it is Time to Rediscover Bureaucracy’. Journal of Public Administration
+Research and Theory J-PART Jan. 16(1): 1-24, 2006. https://doi.org/10.1093/jopart/mui027
+
+ONGARO, Edoardo. Public Management Reform and Modernization, Trajectories of Administrative
+Change in Italy, France, Greece, Portugal and Spain. Cheltenham: Edward Elgar, 2009.
+
+PALUMBO, Antonino; SCOTT, Alan. ‘Bureaucracy, Open Access, and Social Pluralism: Returning
+the Common to the Goose’. In The Values of Bureaucracy. ed. du Gay, Paul. Oxford: Oxford University
+Press: 281-307, 2005.
+
+PETERS B. Guy. ‘Management, management everywhere: whatever happened to governance?’
+International Journal of Public Sector Management 30(6/7): 606-14, 2017. https://doi.org/10.1108/
+IJPSM-05-2017-0146
+
+POLLITT, Christopher; BOUCKAERT, Geert. Public Management Reform. A Comparative Analysis.
+Oxford: Oxford University Press: 345, 2004 (2nd ed.).
+
+POLLITT, Christopher; BOUCKAERT, Geert. Public Management Reform, A Comparative Analysis—
+NPM, Governance and the Neo-Weberian State. Oxford: Oxford University Press: 367,2011 (3rd ed.).
+
+POLLITT, Christopher; BOUCKAERT, Geert. Public Management Reform, A Comparative Analysis—
+Into the Age of Austerity. Oxford: Oxford University Press: xix + 388, 2017 (4th ed.).
+
+POLLITT, Christopher. ‘Convergence or Divergence: What has been Happening in Europe?’ In New
+Public Management in Europe: Adaptation and Alternatives, ed. Pollitt, Christopher, Van Thiel, Sandra and
+Homburg, Vincent. New York: Palgrave McMillan: 10-25, 2007. https://doi.org/10.1057/9780230625365_2
+
+POLLITT,      Christopher.        ‘Bureaucracies    remember,      post-bureaucratic    organizations
+forget?’PublicAdministration87(2):198-218,2009. https://doi.org/10.1111/j.1467-9299.2008.01738.x
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 58
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+POTUCEK, Martin. ‘The concept of the Neo-Weberian State confronted by the multi-dimensional
+concept of governance’. The NISPAcee Journal of Public Administration and Policy I(2) Winter: 83-94,
+2008/2009.
+
+POWELL, Walter. ‘Neither Market nor Hierarchy: Network Forms of Organi-sation’. In Markets,
+Hierarchies, and Networks: The Co-ordination of Social Life, ed. Thompson G.L., Levacic, F.R. and
+Mitchell, J. London: Sage: 265-76, 1991.
+
+PUTNAM, Robert D., Robert, Leonardi; Nanetti, Raffaella Y. Making Democracy Work: Civic Traditions in
+Modern Italy. Princeton, N.J: Princeton University Press, 1993. https://doi.org/10.1515/9781400820740
+
+RAADSCHELDERS, Jos. ‘Administrative History’. In Handbook of Public Adminis-tration. ed. Peters,
+B. Guy and Pierre, Jon. Thousand Oaks, CA: Sage: 161-68, 2003.
+
+RAMOS, Conrado; MILANESI, Alejandro. ‘The Neo-Weberian State and the neo-developmentalist
+strategies in Latin America: the Case of Uruguay’. International Review of Administrative Sciences 86(2):
+261-77, 2020. https://doi.org/10. 1177/0020852318763525
+
+RANDMA-LIIV, Tiina; WOLFGANG, Drechsler. ‘Three decades, four phases: Public Administration
+development in Central and Eastern Europe, 1989-2017’. International Journal of Public Sector
+Management 30(67): 595-605,2017. https://doi.org/10.1108/IJPSM-06-2017-0175
+
+RANDMA-LIIV, Tiina. ‘New Public Management versus the Neo-Weberian State in Central
+and Eastern Europe’. The NISPAcee Journal of Public Administration and Policy, I (2) Winter: 69-81,
+2008/2009.
+
+REED, Michael. ‘Beyond the Iron Cage?’ In The Values of Bureaucracy. ed. Gay, Paul. Oxford: Oxford
+University Press: 115-40, 2005.
+
+RHODES, Rod A. ‘The New Governance: Governing without Government’. Political Studies XLIV: 652-67,
+1996. https://doi.org/10.1111/j.1467-9248.1996.tb01747.x
+
+RHODES, Rod A. ‘From Marketization to Diplomacy: It’s the Mix that Matters’. Public Policy
+and Administration 12(2): 31-50, 1997. https://doi.org/10. 1177/095207679701200204
+
+RIGGS, Fred W. ‘Modernity and Bureaucracy’. Public Administration Review 57(4): 347-53, 1997.
+https://doi.org/10.2307/977318
+
+RONALDS, Paul. ‘Cross-Sector Working: Meeting the Challenge of Change’. In The Three Sector
+Solution, Delivering public policy in collaboration with not-for-profits and business. ed. Butcher John
+R. and Gilchrist, David J. Canberra: Australian National University Press: 337-52, 2016. https://doi.
+org/10.22459/TSS.07.2016.16
+
+SAGER, Fritz; ROSSER, Christian. ‘Weber, Wilson, and Hegel: Theories of Modern Bureaucracy’.
+Public Administration Review, November–December: 1136-47, 2009. https://doi.org/10.1111/j.1540-
+6210.2009.02071.x
+
+SAGER, Fritz et al. A transatlantic History of Public Administration: Analyzing the USA, Germany and
+France. Cheltenham: Edward Elgar Publishing. 2018.
+
+SAVAGE, Mike. ‘The Popularity of Bureaucracy: Involvement in Voluntary Associations’. In The
+Values of Bureaucracy, ed. Paul du Gray. Oxford: Oxford University Press: 309-34, 2005.
+
+SEKERA, June. ‘The Public Economy: Understanding Government as a Producer’. UCL Institute for
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 59
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+Innovation and Public Purpose, Working Paper WP 2020-01. 2020.
+
+SELZNICK, P. The Moral Commonwealth. Berkeley, CA: University of California Press. 1992.
+
+SERPA, Sandro; FERREIRA, Carlos Miguel. ‘The Concept of Bureaucracy by Max Weber’. International
+Journal of Social Science Studies 7(2): 12-18, 2019. https://doi.org/10.11114/ijsss.v7i2.3979
+
+Solli Audun; Anthony Leysens. ‘(Re)Conceptualizing the Political Economy of the African State Form:
+The Strong/Weak Contradiction in Angola’. Politikon 38(2): 295-313, 2011. https://doi.org/10.1080/0258
+9346.2011.580129
+
+STIVERS, Camilla. Bureau Men, Settlement Women, Constructing Public Administration in the Progressive
+Era. Laurence, Kansas: University Press of Kansas, 2000.
+
+STIVERS, Camilla. The listening bureaucrat: responsiveness in public administration. In Democracy,
+bureaucracy, and the study of administration, C. Stivers. An ASPA Classics Volume. Boulder Col:
+Westview Press: 222-24, 2001. https://doi.org/10.4324/9780429501036-15
+
+STIVERS, Camilla. Governance in dark times, Practical Philosophy for Public Service. Washington D.C:
+Georgetown University Press, 2008.
+
+STIVERS, Camilla. The Bureau Movement, Seedbed of Modern Public Adminis-tration. In Handbook of
+Organization Theory and Management, ed. Lynch, T. and Dicker. New York: Marcel Dekker: 259-72, 1998.
+
+STIVERS, Camilla. ‘The Significance of “The Administrative State”‘. Public Administration Review
+(January-February) 68(1): 53-56, 2008. https://doi.org/10.1111/j.1540-6210.2007.00835.x
+
+STIVERS, Camilla. ed.     Democracy, Bureaucracy and the Study of Administration. Boulder, Col:
+Westview Press, 2001.
+
+THOMPSON G.L.; LEVACIC F.R.; MITCHELL J. eds. Markets, Hierarchies, and Networks: The Co-
+ordination of Social Life. London: Sage, 1991.
+
+THOMPSON, Grahame F. Between Hierarchies and Markets, The Logic and Limits of Network
+Forms of Organization. Oxford: Oxford University Press, 2003. https://doi.org/10.1093/
+acprof:oso/9780198775270.001.0001
+
+THOMPSON, Victor A. Organizations in Action, Social Science Bases of Administrative Theory. New
+Brunswick: Transaction Publishers, 1967.
+
+THOMPSON, Victor A. Bureaucracy and the Modern World. N.J.: General Learning Press, 1976.
+
+TORFING, Jacob et al. Public Governance Paradigms, Competing and Co-existing. Cheltenham:
+Edward Elgar, 2020. https://doi.org/10.4337/9781788971225
+
+TRONDAL, Jarle. ‘On bureaucratic centre formation in government institutions: Lessons from the
+European Commission’. International Review of Administrative Sciences 78(3): 425-46, 2012. https://doi.
+org/10.1177/0020852312445021
+
+WEBER, Max. ‘Die “Objektivität” socialwissenschaftlicher und sozialpolitischer Erkenntnis. In Max
+Weber. 1968. Methodologischer Schriften. Frankfurt am Main: Fischer Verlag: 1-64, 1904.
+
+WEBER, Max. 1922. Wirtschaft und Gesellschaft. Grundriss der Sozialökonomik. Tübingen: Mohr Siebeck,
+1922.
+
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 60
+                                                                                             O Eestado Neoweberiano:
+                                                                                        do modelo tipo ideal à realidade?
+
+
+
+WEBER, Max. Theory of Social and Economic Organisations, trans. A.M. Henderson and Talcott Parsons.
+New York: Oxford University Press, 1947.
+
+WEBER, Max. ‘Bureaucracy’ in From Max Weber, ed. and trans. C. W. Mills and H.H. Gerth. London:
+Routledge & Kegan Paul, 1948.
+
+WEBER, Max. Economy and Society. An Outline of Interpretive Sociology, edited G. Roth and C. Wittich.
+New York: Bedminster Press, 1968.
+
+WEBER, Max. ‘The “Objectivity “ of Knowledge in Social Science and Social Policy’ in Collected
+Methodological Writings, ed H.H. Bruun and S. Whimster, trans. H. H. Bruun. London and New York:
+Routledge, 2012.
+
+WHIMSTER, Sam; LASH, Scott. eds.           Max Weber, Rationality and Modernity. London: Allen &
+Unwin: 1-31, 1987.
+
+WHIMSTER, Sam.             Understanding     Weber.     London:       Routledge.      2007.      https://doi.org/
+10.4324/9780203030561
+
+WILLIAMSON, O.E. Markets and Hierarchies: Analysis and Antitrust Implications. New York: Free
+Press, 1985.
+
+YEBOAH-ASSIAMAH, Emmanuel, ASAMOAH, Kwame; AGYEKUM KYEREMEH, THOMAS.
+‘Therefore, Is Bureaucracy Dead? Making a Case for Complementarity of Paradigms. Public
+Administration Thinking and Discourse’. International Journal of Public Administration, 39(5), 382-94,
+2016. https://doi.org/10.1080/019006 92.2015.1015558
+
+
+
+Geert BOUCKAERT
+https://orcid.org/0000-0002-0282-8106
+Professor Honorário, UCL Intitute for Innovation and Public Purpose
+
+
+Tradução e Revisão
+
+Carolina da Cunha Rocha
+https://orcid.org/0000-0002-4576-7008
+Doutora em História por El Colegio de México. Editora-Adjunta da Revista do Serviço Público (RSP).
+carolina.rocha@enap.gov.br
+
+Raphael Amorim Machado
+https://orcid.org/0000-0001-7500-4485
+Doutor em Ciência Política pela Universidade Estadual de Campinas (Unicamp). Professor de Ciência
+Política na Escola de Políticas Públicas e Governo da Fundação Getúlio Vargas (FGV), bolsista da
+Diretoria de Altos Estudos da Escola Nacional de Administração Pública (ENAP).
+raphael.machado@enap.gov.br
+
+
+
+
+                                           Revista do Serviço Público (RSP), Brasília 75(1) 13–61 jan/mar 2024 | 61
+

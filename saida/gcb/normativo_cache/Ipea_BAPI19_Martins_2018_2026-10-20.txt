@@ -1,0 +1,370 @@
+URL: https://repositorio.ipea.gov.br/server/api/core/bitstreams/12de44eb-314e-40b9-b57f-ff5455a059c3/content | verificado em 20/10/2026 | obtido por curl (HTTP 200), texto por pdftotext -layout | SHA-256 do PDF: 7100f0264cf2de65009aa8e92af17fc6ffa561b878085d9fed452db8d1335d02 | 1804071 bytes
+        Governança para Resultados
+
+                                                                                                          Humberto Falcão Martins1
+
+
+
+
+        1 INTRODUÇÃO
+Este artigo busca sintetizar um conceito de governança para resultados a partir da perspectiva da
+nova governança pública. O termo “governança” alcançou a condição de um “conceito mágico”,
+na expressão de Pollitt e Hupe (2011): palavra sedutora que evoca uma alta capacidade de resolver
+problemas, dissemina-se rápido e resulta em usos múltiplos e indiscriminados. A elasticidade conceitual
+de “governança” tornou-se um problema, com uma grande proliferação de vários tipos de governança
+gerando uma imensa confusão semântica e conceitual. No mais das vezes, governança aparece como
+sinônimo contemporâneo de gestão ou de governar aplicado a muitos possíveis objetos (empresas,
+governos, organizações, políticas), com (ou sem) critérios ou condições (que frequentemente caracterizam
+uma alegada “boa governança”).
+      Uma tentativa de depuração do campo semântico e conceitual para se chegar à “governança
+para resultados” pressupõe a existência de distintos eixos de significação no vasto emaranhado
+da “governança”.
+      Um primeiro eixo de significação provém da governança corporativa. Um segundo eixo
+coloca a governança no sentido político-institucional, de qualidades e capacidades institucionais
+para o “bom governo”. Um terceiro eixo refere-se à “governança pública” como um paradigma
+de administração pública (Aguilar, 2006) ou como um “regime de implementação de políticas e
+prestação de serviços públicos” (Osborne, 2010).
+       Estes eixos possuem diferenciações de significado, mas podem compartilhar algum chão em
+comum, relacionado ao processo de tomada de decisão e implementação de algo. Com efeito, nos três
+eixos de significação governança aparece como condução de empresas (e outros tipos de organizações),
+condução de países e condução do trato de problemas públicos complexos.
+        Visando sintetizar um conceito de governança para resultados, este artigo está organizado
+em outras seis seções, que buscam tratar da expansão do conceito de desempenho; do desempenho
+satisfatório e seus determinantes; da gestão do desempenho e sua evolução em governança para resultados;
+de modelos multidimensionais de governança para resultados; de requisitos, barreiras e limitações da
+governança para resultados; e do futuro da governança para resultados.
+
+        2 A EXPANSÃO DO CONCEITO DE DESEMPENHO
+Entende-se que desempenho é ação para o alcance de resultados e geração de valor público. O conceito
+tem expandido nesta direção: esforços, resultados e valor público (Andrews et al., 2010; Brewer, 2006;
+Kelly e Swindell, 2002). Cada uma destas dimensões revela aspectos fundamentais do conceito de
+desempenho, conforme ilustradas na figura 1. Esta multiplicidade de dimensões gera um “caleidoscópio
+do desempenho” (Walker, Boyne e Brewer, 2010, p. 271).
+
+1. Professor extracarreira da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas (FGV) e consultor em
+gestão pública.
+                                                                            Boletim de Análise Político-Institucional | n. 19 | Dezembro 2018
+58
+
+
+
+           FIGURA 1
+           Expansão do conceito de desempenho: múltiplas dimensões (esforços, resultados, valor)
+
+                                                         Resultados
+
+
+                                                                                                                          Resiliência e
+                                     Eficiência              Eficácia   Efetividade                     Satisfação
+                                                                                                                          capacidade
+
+
+
+
+         Insumos                  Atividades                 Outputs        Outcomes                             Valor
+
+
+
+
+                                                                                                                             Valores
+     Economicidade        Excelência              Execução                                            Confiança
+                                                                                                                              sociais
+
+
+                          Esforços
+
+
+           Elaboração do autor.
+
+
+           Esta forma de ver o desempenho como um fluxo que vai dos insumos até o valor público
+     baseia-se na ideia de cadeia de valor. Sob esta ótica, desempenho é essencialmente um processo de
+     geração de valor.
+           Esta forma de ver o desempenho também reflete uma lógica de produção de serviços
+     e políticas públicas em que os produtos podem ser bens e serviços, tangíveis ou intangíveis.
+     Em princípio, esta lógica de produção pressupõe uma sequência linear de ações relativamente
+     programáveis, com fatores determináveis de causa e efeito e, em alguma boa extensão, controláveis.
+     Duas considerações amenizam a utilização de lógicas funcionais lineares para servirem de leito
+     para um conceito de desempenho. Primeiro, é forçoso reconhecer a dimensão do contexto e
+     considerá-lo complexo, no sentido de plural, multidimensional e dinâmico. Logo, o que quer
+     que venha a se estabelecer com um fluxo de desempenho é sensível ao contexto e instável.
+     Segundo, é necessário que se sobreponha à lógica da produção uma lógica de criação em que
+     acontecimentos inesperados podem emergir em vários sentidos (iterações e explorações) e alterar
+     o curso do desempenho.
+           A figura 2 apresenta um conjunto de esquemas de representação do conceito de desempenho
+     que se apoiam na lógica de produção.
+FIGURA 2
+Exemplos de modelos lógicos de desempenho
+                                                                                                                                                                                      Governança para Resultados
+
+
+
+
+Elaboração do autor.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em virtude das condições técnicas dos originais (nota do Editorial).
+                                                                                                                                                                                     59
+                                                                                     Boletim de Análise Político-Institucional | n. 19 | Dezembro 2018
+60
+
+
+
+             3 DESEMPENHO SATISFATÓRIO E DETERMINANTES
+     O desempenho ótimo é uma situação hipotética em que uma atuação gera valor público de forma
+     efetiva, eficaz, eficiente, executando as ações de forma excelente e econômica. Em princípio,
+     há precedências entre todas estas dimensões e suas subdimensões. A maior importância se dá da direita
+     (jusante) para a esquerda (montante) da cadeia de valor: valor, efetividade, eficácia, eficiência, execução,
+     excelência, economicidade, competências. O que se quer alcançar é a geração de valor público, ou seja,
+     todo um conjunto de impactos, produtos e esforços que satisfaçam as expectativas dos beneficiários,
+     promovendo confiança e resiliência em linha com os valores sociais.
+            O desempenho ótimo é uma condição idealizada muito difícil de ser alcançada em situações
+     concretas; a realidade mostra que o usual é a falha de desempenho. Por esta razão é importante reconhecer
+     que o desempenho subótimo, aquele que falha em uma ou outra dimensão, pode ser satisfatório no
+     sentido de representar o melhor possível face a determinadas circunstâncias. Por exemplo, atuações
+     que pecam em termos de economicidade e eficiência, mas geram resultados eficazes e efetivos que
+     satisfazem seus beneficiários. Por outro lado, atuações econômicas, eficientes e inefetivas, que não
+     geram valor público, não valem para nada. Mas é preciso ter muito cuidado com estas considerações,
+     porque isto não pode permitir um afrouxamento de rigor em relação à economicidade e à eficiência.
+            Em todo caso, a busca de padrões satisfatórios de desempenho, no sentido atribuído por Simon
+     (1956), requer uma gestão do desempenho. Isto é necessário porque, primeiro, raramente há um
+     entendimento amplo a respeito do que é desempenho, tanto de forma conceitual quanto no que se
+     refere ao desempenho de uma atuação salientando seus diferentes determinantes. (Kaplan e Norton,
+     2001; Blake e Mouton, 1964; Fiedler, 1967; Vroom e Yetton, 1973; Lorsch, 1974; Mintzberg, 1979;
+     Davenport, 1993; PMI, 2018; Armstrong, 2015; Purcell et al., 2009; Melville, Kraemer e Gurbaxani,
+     2004; Young, 2003). Boa parte das organizações tende a favorecer a dimensão dos esforços em
+     detrimento de uma visão mais ampla, que inclua resultados e valor. Uma evidência disto são os relatórios
+     de prestação de contas de órgãos e entidade de governo, que se referem, quase que exclusivamente,
+     com raras exceções, a esforços empreendidos.
+
+             4 DA GESTÃO DO DESEMPENHO E PARA O DESEMPENHO À GOVERNANÇA PARA RESULTADOS
+     Uma parcela significativa da literatura sobre performance management trata predominantemente da
+     mensuração, em sentido amplo (Talbot, 2010). Há a presunção de que o processo de gestão está bem
+     estabelecido, de modo que a mensuração sistemática fará toda a diferença. O argumento desenvolvido
+     aqui é que a governança para resultados é justamente a integração entre um ciclo de gestão orientado
+     para resultados e uma sistemática de mensuração.
+           Segundo Van Dooren, Bouckaert e Halligan (2010, p. 30-31, tradução do autor), performance
+     management “é um tipo de gestão que incorpora e usa informação sobre desempenho para a tomada
+     de decisão. (...) incorporação é a integração da informação sobre o desempenho nos ciclos de política
+     pública e de gestão (...)”.2
+             Esta definição revela pelo menos duas camadas: a gestão de uma atuação (policy and management
+     cycles), aqui denominada gestão para o desempenho; e a geração e a incorporação de informações sobre
+     o desempenho da atuação, aqui denominada gestão do desempenho. A primeira camada, gestão para o
+
+
+     2. “Is a type of management that incorporates and uses performance information for decision-making. (...) incorporation is about integrating
+     performance information into policy and management cycles (...)” (Van Dooren, Bouckaert e Halligan, 2010, p. 30-31).
+Governança para Resultados
+                                                                                                                         61
+
+
+
+desempenho, confunde-se com o processo de gestão estratégica, que implica gestão dos determinantes
+do desempenho de forma orientada para resultados.
+      A segunda camada, gestão do desempenho, refere-se à mensuração, envolvendo a geração de
+indicadores, a fixação de metas, a difusão dos resultados, os ajustes e os aprendizados decorrentes.
+      Tomando como base esta diferenciação, a figura 3 ilustra as duas camadas aludidas, acrescida
+de uma terceira camada, que se refere a ações de mediação entre as duas primeiras, por meio de
+pactuação do desempenho, engajamento e alinhamentos organizacionais – em linha com o componente
+alinhamento da gestão matricial para resultados (Martins e Marini, 2010).
+      Nesta perspectiva, governança para resultados é a integração da gestão para o desempenho com
+gestão do desempenho com mediadores.
+
+        FIGURA 3
+        As camadas da governança para resultados
+ Camada 2
+ Ciclo de mensuração (gestão do desempenho: implantar abordagens de mensuração para gerar informações
+ sobre o desempenho da organização e inseri-las no processo decisório)
+
+               Definição dos        Modelagem                     Geração dos   Análise e                   Uso e
+                                                     Fixação de
+               objetos e alvos da   de indicadores   metas        indicadores   interpretação Comunicação   proveito
+               mensuração
+
+
+ Camada 3                                                          Pactuação, engajamento e alinhamento
+ Mediação camadas 1 e 2
+
+
+                                                                         Execução, monitoramento            Revisão da
+                                Definição da estratégia
+                                                                          e avaliação da estratégia         estratégia
+
+
+  Camada 1
+  Ciclo de gestão estratégica (gestão para o desempenho: gerir a organização de forma
+  orientada para gerar determinados resultados e valor)
+
+        Elaboração do autor.
+
+
+
+        5 REGIMES E MODELOS DE GOVERNANÇA PARA RESULTADOS
+Segundo Talbot (2010), há distintas formas de se implantar a governança para resultados, por meio
+de distintos regimes (contratuais; capacitantes; competitivos; e voz e escolha).
+      Em linha com o fato de o conceito de desempenho comportar múltiplas dimensões, aspectos e
+determinantes, é que há uma tendência de ampliação da abrangência e da profundidade de regimes
+e modelos multidimensionais de governança para resultados.
+       Maior abrangência significa construir um modelo que, de alguma forma, gerencie todo o espectro
+da cadeia de valor: competências, insumos, atividades, produtos, impactos, valor. Maior profundidade
+significa atuar de forma integrada em distintos níveis: sociedade/cidadãos; governos (inclusive do
+ponto de vista interfederativo); setores/domínios de políticas públicas; redes; organizações; unidades;
+equipes; indivíduos. Nesse contexto de complexidade, a questão do foco está mais no que e em como
+tratar cada dimensão do que focar apenas uma (por exemplo, gerir apenas os esforços). No que se refere
+aos níveis, pelo fato de ser muito complexo e difícil, um modelo profundo, multinível, de gestão do
+                                                                 Boletim de Análise Político-Institucional | n. 19 | Dezembro 2018
+62
+
+
+
+     desempenho, que trate do indivíduo ao governo como um todo, o essencial é que não se percam as
+     conexões e as integrações com níveis acima e abaixo.
+
+           6 OS LIMITES DA GOVERNANÇA PARA RESULTADOS
+     A questão essencial é o que funciona em experiências e modelos multidimensionais de governança
+     para resultados, quais são as limitações e como mitigá-las.
+           É forçoso reconhecer que há muitas abordagens e muitos governos, organizações e pessoas
+     que desenvolvem modelos de governança para resultados de forma reducionista. A pergunta
+     sobre a eficácia e a efetividade da governança para resultados não possui uma resposta científica:
+     estudos indicam o que funciona e o que não funciona, e sob que condições e determinantes
+     (Boyne et al., 2006). Há uma grande predominância de estudos que se baseiam em experiências
+     reducionistas. Há também uma tendência de se sobrevalorizar a dimensão simbólica da gestão
+     do desempenho. O corpo de conhecimentos sobre governança para resultados é mais experiencial
+     e propositivo/normativo, e sofre de um consilience deficit disorder; não há grandes teorias com
+     ampla generalização (Talbot, 2010). A conclusão de que governança para resultados pode dar
+     certo advém mais do saber experiencial de profissionais que já lidaram com o tema.
+           Destacam-se quatro principais categorias de limitações da governança para resultados, relacionadas:
+     a peculiaridades do domínio público; à mensuração e à pactuação; ao uso e à apropriação das informações
+     sobre desempenho; e questões relativas à implementação.
+          O domínio público é diferenciado em relação ao privado. Suas fronteiras são amplas, tênues
+     e movediças nos meandros de redes multi e pluri-institucionais de governança. Há, em arranjos
+     governamentais, múltiplos “principais”, autoridades setoriais, centro de governo, parlamento,
+     órgãos de controle. Prevalecem múltiplos objetivos: políticos, técnicos, simbólicos – tais como,
+     por exemplo, efeito demonstração, ou aparência de práticas de gestão do desempenho sem
+     mudança de comportamento e com decisões tomadas com base em informações de má qualidade
+     (Van Dooren, Bouckaert e Halligan, 2010).
+           A mensuração e a pactuação padecem de muitas limitações técnicas e metodológicas dos
+     indicadores, incluindo-se os efeitos e as “doenças” da medição, as dificuldades e as limitações
+     das métricas de valores e o efeito miopia, no qual o curto prazo captura a visão de longo
+     prazo (Bouckaert e Balk, 1991). Há também disfunções, tais como o gaming (OECD, 2009),
+     uma condição crítica altamente correlacionada ao comportamento oportunista e interesseiro de
+     partes pactuadas. Bevan e Hood (2006) definem estes principais tipos de gaming: subestimação
+     de metas; foco na proximidade da meta, nas metas mais alcançáveis, em detrimento de outras;
+     manipulação de medidas/indicadores (inflar, deflar, poluir artificialmente; agregações e desagregações
+     para ocultar/revelar algo) (Bouckaert e Balk, 1991); e manipulação da atuação com foco apenas
+     nas áreas mensuradas, em detrimento de outras, com negligência do que não é mensurado.
+     Também pode haver situações nas quais pressões por outputs geram distorções na seleção de inputs;
+     e complacência, com predominância do desempenho adequado em vez da excelência (Behn e Kant,
+     1999; Grizzle e Pettijohn, 2002; Van Dooren, Bouckaert e Halligan, 2010).
+            O uso e a apropriação das informações sobre desempenho também sofrem limitações. Por um
+     lado, a falta de visibilidade decorre da usual desatenção política e do baixo envolvimento da sociedade.
+     Por outro lado, sistemas de mensuração rígidos e excessivos levam à paralisia (Mayne, 2007; Bouckaert
+     e Balk, 1991; Smith, 1995).
+Governança para Resultados
+                                                                                                         63
+
+
+
+     Entre as limitações relacionadas à implementação, sobressaem os jogos de poder que frequentemente
+geram disputas sobre autonomia e a fragmentação da responsabilidade de implementação (Trivedi, 2018).
+      Estas limitações podem e devem, de variadas formas, ser tratadas na construção de um modelo
+de governança para resultados.
+
+        7 O FUTURO DA GOVERNANÇA PARA RESULTADOS
+Van Dooren, Bouckaert e Halligan (2010) argumentam que o futuro da governança para resultados
+requererá maior agilidade para lidar com a complexidade; maior proximidade da ação; inserção na
+dimensão política; fortalecimento da base factual em evidências e fatos para estruturar o debate
+político; envolvimento de mais atores; ampliação do aprendizado a partir de múltiplas perspectivas
+analíticas; enfrentamento da controvérsia e ambiguidade; e uma cuidadosa argumentação de causas,
+consequências e prioridades.
+     É fundamental que os implementadores da governança para resultados deem-se conta das
+condições e das limitações que circundam qualquer experiência de governança para resultados e
+busquem mitigá-las na fase de concepção dos modelos.
+      Também é fundamental que se amplie e intensifique a pesquisa sobre o tema da governança
+para resultados, a partir de um mapeamento e de uma melhor sistematização conceitual e
+metodológica; da adoção de métodos mistos (quantitativos e qualitativos), novos métodos
+(Hicklin, 2010); da construção de novas e grandes bases de dados para geração de algoritmos
+de desempenho, por meio de redes neurais e outras ferramentas analíticas avançadas de data
+science; e da integração com processos de intervenção mediante o uso de métodos participativos
+e transformacionais, principalmente para geração de instrumentos e ferramentas aplicadas de
+governança para resultados.
+
+
+
+
+        REFERÊNCIAS
+
+AGUILAR, L. F. V. Gobernanza y gestión pública. México: FCE, 2006.
+ANDREWS, R. et al. Assessing organizational performance: exploring differences between internal
+and external measures. International Public Management Journal, v. 13, n. 2, p. 105-129, 2010.
+ARMSTRONG, M. Armstrong’s handbook of reward management practice: improving performance
+through reward. 5th ed. London: Kogan Page, 2015.
+BEHN, R. D.; KANT, P. A. Strategies for avoiding the pitfalls of performance contracting. Public
+Productivity and Management Review, v. 22, n. 4, p. 470-489, 1999.
+BEVAN, G.; HOOD, C. What’s measured is what matters: targets and gaming in the British health
+care sector. Public Administration, v. 84, p. 517- 538, 2006.
+BLAKE, R.; MOUTON, J. The managerial grid: the key to leadership excellence. Houston: Gulf
+Publishing Co, 1964.
+BOUCKAERT, G.; BALK, W. Public productivity measurement: diseases and cures. Public Productivity
+and Management Review, v. 15, n. 2, p. 229-235, 1991.
+                                                                Boletim de Análise Político-Institucional | n. 19 | Dezembro 2018
+64
+
+
+
+     BOYNE, G. et al. (Eds.). Public service performance: perspectives on measurement and management.
+     Cambridge: Cambridge University Press, 2006.
+     BREWER, G. A. All measures of performance are subjective: more evidence on US federal agencies.
+     In: BOYNE, G. et al. (Eds.). Public service performance: perspectives on measurement and
+     management. Cambridge: Cambridge University Press, 2006.
+     DAVENPORT, T. Process innovation: reengineering work through information technology. Harvard:
+     Harvard Business Press, 1993.
+     FIEDLER, F. E. A theory of leadership effectiveness. McGraw-Hill: Harper and Row Publishers
+     Inc, 1967.
+     GRIZZLE, G. A.; PETTIJOHN, C. D. Implementing performance based budgeting: a system
+     dynamics perspective. Public Administration Review, v. 62, p. 51-62, 2002.
+     HICKLIN, A. Methods. In: WALKER, R.; BOYNE, G.; BREWER, G. (Eds.). Public management
+     and performance: research directions. Cambridge: Cambridge University Press, 2010.
+     KAPLAN, R. S.; NORTON, D. P. The strategy-focused organization. Boston: Harvard Business
+     School Press, 2001.
+     KELLY, J. M.; SWINDELL, D. A multiple-indicator approach to municipal service evaluation:
+     correlating performance measurement and citizen satisfaction across jurisdictions. Public Administration
+     Review, v. 62, n. 4, p. 610-620, 2002.
+     LORSCH, J. W. Book review: leadership and decision-making by Vroom and Yetton. MIT Sloan
+     Management Review, v. 15, n. 3, p. 100-102, 1974.
+     MARTINS, H.; MARINI, C. Um guia de governança para resultados na administração pública.
+     Brasília: Publix, 2010.
+     MAYNE, J. Challenges and lessons in implementing results-based management. Evaluation, v. 13,
+     p. 87-109, 2007.
+     MELVILLE, N.; KRAEMER, K.; GURBAXANI, V. Information technology and organizational
+     performance: an integrative model of it business value. MIS Quarterly, v. 28, n. 2, p. 283-322, 2004.
+     MINTZBERG, H. The structuring of organizations: a synthesis of the research. New Jersey:
+     Prentice-Hall Inc, 1979.
+     OECD – ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT.
+     Measuring government activity. Paris: OECD, 2009.
+     OSBORNE, S. The new public governance? Emerging perspectives on the theory and practice of
+     public governance. London: Routledge, 2010.
+     PMI – PROJECT MANAGEMENT INSTITUTE. A Guide to the Project Management Body of
+     Knowledge (PMBOK® Guide). 6th ed. [s.l.]: PMI, 2018.
+     POLLITT, C.; HUPE, P. Talking about government: the role of magic concepts. Public Administration
+     Review, v. 13, n. 5, p. 641-658, 2011.
+     PURCELL, J. et al. People management and performance. London: Routledge, 2009.
+Governança para Resultados
+                                                                                                  65
+
+
+
+SIMON, H. A. Rational choice and the structure of the environment. Psychological Review, v. 63,
+n. 2, p. 129-138, 1956.
+SMITH, P. On the unintended consequences of publishing performance data in the public sector.
+International Journal of Public Administration, v. 18, p. 277-310, 1995.
+TALBOT, C. Theories of performance organizational and service improvement in the public
+domain. Oxford: Oxford University Press, 2010.
+TRIVEDI, P. Barriers to improving government performance. Washington: Aspa, 2018.
+VAN DOOREN, W.; BOUCKAERT, G.; HALLIGAN, J. Performance management in the public
+sector. London: Routledge, 2010.
+VROOM, V. H.; YETTON, P. W. Leadership and decision-making. Pittsburgh: University of
+Pittsburgh Press, 1973.
+WALKER, R.; BOYNE, G.; BREWER, G. Public management and performance: research directions.
+Cambridge: Cambridge University Press, 2010.
+YOUNG, R. Performance-based budget systems. Los Angeles: USC Institute for Public Service
+and Policy Research, 2003. p. 11-24. (Public Policy and Practice).
+

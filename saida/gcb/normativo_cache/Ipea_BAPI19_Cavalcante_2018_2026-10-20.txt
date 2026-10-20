@@ -1,0 +1,323 @@
+URL: https://repositorio.ipea.gov.br/server/api/core/bitstreams/a2ec054c-70e9-4cc4-9995-3101407c9647/content | verificado em 20/10/2026 | obtido por curl (HTTP 200), texto por pdftotext -layout | SHA-256 do PDF: dc9bd7ba54818830715a9b223bd477094a389ae6f8fd520c03415dd6c71d3cf1 | 79748 bytes
+        CONVERGÊNCIAS ENTRE A GOVERNANÇA E O PÓS-NOVA GESTÃO PÚBLICA
+
+                                                                                                                        Pedro Cavalcante1
+
+
+
+
+        1 INTRODUÇÃO
+No fim do século XX, intensos processos reformistas espalhados em países de todos os continentes do
+planeta procuraram introduzir mudanças no aparelho do Estado com vistas a torná-lo mais eficiente a
+partir, principalmente, de práticas consolidadas em organizações da iniciativa privada. Esse movimento,
+denominado de nova gestão pública (NGP), ou new public management (NPM), obteve resultados
+bastante díspares, o que pode ser explicado pela diversidade e pela complexidade dos objetivos, bem
+como pelo arcabouço institucional preexistente nos países que influenciam o alcance das mudanças
+estruturais pretendidas (Pollitt e Bouckaert, 2011a).
+       É inegável, no entanto, que essas reformas, que perduram por algumas décadas, evoluíram
+e incorporam diferentes entendimentos acerca do funcionamento da administração pública e,
+por conseguinte, novos princípios e diretrizes. É notório também que, diante dos altos custos
+transacionais e resultados aquém do planejado, os governos passaram a direcionar seus esforços
+em estratégias pragmáticas de melhorias incrementais e constantes, isto é, os micro-improvements,
+ou inovações nos processos e serviços públicos, que cada vez mais vêm ganhando dimensão central
+no setor público (Cavalcante et al., 2017). Além disso, cabe destacar a convergência da gestão pública
+atual com o tema da governança, que, em diferentes formatos, consegue agregar parte significativa de
+princípios e diretrizes mapeados na literatura e na prática governamental contemporânea, também
+denominado de pós-NGP.
+      A temática vem se proliferado recentemente no campo da administração pública,
+assim como em outras áreas das ciências sociais (Levi-Faur, 2012). Neste artigo, governança
+é entendida como uma reformulação e uma ampliação das formas de relacionamento entre
+Estado e sociedade, ou entre governo, agentes privados e sociedade, na provisão de políticas
+públicas (Menicucci e Gontijo, 2016).
+      Nesse contexto, o objetivo deste artigo é situar a convergência do termo governança com o debate
+de pós-NGP. Para tanto, este trabalho apresenta a evolução do movimento gerencialista ou NGP até
+as tendências do momento atual da administração pública, bem como as suas diferenças em relação às
+premissas originais da NGP. Por fim, são esboçadas a agenda de pesquisa e as recomendações práticas
+do caminho a se seguir nas estratégias de aperfeiçoamento da governança pública.
+
+        2 A EVOLUÇÃO DA NGP
+A NGP surge, com maior ênfase, nos países anglo-saxões a partir de um conjunto de ideias acerca
+das deficiências do modelo burocrático clássico dominante nos governos ocidentais e da necessidade
+de respostas à crise fiscal dos anos 1970. Assim, são propostas reformas e mudanças direcionadas à
+
+
+1. Coordenador de estudos e políticas de Estado e democracia na Diretoria de Estudos e Políticas do Estado, das Instituições e da Democracia
+(Diest) do Ipea.
+                                                                BOLETIM DE ANÁLISE POLÍTICO-INSTITUCIONAL | N. 19 | DEZEMBRO 2018
+18
+
+
+
+     reconfiguração da atuação e do papel do Estado (Christensen e Lægreid, 2007; Hood e Dixon, 2015).
+     Em síntese, a NGP, também denominada de administração pública gerencial, consistiu em um amplo
+     movimento que propagava uma série de mudanças deliberadas de estruturas e processos nas organizações
+     do setor público, com o objetivo de obter melhores desempenhos.
+           Dada a sua complexidade e metamorfose no decorrer dos anos, a literatura tende a separar a
+     NGP em duas gerações ou fases. A primeira, iniciada no fim dos anos 1970 e proliferada a partir da
+     década seguinte, tinha como perspectiva central a necessidade de as organizações do setor público
+     adaptarem-se e funcionarem aos moldes da iniciativa privada. A NGP consiste em um modelo prescritivo
+     pós-burocrático para a estruturação e o gerenciamento da máquina pública baseado nos princípios
+     e nas diretrizes de eficiência, eficácia e competitividade e em instrumentos de gestão oriundos de
+     organizações privadas (Christensen e Lægreid, 2007; Goldfinch, 2009).
+           Pollitt e Bouckaert (2011b) argumentam que a NGP, no âmbito administrativo, consiste
+     no conjunto de conceitos e práticas específicos, tais como: ênfase no desempenho, por meio de
+     mensuração de indicadores de custos, processos e resultados/impactos; preferência por formas
+     organizacionais mais enxutas e especializadas em detrimento à ideia de grandes organizações
+     multifuncionais; introdução generalizada de mecanismos típicos de mercado, como abertura à
+     concorrência, remuneração por desempenho e foco no tratamento de usuários de serviços como
+     clientes. Uma categorização recorrente na literatura desenvolvida por Dunleavy et al. (2006)
+     condensa o movimento gerencialista em três grandes diretrizes: i) desagregação: hierarquias mais
+     amplas e internamente mais planas, com controles via sistemas gerenciais e de informações;
+     ii) concorrência: separação comprador/prestador nas estruturas governamentais com vistas a
+     promover competição entre potenciais prestadores de serviços; iii) incentivação: motivação de
+     servidores restrita a incentivos pecuniários de desempenho.
+           A segunda geração da NGP caracteriza-se pelo fato de que o enfoque das iniciativas reformistas
+     pela busca por eficiência e redução de gasto é complementado pela priorização da qualidade dos serviços
+     prestados, pelo empoderamento do cidadão no processo de escolha de serviços via competição entre
+     os órgãos e por accountability e transparência.
+            Essa característica de maior envolvimento societal na gestão e no policy-making reflete também
+     na diversificação da participação não apenas da sociedade civil, mas também do setor privado, o que
+     resultou em estratégias inovadoras de condução de serviços públicos para além da própria execução,
+     privatização e contratualização (terceiro setor).
+           Assim, o objetivo de promoção de um governo mais flexível e eficiente, como também
+     responsivo à sociedade, intensificou o uso de ferramentas de gestão de desempenho, tanto em
+     processos de avaliação e monitoramento das políticas quanto no gerenciamento dos recursos
+     humanos. Ademais, é evidente a tendência de enxugamento das responsabilidades e funções
+     estatais, seja na transferência para os governos regionais ou locais, seja para novas formas de
+     publicização dos serviços públicos, instituições com fins lucrativos ou não (Goldfinch, 2009;
+     Pollitt e Bouckaert, 2011b).
+           Nota-se, portanto, uma clara complexificação dos objetivos e princípios norteadores
+     entre a geração original do movimento e as reformas da segunda fase. A figura 1 sintetiza
+     essa mudança.
+CONVERGÊNCIAS ENTRE A GOVERNANÇA E O PÓS-NOVA GESTÃO PÚBLICA
+                                                                                                             19
+
+
+
+        FIGURA 1
+        Características das duas gerações da NGP
+
+
+                                                • eﬁciência/economicidade;
+                 a                              • privatização/terceirização;
+               1 geração                        • competição intragovernamental;
+                                                • gestão e controle por resultados (ex post).
+
+
+
+
+                                                • qualide/efetividade;
+                 a                              • participação social;
+               2 geração                        • accountability e transparência;
+                                                • descentralização e publicização dos serviços públicos.
+
+
+
+        Elaboração do autor.
+
+
+      Apesar de as reformas não terem alcançado os resultados planejados, isso não significa que os
+seus objetivos e diretrizes não tenham gerado mudanças no funcionamento da administração pública
+pelo mundo. E é justamente essa influência que discutiremos na próxima seção.
+
+        3 CONVERGÊNCIA ENTRE GOVERNANÇA E O PÓS-NGP
+Diante da complexidade e do dinamismo das reformas e tentativas de mudança da administração
+pública, a literatura que analisa o pós-NGP converge para a percepção de que os princípios e as
+diretrizes que vêm norteando as práticas de gestão constituem um processo mais de continuidade e
+incrementalismo do que propriamente ruptura com o paradigma anterior.
+        Cabe salientar que esse novo direcionamento ainda se justifica devido aos efeitos indesejáveis
+causados pelas reformas da NGP. Os processos de agencificação e descentralização excessivos geraram
+alta fragmentação e desagregação do aparato administrativo do Estado, e, por conseguinte, reduziram a
+capacidade de coordenação e controle das ações governamentais (Christensen e Lægreid, 2007; Pollitt, 2010;
+Dommett e Flinders, 2015).
+       Assim, a visão hegemônica é que a prática da gestão no século XXI tende a desvincular-se do
+enquadramento pleno aos modelos ou paradigmas e enfatizar em tendências, em termos de princípios
+e diretrizes (Christensen e Lægreid, 2007; Pollitt e Bouckaert, 2011a; Greve, Lægreid e Rykkja; 2016).
+Nesse contexto, a administração contemporânea não apenas mantém alguns componentes
+originais do movimento gerencialista, tais como a eficiência, a gestão por desempenho e o
+foco nos resultados/impactos, mas, sobretudo, incorpora e enfatiza a combinação de outros
+princípios e diretrizes na construção de arranjos de governança propensos a processos inovadores
+(Cavalcante, 2017). Assim, as tendências do pós-NGP são:
+        a) colaboração e parcerias: processos colaborativos de variadas formas;
+        b) redes: atuação em redes na provisão de serviços públicos;
+        c) visão integrada e holística: serviços públicos integrados e perspectiva da administração como
+           um todo – coesa e coerente;
+                                                                                     BOLETIM DE ANÁLISE POLÍTICO-INSTITUCIONAL | N. 19 | DEZEMBRO 2018
+20
+
+
+
+              d) coordenação e controle: fortalecimento das capacidades de coordenação e monitoramento
+                 das políticas estratégicas, especialmente pelo núcleo de governo;
+              e) accountability: processos de ampliação da prestação de contas e capacidade de respostas da
+                 administração pública à sociedade;
+              f ) participação e engajamento: ampliação de canais de participação social no policy-making e
+                  fomento ao envolvimento da sociedade;
+              g) e-government: incorporação frequente do uso de tecnologias da informação para aumentar
+                 a transparência do setor público, bem como acesso e envolvimento do cidadão;
+              h) liderança: importância do papel do líder (político, administrativo ou cidadão) na gestão
+                 pública, sobretudo em processos empreendedores;
+              i) fortalecimento da burocracia pública: profissionalização e valorização do quadro funcional
+                 do Estado com vistas a torná-lo mais eficiente, interdisciplinar e responsivo à sociedade.
+           Ademais, a característica mais emblemática da gestão pública atual é a convergência com o
+     tema da governança, que, em diferentes formatos, consegue agregar parte significativa de princípios
+     e diretrizes do pós-NGP mapeados na literatura e na prática governamental (Cavalcante, 2017)
+     e bastante alinhado com as análises de Menicucci e Gontijo (2016):
+                  o tema governança se tornou um lugar-comum no debate contemporâneo sobre gestão pública e
+                  políticas públicas e uma palavra-chave durante os anos 1990, definindo um novo papel para o Estado
+                  na sociedade (…). O termo tem forma bastante heterogênea, governança empreendedora, governança
+                  cooperativa, boa governança, governança participativa, governança local e governança sociopolítica,
+                  entre outras (…). Em geral, governança se refere à redefinição e ampliação das formas de relacionamento
+                  ente o Estado e a sociedade ou entre governo, agentes privados e sociedade, tendo como traço distinto
+                  a dimensão relacional, como tal marca uma descentralização do processo decisório e da ação pública
+                  para fora dos limites das instituições formais do Estado (Menicucci e Gontijo, 2016, p. 17).
+
+            Apesar de limitações dessa comparação, com base nessas tendências é possível identificar diferenças
+     entre o direcionamento atual da administração pública em relação às premissas originais do movimento NGP.
+     Como foi mencionado anteriormente, essa mudança ocorreu de forma incremental nas últimas três
+     décadas; embora seja um processo evolutivo, todavia, é notória a distinção entre a gestão pública no
+     início da NGP e o seu debate atual. O quadro 1 sintetiza tais diferenças.
+
+              QUADRO 1
+              Diferenças da NGP e do pós-NGP no debate de governança pública
+                                                                NGP original                         Pós-NGP no debate de governança pública
+      Foco                                Cliente/consumidor.                                   Cidadão como parceiro.
+      Fonte inspiradora                   Lógica do mercado.                                    Redes.
+                                          Eﬁciência.
+                                                                                                Conﬁança.
+      Crenças fundamentais                Competição.
+                                                                                                Reciprocidade.
+                                          Contratos.
+                                          Desagregação.                                         Visão holística e integrada.
+      Orientação estratégica              Concorrência.                                         Colaboração.
+                                          Incentivação (pecuniária).                            Proﬁssionalização e inclusão.
+      Visão do Estado                     Superioridade administrativa do mercado.              Fortalecimento da capacidade burocrática (interativa).
+              Fonte: Cavalcante (2017).
+CONVERGÊNCIAS ENTRE A GOVERNANÇA E O PÓS-NOVA GESTÃO PÚBLICA
+                                                                                                               21
+
+
+
+       Enquanto a fonte inspiradora da administração pública tradicional, dentro da perspectiva do
+modelo burocrático, é a hierarquia, a da NGP é, principalmente, a lógica do mercado. No pós-NGP,
+a inspiração advém das redes, nas quais a gestão e a provisão de políticas públicas passam a se fundamentar.
+Assim, diferentemente da NGP, com as suas crenças fundamentais de eficiência, competição e contratos,
+no debate de governança pública elas são mais próximas da confiança e da reciprocidade
+      Se na sua essência, nas reformas da NGP preconizavam a desagregação das organizações públicas,
+a concorrência ou a competição intragovernamental e o foco em incentivos pecuniários atrelados ao
+desempenho (Dunleavy et al., 2006), atualmente as orientações envolvem a visão holística e integrada
+da ação pública, a colaboração e a formação de redes, a ênfase em incentivos para além dos pecuniários,
+incluindo interdisciplinaridade e responsividade dos servidores perante à sociedade, como também o
+envolvimento e o engajamento da sociedade.
+       Destaca-se ainda a convergência dessas tendências com o conceito de governança nas organizações
+do setor público (Menicucci e Gontijo, 2016), uma vez que elas pressupõem a atuação em sociedades
+complexas e pluralistas como as atuais, fundamentada nas redes de parcerias e colaborações.
+Essa ampliação diversificada das formas de relacionamento estatal pode se materializar pelo compartilhamento
+de atividades e funções para agentes privados, buscando, primariamente, objetivos relacionados à
+eficiência e ao desempenho, como na primeira geração do movimento gerencialista ou com objetivos
+de democracia e accountability, próximos das iniciativas mais recentes.
+      Se a administração pública tradicional voltava-se para o usuário e a ênfase da NGP oscilou
+de cliente e, posteriormente, consumidor, na lógica de governança o foco é o cidadão como
+parceiro do processo de formulação e implementação de políticas públicas. O cidadão não apenas
+como beneficiário final do serviço público, mas também um ator importante no processo de
+construção de valor público.
+       Em relação ao papel do Estado, em vez de valorizar o isolamento da burocracia, aos moldes
+do modelo tradicional, ou a supremacia do mercado na provisão dos serviços públicos, o olhar
+volta-se ao fortalecimento da capacidade da burocracia em liderar esse processo, porém com
+uma relação mais interativa com a sociedade. Nesse sentido, a governança pública reconhece a
+importância da função estatal nas políticas públicas, mas não como único remador, e sim como
+direcionador (Sørensen, 2012). Essa concepção mais híbrida de administração pública reforça
+a relevância da liderança e do aparato estatal na provisão de serviços públicos, reconhecendo que a
+capacidade inovadora tende a ampliar-se quando articulada com atores sociais e da iniciativa priva,
+tanto nos processos deliberativos quanto na implementação e no controle das políticas públicas
+(Cavalcante, 2017).
+      Com base nessas tendências e características colaborativas, a governança tende a ampliar as
+capacidades estatais e as condições à inovação no setor público, como bem expõe Sørensen (2012)
+no trecho a seguir:
+            formas interativas de governança proporcionam uma forma de envolver atores relevantes para
+            alcançar uma melhor compreensão da natureza desses problemas, estimulando e explorando seu
+            compromisso de encontrar e implementar soluções viáveis e de avaliar a qualidade dos resultados
+            de governança (...). A inovação é vista como impulsionada por interações institucionalmente
+            estruturadas entre múltiplos atores com diferentes recursos, competências e perspectivas,
+            e a tarefa dos gerentes de inovação é projetar condições institucionais que promovam e orientem
+            essa interação (Sørensen, 2012, p. 218-219).
+                                                                   BOLETIM DE ANÁLISE POLÍTICO-INSTITUCIONAL | N. 19 | DEZEMBRO 2018
+22
+
+
+
+          O papel do quadro funcional no setor público, portanto, no contexto da governança pública,
+     depende do fortalecimento de capacidades interdisciplinares, de constante responsividade à sociedade,
+     como também de liderança com componentes interativos.
+
+           4 CAMINHO A SEGUIR: RECOMENDAÇÕES PRÁTICAS E AGENDA DE PESQUISA
+     Este artigo procurou contextualizar o conceito de governança dentro do debate contemporâneo da
+     administração pública após as ondas reformistas baseadas na NGP. Diante da variedade de definições
+     do termo (Levi-Faur, 2012), utilizou-se governança como restruturação e alargamento das estratégias de
+     relacionamento do setor público com a sociedade e os agentes privados (Menicucci e Gontijo, 2016).
+           Esse debate e essa linha de pesquisa são essenciais para superarmos visões estigmatizadas
+     e excessivamente normativas que nortearam e continuam influenciando as discussões sobre o
+     funcionamento do setor público.
+           A era pós-NGP, em vez de focar esforços reformistas de grande escala, pressupõe uma visão do
+     funcionamento da máquina pública mais realista e equilibrada entre setor público, privado e sociedade civil.
+     Assim, tende a impactar a aplicação dos princípios e das diretrizes (tendências) nos instrumentos de
+     gestão e processos/serviços inovadores. Nessa direção, do ponto de vista da construção de capacidades
+     de gestão para efetivação das políticas públicas convergente ao debate de governança, em diferentes
+     graus e medidas, as ações governamentais devem considerar as seguintes recomendações:
+           •   fomento à colaboração, às parcerias e às redes não restritas ao relacionamento intragovernamental,
+               mas também formatos alternativos entre o setor público e a sociedade, o governo e o mercado
+               e a sociedade e a iniciativa privada na provisão de serviços públicos;
+           •   promoção de estratégias que ampliem as formas alternativas de accountability para além
+               do burocrático (interno e externo) e o engajamento social no policy-making, seja de forma
+               presencial, seja via iniciativas de e-government;
+           •   fortalecimento de instrumentos de coordenação, sobretudo no núcleo de governo, para
+               implementação de planos de governo de caráter holístico e integrado com monitoramento
+               transparente do desempenho;
+           •   seleção, formação e treinamento do quadro funcional do Estado e das lideranças voltadas
+               para o aprimoramento de habilidades e competências para atuarem de forma interativa e
+               responsiva em atividades nos diferentes arranjos de governança e em suas intercessões.
+           Do ponto de vista de agenda futura de pesquisa, esse panorama da gestão pública pode
+     ser complementado por investigações mais detalhadas, sejam por estudo de casos, sejam por
+     análises comparadas de políticas ou setores governamentais, acerca das características dos
+     arranjos institucionais das políticas públicas. Além disso, é importante pesquisar as barreiras,
+     os fatores facilitadores, como também os resultados e os impactos de experiências de ações
+     e programas que inovaram na forma de estruturar e dividir as responsabilidades entre setor
+     público, privado e sociedade civil.
+CONVERGÊNCIAS ENTRE A GOVERNANÇA E O PÓS-NOVA GESTÃO PÚBLICA
+                                                                                                    23
+
+
+
+        REFERÊNCIAS
+
+CAVALCANTE, P. Gestão pública contemporânea: do movimento gerencialista ao pós-NPM.
+Brasília: Ipea, 2017. (Texto para Discussão, n. 2319).
+CAVALCANTE, P. et al. (Orgs.). Inovação no setor público: teoria, tendências e casos no Brasil.
+1. ed. Brasília: Ipea, 2017.
+CHRISTENSEN, T.; LÆGREID, P. The whole‐of‐government approach to public sector reform.
+Public Administration Review, v. 67, n. 6, p. 1059-1066, 2007.
+DOMMETT, K.; FLINDERS, M. The centre strikes back: meta‐governance, delegation, and the
+core executive in the United Kingdom, 2010-14. Public Administration, v. 93, n. 1, p. 1-16, 2015.
+DUNLEAVY, P. et al. New public management is dead: long live digital-era governance. Journal of
+Public Administration Research and Theory, v. 16, n. 3, p. 467-494, 2006.
+GOLDFINCH, S. New Zealand: reforming a new public management exemplar? In: GOLDFINCH,
+S.; WALLIS, J. (Eds.). International handbook of public management reform. Cheltenham: Edward
+Elgar Publishing, 2009.
+GREVE, C.; LÆGREID, P.; RYKKJA, L. H. (Eds.). Nordic administrative reforms: lessons for
+public management. Berlin: Springer, 2016.
+HOOD, C.; DIXON, R. A government that worked better and cost less? Evaluating three decades
+of reform and change in UK central government. Oxford: Oxford University Press, 2015.
+LEVI-FAUR, D. From “big government” to “big governance”? In: LEVI-FAUR, D. (ed.). The Oxford
+Handbook of Governance. Oxford: Oxford University Press, 2012.
+MENICUCCI, T.; GONTIJO, J. G. L. Gestão e políticas públicas no cenário contemporâneo:
+tendências nacionais e internacionais. Rio de Janeiro: Fiocruz, 2016.
+POLLITT, C. Simply the best? The international benchmarking of reform and good governance.
+In: PIERRE, J.; INGRAHAM, P. (Eds.) Comparative administrative change and reform: lessons
+learned. Montreal: McGill-Queen’s University Press, 2010.
+POLLITT, C.; BOUCKAERT, G. Public management reform: a comparative analysis-new public
+management, governance, and the neo-Weberian state. Oxford: Oxford University Press, 2011a.
+______; ______. Continuity and change in public policy and management. Cheltenham: Edward
+Elgar Publishing, 2011b.
+SØRENSEN, E. Governance and innovation in the public sector. In: LEVI-FAUR, D. (Ed.).
+The Oxford Handbook of Governance. Oxford: Oxford University Press, 2012.
+

@@ -1,0 +1,482 @@
+URL: https://repositorio.cgu.gov.br/bitstream/1/29544/10/documento_didatico_cadeia_valor.pdf | verificado em 20/10/2026 | obtido por curl (HTTP 200), texto por pdftotext -layout | SHA-256 do PDF: fc106e48b2733d0e9b92f8ac83b4162c7d01c4bc7763058565f89cbb57c69898 | 556930 bytes
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+                                           CADEIA DE VALOR DA CGU
+                         Projeto “Implantação da Gestão de Processos da CGU”
+
+
+Oportunidades:
+    •   O desenvolvimento do projeto para implantação de um modelo de gestão de processos para a CGU
+        promove a avaliação dos grandes processos do órgão;
+    •   Exigência de novo formato de prestação de contas pelo TCU, a partir do exercício de 2018, baseado
+        no modelo de relato integrado, para apresentação do Relatório de Gestão;
+    •   Proximidade da revisão do planejamento estratégico da CGU para 2020-2023.
+
+
+1. O que é cadeia de valor?
+A cadeia de valor foi concebida por Michael Eugene Porter1, no final da década de 80, como um instrumento
+de gestão estratégica de negócio, cujo objetivo é transmitir de forma simples, por meio de uma representação
+gráfica, quais atividades impactam diretamente no valor gerado pela empresa.
+Mas o que é valor gerado por uma empresa? Conceitos diversos foram desenvolvidos para definir valor e,
+dentre esses, de que valor é algo percebido pelo cliente do negócio. Seguindo a definição de Porter, valor é
+quanto os clientes estão dispostos a pagar pelo que é ofertado. Consequentemente, o crescimento da
+empresa estaria relacionado ao grau de satisfação que a empresa é capaz de gerar no cliente, a ponto de que
+esse pague um valor maior pelo produto, cobrindo custos do empreendimento.
+Dessa forma, a cadeia de valor revela que todas as atividades desenvolvidas pela empresa – desde a aquisição
+de matéria-prima, passando por atividades de recursos humanos, até a entrega de um bem, ou a prestação
+de um serviço – formam um elo em cadeia, de atividades interdependentes, cujo fim último é a satisfação dos
+clientes.
+Conforme o CBOK, a cadeia de valor “enfatiza a captura de processos e atividades que adicionam valor ao
+serviço ou produto entregue ao cliente. Proporciona uma visão geral, mas não uma visão detalhada dos
+processos de negócio. (...) Diversas abordagens para cadeia de valor empregam seu próprio conjunto de
+símbolos, mas, em geral, são facilmente interpretados e frequentemente empregam uma seta ou um traço
+horizontal para expressar cada passo na cadeia. Grupos de passos podem ser sumarizados sob um objeto de
+‘processo superior’” (pág. 93, 3ª Edição).
+
+
+
+
+1
+ Michael Eugene Porter, professor na Harvard Business School, autor de obras no campo da estratégia competitiva de
+empresas.
+
+
+
+                        diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                   61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+
+
+                                       Cadeia de Valor de Porter (fonte: Porter, 1989)
+
+
+
+Os desenhos de cadeia de valor introduzem dois conceitos basilares utilizados na busca do (auto)
+conhecimento da entidade para o melhor gerenciamento de seus processos:
+    •   O primeiro, também trazido por Porter, trata da natureza das atividades desenvolvidas pela
+        organização, o que permite a classificação das atividades em três tipos de processos;
+    •   O segundo, utilizado na metodologia Business Process Management (BPM), refere-se à hierarquia de
+        processos, em níveis, em que estão conjugadas as atividades para a entrega de um resultado, produto
+        ou serviço, o que permitirá a administração dos processos da entidade como ativos.
+
+
+1.1. Tipos de Processo
+Porter observou que as atividades desenvolvidas em uma organização podem ser “de suporte” ou “de apoio”,
+ou do tipo “estratégico”, “gerencial”, ou de “gestão”, de acordo com a natureza e a relação mediata ou
+imediata em relação ao produto ou serviço prestado ao cliente. O diferencial entre as instituições residiria na
+forma como as empresas realizam as atividades alocadas nos processos chamados “primários” ou
+“finalísticos”, considerados aqueles que guardam relação direta com o produto ou serviço entregue aos
+clientes, fazendo cumprir sua missão institucional ou seu propósito declarado. Daí a importância de visualizar
+a missão da organização junto à cadeia de valor, que deverá estar coerente com os processos executados.
+Conforme definição do CBOK, os tipos de processos podem ser assim definidos:
+    •   Processo primário: frequentemente referenciados como processos essenciais ou finalísticos,
+        representam as atividades essenciais que uma organização executa para cumprir sua missão. Esses
+        processos constroem a percepção de valor pelo cliente por estarem diretamente relacionados à
+        experiência de consumo do produto ou serviço (...).
+        Processos primários podem fluir através de áreas funcionais ou até entre organizações e fornecer uma
+        visão completa ponta a ponta de criação de valor, devendo ser estabelecidos a partir da perspectiva
+        do cliente e dos ‘momentos da verdade’ resultantes da experiência de consumo. Somente aquelas
+
+
+
+
+                         diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                    61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+           atividades que imediatamente influenciam e impactam essa experiência são partes do processo
+           primário; atividades que influenciam e impactam, porém não imediatamente, podem ser
+           consideradas como parte de processos de suporte;
+      •    Processo de suporte: existe para prover suporte a processos primários, mas também pode prover
+           suporte a outros processos de suporte (processos de suporte de segundo nível, terceiro nível e
+           sucessivos) ou processos de gerenciamento. A diferença principal entre os processos primários e os
+           de suporte é que processos de suporte entregam valor para outros processos e não diretamente para
+           os clientes. Apesar de estarem associados a áreas funcionais, frequentemente são interfuncionais. O
+           fato de processos de suporte não gerarem diretamente valor para os clientes não significa que não
+           sejam importantes para a organização.
+           Os processos de suporte podem ser fundamentais e estratégicos para a organização na medida em
+           que aumentam sua capacidade de efetivamente realizar os processos primários.
+      •    Processo de gerenciamento: tem o propósito de (sic) para medir, monitorar, controlar atividades e
+           administrar o presente e o futuro do negócio. Processos de gerenciamento, assim como os processos
+           de suporte, não agregam valor diretamente para os clientes, mas são necessários para assegurar que
+           a organização opere de acordo com seus objetivos e metas de desempenho. Podem estar associados
+           a áreas funcionais ou serem interfuncionais.
+
+
+1.2. Hierarquia dos Processos
+O segundo conceito possibilita a visão das funções realizadas por uma entidade que possam ter algo em
+comum, conforme o fim ou macrofunção dessas no negócio, a partir de um nível maior de aglomeração de
+processos, até a decomposição desses em atividades e tarefas. Quanto menor o nível de processo, até a sua
+decomposição em atividade ou tarefa, mais evidente é o que está sendo realizado.
+Segundo o CBOK, “organizações diferentes podem usar um número diferente de níveis e também chamá-los
+de forma diferente de acordo com os métodos e convenções adotados. O importante é o processo ser
+desdobrado em um nível baixo o suficiente para entender as tarefas e respectivos passos que serão
+executados e como funcionam em conjunto para alcançar a meta do processo.”
+A esse respeito, cita-se o exemplo da bibliografia nacional de Reis e Blattman2, que propõe a hierarquia de
+processos em três níveis: macroprocessos (1º nível), subprocessos (2º nível), atividades (3º nível). Harrington3,
+por sua vez, propõe uma divisão em quatro níveis: macroprocessos (1º nível), subprocessos (2º nível),
+atividades (3º nível), tarefas (4º nível).
+A partir dos conceitos de tipos de processos e hierarquia de processos, é possível representar a cadeia de valor
+da organização. Como já afirmado, a cadeia de valor propicia uma visão do mais alto nível das funções,
+normalmente refletindo os macroprocessos (1º nível) e os processos de 2º nível.
+A observação do CBOK quanto à existência de múltiplas abordagens para a cadeia de valor é facilmente
+perceptível quando se buscam exemplos. As organizações imprimem o seu próprio estilo para representar
+graficamente suas cadeias de valor, não havendo, portanto, uma regra única para esse desenho.
+
+2
+    Gestão de processos em biblioteca. 2004.
+3
+    (1993, p.34)
+
+
+
+                          diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                     61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+
+
+1.3. O Relatório Integrado4
+O International Integrated Reporting Council (IIRC), uma organização civil global que reúne reguladores,
+investidores, empresas, definidores de padrões, profissionais do setor contábil e ONGs, crê que “comunicar a
+geração de valor deverá ser o próximo passo evolutivo para relatos corporativos”, sugerindo o modelo do
+chamado “Relato Integrado”5 , que prevê uma abordagem para comunicação de resultados, construída sob a
+perspectiva da capacidade de geração de valor de uma organização no curto, médio ou longo prazo.
+O Relatório Integrado está ancorado nas respostas às seguintes perguntas que concretizam os princípios que
+lhe são aplicáveis:
+
+
+                Princípios                                                    Perguntas
+
+      Visão geral organizacional e       O que a organização faz e sobre quais circunstâncias ela atua?
+           ambiente externo
+
+                                         Como a estrutura de governança da organização apoia sua capacidade
+              Governança
+                                         de gerar valor em curto, médio e longo prazo?
+          Modelo de negócios             Qual é o modelo de negócios de organização?
+                                         Quais são os riscos e oportunidades específicos que afetam a
+        Riscos e oportunidades           capacidade da organização de gerar valor em curto, médio e longo
+                                         prazo, e como a organização lida com eles?
+    Estratégia e alocação de recursos    Para onde a organização deseja ir e como ela pretende chegar lá?
+                                         Até que ponto a organização já alcançou seus objetivos estratégicos
+             Desempenho                  para o período e quais são os impactos no tocante aos efeitos sobre os
+                                         capitais?
+                                         Quais são os desafios e as incertezas que a organização provavelmente
+              Perspectiva                enfrentará ao perseguir sua estratégia e quais são as potenciais
+                                         implicações para seu modelo de negócios e seu desempenho futuro?
+                                         Como a organização determina os temas a serem incluídos no relatório
+        Base para apresentação
+                                         integrado e como estes temas são quantificados ou avaliados?
+
+
+
+4
+  Relatório Integrado: é um relatório conciso sobre como a estratégia, a governança, o desempenho e as perspectivas
+de uma organização, no âmbito de seu ambiente externo, levam à geração de valor em curto, médio e longo prazo.
+. http://integratedreporting.org/wp-content/uploads/2015/03/13-12-08-THE-INTERNATIONAL-IR-FRAMEWORK-Portugese-final-
+1.pdf
+
+5
+ Relato Integrado: Um processo baseado em pensamento integrado, que resulta em um relatório integrado periódico
+por uma organização sobre a geração de valor ao longo do tempo e as respectivas comunicações sobre aspectos da
+geração de valor. http://integratedreporting.org/wp-content/uploads/2015/03/13-12-08-THE-INTERNATIONAL-IR-FRAMEWORK-
+Portugese-final-1.pdf
+
+
+
+
+                         diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                    61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+O Relatório é uma tendência das grandes corporações mundiais, consolidando-se como um padrão
+informativo de resultados às partes interessadas dos negócios, pressionando as corporações a refletirem sobre
+sua cadeia de valor ou a elaborarem, aliando esse documento a outros instrumentos de planejamento e gestão
+estratégica, para a comunicação de resultados e busca de credibilidade – ainda que relativa aos interessados
+– sobre suas condições para o desempenho de seus projetos (visão, objetivos e estratégias) num horizonte
+temporal.
+
+
+
+
+                      diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                 61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+2. A cadeia de valor público
+A cadeia de valor público é uma adaptação da cadeia de valor de Porter. Assim, como desde a década de 90
+mais decididamente, o Estado brasileiro tem buscado prover recursos ao erário com instrumentos e institutos
+da iniciativa privada, a utilização de ferramentas de administração gerencial na administração pública surge
+como uma tendência natural que vem se consolidando, a exemplo do Decreto de Governança nº 9.203, de
+22/11/2017 que se inspira na gestão empresarial.
+O referido Decreto, no art. 2º, II, define valor público como
+                         “produtos e resultados gerados, preservados ou entregues pelas atividades de uma
+                         organização que representem respostas efetivas e úteis às necessidades ou às demandas de
+                         interesse público e modifiquem aspectos do conjunto da sociedade ou de alguns grupos
+                         específicos reconhecidos como destinatários legítimos de bens e serviços públicos;”
+
+
+
+A definição de valor público do Decreto de Governança, por óbvio, não poderia ser de fato aquela proposta
+por Porter, posto que a administração pública tem o propósito distinto de suprir uma necessidade da
+população, mormente no campo da saúde, da educação ou da segurança pública, típicos serviços quase-
+exclusivos que devem ser prestados pelo poder público zelando pela eficiência, eficácia e efetividade, e não
+necessariamente fazendo despertar no seu cliente um desejo de consumo, pelo diferencial de seu produto ou
+serviço prestado, consequência de um ambiente concorrencial objeto de estudo do autor. Nada obstante, a
+geração de “valor”, ainda que por conceitos não idênticos, seja no âmbito público ou privado, leva em
+consideração a eficiência e o combate ao desperdício de tempo ou outros recursos, no caminho percorrido
+(processo) até a meta final de entrega de um bem ou serviço. A despeito da legítima definição de valor público
+proposta no Decreto nº 9.203/2017, valor público está também associado ao grau de reconhecimento de
+atendimento ou satisfação por parte do cidadão, ou outro público específico, de que o Estado executa
+determinada função que lhe foi legalmente atribuída.
+Recentemente, o TCU publicou documento6 que clarifica a diferença da expressão “gerar valor” no setor
+privado e no setor público:
+                         “A criação de valor das empresas do setor privado é retratada pelo valor das ações no mercado
+                         de capitais ou pelo preço de venda da companhia de capital fechado. No setor público, a
+                         expressão “gerar valor” pode ser entendida como gerar resultado que atenda às necessidades
+                         de interesse público.” (p.13)
+
+
+
+Assim como na iniciativa privada, no setor público em geral observa-se a inexistência de um padrão para
+representação da cadeia de valor.
+
+
+
+
+6
+ Brasil. Tribunal de Contas da União. Relatório de gestão na forma de relato integrado: evolução da prestação de
+Contas.
+
+
+
+                        diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                   61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+2.1. Cadeia de valor público e o novo modelo de Prestação de Contas ao TCU
+O novo modelo de prestação de contas, no que tange à peça do Relatório de Gestão, foi aperfeiçoada e aderiu
+ao modelo de Relatório Integrado. Segundo o TCU:
+                         “O principal objetivo de aplicar a Estrutura Internacional para o Relato Integrado a
+                         organizações do setor público é explicar como elas alcançam seus objetivos e geram
+                         resultados ao longo do tempo, isto é, criam valor público. O conceito de criação de valor
+                         público se refere às atividades de uma organização, as quais demandam o uso de diversos
+                         recursos – financeiros, materiais, pessoais, entre outros – e resultam em produtos ou serviços
+                         que atendam às necessidades de interesse público.” (p.15)7
+
+
+O modelo de relato integrado está em sintonia com instrumentos de governança propostos no Decreto nº
+9.203/2017. Esses instrumentos estão também conectados; por exemplo, a gestão dos riscos das organizações
+é fortemente aperfeiçoada quando se estabelece uma metodologia de gestão de processos que, por sua vez,
+fornece a estrutura para elaboração da cadeia de valor, que auxilia o estabelecimento de objetivos
+estratégicos a partir da missão institucional, incluindo os meios para atingir os objetivos.
+Destaca-se ainda o conceito de pensamento integrado, que vai ao encontro da visão de alto nível propiciada
+pela cadeia de valor ao fornecer uma visão integrada de esforços (junção de processos) para produzir
+resultados em temas em que atua ou grandes objetivos da organização, característica que também é um traço
+da perspectiva de gerenciamento de processos em BPMN:
+                         “O relato integrado se afasta do modelo de negócio fragmentado e baseado em silos – em que
+                         cada parte do relatório está sob a responsabilidade de uma unidade que não entende a
+                         informação gerada por outra –, para adotar a forma integrada, participativa e com o
+                         envolvimento da alta gestão, o chamado pensamento integrado.”
+
+
+
+
+7
+ Brasil. Tribunal de Contas da União. Relatório de gestão na forma de relato integrado: evolução da prestação de
+Contas.
+
+
+
+                        diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                   61 2020-7253   Brasília/DF - CEP 70070-905
+                  CGU
+                  Controladoria-Geral da União
+                  Secretaria-Executiva
+                  Diretoria de Planejamento e Desenvolvimento Institucional
+                  Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+                  3. A cadeia de valor público da CGU
+
+
+                  O desenvolvimento da cadeia de valor da CGU pela CODIN/DIPLAD é uma entrega do projeto “Implantação da
+                  Gestão de Processos na CGU” (Clarity ID 000888). O projeto avançou para o desenvolvimento de uma
+                  metodologia de gestão de processos, que propõe a adoção de cinco níveis de processos, baseando-se na
+                  disciplina BPMN.
+
+
+                  3.1. Método
+                  A cadeia de valor deve representar o propósito existencial da CGU, que pode ser extraído do conjunto das
+                  atribuições previstas nos normativos que instituem a Controladoria.
+                  Para a construção da cadeia de valor da CGU, foi utilizado inicialmente o Decreto nº 9.681, de 03 de janeiro
+                  de 2019, que manteve o status ministerial do órgão, devolvendo a sua nomenclatura para Controladoria-Geral
+                  da União e adicionando uma Secretaria à estrutura, a Secretaria de Combate à Corrupção.
+                  Anteriormente, foi também analisado o Regimento Interno da CGU (Portaria nº 677, de 10 de março de 2017).
+                  Com a edição do novo Decreto, aguarda-se a publicação de nova Portaria de Regimento Interno com a nova
+                  estrutura da CGU.
+                  A definição da cadeia de valor da CGU desmembra os seus macroprocessos, trazendo uma visão orientada a
+                  processos. Uma imagem intuitiva dessa visão pode ser assim representada:
+
+
+
+
+                      Gestão da                                                                                           Controle das Contas de
+Cadeia de Valor
+
+
+
+
+                                                         Promoção do Controle Social
+                      Correição                                                                                                  Governo
+
+
+
+                                         Desenvolver                                           Supervisionar a
+                                         Atividades de       Promover a Transparência          Lei de Acesso à
+                                          Ouvidoria                                              Informação
+
+
+
+                                                                                 Atualizar
+                                                         Gerir Portal da
+                                                                               Escala Brasil
+                                                         Transparência
+                                                                              Transparente
+
+
+
+
+                                                                   Fonte: Elaboração própria.
+
+
+
+
+                                        diplad.codin@cgu.gov.br        SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                                   61 2020-7253        Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+4. Relação entre a missão da CGU e os valores públicos gerados
+É usual verificar que as declarações de missão das organizações reverenciam os seus valores públicos, embora,
+como dito anteriormente, os valores, mesmo os públicos, são produto da percepção do público que interage
+com a instituição.
+Com base nesses dados, e considerando ainda que a CGU já possui como missão “Promover o
+aperfeiçoamento e a transparência da Gestão Pública, a prevenção e o combate à corrupção, com
+participação social, por meio de avaliação e controle das políticas públicas e da qualidade do gasto”, algumas
+sugestões8 de valores públicos da CGU surgiram, conforme as perspectivas abaixo:
+
+
+                 segmentos                                     Órgãos
+                                                                 de          Corregedorias           Ouvidorias
+                                Cidadãos      Empresas
+              valores                                         Controle         Públicas               Públicas
+                                                              Interno
+
+              Cidadania
+
+              Credibilidade
+
+              Segurança
+              Operacional
+
+              Integridade
+
+              Justiça
+
+
+
+A boa prática orienta que os valores sejam também elaborados por substantivos que, em conjunto com
+adjetivos, traduzam a ideia de benefício.
+
+
+
+
+8
+ As sugestões de valores públicos surgiram na etapa de realização de entrevistas com as unidades finalísticas da CGU,
+para construção da cadeia de valor integrada, uma das entregas do projeto “Implantação da Gestão de Processos na
+CGU.”
+
+
+
+                        diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                                   61 2020-7253   Brasília/DF - CEP 70070-905
+CGU
+Controladoria-Geral da União
+Secretaria-Executiva
+Diretoria de Planejamento e Desenvolvimento Institucional
+Coordenação-Geral de Integração e Desenvolvimento Institucional
+
+
+Referências Bibliográficas
+A Estrutura Internacional para Relato Integrado. Traduzida para a língua portuguesa pela
+FEBRABAN-Federação Brasileira de Bancos em março de 2014, sendo reproduzida com a anuência
+do IIRC. Disponível em: http://integratedreporting.org/wp-content/uploads/2015/03/13-12-08-THE-
+INTERNATIONAL-IR-FRAMEWORK-Portugese-final-1.pdf , versão original em inglês disponível em:
+http://integratedreporting.org/. Acesso em: março de 2019.
+ASSOCIATION OF BUSINESS PROCESS MANAGEMENT PROFESSIONALS (ABPMP). BPM CBOK: Guia
+para o Gerenciamento de Processos de Negócio Corpo Comum de Conhecimento. 3ª ed. Brasil:
+ABPMP, 2013.
+BRASIL. Decreto nº 9.203, de 22 de novembro de 2017, que dispõe sobre a política de governança da
+administração pública federal direta, autárquica e fundacional. Disponível em:
+http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9203.htm. Acesso em: março
+de 2019.
+BRASIL. Tribunal de Contas da União. Relatório de gestão na forma de relato integrado: evolução da
+prestação de contas / Tribunal de Contas da União. Brasília: TCU, Secretaria-Geral de Controle
+Externo (Segecex), Secretaria-Geral Adjunta de Controle Externo (Adgecex), Secretaria de Métodos e
+Suporte        ao       Controle      Externo        (Semec),       2018.      Disponível     em:
+https://portal.tcu.gov.br/lumis/portal/file/fileDownload.jsp?fileId=8A81881E66FA072101670DFD4
+5BD3C70. Acesso em: março de 2019.
+PORTER, Michael E. Vantagem Competitiva: Criando e sustentando um desempenho superior. Rio
+de Janeiro: Campus, 1989.
+REIS, Margarida Maria de Oliveira; BLATTMAN, Ursula. Gestão de processos em biblioteca. 2004.
+Disponível em: https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/article/view/2077/2207.
+Acesso em: março de 2019.
+
+
+
+
+                    diplad.codin@cgu.gov.br   SAS, Quadra 01, Bloco A - Edifício Darcy Ribeiro
+                               61 2020-7253   Brasília/DF - CEP 70070-905
+

@@ -6,7 +6,7 @@ Reformatação do Lote D5 (Licitações e contratos, item 10 do edital) para o f
 - Canônico: saida/gcb/D5_v2_1.md, SHA-256 44ddcc982642df66b246108cb7e3ef86031e8a99762aa2262a6c0bdde24e1333 (igual ao esperado 44ddcc98…e1333: o script confere antes de ler e pararia se divergisse).
 - Base normativa: saida/gcb/D5_anexo_N_mapa_normativo.md (consulta de 18/10/2026), SHA-256 497af8e63ecc78ba838927191235ebace582d69b4b482598130aa484508d76eb; usado só pelo validador e pelo visual baseLegal (texto copiado letra a letra, `literal: true`, `conferido: 2026-10-18`).
 - Seções do canônico NÃO usadas: 0 e 0.1 (resposta ao R1 e registro de acatamento), o parágrafo introdutório da seção 1, o cabeçalho das seções 3 e 4 (contagens de produção), 6 (proveniência), 7 (contagens), 8 (bloco à GCB), as linhas Folha, Ponto de julgamento, Formato, Base, Mecanismo, Troca, Alteração na v2, "Difere de BQ-…" e Marcas de cada item, e a coluna "Código"/"Base" dos pares.
-- JSON gerado: D5_plataforma.json, SHA-256 1ab79b5cdb234d7c9cf445cf8ceeae1b95c27d5299c234ca36653919208ac374; tópicos incorporados de D5_topicos_fonte.json, SHA-256 7c42ddf4565c24ea4920c36939eecef94285cfa7693bfcd687a5a28d7e339a66 (escritos à mão).
+- JSON gerado: D5_plataforma.json, SHA-256 5ebec2854beb00ac0fb2581c028095d4dc306fec61118080cd37666c47e3a0c2; tópicos incorporados de D5_topicos_fonte.json, SHA-256 7c42ddf4565c24ea4920c36939eecef94285cfa7693bfcd687a5a28d7e339a66 (escritos à mão).
 
 ## 2. Correspondência bloco de origem → ## / ###
 | Origem (D5_v2_1.md, seção 1) | Destino no curso |
@@ -82,7 +82,7 @@ Regras gerais do curso: "- Definição:" → quadro DEFINIÇÃO (em lista, sem l
 ## 3. Deleções e trocas (cada uma registrada)
 Tipos: deleção de marca (v2, R1/R2, QA PENDENTE, leitura externa, Anexo N, REVERIFICAR, códigos); deleção de frase inteira ou de oração (processo, "[SEM FONTE]", cobertura do lote, cruzamento com item real do banco); troca mínima (op. 6); troca de rótulo (operação 2).
 
-Contagem por tipo: deleção de frase inteira: 11; deleção de marca: 60; deleção de oração de processo: 12; pontuação (nenhuma palavra alterada): 1; troca de rótulo: 131; troca mínima (op. 6): 7.
+Contagem por tipo (sem as da errata, seção "Errata de forma"): deleção de frase inteira: 11; deleção de marca: 60; deleção de oração de processo: 12; pontuação (nenhuma palavra alterada): 1; troca de rótulo: 131; troca mínima (op. 6): 7.
 
 1. [curso C10.1-03 (definição)] deleção de marca: `(nota do Anexo N, seção 7, item 11)` → (nada). Motivo: referência ao Anexo N e à sua seção (seção 6); fica "Conceito e finalidade: o art. 6º não traz definição isolada…".
 2. [curso C10.1-08 (definição)] deleção de oração de processo: `; aqui, os cobrados no lote` → (nada). Motivo: fala do lote (cobertura de itens, cruzamento com item do banco ou nota de produção); não é conteúdo para a candidata (seção 6); fica "(rol de incisos)".
@@ -181,7 +181,7 @@ Trocas de rótulo (operação 2): 58 pegadinhas do curso ("[Desfeita por: X]" �
 Decisões de leitura que o orquestrador pode querer revisar (nenhuma altera conteúdo normativo):
 - Valores em reais: o curso mantém o que a lei fixa (R$ 100.000,00 e R$ 50.000,00 no art. 75, I e II) e a regra de atualização do art. 182; saíram as orações "valor atualizado NÃO CONFERIDO … [SEM FONTE]". A pegadinha "afirmar valor atualizado sem conferência" (curso C10.1-08 e pegadinha 8) saiu pelo mesmo motivo.
 - Marca REVERIFICAR em C10.1-08 (art. 75, XVI, redação da Lei 15.471/2026): a marca saiu e o conteúdo do inciso foi mantido, como o D6 fez com a Lei 15.141/2025. A frase sobre o art. 79 (C10.1-12), toda de marca e de cobertura, saiu inteira.
-- Remissões "folha 10.6" e "folha 10.7" (C10.4-05, C10.5-03, C10.5-04) foram mantidas: "folha" não está na lista da seção 6 e os números 10.6 e 10.7 são os dos títulos `##` do curso. As remissões a código de bloco (C10.x-NN) saíram.
+- Remissões "folha 10.6" e "folha 10.7" (C10.4-05, C10.5-03, C10.5-04) foram mantidas na primeira entrega e TRATADAS PELA ERRATA DE 20/10/2026 (seção "Errata de forma": "folha" vira "subitem"); os números 10.6 e 10.7 são os dos títulos `##` do curso. As remissões a código de bloco (C10.x-NN) saíram.
 - Enunciados começam com "Considere…" e trazem a situação no próprio enunciado; o canônico não separa texto-base: `textoBase` "" e `comando` "Julgue o item a seguir." (o canônico só traz "Julgue cada item como Certo ou Errado." no cabeçalho da seção 5.1).
 - Ordem dos itens no JSON: crescente pelo id (D5-01 a D5-53, D5-55 a D5-71), como pede a seção 4 da especificação; no canônico o D5-71 ocupa a posição 54.
 
@@ -196,7 +196,7 @@ Decisões de leitura que o orquestrador pode querer revisar (nenhuma altera cont
 Comando: `python3 -I saida/gcb/DA_plataforma/scripts/validar_da.py saida/gcb/DA_plataforma/D5_plataforma.json saida/gcb/D5_v2_1.md saida/gcb/D5_anexo_N_mapa_normativo.md`
 ```
 D5_plataforma.json: lote D5; itensEdital 7; blocos ## 7; itens 70 (C 35 / E 35); pares 31; pegadinhas 73; topicos 7
-quadros: {'PEGADINHA PROVÁVEL': 58, 'EXEMPLO PARLAMENTAR': 58, 'DEFINIÇÃO': 58, 'BASE LEGAL': 58}
+quadros: {'BASE LEGAL': 58, 'EXEMPLO PARLAMENTAR': 58, 'DEFINIÇÃO': 58, 'PEGADINHA PROVÁVEL': 58}
 RESULTADO: 0 FALHA, 0 AVISO
 ```
 
@@ -292,4 +292,13 @@ Origem = campos "Par", "Diferença" e "Como a banca troca" (sem as passagens reg
 - Problemas nos tópicos (número ausente do curso da folha; dispositivo de baseLegal que não bate letra a letra com o mapa, sem data 2026-10-18 ou fora do curso): 0.
 
 RESULTADO DA CONFERÊNCIA DE FIDELIDADE: 0 defeito(s).
+
+## Errata de forma — QA final 20/10/2026
+Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026), achado 1: a palavra de produção "folha" no texto exibido (a candidata não conhece "folha"; o validador passou a acusá-la). Regra da ordem: frase que só fala do processo ou da organização da produção é DELETADA; remissão útil ao estudo vira "subitem". Só forma: nenhum enunciado, gabarito, itemEdital ou id foi tocado.
+
+1. [curso C10.4-05 (definição)] troca mínima (op. 6): `estão na folha 10.6.` → `estão no subitem 10.6.`. Motivo: errata de forma (QA final 20/10/2026, achado 1): "folha" é termo de produção (seção 6); a remissão serve ao estudo e passa a "subitem", o número 10.6/10.7 é o do `##` do curso.
+2. [curso C10.5-03 (definição)] troca mínima (op. 6): `estão na folha 10.7.)` → `estão no subitem 10.7.)`. Motivo: errata de forma (QA final 20/10/2026, achado 1): "folha" é termo de produção (seção 6); a remissão serve ao estudo e passa a "subitem", o número 10.6/10.7 é o do `##` do curso.
+3. [curso C10.5-04 (definição)] troca mínima (op. 6): `está na folha 10.7.)` → `está no subitem 10.7.)`. Motivo: errata de forma (QA final 20/10/2026, achado 1): "folha" é termo de produção (seção 6); a remissão serve ao estudo e passa a "subitem", o número 10.6/10.7 é o do `##` do curso.
+
+Total: 3 mudanças no D5 (curso). Resumo, pares, pegadinhas, justificativas e tópicos do D5 não tinham a palavra "folha" nem código R/F. A conferência de fidelidade (lista independente de passagens removidas) foi atualizada com as três mesmas trocas.
 

@@ -192,3 +192,11 @@ Origem = campos "Par", "Diferença" e "Como a banca troca" (sem marcas); saída 
 - Palavras acrescentadas em todas as justificativas (contagem total): {'da': 24, 'troca': 25, 'sutil': 25} — todas da troca mínima registrada "do [TS]" → "da troca sutil". Itens com palavra fora dessa troca: 0.
 
 RESULTADO DA CONFERÊNCIA DE FIDELIDADE: 0 defeito(s).
+
+## Errata de forma — QA final 20/10/2026
+
+Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026), achado 5: uma pegadinha de P1-DA-12 (art. 48) trazia `**e**`; a lista "Pegadinhas prováveis" da plataforma não interpreta negrito e mostra os asteriscos. Retirada só a marcação, não o texto. Só forma: nenhum enunciado, gabarito, itemEdital ou id foi tocado; o D6 não tinha a palavra "folha" nem código R/F no texto exibido.
+
+1. [pegadinha 52 (P1-DA-12)] deleção de marca (negrito): `"Incidente: comunicar só à autoridade" — art. 48, caput (autoridade nacional **e** titular).` → `"Incidente: comunicar só à autoridade" — art. 48, caput (autoridade nacional e titular).`. Motivo: a marcação `**…**` não é interpretada na lista final de pegadinhas da plataforma (achado 5); a palavra "e" fica como estava.
+
+Total: 1 mudança no D6 (`pegadinhas`). O `**e**` do resumo (seção "Agentes, segurança e responsabilidade") fica: o resumo é renderizado como markdown.

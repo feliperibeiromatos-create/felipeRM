@@ -1,0 +1,561 @@
+{
+ "P1-DA-3.1": {
+  "emUmMinuto": [
+   "O concurso público vale até dois anos, prorrogável uma vez por igual período, e a não observância dos incisos II e III anula o ato e pune a autoridade responsável (CF, art. 37, III e § 2º).",
+   "A acumulação remunerada é vedada, salvo as exceções do art. 37, XVI, com compatibilidade de horários e observado o teto do inciso XI; a alínea b tem a redação da EC 138/2025.",
+   "A estabilidade vem após três anos de efetivo exercício e exige avaliação especial de desempenho por comissão; o estável só perde o cargo nas hipóteses do art. 41, § 1º."
+  ],
+  "resumo": "A validade do concurso público é de até dois anos, prorrogável uma vez, por igual período (CF, art. 37, III), e a não observância dos incisos II e III implica a nulidade do ato e a punição da autoridade responsável (art. 37, § 2º).\n\nA acumulação remunerada de cargos públicos é vedada, com as exceções do art. 37, XVI, quando houver compatibilidade de horários e observado o teto do inciso XI. A alínea b tem a redação da EC 138/2025, e a expressão antiga, \"técnico ou científico\", está superada. A remuneração e o subsídio só podem ser fixados ou alterados por lei específica (art. 37, X), e o teto é o subsídio mensal dos Ministros do Supremo Tribunal Federal (art. 37, XI).\n\nNo mandato eletivo federal, estadual ou distrital, o servidor fica afastado do cargo; o Vereador, havendo compatibilidade de horários, percebe as vantagens do cargo sem prejuízo da remuneração do cargo eletivo (art. 38).\n\nSão estáveis, após três anos de efetivo exercício, os servidores nomeados para cargo efetivo por concurso, e a avaliação especial de desempenho por comissão é condição da estabilidade (art. 41, caput e § 4º). O estável só perde o cargo nas hipóteses do art. 41, § 1º.",
+  "visuais": [
+   {
+    "tipo": "baseLegal",
+    "titulo": "Concurso e estabilidade: o texto da Constituição",
+    "norma": "CF",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, III",
+      "texto": "III - o prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 37, § 2º",
+      "texto": "§ 2º A não observância do disposto nos incisos II e III implicará a nulidade do ato e a punição da autoridade responsável, nos termos da lei.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, caput",
+      "texto": "Art. 41. São estáveis após três anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, § 4º",
+      "texto": "§ 4º Como condição para a aquisição da estabilidade, é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "tipo": "tabela",
+    "titulo": "Servidor em mandato eletivo (CF, art. 38)",
+    "colunas": [
+     "Mandato",
+     "Regra"
+    ],
+    "linhas": [
+     [
+      "Federal, estadual ou distrital (inciso I)",
+      "Fica afastado do cargo, emprego ou função"
+     ],
+     [
+      "Prefeito (inciso II)",
+      "É afastado, sendo-lhe facultado optar pela sua remuneração"
+     ],
+     [
+      "Vereador, havendo compatibilidade de horários (inciso III)",
+      "Percebe as vantagens do cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo"
+     ],
+     [
+      "Vereador, não havendo compatibilidade (inciso III)",
+      "Aplica-se a norma do inciso II"
+     ],
+     [
+      "Qualquer caso que exija afastamento (inciso IV)",
+      "O tempo de serviço é contado para todos os efeitos legais, exceto promoção por merecimento"
+     ]
+    ],
+    "legenda": "Se for segurado de regime próprio de previdência social, o servidor permanece filiado a esse regime, no ente federativo de origem (inciso V)."
+   }
+  ]
+ },
+ "P1-DA-3.2": {
+  "emUmMinuto": [
+   "Servidor é a pessoa legalmente investida em cargo público, e cargo é o conjunto de atribuições e responsabilidades, criado por lei, com denominação própria e vencimento pago pelos cofres públicos.",
+   "A Lei 8.112 define só servidor e cargo público; emprego público e função pública aparecem na Constituição, art. 37, sem definição na lei.",
+   "As funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo e, como os cargos em comissão, destinam-se apenas a direção, chefia e assessoramento (CF, art. 37, V)."
+  ],
+  "resumo": "O acesso aos cargos, empregos e funções públicas é garantido aos brasileiros que preencham os requisitos estabelecidos em lei e, na forma da lei, aos estrangeiros (CF, art. 37, I). A investidura em cargo ou emprego depende de concurso público, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração (art. 37, II).\n\nPara a Lei 8.112/1990, servidor é a pessoa legalmente investida em cargo público (art. 2º), e cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor (art. 3º). Os cargos são criados por lei, com denominação própria e vencimento pago pelos cofres públicos, para provimento em caráter efetivo ou em comissão. A lei não define emprego público nem função pública.\n\nAs funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão destinam-se apenas às atribuições de direção, chefia e assessoramento (CF, art. 37, V). A contratação por tempo determinado depende de lei e de necessidade temporária de excepcional interesse público (art. 37, IX).\n\nNa Lei 8.112, é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei (art. 4º). O art. 5º enumera os requisitos básicos de investidura, entre eles a nacionalidade brasileira, a idade mínima de dezoito anos e a aptidão física e mental, e o § 1º admite que as atribuições do cargo justifiquem outros requisitos, estabelecidos em lei. A nomeação far-se-á em caráter efetivo ou em comissão (art. 9º).",
+  "visuais": [
+   {
+    "tipo": "tabela",
+    "titulo": "Cargo, emprego e função pública",
+    "colunas": [
+     "Figura",
+     "O que o texto traz",
+     "Onde"
+    ],
+    "linhas": [
+     [
+      "Cargo público",
+      "Conjunto de atribuições e responsabilidades previstas na estrutura organizacional, cometidas a um servidor; criado por lei, com denominação própria e vencimento pago pelos cofres públicos",
+      "Lei 8.112/1990, art. 3º"
+     ],
+     [
+      "Emprego público",
+      "Sem definição na Lei 8.112; aparece, sem definição, na Constituição (acesso, concurso, acumulação)",
+      "CF, art. 37, I, II e XVII"
+     ],
+     [
+      "Função pública",
+      "Sem definição na Lei 8.112; \"funções públicas\" aparecem no art. 37, I e XVII; a função de confiança é exercida exclusivamente por servidores ocupantes de cargo efetivo e destina-se a direção, chefia e assessoramento",
+      "CF, art. 37, I, V e XVII"
+     ]
+    ],
+    "legenda": "A classificação doutrinária de agentes não é texto de lei: o conteúdo normativo está nos dispositivos citados."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da Constituição e da Lei 8.112 sobre servidor, cargo e funções",
+    "norma": "CF e Lei 8.112/1990",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, II",
+      "texto": "II - a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo ou emprego, na forma prevista em lei, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 37, V",
+      "texto": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 2º",
+      "texto": "Art. 2º Para os efeitos desta Lei, servidor é a pessoa legalmente investida em cargo público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 3º, caput",
+      "texto": "Art. 3º Cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-3.3": {
+  "emUmMinuto": [
+   "A requisição é o ato irrecusável em que o agente passa a ter exercício no órgão requisitante, sem alteração da lotação na origem; só órgão com prerrogativa expressa de requisitar pode fazê-la (Decreto 10.835/2021, art. 9º).",
+   "A requisição é por prazo indeterminado, exceto disposição legal em contrário, e não pode ser encerrada por ato unilateral do órgão requisitado; a cessão exige concordâncias e pode ser encerrada por ato unilateral.",
+   "As requisições para a Presidência da República são irrecusáveis (Lei 9.007/1995); nos cartórios eleitorais, a requisição é por um ano, prorrogável (Lei 6.999/1982)."
+  ],
+  "resumo": "O Decreto 10.835/2021 aplica-se às cessões, às requisições e às alterações de exercício para composição da força de trabalho na administração pública federal. Essas são as formas de movimentação do agente público, que altera o exercício sem suspensão ou interrupção do vínculo com o órgão de origem (arts. 1º e 2º). A Lei 8.112 não define requisição.\n\nA requisição é o ato irrecusável em que o agente passa a ter exercício no órgão requisitante, sem alteração da lotação na origem (art. 9º). Só pode ser feita por órgão ou entidade com prerrogativa expressa de requisitar. Ela não é nominal, e o órgão requisitado pode indicar o agente conforme as atribuições, o que não vale para as requisições à Presidência ou à Vice-Presidência da República. É concedida por prazo indeterminado, exceto disposição legal em contrário, e não pode ser encerrada por ato unilateral do órgão requisitado (art. 11). Não há prejuízo da remuneração, e são garantidas a promoção e a progressão funcional (art. 9º, §§ 4º e 5º).\n\nA cessão exige o pedido do cessionário e as concordâncias do cedente e do agente (art. 3º, § 2º), e pode ser encerrada, a qualquer momento, por ato unilateral (art. 8º).\n\nAs requisições para a Presidência da República são irrecusáveis (Lei 9.007/1995, art. 2º). Na Justiça Eleitoral, as requisições para os cartórios têm prazo de um ano, prorrogável (Lei 6.999/1982, art. 2º, § 1º).",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Requisição × cessão (Decreto 10.835/2021)",
+    "a": "Requisição (art. 9º)",
+    "b": "Cessão (art. 3º)",
+    "linhas": [
+     [
+      "Conceito",
+      "Ato irrecusável em que o agente passa a ter exercício no órgão requisitante, sem alteração da lotação na origem",
+      "Ato pelo qual o agente, sem suspensão ou interrupção do vínculo funcional com a origem, passa a ter exercício em outro órgão ou entidade"
+     ],
+     [
+      "Quem pode",
+      "Órgão ou entidade com prerrogativa expressa de requisitar (art. 9º, § 1º)",
+      "Exceto disposição legal em contrário, só para exercício de cargo em comissão ou função de confiança (art. 3º, § 1º)"
+     ],
+     [
+      "Concordância",
+      "Ato irrecusável (art. 9º, caput)",
+      "Pedido do cessionário, concordância do cedente e concordância do agente (art. 3º, § 2º)"
+     ],
+     [
+      "Prazo",
+      "Indeterminado, exceto disposição legal em contrário (art. 11, caput)",
+      "Indeterminado (art. 7º)"
+     ],
+     [
+      "Encerramento",
+      "Não pode ser encerrada por ato unilateral do órgão ou da entidade requisitada (art. 11, parágrafo único)",
+      "A qualquer momento, por ato unilateral do cedente, do cessionário ou do agente cedido (art. 8º)"
+     ],
+     [
+      "Lei 8.112/1990",
+      "Não define requisição; só menciona o requisitado (art. 18; art. 93, § 5º)",
+      "Art. 93: cargo em comissão ou função de confiança; Portaria publicada no Diário Oficial da União (§ 3º)"
+     ]
+    ],
+    "legenda": "A requisição administrativa do art. 5º, XXV, da CF (uso de propriedade particular) é outro instituto."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto do Decreto 10.835/2021 e da Lei 9.007/1995 sobre requisição",
+    "norma": "Decreto 10.835/2021 e Lei 9.007/1995",
+    "dispositivos": [
+     {
+      "ref": "Decreto 10.835/2021, art. 9º, caput",
+      "texto": "Art. 9º A requisição é o ato irrecusável, em que o agente público requisitado passa a ter exercício no órgão ou na entidade requisitante, sem alteração da lotação no órgão ou na entidade de origem.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 10.835/2021, art. 11, caput",
+      "texto": "Art. 11. A requisição será concedida por prazo indeterminado, exceto se houver disposição legal em contrário.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 10.835/2021, art. 11, parágrafo único",
+      "texto": "Parágrafo único. A requisição não poderá ser encerrada por ato unilateral do órgão ou da entidade requisitada.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.007/1995, art. 2º, caput",
+      "texto": "Art. 2º As requisições de servidores de qualquer órgão ou entidade da Administração Pública Federal para a Presidência da República são irrecusáveis.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-3.4": {
+  "emUmMinuto": [
+   "A investidura em cargo público ocorre com a posse, no prazo de trinta dias da publicação do ato de provimento, e o servidor empossado tem quinze dias, contados da posse, para entrar em exercício.",
+   "Sobre o estágio probatório, a Lei 8.112 (art. 20) diz 24 meses, a Constituição (art. 41) diz que a estabilidade vem após três anos de efetivo exercício e o Decreto 12.374/2025 (art. 2º) diz trinta e seis meses.",
+   "A exoneração não é forma de provimento, e sim causa de vacância; a remoção desloca o servidor no mesmo quadro, e a redistribuição desloca o cargo para outro órgão do mesmo Poder."
+  ],
+  "resumo": "A Lei 8.112/1990 institui o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais. A investidura em cargo público ocorre com a posse, no prazo de trinta dias da publicação do ato de provimento, e o servidor empossado tem quinze dias, contados da posse, para entrar em exercício. São formas de provimento a nomeação, a promoção, a readaptação, a reversão, o aproveitamento, a reintegração e a recondução; a exoneração é causa de vacância, e não forma de provimento (arts. 8º e 33).\n\nSobre o estágio probatório, cada texto diz o que diz. A Lei 8.112, art. 20, fixa o período de 24 meses. A Constituição, art. 41, afirma que os servidores são estáveis após três anos de efetivo exercício e exige avaliação especial de desempenho por comissão. O Decreto 12.374/2025, art. 2º, fixa trinta e seis meses para as nomeações posteriores à sua publicação.\n\nA remoção desloca o servidor no âmbito do mesmo quadro, a pedido ou de ofício, e a redistribuição desloca o cargo para outro órgão ou entidade do mesmo Poder, com prévia apreciação do órgão central do SIPEC (arts. 36 e 37).\n\nA lei trata ainda de férias (trinta dias, acumuláveis até o máximo de dois períodos), de licenças e afastamentos, de vencimento e remuneração e do direito de petição, cuja prescrição é de 5 anos ou de 120 dias, conforme o caso.",
+  "visuais": [
+   {
+    "tipo": "baseLegal",
+    "titulo": "Estágio probatório e estabilidade: a letra de cada texto",
+    "norma": "Lei 8.112/1990, CF e Decreto 12.374/2025",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 20, caput",
+      "texto": "Art. 20. Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo ficará sujeito a estágio probatório por período de 24 (vinte e quatro) meses, durante o qual a sua aptidão e capacidade serão objeto de avaliação para o desempenho do cargo, observados os seguinte fatores:",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 21, caput",
+      "texto": "Art. 21. O servidor habilitado em concurso público e empossado em cargo de provimento efetivo adquirirá estabilidade no serviço público ao completar 2 (dois) anos de efetivo exercício. (prazo 3 anos - vide EMC nº 19)",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, caput",
+      "texto": "Art. 41. São estáveis após três anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 12.374/2025, art. 2º, caput",
+      "texto": "Art. 2º O servidor público aprovado em concurso público e nomeado para cargo de provimento efetivo ficará sujeito ao estágio probatório por período de trinta e seis meses, contado da data de início do efetivo exercício no cargo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "tipo": "compare",
+    "titulo": "Remoção × redistribuição (Lei 8.112/1990)",
+    "a": "Remoção (art. 36)",
+    "b": "Redistribuição (art. 37)",
+    "linhas": [
+     [
+      "O que se desloca",
+      "O servidor",
+      "O cargo de provimento efetivo, ocupado ou vago"
+     ],
+     [
+      "Âmbito",
+      "O mesmo quadro, com ou sem mudança de sede",
+      "Do quadro geral de pessoal para outro órgão ou entidade do mesmo Poder"
+     ],
+     [
+      "Iniciativa",
+      "De ofício, no interesse da Administração, ou a pedido, a critério da Administração ou independentemente do interesse da Administração",
+      "Ex officio, para ajustamento de lotação e da força de trabalho às necessidades dos serviços (§ 1º)"
+     ],
+     [
+      "Condições",
+      "Modalidades do parágrafo único, I a III; no inciso III, acompanhar cônjuge ou companheiro, motivo de saúde ou processo seletivo",
+      "Prévia apreciação do órgão central do SIPEC e preceitos dos incisos I a VI"
+     ]
+    ],
+    "legenda": "Nas remoções a pedido do art. 36, parágrafo único, II e III, não é concedida ajuda de custo (art. 53, § 3º)."
+   }
+  ]
+ },
+ "P1-DA-4.1": {
+  "emUmMinuto": [
+   "A autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover a apuração imediata, por sindicância ou processo administrativo disciplinar, assegurada ao acusado ampla defesa (Lei 8.112, art. 143).",
+   "Na aplicação da penalidade pesam quatro fatores: natureza e gravidade da infração, danos ao serviço público, circunstâncias agravantes ou atenuantes e antecedentes funcionais (art. 128).",
+   "As sanções civis, penais e administrativas são independentes entre si, e a absolvição criminal só afasta a responsabilidade administrativa se negar a existência do fato ou sua autoria (arts. 125 e 126)."
+  ],
+  "resumo": "\"Fontes\" do direito administrativo disciplinar é rótulo do edital, sem texto próprio na norma. A autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover a sua apuração imediata, mediante sindicância ou processo administrativo disciplinar, assegurada ao acusado ampla defesa (Lei 8.112, art. 143). Na aplicação das penalidades, consideram-se quatro fatores: a natureza e a gravidade da infração, os danos para o serviço público, as circunstâncias agravantes ou atenuantes e os antecedentes funcionais (art. 128). O ato de imposição da penalidade menciona sempre o fundamento legal e a causa da sanção.\n\nO servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições (art. 121). As sanções podem cumular-se e são independentes entre si (art. 125). A responsabilidade administrativa só é afastada na absolvição criminal que negue a existência do fato ou sua autoria (art. 126).\n\nA Lei 9.784/1999, art. 2º, caput, enumera onze princípios, em rol exemplificativo: legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência. O parágrafo único traz critérios, também exemplificativos, como a adequação entre meios e fins, a indicação dos pressupostos de fato e de direito da decisão e a garantia dos direitos à comunicação, às alegações finais, à produção de provas e aos recursos. Os processos administrativos específicos continuam a reger-se por lei própria, e a Lei 9.784 se aplica a eles apenas subsidiariamente (art. 69).",
+  "visuais": [
+   {
+    "tipo": "esquema",
+    "titulo": "Fatores da penalidade (Lei 8.112, art. 128, caput)",
+    "centro": "Aplicação das penalidades",
+    "ramos": [
+     "Natureza e gravidade da infração cometida",
+     "Danos que dela provierem para o serviço público",
+     "Circunstâncias agravantes ou atenuantes",
+     "Antecedentes funcionais"
+    ]
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Apuração, independência das instâncias e aplicação subsidiária",
+    "norma": "Lei 8.112/1990 e Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 143, caput",
+      "texto": "Art. 143. A autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover a sua apuração imediata, mediante sindicância ou processo administrativo disciplinar, assegurada ao acusado ampla defesa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 125",
+      "texto": "Art. 125. As sanções civis, penais e administrativas poderão cumular-se, sendo independentes entre si.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 126",
+      "texto": "Art. 126. A responsabilidade administrativa do servidor será afastada no caso de absolvição criminal que negue a existência do fato ou sua autoria.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 69",
+      "texto": "Art. 69. Os processos administrativos específicos continuarão a reger-se por lei própria, aplicando-se-lhes apenas subsidiariamente os preceitos desta Lei.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-4.2": {
+  "emUmMinuto": [
+   "O conceito de ilícito disciplinar é doutrinário: os tipos estão nos deveres (art. 116), nas proibições (art. 117) e nas hipóteses de demissão (art. 132), e as penalidades, no art. 127.",
+   "São penalidades a advertência, a suspensão, a demissão, a cassação de aposentadoria ou disponibilidade, a destituição de cargo em comissão e a destituição de função comissionada; a multa aparece só como conversão da suspensão.",
+   "A ação disciplinar prescreve em 5 anos (demissão, cassação e destituição), 2 anos (suspensão) e 180 dias (advertência), a contar da data em que o fato se tornou conhecido (art. 142)."
+  ],
+  "resumo": "O conceito de ilícito de direito administrativo disciplinar é doutrinário: a Lei 8.112/1990 traz os tipos nos deveres do servidor (art. 116), nas proibições (art. 117) e nas hipóteses de demissão (art. 132), e as penalidades no art. 127. São penalidades a advertência, a suspensão, a demissão, a cassação de aposentadoria ou disponibilidade, a destituição de cargo em comissão e a destituição de função comissionada. A multa aparece só como conversão da suspensão (art. 130, § 2º).\n\nA advertência é aplicada por escrito, nos casos de violação das proibições do art. 117, I a VIII e XIX, e de inobservância de dever funcional, sem justificar penalidade mais grave. A suspensão cabe na reincidência das faltas punidas com advertência e na violação das demais proibições que não tipifiquem demissão, e não pode exceder 90 dias. Os registros de advertência e de suspensão são cancelados após 3 e 5 anos de efetivo exercício, respectivamente. A demissão aplica-se nos casos do art. 132, entre eles o abandono de cargo (ausência intencional por mais de trinta dias consecutivos) e a inassiduidade habitual (sessenta dias de falta sem causa justificada, interpoladamente, em doze meses).\n\nA demissão é aplicada pelas autoridades do art. 141, I, entre elas os Presidentes das Casas do Poder Legislativo. A ação disciplinar prescreve em 5 anos, 2 anos ou 180 dias, conforme a penalidade, e o prazo começa a correr da data em que o fato se tornou conhecido (art. 142).",
+  "visuais": [
+   {
+    "tipo": "tabela",
+    "titulo": "Advertência × suspensão × demissão (Lei 8.112)",
+    "colunas": [
+     "Aspecto",
+     "Advertência (art. 129)",
+     "Suspensão (art. 130)",
+     "Demissão (arts. 132 e 136)"
+    ],
+    "linhas": [
+     [
+      "Quando cabe",
+      "Violação das proibições do art. 117, I a VIII e XIX, e inobservância de dever funcional, sem justificar penalidade mais grave",
+      "Reincidência das faltas punidas com advertência e violação das demais proibições que não tipifiquem demissão",
+      "Hipóteses do art. 132, I a XIII, entre elas crime contra a administração pública, abandono de cargo e improbidade administrativa"
+     ],
+     [
+      "Forma ou limite",
+      "Aplicada por escrito",
+      "Não pode exceder 90 dias; até 15 dias na recusa a inspeção médica (§ 1º); conversível em multa de 50% por dia (§ 2º)",
+      "Nos casos dos incisos IV, VIII, X e XI do art. 132, implica indisponibilidade dos bens e ressarcimento ao erário (art. 136)"
+     ],
+     [
+      "Cancelamento do registro (art. 131)",
+      "Após 3 anos de efetivo exercício sem nova infração",
+      "Após 5 anos de efetivo exercício sem nova infração",
+      "Não consta do art. 131"
+     ],
+     [
+      "Prescrição da ação disciplinar (art. 142)",
+      "180 dias",
+      "2 anos",
+      "5 anos"
+     ],
+     [
+      "Competência (art. 141)",
+      "Chefe da repartição e outras autoridades, na forma dos regimentos ou regulamentos",
+      "Até 30 dias: chefe da repartição; mais de 30 dias: autoridade de hierarquia imediatamente inferior à do inciso I",
+      "Presidente da República, Presidentes das Casas do Poder Legislativo e dos Tribunais Federais e Procurador-Geral da República"
+     ]
+    ],
+    "legenda": "A cassação de aposentadoria ou disponibilidade e a destituição de cargo em comissão prescrevem em 5 anos, como a demissão (art. 142, I)."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da lei sobre advertência, suspensão, abandono e inassiduidade",
+    "norma": "Lei 8.112/1990",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 129, caput",
+      "texto": "Art. 129. A advertência será aplicada por escrito, nos casos de violação de proibição constante do art. 117, incisos I a VIII e XIX, e de inobservância de dever funcional previsto em lei, regulamentação ou norma interna, que não justifique imposição de penalidade mais grave.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 130, caput",
+      "texto": "Art. 130. A suspensão será aplicada em caso de reincidência das faltas punidas com advertência e de violação das demais proibições que não tipifiquem infração sujeita a penalidade de demissão, não podendo exceder de 90 (noventa) dias.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 138",
+      "texto": "Art. 138. Configura abandono de cargo a ausência intencional do servidor ao serviço por mais de trinta dias consecutivos.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 139",
+      "texto": "Art. 139. Entende-se por inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-4.3": {
+  "emUmMinuto": [
+   "A sindicância pode resultar em arquivamento, em advertência ou suspensão de até 30 dias, ou na instauração de processo disciplinar, e conclui-se em 30 dias, prorrogáveis por igual período (art. 145).",
+   "O processo disciplinar é obrigatório quando o ilícito ensejar suspensão por mais de 30 dias, demissão, cassação ou destituição (art. 146), e tem as fases de instauração, inquérito administrativo e julgamento (art. 151).",
+   "O rito ordinário tem comissão de três servidores estáveis e prazo de 60 dias, prorrogáveis por igual prazo; o rito sumário tem comissão de dois servidores estáveis e prazo de 30 dias, prorrogáveis por até quinze."
+  ],
+  "resumo": "Na Lei 8.112, a sindicância pode resultar em arquivamento, em advertência ou suspensão de até 30 dias, ou na instauração de processo disciplinar, e deve ser concluída em até 30 dias, prorrogáveis por igual período (art. 145). O processo disciplinar é obrigatório quando o ilícito ensejar suspensão por mais de 30 dias, demissão, cassação de aposentadoria ou disponibilidade ou destituição de cargo em comissão (art. 146).\n\nO processo disciplinar desenvolve-se em três fases: instauração, com a publicação do ato que constituir a comissão; inquérito administrativo, que compreende instrução, defesa e relatório; e julgamento (art. 151). A comissão é composta de três servidores estáveis (art. 149), e o prazo de conclusão é de 60 dias, prorrogáveis por igual prazo (art. 152). O indiciado é citado para apresentar defesa escrita em 10 dias, ou em 20 dias, se houver dois ou mais indiciados (art. 161). A autoridade julgadora decide em 20 dias (art. 167).\n\nO rito sumário aplica-se à acumulação ilegal de cargos, ao abandono de cargo e à inassiduidade habitual: a comissão tem dois servidores estáveis, e o prazo de conclusão é de trinta dias, prorrogáveis por até quinze (arts. 133 e 140). O processo disciplinar pode ser revisto a qualquer tempo, cabendo ao requerente o ônus da prova, e da revisão não pode resultar agravamento da penalidade (arts. 174, 175 e 182).",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Sindicância × processo disciplinar (Lei 8.112)",
+    "a": "Sindicância (arts. 145 e 154)",
+    "b": "Processo disciplinar (arts. 146 a 152)",
+    "linhas": [
+     [
+      "Resultado ou cabimento",
+      "Arquivamento, advertência ou suspensão de até 30 dias, ou instauração de processo disciplinar (art. 145, caput)",
+      "Obrigatório quando o ilícito ensejar suspensão por mais de 30 dias, demissão, cassação de aposentadoria ou disponibilidade ou destituição de cargo em comissão (art. 146)"
+     ],
+     [
+      "Prazo",
+      "Até 30 dias, prorrogável por igual período, a critério da autoridade superior (art. 145, parágrafo único)",
+      "Até 60 dias, contados da publicação do ato que constituir a comissão, prorrogável por igual prazo, quando as circunstâncias o exigirem (art. 152, caput)"
+     ],
+     [
+      "Relação entre eles",
+      "Os autos integram o processo disciplinar, como peça informativa da instrução (art. 154)",
+      "Instrumento destinado a apurar a responsabilidade do servidor por infração (art. 148), em três fases (art. 151)"
+     ],
+     [
+      "Indício de crime",
+      "Se o relatório concluir pelo ilícito penal, a autoridade encaminha cópia dos autos ao Ministério Público, independentemente da imediata instauração do processo disciplinar (art. 154, parágrafo único)",
+      "Infração capitulada como crime: o processo é remetido ao Ministério Público para a ação penal, ficando trasladado na repartição (art. 171)"
+     ]
+    ],
+    "legenda": "O rito sumário (arts. 133 e 140) tem comissão de dois servidores estáveis e prazo de 30 dias, prorrogável por até quinze."
+   },
+   {
+    "tipo": "fluxo",
+    "titulo": "Fases do processo disciplinar: 60 dias, prorrogáveis por igual prazo (arts. 151 e 152)",
+    "passos": [
+     "Instauração: ato que constitui a comissão",
+     "Inquérito: instrução (arts. 153 a 160)",
+     "Inquérito: indiciação e defesa (10 dias)",
+     "Inquérito: relatório conclusivo da comissão",
+     "Julgamento: decisão em 20 dias (art. 167)"
+    ]
+   }
+  ]
+ },
+ "P1-DA-4.4": {
+  "emUmMinuto": [
+   "A Lei 9.784 estabelece normas básicas sobre o processo administrativo na Administração Federal direta e indireta e alcança os órgãos do Legislativo e do Judiciário da União em função administrativa (art. 1º).",
+   "O processo pode iniciar-se de ofício ou a pedido de interessado (art. 5º); inexistindo disposição específica, os atos têm prazo de cinco dias, dilatável até o dobro (art. 24).",
+   "Concluída a instrução, a Administração tem até trinta dias para decidir (art. 49); o recurso é interposto em dez dias e, salvo disposição em contrário, não tem efeito suspensivo (arts. 59 e 61)."
+  ],
+  "resumo": "A Lei 9.784/1999 estabelece normas básicas sobre o processo administrativo no âmbito da Administração Federal direta e indireta, e seus preceitos também se aplicam aos órgãos dos Poderes Legislativo e Judiciário da União, quando no desempenho de função administrativa (art. 1º). O processo pode iniciar-se de ofício ou a pedido de interessado (art. 5º), e o requerimento inicial deve ser formulado por escrito, salvo os casos em que for admitida solicitação oral (art. 6º). São capazes os maiores de dezoito anos (art. 10).\n\nO administrado tem direitos como ter ciência da tramitação, ter vista dos autos e fazer-se assistir, facultativamente, por advogado (art. 3º). É impedido de atuar o servidor com interesse direto ou indireto na matéria, e a omissão do dever de comunicar o impedimento é falta grave (arts. 18 e 19). A suspeição decorre de amizade íntima ou inimizade notória (art. 20).\n\nInexistindo disposição específica, os atos devem ser praticados no prazo de cinco dias, dilatável até o dobro (art. 24). A intimação observa a antecedência mínima de três dias úteis (art. 26, § 2º). São inadmissíveis as provas obtidas por meios ilícitos (art. 30). Concluída a instrução, a Administração tem até trinta dias para decidir, prorrogáveis por igual período expressamente motivado (art. 49). O recurso é interposto em dez dias, em regra não tem efeito suspensivo e tramita no máximo por três instâncias administrativas (arts. 57, 59 e 61). Os prazos em dias contam-se de modo contínuo (art. 66).",
+  "visuais": [
+   {
+    "tipo": "tabela",
+    "titulo": "Prazos do processo administrativo federal",
+    "colunas": [
+     "Ato ou situação",
+     "Prazo",
+     "Dispositivo"
+    ],
+    "linhas": [
+     [
+      "Atos do órgão e dos administrados, sem disposição específica",
+      "Cinco dias, dilatável até o dobro, mediante comprovada justificação",
+      "Art. 24"
+     ],
+     [
+      "Antecedência da intimação para comparecimento",
+      "Mínima de três dias úteis",
+      "Art. 26, § 2º"
+     ],
+     [
+      "Manifestação do interessado após encerrada a instrução",
+      "Máximo de dez dias, salvo outro prazo legalmente fixado",
+      "Art. 44"
+     ],
+     [
+      "Decisão após concluída a instrução",
+      "Até trinta dias, salvo prorrogação por igual período expressamente motivada",
+      "Art. 49"
+     ],
+     [
+      "Interposição do recurso administrativo",
+      "Dez dias, contados da ciência ou divulgação oficial da decisão recorrida",
+      "Art. 59, caput"
+     ],
+     [
+      "Reconsideração e decisão do recurso",
+      "Cinco dias para a autoridade reconsiderar; trinta dias para decidir o recurso, prorrogáveis por igual período",
+      "Art. 56, § 1º; art. 59, §§ 1º e 2º"
+     ]
+    ],
+    "legenda": "Os prazos em dias contam-se de modo contínuo, excluído o dia do começo e incluído o do vencimento (art. 66)."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da Lei 9.784/1999 sobre âmbito, decisão e recurso",
+    "norma": "Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 1º, caput",
+      "texto": "Art. 1º Esta Lei estabelece normas básicas sobre o processo administrativo no âmbito da Administração Federal direta e indireta, visando, em especial, à proteção dos direitos dos administrados e ao melhor cumprimento dos fins da Administração.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 49",
+      "texto": "Art. 49. Concluída a instrução de processo administrativo, a Administração tem o prazo de até trinta dias para decidir, salvo prorrogação por igual período expressamente motivada.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 59, caput",
+      "texto": "Art. 59. Salvo disposição legal específica, é de dez dias o prazo para interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão recorrida.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 61, caput",
+      "texto": "Art. 61. Salvo disposição legal em contrário, o recurso não tem efeito suspensivo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ }
+}

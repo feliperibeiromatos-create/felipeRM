@@ -284,4 +284,315 @@ Vale o padrão do despacho usado na leva 1: saida/gcb/DA_reforco_leva<n>_v<k>.md
 ### 7.6 Texto do estilo sobre itens já aprovados
 Texto exato da gbq-estilo sobre item aprovado no R2 não é aplicado ao objeto da leva depois do R2 (a D-REFORCO-DA limita a QA a 2 rodadas): vira errata registrada na reconciliação, com "antes" e "depois" literais, e entra na consolidação pela GBQ por substituição exata com aborto, se o aceite da leva a incluir (precedente D-V112-BAEF-P2-ACEITE). Texto que mude campo Troca, gabarito ou construção (ex.: AJ-E3) não entra sem QA própria. Para evitar o caso, a amostra do estilo da leva seguinte pode ser auditada sobre a v1, em paralelo ao R1, e os AJ de estilo seguem com os AJ do R1 para a v2.
 
+## 8. Ficha das LEVAS 2 e 3 (gcb-gerencia, 20/10/2026, ciclo s15c4)
+Acréscimo desta data, só acréscimo antes da última linha (SHA-256 da ficha antes dele: 6e90dc130678de333a5e1b3ff4a4af52b0bb7295b75cd8f4f9fa64f0b50ec41b, a versão citada na D-T116-LEVA1-ACEITE). Valem as regras da seção 1 com a seção 7 (Adendo após a leva 1), lida a seção 7.6 como a D-T116-LEVA1-ACEITE a fixou, as decisões da reconciliação da leva 1 (saida/gcb/DA_reforco_leva1_reconciliacao_2026-10-20.md, 422e63b1…2b6e: seções 4 e 5) e a D-T116-LEVA1-ACEITE (DECISOES.md). Onde esta seção diverge do plano da seção 2.1 para as levas 2 e 3, vale esta seção. A leva 3 só abre com o QA da leva 2 fechado (D-REFORCO-DA). Sem commit nem push.
+
+### 8.1 Entradas e conferência
+| objeto | SHA-256 (início…fim) | uso |
+|---|---|---|
+| saida/gcb/D1_anexo_N_adendo_2026-10-20.md | cb4d02f9…73f9 | lastro da folha 2.2 (seção 3.1: A2.2-01 a A2.2-27; textos na seção 4; alertas P1 a P8) |
+| saida/gcb/D3_anexo_N_adendo_2026-10-20.md | bbfd3eed…a797 (com o "Adendo 2"); seções 1 a 5 inalteradas: os primeiros 56.943 bytes dão c8ad5bd2…b9f74a50, o SHA-256 da seção 0.1 | 6.4 (3.2), 6.5 (3.3), alertas A1 a A13 (5.2); 5.2 (A2.3.1) e 6.2 (A2.3.2), alertas C1 a C12 (A2.5.2) |
+| saida/gcb/D4_anexo_N_adendo_2026-10-20.md | c32f58eb…16fb5 (igual à seção 0.1) | 8.4 (3.2; R59 a R81), alertas B1 a B10 |
+| saida/gcb/DA_reforco_leva1_v2.md | 2c431529…a4f04 | pontos já usados na 8.4 (D4-R15 a D4-R17) e na 6.3 (CC, arts. 186 e 927; Lei 8.112, arts. 122 e 124) |
+| D1_v2.md; D3_v2_1.md; D4_v2_1.md | 63bd27c3…, 0f7a8b09…, c1a7a935… | pontos, formatos e [TS] dos canônicos das seis folhas |
+| saida/pacote/pacote.json v1.13; pacote_estudante.json v1.13-E | 82c4117c…f240; 04cbd593…0c40 | ordem do pacote, gabarito, aderência e núcleo dos canônicos |
+| saida/banco/moldura_ce_itens_2026-10-20.csv; moldura_ce_2026-10-20.md | ed4b364d…daac | moldura oficial dos canônicos; critério (seção 1) e cotas (seção 4) |
+| saida/banco/estilo_DA_reforco_leva1.md | 2d50c4cb…8878 | texto exato da AJ-E1 (D3-R13) |
+
+Conferência própria (python3 -I, somente leitura; scripts no scratchpad da sessão, gcb_l23/canon.py, seq.py, final.py e count.py, fora do repositório): canônicos das seis folhas extraídos do pacote v1.13 na ordem do pacote, com gabarito, moldura do CSV, aderência, formato e [TS] dos arquivos canônicos; plano das duas levas codificado item a item; teste de sequência (seção 1, regra 6, e seção 7.3) e todas as contagens das seções 8.3 e 8.4 refeitos sobre o plano. Partidas conferidas: DA com moldura 46 C / 18 E (71,9%); D3 7/4; D4: K1 13/6, K2 7/6, K3 5/4, K4 23/17, fecho neutro 0/3, contraste ", e não" 0/2.
+
+### 8.2 Decisões da GCB (D1) desta seção
+1. **Formatos dos canônicos da 2.2** (D1_v2.md não tem o campo; seção 0.2, item 2): D1-53 NUM (quinze dias); D1-54 PAR (parecer obrigatório × facultativo); D1-55 DEF; D1-56 PAR (vinculante × não vinculante); D1-57 DEF; D1-58 PAR (dolo ou erro grosseiro × culpa leve); D1-59 DEF; D1-60 DEF. Partida da folha: DEF 4, PAR 3, NUM 1. [TS] dos canônicos: D1-54, D1-56, D1-58 e D1-59.
+2. **CF, art. 5º, LXXV, fica com a 6.2** (alerta C7): A6.2-05 e A6.2-06 podem ir à 6.2; A6.4-03 e A6.4-04 ficam fora da 6.4. Motivo: a 6.2 tem o lastro mais curto (A2.3.2: 6 diretos, 2 deles os de LXXV) e os seus indiretos são do regime civil comum (C9), de pertinência mais fraca que os indiretos da 6.4 (regresso, sucessores, prazos). Efeito: a 6.4 usa os 6 diretos restantes na leva 2 e completa os 20 com 6 itens de aderência parcial (2 na leva 2, 4 na leva 3); piso 8 + 6 = 14 diretos.
+3. **Lei 12.016 ("Vide ADIN 4296" no art. 1º, caput e § 2º, e no art. 23; alerta C2)**: o art. 1º, caput e § 1º, entra pela letra, sem afirmar efeito de decisão do STF (o mesmo tratamento dado aos arts. 186 e 927 do CC na leva 1, alerta A2); o § 2º do art. 1º (A5.2-09) e o art. 23 (A5.2-11) não entram.
+4. **Moldura implícita**: pelo critério oficial (relatório da T-122, seção 1, questão 2), "Poder Legislativo" como único Poder da frase é moldura S (borda poder_isolado) e não conta para a cota. Logo, nenhum item sem moldura declarada nomeia o Poder Legislativo, a Câmara, o Congresso, parlamentar, comissão legislativa ou sessão plenária; o A5.2-18 (Lei 13.869, art. 2º, II, "membros do Poder Legislativo") só entra como o E com moldura de cena da 5.2. O Decreto 9.830 nunca leva moldura (alertas P3 e C6): os itens dele dizem "Segundo o Decreto nº 9.830/2019" e põem a cena com "agente público", sem órgão do Legislativo; o do art. 14 nomeia o alcance ("No âmbito do Poder Executivo federal").
+5. **Concentração na 2.2** (sugestão do adendo do D1, seção 3.1, adotada): no máximo 5 itens do Decreto 9.830 e 4 da Lei 14.133; só pontos diretos (a folha chega a 20 diretos). Fora: LINDB, art. 28 (A2.2-05, gêmeo do D1-57; fica na reserva só como E de troca de sujeito), Lei 9.784, art. 47 (A2.2-04), Lei 14.133, art. 73 (A2.2-24), LC 73 (A2.2-25 a 27; alerta P7) e Decreto 9.830, art. 12, § 7º (contexto, P6).
+6. **Pontos fora por gêmeo, atribuição ou gabarito discutível**: A8.4-04 (mesmo trecho R62 do D4-R24); A8.4-19 (mesma lista de cinco componentes do D4-28); A8.4-26 (verdade atribuída a Osborne; seção 0.2, item 4); A8.4-15 (lista de oito elos de autor, alerta B5); A8.4-22 e A8.4-23 (consumidos como contraste no D4-R19 e no D4-R27); A6.4-14 (LINDB, art. 28: gêmeo entre lotes do D1-57; alerta A9); A6.5-13 (seção 0.2, item 8); A6.5-18 (Lei 8.112, art. 126: a troca "administrativa → civil" esbarra no CC, art. 935, e o gabarito ficaria discutível; alerta A5).
+7. **Sequência — desvios de legado**: na ordem do pacote v1.13, os canônicos de quatro folhas já reprovam o teste antes de qualquer item novo: 2.2, alternância de 6 (D1-53 a D1-58), no gabarito e no [TS]; 6.4, bloco de período 3 com 8 itens (D3-51 a D3-59), no gabarito; 6.5, alternância de 5 (D3-62 a D3-67), no gabarito e no [TS]; 6.2, bloco de período 4 com 8 itens (D3-33 a D3-81, posições 2 a 9), no gabarito. É legado canônico, não imputável à leva (seção 0.2, item 2; precedente do bloco da 8.4, reconciliação da leva 1, 4.1); fica registrado e não é corrigido (a ordem dos canônicos não muda no reforço; D-COMPLEMENTOS). Exigência desta ficha: o primeiro item novo de cada folha fecha a corrida ou o bloco aberto, e nenhuma janela reprovada inclui item novo. O plano das seções 8.3 e 8.4 cumpre isso (conferido por script; seção 8.5).
+8. **Ajustes ao plano da seção 2.1** (o lastro e a sequência pedem; registrados): leva 2 sem mudança de folhas, números nem C/E (8.4 +10, 6/4; 2.2 +12, 6/6; 6.4 +8, 5/3). Leva 3 com as mesmas folhas e números (6.4 +4; 6.5 +12; 5.2 +11; 6.2 +3), mas a 6.2 passa de 2 C / 1 E para **1 C / 2 E** (nenhuma das três ordens com 2 C / 1 E passa o teste na 6.2 acumulada, que termina em C E E C: ou estende o bloco de período 4 do legado, ou forma alternância de 5 no [TS]; conferido por script). Efeitos: leva 3 com 16 C / 14 E, e não 17/13; a 6.2 da leva 4 passa a 5 C / 3 E, e não 4/4.
+9. **Núcleo (seção 7.2)**: 8.4 sem núcleo novo (chegou a 10 na leva 1; D4-R19 a D4-R28 false); 2.2 → D1-R01 e D1-R02; 6.4 → D3-R14 e D3-R15; 6.5 → D3-R26 e D3-R27; 5.2 → D3-R38; 6.2 → D3-R49 (todos diretos, primeiros do ato de aceite na ordem do arquivo). Se um deles for reprovado, vale o k3 sobre os aceitos.
+
+### 8.3 FICHA DA LEVA 2 — pronta para a gcb-cpp
+
+#### 8.3.1 Objeto (edital, literal; edital/DA_itens_1_12_P1.md)
+- "8.4 Valor Público, cadeia de valor público." — 10 itens novos, **D4-R19 a D4-R28** (seção 7.1); a folha vai de 10 a 20 e fecha.
+- "2.2 Parecer: responsabilidade do emissor do parecer." — 12 itens novos, **D1-R01 a D1-R12**; a folha vai de 8 a 20.
+- "6.4 Requisitos para a demonstração da responsabilidade do Estado." — 8 itens novos, **D3-R14 a D3-R21** (primeira parte; a segunda, 4 itens, é da leva 3).
+Total: 30. Saída: saida/gcb/DA_reforco_leva2_v1.md (seção 7.5), ordem das folhas no arquivo: 8.4, 2.2, 6.4; última linha "FIM DA LEVA 02 — REFORÇO DA". Contexto de uso como na seção 3.1; exemplos hipotéticos, sem norma interna, sistema ou prática real da Câmara.
+
+#### 8.3.2 Fontes admitidas na leva 2
+- 8.4: só R59 a R81 do adendo do D4 (seção 5; URL e consulta de 20/10/2026 como lá), com os alertas B1 a B10; R82 e R83 não entram (Osborne; A8.4-27, seção 3.4). Rótulo REFERENCIAL OUTRA_OFICIAL; órgão (TCU, CGU, Casa Civil) pode ser nomeado; autor não (seção 0.2, item 4). Exigência (c): nenhum item da 8.4 usa, cita ou parafraseia o Decreto 9.203, art. 2º, II, nem o art. 4º, IV.
+- 2.2: só os dispositivos da seção 4 do adendo do D1 (F1 a F5, planalto.gov.br, consulta de 20/10/2026), com os alertas P1 a P8; os arts. 10, 53 e 72 da Lei 14.133 citados pela tabela 4.4 desse adendo (reconfirmação de 20/10/2026). Nada sobre responsabilidade solidária do parecerista, classificação doutrinária de pareceres, teses de tribunal ou alcance do Decreto 9.830 ao Legislativo (P8).
+- 6.4: só os dispositivos da seção 4 do adendo do D3, com os alertas A1 a A13; CC, arts. 186 e 927, pela letra, sem efeito de decisão do STF (A2); nada sobre o regime da responsabilidade do Estado, teoria do risco ou "dupla garantia" (A11; C12).
+- Proibidos: memória, fonte secundária, jurisprudência, base doutrinária.
+
+#### 8.3.3 Pontos já usados (não repetir; anti-gêmeo)
+- 8.4: os da seção 3.3 (D4-27 a D4-33) e os da leva 1: A8.4-06 (D4-R15), A8.4-08 (D4-R16), A8.4-16 (D4-R17).
+- 2.2: D1-53 a D1-60 (lista do adendo do D1, abertura).
+- 6.4: D3-51 a D3-59 (adendo do D3, seção 3.2); na 6.3 (leva 1), CC, art. 186 (ação ou omissão; negligência e imprudência), art. 927, caput, e Lei 8.112, arts. 122, caput, e 124 — ângulo novo admitido, com "Difere de".
+
+#### 8.3.4 Pontos de julgamento por item (ordem final dentro de cada folha; a gcb-cpp redige)
+Colunas: id | ponto (código do adendo) | base | o que se julga (sentido da troca, sem redação) | formato | moldura | gab. | [TS] | aderência | abertura (CQ = "Considere que"; DC = declarativa) | difere de. Nenhum C leva [TS] (C-isca: nenhuma planejada; a 8.4 e a 6.4 já têm a sua; na 2.2, no máximo 1, com o teste da seção 8.5 refeito). Todo E leva [TS] com troca real e única; E sem troca sutil (contradição expressa) só com o teste refeito.
+
+**Folha 8.4 — 10 itens (6 C / 4 E), D4-R19 a D4-R28**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D4-R19 | A8.4-21 | R77 (contraste R78) | processos são as ações que combinam os recursos disponíveis para produzir bens e serviços, **", e não"** os bens e serviços entregues, que são os produtos (seção 7.4.4) | PAR | N | **C** | **não** (seção 7.3) | direta | DC | D4-28 (lista dos elos; aqui o conceito de processos) |
+| D4-R20 | A8.4-02 | R60 (TCU) | entre as diretrizes para a boa governança do referencial do TCU está apoiar e viabilizar a inovação para agregar valor público | APL | S — expositor — fecho **neutro** | C | não | direta | CQ | D4-32 (desempenho como geração de valor, R17) |
+| D4-R21 | A8.4-10 | R66 (CGU) | no setor público em geral, observa-se a inexistência de padrão para representar a cadeia de valor (troca: inexistência → existência de padrão) | DEF | N | E | sim | direta | DC | D4-33 (adaptação de Porter, R16) |
+| D4-R22 | A8.4-09 | R65 (CGU) | valor público está também associado ao grau de reconhecimento de atendimento ou satisfação do cidadão (sem citar nem parafrasear o Decreto 9.203) | DEF | N | C | não | direta | DC | D4-30 (definição do decreto) |
+| D4-R23 | A8.4-25 | R81 (Casa Civil) | a avaliação das relações entre insumos, processos e produtos também investiga a eficiência operacional e a economicidade | SIT (gestor) | N — fecho **neutro** | C | não | direta | CQ | D4-31 (fluxo dos insumos ao valor) |
+| D4-R24 | A8.4-05 | R62 (TCU; Porter não nomeado) | tecnologia está entre as atividades de apoio (troca: apoio → primárias) | SIT (gestor) | N — fecho acerto | E | sim | direta | CQ | D4-33 |
+| D4-R25 | A8.4-20 | R76 (Casa Civil) | insumos: recursos do setor público, orçamentários ou não (troca: → exclusivamente orçamentários) | DEF | N | E | sim | direta | DC | D4-28 |
+| D4-R26 | A8.4-11 | R67 (CGU) | a metodologia de gestão de processos fornece a estrutura para a elaboração da cadeia de valor, que auxilia o estabelecimento de objetivos estratégicos a partir da missão | SUJ | N | C | não | direta | DC | D4-33 |
+| D4-R27 | A8.4-24 | R80 (contraste R79) | a mudança de mais longo prazo no problema é o impacto (troca: impactos → resultados) | PAR | N | E | sim | direta | DC | D4-28 (lista; aqui o conceito do componente) |
+| D4-R28 | A8.4-18 | R74 (Casa Civil) | as avaliações aprofundadas inserem-se na análise dos componentes da cadeia de valor das políticas públicas ou, como diz o guia, dos componentes do modelo lógico | PAR | N | C | não | direta | DC | D4-28 |
+Reserva da 8.4 (na ordem): A8.4-07, A8.4-12, A8.4-13, A8.4-03, A8.4-01 (vizinho do D4-32: só com "Difere de" explícito), A8.4-17 (B5; "atividades", não "processos"), A8.4-14 (vizinho do D4-31 e do D4-32; último). Substituto mantém formato, gabarito, moldura e abertura da linha, ou recalcula as seções 8.3.5 a 8.3.7.
+
+**Folha 2.2 — 12 itens (6 C / 6 E), D1-R01 a D1-R12 (todos diretos)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D1-R01 | A2.2-02 | Lei 9.784, art. 42, § 2º | o prosseguimento e a decisão com dispensa do parecer obrigatório e não vinculante não prejudicam a responsabilidade de quem se omitiu no atendimento | SUJ | N | C | não | direta | DC | D1-56 (efeito sobre o processo; aqui a responsabilidade do omisso) |
+| D1-R02 | A2.2-08 | Decreto 9.830, art. 12, § 1º | erro grosseiro: manifesto, evidente e inescusável, praticado com culpa grave, com elevado grau de negligência, imprudência ou imperícia (sem troca de "culpa grave": P4) | DEF | N | C | não | direta | DC | D1-58 (LINDB; outra norma e outro elemento) |
+| D1-R03 | A2.2-01 | Lei 9.784, art. 42, § 1º | responsabiliza-se quem der causa ao atraso (troca: → exclusivamente o órgão consultivo encarregado de emiti-lo) | SUJ | N | E | sim | direta | DC | D1-55 (paralisação do processo; aqui o sujeito responsabilizado) |
+| D1-R04 | A2.2-10 | Decreto 9.830, art. 12, § 3º | o mero nexo de causalidade entre a conduta e o dano não implica responsabilização, salvo dolo ou erro grosseiro comprovado (troca: o nexo basta) | SIT (agente público; sem moldura) | N | E | sim | direta | CQ | D1-57 |
+| D1-R05 | A2.2-03 | Lei 9.784, art. 43 (× art. 42, § 1º) | laudo técnico não entregue no prazo: o órgão de instrução solicita laudo a outro órgão equivalente (troca: o processo não terá seguimento até a apresentação) | PAR | N | E | sim | direta | DC | D1-55 (parecer vinculante; aqui laudo técnico) |
+| D1-R06 | A2.2-17 | Lei 14.133, art. 10, caput | quem agiu com estrita observância de parecer jurídico do art. 53, § 1º, e precisa defender-se: a advocacia pública promove a representação, a critério do agente | SIT | N | C | não | direta | CQ | — |
+| D1-R07 | A2.2-18 | Lei 14.133, art. 10, § 1º, II | a representação não se aplica quando provas de atos ilícitos **dolosos** constarem dos autos (troca: dolosos → culposos) | PAR | N | E | sim | direta | DC | D1-R06 (caput; aqui a exceção) |
+| D1-R08 | A2.2-13 | Decreto 9.830, art. 12, § 6º, primeira parte | a responsabilização pela opinião técnica não se estende de forma automática ao decisor que a adotou como fundamento de decidir | SUJ | N | C | não | direta | DC | D1-57 (responsabilidade pessoal do agente; aqui emissor × decisor) |
+| D1-R09 | A2.2-12 | Decreto 9.830, art. 12, § 5º | o montante do dano ao erário, ainda que expressivo, não pode, por si só, caracterizar erro grosseiro ou dolo | SIT (agente público; sem moldura) | N | C | não | direta | CQ | — |
+| D1-R10 | A2.2-16 | Decreto 9.830, art. 17 | o art. 12 não afasta sanções disciplinares, inclusive por ação ou omissão culposas de natureza leve (troca: afasta) | PAR | N | E | sim | direta | DC | D1-58 (responsabilidade pela opinião; aqui sanção disciplinar) |
+| D1-R11 | A2.2-20 | Lei 14.133, art. 53, caput | ao fim da fase preparatória, o órgão de assessoramento jurídico realiza controle **prévio** de legalidade (troca: prévio → posterior à contratação) | SIT | N | E | sim | direta | CQ | — |
+| D1-R12 | A2.2-23 | Lei 14.133, art. 72, III | a contratação direta é instruída com parecer jurídico e pareceres técnicos, se for o caso | SIT | N | C | não | direta | CQ | — |
+Decreto 9.830: D1-R02, R04, R08, R09, R10 (5, teto); Lei 14.133: D1-R06, R07, R11, R12 (4, teto). Reserva (na ordem; Decreto só no lugar de item do Decreto e Lei 14.133 só no lugar de item da Lei 14.133): A2.2-09, A2.2-11, A2.2-14 (nunca com o D1-R08), A2.2-15; A2.2-19, A2.2-21, A2.2-22; A2.2-05 (só E de troca de sujeito; gêmeo do D1-57 na forma C); A2.2-06 (vizinho do D1-60).
+
+**Folha 6.4 — 8 itens (5 C / 3 E), D3-R14 a D3-R21 (primeira parte)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R14 | A6.4-17 | Lei 8.987, art. 25, caput | a concessionária responde por todos os prejuízos causados ao poder concedente, aos usuários ou a terceiros | SUJ | N | C | não | direta | DC | D3-59 (CC, art. 43) |
+| D3-R15 | A6.4-05 | CC, art. 186 | há ato ilícito ainda que o dano seja exclusivamente moral | DEF | N | C | não | direta | DC | D3-R02 e D3-R05 (6.3: ação ou omissão; negligência) |
+| D3-R16 | A6.4-01 | CF, art. 5º, V | indenização por dano material, moral ou à imagem (troca: excluído o dano à imagem) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D3-58 (elementos do § 6º) |
+| D3-R17 | A6.4-06 | CC, art. 927, parágrafo único | obrigação de reparar, independentemente de culpa, quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem (sem pôr o Estado na cena nem afirmar o regime dele: A2, A11) | SIT | N | C | não | direta | CQ | D3-55 |
+| D3-R18 | A6.4-13 | Lei 8.112, art. 122, § 3º | a obrigação de reparar estende-se aos sucessores até o limite do valor da herança recebida (troca: sem limite) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | parcial | CQ | — |
+| D3-R19 | A6.4-08 | CC, art. 944, caput | a indenização mede-se pela extensão do dano (troca: pela gravidade da culpa do agente) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D3-56 |
+| D3-R20 | A6.4-12 | Lei 8.112, art. 122, § 2º | dano causado a terceiros: o servidor responde perante a Fazenda Pública, em ação regressiva (C com moldura, par R3 de um E além da cota) | APL | S — órgão/servidor do Poder Legislativo da União | C | não | parcial | CQ | D3-54 (CF: dolo ou culpa no regresso) |
+| D3-R21 | A6.4-02 | CF, art. 5º, X | violação da intimidade, da vida privada, da honra ou da imagem: indenização pelo dano material ou moral | DEF | N | C | não | direta | DC | D3-R16 (inciso V; outro inciso) |
+Moldura com a Lei 8.112 (D3-R18, D3-R20): a cena nomeia "servidor público civil da União lotado em órgão do Poder Legislativo da União" e a lei; nenhum regime próprio da Câmara. Reserva da 6.4 (só indiretos; nenhum direto sobra, seção 8.2, item 2): A6.4-18, A6.4-10 (A8), A6.4-07 (A3; último).
+
+#### 8.3.5 Formatos ao fim da leva 2 (folha acumulada; teto 6 em 20)
+| folha | DEF | SUJ | SIT | NUM | PAR | APL | total |
+|---|---|---|---|---|---|---|---|
+| 8.4 (canônicos 2/0/2/0/2/1 + leva 1 0/0/0/0/0/3 + leva 2 3/1/2/0/3/1) | 5 | 1 | 4 | 0 | 5 | 5 | 20 |
+| 2.2 (canônicos 4/0/0/1/3/0 + 1/3/5/0/3/0) | 5 | 3 | 5 | 1 | **6** | 0 | 20 |
+| 6.4 (canônicos 3/0/2/0/2/1 + 2/1/1/0/0/4) | 5 | 1 | 3 | 0 | 2 | 5 | 16 (leva 3 completa: + 0/2/0/2/0/0) |
+PAR da 2.2 fica no teto: a gcb-cpp não declara outro PAR na folha; reclassificação pela QA obriga a mudar a construção de outro item. Formatos da leva 2: DEF 6, SUJ 5, SIT 8, NUM 0, PAR 6, APL 5.
+
+#### 8.3.6 Gabarito, moldura, aderência e conjuntos ao fim da leva 2
+- Leva: **17 C / 13 E (56,7%)**, faixa 12–18. Folhas: 8.4 10/10 (4/6 + 6/4); 2.2 10/10 (4/4 + 6/6); 6.4 8/8 parcial (3/5 + 5/3; fecha 10/10 com 2/2 na leva 3).
+- Moldura nova (D-MOLDURA-CE; cota e R3): **2 C** (D4-R20; D3-R20) e **3 E** (D3-R16, D3-R18, D3-R19). DA: 46/18 → **48/21 (69,6%)**, igual à seção 2.2; E com moldura novos acumulados: 12 (meta da D-MOLDURA-CE prevista na leva 5, sem mudança). Por folha: 8.4 2 C / 3 E (40%), 5 com moldura; 6.4 2/3 (40%), 5; 2.2 0. Cota da T-122: 8.4 e 6.4 cumpridas (1 cada; 3 E entregues em cada uma); o C da 8.4 é par do E além da cota da leva 1 (R3).
+- Aderência: 28 diretos / 2 parciais (D3-R18, D3-R20). Piso de 10 diretos: 8.4 20; 2.2 20; 6.4 14 (de 16).
+- [TS]: 13 (todos E; nenhum C-isca). VOLÁTIL: 0. REVERIFICAR: 0 (adendos: nenhum dispositivo de 2025 ou 2026).
+- Conjuntos do D4 (regra 11; seção 7.4.1): K1 moldura 13/6 → **14/6** (70,0%; equilíbrio nas levas 8 e 9, como na seção 3.6); K2 fecho de acerto 7/6 → **7/7 (50,0%)** (só D4-R24); K3 "pós-NPM" 5/4, sem item novo (nenhum item da 8.4 usa a expressão); K4 "Considere que" 23/17 → **25/18 (58,1%)** (D4-R20 C, D4-R23 C, D4-R24 E; **nenhum outro item do D4 da leva abre com "Considere que"**: K4 fica a 1,9 ponto do teto de 60%, e a folga, de 2 C, fica para as levas 8 e 9); fecho neutro 0/3 → **2/3 (40,0%)** (D4-R20 e D4-R23; nenhum E com fecho neutro); contraste ", e não" 0/2 → **1/2** (D4-R19).
+- Conjunto do D3 (moldura): 7/4 → **8/7 (53,3%)**.
+- Abertura × gabarito na leva (seção 7.4.2): "Considere que" 7 C / 6 E (53,8% de C ≥ 40%); declarativos 10 C / 7 E (41,2% de E ≥ 40%). Fórmula "Nessa situação, nos termos d…" (seção 7.4.3): na 6.4, no máximo 2 dos 5 itens com "Considere que"; na 2.2, contada e informada.
+- SUJ (seção 7.4.4): sujeito trocado só no D1-R03 (órgão consultivo, que o próprio art. 42 menciona); nos SUJ em C, o sujeito é o da letra.
+
+#### 8.3.7 Sequência (seção 7.3; plano conferido por script antes do despacho)
+| escopo | gabarito | [TS] | resultado |
+|---|---|---|---|
+| 8.4, leva | CCECCEECEC | nnTnnTTnTn | passa |
+| 8.4 acumulada (D4-27 a D4-33, D4-R15 a R17, leva) | CEECECCEEE·CCECCEECEC | nTTnTTnTTT·nnTnnTTnTn | gabarito passa; [TS] só o bloco aceito das posições 1 a 9 (seção 7.3); D4-R19 = C sem [TS] fecha a corrida E E E |
+| 2.2, leva | CCEEECECCEEC | nnTTTnTnnTTn | passa |
+| 2.2 acumulada | CECECEEC·CCEEECECCEEC | nTnTnTTn·nnTTTnTnnTTn | só o legado das posições 1 a 6 (seção 8.2, item 7) |
+| 6.4, leva | CCECEECC | nnTnTTnn | passa |
+| 6.4 acumulada (16) | CEECEECE·CCECEECC | nTnTTTnT·nnTnTTnn | gabarito: só o legado das posições 1 a 8 (o D3-R14, C, fecha o bloco); [TS] passa |
+| leva 2 inteira (8.4, 2.2, 6.4) | CCECCEECEC·CCEEECECCEEC·CCECEECC | idem com T nos E | passa |
+A gcb-cpp mantém esta ordem e esta numeração. Troca de posição só se o teste refeito (folha, folha acumulada, leva) passar e a seção 4 do arquivo registrar; troca de ponto, como na seção 3.7.
+
+#### 8.3.8 Amostra da gbq-estilo (10%; seção 5 e seção 7.6, como lida pela D-T116-LEVA1-ACEITE)
+3 itens (10%), designados antes da produção: **D4-R20** (C com moldura de expositor e fecho neutro: pista K4 e fecho); **D1-R04** (E, SIT do Decreto 9.830 sem moldura, "Considere que"; lote D1); **D3-R18** (E com moldura do Legislativo, aderência parcial, Lei 8.112). Cobre: E com moldura, os três lotes, um C, um parcial. A auditoria corre sobre a v1, em paralelo ao R1 (recomendação da presidência na D-T116-LEVA1-ACEITE); os AJ de estilo vão com os AJ do R1 para a v2 e são conferidos no R2. Texto de estilo sobre item já aprovado no R2 só entra em aceite com conferência da gcb-cqfp. Saída: saida/banco/estilo_DA_reforco_leva2.md.
+
+#### 8.3.9 Despacho à gcb-cpp (leva 2)
+- Executor: gcb-cpp (sonnet), uma instância. Objeto: leva 2, conforme esta seção 8.3, as seções 1 e 7 e os anexos abaixo. Saída: saida/gcb/DA_reforco_leva2_v1.md, no formato da regra 14 (nomes da seção 7.5), linha 1 `# DA_reforco_leva2_v1.md — T-116 — <data ISO> — gerado por gcb-cpp`.
+- Anexos (lista exaustiva): esta ficha; saida/gcb/D4_anexo_N_adendo_2026-10-20.md (seções 3.2, 5 e 6.2); saida/gcb/D1_anexo_N_adendo_2026-10-20.md (seções 3.1, 4 e 5.2); saida/gcb/D3_anexo_N_adendo_2026-10-20.md (seções 3.2, 4 e 5.2); saida/gcb/D4_anexo_N_mapa_normativo.md (seção 5, só contraste) e saida/gcb/D4_ficha_lote.md (seções 3.2, 3.3 e 6); regras/estilo_banca.md; modelo de bloco: saida/gcb/DA_reforco_leva1_v2.md (blocos aprovados) e saida/gcb/D4_v2_1.md, seção 5.2; canônicos D1_v2.md (D1-53 a D1-60), D3_v2_1.md e D4_v2_1.md só para os pontos já usados; cópias em saida/gcb/normativo_cache/.
+- A seção 4 do arquivo traz, por script: as contagens da regra 14; abertura × gabarito e fecho × gabarito por lote (canônicos, leva, acumulado; seção 7.4.6); a contagem da fórmula "Nessa situação, nos termos d…"; o teste da seção 8.3.7 refeito; e a moldura acumulada (DA, D3, K1 a K4, fecho neutro, ", e não").
+- Dúvida de conteúdo vai ao bloco à GCB, sem consulta a terceiros. Nada vai à plataforma nem à candidata. Sem commit.
+
+#### 8.3.10 Errata AJ-E1 do D3-R13 — conferência da gcb-cqfp no R1 da leva 2 (D-T116-LEVA1-ACEITE, parte (II))
+O parecer R1 da leva 2 (saida/gcb/QA_DA_reforco_leva2_R1_<data>_gcb-cqfp.md) traz uma **seção própria**, "Errata AJ-E1 (D3-R13, leva 1)", separada do veredito da leva 2, em que a gcb-cqfp confere a AJ-E1 como errata textual de item canônico:
+- texto: o de saida/banco/estilo_DA_reforco_leva1.md (2d50c4cb…8878), linha da AJ-E1, idêntico ao da reconciliação da leva 1, seção 4.4 — antes: «são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento.» — depois: «os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos.»;
+- conferências: (1) o "antes" ocorre exatamente 1 vez na seção 1 de saida/gcb/DA_reforco_leva1_v2.md (2c431529…a4f04) e o "depois", 0 vez; (2) o "depois" é literal ao CDC, art. 22, caput, na cópia saida/gcb/normativo_cache/Lei_8078_1990_CDC_compilada_2026-10-20.txt (575478df…4526); (3) mesmas palavras, só a ordem muda; (4) gabarito C, ponto A6.3-12, mecanismo C2, formato SUJ, aderência parcial e demais campos do bloco inalterados; (5) o enunciado resultante, lido inteiro, não muda o sentido nem cria pista;
+- veredito próprio: **CONFERIDO** ou **NÃO CONFERIDO** (com motivo). Não é terceira rodada da leva 1 nem QA aberto que impeça a leva 3; não altera o arquivo da leva 1.
+- Destino: a GCB leva a errata ao gatilho A seguinte (o da leva 2), como item separado; aceita, a GBQ a aplica na T-123 por substituição exata, com aborto se o "antes" não ocorrer exatamente 1 vez na seção 1, registro por id no registro de alterações da v1.14 e conferência da gbq-cqe na fidelidade. Sem esse aceite até a geração final da v1.14, o D3-R13 entra como aprovado no R2.
+
+### 8.4 FICHA DA LEVA 3 — despachável depois do fecho do QA da leva 2
+
+#### 8.4.1 Objeto (edital, literal)
+- "6.4 Requisitos para a demonstração da responsabilidade do Estado." — 4 itens, **D3-R22 a D3-R25** (segunda parte; a folha vai a 20).
+- "6.5 Causas excludentes e atenuantes da responsabilidade do Estado." — 12 itens, **D3-R26 a D3-R37**; de 8 a 20.
+- "5.2 Uso e abuso do poder." — 11 itens, **D3-R38 a D3-R48**; de 9 a 20.
+- "6.2 Responsabilidade por ato comissivo do Estado." — 3 itens, **D3-R49 a D3-R51** (primeira parte; a segunda, 8 itens, D3-R52 a D3-R59, é da leva 4).
+Total: 30. Saída: saida/gcb/DA_reforco_leva3_v1.md; ordem no arquivo: 6.4, 6.5, 5.2, 6.2; última linha "FIM DA LEVA 03 — REFORÇO DA". Se a leva 2 terminar com substituto no D3, as faixas da leva 3 andam pelo próximo id livre (regra 12) e a reconciliação da leva 2 as republica.
+
+#### 8.4.2 Fontes admitidas na leva 3
+- 6.4 e 6.5: seção 4 do adendo do D3, alertas A1 a A13. 5.2 e 6.2: "Adendo 2" do mesmo arquivo (A2.4; alertas C1 a C12), com a CF, art. 5º, LXXV, reconfirmada em A2.4.1. Lei 12.016: só art. 1º, caput e § 1º (seção 8.2, item 3). Decreto 9.830, art. 14: só com o nome do Decreto e o alcance, sem moldura (C6). Lei 9.494, art. 1º-C: sem termo inicial (C8). Lei 13.869: nomeia a lei e o sujeito; nunca a apresenta como definição do abuso de poder administrativo (C1); nada sobre imunidade, tipos penais ou norma interna da Câmara (C4).
+- Continuam [SEM FONTE — não afirmar]: A11 e C12 (regime da omissão, risco integral, fortuito × força maior, ônus das excludentes no § 6º, "excesso" e "desvio" como espécies, dupla garantia, responsabilidade por atos legislativos ou jurisdicionais em geral).
+
+#### 8.4.3 Pontos já usados (não repetir)
+- 6.4: os da seção 8.3.3 e os da leva 2 (A6.4-01, 02, 05, 06, 08, 12, 13, 17).
+- 6.5: D3-61 a D3-70 (adendo do D3, seção 3.3).
+- 5.2: D3-11 a D3-20 (A2.3.1, abertura); fora por gêmeo os do alerta C10.
+- 6.2: D3-32 a D3-40 e D3-81 (A2.3.2, abertura); CC, arts. 186 e 927 (6.3 e 6.4) e Lei 8.112, art. 122 (6.3 e 6.4) não voltam.
+
+#### 8.4.4 Pontos de julgamento por item (ordem final; colunas da seção 8.3.4)
+
+**Folha 6.4 — 4 itens (2 C / 2 E), D3-R22 a D3-R25 (todos de aderência parcial; seção 8.2, item 2)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R22 | A6.4-15 | Decreto 20.910, art. 1º | todo direito ou ação contra a Fazenda federal, estadual ou municipal prescreve em cinco anos contados da data do ato ou fato (sem prestadoras privadas: A10) | NUM | N | C | não | parcial | DC | — |
+| D3-R23 | A6.4-09 | Lei 4.619, art. 1º, parágrafo único | funcionário, para a lei, é qualquer pessoa investida em função pública, seja qual for a forma de investidura ou a natureza da função (troca: só o ocupante de cargo efetivo) | SUJ | N | E | sim | parcial | DC | D3-52 ("nessa qualidade") |
+| D3-R24 | A6.4-11 | Lei 4.619, art. 2º | ação regressiva: prazo de sessenta dias do trânsito em julgado da condenação da Fazenda (troca de número; nunca "cinco anos") | NUM | N | E | sim | parcial | DC | — |
+| D3-R25 | A6.4-16 | CDC, art. 14, caput | o fornecedor de serviços responde, independentemente da existência de culpa, pelos danos por defeitos na prestação dos serviços (A7) | SUJ | N | C | não | parcial | DC | — |
+Lei 4.619 só "nos termos da Lei nº 4.619/1965", sem atualizar órgão ou carreira (A8). Se a gcb-cqfp recusar a pertinência de indiretos da 6.4 sem reserva para repor (A6.4-18, A6.4-10, A6.4-07), a folha fica abaixo de 20, com registro (seção 2.1).
+
+**Folha 6.5 — 12 itens (7 C / 5 E), D3-R26 a D3-R37**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R26 | A6.5-01 | CC, art. 393, parágrafo único | o caso fortuito ou de força maior verifica-se no fato necessário cujos efeitos não era possível evitar ou impedir (sem distinguir um do outro: A3, A11) | DEF | N | C | não | direta | DC | D3-63 (força maior como excludente, base doutrinária) |
+| D3-R27 | A6.5-08 | CC, art. 945 | vítima que concorreu culposamente: indenização fixada pela gravidade da sua culpa em confronto com a do autor (troca: sem considerar a culpa da vítima) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D3-61 (atenua × exclui; aqui o critério de fixação) |
+| D3-R28 | A6.5-12 | Lei 8.987, art. 25, caput | a fiscalização exercida pelo órgão competente não exclui nem atenua a responsabilidade da concessionária | SIT | N | C | não | direta | CQ | D3-R14 (6.4: mesmo artigo, outro elemento) |
+| D3-R29 | A6.5-07 | CC, art. 930 | perigo por culpa de terceiro: o autor do dano tem ação regressiva contra o terceiro | SUJ | N | C | não | direta | DC | D3-70 (regresso contra o servidor) |
+| D3-R30 | A6.5-17 | CC, art. 935 | responsabilidade civil independente da criminal, mas não se questiona mais a existência do fato ou a autoria decididas no juízo criminal (troca: podem ser rediscutidas no cível) | PAR | N | E | sim | direta | DC | — |
+| D3-R31 | A6.5-19 | Lei 8.112, art. 125 | sanções civis, penais e administrativas podem cumular-se e são independentes (troca: a administrativa afasta a civil) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | parcial | CQ | — |
+| D3-R32 | A6.5-14 | CF, art. 21, XXIII, d | a responsabilidade civil por danos nucleares independe da existência de culpa (sem "risco integral" e sem excludentes: A6) | DEF | N | C | não | direta | DC | D3-64 |
+| D3-R33 | A6.5-05 | CC, art. 188, parágrafo único | no caso do inciso II, o ato só é legítimo quando as circunstâncias o tornarem absolutamente necessário, sem exceder o indispensável (C com moldura, par R3) | APL | S — órgão/servidor do Poder Legislativo da União | C | não | direta | CQ | — |
+| D3-R34 | A6.5-09 | CC, art. 944, parágrafo único | excessiva desproporção entre a gravidade da culpa e o dano: o juiz pode reduzir, equitativamente, a indenização | SUJ | N | C | não | direta | DC | D3-67; D3-R19 (6.4, caput) |
+| D3-R35 | A6.5-06 | CC, art. 929 | o lesado não culpado do perigo tem direito à indenização, mesmo no caso do art. 188, II (troca: só se provar culpa do autor do dano; sem cenário que enumere todos os elementos para negar o fecho: seção 7.4.5) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D3-R33 |
+| D3-R36 | A6.5-20 | Lei 4.619, art. 5º | a cessação do exercício da função pública não exclui o funcionário da responsabilidade perante a Fazenda (A8) | SIT | N | C | não | parcial | CQ | D3-66 |
+| D3-R37 | A6.5-11 | CDC, art. 14, § 3º, II | excludente do fornecedor de serviços: culpa **exclusiva** do consumidor ou de terceiro (troca: exclusiva → concorrente) | PAR | N | E | sim | parcial | DC | D3-61 |
+Reserva da 6.5 (na ordem): A6.5-03, A6.5-04 (art. 188; não junto do D3-R33 e do D3-R35), A6.5-10 (CDC, ônus do fornecedor), A6.5-02 (A3), A6.5-15 e A6.5-16 (Lei 6.453; A6; nunca no mesmo simulado que o D3-64).
+
+**Folha 5.2 — 11 itens (6 C / 5 E), D3-R38 a D3-R48**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R38 | A5.2-03 | CF, art. 5º, LXVIII | habeas corpus por ilegalidade **ou abuso de poder** (troca: só por ilegalidade) | DEF | N | E | sim | direta | DC | D3-11 |
+| D3-R39 | A5.2-04 | CF, art. 5º, LXIX | mandado de segurança quando o responsável for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público | SUJ | N | C | não | direta | DC | D3-13 |
+| D3-R40 | A5.2-02 | CF, art. 5º, XXXIV, caput e a | direito de petição contra ilegalidade ou abuso de poder, independentemente do pagamento de taxas (troca: mediante taxas) | SIT (particular; sem moldura) | N | E | sim | direta | CQ | — |
+| D3-R41 | A5.2-05 | CF, art. 5º, LXIX | o mandado de segurança protege direito líquido e certo não amparado por habeas corpus ou habeas data | PAR | N | C | não | direta | DC | D3-12 |
+| D3-R42 | A5.2-12 | Lei 8.112, art. 116, XII | é dever do servidor representar contra ilegalidade, omissão ou abuso de poder | SIT (servidor público federal; sem moldura) | N | C | não | parcial | CQ | D3-16 (poder-dever de agir) |
+| D3-R43 | A5.2-06 | Lei 12.016, art. 1º, caput | mandado de segurança também com justo receio de violação (troca: só violação consumada) | DEF | N | E | sim | direta | DC | — |
+| D3-R44 | A5.2-18 | Lei 13.869, art. 2º, caput e II | rol de sujeitos ativos "compreendendo, mas não se limitando a", com membros do Poder Legislativo (troca: rol taxativo) | APL | S — comissão/sessão da Câmara dos Deputados (cota da 5.2) | E | sim | parcial | CQ | D3-18 |
+| D3-R45 | A5.2-07 | Lei 12.016, art. 1º, caput | a autoridade pode ser de qualquer categoria e exercer quaisquer funções | SUJ | N | C | não | direta | DC | D3-R43 |
+| D3-R46 | A5.2-17 | Lei 13.869, art. 1º, § 2º | a divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso de autoridade | SIT (agente público; sem moldura) | N | C | não | parcial | CQ | — |
+| D3-R47 | A5.2-08 | Lei 12.016, art. 1º, § 1º | dirigentes de pessoas jurídicas ou pessoas naturais no exercício de atribuições do poder público equiparam-se às autoridades somente no que disser respeito a essas atribuições | SUJ | N | C | não | direta | DC | — |
+| D3-R48 | A5.2-13 | Lei 8.112, art. 116, parágrafo único | a representação é apreciada pela autoridade superior àquela contra a qual é formulada (troca: pela própria autoridade representada) | SUJ | N | E | sim | parcial | DC | D3-R42 |
+Reserva da 5.2 (na ordem): A5.2-16, A5.2-19, A5.2-20, A5.2-10, A5.2-14, A5.2-01 (nunca com o D3-R40), A5.2-15 (C1, C5); A5.2-21 e A5.2-22 só como último recurso (C3).
+
+**Folha 6.2 — 3 itens (1 C / 2 E), D3-R49 a D3-R51 (primeira parte)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R49 | A6.2-02 | Lei 9.494, art. 1º-C | o prazo de cinco anos alcança também os danos causados por agentes de pessoas jurídicas de direito privado prestadoras de serviços públicos (troca: só de direito público; sem termo inicial: C8) | SUJ | N | E | sim | direta | DC | D3-35 (sujeitos do § 6º) |
+| D3-R50 | A6.2-06 | CF, art. 5º, LXXV | o Estado indenizará também quem ficar preso além do tempo fixado na sentença (troca: a indenização depende de erro judiciário) | SIT | N | E | sim | direta | CQ | — |
+| D3-R51 | A6.2-04 | Decreto 9.830, art. 14 | no âmbito do Poder Executivo federal, o regresso observa a proporcionalidade e a razoabilidade | DEF | N | C | não | direta | DC | D3-32 e D3-36 (C6) |
+Para a leva 4 (8 itens, 5 C / 3 E; seção 8.2, item 8) ficam: A6.2-01, A6.2-03, A6.2-05 (nunca no mesmo simulado que o D3-R50) e os indiretos A6.2-07 a A6.2-15 (C9, C11). Formatos já usados na 6.2 depois da leva 3: DEF 4, PAR 3, SIT 4, SUJ 1 (de 12).
+
+#### 8.4.5 Formatos ao fim da leva 3 (folha acumulada; teto 6 em 20)
+| folha | DEF | SUJ | SIT | NUM | PAR | APL | total |
+|---|---|---|---|---|---|---|---|
+| 6.4 (16 da leva 2 + 0/2/0/2/0/0) | 5 | 3 | 3 | 2 | 2 | 5 | 20 |
+| 6.5 (canônicos 3/0/2/0/2/1 + 2/2/2/0/2/4) | 5 | 2 | 4 | 0 | 4 | 5 | 20 |
+| 5.2 (canônicos 3/1/2/0/2/1 + 2/4/3/0/1/1) | 5 | 5 | 5 | 0 | 3 | 2 | 20 |
+| 6.2 (canônicos 3/0/3/0/3/0 + 1/1/1/0/0/0) | 4 | 1 | 4 | 0 | 3 | 0 | 12 |
+Máximo 25% em toda folha fechada. Formatos da leva 3: DEF 5, SUJ 9, SIT 6, NUM 2, PAR 3, APL 5.
+
+#### 8.4.6 Gabarito, moldura, aderência e conjuntos ao fim da leva 3
+- Leva: **16 C / 14 E (53,3%)**, faixa 12–18. Folhas: 6.4 10/10; 6.5 10/10 (3/5 + 7/5); 5.2 10/10 (4/5 + 6/5); 6.2 5/7 parcial (4/5 + 1/2; fecha 10/10 com 5/3 na leva 4).
+- Moldura nova: **1 C** (D3-R33) e **4 E** (D3-R27, D3-R31, D3-R35; D3-R44). DA: 48/21 → **49/25 (66,2%)**, igual à seção 2.2; E com moldura novos acumulados: 16. Por folha: 6.5 2 C / 3 E (40%), 5 com moldura; 5.2 1/1 (50%), 2; 6.4 sem item novo com moldura (fica 2/3); 6.2 0. Cotas da T-122: 6.5 (1) e 5.2 (1) cumpridas; tipo da cota: órgão/servidor do Poder Legislativo da União na 6.5; comissão/sessão da Câmara dos Deputados na 5.2 (R2).
+- Conjunto do D3 (moldura): 8/7 → **9/11 (45,0%)**; no fim do plano 9/13 (seção 2.2), sem C com moldura além do previsto (seção 6, risco 3).
+- Aderência: 19 diretos / 11 parciais (D3-R22 a R25, R31, R36, R37, R42, R44, R46, R48). Piso de 10 diretos: 6.4 14; 6.5 17; 5.2 16; 6.2 12 (de 12).
+- [TS]: 14 (todos E; nenhum C-isca; na 6.5, que não tem C-isca, no máximo 1, com o teste refeito). VOLÁTIL 0; REVERIFICAR 0.
+- Abertura × gabarito (seção 7.4.2): "Considere que" 5 C / 6 E (45,5% de C); declarativos 11 C / 8 E (42,1% de E). Fórmula "Nessa situação, nos termos d…" (7.4.3): no máximo 5 dos 11 itens com "Considere que" da leva.
+
+#### 8.4.7 Sequência (plano conferido por script)
+| escopo | gabarito | [TS] | resultado |
+|---|---|---|---|
+| 6.4, leva / acumulada (20) | CEEC / CEECEECE·CCECEECC·CEEC | nTTn / nTnTTTnT·nnTnTTnn·nTTn | passa; acumulada: só o legado 1 a 8 do gabarito |
+| 6.5, leva / acumulada | CECCEECCCECE / EECECEEC·CECCEECCCECE | nTnnTTnnnTnT / TTnTnTTn·nTnnTTnnnTnT | passa; acumulada: só o legado 2 a 6 (gabarito e [TS]), já fechado dentro dos canônicos (D3-68, E, depois de D3-67) |
+| 5.2, leva / acumulada | ECECCEECCCE / ECEECCECE·ECECCEECCCE | TnTnnTTnnnT / TnTTnnnTT·TnTnnTTnnnT | passa |
+| 6.2, leva / acumulada (12) | EEC / ECEECCEEC·EEC | TTn / TnTTTnnTn·TTn | passa; acumulada: só o legado 2 a 9 do gabarito; o D3-R49, E, fecha o bloco |
+| leva 3 inteira (6.4, 6.5, 5.2, 6.2) | CEEC·CECCEECCCECE·ECECCEECCCE·EEC | idem com T nos E | passa |
+Mesma regra de troca de posição da seção 8.3.7.
+
+#### 8.4.8 Amostra da gbq-estilo (leva 3)
+4 itens (13,3%): **D3-R33** (C com moldura, par R3, art. 188); **D3-R44** (E com moldura de comissão da Câmara, cota da 5.2, parcial); **D3-R50** (E, SIT, CF, art. 5º, LXXV); **D3-R24** (E, NUM, Lei 4.619, parcial). Mesmo rito da seção 8.3.8. Saída: saida/banco/estilo_DA_reforco_leva3.md.
+
+#### 8.4.9 Despacho à gcb-cpp (leva 3)
+Como na seção 8.3.9, com: saída saida/gcb/DA_reforco_leva3_v1.md; anexos: esta ficha; saida/gcb/D3_anexo_N_adendo_2026-10-20.md (seções 3.2, 3.3, 4 e 5.2, e o "Adendo 2", A2.3 a A2.5); D3_v2_1.md (pontos já usados); o arquivo final da leva 2 (pontos da 6.4); regras/estilo_banca.md; modelo de bloco da leva 1; cópias em saida/gcb/normativo_cache/. A ficha da leva 3 é confirmada na reconciliação da leva 2 (ids, se houver substituto; pontos da 6.4 aceitos); sem essa confirmação, não há despacho.
+
+### 8.5 Notas de simulado das levas 2 e 3 (destino: T-119 e T-123; continuam a lista (a) a (j) da reconciliação da leva 1)
+| # | itens | motivo |
+|---|---|---|
+| (k) | D3-R16 × D3-R21 | CF, art. 5º, V e X: mesmo binômio dano material/moral; o C do inciso X confunde o E do inciso V |
+| (l) | D3-R19 × D3-R34 | CC, art. 944, caput e parágrafo único |
+| (m) | D3-R18 × D3-R20 | Lei 8.112, art. 122, §§ 2º e 3º; mesma moldura e mesma cena |
+| (n) | D3-R22 × D3-R49 | dois prazos de cinco anos (Decreto 20.910 × Lei 9.494; C8) |
+| (o) | D3-R51 × D3-32 e D3-36 | Decreto 9.830, art. 14 × CF, art. 37, § 6º (C6) |
+| (p) | D3-R37 × D3-61 | culpa exclusiva (CDC) × culpa concorrente |
+| (q) | D3-R43 × D3-R45 | Lei 12.016, art. 1º, caput |
+| (r) | D3-R33 × D3-R35 (e D3-R29) | CC, arts. 188, II, 929 e 930: mesma cena de remoção de perigo |
+| (s) | D1-R01 × D1-56; D1-R03 e D1-R05 × D1-55; D1-R02 × D1-58 | mesmo dispositivo ou mesmo conceito (P1, P4) |
+| (t) | D3-R14 × D3-R28 | Lei 8.987, art. 25, caput |
+| (u) | D4-R19, D4-R25 e D4-R27 × D4-28 | componentes do modelo lógico (Casa Civil) |
+| (v) | parciais: D3-R18, D3-R20, D3-R22 a D3-R25, D3-R31, D3-R36, D3-R37, D3-R42, D3-R44, D3-R46, D3-R48 | só simulado diagnóstico (D-ADERENCIA) |
+| (w) | as levas 2 e 3 inteiras (ou só itens de reforço) | não formam simulado isolado; entram misturadas por folha com os canônicos (nota (i)) |
+| (x) | os 10 itens com moldura das duas levas (D4-R20; D3-R16, R18, R19, R20; D3-R27, R31, R33, R35, R44) | contam para o teto de 50% de C com moldura por simulado (D-MOLDURA-CE (c)) |
+
+### 8.6 Riscos e registros
+1. Lastro: nenhuma folha das levas 2 e 3 fica sem fonte. Folhas que dependem de indiretos: 6.4 (6 parciais) e 5.2 (4); se a gcb-cqfp recusar pertinência sem reserva, a folha fica abaixo de 20, com registro (seção 2.1). A 6.2 (leva 4) dependerá de ao menos 5 indiretos do regime civil comum (A2.3.2).
+2. Moldura: margem da leva 5 (seção 2.2) inalterada: 2 C + 3 E na leva 2 e 1 C + 4 E na leva 3, como no plano. E com moldura reprovado é reposto na v2 da mesma leva (ponto da reserva da folha, mesmo tipo de moldura).
+3. K4 do D4 fica em 58,1% depois da leva 2 (folga de 2 C até 60%): nas levas 8 e 9, item do D4 com "Considere que" é preferencialmente E até o conjunto voltar ao centro da faixa.
+4. Quatro desvios de legado na sequência dos canônicos (seção 8.2, item 7): registrados, não corrigidos, a conferir na reconciliação de cada leva junto com o bloco aceito da 8.4.
+5. Nenhuma tarefa nova (D-COMPLEMENTOS); nenhum gatilho em PARA_PRESIDENCIA.md por esta seção (função própria da Gerência titular). A errata AJ-E1 vai ao gatilho A da leva 2 como item separado (seção 8.3.10).
+
+## 9. Adendo após a leva 2 (gcb-gerencia, 20/10/2026, ciclo s15c4)
+Fonte: reconciliação saida/gcb/DA_reforco_leva2_reconciliacao_2026-10-20.md (seções 4 e 5), pareceres R1 e R2 da gcb-cqfp da leva 2 e auditoria de estilo saida/banco/estilo_DA_reforco_leva2.md (seções 5 a 7). Só acréscimo antes da última linha; o texto acima fica como estava (SHA-256 da ficha antes deste adendo: 77f2e60af942b004fde8443030ff42c251e45057451f8d03845628f4df6e5639, a versão citada no R1, no R2 e no estilo da leva 2). Este adendo prevalece sobre as seções 0 a 8 onde divergir; vale para as levas 3 a 12.
+
+### 9.1 Ids, faixas e confirmação da ficha da leva 3 (seção 8.4.9)
+- **D1-R03 vago** (reprovado no R1 da leva 2, gêmeo do D1-55; não volta). **D1-R13 usado** na 2.2, posição 3. Faixas do D1 na leva 12 deslocadas em +1: 1.1 = **D1-R14 a D1-R22**; 1.2 = **D1-R23 a D1-R31**. Faixas de D2, D3, D4 e D5 inalteradas (D3 segue em D3-R22; D4 segue como na seção 7.1).
+- **Ficha da leva 3 (seção 8.4) CONFIRMADA**, com a mudança da seção 9.3 (L3-1) e a conferência da seção 9.4 no R1: os pontos da 6.4 usados na leva 2 são os da seção 8.3.4, sem substituto na 6.4; nenhum ponto da leva 3 (A6.4-15, 09, 11, 16 na 6.4) coincide com os da leva 2. A leva 3 pode ser despachada: o QA da leva 2 está fechado (R2, última rodada; D-REFORCO-DA).
+
+### 9.2 Concentração por norma (corrige a seção 8.2, item 5, só para a 2.2 fechada)
+- A 2.2 fecha com **Decreto 9.830 = 6** (D1-R02, R13, R04, R08, R09, R10), acima do teto de 5, e Lei 14.133 = 4 (no teto). Extrapolação aceita com registro (reconciliação, seção 4.1). Os tetos por norma da seção 8.2, item 5, são parâmetro de composição da GCB, não regra da seção 1; substituto ditado pela QA pode excedê-los em 1 quando toda alternativa da reserva excede outro teto ou é gêmea, com registro na reconciliação e nota de simulado para o par mais próximo. Nas levas seguintes o teto fixado em cada ficha continua a valer no plano.
+- Reserva da 2.2 (folha fechada, sem uso previsto): A2.2-01 fora (gêmeo do D1-55); **A2.2-05 fora** (gêmeo do D1-57; R1, seção 9); A2.2-09 usado. Fica: A2.2-06, 11, 14 (nunca com o D1-R08), 15, 19, 21, 22.
+- Corrige a seção 8.3.5: formatos da 2.2 ao fim da leva 2 = **6/2/5/1/6/0** (DEF e PAR no teto de 6); formatos da leva 2 = DEF 7, SUJ 4, SIT 8, NUM 0, PAR 6, APL 5. Corrige a seção 8.3.6: nenhum SUJ da leva 2 troca o sujeito (o D1-R03 saiu).
+
+### 9.3 Recomendações da gbq-estilo aceitas (L3-1 a L3-5; estilo da leva 2, seção 6)
+1. **L3-1 — abertura por folha fechada.** A regra 7.4.2 (CQ com ao menos 40% de C; declarativos com ao menos 40% de E) também é conferida na folha fechada (canônicos + reforço). **Aplicação na leva 3: o D3-R25 (A6.4-16, CDC, art. 14, caput; C; sem [TS]; parcial) passa a abrir com "Considere que", sem moldura, formato SIT** (no lugar de SUJ); sem a fórmula "Nessa situação, nos termos d…" (a norma vai no cenário ou no fim do enunciado; seção 7.4.3); cenário que não repete, até o fecho, o do D3-R17 ("Considere que determinada empresa desenvolva…"; L3-3); nenhuma menção a Poder Legislativo, Câmara, Congresso, parlamentar ou comissão (seção 8.2, item 4). Efeitos (conferidos por script sobre o plano): 6.4 fechada com CQ 4 C / 5 E (44,4%); leva 3 com CQ 6 C / 6 E e declarativos 10 C / 8 E (44,4% de E); fórmula na leva 3 em no máximo 5 dos 12 CQ, na 6.4 em 2 dos 6; formatos da 6.4 ao fim da leva 3 = 5/2/4/2/2/5 (teto 6) e da leva 3 = DEF 5, SUJ 8, SIT 7, NUM 2, PAR 3, APL 5; gabarito, [TS], moldura, aderência, núcleo e sequência (seção 8.4.7) inalterados.
+2. **L3-2 — absoluto inserido pela troca.** Em item E cuja troca insere absoluto que não está na fonte ("sem limite", "exclusivamente", "qualquer"), a leva traz ao menos um C com absoluto literal da fonte na mesma folha ou no mesmo lote. A seção 4 do arquivo da leva informa a contagem de absolutos por gabarito. Quando a fonte permitir, prefere-se a troca por conceito vizinho (E1) à troca por absoluto.
+3. **L3-3 — cenário gêmeo.** Dois itens da mesma folha com cenário literal idêntico até o fecho só entram com a nota "não pôr no mesmo simulado" declarada pela gcb-cpp no próprio arquivo da leva (bloco à GCB).
+4. **L3-4 — contraste "mas não".** Contraste "mas não" / ", e não" em item E só se a leva ou o lote tiver C com o mesmo contraste literal (DA acumulado: "mas não" 0 C / 2 E; ", e não" 6 C / 5 E).
+5. **L3-5 — qualificador minimizador.** Em item E de inversão de polaridade de dispositivo com "mero", "por si só" ou "simples", a folha traz um C com qualificador equivalente (2.2: D1-R09 C equilibra D1-R04 E). Na dúvida, o qualificador fica, se tirá-lo tornar o gabarito discutível.
+6. **Rito do estilo** (registro 1 do estilo da leva 2): a auditoria da amostra da seção 8.4.8 corre **sobre a v1, em paralelo ao R1**, despachada junto com o R1; os AJ de estilo vão com os AJ do R1 para a v2 e são conferidos no R2. Texto de estilo sobre item já aprovado no R2 continua só como errata com conferência da gcb-cqfp (seção 7.6, lida pela D-T116-LEVA1-ACEITE).
+7. Medida: a reconciliação de cada leva confere L3-1 a L3-5 junto com as regras da seção 7.4.
+
+### 9.4 Errata AJ-L2-E1 do D3-R18 — conferência da gcb-cqfp no R1 da leva 3 (como a seção 8.3.10)
+O parecer R1 da leva 3 (saida/gcb/QA_DA_reforco_leva3_R1_<data>_gcb-cqfp.md) traz uma **seção própria**, "Errata AJ-L2-E1 (D3-R18, leva 2)", separada do veredito da leva 3:
+- texto: o de saida/banco/estilo_DA_reforco_leva2.md (ff94acfd…0300), seção 5 — antes: «tenha causado dano ao erário e falecido.» — depois: «tenha causado dano ao erário e, posteriormente, tenha falecido.»;
+- conferências: (1) o "antes" ocorre exatamente 1 vez na seção 1 de saida/gcb/DA_reforco_leva2_v2.md (5baec20d…1bbe) e 1 vez no arquivo, e o "depois", 0 vez; (2) gabarito E, ponto A6.4-13, Troca, mecanismo E3, formato APL, moldura S (mesmo tipo), aderência parcial, abertura CQ e demais campos do bloco inalterados; (3) o enunciado resultante, lido inteiro, não muda o sentido, não cria pista e fica na faixa de extensão da base; (4) a ordem dos fatos (dano, depois falecimento) é a pressuposta pela Lei 8.112, art. 122, § 3º, no adendo do D3 e na cópia em normativo_cache/;
+- veredito próprio: **CONFERIDO** ou **NÃO CONFERIDO** (com motivo). Não é terceira rodada da leva 2, não altera o arquivo da leva 2 e não é QA aberto que impeça a leva 4;
+- destino: a GCB leva a errata ao gatilho A da leva 3, como item separado; aceita, a GBQ a aplica por substituição exata, com aborto se o "antes" não ocorrer exatamente 1 vez na seção 1, registro por id no registro de alterações do pacote e conferência da gbq-cqe na fidelidade, na T-123 se o aceite vier antes da geração final da v1.14, ou na consolidação seguinte; sem aceite, o D3-R18 fica como aprovado no R2 (defeito só de clareza).
+
+### 9.5 Notas de simulado (substitui a nota (s) e completa a lista (k) a (x) da seção 8.5; destino: T-119 e T-123)
+| # | itens | motivo |
+|---|---|---|
+| (s) | D1-R01 × D1-56; D1-R05 × D1-55 e D1-56; D1-R02 × D1-58 | mesmo dispositivo ou mesmo conceito (P1, P4); a parte "D1-R03 × D1-55" sai (D1-R03 reprovado) |
+| (s2) | D1-R13 × D1-R04 | Decreto 9.830, art. 12, §§ 2º e 3º: prova do dolo ou do erro grosseiro |
+| (s3) | D1-R04 × D1-R09 | mesmo cenário literal ("determinado agente público, ao emitir opinião técnica, tenha dado causa a dano") e mesmo fecho ("Nessa situação, segundo o Decreto nº 9.830/2019"); o C do D1-R09 (§ 5º) sinaliza o erro do D1-R04 (§ 3º) (gbq-estilo, AJ-L2-E2) |
+| (y) | D1-R06 × D1-R07 | Lei 14.133, art. 10, caput e § 1º, II: mesma representação pela advocacia pública |
+| (z) | D4-R19 × D4-R27 | mesma Figura 1 do guia da Casa Civil (processos × produtos; impactos × resultados) |
+As notas (k), (l), (m), (t), (u), (v), (w) e (x) ficam como na seção 8.5; na leva 2, (v) = D3-R18 e D3-R20 e (x) = D4-R20, D3-R16, R18, R19 e R20.
+
+### 9.6 Núcleo da leva 2 (seção 8.2, item 9, confirmado)
+2.2 → D1-R01 e D1-R02; 6.4 → D3-R14 e D3-R15; 8.4 sem núcleo novo (D4-R19 a D4-R28 false); D1-R13 e os demais itens da leva 2 false.
+
 FIM DA FICHA DO REFORÇO DA

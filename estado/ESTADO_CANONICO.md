@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 64 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 65 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -934,6 +934,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c1) | T-118 CONCLUÍDA: gatilho A da v1.13 SIM (D-PACOTE-V113-CANONICO); promoção byte a byte conferida (pacote.json 82c4117c…, pacote_estudante.json 04cbd593…, adendo 5 a1ca1681…, edição .md 53 arquivos c6ecc6e5…); T-117 achado 10 concluído; T-95 cobertura v1.13; T-122 primeira da fila AGORA; T-121 (a) cumprida (D-BRANCH-MERGE-20OUT); push ao GitHub recusado com HTTP 403, backup por bundle (D-BACKUP-2); ESTADO versão 62 |
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c2) | T-122 CONCLUÍDA (moldura C/E; saida/banco/moldura_ce_2026-10-20.md; marcada pela gbq-gerencia); T-116 EM CURSO, passo 1: adendos ao Anexo N D3 (6.3 a 6.5) e D4 (8.1, 8.4) gravados em saida/gcb/; D-PACOTE-V113-CANONICO aplicada; ESTADO versão 63 |
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c3) | T-116 leva 1 ACEITA (D-T116-LEVA1-ACEITE; ressalva AJ-E1 em rito próprio com a leva 2): 30 itens, folhas 8.1 e 6.3 a 20; moldura DA 46 C / 18 E; TAREFAS.md atualizado; ESTADO versão 64 |
+| 20/10 | Secretaria (relato do orquestrador, ciclo s15c4) | T-116 leva 2 ACEITA (D-T116-LEVA2-ACEITE, NOVA, a aplicar na abertura da sessão seguinte; aceita também a errata AJ-E1 do D3-R13 para a v1.14): 30 itens, folha 8.4 a 20; acumulado 60 itens, faltam 296; moldura DA 48 C / 21 E; TAREFAS.md atualizado; ESTADO versão 65 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -1037,3 +1038,12 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 - **T-116 EM CURSO**, leva 1 (30 itens: 8.1 = 14, 6.3 = 13, 8.4 = 3; 15 C / 15 E): QA R1 1/30 reprovado; R2 aprovado com ressalvas 0/30; estilo 10% (saida/banco/estilo_DA_reforco_leva1.md); reconciliação saida/gcb/DA_reforco_leva1_reconciliacao_2026-10-20.md.
 - **Decisão:** D-T116-LEVA1-ACEITE (NOVA, Presidência de Ciclo) aceita a leva 1; a errata AJ-E1 segue em rito próprio com a leva 2. Folhas 8.1 e 6.3 chegam a 20; moldura de DA 46 C / 18 E (71,9% de C).
 - **Próximo:** adendo normativo de 2.2, 5.2 e 6.2; depois, leva 2.
+
+## Atualização 20/10/2026 — Ciclo s15c4 — fim da sessão s15
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **T-116 EM CURSO**, leva 2 (30 itens: 8.4 = 10, 2.2 = 12, 6.4 = 8; 17 C / 13 E): QA R1 1/30 reprovado; R2 aprovado 0/30; estilo; reconciliada e aceita. Acumulado do reforço: 60 itens aceitos (levas 1 e 2), faltam 296; folha 8.4 chega a 20.
+- **Decisão:** D-T116-LEVA2-ACEITE (NOVA, Presidência de Ciclo, em DECISOES.md) aceita a leva 2 e a errata AJ-E1 do D3-R13 para a v1.14; será aplicada na abertura da sessão seguinte. Moldura de DA 48 C / 21 E (69,6% de C).
+- **Sessão s15 parada** por ordem do Fundador, ao fim deste ciclo (s15c4); nenhum lote em curso fora do estado acima.
+- **Próximo:** leva 3 (ficha pronta; R1 confere a errata AJ-L2-E1 do D3-R18).

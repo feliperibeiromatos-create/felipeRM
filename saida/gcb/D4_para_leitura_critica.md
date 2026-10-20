@@ -11,7 +11,7 @@ Edital — itens 8 e 9 (texto literal):
 ## 1. (a) CURSO
 
 
-Cada bloco: definição com dispositivo (art., inciso, parágrafo, alínea) ou com trecho do referencial (R-id da seção 5 do texto legal compilado, com as palavras-chave literais); exemplo hipotético no contexto do Legislativo; ‘pegadinha provável’ com o dispositivo ou R-id que a desfaz. Códigos C8.0-NN a C8.4-NN. Autor de F4 a F9 é atribuído ao autor, ‘em publicação da ENAP/do Ipea’, nunca ao órgão. Temas da Parte B (governança, governabilidade, mecanismos, comitês, avaliação de impacto) só por remissão (‘ver 9.x’). Conceito sem trecho no texto legal compilado: (não afirmado neste material).
+Cada bloco: definição com dispositivo (art., inciso, parágrafo, alínea) ou com trecho do referencial (R-id, com as palavras-chave literais); exemplo hipotético no contexto do Legislativo; ‘pegadinha provável’ com o dispositivo ou R-id que a desfaz. Códigos C8.0-NN a C8.4-NN. Autor de F4 a F9 é atribuído ao autor, ‘em publicação da ENAP/do Ipea’, nunca ao órgão. Temas do item 9 (governança, governabilidade, mecanismos, comitês, avaliação de impacto) só por remissão (‘ver 9.x’). Conceito sem trecho no texto legal compilado: (não afirmado neste material).
 
 ### PARTE 1.0 — 8 (caput) Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management) (caput; não é folha)
 
@@ -141,8 +141,8 @@ Cada bloco: definição com dispositivo (art., inciso, parágrafo, alínea) ou c
 - Exemplo (Legislativo, hipotético): Considere que, em audiência pública de comissão da Câmara dos Deputados, um expositor afirme que a diretriz da comunicação aberta, voluntária e transparente reforça o compromisso com a transparência ativa, segundo o Guia; o item julga o conteúdo do Guia. O exemplo é hipotético.
 - Pegadinha provável: Trocar ‘ativa (voluntária)’ por ‘passiva’ na leitura do art. 4º, XI; atribuir a expressão ‘transparência ativa’ à lei. [Desfeita por: Decreto 9.203/2017, art. 4º, XI; R15; R14; Lei 12.527/2011, art. 8º.]
 
-**C8.3-05 Transparência passiva (LAI, art. 10, caput; exceção deste material)**
-- Definição: Lado passivo do par, pela exceção única deste material (curso e par; nunca item), com o texto do texto legal compilado do D6, seção 4, consulta de 17/10/2026 (mesma URL da fonte N9): Lei 12.527/2011, art. 10, caput: “Qualquer interessado poderá apresentar pedido de acesso a informações aos órgãos e entidades referidos no art. 1º desta Lei, por qualquer meio legítimo, devendo o pedido conter a identificação do requerente e a especificação da informação requerida.” O rótulo ‘passiva’ vem de R14, não da lei.
+**C8.3-05 Transparência passiva (LAI, art. 10, caput)**
+- Definição: Lado passivo do par, com o texto legal compilado (consulta de 17/10/2026): Lei 12.527/2011, art. 10, caput: “Qualquer interessado poderá apresentar pedido de acesso a informações aos órgãos e entidades referidos no art. 1º desta Lei, por qualquer meio legítimo, devendo o pedido conter a identificação do requerente e a especificação da informação requerida.” O rótulo ‘passiva’ vem de R14, não da lei.
 - Exemplo (Legislativo, hipotético): Considere que, em audiência pública de comissão da Câmara dos Deputados, um expositor distinga a divulgação independente de requerimento do atendimento a pedido de acesso do interessado; a distinção é a do par transparência ativa × passiva. O exemplo é hipotético.
 - Pegadinha provável: Tratar a divulgação espontânea como passiva, ou o pedido do interessado como ativa; omitir que o pedido exige identificação do requerente e especificação da informação. [Desfeita por: Lei 12.527/2011, art. 8º, caput (ativa) e art. 10, caput (pedido); R14.]
 
@@ -188,7 +188,7 @@ Cada bloco: definição com dispositivo (art., inciso, parágrafo, alínea) ou c
 
 Curso folha a folha (folhas 9.1 a 9.4).
 
-Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do Decreto 9.203/2017, texto integral compilado (texto legal compilado), ou com trecho do referencial (R-id da seção 5 do texto legal compilado, com as palavras-chave literais); exemplo hipotético no contexto da seção 4 deste material; "pegadinha provável" com o dispositivo ou o R-id que a desfaz. Códigos do curso C9.1-NN a C9.4-NN. O decreto "prevê" e "atribui"; o curso não afirma que ele vincula a Câmara dos Deputados nem que os órgãos que ele cita existem hoje. Temas do item 8 (patrimonialismo, burocracia, NPM, NPG, redes, parcerias, coprodução, transparência ativa, cadeia de valor): só por remissão (ver 8.x). Regulamentos, resoluções e manuais do CIG, acórdãos e textos não abertos: (não afirmado neste material).
+Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do Decreto 9.203/2017, texto integral compilado, ou com trecho do referencial (R-id, com as palavras-chave literais); exemplo hipotético no contexto do Legislativo; "pegadinha provável" com o dispositivo ou o R-id que a desfaz. Códigos do curso C9.1-NN a C9.4-NN. O decreto "prevê" e "atribui"; o curso não afirma que ele vincula a Câmara dos Deputados nem que os órgãos que ele cita existem hoje. Temas do item 8 (patrimonialismo, burocracia, NPM, NPG, redes, parcerias, coprodução, transparência ativa, cadeia de valor): só por remissão (ver 8.x). Regulamentos, resoluções e manuais do CIG, acórdãos e textos não abertos: (não afirmado neste material).
 
 ### PARTE 1.5 — 9.1 Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico
 
@@ -203,7 +203,7 @@ Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do
 - Pegadinha provável: atribuir a origem do conceito a outro órgão de controle (CGU); tomar o conceito do TCU, que fala em "mandatários" e "partes interessadas", como se fosse o texto do inciso. [Desfeita por: R23; R19; Decreto 9.203/2017, art. 2º, I.]
 
 **C9.1-03 Governança × gestão (R20)**
-- Definição: R20 (TCU, 3. ed., 2020, p. 16): "enquanto a governança é a função direcionadora, a gestão é a função realizadora"; na mesma página, segundo o texto legal compilado, o referencial diz que "Governança não é o mesmo que gestão." O art. 2º, I, do decreto coloca a gestão como o objeto que os mecanismos servem para avaliar, direcionar e monitorar.
+- Definição: R20 (TCU, 3. ed., 2020, p. 16): "enquanto a governança é a função direcionadora, a gestão é a função realizadora"; na mesma página, o referencial diz que "Governança não é o mesmo que gestão." O art. 2º, I, do decreto coloca a gestão como o objeto que os mecanismos servem para avaliar, direcionar e monitorar.
 - Exemplo (Legislativo, hipotético): Considere que, em audiência, um expositor diga que quem decide a direção faz governança e quem executa faz gestão. A formulação é compatível com R20, sem valer como texto do decreto. O exemplo é hipotético.
 - Pegadinha provável: inverter as funções (governança realizadora); tratar governança e gestão como sinônimos; tratar a gestão como um dos mecanismos. [Desfeita por: R20; Decreto 9.203/2017, art. 2º, I.]
 
@@ -333,7 +333,7 @@ Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do
 ## 2. (b) RESUMO
 
 
-**Item 8 — Evolução dos modelos de gestão pública (caput) e folhas 8.1 a 8.4.** Fontes: texto legal compilado (normas, seção 4; referencial R1 a R18, seção 5). Siglas: nova gestão pública (NPM); Nova Governança Pública (NPG); pós-NPM. Autor de periódico ou livro (F4 a F9) nunca é atribuído ao órgão.
+**Item 8 — Evolução dos modelos de gestão pública (caput) e folhas 8.1 a 8.4.** Fontes: normas (texto legal compilado) e referencial (R1 a R18). Siglas: nova gestão pública (NPM); Nova Governança Pública (NPG); pós-NPM. Autor de periódico ou livro (F4 a F9) nunca é atribuído ao órgão.
 
 **Quadro 1 — modelo × traço × fonte**
 
@@ -371,7 +371,7 @@ Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do
 | Diretrizes | Processo decisório com apoio à participação da sociedade; consultas públicas sempre que conveniente; comunicação aberta, voluntária e transparente | Decreto 9.203/2017, art. 4º, VIII, IX e XI |
 | Transparência ativa | Divulgação independentemente de requerimentos; expressão ‘transparência ativa’ vem de R14 e R15, não da lei | Lei 12.527/2011, art. 8º, caput; R14; R15 |
 | Conteúdo mínimo | Seis incisos, ‘no mínimo’ | art. 8º, § 1º, I a VI |
-| Transparência passiva | Pedido de acesso a informações por qualquer interessado (só curso e par) | Lei 12.527/2011, art. 10, caput (texto legal compilado do D6) |
+| Transparência passiva | Pedido de acesso a informações por qualquer interessado | Lei 12.527/2011, art. 10, caput |
 | Usuário | Participação no acompanhamento da prestação e na avaliação dos serviços; aplicação subsidiária aos serviços prestados por particular | Lei 13.460/2017, art. 6º, I; art. 1º, § 3º |
 
 **Quadro 4 — valor público e cadeia de valor (8.4)**
@@ -384,7 +384,7 @@ Cada bloco: definição com dispositivo (artigo, inciso, parágrafo, alínea) do
 | Desempenho | Fluxo dos insumos até o valor público; essencialmente um processo de geração de valor | R17 |
 | Elos da cadeia de valor das políticas públicas | Insumos, processos, produtos, resultados e impactos | R18 |
 
-**Armadilhas de leitura:** a sigla ‘NGP’ do Ipea é nova gestão pública (NPM), e NPG da ENAP é Nova Governança Pública; pós-NPM e NPG não são tratadas como sinônimos; o decreto não é afirmado como vinculante para a Câmara dos Deputados; ‘terceiro setor’ e ‘coprodução do bem público’ não têm definição legal ou institucional nas fontes do lote ((não afirmado neste material)).
+**Armadilhas de leitura:** a sigla ‘NGP’ do Ipea é nova gestão pública (NPM), e NPG da ENAP é Nova Governança Pública; pós-NPM e NPG não são tratadas como sinônimos; o decreto não é afirmado como vinculante para a Câmara dos Deputados; ‘terceiro setor’ e ‘coprodução do bem público’ não têm definição legal ou institucional nas fontes do lote (não afirmado neste material).
 
 ---
 
@@ -422,7 +422,7 @@ Uma página do item 9.
 ## 3. (c) PARES CONFUNDÍVEIS
 
 
-Mínimo deste material: 8 na Parte A (14 obrigatórios no lote, 7 na Parte A: P-01 a P-07). Entregues: 11 (P-01 a P-11). Cada lado tem dispositivo ou R-id; lado sem lastro não entra.
+Cada lado tem dispositivo ou R-id; lado sem lastro não entra.
 
 | Código | Par | Diferença | Base de cada lado | Como a banca troca |
 |---|---|---|---|---|
@@ -432,7 +432,7 @@ Mínimo deste material: 8 na Parte A (14 obrigatórios no lote, 7 na Parte A: P-
 | P-04 | Concessão patrocinada × concessão administrativa | Patrocinada: tarifa dos usuários mais contraprestação pecuniária do parceiro público ao parceiro privado. Administrativa: contrato de prestação de serviços de que a Administração é usuária direta ou indireta, ainda que haja obra ou fornecimento e instalação de bens. | Lei 11.079/2004, art. 2º, § 1º; Lei 11.079/2004, art. 2º, § 2º | Inverte os polos da contraprestação; atribui à administrativa a cobrança de tarifa dos usuários; exclui dela a obra. |
 | P-05 | Termo de colaboração × termo de fomento × acordo de cooperação | Colaboração: finalidades propostas pela administração pública, com transferência de recursos. Fomento: propostas pelas organizações da sociedade civil, com transferência de recursos. Acordo de cooperação: sem transferência de recursos financeiros. | Lei 13.019/2014, art. 2º, VII; Lei 13.019/2014, art. 2º, VIII; Lei 13.019/2014, art. 2º, VIII-A | Troca o proponente entre colaboração e fomento; atribui transferência de recursos ao acordo de cooperação. |
 | P-06 | Organização social (OS) × OSCIP | OS: o Poder Executivo poderá qualificar pessoa jurídica de direito privado sem fins lucrativos, nas áreas listadas, atendidos os requisitos da lei. OSCIP: funcionamento regular há, no mínimo, 3 anos; qualificação é ato vinculado ao cumprimento dos requisitos. | Lei 9.637/1998, art. 1º; Lei 9.790/1999, art. 1º, caput e § 2º | Atribui à OS o requisito de 3 anos; chama de discricionária a qualificação da OSCIP; transforma o ‘poderá qualificar’ em dever. |
-| P-07 | Transparência ativa × transparência passiva | Ativa: divulgação independentemente de requerimentos (LAI, art. 8º, caput), lida pelo Guia como transparência ativa (voluntária) na diretriz do Decreto 9.203/2017, art. 4º, XI. Passiva: pedido de acesso a informações apresentado por qualquer interessado (LAI, art. 10, caput; só curso e par). R14 pede as duas, admitido o sigilo como exceção, nos termos da lei. | Lei 12.527/2011, art. 8º, caput; R14 e R15; Lei 12.527/2011, art. 10, caput (texto legal compilado do D6, seção 4, consulta de 17/10/2026) | Troca ‘ativa (voluntária)’ por ‘passiva’ na leitura do Decreto 9.203/2017, art. 4º, XI; atribui a expressão à lei; trata o pedido do interessado como divulgação espontânea. |
+| P-07 | Transparência ativa × transparência passiva | Ativa: divulgação independentemente de requerimentos (LAI, art. 8º, caput), lida pelo Guia como transparência ativa (voluntária) na diretriz do Decreto 9.203/2017, art. 4º, XI. Passiva: pedido de acesso a informações apresentado por qualquer interessado (LAI, art. 10, caput). R14 pede as duas, admitido o sigilo como exceção, nos termos da lei. | Lei 12.527/2011, art. 8º, caput; R14 e R15; Lei 12.527/2011, art. 10, caput (texto legal compilado, consulta de 17/10/2026) | Troca ‘ativa (voluntária)’ por ‘passiva’ na leitura do Decreto 9.203/2017, art. 4º, XI; atribui a expressão à lei; trata o pedido do interessado como divulgação espontânea. |
 | P-08 | Parceria público-privada × concessão comum | PPP: concessão patrocinada ou administrativa. Concessão comum: concessão de serviços públicos ou de obras públicas quando não envolver contraprestação pecuniária do parceiro público ao parceiro privado, e por isso não constitui PPP. | Lei 11.079/2004, art. 2º, caput; Lei 11.079/2004, art. 2º, § 3º | Chama de PPP a concessão comum; admite terceira modalidade de PPP. |
 | P-09 | Articulação interinstitucional × parceria com organização da sociedade civil | Articulação: diretriz de articular instituições e coordenar processos para integrar níveis e esferas do setor público. Parceria: relação formal entre administração pública e organizações da sociedade civil, em regime de mútua cooperação, para finalidades de interesse público e recíproco. | Decreto 9.203/2017, art. 4º, IV; Lei 13.019/2014, art. 2º, III | Aplica à articulação o regime de mútua cooperação com organizações da sociedade civil; atribui à parceria a integração de níveis e esferas. |
 | P-10 | Coprodução × participação do usuário na avaliação do serviço | Coprodução: participação social em todos os estágios da política, principalmente na implementação e no monitoramento (R11). Participação do usuário: direito básico à participação no acompanhamento da prestação e na avaliação dos serviços (Lei 13.460). | R11; Lei 13.460/2017, art. 6º, I | Reduz a coprodução à avaliação do serviço pelo usuário; estende ao direito do usuário a definição de coprodução. |
@@ -440,8 +440,6 @@ Mínimo deste material: 8 na Parte A (14 obrigatórios no lote, 7 na Parte A: P-
 
 ---
 
-
-Mínimo deste material para a Parte B: 8, com os 7 obrigatórios (P-51 a P-57). Entregues: 12 (os 7 obrigatórios e 5 sugeridos com lastro nos dois lados).
 
 | Código | Par | Diferença | Base de cada lado | Como a banca troca |
 |---|---|---|---|---|
@@ -501,7 +499,7 @@ G-32. [C8.4-05] Fundir valor público e cadeia de valor, ou atribuir ao decreto 
 ---
 
 
-Lista consolidada. Uma pegadinha por bloco do curso (sem repetição), cada uma com o dispositivo ou o trecho (R-id) que a desfaz. Códigos G-51 em diante (G-01 a G-50 são da Parte A).
+Lista consolidada. Uma pegadinha por bloco do curso (sem repetição), cada uma com o dispositivo ou o trecho (R-id) que a desfaz. Códigos G-51 em diante.
 
 G-51. [C9.1-01] trocar um dos mecanismos (controle por gestão) ou tomar a gestão como mecanismo; excluir da finalidade a condução de políticas públicas. — Dispositivo ou trecho que a desfaz: Decreto 9.203/2017, art. 2º, I.
 G-52. [C9.1-02] atribuir a origem do conceito a outro órgão de controle (CGU); tomar o conceito do TCU, que fala em "mandatários" e "partes interessadas", como se fosse o texto do inciso. — Dispositivo ou trecho que a desfaz: R23; R19; Decreto 9.203/2017, art. 2º, I.

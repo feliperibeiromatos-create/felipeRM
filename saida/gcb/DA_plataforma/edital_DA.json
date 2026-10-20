@@ -1,0 +1,232 @@
+[
+ {
+  "id": "P1-DA-1",
+  "prova": "P1",
+  "texto": "Estado, governo e Administração Pública: conceito, elementos, poderes e organização do Estado"
+ },
+ {
+  "id": "P1-DA-1.1",
+  "prova": "P1",
+  "texto": "Princípios constitucionais e doutrinários da Administração Pública"
+ },
+ {
+  "id": "P1-DA-1.2",
+  "prova": "P1",
+  "texto": "Organização administrativa: administração direta e indireta; centralização, descentralização, concentração e desconcentração"
+ },
+ {
+  "id": "P1-DA-2",
+  "prova": "P1",
+  "texto": "Ato administrativo"
+ },
+ {
+  "id": "P1-DA-2.1",
+  "prova": "P1",
+  "texto": "Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação"
+ },
+ {
+  "id": "P1-DA-2.2",
+  "prova": "P1",
+  "texto": "Parecer: responsabilidade do emissor do parecer"
+ },
+ {
+  "id": "P1-DA-3",
+  "prova": "P1",
+  "texto": "Agentes públicos"
+ },
+ {
+  "id": "P1-DA-3.1",
+  "prova": "P1",
+  "texto": "Disposições constitucionais aplicáveis"
+ },
+ {
+  "id": "P1-DA-3.2",
+  "prova": "P1",
+  "texto": "Cargo, emprego e função pública"
+ },
+ {
+  "id": "P1-DA-3.3",
+  "prova": "P1",
+  "texto": "Requisição"
+ },
+ {
+  "id": "P1-DA-3.4",
+  "prova": "P1",
+  "texto": "Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações)"
+ },
+ {
+  "id": "P1-DA-4",
+  "prova": "P1",
+  "texto": "Direito administrativo disciplinar"
+ },
+ {
+  "id": "P1-DA-4.1",
+  "prova": "P1",
+  "texto": "Fontes e princípios"
+ },
+ {
+  "id": "P1-DA-4.2",
+  "prova": "P1",
+  "texto": "Ilícito de direito administrativo disciplinar"
+ },
+ {
+  "id": "P1-DA-4.3",
+  "prova": "P1",
+  "texto": "Procedimentos disciplinares da administração pública"
+ },
+ {
+  "id": "P1-DA-4.4",
+  "prova": "P1",
+  "texto": "Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações)"
+ },
+ {
+  "id": "P1-DA-5",
+  "prova": "P1",
+  "texto": "Poderes administrativos"
+ },
+ {
+  "id": "P1-DA-5.1",
+  "prova": "P1",
+  "texto": "Discricionário, hierárquico, disciplinar, regulamentar e de polícia"
+ },
+ {
+  "id": "P1-DA-5.2",
+  "prova": "P1",
+  "texto": "Uso e abuso do poder"
+ },
+ {
+  "id": "P1-DA-6",
+  "prova": "P1",
+  "texto": "Responsabilidade civil do Estado"
+ },
+ {
+  "id": "P1-DA-6.1",
+  "prova": "P1",
+  "texto": "Responsabilidade civil do Estado no direito brasileiro"
+ },
+ {
+  "id": "P1-DA-6.2",
+  "prova": "P1",
+  "texto": "Responsabilidade por ato comissivo do Estado"
+ },
+ {
+  "id": "P1-DA-6.3",
+  "prova": "P1",
+  "texto": "Responsabilidade por omissão do Estado"
+ },
+ {
+  "id": "P1-DA-6.4",
+  "prova": "P1",
+  "texto": "Requisitos para a demonstração da responsabilidade do Estado"
+ },
+ {
+  "id": "P1-DA-6.5",
+  "prova": "P1",
+  "texto": "Causas excludentes e atenuantes da responsabilidade do Estado"
+ },
+ {
+  "id": "P1-DA-7",
+  "prova": "P1",
+  "texto": "Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações)"
+ },
+ {
+  "id": "P1-DA-8",
+  "prova": "P1",
+  "texto": "Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management)"
+ },
+ {
+  "id": "P1-DA-8.1",
+  "prova": "P1",
+  "texto": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução"
+ },
+ {
+  "id": "P1-DA-8.2",
+  "prova": "P1",
+  "texto": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor"
+ },
+ {
+  "id": "P1-DA-8.3",
+  "prova": "P1",
+  "texto": "Coprodução do bem público, participação cidadã e transparência ativa"
+ },
+ {
+  "id": "P1-DA-8.4",
+  "prova": "P1",
+  "texto": "Valor Público, cadeia de valor público"
+ },
+ {
+  "id": "P1-DA-9",
+  "prova": "P1",
+  "texto": "Governança na Administração Pública"
+ },
+ {
+  "id": "P1-DA-9.1",
+  "prova": "P1",
+  "texto": "Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico"
+ },
+ {
+  "id": "P1-DA-9.2",
+  "prova": "P1",
+  "texto": "Mecanismos de governança: liderança, estratégia e controle"
+ },
+ {
+  "id": "P1-DA-9.3",
+  "prova": "P1",
+  "texto": "Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas"
+ },
+ {
+  "id": "P1-DA-9.4",
+  "prova": "P1",
+  "texto": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional)"
+ },
+ {
+  "id": "P1-DA-10",
+  "prova": "P1",
+  "texto": "Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações)"
+ },
+ {
+  "id": "P1-DA-10.1",
+  "prova": "P1",
+  "texto": "Licitação Pública: conceito, princípios, finalidade do procedimento licitatório, modalidades, dispensa e inexigibilidade de licitação"
+ },
+ {
+  "id": "P1-DA-10.2",
+  "prova": "P1",
+  "texto": "Contratos administrativos"
+ },
+ {
+  "id": "P1-DA-10.3",
+  "prova": "P1",
+  "texto": "Características do contrato administrativo"
+ },
+ {
+  "id": "P1-DA-10.4",
+  "prova": "P1",
+  "texto": "Formalização, gestão e fiscalização do contrato"
+ },
+ {
+  "id": "P1-DA-10.5",
+  "prova": "P1",
+  "texto": "Planejamento e fiscalização contratual"
+ },
+ {
+  "id": "P1-DA-10.6",
+  "prova": "P1",
+  "texto": "Papel do fiscalizador do contrato"
+ },
+ {
+  "id": "P1-DA-10.7",
+  "prova": "P1",
+  "texto": "Estudo Técnico Preliminar e Termo de Referência"
+ },
+ {
+  "id": "P1-DA-11",
+  "prova": "P1",
+  "texto": "Lei de Acesso à Informação (Lei nº 12.527/2011 e suas alterações)"
+ },
+ {
+  "id": "P1-DA-12",
+  "prova": "P1",
+  "texto": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 e suas alterações)"
+ }
+]

@@ -1,0 +1,214 @@
+{
+ "P1-DA-1": {
+  "emUmMinuto": [
+   "O Estado é a sociedade politicamente organizada, composta por povo, território e governo soberano.",
+   "São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário (CF, art. 2º).",
+   "União, Estados, Distrito Federal e Municípios são autônomos (CF, art. 18); a soberania é fundamento da República (art. 1º, I)."
+  ],
+  "resumo": "O Estado é a sociedade politicamente organizada, composta por povo, território e governo soberano. A República Federativa do Brasil, formada pela união indissolúvel dos Estados, dos Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito (CF, art. 1º, caput). Seus fundamentos são a soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa e o pluralismo político (art. 1º, I a V), e todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente.\n\nGoverno designa a atividade política, de direção superior e de fixação de rumos do Estado; Administração Pública designa a função administrativa de execução. Em sentido subjetivo, é o conjunto de órgãos, agentes e pessoas jurídicas que exercem a função administrativa; em sentido objetivo, é a própria atividade administrativa.\n\nSão Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário (CF, art. 2º). Cada Poder tem função típica e exerce funções atípicas, inclusive a administrativa, ao organizar seus serviços e seu pessoal. A União, os Estados, o Distrito Federal e os Municípios são todos autônomos (art. 18, caput); Brasília é a Capital Federal e os Territórios Federais integram a União (§§ 1º e 2º).\n\nAs trocas mais prováveis são confundir soberania com autonomia, acrescentar um quarto Poder ao rol do art. 2º, trocar “harmônicos” por “subordinados” e substituir um dos cinco fundamentos por conceito alheio ao rol, como a separação dos Poderes.",
+  "visuais": [
+   {
+    "tipo": "esquema",
+    "titulo": "Fundamentos da República (CF, art. 1º, I a V)",
+    "centro": "Fundamentos da República",
+    "ramos": [
+     "Soberania",
+     "Cidadania",
+     "Dignidade da pessoa humana",
+     "Valores sociais do trabalho e da livre iniciativa",
+     "Pluralismo político"
+    ]
+   },
+   {
+    "tipo": "compare",
+    "titulo": "Administração Pública: sentido subjetivo × sentido objetivo",
+    "a": "Sentido subjetivo",
+    "b": "Sentido objetivo",
+    "linhas": [
+     ["Também chamado", "Formal, orgânico", "Material, funcional"],
+     ["O que designa", "Conjunto de órgãos, agentes e pessoas jurídicas que exercem a função administrativa", "A própria atividade administrativa"],
+     ["Em uma palavra", "Quem", "O quê"]
+    ],
+    "legenda": "Pegadinha provável: permutar os adjetivos, atribuindo o sentido objetivo aos órgãos e o subjetivo à atividade."
+   }
+  ]
+ },
+ "P1-DA-1.1": {
+  "emUmMinuto": [
+   "O caput do art. 37 da CF enumera cinco princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+   "A razoabilidade não consta do caput do art. 37; consta do art. 2º da Lei 9.784/1999, que fala em princípios “dentre outros”.",
+   "Pela autotutela, a Administração deve anular o ato viciado e pode revogá-lo por conveniência ou oportunidade (Lei 9.784/1999, art. 53)."
+  ],
+  "resumo": "Segundo o caput do art. 37 da CF, a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência. São cinco princípios expressos no caput. O § 1º exige que a publicidade tenha caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.\n\nA Lei 9.784/1999, art. 2º, caput, determina que a Administração Pública obedeça, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência. O parágrafo único traz treze critérios para os processos administrativos, como a divulgação oficial dos atos (V) e a indicação dos pressupostos de fato e de direito (VII). Seus preceitos também se aplicam aos órgãos dos Poderes Legislativo e Judiciário da União quando no desempenho de função administrativa (art. 1º, § 1º).\n\nA doutrina acrescenta a supremacia e a indisponibilidade do interesse público, a legalidade estrita, pela qual a Administração só faz o que a lei autoriza ou determina, e a autotutela (art. 53).",
+  "visuais": [
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da Constituição e da lei do processo administrativo",
+    "norma": "CF e Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, caput",
+      "texto": "A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte:",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "CF, art. 37, § 1º",
+      "texto": "A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 2º, caput",
+      "texto": "A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "tipo": "compare",
+    "titulo": "Princípios: CF, art. 37, caput × Lei 9.784/1999, art. 2º, caput",
+    "a": "CF, art. 37, caput",
+    "b": "Lei 9.784/1999, art. 2º, caput",
+    "linhas": [
+     ["Princípios", "Legalidade, impessoalidade, moralidade, publicidade e eficiência", "Legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência"],
+     ["Razoabilidade", "Não consta do caput", "Consta do caput"],
+     ["Publicidade e impessoalidade", "Constam do caput", "Não constam do caput"],
+     ["Alcance", "Administração direta e indireta de qualquer dos Poderes e de todos os entes", "Processo administrativo na Administração Federal direta e indireta; também os órgãos do Legislativo e do Judiciário da União em função administrativa (art. 1º)"]
+    ],
+    "legenda": "Pegadinha provável: incluir a razoabilidade no rol do caput do art. 37 ou atribuir ao caput do art. 2º a publicidade e a impessoalidade."
+   }
+  ]
+ },
+ "P1-DA-1.2": {
+  "emUmMinuto": [
+   "A Administração direta reúne os serviços da Presidência e dos Ministérios; a indireta, autarquias, empresas públicas, sociedades de economia mista e fundações públicas (DL 200/1967, art. 4º).",
+   "As entidades da Administração Indireta vinculam-se, e não se subordinam, ao Ministério da área de sua principal atividade.",
+   "Descentralização pressupõe duas pessoas distintas; desconcentração é a distribuição interna de competências entre órgãos de uma mesma pessoa jurídica."
+  ],
+  "resumo": "Órgão é a unidade de atuação integrante da estrutura da Administração direta e da indireta; entidade é a unidade de atuação dotada de personalidade jurídica; autoridade é o servidor ou agente público dotado de poder de decisão (Lei 9.784/1999, art. 1º, § 2º). A pegadinha típica é permutar as definições de órgão e de entidade.\n\nA Administração Federal compreende a direta, composta dos serviços integrados na estrutura da Presidência da República e dos Ministérios, e a indireta, que reúne autarquias, empresas públicas, sociedades de economia mista e fundações públicas, dotadas de personalidade jurídica própria (DL 200/1967, art. 4º). Somente por lei específica poderá ser criada autarquia e autorizada a instituição de empresa pública, de sociedade de economia mista e de fundação (CF, art. 37, XIX). A criação de subsidiárias e a participação em empresa privada dependem de autorização legislativa, em cada caso (inciso XX).\n\nCentralização é a prestação da atividade pelo próprio ente político, por meio de seus órgãos. Descentralização pressupõe duas pessoas distintas, uma que transfere e outra que passa a exercer a atividade. Concentração é a reunião de competências em menor número de órgãos, movimento oposto ao da desconcentração, que é a distribuição interna de competências entre órgãos de uma mesma pessoa jurídica, com hierarquia.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Descentralização × desconcentração",
+    "a": "Descentralização",
+    "b": "Desconcentração",
+    "linhas": [
+     ["Pessoas envolvidas", "Duas pessoas distintas: uma transfere e outra passa a exercer a atividade", "Uma mesma pessoa jurídica, com hierarquia"],
+     ["O que ocorre", "Transferência da atividade a outra pessoa", "Distribuição interna de competências entre órgãos"],
+     ["Exemplo", "Transferência de uma atividade a uma entidade com personalidade própria", "O titular de um órgão distribui, por ato interno, parte das suas atribuições a unidades subordinadas"]
+    ],
+    "legenda": "A concentração é o movimento oposto ao da desconcentração: reunião de competências em menor número de órgãos."
+   },
+   {
+    "tipo": "esquema",
+    "titulo": "Administração Federal (DL 200/1967, art. 4º)",
+    "centro": "Administração Federal",
+    "ramos": [
+     "Direta: serviços integrados na Presidência da República e nos Ministérios",
+     "Indireta: autarquias",
+     "Indireta: empresas públicas",
+     "Indireta: sociedades de economia mista",
+     "Indireta: fundações públicas"
+    ]
+   }
+  ]
+ },
+ "P1-DA-2.1": {
+  "emUmMinuto": [
+   "Ato administrativo é manifestação unilateral de vontade da Administração Pública que produz efeitos jurídicos, sob regime jurídico de direito público.",
+   "A Administração deve anular os atos eivados de vício de legalidade e pode revogá-los por conveniência ou oportunidade (Lei 9.784/1999, art. 53).",
+   "O direito de anular atos de efeitos favoráveis decai em cinco anos, contados da prática do ato, salvo comprovada má-fé (art. 54)."
+  ],
+  "resumo": "O ato administrativo é manifestação unilateral de vontade da Administração Pública que produz efeitos jurídicos, sob regime jurídico de direito público. Os requisitos correspondem a competência, forma, objeto, motivo e finalidade, e a Lei 4.717/1965, art. 2º, descreve os vícios: incompetência, vício de forma, ilegalidade do objeto, inexistência dos motivos e desvio de finalidade. Seus atributos são a presunção de legitimidade, em regra relativa, a imperatividade e a autoexecutoriedade. Quanto à liberdade do agente, o ato é vinculado ou discricionário.\n\nA competência é irrenunciável, salvo delegação e avocação legalmente admitidas (Lei 9.784/1999, art. 11). Não podem ser delegados a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva (art. 13). Os atos devem ser motivados, com indicação dos fatos e dos fundamentos jurídicos, nos casos do art. 50; motivo é a situação de fato e de direito que autoriza o ato, e motivação é a exposição formal desses motivos.\n\nA Administração deve anular seus atos viciados e pode revogá-los por conveniência ou oportunidade, respeitados os direitos adquiridos (art. 53). Em regra, a anulação retroage, e a revogação opera para o futuro. O direito de anular atos de efeitos favoráveis decai em cinco anos, contados da prática do ato, salvo comprovada má-fé (art. 54), e os atos com defeitos sanáveis podem ser convalidados (art. 55).",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Anulação × revogação (Lei 9.784/1999, art. 53)",
+    "a": "Anulação",
+    "b": "Revogação",
+    "linhas": [
+     ["Fundamento", "Vício de legalidade", "Motivo de conveniência ou oportunidade"],
+     ["Natureza", "A Administração deve anular", "A Administração pode revogar"],
+     ["Efeitos, em regra", "Retroage (ex tunc)", "Opera para o futuro (ex nunc)"],
+     ["Quem pode", "A Administração ou o Judiciário", "Em regra, só a Administração"],
+     ["Limite", "Decadência de cinco anos para atos de efeitos favoráveis, salvo comprovada má-fé (art. 54)", "Respeitados os direitos adquiridos"]
+    ],
+    "legenda": "A convalidação corrige defeito sanável (art. 55); não se confunde com a revogação, que se funda em conveniência ou oportunidade."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da lei sobre anulação, revogação, decadência e convalidação",
+    "norma": "Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 53",
+      "texto": "A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 54, caput",
+      "texto": "O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 55",
+      "texto": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-2.2": {
+  "emUmMinuto": [
+   "Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deve ser emitido em até quinze dias, salvo norma especial ou comprovada necessidade de maior prazo.",
+   "Se o parecer obrigatório e vinculante não for emitido no prazo, o processo não segue; se for obrigatório e não vinculante, pode seguir, sem prejuízo da responsabilidade de quem se omitiu.",
+   "O agente público responde pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro (LINDB, art. 28, caput)."
+  ],
+  "resumo": "Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de quinze dias, salvo norma especial ou comprovada necessidade de maior prazo (Lei 9.784/1999, art. 42, caput). Se um parecer obrigatório e vinculante deixar de ser emitido no prazo, o processo não terá seguimento até a respectiva apresentação, responsabilizando-se quem der causa ao atraso (§ 1º). Se o parecer obrigatório for não vinculante, o processo poderá ter prosseguimento e ser decidido com sua dispensa, sem prejuízo da responsabilidade de quem se omitiu (§ 2º).\n\nO emissor do parecer responde nos termos do art. 28, caput, da LINDB: o agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. Os §§ 1º, 2º e 3º do art. 28 foram vetados.\n\nO parecer também importa para a motivação do ato. Exige motivação o ato que deixe de aplicar jurisprudência firmada ou discrepe de pareceres, laudos, propostas e relatórios oficiais (Lei 9.784/1999, art. 50, VII). A motivação pode consistir em declaração de concordância com fundamentos de anteriores pareceres, que passam a integrar o ato (§ 1º). As pegadinhas prováveis são estender o prazo de quinze dias ao parecer facultativo, aplicar ao parecer não vinculante o efeito do vinculante, ampliar o elemento subjetivo para “culpa, ainda que leve” e dizer que o ato que discrepa de parecer dispensa motivação.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Parecer obrigatório: vinculante × não vinculante (art. 42)",
+    "a": "Obrigatório e vinculante (§ 1º)",
+    "b": "Obrigatório e não vinculante (§ 2º)",
+    "linhas": [
+     ["Se não for emitido no prazo", "O processo não terá seguimento até a respectiva apresentação", "O processo poderá ter prosseguimento e ser decidido com sua dispensa"],
+     ["Responsabilidade", "Responsabiliza-se quem der causa ao atraso", "Sem prejuízo da responsabilidade de quem se omitiu"],
+     ["Prazo-regra (caput)", "Quinze dias, salvo norma especial ou comprovada necessidade de maior prazo", "Quinze dias, salvo norma especial ou comprovada necessidade de maior prazo"]
+    ],
+    "legenda": "Pegadinha provável: aplicar ao parecer não vinculante o efeito do vinculante."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Texto da lei sobre parecer, responsabilidade e motivação",
+    "norma": "Lei 9.784/1999 e LINDB",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 42, caput",
+      "texto": "Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de quinze dias, salvo norma especial ou comprovada necessidade de maior prazo.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "LINDB, art. 28, caput",
+      "texto": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 50, § 1º",
+      "texto": "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ }
+}

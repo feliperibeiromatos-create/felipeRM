@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 60 — 19/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 61 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -931,3 +931,51 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 19/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s14c4) | T-113 onda 1 CONCLUÍDA; ondas seguintes aguardam o sim do Fundador |
 | 19/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s14c4) | T-11: 22 VOLÁTEIS da F1 acrescidos (relato); relatórios ordens/RELATORIO_ORDEM_V15_B, _A, _E e _F_onda1 registrados |
 | 19/10 | Secretaria | T-95: saida/pacote/cobertura_v1_12.md (749 itens; 736 em folhas; 14 folhas P1 abaixo de 20; 9 folhas com 30 itens); ESTADO versão 60 |
+
+## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
+
+Registro por ordem do Fundador de 20/10/2026 ("ORQUESTRADOR: LOTE", classe AGORA: entregar os lotes de Direito Administrativo no formato da plataforma; depois, "Autorizado a fazer tudo": opção (b), plataforma com os seis lotes; GitHub; terminar o conteúdo; adaptar e publicar a plataforma; atualizar os chats). Branch de trabalho: exec-da-plataforma-2026-10-20 (17 commits sobre origin/main, de 1872522 a e53e146). Decisões nas linhas APLICADA 20/10 de DECISOES.md (D-ORDEM-DA-PLATAFORMA, D-DA-DESVIOS-RATIFICADOS, D-LOTED5-CANONICO, D-LOTED2-CANONICO, D-LOTED3-CANONICO, D-LOTED4-CANONICO, D-CONTRATO-V1210, D-PACOTE-V113, D-PLATAFORMA-V16-PUBLICACAO, D-DIAG30-DA). A Secretaria registra; não decide mérito. O espelho acima (seções 1 a 6) não foi reescrito nesta atualização; onde divergir (por exemplo, D5, D2, D3 e D4 como PRÓXIMO na seção 2), vale esta seção.
+
+### Estado por lote (módulo m-da, P1-DA, itens 1 a 12 do edital)
+
+| Lote | Itens do edital | Versão canônica (SHA-256) | Itens (C/E) | REVERIFICAR | Formato da plataforma (SHA-256) |
+|---|---|---|---|---|---|
+| D1 | 1 a 2.2 | v2 (63bd27c34baec035dd39904ef565f6b5a662c0a30886a4a3d0b13b8b702e3d56; D-LOTED1-CANONICO) | 60 (30/30) | 0 | D1_plataforma.json 5d953b134307f40e3f51485c5550d6eadbda3a96a64ea3dfb3a3ae845439fbe9; reformatado sem conteúdo novo |
+| D2 | 3.1 a 4.4 | v2.1 (59cffaa689ea869cd11c13e6a833470b0b91d24b0f25ea2cc2e100ac9be8bd2c; D-LOTED2-CANONICO; reconciliação T-75 08f80318…6ad3) | 80 (40/40) | 2 (D2-01, D2-28) | D2_plataforma.json cba2e2769ba680ee028edf0f0a5e52a5bf55671c894f5c920edaf84f3cf139bf |
+| D3 | 5.1 a 7 | v2.1 (0f7a8b090fe6f2243ae55b36273dacdb719aaf04b19548dce70aad4867798930; D-LOTED3-CANONICO; reconciliação T-76 160995d6…0e36) | 71 (31/40) | 0 | D3_plataforma.json 917827abb6a2c5d01af386eaa0bf7678cbd0e02b8896e9cb9262216eb4c8f9c1 |
+| D4 | 8 a 9.4 | v2.1 (c1a7a93598e9fd37b2009b9feaca3afd3898fa05f6f66e6de26dd40c2839e5d9; D-LOTED4-CANONICO; reconciliação T-77 1396b5bf…5fdb) | 79 (41/38), 73 de folha e 6 do caput 8 | 0 | D4_plataforma.json e44b66e785a8d4ce55449b2574153d7670a603cb8f457975248aede323c22806 |
+| D5 | 10.1 a 10.7 | v2.1 (44ddcc982642df66b246108cb7e3ef86031e8a99762aa2262a6c0bdde24e1333; D-LOTED5-CANONICO; reconciliação T-74 b32d73e3…cd2f) | 70 (35/35) | 0 | D5_plataforma.json 5ebec2854beb00ac0fb2581c028095d4dc306fec61118080cd37666c47e3a0c2 |
+| D6 | 11, 12 | v2.1 (a983105818ad84e96a57a4f70ff19baa12224e11e939d023c6f7a29ca5414090; D-LOTED6-CANONICO) | 50 (25/25) | 3 (D6-09, D6-32, D6-34) | D6_plataforma.json 8b8e5a42e3a8f5e9f500fa0fec8450f06e1932409ca6cae303a8b1ee0fa9754a; reformatado sem conteúdo novo |
+
+Total: 410 itens de DA (C/E 202/208), 5 com volatil. T-72 a T-77 CONCLUÍDAS. Rito dos lotes D5, D2, D3 e D4: Anexo N → ficha → v1 (D2 a D4 em duas partes) → leitura externa pelo ChatGPT (conta do Fundador, autorizada) → R1 gcb-cqfp (D5 1/70, D2 0/80, D3 10/80 = 12,5%, D4 0/79) → D1 da GCB → v2 → R2 gcb-cqfp (D5, D2 e D4 APROVADO COM RESSALVAS; D3 APROVADO COM AJUSTES RESIDUAIS; 0% reprovado em todos) → reconciliação → v2.1 por substituições exatas aplicadas por script → conferência da gcb-cqfp (CONFERIDO). Desvios declarados e ratificados pela autorização do Fundador (D-DA-DESVIOS-RATIFICADOS): R1 em paralelo à leitura externa; D2 a D4 abertos com o D5 em QA; v1 em duas partes; arquivo único na v2; marcas "Parte A/B" retiradas do D4; arquivos neutros por scripts genéricos e não regerados. Edital DA: 46 entradas P1-DA-<n> (37 folhas); 3 folhas com 20 itens ou mais (2.1 = 22, 11 = 30, 12 = 20) e 34 abaixo (folhas com menos de 10: 8.1 = 6, 8.4 = 7, 6.3 = 7, 6.4 = 8, 6.5 = 8, 2.2 = 8, 5.2 = 9, 6.2 = 9). Regras de montagem de simulado (moldura do Legislativo, listas "não pôr no mesmo simulado", termo absoluto) estão nas reconciliações T-74 a T-77 e nas linhas D-LOTED<n>-CANONICO; nenhum simulado inclui DA hoje.
+
+### Pacote, contrato, plataforma
+
+| Objeto | Estado em 20/10/2026 |
+|---|---|
+| Pacote v1.13 (saida/pacote/montagem_v1_13/out/) | v1.12 intacta (749 itens idênticos byte a byte) + 410 de DA = 1.159 itens; 16 lotes; 79 tópicos (39 de DA); edital com 46 entradas DA; nucleo DA 366 true / 44 false. pacote.json SHA-256 007787e3ed13b87bdcbbf384a40a41182b78e2f977fb4cc090bc4b84c931c192 (2.906.562 bytes); pacote_estudante.json (v1.13-E) 8b5489b9828a9b3cde25fb27546cc155987b320cd63fd31381cad9cb0442b8dd (2.644.826 bytes); diag30_DA.json eb1ced6df3d624ae62b82337db6a4cfe29b86baa9494e96aed1b3defe61a6800. D-PACOTE-V113. QA final gbq-cqe: pacote ACEITO COM RESSALVAS, plataforma ACEITA (QA_final_v1_13_v16_2026-10-20_gbq-cqe.md, seção 8, reconferência no commit e53e146). Aceite canônico formal do pacote_estudante.json e da edição .md: pendente (T-117, T-118). Sem edição .md do estudante da v1.13. 38 itens de banco de P1-DA fora da v1.13 |
+| Contrato | v1.2.10 (regras/pacote_contrato.md SHA-256 2626a946e9e295692244a50643113571fb380b3eca5bfb2fe5db06a0242928c1; D1 da GBQ em saida/pacote/contrato_v1_2_10_2026-10-20.md): visuais compare e baseLegal, edital DA, tabela de fonte dos lotes D1 a D6, rótulo das pegadinhas de DA, edição do estudante, colisões de id lote × discursiva D1 a D5 registradas (D-CONTRATO-V1210) |
+| Plataforma v16 | PUBLICADA em 20/10/2026 no link da candidata (versão 17 do artifact), com o sim do Fundador (D-PLATAFORMA-V16-PUBLICACAO). saida/plataforma/plataforma_v16_publicar.html SHA-256 4d19eb05f3da3b8eebd466ec62fb91b01791397a692e8dfd0c4ddff229a065fb (2.821.316 bytes) = corpo de plataforma_v16_final.html 19c44ac5cfd4745b418cae70b7ccd3a8262dbd59f9bd33c063a4c7c82e227bed. Módulo Direito Administrativo (39 tópicos, 410 itens), quadro BASE LEGAL, visuais compare e baseLegal, diagnóstico DA de 30 itens (15 C / 15 E; D-DIAG30-DA, critério do orquestrador, revisável); TI (185 itens) e Fala (564 itens) idênticos à v15.4. Supera as pautas de publicação das v1.10, v1.11 e v1.12 (PARA_FUNDADOR.md, marcadas RESPONDIDO) |
+| Interface | PARA_PRESIDENCIA.md reescrito em 20/10 (gatilhos A de D5, D2, D3, D4 e da v1.13 RESPONDIDOS; 0 pendentes; anterior em historico/PARA_PRESIDENCIA_2026-10-19.md); PARA_FUNDADOR.md com item de AUDITORIA de 20/10 (ratificação da delegação do dia, SIM/NÃO) |
+
+### Pendências abertas (acrescidas em 20/10/2026)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| T-116: reforço de DA até 20 itens por folha (34 de 37 folhas abaixo), incluindo 8.1 e 8.4 do D4 e 6.3 a 6.5 do D3, com adendo ao Anexo N antes (lastro oficial literal) | GCB (qa-normativo-da, gcb-cpp, gcb-cqfp) | 20/10 |
+| T-117: achados 8 a 10 do QA final (par do D6 com "**temporária**" antes do aceite canônico e da edição .md; notas editoriais; meta da versão) e frase "O exemplo é hipotético." (D1 tem, D6 não; decisão do Fundador/EXEC) | GCB, GBQ | 20/10 |
+| T-118: fechamento do gatilho A da v1.13 (adendo 5 do registro GBQ com os 410 ids; conferência de contagens da gbq-csc), edição .md, 38 itens de banco de P1-DA, nucleo.py sem ato para o prefixo D, cobertura da v1.13 (T-95) | GBQ, secretaria | 20/10 |
+| T-119: regra unificada de montagem de simulados com DA e a moldura do Legislativo, antes do primeiro simulado com DA | GBQ | 20/10 |
+| T-120: reverificação de janeiro (4–8/1/2027), parte DA: D2-01, D2-28, D6-09, D6-32, D6-34; trechos de curso com REVERIFICAR; estágio probatório (Lei 8.112, art. 20 × Decreto 12.374/2025 × CF, art. 41) e EC 140/2026; N1 do D4; "(Vide ADI …)" do D3. Complementa a T-11 | GCB, qa-normativo-da | 20/10 |
+| T-121: GitHub (subir a branch exec-da-plataforma-2026-10-20; as referências locais não mostram a branch no remoto); atualização dos chats (transporte ao Projeto do claude.ai do estado e dos canônicos D2 a D5 v2.1); juntar_partes.py e lista de aborto "Parte A/B"; hora do envio do arquivo neutro do D4 | Orquestrador, Fundador | 20/10 |
+| Ratificação da delegação do dia (item de AUDITORIA de PARA_FUNDADOR.md, 20/10/2026): SIM mantém tudo / NÃO indica o que reverter | Fundador | 20/10 |
+
+### Log (20/10/2026)
+
+| Data | Origem | Registro |
+|---|---|---|
+| 20/10 | Secretaria (relato do orquestrador, EXEC DA) | Ordem do Fundador "ORQUESTRADOR: LOTE" (AGORA) e "Autorizado a fazer tudo": D6 e D1 reformatados sem conteúdo novo; D5 v2.1, D2 v2.1, D3 v2.1 e D4 v2.1 produzidos pelo rito e aceitos pela autorização do Fundador (D-LOTED5-CANONICO, D-LOTED2-CANONICO, D-LOTED3-CANONICO, D-LOTED4-CANONICO); T-72 a T-77 CONCLUÍDAS |
+| 20/10 | Secretaria (relato do orquestrador, EXEC DA) | Desvios de rito ratificados (D-DA-DESVIOS-RATIFICADOS); leitura externa pelo ChatGPT na conta do Fundador, autorizada |
+| 20/10 | GBQ (relato do orquestrador, EXEC DA) | Contrato v1.2.10 (D-CONTRATO-V1210); pacote v1.13 (D-PACOTE-V113); diagnóstico DA de 30 itens (D-DIAG30-DA); QA final gbq-cqe: pacote ACEITO COM RESSALVAS, plataforma ACEITA |
+| 20/10 | Fundador / orquestrador | Plataforma v16 publicada no link da candidata (versão 17 do artifact), com o sim do Fundador (D-PLATAFORMA-V16-PUBLICACAO); pautas de publicação das v1.10, v1.11 e v1.12 superadas |
+| 20/10 | Secretaria | DECISOES.md (10 linhas), TAREFAS.md (T-72 a T-77 atualizadas, T-100 com acréscimo, T-116 a T-121 abertas), PARA_FUNDADOR.md (3 itens RESPONDIDO, 1 AUDITORIA), PARA_PRESIDENCIA.md reescrito; ESTADO versão 61 |

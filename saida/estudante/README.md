@@ -1,7 +1,7 @@
 # Câmara 2026 — Edição do estudante
 
-- Versão: v1.12 (pacote.json versão 1)
-- Data: 2026-10-18
+- Versão: v1.13-E (pacote.json versão 1)
+- Data: 2026-10-20
 - Aviso: material de estudo; gabaritos em arquivo separado.
 - Itens marcados com o aviso "Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027." têm conteúdo volátil.
 
@@ -16,9 +16,16 @@
 - L5: [L5_estudo.md](L5_estudo.md) (resumo, curso, pares, pegadinhas); [L5_itens.md](L5_itens.md) (itens sem gabarito); [L5_gabarito.md](L5_gabarito.md) (gabarito e justificativas)
 - L6A: [L6A_estudo.md](L6A_estudo.md) (resumo, curso, pares, pegadinhas); [L6A_itens.md](L6A_itens.md) (itens sem gabarito); [L6A_gabarito.md](L6A_gabarito.md) (gabarito e justificativas)
 - L6B: [L6B_estudo.md](L6B_estudo.md) (resumo, curso, pares, pegadinhas); [L6B_itens.md](L6B_itens.md) (itens sem gabarito); [L6B_gabarito.md](L6B_gabarito.md) (gabarito e justificativas)
+- DA, lote D1: [DA_D1_estudo.md](DA_D1_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D1_itens.md](DA_D1_itens.md) (itens sem gabarito); [DA_D1_gabarito.md](DA_D1_gabarito.md) (gabarito e justificativas)
+- DA, lote D2: [DA_D2_estudo.md](DA_D2_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D2_itens.md](DA_D2_itens.md) (itens sem gabarito); [DA_D2_gabarito.md](DA_D2_gabarito.md) (gabarito e justificativas)
+- DA, lote D3: [DA_D3_estudo.md](DA_D3_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D3_itens.md](DA_D3_itens.md) (itens sem gabarito); [DA_D3_gabarito.md](DA_D3_gabarito.md) (gabarito e justificativas)
+- DA, lote D4: [DA_D4_estudo.md](DA_D4_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D4_itens.md](DA_D4_itens.md) (itens sem gabarito); [DA_D4_gabarito.md](DA_D4_gabarito.md) (gabarito e justificativas)
+- DA, lote D5: [DA_D5_estudo.md](DA_D5_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D5_itens.md](DA_D5_itens.md) (itens sem gabarito); [DA_D5_gabarito.md](DA_D5_gabarito.md) (gabarito e justificativas)
+- DA, lote D6: [DA_D6_estudo.md](DA_D6_estudo.md) (resumo, curso, pares, pegadinhas, tópicos); [DA_D6_itens.md](DA_D6_itens.md) (itens sem gabarito); [DA_D6_gabarito.md](DA_D6_gabarito.md) (gabarito e justificativas)
 
 - L1, L2, L3, L4, L6A e L6B: os itens de reforço estão ao fim de cada arquivo _itens.md e _gabarito.md, na seção "Itens de reforço".
 - Cada arquivo _estudo.md traz, ao fim, uma seção "Tópico" por tópico do lote: o resumo ("Resumo do tópico") e, em alguns tópicos, "Em 1 minuto" e os visuais em texto.
+- Direito Administrativo (P1-DA): seis lotes, em arquivos DA_D<n>_estudo.md, DA_D<n>_itens.md e DA_D<n>_gabarito.md; o id de lote vai sempre qualificado como "lote D<n>" (não confundir com as discursivas D1 a D5). Em todos os tópicos de DA há "Resumo do tópico", "Em 1 minuto" e dois visuais em texto.
 
 ### Núcleo de estudo
 

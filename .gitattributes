@@ -8,3 +8,5 @@ saida/pacote/exemplo_erros_v1.json -text
 # gerador_v1_12: scripts em LF; out/ com os bytes gerados (T115_reconciliacao_v1_12, seção 4)
 saida/pacote/gerador_v1_12/** text eol=lf
 saida/pacote/gerador_v1_12/out/** -text -eol
+saida/pacote/montagem_v1_13/** text eol=lf
+saida/pacote/montagem_v1_13/out/** -text -eol

@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 61 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 62 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -931,6 +931,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 19/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s14c4) | T-113 onda 1 CONCLUÍDA; ondas seguintes aguardam o sim do Fundador |
 | 19/10 | Secretaria (relato do orquestrador, ciclo 2026-10-18 s14c4) | T-11: 22 VOLÁTEIS da F1 acrescidos (relato); relatórios ordens/RELATORIO_ORDEM_V15_B, _A, _E e _F_onda1 registrados |
 | 19/10 | Secretaria | T-95: saida/pacote/cobertura_v1_12.md (749 itens; 736 em folhas; 14 folhas P1 abaixo de 20; 9 folhas com 30 itens); ESTADO versão 60 |
+| 20/10 | Secretaria (relato do orquestrador, ciclo s15c1) | T-118 CONCLUÍDA: gatilho A da v1.13 SIM (D-PACOTE-V113-CANONICO); promoção byte a byte conferida (pacote.json 82c4117c…, pacote_estudante.json 04cbd593…, adendo 5 a1ca1681…, edição .md 53 arquivos c6ecc6e5…); T-117 achado 10 concluído; T-95 cobertura v1.13; T-122 primeira da fila AGORA; T-121 (a) cumprida (D-BRANCH-MERGE-20OUT); push ao GitHub recusado com HTTP 403, backup por bundle (D-BACKUP-2); ESTADO versão 62 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -979,3 +980,42 @@ Total: 410 itens de DA (C/E 202/208), 5 com volatil. T-72 a T-77 CONCLUÍDAS. Ri
 | 20/10 | GBQ (relato do orquestrador, EXEC DA) | Contrato v1.2.10 (D-CONTRATO-V1210); pacote v1.13 (D-PACOTE-V113); diagnóstico DA de 30 itens (D-DIAG30-DA); QA final gbq-cqe: pacote ACEITO COM RESSALVAS, plataforma ACEITA |
 | 20/10 | Fundador / orquestrador | Plataforma v16 publicada no link da candidata (versão 17 do artifact), com o sim do Fundador (D-PLATAFORMA-V16-PUBLICACAO); pautas de publicação das v1.10, v1.11 e v1.12 superadas |
 | 20/10 | Secretaria | DECISOES.md (10 linhas), TAREFAS.md (T-72 a T-77 atualizadas, T-100 com acréscimo, T-116 a T-121 abertas), PARA_FUNDADOR.md (3 itens RESPONDIDO, 1 AUDITORIA), PARA_PRESIDENCIA.md reescrito; ESTADO versão 61 |
+
+## Atualização 20/10/2026 — sessão s15, ciclo s15c1
+
+Registro pelo relato do orquestrador (Cowork). A Secretaria registra; não decide mérito. Esta seção prevalece sobre as seções 1 a 6 e sobre a atualização anterior de 20/10/2026 (Direito Administrativo na plataforma) onde divergirem.
+
+### Pacote v1.13 canônico
+
+| Objeto | Estado em 20/10/2026 (ciclo s15c1) |
+|---|---|
+| Decisão | D-PACOTE-V113-CANONICO (linha NOVA em DECISOES.md): gatilho A da GBQ (T-118) respondido SIM pela Presidência de Ciclo; registrado em LOG_PRESIDENCIA.md. Supera a ressalva "aceite canônico formal pendente" da atualização anterior |
+| pacote.json (saida/pacote/) | SHA-256 82c4117cccc0902ddf711798c926049950a27db8e68d4402babf4b007fddf240 |
+| pacote_estudante.json v1.13-E (saida/pacote/) | SHA-256 04cbd593fdd30404ecb7f91f6b6722da6b2fc24e58d3c0eb68b10a4e792a0c40 |
+| Adendo 5 do registro AUTORAL (saida/gbq/claude_GBQ_Registro_AUTORAL_v3_adendo5_2026-10-20.md) | SHA-256 a1ca16811394dd6ec5df186b44155704a498bc03f6ac1e8cddaf87b6f7a87437 (410 ids DA) |
+| Edição .md do estudante (saida/estudante/) | 53 arquivos; digest c6ecc6e535f47d8aab8ebbbf0f143134f56c57fbdadbf8254901bf185d9329a9 |
+| Contrato (regras/pacote_contrato.md) | v1.2.11, SHA-256 85b30fccadce4eb9782e1e056613a2d680cec0c01aed44fd173bda7d248e616b (errata de forma sobre a v1.2.10) |
+| Cobertura v1.13 (saida/pacote/cobertura_v1_13.md; T-95) | SHA-256 13491263120b7b63f0891dc08c6de556245ecc94147687964390459b5bcbb8c1; DA com 3 folhas de 20 itens ou mais e 34 abaixo; faltam 356 itens para 20 em todas as folhas de DA |
+| Promoção | Pelo orquestrador, byte a byte, da seção 5 de saida/pacote/T118_reconciliacao_v1_13_2026-10-20.md; conferida por cmp e SHA-256 (promocao-ok); duas linhas acrescentadas ao .gitattributes. Nada foi à plataforma. A v16 publicada embute a montagem anterior (pacote.json 007787e3…, estudante 8b5489b9…); não foi remontada nem republicada (D1 da T-118, seção 2) |
+
+### Decisões aplicadas no ciclo (DECISOES.md)
+
+D-AUDITORIA-20OUT (Presidência de chat ratificou as decisões e desvios por delegação de 20/10; condições: T-118 fechada antes de qualquer outra tarefa, "nenhum lote novo com QA do anterior aberto" restabelecido, diagnóstico da entrada com até 30 itens por matéria); D-MOLDURA-CE (contagem e meta de itens E com moldura do Legislativo, 40% a 60% de C; T-122); D-BRANCH-MERGE-20OUT (PR #3 mesclado em main, 19e7ca9, cumprida antes da abertura da sessão); D-REFORCO-DA (reforço de DA até 20 itens por folha, titular GCB; T-116; T-123).
+
+### Fila e tarefas
+
+Nova fila AGORA: T-122 (moldura C/E) → T-116 (reforço de DA) → T-123 (pacote v1.14). Tarefas novas: T-122, T-123 e T-124 (diagnóstico de entrada com até 30 itens por matéria, condição 3 da D-AUDITORIA-20OUT; PRÓXIMO). T-118 CONCLUÍDA; T-117 com o achado 10 concluído (achado 8 BACKLOG; achado 9 passa à T-123; frase "O exemplo é hipotético." à decisão do Fundador); T-12 e T-95 com a ocorrência v1.13 concluída; T-121 (a) cumprida (D-BRANCH-MERGE-20OUT); restam T-121 (b) a (e).
+
+### Backup
+
+O push ao GitHub foi recusado com HTTP 403 nesta sessão; backup por bundle, conforme a D-BACKUP-2.
+
+### Pendências abertas (acrescidas em 20/10/2026, ciclo s15c1)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| T-122: contagem da moldura do Legislativo por matéria e por folha no pacote v1.13 e meta de E (saida/banco/moldura_ce_2026-10-20.md) | GBQ (gcb-cpp, gce-cpp, gbq-gerencia) | 20/10 |
+| T-116: reforço de DA (partida na cobertura_v1_13.md) | GCB | 20/10 |
+| T-123: pacote v1.14 (reforço de DA; 38 itens de banco P1-DA; gerador com o mapeamento de atos; achado 9; edição .md de DA) | GBQ | 20/10 |
+| T-124: diagnóstico da entrada com até 30 itens por matéria (SIM-0 e SIM-0-P2 contra o teto) | GBQ | 20/10 |
+| T-117: achado 8 (BACKLOG) e a frase "O exemplo é hipotético." | gbq-estilo; Fundador | 20/10 |

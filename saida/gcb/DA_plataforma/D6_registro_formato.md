@@ -200,3 +200,11 @@ Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026), achado 5: uma pegadinha 
 1. [pegadinha 52 (P1-DA-12)] deleção de marca (negrito): `"Incidente: comunicar só à autoridade" — art. 48, caput (autoridade nacional **e** titular).` → `"Incidente: comunicar só à autoridade" — art. 48, caput (autoridade nacional e titular).`. Motivo: a marcação `**…**` não é interpretada na lista final de pegadinhas da plataforma (achado 5); a palavra "e" fica como estava.
 
 Total: 1 mudança no D6 (`pegadinhas`). O `**e**` do resumo (seção "Agentes, segurança e responsabilidade") fica: o resumo é renderizado como markdown.
+
+## Errata de forma — T-118 (achado 10), 20/10/2026
+
+Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026, seção 8.7), achado 10; contrato v1.2.10, ponto 4 (pares sem `**`); D1 da T-118 (gbq-gerencia, 20/10/2026, seção 2). O par 0 (L-P1) trazia `**temporária**` no campo `como`; o par é texto simples e a seção 7.3 acima já o declara "sem marcas". Retirada só a marcação, não o texto. Só forma: nenhum id, enunciado, gabarito, itemEdital, curso, resumo ou pegadinha foi tocado; o negrito de `lote.resumo` fica (campo markdown).
+
+1. [par 0 (L-P1), campo como] deleção de marca (negrito): `Sigilosa: restrição **temporária** por imprescindibilidade à segurança da sociedade e do Estado.` → `Sigilosa: restrição temporária por imprescindibilidade à segurança da sociedade e do Estado.`. Motivo: contrato v1.2.10, ponto 4 (`**` proibido em pares); a palavra "temporária" fica como estava.
+
+Total: 1 mudança no D6 (`pares`). O D6_plataforma.json passa a 184.191 bytes (SHA-256 f8691dd5a3fd968922bf8bac8e26b4dd4f1475183afc9d6a0e84418d08b17122); diff JSON contra a versão anterior (8b8e5a42…754a) só em `/lote/pares[0]/como`.

@@ -20,7 +20,6 @@ PROIB = [
     (r'\bPARTE \d', 'PARTE n'),
     (r'(^|\n)\s*(#+\s*)?[LG]\d{1,2}\.\s', 'código de bloco L/G'),
     (r'\[F\d+', 'fonte [Fn]'),
-    (r'\bF\d{1,2}\b', 'fonte Fn'),
     (r'\[V\s', 'marca [V …]'),
     (r'NORMATIVO\s*[—-]\s*QA', 'marca NORMATIVO — QA'),
     (r'QA PENDENTE', 'QA PENDENTE'),
@@ -39,6 +38,8 @@ PROIB = [
     (r'\b(GCB|GBQ|GCE|EXEC|CQFP|CPP)\b|gcb-|qa-normativo|ChatGPT|Claude|Fundador|Presid[êe]ncia da f', 'unidade/agente/ferramenta'),
     (r'SEM FONTE', 'SEM FONTE'),
     (r'\bBQ-\d{4}\b', 'id de item do banco'),
+    (r'\b[Ff]olhas?\b', 'folha (termo de produção; usar "subitem")'),
+    (r'\bR\d{1,2}\b|\bF\d{1,2}\b', 'código R/F do mapa normativo'),
     (r'\bT-\d{2,3}\b', 'código de tarefa'),
     (r'\bD-[A-Z]{2,}', 'código de decisão'),
 ]

@@ -48,6 +48,7 @@ TROCAS = [
  ('T19', r' REVERIFICAR: art\. 8º-A', ' Art. 8º-A', 'troca mínima (op. 6)', 'deletada a marca "REVERIFICAR:"; "art." inicial de frase passa a "Art."'),
 ]
 LOG = []   # (onde, id_troca, n)
+ERRATA = []   # (onde, antes, depois): errata de forma de 20/10/2026
 
 def limpa(txt, onde):
     for tid, rx, sub, _tipo, _mot in TROCAS:
@@ -187,6 +188,11 @@ for k in range(p1 + 1, p3):
     n = int(m.group(1)); t = m.group(2)
     t = limpa(t, f'pegadinha {n}')
     confere_resto(t, f'pegadinha {n}')
+    # errata de forma de 20/10/2026 (achado 5): a lista "Pegadinhas prováveis" da plataforma não interpreta negrito; os `**` saem, o texto fica
+    if '**' in t:
+        t_novo = re.sub(r'\*\*(.+?)\*\*', r'\1', t)
+        ERRATA.append((f'pegadinha {n} (P1-DA-{"11" if n <= 32 else "12"})', t, t_novo))
+        t = t_novo
     claim, _, base = t.partition(' — ')
     if not base.startswith('art'):
         sys.exit(f'pegadinha {n}: base inesperada')
@@ -313,5 +319,20 @@ R.append(f'- Itens: {len(ITENS)} (D6-01 a D6-30 → P1-DA-11: 30; D6-31 a D6-50 
 R.append(f'- Pares: {len(PARES)} (LAI 16; LGPD 20; interface 7). Pegadinhas: {len(PEG)} (P1-DA-11: 32; P1-DA-12: 31).')
 R.append(f'- Curso: 2 blocos ## (11 e 12); {len(B_L)} ### no 11 e {len(B_G)} ### no 12.')
 R.append(f'- Tópicos: {len(TOP)} (P1-DA-11, P1-DA-12), escritos à mão em D6_topicos_fonte.json e incorporados pelo script.')
-(DIR / 'D6_registro_formato.md').write_text('\n'.join(R) + '\n', encoding='utf-8')
+# a parte manual do registro (seções 5 a 7: observações, saída do validador e da conferência de fidelidade) é anexada pela produção/orquestrador
+# e fica preservada aqui; a seção da errata é sempre regravada
+reg_ant = DIR / 'D6_registro_formato.md'
+cauda = ''
+if reg_ant.exists():
+    txt_ant = reg_ant.read_text(encoding='utf-8')
+    if '\n## 5. Observações' in txt_ant:
+        cauda = txt_ant[txt_ant.index('\n## 5. Observações'):]
+        if '\n## Errata de forma' in cauda:
+            cauda = cauda[:cauda.index('\n## Errata de forma')].rstrip('\n') + '\n'
+ER = ['', '## Errata de forma — QA final 20/10/2026', '',
+      'Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026), achado 5: uma pegadinha de P1-DA-12 (art. 48) trazia `**e**`; a lista "Pegadinhas prováveis" da plataforma não interpreta negrito e mostra os asteriscos. Retirada só a marcação, não o texto. Só forma: nenhum enunciado, gabarito, itemEdital ou id foi tocado; o D6 não tinha a palavra "folha" nem código R/F no texto exibido.', '']
+for i, (onde, a, b) in enumerate(ERRATA, 1):
+    ER.append(f'{i}. [{onde}] deleção de marca (negrito): `{a}` → `{b}`. Motivo: a marcação `**…**` não é interpretada na lista final de pegadinhas da plataforma (achado 5); a palavra "e" fica como estava.')
+ER += ['', f'Total: {len(ERRATA)} mudança no D6 (`pegadinhas`). O `**e**` do resumo (seção "Agentes, segurança e responsabilidade") fica: o resumo é renderizado como markdown.', '']
+(DIR / 'D6_registro_formato.md').write_text('\n'.join(R) + '\n' + cauda + '\n'.join(ER), encoding='utf-8')
 print('OK: D6_plataforma.json e D6_registro_formato.md (parte automática) gravados; itens', len(ITENS), 'pares', len(PARES), 'pegadinhas', len(PEG))

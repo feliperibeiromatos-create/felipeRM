@@ -46,9 +46,14 @@ REMOVIDOS = [
 REMOVIDOS.sort(key=len, reverse=True)
 SUFIXOS = [re.compile(r' — acréscimo da v2 \(leitura externa [^()]*; QA PENDENTE \(R2\)\)'), re.compile(r' \[alterado na v2: [^\]]*\]')]
 
+# errata de forma de 20/10/2026 (achado 1): remissão "folha" -> "subitem" (trocas, não remoções)
+TROCAS_ERRATA = [('estão na folha 10.6.', 'estão no subitem 10.6.'), ('estão na folha 10.7.)', 'estão no subitem 10.7.)'), ('está na folha 10.7.)', 'está no subitem 10.7.)')]
+
 def tira(t):
     for r in REMOVIDOS:
         t = t.replace(r, ' |' if r.endswith('|') else ' ')
+    for a, b in TROCAS_ERRATA:
+        t = t.replace(a, b)
     return t
 
 def tok(t):

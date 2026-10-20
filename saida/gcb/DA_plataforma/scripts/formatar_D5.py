@@ -55,6 +55,7 @@ TROCA = 'troca mínima (op. 6)'
 M_LOTE = 'fala do lote (cobertura de itens, cruzamento com item do banco ou nota de produção); não é conteúdo para a candidata (seção 6)'
 M_SEMFONTE = '"[SEM FONTE — não afirmar]": a marca e a frase marcada saem (seção 6)'
 M_COD = 'remissão a código de bloco do curso (seção 6)'
+E_SUB = 'errata de forma (QA final 20/10/2026, achado 1): "folha" é termo de produção (seção 6); a remissão serve ao estudo e passa a "subitem", o número 10.6/10.7 é o do `##` do curso'
 
 # edições explícitas no curso, por bloco e campo ('def' = definição; 'peg' = pegadinha)
 EXPL = {
@@ -91,6 +92,13 @@ EXPL = {
  ],
  ('C10.4-05', 'def'): [
   (' Qualquer afirmação sobre atribuições do gestor vem de regulamento não aberto neste Anexo: [SEM FONTE — não afirmar].', '', D_FRASE, M_SEMFONTE + '; a frase também cita o Anexo'),
+  ('estão na folha 10.6.', 'estão no subitem 10.6.', TROCA, E_SUB),
+ ],
+ ('C10.5-03', 'def'): [
+  ('estão na folha 10.7.)', 'estão no subitem 10.7.)', TROCA, E_SUB),
+ ],
+ ('C10.5-04', 'def'): [
+  ('está na folha 10.7.)', 'está no subitem 10.7.)', TROCA, E_SUB),
  ],
  ('C10.4-07', 'def'): [
   (' (A regra e a ressalva do art. 121, §§ 1º e 2º, estão em C10.4-03.)', '', D_FRASE, M_COD),
@@ -388,11 +396,13 @@ def registro(dados, ctx):
     W.append('## 3. Deleções e trocas (cada uma registrada)')
     W.append('Tipos: deleção de marca (v2, R1/R2, QA PENDENTE, leitura externa, Anexo N, REVERIFICAR, códigos); deleção de frase inteira ou de oração (processo, "[SEM FONTE]", cobertura do lote, cruzamento com item real do banco); troca mínima (op. 6); troca de rótulo (operação 2).')
     W.append('')
-    por_tipo = Counter(e['tipo'] for e in LOG)
-    W.append('Contagem por tipo: ' + '; '.join(f'{k}: {v}' for k, v in sorted(por_tipo.items())) + '.')
+    ERRS = [e for e in LOG if e['motivo'].startswith('errata de forma')]
+    GER = [e for e in LOG if not e['motivo'].startswith('errata de forma')]
+    por_tipo = Counter(e['tipo'] for e in GER)
+    W.append('Contagem por tipo (sem as da errata, seção "Errata de forma"): ' + '; '.join(f'{k}: {v}' for k, v in sorted(por_tipo.items())) + '.')
     W.append('')
     k = 0
-    for e in LOG:
+    for e in GER:
         if e['tipo'] == 'troca de rótulo': continue
         k += 1
         dep = ('→ `' + e['depois'] + '`') if e['depois'] else '→ (nada)'
@@ -405,7 +415,7 @@ def registro(dados, ctx):
     W.append('Decisões de leitura que o orquestrador pode querer revisar (nenhuma altera conteúdo normativo):')
     W.append('- Valores em reais: o curso mantém o que a lei fixa (R$ 100.000,00 e R$ 50.000,00 no art. 75, I e II) e a regra de atualização do art. 182; saíram as orações "valor atualizado NÃO CONFERIDO … [SEM FONTE]". A pegadinha "afirmar valor atualizado sem conferência" (curso C10.1-08 e pegadinha 8) saiu pelo mesmo motivo.')
     W.append('- Marca REVERIFICAR em C10.1-08 (art. 75, XVI, redação da Lei 15.471/2026): a marca saiu e o conteúdo do inciso foi mantido, como o D6 fez com a Lei 15.141/2025. A frase sobre o art. 79 (C10.1-12), toda de marca e de cobertura, saiu inteira.')
-    W.append('- Remissões "folha 10.6" e "folha 10.7" (C10.4-05, C10.5-03, C10.5-04) foram mantidas: "folha" não está na lista da seção 6 e os números 10.6 e 10.7 são os dos títulos `##` do curso. As remissões a código de bloco (C10.x-NN) saíram.')
+    W.append('- Remissões "folha 10.6" e "folha 10.7" (C10.4-05, C10.5-03, C10.5-04) foram mantidas na primeira entrega e TRATADAS PELA ERRATA DE 20/10/2026 (seção "Errata de forma": "folha" vira "subitem"); os números 10.6 e 10.7 são os dos títulos `##` do curso. As remissões a código de bloco (C10.x-NN) saíram.')
     W.append('- Enunciados começam com "Considere…" e trazem a situação no próprio enunciado; o canônico não separa texto-base: `textoBase` "" e `comando` "Julgue o item a seguir." (o canônico só traz "Julgue cada item como Certo ou Errado." no cabeçalho da seção 5.1).')
     W.append('- Ordem dos itens no JSON: crescente pelo id (D5-01 a D5-53, D5-55 a D5-71), como pede a seção 4 da especificação; no canônico o D5-71 ocupa a posição 54.')
     W.append('')
@@ -427,6 +437,15 @@ def registro(dados, ctx):
     W.append('Comando: `python3 -I saida/gcb/DA_plataforma/scripts/conferir_fidelidade_D5.py`')
     W.append('')
     W.append(fid)
+    W.append('')
+    W.append('## Errata de forma — QA final 20/10/2026')
+    W.append('Origem: QA final do pacote v1.13 (gbq-cqe, 20/10/2026), achado 1: a palavra de produção "folha" no texto exibido (a candidata não conhece "folha"; o validador passou a acusá-la). Regra da ordem: frase que só fala do processo ou da organização da produção é DELETADA; remissão útil ao estudo vira "subitem". Só forma: nenhum enunciado, gabarito, itemEdital ou id foi tocado.')
+    W.append('')
+    for i, e in enumerate(ERRS, 1):
+        dep = ('→ `' + e['depois'] + '`') if e['depois'] else '→ (nada)'
+        W.append(f"{i}. [{e['ctx']}] {e['tipo']}: `{e['antes']}` {dep}. Motivo: {e['motivo']}.")
+    W.append('')
+    W.append(f'Total: {len(ERRS)} mudanças no D5 (curso). Resumo, pares, pegadinhas, justificativas e tópicos do D5 não tinham a palavra "folha" nem código R/F. A conferência de fidelidade (lista independente de passagens removidas) foi atualizada com as três mesmas trocas.')
     W.append('')
     REGISTRO.write_text('\n'.join(W) + '\n', encoding='utf-8')
     print(val)

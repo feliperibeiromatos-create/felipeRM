@@ -1,0 +1,258 @@
+# gerar_topicos_D4.py — T-77 (ordem DA 20/10/2026) — 2026-10-20 — gerado por gcb-cpp
+# Auxiliar de escrita: grava D4_topicos_fonte.json. Os textos dos tópicos são escritos aqui, à mão;
+# só o campo "texto" dos dispositivos de baseLegal é copiado da coluna de texto do mapa (letra a letra), por busca do rótulo.
+import json, re, sys
+from pathlib import Path
+REPO = Path(__file__).resolve().parents[2]
+MAPA = REPO / 'D4_anexo_N_mapa_normativo.md'
+OUT = REPO / 'DA_plataforma' / 'D4_topicos_fonte.json'
+DATA = '2026-10-20'
+
+SEC = {}
+sec = None
+for l in MAPA.read_text(encoding='utf-8').split('\n'):
+    m = re.match(r'^### (4\.\d) ', l)
+    if m: sec = m.group(1); SEC.setdefault(sec, []); continue
+    if l.startswith('## '): sec = None
+    if sec and l.startswith('| ') and not l.startswith('| Dispositivo') and not l.startswith('|---'):
+        c = [x.strip() for x in l.strip().strip('|').split(' | ')]
+        SEC[sec].append((c[0], c[1], c[4]))
+
+def M(sec, label):
+    achados = [(t, d) for (r, t, d) in SEC[sec] if r == label and not t.startswith('[REDAÇÃO ANTERIOR') and not t.startswith('[REVOGADO')]
+    assert len(achados) == 1, (sec, label, len(achados))
+    assert achados[0][1] == DATA
+    return achados[0][0]
+
+def D(sec, label, ref, norma=None):
+    return dict(ref=(norma + ', ' if norma else '') + ref, texto=M(sec, label), literal=True, conferido=DATA)
+
+DEC = 'Decreto 9.203/2017'
+T = {}
+
+# ------------------------------------------------------------------ 8
+T['P1-DA-8'] = dict(
+ emUmMinuto=[
+  'Para Bresser-Pereira (ENAP, 2022), a administração burocrática substituiu a patrimonialista, em que o Estado era propriedade do rei e o nepotismo era a norma.',
+  'O pressuposto de eficiência da burocracia não se revelou real, e nos anos 80, nos países centrais, começou a revolução rumo à administração pública gerencial.',
+  'Para Cavalcante (Ipea, 2018), a fonte inspiradora do modelo burocrático é a hierarquia e a da nova gestão pública (NPM) é, principalmente, a lógica do mercado.',
+ ],
+ resumo=(
+  'A evolução dos modelos de gestão pública parte da administração patrimonialista, descrita por Bresser-Pereira, em artigo da Revista do Serviço Público (ENAP, 2022), como a que definiu as monarquias absolutas: o patrimônio público e o privado eram confundidos, o Estado era entendido como propriedade do rei, e o nepotismo e o empreguismo, senão a corrupção, eram a norma. A administração burocrática foi adotada para substituí-la e, segundo o mesmo artigo, era uma alternativa muito superior. O Guia da Política de Governança Pública (Casa Civil, 2018) associa à teoria clássica burocrática (weberiana) a racionalidade, a hierarquia e as análises de custo-benefício.\n\n'
+  'O pressuposto de eficiência, porém, não se revelou real: a administração burocrática é lenta, cara, auto-referida e pouco orientada para o atendimento das demandas dos cidadãos. Nos anos 80, nos países centrais, inicia-se uma grande revolução rumo à administração pública gerencial. O Guia associa ao paradigma gerencialista (nova gestão pública, NPM) a desagregação, a concorrência intragovernamental e os incentivos pecuniários vinculados ao desempenho.\n\n'
+  'Para Cavalcante (Ipea, 2018), a fonte inspiradora da administração tradicional, no modelo burocrático, é a hierarquia, e a da nova gestão pública, que o texto chama de ‘NGP’, é principalmente a lógica do mercado. O Plano Diretor da Reforma do Aparelho do Estado (PDRAE) aparece na análise de Cavalcante (Ipea, 2020), que parafraseia a transição programada de uma administração burocrática, rígida e ineficiente para uma administração gerencial, flexível e eficiente, voltada para o atendimento do cidadão.'),
+ visuais=[
+  dict(tipo='linha', titulo='Sucessão dos modelos, segundo Bresser-Pereira (ENAP, 2022)', marcos=[
+   dict(quando='Monarquias absolutas', texto='Administração patrimonialista: patrimônio público e privado confundidos, Estado como propriedade do rei, nepotismo e empreguismo como norma.'),
+   dict(quando='Em substituição à patrimonialista', texto='Administração burocrática clássica, alternativa muito superior; o pressuposto de eficiência, porém, não se revelou real.'),
+   dict(quando='Anos 80, países centrais', texto='Início da grande revolução rumo à administração pública gerencial (nova gestão pública, NPM).'),
+  ]),
+  dict(tipo='compare', titulo='Modelo burocrático × nova gestão pública (NPM)', a='Modelo burocrático', b='Nova gestão pública (NPM)', linhas=[
+   ['Fonte inspiradora (Cavalcante, Ipea, 2018)', 'Hierarquia', 'Lógica do mercado'],
+   ['Traços associados (Guia da Política de Governança Pública, Casa Civil, 2018)', 'Racionalidade, hierarquia e análises de custo-benefício (teoria clássica burocrática, weberiana)', 'Desagregação, concorrência intragovernamental e incentivos pecuniários vinculados ao desempenho (paradigma gerencialista)'],
+   ['Ponto de partida (Bresser-Pereira, ENAP, 2022)', 'Adotada para substituir a administração patrimonialista', 'Revolução iniciada nos anos 80, nos países centrais'],
+  ], legenda='No texto do Ipea, ‘NGP’ é nova gestão pública (NPM); a Nova Governança Pública (NPG) tem como princípio orientador as redes (ver 8.1).'),
+ ])
+
+# ------------------------------------------------------------------ 8.1
+T['P1-DA-8.1'] = dict(
+ emUmMinuto=[
+  'Segundo Bouckaert (ENAP, 2024), o princípio orientador das ‘redes’ resulta na Nova Governança Pública (NPG).',
+  'Na NPG o governo é facilitador e participante das redes, apoiando a cooperação mútua, a coprodução, as parcerias e a confiança na rede; os fundamentos são as teorias de rede.',
+  'A sigla ‘NGP’ do Ipea é nova gestão pública (NPM), e não NPG; o curso não afirma que a NPG substitui a NPM nem lhe atribui data ou autor.',
+ ],
+ resumo=(
+  'A Nova Governança Pública (NPG, New Public Governance) tem, segundo Bouckaert, em artigo traduzido da Revista do Serviço Público (ENAP, 2024), o princípio orientador das ‘redes’. Nela, o governo se torna um facilitador e participante das redes, apoiando a cooperação mútua, a coprodução, as parcerias e a confiança na rede, e os fundamentos teóricos são as teorias de rede.\n\n'
+  'Para a perspectiva pós-NPM, o Guia da Política de Governança Pública (Casa Civil, 2018) fala em integração, colaboração e processo decisório inclusivo, e Cavalcante, em publicação do Ipea, escreve que, no pós-NGP, a inspiração advém das redes, nas quais a gestão e a provisão de políticas públicas passam a se fundamentar. A sequência de Cavalcante (Ipea, 2018), hierarquia, mercado e redes, é de inspiração, sem datas.\n\n'
+  'Há uma convenção de siglas. No texto próprio do curso, usam-se nova gestão pública (NPM) e Nova Governança Pública (NPG), além de pós-NPM para a perspectiva do Guia e de Cavalcante. A sigla ‘NGP’ só aparece em citação literal do Ipea, em que significa nova gestão pública (NPM); em Bouckaert, NPG significa Nova Governança Pública. Pós-NPM e NPG não são tratados como a mesma coisa.\n\n'
+  'O que não se afirma: que a NPG substitui a NPM, ou que surgiu em determinada data ou por determinado autor. A banca pode trocar a sigla ‘NGP’ do Ipea pela NPG da ENAP, ou atribuir à NPG o princípio do mercado ou da hierarquia.'),
+ visuais=[
+  dict(tipo='esquema', titulo='Nova Governança Pública (NPG), segundo Bouckaert (ENAP, 2024)', centro='NPG', ramos=[
+   'Princípio orientador: as redes',
+   'O governo é facilitador e participante das redes',
+   'Apoia a cooperação mútua, a coprodução, as parcerias e a confiança na rede',
+   'Fundamentos teóricos: as teorias de rede',
+  ]),
+  dict(tipo='compare', titulo='Nova gestão pública (NPM) × Nova Governança Pública (NPG)', a='Nova gestão pública (NPM)', b='Nova Governança Pública (NPG)', linhas=[
+   ['Princípio orientador', 'Lógica do mercado (Cavalcante, Ipea, 2018)', 'Redes (Bouckaert, ENAP, 2024)'],
+   ['Sigla nas fontes', '‘NGP’ no texto do Ipea; NPM no texto do curso', 'NPG, no artigo da ENAP'],
+   ['O que o curso não afirma', 'Que seja substituída pela NPG', 'Que substitua a NPM, nem data ou autor de origem'],
+  ], legenda='Pós-NPM (Guia e Cavalcante) e NPG não são tratados como a mesma coisa.'),
+ ])
+
+# ------------------------------------------------------------------ 8.2
+T['P1-DA-8.2'] = dict(
+ emUmMinuto=[
+  'Cavalcante (Ipea, 2018) dá ao pós-NPM as tendências de colaboração, parcerias e redes; o Guia vê a passagem de silos isolados para redes como tendência global.',
+  'PPP é a concessão patrocinada ou administrativa; a concessão comum, sem contraprestação pecuniária do parceiro público, não é PPP (Lei 11.079, art. 2º).',
+  'Na Lei 13.019, o termo de colaboração parte da proposta da administração e o de fomento, da das organizações; o acordo de cooperação não envolve recursos financeiros.',
+ ],
+ resumo=(
+  'O Decreto 9.203/2017 traz, entre as diretrizes da governança pública, articular instituições e coordenar processos para melhorar a integração entre os diferentes níveis e esferas do setor público (art. 4º, IV); vale aqui o meio, e a finalidade, o valor público, é do subitem 8.4. Cavalcante (Ipea, 2018) dá ao pós-NPM as tendências de colaboração, parcerias e redes, e o Guia da Política de Governança Pública (Casa Civil, 2018) trata a passagem de silos isolados para redes formais e informais como tendência global.\n\n'
+  'Nas parcerias com o setor privado, a Lei 11.079/2004 define a parceria público-privada como o contrato administrativo de concessão, patrocinada ou administrativa. A patrocinada envolve, além da tarifa dos usuários, contraprestação pecuniária do parceiro público; a administrativa é contrato de prestação de serviços de que a Administração é usuária direta ou indireta. A concessão comum, sem contraprestação pecuniária, não é PPP. É vedado o contrato de valor inferior a R$ 10.000.000,00, de período inferior a 5 anos ou com objeto único de mão-de-obra, equipamentos ou obra pública.\n\n'
+  'A Lei 13.019/2014 define a parceria com organizações da sociedade civil, por termo de colaboração (finalidades propostas pela administração), termo de fomento (propostas pelas organizações) ou acordo de cooperação (sem transferência de recursos financeiros). A Lei 9.637/1998 permite ao Poder Executivo qualificar organizações sociais, e a Lei 9.790/1999 trata da OSCIP, qualificação que é ato vinculado e exige funcionamento regular há, no mínimo, 3 anos. ‘Terceiro setor’ é rótulo sem definição legal.'),
+ visuais=[
+  dict(tipo='compare', titulo='Termo de colaboração × termo de fomento (Lei 13.019/2014, art. 2º)', a='Termo de colaboração (inciso VII)', b='Termo de fomento (inciso VIII)', linhas=[
+   ['Quem propõe as finalidades', 'A administração pública', 'As organizações da sociedade civil'],
+   ['Finalidades', 'Interesse público e recíproco', 'Interesse público e recíproco'],
+   ['Transferência de recursos financeiros', 'Envolve', 'Envolve'],
+  ], legenda='O acordo de cooperação (inciso VIII-A) tem finalidades de interesse público e recíproco que não envolvem a transferência de recursos financeiros.'),
+  dict(tipo='baseLegal', titulo='Parceria público-privada e suas modalidades', norma='Lei 11.079/2004', dispositivos=[
+   D('4.2', 'art. 2º (caput)', 'art. 2º, caput'),
+   D('4.2', 'art. 2º, § 1º', 'art. 2º, § 1º'),
+   D('4.2', 'art. 2º, § 2º', 'art. 2º, § 2º'),
+   D('4.2', 'art. 2º, § 3º', 'art. 2º, § 3º'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 8.3
+T['P1-DA-8.3'] = dict(
+ emUmMinuto=[
+  'Para Lui et al. (Ipea, 2023), a coprodução implica promover a participação social em todos os estágios da política, principalmente na implementação e no monitoramento.',
+  'A transparência ativa é a divulgação independente de requerimento (Lei 12.527, art. 8º); a passiva é o atendimento ao pedido de acesso do interessado (art. 10).',
+  'A consulta pública é feita ‘sempre que conveniente’ (Decreto 9.203, art. 4º, IX), e a participação no acompanhamento e na avaliação dos serviços é direito do usuário (Lei 13.460, art. 6º, I).',
+ ],
+ resumo=(
+  'A coprodução, segundo Lui et al. (Ipea, 2023), implica promover a participação social em todos os estágios da política, principalmente na implementação e no monitoramento; Bouckaert (ENAP) a cita entre o que o governo apoia na NPG. As leis abertas não definem coprodução: a Lei 12.527/2011 trata de divulgação e a Lei 13.460/2017, da participação do usuário.\n\n'
+  'Cavalcante (Ipea, 2018) inclui entre as tendências do pós-NPM a participação e o engajamento, e o Guia da Política de Governança Pública (Casa Civil, 2018) destaca o processo decisório que incentiva a participação da sociedade, como a consulta pública. O Decreto 9.203/2017 fixa como diretrizes manter processo decisório com apoio à participação da sociedade (art. 4º, VIII) e realizar consultas públicas sempre que conveniente (art. 4º, IX). Na Lei 13.460/2017, a participação no acompanhamento da prestação e na avaliação dos serviços é direito básico do usuário (art. 6º, I).\n\n'
+  'A transparência ativa é a divulgação, independentemente de requerimentos, de informações de interesse coletivo ou geral (Lei 12.527/2011, art. 8º), com conteúdo mínimo no § 1º, I a VI; o Decreto 9.203/2017, art. 4º, XI, fala em comunicação aberta, voluntária e transparente. A passiva é o atendimento ao pedido de acesso, que exige a identificação do requerente e a especificação da informação (art. 10). Os rótulos ‘ativa’ e ‘passiva’ vêm do Referencial Básico de Governança Organizacional (TCU, 2020), e não da lei.'),
+ visuais=[
+  dict(tipo='compare', titulo='Transparência ativa × transparência passiva', a='Transparência ativa', b='Transparência passiva', linhas=[
+   ['Iniciativa', 'Divulgação independente de requerimento', 'Pedido de acesso apresentado pelo interessado'],
+   ['Dispositivo da Lei 12.527/2011', 'Art. 8º, caput: dever de promover a divulgação em local de fácil acesso', 'Art. 10, caput: pedido por qualquer meio legítimo'],
+   ['Exigência', 'Conteúdo mínimo do § 1º, I a VI, entre eles registros das despesas e respostas a perguntas mais frequentes', 'Identificação do requerente e especificação da informação requerida'],
+   ['Origem do rótulo', 'Referencial do TCU (2020) e Guia da Política de Governança Pública (Casa Civil, 2018); não é da lei', 'Referencial do TCU (2020); não é da lei'],
+  ], legenda='No Decreto 9.203/2017, art. 4º, XI, a diretriz da comunicação aberta, voluntária e transparente é lida pelo Guia como compromisso com a transparência ativa.'),
+  dict(tipo='baseLegal', titulo='Texto do decreto e da LAI sobre divulgação', norma='Decreto 9.203/2017 e Lei 12.527/2011', dispositivos=[
+   D('4.1', 'art. 4º, inc. XI', 'art. 4º, XI', DEC),
+   D('4.6', 'art. 8º (caput)', 'art. 8º, caput', 'Lei 12.527/2011'),
+   D('4.6', 'art. 8º, § 1º', 'art. 8º, § 1º', 'Lei 12.527/2011'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 8.4
+T['P1-DA-8.4'] = dict(
+ emUmMinuto=[
+  'Valor público, no Decreto 9.203/2017, art. 2º, II, são produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização.',
+  'No art. 4º, IV, o valor público é a finalidade da articulação de instituições e da coordenação de processos: gerar, preservar e entregar valor público.',
+  'A cadeia de valor das políticas públicas tem os elos insumos, processos, produtos, resultados e impactos (Casa Civil, 2018); o decreto não lista elos.',
+ ],
+ resumo=(
+  'Valor público, no Decreto 9.203/2017, art. 2º, II, são produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização; a definição abrange, portanto, o que é gerado, o que é preservado e o que é entregue. O art. 4º, IV, do mesmo decreto põe o valor público como finalidade da articulação de instituições e da coordenação de processos, que têm em vista gerar, preservar e entregar valor público.\n\n'
+  'A cadeia de valor público é, segundo o documento didático da Controladoria-Geral da União, uma adaptação da cadeia de valor de Porter. Para Martins (Ipea, 2018), ver o desempenho como um fluxo que vai dos insumos até o valor público baseia-se na ideia de cadeia de valor, e o desempenho é essencialmente um processo de geração de valor. O guia prático de análise ex post (Casa Civil, 2018) menciona abordagens para a cadeia de valor das políticas públicas, com os elos insumos, processos, produtos, resultados e impactos.\n\n'
+  'Valor público e cadeia de valor das políticas públicas são conceitos distintos: a definição do decreto não lista elos, e os elos do guia prático não são do decreto. O documento da CGU é documento interno do órgão, sem paginação impressa.'),
+ visuais=[
+  dict(tipo='fluxo', titulo='Elos da cadeia de valor das políticas públicas (Casa Civil, 2018)', passos=['Insumos', 'Processos', 'Produtos', 'Resultados', 'Impactos']),
+  dict(tipo='baseLegal', titulo='Valor público no decreto', norma=DEC, dispositivos=[
+   dict(ref='art. 2º, II (parte inicial)', texto='valor público - produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização', literal=True, conferido=DATA),
+   D('4.1', 'art. 4º, inc. IV', 'art. 4º, IV'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 9.1
+T['P1-DA-9.1'] = dict(
+ emUmMinuto=[
+  'Pelo Decreto 9.203/2017, art. 2º, I, governança pública é o conjunto de mecanismos de liderança, estratégia e controle para avaliar, direcionar e monitorar a gestão.',
+  'Para o TCU (2020), a governança é a função direcionadora e a gestão, a realizadora; governança não é o mesmo que gestão.',
+  'A governabilidade é a capacidade de estabelecer uma direção e implementá-la; a governança acrescenta legitimidade, participação, transparência e prestação de contas (TCU, 2020).',
+ ],
+ resumo=(
+  'Para o Decreto 9.203/2017, art. 2º, I, governança pública é o conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade. O inciso reúne quatro blocos de sentido: os três mecanismos, as três ações (avaliar, direcionar, monitorar), o objeto (a gestão) e a finalidade.\n\n'
+  'O Referencial Básico de Governança Organizacional (TCU, 3. ed., 2020) fala na aplicação de práticas de liderança, de estratégia e de controle que permitem aos mandatários e às partes interessadas avaliar, direcionar e monitorar, de modo a aumentar as chances de bons resultados aos cidadãos. O Guia da Política de Governança Pública (Casa Civil, 2018) liga o conceito do decreto a esse referencial, mas o conceito do TCU, com ‘mandatários’ e ‘partes interessadas’, não é o texto do inciso.\n\n'
+  'Segundo o referencial, a governança é a função direcionadora e a gestão, a realizadora; governança não é o mesmo que gestão. A governabilidade é a capacidade de estabelecer uma direção e implementá-la, e a governança acrescenta legitimidade, participação das partes interessadas, transparência e prestação de contas. Na análise do Ipea sobre o plano de reforma de 1995, ‘governança’ tem outro sentido: a capacidade de governo do Estado.\n\n'
+  'O referencial destaca ainda a necessidade de alinhar a estratégia com os planos governamentais, e o art. 5º, II, inclui na estratégia critérios de priorização e alinhamento entre organizações e partes interessadas.'),
+ visuais=[
+  dict(tipo='compare', titulo='Governabilidade × governança (Referencial do TCU, 2020, p. 111)', a='Governabilidade', b='Governança', linhas=[
+   ['Ideia central', 'Capacidade de estabelecer uma direção e de efetivamente implementá-la para alcançar o destino almejado', 'Acrescenta a preocupação com a legitimidade da direção e da forma de alcançá-la'],
+   ['Ordem e acréscimos', 'Ponto de partida', 'Acrescenta legitimidade, participação das partes interessadas, transparência e prestação de contas (accountability) dos responsáveis pelo direcionamento'],
+  ], legenda='O TCU marca a passagem como adaptada de outro autor. Na análise do Ipea sobre o plano de 1995, ‘governança’ é a capacidade de governo do Estado, sentido diferente.'),
+  dict(tipo='baseLegal', titulo='Governança pública e estratégia no decreto', norma=DEC, dispositivos=[
+   D('4.1', 'art. 2º, inc. I', 'art. 2º, I'),
+   D('4.1', 'art. 5º, inc. II', 'art. 5º, II'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 9.2
+T['P1-DA-9.2'] = dict(
+ emUmMinuto=[
+  'São três os mecanismos de governança do art. 5º do Decreto 9.203/2017, em rol fechado: liderança, estratégia e controle.',
+  'A liderança assegura quatro condições mínimas: integridade, competência, responsabilidade e motivação (art. 5º, I).',
+  'Para o TCU, o mecanismo controle não é a unidade de controle interno ou de correição; cabe à alta administração implementar e manter os mecanismos (art. 6º).',
+ ],
+ resumo=(
+  'O Decreto 9.203/2017, art. 5º, enumera três mecanismos para o exercício da governança pública, em rol fechado: liderança, estratégia e controle. Eles não se confundem com os princípios (art. 3º) nem com as diretrizes (art. 4º), e o Referencial Básico de Governança Organizacional (TCU, 3. ed., 2020) agrupa as práticas de governança nesses três mecanismos gerais.\n\n'
+  'A liderança é o conjunto de práticas de natureza humana ou comportamental exercidas nos principais cargos, para assegurar as condições mínimas da boa governança: integridade, competência, responsabilidade e motivação. A competência e a motivação são condições da liderança, e não princípios do art. 3º. A estratégia compreende a definição de diretrizes, objetivos, planos e ações, além de critérios de priorização e alinhamento, para que os serviços e produtos alcancem o resultado pretendido. O controle compreende processos estruturados para mitigar riscos e garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades, com preservação da legalidade e da economicidade; segundo o referencial, o mecanismo não se refere à atuação da unidade de controle interno ou de correição.\n\n'
+  'Cabe à alta administração implementar e manter mecanismos, instâncias e práticas de governança (art. 6º), com conteúdo mínimo que inclui formas de acompanhamento de resultados, soluções para melhoria do desempenho e instrumentos de promoção do processo decisório fundamentado em evidências. As diretrizes do art. 4º, V e X, ligadas à liderança, são diretrizes e não mecanismos.'),
+ visuais=[
+  dict(tipo='esquema', titulo='Mecanismos de governança pública (Decreto 9.203/2017, art. 5º)', centro='Mecanismos de governança', ramos=[
+   'Liderança (I): práticas de natureza humana ou comportamental nos principais cargos; condições mínimas: integridade, competência, responsabilidade e motivação',
+   'Estratégia (II): diretrizes, objetivos, planos e ações, com critérios de priorização e alinhamento, para alcançar o resultado pretendido',
+   'Controle (III): processos estruturados para mitigar riscos e garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades',
+  ]),
+  dict(tipo='baseLegal', titulo='Os três mecanismos no decreto', norma=DEC, dispositivos=[
+   D('4.1', 'art. 5º (caput)', 'art. 5º, caput'),
+   D('4.1', 'art. 5º, inc. I', 'art. 5º, I'),
+   D('4.1', 'art. 5º, inc. II', 'art. 5º, II'),
+   D('4.1', 'art. 5º, inc. III', 'art. 5º, III'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 9.3
+T['P1-DA-9.3'] = dict(
+ emUmMinuto=[
+  'Valor público são os produtos e resultados que representem respostas efetivas e úteis às necessidades ou demandas de interesse público (Decreto 9.203/2017, art. 2º, II).',
+  'O art. 4º, VII, manda avaliar propostas de políticas e aferir custos e benefícios ‘sempre que possível’; o art. 4º, III, alcança as ações prioritárias.',
+  'Para o guia prático de análise ex post (Casa Civil, 2018), a avaliação de impacto procura isolar o efeito da política dos demais fatores; a análise ex ante é a primeira etapa.',
+ ],
+ resumo=(
+  'Valor público, segundo o Decreto 9.203/2017, art. 2º, II, são os produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público e modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos de bens e serviços públicos. Nem todo resultado é valor público. Para Martins (Ipea, 2018), o que se quer alcançar é a geração de valor público, um conjunto de impactos, produtos e esforços que satisfaçam as expectativas dos beneficiários.\n\n'
+  'O art. 4º, I, orienta a busca de resultados para a sociedade, com soluções tempestivas e inovadoras diante da limitação de recursos e das mudanças de prioridades, e o referencial do TCU afirma que as práticas de governança servem para criar contextos favoráveis à entrega dos resultados esperados pelos cidadãos, com sustentabilidade. O art. 4º, III, manda monitorar o desempenho e avaliar concepção, implementação e resultados das ações prioritárias, e o art. 4º, VII, avaliar propostas de políticas e de incentivos fiscais e aferir, sempre que possível, seus custos e benefícios; o art. 6º, parágrafo único, I, exige formas de acompanhamento de resultados.\n\n'
+  'No guia prático de análise ex post (Casa Civil, 2018), a avaliação de impacto, subconjunto da avaliação de políticas públicas, busca demarcar a diferença atribuída à política, isolando o seu efeito dos demais fatores. O processo integrado tem a análise ex ante na primeira etapa e a avaliação ex post nas etapas seguintes.'),
+ visuais=[
+  dict(tipo='esquema', titulo='Valor público (Decreto 9.203/2017, art. 2º, II)', centro='Valor público', ramos=[
+   'Produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização',
+   'Que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público',
+   'Que modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos',
+   'Geração de valor público, para Martins (Ipea, 2018): satisfazer as expectativas dos beneficiários',
+  ]),
+  dict(tipo='baseLegal', titulo='Valor público, resultados e avaliação no decreto', norma=DEC, dispositivos=[
+   D('4.1', 'art. 2º, inc. II', 'art. 2º, II'),
+   D('4.1', 'art. 4º, inc. I', 'art. 4º, I'),
+   D('4.1', 'art. 4º, inc. III', 'art. 4º, III'),
+   D('4.1', 'art. 4º, inc. VII', 'art. 4º, VII'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ 9.4
+T['P1-DA-9.4'] = dict(
+ emUmMinuto=[
+  'O Decreto 9.203/2017 dispõe sobre a política de governança da administração pública federal direta, autárquica e fundacional; são seis princípios, onze diretrizes e três mecanismos.',
+  'Os arts. 7º a 15 e 20 foram revogados em 2019 e o art. 20-A, em 2021; a citação vigente é pelos artigos com letra (7º-A, 8º-A, 8º-B, 9º-A, 10-A, 10-B, 11-A, 12-A, 13-A, 15-A).',
+  'O CIG assessora o Presidente da República, reúne-se trimestralmente em caráter ordinário e pode instituir grupos de trabalho de até cinco membros, com duração não superior a um ano.',
+ ],
+ resumo=(
+  'O Decreto 9.203/2017 dispõe sobre a política de governança da administração pública federal direta, autárquica e fundacional. O art. 2º define governança pública, valor público, alta administração e gestão de riscos, esta como processo de natureza permanente, estabelecido, direcionado e monitorado pela alta administração, para fornecer segurança razoável quanto à realização dos objetivos. São seis princípios (art. 3º), onze diretrizes (art. 4º) e três mecanismos (art. 5º).\n\n'
+  'O Comitê Interministerial de Governança (CIG) assessora o Presidente da República na condução da política (art. 7º-A). Reúne-se, em caráter ordinário, trimestralmente (art. 8º-B), com quórum de reunião de maioria simples e de aprovação de maioria absoluta, e o Coordenador tem voto de qualidade. Pode instituir grupos de trabalho de até cinco membros, de caráter temporário, com duração não superior a um ano e no máximo três operando simultaneamente (art. 10-B). A participação é prestação de serviço público relevante, não remunerada (art. 12-A).\n\n'
+  'Os órgãos e as entidades executam a política de governança (art. 13-A), e os comitês internos auxiliam a alta administração (art. 15-A). A alta administração deve estabelecer, manter, monitorar e aprimorar sistema de gestão de riscos e controles internos, com quatro princípios (art. 17), e os órgãos instituem programa de integridade em quatro eixos (art. 19).\n\n'
+  'Os arts. 7º a 15 e o art. 20 foram revogados em 2019 e o art. 20-A, em 2021; por isso se cita sempre o artigo com letra.'),
+ visuais=[
+  dict(tipo='tabela', titulo='Princípios, diretrizes e mecanismos do Decreto 9.203/2017', colunas=['Rol', 'Dispositivo', 'Quantidade', 'Conteúdo'], linhas=[
+   ['Princípios', 'art. 3º', 'Seis, em rol fechado', 'Capacidade de resposta; integridade; confiabilidade; melhoria regulatória; prestação de contas e responsabilidade; transparência'],
+   ['Diretrizes', 'art. 4º', 'Onze incisos (I a XI)', 'Por exemplo, II: simplificação administrativa, modernização da gestão pública e integração dos serviços públicos; VI: controles internos fundamentados na gestão de risco'],
+   ['Mecanismos', 'art. 5º', 'Três', 'Detalhados no tópico 9.2'],
+  ], legenda='A banca pode trocar um rol pelo outro: princípios, diretrizes e mecanismos não se confundem.'),
+  dict(tipo='baseLegal', titulo='Comitê Interministerial de Governança: reunião e grupos de trabalho', norma=DEC, dispositivos=[
+   D('4.1', 'art. 8º-B (caput)', 'art. 8º-B, caput'),
+   D('4.1', 'art. 10-B, inc. II', 'art. 10-B, II'),
+   D('4.1', 'art. 10-B, inc. III', 'art. 10-B, III'),
+   D('4.1', 'art. 12-A (caput)', 'art. 12-A, caput'),
+  ]),
+ ])
+
+# ------------------------------------------------------------------ conferências de forma
+for k, t in T.items():
+    n = len(t['resumo'].split())
+    print(k, 'resumo', n, 'palavras', '| emUmMinuto', [len(x) for x in t['emUmMinuto']])
+    assert 150 <= n <= 250, k
+OUT.write_text(json.dumps(T, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+print('gravado', OUT)

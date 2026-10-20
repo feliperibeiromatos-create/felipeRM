@@ -1,0 +1,155 @@
+{
+ "P1-DA-11": {
+  "emUmMinuto": [
+   "A publicidade é o preceito geral e o sigilo, a exceção; a divulgação em sítios oficiais é obrigatória.",
+   "A resposta ao pedido sai em até 20 dias, prorrogáveis por mais 10; o recurso é de 10 dias e a autoridade superior se manifesta em 5.",
+   "Ultrassecreta, secreta e reservada duram, no máximo, 25, 15 e 5 anos, da produção; vencido o prazo, o acesso público é automático."
+  ],
+  "resumo": "A Lei de Acesso à Informação dispõe sobre os procedimentos que União, Estados, Distrito Federal e Municípios devem observar para garantir o acesso a informações. Subordinam-se a ela os órgãos da administração direta dos Poderes Executivo, Legislativo (incluídas as Cortes de Contas) e Judiciário e do Ministério Público, além de autarquias, fundações públicas, empresas públicas, sociedades de economia mista e demais entidades controladas. Entre as diretrizes está a publicidade como preceito geral e o sigilo como exceção.\n\nNa transparência ativa, os órgãos divulgam informações de interesse coletivo ou geral independentemente de requerimentos, sendo obrigatória a divulgação em sítios oficiais da internet. Na transparência passiva, qualquer interessado pode apresentar pedido, com identificação do requerente e especificação da informação, e são vedadas exigências relativas aos motivos da solicitação. Se a informação está disponível, o acesso é imediato; do contrário, a resposta vem em prazo não superior a 20 dias, prorrogável por mais 10, mediante justificativa expressa. O serviço de busca e de fornecimento é gratuito, com cobrança exclusiva do ressarcimento dos custos de reprodução.\n\nIndeferido o acesso, cabe recurso em 10 dias, dirigido à autoridade hierarquicamente superior, que se manifesta em 5 dias. A informação pode ser classificada como ultrassecreta, secreta ou reservada, com prazos máximos de 25, 15 e 5 anos, contados da produção; transcorrido o prazo, torna-se automaticamente de acesso público. As informações pessoais têm acesso restrito pelo prazo máximo de 100 anos, independentemente de classificação de sigilo.",
+  "visuais": [
+   {
+    "tipo": "baseLegal",
+    "titulo": "Prazos de resposta e de recurso",
+    "norma": "Lei 12.527/2011",
+    "dispositivos": [
+     {
+      "ref": "art. 11, § 1º",
+      "texto": "Não sendo possível conceder o acesso imediato, na forma disposta no caput, o órgão ou entidade que receber o pedido deverá, em prazo não superior a 20 (vinte) dias:",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 11, § 2º",
+      "texto": "O prazo referido no § 1º poderá ser prorrogado por mais 10 (dez) dias, mediante justificativa expressa, da qual será cientificado o requerente.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 15, caput",
+      "texto": "No caso de indeferimento de acesso a informações ou às razões da negativa do acesso, poderá o interessado interpor recurso contra a decisão no prazo de 10 (dez) dias a contar da sua ciência.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 24, § 1º",
+      "texto": "Os prazos máximos de restrição de acesso à informação, conforme a classificação prevista no caput, vigoram a partir da data de sua produção e são os seguintes:",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "tipo": "tabela",
+    "titulo": "Prazos do pedido de acesso e do recurso",
+    "colunas": [
+     "Fase",
+     "Prazo",
+     "Dispositivo"
+    ],
+    "linhas": [
+     [
+      "Resposta ao pedido, se o acesso imediato não for possível",
+      "até 20 dias",
+      "art. 11, § 1º"
+     ],
+     [
+      "Prorrogação da resposta",
+      "mais 10 dias, com justificativa expressa",
+      "art. 11, § 2º"
+     ],
+     [
+      "Recurso do interessado",
+      "10 dias a contar da ciência",
+      "art. 15, caput"
+     ],
+     [
+      "Manifestação da autoridade superior",
+      "5 dias",
+      "art. 15, parágrafo único"
+     ],
+     [
+      "Deliberação da Controladoria-Geral da União (Poder Executivo Federal)",
+      "5 dias",
+      "art. 16"
+     ]
+    ],
+    "legenda": "Prazos máximos de classificação, da data de produção: ultrassecreta 25 anos, secreta 15 anos, reservada 5 anos (art. 24, § 1º)."
+   }
+  ]
+ },
+ "P1-DA-12": {
+  "emUmMinuto": [
+   "O controlador decide sobre o tratamento; o operador o realiza em nome do controlador, segundo as instruções recebidas.",
+   "Dado sensível só é tratado com consentimento específico e destacado ou nas hipóteses de dispensa, quando indispensável.",
+   "A declaração de acesso sai em até 15 dias, e o incidente de risco relevante é comunicado à autoridade nacional e ao titular."
+  ],
+  "resumo": "A Lei Geral de Proteção de Dados Pessoais dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, para proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural. Aplica-se independentemente do meio, do país da sede ou do país onde estejam localizados os dados, desde que a operação seja realizada no território nacional, a atividade tenha por objetivo a oferta ou o fornecimento de bens ou serviços ou o tratamento de dados de indivíduos localizados no território nacional, ou os dados tenham sido coletados no território nacional.\n\nDado pessoal é a informação relacionada a pessoa natural identificada ou identificável. Dado pessoal sensível é o dado sobre origem racial ou étnica, convicção religiosa, opinião política, saúde, vida sexual, dado genético ou biométrico, entre outros do rol legal, quando vinculado a uma pessoa natural. O controlador decide sobre o tratamento; o operador o realiza em nome do controlador. O consentimento deve ser livre, informado e inequívoco, para finalidade determinada.\n\nO titular pode obter, a qualquer momento e mediante requisição, confirmação de tratamento, acesso, correção e eliminação; a declaração clara e completa é fornecida em até 15 dias. O poder público deve indicar encarregado. Em incidente de segurança que possa acarretar risco ou dano relevante, o controlador comunica a autoridade nacional e o titular. A aplicação das sanções compete exclusivamente à ANPD.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Controlador × operador",
+    "a": "Controlador",
+    "b": "Operador",
+    "linhas": [
+     [
+      "Quem é",
+      "Pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento (art. 5º, VI)",
+      "Pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento em nome do controlador (art. 5º, VII)"
+     ],
+     [
+      "Papel no tratamento",
+      "Decide, inclusive sobre as finalidades; verifica a observância das instruções e das normas (art. 39)",
+      "Realiza o tratamento segundo as instruções do controlador (art. 39)"
+     ],
+     [
+      "Registro das operações",
+      "Mantém registro das operações de tratamento (art. 37)",
+      "Mantém registro das operações de tratamento (art. 37)"
+     ],
+     [
+      "Responsabilidade por danos",
+      "Controladores diretamente envolvidos no tratamento do qual decorreram danos respondem solidariamente (art. 42, § 1º, II)",
+      "Responde solidariamente quando descumprir as obrigações da legislação ou não seguir as instruções lícitas do controlador, equiparando-se a ele (art. 42, § 1º, I)"
+     ],
+     [
+      "Comunicação de incidente",
+      "Comunica à autoridade nacional e ao titular o incidente que possa acarretar risco ou dano relevante (art. 48, caput)",
+      "O dever de comunicar é do controlador, não do operador"
+     ]
+    ],
+    "legenda": "Art. 5º, VI e VII; arts. 37, 39, 42 e 48."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Conceitos e prazos centrais",
+    "norma": "Lei 13.709/2018",
+    "dispositivos": [
+     {
+      "ref": "art. 5º, I",
+      "texto": "dado pessoal: informação relacionada a pessoa natural identificada ou identificável",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 5º, II",
+      "texto": "dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 19, II",
+      "texto": "por meio de declaração clara e completa, que indique a origem dos dados, a inexistência de registro, os critérios utilizados e a finalidade do tratamento, observados os segredos comercial e industrial, fornecida no prazo de até 15 (quinze) dias, contado da data do requerimento do titular",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "art. 42, § 1º, I",
+      "texto": "o operador responde solidariamente pelos danos causados pelo tratamento quando descumprir as obrigações da legislação de proteção de dados ou quando não tiver seguido as instruções lícitas do controlador, hipótese em que o operador equipara-se ao controlador, salvo nos casos de exclusão previstos no art. 43 desta Lei",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ }
+}

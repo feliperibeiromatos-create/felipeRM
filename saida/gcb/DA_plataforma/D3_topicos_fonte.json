@@ -1,0 +1,502 @@
+{
+ "P1-DA-5.1": {
+  "emUmMinuto": [
+   "A competência é irrenunciável; a delegação não alcança atos normativos, decisão de recursos nem matérias exclusivas, e a avocação é temporária e excepcional (Lei 9.784/1999, arts. 11 a 15).",
+   "O Presidente da República regulamenta a lei para sua fiel execução (CF, art. 84, IV); o Congresso Nacional susta atos normativos do Executivo que exorbitem do poder regulamentar (art. 49, V).",
+   "Poder de polícia limita ou disciplina direito, interesse ou liberdade em razão de interesse público; o exercício regular exige órgão competente, limites da lei e processo legal (CTN, art. 78)."
+  ],
+  "resumo": "O poder discricionário é a margem de escolha, quanto à conveniência e à oportunidade, que a lei confere ao administrador; o controle judicial alcança a legalidade, sem substituir esse juízo. O poder disciplinar permite à Administração apurar infrações e punir os servidores e os demais sujeitos a vínculo especial com ela; o poder de polícia alcança a generalidade dos particulares.\n\nNo poder hierárquico, a competência é irrenunciável, salvo delegação e avocação legalmente admitidas (Lei 9.784/1999, art. 11). A delegação pode alcançar órgãos não subordinados (art. 12), mas não a edição de atos normativos, a decisão de recursos nem as matérias de competência exclusiva (art. 13); a avocação é excepcional, temporária e recai sobre órgão hierarquicamente inferior (art. 15).\n\nO poder regulamentar do Presidente da República compreende expedir decretos e regulamentos para a fiel execução das leis (CF, art. 84, IV) e dispor, mediante decreto, sobre organização e funcionamento da administração federal, sem aumento de despesa nem criação ou extinção de órgãos, e sobre extinção de funções ou cargos vagos (inciso VI). O Congresso Nacional pode sustar os atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa (art. 49, V).\n\nO poder de polícia limita ou disciplina direito, interesse ou liberdade em razão de interesse público (CTN, art. 78, caput); o exercício é regular quando feito pelo órgão competente, nos limites da lei e com observância do processo legal (parágrafo único).",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Regulamento de execução × decreto sobre organização da administração federal",
+    "a": "Regulamento para a fiel execução da lei (art. 84, IV)",
+    "b": "Decreto do art. 84, VI",
+    "linhas": [
+     [
+      "Base",
+      "CF, art. 84, IV",
+      "CF, art. 84, VI, a e b"
+     ],
+     [
+      "Conteúdo",
+      "Expedir decretos e regulamentos para a fiel execução da lei",
+      "Dispor, mediante decreto, sobre organização e funcionamento da administração federal e sobre extinção de funções ou cargos públicos, quando vagos"
+     ],
+     [
+      "Condições",
+      "Fiel execução das leis",
+      "Alínea a: sem aumento de despesa nem criação ou extinção de órgãos públicos; alínea b: só funções ou cargos vagos"
+     ],
+     [
+      "Delegação (parágrafo único)",
+      "Não está entre as atribuições delegáveis",
+      "Delegável a Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, nos limites da delegação"
+     ]
+    ],
+    "legenda": "A edição de atos de caráter normativo não pode ser objeto de delegação (Lei 9.784/1999, art. 13, I)."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Poder regulamentar e seu controle",
+    "norma": "Constituição Federal",
+    "dispositivos": [
+     {
+      "ref": "art. 84, IV",
+      "texto": "IV - sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 84, VI, a",
+      "texto": "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 84, parágrafo único",
+      "texto": "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 49, V",
+      "texto": "V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-5.2": {
+  "emUmMinuto": [
+   "Abuso de poder é o gênero; o excesso (competência do agente) e o desvio (finalidade do ato) são espécies.",
+   "Incompetência é o ato fora das atribuições legais do agente; desvio de finalidade é o fim diverso do previsto na regra de competência; ambos geram nulidade (Lei 4.717/1965, art. 2º).",
+   "O Congresso Nacional pode sustar atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa (CF, art. 49, V)."
+  ],
+  "resumo": "O texto do CTN liga a ausência de abuso ou desvio de poder à atividade que a lei tenha como discricionária (art. 78, parágrafo único). As expressões abuso de poder, excesso de poder e desvio de poder, como categorias, são doutrinárias: o abuso de poder é o gênero, do qual o excesso de poder, relacionado à competência do agente, e o desvio de poder, relacionado à finalidade do ato, são espécies.\n\nA base textual está na Lei 4.717/1965, art. 2º: são nulos os atos lesivos ao patrimônio das entidades mencionadas no artigo anterior nos casos de incompetência e de desvio de finalidade. A incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou; o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência. O ato com desvio é nulo, e não meramente anulável, e o desvio pode existir ainda que a competência exista.\n\nA CF, art. 49, V, permite ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa: são duas hipóteses alternativas, e o objeto são atos do Poder Executivo. Por fim, o poder conferido à autoridade administrativa é instrumento para a persecução do interesse público; presentes os pressupostos legais, seu exercício é dever, e não mera faculdade (poder-dever de agir).",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Excesso de poder × desvio de poder",
+    "a": "Excesso de poder (incompetência)",
+    "b": "Desvio de poder (desvio de finalidade)",
+    "linhas": [
+     [
+      "Relaciona-se a",
+      "Competência do agente",
+      "Finalidade do ato"
+     ],
+     [
+      "Base textual",
+      "Lei 4.717/1965, art. 2º, a",
+      "Lei 4.717/1965, art. 2º, e"
+     ],
+     [
+      "Caracterização",
+      "O ato não se inclui nas atribuições legais do agente que o praticou",
+      "O agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência"
+     ],
+     [
+      "Competência do agente",
+      "Falta",
+      "Pode existir: há desvio de finalidade ainda que a competência exista"
+     ],
+     [
+      "Consequência",
+      "Nulidade do ato lesivo ao patrimônio",
+      "Nulidade do ato lesivo ao patrimônio, e não mera anulabilidade"
+     ]
+    ],
+    "legenda": "O abuso de poder é o gênero; o excesso e o desvio são espécies."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Incompetência e desvio de finalidade",
+    "norma": "Lei 4.717/1965",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, a",
+      "texto": "a) incompetência;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, parágrafo único, a",
+      "texto": "a) a incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, e",
+      "texto": "e) desvio de finalidade.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, parágrafo único, e",
+      "texto": "e) o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-6.1": {
+  "emUmMinuto": [
+   "Pessoas jurídicas de direito público e de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros (CF, art. 37, § 6º).",
+   "O art. 43 do Código Civil cita só as pessoas jurídicas de direito público interno; a requisição do art. 5º, XXV, da CF não é fundamento da responsabilidade civil do Estado.",
+   "A regra é a responsabilidade objetiva, na modalidade do risco administrativo, que admite excludentes."
+  ],
+  "resumo": "Pela CF, art. 37, § 6º, as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. O texto usa \"danos\", sem restringir a natureza, e \"terceiros\", sem outra qualificação.\n\nO Código Civil, art. 43, menciona apenas as pessoas jurídicas de direito público interno e ressalva o direito regressivo contra os causadores do dano, se houver culpa ou dolo; não cita as pessoas jurídicas de direito privado prestadoras de serviços públicos, que constam do § 6º.\n\nA CF, art. 5º, XXV, trata do uso de propriedade particular em iminente perigo público, com indenização ulterior se houver dano; é contraste de termos e não funda a responsabilidade civil do Estado.\n\nA responsabilidade civil do Estado pelos danos causados por seus agentes é, como regra, objetiva, na modalidade do risco administrativo, que admite causas excludentes; o risco integral, conceitualmente, não as admite. A evolução se deu da irresponsabilidade do Estado para a responsabilidade subjetiva e, depois, para a responsabilidade objetiva.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Art. 37, § 6º, da CF × art. 43 do Código Civil",
+    "a": "CF, art. 37, § 6º",
+    "b": "Código Civil, art. 43",
+    "linhas": [
+     [
+      "Quem responde",
+      "Pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos",
+      "Pessoas jurídicas de direito público interno"
+     ],
+     [
+      "Dano",
+      "Danos que os agentes, nessa qualidade, causarem a terceiros",
+      "Atos dos agentes que nessa qualidade causem danos a terceiros"
+     ],
+     [
+      "Regresso",
+      "\"Assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa\"",
+      "\"Ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo\""
+     ]
+    ],
+    "legenda": "O art. 43 não menciona as pessoas jurídicas de direito privado prestadoras de serviços públicos."
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Fundamentos textuais e contraste de termos",
+    "norma": "Constituição Federal e Código Civil",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, § 6º",
+      "texto": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Código Civil, art. 43",
+      "texto": "Art. 43. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 5º, XXV",
+      "texto": "XXV - no caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-6.2": {
+  "emUmMinuto": [
+   "O § 6º é a base textual do ato comissivo: respondem as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos, como a concessionária e a permissionária.",
+   "No regresso, a CF diz \"assegurado... contra o responsável\"; o Código Civil, \"ressalvado... contra os causadores do dano\"; em ambos o regresso depende de dolo ou culpa.",
+   "A conduta comissiva lícita pode gerar dever de indenizar, porque o dever decorre do dano causado pela conduta, e não da ilicitude."
+  ],
+  "resumo": "O § 6º do art. 37 da CF é a base textual do chamado ato comissivo, rótulo doutrinário: respondem pelos danos que os agentes, nessa qualidade, causarem a terceiros as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos, como a concessionária e a permissionária de serviço público. A pessoa jurídica de direito privado que não presta serviço público, como a sociedade que explora atividade econômica, não consta do § 6º pela letra.\n\nO direito de regresso tem redações diferentes nos dois textos. A CF diz \"assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa\"; o Código Civil, art. 43, diz \"ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo\". Em ambos, o regresso depende de dolo ou culpa, e a culpa basta. O regresso não afasta a responsabilidade perante o terceiro.\n\nNa responsabilidade objetiva, o dever de indenizar decorre do dano causado pela conduta, e não da ilicitude desta: a conduta comissiva lícita pode gerar dever de indenizar.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Responsabilidade da pessoa jurídica × do agente",
+    "a": "Pessoa jurídica",
+    "b": "Agente",
+    "linhas": [
+     [
+      "Papel",
+      "Responde pelos danos que seus agentes, nessa qualidade, causarem a terceiros",
+      "Causa o dano nessa qualidade e é o destinatário do regresso"
+     ],
+     [
+      "Condição",
+      "O dever de indenizar decorre do dano causado pela conduta, e não da ilicitude desta",
+      "Dolo ou culpa: o regresso depende deles, e a culpa basta"
+     ],
+     [
+      "Redação do regresso",
+      "CF: \"contra o responsável\"; Código Civil: \"contra os causadores do dano\"",
+      "CF: \"assegurado\"; Código Civil: \"ressalvado\""
+     ]
+    ],
+    "legenda": "O regresso não afasta a responsabilidade perante o terceiro."
+   },
+   {
+    "tipo": "tabela",
+    "titulo": "Sujeitos do § 6º do art. 37 da CF",
+    "colunas": [
+     "Sujeito",
+     "Consta do § 6º?",
+     "Observação"
+    ],
+    "linhas": [
+     [
+      "Pessoa jurídica de direito público",
+      "Sim",
+      "Responde pelos danos que seus agentes, nessa qualidade, causarem a terceiros"
+     ],
+     [
+      "Pessoa jurídica de direito privado prestadora de serviço público",
+      "Sim",
+      "A concessionária e a permissionária de serviço público são exemplos"
+     ],
+     [
+      "Pessoa jurídica de direito privado que não presta serviço público",
+      "Não, pela letra",
+      "A sociedade que explora atividade econômica é exemplo"
+     ]
+    ],
+    "legenda": "O quadro aplica a letra do § 6º aos sujeitos."
+   }
+  ]
+ },
+ "P1-DA-6.3": {
+  "emUmMinuto": [
+   "A letra do § 6º (\"causarem\") e a do art. 43 do Código Civil (\"causem danos\") não mencionam omissão.",
+   "A omissão relevante pressupõe dever jurídico de agir, e não mera possibilidade de agir; sem dano e sem nexo causal não há dever de indenizar.",
+   "O Estado não é segurador universal: responde quando presentes os pressupostos da responsabilidade, e não por todo dano sofrido pelos particulares."
+  ],
+  "resumo": "A letra do § 6º do art. 37 da CF, que fala nos danos que os agentes \"causarem\" a terceiros, e a do art. 43 do Código Civil, que trata de \"atos dos seus agentes que nessa qualidade causem danos\", não empregam a palavra omissão; por isso, não se atribui a nenhum dos dois uma previsão expressa de responsabilidade por omissão.\n\nA conduta comissiva consiste em uma ação positiva do agente; a omissiva, em uma abstenção, um não agir. A omissão relevante para a responsabilização pressupõe dever jurídico de agir, e não mera possibilidade de agir; o dever é jurídico, não apenas moral ou de conveniência.\n\nSem dano não há dever de indenizar, e sem nexo causal entre a conduta, inclusive a omissiva, e o dano também não há. Se o dano ocorresse da mesma forma ainda que o agente tivesse agido, não há nexo entre a omissão e o dano; não se deduz o dever de indenizar da mera ilicitude da omissão.\n\nO Estado não é segurador universal: responde quando presentes os pressupostos da responsabilidade, e não por todo dano sofrido pelos particulares. Confundir objetividade com responsabilidade por qualquer dano é a pegadinha provável.",
+  "visuais": [
+   {
+    "tipo": "compare",
+    "titulo": "Conduta comissiva × conduta omissiva",
+    "a": "Conduta comissiva",
+    "b": "Conduta omissiva",
+    "linhas": [
+     [
+      "Conceito",
+      "Ação positiva do agente",
+      "Abstenção, um não agir"
+     ],
+     [
+      "Letra do § 6º e do art. 43",
+      "Danos que os agentes \"causarem\" (CF); atos dos agentes que \"causem danos\" (Código Civil)",
+      "Nenhum dos dois textos emprega a palavra omissão"
+     ],
+     [
+      "Para ser relevante",
+      "Dano e nexo causal entre a conduta e o dano",
+      "Dever jurídico de agir, além de dano e nexo causal entre a omissão e o dano"
+     ]
+    ],
+    "legenda": "O dever jurídico de agir não se confunde com a mera possibilidade de agir."
+   },
+   {
+    "tipo": "esquema",
+    "titulo": "Omissão e responsabilidade do Estado",
+    "centro": "Responsabilidade por omissão",
+    "ramos": [
+     "A letra do § 6º e do art. 43 não menciona omissão",
+     "Omissão relevante: dever jurídico de agir, e não mera possibilidade de agir",
+     "Dano e nexo causal entre a omissão e o dano",
+     "O Estado não é segurador universal"
+    ]
+   }
+  ]
+ },
+ "P1-DA-6.4": {
+  "emUmMinuto": [
+   "Requisitos: conduta do agente nessa qualidade, dano a terceiro e nexo causal entre eles.",
+   "A culpa da pessoa jurídica não integra o rol: a referência a dolo ou culpa está na cláusula do direito de regresso (CF, art. 37, § 6º).",
+   "Basta o dano efetivo, e não a mera potencialidade; a simples coincidência temporal não configura o nexo de causalidade."
+  ],
+  "resumo": "Os requisitos para demonstrar a responsabilidade do Estado são a conduta do agente, nessa qualidade, o dano e o nexo causal entre eles; a culpa da pessoa jurídica não integra o rol.\n\nA conduta relevante é a praticada na condição de agente da pessoa jurídica (CF, art. 37, § 6º, \"nessa qualidade\"; Código Civil, art. 43, \"que nessa qualidade\"). Se o dano resultasse de atividade estritamente particular, sem relação com o cargo, faltaria o requisito. O dano é pressuposto: sem ele o dispositivo não se aplica, e basta o dano efetivo, e não a mera potencialidade.\n\nO nexo de causalidade é a relação de causa e efeito entre a conduta do agente e o dano, leitura do verbo \"causarem\" do § 6º; a simples coincidência temporal não o configura, e \"durante a atuação\" não equivale a \"por causa da atuação\".\n\nA referência a \"dolo ou culpa\" aparece na cláusula do direito de regresso, e não na primeira parte do § 6º, sobre a responsabilidade da pessoa jurídica: a vítima não precisa demonstrar culpa da pessoa jurídica.",
+  "visuais": [
+   {
+    "tipo": "esquema",
+    "titulo": "Requisitos da responsabilidade do Estado",
+    "centro": "Demonstração da responsabilidade",
+    "ramos": [
+     "Conduta do agente, nessa qualidade",
+     "Dano a terceiro (efetivo, e não mera potencialidade)",
+     "Nexo de causalidade entre a conduta e o dano",
+     "Fora do rol: a culpa da pessoa jurídica"
+    ]
+   },
+   {
+    "tipo": "baseLegal",
+    "titulo": "Conduta nessa qualidade e dano a terceiro",
+    "norma": "Constituição Federal e Código Civil",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, § 6º",
+      "texto": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Código Civil, art. 43",
+      "texto": "Art. 43. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "P1-DA-6.5": {
+  "emUmMinuto": [
+   "Excludente afasta o dever de indenizar; atenuante só reduz a responsabilidade e o valor a indenizar.",
+   "Excluem: força maior e caso fortuito (causas exclusivas do dano), fato exclusivo de terceiro e culpa exclusiva da vítima; a culpa concorrente da vítima só atenua.",
+   "A culpa do agente e o regresso ressalvado não excluem a responsabilidade da pessoa jurídica perante o terceiro."
+  ],
+  "resumo": "A causa excludente afasta o dever de indenizar; a atenuante apenas reduz a responsabilidade e o valor a indenizar. O § 6º do art. 37 da CF não enumera causas excludentes nem atenuantes.\n\nA força maior e o caso fortuito, quando causas exclusivas do dano, afastam o nexo e excluem a responsabilidade do Estado no risco administrativo. O fato exclusivo de terceiro, por afastar o nexo com a conduta do agente, também é causa excludente. A culpa exclusiva da vítima exclui a responsabilidade; a culpa concorrente da vítima é atenuante, que reduz a responsabilidade sem excluí-la.\n\nNo risco administrativo, a responsabilidade admite excludentes; no risco integral, conceitualmente, não as admite. Aplicar ao risco integral as excludentes do risco administrativo é a pegadinha provável.\n\nPela letra, a ausência de culpa do agente não exclui a responsabilidade da pessoa jurídica perante o terceiro, e o regresso ressalvado (CF, art. 37, § 6º; Código Civil, art. 43) não a exclui nem a atenua.",
+  "visuais": [
+   {
+    "tipo": "tabela",
+    "titulo": "Causas e efeitos sobre a responsabilidade do Estado",
+    "colunas": [
+     "Causa",
+     "Efeito"
+    ],
+    "linhas": [
+     [
+      "Força maior ou caso fortuito, como causa exclusiva do dano",
+      "Exclui a responsabilidade (risco administrativo)"
+     ],
+     [
+      "Fato exclusivo de terceiro",
+      "Exclui a responsabilidade"
+     ],
+     [
+      "Culpa exclusiva da vítima",
+      "Exclui a responsabilidade"
+     ],
+     [
+      "Culpa concorrente da vítima",
+      "Atenua: reduz a responsabilidade, sem excluí-la"
+     ],
+     [
+      "Culpa do agente ou regresso ressalvado",
+      "Não exclui nem atenua a responsabilidade da pessoa jurídica perante o terceiro"
+     ]
+    ],
+    "legenda": "Excludente afasta o dever de indenizar; atenuante apenas reduz a responsabilidade e o valor a indenizar."
+   },
+   {
+    "tipo": "compare",
+    "titulo": "Risco administrativo × risco integral",
+    "a": "Risco administrativo",
+    "b": "Risco integral",
+    "linhas": [
+     [
+      "Excludentes",
+      "Admite",
+      "Conceitualmente, não as admite"
+     ],
+     [
+      "Força maior, fato exclusivo de terceiro e culpa exclusiva da vítima",
+      "Excluem a responsabilidade",
+      "Não se aplicam as excludentes do risco administrativo"
+     ]
+    ],
+    "legenda": "Aplicar ao risco integral as excludentes do risco administrativo é a pegadinha provável."
+   }
+  ]
+ },
+ "P1-DA-7": {
+  "emUmMinuto": [
+   "Só configuram improbidade as condutas dolosas dos arts. 9º (enriquecimento ilícito), 10 (lesão ao erário) e 11 (atentado aos princípios); a ilegalidade sem dolo que a qualifique não a configura.",
+   "Art. 12: suspensão dos direitos políticos e proibição de contratar até 14 anos (art. 9º) e até 12 anos (art. 10); no art. 11, multa de até 24 vezes a remuneração e proibição de até 4 anos.",
+   "A ação prescreve em 8 anos; inquérito civil ou processo administrativo suspende o prazo por até 180 dias corridos; perda da função e suspensão dos direitos políticos só com o trânsito em julgado."
+  ],
+  "resumo": "A Lei 8.429/1992 tutela a probidade na organização do Estado e no exercício de suas funções e a integridade do patrimônio público e social dos Poderes Executivo, Legislativo e Judiciário (art. 1º, caput e § 5º). Só há improbidade em condutas dolosas tipificadas nos arts. 9º, 10 e 11 (art. 1º, § 1º); dolo é a vontade livre e consciente de alcançar o resultado ilícito, não bastando a voluntariedade (§ 2º), e a ilegalidade sem dolo que a qualifique não configura improbidade (art. 17-C, § 1º).\n\nO art. 9º trata do enriquecimento ilícito; o art. 10, da lesão ao erário, que exige perda patrimonial efetiva e comprovada; o art. 11, do atentado aos princípios da administração, que exige lesividade relevante e independe de danos ao erário e de enriquecimento ilícito (§ 4º). As cominações do art. 12 são aplicadas isolada ou cumulativamente, conforme a gravidade do fato: até 14 anos de suspensão dos direitos políticos e de proibição de contratar no art. 9º, até 12 anos no art. 10 e, no art. 11, multa de até 24 vezes a remuneração e proibição de contratar por até 4 anos.\n\nPerda da função e suspensão dos direitos políticos só se efetivam com o trânsito em julgado (art. 20, caput). A ação prescreve em 8 anos, contados da ocorrência do fato ou do dia em que cessou a permanência; a instauração de inquérito civil ou de processo administrativo suspende o prazo por até 180 dias corridos (art. 23, caput e § 1º).",
+  "visuais": [
+   {
+    "tipo": "tabela",
+    "titulo": "Arts. 9º, 10 e 11 da Lei 8.429/1992",
+    "colunas": [
+     "Aspecto",
+     "Art. 9º",
+     "Art. 10",
+     "Art. 11"
+    ],
+    "linhas": [
+     [
+      "Tipo",
+      "Enriquecimento ilícito",
+      "Lesão ao erário",
+      "Atentado aos princípios da administração"
+     ],
+     [
+      "Conduta",
+      "Auferir, mediante ato doloso, vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade",
+      "Ação ou omissão dolosa que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação de bens ou haveres",
+      "Ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade"
+     ],
+     [
+      "Rol de incisos",
+      "\"e notadamente\" os incisos",
+      "\"e notadamente\" os incisos vigentes (o inciso XXI e o art. 10-A estão revogados)",
+      "\"caracterizada por uma das seguintes condutas\" (incisos I, II, IX e X revogados)"
+     ],
+     [
+      "Dano ao erário",
+      "Não é requisito",
+      "Perda patrimonial efetiva e comprovada",
+      "Independe do reconhecimento de danos ao erário (§ 4º)"
+     ],
+     [
+      "Sanção",
+      "Art. 12, I",
+      "Art. 12, II",
+      "Art. 12, III"
+     ]
+    ],
+    "legenda": "Os três tipos exigem conduta dolosa (art. 1º, § 1º)."
+   },
+   {
+    "tipo": "tabela",
+    "titulo": "Cominações do art. 12",
+    "colunas": [
+     "Cominação",
+     "Art. 9º (inciso I)",
+     "Art. 10 (inciso II)",
+     "Art. 11 (inciso III)"
+    ],
+    "linhas": [
+     [
+      "Perda da função pública",
+      "Sim",
+      "Sim",
+      "Não"
+     ],
+     [
+      "Suspensão dos direitos políticos",
+      "Até 14 anos",
+      "Até 12 anos",
+      "Não"
+     ],
+     [
+      "Multa civil",
+      "Equivalente ao valor do acréscimo patrimonial",
+      "Equivalente ao valor do dano",
+      "Até 24 vezes o valor da remuneração percebida pelo agente"
+     ],
+     [
+      "Proibição de contratar com o poder público",
+      "Prazo não superior a 14 anos",
+      "Prazo não superior a 12 anos",
+      "Prazo não superior a 4 anos"
+     ]
+    ],
+    "legenda": "As cominações podem ser aplicadas isolada ou cumulativamente, de acordo com a gravidade do fato (art. 12, caput)."
+   }
+  ]
+ }
+}

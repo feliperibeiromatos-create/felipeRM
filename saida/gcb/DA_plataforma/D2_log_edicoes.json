@@ -1,0 +1,3160 @@
+{
+ "log": [
+  {
+   "ctx": "curso C3.0-01 (título)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(curso curto; sem item, sem par e sem pegadinha próprios)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "nota de produção no título (\"curso curto; sem item, sem par e sem pegadinha próprios\"; seção 6)"
+  },
+  {
+   "ctx": "curso C3.0-01 (texto)",
+   "tipo": "deleção de oração de processo",
+   "antes": ", sem texto próprio no Anexo N",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "cita o Anexo N (seção 6); fica \"são rótulos de curso; o conteúdo normativo está na CF…\""
+  },
+  {
+   "ctx": "curso C3.0-01 (texto)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Sobre classificação doutrinária: [SEM FONTE — não afirmar]; nenhum item a julga.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.0-01 (texto)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O caput 3 não é folha. Todo conteúdo cobrável está nas folhas 3.1 a 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "errata de forma (QA final 20/10/2026, achado 1): as duas frases só falam da organização da produção (o que é \"folha\" e onde está o conteúdo cobrável); nada de estudo se perde"
+  },
+  {
+   "ctx": "curso C3.1-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, III e § 2º.]",
+   "depois": "Base: CF, art. 37, III e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-02 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Nota REVERIFICAR: a alínea b",
+   "depois": "Nota: a alínea b",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6); o conteúdo da nota (redação da EC 138/2025 vigente; redação anterior superada) é mantido"
+  },
+  {
+   "ctx": "curso C3.1-02 (definição)",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "(contraste, folha 3.4)",
+   "depois": "(contraste, subitem 3.4)",
+   "adicionado": "subitem",
+   "motivo": "errata de forma (QA final 20/10/2026, achado 1): \"folha\" é termo de produção (seção 6); a remissão serve ao estudo e passa a \"subitem\", o número 3.4 é o do `##` do curso"
+  },
+  {
+   "ctx": "curso C3.1-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, XVI, caput, b e c; XVII (redação da EC 138/2025).]",
+   "depois": "Base: CF, art. 37, XVI, caput, b e c; XVII (redação da EC 138/2025).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, X, XII, XIII e XV.]",
+   "depois": "Base: CF, art. 37, X, XII, XIII e XV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 38, II, III e IV.]",
+   "depois": "Base: CF, art. 38, II, III e IV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-05 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Nenhum item deste lote julga o art. 40, § 4º, ou o § 5º-A.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 40, caput e § 13; edital 13.33 (legislação vigente em 2/10/2026).]",
+   "depois": "Base: CF, art. 40, caput e § 13; edital 13.33 (legislação vigente em 2/10/2026).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-06 (definição)",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "ver C3.4-03, que traz",
+   "depois": "ver o item 3.4, que traz",
+   "adicionado": "o item 3 4",
+   "motivo": "o código de bloco C3.4-03 é referência de produção (seção 6); trocado por \"o item 3.4\" (o curso do item 3.4 traz os três textos; como no exemplo \"(subitem 1.0)\" → \"do item 1\" da seção 7, op. 6)"
+  },
+  {
+   "ctx": "curso C3.1-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 41, caput e § 4º.]",
+   "depois": "Base: CF, art. 41, caput e § 4º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 41, § 1º, I a III.]",
+   "depois": "Base: CF, art. 41, § 1º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-08 (definição)",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "arts. 28 a 32 (folha 3.4)",
+   "depois": "arts. 28 a 32 (subitem 3.4)",
+   "adicionado": "subitem",
+   "motivo": "errata de forma (QA final 20/10/2026, achado 1): \"folha\" é termo de produção (seção 6); a remissão serve ao estudo e passa a \"subitem\", o número 3.4 é o do `##` do curso"
+  },
+  {
+   "ctx": "curso C3.1-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 41, §§ 2º e 3º.]",
+   "depois": "Base: CF, art. 41, §§ 2º e 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-09 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A2, A3, B1, B2, C2; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.1-09 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: art. 37, VI a VIII, núcleo 3.1; art. 5º, § 2º, núcleo 3.4 e 3.2.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-09 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O inciso VII é citado só pela letra: o conteúdo da lei específica não foi aberto neste material ([SEM FONTE — não afirmar]).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, VII e VIII; Lei 8.112/1990, art. 5º, § 2º.]",
+   "depois": "Base: CF, art. 37, VII e VIII; Lei 8.112/1990, art. 5º, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-10 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa B3, B4, C3, C5; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.1-10 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: art. 37, XI e §§ 10 a 13, núcleo 3.1; §§ 9º e 14, complementar 3.1.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, XI e §§ 9º a 14.]",
+   "depois": "Base: CF, art. 37, XI e §§ 9º a 14.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-11 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa C4; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.1-11 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(o texto desses incisos do art. 7º não foi aberto neste material: [SEM FONTE — não afirmar])",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); fica \"…XXII e XXX, podendo a lei estabelecer requisitos diferenciados…\""
+  },
+  {
+   "ctx": "curso C3.1-11 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(subsídio, já em C3.1-03)",
+   "depois": "(subsídio)",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-11 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O caput do art. 39 segue como em C3.1-03 (remissão a ação no STF; efeito não conferido).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6); a frase só remete a outro bloco (a nota sobre a remissão a ação no STF está no bloco da remuneração, subsídio e teto)"
+  },
+  {
+   "ctx": "curso C3.1-11 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: §§ 1º, I a III, e 3º, núcleo 3.1 e complementar 3.2; demais, núcleo 3.1.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 39, §§ 1º, 2º, 5º e 9º.]",
+   "depois": "Base: CF, art. 39, §§ 1º, 2º, 5º e 9º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.1-12 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa C6; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.1-12 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Nota (REVERIFICAR, EC 140/2026)",
+   "depois": "Nota (EC 140/2026)",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-12 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "; ver C3.1-05 (redação posterior ao edital",
+   "depois": "(redação posterior ao edital",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6); fica \"…não são tratados neste bloco (redação posterior ao edital, registrada e não incorporada).\""
+  },
+  {
+   "ctx": "curso C3.1-12 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.1.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.1-12 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 40, §§ 4º-A, 4º-B, 4º-C, 5º, 6º, 14 a 16 e 19.]",
+   "depois": "Base: CF, art. 40, §§ 4º-A, 4º-B, 4º-C, 5º, 6º, 14 a 16 e 19.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, I e II; Lei 8.112/1990, art. 10.]",
+   "depois": "Base: CF, art. 37, I e II; Lei 8.112/1990, art. 10.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-02 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(ver C3.2-07)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.2-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, arts. 2º e 3º, caput e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, arts. 2º e 3º, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, V.]",
+   "depois": "Base: CF, art. 37, V.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-04 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A Lei 8.745/1993, que regula a contratação temporária, não consta do Anexo N: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); a frase também cita o Anexo N"
+  },
+  {
+   "ctx": "curso C3.2-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, IX.]",
+   "depois": "Base: CF, art. 37, IX.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 4º; art. 5º, I a VI e § 1º.]",
+   "depois": "Base: Lei 8.112/1990, art. 4º; art. 5º, I a VI e § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 9º, I, II e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 9º, I, II e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.2-07 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(Anexo N, seção 3)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.2-07 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A classificação de agentes públicos (agentes políticos, honoríficos e outros) é rótulo doutrinário, sem texto próprio no Anexo N: [SEM FONTE — não afirmar]; nenhum item a julga.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); a frase também cita o Anexo N"
+  },
+  {
+   "ctx": "curso C3.2-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 37, I, II, V, IX e XVII; Lei 8.112/1990, arts. 2º, 3º e 15, caput.]",
+   "depois": "Base: CF, art. 37, I, II, V, IX e XVII; Lei 8.112/1990, arts. 2º, 3º e 15, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-01 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O Anexo N não traz norma que aplique o Decreto 10.835 à Câmara dos Deputados: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); a frase também cita o Anexo N"
+  },
+  {
+   "ctx": "curso C3.3-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 2º, caput e parágrafo único, I a III.]",
+   "depois": "Base: Decreto 10.835/2021, art. 2º, caput e parágrafo único, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-02 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O Anexo N localizou prerrogativa expressa de requisitar só na Lei 9.007/1995 (Presidência da República) e na Lei 6.999/1982 (Justiça Eleitoral); sobre qualquer outro órgão requisitante: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); a frase é relato da busca do Anexo N e termina na marca"
+  },
+  {
+   "ctx": "curso C3.3-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 9º, caput e §§ 1º a 3º; art. 3º, § 2º (contraste).]",
+   "depois": "Base: Decreto 10.835/2021, art. 9º, caput e §§ 1º a 3º; art. 3º, § 2º (contraste).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 11, caput e parágrafo único; art. 8º, caput (contraste).]",
+   "depois": "Base: Decreto 10.835/2021, art. 11, caput e parágrafo único; art. 8º, caput (contraste).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 9º, §§ 4º e 5º; art. 30-A, I a III.]",
+   "depois": "Base: Decreto 10.835/2021, art. 9º, §§ 4º e 5º; art. 30-A, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.007/1995, art. 2º, caput e parágrafo único.]",
+   "depois": "Base: Lei 9.007/1995, art. 2º, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 6.999/1982, art. 2º, § 1º; art. 3º, caput e § 3º; art. 9º.]",
+   "depois": "Base: Lei 6.999/1982, art. 2º, § 1º; art. 3º, caput e § 3º; art. 9º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 3º, §§ 1º e 2º; art. 8º; art. 36, I; Lei 8.112/1990, art. 93, caput, I e § 3º.]",
+   "depois": "Base: Decreto 10.835/2021, art. 3º, §§ 1º e 2º; art. 8º; art. 36, I; Lei 8.112/1990, art. 93, caput, I e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-08 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Decreto 12.374/2025 (REVERIFICAR; norma de 2025, vigente)",
+   "depois": "Decreto 12.374/2025 (norma de 2025, vigente)",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-08 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Que o Decreto 12.374 se aplique à Câmara dos Deputados: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 12.374/2025, art. 21, caput e §§ 1º e 2º; Lei 8.112/1990, art. 18, caput e § 2º.]",
+   "depois": "Base: Decreto 12.374/2025, art. 21, caput e §§ 1º e 2º; Lei 8.112/1990, art. 18, caput e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: CF, art. 5º, XXV; Decreto 10.835/2021, art. 9º, caput.]",
+   "depois": "Base: CF, art. 5º, XXV; Decreto 10.835/2021, art. 9º, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-10 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A16, B20, C9; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "ônus do ressarcimento (núcleo 3.3). Art. 17",
+   "depois": "ônus do ressarcimento. Art. 17",
+   "adicionado": "",
+   "motivo": "indicação de \"núcleo\"/\"complementar\" do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Constituição (complementar 3.3). Art. 18",
+   "depois": "Constituição. Art. 18",
+   "adicionado": "",
+   "motivo": "indicação de \"núcleo\"/\"complementar\" do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(os incisos VI e VII não foram usados)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6) (cobertura de incisos)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Art. 30-A, parágrafo único (núcleo 3.3): nas",
+   "depois": "Art. 30-A, parágrafo único: nas",
+   "adicionado": "",
+   "motivo": "indicação de \"núcleo\"/\"complementar\" do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(art. 30-A, caput, I a III, em C3.3-04)",
+   "depois": "(art. 30-A, caput, I a III)",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O parágrafo único do art. 22 e o art. 23 remetem ao ato conjunto do art. 32, não aberto: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: arts. 17 a 25, complementar 3.3.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Decreto 10.835/2021, art. 30-A, parágrafo único, I e II; arts. 18 a 22; art. 24, §§ 1º e 2º.]",
+   "depois": "Base: Decreto 10.835/2021, art. 30-A, parágrafo único, I e II; arts. 18 a 22; art. 24, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.3-11 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A15, B21; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.3-11 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.3.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-11 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A Lei 6.999 traz a prerrogativa expressa de requisitar da Justiça Eleitoral; sobre a Câmara dos Deputados: [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.3-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 6.999/1982, art. 2º, §§ 1º e 2º; art. 3º, caput e §§ 1º a 3º; art. 4º, caput e parágrafo único.]",
+   "depois": "Base: Lei 6.999/1982, art. 2º, §§ 1º e 2º; art. 3º, caput e §§ 1º a 3º; art. 4º, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 7º; art. 8º, I, II e V a IX; art. 33, I.]",
+   "depois": "Base: Lei 8.112/1990, art. 7º; art. 8º, I, II e V a IX; art. 33, I.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 13, § 1º; art. 15, § 1º.]",
+   "depois": "Base: Lei 8.112/1990, art. 13, § 1º; art. 15, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-03 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Decreto 12.374/2025 (REVERIFICAR), art. 2º, caput",
+   "depois": "Decreto 12.374/2025, art. 2º, caput",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-03 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A conciliação entre esses textos é matéria de doutrina e jurisprudência não aberta neste material — [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); ficam os três textos, cada um no seu referencial, sem conciliação"
+  },
+  {
+   "ctx": "curso C3.4-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 20, caput; CF, art. 41, caput; Decreto 12.374/2025, art. 2º (cada qual no seu referencial).]",
+   "depois": "Base: Lei 8.112/1990, art. 20, caput; CF, art. 41, caput; Decreto 12.374/2025, art. 2º (cada qual no seu referencial).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 24, caput; art. 25, I e II, a a e; art. 27.]",
+   "depois": "Base: Lei 8.112/1990, art. 24, caput; art. 25, I e II, a a e; art. 27.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-05 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(ponto bloqueado do BQ-0150; só curso)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6); cita item do banco (BQ-0150)"
+  },
+  {
+   "ctx": "curso C3.4-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 28, caput, §§ 1º e 2º; art. 29, I e II; art. 30.]",
+   "depois": "Base: Lei 8.112/1990, art. 28, caput, §§ 1º e 2º; art. 29, I e II; art. 30.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-06 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(parte B deste lote)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6); fica \"é penalidade; aqui, só como causa de vacância (art. 33, II).\""
+  },
+  {
+   "ctx": "curso C3.4-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 33; art. 34, parágrafo único, I e II; art. 35, I e II.]",
+   "depois": "Base: Lei 8.112/1990, art. 33; art. 34, parágrafo único, I e II; art. 35, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 36, caput e parágrafo único, I a III; art. 37, caput, I a VI.]",
+   "depois": "Base: Lei 8.112/1990, art. 36, caput e parágrafo único, I a III; art. 37, caput, I a VI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-08 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(ponto bloqueado do BQ-0126; só curso)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6); cita item do banco (BQ-0126)"
+  },
+  {
+   "ctx": "curso C3.4-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 91, caput; art. 81, I a VII; art. 93, caput, I e § 3º.]",
+   "depois": "Base: Lei 8.112/1990, art. 91, caput; art. 81, I a VII; art. 93, caput, I e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 106, caput; art. 107, I; art. 108; art. 110, I e II.]",
+   "depois": "Base: Lei 8.112/1990, art. 106, caput; art. 107, I; art. 108; art. 110, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 118, caput e § 2º; art. 119, caput; art. 120.]",
+   "depois": "Base: Lei 8.112/1990, art. 118, caput e § 2º; art. 119, caput; art. 120.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-11 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Os arts. 186 a 231 não foram usados em item.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6) (cobertura de itens)"
+  },
+  {
+   "ctx": "curso C3.4-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 183, caput e § 1º; art. 185, I e II.]",
+   "depois": "Base: Lei 8.112/1990, art. 183, caput e § 1º; art. 185, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-12 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A6, B6, B7, B8, B9, C11; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-12 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "por opção de remuneração; C3.2-03 e P-18)",
+   "depois": "por opção de remuneração)",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-12 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-12 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 13, §§ 2º e 3º; art. 15, § 4º; art. 19, caput e § 2º; art. 38, §§ 1º e 2º; art. 9º, parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 13, §§ 2º e 3º; art. 15, § 4º; art. 19, caput e § 2º; art. 38, §§ 1º e 2º; art. 9º, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-13 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A7, B5, B10, B11, B12; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-13 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(já em C3.4-03)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-13 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O prazo do estágio (24 meses na lei; 36 no decreto remetido) segue o tratamento de C3.4-03, sem afirmação nova.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6); a frase só remete ao bloco do estágio probatório"
+  },
+  {
+   "ctx": "curso C3.4-13 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4 (art. 20, §§ 4º e 5º, também complementar 3.2).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-13 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 24, § 2º; art. 25, II, e, e § 3º; art. 20, §§ 4º e 5º; art. 53, § 3º.]",
+   "depois": "Base: Lei 8.112/1990, art. 24, § 2º; art. 25, II, e, e § 3º; art. 20, §§ 4º e 5º; art. 53, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-14 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A4, A5, B13, C12; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-14 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O caput do art. 76-A traz remissões a regulamento e a decreto, não abertos: [SEM FONTE — não afirmar] sobre limites e valores.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-14 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-14 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, arts. 40 e 41, caput; art. 49, §§ 1º e 2º; art. 51; art. 58, §§ 1º e 2º; art. 76-A, § 3º.]",
+   "depois": "Base: Lei 8.112/1990, arts. 40 e 41, caput; art. 49, §§ 1º e 2º; art. 51; art. 58, §§ 1º e 2º; art. 76-A, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-15 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa B14, C13; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-15 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Os arts. 77, 78 e 80 trazem remissão a lei de 1997, não aberta: [SEM FONTE — não afirmar] sobre o seu conteúdo.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-15 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-15 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 77, caput e §§ 2º e 3º; art. 78, § 3º; art. 79, caput; art. 80, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 77, caput e §§ 2º e 3º; art. 78, § 3º; art. 79, caput; art. 80, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-16 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A8, A9, A10, B15, B16, C14; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-16 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(o caput traz remissão a decreto, não aberto: [SEM FONTE — não afirmar])",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-16 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-16 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 83, § 2º; art. 84, § 1º; art. 86, caput e § 2º; art. 87, caput e parágrafo único; art. 96-A, caput e § 2º.]",
+   "depois": "Base: Lei 8.112/1990, art. 83, § 2º; art. 84, § 1º; art. 86, caput e § 2º; art. 87, caput e parágrafo único; art. 96-A, caput e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-17 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A11, A12, B17, C15; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-17 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(IV; o inciso traz remissão a decreto, não aberto: [SEM FONTE — não afirmar])",
+   "depois": "(IV)",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); fica o número do inciso"
+  },
+  {
+   "ctx": "curso C3.4-17 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O art. 103 tem, no Anexo N, só os §§ 1º a 3º.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-17 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-17 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 98, §§ 1º a 3º; art. 100; art. 102; art. 103, I e § 3º.]",
+   "depois": "Base: Lei 8.112/1990, art. 98, §§ 1º a 3º; art. 100; art. 102; art. 103, I e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-18 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A13, A14, B18, B19; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-18 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Complementa C3.4-09 (arts. 106 a 110).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-18 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Contraste: a prescrição da ação disciplinar (art. 142) está em C4.2-13; o recurso da Lei 9.784 (arts. 56 a 64), em C4.4-14 (par P-63).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6); a frase só remete a outros blocos e a um par"
+  },
+  {
+   "ctx": "curso C3.4-18 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-18 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 107, § 1º; art. 109, parágrafo único; art. 110, parágrafo único; arts. 111 e 112.]",
+   "depois": "Base: Lei 8.112/1990, art. 107, § 1º; art. 109, parágrafo único; art. 110, parágrafo único; arts. 111 e 112.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C3.4-19 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa C16, em parte; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C3.4-19 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "; a remissão do caput ao Decreto 6.690/2008 não foi aberta: [SEM FONTE — não afirmar] sobre o conteúdo do decreto",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-19 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Ficam fora deste bloco os arts. 215 e 217 (pensão por morte): o art. 215 remete à Lei 10.887/2004, não aberta ([SEM FONTE — não afirmar]), e o art. 217, cujo texto está no Anexo N, fica fora por escolha de escopo.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); a frase também cita o Anexo N e trata de escopo de produção"
+  },
+  {
+   "ctx": "curso C3.4-19 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O bloco é só de curso (sem item) e complementa o bloco C3.4-11 (arts. 183 a 185).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6) (\"sem item\") e remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-19 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C3.4-19 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 203, § 4º; art. 208; art. 226, § 1º; art. 229, I e II; art. 196, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 203, § 4º; art. 208; art. 226, § 1º; art. 229, I e II; art. 196, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-01 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "; a classificação doutrinária das fontes é matéria não aberta neste material — [SEM FONTE — não afirmar]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6)"
+  },
+  {
+   "ctx": "curso C4.1-01 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O conteúdo normativo da folha está nos artigos dos blocos C4.1-01 a C4.1-10.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.1-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 143, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 143, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 128, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 128, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 128, parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 128, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-04 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O conteúdo de cada responsabilidade (arts. 122 a 124) está no bloco C4.2-04.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.1-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 125, caput (exceção: art. 126).]",
+   "depois": "Base: Lei 8.112/1990, art. 125, caput (exceção: art. 126).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-05 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "; o efeito de outras formas de absolvição não é tratado neste material — [SEM FONTE — não afirmar]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); fica \"O artigo trata só desse tipo de absolvição.\""
+  },
+  {
+   "ctx": "curso C4.1-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 126.]",
+   "depois": "Base: Lei 8.112/1990, art. 126.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-06 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Os incisos I, II, III, V e XIII são pontos do D1, e o inciso XII é ponto do item real BQ-0145; nenhum deles é ponto de item desta folha.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6); cita o lote D1 e item do banco (BQ-0145)"
+  },
+  {
+   "ctx": "curso C4.1-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 2º, parágrafo único, caput e VI.]",
+   "depois": "Base: Lei 9.784/1999, art. 2º, parágrafo único, caput e VI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 2º, parágrafo único, X e XI.]",
+   "depois": "Base: Lei 9.784/1999, art. 2º, parágrafo único, X e XI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-08 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "; o fundamento constitucional do contraditório e da ampla defesa no art. 5º, LV, da CF não foi aberto neste material — [SEM FONTE — não afirmar]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); fica \"A ampla defesa e o contraditório constam do rol.\""
+  },
+  {
+   "ctx": "curso C4.1-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 2º, caput.]",
+   "depois": "Base: Lei 9.784/1999, art. 2º, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 69.]",
+   "depois": "Base: Lei 9.784/1999, art. 69.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.1-10 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Nesta folha vale só a proposição da fonte: o dever funcional pode estar previsto em lei, regulamentação ou norma interna.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "errata de forma (QA final 20/10/2026, achado 1): a frase só delimita o recorte da produção (\"nesta folha vale só a proposição da fonte\") e repete o que a frase anterior (art. 129, caput) e o título do bloco já dizem"
+  },
+  {
+   "ctx": "curso C4.1-10 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A forma escrita e as proibições do art. 117 estão no bloco C4.2-06.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.1-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 129, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 129, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-01 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": ", e a doutrina sobre o conceito não foi aberta neste material — [SEM FONTE — não afirmar]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); fica \"…traz os tipos, e não um artigo de definição.\""
+  },
+  {
+   "ctx": "curso C4.2-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, arts. 116, 117 e 132 (tipos) e art. 127 (penalidades).]",
+   "depois": "Base: Lei 8.112/1990, arts. 116, 117 e 132 (tipos) e art. 127 (penalidades).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 116, IV e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 116, IV e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 117, VIII e X.]",
+   "depois": "Base: Lei 8.112/1990, art. 117, VIII e X.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-04 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "A responsabilidade civil do Estado é matéria de outro lote.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.2-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 126-A.]",
+   "depois": "Base: Lei 8.112/1990, art. 126-A.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 127, I, II, III, V e VI (rol sem a multa); art. 130, § 2º.]",
+   "depois": "Base: Lei 8.112/1990, art. 127, I, II, III, V e VI (rol sem a multa); art. 130, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-06 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(a fonte do dever está no bloco C4.1-10)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.2-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 129, caput; art. 132, XIII.]",
+   "depois": "Base: Lei 8.112/1990, art. 129, caput; art. 132, XIII.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 130, caput e §§ 1º e 2º.]",
+   "depois": "Base: Lei 8.112/1990, art. 130, caput e §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 131, caput e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 131, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 132, VII e XIII.]",
+   "depois": "Base: Lei 8.112/1990, art. 132, VII e XIII.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-10 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(bloco C4.3-13)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.2-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, arts. 138 e 139.]",
+   "depois": "Base: Lei 8.112/1990, arts. 138 e 139.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 135, parágrafo único; art. 35.]",
+   "depois": "Base: Lei 8.112/1990, art. 135, parágrafo único; art. 35.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-12 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 141, I a III.]",
+   "depois": "Base: Lei 8.112/1990, art. 141, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.2-13 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 142, I a III e §§ 1º, 3º e 4º.]",
+   "depois": "Base: Lei 8.112/1990, art. 142, I a III e §§ 1º, 3º e 4º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 143, § 3º (e a revogação dos §§ 1º e 2º).]",
+   "depois": "Base: Lei 8.112/1990, art. 143, § 3º (e a revogação dos §§ 1º e 2º).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 144, caput e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 144, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 145, II e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 145, II e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 146.]",
+   "depois": "Base: Lei 8.112/1990, art. 146.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 147, caput e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 147, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 151, I a III; art. 152, caput; art. 133, § 7º.]",
+   "depois": "Base: Lei 8.112/1990, art. 151, I a III; art. 152, caput; art. 133, § 7º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 149, caput e § 2º; art. 133, I.]",
+   "depois": "Base: Lei 8.112/1990, art. 149, caput e § 2º; art. 133, I.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 158, caput; art. 159, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 158, caput; art. 159, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 161, §§ 1º e 2º; art. 164, § 2º.]",
+   "depois": "Base: Lei 8.112/1990, art. 161, §§ 1º e 2º; art. 164, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 168, caput e parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 168, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 169, § 1º; art. 172, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 169, § 1º; art. 172, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-12 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 175; art. 176; art. 182, parágrafo único.]",
+   "depois": "Base: Lei 8.112/1990, art. 175; art. 176; art. 182, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-13 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 133, caput, I e § 7º; art. 140, caput.]",
+   "depois": "Base: Lei 8.112/1990, art. 133, caput, I e § 7º; art. 140, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-14 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa B30, C22; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.3-14 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(o caput está em C4.3-08)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-14 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 3.4 e 4.3.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-14 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 159, §§ 1º e 2º; art. 160, parágrafo único; art. 161, § 4º; art. 158, § 1º.]",
+   "depois": "Base: Lei 8.112/1990, art. 159, §§ 1º e 2º; art. 160, parágrafo único; art. 161, § 4º; art. 158, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-15 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa B31, C23; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.3-15 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Os §§ 3º e 4º ficam fora deste bloco (já estão em C4.3-10).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-15 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: art. 167, caput e §§ 1º e 2º, núcleo 3.4 e 4.3.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-15 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 167, §§ 1º e 2º.]",
+   "depois": "Base: Lei 8.112/1990, art. 167, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.3-16 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa B23, B24; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.3-16 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "a penalidade de demissão e a de destituição são as tratadas em C4.2-09 e C4.2-11;",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6); fica \"(a cassação de aposentadoria ou disponibilidade, que o texto do § 6º também cita, é a do art. 127, IV, …)\""
+  },
+  {
+   "ctx": "curso C4.3-16 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "e que este lote não usa)",
+   "depois": ")",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-16 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "(C4.3-13)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-16 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: art. 133, §§ 5º e 6º, núcleo 3.4, 4.2 e 4.3.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.3-16 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 8.112/1990, art. 133, §§ 5º e 6º.]",
+   "depois": "Base: Lei 8.112/1990, art. 133, §§ 5º e 6º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-01 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O § 1º e o § 2º, I e II, também são cobrados em outro lote.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-01 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 1º, § 1º e § 2º, I a III.]",
+   "depois": "Base: Lei 9.784/1999, art. 1º, § 1º e § 2º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-02 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 3º, caput e IV.]",
+   "depois": "Base: Lei 9.784/1999, art. 3º, caput e IV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-03 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 5º; art. 6º, parágrafo único.]",
+   "depois": "Base: Lei 9.784/1999, art. 5º; art. 6º, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-04 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 9º, I a IV; art. 10.]",
+   "depois": "Base: Lei 9.784/1999, art. 9º, I a IV; art. 10.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-05 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Os demais dispositivos da delegação e da avocação (arts. 11, 12, 13, II, 14, §§ 2º e 3º, e 15) são tratados em outro lote.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-05 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 13, I e III; art. 17.]",
+   "depois": "Base: Lei 9.784/1999, art. 13, I e III; art. 17.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-06 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 19, parágrafo único; art. 20; art. 21.]",
+   "depois": "Base: Lei 9.784/1999, art. 19, parágrafo único; art. 20; art. 21.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-07 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 22, caput; art. 24, caput e parágrafo único.]",
+   "depois": "Base: Lei 9.784/1999, art. 22, caput; art. 24, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-08 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 26, § 2º; art. 27, caput.]",
+   "depois": "Base: Lei 9.784/1999, art. 26, § 2º; art. 27, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-09 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 30; art. 38, § 2º.]",
+   "depois": "Base: Lei 9.784/1999, art. 30; art. 38, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-10 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 48; art. 49.]",
+   "depois": "Base: Lei 9.784/1999, art. 48; art. 49.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-11 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 49-A, § 6º, I a III.]",
+   "depois": "Base: Lei 9.784/1999, art. 49-A, § 6º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-12 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 51, §§ 1º e 2º.]",
+   "depois": "Base: Lei 9.784/1999, art. 51, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-13 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O caput do art. 54 e os arts. 53 e 55 (anulação, revogação, decadência de cinco anos e convalidação) são tratados em outro lote.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-13 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 54, § 1º.]",
+   "depois": "Base: Lei 9.784/1999, art. 54, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-14 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Ficam fora do recorte desta folha o art. 56, § 3º, e os arts. 64-A e 64-B (súmula vinculante).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6) (recorte de cobertura)"
+  },
+  {
+   "ctx": "curso C4.4-14 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 56, caput; art. 59, caput; art. 61, caput.]",
+   "depois": "Base: Lei 9.784/1999, art. 56, caput; art. 59, caput; art. 61, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-15 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 65, caput e parágrafo único.]",
+   "depois": "Base: Lei 9.784/1999, art. 65, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-16 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 66, caput e § 2º.]",
+   "depois": "Base: Lei 9.784/1999, art. 66, caput e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-17 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 69-A, § 1º.]",
+   "depois": "Base: Lei 9.784/1999, art. 69-A, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-18 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A21, B34, C25; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.4-18 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: arts. 31 a 35, núcleo 4.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-18 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 31, caput e §§ 1º e 2º; art. 32; art. 34; art. 35.]",
+   "depois": "Base: Lei 9.784/1999, art. 31, caput e §§ 1º e 2º; art. 32; art. 34; art. 35.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-19 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A22, B36, C26 em parte; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.4-19 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Art. 36 (já em C4.4-09): cabe",
+   "depois": "Art. 36: cabe",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-19 (definição)",
+   "tipo": "deleção de marca",
+   "antes": "Art. 45 (já em C4.4-09): em caso",
+   "depois": "Art. 45: em caso",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-19 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "O art. 42 (parecer) é ponto do D1 e não é tratado aqui.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6); cita o lote D1"
+  },
+  {
+   "ctx": "curso C4.4-19 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 4.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-19 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 36; art. 37; art. 45; art. 46; art. 47.]",
+   "depois": "Base: Lei 9.784/1999, art. 36; art. 37; art. 45; art. 46; art. 47.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-20 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa C29; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.4-20 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Complementa C4.4-11.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-20 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: todos os dispositivos citados, núcleo 4.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-20 (exemplo)",
+   "tipo": "deleção de marca",
+   "antes": "(art. 49-A, § 6º, III; C4.4-11)",
+   "depois": "(art. 49-A, § 6º, III)",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-20 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 49-E; art. 49-F, caput e parágrafo único; art. 49-G, § 3º.]",
+   "depois": "Base: Lei 9.784/1999, art. 49-E; art. 49-F, caput e parágrafo único; art. 49-G, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "curso C4.4-21 (título)",
+   "tipo": "deleção de marca",
+   "antes": "— acréscimo da v2 (leitura externa A24, B39; QA PENDENTE (R2))",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca de produção no título do bloco (seção 6: \"v2\", \"R2\", \"QA PENDENTE\", \"leitura externa\", códigos de pares e pegadinhas)"
+  },
+  {
+   "ctx": "curso C4.4-21 (definição)",
+   "tipo": "deleção de oração de processo",
+   "antes": "(tratado em outro lote)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-21 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Complementa C4.4-14 (que traz o caput do art. 63).",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "remissão a código de bloco, de par ou de pegadinha do curso (seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-21 (definição)",
+   "tipo": "deleção de frase inteira",
+   "antes": "Anexo N: art. 63, núcleo 4.4.",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "referência ao Anexo N e à indicação de núcleo/complementar do mapa normativo (nota de produção; seção 6)"
+  },
+  {
+   "ctx": "curso C4.4-21 (pegadinha)",
+   "tipo": "troca de rótulo",
+   "antes": "[Desfeita por: Lei 9.784/1999, art. 63, caput e §§ 1º e 2º.]",
+   "depois": "Base: Lei 9.784/1999, art. 63, caput e §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7"
+  },
+  {
+   "ctx": "resumo",
+   "tipo": "deleção de marca",
+   "antes": "### Resumo do item 3",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "subtítulo de produção da seção 2 do canônico (\"uma página por item do edital\"); cada página já abre com \"**Item 3 — …**\""
+  },
+  {
+   "ctx": "resumo",
+   "tipo": "deleção de marca",
+   "antes": "### Resumo do item 4",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "subtítulo de produção da seção 2 do canônico (\"uma página por item do edital\"); cada página já abre com \"**Item 4 — …**\""
+  },
+  {
+   "ctx": "resumo",
+   "tipo": "deleção de marca",
+   "antes": "(EC 138/2025; REVERIFICAR)",
+   "depois": "(EC 138/2025)",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "resumo",
+   "tipo": "deleção de marca",
+   "antes": "| Número literal do Anexo N | Dispositivo |",
+   "depois": "| Número literal | Dispositivo |",
+   "adicionado": "",
+   "motivo": "sai \"do Anexo N\" do cabeçalho da tabela (seção 6); a tabela é mantida"
+  },
+  {
+   "ctx": "resumo",
+   "tipo": "deleção de marca",
+   "antes": "(estágio probatório, no referencial do Decreto; REVERIFICAR)",
+   "depois": "(estágio probatório, no referencial do Decreto)",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "par P-06",
+   "tipo": "deleção de marca",
+   "antes": "(REVERIFICAR)",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca REVERIFICAR (seção 6)"
+  },
+  {
+   "ctx": "par P-06",
+   "tipo": "deleção de frase inteira",
+   "antes": "A conciliação entre esses textos é matéria de doutrina e jurisprudência não aberta neste material — [SEM FONTE — não afirmar].",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "\"[SEM FONTE — não afirmar]\": a marca e a frase marcada saem (seção 6); ficam os dois referenciais (Lei 8.112 e Decreto) e a estabilidade, cada um na sua norma, sem conciliação"
+  },
+  {
+   "ctx": "par P-62",
+   "tipo": "deleção de oração de processo",
+   "antes": ", hipótese que este lote não usa",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "fala do lote/da produção (cobertura de itens, remissão a outro lote ou ao lote); não é conteúdo para a candidata (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 1",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, III e § 2º.",
+   "depois": " Base: CF, art. 37, III e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 2",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, XVI, caput, b e c; XVII (redação da EC 138/2025).",
+   "depois": " Base: CF, art. 37, XVI, caput, b e c; XVII (redação da EC 138/2025).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 3",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, X, XII, XIII e XV.",
+   "depois": " Base: CF, art. 37, X, XII, XIII e XV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 4",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 38, II, III e IV.",
+   "depois": " Base: CF, art. 38, II, III e IV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 5",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 40, caput e § 13; edital 13.33 (legislação vigente em 2/10/2026).",
+   "depois": " Base: CF, art. 40, caput e § 13; edital 13.33 (legislação vigente em 2/10/2026).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 6",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 41, caput e § 4º.",
+   "depois": " Base: CF, art. 41, caput e § 4º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 7",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 41, § 1º, I a III.",
+   "depois": " Base: CF, art. 41, § 1º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 8",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 41, §§ 2º e 3º.",
+   "depois": " Base: CF, art. 41, §§ 2º e 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 9",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, I e II; Lei 8.112/1990, art. 10.",
+   "depois": " Base: CF, art. 37, I e II; Lei 8.112/1990, art. 10.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 10",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, arts. 2º e 3º, caput e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, arts. 2º e 3º, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 11",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, V.",
+   "depois": " Base: CF, art. 37, V.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 12",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, IX.",
+   "depois": " Base: CF, art. 37, IX.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 13",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 4º; art. 5º, I a VI e § 1º.",
+   "depois": " Base: Lei 8.112/1990, art. 4º; art. 5º, I a VI e § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 14",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 9º, I, II e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 9º, I, II e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 15",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, I, II, V, IX e XVII; Lei 8.112/1990, arts. 2º, 3º e 15, caput.",
+   "depois": " Base: CF, art. 37, I, II, V, IX e XVII; Lei 8.112/1990, arts. 2º, 3º e 15, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 16",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 2º, caput e parágrafo único, I a III.",
+   "depois": " Base: Decreto 10.835/2021, art. 2º, caput e parágrafo único, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 17",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 9º, caput e §§ 1º a 3º; art. 3º, § 2º (contraste).",
+   "depois": " Base: Decreto 10.835/2021, art. 9º, caput e §§ 1º a 3º; art. 3º, § 2º (contraste).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 18",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 11, caput e parágrafo único; art. 8º, caput (contraste).",
+   "depois": " Base: Decreto 10.835/2021, art. 11, caput e parágrafo único; art. 8º, caput (contraste).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 19",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 9º, §§ 4º e 5º; art. 30-A, I a III.",
+   "depois": " Base: Decreto 10.835/2021, art. 9º, §§ 4º e 5º; art. 30-A, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 20",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.007/1995, art. 2º, caput e parágrafo único.",
+   "depois": " Base: Lei 9.007/1995, art. 2º, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 21",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 6.999/1982, art. 2º, § 1º; art. 3º, caput e § 3º; art. 9º.",
+   "depois": " Base: Lei 6.999/1982, art. 2º, § 1º; art. 3º, caput e § 3º; art. 9º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 22",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 3º, §§ 1º e 2º; art. 8º; art. 36, I; Lei 8.112/1990, art. 93, caput, I e § 3º.",
+   "depois": " Base: Decreto 10.835/2021, art. 3º, §§ 1º e 2º; art. 8º; art. 36, I; Lei 8.112/1990, art. 93, caput, I e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 23",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 12.374/2025, art. 21, caput e §§ 1º e 2º; Lei 8.112/1990, art. 18, caput e § 2º.",
+   "depois": " Base: Decreto 12.374/2025, art. 21, caput e §§ 1º e 2º; Lei 8.112/1990, art. 18, caput e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 24",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 5º, XXV; Decreto 10.835/2021, art. 9º, caput.",
+   "depois": " Base: CF, art. 5º, XXV; Decreto 10.835/2021, art. 9º, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 25",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 7º; art. 8º, I, II e V a IX; art. 33, I.",
+   "depois": " Base: Lei 8.112/1990, art. 7º; art. 8º, I, II e V a IX; art. 33, I.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 26",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 13, § 1º; art. 15, § 1º.",
+   "depois": " Base: Lei 8.112/1990, art. 13, § 1º; art. 15, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 27",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 20, caput; CF, art. 41, caput; Decreto 12.374/2025, art. 2º (cada qual no seu referencial).",
+   "depois": " Base: Lei 8.112/1990, art. 20, caput; CF, art. 41, caput; Decreto 12.374/2025, art. 2º (cada qual no seu referencial).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 28",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 24, caput; art. 25, I e II, a a e; art. 27.",
+   "depois": " Base: Lei 8.112/1990, art. 24, caput; art. 25, I e II, a a e; art. 27.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 29",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 28, caput, §§ 1º e 2º; art. 29, I e II; art. 30.",
+   "depois": " Base: Lei 8.112/1990, art. 28, caput, §§ 1º e 2º; art. 29, I e II; art. 30.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 30",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 33; art. 34, parágrafo único, I e II; art. 35, I e II.",
+   "depois": " Base: Lei 8.112/1990, art. 33; art. 34, parágrafo único, I e II; art. 35, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 31",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 36, caput e parágrafo único, I a III; art. 37, caput, I a VI.",
+   "depois": " Base: Lei 8.112/1990, art. 36, caput e parágrafo único, I a III; art. 37, caput, I a VI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 32",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 91, caput; art. 81, I a VII; art. 93, caput, I e § 3º.",
+   "depois": " Base: Lei 8.112/1990, art. 91, caput; art. 81, I a VII; art. 93, caput, I e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 33",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 106, caput; art. 107, I; art. 108; art. 110, I e II.",
+   "depois": " Base: Lei 8.112/1990, art. 106, caput; art. 107, I; art. 108; art. 110, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 34",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 118, caput e § 2º; art. 119, caput; art. 120.",
+   "depois": " Base: Lei 8.112/1990, art. 118, caput e § 2º; art. 119, caput; art. 120.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 35",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 183, caput e § 1º; art. 185, I e II.",
+   "depois": " Base: Lei 8.112/1990, art. 183, caput e § 1º; art. 185, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 36",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 36",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, VII e VIII; Lei 8.112/1990, art. 5º, § 2º.",
+   "depois": " Base: CF, art. 37, VII e VIII; Lei 8.112/1990, art. 5º, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 37",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 37",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 37, XI e §§ 10, 11 e 13.",
+   "depois": " Base: CF, art. 37, XI e §§ 10, 11 e 13.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 38",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 38",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 39, §§ 2º, 5º e 9º.",
+   "depois": " Base: CF, art. 39, §§ 2º, 5º e 9º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 39",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 39",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: CF, art. 40, §§ 4º-A, 4º-B, 4º-C, 5º, 15, 16 e 19.",
+   "depois": " Base: CF, art. 40, §§ 4º-A, 4º-B, 4º-C, 5º, 15, 16 e 19.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 40",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 40",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 30-A, caput, I a III, e parágrafo único, I e II.",
+   "depois": " Base: Decreto 10.835/2021, art. 30-A, caput, I a III, e parágrafo único, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 41",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 41",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Decreto 10.835/2021, art. 18; art. 19; art. 21; art. 22, caput; art. 24, § 1º.",
+   "depois": " Base: Decreto 10.835/2021, art. 18; art. 19; art. 21; art. 22, caput; art. 24, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 42",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 42",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 6.999/1982, art. 2º, §§ 1º e 2º; art. 3º, caput; art. 8º.",
+   "depois": " Base: Lei 6.999/1982, art. 2º, §§ 1º e 2º; art. 3º, caput; art. 8º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 43",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 43",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 13, §§ 2º e 3º; art. 15, § 4º; art. 19, caput e § 2º; art. 38, § 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 13, §§ 2º e 3º; art. 15, § 4º; art. 19, caput e § 2º; art. 38, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 44",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 44",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 24, § 2º; art. 25, II, e, e § 3º; art. 20, §§ 4º e 5º; art. 53, § 3º.",
+   "depois": " Base: Lei 8.112/1990, art. 24, § 2º; art. 25, II, e, e § 3º; art. 20, §§ 4º e 5º; art. 53, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 45",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 45",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, arts. 40 e 41, caput; art. 49, § 1º; art. 51; art. 58, §§ 1º e 2º; art. 76-A, § 3º.",
+   "depois": " Base: Lei 8.112/1990, arts. 40 e 41, caput; art. 49, § 1º; art. 51; art. 58, §§ 1º e 2º; art. 76-A, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 46",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 46",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 77, caput e §§ 2º e 3º; art. 79, caput; art. 80, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 77, caput e §§ 2º e 3º; art. 79, caput; art. 80, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 47",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 47",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 83, § 2º; art. 86, caput e § 2º; art. 87, parágrafo único; art. 96-A, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 83, § 2º; art. 86, caput e § 2º; art. 87, parágrafo único; art. 96-A, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 48",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 48",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 98, §§ 1º a 3º; art. 103, caput e § 3º.",
+   "depois": " Base: Lei 8.112/1990, art. 98, §§ 1º a 3º; art. 103, caput e § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 49",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 49",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 109, parágrafo único; arts. 111 e 112.",
+   "depois": " Base: Lei 8.112/1990, art. 109, parágrafo único; arts. 111 e 112.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 50",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 50",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 196, caput; art. 203, § 4º; art. 226, § 1º; art. 229, I e II.",
+   "depois": " Base: Lei 8.112/1990, art. 196, caput; art. 203, § 4º; art. 226, § 1º; art. 229, I e II.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 51",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 143, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 143, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 52",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 128, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 128, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 53",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 128, parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 128, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 54",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 125, caput (exceção: art. 126).",
+   "depois": " Base: Lei 8.112/1990, art. 125, caput (exceção: art. 126).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 55",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 126.",
+   "depois": " Base: Lei 8.112/1990, art. 126.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 56",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 2º, parágrafo único, caput e VI.",
+   "depois": " Base: Lei 9.784/1999, art. 2º, parágrafo único, caput e VI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 57",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 2º, parágrafo único, X e XI.",
+   "depois": " Base: Lei 9.784/1999, art. 2º, parágrafo único, X e XI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 58",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 2º, caput.",
+   "depois": " Base: Lei 9.784/1999, art. 2º, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 59",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 69.",
+   "depois": " Base: Lei 9.784/1999, art. 69.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 60",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 129, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 129, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 61",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, arts. 116, 117 e 132 (tipos) e art. 127 (penalidades).",
+   "depois": " Base: Lei 8.112/1990, arts. 116, 117 e 132 (tipos) e art. 127 (penalidades).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 62",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 116, IV e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 116, IV e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 63",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 117, VIII e X.",
+   "depois": " Base: Lei 8.112/1990, art. 117, VIII e X.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 64",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 126-A.",
+   "depois": " Base: Lei 8.112/1990, art. 126-A.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 65",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 127, I, II, III, V e VI (rol sem a multa); art. 130, § 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 127, I, II, III, V e VI (rol sem a multa); art. 130, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 66",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 129, caput; art. 132, XIII.",
+   "depois": " Base: Lei 8.112/1990, art. 129, caput; art. 132, XIII.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 67",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 130, caput e §§ 1º e 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 130, caput e §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 68",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 131, caput e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 131, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 69",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 132, VII e XIII.",
+   "depois": " Base: Lei 8.112/1990, art. 132, VII e XIII.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 70",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, arts. 138 e 139.",
+   "depois": " Base: Lei 8.112/1990, arts. 138 e 139.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 71",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 135, parágrafo único; art. 35.",
+   "depois": " Base: Lei 8.112/1990, art. 135, parágrafo único; art. 35.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 72",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 141, I a III.",
+   "depois": " Base: Lei 8.112/1990, art. 141, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 73",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 142, I a III e §§ 1º, 3º e 4º.",
+   "depois": " Base: Lei 8.112/1990, art. 142, I a III e §§ 1º, 3º e 4º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 74",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 143, § 3º (e a revogação dos §§ 1º e 2º).",
+   "depois": " Base: Lei 8.112/1990, art. 143, § 3º (e a revogação dos §§ 1º e 2º).",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 75",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 144, caput e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 144, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 76",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 145, II e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 145, II e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 77",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 146.",
+   "depois": " Base: Lei 8.112/1990, art. 146.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 78",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 147, caput e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 147, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 79",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 151, I a III; art. 152, caput; art. 133, § 7º.",
+   "depois": " Base: Lei 8.112/1990, art. 151, I a III; art. 152, caput; art. 133, § 7º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 80",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 149, caput e § 2º; art. 133, I.",
+   "depois": " Base: Lei 8.112/1990, art. 149, caput e § 2º; art. 133, I.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 81",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 158, caput; art. 159, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 158, caput; art. 159, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 82",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 161, §§ 1º e 2º; art. 164, § 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 161, §§ 1º e 2º; art. 164, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 83",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 168, caput e parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 168, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 84",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 169, § 1º; art. 172, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 169, § 1º; art. 172, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 85",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 175; art. 176; art. 182, parágrafo único.",
+   "depois": " Base: Lei 8.112/1990, art. 175; art. 176; art. 182, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 86",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 133, caput, I e § 7º; art. 140, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 133, caput, I e § 7º; art. 140, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 87",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 1º, § 1º e § 2º, I a III.",
+   "depois": " Base: Lei 9.784/1999, art. 1º, § 1º e § 2º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 88",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 3º, caput e IV.",
+   "depois": " Base: Lei 9.784/1999, art. 3º, caput e IV.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 89",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 5º; art. 6º, parágrafo único.",
+   "depois": " Base: Lei 9.784/1999, art. 5º; art. 6º, parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 90",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 9º, I a IV; art. 10.",
+   "depois": " Base: Lei 9.784/1999, art. 9º, I a IV; art. 10.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 91",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 13, I e III; art. 17.",
+   "depois": " Base: Lei 9.784/1999, art. 13, I e III; art. 17.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 92",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 19, parágrafo único; art. 20; art. 21.",
+   "depois": " Base: Lei 9.784/1999, art. 19, parágrafo único; art. 20; art. 21.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 93",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 22, caput; art. 24, caput e parágrafo único.",
+   "depois": " Base: Lei 9.784/1999, art. 22, caput; art. 24, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 94",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 26, § 2º; art. 27, caput.",
+   "depois": " Base: Lei 9.784/1999, art. 26, § 2º; art. 27, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 95",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 30; art. 38, § 2º.",
+   "depois": " Base: Lei 9.784/1999, art. 30; art. 38, § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 96",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 48; art. 49.",
+   "depois": " Base: Lei 9.784/1999, art. 48; art. 49.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 97",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 49-A, § 6º, I a III.",
+   "depois": " Base: Lei 9.784/1999, art. 49-A, § 6º, I a III.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 98",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 51, §§ 1º e 2º.",
+   "depois": " Base: Lei 9.784/1999, art. 51, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 99",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 54, § 1º.",
+   "depois": " Base: Lei 9.784/1999, art. 54, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 100",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 56, caput; art. 59, caput; art. 61, caput.",
+   "depois": " Base: Lei 9.784/1999, art. 56, caput; art. 59, caput; art. 61, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 101",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 65, caput e parágrafo único.",
+   "depois": " Base: Lei 9.784/1999, art. 65, caput e parágrafo único.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 102",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 66, caput e § 2º.",
+   "depois": " Base: Lei 9.784/1999, art. 66, caput e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 103",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 69-A, § 1º.",
+   "depois": " Base: Lei 9.784/1999, art. 69-A, § 1º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 104",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 104",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 136; art. 132, IV, VIII, X e XI.",
+   "depois": " Base: Lei 8.112/1990, art. 136; art. 132, IV, VIII, X e XI.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 105",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 105",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 142, caput, I a III, e § 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 142, caput, I a III, e § 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 106",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 106",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 133, §§ 5º e 6º.",
+   "depois": " Base: Lei 8.112/1990, art. 133, §§ 5º e 6º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 107",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 107",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 149, caput; art. 150, parágrafo único; art. 156, caput.",
+   "depois": " Base: Lei 8.112/1990, art. 149, caput; art. 150, parágrafo único; art. 156, caput.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 108",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 108",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 156, §§ 1º e 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 156, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 109",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 109",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 159, § 2º; art. 160, parágrafo único; art. 161, § 4º.",
+   "depois": " Base: Lei 8.112/1990, art. 159, § 2º; art. 160, parágrafo único; art. 161, § 4º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 110",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 110",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 8.112/1990, art. 167, §§ 1º e 2º.",
+   "depois": " Base: Lei 8.112/1990, art. 167, §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 111",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 111",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 31, § 2º; art. 32; art. 35.",
+   "depois": " Base: Lei 9.784/1999, art. 31, § 2º; art. 32; art. 35.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 112",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 112",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 37; art. 45; art. 46.",
+   "depois": " Base: Lei 9.784/1999, art. 37; art. 45; art. 46.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 113",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 113",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 49-F, caput e parágrafo único; art. 49-G, § 3º.",
+   "depois": " Base: Lei 9.784/1999, art. 49-F, caput e parágrafo único; art. 49-G, § 3º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "pegadinha 114",
+   "tipo": "deleção de marca",
+   "antes": "[acréscimo da v2]",
+   "depois": "",
+   "adicionado": "",
+   "motivo": "marca \"v2\" (seção 6)"
+  },
+  {
+   "ctx": "pegadinha 114",
+   "tipo": "troca de rótulo",
+   "antes": " — Dispositivo: Lei 9.784/1999, art. 63, II e §§ 1º e 2º.",
+   "depois": " Base: Lei 9.784/1999, art. 63, II e §§ 1º e 2º.",
+   "adicionado": "Base",
+   "motivo": "operação 2 da seção 7 (o rótulo \"Dispositivo:\" vira \"Base:\", como no curso e como no D5)"
+  },
+  {
+   "ctx": "justificativa D2-02",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-04",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-08",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-11",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-12",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-14",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-17",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-18",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-22",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-25",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-27",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-34",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-35",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-37",
+   "tipo": "pontuação (nenhuma palavra alterada)",
+   "antes": "Não há troca:",
+   "depois": "Não há troca;",
+   "adicionado": "",
+   "motivo": "a sequência literal \"troca:\" consta da lista de proibidos da seção 6 (marca \"troca:\"); aqui é palavra comum da frase, e só os dois-pontos passam a ponto e vírgula (mesmo tratamento dado no D1, item D1-01, e no D5, item D5-04)"
+  },
+  {
+   "ctx": "justificativa D2-59",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "elemento-isca:",
+   "depois": "elemento que parece trocado:",
+   "adicionado": "elemento que parece trocado",
+   "motivo": "\"elemento-isca\" é marca de produção (seção 6); trocado pela expressão equivalente \"elemento que parece trocado\" (mesma troca do D5); o restante da frase fica igual"
+  },
+  {
+   "ctx": "justificativa D2-64",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "elemento-isca:",
+   "depois": "elemento que parece trocado:",
+   "adicionado": "elemento que parece trocado",
+   "motivo": "\"elemento-isca\" é marca de produção (seção 6); trocado pela expressão equivalente \"elemento que parece trocado\" (mesma troca do D5); o restante da frase fica igual"
+  },
+  {
+   "ctx": "justificativa D2-72",
+   "tipo": "troca mínima (op. 6)",
+   "antes": "elemento-isca:",
+   "depois": "elemento que parece trocado:",
+   "adicionado": "elemento que parece trocado",
+   "motivo": "\"elemento-isca\" é marca de produção (seção 6); trocado pela expressão equivalente \"elemento que parece trocado\" (mesma troca do D5); o restante da frase fica igual"
+  },
+  {
+   "ctx": "justificativa D2-74",
+   "tipo": "deleção de marca",
+   "antes": ", ponto do D1-16)",
+   "depois": ")",
+   "adicionado": "",
+   "motivo": "código de item de outro lote (\"ponto do D1-16\"; seção 6); fica \"(art. 1º, § 1º)\""
+  }
+ ],
+ "linhas_de_processo_fora": [
+  "Cada bloco: definição com artigo, inciso, parágrafo e alínea (Anexo N); exemplo hipotético no contexto do Legislativo da União; \"pegadinha provável\" com o dispositivo que a desfaz. Códigos de curso C3.x-NN. Termos doutrinários sem texto na norma aparecem só como rótulo ao lado do artigo que dá o conteúdo. Regulamentos, súmulas, acórdãos e atos internos: não abertos neste lote ([SEM FONTE — não afirmar]).",
+  "Cada bloco: definição com artigo, inciso, parágrafo e alínea (texto compilado); exemplo hipotético no contexto do Legislativo da União; \"pegadinha provável\" com o dispositivo que a desfaz. Códigos de curso C4.x-NN. Termos doutrinários sem texto na lei (\"fontes\" do direito disciplinar, conceito de ilícito disciplinar) aparecem só como rótulo, ao lado dos artigos que dão o conteúdo. Dispositivos cujo compilado remete a ação no STF aparecem só pela letra, com a nota \"o compilado remete a ação no STF; efeito não conferido neste material\". Regulamentos, súmulas, julgados e atos internos da Câmara: não abertos neste material ([SEM FONTE — não afirmar])."
+ ]
+}

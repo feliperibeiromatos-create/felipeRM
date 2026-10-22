@@ -909,4 +909,158 @@ GCB, 22/10/2026, ficha 11.4.10, item 2; acréscimo antes da última linha. SHA-2
   - **Leitura da GCB sobre a T-120 (f)** (sem alterar TAREFAS.md; decisão do orquestrador/presidencia): a reabertura de 22/10 **não substitui** a T-120 (f), que **fica para janeiro** (4–8/1/2027). Ela atende ao que a (f) supria no presente — já não há dispositivo do adendo tomado "só da cópia por falta de rede" — mas a T-120 é a janela única de reverificação (D-REVERIFICACAO-JAN): reabrir perto da prova para pegar alteração posterior a outubro, como em todos os itens da lista; e o HTML de 22/10 não foi gravado em saida/. Sugestão de registro: a (f) perde o motivo "por falta de rede" e passa a ser conferência de base comum dos três dispositivos (sem VOLÁTIL), como as demais.
 - **Leva 5 despachável à gcb-cpp (seção 11.4.10, item 3).** Com o anexo "o adendo do item 1" = saida/gcb/D2_anexo_N_adendo_2026-10-22.md (abed6f93…af61). Sem nova ficha, sem novo gatilho (D-T116-LEVA4-ACEITE, (c)).
 
+## 12. Adendo após a leva 5 (gcb-gerencia, 22/10/2026, ciclo s16c3)
+Fonte: reconciliação saida/gcb/DA_reforco_leva5_reconciliacao_2026-10-22.md (seções 4 e 5), pareceres R1 e R2 da gcb-cqfp da leva 5, auditoria de estilo saida/banco/estilo_DA_reforco_leva5.md (seções 4 e 6) e adendo saida/gcb/D2_anexo_N_adendo_2026-10-22.md. Só acréscimo antes da última linha; o texto acima fica como estava (SHA-256 da ficha antes deste adendo: 2e676c62d45487ed5f267f40d8f70d9761e2e67534991aa9564a9550c88a4899, a versão citada no R1, no R2 e no estilo da leva 5, com a seção 11.6). Este adendo prevalece sobre as seções 0 a 11 onde divergir; vale para as levas 6 a 12. Sem commit nem push.
+
+### 12.1 Ids, faixas e núcleo
+- Leva 5 sem reprovação e sem substituto: **D2-R21 a D2-R30** (3.3), **D2-R31 a D2-R40** (3.4) e **D2-R41 a D2-R50** (4.1), na ordem da seção 11.4.4; nenhum id vago. As folhas 3.3, 3.4 e 4.1 fecham em 20. O D2 segue em D2-R51.
+- **Leva 6 — faixas por folha (corrige a seção 2.1 só nesta leva):** 4.2 = **D2-R51 a D2-R60** (D2-R51 = Lei 8.112, art. 135, exigência (b)); 4.4 = **D2-R61 a D2-R70**; 4.3 = **D2-R71 a D2-R80**. Motivo: a ordem das folhas no arquivo da leva 6 é 4.2, 4.4, 4.3 (seção 12.4.7: com 4.2, 4.3, 4.4 nenhum plano passa o teste da leva inteira), e os ids seguem a ordem do arquivo. A ordem de apresentação na consolidação continua por folha (seção 7.3) e não depende da ordem do arquivo. Leva 7 = D3-R60 a D3-R89; D4 como na seção 7.1; D1 como na seção 9.1; D5 como na seção 2.1.
+- Núcleo: os 30 itens da leva 5 false (seção 11.1). Leva 6: a 4.2, a 4.3 e a 4.4 já têm 10 canônicos cada; **nenhum item da leva 6 recebe núcleo** (todos false).
+
+### 12.2 Regras de forma aceitas depois da leva 5 (estilo da leva 5, seção 6)
+As regras das seções 1, 7.4, 9.3, 10.2 e 11.2 continuam; estas as completam:
+1. **L6-1 — sentido da troca de número (texto da gbq-estilo).** "Em item E cuja troca é um número (prazo, percentual, período ou quantidade), a leva não põe todas as trocas no mesmo sentido. Quando a letra afirma o número como permissão, teto ou piso ('poderá … por', 'por até', 'não pode ser inferior a') e a troca para menor ficaria compatível com a letra, o item afirma o número como valor da regra ('o período de ausência … é de cinco dias', 'o percentual mínimo de cada parcela é de cinco por cento'). Assim, a troca para menor também contradiz a letra. A seção 4 do arquivo da leva lista, por script, o sentido de cada troca de número (para mais ou para menos) e a contagem por leva." Aplicação na leva 6: 5 trocas de número, 3 para menos (D2-R52, D2-R69, D2-R73) e 2 para mais (D2-R54, D2-R65); o D2-R73 afirma o prazo como valor da regra.
+2. **L6-2 — absoluto literal que não é a troca (texto da gbq-estilo).** "Absoluto que é letra da fonte e não é o elemento trocado fica no enunciado também em item E ('sem qualquer prejuízo', Lei 8.112, art. 97; D2-R32, AJ-L5-E1). A seção 4 do arquivo da leva conta por gabarito o absoluto literal que não é a troca, ao lado do absoluto inserido (L3-2)." Aplicação na leva 6: E com absoluto literal que não é a troca: D2-R72 ("a qualquer tempo") e D2-R69 ("em qualquer órgão ou instância"); C com absoluto literal: D2-R64 ("somente"), D2-R70 e D2-R71 ("sempre"); nenhum E com absoluto inserido.
+3. **Fórmula "Nessa situação, nos termos d…"** (estilo da leva 5, seção 6, à GCB; ficha 7.4.3): no D2, a leva 6 usa a fórmula em no máximo 6 dos 12 itens com "Considere que", no máximo 2 por folha; os demais citam a norma no cenário ou no fim do enunciado.
+4. Medida: a reconciliação de cada leva confere L6-1 e L6-2 junto com as regras das seções 7.4, 9.3, 10.2 e 11.2.
+
+### 12.3 Registros da leva 5 que valem para as seguintes
+- A coluna "o que se julga" da tabela de pontos é sentido, não redação: número trocado diferente do sugerido, com motivo declarado no bloco à GCB e aceito pela QA, não abre errata da ficha (D2-R32 e D2-R33; reconciliação da leva 5, 4.4).
+- Frase verdadeira acrescentada à seção 4 do arquivo da leva e não listada na "Resposta à R1" é registro, sem errata depois do R2 (reconciliação da leva 5, 4.1; como o SHA abreviado da 11.3).
+- Nota de simulado marcada "obrigatória" vale com o escopo fixado na reconciliação (reconciliação da leva 5, 4.2).
+- Cota da T-122 e antecipação da seção 2.2 são coisas distintas: na 3.4 a cota era 1 E e a 4.1 2 E (saida/banco/moldura_ce_2026-10-20.md, seção 4); os 3 E com moldura por folha vieram da antecipação (registro do R1 sobre a redação da 11.4.6).
+- Nenhuma errata pendente de conferência da gcb-cqfp para o R1 da leva 6.
+
+### 12.4 FICHA DA LEVA 6 — despachável (sem adendo de lastro)
+
+#### 12.4.1 Objeto (edital, literal; edital/DA_itens_1_12_P1.md)
+- "4.2 Ilícito de direito administrativo disciplinar." — 10 itens, **D2-R51 a D2-R60**; de 10 a 20; exigência (b) (art. 135 = D2-R51).
+- "4.4 Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações)." — 10 itens, **D2-R61 a D2-R70**; de 10 a 20.
+- "4.3 Procedimentos disciplinares da administração pública." — 10 itens, **D2-R71 a D2-R80**; de 10 a 20.
+Total: 30 (plano da seção 2.1). Saída: saida/gcb/DA_reforco_leva6_v1.md (nomes da seção 7.5); **ordem das folhas no arquivo: 4.2, 4.4, 4.3** (seção 12.1); última linha "FIM DA LEVA 06 — REFORÇO DA". Exemplos hipotéticos, sem norma interna, sistema ou prática real da Câmara.
+
+#### 12.4.2 Lastro, rede e adendo — situação da leva 6
+Conferência própria (python3 -I, somente leitura, scratchpad gcb_l5r/plan6.py): o trecho decisivo de cada um dos 30 pontos foi procurado no Anexo N do D2 (b0a54fff…340a), seções 4.3 e 4.4, e nas cópias de normativo_cache/.
+- **4.2 e 4.3 — lastro CONFIRMADO** (Anexo N do D2, seção 4.3, Fonte 4; cópia Lei_8112_1990_compilada_2026-10-20.txt, 72f45d30…2efe): 23 trechos dos 20 itens, 1 vez cada no Anexo e na cópia.
+- **4.4 — lastro CONFIRMADO** (Anexo N do D2, seção 4.4, Fonte 6; cópia Lei_9784_1999_2026-10-20.txt, f9452916…ae19): 11 trechos dos 10 itens, 1 vez cada no Anexo e na cópia.
+- **(a) A leva 6 é despachável já**: o lastro não depende de adendo, e o QA da leva 5 está fechado (R2, última rodada; D-REFORCO-DA). O despacho é ato do orquestrador; a sessão desta reconciliação para no gatilho A (CLAUDE.md), e a leva 6 é despachada no ciclo seguinte, sem nova ficha.
+- **(b) Não há adendo do qa-normativo-da para a leva 6.** Todos os pontos são de normas transcritas por inteiro no Anexo N do D2 (Lei 8.112 e Lei 9.784), com cópia em cache, nenhum com redação de 2025 ou 2026 (os dispositivos do plano são redação original, salvo o art. 69-A da Lei 9.784, incluído pela Lei 12.008/2009). Pedir adendo seria complemento sem ordem (D-COMPLEMENTOS).
+- **(c) Rede.** O www.planalto.gov.br responde com User-Agent de navegador (fato da seção 11.6; confirmado no adendo de 22/10, no R1 e no R2 da leva 5, HTTP 200). O qa-normativo-da **pode** reabrir as Fontes 4 e 6 (pedido com User-Agent de navegador; comando, hora e código registrados), mas não há pedido a ele nesta leva: a base dos itens é a do Anexo e da cópia, consulta de 20/10/2026 (D-FONTE-DATA-ANTERIOR). A reabertura das páginas pela gcb-cqfp no R1, como na leva 5, é conferência, não base; o HTML fica no scratchpad. Nenhum item ou seção do arquivo afirma "rede bloqueada" ou "não reaberta por restrição de rede".
+- Fontes admitidas: só o Anexo N do D2 (seções 1, 2.3, 3, 4.3, 4.4 e 5) e as duas cópias; URL e data da Fonte do Anexo (Fonte 4 Lei 8.112, grafada sem "www", como nas levas 4 e 5; Fonte 6 Lei 9.784). Proibidos: memória, fonte secundária, jurisprudência, base doutrinária.
+- **Fora da leva 6:** Lei 8.112, art. 127, IV, e art. 134 ("Vide ADPF nº 418"); art. 137 ("Vide ADIN 2975"); art. 143, §§ 1º e 2º (revogados); art. 169, § 2º (remissão ao "art. 142, § 2º", sentido duvidoso); art. 176 ("simples", L3-5); art. 119 (gêmeo do D2-15); art. 118, § 2º, e art. 120 (acumulação, já em D2-01, D2-03, D2-08, D2-R03 e D2-R19); art. 132, XIII (entrega o D2-55); arts. 116 a 120 como ponto da 4.3; Lei 9.784, arts. 1º (D1-16, D1-20), 2º (4.1 e 1.1), 11 a 17 (reservados à 5.1, leva 7), 42 e 43 (2.2), 50 e 53 a 55 (folha 2.1), 49-A a 49-G (D2-78), 64-A e 64-B (súmula vinculante, efeito de decisão do STF: fora do método do Anexo, seção 5.1); qualquer afirmação sobre conceito doutrinário de ilícito disciplinar (Anexo, seção 3, nota da 4.2).
+
+#### 12.4.3 Pontos já usados (não repetir; anti-gêmeo)
+- 4.2 (D2-51 a D2-60): Lei 8.112, art. 132, VII; art. 116, IV; art. 141, I; art. 142, I a III; art. 129, caput; art. 117, VIII; art. 142, § 3º; art. 131, caput; art. 126-A; art. 130, § 2º. Outras folhas e levas: arts. 116, XII e parágrafo único (5.2, leva 3); 120 (3.2, leva 4); 122, caput, §§ 2º e 3º, e 124 (6.3 e 6.4, levas 1 e 2); 125 (D2-47; D3-R31); 126 (D2-42); 128 (D2-44, D2-48); 129, parte final (D2-45); 143, caput (D2-46).
+- 4.3 (D2-61 a D2-70): Lei 8.112, art. 147, caput; art. 149, caput; art. 145, II; art. 168, parágrafo único; art. 161, § 2º; art. 175; art. 140; art. 152, caput; art. 169, § 1º; art. 146.
+- 4.4 (D2-71 a D2-80): Lei 9.784, art. 65, parágrafo único; art. 54, § 1º; art. 64, parágrafo único; art. 61, caput; art. 19, parágrafo único; art. 49; art. 24, caput; art. 49-A, § 6º, II; art. 59, caput; art. 38, § 2º. Outros lotes: arts. 1º, § 1º e § 2º; 2º; 11 a 15; 42, § 2º; 43; 53; 69.
+
+#### 12.4.4 Pontos de julgamento por item (ordem final dentro de cada folha; a gcb-cpp redige)
+Colunas como na seção 11.4.4; código do ponto = dispositivo com a seção do Anexo. Nenhum C leva [TS] (as três folhas já têm o seu C-isca: D2-59, D2-64, D2-72). Todo E leva [TS] com troca real e única de um elemento literal, **salvo o D2-R72** (E sem [TS] e sem campo Troca: o erro está no contraste com outro dispositivo, art. 182, parágrafo único, e não na troca sutil de um elemento; precedentes D2-70 e D2-80, E sem [TS]; necessário ao teste de [TS] da 4.3, seção 12.4.7). Todos os pontos são "núcleo" da folha na seção 3 do Anexo e contam como aderência **direta**.
+
+**Folha 4.2 — 10 itens (4 C / 6 E), D2-R51 a D2-R60 (todos diretos)**
+| id | ponto | base | o que se julga (sentido da troca, sem redação) | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D2-R51 | Lei 8.112, art. 135, caput (Anexo N do D2, 4.3) | idem | a destituição de cargo em comissão **exercido por não ocupante de cargo efetivo** será aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão (exigência (b); o elemento "exercido por não ocupante de cargo efetivo" fica no enunciado; D2_D1_GCB_v2, seção 3) | DEF | N | C | não | direta | DC | D2-53 (art. 141, I: quem aplica a demissão); D2-R19 (3.2: art. 120): nota (bk) |
+| D2-R52 | Lei 8.112, art. 138 (4.3) | idem | configura abandono de cargo a ausência intencional ao serviço por mais de trinta dias consecutivos (troca: trinta → vinte dias; para menos, incompatível com a letra) | NUM | N | E | sim | direta | DC | D2-67 (art. 140: rito sumário): nota (bl) |
+| D2-R53 | Lei 8.112, art. 142, § 2º (4.3) | idem | os prazos de prescrição da lei penal aplicam-se às infrações disciplinares capituladas também como crime (cenário: infração disciplinar também capitulada como crime) | SIT | N | C | não | direta | CQ | D2-54 (art. 142, I a III) e D2-57 (§ 3º): nota (bm) |
+| D2-R54 | Lei 8.112, art. 130, § 1º (4.3) | idem | é punido com suspensão de até quinze dias o servidor que, injustificadamente, se recusar a inspeção médica determinada pela autoridade competente (troca: quinze → trinta dias; teto para mais) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D2-60 (§ 2º: conversão em multa): nota (bn) |
+| D2-R55 | Lei 8.112, art. 141, IV (inciso III como contraste) (4.3) | art. 141, caput e IV | a destituição de cargo em comissão é aplicada pela autoridade que houver feito a nomeação (troca: → pelo chefe da repartição, ator do inciso III; seção 10.2, item 6) | SUJ | N | E | sim | direta | DC | D2-53 (inciso I): nota (bo) |
+| D2-R56 | Lei 8.112, art. 139 (4.3) | idem | inassiduidade habitual é a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses | NUM | N | C | não | direta | DC | D2-67: nota (bl) |
+| D2-R57 | Lei 8.112, art. 142, § 1º (4.3) | idem | o prazo de prescrição começa a correr da data em que o fato se tornou conhecido (troca: se tornou conhecido → foi praticado) | PAR | N | E | sim | direta | DC | D2-57 (§ 3º: interrupção): nota (bm) |
+| D2-R58 | Lei 8.112, art. 132, caput e V (4.3) | idem | incontinência pública e conduta escandalosa, na repartição, é caso de demissão (troca: demissão → suspensão; conceito vizinho, E1) | APL | S — idem | E | sim | direta | CQ | D2-51 (inciso VII): nota (bp) |
+| D2-R59 | Lei 8.112, art. 123 (4.3) | idem | a responsabilidade penal abrange os crimes e contravenções imputados ao servidor, nessa qualidade (troca: inclui as infrações disciplinares, objeto da responsabilidade administrativa, art. 124; sem absoluto inserido e sem "mas não") | DEF | N | E | sim | direta | DC | D2-47 (4.1, art. 125) e D3-R31 (6.5, art. 125): nota (bq) |
+| D2-R60 | Lei 8.112, art. 136 (art. 132, XI) (4.3) | art. 136; art. 132, XI | a demissão por corrupção implica a indisponibilidade dos bens e o ressarcimento ao erário, sem prejuízo da ação penal cabível (cenário: servidor demitido por corrupção) | SIT | N | C | não | direta | CQ | D2-51 e D2-R58 (outros incisos do art. 132) |
+Reserva da 4.2 (na ordem): art. 132, IX (nunca no mesmo simulado que o D2-R58); art. 131, parágrafo único (nunca com o D2-58); art. 116, VIII; art. 118, § 3º; art. 141, III (nunca com o D2-R55); art. 117, XVIII.
+
+**Folha 4.4 — 10 itens (5 C / 5 E), D2-R61 a D2-R70 (todos diretos)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D2-R61 | Lei 9.784, art. 20 (art. 18 como contraste) (Anexo N do D2, 4.4) | idem | pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados (par suspeição × impedimento; o trecho da Base mantém a grafia "argüida" da fonte) | PAR | N | C | não | direta | DC | D2-75 (art. 19, parágrafo único: impedimento): nota (bs) |
+| D2-R62 | Lei 9.784, art. 45 (4.4) | idem | em caso de risco iminente, a Administração pode motivadamente adotar providências acauteladoras sem a prévia manifestação do interessado | SIT | N | C | não | direta | CQ | D2-73 (art. 64, parágrafo único: gravame no recurso) |
+| D2-R63 | Lei 9.784, art. 21 (4.4) | idem | o indeferimento de alegação de suspeição pode ser objeto de recurso, sem efeito suspensivo (troca: sem → com efeito suspensivo) | DEF | N | E | sim | direta | DC | D2-74 (art. 61, caput: recurso sem efeito suspensivo): nota (br) |
+| D2-R64 | Lei 9.784, art. 51, § 1º (4.4) | art. 51, caput e § 1º | havendo vários interessados, a desistência ou renúncia atinge somente quem a tenha formulado ("somente" literal) | SIT | N | C | não | direta | CQ | — |
+| D2-R65 | Lei 9.784, art. 44 (art. 1º, § 1º, como cenário) (4.4) | idem | encerrada a instrução, o interessado tem o direito de manifestar-se no prazo máximo de dez dias, salvo outro prazo legal (troca: dez → quinze dias; teto para mais); cena "no desempenho de função administrativa", sem afirmar norma interna | APL | S — idem | E | sim | direta | CQ | D2-76 (art. 49: prazo para decidir): nota (bt) |
+| D2-R66 | Lei 9.784, art. 56, § 1º (4.4) | idem | o recurso é dirigido à autoridade que proferiu a decisão, que, se não reconsiderar em cinco dias, o encaminha à autoridade superior (troca: → dirigido diretamente à autoridade superior, ator que a fonte menciona) | SUJ | N | E | sim | direta | DC | D2-79 (art. 59: prazo de interposição): nota (bu) |
+| D2-R67 | Lei 9.784, art. 66, § 2º (4.4) | idem | os prazos expressos em dias contam-se de modo contínuo (troca: → em dias úteis, conceito que a lei usa em outros prazos, arts. 26, § 2º, 41 e 62); E com ao menos 19 palavras (L5-1), com contexto do processo administrativo federal, sem "apenas" | PAR | N | E | sim | direta | DC | D2-77 (art. 24: prazo supletivo) |
+| D2-R68 | Lei 9.784, art. 26, § 4º (4.4) | idem | no caso de interessados indeterminados, desconhecidos ou com domicílio indefinido, a intimação deve ser efetuada por meio de publicação oficial | SIT | N | C | não | direta | CQ | — |
+| D2-R69 | Lei 9.784, art. 69-A, caput e I (4.4) | idem | têm prioridade na tramitação, em qualquer órgão ou instância, os procedimentos em que figure como parte ou interessado pessoa com idade igual ou superior a sessenta anos (troca: sessenta → cinquenta e cinco; para menos; "em qualquer órgão ou instância" fica, L6-2) | NUM | N | E | sim | direta | DC | — |
+| D2-R70 | Lei 9.784, art. 68 (4.4) | idem | as sanções têm natureza pecuniária ou consistem em obrigação de fazer ou de não fazer, assegurado sempre o direito de defesa ("sempre" literal) | DEF | N | C | não | direta | DC | D2-71 (art. 65: revisão de sanções) |
+Reserva da 4.4 (na ordem): art. 30; art. 26, § 2º; art. 57; art. 63, § 2º; art. 48; art. 22, § 2º; art. 40.
+
+**Folha 4.3 — 10 itens (5 C / 5 E), D2-R71 a D2-R80 (todos diretos)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D2-R71 | Lei 8.112, art. 165, § 1º (Anexo N do D2, 4.3) | idem | o relatório da comissão será sempre conclusivo quanto à inocência ou à responsabilidade do servidor ("sempre" literal) | DEF | N | C | não | direta | DC | D2-64 (art. 168, parágrafo único: julgamento × relatório) |
+| D2-R72 | Lei 8.112, art. 174, caput (art. 182, parágrafo único, como contraste) (4.3) | idem | o processo disciplinar pode ser revisto, a qualquer tempo, a pedido ou de ofício, quando houver fatos novos que justifiquem a inocência do punido ou a inadequação da penalidade (o item põe "justificar o agravamento da penalidade"; **sem [TS]**, ver acima; "a qualquer tempo" fica, L6-2) | DEF | N | E | **não** | direta | DC | D2-66 (art. 175: ônus da prova); D2-71 (Lei 9.784, art. 65): nota (bv) |
+| D2-R73 | Lei 8.112, art. 161, § 1º (4.3) | idem | o indiciado é citado para apresentar defesa escrita no prazo de dez dias (troca: dez → cinco dias; para menos, afirmado como valor da regra, L6-1) | NUM | N | E | sim | direta | DC | D2-65 (§ 2º: dois ou mais indiciados, 20 dias): nota (bw) |
+| D2-R74 | Lei 8.112, art. 147, parágrafo único (4.3) | idem | o afastamento preventivo pode ser prorrogado por igual prazo, findo o qual cessam os seus efeitos, ainda que não concluído o processo (cenário: afastamento já prorrogado; troca: cessam → continuam a produzir efeitos até a conclusão; sem "sem"/"não" no fecho, seção 10.2, item 5) | SIT | N | E | sim | direta | CQ | D2-61 (caput: medida cautelar, 60 dias): nota (bx) |
+| D2-R75 | Lei 8.112, art. 154, parágrafo único (4.3) | idem | se o relatório da sindicância concluir que a infração está capitulada como ilícito penal, a autoridade competente encaminha cópia dos autos ao Ministério Público, independentemente da imediata instauração do processo disciplinar | SIT | N | C | não | direta | CQ | D2-63 (art. 145, II: resultados da sindicância) |
+| D2-R76 | Lei 8.112, art. 182, caput (4.3) | idem | julgada procedente a revisão, a destituição do cargo em comissão é convertida em exoneração (par com o art. 135, parágrafo único: exoneração convertida em destituição) | PAR | N | C | não | direta | DC | D2-66 (art. 175): notas (bk) e (bv) |
+| D2-R77 | Lei 8.112, art. 172, caput (4.3) | idem | o servidor que responde a processo disciplinar só pode ser exonerado a pedido após a conclusão do processo e o cumprimento da penalidade (troca: após → antes da conclusão do processo; sem "só" e sem verbo de condição necessária, L5-2) | APL | S — idem | E | sim | direta | CQ | D2-70 (art. 146) |
+| D2-R78 | Lei 8.112, art. 158, caput (4.3) | idem | o depoimento é prestado oralmente e reduzido a termo, não sendo lícito à testemunha trazê-lo por escrito (cenário: testemunha que pretende entregar depoimento escrito) | SIT | N | C | não | direta | CQ | D2-62 (art. 149: comissão) |
+| D2-R79 | Lei 8.112, art. 167, § 2º (4.3) | idem | havendo mais de um indiciado e diversidade de sanções, o julgamento cabe à autoridade competente para a imposição da pena mais grave | PAR | N | C | não | direta | DC | D2-53 (4.2, art. 141, I) |
+| D2-R80 | Lei 8.112, art. 164, § 2º (4.3) | idem | para defender o indiciado revel, a autoridade instauradora designa servidor como defensor dativo (troca: → o presidente da comissão, ator dos arts. 156, § 1º, e 161, § 1º) | SUJ | N | E | sim | direta | DC | D2-65 e D2-R73 (art. 161) |
+Reserva da 4.3 (na ordem): art. 149, § 2º; art. 156, § 2º; art. 151; art. 179; art. 144, caput; art. 160, caput.
+Moldura da leva 6 (D2-R54, R58, R65, R77): cena com "servidor de órgão do Poder Legislativo da União" (4.2 e 4.3) ou "processo administrativo conduzido por órgão do Poder Legislativo da União no desempenho de função administrativa" (4.4; art. 1º, § 1º, só como cenário); nada sobre norma interna, regimento, carreira ou prática real da Câmara; a moldura não decide o gabarito; cenas distintas até o fecho (L3-3), inclusive em relação ao D2-74 e aos D2-R47 e D2-R50 (nota (bt)).
+
+#### 12.4.5 Formatos ao fim da leva 6 (folha final de 20; teto 6)
+| folha | DEF | SUJ | SIT | NUM | PAR | APL | total |
+|---|---|---|---|---|---|---|---|
+| 4.2 (canônicos 3/0/2/3/0/2 + leva 2/1/2/2/1/2) | 5 | 1 | 4 | 5 | 1 | 4 | 20 |
+| 4.4 (canônicos 3/0/2/3/1/1 + leva 2/1/3/1/2/1) | 5 | 1 | 5 | 4 | 3 | 2 | 20 |
+| 4.3 (canônicos 3/0/2/3/1/1 + leva 2/1/3/1/2/1) | 5 | 1 | 5 | 4 | 3 | 2 | 20 |
+Maior formato 25% (5 em 20) nas três folhas. Formatos da leva 6: DEF 6, SUJ 3, SIT 8, NUM 4, PAR 5, APL 4. Formatos dos canônicos: D2_v2_1.md (campo Formato).
+
+#### 12.4.6 Gabarito, moldura, aderência e conjuntos ao fim da leva 6
+- Leva: **14 C / 16 E (46,7%)**; faixa de 30 itens: 12 a 18 C. Folhas: 4.2 10/10 (6/4 + 4/6); 4.4 10/10 (5/5 + 5/5); 4.3 10/10 (5/5 + 5/5).
+- Moldura nova: **0 C / 4 E** (D2-R54, R58, R65, R77) — as cotas da T-122 (4.2 2 E; 4.3 1 E; 4.4 1 E; saida/banco/moldura_ce_2026-10-20.md, seção 4). DA: 50/34 → **50/38 (56,8%)**, meta da D-MOLDURA-CE mantida (seção 2.2). Por folha: 4.2 2 C / 2 E (50,0%); 4.4 1/1; 4.3 1/1; no máximo 6 com moldura por folha (4, 2, 2). Conjunto do D2: 10/10 → **10/14 (41,7%)**.
+- Aderência: 30 diretos / 0 parciais. VOLÁTIL 0. REVERIFICAR 0.
+- [TS]: 15 (todos E; o D2-R72 é E sem [TS]; nenhum C-isca).
+- Abertura × gabarito (7.4.2, 9.3, 10.2): leva "Considere que" 7 C / 5 E (58,3% de C); declarativos 7 C / 11 E (61,1% de E). Folhas fechadas: 4.2 CQ 5 C / 3 E e DC 5 C / 7 E; 4.4 CQ 5/2 e DC 5/8; 4.3 CQ 4/3 e DC 6/7 — mínimos de 40% cumpridos.
+- Absolutos (L3-2; L6-2): seção 12.2, item 2. Nenhum E com absoluto inserido; L3-4 e L3-5: nenhum "mas não" / ", e não", "mero", "por si só" ou "simples" planejados. L4-1: nenhum fecho "é correto afirmar que". L5-1: todo E entre 19 e 62 palavras (atenção ao D2-R67). L5-2: o D2-R77 não usa "só" nem verbo de condição necessária. Seção 10.2, itens 5 e 6: o D2-R74 troca a consequência sem negar com "sem" ou "não"; os SUJ E (D2-R55, R66, R80) usam ator que a fonte menciona.
+- Concentração por norma e artigo (informativo; seção 10.3): 4.2 com 4 itens do art. 142 (D2-54, D2-57, D2-R53, D2-R57; nota (bm)); 4.4 com 6 itens de recurso (D2-71, 73, 74, 79; D2-R63, R66).
+
+#### 12.4.7 Sequência (seção 7.3; plano conferido por script antes do despacho; scratchpad gcb_l5r/seq6f.py)
+| escopo | gabarito | [TS] | resultado |
+|---|---|---|---|
+| 4.2, leva / acumulada (20) | CECEECEEEC / ECCCEECECC·CECEECEEEC | nTnTTnTTTn / TnnnTTnTTn·nTnTTnTTTn | passa (corrida máxima 3) |
+| 4.4, leva / acumulada (20) | CCECEEECEC / ECCCECCEEE·CCECEEECEC | nnTnTTTnTn / TTnnTnnTTn·nnTnTTTnTn | passa (o D2-R61, C, fecha a corrida EEE dos canônicos) |
+| 4.3, leva / acumulada (20) | CEEECCECCE / CEECCECCEE·CEEECCECCE | nnTTnnTnnT / nTTTnTnnTn·nnTTnnTnnT | passa (com o D2-R72 sem [TS]) |
+| leva 6 inteira (4.2, 4.4, 4.3) | CECEECEEEC·CCECEEECEC·CEEECCECCE | idem | passa (corrida máx. 3; alternância máx. 4) |
+Com a ordem 4.2, 4.3, 4.4 e todo E com [TS], nenhuma combinação dos planos válidos por folha passa o teste da leva inteira; a ordem 4.2, 4.4, 4.3 com o D2-R72 sem [TS] passa (seção 12.1). Nenhum par de itens com moldura fica em posições vizinhas; os pares (D2-R52, R56), (D2-R53, R57), (D2-R61, R63), (D2-R72, R76) e (D2-R73, R80) não ficam vizinhos. Mesma regra de troca de posição da seção 8.3.7.
+
+#### 12.4.8 Amostra da gbq-estilo (leva 6)
+5 itens (16,7%), designados antes da produção: **D2-R51** (C da exigência (b), art. 135); **D2-R54** (E com moldura, APL, troca de número para mais); **D2-R65** (E com moldura na 4.4, cena "função administrativa"); **D2-R72** (E sem [TS], erro por contraste com o art. 182, parágrafo único); **D2-R73** (E, NUM, troca para menos afirmada como valor da regra, L6-1). Cobre: E com moldura em duas folhas, as três folhas, um C, a L6-1 nos dois sentidos e o único E sem [TS]. Rito da seção 9.3, item 6: sobre a v1, em paralelo ao R1; texto igual pedido pelos dois é aplicado uma vez (seção 11.3). Saída: saida/banco/estilo_DA_reforco_leva6.md.
+
+#### 12.4.9 Notas de simulado previstas para a leva 6 (destino: T-119 e T-123; continuam (a) a (bj))
+| # | itens | motivo |
+|---|---|---|
+| (bk) | D2-R51 × D2-R76 × D2-38 | destituição de cargo em comissão e exoneração (Lei 8.112, arts. 135, 182 e 35) |
+| (bl) | D2-R52 × D2-R56 × D2-67 | abandono de cargo e inassiduidade habitual (arts. 138, 139 e 140) |
+| (bm) | D2-R53, D2-R57, D2-54 e D2-57 | art. 142 (incisos e §§ 1º a 3º): no máximo 2 desses itens por simulado |
+| (bn) | D2-R54 × D2-60 e D2-63 | suspensão (art. 130, §§ 1º e 2º; art. 145, II) |
+| (bo) | D2-R55 × D2-53 | art. 141, IV × I |
+| (bp) | D2-R58 × D2-51 e D2-R60 | casos de demissão do art. 132 |
+| (bq) | D2-R59 × D2-47 e D3-R31 | responsabilidades civil, penal e administrativa (arts. 123 a 125) |
+| (br) | D2-R63 × D2-74 | efeito suspensivo do recurso (Lei 9.784, arts. 21 e 61); a QA diz se é obrigatória |
+| (bs) | D2-R61 × D2-75 | suspeição × impedimento (arts. 18 a 21) |
+| (bt) | D2-R65 × D2-74, D2-R47 e D2-R50 | cena-tipo "processo administrativo em órgão do Poder Legislativo da União" |
+| (bu) | D2-R66 × D2-79 e D2-71 | recurso administrativo (arts. 56, 59 e 65) |
+| (bv) | D2-R72 × D2-R76, D2-66 e D2-71 | revisão (Lei 8.112, arts. 174, 175 e 182; Lei 9.784, art. 65) |
+| (bw) | D2-R73 × D2-65 e D2-R80 | defesa do indiciado (art. 161, §§ 1º e 2º; art. 164, § 2º) |
+| (bx) | D2-R74 × D2-61 | afastamento preventivo (art. 147, caput e parágrafo único) |
+| (w) | a leva 6 inteira (ou só itens de reforço) | não forma simulado isolado; entra misturada por folha com os canônicos |
+| (x) | os 4 itens com moldura (D2-R54, R58, R65, R77) | contam para o teto de 50% de C com moldura por simulado (D-MOLDURA-CE (c)) |
+
+#### 12.4.10 Despacho (leva 6)
+1. **À gcb-cpp** (sonnet), uma instância, no ciclo seguinte ao gatilho A da leva 5 (seção 12.4.2, (a)). Objeto: leva 6, conforme esta seção 12.4, as seções 1, 7, 8.2 (itens 4 e 7), 9.3, 10.2, 11.2, 11.6 (regra "Rede") e 12.2, e os anexos abaixo. Saída: saida/gcb/DA_reforco_leva6_v1.md, no formato da regra 14 (nomes da seção 7.5), linha 1 `# DA_reforco_leva6_v1.md — T-116 — <data ISO> — gerado por gcb-cpp`, folhas na ordem 4.2, 4.4, 4.3. Anexos (lista exaustiva): esta ficha; saida/gcb/D2_anexo_N_mapa_normativo.md (seções 1, 2.3, 3, 4.3, 4.4 e 5); saida/gcb/D2_v2_1.md (pontos D2-51 a D2-80 e formato dos blocos canônicos), só para os pontos já usados; os arquivos finais das levas 1 a 5 (pontos e modelo de bloco); regras/estilo_banca.md; cópias Lei_8112_1990_compilada_2026-10-20.txt e Lei_9784_1999_2026-10-20.txt em saida/gcb/normativo_cache/. A seção 4 do arquivo traz, por script, as contagens da regra 14, abertura × gabarito e fecho × gabarito no D2 (canônicos, levas 4 e 5, leva 6, acumulado), a fórmula, absolutos por gabarito (L3-2 e L6-2), sentido das trocas de número (L6-1), extensão fora da faixa (L5-1), o teste da seção 12.4.7 refeito e a moldura acumulada (DA e D2). A gcb-cpp pode trocar um ponto pela reserva da mesma folha, com o motivo no bloco à GCB, nas condições da seção 3.7. O R1 da leva 6 não tem errata a conferir. Nada vai à plataforma nem à candidata. Sem commit.
+2. **À gcb-cqfp** (R1, opus) e **à gbq-estilo** (amostra da 12.4.8), em paralelo, sobre a v1; a gcb-cqfp pode reabrir as Fontes 4 e 6 com User-Agent de navegador, como conferência (seção 12.4.2, (c)).
+3. **Ao qa-normativo-da:** nenhum pedido nesta leva.
+
+### 12.5 Riscos e registros
+1. Ordem das folhas 4.2, 4.4, 4.3 no arquivo e faixas 4.4 = R61–R70, 4.3 = R71–R80 (seção 12.1): a reconciliação da leva 6 confere ids × folha; a GBQ consolida por itemEdital (seção 7.3).
+2. D2-R72 sem [TS]: se a gcb-cqfp entender que há troca sutil de elemento e pedir [TS], o teste de [TS] da 4.3 reprova (seção 12.4.7); a reconciliação registra o desvio, sem efeito no gabarito.
+3. Margem da meta de moldura: DA fica em 56,8% depois da leva 6; E com moldura reprovado nesta leva não precisa de reposição para a meta (seção 2.2), mas a cota da folha fica por cumprir e a reconciliação registra (R4 da T-122).
+4. Nenhuma tarefa nova (D-COMPLEMENTOS). Nenhum gatilho em PARA_PRESIDENCIA.md por esta seção (o gatilho da leva 5 é da reconciliação).
+
 FIM DA FICHA DO REFORÇO DA

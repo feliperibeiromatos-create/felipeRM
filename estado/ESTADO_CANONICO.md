@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 66 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 67 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -936,6 +936,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c3) | T-116 leva 1 ACEITA (D-T116-LEVA1-ACEITE; ressalva AJ-E1 em rito próprio com a leva 2): 30 itens, folhas 8.1 e 6.3 a 20; moldura DA 46 C / 18 E; TAREFAS.md atualizado; ESTADO versão 64 |
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c4) | T-116 leva 2 ACEITA (D-T116-LEVA2-ACEITE, NOVA, a aplicar na abertura da sessão seguinte; aceita também a errata AJ-E1 do D3-R13 para a v1.14): 30 itens, folha 8.4 a 20; acumulado 60 itens, faltam 296; moldura DA 48 C / 21 E; TAREFAS.md atualizado; ESTADO versão 65 |
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c1) | D-T116-LEVA2-ACEITE APLICADA (22/10, ciclo s16c1); T-116 leva 3: 30 itens (16 C / 14 E; [TS] 14), R1 0/30, R2 0/30, reconciliação e ficha com a seção 10 e a ficha da leva 4; gatilho A da GCB em PARA_PRESIDENCIA.md; ESTADO versão 66 |
+| 22/10 | Secretaria (relato do orquestrador, ciclo s16c2) | D-T116-LEVA3-ACEITE APLICADA (22/10, ciclo s16c2): 30 itens D3-R22 a R51 à v1.14 (T-123); errata AJ-L2-E1 à GBQ na consolidação; T-116 leva 4: 28 itens (15 C / 13 E; [TS] 13), R1 0/28, R2 0/28; reconciliação e ficha com a seção 11 e a ficha da leva 5; gatilho A da GCB em PARA_PRESIDENCIA.md (aceite dos 28 itens); ficha da leva 5 condicionada a adendo de lastro; ESTADO versão 67 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -1063,3 +1064,24 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 - **Gates:** nenhum.
 - **Rede:** www.planalto.gov.br continua bloqueado; bases conferidas nas cópias de saida/gcb/normativo_cache/.
 - **Próximo:** leva 4 (T-116).
+
+## Atualização 22/10/2026 — Ciclo s16c2 — sessão s16
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Decisão:** D-T116-LEVA3-ACEITE APLICADA em 22/10 (ciclo s16c2): 30 itens D3-R22 a R51 incorporados à v1.14 (T-123); errata AJ-L2-E1 à GBQ na consolidação.
+- **T-116 leva 4 CONCLUÍDA** (reforço de DA; 28 itens: folhas P1-DA-6.2 (segunda parte), 3.1 e 3.2; D3-R52 a R59 e D2-R01 a R20; 15 C / 13 E; [TS] 13; 23 diretos / 5 parciais). Folhas 6.2, 3.1 e 3.2 fecham em 20 (10 C / 10 E). Cadeia: v1 gcb-cpp (7b0c1dc7…f3d8); R1 gcb-cqfp 0/28, AJ-1 no D3-R54 (dd2c8efc…6b69); estilo gbq-estilo 2 CONFORME / 2 AJUSTE / 0 NÃO CONFORME (358de121…6cae); v2 gcb-cpp (57203ae3…38da); R2 gcb-cqfp APROVADA 0/28 (59accc4d…f1a8); reconciliação saida/gcb/DA_reforco_leva4_reconciliacao_2026-10-22.md (274872f1…e75a); ficha com a seção 11 e a ficha da leva 5 (52f80184…c64a).
+- **Registro de SHA:** a gcb-cpp informou antes um SHA calculado antes de regravar uma frase da "Resposta à R1"; corrigido e conferido pelo orquestrador e pelo R2 (v2 57203ae3…38da).
+- **Gatilho A da GCB** aberto em PARA_PRESIDENCIA.md (aceite dos 28 itens da leva 4).
+- **Leva 5** (3.3, 3.4, 4.1; 30 itens) não despachável ainda: depende de adendo do qa-normativo-da à 4.1 (CF, art. 5º, caput, LIV e LV), possível só com a cópia em cache. A 3.3 é conferida só contra o Anexo N do D2 (normas sem cópia em cache e planalto bloqueado): limitação registrada, não bloqueio.
+- **Gates:** nenhum. **Rede:** www.planalto.gov.br bloqueado.
+
+### Pendências abertas (acrescidas em 22/10/2026, ciclo s16c2)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| Gatilho A da GCB: aceite dos 28 itens da leva 4 (PARA_PRESIDENCIA.md) | Presidência | 22/10 |
+| Adendo do qa-normativo-da à 4.1 (CF, art. 5º, caput, LIV e LV), necessário para despachar a leva 5 (3.3, 3.4, 4.1; 30 itens); possível só com a cópia em cache | GCB (qa-normativo-da) | 22/10 |
+| Limitação registrada: 3.3 conferida só contra o Anexo N do D2 (normas sem cópia em cache; planalto bloqueado); não é bloqueio | GCB | 22/10 |
+
+- **Próximo:** adendo normativo de 4.1 (qa-normativo-da); depois, leva 5 (T-116).

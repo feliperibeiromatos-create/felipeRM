@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 68 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 69 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -938,6 +938,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c1) | D-T116-LEVA2-ACEITE APLICADA (22/10, ciclo s16c1); T-116 leva 3: 30 itens (16 C / 14 E; [TS] 14), R1 0/30, R2 0/30, reconciliação e ficha com a seção 10 e a ficha da leva 4; gatilho A da GCB em PARA_PRESIDENCIA.md; ESTADO versão 66 |
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c2) | D-T116-LEVA3-ACEITE APLICADA (22/10, ciclo s16c2): 30 itens D3-R22 a R51 à v1.14 (T-123); errata AJ-L2-E1 à GBQ na consolidação; T-116 leva 4: 28 itens (15 C / 13 E; [TS] 13), R1 0/28, R2 0/28; reconciliação e ficha com a seção 11 e a ficha da leva 5; gatilho A da GCB em PARA_PRESIDENCIA.md (aceite dos 28 itens); ficha da leva 5 condicionada a adendo de lastro; ESTADO versão 67 |
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c3) | D-T116-LEVA4-ACEITE APLICADA (22/10, ciclo s16c3): 28 itens D3-R52 a R59 e D2-R01 a R20 à v1.14 (T-123); item (f) acrescido à T-120; adendo D2 ao Anexo N (4.1; saida/gcb/D2_anexo_N_adendo_2026-10-22.md); T-116 leva 5: 30 itens (16 C / 14 E; [TS] 14), R1 0/30, R2 0/30; moldura DA 50 C / 34 E (meta cumprida, sujeita a aceite e recontagem da GBQ); gatilho A da GCB em PARA_PRESIDENCIA.md; leva 6 despachável sem adendo; CORREÇÃO DE REDE (planalto.gov.br não bloqueado; supera registros de s16c1 e s16c2); ESTADO versão 68 |
+| 22/10 | Secretaria (relato do orquestrador, ciclo s16c4) | D-T116-LEVA5-ACEITE APLICADA (22/10, ciclo s16c4): 30 itens D2-R21 a R50 à v1.14 (T-123); D-T120F-REDACAO APLICADA (T-120 (f) reescrita como conferência de base comum); T-116 leva 6: 30 itens (14 C / 16 E; [TS] 15), R1 30/30, R2 0/30; moldura DA 50 C / 38 E; reconciliação e ficha com a seção 13 e a ficha da leva 7; gatilho A da GCB em PARA_PRESIDENCIA.md; leva 7 condicionada a adendo do D3 (qa-normativo-da); ESTADO versão 69 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -1104,8 +1105,28 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 
 | Pendência | Responsável | Aberta em |
 |---|---|---|
-| Gatilho A da GCB: aceite dos 30 itens da leva 5 (PARA_PRESIDENCIA.md) | Presidência | 22/10 |
-| Proposta da GCB: reescrever a T-120 (f) como conferência de base comum, sem o motivo "por falta de rede" (reconciliação da leva 5, seção 7) | Presidência | 22/10 |
-| Recontagem da moldura de DA pela GBQ na v1.14 (meta cumprida nesta leva, sujeita ao aceite: 50 C / 34 E) | GBQ | 22/10 |
+| Gatilho A da GCB: aceite dos 30 itens da leva 5 (PARA_PRESIDENCIA.md) [cumprido: D-T116-LEVA5-ACEITE APLICADA em 22/10, ciclo s16c4] | Presidência | 22/10 |
+| Proposta da GCB: reescrever a T-120 (f) como conferência de base comum, sem o motivo "por falta de rede" (reconciliação da leva 5, seção 7) [cumprida: D-T120F-REDACAO APLICADA em 22/10, ciclo s16c4] | Presidência | 22/10 |
+| Recontagem da moldura de DA pela GBQ na v1.14 (meta cumprida nesta leva, sujeita ao aceite: 50 C / 34 E) [atualizada no ciclo s16c4: moldura 50 C / 38 E, relato do orquestrador] | GBQ | 22/10 |
 
-- **Próximo:** leva 6 (T-116: 4.2, 4.4, 4.3; 30 itens; abre com D2-R51, Lei 8.112, art. 135), despachável sem adendo.
+- **Próximo:** leva 6 (T-116: 4.2, 4.4, 4.3; 30 itens; abre com D2-R51, Lei 8.112, art. 135), despachável sem adendo. [cumprido em 22/10, ciclo s16c4]
+
+## Atualização 22/10/2026 — Ciclo s16c4 — sessão s16
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Decisões:** D-T116-LEVA5-ACEITE APLICADA em 22/10 (ciclo s16c4): 30 itens D2-R21 a R50 incorporados à v1.14 (T-123). D-T120F-REDACAO APLICADA em 22/10 (ciclo s16c4): T-120 (f) reescrita como conferência de base comum da CF, art. 5º, caput, LIV e LV, sem o motivo "falta de rede".
+- **T-116 leva 6 CONCLUÍDA** (reforço de DA; folhas P1-DA-4.2, 4.4 e 4.3; D2-R51 a R80; 30 itens; 14 C / 16 E; [TS] 15; 30 diretos; folhas fecham em 20, 10 C / 10 E). Cadeia: v1 gcb-cpp (8ba2bb63…bf87); R1 gcb-cqfp APROVADO 30/30, sem AJ (12aefbd9…3626); estilo 4 CONFORME / 1 AJUSTE no D2-R73 (49575031…43b8); v2 (0b8ccd4d…090b); R2 APROVADA 0/30 (d99c6d19…b249); reconciliação gcb-gerencia (9e8d7746…6a1e); ficha com a seção 13 e a ficha da leva 7 (cbc80b59…2c23).
+- **Moldura de DA:** 50 C / 38 E (56,8%), conforme o relato do orquestrador (registro de s16c3: 50 C / 34 E, com recontagem pendente da GBQ).
+- **Gatilho A da GCB** aberto em PARA_PRESIDENCIA.md (aceite dos 30 itens da leva 6).
+- **Leva 7** (5.1, 6.1, 7; D3-R60 a R89) não despachável ainda: depende de adendo do qa-normativo-da ao Anexo N do D3 (5.1: CF, art. 84, II e XXV, art. 87, parágrafo único, I, II e IV; 6.1: CC, arts. 40 a 42; CF, art. 136, § 1º, II; Lei 4.619, arts. 4º e 6º; Decreto 20.910, arts. 2º a 10), com reabertura no planalto (User-Agent de navegador; CORREÇÃO DE REDE, s16c3). Sem o adendo, a 6.1 ficaria abaixo de 20.
+- **Gates:** nenhum.
+
+### Pendências abertas (acrescidas em 22/10/2026, ciclo s16c4)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| Gatilho A da GCB: aceite dos 30 itens da leva 6 (PARA_PRESIDENCIA.md) | Presidência | 22/10 |
+| Adendo do qa-normativo-da ao Anexo N do D3 (5.1: CF, art. 84, II e XXV, art. 87, parágrafo único, I, II e IV; 6.1: CC, arts. 40 a 42; CF, art. 136, § 1º, II; Lei 4.619, arts. 4º e 6º; Decreto 20.910, arts. 2º a 10), necessário para despachar a leva 7 (5.1, 6.1, 7; D3-R60 a R89); reabertura no planalto com User-Agent de navegador; sem ele, a 6.1 fica abaixo de 20 | GCB (qa-normativo-da) | 22/10 |
+
+- **Próximo:** adendo do Anexo N do D3 (qa-normativo-da); depois, leva 7 (T-116).

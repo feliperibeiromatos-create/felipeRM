@@ -595,4 +595,153 @@ As notas (k), (l), (m), (t), (u), (v), (w) e (x) ficam como na seção 8.5; na l
 ### 9.6 Núcleo da leva 2 (seção 8.2, item 9, confirmado)
 2.2 → D1-R01 e D1-R02; 6.4 → D3-R14 e D3-R15; 8.4 sem núcleo novo (D4-R19 a D4-R28 false); D1-R13 e os demais itens da leva 2 false.
 
+## 10. Adendo após a leva 3 (gcb-gerencia, 22/10/2026, ciclo s16c1)
+Fonte: reconciliação saida/gcb/DA_reforco_leva3_reconciliacao_2026-10-22.md (seções 4 e 5), pareceres R1 e R2 da gcb-cqfp da leva 3 e auditoria de estilo saida/banco/estilo_DA_reforco_leva3.md (seção 6). Só acréscimo antes da última linha; o texto acima fica como estava (SHA-256 da ficha antes deste adendo: a09139bc3c05a68230f3aea5746490debb4418840d629574622927e1f2bc8493, a versão citada no R1, no R2 e no estilo da leva 3 e na D-T116-LEVA2-ACEITE). Este adendo prevalece sobre as seções 0 a 9 onde divergir; vale para as levas 4 a 12. Sem commit nem push.
+
+### 10.1 Ids, faixas e núcleo
+- Leva 3 sem reprovação e sem substituto: **D3-R22 a D3-R51** usados na ordem da seção 8.4.4; nenhum id vago no D3. Faixas seguintes inalteradas: leva 4 = **D3-R52 a D3-R59** (6.2, segunda parte), **D2-R01 a D2-R10** (3.1) e **D2-R11 a D2-R20** (3.2); leva 5 = D2-R21 a D2-R50; leva 6 = D2-R51 a D2-R80; leva 7 = D3-R60 a D3-R89; D4 como na seção 7.1; D1 como na seção 9.1; D5 como na seção 2.1.
+- Núcleo da leva 3 (seção 8.2, item 9, confirmado; D-NUCLEO-CRITERIO): 6.5 → D3-R26 e D3-R27; 5.2 → D3-R38; 6.2 → D3-R49; 6.4 sem núcleo novo; os outros 26 itens false. Com o D3-R49 a 6.2 chega a 10 de núcleo, e a 3.1 e a 3.2 já têm 10 canônicos: **nenhum item da leva 4 recebe núcleo** (todos false).
+
+### 10.2 Regras de forma aceitas depois da leva 3 (estilo da leva 3, seção 6; R1 da leva 3, seção 8, item 4)
+As regras das seções 1, 7.4 e 9.3 continuam; estas as completam:
+1. **L4-1 — fecho "Nessa situação, é correto afirmar que" fora do D4.** Nos lotes D1, D2, D3 e D5, o fecho só entra se a mesma leva tiver ao menos um C com o mesmo fecho no mesmo lote. A seção 4 do arquivo da leva informa o conjunto por gabarito em cada lote, e não só no D4. Na leva 4: nenhum item usa o fecho.
+2. **L4-2 — abertura da 6.2.** A 6.2 chega à leva 4 com "Considere que" 1 C / 3 E; os itens novos da folha com "Considere que" são C até a folha fechada ter CQ com ao menos 40% de C. Aplicada no plano (seção 10.4.4): 2 CQ, ambos C; 6.2 fechada com CQ 3 C / 3 E.
+3. **L4-3 — referente de rol ou conjunto.** Item E que troca rol aberto por fechado (E6) nomeia a enumeração que a fonte declara aberta ("os incisos", "a enumeração", "a lista de …"), e não um "rol" que possa ser lido como a categoria-gênero que a própria fonte fecha.
+4. **L4-4 — condição inventada sobre hipótese autônoma.** Item E que condiciona uma hipótese autônoma a outra (E3) nomeia a outra hipótese pelos elementos que a lei lhe dá, e não por rótulo que admita sentido amplo.
+5. **R1 (a), complementa a seção 7.4.5.** Item E não põe no cenário a hipótese inteira do dispositivo para negar a consequência com "sem" ou "não"; prefere-se trocar o critério ou o elemento por conceito vizinho (E1) a negá-lo (registro do D3-R27).
+6. **R1 (b), complementa a seção 7.4.4.** Em item SUJ com gabarito E, o ator posto no lugar do sujeito da letra é mencionado pela fonte e plausível à primeira leitura; ator cuja intervenção seja implausível de saída (a própria autoridade representada, D3-R48) não é usado, porque facilita o E.
+7. Medida: a reconciliação de cada leva confere L4-1 a L4-4 e os itens 5 e 6 junto com as regras das seções 7.4 e 9.3.
+
+### 10.3 Registros da leva 3 que valem para as seguintes
+- Concentração por norma sem teto fixado na ficha (6.5: Código Civil em 7 de 12 itens da leva): aceita com registro; o teto por norma continua só onde a ficha da leva o fixar (seção 9.2).
+- Rótulos de campo que não vão ao pacote.json ("Ponto de julgamento", bloco à GCB) não são harmonizados depois do R2 (reconciliação da leva 3, seção 4.1; precedente da reconciliação da leva 2, seção 4.6, item 1).
+- Nenhuma errata pendente de conferência da gcb-cqfp para o R1 da leva 4: a AJ-L2-E1 (D3-R18) já foi CONFERIDA no R1 da leva 3 e vai ao gatilho A da leva 3; o estilo da leva 3 não propôs errata pós-R2.
+
+### 10.4 FICHA DA LEVA 4 — pronta para despacho à gcb-cpp
+
+#### 10.4.1 Objeto (edital, literal; edital/DA_itens_1_12_P1.md)
+- "6.2 Responsabilidade por ato comissivo do Estado." — 8 itens, **D3-R52 a D3-R59** (segunda parte; a folha vai de 12 a 20 e fecha).
+- "3.1 Disposições constitucionais aplicáveis." — 10 itens, **D2-R01 a D2-R10**; de 10 a 20.
+- "3.2 Cargo, emprego e função pública." — 10 itens, **D2-R11 a D2-R20**; de 10 a 20.
+Total: 28 (plano da seção 2.1). Saída: saida/gcb/DA_reforco_leva4_v1.md (nomes da seção 7.5); ordem das folhas no arquivo: 6.2, 3.1, 3.2; última linha "FIM DA LEVA 04 — REFORÇO DA". Contexto de uso como na seção 3.1; exemplos hipotéticos, sem norma interna, sistema ou prática real da Câmara.
+
+#### 10.4.2 Lastro e fontes admitidas — a leva 4 NÃO depende de adendo de lastro
+- **Nenhum adendo do qa-normativo-da é necessário antes da produção da leva 4.** Pela regra da seção 2.1 ("lastro A CONFIRMAR"), a GCB listou por folha os pontos com lastro literal ainda não usados (seção 10.4.4): 6.2 — 12 pontos livres do Adendo 2 do adendo do D3 (A6.2-01, 03, 05, 07 a 15) para 8 itens; 3.1 — Anexo N do D2, seção 4.1 (CF, arts. 37 a 41; 94 dispositivos de núcleo), 10 pontos e 11 de reserva; 3.2 — Anexo N do D2, seções 4.1 e 4.3 (CF, arts. 37 e 39; Lei 8.112), 10 pontos e 7 de reserva. Conferência própria por script (python3 -I, somente leitura): o trecho decisivo de cada um dos 28 pontos do plano é subcadeia, 1 vez, da cópia em saida/gcb/normativo_cache/ (CF d6580cb3…cb51d; Lei 8.112 72f45d30…2efe; Lei 9.494 e0cde6a9…ee94; Decreto 9.830 ae022402…b232; Lei 13.869 fb3b95c1…4a33; Código Civil 97e0ffaa…a828) e do Anexo N do D2 (b0a54fff…340a) ou do adendo do D3 (bbfd3eed…a797): 28 de 28.
+- 6.2: só o "Adendo 2" do adendo do D3 (A2.3.2; textos A2.4.1, A2.4.4, A2.4.5, A2.4.6 e A2.4.7), com os alertas C1 a C12 (A2.5.2), em especial: C6 (Decreto 9.830, art. 14: nome do Decreto e o alcance "No âmbito do Poder Executivo federal"; nunca moldura; a relação entre "dolo ou erro grosseiro" e o "dolo ou culpa" da CF continua [SEM FONTE — não afirmar]); C7 (CF, art. 5º, LXXV: só as duas hipóteses do texto); C8 (Lei 9.494, art. 1º-C: sem termo inicial; nada sobre qual prazo prevalece); C9 (Código Civil e CF, art. 5º, XXIV: o item nomeia a norma e o sujeito dela — "o empregador ou comitente", "o ofensor" —, não diz que o Estado responde por esses artigos e não chama a desapropriação de responsabilidade civil); C11 (Lei 13.869, art. 4º, I: o obrigado é o condenado, não o Estado).
+- 3.1 e 3.2: só a seção 4.1 (CF; Fonte 1, https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) e a seção 4.3 (Lei 8.112; Fonte 4, https://planalto.gov.br/ccivil_03/leis/l8112compilado.htm) do Anexo N do D2 (saida/gcb/D2_anexo_N_mapa_normativo.md), consulta de 20/10/2026, com os alertas 1 a 11 da seção 5.2 do Anexo. A URL é a do Anexo (seção 1, regra 3): a Fonte 4 é grafada sem "www" e a primeira linha da cópia em normativo_cache/ traz "https://www.planalto.gov.br/…" — mesma página, diferença só de grafia do host; o item usa a URL do Anexo e a QA confere o texto na cópia, registrando a grafia.
+- Fora da leva 4: CF, art. 37, XVI, b (REVERIFICAR, EC 138/2025; D2-01); art. 40, § 4º, e § 5º-A (EC 140/2026, posterior a 2/10/2026; edital 13.33: nenhum item usa a redação da EC 140 nem afirma o § 5º-A); Decreto 12.374/2025 (REVERIFICAR); art. 39, caput ("Vide ADI 2.135"); CF, art. 37, § 6º (pontos dos canônicos do D3); CF, art. 37, XII, e art. 39, § 6º (nomeiam o Poder Legislativo: moldura implícita, seção 8.2, item 4); Lei 8.112, art. 20, § 4º, art. 41, § 5º, e art. 49, § 1º (reservados à 3.4, exigência (b), leva 5); Lei 8.112, art. 135 (primeiro ponto da 4.2, leva 6); números do estágio probatório (alerta 3 do Anexo N do D2; D2-06 e D2-31); Leis 9.962/2000 e 8.745/1993 (não abertas: [SEM FONTE]); conceitos de "emprego público" e "função pública" além da letra da CF, art. 37 (doutrinários; BASE DOUTRINÁRIA vedada).
+- Pertinência na 3.2: dispositivo marcado "núcleo 3.2" ou "compl. 3.2" na seção 3 do Anexo N do D2 que trate do cargo, da função, da investidura ou do exercício conta como aderência **direta** (o próprio mapa o liga à folha); se a gcb-cqfp recusar a pertinência direta, o item passa a parcial por AJ, sem efeito no piso de 10 diretos (a 3.2 tem 10 canônicos diretos).
+- Proibidos: memória, fonte secundária, jurisprudência, base doutrinária.
+
+#### 10.4.3 Pontos já usados (não repetir; anti-gêmeo)
+- 6.2: D3-32 a D3-40 e D3-81 (A2.3.2, abertura); leva 3: A6.2-02 (D3-R49), A6.2-06 (D3-R50), A6.2-04 (D3-R51); CC, arts. 186 e 927, e Lei 8.112, art. 122, não voltam.
+- 3.1 (D2-01 a D2-10; D2_v2_1.md, seção 7): CF, art. 37, III, X, XVI (caput, a, b e c) e § 2º; art. 38, III (com o II como contraste); art. 41, caput, § 1º, III, § 3º e § 4º.
+- 3.2 (D2-11 a D2-20): CF, art. 37, I, II, V (dois pontos) e IX; Lei 8.112, arts. 2º, 3º (caput e parágrafo único), 5º, V, e 9º, II e parágrafo único.
+- Lote D2, outras folhas (gêmeo entre folhas evitado; "Difere de" obrigatório quando o tema é vizinho): Lei 8.112, arts. 8º (D2-33), 13, § 1º (D2-35), 18 (D2-30), 20, caput e § 3º (D2-31, D2-36), 25 (D2-34), 28 (D2-37), 35 (D2-38) e 91 (D2-39).
+
+#### 10.4.4 Pontos de julgamento por item (ordem final dentro de cada folha; a gcb-cpp redige)
+Colunas como na seção 8.3.4. Código do ponto: na 6.2, o do adendo do D3 (A6.2-NN); na 3.1 e na 3.2 (o Anexo N do D2 não tem códigos de ponto), o dispositivo com a seção do Anexo ("CF, art. 37, XVII (Anexo N do D2, 4.1)"). Nenhum C leva [TS] (as três folhas já têm o seu C-isca: D3-36, D2-04, D2-14). Todo E leva [TS] com troca real e única de um elemento literal.
+
+**Folha 6.2 — 8 itens (5 C / 3 E), D3-R52 a D3-R59 (segunda parte; 3 diretos, 5 parciais)**
+| id | ponto | base | o que se julga (sentido da troca, sem redação) | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D3-R52 | A6.2-07 | CC, art. 932, caput e III | o empregador ou comitente é também responsável pela reparação civil por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir, ou em razão dele (sujeito da letra; sem o Estado na cena: C9) | SUJ | N | C | não | parcial | DC | D3-35 (sujeitos do § 6º da CF; aqui o regime civil do empregador) |
+| D3-R53 | A6.2-12 | CF, art. 5º, XXIV | a desapropriação por necessidade ou utilidade pública, ou por interesse social, faz-se mediante justa e prévia indenização em dinheiro, ressalvados os casos previstos na CF (sem chamá-la de responsabilidade civil: C9) | SIT | N | C | não | parcial | CQ | D3-37 (conduta lícita, base doutrinária; aqui a letra do inciso) |
+| D3-R54 | A6.2-03 | Decreto 9.830, art. 14 | no âmbito do Poder Executivo federal, o regresso do § 6º do art. 37 da CF depende de dolo ou erro grosseiro do agente em suas decisões ou opiniões técnicas (troca: dolo ou erro grosseiro → dolo ou culpa); nome do Decreto e alcance no enunciado; sem "somente", "apenas" ou "só" no enunciado (o absoluto da letra não pode ficar num E cuja troca é outra); nenhuma afirmação sobre a relação com a CF (C6) | DEF | N | E | sim | direta | DC | D3-R51 (mesmo art. 14, outro elemento: proporcionalidade e razoabilidade); D3-32 e D3-36 (CF: dolo ou culpa) |
+| D3-R55 | A6.2-01 | Lei 9.494, art. 1º-C | prescreve em cinco anos o direito de obter indenização dos danos causados por agentes de pessoas jurídicas de direito público (sem termo inicial: C8) | NUM | N | C | não | direta | DC | D3-R49 (mesmo artigo, outro elemento: as prestadoras de direito privado) |
+| D3-R56 | A6.2-14 | CC, art. 949 | na lesão ou outra ofensa à saúde, o ofensor indeniza o ofendido das despesas do tratamento e dos lucros cessantes até ao fim da convalescença, além de outro prejuízo que prove ter sofrido (C9) | SIT | N | C | não | parcial | CQ | — |
+| D3-R57 | A6.2-13 | Lei 13.869, art. 4º, I | efeito da condenação por abuso de autoridade: tornar certa a obrigação de indenizar, devendo o juiz fixar na sentença o valor mínimo da reparação a requerimento do ofendido (troca: a requerimento do ofendido → de ofício); o obrigado é o condenado (C11) | PAR | N | E | sim | parcial | DC | D3-R44 e D3-R46 (5.2: mesma lei, arts. 2º e 1º, § 2º) |
+| D3-R58 | A6.2-10 | CC, art. 942, caput | se a ofensa tiver mais de um autor, todos respondem solidariamente pela reparação (troca: solidariamente → cada autor na proporção da sua participação) | PAR | N | E | sim | parcial | DC | — |
+| D3-R59 | A6.2-05 | CF, art. 5º, LXXV | o Estado indenizará o condenado por erro judiciário (só a hipótese do texto; nada sobre atos jurisdicionais em geral: C7) | SUJ | N | C | não | direta | DC | D3-R50 (mesmo inciso, outra hipótese) |
+Reserva da 6.2 (na ordem): A6.2-11 (CC, art. 948), A6.2-15 (CC, art. 950), A6.2-08 (CC, art. 933; nunca no mesmo simulado que o D3-R52), A6.2-09 (CC, art. 934; troca por ator que a fonte mencione, seção 10.2, item 6). Substituto mantém formato, gabarito, aderência e abertura da linha ou recalcula as seções 10.4.5 a 10.4.7.
+
+**Folha 3.1 — 10 itens (5 C / 5 E), D2-R01 a D2-R10 (todos diretos)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D2-R01 | CF, art. 37, XVII (Anexo N do D2, 4.1) | CF, art. 37, XVII | a proibição de acumular estende-se a empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e sociedades controladas, direta ou indiretamente, pelo poder público | SUJ | N | **C** | não | direta | DC | D2-01 e D2-08 (inciso XVI: hipóteses admitidas; aqui o alcance da proibição) |
+| D2-R02 | CF, art. 37, IV (4.1) | CF, art. 37, IV | durante o prazo improrrogável previsto no edital de convocação, o aprovado em concurso é convocado com prioridade sobre novos concursados para assumir cargo ou emprego, na carreira (cenário sem órgão do Legislativo) | SIT | N | C | não | direta | CQ | D2-02 (inciso III: validade e prorrogação; aqui a prioridade no prazo do edital) |
+| D2-R03 | CF, art. 38, I (4.1) | CF, art. 38, caput e I (III como contraste) | servidor da administração direta, autárquica ou fundacional no exercício de mandato eletivo federal, estadual ou distrital fica afastado do cargo (troca: afastado → havendo compatibilidade de horários, perceberá as vantagens do cargo sem prejuízo da remuneração do cargo eletivo, que é o regime do inciso III); cena: mandato eletivo estadual, sem nomear parlamentar nem Casa legislativa | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D2-03 (inciso III, vereador; aqui o inciso I) |
+| D2-R04 | CF, art. 37, VII (4.1) | CF, art. 37, VII | o direito de greve do servidor é exercido nos termos e nos limites definidos em lei específica (troca: lei específica → lei complementar) | DEF | N | E | sim | direta | DC | D2-09 (inciso X: lei específica da remuneração; outro inciso) |
+| D2-R05 | CF, art. 37, § 13 (4.1) | CF, art. 37, § 13 | o titular de cargo efetivo com limitação na capacidade física ou mental pode ser readaptado para cargo compatível, desde que tenha a habilitação e a escolaridade exigidas para o cargo de destino, mantida a remuneração do cargo de origem (troca: remuneração do cargo de origem → do cargo de destino) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D2-33 (3.4: Lei 8.112, art. 8º, rol do provimento; aqui a CF e a remuneração do readaptado) |
+| D2-R06 | CF, art. 37, XIV (4.1) | CF, art. 37, XIV | os acréscimos pecuniários percebidos por servidor público não são computados nem acumulados para fins de concessão de acréscimos ulteriores | DEF | N | C | não | direta | DC | D2-09 (inciso X; outro inciso) |
+| D2-R07 | CF, art. 40, § 1º, II (4.1) | CF, art. 40, § 1º, II (III como contraste) | a aposentadoria compulsória do servidor do regime próprio ocorre aos 70 anos de idade, ou aos 75, na forma de lei complementar (troca: 70 → 65 anos, a idade da aposentadoria voluntária do homem na União, inciso III); nada sobre o § 4º nem o § 5º-A | NUM | N | E | sim | direta | DC | D2-06 (art. 41, caput: três anos; outro número e outro instituto) |
+| D2-R08 | CF, art. 37, § 10 (4.1) | CF, art. 37, § 10 | a vedação de perceber simultaneamente proventos de aposentadoria do art. 40 e remuneração de cargo ressalva os cargos em comissão declarados em lei de livre nomeação e exoneração: o aposentado nomeado para esse cargo percebe os dois (cenário sem órgão do Legislativo) | SIT | N | C | não | direta | CQ | D2-08 (acumulação de cargos em atividade; aqui proventos com remuneração) |
+| D2-R09 | CF, art. 39, § 2º (4.1) | CF, art. 39, § 2º | a União, os Estados e o Distrito Federal manterão escolas de governo para a formação e o aperfeiçoamento dos servidores públicos, e a participação nos cursos é um dos requisitos para a promoção na carreira | SUJ | N | C | não | direta | DC | — |
+| D2-R10 | CF, art. 41, § 2º (4.1) | CF, art. 41, § 2º | invalidada por sentença judicial a demissão do servidor estável, ele é reintegrado, e o eventual ocupante da vaga, se estável, é reconduzido ao cargo de origem, sem direito a indenização (troca: reconduzido → reintegrado ao cargo de origem) | APL | S — órgão/servidor do Poder Legislativo da União | E | sim | direta | CQ | D2-37 (3.4: Lei 8.112, art. 28, conceito de reintegração; aqui a CF e o destino do ocupante da vaga); D2-05 (art. 41, § 3º) |
+Moldura da 3.1 (D2-R03, R05, R10): cena com "servidor de órgão do Poder Legislativo da União" (tipo da cota das folhas do D2, seção 1, regra 10); nenhuma norma interna, carreira ou prática real da Câmara; a moldura não decide o gabarito; as três cenas não repetem o mesmo texto até o fecho (L3-3). Reserva da 3.1 (na ordem): CF, art. 37, VI; art. 38, IV; art. 37, XIII; art. 37, XV; art. 39, § 9º; art. 41, § 1º, I; art. 40, § 1º, I; art. 38, II (só como ponto próprio, não como contraste do D2-03); art. 39, § 1º; art. 37, VIII (nunca no mesmo simulado que o D2-R18); art. 38, V.
+
+**Folha 3.2 — 10 itens (5 C / 5 E), D2-R11 a D2-R20 (todos diretos; seção 10.4.2, pertinência)**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D2-R11 | Lei 8.112, art. 7º (Anexo N do D2, 4.3) | Lei 8.112, art. 7º | a investidura em cargo público ocorre com a posse (troca: posse → nomeação) | PAR | N | **E** | sim | direta | DC | D2-19 (CF, art. 37, II: investidura depende de concurso); D2-33 (3.4: formas de provimento) |
+| D2-R12 | Lei 8.112, art. 4º (4.3) | Lei 8.112, art. 4º | é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei | DEF | N | C | não | direta | DC | — |
+| D2-R13 | Lei 8.112, art. 19, caput (4.3) | Lei 8.112, art. 19, caput | a jornada é fixada em razão das atribuições do cargo, respeitada a duração máxima de quarenta horas semanais e os limites de seis e oito horas diárias (troca: quarenta → quarenta e quatro horas semanais) | NUM | N | E | sim | direta | CQ | D2-R15 (mesmo artigo, § 1º) |
+| D2-R14 | CF, art. 39, § 3º (Anexo N do D2, 4.1) | CF, art. 39, § 3º | a lei pode estabelecer requisitos diferenciados de admissão quando a natureza do cargo o exigir (troca: a lei → o edital do concurso); sem enumerar os incisos do art. 7º | SUJ | N | E | sim | direta | DC | D2-11 (CF, art. 37, I: requisitos estabelecidos em lei para o acesso; aqui requisitos diferenciados pela natureza do cargo); D2-16 e D2-20 (outras trocas de instrumento normativo) |
+| D2-R15 | Lei 8.112, art. 19, § 1º (4.3) | Lei 8.112, art. 19, § 1º | o ocupante de cargo em comissão ou função de confiança submete-se a regime de integral dedicação ao serviço, podendo ser convocado sempre que houver interesse da Administração | SIT | N | C | não | direta | CQ | D2-R13 |
+| D2-R16 | Lei 8.112, art. 5º, § 3º (4.3) | Lei 8.112, art. 5º, § 3º | as universidades e instituições de pesquisa científica e tecnológica federais poderão prover seus cargos com professores, técnicos e cientistas estrangeiros, de acordo com as normas e os procedimentos da lei | SUJ | N | C | não | direta | DC | D2-11 (CF, art. 37, I: estrangeiros, na forma da lei; aqui as entidades autorizadas pela Lei 8.112) |
+| D2-R17 | Lei 8.112, art. 15, caput (4.3) | Lei 8.112, art. 15, caput | exercício é o efetivo desempenho das atribuições do cargo público ou da função de confiança | DEF | N | C | não | direta | DC | D2-18 (conceito de cargo; aqui o de exercício) |
+| D2-R18 | Lei 8.112, art. 5º, § 2º (4.3) | Lei 8.112, art. 5º, § 2º | às pessoas portadoras de deficiência são reservadas até 20% das vagas oferecidas no concurso (troca: até 20% → no mínimo 20%) | NUM | N | E | sim | direta | DC | D2-17 (art. 5º, V, idade mínima; outro elemento do artigo) |
+| D2-R19 | Lei 8.112, art. 120 (4.3) | Lei 8.112, art. 120 | quem acumula licitamente dois cargos efetivos e é investido em cargo em comissão fica afastado de ambos, salvo compatibilidade de horário e local com um deles, declarada pelas autoridades máximas dos órgãos ou entidades envolvidos | SIT | N | C | não | direta | CQ | D2-15 (art. 9º: interinidade em cargo de confiança) |
+| D2-R20 | Lei 8.112, art. 34, parágrafo único, II (4.3) | Lei 8.112, art. 34, caput e parágrafo único, II | quem tomou posse e não entrou em exercício no prazo estabelecido é exonerado de ofício (troca: exonerado de ofício → demitido) | SIT | N | E | sim | direta | CQ | D2-38 (3.4: art. 35, exoneração de cargo em comissão) |
+Na 3.2, "lei" como instrumento normativo fica 3 C / 3 E na folha fechada (D2-11, D2-14, D2-R12 / D2-16, D2-20, D2-R14), sem pista "lei trocada → E". Reserva da 3.2 (na ordem): Lei 8.112, art. 10, caput; art. 13, § 4º; art. 13, § 5º; art. 14, caput e parágrafo único; art. 62, caput; art. 118, § 2º; art. 119, caput (nunca no mesmo simulado que o D2-15).
+
+#### 10.4.5 Formatos ao fim da leva 4 (folha final de 20; teto 6)
+| folha | DEF | SUJ | SIT | NUM | PAR | APL | total |
+|---|---|---|---|---|---|---|---|
+| 6.2 (12 após a leva 3: 4/1/4/0/3/0 + leva 1/2/2/1/2/0) | 5 | 3 | **6** | 1 | 5 | 0 | 20 |
+| 3.1 (canônicos 3/1/1/2/1/2 + 2/2/2/1/0/3) | 5 | 3 | 3 | 3 | 1 | 5 | 20 |
+| 3.2 (canônicos 3/3/2/1/0/1 + 2/2/3/2/1/0) | 5 | 5 | 5 | 3 | 1 | 1 | 20 |
+SIT da 6.2 fica no teto (6): a gcb-cpp não declara outro SIT na folha; reclassificação pela QA obriga a mudar a construção de outro item. Formatos da leva 4: DEF 5, SUJ 6, SIT 7, NUM 4, PAR 3, APL 3. A recomendação do produtor da leva 3 (bloco 5: na 6.2, no máximo DEF 2, SIT 2 e PAR 3) está cumprida (1, 2 e 2).
+
+#### 10.4.6 Gabarito, moldura, aderência e conjuntos ao fim da leva 4
+- Leva: **15 C / 13 E (53,6%)**; faixa de 28 itens: 12 a 16 C. Folhas: 6.2 10/10 (5/7 + 5/3); 3.1 10/10 (5/5 + 5/5); 3.2 10/10 (5/5 + 5/5).
+- Moldura nova: **0 C / 3 E** (D2-R03, D2-R05, D2-R10; todos na 3.1). DA: 49/25 → **49/28 (63,6%)**, igual à seção 2.2. Por folha: 3.1 2 C / 3 E (40,0%), 5 com moldura (≤ 6); 3.2 0/1; 6.2 0/0. Cota da T-122 na 3.1 cumprida (3 E). Conjunto do D2 (moldura): 9/1 → **9/4 (69,2%)**; no fim do plano, 10/14 (seção 2.2). Conjuntos do D3 (9/11) e do D4 (K1 a K4, fecho neutro, ", e não") sem item novo.
+- Aderência: 23 diretos / 5 parciais (D3-R52, R53, R56, R57, R58). Piso de 10 diretos: 6.2 15; 3.1 20; 3.2 20.
+- [TS]: 13 (todos E; nenhum C-isca). VOLÁTIL 0. REVERIFICAR 0 (nenhum dispositivo do plano tem redação de 2025 ou 2026).
+- Abertura × gabarito (seção 7.4.2; L3-1; L4-2): leva "Considere que" 6 C / 5 E (54,5% de C); declarativos 9 C / 8 E (47,1% de E). Folhas fechadas: 6.2 CQ 3 C / 3 E e DC 7 C / 7 E; 3.1 CQ 4/4 e DC 6/6; 3.2 CQ 4/3 e DC 6/7.
+- Fórmula "Nessa situação, nos termos d…" (seção 7.4.3): na 6.2 (D3), no máximo 1 dos 2 itens com "Considere que"; no D2, contada e informada (no máximo 4 dos 9 CQ, como orientação). Fecho "é correto afirmar que": 0 (L4-1).
+- L3-2: nenhum E com absoluto inserido pela troca no plano; se a redação inserir absoluto em E, a mesma folha precisa de C com absoluto literal, e a seção 4 do arquivo informa. L3-4 e L3-5: nenhum contraste "mas não" / ", e não" e nenhum "mero", "por si só" ou "simples" planejados. Seção 10.2, itens 5 e 6: todas as trocas do plano são de elemento por conceito vizinho; nenhum SUJ E troca o sujeito por ator implausível (o D2-R14 troca o instrumento: lei → edital).
+
+#### 10.4.7 Sequência (seção 7.3; plano conferido por script antes do despacho)
+| escopo | gabarito | [TS] | resultado |
+|---|---|---|---|
+| 6.2, leva / acumulada (20) | CCECCEEC / ECEECCEECEEC·CCECCEEC | nnTnnTTn / TnTTTnnTnTTn·nnTnnTTn | passa; acumulada: só o legado de período 4 nas posições 2 a 9 do gabarito (seção 8.2, item 7); nenhuma janela reprovada inclui item novo; [TS] passa |
+| 3.1, leva / acumulada (20) | CCEEECECCE / ECECCEECEC·CCEEECECCE | nnTTTnTnnT / TnTTnTnnTn·nnTTTnTnnT | passa (o D2-R01, C, fecha a alternância de 4 com que terminam os canônicos) |
+| 3.2, leva / acumulada (20) | ECEECCCECE / CCECEECCEE·ECEECCCECE | TnTTnnnTnT / nnTTnTnnTT·TnTTnnnTnT | passa |
+| leva 4 inteira (6.2, 3.1, 3.2) | CCECCEEC·CCEEECECCE·ECEECCCECE | idem com T nos E | passa (corrida máx. 3; alternância máx. 4) |
+Mesma regra de troca de posição da seção 8.3.7.
+
+#### 10.4.8 Amostra da gbq-estilo (leva 4)
+4 itens (14,3%), designados antes da produção: **D2-R05** (E com moldura do Legislativo, APL, CF, art. 37, § 13); **D2-R14** (E, SUJ, troca de instrumento lei → edital, na folha com D2-16 e D2-20); **D3-R54** (E, Decreto 9.830, art. 14, alerta C6); **D3-R56** (C, SIT com "Considere que", aderência parcial, CC, art. 949). Cobre: E com moldura, os dois lotes, um C, um parcial. Rito da seção 9.3, item 6: auditoria sobre a v1, em paralelo ao R1; os AJ de estilo vão com os AJ do R1 para a v2 e são conferidos no R2. Saída: saida/banco/estilo_DA_reforco_leva4.md.
+
+#### 10.4.9 Notas de simulado previstas para a leva 4 (destino: T-119 e T-123; continuam (a) a (ae))
+| # | itens | motivo |
+|---|---|---|
+| (af) | D3-R55 × D3-R49 e D3-R22 | prazos de cinco anos (Lei 9.494, art. 1º-C; Decreto 20.910); amplia a (n) |
+| (ag) | D3-R54 × D3-R51, D3-32 e D3-36 | Decreto 9.830, art. 14 × CF, art. 37, § 6º (C6); amplia a (o) |
+| (ae) | D3-R59 × D3-R50 | CF, art. 5º, LXXV, as duas hipóteses (C7) |
+| (ah) | D2-R03 × D2-03 | CF, art. 38, I × III |
+| (ai) | D2-R10 × D2-37 e D2-05 | reintegração, recondução e disponibilidade (CF, art. 41, §§ 2º e 3º; Lei 8.112, art. 28) |
+| (aj) | D2-R05 × D2-33 | readaptação (CF, art. 37, § 13; Lei 8.112, art. 8º) |
+| (ak) | D2-R13 × D2-R15 | Lei 8.112, art. 19, caput e § 1º |
+| (al) | D2-R16 × D2-11 | estrangeiros (Lei 8.112, art. 5º, § 3º; CF, art. 37, I) |
+| (am) | D2-R14 × D2-16 e D2-20 | trocas de instrumento normativo na mesma folha |
+| (an) | D2-R11 × D2-R20 | posse, investidura e exercício |
+| (v) | parciais da leva 4: D3-R52, R53, R56, R57, R58 | só simulado diagnóstico (D-ADERENCIA) |
+| (w) | a leva 4 inteira (ou só itens de reforço) | não forma simulado isolado; entra misturada por folha com os canônicos |
+| (x) | os 3 itens com moldura (D2-R03, R05, R10) | contam para o teto de 50% de C com moldura por simulado (D-MOLDURA-CE (c)) |
+
+#### 10.4.10 Despacho à gcb-cpp (leva 4)
+- Executor: gcb-cpp (sonnet), uma instância. Objeto: leva 4, conforme esta seção 10.4, as seções 1, 7, 8.2 (itens 4 e 7), 9.3 e 10.2 e os anexos abaixo. Saída: saida/gcb/DA_reforco_leva4_v1.md, no formato da regra 14 (nomes da seção 7.5), linha 1 `# DA_reforco_leva4_v1.md — T-116 — <data ISO> — gerado por gcb-cpp`.
+- Anexos (lista exaustiva): esta ficha; saida/gcb/D2_anexo_N_mapa_normativo.md (seções 1, 2.3, 3, 4.1, 4.3 e 5.2); saida/gcb/D3_anexo_N_adendo_2026-10-20.md ("Adendo 2": A2.3.2, A2.4.1, A2.4.4 a A2.4.7 e A2.5.2); saida/gcb/D2_v2_1.md (pontos D2-01 a D2-40, seção 7, e formato dos blocos canônicos) e saida/gcb/D3_v2_1.md (pontos da 6.2), só para os pontos já usados; os arquivos finais das levas 1 a 3 (saida/gcb/DA_reforco_leva1_v2.md, leva2_v2.md e leva3_v2.md: pontos e modelo de bloco); regras/estilo_banca.md; cópias em saida/gcb/normativo_cache/.
+- A seção 4 do arquivo traz, por script: as contagens da regra 14; abertura × gabarito e fecho × gabarito por lote (D2 e D3: canônicos, levas anteriores, leva, acumulado; L4-1); a fórmula "Nessa situação, nos termos d…"; absolutos por gabarito (L3-2); o teste da seção 10.4.7 refeito; a moldura acumulada (DA, D2, D3).
+- A gcb-cpp pode trocar um ponto pela reserva da mesma folha, com o motivo no bloco à GCB, nas condições da seção 3.7. Dúvida de conteúdo vai ao bloco à GCB, sem consulta a terceiros. O R1 da leva 4 não tem errata a conferir (seção 10.3). Nada vai à plataforma nem à candidata. Sem commit.
+
+### 10.5 Riscos e registros
+1. A 6.2 fecha em 20 com 5 itens de aderência parcial (C9, C11); se a gcb-cqfp recusar a pertinência de um indireto, o substituto sai da reserva (seção 10.4.4); sem reserva aceita, a folha fica abaixo de 20, com registro (seção 2.1).
+2. SIT da 6.2 no teto (6); PAR da 6.2 em 5.
+3. Moldura: leva 4 com 0 C / 3 E, como no plano; a meta da D-MOLDURA-CE continua prevista para a leva 5 (seção 2.2, margem de 2 pontos); E com moldura reprovado na leva 4 é reposto na v2 da mesma leva (reserva da 3.1, mesmo tipo de moldura).
+4. Leva 5 (3.3, 3.4 e 4.1): a 4.1 está "A CONFIRMAR" (seção 2.1; o Anexo N do D2 diz que "fontes" do direito disciplinar não têm dispositivo próprio e não transcreve a CF, art. 5º, LIV e LV). A GCB lista o lastro da 4.1 na ficha da leva 5; se faltar, pede adendo ao qa-normativo-da antes da produção da leva 5 — o pedido pode correr em paralelo à leva 4, sem tarefa nova (primeiro passo da T-116).
+5. Nenhuma tarefa nova (D-COMPLEMENTOS); nenhum gatilho em PARA_PRESIDENCIA.md por esta seção (o gatilho da leva 3 é da reconciliação).
+
 FIM DA FICHA DO REFORÇO DA

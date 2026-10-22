@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 65 — 20/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 66 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -935,6 +935,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c2) | T-122 CONCLUÍDA (moldura C/E; saida/banco/moldura_ce_2026-10-20.md; marcada pela gbq-gerencia); T-116 EM CURSO, passo 1: adendos ao Anexo N D3 (6.3 a 6.5) e D4 (8.1, 8.4) gravados em saida/gcb/; D-PACOTE-V113-CANONICO aplicada; ESTADO versão 63 |
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c3) | T-116 leva 1 ACEITA (D-T116-LEVA1-ACEITE; ressalva AJ-E1 em rito próprio com a leva 2): 30 itens, folhas 8.1 e 6.3 a 20; moldura DA 46 C / 18 E; TAREFAS.md atualizado; ESTADO versão 64 |
 | 20/10 | Secretaria (relato do orquestrador, ciclo s15c4) | T-116 leva 2 ACEITA (D-T116-LEVA2-ACEITE, NOVA, a aplicar na abertura da sessão seguinte; aceita também a errata AJ-E1 do D3-R13 para a v1.14): 30 itens, folha 8.4 a 20; acumulado 60 itens, faltam 296; moldura DA 48 C / 21 E; TAREFAS.md atualizado; ESTADO versão 65 |
+| 22/10 | Secretaria (relato do orquestrador, ciclo s16c1) | D-T116-LEVA2-ACEITE APLICADA (22/10, ciclo s16c1); T-116 leva 3: 30 itens (16 C / 14 E; [TS] 14), R1 0/30, R2 0/30, reconciliação e ficha com a seção 10 e a ficha da leva 4; gatilho A da GCB em PARA_PRESIDENCIA.md; ESTADO versão 66 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -1047,3 +1048,18 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 - **Decisão:** D-T116-LEVA2-ACEITE (NOVA, Presidência de Ciclo, em DECISOES.md) aceita a leva 2 e a errata AJ-E1 do D3-R13 para a v1.14; será aplicada na abertura da sessão seguinte. Moldura de DA 48 C / 21 E (69,6% de C).
 - **Sessão s15 parada** por ordem do Fundador, ao fim deste ciclo (s15c4); nenhum lote em curso fora do estado acima.
 - **Próximo:** leva 3 (ficha pronta; R1 confere a errata AJ-L2-E1 do D3-R18).
+
+## Atualização 22/10/2026 — Ciclo s16c1 — sessão s16
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Sessão s16:** aberta em 22/10/2026 às 15:59 (America/Sao_Paulo), Claude Code, nuvem; trava SESSAO_EM_CURSO.lock (D-RITMO-MAX).
+- **Decisão:** D-T116-LEVA2-ACEITE APLICADA em 22/10 (ciclo s16c1).
+- **T-116 leva 3 CONCLUÍDA** (reforço de DA; 30 itens: folhas P1-DA-6.4 (segunda parte), 6.5, 5.2 e 6.2 (primeira parte); D3-R22 a D3-R51; 16 C / 14 E; [TS] 14; 19 diretos / 11 parciais). Cadeia: v1 gcb-cpp (7214e588…91bb); R1 gcb-cqfp APROVADO COM AJUSTE 0/30 (28c392ad…10d4), errata AJ-L2-E1 do D3-R18 CONFERIDO; estilo gbq-estilo 2 CONFORME / 2 AJUSTE / 0 NÃO CONFORME (f7d01812…13e4); v2 gcb-cpp (e4c2a911…3237); R2 gcb-cqfp APROVADO 0/30 (6c18992d…aaa); reconciliação saida/gcb/DA_reforco_leva3_reconciliacao_2026-10-22.md (a37167d7…0776); ficha com a seção 10 "Adendo após a leva 3" e a ficha da leva 4 (777e6eb6…a03a).
+- **Folhas:** 6.4, 6.5 e 5.2 fecham em 20 (10 C / 10 E); 6.2 em 12.
+- **Gatilho A da GCB** aberto em PARA_PRESIDENCIA.md (aceite dos 30 itens da leva 3; errata AJ-L2-E1 para a v1.14).
+- **Leva 4** (28 itens: 6.2 D3-R52 a R59; 3.1 D2-R01 a R10; 3.2 D2-R11 a R20) despachável sem adendo normativo. **Leva 5** (4.1) fica "A CONFIRMAR" de lastro.
+- **T-113** aguarda o "sim" do Fundador. **T-123** (pacote v1.14) fica depois das levas da T-116.
+- **Gates:** nenhum.
+- **Rede:** www.planalto.gov.br continua bloqueado; bases conferidas nas cópias de saida/gcb/normativo_cache/.
+- **Próximo:** leva 4 (T-116).

@@ -1,6 +1,6 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Plataforma Câmara 2026</title>
-<meta name="mapaspro:versao" content="v17 · publicada em 23/10/2026 · três abas · pacote Câmara 2026 — pacote F4 (v1.13) embutido (1159 itens; 410 de Direito Administrativo)">
+<meta name="mapaspro:versao" content="v17 · publicada em 23/10/2026 · três abas · pacote Câmara 2026 — pacote F4 (v1.13) embutido (1.159 itens; 410 de Direito Administrativo)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -528,6 +528,7 @@ let prova=null;
 let atalhosProva=null;
 document.addEventListener("keydown",e=>{
   if(!atalhosProva||rota.v!=="prova"||!prova||e.defaultPrevented||e.repeat||e.ctrlKey||e.metaKey||e.altKey) return;
+  const cf=document.getElementById("conf"); if(cf&&!cf.hidden) return; // com "Entregar agora?" aberta, as teclas não valem
   const t=e.target; if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
   const k=String(e.key||"").toUpperCase(); if(!atalhosProva[k]) return;
   e.preventDefault(); atalhosProva[k]();
@@ -740,7 +741,7 @@ async function exportarErros(btn,out){
 const VERSAO_APP="v17";
 const JANELA=30, BLOCO=10;
 /* DECISÃO DO FELIPE (18/10/2026): só questões distintas entram na janela de 30.
-   Consequência: hoje nenhum tópico chega à nota (máximo de 26 questões num tópico); a meta da Fábrica passa a 40+ por tópico. */
+   v17 (D-V17-NOTA-TOPICO): o divisor da nota do tópico é o menor entre JANELA e o nº de questões distintas do tópico no banco; assim quem acerta tudo vê 100%. */
 const CONTA_REPETIDAS=false;
 /* Peso PROVISÓRIO: cada prova objetiva tem 90 itens (edital 7.1), divididos igualmente entre as matérias dela.
    O edital não diz quantos itens cada matéria terá. Substituir pela estimativa da Fábrica quando existir. */
@@ -933,7 +934,7 @@ function vApresentacao(){
       ${it(2,"Erros","As questões que você errou, por matéria e tópico. Cada uma sai depois de dois acertos seguidos.")}
       ${it(3,"Recomendações","Três sugestões do que estudar agora, com o motivo de cada uma. Você escolhe.")}
     </ol>
-    <p class="hl small">Cada tópico mostra o seu desempenho, calculado sobre as ${JANELA} questões diferentes respondidas mais recentemente, na regra da prova: certo +1, errado −1, em branco 0. Começa em 0% e sobe quando você aprende.</p>
+    <p class="hl small">Cada tópico mostra o seu desempenho, calculado sobre até ${JANELA} questões diferentes respondidas mais recentemente (ou todas as do tópico, se houver menos), na regra da prova: certo +1, errado −1, em branco 0. Começa em 0% e sobe quando você aprende.</p>
   </div><div class="spacer" style="min-height:24px"></div>
   <button class="btn primary" id="seguir" style="margin-bottom:16px">${novo?"Começar":"Entendi"}</button></div>`;
   $("#seguir").onclick=()=>{ S.apresVista=true; ev("apresentacao_vista"); salvar(); if(!S.concurso) ir("concurso"); else ir("painel"); };
@@ -955,13 +956,17 @@ function continuar(){
 const PESO_PROVA={P1:1,P2:1};
 const VESPERA_DATA="16/01/2027"; // véspera da prova de 17/1/2027 (D-V17-DESIGN, ponto a)
 const UI={mat:new Set(),top:new Set()}; // matérias e tópicos abertos nesta visita
-function pctTopico(o){ const nt=notaTopico(o.id); return (nt.c-nt.e)/JANELA; } // as respostas que faltam para as 30 contam como em branco (0); começa em 0%
+let _divP=null,_divM=null;
+function divTopico(id){ if(_divP!==P){ _divP=P; _divM={}; const v={}; P.itens.forEach(i=>{ const t=i.itemEdital; (v[t]=v[t]||new Set()).add(i.id); }); Object.keys(v).forEach(t=>_divM[t]=v[t].size); }
+  return Math.max(1,Math.min(JANELA,_divM[id]||0)); } // D-V17-NOTA-TOPICO: menor entre 30 e as questões distintas do tópico no banco
+function pctDe(id,c,e){ return (c-e)/divTopico(id); }
+function pctTopico(o){ const nt=notaTopico(o.id); return pctDe(o.id,nt.c,nt.e); } // as respostas que faltam contam como em branco (0); começa em 0%
 function pctTxt(x){ const p=Math.round(x*100); return (p<0?"−"+Math.abs(p):p)+"%"; }
 function mediaMateria(d){ const ts=topicosDe(d.id); let sw=0,sx=0; ts.forEach(o=>{ const w=pesoTop(o); sw+=w; sx+=w*pctTopico(o); }); return sw?sx/sw:0; }
 function mediaProva(pv){ let sw=0,sx=0; DISCIPLINAS.filter(d=>d.prova===pv).forEach(d=>{ const w=pesoDisc(d); sw+=w; sx+=w*(discComConteudo(d)?mediaMateria(d):0); }); return sw?sx/sw:0; } // matéria em preparação conta 0%
 function notaProva(pv){ return 90*mediaProva(pv); }
 function notaFinal(){ return Object.keys(PESO_PROVA).reduce((a,pv)=>a+PESO_PROVA[pv]*notaProva(pv),0); }
-function fmtNota(n){ n=Math.round(n*100)/100; if(Object.is(n,-0)) n=0; return n.toLocaleString("pt-BR",{minimumFractionDigits:0,maximumFractionDigits:2}); }
+function fmtNota(n){ n=Math.round(n*100)/100; if(Object.is(n,-0)) n=0; return n.toLocaleString("pt-BR",{minimumFractionDigits:0,maximumFractionDigits:2}).replace(/^-/,"−"); }
 function resumoRef(o){ if(o.extra&&o.extra.resumo) return {topico:o.id};
   let c=o; while(c){ const l=(c.resumoLotes||[]).find(id=>{ const lo=loteObj(id); return lo&&String(lo.resumo||"").trim(); }); if(l) return {lote:l,de:o.id}; c=c.pai?T.top[c.pai]:null; }
   return null; }
@@ -1155,7 +1160,7 @@ function vResultado(idx){
   let blocoTop="";
   if(t.tipo==="bloco" && tp(t.ref)){ const o=tp(t.ref); const an=t.antes;
     blocoTop=`<div class="card on stack"><b>Desempenho no tópico ${esc(o.num)}</b><p>${notaHtmlTop(o.id)}</p>
-     <p class="small muted">${an?`Antes: ${pctTxt((an.c-an.e)/JANELA)}. `:""}Calculado sobre as ${JANELA} questões diferentes respondidas mais recentemente; as que faltam contam como em branco.</p>
+     <p class="small muted">${an?`Antes: ${pctTxt(pctDe(o.id,an.c,an.e))}. `:""}Calculado sobre até ${JANELA} questões diferentes respondidas mais recentemente (ou todas as do tópico, se houver menos); as que faltam contam como em branco.</p>
      <div class="row2"><button class="btn" id="vtop">${o.temCurso?"Rever o curso":"Voltar à matéria"}</button><button class="btn primary" id="mais">Mais ${Math.min(BLOCO,o.n)} questões</button></div></div>`; }
   const min=Math.max(1,Math.round(t.seg/60));
   const volta=t.tipo==="rev"?"Voltar ao caderno":t.tipo==="bloco"?"Voltar à matéria":t.tipo==="teste"?"Voltar ao Painel":"Voltar aos simulados";
@@ -1303,7 +1308,7 @@ function vRecs(){
       :`<p class="small muted">Discursivas aparecem aqui quando você tiver lido o curso de metade dos tópicos de P2 (hoje: ${pr.lidos} de ${pr.p2}).</p>`}
     ${pr.okSim?`<button class="card lotecard" data-sim="${esc(pr.sim.id)}"><div class="t1"><b>${esc(limpaNome(pr.sim.nome))}</b><span class="num">${pr.sim.itens.length} itens</span></div><div class="small muted" style="margin-top:4px">Simulado com cronômetro · cerca de ${minutos(pr.sim.itens.length)} min</div></button>`
       :`<p class="small muted">Um simulado aparece aqui quando você tiver praticado ${Math.round(LIM_SIM*100)}% dos tópicos com questões (hoje: ${pr.prat} de ${pr.comQ}), no máximo um a cada ${DIAS_SIM} dias.</p>`}
-    <button class="link" id="pra">Ver todos os simulados e discursivas</button></div>
+    <button class="link" id="pra">Ver todos os simulados</button> <button class="link" id="pra2">Ver as discursivas</button></div>
    <details class="card"><summary style="cursor:pointer;min-height:32px"><b>Como as recomendações são calculadas</b></summary>
     <div class="small stack" style="margin-top:8px"><p>Prioridade = peso do tópico × quanto falta aprender. Só entram tópicos que já têm curso ou questões.</p>
     <p>Peso do tópico: peso da matéria dividido pelo número de tópicos dela. O peso da matéria é ${PESO_FONTE}. O edital não informa quantos itens cada matéria terá, então este peso é uma regra declarada, não um dado oficial.</p>
@@ -1313,24 +1318,25 @@ function vRecs(){
   app().querySelectorAll("[data-op]").forEach(b=>b.onclick=()=>{ const r=rs.find(x=>x.op===b.dataset.op); ev("recomendacao_escolhida",{op:r.op,topico:r.o?r.o.id:null}); r.acao.go(); });
   app().querySelectorAll("[data-disc]").forEach(b=>b.onclick=()=>ir("disc",b.dataset.disc));
   app().querySelectorAll("[data-sim]").forEach(b=>b.onclick=()=>iniciar(b.dataset.sim));
-  $("#pra").onclick=()=>ir("pratica");
+  $("#pra").onclick=()=>ir("pratica"); $("#pra2").onclick=()=>ir("discursivas");
 }
 
 /* ---------- Simulados (v17: sem "final · cerca de N min"; "Simulados anteriores"; Discursivas em tela própria) ---------- */
 function vSimulados(){
   const sims=listaSimulados();
   const ultima=s=>{ const f=S.tentativas.filter(t=>t.ref===s.id); return f[f.length-1]; };
+  const ni=n=>n<0?"−"+Math.abs(n):String(n); // sinal "−" tipográfico
   const linha=(s,ant)=>{ const ult=ultima(s);
-    return `<button class="card lotecard" data-sim="${esc(s.id)}"><div class="t1"><b>${esc(limpaNome(s.nome))}</b>${ant&&ult?`<span class="nt">nota <b class="num">${ult.nota}</b>/${ult.total}</span>`:`<span class="num">${s.itens.length} itens</span>`}</div>
-    ${!ant&&ult?`<div class="small muted" style="margin-top:4px">última nota <b class="num" style="color:var(--ink)">${ult.nota}/${ult.total}</b></div>`:""}${s.aviso?`<div class="xs muted" style="margin-top:6px">${esc(s.aviso)}</div>`:""}</button>`; };
+    return `<button class="card lotecard" data-sim="${esc(s.id)}"><div class="t1"><b>${esc(limpaNome(s.nome))}</b>${ant&&ult?`<span class="nt">nota <b class="num">${ni(ult.nota)}</b>/${ult.total}</span>`:`<span class="num">${s.itens.length} itens</span>`}</div>
+    ${s.aviso?`<div class="xs muted" style="margin-top:6px">${esc(s.aviso)}</div>`:""}</button>`; };
   const diag=/diagn/i, ehD30=s=>/^D30-/.test(s.id);
-  const fin=sims.filter(s=>!ehD30(s)&&!diag.test(s.tipo||""));
-  const ant=sims.filter(s=>(!ehD30(s)&&diag.test(s.tipo||""))||(ehD30(s)&&ultima(s)));
+  const fin=sims.filter(s=>!ehD30(s)&&!diag.test(s.tipo||"")&&!ultima(s));
+  const ant=sims.filter(s=>ultima(s)); // v17 R2: só o que foi feito, com a nota ao lado (final já feito inclusive)
   const bloco=(tit,arr,ehAnt)=>arr.length?`<div class="stack"><h2>${tit}</h2>${arr.map(s=>linha(s,ehAnt)).join("")}</div>`:"";
   app().innerHTML=`${topo()}<div class="stack l">
    <p><button class="link" id="volta">← Painel</button></p>
    <div><h1>Simulados</h1><p class="small muted" style="margin-top:6px">Itens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).</p></div>
-   ${bloco("Simulados finais",fin,false)||`<div class="vazio">Nenhum simulado disponível ainda.</div>`}${bloco("Simulados anteriores",ant,true)}
+   ${bloco("Simulados finais",fin,false)}${bloco("Simulados anteriores",ant,true)}${fin.length||ant.length?"":`<div class="vazio">Nenhum simulado disponível ainda.</div>`}
   </div>`;
   $("#volta").onclick=()=>ir("painel");
   app().querySelectorAll("[data-sim]").forEach(b=>b.onclick=()=>iniciar(b.dataset.sim));
@@ -1338,7 +1344,7 @@ function vSimulados(){
 function vDiscursivas(){
   const ds=P.discursivas||[]; const feita=d=>!!(S.disc[d.id]&&S.disc[d.id].entregue);
   const card=(d,ant)=>{ const st=S.disc[d.id]; const lin=d.tipo==="peca"?50:20; const num=String(d.id).replace(/\D/g,"");
-    return `<button class="card lotecard" data-disc="${esc(d.id)}"><div class="t1"><b>${d.tipo==="peca"?"Peça técnica":"Questão discursiva"} ${esc(num)}</b>${ant?`<span class="nt">nota estimada <b class="num">${fmt(st.nota)}</b></span>`:`<span>${lin} linhas</span>`}</div>
+    return `<button class="card lotecard" data-disc="${esc(d.id)}"><div class="t1"><b>${d.tipo==="peca"?"Peça técnica":"Questão discursiva"} ${esc(num)}</b>${ant?(Object.keys(st.notas||{}).length?`<span class="nt">nota estimada <b class="num">${fmt(st.nota||0)}</b></span>`:`<span class="nt">a corrigir</span>`):`<span>${lin} linhas</span>`}</div>
     <div class="small muted" style="margin-top:4px">${esc(primeiraFrase(d.comando))}</div>${!ant&&st&&st.texto?`<div class="xs" style="margin-top:6px">Rascunho guardado</div>`:""}</button>`; };
   const pend=ds.filter(d=>!feita(d)), ant=ds.filter(feita);
   app().innerHTML=`${topo()}<div class="stack l">

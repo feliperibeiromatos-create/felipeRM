@@ -8,15 +8,15 @@ Forma curta da seção 3.1 do `D4_registro_formato.md`, sem página e sem URL. C
 
 | código | nome por extenso (como vai ao texto) | onde está identificado | data de consulta registrada | itens que usam |
 |---|---|---|---|---|
-| G6 | o Guia da Política de Governança Pública (Casa Civil, 2018) | Base: saida/gcb/DA_reforco_leva8_v2.md:543; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-22.md:175 (seção 5) | 20/10/2026 | D4-R51 |
+| G6 | o Guia da Política de Governança Pública (Casa Civil, 2018) | Base (a do D4-R52, não a do D4-R51): saida/gcb/DA_reforco_leva8_v2.md:543; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-22.md:175 (seção 5) | 20/10/2026 | D4-R51 |
 | G9 | o Guia da Política de Governança Pública (Casa Civil, 2018) | Base: saida/gcb/DA_reforco_leva8_v2.md:322; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-22.md:178 (seção 5) | 20/10/2026 | D4-R38 |
 | R37 | o artigo de Bouckaert (ENAP, 2024) | Base: saida/gcb/DA_reforco_leva1_v2.md:124; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:153 (seção 5) | 20/10/2026 | D4-R01 |
-| R39 | o artigo de Bouckaert (ENAP, 2024) | Base: saida/gcb/DA_reforco_leva1_v2.md:139; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:155 (seção 5) | 20/10/2026 | D4-R02, D4-R05 |
+| R39 | o artigo de Bouckaert (ENAP, 2024) | Base: saida/gcb/DA_reforco_leva1_v2.md:139 e saida/gcb/DA_reforco_leva1_v2.md:185 (D4-R05); adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:155 (seção 5) | 20/10/2026 | D4-R02, D4-R05 |
 | R40 | o artigo de Bouckaert (ENAP, 2024) | Base: saida/gcb/DA_reforco_leva1_v2.md:200; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:156 (seção 5) | 20/10/2026 | D4-R06 |
 | R43 | o texto de Silvestre (ENAP, 2019) | Base: saida/gcb/DA_reforco_leva1_v2.md:170; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:159 (seção 5) | 20/10/2026 | D4-R04 |
 | R44 | o texto de Silvestre (ENAP, 2019) | Base: saida/gcb/DA_reforco_leva1_v2.md:325; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:160 (seção 5) | 20/10/2026 | D4-R14 |
 | R45 | o texto de Silvestre (ENAP, 2019) | Base: saida/gcb/DA_reforco_leva1_v2.md:231; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:161 (seção 5) | 20/10/2026 | D4-R08 |
-| R46 | o texto de Silvestre (ENAP, 2019) | Base: saida/gcb/DA_reforco_leva1_v2.md:216; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:162 (seção 5) | 20/10/2026 | D4-R07, D4-R11 |
+| R46 | o texto de Silvestre (ENAP, 2019) | Base: saida/gcb/DA_reforco_leva1_v2.md:216 e saida/gcb/DA_reforco_leva1_v2.md:279 (D4-R11); adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:162 (seção 5) | 20/10/2026 | D4-R07, D4-R11 |
 | R53 | o texto de Cavalcante (Ipea, 2018) | Base: saida/gcb/DA_reforco_leva1_v2.md:247; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:169 (seção 5) | 20/10/2026 | D4-R09 |
 | R54 | o texto de Cavalcante (Ipea, 2018) | Base: saida/gcb/DA_reforco_leva1_v2.md:294; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:170 (seção 5) | 20/10/2026 | D4-R18 |
 | R55 | o texto de Cavalcante (Ipea, 2018) | Base: saida/gcb/DA_reforco_leva1_v2.md:154; adendo: saida/gcb/D4_anexo_N_adendo_2026-10-20.md:171 (seção 5) | 20/10/2026 | D4-R03 |
@@ -149,3 +149,18 @@ Outras observações: nenhum "moldura", "folha" ou "cota" em sentido de conteúd
 Esclarecimento do ponto (5): o inventário PROCESSO de `marcas_processo.py` dá 2 casamentos nos 238 itens, antes e depois das edições, ambos "Presidência" em "Presidência da República" (D2-R21 e D2-R24, VERIFICAR/conteúdo, D1 seção 1.4, que manda não editar). Os casamentos fora esses dois: 0. Como o inventário na D1 da GBQ é lido com a lista X de conteúdo, o resíduo esperado é só esse par.
 
 Pendências: nenhuma código NÃO IDENTIFICADO; nenhuma marca achada em item sem MARCA; os pontos de redação para o QA estão no fim da seção (a).
+
+## Rodada 2 (resposta ao QA_T123_limpeza_R1_2026-10-23_gcb-cqfp.md)
+
+- **Veredito R1.** DEVOLVIDO (89 APROVADO, 2 CORRIGIR, 0 REPROVADO). Aceito sem objeção.
+- **Linha GCB-T123-0028 (D4-R20): acatado.** `antes` alargado para `R60 lista, entre as diretrizes para a boa governança do Referencial do TCU,`; `depois` = `O Referencial Básico de Governança Organizacional (TCU, 2020) lista, entre as diretrizes para a boa governança,`; `nota` = "alargado (sem repetir)". Texto exato do parecer, sem palavra nova.
+- **Linha GCB-T123-0032 (D4-R24): acatado.** `antes` = `R62 registra, no Referencial do TCU,`; `depois` = `O Referencial Básico de Governança Organizacional (TCU, 2020) registra`; `nota` = "alargado (sem repetir)". O VERIFICAR "produção" do D4-R24 segue intacto.
+- **Demais 89 linhas: sem alteração.** `T123_substituicoes_DA_v2.csv` difere da v1 só nas linhas 0028 e 0032 (colunas antes, depois, nota), conferido por script (ver abaixo). Com essas duas, as linhas alargadas passam de 50 para 52 de 91; a lista da seção (c) fica desatualizada nesses dois ids e vale esta rodada.
+- **P2, G6: acatado.** A Base citada na tabela de fontes (l. 543 da leva 8) é a do D4-R52, e não a do D4-R51 (l. 527 é G5). A linha de G6 foi corrigida para dizer isso; o G6 no D4-R51 está na justificativa e no campo "Troca", identificado no adendo de 22/10, seção 5, l. 175. A deleção do D4-R51 (0091) não muda.
+- **P2, R39 e R46: acatado.** Acrescentadas as Bases do D4-R05 (leva 1, l. 185, código R39) e do D4-R11 (leva 1, l. 279, código R46) às linhas de R39 e R46.
+- **P1 (GBQ):** não é desta unidade; registrado. Os dois casamentos "Presidência da República" (D2-R21, D2-R24) seguem como conteúdo (VERIFICAR) e ficam intactos.
+- **Autoconferência da rodada (python -I, só leitura):** resultado abaixo.
+  - Diff v1 x v2 (bytes): 93 linhas físicas em cada (cabeçalho + 91 + final vazio); diferem só as linhas 29 e 33 do arquivo (GCB-T123-0028 e GCB-T123-0032); cabeçalho igual; sem CR; 91 registros. **PASSA.**
+  - `antes` das duas linhas: ocorre 1 vez na justificativa do item (D4-R20 e D4-R24) e contém o `antes_unico` (R60 / R62). **PASSA.**
+  - Texto resultante: sem "Referencial do TCU" residual; as frases ficam "O Referencial Básico de Governança Organizacional (TCU, 2020) lista, entre as diretrizes para a boa governança, a de apoiar..." e "... (TCU, 2020) registra a classificação das atividades...". **PASSA.**
+  - Demais critérios da mecânica (a, c, d, e, f do parecer, seção 1) dependem só de `antes`/`depois`/`acao`/`operacao`/`fonte_origem`, que não mudam nas outras 89 linhas; as linhas 0028 e 0032 continuam SUBSTITUIR, operação 6, com `fonte_origem` preenchida.

@@ -1,0 +1,2295 @@
+{
+ "tarefa": "T-123 (D1 da GBQ, seção 8.1)",
+ "script": "saida/pacote/montagem_v1_14/conferir_t123.py",
+ "entradas": {
+  "saida/pacote/montagem_v1_13/out/pacote.json": "82c4117cccc0902ddf711798c926049950a27db8e68d4402babf4b007fddf240",
+  "saida/pacote/montagem_v1_13/out/pacote_estudante.json": "04cbd593fdd30404ecb7f91f6b6722da6b2fc24e58d3c0eb68b10a4e792a0c40",
+  "banco/banco.csv": "b1c1588f8b4a80a233e7b8d485992d07e9adeb2570fb2343573ab7fde9a5721f",
+  "saida/gcb/DA_plataforma/DA_reforco_substituicoes.csv": "df9f53bd7dc3f18631c77528b32683dd89e77e27dea167918fd1edee014db501",
+  "saida/gcb/DA_plataforma/DA_reforco_registro_formato.md": "a511fd8d3b79b806dc3a87f06d294ed346d05f2d05766089b80103d6374b820e",
+  "saida/gcb/DA_plataforma/FORMATO_PLATAFORMA_DA.md": "f3fd4667af5b1c0ad8d8ef9e21259074599a3f09b7c3610f36923de029d75068",
+  "saida/pacote/montagem_v1_14/out/reforco_bruto.json": "87264c2f3f1dc5447127bba6757b5b31432e85beb0a743fac4e304589adee497",
+  "saida/gcb/DA_reforco_leva1_v2.md": "2c431529a5440d4a2bf2bb617bc75d496949dff28a824e0215322d00d79a4f04",
+  "saida/gcb/DA_reforco_leva2_v2.md": "5baec20d81eea47f50e79275375668284d58ff5649f85a06c37552cd0f161bbe",
+  "saida/gcb/DA_reforco_leva3_v2.md": "e4c2a91191b4e5b3180317ce28653514a438896929291168c83b3a2c4a513237",
+  "saida/gcb/DA_reforco_leva4_v2.md": "57203ae3a68042012989b549d19f2dbd5703623b5de3619275b3f05a2f8338da",
+  "saida/gcb/DA_reforco_leva5_v2.md": "b531014bcf2cf158890ffa4293062e796e505151a57dced14e8462875a8f81c4",
+  "saida/gcb/DA_reforco_leva6_v2.md": "0b8ccd4d07bf7d97cb9c1728c6bf4c18e3c5f7c9ac557e27f4537c068c96090b",
+  "saida/gcb/DA_reforco_leva7_v2.md": "c4f50b9ecabb3f0c99592d4bd997012b647a2b6b5b10ab5521eece385fe1f764",
+  "saida/gcb/DA_reforco_leva8_v2.md": "1fdce9bde3393b445cabd75d50064fb2a2fdde103c03415dc82256c203bf6f2c"
+ },
+ "saidas": {
+  "out/pacote.json": "070bc237fcc7371a23365f6e66c9341cf5c0aee08ad9206a9f7be6c06150d495",
+  "out/pacote_estudante.json": "6b56a7f8a1c7c42a01e145b0da35ab48691496fde82d2a9ee8fd4a6ff195b9ab"
+ },
+ "total_criterios": 99,
+ "OK": 99,
+ "FALHA": 0,
+ "PENDENTE": 0,
+ "por_grupo": {
+  "C-SHA": {
+   "OK": 19
+  },
+  "C-INTACTA": {
+   "OK": 13
+  },
+  "C-TOTAIS": {
+   "OK": 11
+  },
+  "C-REFORCO": {
+   "OK": 9
+  },
+  "C-JUST": {
+   "OK": 2
+  },
+  "C-MARCAS": {
+   "OK": 4
+  },
+  "C-BANCO": {
+   "OK": 8
+  },
+  "C-ESTUDANTE": {
+   "OK": 9
+  },
+  "C-FOLHAS": {
+   "OK": 6
+  },
+  "C-DIAG30": {
+   "OK": 4
+  },
+  "C-MOLDURA": {
+   "OK": 4
+  },
+  "C-MD": {
+   "OK": 9
+  },
+  "C-MANIFESTO": {
+   "OK": 1
+  }
+ },
+ "criterios": [
+  {
+   "id": "C-SHA.base_pacote",
+   "criterio": "saida/pacote/montagem_v1_13/out/pacote.json: SHA-256 LF",
+   "esperado": "82c4117cccc0902ddf711798c926049950a27db8e68d4402babf4b007fddf240",
+   "obtido": "82c4117cccc0902ddf711798c926049950a27db8e68d4402babf4b007fddf240",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.base_estudante",
+   "criterio": "saida/pacote/montagem_v1_13/out/pacote_estudante.json: SHA-256 LF",
+   "esperado": "04cbd593fdd30404ecb7f91f6b6722da6b2fc24e58d3c0eb68b10a4e792a0c40",
+   "obtido": "04cbd593fdd30404ecb7f91f6b6722da6b2fc24e58d3c0eb68b10a4e792a0c40",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.banco",
+   "criterio": "banco/banco.csv: SHA-256 LF",
+   "esperado": "b1c1588f8b4a80a233e7b8d485992d07e9adeb2570fb2343573ab7fde9a5721f",
+   "obtido": "b1c1588f8b4a80a233e7b8d485992d07e9adeb2570fb2343573ab7fde9a5721f",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.csv",
+   "criterio": "saida/gcb/DA_plataforma/DA_reforco_substituicoes.csv: SHA-256 LF",
+   "esperado": "df9f53bd7dc3f18631c77528b32683dd89e77e27dea167918fd1edee014db501",
+   "obtido": "df9f53bd7dc3f18631c77528b32683dd89e77e27dea167918fd1edee014db501",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.registro",
+   "criterio": "saida/gcb/DA_plataforma/DA_reforco_registro_formato.md: SHA-256 LF",
+   "esperado": "a511fd8d3b79b806dc3a87f06d294ed346d05f2d05766089b80103d6374b820e",
+   "obtido": "a511fd8d3b79b806dc3a87f06d294ed346d05f2d05766089b80103d6374b820e",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.formato",
+   "criterio": "saida/gcb/DA_plataforma/FORMATO_PLATAFORMA_DA.md: SHA-256 LF",
+   "esperado": "f3fd4667af5b1c0ad8d8ef9e21259074599a3f09b7c3610f36923de029d75068",
+   "obtido": "f3fd4667af5b1c0ad8d8ef9e21259074599a3f09b7c3610f36923de029d75068",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.bruto",
+   "criterio": "saida/pacote/montagem_v1_14/out/reforco_bruto.json: SHA-256 LF",
+   "esperado": "87264c2f3f1dc5447127bba6757b5b31432e85beb0a743fac4e304589adee497",
+   "obtido": "87264c2f3f1dc5447127bba6757b5b31432e85beb0a743fac4e304589adee497",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva1",
+   "criterio": "saida/gcb/DA_reforco_leva1_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "2c431529a5440d4a2bf2bb617bc75d496949dff28a824e0215322d00d79a4f04",
+   "obtido": "2c431529a5440d4a2bf2bb617bc75d496949dff28a824e0215322d00d79a4f04",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva2",
+   "criterio": "saida/gcb/DA_reforco_leva2_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "5baec20d81eea47f50e79275375668284d58ff5649f85a06c37552cd0f161bbe",
+   "obtido": "5baec20d81eea47f50e79275375668284d58ff5649f85a06c37552cd0f161bbe",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva3",
+   "criterio": "saida/gcb/DA_reforco_leva3_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "e4c2a91191b4e5b3180317ce28653514a438896929291168c83b3a2c4a513237",
+   "obtido": "e4c2a91191b4e5b3180317ce28653514a438896929291168c83b3a2c4a513237",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva4",
+   "criterio": "saida/gcb/DA_reforco_leva4_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "57203ae3a68042012989b549d19f2dbd5703623b5de3619275b3f05a2f8338da",
+   "obtido": "57203ae3a68042012989b549d19f2dbd5703623b5de3619275b3f05a2f8338da",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva5",
+   "criterio": "saida/gcb/DA_reforco_leva5_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "b531014bcf2cf158890ffa4293062e796e505151a57dced14e8462875a8f81c4",
+   "obtido": "b531014bcf2cf158890ffa4293062e796e505151a57dced14e8462875a8f81c4",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva6",
+   "criterio": "saida/gcb/DA_reforco_leva6_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "0b8ccd4d07bf7d97cb9c1728c6bf4c18e3c5f7c9ac557e27f4537c068c96090b",
+   "obtido": "0b8ccd4d07bf7d97cb9c1728c6bf4c18e3c5f7c9ac557e27f4537c068c96090b",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva7",
+   "criterio": "saida/gcb/DA_reforco_leva7_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "c4f50b9ecabb3f0c99592d4bd997012b647a2b6b5b10ab5521eece385fe1f764",
+   "obtido": "c4f50b9ecabb3f0c99592d4bd997012b647a2b6b5b10ab5521eece385fe1f764",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.leva8",
+   "criterio": "saida/gcb/DA_reforco_leva8_v2.md: SHA-256 LF = o da linha de aceite em DECISOES.md",
+   "esperado": "1fdce9bde3393b445cabd75d50064fb2a2fdde103c03415dc82256c203bf6f2c",
+   "obtido": "1fdce9bde3393b445cabd75d50064fb2a2fdde103c03415dc82256c203bf6f2c",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.pacote",
+   "criterio": "out/pacote.json = json.dumps(ensure_ascii=False, indent=1)+LF do objeto lido; 0 CR",
+   "esperado": [
+    true,
+    0
+   ],
+   "obtido": [
+    true,
+    0
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.estudante",
+   "criterio": "out/pacote_estudante.json = json.dumps(ensure_ascii=False, indent=1)+LF do objeto lido; 0 CR",
+   "esperado": [
+    true,
+    0
+   ],
+   "obtido": [
+    true,
+    0
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.contrato",
+   "criterio": "regras/pacote_contrato.md (v1.2.12): SHA-256 LF",
+   "esperado": "3916ad994cd06ee74b13ba545de5af3b6c241d0004eb0625e922973ab76c38df",
+   "obtido": "3916ad994cd06ee74b13ba545de5af3b6c241d0004eb0625e922973ab76c38df",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-SHA.contrato_titulo",
+   "criterio": "regras/pacote_contrato.md: linha 1 com (v1.2.12, 2026-10-23)",
+   "esperado": true,
+   "obtido": true,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.itens",
+   "criterio": "os 1.159 itens da v1.13 são iguais como objeto e estão na mesma ordem relativa no pacote.json",
+   "esperado": true,
+   "obtido": true,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.versao",
+   "criterio": "versao do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.edital",
+   "criterio": "edital do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.simulados",
+   "criterio": "simulados do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.lotes",
+   "criterio": "lotes do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.discursivas",
+   "criterio": "discursivas do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.topicos",
+   "criterio": "topicos do pacote.json e do estudante iguais aos da v1.13",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.estudante",
+   "criterio": "itens da v1.13 no pacote_estudante: iguais aos da v1.13-E, salvo o nucleo (mesma ordem)",
+   "esperado": true,
+   "obtido": true,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.simulados",
+   "criterio": "nenhum item de DA entra em simulados (simulados iguais aos da v1.13)",
+   "esperado": true,
+   "obtido": true,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.manifesto13_n",
+   "criterio": "MANIFESTO_v1_13: 70 arquivos listados (e o total declarado)",
+   "esperado": [
+    70,
+    [
+     70
+    ]
+   ],
+   "obtido": [
+    70,
+    [
+     70
+    ]
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.manifesto13",
+   "criterio": "os 70 arquivos do MANIFESTO_v1_13 têm bytes e SHA-256 inalterados (em disco ou em LF, conforme o fim de linha da árvore)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.plataforma_json",
+   "criterio": "os 6 D<n>_plataforma.json têm o SHA-256 (LF) da seção 4 do MANIFESTO_v1_13",
+   "esperado": [
+    6,
+    []
+   ],
+   "obtido": [
+    6,
+    []
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-INTACTA.git",
+   "criterio": "levas, D<n>_plataforma.json, plataforma v16, montagem_v1_13 e gerador_v1_12 sem modificação no git (git status --porcelain vazio)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.itens",
+   "criterio": "1.433 itens, ids únicos",
+   "esperado": [
+    1433,
+    1433
+   ],
+   "obtido": [
+    1433,
+    1433
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.ce",
+   "criterio": "C/E no pacote",
+   "esperado": [
+    730,
+    703
+   ],
+   "obtido": [
+    730,
+    703
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.da",
+   "criterio": "DA: 684 itens, C/E 350/334",
+   "esperado": [
+    684,
+    350,
+    334
+   ],
+   "obtido": [
+    684,
+    350,
+    334
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.reforco",
+   "criterio": "reforço: 238 itens, C/E 122/116",
+   "esperado": [
+    238,
+    122,
+    116
+   ],
+   "obtido": [
+    238,
+    122,
+    116
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.por_leva",
+   "criterio": "reforço por leva no pacote (n, C, E, parciais) = tabela da seção 2.1",
+   "esperado": {
+    "1": [
+     30,
+     15,
+     15,
+     8
+    ],
+    "2": [
+     30,
+     17,
+     13,
+     2
+    ],
+    "3": [
+     30,
+     16,
+     14,
+     11
+    ],
+    "4": [
+     28,
+     15,
+     13,
+     5
+    ],
+    "5": [
+     30,
+     16,
+     14,
+     0
+    ],
+    "6": [
+     30,
+     14,
+     16,
+     0
+    ],
+    "7": [
+     30,
+     15,
+     15,
+     8
+    ],
+    "8": [
+     30,
+     14,
+     16,
+     1
+    ]
+   },
+   "obtido": {
+    "1": [
+     30,
+     15,
+     15,
+     8
+    ],
+    "2": [
+     30,
+     17,
+     13,
+     2
+    ],
+    "3": [
+     30,
+     16,
+     14,
+     11
+    ],
+    "4": [
+     28,
+     15,
+     13,
+     5
+    ],
+    "5": [
+     30,
+     16,
+     14,
+     0
+    ],
+    "6": [
+     30,
+     14,
+     16,
+     0
+    ],
+    "7": [
+     30,
+     15,
+     15,
+     8
+    ],
+    "8": [
+     30,
+     14,
+     16,
+     1
+    ]
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.por_leva_ts",
+   "criterio": "[TS] por leva (cabeçalho do bloco da seção 2 de cada leva) = tabela da seção 2.1",
+   "esperado": {
+    "1": 16,
+    "2": 13,
+    "3": 14,
+    "4": 13,
+    "5": 14,
+    "6": 15,
+    "7": 13,
+    "8": 16
+   },
+   "obtido": {
+    "1": 16,
+    "2": 13,
+    "3": 14,
+    "4": 13,
+    "5": 14,
+    "6": 15,
+    "7": 13,
+    "8": 16
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.por_lote",
+   "criterio": "reforço por lote (n, C, E) = tabela da seção 2.1",
+   "esperado": {
+    "D1": [
+     12,
+     6,
+     6
+    ],
+    "D2": [
+     80,
+     40,
+     40
+    ],
+    "D3": [
+     89,
+     49,
+     40
+    ],
+    "D4": [
+     57,
+     27,
+     30
+    ]
+   },
+   "obtido": {
+    "D1": [
+     12,
+     6,
+     6
+    ],
+    "D2": [
+     80,
+     40,
+     40
+    ],
+    "D3": [
+     89,
+     49,
+     40
+    ],
+    "D4": [
+     57,
+     27,
+     30
+    ]
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.lote_v114",
+   "criterio": "itens por lote na v1.14 (D1 72, D2 160, D3 160, D4 136, D5 70, D6 50)",
+   "esperado": {
+    "D1": 72,
+    "D2": 160,
+    "D3": 160,
+    "D4": 136,
+    "D5": 70,
+    "D6": 50
+   },
+   "obtido": {
+    "D1": 72,
+    "D2": 160,
+    "D3": 160,
+    "D4": 136,
+    "D5": 70,
+    "D6": 50
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.banco",
+   "criterio": "banco: 142 itens (106 + 36) no bloco contíguo inicial, em ordem de id; nenhum BQ depois",
+   "esperado": [
+    142,
+    true,
+    true
+   ],
+   "obtido": [
+    142,
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.edital",
+   "criterio": "todo itemEdital existe no edital",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-TOTAIS.ordem",
+   "criterio": "ordem de itens: bloco de banco da v1.13 (106), 36 novos, 1.053 não-banco da v1.13 e 238 de reforço",
+   "esperado": true,
+   "obtido": true,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.ids",
+   "criterio": "os 238 ids do pacote = os 238 ids das levas, na ordem das levas",
+   "esperado": [
+    "D4-R01",
+    "D4-R02",
+    "D4-R03",
+    "D4-R04",
+    "D4-R05",
+    "D4-R06",
+    "D4-R07",
+    "D4-R08",
+    "D4-R09",
+    "D4-R10",
+    "D4-R11",
+    "D4-R18",
+    "D4-R13",
+    "D4-R14",
+    "D3-R01",
+    "D3-R02",
+    "D3-R03",
+    "D3-R04",
+    "D3-R05",
+    "D3-R06",
+    "D3-R07",
+    "D3-R08",
+    "D3-R09",
+    "D3-R10",
+    "D3-R11",
+    "D3-R12",
+    "D3-R13",
+    "D4-R15",
+    "D4-R16",
+    "D4-R17",
+    "D4-R19",
+    "D4-R20",
+    "D4-R21",
+    "D4-R22",
+    "D4-R23",
+    "D4-R24",
+    "D4-R25",
+    "D4-R26",
+    "D4-R27",
+    "D4-R28",
+    "D1-R01",
+    "D1-R02",
+    "D1-R13",
+    "D1-R04",
+    "D1-R05",
+    "D1-R06",
+    "D1-R07",
+    "D1-R08",
+    "D1-R09",
+    "D1-R10",
+    "D1-R11",
+    "D1-R12",
+    "D3-R14",
+    "D3-R15",
+    "D3-R16",
+    "D3-R17",
+    "D3-R18",
+    "D3-R19",
+    "D3-R20",
+    "D3-R21",
+    "D3-R22",
+    "D3-R23",
+    "D3-R24",
+    "D3-R25",
+    "D3-R26",
+    "D3-R27",
+    "D3-R28",
+    "D3-R29",
+    "D3-R30",
+    "D3-R31",
+    "D3-R32",
+    "D3-R33",
+    "D3-R34",
+    "D3-R35",
+    "D3-R36",
+    "D3-R37",
+    "D3-R38",
+    "D3-R39",
+    "D3-R40",
+    "D3-R41",
+    "D3-R42",
+    "D3-R43",
+    "D3-R44",
+    "D3-R45",
+    "D3-R46",
+    "D3-R47",
+    "D3-R48",
+    "D3-R49",
+    "D3-R50",
+    "D3-R51",
+    "D3-R52",
+    "D3-R53",
+    "D3-R54",
+    "D3-R55",
+    "D3-R56",
+    "D3-R57",
+    "D3-R58",
+    "D3-R59",
+    "D2-R01",
+    "D2-R02",
+    "D2-R03",
+    "D2-R04",
+    "D2-R05",
+    "D2-R06",
+    "D2-R07",
+    "D2-R08",
+    "D2-R09",
+    "D2-R10",
+    "D2-R11",
+    "D2-R12",
+    "D2-R13",
+    "D2-R14",
+    "D2-R15",
+    "D2-R16",
+    "D2-R17",
+    "D2-R18",
+    "D2-R19",
+    "D2-R20",
+    "D2-R21",
+    "D2-R22",
+    "D2-R23",
+    "D2-R24",
+    "D2-R25",
+    "D2-R26",
+    "D2-R27",
+    "D2-R28",
+    "D2-R29",
+    "D2-R30",
+    "D2-R31",
+    "D2-R32",
+    "D2-R33",
+    "D2-R34",
+    "D2-R35",
+    "D2-R36",
+    "D2-R37",
+    "D2-R38",
+    "D2-R39",
+    "D2-R40",
+    "D2-R41",
+    "D2-R42",
+    "D2-R43",
+    "D2-R44",
+    "D2-R45",
+    "D2-R46",
+    "D2-R47",
+    "D2-R48",
+    "D2-R49",
+    "D2-R50",
+    "D2-R51",
+    "D2-R52",
+    "D2-R53",
+    "D2-R54",
+    "D2-R55",
+    "D2-R56",
+    "D2-R57",
+    "D2-R58",
+    "D2-R59",
+    "D2-R60",
+    "D2-R61",
+    "D2-R62",
+    "D2-R63",
+    "D2-R64",
+    "D2-R65",
+    "D2-R66",
+    "D2-R67",
+    "D2-R68",
+    "D2-R69",
+    "D2-R70",
+    "D2-R71",
+    "D2-R72",
+    "D2-R73",
+    "D2-R74",
+    "D2-R75",
+    "D2-R76",
+    "D2-R77",
+    "D2-R78",
+    "D2-R79",
+    "D2-R80",
+    "D3-R60",
+    "D3-R61",
+    "D3-R62",
+    "D3-R63",
+    "D3-R64",
+    "D3-R65",
+    "D3-R66",
+    "D3-R67",
+    "D3-R68",
+    "D3-R69",
+    "D3-R70",
+    "D3-R71",
+    "D3-R72",
+    "D3-R73",
+    "D3-R74",
+    "D3-R75",
+    "D3-R76",
+    "D3-R77",
+    "D3-R78",
+    "D3-R79",
+    "D3-R80",
+    "D3-R81",
+    "D3-R82",
+    "D3-R83",
+    "D3-R84",
+    "D3-R85",
+    "D3-R86",
+    "D3-R87",
+    "D3-R88",
+    "D3-R89",
+    "D4-R29",
+    "D4-R30",
+    "D4-R31",
+    "D4-R32",
+    "D4-R33",
+    "D4-R34",
+    "D4-R35",
+    "D4-R36",
+    "D4-R37",
+    "D4-R38",
+    "D4-R39",
+    "D4-R40",
+    "D4-R41",
+    "D4-R42",
+    "D4-R43",
+    "D4-R44",
+    "D4-R45",
+    "D4-R46",
+    "D4-R47",
+    "D4-R48",
+    "D4-R49",
+    "D4-R50",
+    "D4-R51",
+    "D4-R52",
+    "D4-R53",
+    "D4-R54",
+    "D4-R55",
+    "D4-R56",
+    "D4-R57",
+    "D4-R58"
+   ],
+   "obtido": [
+    "D4-R01",
+    "D4-R02",
+    "D4-R03",
+    "D4-R04",
+    "D4-R05",
+    "D4-R06",
+    "D4-R07",
+    "D4-R08",
+    "D4-R09",
+    "D4-R10",
+    "D4-R11",
+    "D4-R18",
+    "D4-R13",
+    "D4-R14",
+    "D3-R01",
+    "D3-R02",
+    "D3-R03",
+    "D3-R04",
+    "D3-R05",
+    "D3-R06",
+    "D3-R07",
+    "D3-R08",
+    "D3-R09",
+    "D3-R10",
+    "D3-R11",
+    "D3-R12",
+    "D3-R13",
+    "D4-R15",
+    "D4-R16",
+    "D4-R17",
+    "D4-R19",
+    "D4-R20",
+    "D4-R21",
+    "D4-R22",
+    "D4-R23",
+    "D4-R24",
+    "D4-R25",
+    "D4-R26",
+    "D4-R27",
+    "D4-R28",
+    "D1-R01",
+    "D1-R02",
+    "D1-R13",
+    "D1-R04",
+    "D1-R05",
+    "D1-R06",
+    "D1-R07",
+    "D1-R08",
+    "D1-R09",
+    "D1-R10",
+    "D1-R11",
+    "D1-R12",
+    "D3-R14",
+    "D3-R15",
+    "D3-R16",
+    "D3-R17",
+    "D3-R18",
+    "D3-R19",
+    "D3-R20",
+    "D3-R21",
+    "D3-R22",
+    "D3-R23",
+    "D3-R24",
+    "D3-R25",
+    "D3-R26",
+    "D3-R27",
+    "D3-R28",
+    "D3-R29",
+    "D3-R30",
+    "D3-R31",
+    "D3-R32",
+    "D3-R33",
+    "D3-R34",
+    "D3-R35",
+    "D3-R36",
+    "D3-R37",
+    "D3-R38",
+    "D3-R39",
+    "D3-R40",
+    "D3-R41",
+    "D3-R42",
+    "D3-R43",
+    "D3-R44",
+    "D3-R45",
+    "D3-R46",
+    "D3-R47",
+    "D3-R48",
+    "D3-R49",
+    "D3-R50",
+    "D3-R51",
+    "D3-R52",
+    "D3-R53",
+    "D3-R54",
+    "D3-R55",
+    "D3-R56",
+    "D3-R57",
+    "D3-R58",
+    "D3-R59",
+    "D2-R01",
+    "D2-R02",
+    "D2-R03",
+    "D2-R04",
+    "D2-R05",
+    "D2-R06",
+    "D2-R07",
+    "D2-R08",
+    "D2-R09",
+    "D2-R10",
+    "D2-R11",
+    "D2-R12",
+    "D2-R13",
+    "D2-R14",
+    "D2-R15",
+    "D2-R16",
+    "D2-R17",
+    "D2-R18",
+    "D2-R19",
+    "D2-R20",
+    "D2-R21",
+    "D2-R22",
+    "D2-R23",
+    "D2-R24",
+    "D2-R25",
+    "D2-R26",
+    "D2-R27",
+    "D2-R28",
+    "D2-R29",
+    "D2-R30",
+    "D2-R31",
+    "D2-R32",
+    "D2-R33",
+    "D2-R34",
+    "D2-R35",
+    "D2-R36",
+    "D2-R37",
+    "D2-R38",
+    "D2-R39",
+    "D2-R40",
+    "D2-R41",
+    "D2-R42",
+    "D2-R43",
+    "D2-R44",
+    "D2-R45",
+    "D2-R46",
+    "D2-R47",
+    "D2-R48",
+    "D2-R49",
+    "D2-R50",
+    "D2-R51",
+    "D2-R52",
+    "D2-R53",
+    "D2-R54",
+    "D2-R55",
+    "D2-R56",
+    "D2-R57",
+    "D2-R58",
+    "D2-R59",
+    "D2-R60",
+    "D2-R61",
+    "D2-R62",
+    "D2-R63",
+    "D2-R64",
+    "D2-R65",
+    "D2-R66",
+    "D2-R67",
+    "D2-R68",
+    "D2-R69",
+    "D2-R70",
+    "D2-R71",
+    "D2-R72",
+    "D2-R73",
+    "D2-R74",
+    "D2-R75",
+    "D2-R76",
+    "D2-R77",
+    "D2-R78",
+    "D2-R79",
+    "D2-R80",
+    "D3-R60",
+    "D3-R61",
+    "D3-R62",
+    "D3-R63",
+    "D3-R64",
+    "D3-R65",
+    "D3-R66",
+    "D3-R67",
+    "D3-R68",
+    "D3-R69",
+    "D3-R70",
+    "D3-R71",
+    "D3-R72",
+    "D3-R73",
+    "D3-R74",
+    "D3-R75",
+    "D3-R76",
+    "D3-R77",
+    "D3-R78",
+    "D3-R79",
+    "D3-R80",
+    "D3-R81",
+    "D3-R82",
+    "D3-R83",
+    "D3-R84",
+    "D3-R85",
+    "D3-R86",
+    "D3-R87",
+    "D3-R88",
+    "D3-R89",
+    "D4-R29",
+    "D4-R30",
+    "D4-R31",
+    "D4-R32",
+    "D4-R33",
+    "D4-R34",
+    "D4-R35",
+    "D4-R36",
+    "D4-R37",
+    "D4-R38",
+    "D4-R39",
+    "D4-R40",
+    "D4-R41",
+    "D4-R42",
+    "D4-R43",
+    "D4-R44",
+    "D4-R45",
+    "D4-R46",
+    "D4-R47",
+    "D4-R48",
+    "D4-R49",
+    "D4-R50",
+    "D4-R51",
+    "D4-R52",
+    "D4-R53",
+    "D4-R54",
+    "D4-R55",
+    "D4-R56",
+    "D4-R57",
+    "D4-R58"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.texto",
+   "criterio": "enunciado, gabarito, itemEdital e aderência de cada um dos 238 = releitura independente da leva, com as erratas",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.erratas",
+   "criterio": "erratas D3-R13, D3-R18 e D3-R75: antes 1 vez e depois 0 vez antes de aplicar",
+   "esperado": {
+    "D3-R13": [
+     1,
+     0
+    ],
+    "D3-R18": [
+     1,
+     0
+    ],
+    "D3-R75": [
+     1,
+     0
+    ]
+   },
+   "obtido": {
+    "D3-R13": [
+     1,
+     0
+    ],
+    "D3-R18": [
+     1,
+     0
+    ],
+    "D3-R75": [
+     1,
+     0
+    ]
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.d3r13_r18",
+   "criterio": "D3-R13 e D3-R18: enunciado esperado inteiro (o \"depois\" ocorre 1 vez e o \"antes\" 0)",
+   "esperado": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "obtido": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.d3r75",
+   "criterio": "D3-R75: linha 2 da justificativa = texto da seção 2.2 da D1 (por igualdade) e contida na justificativa do item",
+   "esperado": [
+    "O item troca “uma quinta parte” por “um terço”, teto maior, o que contradiz o limite da letra; o valor “terço” não ocorre na Lei 4.619, cujo único limite de desconto é o do art. 6º.",
+    true
+   ],
+   "obtido": [
+    "O item troca “uma quinta parte” por “um terço”, teto maior, o que contradiz o limite da letra; o valor “terço” não ocorre na Lei 4.619, cujo único limite de desconto é o do art. 6º.",
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.e3e4",
+   "criterio": "AJ-L8-E3 e AJ-L8-E4 sem aceite: o \"antes\" ocorre 1 vez no enunciado do D4-R42 e do D4-R52",
+   "esperado": [
+    1,
+    1
+   ],
+   "obtido": [
+    1,
+    1
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.vagos",
+   "criterio": "D1-R03 e D4-R12 ausentes; D3-R75 logo depois do D3-R74",
+   "esperado": [
+    false,
+    false,
+    true
+   ],
+   "obtido": [
+    false,
+    false,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.parciais",
+   "criterio": "aderencia \"parcial\" exatamente nos 35 ids; nenhum volatil nos 238",
+   "esperado": [
+    [
+     "D3-R01",
+     "D3-R04",
+     "D3-R06",
+     "D3-R08",
+     "D3-R09",
+     "D3-R10",
+     "D3-R12",
+     "D3-R13",
+     "D3-R18",
+     "D3-R20",
+     "D3-R22",
+     "D3-R23",
+     "D3-R24",
+     "D3-R25",
+     "D3-R31",
+     "D3-R36",
+     "D3-R37",
+     "D3-R42",
+     "D3-R44",
+     "D3-R46",
+     "D3-R48",
+     "D3-R52",
+     "D3-R53",
+     "D3-R56",
+     "D3-R57",
+     "D3-R58",
+     "D3-R70",
+     "D3-R72",
+     "D3-R73",
+     "D3-R75",
+     "D3-R76",
+     "D3-R77",
+     "D3-R78",
+     "D3-R79",
+     "D4-R44"
+    ],
+    0
+   ],
+   "obtido": [
+    [
+     "D3-R01",
+     "D3-R04",
+     "D3-R06",
+     "D3-R08",
+     "D3-R09",
+     "D3-R10",
+     "D3-R12",
+     "D3-R13",
+     "D3-R18",
+     "D3-R20",
+     "D3-R22",
+     "D3-R23",
+     "D3-R24",
+     "D3-R25",
+     "D3-R31",
+     "D3-R36",
+     "D3-R37",
+     "D3-R42",
+     "D3-R44",
+     "D3-R46",
+     "D3-R48",
+     "D3-R52",
+     "D3-R53",
+     "D3-R56",
+     "D3-R57",
+     "D3-R58",
+     "D3-R70",
+     "D3-R72",
+     "D3-R73",
+     "D3-R75",
+     "D3-R76",
+     "D3-R77",
+     "D3-R78",
+     "D3-R79",
+     "D4-R44"
+    ],
+    0
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-REFORCO.fixos",
+   "criterio": "campos fixos e ordem dos campos dos 238 (rotulo AUTORAL; certame; cargo; ano 2026; numero = o nn do id; comando; textoBase \"\"; url = arquivo da leva)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-JUST.subs",
+   "criterio": "as 91 substituições da GCB: cada antes exatamente 1 vez (texto corrente), campo justificativa",
+   "esperado": [
+    91,
+    []
+   ],
+   "obtido": [
+    91,
+    []
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-JUST.texto",
+   "criterio": "justificativa dos 238 = j1 + \" \" + j2, depois das erratas e das substituições da GCB",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MARCAS.n",
+   "criterio": "itens novos varridos (238 de reforço + 36 de banco)",
+   "esperado": 274,
+   "obtido": 274,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MARCAS.cm",
+   "criterio": "C-MARCAS (D1, 8.1) em enunciado e justificativa dos 274: 0 ocorrências",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MARCAS.processo",
+   "criterio": "PROCESSO (marcas_processo.py, lista R; SHA-256 LF 7ee30de4…c140) em enunciado e justificativa dos 274: 0 fora da lista X de conteúdo",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MARCAS.x",
+   "criterio": "lista X de conteúdo (\"Presidência da República\" em D2-R21 e D2-R24, justificativa): contagem real = esperada",
+   "esperado": {
+    "X-T123-1": 1,
+    "X-T123-2": 1
+   },
+   "obtido": {
+    "X-T123-1": 1,
+    "X-T123-2": 1
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.ids",
+   "criterio": "os 36 ids do banco P1-DA (BQ-0113 a BQ-0130, 0132, 0134 a 0140, 0142 a 0150, 0152), na ordem do id",
+   "esperado": [
+    36,
+    [
+     "BQ-0113",
+     "BQ-0114",
+     "BQ-0115",
+     "BQ-0116",
+     "BQ-0117",
+     "BQ-0118",
+     "BQ-0119",
+     "BQ-0120",
+     "BQ-0121",
+     "BQ-0122",
+     "BQ-0123",
+     "BQ-0124",
+     "BQ-0125",
+     "BQ-0126",
+     "BQ-0127",
+     "BQ-0128",
+     "BQ-0129",
+     "BQ-0130",
+     "BQ-0132",
+     "BQ-0134",
+     "BQ-0135",
+     "BQ-0136",
+     "BQ-0137",
+     "BQ-0138",
+     "BQ-0139",
+     "BQ-0140",
+     "BQ-0142",
+     "BQ-0143",
+     "BQ-0144",
+     "BQ-0145",
+     "BQ-0146",
+     "BQ-0147",
+     "BQ-0148",
+     "BQ-0149",
+     "BQ-0150",
+     "BQ-0152"
+    ]
+   ],
+   "obtido": [
+    36,
+    [
+     "BQ-0113",
+     "BQ-0114",
+     "BQ-0115",
+     "BQ-0116",
+     "BQ-0117",
+     "BQ-0118",
+     "BQ-0119",
+     "BQ-0120",
+     "BQ-0121",
+     "BQ-0122",
+     "BQ-0123",
+     "BQ-0124",
+     "BQ-0125",
+     "BQ-0126",
+     "BQ-0127",
+     "BQ-0128",
+     "BQ-0129",
+     "BQ-0130",
+     "BQ-0132",
+     "BQ-0134",
+     "BQ-0135",
+     "BQ-0136",
+     "BQ-0137",
+     "BQ-0138",
+     "BQ-0139",
+     "BQ-0140",
+     "BQ-0142",
+     "BQ-0143",
+     "BQ-0144",
+     "BQ-0145",
+     "BQ-0146",
+     "BQ-0147",
+     "BQ-0148",
+     "BQ-0149",
+     "BQ-0150",
+     "BQ-0152"
+    ]
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.lista_D1",
+   "criterio": "os 36 ids = a lista da seção 2.3 da D1",
+   "esperado": [
+    "BQ-0113",
+    "BQ-0114",
+    "BQ-0115",
+    "BQ-0116",
+    "BQ-0117",
+    "BQ-0118",
+    "BQ-0119",
+    "BQ-0120",
+    "BQ-0121",
+    "BQ-0122",
+    "BQ-0123",
+    "BQ-0124",
+    "BQ-0125",
+    "BQ-0126",
+    "BQ-0127",
+    "BQ-0128",
+    "BQ-0129",
+    "BQ-0130",
+    "BQ-0132",
+    "BQ-0134",
+    "BQ-0135",
+    "BQ-0136",
+    "BQ-0137",
+    "BQ-0138",
+    "BQ-0139",
+    "BQ-0140",
+    "BQ-0142",
+    "BQ-0143",
+    "BQ-0144",
+    "BQ-0145",
+    "BQ-0146",
+    "BQ-0147",
+    "BQ-0148",
+    "BQ-0149",
+    "BQ-0150",
+    "BQ-0152"
+   ],
+   "obtido": [
+    "BQ-0113",
+    "BQ-0114",
+    "BQ-0115",
+    "BQ-0116",
+    "BQ-0117",
+    "BQ-0118",
+    "BQ-0119",
+    "BQ-0120",
+    "BQ-0121",
+    "BQ-0122",
+    "BQ-0123",
+    "BQ-0124",
+    "BQ-0125",
+    "BQ-0126",
+    "BQ-0127",
+    "BQ-0128",
+    "BQ-0129",
+    "BQ-0130",
+    "BQ-0132",
+    "BQ-0134",
+    "BQ-0135",
+    "BQ-0136",
+    "BQ-0137",
+    "BQ-0138",
+    "BQ-0139",
+    "BQ-0140",
+    "BQ-0142",
+    "BQ-0143",
+    "BQ-0144",
+    "BQ-0145",
+    "BQ-0146",
+    "BQ-0147",
+    "BQ-0148",
+    "BQ-0149",
+    "BQ-0150",
+    "BQ-0152"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.campos",
+   "criterio": "os 13 campos (e o id) de cada um dos 36 = colunas de banco.csv (mapeamento da seção 2.3); ordem dos campos",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.sem_opcionais",
+   "criterio": "nenhum dos 36 tem nota, volatil, interno nem comandoOriginal",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.atributos",
+   "criterio": "36: CEBRASPE_ANALOGA, aderência direta, C/E 26/10",
+   "esperado": [
+    36,
+    36,
+    26,
+    10
+   ],
+   "obtido": [
+    36,
+    36,
+    26,
+    10
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.ausentes",
+   "criterio": "BQ-0131, BQ-0133, BQ-0141 e BQ-0151 ausentes do pacote",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.linhas",
+   "criterio": "os 36 não têm \"QA PENDENTE\" em observacoes e não são anulados",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-BANCO.mapeamento_106",
+   "criterio": "o mesmo mapeamento reproduz os 13 campos dos 106 itens de banco da v1.13 (campos de dados; ignorando interno/nota/volatil/comandoOriginal)",
+   "esperado": [
+    106,
+    []
+   ],
+   "obtido": [
+    106,
+    []
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.cabecalho",
+   "criterio": "nome v1.14-E; versao e geradoEm iguais aos do pacote.json; geradoEm > 2026-10-20",
+   "esperado": [
+    "Câmara 2026 — pacote do estudante (v1.14-E)",
+    1,
+    "2026-10-23",
+    true
+   ],
+   "obtido": [
+    "Câmara 2026 — pacote do estudante (v1.14-E)",
+    1,
+    "2026-10-23",
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.nome_pacote",
+   "criterio": "pacote.json: nome v1.14",
+   "esperado": "Câmara 2026 — pacote F4 (v1.14)",
+   "obtido": "Câmara 2026 — pacote F4 (v1.14)",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.texto",
+   "criterio": "pacote_estudante: os 274 itens novos iguais aos do pacote.json, salvo url \"\" nos AUTORAL e nucleo como último campo; itens da v1.13 verificados em C-INTACTA",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.url",
+   "criterio": "url \"\" nos 238 de reforço do estudante; os 36 de banco mantêm a URL oficial",
+   "esperado": [
+    238,
+    36
+   ],
+   "obtido": [
+    238,
+    36
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.nucleo_totais",
+   "criterio": "nucleo: 775 no total; DA 408 true / 276 false; banco P1-DA 36/36 true",
+   "esperado": [
+    775,
+    408,
+    276,
+    36
+   ],
+   "obtido": [
+    775,
+    408,
+    276,
+    36
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.nucleo_12",
+   "criterio": "itens da v1.13 que passam de true para false: os 12 (D1-07, D1-08, D3-79, D3-80, D6-07 a D6-10, D6-37 a D6-40); nenhum de false para true",
+   "esperado": [
+    [
+     "D1-07",
+     "D1-08",
+     "D3-79",
+     "D3-80",
+     "D6-07",
+     "D6-08",
+     "D6-09",
+     "D6-10",
+     "D6-37",
+     "D6-38",
+     "D6-39",
+     "D6-40"
+    ],
+    []
+   ],
+   "obtido": [
+    [
+     "D1-07",
+     "D1-08",
+     "D3-79",
+     "D3-80",
+     "D6-07",
+     "D6-08",
+     "D6-09",
+     "D6-10",
+     "D6-37",
+     "D6-38",
+     "D6-39",
+     "D6-40"
+    ],
+    []
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.nucleo_18",
+   "criterio": "reforço com nucleo true: os 18 ids da seção 6",
+   "esperado": [
+    "D1-R01",
+    "D1-R02",
+    "D3-R02",
+    "D3-R03",
+    "D3-R05",
+    "D3-R14",
+    "D3-R15",
+    "D3-R26",
+    "D3-R27",
+    "D3-R38",
+    "D3-R49",
+    "D4-R01",
+    "D4-R02",
+    "D4-R03",
+    "D4-R04",
+    "D4-R15",
+    "D4-R16",
+    "D4-R17"
+   ],
+   "obtido": [
+    "D1-R01",
+    "D1-R02",
+    "D3-R02",
+    "D3-R03",
+    "D3-R05",
+    "D3-R14",
+    "D3-R15",
+    "D3-R26",
+    "D3-R27",
+    "D3-R38",
+    "D3-R49",
+    "D4-R01",
+    "D4-R02",
+    "D4-R03",
+    "D4-R04",
+    "D4-R15",
+    "D4-R16",
+    "D4-R17"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.nucleo_fora_DA",
+   "criterio": "nucleo fora de DA igual ao da v1.13, por id",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-ESTUDANTE.recontagem",
+   "criterio": "recontagem independente k1 a k4 (DA: implementação própria; fora de DA: nucleo.py do gerador_v1_12 sobre os 749 itens fora de DA) = nucleo do pacote_estudante em 1.433/1.433",
+   "esperado": 1433,
+   "obtido": 1433,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.folhas",
+   "criterio": "75 folhas (P1 15, P2 23, DA 37)",
+   "esperado": [
+    15,
+    23,
+    37,
+    75
+   ],
+   "obtido": [
+    15,
+    23,
+    37,
+    75
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.da",
+   "criterio": "DA: 684 itens, 644 em folha, 40 fora (P1-DA-1 12, 2 3, 3 5, 4 4, 5 3, 6 1, 8 7, 9 1, 10 4)",
+   "esperado": [
+    684,
+    644,
+    {
+     "P1-DA-1": 12,
+     "P1-DA-2": 3,
+     "P1-DA-3": 5,
+     "P1-DA-4": 4,
+     "P1-DA-5": 3,
+     "P1-DA-6": 1,
+     "P1-DA-8": 7,
+     "P1-DA-9": 1,
+     "P1-DA-10": 4
+    }
+   ],
+   "obtido": [
+    684,
+    644,
+    {
+     "P1-DA-10": 4,
+     "P1-DA-3": 5,
+     "P1-DA-1": 12,
+     "P1-DA-5": 3,
+     "P1-DA-8": 7,
+     "P1-DA-2": 3,
+     "P1-DA-4": 4,
+     "P1-DA-6": 1,
+     "P1-DA-9": 1
+    }
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.20",
+   "criterio": "DA: 25 folhas com 20 ou mais e 12 abaixo (1.1 e 1.2 com 11; 9.2, 9.3, 9.4 e 10.1 a 10.7 com 10)",
+   "esperado": [
+    25,
+    {
+     "P1-DA-1.1": 11,
+     "P1-DA-1.2": 11,
+     "P1-DA-9.2": 10,
+     "P1-DA-9.3": 10,
+     "P1-DA-9.4": 10,
+     "P1-DA-10.1": 10,
+     "P1-DA-10.2": 10,
+     "P1-DA-10.3": 10,
+     "P1-DA-10.4": 10,
+     "P1-DA-10.5": 10,
+     "P1-DA-10.6": 10,
+     "P1-DA-10.7": 10
+    }
+   ],
+   "obtido": [
+    25,
+    {
+     "P1-DA-1.1": 11,
+     "P1-DA-1.2": 11,
+     "P1-DA-9.2": 10,
+     "P1-DA-9.3": 10,
+     "P1-DA-9.4": 10,
+     "P1-DA-10.1": 10,
+     "P1-DA-10.2": 10,
+     "P1-DA-10.3": 10,
+     "P1-DA-10.4": 10,
+     "P1-DA-10.5": 10,
+     "P1-DA-10.6": 10,
+     "P1-DA-10.7": 10
+    }
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.reais_vol_parc",
+   "criterio": "DA: 36 reais, 5 VOLÁTEIS, 35 parciais (5.2 4, 6.1 8, 6.2 5, 6.3 8, 6.4 6, 6.5 3, 8.3 1)",
+   "esperado": [
+    36,
+    5,
+    35,
+    {
+     "P1-DA-5.2": 4,
+     "P1-DA-6.1": 8,
+     "P1-DA-6.2": 5,
+     "P1-DA-6.3": 8,
+     "P1-DA-6.4": 6,
+     "P1-DA-6.5": 3,
+     "P1-DA-8.3": 1
+    }
+   ],
+   "obtido": [
+    36,
+    5,
+    35,
+    {
+     "P1-DA-6.3": 8,
+     "P1-DA-6.4": 6,
+     "P1-DA-6.5": 3,
+     "P1-DA-5.2": 4,
+     "P1-DA-6.2": 5,
+     "P1-DA-6.1": 8,
+     "P1-DA-8.3": 1
+    }
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.p1p2",
+   "criterio": "P1 de TI e P2: contagens por folha (total, parciais, voláteis) iguais às da v1.13",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-FOLHAS.cobertura_json",
+   "criterio": "out/cobertura_v1_14.json (insumo da secretaria): todas as conferências OK",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-DIAG30.da",
+   "criterio": "DIAG30.DA: os 30 ids existem; todos DA, diretos, não voláteis e fora de simulado; folhas = as de diag30_DA.json; C/E 15/15",
+   "esperado": [
+    30,
+    [],
+    [
+     "P1-DA-1.1",
+     "P1-DA-1.2",
+     "P1-DA-2.1",
+     "P1-DA-2.2",
+     "P1-DA-3.2",
+     "P1-DA-3.4",
+     "P1-DA-3.1",
+     "P1-DA-4.1",
+     "P1-DA-4.2",
+     "P1-DA-4.3",
+     "P1-DA-5.1",
+     "P1-DA-5.2",
+     "P1-DA-6.1",
+     "P1-DA-6.2",
+     "P1-DA-6.4",
+     "P1-DA-6.5",
+     "P1-DA-7",
+     "P1-DA-8.2",
+     "P1-DA-8.3",
+     "P1-DA-8.4",
+     "P1-DA-9.1",
+     "P1-DA-9.2",
+     "P1-DA-9.3",
+     "P1-DA-10.1",
+     "P1-DA-10.2",
+     "P1-DA-10.3",
+     "P1-DA-10.4",
+     "P1-DA-10.5",
+     "P1-DA-11",
+     "P1-DA-12"
+    ],
+    15,
+    15
+   ],
+   "obtido": [
+    30,
+    [],
+    [
+     "P1-DA-1.1",
+     "P1-DA-1.2",
+     "P1-DA-2.1",
+     "P1-DA-2.2",
+     "P1-DA-3.2",
+     "P1-DA-3.4",
+     "P1-DA-3.1",
+     "P1-DA-4.1",
+     "P1-DA-4.2",
+     "P1-DA-4.3",
+     "P1-DA-5.1",
+     "P1-DA-5.2",
+     "P1-DA-6.1",
+     "P1-DA-6.2",
+     "P1-DA-6.4",
+     "P1-DA-6.5",
+     "P1-DA-7",
+     "P1-DA-8.2",
+     "P1-DA-8.3",
+     "P1-DA-8.4",
+     "P1-DA-9.1",
+     "P1-DA-9.2",
+     "P1-DA-9.3",
+     "P1-DA-10.1",
+     "P1-DA-10.2",
+     "P1-DA-10.3",
+     "P1-DA-10.4",
+     "P1-DA-10.5",
+     "P1-DA-11",
+     "P1-DA-12"
+    ],
+    15,
+    15
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-DIAG30.p1p2",
+   "criterio": "DIAG30.P1 e P2: os ids continuam existindo, com os mesmos atributos da v1.13",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-DIAG30.da_ids",
+   "criterio": "DIAG30.DA do template = ids de diag30_DA.json",
+   "esperado": [
+    "D1-12",
+    "D1-20",
+    "D1-31",
+    "D1-54",
+    "D2-11",
+    "D2-32",
+    "D2-02",
+    "D2-44",
+    "D2-52",
+    "D2-62",
+    "D3-02",
+    "D3-11",
+    "D3-22",
+    "D3-32",
+    "D3-51",
+    "D3-61",
+    "D3-73",
+    "D4-07",
+    "D4-18",
+    "D4-28",
+    "D4-34",
+    "D4-44",
+    "D4-56",
+    "D5-02",
+    "D5-11",
+    "D5-21",
+    "D5-31",
+    "D5-41",
+    "D6-01",
+    "D6-35"
+   ],
+   "obtido": [
+    "D1-12",
+    "D1-20",
+    "D1-31",
+    "D1-54",
+    "D2-11",
+    "D2-32",
+    "D2-02",
+    "D2-44",
+    "D2-52",
+    "D2-62",
+    "D3-02",
+    "D3-11",
+    "D3-22",
+    "D3-32",
+    "D3-51",
+    "D3-61",
+    "D3-73",
+    "D4-07",
+    "D4-18",
+    "D4-28",
+    "D4-34",
+    "D4-44",
+    "D4-56",
+    "D5-02",
+    "D5-11",
+    "D5-21",
+    "D5-31",
+    "D5-41",
+    "D6-01",
+    "D6-35"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-DIAG30.json",
+   "criterio": "out/diag30_check_v1_14.json: 0 FALHA",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MOLDURA.totais",
+   "criterio": "totais por matéria (moldura S: itens, C, E, %C) recontados e gravados em out/moldura_v1_14.json",
+   "esperado": {
+    "P1-TI": {
+     "itens": 7,
+     "C": 4,
+     "E": 3,
+     "pct_C": 57.1,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "P2": {
+     "itens": 208,
+     "C": 112,
+     "E": 96,
+     "pct_C": 53.8,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "P1-DA": {
+     "itens": 94,
+     "C": 50,
+     "E": 44,
+     "pct_C": 53.2,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "TOTAL": {
+     "itens": 309,
+     "C": 166,
+     "E": 143,
+     "pct_C": 53.7,
+     "E_faltante_para_pctC_ate_60": 0
+    }
+   },
+   "obtido": {
+    "P1-TI": {
+     "itens": 7,
+     "C": 4,
+     "E": 3,
+     "pct_C": 57.1,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "P2": {
+     "itens": 208,
+     "C": 112,
+     "E": 96,
+     "pct_C": 53.8,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "P1-DA": {
+     "itens": 94,
+     "C": 50,
+     "E": 44,
+     "pct_C": 53.2,
+     "E_faltante_para_pctC_ate_60": 0
+    },
+    "TOTAL": {
+     "itens": 309,
+     "C": 166,
+     "E": 143,
+     "pct_C": 53.7,
+     "E_faltante_para_pctC_ate_60": 0
+    }
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MOLDURA.universo",
+   "criterio": "universo por matéria (itens, S, %S) gravado",
+   "esperado": {
+    "P1-TI": {
+     "itens": 185,
+     "S": 7,
+     "pct_S": 3.8
+    },
+    "P2": {
+     "itens": 564,
+     "S": 208,
+     "pct_S": 36.9
+    },
+    "P1-DA": {
+     "itens": 684,
+     "S": 94,
+     "pct_S": 13.7
+    }
+   },
+   "obtido": {
+    "P1-TI": {
+     "itens": 185,
+     "S": 7,
+     "pct_S": 3.8
+    },
+    "P2": {
+     "itens": 564,
+     "S": 208,
+     "pct_S": 36.9
+    },
+    "P1-DA": {
+     "itens": 684,
+     "S": 94,
+     "pct_S": 13.7
+    }
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MOLDURA.divergencias",
+   "criterio": "divergências do campo \"Moldura:\" das 8 levas (238 itens) listadas no JSON, sem corrigir (n registrado; a decisão é da gbq-gerencia)",
+   "esperado": "listadas",
+   "obtido": "listadas",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MOLDURA.criterio",
+   "criterio": "critério de saida/banco/moldura_ce.py aplicado sem alteração (SHA-256 LF 5723698e…ca96)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.json",
+   "criterio": "out/estudante_md_v1_14.json: 0 FALHA e 53 arquivos",
+   "esperado": [
+    0,
+    53
+   ],
+   "obtido": [
+    0,
+    53
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.arquivos",
+   "criterio": "53 arquivos com os mesmos nomes da v1.13-E; mudam 12; 41 iguais byte a byte",
+   "esperado": [
+    true,
+    12,
+    41
+   ],
+   "obtido": [
+    true,
+    12,
+    41
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.ids",
+   "criterio": "cada um dos 274 ids novos aparece exatamente 1 vez nos _itens e 1 vez nos _gabarito",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.texto",
+   "criterio": "enunciado, gabarito e justificativa dos 274 nos .md = pacote_estudante (conferido por estudante_md_v114.py: M6.1 a M6.3)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.marcas",
+   "criterio": "C-MARCAS nos 12 arquivos que mudam, com a máscara de ids (estudante_md_v114.py: M7.1 a M7.3)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.sem_dupla_negrito",
+   "criterio": "pares e pegadinhas de DA sem ** (ponto 2 da v1.2.11): 0 nas seções dos 6 DA_D<n>_estudo.md",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.digest",
+   "criterio": "digest da .md (forma R2-D: linhas \"estudante/<nome>.md\" TAB sha256, em ordem de bytes, com \\n final) recalculado = o gravado",
+   "esperado": "f9c1c0651e9fb50009220d5424d441f99ba5fb93e46164fe4d900de0c010916b",
+   "obtido": "f9c1c0651e9fb50009220d5424d441f99ba5fb93e46164fe4d900de0c010916b",
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.nucleo",
+   "criterio": "NUCLEO.md: 775 ids núcleo",
+   "esperado": 775,
+   "obtido": 775,
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MD.readme",
+   "criterio": "README: v1.14-E, data 2026-10-23 e linha de DA com 684 itens, sendo 36 de provas anteriores",
+   "esperado": [
+    true,
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "C-MANIFESTO",
+   "criterio": "a pasta real é igual ao MANIFESTO_v1_14.md (bytes e SHA-256 de cada arquivo, exceto a própria conferencia_t123.json); total declarado = arquivos da pasta real",
+   "esperado": [
+    [],
+    [
+     83
+    ]
+   ],
+   "obtido": [
+    [],
+    [
+     83
+    ]
+   ],
+   "resultado": "OK"
+  }
+ ]
+}

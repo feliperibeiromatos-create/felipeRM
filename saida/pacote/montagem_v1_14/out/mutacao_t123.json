@@ -1,0 +1,189 @@
+{
+ "tarefa": "T-123 (D1 da GBQ, seção 8.3)",
+ "script": "saida/pacote/montagem_v1_14/mutacao_t123.py",
+ "original": {
+  "criterios": 75,
+  "FALHA": 0,
+  "observacao": "fs=False: os critérios que leem arquivos fora do contexto (C-INTACTA de arquivos, C-MOLDURA, C-MD, C-MANIFESTO, C-DIAG30.p1p2) ficam fora das mutações"
+ },
+ "mutacoes": [
+  {
+   "id": "M1",
+   "mutacao": "gabarito de um item de reforço (D1-R01) invertido",
+   "criterio_esperado": "C-REFORCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-TOTAIS.ce",
+    "C-TOTAIS.da",
+    "C-TOTAIS.reforco",
+    "C-TOTAIS.por_leva",
+    "C-TOTAIS.por_lote",
+    "C-REFORCO.texto"
+   ]
+  },
+  {
+   "id": "M2",
+   "mutacao": "1 caractere a mais no enunciado de um item de reforço (D2-R10)",
+   "criterio_esperado": "C-REFORCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-REFORCO.texto"
+   ]
+  },
+  {
+   "id": "M3",
+   "mutacao": "D3-R13 com o \"antes\" da AJ-E1",
+   "criterio_esperado": "C-REFORCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-REFORCO.texto",
+    "C-REFORCO.d3r13_r18"
+   ]
+  },
+  {
+   "id": "M4",
+   "mutacao": "AJ-E1 aplicada a uma cópia da leva 1 com o \"antes\" duplicado (SHA e DECISOES.md da cópia ajustados)",
+   "criterio_esperado": "aborto do extrator",
+   "detectada": true,
+   "criterios_com_falha": [],
+   "detalhe": "exit 2; stderr: ABORTA: errata D3-R13: {'id': 'D3-R13', 'ato': 'AJ-E1 (D-T116-LEVA2-ACEITE, II)', 'antes_na_secao': 1, 'antes_no_arquivo': 2, 'depois_antes_de_aplicar': 0}"
+  },
+  {
+   "id": "M5",
+   "mutacao": "D1-R03 inserido (cópia do D1-R02 com o id vago)",
+   "criterio_esperado": "C-REFORCO / C-TOTAIS",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-TOTAIS.itens",
+    "C-TOTAIS.ce",
+    "C-TOTAIS.da",
+    "C-TOTAIS.reforco",
+    "C-TOTAIS.por_lote",
+    "C-TOTAIS.lote_v114",
+    "C-TOTAIS.ordem",
+    "C-REFORCO.ids",
+    "C-REFORCO.vagos",
+    "C-REFORCO.fixos",
+    "C-MARCAS.n",
+    "C-ESTUDANTE.url",
+    "C-ESTUDANTE.nucleo_totais",
+    "C-ESTUDANTE.nucleo_18",
+    "C-FOLHAS.da"
+   ]
+  },
+  {
+   "id": "M6",
+   "mutacao": "um parcial (D3-R01) trocado para \"direta\"",
+   "criterio_esperado": "C-REFORCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-REFORCO.texto",
+    "C-REFORCO.parciais",
+    "C-ESTUDANTE.recontagem",
+    "C-FOLHAS.reais_vol_parc"
+   ]
+  },
+  {
+   "id": "M7",
+   "mutacao": "\"R37\" inserido numa justificativa (D2-R05)",
+   "criterio_esperado": "C-MARCAS",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-JUST.texto",
+    "C-MARCAS.cm"
+   ]
+  },
+  {
+   "id": "M8",
+   "mutacao": "BQ-0141 incluído",
+   "criterio_esperado": "C-BANCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-TOTAIS.itens",
+    "C-TOTAIS.ce",
+    "C-TOTAIS.da",
+    "C-TOTAIS.banco",
+    "C-TOTAIS.ordem",
+    "C-MARCAS.n",
+    "C-BANCO.ids",
+    "C-BANCO.atributos",
+    "C-BANCO.ausentes",
+    "C-BANCO.linhas",
+    "C-ESTUDANTE.url",
+    "C-ESTUDANTE.nucleo_totais",
+    "C-ESTUDANTE.recontagem",
+    "C-FOLHAS.da",
+    "C-FOLHAS.reais_vol_parc"
+   ]
+  },
+  {
+   "id": "M9",
+   "mutacao": "comando de um banco P1-DA (BQ-0113) alterado",
+   "criterio_esperado": "C-BANCO",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-BANCO.campos"
+   ]
+  },
+  {
+   "id": "M10",
+   "mutacao": "nucleo de um item (D5-01) trocado",
+   "criterio_esperado": "C-ESTUDANTE",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-ESTUDANTE.nucleo_totais",
+    "C-ESTUDANTE.nucleo_12",
+    "C-ESTUDANTE.recontagem"
+   ]
+  },
+  {
+   "id": "M11",
+   "mutacao": "url não vazia num item de reforço do estudante (D4-R01)",
+   "criterio_esperado": "C-ESTUDANTE",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-ESTUDANTE.texto",
+    "C-ESTUDANTE.url"
+   ]
+  },
+  {
+   "id": "M12",
+   "mutacao": "um item da v1.13 (D1-01) alterado",
+   "criterio_esperado": "C-INTACTA",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-INTACTA.itens"
+   ]
+  },
+  {
+   "id": "M13",
+   "mutacao": "leva 3 lida com CRLF sem normalizar (o SHA não confere)",
+   "criterio_esperado": "C-SHA",
+   "detectada": true,
+   "criterios_com_falha": [
+    "C-SHA.leva3",
+    "C-TOTAIS.por_leva",
+    "C-REFORCO.texto",
+    "C-JUST.texto"
+   ]
+  },
+  {
+   "id": "M14",
+   "mutacao": "substituição da GCB com `antes` ausente",
+   "criterio_esperado": "aborto do montar",
+   "detectada": true,
+   "criterios_com_falha": [],
+   "detalhe": "substituicao da GCB: o antes 'TEXTO_QUE_NAO_EXISTE_NA_JUSTIFICATIVA' ocorre 0 vez(es) na justificativa de D4-R01 (esperado 1)"
+  },
+  {
+   "id": "M15",
+   "mutacao": "linha de ato deslocada em cópia de DECISOES.md",
+   "criterio_esperado": "aborto do nucleo",
+   "detectada": true,
+   "criterios_com_falha": [],
+   "detalhe": "nucleo: ato D-LOTED1-CANONICO na linha 94 de DECISOES.md; a tabela da D1 (seção 6) manda a linha 93"
+  }
+ ],
+ "detectadas": 15,
+ "total": 15
+}

@@ -10,3 +10,6 @@ saida/pacote/gerador_v1_12/** text eol=lf
 saida/pacote/gerador_v1_12/out/** -text -eol
 saida/pacote/montagem_v1_13/** text eol=lf
 saida/pacote/montagem_v1_13/out/** -text -eol
+# montagem_v1_14: scripts em LF; out/ com os bytes gerados (T123_D1_v1_14, seção 4)
+saida/pacote/montagem_v1_14/** text eol=lf
+saida/pacote/montagem_v1_14/out/** -text -eol

@@ -270,14 +270,14 @@
   "tema": "light",
   "teste": "painel: % do tópico mudou depois de responder",
   "ok": true,
-  "det": "['3%', '0%', '0%', '0%', '0%', '0%']"
+  "det": "['63%', '0%', '0%', '0%', '0%', '0%']"
  },
  {
   "vp": "390x844",
   "tema": "light",
   "teste": "painel: média da matéria e Nota Final atualizadas",
   "ok": true,
-  "det": "0,02"
+  "det": "0,29"
  },
  {
   "vp": "390x844",
@@ -291,7 +291,7 @@
   "tema": "light",
   "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
   "ok": true,
-  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n3 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 3 itens\nNoções de Direito Administrativo e Adminis"
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n1 item para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar este item\nNoções de Direito Administrativo e Administr"
  },
  {
   "vp": "390x844",
@@ -354,7 +354,7 @@
   "tema": "light",
   "teste": "simulados anteriores: nota ao lado do simulado feito",
   "ok": true,
-  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+  "det": "Simulados anteriores\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\nnota −4/40"
  },
  {
   "vp": "390x844",
@@ -725,14 +725,14 @@
   "tema": "dark",
   "teste": "painel: % do tópico mudou depois de responder",
   "ok": true,
-  "det": "['10%', '0%', '0%', '0%', '0%', '0%']"
+  "det": "['−12%', '0%', '0%', '0%', '0%', '0%']"
  },
  {
   "vp": "390x844",
   "tema": "dark",
   "teste": "painel: média da matéria e Nota Final atualizadas",
   "ok": true,
-  "det": "0,05"
+  "det": "−0,06"
  },
  {
   "vp": "390x844",
@@ -746,7 +746,7 @@
   "tema": "dark",
   "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
   "ok": true,
-  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n2 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 2 itens\nNoções de Direito Administrativo e Adminis"
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n4 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 4 itens\nNoções de Direito Administrativo e Adminis"
  },
  {
   "vp": "390x844",
@@ -809,7 +809,7 @@
   "tema": "dark",
   "teste": "simulados anteriores: nota ao lado do simulado feito",
   "ok": true,
-  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+  "det": "Simulados anteriores\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\nnota −4/40"
  },
  {
   "vp": "390x844",
@@ -1180,14 +1180,14 @@
   "tema": "light",
   "teste": "painel: % do tópico mudou depois de responder",
   "ok": true,
-  "det": "['17%', '0%', '0%', '0%', '0%', '0%']"
+  "det": "['−12%', '0%', '0%', '0%', '0%', '0%']"
  },
  {
   "vp": "1280x900",
   "tema": "light",
   "teste": "painel: média da matéria e Nota Final atualizadas",
   "ok": true,
-  "det": "0,08"
+  "det": "−0,06"
  },
  {
   "vp": "1280x900",
@@ -1201,7 +1201,7 @@
   "tema": "light",
   "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
   "ok": true,
-  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n1 item para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar este item\nNoções de Direito Administrativo e Admin"
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n4 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 4 itens\nNoções de Direito Administrativo e Adm"
  },
  {
   "vp": "1280x900",
@@ -1264,7 +1264,7 @@
   "tema": "light",
   "teste": "simulados anteriores: nota ao lado do simulado feito",
   "ok": true,
-  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+  "det": "Simulados anteriores\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\nnota −4/40"
  },
  {
   "vp": "1280x900",
@@ -1635,14 +1635,14 @@
   "tema": "dark",
   "teste": "painel: % do tópico mudou depois de responder",
   "ok": true,
-  "det": "['−10%', '0%', '0%', '0%', '0%', '0%']"
+  "det": "['−12%', '0%', '0%', '0%', '0%', '0%']"
  },
  {
   "vp": "1280x900",
   "tema": "dark",
   "teste": "painel: média da matéria e Nota Final atualizadas",
   "ok": true,
-  "det": "-0,05"
+  "det": "−0,06"
  },
  {
   "vp": "1280x900",
@@ -1656,7 +1656,7 @@
   "tema": "dark",
   "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
   "ok": true,
-  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n5 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 5 itens\nNoções de Direito Administrativo e Adm"
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n4 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 4 itens\nNoções de Direito Administrativo e Adm"
  },
  {
   "vp": "1280x900",
@@ -1719,7 +1719,7 @@
   "tema": "dark",
   "teste": "simulados anteriores: nota ao lado do simulado feito",
   "ok": true,
-  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+  "det": "Simulados anteriores\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\nnota −4/40"
  },
  {
   "vp": "1280x900",

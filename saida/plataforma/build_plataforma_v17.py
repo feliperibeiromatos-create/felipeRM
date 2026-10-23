@@ -31,8 +31,9 @@ try:
     datetime.datetime.strptime(a.data, "%d/%m/%Y")
 except ValueError:
     sys.exit("ERRO: --data deve ser dd/mm/aaaa.")
+def mil(n): return f"{n:,}".replace(",", ".")
 nda = sum(1 for i in p["itens"] if str(i.get("itemEdital", "")).startswith("P1-DA-"))
-rot = a.rotulo_pacote or f"pacote {p.get('nome', '?')} embutido ({len(p['itens'])} itens; {nda} de Direito Administrativo)"
+rot = a.rotulo_pacote or f"pacote {p.get('nome', '?')} embutido ({mil(len(p['itens']))} itens; {mil(nda)} de Direito Administrativo)"
 versao = f"v17 · publicada em {a.data} · três abas · {rot}".replace('"', "'")
 js = json.dumps(p, ensure_ascii=False, separators=(",", ":")).replace("</", "<" + chr(92) + "/")
 html = html.replace(MARCA, "const PUB_INLINE = " + js + ";").replace(VMARCA, versao)

@@ -1,0 +1,691 @@
+{
+ "tarefa": "T-123 (D1 da GBQ, seção 10)",
+ "script": "saida/pacote/montagem_v1_14/estudante_md_v114.py",
+ "arquivos": 53,
+ "arquivos_alterados": [
+  "BANCO_gabarito.md",
+  "BANCO_itens.md",
+  "DA_D1_gabarito.md",
+  "DA_D1_itens.md",
+  "DA_D2_gabarito.md",
+  "DA_D2_itens.md",
+  "DA_D3_gabarito.md",
+  "DA_D3_itens.md",
+  "DA_D4_gabarito.md",
+  "DA_D4_itens.md",
+  "NUCLEO.md",
+  "README.md"
+ ],
+ "arquivos_inalterados": 41,
+ "digest_md_R2D": "f9c1c0651e9fb50009220d5424d441f99ba5fb93e46164fe4d900de0c010916b",
+ "forma_digest": "linhas \"estudante/<nome>.md\" TAB sha256, em ordem de bytes, unidas por \\n com \\n final; SHA-256 desse texto (R2-D)",
+ "listagem": [
+  {
+   "arquivo": "BANCO_gabarito.md",
+   "bytes": 12124,
+   "sha256": "253b6291e63da0cd914cb097ffe15373076560eb8272a7aadef43d69a81d2f6f"
+  },
+  {
+   "arquivo": "BANCO_itens.md",
+   "bytes": 100223,
+   "sha256": "2535197eccad20d9f9d1caee1e5526b0bdf41dfcf06de13ffcac8a1877a63ca4"
+  },
+  {
+   "arquivo": "DA_D1_estudo.md",
+   "bytes": 71783,
+   "sha256": "bbab97c4ba4cb970aa79d7ae962e6434bf1c0c0a83a2d7dd93bfe17155a7a570"
+  },
+  {
+   "arquivo": "DA_D1_gabarito.md",
+   "bytes": 25122,
+   "sha256": "1399cd8cf1bb4b8f21eb300e8bff113eac53cfbe8bf427b8a4c3293e5b1c2edb"
+  },
+  {
+   "arquivo": "DA_D1_itens.md",
+   "bytes": 16969,
+   "sha256": "b870ecbb4513b408f79a4203122a3dc6846c81ae7ad3f80dcfcd1678db886738"
+  },
+  {
+   "arquivo": "DA_D2_estudo.md",
+   "bytes": 322779,
+   "sha256": "7518e6b27bada606ecf8c7f5bb748387eebe8743a8b2215ffb84fb8c1e642e44"
+  },
+  {
+   "arquivo": "DA_D2_gabarito.md",
+   "bytes": 69071,
+   "sha256": "56d3886cfaf37235ee45a37e13b5bd151a7849ec2eb3832cd02299e6e6415efc"
+  },
+  {
+   "arquivo": "DA_D2_itens.md",
+   "bytes": 40975,
+   "sha256": "3ff5c06f76ea858d880c08a8a2b175b2e4c2afc2408e20776b1bab9842ee4f6f"
+  },
+  {
+   "arquivo": "DA_D3_estudo.md",
+   "bytes": 160728,
+   "sha256": "7301bb18a32c076feacdf5abe7ae9289182a93fd82756358bbc554f3a72e5e6c"
+  },
+  {
+   "arquivo": "DA_D3_gabarito.md",
+   "bytes": 68120,
+   "sha256": "733d6657d66aca809775084754fbaa9309df109ada5578dfa6c1dda2903da1fc"
+  },
+  {
+   "arquivo": "DA_D3_itens.md",
+   "bytes": 41611,
+   "sha256": "4c998cc16c6ec9a512e938b1f27fd9763d70d3d4d21d7887b5b0ddb48d75ff8e"
+  },
+  {
+   "arquivo": "DA_D4_estudo.md",
+   "bytes": 166485,
+   "sha256": "6386186b19341f95a0b6dd473faef452153dbd16859b0c0171d352badcfde839"
+  },
+  {
+   "arquivo": "DA_D4_gabarito.md",
+   "bytes": 56800,
+   "sha256": "8b4d301308010f88470d9ecafd32839702c7eefe394bf5c2ac84137439aad5bf"
+  },
+  {
+   "arquivo": "DA_D4_itens.md",
+   "bytes": 37794,
+   "sha256": "74a714b9e3a98d35eebb67d690d1f3f269ce386fd16992dd59b8d7297fb4e23c"
+  },
+  {
+   "arquivo": "DA_D5_estudo.md",
+   "bytes": 211320,
+   "sha256": "00784bbcf9a1771c02b706d83b2fe2c8213ce0e416f33b6b6a1b32595a42d65f"
+  },
+  {
+   "arquivo": "DA_D5_gabarito.md",
+   "bytes": 24462,
+   "sha256": "f84ef589bf4bac7852dff70adf85d76daeaaf170b60892e20df5d5219fdce09a"
+  },
+  {
+   "arquivo": "DA_D5_itens.md",
+   "bytes": 18961,
+   "sha256": "538f74c5a6822f07bccae02e3bc3f9d0b2dde9e8ab0f6e9a3ca14722eb9ceda3"
+  },
+  {
+   "arquivo": "DA_D6_estudo.md",
+   "bytes": 131726,
+   "sha256": "c849c448c84cbcb9810eff970b01b577e88d12703049186f94d0872fff0f4988"
+  },
+  {
+   "arquivo": "DA_D6_gabarito.md",
+   "bytes": 17334,
+   "sha256": "8b4878363a6f0d0c907d9aa8109a385b6ac01594c8f462ceb0fa9d66d2479676"
+  },
+  {
+   "arquivo": "DA_D6_itens.md",
+   "bytes": 12227,
+   "sha256": "1f37c2f95d1986f469ab591334a868729911dbdfa63d6be485a140cf825a593b"
+  },
+  {
+   "arquivo": "DISCURSIVAS.md",
+   "bytes": 6694,
+   "sha256": "7777c52ca635cdd0e33a525aadd3b86699d333def9bb61816c79b67653f17bd0"
+  },
+  {
+   "arquivo": "DISCURSIVAS_padrao.md",
+   "bytes": 32002,
+   "sha256": "4d5a4e6e9cb23fffee9b401f7b8b9537ce9475cdc8127e34cd27c6592f77dcb4"
+  },
+  {
+   "arquivo": "L1_estudo.md",
+   "bytes": 55866,
+   "sha256": "12ebe1ac46ce54b2d2f53dfce680e90c235ed6f1743bbb7d41b836e4247dda7f"
+  },
+  {
+   "arquivo": "L1_gabarito.md",
+   "bytes": 69895,
+   "sha256": "2947f638e5f9f1a08133716a7bb3b4d6f961330aa87dc5fc9d5252bec363cf7a"
+  },
+  {
+   "arquivo": "L1_itens.md",
+   "bytes": 70462,
+   "sha256": "94e106e720f28ace0fedabb9e5050ee018e2e5147cef926700cff45929325050"
+  },
+  {
+   "arquivo": "L2_estudo.md",
+   "bytes": 48933,
+   "sha256": "4b3d27b2ea186da1d97d9571608d36f00160696d450b2f2e9c193258d3346d3c"
+  },
+  {
+   "arquivo": "L2_gabarito.md",
+   "bytes": 53394,
+   "sha256": "7aa74384f5dd7e5bac2f49dc3d6b50af0322ccc10ba07cfcd0a41f9cb166d2b4"
+  },
+  {
+   "arquivo": "L2_itens.md",
+   "bytes": 52495,
+   "sha256": "9bb73429f2a9e29713c49247a61b58b1c4537aeac3850a47e3c698af5ffe7924"
+  },
+  {
+   "arquivo": "L3_estudo.md",
+   "bytes": 54586,
+   "sha256": "a6ea08ad469fb819db5bfb8609ad2ec3f436f62fddb049a3277669bb0e61435d"
+  },
+  {
+   "arquivo": "L3_gabarito.md",
+   "bytes": 38836,
+   "sha256": "5a2516422ebb27293f0a337fcae04ad539de3122e6e9c97c0cfdfd450028ce92"
+  },
+  {
+   "arquivo": "L3_itens.md",
+   "bytes": 41600,
+   "sha256": "b4ca1f7707a5789eb1750caa833d9a4d6a60d930642dc4908065e2b128bf2281"
+  },
+  {
+   "arquivo": "L4_estudo.md",
+   "bytes": 64066,
+   "sha256": "7f9bedfcc79f896c0b3ed162474649b5d6c021f9bc43767752bac98438bacf27"
+  },
+  {
+   "arquivo": "L4_gabarito.md",
+   "bytes": 17579,
+   "sha256": "66f95d58f2154763b7b362ee0ae426d3e86b6fa472c081a863716cf488aa5575"
+  },
+  {
+   "arquivo": "L4_itens.md",
+   "bytes": 8920,
+   "sha256": "6620555a3b368b66c1ca21a2ebc1faf9a2515016e747d64acf567d6a523c6545"
+  },
+  {
+   "arquivo": "L5_estudo.md",
+   "bytes": 45121,
+   "sha256": "50abca622f917d20406241ded6fccd576c55683e30c5a7b4ff29931c351ac5e2"
+  },
+  {
+   "arquivo": "L5_gabarito.md",
+   "bytes": 9627,
+   "sha256": "bbd753e15773894ad70c20b11286f3d5b7b440635ca7ce47b5d8409c344703bc"
+  },
+  {
+   "arquivo": "L5_itens.md",
+   "bytes": 7115,
+   "sha256": "e110570384225bda943dd709e1a4272faa6581b94eadad6ebf6f42fc488afaa3"
+  },
+  {
+   "arquivo": "L6A_estudo.md",
+   "bytes": 56408,
+   "sha256": "8ae7516d4b409f7944c81cb879b9941f1621a5d0bfab5eaca31ac3bb3e9f2065"
+  },
+  {
+   "arquivo": "L6A_gabarito.md",
+   "bytes": 8055,
+   "sha256": "c2fab83b8520fbb20427647236a51c51103cbb7dc92389c07eb472ee955a995a"
+  },
+  {
+   "arquivo": "L6A_itens.md",
+   "bytes": 4206,
+   "sha256": "afa0a0e333ff7ac2d4857ee80e72142a8825befb417832c15921f1663ff31b1e"
+  },
+  {
+   "arquivo": "L6B_estudo.md",
+   "bytes": 70677,
+   "sha256": "3a5c7eca9a7f507a976422b2ef2e36b388d371a8e352897919c7720466c7c4c8"
+  },
+  {
+   "arquivo": "L6B_gabarito.md",
+   "bytes": 8767,
+   "sha256": "8b23a83303888f821334d100186648807ae6562a4a683f11d88cb9f988798b91"
+  },
+  {
+   "arquivo": "L6B_itens.md",
+   "bytes": 5089,
+   "sha256": "cac479bf65a9d8fc9e8d94822eed87e8f6b0257cf49c2028dab6f43873565077"
+  },
+  {
+   "arquivo": "NUCLEO.md",
+   "bytes": 8103,
+   "sha256": "0ee0016e21c3ad05908d5f15d3bad81518cae701507ce72883c33af26e5c0e8d"
+  },
+  {
+   "arquivo": "README.md",
+   "bytes": 4610,
+   "sha256": "dd3c4fc26cb6cc810958ebf28b9d20ab7b18797704ab8527009052ce505b82c5"
+  },
+  {
+   "arquivo": "SIM-0-P2_folha.md",
+   "bytes": 6063,
+   "sha256": "f69efe607e7b575c246b46eded5ce15d5b6cf1e14ae755bc1bff23087c8bdab5"
+  },
+  {
+   "arquivo": "SIM-0-P2_gabarito.md",
+   "bytes": 5956,
+   "sha256": "cdd8a6588d0e24ebd4e445a50a7d11334e324eb4a85dbfd46b7babe0bbdcc081"
+  },
+  {
+   "arquivo": "SIM-0_folha.md",
+   "bytes": 19458,
+   "sha256": "7ef04f37578a2da082ab8c016ac06a06e8463db96089c268cd7e9b100815cd16"
+  },
+  {
+   "arquivo": "SIM-0_gabarito.md",
+   "bytes": 5979,
+   "sha256": "2df79ffa2501e38c66564a8b2a23cd5632372255bf7214c9179ca8ece3788374"
+  },
+  {
+   "arquivo": "SIM-1_folha.md",
+   "bytes": 8625,
+   "sha256": "e0e21ea32da954f4d20ac9df23937dab412179873d28211876600e938c2b9a38"
+  },
+  {
+   "arquivo": "SIM-1_gabarito.md",
+   "bytes": 15085,
+   "sha256": "17b0de7a1e3e34943dfeffe91fdfb1f746bcabffbe6c976516e6623a4ad84c96"
+  },
+  {
+   "arquivo": "SIM-2_folha.md",
+   "bytes": 9658,
+   "sha256": "d576cc3fecc6f9973a028f82e303abb65aedd00ad14000cbc263c51423daaa92"
+  },
+  {
+   "arquivo": "SIM-2_gabarito.md",
+   "bytes": 9565,
+   "sha256": "2113d4a7c1e399a1ce25b71d5819fe565121d3fc41c9a4d4c2b3e3e75e248c9e"
+  }
+ ],
+ "conferencias": [
+  {
+   "id": "M0.1",
+   "criterio": "base: 53 arquivos .md da v1.13-E",
+   "esperado": 53,
+   "obtido": 53,
+   "resultado": "OK"
+  },
+  {
+   "id": "M0.2",
+   "criterio": "base = saida/estudante/ (v1.13-E promovida), arquivo a arquivo, em LF",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M1.1",
+   "criterio": "BANCO_itens.md e BANCO_gabarito.md da base são reproduzidos pela forma vigente com os 106 itens",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M1.2",
+   "criterio": "142 itens de banco no pacote_estudante (106 + 36), em ordem de id",
+   "esperado": [
+    142,
+    true
+   ],
+   "obtido": [
+    142,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M1.3",
+   "criterio": "BANCO_itens.md e BANCO_gabarito.md novos começam pela base (os 106 antigos ficam byte a byte)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.1",
+   "criterio": "lote D1: a forma vigente reproduz DA_D1_itens.md e DA_D1_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.2",
+   "criterio": "lote D2: a forma vigente reproduz DA_D2_itens.md e DA_D2_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.3",
+   "criterio": "lote D3: a forma vigente reproduz DA_D3_itens.md e DA_D3_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.4",
+   "criterio": "lote D4: a forma vigente reproduz DA_D4_itens.md e DA_D4_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.5",
+   "criterio": "lote D5: a forma vigente reproduz DA_D5_itens.md e DA_D5_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M2.6",
+   "criterio": "lote D6: a forma vigente reproduz DA_D6_itens.md e DA_D6_gabarito.md da base (itens canônicos)",
+   "esperado": [
+    true,
+    true
+   ],
+   "obtido": [
+    true,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M3.1",
+   "criterio": "NUCLEO.md: linhas fora de DA iguais às da base, na mesma ordem",
+   "esperado": [
+    "- P1-1 (10 de 16): 6A-01, 6A-02, 6A-03, 6A-04, 6A-05, 6A-06, 6A-07, 6A-08, 6A-09, 6A-10",
+    "- P1-2 (6 de 6): BQ-0069, BQ-0070, BQ-0071, BQ-0078, BQ-0079, 6B-01",
+    "- P1-2.1 (6 de 6): BQ-0086, BQ-0089, 6B-02, 6B-03, 6B-04, 6B-05",
+    "- P1-3 (6 de 6): 6A-11, 6A-12, 6A-13, 6A-14, 6A-15, L6A-R01",
+    "- P1-4 (5 de 5): BQ-0011, BQ-0012, BQ-0038, BQ-0039, BQ-0111",
+    "- P1-4.1 (10 de 11): BQ-0073, BQ-0082, BQ-0083, BQ-0090, BQ-0094, BQ-0095, 6B-06, 6B-07, 6B-08, 6B-09",
+    "- P1-4.2 (8 de 8): BQ-0067, BQ-0074, BQ-0075, BQ-0088, BQ-0093, 6B-10, 6B-11, 6B-12",
+    "- P1-4.3 (6 de 6): BQ-0076, 6B-13, 6B-14, 6B-15, L6B-R01, L6B-R02",
+    "- P1-5 (2 de 2): BQ-0009, BQ-0102",
+    "- P1-5.1 (10 de 17): BQ-0059, L4-01, L4-02, L4-03, L4-04, L4-05, L4-06, 4C-01, 4C-02, 4C-03",
+    "- P1-5.2 (10 de 30): BQ-0013, BQ-0018, BQ-0019, BQ-0020, BQ-0026, BQ-0027, BQ-0034, BQ-0041, BQ-0042, BQ-0043",
+    "- P1-5.3 (10 de 15): BQ-0010, BQ-0014, BQ-0015, BQ-0028, BQ-0033, BQ-0058, BQ-0061, BQ-0064, BQ-0065, BQ-0066",
+    "- P1-6 (7 de 7): BQ-0016, BQ-0040, BQ-0072, L4-17, L4-18, L4-19, L4-20",
+    "- P1-7.1 (9 de 9): BQ-0044, BQ-0054, BQ-0055, BQ-0107, BQ-0108, A5-01, A5-02, A5-03, A5-04",
+    "- P1-8.1 (7 de 7): BQ-0001, BQ-0021, BQ-0022, BQ-0099, A5-05, A5-06, A5-07",
+    "- P1-8.2 (10 de 19): BQ-0047, BQ-0052, BQ-0053, A5-08, A5-09, A5-10, A5-11, A5-12, A5-13, 5C-01",
+    "- P1-8.3 (7 de 7): BQ-0017, BQ-0035, BQ-0048, A5-14, A5-15, A5-16, A5-17",
+    "- P1-8.4 (8 de 8): BQ-0098, A5-18, A5-19, A5-20, 5C-07, 5C-08, 5C-09, 5C-10",
+    "- P2-1.1 (10 de 29): L1-Q01, L1-Q02, L1C-Q21, L1C-Q22, L1-R01, L1-R02, L1-R19, L1-R20, L1-R21, L1-R22",
+    "- P2-1.2 (10 de 30): L1-Q03, L1-Q04, L1C-Q23, L1C-Q24, L1-R03, L1-R04, L1-R33, L1-R34, L1-R35, L1-R36",
+    "- P2-1.3 (10 de 30): L1-Q05, L1-Q06, L1C-Q25, L1C-Q26, L1-R05, L1-R06, L1-R47, L1-R48, L1-R49, L1-R50",
+    "- P2-1.4 (10 de 30): L1-Q07, L1-Q08, L1-Q09, L1C-Q27, L1C-Q28, L1-R07, L1-R61, L1-R62, L1-R63, L1-R64",
+    "- P2-1.5 (10 de 30): L1-Q10, L1-Q11, L1C-Q29, L1C-Q30, L1-R08, L1-R09, L1-R75, L1-R76, L1-R77, L1-R78",
+    "- P2-1.6 (10 de 30): L1-Q12, L1-Q13, L1-Q14, L1-R10, L1-R11, L1-R12, L1-R89, L1-R90, L1-R91, L1-R92",
+    "- P2-1.7 (10 de 30): L1-Q15, L1-Q16, L1-Q17, L1-R13, L1-R14, L1-R15, L1-R103, L1-R104, L1-R105, L1-R106",
+    "- P2-1.8 (10 de 30): L1-Q18, L1-Q19, L1-Q20, L1-R16, L1-R17, L1-R18, L1-R117, L1-R118, L1-R119, L1-R120",
+    "- P2-2.1 (10 de 27): L2-Q01, L2-Q02, L2-Q03, L2-Q04, L2-R01, L2-R02, L2-R20, L2-R23, L2-R24, L2-R26",
+    "- P2-2.2 (10 de 21): L2-Q05, L2-Q06, L2-Q07, L2-Q08, L2-R03, L2-R04, L2-R33, L2-R34, L2-R36, L2-R37",
+    "- P2-2.3 (10 de 20): L2-Q09, L2-Q10, L2-Q11, L2-Q12, L2-R05, L2-R06, L2-R48, L2-R49, L2-R56, L2-R57",
+    "- P2-2.4 (10 de 20): L2-Q13, L2-Q14, L2-Q15, L2-Q16, L2-R07, L2-R08, L2-R62, L2-R68, L2-R70, L2-R72",
+    "- P2-2.5 (10 de 20): L2-Q17, L2-Q18, L2-Q19, L2-Q20, L2-R09, L2-R10, L2-R75, L2-R76, L2-R77, L2-R78",
+    "- P2-2.6 (10 de 20): L2-Q21, L2-Q22, L2-Q23, L2-R11, L2-R12, L2-R13, L2-R89, L2-R90, L2-R92, L2-R93",
+    "- P2-2.7 (10 de 20): L2-Q24, L2-Q25, L2-Q26, L2-Q27, L2-R14, L2-R15, L2-R103, L2-R104, L2-R105, L2-R106",
+    "- P2-2.8 (10 de 20): L2-Q28, L2-Q29, L2-Q30, L2-R17, L2-R18, L2-R117, L2-R118, L2-R119, L2-R120, L2-R121",
+    "- P2-3.1 (10 de 27): L3-Q01, L3-Q02, L3-Q03, L3-Q04, L2-R16, L3-R01, L3-R02, L3-R15, L3-R16, L3-R17",
+    "- P2-3.2 (10 de 20): L3-Q05, L3-Q06, L3-Q07, L3-Q08, L3-R03, L3-R04, L3-R26, L3-R27, L3-R28, L3-R29",
+    "- P2-3.3 (10 de 20): L3-Q09, L3-Q10, L3-Q11, L3-Q12, L3-R05, L3-R06, L3-R40, L3-R41, L3-R42, L3-R43",
+    "- P2-3.4 (10 de 20): L3-Q13, L3-Q14, L3-Q15, L3-Q16, L3-R07, L3-R08, L3-R54, L3-R55, L3-R56, L3-R57",
+    "- P2-4.1 (10 de 30): BQ-0002, BQ-0003, BQ-0004, BQ-0005, BQ-0006, BQ-0007, BQ-0008, BQ-0023, BQ-0024, BQ-0025",
+    "- P2-4.2 (10 de 20): L3-Q22, L3-Q23, L3-Q24, L3-Q25, L3-Q26, L3-R09, L3-R68, L3-R69, L3-R70, L3-R71",
+    "- P2-4.3 (10 de 20): L3-Q27, L3-Q28, L3-Q29, L3-Q30, L3-R10, L3-R11, L3-R82, L3-R83, L3-R84, L3-R85"
+   ],
+   "obtido": [
+    "- P1-1 (10 de 16): 6A-01, 6A-02, 6A-03, 6A-04, 6A-05, 6A-06, 6A-07, 6A-08, 6A-09, 6A-10",
+    "- P1-2 (6 de 6): BQ-0069, BQ-0070, BQ-0071, BQ-0078, BQ-0079, 6B-01",
+    "- P1-2.1 (6 de 6): BQ-0086, BQ-0089, 6B-02, 6B-03, 6B-04, 6B-05",
+    "- P1-3 (6 de 6): 6A-11, 6A-12, 6A-13, 6A-14, 6A-15, L6A-R01",
+    "- P1-4 (5 de 5): BQ-0011, BQ-0012, BQ-0038, BQ-0039, BQ-0111",
+    "- P1-4.1 (10 de 11): BQ-0073, BQ-0082, BQ-0083, BQ-0090, BQ-0094, BQ-0095, 6B-06, 6B-07, 6B-08, 6B-09",
+    "- P1-4.2 (8 de 8): BQ-0067, BQ-0074, BQ-0075, BQ-0088, BQ-0093, 6B-10, 6B-11, 6B-12",
+    "- P1-4.3 (6 de 6): BQ-0076, 6B-13, 6B-14, 6B-15, L6B-R01, L6B-R02",
+    "- P1-5 (2 de 2): BQ-0009, BQ-0102",
+    "- P1-5.1 (10 de 17): BQ-0059, L4-01, L4-02, L4-03, L4-04, L4-05, L4-06, 4C-01, 4C-02, 4C-03",
+    "- P1-5.2 (10 de 30): BQ-0013, BQ-0018, BQ-0019, BQ-0020, BQ-0026, BQ-0027, BQ-0034, BQ-0041, BQ-0042, BQ-0043",
+    "- P1-5.3 (10 de 15): BQ-0010, BQ-0014, BQ-0015, BQ-0028, BQ-0033, BQ-0058, BQ-0061, BQ-0064, BQ-0065, BQ-0066",
+    "- P1-6 (7 de 7): BQ-0016, BQ-0040, BQ-0072, L4-17, L4-18, L4-19, L4-20",
+    "- P1-7.1 (9 de 9): BQ-0044, BQ-0054, BQ-0055, BQ-0107, BQ-0108, A5-01, A5-02, A5-03, A5-04",
+    "- P1-8.1 (7 de 7): BQ-0001, BQ-0021, BQ-0022, BQ-0099, A5-05, A5-06, A5-07",
+    "- P1-8.2 (10 de 19): BQ-0047, BQ-0052, BQ-0053, A5-08, A5-09, A5-10, A5-11, A5-12, A5-13, 5C-01",
+    "- P1-8.3 (7 de 7): BQ-0017, BQ-0035, BQ-0048, A5-14, A5-15, A5-16, A5-17",
+    "- P1-8.4 (8 de 8): BQ-0098, A5-18, A5-19, A5-20, 5C-07, 5C-08, 5C-09, 5C-10",
+    "- P2-1.1 (10 de 29): L1-Q01, L1-Q02, L1C-Q21, L1C-Q22, L1-R01, L1-R02, L1-R19, L1-R20, L1-R21, L1-R22",
+    "- P2-1.2 (10 de 30): L1-Q03, L1-Q04, L1C-Q23, L1C-Q24, L1-R03, L1-R04, L1-R33, L1-R34, L1-R35, L1-R36",
+    "- P2-1.3 (10 de 30): L1-Q05, L1-Q06, L1C-Q25, L1C-Q26, L1-R05, L1-R06, L1-R47, L1-R48, L1-R49, L1-R50",
+    "- P2-1.4 (10 de 30): L1-Q07, L1-Q08, L1-Q09, L1C-Q27, L1C-Q28, L1-R07, L1-R61, L1-R62, L1-R63, L1-R64",
+    "- P2-1.5 (10 de 30): L1-Q10, L1-Q11, L1C-Q29, L1C-Q30, L1-R08, L1-R09, L1-R75, L1-R76, L1-R77, L1-R78",
+    "- P2-1.6 (10 de 30): L1-Q12, L1-Q13, L1-Q14, L1-R10, L1-R11, L1-R12, L1-R89, L1-R90, L1-R91, L1-R92",
+    "- P2-1.7 (10 de 30): L1-Q15, L1-Q16, L1-Q17, L1-R13, L1-R14, L1-R15, L1-R103, L1-R104, L1-R105, L1-R106",
+    "- P2-1.8 (10 de 30): L1-Q18, L1-Q19, L1-Q20, L1-R16, L1-R17, L1-R18, L1-R117, L1-R118, L1-R119, L1-R120",
+    "- P2-2.1 (10 de 27): L2-Q01, L2-Q02, L2-Q03, L2-Q04, L2-R01, L2-R02, L2-R20, L2-R23, L2-R24, L2-R26",
+    "- P2-2.2 (10 de 21): L2-Q05, L2-Q06, L2-Q07, L2-Q08, L2-R03, L2-R04, L2-R33, L2-R34, L2-R36, L2-R37",
+    "- P2-2.3 (10 de 20): L2-Q09, L2-Q10, L2-Q11, L2-Q12, L2-R05, L2-R06, L2-R48, L2-R49, L2-R56, L2-R57",
+    "- P2-2.4 (10 de 20): L2-Q13, L2-Q14, L2-Q15, L2-Q16, L2-R07, L2-R08, L2-R62, L2-R68, L2-R70, L2-R72",
+    "- P2-2.5 (10 de 20): L2-Q17, L2-Q18, L2-Q19, L2-Q20, L2-R09, L2-R10, L2-R75, L2-R76, L2-R77, L2-R78",
+    "- P2-2.6 (10 de 20): L2-Q21, L2-Q22, L2-Q23, L2-R11, L2-R12, L2-R13, L2-R89, L2-R90, L2-R92, L2-R93",
+    "- P2-2.7 (10 de 20): L2-Q24, L2-Q25, L2-Q26, L2-Q27, L2-R14, L2-R15, L2-R103, L2-R104, L2-R105, L2-R106",
+    "- P2-2.8 (10 de 20): L2-Q28, L2-Q29, L2-Q30, L2-R17, L2-R18, L2-R117, L2-R118, L2-R119, L2-R120, L2-R121",
+    "- P2-3.1 (10 de 27): L3-Q01, L3-Q02, L3-Q03, L3-Q04, L2-R16, L3-R01, L3-R02, L3-R15, L3-R16, L3-R17",
+    "- P2-3.2 (10 de 20): L3-Q05, L3-Q06, L3-Q07, L3-Q08, L3-R03, L3-R04, L3-R26, L3-R27, L3-R28, L3-R29",
+    "- P2-3.3 (10 de 20): L3-Q09, L3-Q10, L3-Q11, L3-Q12, L3-R05, L3-R06, L3-R40, L3-R41, L3-R42, L3-R43",
+    "- P2-3.4 (10 de 20): L3-Q13, L3-Q14, L3-Q15, L3-Q16, L3-R07, L3-R08, L3-R54, L3-R55, L3-R56, L3-R57",
+    "- P2-4.1 (10 de 30): BQ-0002, BQ-0003, BQ-0004, BQ-0005, BQ-0006, BQ-0007, BQ-0008, BQ-0023, BQ-0024, BQ-0025",
+    "- P2-4.2 (10 de 20): L3-Q22, L3-Q23, L3-Q24, L3-Q25, L3-Q26, L3-R09, L3-R68, L3-R69, L3-R70, L3-R71",
+    "- P2-4.3 (10 de 20): L3-Q27, L3-Q28, L3-Q29, L3-Q30, L3-R10, L3-R11, L3-R82, L3-R83, L3-R84, L3-R85"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M3.2",
+   "criterio": "NUCLEO.md: cabeçalho igual ao da base",
+   "esperado": "# Câmara 2026 — Núcleo de estudo por item do edital\n\nEm cada item do edital, os itens marcados como núcleo são os 10 primeiros pela ordem em que foram incorporados ao material (itens de provas anteriores e itens de lotes de estudo; havendo empate, os de aderência direta antes dos de aderência parcial). Item do edital com 10 itens ou menos: todos são núcleo.\n",
+   "obtido": "# Câmara 2026 — Núcleo de estudo por item do edital\n\nEm cada item do edital, os itens marcados como núcleo são os 10 primeiros pela ordem em que foram incorporados ao material (itens de provas anteriores e itens de lotes de estudo; havendo empate, os de aderência direta antes dos de aderência parcial). Item do edital com 10 itens ou menos: todos são núcleo.\n",
+   "resultado": "OK"
+  },
+  {
+   "id": "M3.3",
+   "criterio": "NUCLEO.md: 775 ids núcleo (367 fora de DA + 408 de DA), iguais ao campo nucleo do pacote_estudante, sem repetição",
+   "esperado": [
+    775,
+    367,
+    408,
+    true
+   ],
+   "obtido": [
+    775,
+    367,
+    408,
+    true
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M4.1",
+   "criterio": "README: linha de versão e de data únicas",
+   "esperado": [
+    1,
+    1
+   ],
+   "obtido": [
+    1,
+    1
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M4.2",
+   "criterio": "README: a linha de DA ocorre 1 vez (âncora)",
+   "esperado": 1,
+   "obtido": 1,
+   "resultado": "OK"
+  },
+  {
+   "id": "M5.1",
+   "criterio": "53 arquivos na saída",
+   "esperado": 53,
+   "obtido": 53,
+   "resultado": "OK"
+  },
+  {
+   "id": "M5.2",
+   "criterio": "mudam exatamente os 12 arquivos da D1 (seção 10)",
+   "esperado": [
+    "BANCO_gabarito.md",
+    "BANCO_itens.md",
+    "DA_D1_gabarito.md",
+    "DA_D1_itens.md",
+    "DA_D2_gabarito.md",
+    "DA_D2_itens.md",
+    "DA_D3_gabarito.md",
+    "DA_D3_itens.md",
+    "DA_D4_gabarito.md",
+    "DA_D4_itens.md",
+    "NUCLEO.md",
+    "README.md"
+   ],
+   "obtido": [
+    "BANCO_gabarito.md",
+    "BANCO_itens.md",
+    "DA_D1_gabarito.md",
+    "DA_D1_itens.md",
+    "DA_D2_gabarito.md",
+    "DA_D2_itens.md",
+    "DA_D3_gabarito.md",
+    "DA_D3_itens.md",
+    "DA_D4_gabarito.md",
+    "DA_D4_itens.md",
+    "NUCLEO.md",
+    "README.md"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M5.3",
+   "criterio": "41 arquivos ficam byte a byte iguais à v1.13-E (entre eles os 6 DA_D<n>_estudo.md e os 4 arquivos de D5 e D6)",
+   "esperado": 41,
+   "obtido": 41,
+   "resultado": "OK"
+  },
+  {
+   "id": "M5.4",
+   "criterio": "os 6 DA_D<n>_estudo.md e os arquivos de D5 e D6 não mudam",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.0",
+   "criterio": "274 ids novos (238 de reforço + 36 de banco)",
+   "esperado": [
+    274,
+    238,
+    36
+   ],
+   "obtido": [
+    274,
+    238,
+    36
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.1",
+   "criterio": "274 ids, cada um 1 vez nos _itens, com o texto do pacote_estudante (enunciado; comando e texto-base nos de banco)",
+   "esperado": 274,
+   "obtido": 274,
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.2",
+   "criterio": "274 ids, cada um 1 vez nos _gabarito, com gabarito, item do edital e justificativa (aderência nos de banco) iguais",
+   "esperado": 274,
+   "obtido": 274,
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.3",
+   "criterio": "divergências de item",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.4",
+   "criterio": "seção \"## Itens de reforço\" (1 vez, ao fim) de DA_D1 a DA_D4 _itens e _gabarito lista os ids de reforço do lote, na ordem do pacote",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M6.5",
+   "criterio": "DA_D5 e DA_D6 sem seção \"Itens de reforço\"",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  },
+  {
+   "id": "M7.1",
+   "criterio": "C-MARCAS (D1, 8.1) nas linhas acrescentadas dos 12 arquivos que mudam, com a máscara de ids (títulos de item e listas de ids); linhas \"- URL oficial:\" de banco fora",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M7.2",
+   "criterio": "DA_D<n>_itens/gabarito: 0 \"D<n>\" isolado que não seja precedido de \"lote \" (ids com hífen não contam)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "M7.3",
+   "criterio": "DA: 0 \"**\" nos itens e gabaritos de reforço (pares e pegadinhas dos estudos não mudam)",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  },
+  {
+   "id": "M8.1",
+   "criterio": "nenhum CR nos 53 arquivos gravados",
+   "esperado": 0,
+   "obtido": 0,
+   "resultado": "OK"
+  }
+ ],
+ "total_conferencias": 30,
+ "falhas": 0
+}

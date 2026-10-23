@@ -1,0 +1,1897 @@
+{
+ "tarefa": "T-123 (D1 da GBQ, seção 9; insumo da secretaria para cobertura_v1_14.md)",
+ "script": "saida/pacote/montagem_v1_14/cobertura_v1_14.py",
+ "fontes": {
+  "pacote": "out/pacote.json",
+  "estudante": "out/pacote_estudante.json",
+  "geradoEm": "2026-10-23",
+  "itens": 1433
+ },
+ "totais": {
+  "itens": 1433,
+  "C": 730,
+  "E": 703,
+  "em_folha": 1380,
+  "fora_de_folha": 53,
+  "por_materia_em_folha": {
+   "P1": {
+    "total": 172,
+    "autoral": 99,
+    "reais": 73,
+    "diretos": 154,
+    "parciais": 18,
+    "volateis": 18,
+    "nucleo": 124
+   },
+   "P2": {
+    "total": 564,
+    "autoral": 543,
+    "reais": 21,
+    "diretos": 488,
+    "parciais": 76,
+    "volateis": 68,
+    "nucleo": 230
+   },
+   "DA": {
+    "total": 644,
+    "autoral": 634,
+    "reais": 10,
+    "diretos": 609,
+    "parciais": 35,
+    "volateis": 5,
+    "nucleo": 370
+   }
+  }
+ },
+ "folhas": {
+  "P1": [
+   {
+    "folha": "P1-1",
+    "total": 16,
+    "autoral": 10,
+    "reais": 6,
+    "diretos": 12,
+    "parciais": 4,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 4,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-2.1",
+    "total": 6,
+    "autoral": 4,
+    "reais": 2,
+    "diretos": 6,
+    "parciais": 0,
+    "volateis": 2,
+    "nucleo": 6,
+    "meta20": false,
+    "faltam": 14,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-3",
+    "total": 6,
+    "autoral": 6,
+    "reais": 0,
+    "diretos": 6,
+    "parciais": 0,
+    "volateis": 2,
+    "nucleo": 6,
+    "meta20": false,
+    "faltam": 14,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-4.1",
+    "total": 11,
+    "autoral": 4,
+    "reais": 7,
+    "diretos": 10,
+    "parciais": 1,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 9,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-4.2",
+    "total": 8,
+    "autoral": 3,
+    "reais": 5,
+    "diretos": 7,
+    "parciais": 1,
+    "volateis": 1,
+    "nucleo": 8,
+    "meta20": false,
+    "faltam": 12,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-4.3",
+    "total": 6,
+    "autoral": 5,
+    "reais": 1,
+    "diretos": 6,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 6,
+    "meta20": false,
+    "faltam": 14,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-5.1",
+    "total": 17,
+    "autoral": 16,
+    "reais": 1,
+    "diretos": 17,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 3,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-5.2",
+    "total": 30,
+    "autoral": 12,
+    "reais": 18,
+    "diretos": 29,
+    "parciais": 1,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-5.3",
+    "total": 15,
+    "autoral": 5,
+    "reais": 10,
+    "diretos": 14,
+    "parciais": 1,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 5,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-6",
+    "total": 7,
+    "autoral": 4,
+    "reais": 3,
+    "diretos": 6,
+    "parciais": 1,
+    "volateis": 0,
+    "nucleo": 7,
+    "meta20": false,
+    "faltam": 13,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-7.1",
+    "total": 9,
+    "autoral": 4,
+    "reais": 5,
+    "diretos": 7,
+    "parciais": 2,
+    "volateis": 0,
+    "nucleo": 9,
+    "meta20": false,
+    "faltam": 11,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-8.1",
+    "total": 7,
+    "autoral": 3,
+    "reais": 4,
+    "diretos": 5,
+    "parciais": 2,
+    "volateis": 0,
+    "nucleo": 7,
+    "meta20": false,
+    "faltam": 13,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-8.2",
+    "total": 19,
+    "autoral": 12,
+    "reais": 7,
+    "diretos": 16,
+    "parciais": 3,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 1,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-8.3",
+    "total": 7,
+    "autoral": 4,
+    "reais": 3,
+    "diretos": 5,
+    "parciais": 2,
+    "volateis": 6,
+    "nucleo": 7,
+    "meta20": false,
+    "faltam": 13,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P1-8.4",
+    "total": 8,
+    "autoral": 7,
+    "reais": 1,
+    "diretos": 8,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 8,
+    "meta20": false,
+    "faltam": 12,
+    "piso10_diretos": false
+   }
+  ],
+  "P2": [
+   {
+    "folha": "P2-1.1",
+    "total": 29,
+    "autoral": 29,
+    "reais": 0,
+    "diretos": 29,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.2",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.3",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 6,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.4",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 6,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.5",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 6,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.6",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 6,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.7",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 6,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-1.8",
+    "total": 30,
+    "autoral": 30,
+    "reais": 0,
+    "diretos": 30,
+    "parciais": 0,
+    "volateis": 2,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.1",
+    "total": 27,
+    "autoral": 27,
+    "reais": 0,
+    "diretos": 17,
+    "parciais": 10,
+    "volateis": 5,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.2",
+    "total": 21,
+    "autoral": 21,
+    "reais": 0,
+    "diretos": 14,
+    "parciais": 7,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 10,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 11,
+    "parciais": 9,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.5",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 17,
+    "parciais": 3,
+    "volateis": 4,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.6",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 16,
+    "parciais": 4,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.7",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 18,
+    "parciais": 2,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-2.8",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 19,
+    "parciais": 1,
+    "volateis": 4,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-3.1",
+    "total": 27,
+    "autoral": 27,
+    "reais": 0,
+    "diretos": 22,
+    "parciais": 5,
+    "volateis": 5,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-3.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-3.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 18,
+    "parciais": 2,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-3.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 19,
+    "parciais": 1,
+    "volateis": 3,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-4.1",
+    "total": 30,
+    "autoral": 9,
+    "reais": 21,
+    "diretos": 9,
+    "parciais": 21,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": false
+   },
+   {
+    "folha": "P2-4.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P2-4.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 19,
+    "parciais": 1,
+    "volateis": 2,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   }
+  ],
+  "DA": [
+   {
+    "folha": "P1-DA-1.1",
+    "total": 11,
+    "autoral": 11,
+    "reais": 0,
+    "diretos": 11,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 9,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-1.2",
+    "total": 11,
+    "autoral": 11,
+    "reais": 0,
+    "diretos": 11,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 9,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-2.1",
+    "total": 22,
+    "autoral": 22,
+    "reais": 0,
+    "diretos": 22,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-2.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-3.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-3.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-3.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-3.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-4.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-4.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-4.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-4.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-5.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-5.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 16,
+    "parciais": 4,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-6.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 12,
+    "parciais": 8,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-6.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 15,
+    "parciais": 5,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-6.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 12,
+    "parciais": 8,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-6.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 14,
+    "parciais": 6,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-6.5",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 17,
+    "parciais": 3,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-7",
+    "total": 22,
+    "autoral": 20,
+    "reais": 2,
+    "diretos": 22,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-8.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-8.2",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-8.3",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 19,
+    "parciais": 1,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-8.4",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-9.1",
+    "total": 20,
+    "autoral": 20,
+    "reais": 0,
+    "diretos": 20,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-9.2",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-9.3",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-9.4",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.1",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.2",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.3",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.4",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.5",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.6",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-10.7",
+    "total": 10,
+    "autoral": 10,
+    "reais": 0,
+    "diretos": 10,
+    "parciais": 0,
+    "volateis": 0,
+    "nucleo": 10,
+    "meta20": false,
+    "faltam": 10,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-11",
+    "total": 34,
+    "autoral": 30,
+    "reais": 4,
+    "diretos": 34,
+    "parciais": 0,
+    "volateis": 1,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   },
+   {
+    "folha": "P1-DA-12",
+    "total": 24,
+    "autoral": 20,
+    "reais": 4,
+    "diretos": 24,
+    "parciais": 0,
+    "volateis": 2,
+    "nucleo": 10,
+    "meta20": true,
+    "faltam": 0,
+    "piso10_diretos": true
+   }
+  ]
+ },
+ "fora_de_folha": {
+  "P1_P2": [
+   "6B-01",
+   "BQ-0009",
+   "BQ-0011",
+   "BQ-0012",
+   "BQ-0038",
+   "BQ-0039",
+   "BQ-0069",
+   "BQ-0070",
+   "BQ-0071",
+   "BQ-0078",
+   "BQ-0079",
+   "BQ-0102",
+   "BQ-0111"
+  ],
+  "DA_por_entrada": {
+   "P1-DA-10": 4,
+   "P1-DA-3": 5,
+   "P1-DA-1": 12,
+   "P1-DA-5": 3,
+   "P1-DA-8": 7,
+   "P1-DA-2": 3,
+   "P1-DA-4": 4,
+   "P1-DA-6": 1,
+   "P1-DA-9": 1
+  },
+  "DA_ids_por_entrada": {
+   "P1-DA-1": [
+    "BQ-0115",
+    "BQ-0124",
+    "BQ-0129",
+    "BQ-0136",
+    "D1-01",
+    "D1-02",
+    "D1-03",
+    "D1-04",
+    "D1-05",
+    "D1-06",
+    "D1-07",
+    "D1-08"
+   ],
+   "P1-DA-2": [
+    "BQ-0122",
+    "BQ-0137",
+    "BQ-0148"
+   ],
+   "P1-DA-3": [
+    "BQ-0114",
+    "BQ-0125",
+    "BQ-0126",
+    "BQ-0128",
+    "BQ-0150"
+   ],
+   "P1-DA-4": [
+    "BQ-0127",
+    "BQ-0132",
+    "BQ-0145",
+    "BQ-0146"
+   ],
+   "P1-DA-5": [
+    "BQ-0116",
+    "BQ-0130",
+    "BQ-0138"
+   ],
+   "P1-DA-6": [
+    "BQ-0139"
+   ],
+   "P1-DA-8": [
+    "BQ-0121",
+    "D4-74",
+    "D4-75",
+    "D4-76",
+    "D4-77",
+    "D4-78",
+    "D4-79"
+   ],
+   "P1-DA-9": [
+    "BQ-0152"
+   ],
+   "P1-DA-10": [
+    "BQ-0113",
+    "BQ-0134",
+    "BQ-0135",
+    "BQ-0142"
+   ]
+  }
+ },
+ "da_abaixo_de_20": [
+  {
+   "folha": "P1-DA-9.2",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-9.3",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-9.4",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.1",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.2",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.3",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.4",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.5",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.6",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-10.7",
+   "total": 10,
+   "faltam": 10
+  },
+  {
+   "folha": "P1-DA-1.1",
+   "total": 11,
+   "faltam": 9
+  },
+  {
+   "folha": "P1-DA-1.2",
+   "total": 11,
+   "faltam": 9
+  }
+ ],
+ "da_com_20_ou_mais": [
+  {
+   "folha": "P1-DA-2.1",
+   "total": 22
+  },
+  {
+   "folha": "P1-DA-2.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-3.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-3.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-3.3",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-3.4",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-4.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-4.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-4.3",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-4.4",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-5.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-5.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-6.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-6.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-6.3",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-6.4",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-6.5",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-7",
+   "total": 22
+  },
+  {
+   "folha": "P1-DA-8.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-8.2",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-8.3",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-8.4",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-9.1",
+   "total": 20
+  },
+  {
+   "folha": "P1-DA-11",
+   "total": 34
+  },
+  {
+   "folha": "P1-DA-12",
+   "total": 24
+  }
+ ],
+ "da_ordem_da_mais_rala_a_mais_cheia": [
+  {
+   "folha": "P1-DA-9.2",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-9.3",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-9.4",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.1",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.2",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.3",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.4",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.5",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.6",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-10.7",
+   "total": 10,
+   "faltam": 10,
+   "diretos": 10,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-1.1",
+   "total": 11,
+   "faltam": 9,
+   "diretos": 11,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-1.2",
+   "total": 11,
+   "faltam": 9,
+   "diretos": 11,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-2.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-3.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 1,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-3.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-3.3",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 1,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-3.4",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-4.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-4.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-4.3",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-4.4",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-5.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-5.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 16,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-6.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 12,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-6.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 15,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-6.3",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 12,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-6.4",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 14,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-6.5",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 17,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-8.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-8.2",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-8.3",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 19,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-8.4",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-9.1",
+   "total": 20,
+   "faltam": 0,
+   "diretos": 20,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-2.1",
+   "total": 22,
+   "faltam": 0,
+   "diretos": 22,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-7",
+   "total": 22,
+   "faltam": 0,
+   "diretos": 22,
+   "volateis": 0,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-12",
+   "total": 24,
+   "faltam": 0,
+   "diretos": 24,
+   "volateis": 2,
+   "nucleo": 10
+  },
+  {
+   "folha": "P1-DA-11",
+   "total": 34,
+   "faltam": 0,
+   "diretos": 34,
+   "volateis": 1,
+   "nucleo": 10
+  }
+ ],
+ "da_falta_para_20": 118,
+ "parciais_da_por_folha": {
+  "P1-DA-5.2": 4,
+  "P1-DA-6.1": 8,
+  "P1-DA-6.2": 5,
+  "P1-DA-6.3": 8,
+  "P1-DA-6.4": 6,
+  "P1-DA-6.5": 3,
+  "P1-DA-8.3": 1
+ },
+ "comparacao_v1_13": {
+  "P1_P2_linhas_iguais": true,
+  "da_v1_13": {
+   "total": 396,
+   "autoral": 396,
+   "reais": 0,
+   "diretos": 396,
+   "parciais": 0,
+   "volateis": 5,
+   "nucleo": 352
+  },
+  "da_fora_v1_13": 14
+ },
+ "ressalva_d": "A coluna \"Onda programada\" de P1 (ressalva (d) da cobertura_v1_13.md) não é calculável pelo pacote: vem de TAREFAS.md e é reconstruída pela secretaria nesta ocorrência.",
+ "criterios": [
+  {
+   "id": "F0",
+   "criterio": "as folhas de DA do pacote = as entradas sem subitens de edital/DA_itens_1_12_P1.md",
+   "esperado": [
+    "P1-DA-1.1",
+    "P1-DA-1.2",
+    "P1-DA-10.1",
+    "P1-DA-10.2",
+    "P1-DA-10.3",
+    "P1-DA-10.4",
+    "P1-DA-10.5",
+    "P1-DA-10.6",
+    "P1-DA-10.7",
+    "P1-DA-11",
+    "P1-DA-12",
+    "P1-DA-2.1",
+    "P1-DA-2.2",
+    "P1-DA-3.1",
+    "P1-DA-3.2",
+    "P1-DA-3.3",
+    "P1-DA-3.4",
+    "P1-DA-4.1",
+    "P1-DA-4.2",
+    "P1-DA-4.3",
+    "P1-DA-4.4",
+    "P1-DA-5.1",
+    "P1-DA-5.2",
+    "P1-DA-6.1",
+    "P1-DA-6.2",
+    "P1-DA-6.3",
+    "P1-DA-6.4",
+    "P1-DA-6.5",
+    "P1-DA-7",
+    "P1-DA-8.1",
+    "P1-DA-8.2",
+    "P1-DA-8.3",
+    "P1-DA-8.4",
+    "P1-DA-9.1",
+    "P1-DA-9.2",
+    "P1-DA-9.3",
+    "P1-DA-9.4"
+   ],
+   "obtido": [
+    "P1-DA-1.1",
+    "P1-DA-1.2",
+    "P1-DA-10.1",
+    "P1-DA-10.2",
+    "P1-DA-10.3",
+    "P1-DA-10.4",
+    "P1-DA-10.5",
+    "P1-DA-10.6",
+    "P1-DA-10.7",
+    "P1-DA-11",
+    "P1-DA-12",
+    "P1-DA-2.1",
+    "P1-DA-2.2",
+    "P1-DA-3.1",
+    "P1-DA-3.2",
+    "P1-DA-3.3",
+    "P1-DA-3.4",
+    "P1-DA-4.1",
+    "P1-DA-4.2",
+    "P1-DA-4.3",
+    "P1-DA-4.4",
+    "P1-DA-5.1",
+    "P1-DA-5.2",
+    "P1-DA-6.1",
+    "P1-DA-6.2",
+    "P1-DA-6.3",
+    "P1-DA-6.4",
+    "P1-DA-6.5",
+    "P1-DA-7",
+    "P1-DA-8.1",
+    "P1-DA-8.2",
+    "P1-DA-8.3",
+    "P1-DA-8.4",
+    "P1-DA-9.1",
+    "P1-DA-9.2",
+    "P1-DA-9.3",
+    "P1-DA-9.4"
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F1",
+   "criterio": "folhas: P1, P2, DA e total",
+   "esperado": [
+    15,
+    23,
+    37,
+    75
+   ],
+   "obtido": [
+    15,
+    23,
+    37,
+    75
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F2",
+   "criterio": "itens no pacote",
+   "esperado": 1433,
+   "obtido": 1433,
+   "resultado": "OK"
+  },
+  {
+   "id": "F2c",
+   "criterio": "C/E no pacote",
+   "esperado": [
+    730,
+    703
+   ],
+   "obtido": [
+    730,
+    703
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F3",
+   "criterio": "DA: itens em folha / fora de folha",
+   "esperado": [
+    644,
+    40
+   ],
+   "obtido": [
+    644,
+    40
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F3b",
+   "criterio": "DA fora de folha por entrada (P1-DA-1 12, 2 3, 3 5, 4 4, 5 3, 6 1, 8 7, 9 1, 10 4)",
+   "esperado": {
+    "P1-DA-1": 12,
+    "P1-DA-2": 3,
+    "P1-DA-3": 5,
+    "P1-DA-4": 4,
+    "P1-DA-5": 3,
+    "P1-DA-6": 1,
+    "P1-DA-8": 7,
+    "P1-DA-9": 1,
+    "P1-DA-10": 4
+   },
+   "obtido": {
+    "P1-DA-10": 4,
+    "P1-DA-3": 5,
+    "P1-DA-1": 12,
+    "P1-DA-5": 3,
+    "P1-DA-8": 7,
+    "P1-DA-2": 3,
+    "P1-DA-4": 4,
+    "P1-DA-6": 1,
+    "P1-DA-9": 1
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "F4",
+   "criterio": "DA: folhas com 20 ou mais / abaixo de 20",
+   "esperado": [
+    25,
+    12
+   ],
+   "obtido": [
+    25,
+    12
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F4b",
+   "criterio": "DA abaixo de 20: 1.1 e 1.2 com 11; 9.2, 9.3, 9.4 e 10.1 a 10.7 com 10",
+   "esperado": {
+    "P1-DA-1.1": 11,
+    "P1-DA-1.2": 11,
+    "P1-DA-9.2": 10,
+    "P1-DA-9.3": 10,
+    "P1-DA-9.4": 10,
+    "P1-DA-10.1": 10,
+    "P1-DA-10.2": 10,
+    "P1-DA-10.3": 10,
+    "P1-DA-10.4": 10,
+    "P1-DA-10.5": 10,
+    "P1-DA-10.6": 10,
+    "P1-DA-10.7": 10
+   },
+   "obtido": {
+    "P1-DA-1.1": 11,
+    "P1-DA-1.2": 11,
+    "P1-DA-9.2": 10,
+    "P1-DA-9.3": 10,
+    "P1-DA-9.4": 10,
+    "P1-DA-10.1": 10,
+    "P1-DA-10.2": 10,
+    "P1-DA-10.3": 10,
+    "P1-DA-10.4": 10,
+    "P1-DA-10.5": 10,
+    "P1-DA-10.6": 10,
+    "P1-DA-10.7": 10
+   },
+   "resultado": "OK"
+  },
+  {
+   "id": "F5",
+   "criterio": "DA: reais (banco P1-DA) e VOLÁTEIS (nas folhas e no pacote)",
+   "esperado": [
+    36,
+    5,
+    5
+   ],
+   "obtido": [
+    36,
+    5,
+    5
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F6",
+   "criterio": "DA: parciais 35, por folha 5.2 4, 6.1 8, 6.2 5, 6.3 8, 6.4 6, 6.5 3 e 8.3 1",
+   "esperado": [
+    35,
+    {
+     "P1-DA-5.2": 4,
+     "P1-DA-6.1": 8,
+     "P1-DA-6.2": 5,
+     "P1-DA-6.3": 8,
+     "P1-DA-6.4": 6,
+     "P1-DA-6.5": 3,
+     "P1-DA-8.3": 1
+    }
+   ],
+   "obtido": [
+    35,
+    {
+     "P1-DA-5.2": 4,
+     "P1-DA-6.1": 8,
+     "P1-DA-6.2": 5,
+     "P1-DA-6.3": 8,
+     "P1-DA-6.4": 6,
+     "P1-DA-6.5": 3,
+     "P1-DA-8.3": 1
+    }
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F7",
+   "criterio": "DA: 684 itens (644 em folha + 40 fora), AUTORAL 648",
+   "esperado": [
+    684,
+    648
+   ],
+   "obtido": [
+    684,
+    648
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F8",
+   "criterio": "P1 (TI) e P2: linhas iguais às da v1.13 (sem mudança)",
+   "esperado": [],
+   "obtido": [],
+   "resultado": "OK"
+  },
+  {
+   "id": "F9",
+   "criterio": "itens fora de folha: 13 de P1/P2 (mesmos da v1.12/v1.13) + 40 de DA",
+   "esperado": [
+    53,
+    13,
+    40
+   ],
+   "obtido": [
+    53,
+    13,
+    40
+   ],
+   "resultado": "OK"
+  },
+  {
+   "id": "F10",
+   "criterio": "em folha + fora = total",
+   "esperado": 1433,
+   "obtido": 1433,
+   "resultado": "OK"
+  }
+ ]
+}

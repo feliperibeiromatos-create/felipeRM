@@ -1,0 +1,202 @@
+[
+ {
+  "teste": "390x844_light divTopico = max(1,min(30,distintas)) em todos os topicos",
+  "ok": true,
+  "det": "{'ok': True, 'peq': 70, 'n': 80}"
+ },
+ {
+  "teste": "390x844_light topico pequeno (n=2): tudo certo 100%, tudo errado -100%, 1 certa 1/n, vazio 0",
+  "ok": true,
+  "det": "{'n': 2, 'a': 1, 'b': -1, 'c1': 0.5, 'z': 0}"
+ },
+ {
+  "teste": "390x844_light topico com >=30 questoes: divisor 30 (15 certas = 50%)",
+  "ok": true,
+  "det": "{'n': 30, 'v': 0.5}"
+ },
+ {
+  "teste": "390x844_light Nota Final tudo certo = 58,5 (P1 0.400, P2 0.250); tudo errado = −58,5",
+  "ok": true,
+  "det": "['58,5', '−58,5', [0.4, 0.25, 58.5], [-0.4, -0.25, -58.5]]"
+ },
+ {
+  "teste": "390x844_light medias P1/P2/materias: 100% com todos certos e sinal tipografico com todos errados",
+  "ok": true,
+  "det": "[['40%', '100%', '100%', '25%', '100%'], ['−40%', '−100%', '−100%', '−25%', '−100%']]"
+ },
+ {
+  "teste": "390x844_light fmtNota",
+  "ok": true,
+  "det": "['−0,27', '0', '12,35', '1.234,5']"
+ },
+ {
+  "teste": "390x844_light meta com separador de milhar",
+  "ok": true,
+  "det": "v17 · publicada em 23/10/2026 · três abas · pacote Câmara 2026 — pacote F4 (v1.13) embutido (1.159 itens; 410 de Direito Administrativo)"
+ },
+ {
+  "teste": "390x844_light sem erro de JS (bloco 1)",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "teste": "390x844_light Simulados, nada feito: sem anteriores, sem Simulado 0, sem D30",
+  "ok": true,
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens 1 a"
+ },
+ {
+  "teste": "390x844_light SIM-1 feito esta em anteriores com nota ao lado e sai de finais",
+  "ok": true,
+  "det": "['Simulados anteriores Simulado 1 — P1 final (TI e Dados, itens 5 a 8) nota −1/40', 'Simulados finais\\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\\n40 itens']"
+ },
+ {
+  "teste": "390x844_light nota -8 sai com sinal tipografico",
+  "ok": true,
+  "det": "Simulados anteriores Simulado 1 — P1 final (TI e Dados, itens 5 a 8) nota −8/40"
+ },
+ {
+  "teste": "390x844_light Recomendacoes: rotulos novos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "390x844_light Recomendacoes: links levam a Simulados e a Discursivas",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas']"
+ },
+ {
+  "teste": "390x844_light confirmacao aberta",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "390x844_light C/E/B com 'Entregar agora?' aberta: nao fecha e nao marca",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "390x844_light fechada a confirmacao, C volta a marcar",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "390x844_light sem erro de JS (bloco 2)",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "teste": "390x844_light discursiva entregue sem autocorrecao: a corrigir, sem 0,00",
+  "ok": true,
+  "det": "Discursivas anteriores\nQuestão discursiva 1\na corrigir\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produ…"
+ },
+ {
+  "teste": "390x844_light discursiva com conceito marcado mostra nota estimada",
+  "ok": true,
+  "det": "Discursivas anteriores\nQuestão discursiva 1\nnota estimada 5,00\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produ…"
+ },
+ {
+  "teste": "390x844_light sem erro de JS (bloco 3)",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "teste": "1280x900_dark divTopico = max(1,min(30,distintas)) em todos os topicos",
+  "ok": true,
+  "det": "{'ok': True, 'peq': 70, 'n': 80}"
+ },
+ {
+  "teste": "1280x900_dark topico pequeno (n=2): tudo certo 100%, tudo errado -100%, 1 certa 1/n, vazio 0",
+  "ok": true,
+  "det": "{'n': 2, 'a': 1, 'b': -1, 'c1': 0.5, 'z': 0}"
+ },
+ {
+  "teste": "1280x900_dark topico com >=30 questoes: divisor 30 (15 certas = 50%)",
+  "ok": true,
+  "det": "{'n': 30, 'v': 0.5}"
+ },
+ {
+  "teste": "1280x900_dark Nota Final tudo certo = 58,5 (P1 0.400, P2 0.250); tudo errado = −58,5",
+  "ok": true,
+  "det": "['58,5', '−58,5', [0.4, 0.25, 58.5], [-0.4, -0.25, -58.5]]"
+ },
+ {
+  "teste": "1280x900_dark medias P1/P2/materias: 100% com todos certos e sinal tipografico com todos errados",
+  "ok": true,
+  "det": "[['40%', '100%', '100%', '25%', '100%'], ['−40%', '−100%', '−100%', '−25%', '−100%']]"
+ },
+ {
+  "teste": "1280x900_dark fmtNota",
+  "ok": true,
+  "det": "['−0,27', '0', '12,35', '1.234,5']"
+ },
+ {
+  "teste": "1280x900_dark meta com separador de milhar",
+  "ok": true,
+  "det": "v17 · publicada em 23/10/2026 · três abas · pacote Câmara 2026 — pacote F4 (v1.13) embutido (1.159 itens; 410 de Direito Administrativo)"
+ },
+ {
+  "teste": "1280x900_dark sem erro de JS (bloco 1)",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "teste": "1280x900_dark Simulados, nada feito: sem anteriores, sem Simulado 0, sem D30",
+  "ok": true,
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens"
+ },
+ {
+  "teste": "1280x900_dark SIM-1 feito esta em anteriores com nota ao lado e sai de finais",
+  "ok": true,
+  "det": "['Simulados anteriores Simulado 1 — P1 final (TI e Dados, itens 5 a 8) nota −1/40', 'Simulados finais\\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\\n40 itens']"
+ },
+ {
+  "teste": "1280x900_dark nota -8 sai com sinal tipografico",
+  "ok": true,
+  "det": "Simulados anteriores Simulado 1 — P1 final (TI e Dados, itens 5 a 8) nota −8/40"
+ },
+ {
+  "teste": "1280x900_dark Recomendacoes: rotulos novos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "1280x900_dark Recomendacoes: links levam a Simulados e a Discursivas",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas']"
+ },
+ {
+  "teste": "1280x900_dark confirmacao aberta",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "1280x900_dark C/E/B com 'Entregar agora?' aberta: nao fecha e nao marca",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "1280x900_dark fechada a confirmacao, C volta a marcar",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "teste": "1280x900_dark sem erro de JS (bloco 2)",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "teste": "1280x900_dark discursiva entregue sem autocorrecao: a corrigir, sem 0,00",
+  "ok": true,
+  "det": "Discursivas anteriores\nQuestão discursiva 1\na corrigir\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produ…"
+ },
+ {
+  "teste": "1280x900_dark discursiva com conceito marcado mostra nota estimada",
+  "ok": true,
+  "det": "Discursivas anteriores\nQuestão discursiva 1\nnota estimada 5,00\nA Câmara dos Deputados estuda adotar transcrição automática do áudio das sessões plenárias como insumo para o registro taquigráfico, com dois produ…"
+ },
+ {
+  "teste": "1280x900_dark sem erro de JS (bloco 3)",
+  "ok": true,
+  "det": "[]"
+ }
+]

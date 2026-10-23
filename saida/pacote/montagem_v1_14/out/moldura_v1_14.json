@@ -1,0 +1,638 @@
+{
+ "tarefa": "T-123 (D1 da GBQ, script 9; recontagem oficial da D-MOLDURA-CE, (c))",
+ "script": "saida/pacote/montagem_v1_14/moldura_v1_14.py",
+ "criterio": {
+  "arquivo": "saida/banco/moldura_ce.py",
+  "sha256_lf": "5723698e9a718b106a523cac6774f3ed5f23f39a09e9a0d02fd59ecf9ddcca96",
+  "regra": "sem alteração; texto avaliado = comando + textoBase + enunciado"
+ },
+ "pacote_lido": "out/pacote.json (v1.14; lido em LF)",
+ "itens": 1433,
+ "totais_por_materia_v1_14": {
+  "P1-TI": {
+   "itens": 7,
+   "C": 4,
+   "E": 3,
+   "pct_C": 57.1,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "P2": {
+   "itens": 208,
+   "C": 112,
+   "E": 96,
+   "pct_C": 53.8,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "P1-DA": {
+   "itens": 94,
+   "C": 50,
+   "E": 44,
+   "pct_C": 53.2,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "TOTAL": {
+   "itens": 309,
+   "C": 166,
+   "E": 143,
+   "pct_C": 53.7,
+   "E_faltante_para_pctC_ate_60": 0
+  }
+ },
+ "universo_por_materia_v1_14": {
+  "P1-TI": {
+   "itens": 185,
+   "S": 7,
+   "pct_S": 3.8
+  },
+  "P2": {
+   "itens": 564,
+   "S": 208,
+   "pct_S": 36.9
+  },
+  "P1-DA": {
+   "itens": 684,
+   "S": 94,
+   "pct_S": 13.7
+  }
+ },
+ "totais_por_materia_v1_13": {
+  "P1-TI": {
+   "itens": 7,
+   "C": 4,
+   "E": 3,
+   "pct_C": 57.1,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "P2": {
+   "itens": 208,
+   "C": 112,
+   "E": 96,
+   "pct_C": 53.8,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "P1-DA": {
+   "itens": 53,
+   "C": 44,
+   "E": 9,
+   "pct_C": 83.0,
+   "E_faltante_para_pctC_ate_60": 21
+  },
+  "TOTAL": {
+   "itens": 268,
+   "C": 160,
+   "E": 108,
+   "pct_C": 59.7,
+   "E_faltante_para_pctC_ate_60": 0
+  }
+ },
+ "universo_por_materia_v1_13": {
+  "P1-TI": {
+   "itens": 185,
+   "S": 7,
+   "pct_S": 3.8
+  },
+  "P2": {
+   "itens": 564,
+   "S": 208,
+   "pct_S": 36.9
+  },
+  "P1-DA": {
+   "itens": 410,
+   "S": 53,
+   "pct_S": 12.9
+  }
+ },
+ "da_reforco_238": {
+  "S": 41,
+  "N": 197,
+  "S_itens": 41,
+  "S_C": 6,
+  "S_E": 35,
+  "S_pct_C": 14.6,
+  "S_E_faltante_para_pctC_ate_60": 0
+ },
+ "da_banco_36": {
+  "S": 0,
+  "N": 36,
+  "itens": 36
+ },
+ "divergencias_campo_moldura_das_levas": {
+  "n": 0,
+  "de": 238,
+  "itens": [],
+  "nota": "listadas sem corrigir; a decisão é da gbq-gerencia na reconciliação"
+ },
+ "da_por_folha_v1_14": {
+  "P1-DA-1": {
+   "universo": 12,
+   "moldura_S": {
+    "itens": 1,
+    "C": 1,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-1.1": {
+   "universo": 11,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-1.2": {
+   "universo": 11,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-2": {
+   "universo": 3,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-2.1": {
+   "universo": 22,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-2.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-3": {
+   "universo": 5,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-3.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-3.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 1,
+    "C": 0,
+    "E": 1,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-3.3": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-3.4": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-4": {
+   "universo": 4,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-4.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-4.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 4,
+    "C": 2,
+    "E": 2,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-4.3": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-4.4": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-5": {
+   "universo": 3,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-5.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 1,
+    "C": 0,
+    "E": 1,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-5.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6": {
+   "universo": 1,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6.3": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6.4": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-6.5": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-7": {
+   "universo": 22,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-8": {
+   "universo": 7,
+   "moldura_S": {
+    "itens": 1,
+    "C": 1,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-8.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-8.2": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-8.3": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 4,
+    "C": 2,
+    "E": 2,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-8.4": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 5,
+    "C": 2,
+    "E": 3,
+    "pct_C": 40.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-9": {
+   "universo": 1,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-9.1": {
+   "universo": 20,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-9.2": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 1,
+    "C": 1,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-9.3": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 2,
+    "C": 2,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 2
+   }
+  },
+  "P1-DA-9.4": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 2,
+    "C": 2,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 2
+   }
+  },
+  "P1-DA-10": {
+   "universo": 4,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-10.1": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 4,
+    "C": 1,
+    "E": 3,
+    "pct_C": 25.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-10.2": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 2,
+    "C": 1,
+    "E": 1,
+    "pct_C": 50.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  },
+  "P1-DA-10.3": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 3,
+    "C": 3,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 2
+   }
+  },
+  "P1-DA-10.4": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 4,
+    "C": 3,
+    "E": 1,
+    "pct_C": 75.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-10.5": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 3,
+    "C": 2,
+    "E": 1,
+    "pct_C": 66.7,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-10.6": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 2,
+    "C": 2,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 2
+   }
+  },
+  "P1-DA-10.7": {
+   "universo": 10,
+   "moldura_S": {
+    "itens": 4,
+    "C": 3,
+    "E": 1,
+    "pct_C": 75.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-11": {
+   "universo": 34,
+   "moldura_S": {
+    "itens": 1,
+    "C": 1,
+    "E": 0,
+    "pct_C": 100.0,
+    "E_faltante_para_pctC_ate_60": 1
+   }
+  },
+  "P1-DA-12": {
+   "universo": 24,
+   "moldura_S": {
+    "itens": 0,
+    "C": 0,
+    "E": 0,
+    "pct_C": 0.0,
+    "E_faltante_para_pctC_ate_60": 0
+   }
+  }
+ },
+ "S_por_borda_v1_14": {
+  "assembleia": {
+   "itens": 1,
+   "C": 1,
+   "E": 0,
+   "pct_C": 100.0,
+   "E_faltante_para_pctC_ate_60": 1
+  },
+  "comissao_sem_ancora": {
+   "itens": 1,
+   "C": 0,
+   "E": 1,
+   "pct_C": 0.0,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "cpi": {
+   "itens": 1,
+   "C": 1,
+   "E": 0,
+   "pct_C": 100.0,
+   "E_faltante_para_pctC_ate_60": 1
+  },
+  "dominio": {
+   "itens": 2,
+   "C": 2,
+   "E": 0,
+   "pct_C": 100.0,
+   "E_faltante_para_pctC_ate_60": 2
+  },
+  "estrangeiro": {
+   "itens": 6,
+   "C": 3,
+   "E": 3,
+   "pct_C": 50.0,
+   "E_faltante_para_pctC_ate_60": 0
+  },
+  "poder_isolado": {
+   "itens": 2,
+   "C": 2,
+   "E": 0,
+   "pct_C": 100.0,
+   "E_faltante_para_pctC_ate_60": 2
+  },
+  "(sem borda)": {
+   "itens": 296,
+   "C": 157,
+   "E": 139,
+   "pct_C": 53.0,
+   "E_faltante_para_pctC_ate_60": 0
+  }
+ }
+}

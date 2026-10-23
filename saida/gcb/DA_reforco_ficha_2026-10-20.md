@@ -1478,4 +1478,303 @@ GCB, 22/10/2026, ficha 14.4.10, item 2; D-T116-LEVA7-ACEITE, condições (d), (e
 - **Decisão (iii) — a leva 8 segue despachável inteira (30 itens, 8.2, 8.3 e 9.1).** Condições da D-T116-LEVA7-ACEITE: (a) adendo no escopo fechado, sem dispositivo além do pedido; (b) seção própria da AJ-L7-E1, CONFERE; (c) rede registrada literalmente, cópia com data e hash; (d) conferência acima fechada (15/15, sentido confirmado nos quatro pontos de lei, aderência fixada); (e) proposta acima; (f) nenhum ponto sem lastro literal e vigente; nenhuma folha abaixo de 20; (g) não se aplica (CONFERE). Ajustes que valem para a produção (sem nova ficha nem novo gatilho): D4-R44 com "Aderência: parcial"; linhas da cópia e cuidados de letra desta seção; Base do Guia na fórmula acima; decisão (i).
 - **Leva 8 despachável à gcb-cpp (seção 14.4.10, item 3).** Inteira, com o anexo "o adendo novo" = saida/gcb/D4_anexo_N_adendo_2026-10-22.md (44ad15bd…b17f) e esta seção 14.6.
 
+## 15. Adendo após a leva 8 (gcb-gerencia, 22/10/2026, ciclo s16c6)
+Fontes deste adendo:
+- reconciliação saida/gcb/DA_reforco_leva8_reconciliacao_2026-10-22.md (seções 4, 7 e 9);
+- pareceres R1 (1d8a9e3e…fc42) e R2 (7db44624…7f5f) da gcb-cqfp da leva 8;
+- auditoria de estilo saida/banco/estilo_DA_reforco_leva8.md (e5c44b77…6087).
+
+Este adendo é só acréscimo antes da última linha; o texto acima fica como estava. SHA-256 da ficha antes deste adendo: 539f22327fb4ec7914a3cae6f2ffe22cdc89c7f873f5ff9be6bb1ad242b0eac8, a versão com a seção 14.6 citada no despacho, no R1, no R2 e no estilo da leva 8. Este adendo prevalece sobre as seções 0 a 14 onde divergir e vale para as levas 9 a 12. Não houve commit nem push.
+
+### 15.1 Ids, faixas e núcleo
+- **Leva 8**, sem reprovação e sem substituto: **D4-R29 a D4-R38** (8.2), **D4-R39 a D4-R48** (8.3) e **D4-R49 a D4-R58** (9.1), na ordem do arquivo; nenhum id vago. As folhas 8.2, 8.3 e 9.1 fecham em 20 (a 8.3 com 19 diretos e 1 parcial, o D4-R44).
+- **Leva 9**, faixas por folha (as da seção 7.1): 9.2 = **D4-R59 a D4-R68**; 9.3 = **D4-R69 a D4-R78**; 9.4 = **D4-R79 a D4-R88**. Ordem das folhas no arquivo: 9.2, 9.3, 9.4 (o teste da seção 15.4.7 passa nessa ordem). O reforço do D4 fecha em D4-R88 (88 itens: 87 da seção 2.1, deslocados em +1 pelo D4-R12 vago). D1 como na seção 9.1; D5 como na seção 2.1.
+- Núcleo: os 30 itens da leva 8 ficam false (seção 14.1). Na leva 9, a 9.2, a 9.3 e a 9.4 já têm 10 canônicos cada (pacote.json v1.13); **nenhum item recebe núcleo** (todos false).
+
+### 15.2 Regras de forma e de rito aceitas depois da leva 8
+As regras das seções 1, 7.4, 9.3, 10.2, 11.2, 12.2, 13.2 e 14.2 continuam. Ficam, por D1 da GCB (reconciliação da leva 8, seção 4.5):
+1. **L8-1 — abertura da moldura** (texto da gbq-estilo, aceito): nos itens com moldura de expositor (folhas 8.x e 9.x), a abertura segue a forma da cota («Considere que, em audiência pública de comissão da Câmara dos Deputados, um expositor …»), qualquer que seja o gabarito. Variante de abertura só entra se o lote tiver C com moldura com a mesma variante. Prefixo comum de 40 ou mais caracteres com canônico da folha é registrado na seção 4 (L3-3; 14.2, item 1) e não impede o item quando a cena diverge antes do fecho. A seção 4 conta, por script, abertura da moldura × gabarito no lote acumulado.
+2. **L8-2 — abertura de atribuição nos declarativos** (aceita, com faixa): entre os declarativos novos do D4 que abrem com «Nos termos d…» ou «Segundo …», a leva tem **de 50% a 75% de C**. No D4 acumulado (136 itens), essas aberturas estão em 5 C / 12 E e 8 C / 18 E. «De acordo com …» (8 C / 3 E) e «Conforme …» (2 C / 0 E) ficam de preferência com E novos. A seção 4 conta abertura de atribuição × gabarito por folha fechada e no D4 acumulado.
+3. **L8-3 — fecho neutro × moldura** (aceita): nenhum E novo com moldura usa o fecho neutro. O fecho neutro novo vai a C sem moldura. Hoje: com moldura, 1 C / 4 E; sem moldura, 3 C / 1 E.
+4. **L8-4 — fecho dos E com moldura no D4** (regra da GCB): os E novos com moldura fecham com «Nessa situação, a afirmação do expositor está correta.» (hoje 5 C / 0 E no D4) ou «Nessa situação, a afirmação do expositor corresponde ao que o decreto prevê.» (2 C / 0 E). Não usam «é correta», porque o K2 estrito está em 7 C / 9 E (43,8%) e um só E a mais o levaria abaixo de 40%. A seção 4 conta fecho × moldura × gabarito no D4 acumulado (K2 estrito e pela detecção larga da GCB).
+5. **Bloco 5 e cabeçalho de entradas** (registros do R2 da leva 8):
+   - número de verificações automáticas só com a contagem que o produziu;
+   - linha que deixa de valer na v2 é marcada na "Resposta à R1", mesmo que o texto não mude;
+   - SHA-256 abreviado sempre com 8 caracteres iniciais e 4 finais.
+6. Medida: a reconciliação de cada leva confere os itens 1 a 5 junto com as regras das seções 7.4 a 14.2.
+
+### 15.3 Registros da leva 8 que valem para as seguintes
+- **Erratas AJ-L8-E3 (D4-R42) e AJ-L8-E4 (D4-R52) — conferência no rito da leva 9.** Origem: as sugestões S-L8-1 e S-L8-2 do estilo da leva 8 (seção 4, item 4), que a GCB adotou como errata da seção 7.6 (reconciliação da leva 8, seção 4.2). Textos, por substituição exata no enunciado (seção 1 de saida/gcb/DA_reforco_leva8_v2.md, 1fdce9bd…f6f2c):
+  - AJ-L8-E3, l. 129: antes «Considere que um expositor, em audiência pública de comissão da Câmara dos Deputados, trate da participação social.» → depois «Considere que, em audiência pública de comissão da Câmara dos Deputados, um expositor trate da participação social.»
+  - AJ-L8-E4, l. 151: antes «Considere que um expositor, ouvido em audiência pública de comissão da Câmara dos Deputados, afirme que,» → depois «Considere que, em audiência pública de comissão da Câmara dos Deputados, um expositor afirme que,»
+  - **Conferência:** a gcb-cqfp, no R1 da leva 9, em seção própria («Erratas AJ-L8-E3 e AJ-L8-E4 (leva 8)»), separada do veredito da leva 9. O texto é da gbq-estilo, e não da gcb-cqfp; por isso a D-AJL7E1-RITO não desloca o juízo de conteúdo. Itens:
+    - (1) cada "antes" ocorre exatamente 1 vez na v2, na seção 1. O "depois" da E3 ocorre 0 vez. O "depois" da E4 já ocorre 3 vezes, como início de outros enunciados (D4-R35 e outros), e a unicidade é pelo "antes";
+    - (2) gabarito E, ponto, Troca, mecanismo, formato APL, moldura S (tipo e fecho), aderência direta, abertura CQ e bloco da seção 2 ficam inalterados;
+    - (3) o enunciado resultante, lido inteiro, não muda o sentido, não cria pista e fica na faixa de E (54 e 57 palavras);
+    - (4) prefixo comum recontado: D4-R42 × D4-R48, 93; D4-R42 × D4-19 e × D4-26, 86; D4-R52 × D4-41, 98. Cena distinta até o fecho; nenhuma nota exigida.
+  - Veredito: **CONFERIDO** ou **NÃO CONFERIDO** (com motivo). Não é terceira rodada da leva 8, não altera o arquivo da leva 8 e não é QA aberto que impeça a leva 9.
+  - **Destino:** gatilho A da leva 9, parte separada. Aceitas, a GBQ aplica na consolidação, por substituição exata, com aborto se o "antes" não ocorrer exatamente 1 vez, registro por id e conferência da gbq-cqe. Sem aceite, os dois itens ficam como aprovados no R2 (defeito só de forma).
+- **Errata AJ-L7-E1 (D3-R75):** os dois vereditos são favoráveis — CONFERE do qa-normativo-da (adendo de 22/10/2026, seção 7) e APLICÁVEL da gcb-cqfp (R1 da leva 8, seção 8). A errata vai ao gatilho A da leva 8, parte (II). Nada mais a conferir na leva 9.
+- **14.4.6, "nenhum E com absoluto inserido":** é registro errado da ficha (R1 da leva 8, dúvida (vi)). Vale a L3-2 (seção 9.3, item 2): E cuja troca insere absoluto só entra com C com absoluto literal na folha ou no lote; prefere-se troca por conceito vizinho. O plano da leva 9 não tem E com absoluto inserido.
+- **Frase "49 verificações automáticas"** (bloco 5 da v2 da leva 8): vale «0 com resultado NÃO CONFERE», conferido pelo R2. Sem errata.
+- **SHA abreviado** (v2, l. 5): registro, sem errata.
+- **Pares de prefixo da L3-3** (D4-R35 × D4-14; D4-R48 × D4-19 e × D4-26): sem nota de simulado. O mesmo vale para os prefixos das AJ-L8-E3 e E4 e para os da leva 9 com a forma da cota (L8-1).
+- **D4-R44:** "Aderência: parcial" (só simulado diagnóstico). **D4-R36:** SUJ. **D4-R55:** direta, com o registro do R1 (vínculo mais fraco da 9.1).
+- Nenhuma errata pendente de conferência para o R1 da leva 9 **além das AJ-L8-E3 e AJ-L8-E4** (acima).
+
+### 15.4 FICHA DA LEVA 9 — despachável depois do adendo de lastro da 9.3 (com complemento da 9.2; seção 15.4.2)
+
+#### 15.4.1 Objeto (edital, literal; edital/DA_itens_1_12_P1.md)
+- "9.2 Mecanismos de governança: liderança, estratégia e controle." — 10 itens, **D4-R59 a D4-R68**; a folha vai de 10 a 20.
+- "9.3 Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas." — 10 itens, **D4-R69 a D4-R78**; de 10 a 20.
+- "9.4 Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional)." — 10 itens, **D4-R79 a D4-R88**; de 10 a 20.
+
+Total: 30 (plano da seção 2.1). Saída: saida/gcb/DA_reforco_leva9_v1.md (nomes da seção 7.5). Ordem das folhas no arquivo: 9.2, 9.3, 9.4. Última linha: "FIM DA LEVA 09 — REFORÇO DA".
+
+Os exemplos são hipotéticos, sem norma interna, sistema ou prática real da Câmara. Nenhum item julga se o Decreto 9.203 alcança a Câmara (regra 10; ficha do D4, alerta 5). Nenhum item cita como vigente artigo revogado do Decreto 9.203 (Anexo N do D4, seção 6.2, alerta 1).
+
+#### 15.4.2 Lastro, rede e adendo — situação da leva 9
+Conferência própria (python3 -I, somente leitura; scratchpad gcb_l8r/plan9.py, lines9.py, seq9.py, plan9b.py e cv.py). O trecho decisivo de cada ponto foi procurado nas seguintes fontes:
+- Anexo N do D4 (0d98c249…a05f): seção 4.1, Decreto 9.203 integral; seção 5, R24 a R31;
+- adendo do D4 de 20/10 (c32f58eb…16fb5): seção 5, R59, R61 e R85, também na cópia de trechos do TCU, 08f5ed75…be9;
+- cópia integral do Guia F2 (d9b00721…e0b9);
+- cópia integral da Fonte F3 (Casa Civil/PR, Avaliação de Políticas Públicas: guia prático de análise ex post, v. 2, 2018): saida/gcb/normativo_cache/CasaCivil_AvaliacaoExPost_v2_2018_2026-10-20.txt, 83fc8cb993bec6198a46e3d1bb14da44c18ab3cfc60e2e505b76c4abd7467b43, cópia integral por pdftotext do PDF 829ef2a0…a8c0.
+
+Os pontos já usados vêm de três fontes: o pacote.json v1.13 (canônicos D4-44 a D4-73), a lista fechada da ficha do D4 (seção 5.3) e os arquivos finais das levas 1, 2 e 8 (nenhum item de reforço usa R24 a R31, R59, R61, R85, os arts. 2º, III, 6º a 19 do Decreto 9.203 ou a F3 nas folhas 9.x).
+
+- **9.4 — lastro EXATO sem adendo.** Há dispositivos vigentes livres em grande número (lote: 9.4-2, 9.4-6, 9.4-9, 9.4-11, 9.4-12, 9.4-14, 9.4-16; outros elementos dos arts. 8º-A, 8º-B, 10-B, 15-A, 17, 18 e 19). Parâmetro de composição da folha de 20: CIG e grupos de trabalho (arts. 7º-A a 13-A) até 8 (o dobro do teto da ficha do D4, seção 5.3). O plano dá 7: 3 canônicos e 4 da leva.
+  - Alerta: o texto dos arts. 8º-A, § 3º, 12-A e 15-A, IV, repete literalmente o de dispositivos revogados (art. 8º, § 3º; art. 12; art. 15, IV; tachados no compilado; Anexo, seção 4.1). Por isso esses trechos ocorrem 2 vezes no Anexo. A Base cita só o artigo com letra, e o item não cita número de artigo revogado.
+  - Fica fora: art. 8º-A, II e III, e art. 11-A (estrutura ministerial; risco de VOLÁTIL, Anexo, alertas 3 e 4).
+- **9.2 — lastro QUASE SUFICIENTE sem adendo.** Há 9 pontos firmes para 10 itens:
+  - Decreto 9.203: art. 5º, III, segunda parte (9.2-6); art. 4º, X (9.2-13); art. 5º, I, alíneas (composição, ângulo novo do D4-48); art. 19, I (eixo de liderança, ângulo novo do D4-66);
+  - R26, os dois elementos (9.2-8 e o fim do bem-estar);
+  - R27, segunda frase (ângulo novo do D4-47);
+  - R85 e R61 (adendo de 20/10; "serve à 9.2").
+  - O décimo, sem adendo, só com o art. 17, caput (quase gêmeo do D4-73, 9.4). Com o adendo, entra G10 (Guia F2, seção 6.1, alta administração).
+- **9.3 — lastro INSUFICIENTE sem adendo.** Usados: art. 2º, II (D4-54, D4-60; o resto do inciso é da 8.4); art. 4º, I, III e VII (D4-57, D4-56, D4-55); R28 (D4-59); R29 (D4-58); R30 e R31 (D4-61, D4-62); R18, ex ante × ex post (D4-63). Livres: art. 6º, parágrafo único, I (9.3-6); art. 3º, I (capacidade de resposta; "compl. 9.3" no Anexo); R59 (adendo de 20/10) — **3 pontos firmes para 10 itens**. Reserva fraca: art. 4º, III, finalidade; R29, segundo elemento. R70 e R73 (Martins, Ipea) exigem atribuição a autor e ficam fora (seção 0.2, item 4). "Sustentabilidade" só tem R28 (usado). A F3 (cópia integral) e o Guia F2 têm trechos sobre avaliação de resultados, avaliação de impacto, capacidade de resposta, resultados desejáveis (com sustentabilidade) e legitimidade pela entrega de resultados. Esses trechos exigem transcrição no adendo.
+- **(a) A leva 9 NÃO é despachável já.** Fica despachável à gcb-cpp quando duas condições estiverem cumpridas:
+  - o adendo do qa-normativo-da estiver gravado;
+  - a GCB conferir, por script (seção 15.6, a acrescentar antes da última linha, como a 11.6, a 13.6 e a 14.6), que os trechos do plano que dependem dele ocorrem 1 vez no adendo e na cópia, e fixar a aderência dos pontos novos pelo mapa do adendo.
+  - Não há nova ficha nem novo gatilho. A leva sai inteira (seção 1, regra 15; precedentes das levas 5, 7 e 8). **Esta é a última etapa da sessão s16: a leva 9 fica para a próxima sessão.**
+- **(b) Depende de adendo do qa-normativo-da, com escopo fechado.** Arquivo: saida/gcb/D4_anexo_N_adendo_<data ISO>.md (novo, com nome distinto dos adendos de 20/10 e 22/10, que ficam como estão). Convenção da seção 5 do Anexo N do D4: referencial com página impressa, URL, data, SHA-256 do PDF e trecho literal. Mapa folha → pontos com pertinência direta/indireta, como na seção 3 dos adendos. Nada além disto (D-COMPLEMENTOS):
+  - **Folha 9.3 — Fonte F2** (Casa Civil/PR, Guia da Política de Governança Pública, 2018; https://www.gov.br/casacivil/pt-br/assuntos/governanca/comite-interministerial-de-governanca/arquivos/guia-da-politica-de-governanca-publica_versao-defeso.pdf; cópia de 20/10/2026, linhas e página pela contagem de form feeds; desvio PDF × impressa = 0):
+    - (H3) seção 4.1, «A capacidade de resposta (do inglês, responsiveness) representa a competência de uma instituição pública de atender de forma eficiente e eficaz às necessidades dos cidadãos, inclusive antevendo interesses e antecipando aspirações.» (l. 1407–1409; p. 40; repete-se na l. 3674–3676, p. 84, pergunta frequente — o adendo cita a seção 4.1);
+    - (H4) «é necessário repensar a governança pública a partir de quatro resultados desejáveis, uma espécie de síntese última dos fins estatais: segurança, crescimento, equidade e sustentabilidade (Banco Mundial, 2017).» (l. 908–910; p. 29; com a abertura «Para o Banco Mundial, em seu Relatório de Desenvolvimento Mundial de 2017,»);
+    - (H5) «Para o Banco Mundial, essa legitimidade deriva de três fontes: i) a constante entrega de resultados previamente pactuados; ii) […]; e iii) […] (Banco Mundial, 2017).» (l. 608–612; p. 21; seção 2.1).
+  - **Folha 9.3 — Fonte F3** (Casa Civil/PR, Avaliação de Políticas Públicas: guia prático de análise ex post, v. 2, 2018; https://www.gov.br/casacivil/pt-br/assuntos/governanca/comite-interministerial-de-governanca/arquivos/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-post.pdf; cópia de 20/10/2026; página impressa = página da cópia pelos form feeds − 4, desvio do Anexo N, seção 1, a conferir pelo adendo):
+    - (F3a) «Também está incluída na avaliação de resultados a análise da percepção da população atendida e o seu nível de satisfação.» (l. 1497–1498; p. 32);
+    - (F3b) os quatro critérios dos indicadores da avaliação de resultados, desde «se foram indicadores com relevância (a relação entre o indicador e o objetivo da política), comparabilidade (se o indicador utiliza dados padronizados), periodicidade (se podem ser construídas séries históricas) e desagregabilidade» (l. 1491–1494; p. 32; frase inteira desde «Essa avaliação de resultados se debruça», l. 1490);
+    - (F3c) «É preciso realizar procedimentos para construir um grupo contrafactual que permita a inferência causal do efeito de determinada política.» (l. 1533–1535; p. 33);
+    - (F3d) Boxe 1, «uma linha de avaliação de impacto só deve ser executada se a política já tiver alcançado tempo de execução suficiente para que haja os resultados e os impactos esperados, conforme o seu modelo lógico.» (l. 600–602; p. 15).
+  - **Folha 9.2 — complemento, Fonte F2:** (G10) seção 6.1, «A obrigação definida no dispositivo garante que a execução da política de governança não fique adstrita ao papel exercido pelo CIG e reforça o compromisso de que a alta administração, independentemente de orientações centrais, desenvolva internamente boas práticas de governança.» (l. 2799–2801; p. 68).
+  - **Reserva (transcrever no mesmo adendo):**
+    - (G11) Guia, seção 4.2, «Importante ressaltar que, a despeito de o controle fazer parte de um programa de integridade efetivo, integridade e controle não são sinônimos.» (l. 1552–1553; p. 42);
+    - (G12) Guia, Tabela 7, «A terceira linha de defesa é representada pela atividade de auditoria interna governamental, que presta serviços de avaliação e de consultoria com base nos pressupostos de autonomia técnica e de objetividade.» (l. 3145–3147; p. 74; a tabela reproduz o Referencial Técnico da CGU, IN 3/2017, segundo o próprio Guia; atribuição a registrar no adendo);
+    - (F3e) F3, «um resultado que seja o efeito causal direto da política, controlando as variáveis observáveis e não observáveis» (l. 1528–1529; p. 33).
+  - **Sem lei:** a 9.4 e os dispositivos da 9.2 e da 9.3 estão no Anexo N, seção 4.1, consulta de 20/10/2026, com a reabertura de 22/10/2026 pelo R1 da leva 8 (N1, HTTP 200). O adendo não reabre o Decreto 9.203 (D-COMPLEMENTOS); a gcb-cqfp pode reabri-lo no R1 da leva 9, com User-Agent de navegador, como conferência.
+  - **Rede** (seção 11.6; D-T120F-REDACAO):
+    - o www.planalto.gov.br responde com User-Agent de navegador;
+    - o **www.gov.br** (Fontes F2 e F3) **está recusado pela política do ambiente** («curl: (56) CONNECT tunnel failed, response 403»; `connect_rejected` para www.gov.br:443; adendo de 22/10/2026, seção 1). O adendo faz **uma** tentativa real por PDF, registrada literalmente (comando, hora UTC, mensagem, estado do proxy), sem desvio e sem repetir a recusa (README do proxy: «do not retry policy denials»);
+    - "não reaberta por restrição de rede" só com essa tentativa registrada. Se o host responder, a reabertura tem preferência, com comando, hora, HTTP, bytes e SHA-256 do PDF (igual a 900139b6…22fa8 ou 829ef2a0…a8c0 = identidade com o PDF de 20/10/2026);
+    - a base são as cópias gravadas com data e hash (D-FONTE-DATA-ANTERIOR; regras/PADRAO_UNICO_v1.md, seção 4), com a página impressa fixada sobre a cópia por dois métodos (form feeds e número impresso na camada de texto), como na seção 1 do adendo de 22/10/2026;
+    - nenhum item cita data em que o PDF não foi aberto;
+    - o F1 (TCU) não é pedido (R59, R61 e R85 já estão transcritos no adendo de 20/10 e na cópia de trechos do TCU).
+  - **Leitura a confirmar pela presidencia (registro, sem efeito no escopo):** os trechos H3 a H5, G10 a G12 e F3a a F3e não estavam registrados em proveniência de lote canônico antes desta ficha. A base seria a cópia integral gravada com data e hash, como a D-T116-LEVA7-ACEITE, (c) e (e), admitiu para os G/H da leva 8 "para este caso". A GCB não lê essa admissão como extensão geral da D-FONTE-DATA-ANTERIOR (ficha 14.6, registro do item (ii)). O despacho do adendo da leva 9 depende, portanto, de a presidencia ler as condições (c) e (e) como aplicáveis também às cópias do Guia F2 e da F3 nesta leva (pergunta no item de gatilho da leva 8, como contexto do despacho da leva 9).
+- **(c) Folha abaixo de 20 por falta de lastro:**
+  - com o adendo no escopo acima, **nenhuma**: 9.2 com 3 pontos de reserva; 9.3 com 3; 9.4 com 6;
+  - **sem o adendo, a 9.3 fica abaixo de 20** (3 pontos firmes e 2 fracos: chegaria a 13 a 15, e a leva teria de ser refeita com nova ficha);
+  - sem o adendo, a 9.2 fecharia em 20 só com a reserva do art. 17, caput, quase gêmeo do D4-73, com registro e nota;
+  - a 9.4 fecha em 20 sem adendo;
+  - se a gcb-cqfp recusar pertinência de ponto do adendo, a folha fecha menor, e a reconciliação registra (seção 2.1). O piso de 10 diretos já está cumprido pelos 10 canônicos de cada folha (todos "direta" no pacote.json v1.13).
+- Fontes admitidas:
+  - o Anexo N do D4 (seções 1 a 6; seção 4.1 só nos dispositivos vigentes);
+  - o adendo do D4 de 20/10 (seções 1, 3.4 e 5, só R59, R61 e R85);
+  - o adendo novo e as cópias citadas.
+  - URL e data da Fonte do Anexo ou do adendo. Proibidos: memória, fonte secundária, jurisprudência, base doutrinária e autor nomeado. O Banco Mundial e a ONU são organizações citadas pelo Guia, admitidas como «segundo o Guia …, o Banco Mundial …».
+- **Fora da leva 9:**
+  - Decreto 9.203, art. 2º, I e II (canônicos da 9.1, 8.4 e 9.3), art. 3º (rol; D4-67) e art. 3º, VI (D4-R43);
+  - art. 4º, I a IX e XI (canônicos e levas 1, 2 e 8), art. 5º, caput, I (caput), II e III, primeira parte (D4-44 a D4-49);
+  - art. 6º, caput e parágrafo único, II e III (D4-52, D4-53); art. 8º-A, § 2º, 8º-B, § 1º, e 10-B, II (D4-69, D4-71, D4-72); art. 15-A, I (D4-70); art. 17, rol (D4-73); art. 19, caput e II (D4-66);
+  - R24, R25, R27 (primeira frase), R28 a R31 e R18 (canônicos); R70 a R73 (autor); R5 (PDRAE; SEM FONTE);
+  - os dispositivos revogados (arts. 7º a 15, 20 e 20-A); art. 8º-A, II e III, e 11-A;
+  - qualquer afirmação sobre definição oficial de sustentabilidade de políticas públicas (Anexo, seção 5, SEM FONTE (f)), sobre autoria do conceito de valor público ou sobre a estrutura ministerial atual.
+
+#### 15.4.3 Pontos já usados (não repetir; anti-gêmeo)
+- 9.2 (D4-44 a D4-53): art. 5º, caput, com R24 (D4-44); art. 5º, I (D4-45); art. 5º, III, "mitigar" (D4-46); R27, primeira frase (D4-47); art. 5º, I, a a d, número (D4-48); art. 5º, II (D4-49); art. 4º, V (D4-50); R25 (D4-51, C-isca); art. 6º, parágrafo único, II e III (D4-52, moldura C); art. 6º, caput (D4-53).
+- 9.3 (D4-54 a D4-63): art. 2º, II, "efetivas e úteis" (D4-54); art. 4º, VII (D4-55); art. 4º, III (D4-56, moldura C); art. 4º, I (D4-57); R29 (D4-58); R28 (D4-59); art. 2º, II, "grupos específicos" (D4-60, C-isca); R30 (D4-61); R30 e R31 (D4-62, moldura C); R18, ex ante × ex post (D4-63).
+- 9.4 (D4-64 a D4-73): art. 1º (D4-64, moldura C); art. 2º, IV (D4-65); art. 19, eixo II (D4-66); art. 3º, rol (D4-67); art. 4º, VI (D4-68); art. 8º-A, § 2º (D4-69); art. 15-A, I (D4-70, moldura C); art. 8º-B, § 1º (D4-71, C-isca); art. 10-B, II (D4-72); art. 17, rol (D4-73).
+- Outras folhas: art. 4º, II (D4-R55, 9.1); art. 3º, VI (D4-R43, 8.3); art. 4º, IV (D4-14, 8.2); R59 e R61 do adendo de 20/10 não foram usados nas levas 1 e 2 (o R60 foi usado na leva 2, folha 8.4); R64 (leva 1, 8.4: «cabe à liderança implementar as formas de criação de valor» — o D4-R64 da leva 9 é R85, outra frase).
+
+#### 15.4.4 Pontos de julgamento por item (ordem final dentro de cada folha; a gcb-cpp redige)
+Colunas como na seção 14.4.4. "(adendo)" = ponto que depende do adendo novo. A coluna "o que se julga" é sentido, não redação.
+- Nenhum C leva [TS]: cada folha já tem o seu C-isca (D4-51, D4-60, D4-71).
+- **Todo E leva [TS]**, com troca real e única de um elemento literal (o teste da 15.4.7 passa sem E sem [TS]).
+- Aderência: **direta** nos pontos do Anexo e do adendo de 20/10 (núcleo ou compl. da folha). Nos pontos do adendo novo, a aderência segue o mapa dele.
+- Abertura: **CQ** = «Considere que»; **DC** = declarativo. **DC-A** = declarativo com «Nos termos d…» ou «Segundo …»; **DC-O** = declarativo com outra abertura («No Decreto …», «O art. …», «De acordo com …», «Conforme …», «Para o Guia …» ou a própria norma como sujeito). Pela L8-2, os DC-A ficam de 50% a 75% em C. O plano marca DC-A nos C e DC-O nos E; a gcb-cpp pode passar até 3 E a DC-A, dentro da faixa, para não concentrar o par abertura × gabarito na folha fechada.
+- Moldura: forma da cota (L8-1), fecho pela L8-4. A moldura nunca decide o gabarito.
+
+**Folha 9.2 — 10 itens (5 C / 5 E), D4-R59 a D4-R68**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D4-R59 | Decreto 9.203, art. 4º, X (Anexo, 4.1; 9.2-13) | idem | definir formalmente as funções, as competências e as responsabilidades das estruturas e dos arranjos institucionais é **diretriz** da governança pública (troca: diretriz → princípio; P-53) | PAR | N | E | sim | direta | DC-O | D4-50 (art. 4º, V): nota (dt) |
+| D4-R60 | art. 5º, III, segunda parte (Anexo, 4.1; 9.2-6) | idem | o controle compreende processos estruturados para garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades, com preservação da legalidade e da economicidade (cenário: expositor atribui esses processos ao mecanismo **liderança**; troca: controle → liderança; P-54) | APL | S — audiência pública de comissão da Câmara dos Deputados, expositor — fecho: «corresponde ao que o decreto prevê» | E | sim | direta | CQ | D4-46 (mitigar → eliminar) e D4-45 (liderança): nota (du) |
+| D4-R61 | R26, segundo elemento (Anexo, 5; 9.2-8) | idem | segundo o TCU, para produzir políticas, bens e serviços, é importante traçar claramente os objetivos, definir a estratégia de atuação, desdobrá-la em planos de ação e acompanhar a implementação | DEF | N | C | não | direta | DC-A | D4-49 (art. 5º, II, cenário): nota (dv) |
+| D4-R62 | art. 19, I (Anexo, 4.1; compl. 9.2, liderança/integridade) | idem | o comprometimento e apoio da alta administração é um dos eixos do programa de integridade (cenário: órgão que prevê esse eixo; fecho neutro «Nessa situação, é correto afirmar que …») | SIT | N | C | não | direta | CQ | D4-66 (9.4, eixo II): nota (dw) |
+| D4-R63 | art. 5º, I, a a d (Anexo, 4.1; ângulo novo de 9.2-3) | idem | as condições mínimas que a liderança deve assegurar são integridade, competência, responsabilidade e motivação (troca: motivação → transparência, princípio do art. 3º, VI) | DEF | N | E | sim | direta | DC-O | D4-48 (número) e D4-45: nota (dx) |
+| D4-R64 | R85 (adendo de 20/10, 5) | idem | segundo o TCU, são os membros das instâncias internas de governança que lideram a organização e respondem pela direção e supervisão estratégicas e pela accountability | SUJ | N | C | não | direta | DC-A | D4-51 (R25, mesma página): nota (dy) |
+| D4-R65 | R26, primeiro elemento (Anexo, 5) | idem | segundo o TCU, as organizações públicas existem para produzir políticas, bens e serviços visando ao aumento, **de forma sistêmica e integrada**, do bem-estar social e das oportunidades aos cidadãos (troca: sistêmica e integrada → setorial e isolada) | DEF | N | E | sim | direta | DC-O | D4-R61 (mesmo trecho): nota (dv) |
+| D4-R66 | Guia F2, seção 6.1 (G10) (**adendo**) | idem | segundo o Guia, a obrigação do art. 6º garante que a execução da política não fique adstrita ao papel do CIG e que a alta administração, **independentemente de orientações centrais**, desenvolva internamente boas práticas (troca: independentemente de → condicionada a orientações centrais do CIG) | PAR | N | E | sim | a fixar pelo mapa | DC-O | D4-53 (art. 6º, caput): nota (dz) |
+| D4-R67 | R27, segunda frase (Anexo, 5; ângulo novo de 9.2-9) | idem | segundo o TCU, o mecanismo controle remete às práticas que têm o potencial de promover o controle das organizações públicas pelas partes interessadas | PAR | N | C | não | direta | DC-A | D4-47 (primeira frase): nota (ea), **obrigatória** |
+| D4-R68 | R61 (adendo de 20/10, 5) | idem | segundo o TCU, o modelo de autoavaliação abrange não somente as práticas dos mecanismos de liderança, estratégia e controle, mas também as funções de gestão comuns às organizações públicas | PAR | N | C | não | direta | DC-A | D4-44 (três mecanismos): nota (eb) |
+
+Reserva da 9.2 (na ordem): Decreto 9.203, art. 17, caput (Anexo, 4.1; dever da alta administração quanto ao sistema de gestão de riscos e controles internos; nunca com o D4-73; nota obrigatória com ele se usado); G11 (adendo; integridade e controle não são sinônimos; pertinência a fixar: trata do controle interno, e não do mecanismo, R27); G12 (adendo; terceira linha de defesa; idem). Sem o adendo, o D4-R66 passa ao art. 17, caput (E, troca de sujeito alta administração → comitê interno de governança), com o teste da 15.4.7 refeito pela gcb-cpp (mesmo gabarito e [TS] por posição).
+
+**Folha 9.3 — 10 itens (5 C / 5 E), D4-R69 a D4-R78**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D4-R69 | Decreto 9.203, art. 3º, I (Anexo, 4.1; compl. 9.3) | idem | a capacidade de resposta é princípio, e não diretriz, da governança pública (contraste ", e não", regra 7.4, item 4; o art. 4º não a lista) | PAR | N | C | não | direta | DC-A | D4-67 (rol) e D4-R43 (VI): nota (ec) |
+| D4-R70 | art. 6º, parágrafo único, I (Anexo, 4.1; 9.3-6) | idem | os mecanismos, as instâncias e as práticas de governança incluirão, no mínimo, formas de **acompanhamento de resultados** (cenário: expositor afirma que o mínimo inclui formas de avaliação de impacto; troca: acompanhamento de resultados → avaliação de impacto) | APL | S — audiência pública de comissão da Câmara dos Deputados, expositor — fecho: «corresponde ao que o decreto prevê» | E | sim | direta | CQ | D4-52 (9.2, II e III; moldura C): nota (ed) |
+| D4-R71 | F3, critérios dos indicadores (F3b) (**adendo**) | idem | segundo o guia ex post, na avaliação de resultados, a **periodicidade** é o critério sobre a possibilidade de construir séries históricas, e a comparabilidade, sobre o uso de dados padronizados (troca: periodicidade ↔ comparabilidade, nas definições) | PAR | N | E | sim | a fixar pelo mapa | DC-O | D4-63: nota (ee) |
+| D4-R72 | F3, grupo contrafactual (F3c) (**adendo**) | idem | segundo o guia ex post, é preciso construir um grupo contrafactual que permita a inferência causal do efeito da política | DEF | N | C | não | a fixar pelo mapa | DC-A | D4-62 (isolar o efeito): nota (ee) |
+| D4-R73 | F3, Boxe 1 (F3d) (**adendo**) | idem | segundo o guia ex post, a avaliação de impacto só deve ser executada depois de a política ter alcançado tempo de execução suficiente para que haja os resultados e impactos esperados (troca: depois de alcançado o tempo suficiente → antes de a política alcançá-lo) | PAR | N | E | sim | a fixar pelo mapa | DC-O | D4-61 e D4-62: nota (ee) |
+| D4-R74 | Guia F2, quatro resultados desejáveis (H4) (**adendo**) | idem | o Guia registra que, para o Banco Mundial, a governança deve ser repensada a partir de quatro resultados desejáveis: segurança, crescimento, **equidade** e sustentabilidade (troca: equidade → eficiência) | DEF | N | E | sim | a fixar pelo mapa | DC-O | D4-59 (R28, sustentabilidade): nota (ef) |
+| D4-R75 | R59 (adendo de 20/10, 5) | idem | segundo o TCU, a governança provê formas de remover controles desnecessários, que se tornam empecilhos à entrega de resultados, porque seu objetivo é a melhoria do desempenho para a geração de valor | DEF | N | C | não | direta | DC-A | D4-59 (R28): nota (eg) |
+| D4-R76 | F3, percepção da população (F3a) (**adendo**) | idem | a análise da percepção da população atendida e do seu nível de satisfação está incluída na avaliação de resultados (cenário: avaliador que a faz; fecho neutro «Nessa situação, é correto afirmar que …») | SIT | N | C | não | a fixar pelo mapa | CQ | D4-R71: nota (ee) |
+| D4-R77 | Guia F2, seção 4.1 (H3) (**adendo**) | idem | segundo o Guia, a capacidade de resposta é a competência de atender de forma eficiente e eficaz às necessidades dos cidadãos, **inclusive antevendo interesses e antecipando aspirações** (cenário: expositor afirma que se limita às demandas já expressas; troca de polaridade) | APL | S — audiência pública de comissão da Câmara dos Deputados, expositor — fecho: «está correta» | E | sim | a fixar pelo mapa | CQ | D4-R69 (art. 3º, I): nota (ec) |
+| D4-R78 | Guia F2, legitimidade (H5) (**adendo**) | idem | segundo o Guia, para o Banco Mundial, a constante entrega de resultados previamente pactuados é uma das três fontes da legitimidade da atuação pública (cenário: órgão que entrega de forma constante os resultados pactuados; fecho «Nessa situação, segundo o Guia …», sem o fecho neutro) | SIT | N | C | não | a fixar pelo mapa | CQ | D4-20 (8.3; R13, mesma fonte ii): nota (ef) |
+
+Reserva da 9.3 (na ordem): F3e (adendo; efeito causal direto; nunca com o D4-62); art. 4º, III, finalidade «para assegurar que as diretrizes estratégicas sejam observadas» (Anexo, 4.1; ângulo novo do D4-56); R29, segundo elemento «promovendo confiança e resiliência em linha com os valores sociais» (Anexo, 5; ângulo novo do D4-58). Sem o adendo: só D4-R69, D4-R70 e D4-R75 e as duas últimas reservas; a folha fica abaixo de 20 (15.4.2 (c)). Concentração (informativa): F3 em 7 de 20 (D4-61 a D4-63 e 4 da leva), com a nota (ee); Banco Mundial em 2 da leva, com a nota (ef).
+
+**Folha 9.4 — 10 itens (5 C / 5 E), D4-R79 a D4-R88**
+| id | ponto | base | o que se julga | form. | moldura | gab. | [TS] | ader. | abert. | difere de |
+|---|---|---|---|---|---|---|---|---|---|---|
+| D4-R79 | Decreto 9.203, art. 2º, III (Anexo, 4.1; 9.4-2) | idem | a alta administração compreende, entre outros, os presidentes e diretores de autarquias, inclusive as especiais, e de fundações públicas (sem a nomenclatura de cargo do DAS; alerta 3) | SUJ | N | C | não | direta | DC-A | D4-53 (9.2) e D4-R66: nota (eh) |
+| D4-R80 | art. 18, caput (Anexo, 4.1; 9.4-16) | idem | a auditoria interna governamental deverá adicionar valor e melhorar as operações das organizações, mediante abordagem sistemática e disciplinada para avaliar e melhorar a eficácia dos processos de gerenciamento de riscos, dos controles e da governança | DEF | N | C | não | direta | DC-A | D4-47 (controle × controle interno): nota (ei) |
+| D4-R81 | art. 7º-A (Anexo, 4.1; 9.4-6) | idem | o CIG tem por finalidade assessorar o **Presidente da República** na condução da política de governança (troca: Presidente da República → Ministro de Estado Chefe da Casa Civil, ator que o art. 8º-A, I, menciona como coordenador) | SUJ | N | E | sim | direta | DC-O | D4-69: nota (ej) |
+| D4-R82 | art. 16 (Anexo, 4.1; 9.4-14) | idem | os comitês internos de governança publicarão suas atas e resoluções em sítio eletrônico, **ressalvado** o conteúdo sujeito a sigilo (cenário: expositor afirma que a publicação inclui o conteúdo sigiloso; troca: ressalvado → inclusive) | APL | S — audiência pública de comissão da Câmara dos Deputados, expositor — fecho: «está correta» | E | sim | direta | CQ | D4-70 (15-A, I; moldura C): nota (ek) |
+| D4-R83 | art. 17, II (Anexo, 4.1; ângulo novo de 9.4-15) | idem | a integração da gestão de riscos ao processo de planejamento estratégico e aos seus desdobramentos é um dos princípios do sistema de gestão de riscos e controles internos | DEF | N | C | não | direta | DC-A | D4-73 (rol): nota (el) |
+| D4-R84 | art. 10-B, III (Anexo, 4.1; ângulo novo de 9.4-10) | idem | os grupos de trabalho do CIG terão caráter temporário e duração não superior a **um ano** (troca de número: um ano → dois anos, para mais; L6-1 e L7-1: "dois anos" ocorre 0 vez no decreto; abertura sem o prefixo do D4-72) | NUM | N | E | sim | direta | DC-O | D4-72 (II, cinco membros): nota (em) |
+| D4-R85 | art. 12-A (Anexo, 4.1; 9.4-11) | idem | a participação no CIG ou nos grupos de trabalho será considerada prestação de serviço público relevante, não remunerada (cenário: servidor designado para grupo de trabalho do CIG; fecho «Nessa situação, nos termos do Decreto …») | SIT | N | C | não | direta | CQ | D4-R48 (8.3, Lei 13.460, art. 21): nota (en) |
+| D4-R86 | art. 15-A, IV (Anexo, 4.1; ângulo novo de 9.4-13) | idem | compete aos comitês internos de governança elaborar manifestação técnica relativa aos temas de sua competência | SUJ | N | C | não | direta | DC-A | D4-70 (15-A, I): nota (ek) |
+| D4-R87 | art. 8º-A, § 3º (Anexo, 4.1; 9.4-7) | idem | representantes de outros órgãos e entidades da administração pública federal poderão ser convidados às reuniões do CIG, **sem direito a voto** (cenário: expositor afirma que participam com direito a voto; troca de polaridade) | APL | S — audiência pública de comissão da Câmara dos Deputados, expositor — fecho: «está correta» | E | sim | direta | CQ | D4-69 e D4-71: nota (ej) |
+| D4-R88 | art. 18, I (Anexo, 4.1; ângulo novo de 9.4-16) | idem | a auditoria interna governamental realiza trabalhos de avaliação e consultoria de forma independente, segundo os padrões de auditoria e ética profissional **reconhecidos internacionalmente** (troca: reconhecidos internacionalmente → aprovados pelo CIG, colegiado que o decreto incumbe de aprovar manuais e guias, art. 9º-A, II) | DEF | N | E | sim | direta | DC-O | D4-R80 (caput): nota (ei) |
+
+Reserva da 9.4 (na ordem): art. 8º-B, caput (reuniões ordinárias trimestrais; NUM); art. 8º-B, § 2º (voto de qualidade do Coordenador); art. 9º-A, § 2º (colegiado temático); art. 17, III (controles proporcionais aos riscos, observada a relação custo-benefício); art. 18, III (prevenção, detecção e investigação de fraudes por agentes públicos ou privados); art. 19, IV (monitoramento contínuo do programa). CIG e grupos na folha: 7 de 20 com o plano (teto 8); a reserva do art. 8º-B só entra trocando outro item de CIG.
+
+Moldura da leva 9 (D4-R60, D4-R70, D4-R77, D4-R82, D4-R87):
+- tipo da cota das folhas 9.x (regra 10): expositor em audiência pública de comissão da Câmara dos Deputados;
+- forma da cota na abertura (L8-1) e fecho pela L8-4;
+- nada sobre norma interna, regimento ou prática real da Câmara;
+- a moldura não decide o gabarito;
+- cenas distintas até o fecho em relação aos D4-52, D4-56, D4-62, D4-64 e D4-70 (prefixo comum registrado na seção 4 da leva, L8-1).
+
+#### 15.4.5 Formatos ao fim da leva 9 (folha final de 20; teto 6)
+| folha | DEF | SUJ | SIT | NUM | PAR | APL | total |
+|---|---|---|---|---|---|---|---|
+| 9.2 (canônicos 3/1/2/2/1/1 + leva 3/1/1/0/4/1) | 6 | 2 | 3 | 2 | 5 | 2 | 20 |
+| 9.3 (canônicos 3/0/3/0/2/2 + leva 3/0/2/0/3/2) | 6 | 0 | 5 | 0 | 5 | 4 | 20 |
+| 9.4 (canônicos 2/1/1/3/1/2 + leva 3/3/1/1/0/2) | 5 | 4 | 2 | 4 | 1 | 4 | 20 |
+
+Maior formato: DEF 6 em 20 na 9.2 e na 9.3 (30%, no teto). Formatos da leva 9: DEF 9, SUJ 4, SIT 4, NUM 1, PAR 7, APL 5. Formatos dos canônicos: D4_v2_1.md, campo Formato.
+
+#### 15.4.6 Gabarito, moldura, aderência e conjuntos ao fim da leva 9
+- Leva: **15 C / 15 E (50,0%)**; faixa de 30 itens: 12 a 18 C. Folhas: 9.2 10/10 (5/5 + 5/5); 9.3 10/10 (5/5 + 5/5); 9.4 10/10 (5/5 + 5/5).
+- Moldura nova: **0 C / 5 E** (D4-R60, D4-R70, D4-R77, D4-R82, D4-R87), as cotas da T-122 (9.2 1 E; 9.3 2 E; 9.4 2 E). DA: 50/44 → **50/49 (50,5%)**, meta da D-MOLDURA-CE mantida (seção 2.2). Por folha: 9.2 1 C / 1 E; 9.3 2/2; 9.4 2/2; no máximo 6 por folha.
+- Conjuntos do D4 (regra 11; partida = depois da leva 8, R1 da leva 8, conferência 3):
+  - K1 moldura 14 C / 10 E → **14/15 (48,3%)**;
+  - K2 estrito («é correta») 7/9 → **7/9 (43,8%)**, sem item novo (L8-4); pela detecção larga da GCB, 12/9 → **12/14 (46,2%)**;
+  - K3 «pós-NPM» 5/4, sem item novo;
+  - K4 «Considere que» 31/22 → **35/27 (56,5%)**;
+  - fecho neutro 4/5 → **6/5 (54,5%)** (D4-R62 C, D4-R76 C);
+  - contraste ", e não" 2/2 → **3/2 (60,0%, no limite)** (D4-R69 C).
+  - Fechos com moldura: «está correta» 5 C / 0 E → 5/3; «corresponde ao que o decreto prevê» 2/0 → 2/2.
+- Abertura × gabarito (7.4.2; L3-1):
+  - leva: «Considere que» 4 C / 5 E (44,4% de C); declarativos 11 C / 10 E (47,6% de E);
+  - folhas fechadas: 9.2 CQ 3 C / 2 E e DC 7 C / 8 E; 9.3 CQ 5/4 e DC 5/6; 9.4 CQ 3/3 e DC 7/7 — mínimos de 40% cumpridos.
+  - L8-2: no plano, DC-A 11 C / 0 E. A gcb-cpp põe de 2 a 3 E em DC-A para ficar entre 50% e 75% de C (ex.: D4-R59 «Nos termos do Decreto …»; D4-R84 «Segundo o Decreto …»; D4-R88 «Nos termos do Decreto …»), sem prefixo de 40 caracteres com canônico da folha. A seção 4 da leva informa a contagem.
+- Aderência: os pontos do Anexo e do adendo de 20/10 são **diretos** (9.2: 9; 9.3: 3; 9.4: 10 — 22 diretos previstos). Os 8 pontos do adendo novo (D4-R66, R71 a R74, R76 a R78) seguem o mapa dele. Se parciais, contam para a meta de 20 e só vão a simulado diagnóstico. VOLÁTIL 0. REVERIFICAR 0 previsto: notas de alteração do decreto de 2019 (Decreto 9.901) e 2021 (Decreto 10.907, art. 11-A, fora do plano); Guia F2 e F3 de 2018.
+- [TS]: 15, todos os E; nenhum C-isca.
+- Absolutos (L3-2; L6-2; L7-3): nenhum E com absoluto inserido pela troca. Absolutos literais que não são a troca: «no mínimo» (D4-R70), «só deve … se» (D4-R73, letra da fonte; o E troca a condição, e não o «só»), «independentemente» (D4-R66, na letra do Guia). C com absoluto literal: «não somente … mas também» (D4-R68). L5-1: todo E entre 19 e 62 palavras; todo C até 65.
+- Concentração por norma (informativa; seção 10.3): 9.2 — Decreto 9.203 4 da leva (12 de 20 com os canônicos D4-44 a D4-46, D4-48 a D4-50, D4-52 e D4-53), TCU 5 da leva (R26 ×2, R27, R61, R85; 7 de 20 com o D4-47 e o D4-51), Guia F2 1; 9.3 — F3 4, Guia F2 3, Decreto 2, TCU 1; 9.4 — Decreto 10 (é a folha do decreto).
+
+#### 15.4.7 Sequência (seção 7.3; plano conferido por script antes do despacho; scratchpad gcb_l8r/seq9.py e plan9b.py)
+| escopo | gabarito | [TS] | resultado |
+|---|---|---|---|
+| 9.2, leva / acumulada (20) | EECCECEECC / ECEECCECCE·EECCECEECC | TTnnTnTTnn / TnTTnnnTnT·TTnnTnTTnn | passa |
+| 9.3, leva / acumulada (20) | CEECEECCEC / EECEECCECC·CEECEECCEC | nTTnTTnnTn / TTnnTnTTnn·nTTnTTnnTn | passa |
+| 9.4, leva / acumulada (20) | CCEECECCEE / CEECEECCEC·CCEECECCEE | nnTTnTnnTT / nTnnTTnTTn·nnTTnTnnTT | passa |
+| leva 9 inteira (9.2, 9.3, 9.4) | EECCECEECC·CEECEECCEC·CCEECECCEE | TTnnTnTTnn·nTTnTTnnTn·nnTTnTnnTT | passa |
+
+- Com todo E com [TS], 148 combinações de folhas passam o teste. A adotada não tem trinca de gabarito nas folhas da leva.
+- Os canônicos da 9.2 terminam em C C E. O primeiro item da leva é E com [TS] (D4-R59), e a corrida E E E da junção (D4-53, R59, R60) fica em 3.
+- Itens com moldura não ficam vizinhos entre si: 9.3 posições 2 e 9; 9.4 posições 4 e 9.
+- A nota obrigatória (ea) liga o D4-R67 a um canônico, e não há par obrigatório dentro da leva.
+- Vale a regra de troca de posição da seção 8.3.7: ponto que vá à reserva toma a posição com o mesmo gabarito e [TS].
+
+#### 15.4.8 Amostra da gbq-estilo (leva 9)
+5 itens (16,7%), designados antes da produção:
+- **D4-R60**: E com moldura na forma da cota, fecho «corresponde ao que o decreto prevê» (L8-1, L8-4);
+- **D4-R61**: C, DC-A «Segundo …», L8-2;
+- **D4-R73**: E, F3, troca de condição temporal; ponto do adendo;
+- **D4-R77**: E com moldura, Guia F2, fecho «está correta», cena próxima do C D4-R69;
+- **D4-R84**: E, NUM, troca de número, L6-1 e L7-1.
+
+Cobre as três folhas, um C, dois E com moldura nos dois fechos da L8-4, L7-1 e dois pontos de fonte nova (F3 e Guia). Se o mapa do adendo der parcial a algum ponto, a GCB troca, na conferência da seção 15.6, um item da amostra por um parcial da mesma folha, antes do despacho. O rito é o da seção 9.3, item 6: sobre a v1, em paralelo ao R1; texto igual pedido pelos dois é aplicado uma vez (seção 11.3). Saída: saida/banco/estilo_DA_reforco_leva9.md.
+
+#### 15.4.9 Notas de simulado previstas para a leva 9 (destino: T-119 e T-123; continuam (a) a (ds))
+| # | itens | motivo |
+|---|---|---|
+| (dt) | D4-R59 × D4-50 | diretrizes do art. 4º (X × V), princípio × diretriz |
+| (du) | D4-R60 × D4-45 e D4-46 | liderança × controle (art. 5º, I e III) |
+| (dv) | D4-R61 × D4-R65 × D4-49 | estratégia (R26, dois elementos; art. 5º, II): no máximo 2 por simulado |
+| (dw) | D4-R62 × D4-66 | programa de integridade (art. 19, I × II) |
+| (dx) | D4-R63 × D4-48 e D4-45 | condições mínimas da liderança (art. 5º, I) |
+| (dy) | D4-R64 × D4-51 | instâncias internas de governança (R85 × R25, TCU, p. 54) |
+| (dz) | D4-R66 × D4-53 e D4-R79 | alta administração (art. 6º; Guia, 6.1; art. 2º, III) |
+| (ea) **OBRIGATÓRIA** | D4-R67 × D4-47 | R27, primeira e segunda frases: o C do D4-R67 (controle pelas partes interessadas) sinaliza o E do D4-47 (unidade de controle interno) |
+| (eb) | D4-R68 × D4-44 | mecanismos de liderança, estratégia e controle (R61 × art. 5º, caput, com R24) |
+| (ec) | D4-R69, D4-R77, D4-67 e D4-R43 | princípios do art. 3º e capacidade de resposta: no máximo 2 por simulado |
+| (ed) | D4-R70 × D4-52 | art. 6º, parágrafo único (I × II e III) |
+| (ee) | D4-R71, D4-R72, D4-R73, D4-R76, D4-61, D4-62 e D4-63 | guia de análise ex post (F3): no máximo 3 por simulado |
+| (ef) | D4-R74, D4-R78, D4-20 e D4-R51 | Banco Mundial (Guia F2): no máximo 2 por simulado |
+| (eg) | D4-R75 × D4-59 | entrega de resultados (R59 × R28, TCU) |
+| (eh) | D4-R79 × D4-53 | alta administração (art. 2º, III × art. 6º, caput) |
+| (ei) | D4-R80 × D4-R88 | auditoria interna governamental (art. 18, caput × I) |
+| (ej) | D4-R81, D4-R87, D4-69 e D4-71 | CIG (arts. 7º-A, 8º-A e 8º-B): no máximo 2 por simulado |
+| (ek) | D4-R82, D4-R86 e D4-70 | comitês internos de governança (arts. 15-A e 16): no máximo 2 por simulado |
+| (el) | D4-R83 × D4-73 | gestão de riscos (art. 17, II × rol) |
+| (em) | D4-R84 × D4-72 | grupos de trabalho (art. 10-B, III × II) |
+| (en) | D4-R85 × D4-R48 | participação não remunerada (Decreto 9.203, art. 12-A × Lei 13.460, art. 21) |
+| (w) | a leva 9 inteira (ou só itens de reforço) | não forma simulado isolado; entra misturada por folha com os canônicos |
+| (x) | os 5 itens com moldura (D4-R60, D4-R70, D4-R77, D4-R82, D4-R87) | contam para o teto de 50% de C com moldura por simulado (D-MOLDURA-CE (c)) |
+
+#### 15.4.10 Despacho (leva 9; próxima sessão)
+1. **Ao qa-normativo-da** (primeiro passo; não produz item): adendo no escopo fechado da seção 15.4.2 (b), com a regra de rede dela (uma tentativa real por PDF no www.gov.br, registrada literalmente; base nas cópias de 20/10/2026, se a presidencia mantiver para esta leva a leitura da D-T116-LEVA7-ACEITE, (c) e (e)). Saída: saida/gcb/D4_anexo_N_adendo_<data ISO>.md; SHA-256 no relato. Nada mais.
+2. **À gcb-gerencia**: conferência do adendo por script (seção 15.6, a acrescentar antes da última linha desta ficha, como a 14.6):
+   - os 8 trechos do plano que dependem do adendo (D4-R66; D4-R71 a D4-R74; D4-R76 a D4-R78), 1 vez no adendo e na cópia, e as linhas e páginas;
+   - a aderência pelo mapa;
+   - ponto não confirmado vai à reserva da mesma folha, com o teste da 15.4.7 refeito; se a folha ficar com menos de 10 pontos, fecha menor, e a reconciliação registra;
+   - a proposta de item da T-120 para a F3 e para os ids novos do Guia, se os PDFs não reabrirem;
+   - sem nova ficha nem novo gatilho.
+3. **À gcb-cpp** (sonnet), uma instância, depois do item 2.
+   - Objeto: leva 9, conforme esta seção 15.4, as seções 1, 7, 8.2 (itens 4 e 7), 9.3, 10.2, 11.2, 11.6 (regra "Rede"), 12.2, 13.2, 14.2, 15.2 e 15.6, e os anexos abaixo.
+   - Saída: saida/gcb/DA_reforco_leva9_v1.md, no formato da regra 14 (nomes da seção 7.5); linha 1 `# DA_reforco_leva9_v1.md — T-116 — <data ISO> — gerado por gcb-cpp`; folhas na ordem 9.2, 9.3, 9.4.
+   - Anexos (lista exaustiva): esta ficha; saida/gcb/D4_anexo_N_mapa_normativo.md (seções 1 a 6); saida/gcb/D4_anexo_N_adendo_2026-10-20.md (seções 1, 3.4 e 5, só R59, R61 e R85); o adendo novo; saida/gcb/D4_v2_1.md e saida/gcb/D4_ficha_lote.md (seção 5.3), só para os pontos já usados e o formato dos blocos canônicos; os arquivos finais das levas 1, 2 e 8 (modelo de bloco do D4; K1 a K4; fechos; L8-1); regras/estilo_banca.md; as cópias saida/gcb/normativo_cache/CasaCivil_GuiaPoliticaGovernanca_2018_2026-10-20.txt, CasaCivil_AvaliacaoExPost_v2_2018_2026-10-20.txt e TCU_ReferencialGovernancaOrganizacional_3ed_2020_TRECHOS_2026-10-20.txt.
+   - A seção 4 do arquivo traz, por script: as contagens da regra 14; abertura × gabarito por folha fechada e na leva; abertura de atribuição (L8-2); abertura da moldura (L8-1); fecho × moldura × gabarito e K2 nas duas detecções (L8-3, L8-4); K1 a K4; fecho neutro e contraste; absolutos por marcador e por gabarito (L3-2, L6-2, L7-3); o sentido da troca de número e as outras ocorrências do valor posto (L6-1, L7-1); extensão (L5-1); prefixo comum por folha (L3-3; 14.2, item 1); a regra da justificativa (14.2, item 2); o teste da 15.4.7 refeito; a moldura acumulada (DA e D4).
+   - O bloco 5 segue a seção 15.2, item 5. A gcb-cpp pode trocar um ponto pela reserva da mesma folha, com o motivo no bloco à GCB, nas condições da seção 3.7.
+   - Nada vai à plataforma nem à candidata. Sem commit.
+4. **À gcb-cqfp** (R1, opus) e **à gbq-estilo** (amostra da 15.4.8), em paralelo, sobre a v1.
+   - A gcb-cqfp pode reabrir a Fonte N1 do Anexo N do D4 com User-Agent de navegador, como conferência. O www.gov.br fica fora (recusado pela política).
+   - A pertinência dos pontos do adendo é dela.
+   - O R1 traz a seção própria das erratas AJ-L8-E3 e AJ-L8-E4 (15.3).
+
+### 15.5 Riscos e registros
+1. A 9.3 depende do adendo. Sem ele, a folha fica abaixo de 20, e a leva 9 precisa de nova ficha (15.4.2 (c)).
+2. Fontes F2 e F3 sem reabertura possível neste ambiente (www.gov.br recusado pela política do proxy). A base dos trechos novos são as cópias de 20/10/2026, com data e hash. Isso depende de a presidencia manter, para esta leva, a leitura da D-T116-LEVA7-ACEITE, (c) e (e) (15.4.2 (b), último item). A liberação do host é ato do Fundador e não é pedida pela GCB.
+3. Pertinência dos pontos novos da 9.3: a avaliação de resultados (F3a, F3b) liga-se a "entrega de resultados" e "avaliação de impactos" pelo contexto da F3; a capacidade de resposta (H3, art. 3º, I), a "geração de valor para a sociedade". A gcb-cqfp pode dar parcial, e a folha conta parciais para a meta de 20 (D-T97-META-FUNDADOR-RESP).
+4. Os trechos dos arts. 8º-A, § 3º, 12-A e 15-A, IV, repetem texto de dispositivos revogados. A Base cita só o artigo com letra, e o item não cita artigo revogado (alerta 1 do Anexo).
+5. K2 e contraste no limite: K2 estrito em 43,8% sem item novo (L8-4); ", e não" em 3/2 (60,0%). Nenhum E novo usa ", e não" nem «é correta».
+6. Erratas AJ-L8-E3 e AJ-L8-E4 em rito próprio (15.3). Sem CONFERIDO da gcb-cqfp e aceite, os dois itens ficam como aprovados no R2.
+7. Nenhuma tarefa nova (D-COMPLEMENTOS). Nenhum gatilho em PARA_PRESIDENCIA.md por esta seção (o gatilho da leva 8 é da reconciliação).
+
 FIM DA FICHA DO REFORÇO DA

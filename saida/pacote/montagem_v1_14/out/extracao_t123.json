@@ -1,0 +1,462 @@
+{
+ "criterios": {
+  "n_ids": {
+   "esperado": 238,
+   "obtido": 238
+  },
+  "ids_unicos": {
+   "esperado": 238,
+   "obtido": 238
+  },
+  "C_E": {
+   "esperado": [
+    122,
+    116
+   ],
+   "obtido": [
+    122,
+    116
+   ]
+  },
+  "parciais": {
+   "esperado": 35,
+   "obtido": 35
+  },
+  "itemEdital_P1_DA": {
+   "esperado": 238,
+   "obtido": 238
+  },
+  "por_leva": {
+   "1": {
+    "esperado": [
+     30,
+     15,
+     15,
+     16,
+     8
+    ],
+    "obtido": [
+     30,
+     15,
+     15,
+     16,
+     8
+    ],
+    "ok": true
+   },
+   "2": {
+    "esperado": [
+     30,
+     17,
+     13,
+     13,
+     2
+    ],
+    "obtido": [
+     30,
+     17,
+     13,
+     13,
+     2
+    ],
+    "ok": true
+   },
+   "3": {
+    "esperado": [
+     30,
+     16,
+     14,
+     14,
+     11
+    ],
+    "obtido": [
+     30,
+     16,
+     14,
+     14,
+     11
+    ],
+    "ok": true
+   },
+   "4": {
+    "esperado": [
+     28,
+     15,
+     13,
+     13,
+     5
+    ],
+    "obtido": [
+     28,
+     15,
+     13,
+     13,
+     5
+    ],
+    "ok": true
+   },
+   "5": {
+    "esperado": [
+     30,
+     16,
+     14,
+     14,
+     0
+    ],
+    "obtido": [
+     30,
+     16,
+     14,
+     14,
+     0
+    ],
+    "ok": true
+   },
+   "6": {
+    "esperado": [
+     30,
+     14,
+     16,
+     15,
+     0
+    ],
+    "obtido": [
+     30,
+     14,
+     16,
+     15,
+     0
+    ],
+    "ok": true
+   },
+   "7": {
+    "esperado": [
+     30,
+     15,
+     15,
+     13,
+     8
+    ],
+    "obtido": [
+     30,
+     15,
+     15,
+     13,
+     8
+    ],
+    "ok": true
+   },
+   "8": {
+    "esperado": [
+     30,
+     14,
+     16,
+     16,
+     1
+    ],
+    "obtido": [
+     30,
+     14,
+     16,
+     16,
+     1
+    ],
+    "ok": true
+   }
+  },
+  "por_lote": {
+   "D1": {
+    "esperado": [
+     12,
+     6,
+     6
+    ],
+    "obtido": [
+     12,
+     6,
+     6
+    ],
+    "ok": true
+   },
+   "D2": {
+    "esperado": [
+     80,
+     40,
+     40
+    ],
+    "obtido": [
+     80,
+     40,
+     40
+    ],
+    "ok": true
+   },
+   "D3": {
+    "esperado": [
+     89,
+     49,
+     40
+    ],
+    "obtido": [
+     89,
+     49,
+     40
+    ],
+    "ok": true
+   },
+   "D4": {
+    "esperado": [
+     57,
+     27,
+     30
+    ],
+    "obtido": [
+     57,
+     27,
+     30
+    ],
+    "ok": true
+   }
+  },
+  "vagos_ausentes": {
+   "esperado": [
+    "D1-R03",
+    "D4-R12"
+   ],
+   "obtido_presentes": []
+  },
+  "D3-R75_apos_D3-R74": {
+   "ok": true
+  },
+  "erratas": [
+   {
+    "id": "D3-R13",
+    "ato": "AJ-E1 (D-T116-LEVA2-ACEITE, II)",
+    "antes_na_secao": 1,
+    "antes_no_arquivo": 1,
+    "depois_antes_de_aplicar": 0,
+    "depois_depois_de_aplicar": 1
+   },
+   {
+    "id": "D3-R18",
+    "ato": "AJ-L2-E1 (D-T116-LEVA3-ACEITE, II)",
+    "antes_na_secao": 1,
+    "antes_no_arquivo": 1,
+    "depois_antes_de_aplicar": 0,
+    "depois_depois_de_aplicar": 1
+   },
+   {
+    "id": "D3-R75",
+    "ato": "AJ-L7-E1 (D-D3R75-AJL7E1-ACEITE)",
+    "antes_na_secao": 1,
+    "antes_no_arquivo": 1,
+    "depois_antes_de_aplicar": 0,
+    "depois_depois_de_aplicar": 1
+   }
+  ],
+  "E3_E4_ids_presentes": {
+   "D4_R42": true,
+   "D4_R52": true
+  },
+  "banco_P1_DA": {
+   "esperado": 36,
+   "obtido": 36,
+   "CE": [
+    26,
+    10
+   ],
+   "esperado_CE": [
+    26,
+    10
+   ]
+  }
+ },
+ "shas_levas": {
+  "1": {
+   "arquivo": "saida/gcb/DA_reforco_leva1_v2.md",
+   "sha256_lf": "2c431529a5440d4a2bf2bb617bc75d496949dff28a824e0215322d00d79a4f04",
+   "bytes": 95081,
+   "linhas": 779,
+   "esperado": "2c431529a5440d4a2bf2bb617bc75d496949dff28a824e0215322d00d79a4f04"
+  },
+  "2": {
+   "arquivo": "saida/gcb/DA_reforco_leva2_v2.md",
+   "sha256_lf": "5baec20d81eea47f50e79275375668284d58ff5649f85a06c37552cd0f161bbe",
+   "bytes": 122775,
+   "linhas": 880,
+   "esperado": "5baec20d81eea47f50e79275375668284d58ff5649f85a06c37552cd0f161bbe"
+  },
+  "3": {
+   "arquivo": "saida/gcb/DA_reforco_leva3_v2.md",
+   "sha256_lf": "e4c2a91191b4e5b3180317ce28653514a438896929291168c83b3a2c4a513237",
+   "bytes": 132166,
+   "linhas": 973,
+   "esperado": "e4c2a91191b4e5b3180317ce28653514a438896929291168c83b3a2c4a513237"
+  },
+  "4": {
+   "arquivo": "saida/gcb/DA_reforco_leva4_v2.md",
+   "sha256_lf": "57203ae3a68042012989b549d19f2dbd5703623b5de3619275b3f05a2f8338da",
+   "bytes": 125224,
+   "linhas": 880,
+   "esperado": "57203ae3a68042012989b549d19f2dbd5703623b5de3619275b3f05a2f8338da"
+  },
+  "5": {
+   "arquivo": "saida/gcb/DA_reforco_leva5_v2.md",
+   "sha256_lf": "b531014bcf2cf158890ffa4293062e796e505151a57dced14e8462875a8f81c4",
+   "bytes": 147110,
+   "linhas": 941,
+   "esperado": "b531014bcf2cf158890ffa4293062e796e505151a57dced14e8462875a8f81c4"
+  },
+  "6": {
+   "arquivo": "saida/gcb/DA_reforco_leva6_v2.md",
+   "sha256_lf": "0b8ccd4d07bf7d97cb9c1728c6bf4c18e3c5f7c9ac557e27f4537c068c96090b",
+   "bytes": 141300,
+   "linhas": 927,
+   "esperado": "0b8ccd4d07bf7d97cb9c1728c6bf4c18e3c5f7c9ac557e27f4537c068c96090b"
+  },
+  "7": {
+   "arquivo": "saida/gcb/DA_reforco_leva7_v2.md",
+   "sha256_lf": "c4f50b9ecabb3f0c99592d4bd997012b647a2b6b5b10ab5521eece385fe1f764",
+   "bytes": 159681,
+   "linhas": 986,
+   "esperado": "c4f50b9ecabb3f0c99592d4bd997012b647a2b6b5b10ab5521eece385fe1f764"
+  },
+  "8": {
+   "arquivo": "saida/gcb/DA_reforco_leva8_v2.md",
+   "sha256_lf": "1fdce9bde3393b445cabd75d50064fb2a2fdde103c03415dc82256c203bf6f2c",
+   "bytes": 169034,
+   "linhas": 1011,
+   "esperado": "1fdce9bde3393b445cabd75d50064fb2a2fdde103c03415dc82256c203bf6f2c"
+  }
+ },
+ "banco_sha256_lf": "b1c1588f8b4a80a233e7b8d485992d07e9adeb2570fb2343573ab7fde9a5721f",
+ "ocorrencias": {
+  "total": 109,
+  "por_classe": {
+   "MARCA": 103,
+   "VERIFICAR": 4,
+   "FP": 2
+  },
+  "MARCA_por_categoria": {
+   "C01": 0,
+   "C02": 8,
+   "C03": 33,
+   "C04": 0,
+   "C05": 41,
+   "C06": 0,
+   "C07": 0,
+   "C08": 0,
+   "C09": 0,
+   "C10": 21
+  },
+  "MARCA_por_origem": {
+   "reforco": 103
+  },
+  "MARCA_reforco_por_lote": {
+   "D1": 1,
+   "D2": 22,
+   "D3": 42,
+   "D4": 38
+  },
+  "MARCA_reforco_por_leva": {
+   "1": 25,
+   "2": 16,
+   "3": 22,
+   "4": 13,
+   "5": 12,
+   "6": 5,
+   "7": 4,
+   "8": 6
+  },
+  "itens_com_MARCA_reforco": 85,
+  "itens_com_MARCA_banco": 0,
+  "itens_com_MARCA_em_enunciado_reforco": 0,
+  "ids_reforco_com_marca": [
+   "D4-R01",
+   "D4-R02",
+   "D4-R03",
+   "D4-R04",
+   "D4-R05",
+   "D4-R06",
+   "D4-R07",
+   "D4-R08",
+   "D4-R09",
+   "D4-R10",
+   "D4-R11",
+   "D4-R18",
+   "D4-R13",
+   "D4-R14",
+   "D3-R01",
+   "D3-R02",
+   "D3-R04",
+   "D3-R09",
+   "D3-R12",
+   "D4-R15",
+   "D4-R16",
+   "D4-R17",
+   "D4-R19",
+   "D4-R20",
+   "D4-R21",
+   "D4-R22",
+   "D4-R23",
+   "D4-R24",
+   "D4-R25",
+   "D4-R26",
+   "D4-R27",
+   "D4-R28",
+   "D1-R02",
+   "D3-R15",
+   "D3-R17",
+   "D3-R20",
+   "D3-R25",
+   "D3-R26",
+   "D3-R31",
+   "D3-R32",
+   "D3-R33",
+   "D3-R36",
+   "D3-R37",
+   "D3-R43",
+   "D3-R44",
+   "D3-R46",
+   "D3-R49",
+   "D3-R50",
+   "D3-R51",
+   "D3-R52",
+   "D3-R53",
+   "D3-R54",
+   "D3-R55",
+   "D3-R56",
+   "D3-R57",
+   "D3-R58",
+   "D3-R59",
+   "D2-R02",
+   "D2-R03",
+   "D2-R05",
+   "D2-R07",
+   "D2-R10",
+   "D2-R25",
+   "D2-R32",
+   "D2-R35",
+   "D2-R37",
+   "D2-R39",
+   "D2-R41",
+   "D2-R45",
+   "D2-R47",
+   "D2-R48",
+   "D2-R50",
+   "D2-R54",
+   "D2-R58",
+   "D2-R65",
+   "D2-R77",
+   "D3-R74",
+   "D3-R77",
+   "D3-R85",
+   "D4-R31",
+   "D4-R34",
+   "D4-R35",
+   "D4-R38",
+   "D4-R43",
+   "D4-R51"
+  ]
+ }
+}

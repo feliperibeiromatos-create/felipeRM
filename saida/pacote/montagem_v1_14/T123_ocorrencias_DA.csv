@@ -1,0 +1,110 @@
+id_ocorrencia;item;origem;lote;leva;campo;parte;posicao;categoria;subtipo;regras;classe;motivo;trecho_antes;ocorrencias_do_trecho_no_campo;antes_unico;arquivo_linha
+T123-C05-5c21c032;D4-R01;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R37;1;R37;saida/gcb/DA_reforco_leva1_v2.md:121
+T123-C03-5c5a6b6e;D4-R01;reforco;D4;1;justificativa;linha 2;291;C03;alerta;CM:alerta;MARCA;;alerta B9;1;alerta B9;saida/gcb/DA_reforco_leva1_v2.md:122
+T123-C05-f0a52eaf;D4-R02;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R39;1;R39;saida/gcb/DA_reforco_leva1_v2.md:136
+T123-C05-c68da324;D4-R03;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R55;1;R55;saida/gcb/DA_reforco_leva1_v2.md:151
+T123-C05-903a5407;D4-R04;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R43;1;R43;saida/gcb/DA_reforco_leva1_v2.md:167
+T123-C05-ccf030f9;D4-R05;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R39;1;R39;saida/gcb/DA_reforco_leva1_v2.md:182
+T123-C03-37e17c11;D4-R05;reforco;D4;1;justificativa;linha 2;208;C03;alerta;CM:alerta;MARCA;;alerta B9;1;alerta B9;saida/gcb/DA_reforco_leva1_v2.md:183
+T123-C05-5d0749a9;D4-R06;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R40;1;R40;saida/gcb/DA_reforco_leva1_v2.md:197
+T123-C05-a662748d;D4-R07;reforco;D4;1;justificativa;linha 1;17;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R46;1;R46;saida/gcb/DA_reforco_leva1_v2.md:213
+T123-C05-f35bbed7;D4-R08;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R45;1;R45;saida/gcb/DA_reforco_leva1_v2.md:228
+T123-C05-ff84867c;D4-R09;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R53;1;R53;saida/gcb/DA_reforco_leva1_v2.md:244
+T123-C05-954af3f6;D4-R10;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R57;1;R57;saida/gcb/DA_reforco_leva1_v2.md:260
+T123-C05-342268d5;D4-R11;reforco;D4;1;justificativa;linha 1;17;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R46;1;R46;saida/gcb/DA_reforco_leva1_v2.md:276
+T123-C05-cdb31f8c;D4-R18;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R54;1;R54;saida/gcb/DA_reforco_leva1_v2.md:291
+T123-C05-e3d88303;D4-R13;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R83;1;R83;saida/gcb/DA_reforco_leva1_v2.md:306
+T123-C05-05ec2bb6;D4-R14;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R44;1;R44;saida/gcb/DA_reforco_leva1_v2.md:322
+T123-C03-72624834;D4-R14;reforco;D4;1;justificativa;linha 2;286;C03;alerta;CM:alerta;MARCA;;alerta B4;1;alerta B4;saida/gcb/DA_reforco_leva1_v2.md:323
+T123-C03-badaf653;D3-R01;reforco;D3;1;justificativa;linha 2;240;C03;alerta;CM:alerta;MARCA;;alerta A2;1;alerta A2;saida/gcb/DA_reforco_leva1_v2.md:341
+T123-C03-5c451e41;D3-R02;reforco;D3;1;justificativa;linha 2;320;C03;alerta;CM:alerta;MARCA;;alerta A11;1;alerta A11;saida/gcb/DA_reforco_leva1_v2.md:356
+T123-C03-5b692516;D3-R04;reforco;D3;1;justificativa;linha 2;325;C03;alerta;CM:alerta;MARCA;;alerta A7;1;alerta A7;saida/gcb/DA_reforco_leva1_v2.md:387
+T123-C03-46352809;D3-R09;reforco;D3;1;justificativa;linha 2;318;C03;alerta;CM:alerta;MARCA;;alerta A1;1;alerta A1;saida/gcb/DA_reforco_leva1_v2.md:465
+T123-C03-fb4a84da;D3-R12;reforco;D3;1;justificativa;linha 2;248;C03;alerta;CM:alerta;MARCA;;alerta A1;1;alerta A1;saida/gcb/DA_reforco_leva1_v2.md:512
+T123-C05-abe5c19c;D4-R15;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R63;1;R63;saida/gcb/DA_reforco_leva1_v2.md:543
+T123-C05-c3574870;D4-R16;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R64;1;R64;saida/gcb/DA_reforco_leva1_v2.md:559
+T123-C05-d61e302b;D4-R17;reforco;D4;1;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R72;1;R72;saida/gcb/DA_reforco_leva1_v2.md:575
+T123-C05-ab9c5ade;D4-R19;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R77;1;R77;saida/gcb/DA_reforco_leva2_v2.md:161
+T123-C05-e1e8eced;D4-R19;reforco;D4;2;justificativa;linha 1;105;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R78;1;R78;saida/gcb/DA_reforco_leva2_v2.md:161
+T123-C05-fed3b054;D4-R20;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R60;1;R60;saida/gcb/DA_reforco_leva2_v2.md:176
+T123-C05-aca703ad;D4-R21;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R66;1;R66;saida/gcb/DA_reforco_leva2_v2.md:191
+T123-C05-43546f70;D4-R22;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R65;1;R65;saida/gcb/DA_reforco_leva2_v2.md:207
+T123-C05-2fc1c8e4;D4-R23;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R81;1;R81;saida/gcb/DA_reforco_leva2_v2.md:222
+T123-C05-dbdc6881;D4-R24;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R62;1;R62;saida/gcb/DA_reforco_leva2_v2.md:237
+T123-C08-af745c21;D4-R24;reforco;D4;2;justificativa;linha 2;367;C08;producao;T108:producao;VERIFICAR;"produtor/producao/Presidencia: pode ser sentido de conteudo; decisao da GCB";produção;1;produção;saida/gcb/DA_reforco_leva2_v2.md:238
+T123-C05-b98824da;D4-R25;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R76;1;R76;saida/gcb/DA_reforco_leva2_v2.md:253
+T123-C05-1a625abd;D4-R26;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R67;1;R67;saida/gcb/DA_reforco_leva2_v2.md:269
+T123-C05-bad45f89;D4-R27;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R80;1;R80;saida/gcb/DA_reforco_leva2_v2.md:284
+T123-C05-499caedd;D4-R27;reforco;D4;2;justificativa;linha 1;101;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R79;1;R79;saida/gcb/DA_reforco_leva2_v2.md:284
+T123-C05-f38e03bb;D4-R28;reforco;D4;2;justificativa;linha 1;0;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R74;1;R74;saida/gcb/DA_reforco_leva2_v2.md:300
+T123-C03-ce894d8f;D1-R02;reforco;D1;2;justificativa;linha 2;286;C03;alerta;CM:alerta+T108:Pn;MARCA;;alerta P4;1;alerta P4;saida/gcb/DA_reforco_leva2_v2.md:333
+T123-C03-3be8597b;D3-R15;reforco;D3;2;justificativa;linha 2;351;C03;alerta;CM:alerta;MARCA;;alerta A2;1;alerta A2;saida/gcb/DA_reforco_leva2_v2.md:521
+T123-C03-afa303e8;D3-R17;reforco;D3;2;justificativa;linha 2;346;C03;alerta;CM:alerta;MARCA;;alertas A2 e A11;1;alertas A2 e A11;saida/gcb/DA_reforco_leva2_v2.md:552
+T123-C03-5cf81696;D3-R20;reforco;D3;2;justificativa;linha 2;283;C03;alerta;CM:alerta;MARCA;;alerta A1;1;alerta A1;saida/gcb/DA_reforco_leva2_v2.md:599
+T123-C03-a682971a;D3-R25;reforco;D3;3;justificativa;linha 2;415;C03;alerta;CM:alerta;MARCA;;alerta A7;1;alerta A7;saida/gcb/DA_reforco_leva3_v2.md:212
+T123-C03-1897082d;D3-R26;reforco;D3;3;justificativa;linha 2;371;C03;alerta;CM:alerta;MARCA;;alerta A3;1;alerta A3;saida/gcb/DA_reforco_leva3_v2.md:229
+T123-C03-758d75b8;D3-R31;reforco;D3;3;justificativa;linha 2;365;C03;alerta;CM:alerta;MARCA;;alerta A5;1;alerta A5;saida/gcb/DA_reforco_leva3_v2.md:306
+T123-C03-5a80dbad;D3-R32;reforco;D3;3;justificativa;linha 2;220;C03;alerta;CM:alerta;MARCA;;alerta A6;1;alerta A6;saida/gcb/DA_reforco_leva3_v2.md:322
+T123-C10-185e03cb;D3-R33;reforco;D3;3;justificativa;linha 2;424;C10;moldura;CM:moldura;MARCA;;moldura;2;om moldura em;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C10-dfffe126;D3-R33;reforco;D3;3;justificativa;linha 2;451;C10;moldura;CM:moldura;MARCA;;moldura;2;om moldura al;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C10-9fa9dfb6;D3-R33;reforco;D3;3;justificativa;linha 2;467;C10;cota;CM:cota;MARCA;cota de producao;cota;1;cota;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C10-e192cb13;D3-R33;reforco;D3;3;justificativa;linha 2;475;C10;folha;CM:folha;MARCA;folha (D1 8.1);folha;1;folha;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C02-ce547926;D3-R33;reforco;D3;3;justificativa;linha 2;482;C02;id de item;CM:id de item;MARCA;;D3-R27;1;D3-R27;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C05-3a1e2e6b;D3-R33;reforco;D3;3;justificativa;linha 2;485;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R27;1;R27;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C02-2f325a5e;D3-R33;reforco;D3;3;justificativa;linha 2;490;C02;id de item;CM:id de item;MARCA;;D3-R31;1;D3-R31;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C05-b86dbbe1;D3-R33;reforco;D3;3;justificativa;linha 2;493;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R31;1;R31;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C02-b24649f5;D3-R33;reforco;D3;3;justificativa;linha 2;499;C02;id de item;CM:id de item;MARCA;;D3-R35;1;D3-R35;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C05-a3c00b42;D3-R33;reforco;D3;3;justificativa;linha 2;502;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R35;1;R35;saida/gcb/DA_reforco_leva3_v2.md:337
+T123-C03-f40c4849;D3-R36;reforco;D3;3;justificativa;linha 2;369;C03;alerta;CM:alerta;MARCA;;alerta A8;1;alerta A8;saida/gcb/DA_reforco_leva3_v2.md:383
+T123-C03-d66fcd33;D3-R37;reforco;D3;3;justificativa;linha 2;378;C03;alerta;CM:alerta;MARCA;;alertas A7 e A11;1;alertas A7 e A11;saida/gcb/DA_reforco_leva3_v2.md:398
+T123-C03-9c621ba1;D3-R43;reforco;D3;3;justificativa;linha 2;487;C03;alerta;CM:alerta;MARCA;;alerta C2;1;alerta C2;saida/gcb/DA_reforco_leva3_v2.md:493
+T123-C03-ad0b1315;D3-R44;reforco;D3;3;justificativa;linha 2;322;C03;alerta;CM:alerta;MARCA;;alertas C1 e C4;1;alertas C1 e C4;saida/gcb/DA_reforco_leva3_v2.md:509
+T123-C03-fc6bb317;D3-R46;reforco;D3;3;justificativa;linha 2;343;C03;alerta;CM:alerta;MARCA;;alerta C1;1;alerta C1;saida/gcb/DA_reforco_leva3_v2.md:540
+T123-C03-a88bb98f;D3-R49;reforco;D3;3;justificativa;linha 2;460;C03;alerta;CM:alerta;MARCA;;alerta C8;1;alerta C8;saida/gcb/DA_reforco_leva3_v2.md:588
+T123-C03-7b302390;D3-R50;reforco;D3;3;justificativa;linha 2;366;C03;alerta;CM:alerta;MARCA;;alerta C7;1;alerta C7;saida/gcb/DA_reforco_leva3_v2.md:604
+T123-C03-33f94940;D3-R51;reforco;D3;3;justificativa;linha 2;449;C03;alerta;CM:alerta;MARCA;;alerta C6;1;alerta C6;saida/gcb/DA_reforco_leva3_v2.md:620
+T123-C03-6846787a;D3-R52;reforco;D3;4;justificativa;linha 2;397;C03;alerta;CM:alerta;MARCA;;alerta C9;1;alerta C9;saida/gcb/DA_reforco_leva4_v2.md:155
+T123-C03-abce1ae3;D3-R53;reforco;D3;4;justificativa;linha 2;471;C03;alerta;CM:alerta;MARCA;;alerta C9;1;alerta C9;saida/gcb/DA_reforco_leva4_v2.md:170
+T123-C03-9b9546ad;D3-R54;reforco;D3;4;justificativa;linha 2;461;C03;alerta;CM:alerta;MARCA;;alerta C6;1;alerta C6;saida/gcb/DA_reforco_leva4_v2.md:185
+T123-C03-09722947;D3-R55;reforco;D3;4;justificativa;linha 2;481;C03;alerta;CM:alerta;MARCA;;alerta C8;1;alerta C8;saida/gcb/DA_reforco_leva4_v2.md:201
+T123-C03-12a5e24a;D3-R56;reforco;D3;4;justificativa;linha 2;499;C03;alerta;CM:alerta;MARCA;;alerta C9;1;alerta C9;saida/gcb/DA_reforco_leva4_v2.md:216
+T123-C03-9f5f452d;D3-R57;reforco;D3;4;justificativa;linha 2;387;C03;alerta;CM:alerta;MARCA;;alerta C11;1;alerta C11;saida/gcb/DA_reforco_leva4_v2.md:231
+T123-C03-6f7f8b6b;D3-R58;reforco;D3;4;justificativa;linha 2;344;C03;alerta;CM:alerta;MARCA;;alerta C9;1;alerta C9;saida/gcb/DA_reforco_leva4_v2.md:247
+T123-C03-2d43acd4;D3-R59;reforco;D3;4;justificativa;linha 2;353;C03;alerta;CM:alerta;MARCA;;alerta C7;1;alerta C7;saida/gcb/DA_reforco_leva4_v2.md:263
+T123-C10-f5472ecd;D2-R02;reforco;D2;4;justificativa;linha 2;464;C10;folha;CM:folha;MARCA;folha (D1 8.1);folha;1;folha;saida/gcb/DA_reforco_leva4_v2.md:295
+T123-C10-8bf7c893;D2-R03;reforco;D2;4;justificativa;linha 2;522;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva4_v2.md:310
+T123-C10-98512488;D2-R05;reforco;D2;4;justificativa;linha 2;434;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva4_v2.md:342
+T123-C03-5d05d929;D2-R07;reforco;D2;4;justificativa;linha 2;489;C03;alerta;CM:alerta;MARCA;;alerta 1;1;alerta 1;saida/gcb/DA_reforco_leva4_v2.md:373
+T123-C10-21529627;D2-R10;reforco;D2;4;justificativa;linha 2;371;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva4_v2.md:419
+T123-C08-8c6daf0f;D2-R21;reforco;D2;5;justificativa;linha 2;411;C08;PR:ampliada;PR:PR:ampliada;VERIFICAR;"produtor/producao/Presidencia: pode ser sentido de conteudo; decisao da GCB";Presidência;1;Presidência;saida/gcb/DA_reforco_leva5_v2.md:174
+T123-C08-7313f6f7;D2-R24;reforco;D2;5;justificativa;linha 2;335;C08;PR:ampliada;PR:PR:ampliada;VERIFICAR;"produtor/producao/Presidencia: pode ser sentido de conteudo; decisao da GCB";Presidência;1;Presidência;saida/gcb/DA_reforco_leva5_v2.md:221
+T123-C02-1642393a;D2-R25;reforco;D2;5;justificativa;linha 2;374;C02;id de item;CM:id de item;MARCA;;D2-R23;1;D2-R23;saida/gcb/DA_reforco_leva5_v2.md:236
+T123-C05-24c6f08b;D2-R25;reforco;D2;5;justificativa;linha 2;377;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R23;1;R23;saida/gcb/DA_reforco_leva5_v2.md:236
+T123-C10-6d75e1d7;D2-R32;reforco;D2;5;justificativa;linha 2;257;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:345
+T123-C10-8a6e1550;D2-R35;reforco;D2;5;justificativa;linha 2;337;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:392
+T123-C10-1d6a32d8;D2-R37;reforco;D2;5;justificativa;linha 2;372;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:422
+T123-C10-8d01763f;D2-R39;reforco;D2;5;justificativa;linha 2;450;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:453
+T123-C10-3f9d2dae;D2-R41;reforco;D2;5;justificativa;linha 2;424;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:487
+T123-C02-1013d53b;D2-R45;reforco;D2;5;justificativa;linha 2;337;C02;id de item;CM:id de item;MARCA;;D2-41;1;D2-41;saida/gcb/DA_reforco_leva5_v2.md:549
+T123-C10-2739f4c7;D2-R47;reforco;D2;5;justificativa;linha 2;519;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:579
+T123-C02-de69b81e;D2-R48;reforco;D2;5;justificativa;linha 2;453;C02;id de item;CM:id de item;MARCA;;D2-R50;1;D2-R50;saida/gcb/DA_reforco_leva5_v2.md:595
+T123-C05-8cd2e824;D2-R48;reforco;D2;5;justificativa;linha 2;456;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R50;1;R50;saida/gcb/DA_reforco_leva5_v2.md:595
+T123-C10-f8614742;D2-R50;reforco;D2;5;justificativa;linha 2;410;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva5_v2.md:626
+T123-C10-65faf1fe;D2-R54;reforco;D2;6;justificativa;linha 2;437;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva6_v2.md:200
+T123-C10-7739e85a;D2-R58;reforco;D2;6;justificativa;linha 2;316;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva6_v2.md:263
+T123-C10-50866c31;D2-R65;reforco;D2;6;justificativa;linha 2;442;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva6_v2.md:373
+T123-C02-9e4996df;D2-R77;reforco;D2;6;justificativa;linha 2;311;C02;id de item;CM:id de item;MARCA;;L5-2;1;L5-2;saida/gcb/DA_reforco_leva6_v2.md:561
+T123-C10-78e30d84;D2-R77;reforco;D2;6;justificativa;linha 2;431;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva6_v2.md:561
+T123-C02-f210d216;D3-R74;reforco;D3;7;justificativa;linha 2;284;C02;id de item;CM:id de item;MARCA;;D3-R53;1;D3-R53;saida/gcb/DA_reforco_leva7_v2.md:385
+T123-C05-41059d06;D3-R74;reforco;D3;7;justificativa;linha 2;287;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;R53;1;R53;saida/gcb/DA_reforco_leva7_v2.md:385
+T123-C10-6f0dda2f;D3-R75;reforco;D3;7;enunciado;enunciado;142;C10;folha;CM:folha;FP;folha no sentido do conteudo (folha de pagamento);folha;1;folha;saida/gcb/DA_reforco_leva7_v2.md:122
+T123-C10-b164c659;D3-R75;reforco;D3;7;justificativa;linha 1;142;C10;folha;CM:folha;FP;folha no sentido do conteudo (folha de pagamento);folha;1;folha;saida/gcb/DA_reforco_leva7_v2.md:400
+T123-C10-4c45a074;D3-R77;reforco;D3;7;justificativa;linha 2;384;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva7_v2.md:432
+T123-C10-818d7149;D3-R85;reforco;D3;7;justificativa;linha 2;344;C10;moldura;CM:moldura;MARCA;;moldura;1;moldura;saida/gcb/DA_reforco_leva7_v2.md:557
+T123-C05-bda8db34;D4-R31;reforco;D4;8;justificativa;linha 2;417;C05;Anexo N;CM:Anexo (generico)+CM:Anexo N;MARCA;;Anexo N do D4, seção 4.3;1;Anexo N do D4, seção 4.3;saida/gcb/DA_reforco_leva8_v2.md:210
+T123-C05-38b72691;D4-R34;reforco;D4;8;justificativa;linha 2;289;C05;Anexo N;CM:Anexo (generico)+CM:Anexo N;MARCA;;Anexo N do D4, seção 4.2;1;Anexo N do D4, seção 4.2;saida/gcb/DA_reforco_leva8_v2.md:257
+T123-C05-25d05bbf;D4-R35;reforco;D4;8;justificativa;linha 2;425;C05;Anexo N;CM:Anexo (generico)+CM:Anexo N;MARCA;;Anexo N do D4, seção 4.2;1;Anexo N do D4, seção 4.2;saida/gcb/DA_reforco_leva8_v2.md:272
+T123-C05-c6e1aa61;D4-R38;reforco;D4;8;justificativa;linha 2;417;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;G9;1;G9;saida/gcb/DA_reforco_leva8_v2.md:320
+T123-C05-cef2c7b7;D4-R43;reforco;D4;8;justificativa;linha 2;375;C05;Anexo N;CM:Anexo (generico)+CM:Anexo N;MARCA;;Anexo N do D4, seção 4.1;1;Anexo N do D4, seção 4.1;saida/gcb/DA_reforco_leva8_v2.md:399
+T123-C05-2b2eff80;D4-R51;reforco;D4;8;justificativa;linha 2;315;C05;codigo de fonte R/F/G/H;CM:codigo de fonte R/F/G/H;MARCA;;G6;1;G6;saida/gcb/DA_reforco_leva8_v2.md:525
+T123-C08-c8687679;BQ-0113;banco;BANCO;;enunciado;enunciado;206;C08;producao;T108:producao;VERIFICAR;"produtor/producao/Presidencia: pode ser sentido de conteudo; decisao da GCB";produtor;1;produtor;banco/banco.csv:114

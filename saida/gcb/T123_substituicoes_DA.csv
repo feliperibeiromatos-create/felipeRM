@@ -1,0 +1,92 @@
+id_edicao,ids_ocorrencia,item,campo,lote,leva,categoria,trecho,modo,antes,depois,acao,operacao,fonte_origem,nota
+GCB-T123-0001,T123-C05-5c21c032,D4-R01,justificativa,D4,1,C05,R37,TEMPLATE,R37,"O artigo de Bouckaert (ENAP, 2024)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R37","""R37"" -> publicação por extenso"
+GCB-T123-0002,T123-C03-5c5a6b6e,D4-R01,justificativa,D4,1,C03,alerta B9,TEMPLATE, (alerta B9),,DELETAR,3,,alerta B9; alargado
+GCB-T123-0003,T123-C05-f0a52eaf,D4-R02,justificativa,D4,1,C05,R39,TEMPLATE,R39,"O artigo de Bouckaert (ENAP, 2024)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R39","""R39"" -> publicação por extenso"
+GCB-T123-0004,T123-C05-c68da324,D4-R03,justificativa,D4,1,C05,R55,TEMPLATE,R55,"O texto de Cavalcante (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R55","""R55"" -> publicação por extenso"
+GCB-T123-0005,T123-C05-903a5407,D4-R04,justificativa,D4,1,C05,R43,TEMPLATE,R43,"O texto de Silvestre (ENAP, 2019)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R43","""R43"" -> publicação por extenso"
+GCB-T123-0006,T123-C05-ccf030f9,D4-R05,justificativa,D4,1,C05,R39,TEMPLATE,R39,"O artigo de Bouckaert (ENAP, 2024)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R39","""R39"" -> publicação por extenso"
+GCB-T123-0007,T123-C03-37e17c11,D4-R05,justificativa,D4,1,C03,alerta B9,TEMPLATE, (alerta B9),,DELETAR,3,,alerta B9; alargado
+GCB-T123-0008,T123-C05-5d0749a9,D4-R06,justificativa,D4,1,C05,R40,TEMPLATE,R40,"O artigo de Bouckaert (ENAP, 2024)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R40","""R40"" -> publicação por extenso"
+GCB-T123-0009,T123-C05-a662748d,D4-R07,justificativa,D4,1,C05,R46,TEMPLATE,de R46,"do texto de Silvestre (ENAP, 2019)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R46","""R46"" -> publicação por extenso; alargado (contração)"
+GCB-T123-0010,T123-C05-f35bbed7,D4-R08,justificativa,D4,1,C05,R45,TEMPLATE,R45,"O texto de Silvestre (ENAP, 2019)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R45","""R45"" -> publicação por extenso"
+GCB-T123-0011,T123-C05-ff84867c,D4-R09,justificativa,D4,1,C05,R53,TEMPLATE,R53,"O texto de Cavalcante (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R53","""R53"" -> publicação por extenso"
+GCB-T123-0012,T123-C05-954af3f6,D4-R10,justificativa,D4,1,C05,R57,TEMPLATE,R57,"O texto de Cavalcante (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R57","""R57"" -> publicação por extenso"
+GCB-T123-0013,T123-C05-342268d5,D4-R11,justificativa,D4,1,C05,R46,TEMPLATE,de R46,"do texto de Silvestre (ENAP, 2019)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R46","""R46"" -> publicação por extenso; alargado (contração)"
+GCB-T123-0014,T123-C05-cdb31f8c,D4-R18,justificativa,D4,1,C05,R54,TEMPLATE,R54,"O texto de Cavalcante (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R54","""R54"" -> publicação por extenso"
+GCB-T123-0015,T123-C05-e3d88303,D4-R13,justificativa,D4,1,C05,R83,TEMPLATE,R83,"O texto de Cavalcante (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R83","""R83"" -> publicação por extenso"
+GCB-T123-0016,T123-C05-05ec2bb6,D4-R14,justificativa,D4,1,C05,R44,TEMPLATE,R44,"O texto de Silvestre (ENAP, 2019)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R44","""R44"" -> publicação por extenso"
+GCB-T123-0017,T123-C03-72624834,D4-R14,justificativa,D4,1,C03,alerta B4,TEMPLATE,(alerta B4: ,(,SUBSTITUIR,3,,alerta B4; alargado
+GCB-T123-0018,T123-C03-badaf653,D3-R01,justificativa,D3,1,C03,alerta A2,TEMPLATE, (alerta A2),,DELETAR,3,,alerta A2; alargado
+GCB-T123-0019,T123-C03-5c451e41,D3-R02,justificativa,D3,1,C03,alerta A11,TEMPLATE, (alerta A11),,DELETAR,3,,alerta A11; alargado
+GCB-T123-0020,T123-C03-5b692516,D3-R04,justificativa,D3,1,C03,alerta A7,TEMPLATE, (alerta A7),,DELETAR,3,,alerta A7; alargado
+GCB-T123-0021,T123-C03-46352809,D3-R09,justificativa,D3,1,C03,alerta A1,TEMPLATE, (alerta A1),,DELETAR,3,,alerta A1; alargado
+GCB-T123-0022,T123-C03-fb4a84da,D3-R12,justificativa,D3,1,C03,alerta A1,TEMPLATE, (alerta A1),,DELETAR,3,,alerta A1; alargado
+GCB-T123-0023,T123-C05-abe5c19c,D4-R15,justificativa,D4,1,C05,R63,TEMPLATE,"R63 (TCU, que cita Kaplan e Norton)","O Referencial Básico de Governança Organizacional (TCU, 2020), que cita Kaplan e Norton,",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R63","""R63"" -> publicação por extenso; alargado (parêntese fundido ao nome)"
+GCB-T123-0024,T123-C05-c3574870,D4-R16,justificativa,D4,1,C05,R64,TEMPLATE,R64 (TCU),"O Referencial Básico de Governança Organizacional (TCU, 2020)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R64","""R64"" -> publicação por extenso; alargado (parêntese fundido ao nome)"
+GCB-T123-0025,T123-C05-d61e302b,D4-R17,justificativa,D4,1,C05,R72,TEMPLATE,R72,"O texto de Martins (Ipea, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R72","""R72"" -> publicação por extenso"
+GCB-T123-0026,T123-C05-ab9c5ade,D4-R19,justificativa,D4,2,C05,R77,TEMPLATE,R77,"O guia prático de análise ex post (Casa Civil, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R77","""R77"" -> publicação por extenso"
+GCB-T123-0027,T123-C05-e1e8eced,D4-R19,justificativa,D4,2,C05,R78,TEMPLATE,R78,a mesma publicação,SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R78","""R78"" -> ""a mesma publicação"" (mesma publicação de R77)"
+GCB-T123-0028,T123-C05-fed3b054,D4-R20,justificativa,D4,2,C05,R60,TEMPLATE,R60,"O Referencial Básico de Governança Organizacional (TCU, 2020)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R60","""R60"" -> publicação por extenso"
+GCB-T123-0029,T123-C05-aca703ad,D4-R21,justificativa,D4,2,C05,R66,TEMPLATE,R66,O documento didático da CGU,SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R66","""R66"" -> publicação por extenso"
+GCB-T123-0030,T123-C05-43546f70,D4-R22,justificativa,D4,2,C05,R65,TEMPLATE,R65,O documento didático da CGU,SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R65","""R65"" -> publicação por extenso"
+GCB-T123-0031,T123-C05-2fc1c8e4,D4-R23,justificativa,D4,2,C05,R81,TEMPLATE,R81,"O guia prático de análise ex post (Casa Civil, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R81","""R81"" -> publicação por extenso"
+GCB-T123-0032,T123-C05-dbdc6881,D4-R24,justificativa,D4,2,C05,R62,TEMPLATE,R62,"O Referencial Básico de Governança Organizacional (TCU, 2020)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R62","""R62"" -> publicação por extenso"
+GCB-T123-0033,T123-C05-b98824da,D4-R25,justificativa,D4,2,C05,R76,TEMPLATE,R76,"O guia prático de análise ex post (Casa Civil, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R76","""R76"" -> publicação por extenso"
+GCB-T123-0034,T123-C05-1a625abd,D4-R26,justificativa,D4,2,C05,R67,TEMPLATE,R67,O documento didático da CGU,SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R67","""R67"" -> publicação por extenso"
+GCB-T123-0035,T123-C05-bad45f89,D4-R27,justificativa,D4,2,C05,R80,TEMPLATE,R80,"O guia prático de análise ex post (Casa Civil, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R80","""R80"" -> publicação por extenso"
+GCB-T123-0036,T123-C05-499caedd,D4-R27,justificativa,D4,2,C05,R79,TEMPLATE,R79,a mesma publicação,SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R79","""R79"" -> ""a mesma publicação"" (mesma publicação de R80)"
+GCB-T123-0037,T123-C05-f38e03bb,D4-R28,justificativa,D4,2,C05,R74,TEMPLATE,R74,"O guia prático de análise ex post (Casa Civil, 2018)",SUBSTITUIR,6,"T123_producao_notas_DA.md, fontes, R74","""R74"" -> publicação por extenso"
+GCB-T123-0038,T123-C03-ce894d8f,D1-R02,justificativa,D1,2,C03,alerta P4,TEMPLATE, (alerta P4),,DELETAR,3,,alerta P4; alargado
+GCB-T123-0039,T123-C03-3be8597b,D3-R15,justificativa,D3,2,C03,alerta A2,TEMPLATE,(alerta A2: ,(,SUBSTITUIR,3,,alerta A2; alargado
+GCB-T123-0040,T123-C03-afa303e8,D3-R17,justificativa,D3,2,C03,alertas A2 e A11,TEMPLATE, (alertas A2 e A11),,DELETAR,3,,alertas A2 e A11; alargado
+GCB-T123-0041,T123-C03-5cf81696,D3-R20,justificativa,D3,2,C03,alerta A1,TEMPLATE, (alerta A1),,DELETAR,3,,alerta A1; alargado
+GCB-T123-0042,T123-C03-a682971a;GCB-EXTRA-01,D3-R25,justificativa,D3,3,C03,alerta A7,TEMPLATE,"(pertinência parcial: regime de consumo, alerta A7)",(regime de consumo),SUBSTITUIR,3,,"alerta A7; alargado; absorve GCB-EXTRA-01 (""pertinência parcial"", classificação interna de aderência, categoria C03 por estar no mesmo parêntese do alerta)"
+GCB-T123-0043,T123-C03-1897082d,D3-R26,justificativa,D3,3,C03,alerta A3,TEMPLATE, (alerta A3),,DELETAR,3,,alerta A3; alargado
+GCB-T123-0044,T123-C03-758d75b8,D3-R31,justificativa,D3,3,C03,alerta A5,TEMPLATE,; alerta A5),),SUBSTITUIR,3,,alerta A5; alargado
+GCB-T123-0045,T123-C03-5a80dbad,D3-R32,justificativa,D3,3,C03,alerta A6,TEMPLATE, (alerta A6),,DELETAR,3,,alerta A6; alargado
+GCB-T123-0046,T123-C10-185e03cb;T123-C10-dfffe126;T123-C10-9fa9dfb6;T123-C10-e192cb13;T123-C02-ce547926;T123-C05-3a1e2e6b;T123-C02-2f325a5e;T123-C05-b86dbbe1;T123-C02-b24649f5;T123-C05-a3c00b42,D3-R33,justificativa,D3,3,C02,moldura,TEMPLATE," (C com moldura em par com o E com moldura além da cota da folha: D3-R27, D3-R31 e D3-R35)",,DELETAR,processo,,"remissão a outros itens e termos de produção (2 moldura, cota, folha, 3 ids, 3 sufixos R); alargado"
+GCB-T123-0047,T123-C03-f40c4849,D3-R36,justificativa,D3,3,C03,alerta A8,TEMPLATE,(alerta A8: ,(,SUBSTITUIR,3,,alerta A8; alargado
+GCB-T123-0048,T123-C03-d66fcd33,D3-R37,justificativa,D3,3,C03,alertas A7 e A11,TEMPLATE,(alertas A7 e A11: ,(,SUBSTITUIR,3,,alertas A7 e A11; alargado
+GCB-T123-0049,T123-C03-9c621ba1,D3-R43,justificativa,D3,3,C03,alerta C2,TEMPLATE,: alerta C2),),SUBSTITUIR,3,,alerta C2; alargado
+GCB-T123-0050,T123-C03-ad0b1315,D3-R44,justificativa,D3,3,C03,alertas C1 e C4,TEMPLATE,(alertas C1 e C4: ,(,SUBSTITUIR,3,,alertas C1 e C4; alargado
+GCB-T123-0051,T123-C03-fc6bb317,D3-R46,justificativa,D3,3,C03,alerta C1,TEMPLATE, (alerta C1),,DELETAR,3,,alerta C1; alargado
+GCB-T123-0052,T123-C03-a88bb98f,D3-R49,justificativa,D3,3,C03,alerta C8,TEMPLATE,: alerta C8),),SUBSTITUIR,3,,alerta C8; alargado
+GCB-T123-0053,T123-C03-7b302390,D3-R50,justificativa,D3,3,C03,alerta C7,TEMPLATE,(alerta C7: ,(,SUBSTITUIR,3,,alerta C7; alargado
+GCB-T123-0054,T123-C03-33f94940,D3-R51,justificativa,D3,3,C03,alerta C6,TEMPLATE,(alerta C6: ,(,SUBSTITUIR,3,,alerta C6; alargado
+GCB-T123-0055,T123-C03-6846787a,D3-R52,justificativa,D3,4,C03,alerta C9,TEMPLATE,(alerta C9: ,(,SUBSTITUIR,3,,alerta C9; alargado
+GCB-T123-0056,T123-C03-abce1ae3,D3-R53,justificativa,D3,4,C03,alerta C9,TEMPLATE, (alerta C9),,DELETAR,3,,alerta C9; alargado
+GCB-T123-0057,T123-C03-9b9546ad,D3-R54,justificativa,D3,4,C03,alerta C6,TEMPLATE,(alerta C6: ,(,SUBSTITUIR,3,,alerta C6; alargado
+GCB-T123-0058,T123-C03-09722947,D3-R55,justificativa,D3,4,C03,alerta C8,TEMPLATE,: alerta C8),),SUBSTITUIR,3,,alerta C8; alargado
+GCB-T123-0059,T123-C03-12a5e24a,D3-R56,justificativa,D3,4,C03,alerta C9,TEMPLATE, (alerta C9),,DELETAR,3,,alerta C9; alargado
+GCB-T123-0060,T123-C03-9f5f452d,D3-R57,justificativa,D3,4,C03,alerta C11,TEMPLATE,(alerta C11: ,(,SUBSTITUIR,3,,alerta C11; alargado
+GCB-T123-0061,T123-C03-6f7f8b6b,D3-R58,justificativa,D3,4,C03,alerta C9,TEMPLATE,(alerta C9: ,(,SUBSTITUIR,3,,alerta C9; alargado
+GCB-T123-0062,T123-C03-2d43acd4,D3-R59,justificativa,D3,4,C03,alerta C7,TEMPLATE,(alerta C7: ,(,SUBSTITUIR,3,,alerta C7; alargado
+GCB-T123-0063,T123-C10-f5472ecd,D2-R02,justificativa,D2,4,C10,folha,TEMPLATE,", tema de outro ponto da folha",,DELETAR,processo,,"""folha"" de produção; alargado"
+GCB-T123-0064,T123-C10-8bf7c893,D2-R03,justificativa,D2,4,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0065,T123-C10-98512488,D2-R05,justificativa,D2,4,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0066,T123-C03-5d05d929,D2-R07,justificativa,D2,4,C03,alerta 1,TEMPLATE, (alerta 1),,DELETAR,3,,alerta 1; alargado
+GCB-T123-0067,T123-C10-21529627,D2-R10,justificativa,D2,4,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0068,T123-C02-1642393a;T123-C05-24c6f08b,D2-R25,justificativa,D2,5,C02,D2-R23,TEMPLATE,", objeto do D2-R23",,DELETAR,processo,,remissão ao D2-R23 e sufixo R23; alargado
+GCB-T123-0069,T123-C10-6d75e1d7,D2-R32,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0070,T123-C10-8a6e1550,D2-R35,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0071,T123-C10-1d6a32d8,D2-R37,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0072,T123-C10-8d01763f,D2-R39,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0073,T123-C10-3f9d2dae,D2-R41,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0074,T123-C02-1013d53b,D2-R45,justificativa,D2,5,C02,D2-41,TEMPLATE, (objeto do D2-41),,DELETAR,processo,,remissão ao D2-41; alargado
+GCB-T123-0075,T123-C10-2739f4c7,D2-R47,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0076,T123-C02-de69b81e;T123-C05-8cd2e824,D2-R48,justificativa,D2,5,C02,D2-R50,TEMPLATE,", objeto do D2-R50",,DELETAR,processo,,remissão ao D2-R50 e sufixo R50; alargado
+GCB-T123-0077,T123-C10-f8614742,D2-R50,justificativa,D2,5,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0078,T123-C10-65faf1fe,D2-R54,justificativa,D2,6,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0079,T123-C10-7739e85a,D2-R58,justificativa,D2,6,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0080,T123-C10-50866c31,D2-R65,justificativa,D2,6,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0081,T123-C02-9e4996df,D2-R77,justificativa,D2,6,C02,L5-2,TEMPLATE, (L5-2),,DELETAR,processo,,remissão L5-2; alargado
+GCB-T123-0082,T123-C10-78e30d84,D2-R77,justificativa,D2,6,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0083,T123-C02-f210d216;T123-C05-41059d06,D3-R74,justificativa,D3,7,C02,D3-R53,TEMPLATE,", base do D3-R53",,DELETAR,processo,,remissão ao D3-R53 e sufixo R53; alargado
+GCB-T123-0084,T123-C10-4c45a074,D3-R77,justificativa,D3,7,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0085,T123-C10-818d7149,D3-R85,justificativa,D3,7,C10,moldura,TEMPLATE, A moldura não decide o gabarito.,,DELETAR,processo,,"frase ""A moldura não decide o gabarito."""
+GCB-T123-0086,T123-C05-bda8db34,D4-R31,justificativa,D4,8,C05,"Anexo N do D4, seção 4.3",TEMPLATE,"; Anexo N do D4, seção 4.3",,DELETAR,3,,Anexo N seção 4.3; alargado
+GCB-T123-0087,T123-C05-38b72691,D4-R34,justificativa,D4,8,C05,"Anexo N do D4, seção 4.2",TEMPLATE," (Anexo N do D4, seção 4.2)",,DELETAR,3,,Anexo N seção 4.2; alargado
+GCB-T123-0088,T123-C05-25d05bbf,D4-R35,justificativa,D4,8,C05,"Anexo N do D4, seção 4.2",TEMPLATE,"; Anexo N do D4, seção 4.2",,DELETAR,3,,Anexo N seção 4.2; alargado
+GCB-T123-0089,T123-C05-c6e1aa61,D4-R38,justificativa,D4,8,C05,G9,TEMPLATE," (G9, ii e iii)",,DELETAR,3,,G9; alargado (a frase já nomeia o Guia)
+GCB-T123-0090,T123-C05-cef2c7b7,D4-R43,justificativa,D4,8,C05,"Anexo N do D4, seção 4.1",TEMPLATE," (Anexo N do D4, seção 4.1)",,DELETAR,3,,Anexo N seção 4.1; alargado
+GCB-T123-0091,T123-C05-2b2eff80,D4-R51,justificativa,D4,8,C05,G6,TEMPLATE, (G6),,DELETAR,3,,G6; alargado (a frase já nomeia o Guia)

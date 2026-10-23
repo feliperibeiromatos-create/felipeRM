@@ -1,0 +1,1927 @@
+[
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: sem 'Sempre disponível'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: título 'Prática de Prova' (P maiúsculo)",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: 3 botões Simulados / Discursivas / Lista da véspera (16/01/2027)",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas', 'Lista da véspera (16/01/2027)']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: 3 abas, sem Resumo",
+  "ok": true,
+  "det": "['Painel', 'Erros', 'Recomendações']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: respiro Continuar -> P1 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: respiro P1 -> P2 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: média P1/P2 à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: média da matéria à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: cartão da matéria sem subtítulo/barra",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: Nota Final com até 2 casas",
+  "ok": true,
+  "det": "0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: ordem P2 -> Nota Final -> Prática de Prova",
+  "ok": true,
+  "det": "[661.65625, 967.25, 1123.3125]"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "escolha: aparece na primeira vez, sem 'mudar depois'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "escolha: do zero abre a primeira aula",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'tópicos com conteúdo, na ordem do edital'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'Nota do tópico:'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'no banco'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'praticado'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'curso lido'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'em formação'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'Mudar caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: sem 'Seu caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: nota por tópico em % ao lado do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "matéria: % alinhados na mesma coluna",
+  "ok": true,
+  "det": "{346}"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "escolha: não pergunta de novo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "tópico: 3 opções Curso / Resumo / Questões",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min\nResumo\nQuestões"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "tópico: Curso mostra só o tempo de leitura",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "tópico: Questões sem contagem do banco",
+  "ok": true,
+  "det": "Questões"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "tópico: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "resumo: abre a partir do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "resumo: volta à matéria com o tópico aberto",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "questão: sem 'Errar desconta' nem '(não saiu'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "questão: 'Questão inédita' ou fonte Cebraspe",
+  "ok": true,
+  "det": "Questão inédita"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "atalho C marca CERTO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "atalho E marca ERRADO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "atalho B deixa em branco e segue",
+  "ok": true,
+  "det": "Questões · 1 Estado, governo e Administração Públic… · sem tempo\n2 de 8"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "resultado: sem 'Cada erro custou'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "resultado: bloco desempenho do tópico em %",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: % do tópico mudou depois de responder",
+  "ok": true,
+  "det": "['3%', '0%', '0%', '0%', '0%', '0%']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "painel: média da matéria e Nota Final atualizadas",
+  "ok": true,
+  "det": "0,02"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "atalhos inativos no Painel",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
+  "ok": true,
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n3 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 3 itens\nNoções de Direito Administrativo e Adminis"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "erros: texto antigo ausente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "erros: contagens alinhadas na mesma coluna",
+  "ok": true,
+  "det": "{342}"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "erros: alvo >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "erros: responder item do caderno funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "recomendações: Prática de Prova com P maiúsculo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "simulados: sem 'final ·' nem 'cerca de'",
+  "ok": true,
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens 1 a"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "simulados: 'Simulados anteriores' e sem os textos antigos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "simulados: sem discursivas nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "simulados anteriores: nota ao lado do simulado feito",
+  "ok": true,
+  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "discursivas: tela própria 'Discursivas'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "discursivas: sem simulados nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "discursiva: teclas C/E/B digitam no campo de texto, sem atalho",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "discursiva: correção funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "discursivas: 'Discursivas anteriores' com a entregue",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "véspera: lista abre",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: 3 matérias com conteúdo",
+  "ok": true,
+  "det": "['cd26-c11/p1/adm', 'cd26-c11/p1/ti', 'cd26-c11/p2/fala']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: diagnóstico TI abre com 30 itens",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: diagnóstico corrigido",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: curso P1-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: curso P2-1.1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: curso P1-DA-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "regressão: exportar erros presente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "sem erros de JS",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: sem 'Sempre disponível'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: título 'Prática de Prova' (P maiúsculo)",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: 3 botões Simulados / Discursivas / Lista da véspera (16/01/2027)",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas', 'Lista da véspera (16/01/2027)']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: 3 abas, sem Resumo",
+  "ok": true,
+  "det": "['Painel', 'Erros', 'Recomendações']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: respiro Continuar -> P1 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: respiro P1 -> P2 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: média P1/P2 à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: média da matéria à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: cartão da matéria sem subtítulo/barra",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: Nota Final com até 2 casas",
+  "ok": true,
+  "det": "0"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: ordem P2 -> Nota Final -> Prática de Prova",
+  "ok": true,
+  "det": "[661.65625, 967.25, 1123.3125]"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "escolha: aparece na primeira vez, sem 'mudar depois'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "escolha: do zero abre a primeira aula",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'tópicos com conteúdo, na ordem do edital'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'Nota do tópico:'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'no banco'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'praticado'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'curso lido'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'em formação'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'Mudar caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: sem 'Seu caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: nota por tópico em % ao lado do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "matéria: % alinhados na mesma coluna",
+  "ok": true,
+  "det": "{346}"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "escolha: não pergunta de novo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "tópico: 3 opções Curso / Resumo / Questões",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min\nResumo\nQuestões"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "tópico: Curso mostra só o tempo de leitura",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "tópico: Questões sem contagem do banco",
+  "ok": true,
+  "det": "Questões"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "tópico: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "resumo: abre a partir do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "resumo: volta à matéria com o tópico aberto",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "questão: sem 'Errar desconta' nem '(não saiu'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "questão: 'Questão inédita' ou fonte Cebraspe",
+  "ok": true,
+  "det": "Questão inédita"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "atalho C marca CERTO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "atalho E marca ERRADO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "atalho B deixa em branco e segue",
+  "ok": true,
+  "det": "Questões · 1 Estado, governo e Administração Públic… · sem tempo\n2 de 8"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "resultado: sem 'Cada erro custou'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "resultado: bloco desempenho do tópico em %",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: % do tópico mudou depois de responder",
+  "ok": true,
+  "det": "['10%', '0%', '0%', '0%', '0%', '0%']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "painel: média da matéria e Nota Final atualizadas",
+  "ok": true,
+  "det": "0,05"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "atalhos inativos no Painel",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
+  "ok": true,
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\nErros\n\n2 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 2 itens\nNoções de Direito Administrativo e Adminis"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "erros: texto antigo ausente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "erros: contagens alinhadas na mesma coluna",
+  "ok": true,
+  "det": "{342}"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "erros: alvo >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "erros: responder item do caderno funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "recomendações: Prática de Prova com P maiúsculo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "simulados: sem 'final ·' nem 'cerca de'",
+  "ok": true,
+  "det": "Câmara 2026 · Reg. e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens 1 a"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "simulados: 'Simulados anteriores' e sem os textos antigos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "simulados: sem discursivas nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "simulados anteriores: nota ao lado do simulado feito",
+  "ok": true,
+  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "discursivas: tela própria 'Discursivas'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "discursivas: sem simulados nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "discursiva: teclas C/E/B digitam no campo de texto, sem atalho",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "discursiva: correção funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "discursivas: 'Discursivas anteriores' com a entregue",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "véspera: lista abre",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: 3 matérias com conteúdo",
+  "ok": true,
+  "det": "['cd26-c11/p1/adm', 'cd26-c11/p1/ti', 'cd26-c11/p2/fala']"
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: diagnóstico TI abre com 30 itens",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: diagnóstico corrigido",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: curso P1-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: curso P2-1.1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: curso P1-DA-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "regressão: exportar erros presente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "dark",
+  "teste": "sem erros de JS",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: sem 'Sempre disponível'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: título 'Prática de Prova' (P maiúsculo)",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: 3 botões Simulados / Discursivas / Lista da véspera (16/01/2027)",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas', 'Lista da véspera (16/01/2027)']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: 3 abas, sem Resumo",
+  "ok": true,
+  "det": "['Painel', 'Erros', 'Recomendações']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: respiro Continuar -> P1 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: respiro P1 -> P2 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: média P1/P2 à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: média da matéria à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: cartão da matéria sem subtítulo/barra",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: Nota Final com até 2 casas",
+  "ok": true,
+  "det": "0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: ordem P2 -> Nota Final -> Prática de Prova",
+  "ok": true,
+  "det": "[615.46875, 870.46875, 1008.34375]"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "escolha: aparece na primeira vez, sem 'mudar depois'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "escolha: do zero abre a primeira aula",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'tópicos com conteúdo, na ordem do edital'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'Nota do tópico:'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'no banco'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'praticado'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'curso lido'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'em formação'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'Mudar caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: sem 'Seu caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: nota por tópico em % ao lado do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "matéria: % alinhados na mesma coluna",
+  "ok": true,
+  "det": "{874}"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "escolha: não pergunta de novo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "tópico: 3 opções Curso / Resumo / Questões",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min\nResumo\nQuestões"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "tópico: Curso mostra só o tempo de leitura",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "tópico: Questões sem contagem do banco",
+  "ok": true,
+  "det": "Questões"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "tópico: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "resumo: abre a partir do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "resumo: volta à matéria com o tópico aberto",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "questão: sem 'Errar desconta' nem '(não saiu'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "questão: 'Questão inédita' ou fonte Cebraspe",
+  "ok": true,
+  "det": "Questão inédita"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "atalho C marca CERTO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "atalho E marca ERRADO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "atalho B deixa em branco e segue",
+  "ok": true,
+  "det": "Questões · 1 Estado, governo e Administração Públic… · sem tempo\n2 de 8"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "resultado: sem 'Cada erro custou'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "resultado: bloco desempenho do tópico em %",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: % do tópico mudou depois de responder",
+  "ok": true,
+  "det": "['17%', '0%', '0%', '0%', '0%', '0%']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "painel: média da matéria e Nota Final atualizadas",
+  "ok": true,
+  "det": "0,08"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "atalhos inativos no Painel",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
+  "ok": true,
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n1 item para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar este item\nNoções de Direito Administrativo e Admin"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "erros: texto antigo ausente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "erros: contagens alinhadas na mesma coluna",
+  "ok": true,
+  "det": "{872}"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "erros: alvo >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "erros: responder item do caderno funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "recomendações: Prática de Prova com P maiúsculo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "simulados: sem 'final ·' nem 'cerca de'",
+  "ok": true,
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "simulados: 'Simulados anteriores' e sem os textos antigos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "simulados: sem discursivas nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "simulados anteriores: nota ao lado do simulado feito",
+  "ok": true,
+  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "discursivas: tela própria 'Discursivas'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "discursivas: sem simulados nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "discursiva: teclas C/E/B digitam no campo de texto, sem atalho",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "discursiva: correção funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "discursivas: 'Discursivas anteriores' com a entregue",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "véspera: lista abre",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: 3 matérias com conteúdo",
+  "ok": true,
+  "det": "['cd26-c11/p1/adm', 'cd26-c11/p1/ti', 'cd26-c11/p2/fala']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: diagnóstico TI abre com 30 itens",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: diagnóstico corrigido",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: curso P1-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: curso P2-1.1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: curso P1-DA-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "regressão: exportar erros presente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "light",
+  "teste": "sem erros de JS",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: sem 'Sempre disponível'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: título 'Prática de Prova' (P maiúsculo)",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: 3 botões Simulados / Discursivas / Lista da véspera (16/01/2027)",
+  "ok": true,
+  "det": "['Simulados', 'Discursivas', 'Lista da véspera (16/01/2027)']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: 3 abas, sem Resumo",
+  "ok": true,
+  "det": "['Painel', 'Erros', 'Recomendações']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: respiro Continuar -> P1 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: respiro P1 -> P2 >= 36px",
+  "ok": true,
+  "det": "44.0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: média P1/P2 à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: média da matéria à direita do título",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: cartão da matéria sem subtítulo/barra",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: Nota Final com até 2 casas",
+  "ok": true,
+  "det": "0"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: ordem P2 -> Nota Final -> Prática de Prova",
+  "ok": true,
+  "det": "[615.46875, 870.46875, 1008.34375]"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "escolha: aparece na primeira vez, sem 'mudar depois'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "escolha: do zero abre a primeira aula",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'tópicos com conteúdo, na ordem do edital'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'Nota do tópico:'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'no banco'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'praticado'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'curso lido'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'em formação'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'Mudar caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: sem 'Seu caminho'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: nota por tópico em % ao lado do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "matéria: % alinhados na mesma coluna",
+  "ok": true,
+  "det": "{874}"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "escolha: não pergunta de novo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "tópico: 3 opções Curso / Resumo / Questões",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min\nResumo\nQuestões"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "tópico: Curso mostra só o tempo de leitura",
+  "ok": true,
+  "det": "Curso\ncerca de 4 min"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "tópico: Questões sem contagem do banco",
+  "ok": true,
+  "det": "Questões"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "tópico: alvos >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "resumo: abre a partir do tópico",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "resumo: volta à matéria com o tópico aberto",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "questão: sem 'Errar desconta' nem '(não saiu'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "questão: 'Questão inédita' ou fonte Cebraspe",
+  "ok": true,
+  "det": "Questão inédita"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "atalho C marca CERTO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "atalho E marca ERRADO",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "atalho B deixa em branco e segue",
+  "ok": true,
+  "det": "Questões · 1 Estado, governo e Administração Públic… · sem tempo\n2 de 8"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "resultado: sem 'Cada erro custou'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "resultado: bloco desempenho do tópico em %",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: % do tópico mudou depois de responder",
+  "ok": true,
+  "det": "['−10%', '0%', '0%', '0%', '0%', '0%']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "painel: média da matéria e Nota Final atualizadas",
+  "ok": true,
+  "det": "-0,05"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "atalhos inativos no Painel",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "erros: texto novo 'Cada erro só sai depois de dois acertos seguidos.'",
+  "ok": true,
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\nErros\n\n5 itens para revisar, por matéria e tópico. Cada erro só sai depois de dois acertos seguidos.\n\nRevisar os 5 itens\nNoções de Direito Administrativo e Adm"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "erros: texto antigo ausente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "erros: contagens alinhadas na mesma coluna",
+  "ok": true,
+  "det": "{872}"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "erros: alvo >= 44px",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "erros: responder item do caderno funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "recomendações: Prática de Prova com P maiúsculo",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "simulados: sem 'final ·' nem 'cerca de'",
+  "ok": true,
+  "det": "Câmara 2026 · Registro e Redação\n86 dias\n\n← Painel\n\nSimulados\n\nItens no formato da prova: marque C ou E. Certo +1, errado −1, em branco 0 (edital 8.11.2).\n\nSimulados finais\nSimulado 1 — P1 final (TI e Dados, itens 5 a 8)\n40 itens\nSimulado 2 — P2 final (Reconhecimento de Fala, Transcrição e IA, itens"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "simulados: 'Simulados anteriores' e sem os textos antigos",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "simulados: sem discursivas nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "simulados anteriores: nota ao lado do simulado feito",
+  "ok": true,
+  "det": "Simulados anteriores\nSimulado 0 — diagnóstico\n60 itens\nSimulado 0-P2 — P2 diagnóstico (Reconhecimento de Fala, Transcrição e IA, itens 1 a 4)\nnota -2/25"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "discursivas: tela própria 'Discursivas'",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "discursivas: sem simulados nesta tela",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "discursiva: teclas C/E/B digitam no campo de texto, sem atalho",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "discursiva: correção funciona",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "discursivas: 'Discursivas anteriores' com a entregue",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "véspera: lista abre",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: 3 matérias com conteúdo",
+  "ok": true,
+  "det": "['cd26-c11/p1/adm', 'cd26-c11/p1/ti', 'cd26-c11/p2/fala']"
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: diagnóstico TI abre com 30 itens",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: diagnóstico corrigido",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: curso P1-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: curso P2-1.1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: curso P1-DA-1 renderiza",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "regressão: exportar erros presente",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "1280x900",
+  "tema": "dark",
+  "teste": "sem erros de JS",
+  "ok": true,
+  "det": "[]"
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.escolha preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.escolhaDisc preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.tentativas preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.erros preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.saidas preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.resp preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.top preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.disc preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: K_S.vespera preservado",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: eventos preservados (+migracao_v17)",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: matéria já escolhida (DA) abre sem perguntar",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: diagnóstico pendente de DA aparece na matéria",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "migração: matéria ainda não escolhida (TI) pergunta uma vez",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "véspera: constante de data 16/01/2027",
+  "ok": true,
+  "det": ""
+ },
+ {
+  "vp": "390x844",
+  "tema": "light",
+  "teste": "versão: VERSAO_APP v17 e meta preenchida",
+  "ok": true,
+  "det": ""
+ }
+]

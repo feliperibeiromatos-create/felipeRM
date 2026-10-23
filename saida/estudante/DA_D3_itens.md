@@ -145,3 +145,183 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **D3-80** — A Lei nº 8.429/1992 aplica-se, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade.
 
 **D3-81** — Considere que pessoa jurídica de direito público interno tenha de indenizar terceiro por dano que um agente seu, nessa qualidade, lhe causou. Nessa situação, o direito regressivo contra o agente, previsto no art. 43 do Código Civil, depende de ter havido, por parte deste, culpa ou dolo.
+
+## Itens de reforço
+
+**D3-R01** — Nos termos do art. 927, caput, do Código Civil, aquele que, por ato ilícito de que tratam os arts. 186 e 187, causar dano a outrem fica obrigado a repará-lo.
+
+**D3-R02** — Considere que servidor de órgão do Poder Legislativo da União, voluntariamente, deixe de adotar providência que lhe cabia e, com isso, viole direito de particular e lhe cause dano. Nessa situação, nos termos do art. 186 do Código Civil, a omissão voluntária não configura ato ilícito.
+
+**D3-R03** — Considere que órgão do Poder Legislativo da União contrate serviço contínuo com regime de dedicação exclusiva de mão de obra. Nessa situação, nos termos da Lei nº 14.133/2021, a Administração responderá pelos encargos previdenciários e trabalhistas resultantes da execução do contrato se comprovada falha na fiscalização do cumprimento das obrigações do contratado.
+
+**D3-R04** — Considere que determinado órgão público, por si ou por suas empresas, descumpra, total ou parcialmente, a obrigação de fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos. Nessa situação, nos termos do art. 22 do Código de Defesa do Consumidor, serão as pessoas jurídicas compelidas a cumprir essa obrigação e a reparar os danos causados.
+
+**D3-R05** — Nos termos do art. 186 do Código Civil, aquele que, por negligência ou imprudência, violar direito e causar dano a outrem comete ato ilícito.
+
+**D3-R06** — Nos termos da Lei nº 8.112/1990, a responsabilidade civil-administrativa do servidor resulta de ato omissivo ou comissivo praticado fora do desempenho do cargo ou função.
+
+**D3-R07** — Considere que órgão do Poder Legislativo da União contrate serviço contínuo sem regime de dedicação exclusiva de mão de obra e que se comprove falha na fiscalização do cumprimento das obrigações do contratado. Nessa situação, nos termos da Lei nº 14.133/2021, a Administração responderá pelos encargos trabalhistas resultantes da execução do contrato.
+
+**D3-R08** — Nos termos da Lei nº 6.938/1981, a obrigação do poluidor de indenizar ou reparar os danos causados ao meio ambiente e a terceiros afetados por sua atividade depende da existência de culpa.
+
+**D3-R09** — Nos termos da Lei nº 8.112/1990, a responsabilidade civil do servidor decorre de ato doloso ou culposo que resulte em prejuízo ao erário ou a terceiros.
+
+**D3-R10** — Considere que determinada pessoa jurídica de direito público seja responsável, direta ou indiretamente, por atividade causadora de degradação ambiental. Nessa situação, nos termos da Lei nº 6.938/1981, essa pessoa jurídica se enquadra no conceito de poluidor.
+
+**D3-R11** — Considere que órgão do Poder Legislativo da União contrate serviço contínuo com regime de dedicação exclusiva de mão de obra e que se comprove falha na fiscalização do cumprimento das obrigações do contratado. Nessa situação, nos termos da Lei nº 14.133/2021, a Administração responderá subsidiariamente pelos encargos previdenciários e solidariamente pelos encargos trabalhistas.
+
+**D3-R12** — Nos termos da Lei nº 8.112/1990, a responsabilidade civil do servidor decorre de ato omissivo ou comissivo.
+
+**D3-R13** — Nos termos do art. 22 do Código de Defesa do Consumidor, os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos.
+
+**D3-R14** — Nos termos da Lei nº 8.987/1995, incumbe à concessionária a execução do serviço concedido, cabendo-lhe responder por todos os prejuízos causados ao poder concedente, aos usuários ou a terceiros.
+
+**D3-R15** — Nos termos do art. 186 do Código Civil, o ato ilícito configura-se ainda que o dano causado a outrem seja exclusivamente moral.
+
+**D3-R16** — Considere que servidor de órgão do Poder Legislativo da União, ao ser alvo de agravo divulgado em meio de comunicação, busque a proteção prevista no art. 5º, V, da Constituição Federal. Nessa situação, além do direito de resposta proporcional ao agravo, é assegurada a indenização por dano material ou moral, mas não por dano à imagem.
+
+**D3-R17** — Considere que determinada empresa desenvolva, normalmente, atividade que implique, por sua natureza, risco para os direitos de outrem e que dessa atividade resulte dano a terceiro. Nessa situação, nos termos do art. 927, parágrafo único, do Código Civil, haverá obrigação de reparar o dano, independentemente de culpa.
+
+**D3-R18** — Considere que servidor público civil da União lotado em órgão do Poder Legislativo da União tenha causado dano ao erário e, posteriormente, tenha falecido. Nessa situação, a obrigação de reparar o dano estende-se aos sucessores, que respondem sem limite de valor, conforme a Lei nº 8.112/1990.
+
+**D3-R19** — Considere que servidor de órgão do Poder Legislativo da União tenha sofrido dano causado por particular e pretenda ser indenizado. Nessa situação, nos termos do art. 944, caput, do Código Civil, a indenização mede-se pela gravidade da culpa do particular.
+
+**D3-R20** — Considere que servidor público civil da União lotado em órgão do Poder Legislativo da União, agindo com culpa no exercício de suas atribuições, tenha causado dano a terceiros. Nessa situação, ele responderá perante a Fazenda Pública, em ação regressiva, conforme a Lei nº 8.112/1990.
+
+**D3-R21** — Nos termos do art. 5º, X, da Constituição Federal, é assegurado o direito a indenização pelo dano material ou moral decorrente da violação da intimidade, da vida privada, da honra e da imagem das pessoas.
+
+**D3-R22** — Nos termos do Decreto nº 20.910/1932, todo e qualquer direito ou ação contra a Fazenda federal, estadual ou municipal, seja qual for a sua natureza, prescreve em cinco anos contados da data do ato ou fato do qual se originar.
+
+**D3-R23** — Nos termos da Lei nº 4.619/1965, considera-se funcionário, para os efeitos dessa lei, apenas a pessoa investida em cargo efetivo na esfera administrativa.
+
+**D3-R24** — Segundo a Lei nº 4.619/1965, o prazo para ajuizamento da ação regressiva será de noventa dias a partir da data em que transitar em julgado a condenação imposta à Fazenda.
+
+**D3-R25** — Considere que determinado fornecedor de serviços de hospedagem tenha prestado serviço com defeito e que o defeito tenha causado dano a consumidor. Nessa situação, o fornecedor responde pela reparação do dano, independentemente da existência de culpa, conforme o art. 14, caput, do Código de Defesa do Consumidor.
+
+**D3-R26** — De acordo com o Código Civil, o caso fortuito ou de força maior verifica-se no fato necessário, cujos efeitos não era possível evitar ou impedir.
+
+**D3-R27** — Considere que servidor de órgão do Poder Legislativo da União tenha concorrido culposamente para o evento danoso de que foi vítima. Nessa situação, nos termos do art. 945 do Código Civil, a indenização será fixada sem se levar em conta a gravidade da culpa do servidor em confronto com a do autor do dano.
+
+**D3-R28** — Considere que determinada concessionária de serviço público cause prejuízos a usuários do serviço concedido, embora a execução desse serviço seja fiscalizada pelo órgão competente. Nessa situação, a fiscalização exercida pelo órgão competente não exclui nem atenua a responsabilidade da concessionária, conforme a Lei nº 8.987/1995.
+
+**D3-R29** — Nos termos do art. 930 do Código Civil, no caso do inciso II do art. 188, se o perigo ocorrer por culpa de terceiro, o autor do dano terá contra este ação regressiva para haver a importância que tiver ressarcido ao lesado.
+
+**D3-R30** — De acordo com o Código Civil, a responsabilidade civil é independente da criminal, podendo-se questionar, no juízo cível, a existência do fato e quem seja o seu autor, ainda que essas questões estejam decididas no juízo criminal.
+
+**D3-R31** — Considere que servidor de órgão do Poder Legislativo da União tenha praticado irregularidade no exercício do cargo e que lhe tenha sido aplicada sanção administrativa. Nessa situação, a sanção administrativa afasta a aplicação de sanção civil pelo mesmo fato, conforme a Lei nº 8.112/1990.
+
+**D3-R32** — De acordo com a Constituição Federal, a responsabilidade civil por danos nucleares independe da existência de culpa.
+
+**D3-R33** — Considere que servidor de órgão do Poder Legislativo da União, para remover perigo iminente, deteriore coisa alheia. Nessa situação, nos termos do parágrafo único do art. 188 do Código Civil, o ato será legítimo somente quando as circunstâncias o tornarem absolutamente necessário, não excedendo os limites do indispensável para a remoção do perigo.
+
+**D3-R34** — Nos termos do Código Civil, havendo excessiva desproporção entre a gravidade da culpa e o dano, o juiz poderá reduzir, equitativamente, a indenização.
+
+**D3-R35** — Considere que, ao agir para remover perigo iminente, servidor de órgão do Poder Legislativo da União tenha causado lesão a terceiro. Nessa situação, conforme o art. 929 do Código Civil, o lesado que não for culpado do perigo só terá direito à indenização do prejuízo se provar a culpa do servidor.
+
+**D3-R36** — Considere que funcionário tenha cessado, por exoneração, o exercício da função pública em que causou lesão à Fazenda. Nessa situação, nos termos da Lei nº 4.619/1965, a cessação do exercício da função pública não o exclui da responsabilidade perante a Fazenda.
+
+**D3-R37** — Segundo o Código de Defesa do Consumidor, o fornecedor de serviços não será responsabilizado quando provar a culpa concorrente do consumidor ou de terceiro.
+
+**D3-R38** — Segundo a Constituição Federal, o habeas corpus será concedido a quem sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção somente por ilegalidade.
+
+**D3-R39** — De acordo com a Constituição Federal, conceder-se-á mandado de segurança para proteger direito líquido e certo quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.
+
+**D3-R40** — Considere que particular pretenda peticionar aos Poderes Públicos contra abuso de poder. Nessa situação, a Constituição Federal (art. 5º, XXXIV, a) assegura o direito de petição mediante o pagamento de taxas.
+
+**D3-R41** — Segundo a Constituição Federal, o mandado de segurança é concedido para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data.
+
+**D3-R42** — Considere que servidor público federal tenha ciência de abuso de poder praticado por autoridade de sua repartição. Nessa situação, é dever do servidor representar contra o abuso de poder, conforme a Lei nº 8.112/1990.
+
+**D3-R43** — Nos termos da Lei nº 12.016/2009, concede-se mandado de segurança para proteger direito líquido e certo somente quando a pessoa, ilegalmente ou com abuso de poder, já tiver sofrido violação por parte de autoridade.
+
+**D3-R44** — Considere que, durante sessão de comissão da Câmara dos Deputados, seja debatido o rol de sujeitos ativos do crime de abuso de autoridade. Nessa situação, segundo a Lei nº 13.869/2019, a enumeração dos agentes públicos considerados sujeitos ativos desse crime, na qual se incluem os membros do Poder Legislativo, é exaustiva.
+
+**D3-R45** — Nos termos da Lei nº 12.016/2009, o mandado de segurança é cabível contra violação ilegal ou abusiva de direito líquido e certo, ou justo receio dela, por parte de autoridade, seja de que categoria for e sejam quais forem as funções que exerça.
+
+**D3-R46** — Considere que dois agentes públicos adotem interpretações divergentes de uma mesma lei ou avaliem de modo diverso os mesmos fatos e provas. Nessa situação, a divergência não configura abuso de autoridade, conforme a Lei nº 13.869/2019.
+
+**D3-R47** — Segundo a Lei nº 12.016/2009, os dirigentes de pessoas jurídicas e as pessoas naturais no exercício de atribuições do poder público equiparam-se às autoridades, para os efeitos dessa lei, somente no que disser respeito a essas atribuições.
+
+**D3-R48** — Segundo a Lei nº 8.112/1990, a representação contra ilegalidade, omissão ou abuso de poder é apreciada pela própria autoridade contra a qual é formulada.
+
+**D3-R49** — Segundo a Lei nº 9.494/1997, o direito de obter indenização dos danos causados por agentes de pessoas jurídicas de direito público prescreve em cinco anos, prazo que não alcança os danos causados por agentes de pessoas jurídicas de direito privado prestadoras de serviços públicos.
+
+**D3-R50** — Considere que determinado condenado tenha ficado preso além do tempo fixado na sentença. Nessa situação, segundo o art. 5º, LXXV, da Constituição Federal, a indenização pelo Estado depende de que a condenação tenha decorrido de erro judiciário.
+
+**D3-R51** — Nos termos do Decreto nº 9.830/2019, no âmbito do Poder Executivo federal, o direito de regresso previsto no § 6º do art. 37 da Constituição Federal é exercido com observância aos princípios constitucionais da proporcionalidade e da razoabilidade.
+
+**D3-R52** — Segundo o Código Civil, são também responsáveis pela reparação civil o empregador ou comitente, por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir, ou em razão dele.
+
+**D3-R53** — Considere que a União pretenda desapropriar imóvel particular por utilidade pública. Nessa situação, nos termos do art. 5º, XXIV, da Constituição Federal, a desapropriação far-se-á mediante justa e prévia indenização em dinheiro, ressalvados os casos previstos na própria Constituição.
+
+**D3-R54** — Segundo o Decreto nº 9.830/2019, no âmbito do Poder Executivo federal, o direito de regresso previsto no § 6º do art. 37 da Constituição Federal será exercido na hipótese de o agente público ter agido com dolo ou culpa em suas decisões ou opiniões técnicas.
+
+**D3-R55** — Segundo a Lei nº 9.494/1997, prescreve em cinco anos o direito de obter indenização dos danos causados por agentes de pessoas jurídicas de direito público.
+
+**D3-R56** — Considere que determinada pessoa tenha sofrido lesão à saúde em decorrência de ofensa praticada por outrem. Nessa situação, o ofensor indenizará o ofendido das despesas do tratamento e dos lucros cessantes até ao fim da convalescença, além de algum outro prejuízo que o ofendido prove haver sofrido, conforme o art. 949 do Código Civil.
+
+**D3-R57** — Nos termos da Lei nº 13.869/2019, a condenação por crime de abuso de autoridade torna certa a obrigação de indenizar o dano causado pelo crime, devendo o juiz fixar na sentença, de ofício, o valor mínimo para reparação dos danos causados pela infração.
+
+**D3-R58** — Segundo o Código Civil, se a ofensa tiver mais de um autor, cada um deles responde pela reparação na proporção de sua participação no dano.
+
+**D3-R59** — Nos termos do art. 5º, LXXV, da Constituição Federal, o Estado indenizará o condenado por erro judiciário.
+
+**D3-R60** — Considere que determinada autoridade administrativa federal pretenda delegar a outro órgão matéria que se inclui em sua competência exclusiva. Nessa situação, a Lei nº 9.784/1999 estabelece que a matéria de competência exclusiva da autoridade não pode ser objeto de delegação.
+
+**D3-R61** — Segundo a Lei nº 9.784/1999, a edição de atos de caráter normativo pode ser objeto de delegação por parte de órgão administrativo ou de seu titular.
+
+**D3-R62** — De acordo com a Lei nº 9.784/1999, o ato de delegação de competência e a sua revogação deverão ser publicados no meio oficial.
+
+**D3-R63** — Considere que uma autoridade administrativa federal vá editar ato de delegação de competência. Nessa situação, conforme a Lei nº 9.784/1999, o ato deverá especificar, entre outros elementos, a duração e os objetivos da delegação e o recurso cabível.
+
+**D3-R64** — De acordo com a Lei nº 9.784/1999, inexistindo competência legal específica, o processo administrativo deverá ser iniciado perante a autoridade de maior grau hierárquico para decidir.
+
+**D3-R65** — Considere que haja a intenção de extinguir, mediante decreto presidencial, cargos públicos federais que se encontram ocupados. Nessa situação, nos termos do art. 84, VI, b, da Constituição Federal, o Presidente da República pode dispor sobre essa extinção.
+
+**D3-R66** — Nos termos do parágrafo único do art. 84 da Constituição Federal, o Presidente da República pode delegar algumas de suas atribuições a Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações.
+
+**D3-R67** — De acordo com o parágrafo único do art. 84 da Constituição Federal, figura entre as atribuições do Presidente da República passíveis de delegação a Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União a de expedir decretos e regulamentos para a fiel execução das leis.
+
+**D3-R68** — De acordo com a Constituição Federal, compete privativamente aos Ministros de Estado exercer a direção superior da administração federal.
+
+**D3-R69** — De acordo com a Constituição Federal, compete ao Ministro de Estado, além de outras atribuições estabelecidas na Constituição e na lei, expedir instruções para a execução das leis, decretos e regulamentos.
+
+**D3-R70** — De acordo com o Código Civil, as autarquias, inclusive as associações públicas, são pessoas jurídicas de direito público interno.
+
+**D3-R71** — Considere que o decreto que instituiu o estado de defesa tenha indicado, como medida coercitiva, a ocupação e o uso temporário de bens e serviços públicos, na hipótese de calamidade pública. Nessa situação, segundo a Constituição Federal, a União responde pelos danos e custos decorrentes dessa medida.
+
+**D3-R72** — De acordo com o Código Civil, os Estados estrangeiros e todas as pessoas regidas pelo direito internacional público são pessoas jurídicas de direito público interno.
+
+**D3-R73** — Considere que a Fazenda Nacional tenha sido condenada judicialmente a reparar lesão de direito causada a terceiro por funcionário declarado culpado. Nessa situação, os Procuradores da República são obrigados a propor a competente ação regressiva contra esse funcionário, segundo a Lei nº 4.619/1965.
+
+**D3-R74** — Segundo a Constituição Federal, em caso de iminente perigo público, a autoridade competente pode usar propriedade particular, hipótese em que a indenização ao proprietário, se houver dano, deve ser prévia.
+
+**D3-R75** — Segundo a Lei nº 4.619/1965, a liquidação do que for devido pelo funcionário estável à Fazenda Nacional poderá ser feita mediante desconto em folha de pagamento, o qual não excederá um terço da importância de seu vencimento ou remuneração.
+
+**D3-R76** — De acordo com o Decreto nº 20.910/1932, o direito à reclamação administrativa que não tenha prazo fixado em lei para ser formulada prescreve em um ano, contado da data do ato ou fato do qual a reclamação se originar.
+
+**D3-R77** — Considere que particular tenha requerido a órgão do Poder Legislativo da União o pagamento de dívida considerada líquida e que as repartições ou funcionários encarregados de estudar e apurar essa dívida demorem no estudo ou no pagamento. Nessa situação, nos termos do Decreto nº 20.910/1932, a prescrição continua a correr durante essa demora.
+
+**D3-R78** — Segundo a Lei nº 4.619/1965, a competência para iniciar a ação regressiva cabe ao Procurador lotado no Estado em que haja corrido o processo judicial cuja decisão contra a Fazenda haja transitado em julgado.
+
+**D3-R79** — Segundo o Decreto nº 20.910/1932, a prescrição somente poderá ser interrompida uma vez.
+
+**D3-R80** — Para os efeitos da Lei nº 8.429/1992, é agente público o agente político, o servidor público e todo aquele que exerce mandato, cargo, emprego ou função nas entidades referidas em seu art. 1º, por qualquer forma de investidura ou vínculo, desde que mediante remuneração.
+
+**D3-R81** — Considere que determinada pessoa tenha causado dano ao erário e falecido, deixando herdeiro. Nessa situação, segundo a Lei nº 8.429/1992, o herdeiro está sujeito à obrigação de reparar o dano até o limite do valor da herança, sujeitando-se também à multa civil.
+
+**D3-R82** — De acordo com a Lei nº 8.429/1992, as sanções previstas no art. 12 somente poderão ser executadas após o trânsito em julgado da sentença condenatória, ressalvada a multa civil, que pode ser executada desde a prolação da sentença.
+
+**D3-R83** — Segundo a Lei nº 8.429/1992, considera-se dolo a vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11 da lei, não bastando a voluntariedade do agente.
+
+**D3-R84** — De acordo com a Lei nº 8.429/1992, o agente público que se recusar a prestar a declaração de bens dentro do prazo determinado, ou que prestar declaração falsa, será apenado com a pena de suspensão, sem prejuízo de outras sanções cabíveis.
+
+**D3-R85** — Considere que o gestor de órgão do Poder Legislativo da União tenha tido as contas aprovadas pelo Tribunal de Contas. Nessa situação, conforme a Lei nº 8.429/1992, a aprovação das contas impede a aplicação ao gestor das sanções por ato de improbidade administrativa previstas nessa lei.
+
+**D3-R86** — Considere que determinada autoridade administrativa tome conhecimento de fatos que indiquem a prática de ato de improbidade administrativa. Nessa situação, nos termos da Lei nº 8.429/1992, a autoridade representará ao Ministério Público competente, para as providências necessárias.
+
+**D3-R87** — De acordo com a Lei nº 8.429/1992, a instauração de inquérito civil ou de processo administrativo para apuração dos ilícitos referidos na lei interrompe o curso do prazo prescricional por, no máximo, cento e oitenta dias corridos.
+
+**D3-R88** — Segundo a Lei nº 8.429/1992, o afastamento do agente público do exercício do cargo, do emprego ou da função, determinado pela autoridade judicial, será de até noventa dias, prorrogáveis uma única vez por igual prazo, mediante decisão motivada.
+
+**D3-R89** — Considere que determinada pessoa jurídica responda por ato de improbidade administrativa que seja também sancionado como ato lesivo à administração pública, de que trata a Lei nº 12.846/2013. Nessa situação, segundo a Lei nº 8.429/1992, as sanções dessa lei não se aplicarão à pessoa jurídica.

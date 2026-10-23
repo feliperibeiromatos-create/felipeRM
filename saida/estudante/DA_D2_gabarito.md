@@ -403,3 +403,405 @@
 
 - Item do edital: P1-DA-4.4
 - Justificativa: O art. 38, § 2º, permite recusar as provas propostas pelos interessados, mediante decisão fundamentada, somente quando ilícitas, impertinentes, desnecessárias ou protelatórias. O segmento final é falso: das decisões administrativas cabe recurso (art. 56, caput), e a recusa fundamentada de provas não suprime esse direito.
+
+## Itens de reforço
+
+### D2-R01 — Gabarito: C
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, XVII, da Constituição Federal dispõe que a proibição de acumular estende-se a empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e sociedades controladas, direta ou indiretamente, pelo poder público. O item reproduz o alcance subjetivo da proibição; a tentação é supor que ela se limite aos cargos da administração direta, ou estranhar a menção às subsidiárias e às sociedades controladas indiretamente.
+
+### D2-R02 — Gabarito: C
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, IV, da Constituição Federal dispõe que, durante o prazo improrrogável previsto no edital de convocação, o aprovado em concurso público de provas ou de provas e títulos será convocado com prioridade sobre novos concursados para assumir cargo ou emprego, na carreira. O item aplica a regra de prioridade ao candidato que está no prazo do edital; a tentação é confundi-la com a validade do concurso e a sua prorrogação (inciso III).
+
+### D2-R03 — Gabarito: E
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 38, I, da Constituição Federal dispõe que o servidor da administração direta, autárquica e fundacional, no exercício de mandato eletivo federal, estadual ou distrital, ficará afastado de seu cargo, emprego ou função. O item troca o afastamento do inciso I pelo regime do inciso III (vantagens do cargo, havendo compatibilidade de horários, sem prejuízo da remuneração do cargo eletivo), que a Constituição reserva ao mandato de vereador; a tentação é estender a todo mandato eletivo a regra do mandato municipal.
+
+### D2-R04 — Gabarito: E
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, VII, da Constituição Federal dispõe que o direito de greve será exercido nos termos e nos limites definidos em lei específica. O item troca ‘lei específica’ por ‘lei complementar’; a tentação é aceitar o instrumento normativo mais exigente como o da letra.
+
+### D2-R05 — Gabarito: E
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, § 13, da Constituição Federal dispõe que o servidor público titular de cargo efetivo poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com a limitação sofrida em sua capacidade física ou mental, mantida a remuneração do cargo de origem. O item troca a remuneração do cargo de origem pela do cargo de destino; a tentação é supor que a readaptação ajuste a remuneração ao novo cargo.
+
+### D2-R06 — Gabarito: C
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, XIV, da Constituição Federal dispõe que os acréscimos pecuniários percebidos por servidor público não serão computados nem acumulados para fins de concessão de acréscimos ulteriores. O item reproduz a vedação do efeito em cascata, com a dupla negativa da própria letra; a tentação é estranhar a negação e marcar errado.
+
+### D2-R07 — Gabarito: E
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 40, § 1º, II, da Constituição Federal dispõe que o servidor abrangido por regime próprio de previdência social será aposentado compulsoriamente, com proventos proporcionais ao tempo de contribuição, aos 70 anos de idade, ou aos 75 anos, na forma de lei complementar. O item troca os 70 anos por 65, idade da aposentadoria voluntária do homem no âmbito da União (inciso III); a tentação é confundir a idade da compulsória com a da voluntária. O item não trata do § 4º nem do § 5º-A.
+
+### D2-R08 — Gabarito: C
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 37, § 10, da Constituição Federal veda a percepção simultânea de proventos de aposentadoria decorrentes do art. 40 com a remuneração de cargo, emprego ou função pública, ressalvados, entre outros, os cargos em comissão declarados em lei de livre nomeação e exoneração. O item aplica a ressalva ao aposentado nomeado para cargo em comissão; a tentação é aplicar a vedação sem ler a ressalva final do parágrafo.
+
+### D2-R09 — Gabarito: C
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 39, § 2º, da Constituição Federal dispõe que a União, os Estados e o Distrito Federal manterão escolas de governo para a formação e o aperfeiçoamento dos servidores públicos, constituindo-se a participação nos cursos um dos requisitos para a promoção na carreira. O item reproduz os entes obrigados e a função das escolas de governo; a tentação é incluir os Municípios entre os obrigados ou estranhar que a participação nos cursos seja requisito de promoção.
+
+### D2-R10 — Gabarito: E
+
+- Item do edital: P1-DA-3.1
+- Justificativa: O art. 41, § 2º, da Constituição Federal dispõe que, invalidada por sentença judicial a demissão do servidor estável, será ele reintegrado, e o eventual ocupante da vaga, se estável, reconduzido ao cargo de origem, sem direito a indenização. O item troca ‘reconduzido’ por ‘reintegrado’ para o ocupante da vaga; a tentação é usar o mesmo termo para os dois servidores.
+
+### D2-R11 — Gabarito: E
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 7º da Lei 8.112 dispõe que a investidura em cargo público ocorrerá com a posse. O item troca ‘posse’ por ‘nomeação’; a tentação é tomar a nomeação, ato de provimento, pela investidura.
+
+### D2-R12 — Gabarito: C
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 4º da Lei 8.112 dispõe que é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei. O item reproduz a proibição e a ressalva legal; a tentação é estranhar a proibição e supor que a lei admita o serviço gratuito livremente, ou ignorar a ressalva.
+
+### D2-R13 — Gabarito: E
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 19, caput, da Lei 8.112 dispõe que os servidores cumprirão jornada de trabalho fixada em razão das atribuições dos cargos, respeitada a duração máxima do trabalho semanal de quarenta horas e observados os limites mínimo e máximo de seis horas e oito horas diárias. O item troca quarenta por quarenta e quatro horas semanais; a tentação é aceitar um número que a candidata conhece de outro regime de trabalho.
+
+### D2-R14 — Gabarito: E
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 39, § 3º, da Constituição Federal dispõe que a lei poderá estabelecer requisitos diferenciados de admissão quando a natureza do cargo o exigir. O item troca ‘a lei’ por ‘o edital do concurso’; a tentação é supor que o edital possa criar, por si, requisitos diferenciados de admissão. O item não enumera os incisos do art. 7º a que o parágrafo remete.
+
+### D2-R15 — Gabarito: C
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 19, § 1º, da Lei 8.112 dispõe que o ocupante de cargo em comissão ou função de confiança submete-se a regime de integral dedicação ao serviço, observado o disposto no art. 120, podendo ser convocado sempre que houver interesse da Administração. O item reproduz o regime de integral dedicação e a convocação, com o ‘sempre que’ da própria letra, sem a remissão ao art. 120; a tentação é ler o ‘sempre’ como exagero, ou a omissão da remissão como erro.
+
+### D2-R16 — Gabarito: C
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 5º, § 3º, da Lei 8.112 dispõe que as universidades e instituições de pesquisa científica e tecnológica federais poderão prover seus cargos com professores, técnicos e cientistas estrangeiros, de acordo com as normas e os procedimentos da lei. O item atribui a faculdade às entidades que a lei nomeia; a tentação é estendê-la a qualquer órgão federal.
+
+### D2-R17 — Gabarito: C
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 15, caput, da Lei 8.112 dispõe que exercício é o efetivo desempenho das atribuições do cargo público ou da função de confiança. O item reproduz a definição de exercício; a tentação é confundi-lo com a posse ou com o ato de provimento.
+
+### D2-R18 — Gabarito: E
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 5º, § 2º, da Lei 8.112 assegura às pessoas portadoras de deficiência o direito de se inscrever em concurso público para cargo cujas atribuições sejam compatíveis com a deficiência e dispõe que serão reservadas até 20% das vagas oferecidas no concurso. O item troca o limite máximo (até 20%) por piso (no mínimo 20%); a tentação é lembrar o percentual e não o sentido do limite.
+
+### D2-R19 — Gabarito: C
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 120 da Lei 8.112 dispõe que o servidor que acumular licitamente dois cargos efetivos e for investido em cargo de provimento em comissão ficará afastado de ambos, salvo na hipótese em que houver compatibilidade de horário e local com o exercício de um deles, declarada pelas autoridades máximas dos órgãos ou entidades envolvidos. O item reproduz a regra e a ressalva da compatibilidade; a tentação é estranhar o afastamento de ambos os cargos ou ignorar a exceção.
+
+### D2-R20 — Gabarito: E
+
+- Item do edital: P1-DA-3.2
+- Justificativa: O art. 34, parágrafo único, II, da Lei 8.112 dispõe que a exoneração de ofício dar-se-á quando, tendo tomado posse, o servidor não entrar em exercício no prazo estabelecido. O item troca ‘exonerado de ofício’ por ‘demitido de ofício’; a tentação é confundir exoneração com demissão.
+
+### D2-R21 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 9º, § 4º, do Decreto 10.835 dispõe que, na requisição, não há prejuízo da remuneração ou do salário permanente do agente público, incluídos encargos sociais, abono pecuniário, gratificação natalina, férias e adicional de um terço. O item reproduz a regra geral da requisição, sem trocar parcela nem sujeito; a tentação é confundi-la com a regra da Lei 9.007, art. 2º, parágrafo único (requisições para a Presidência da República), que é outra norma e não é julgada.
+
+### D2-R22 — Gabarito: E
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 29, caput, do Decreto 10.835 dispõe que a competência para autorizar a cessão ou disponibilizar a requisição é do Ministro de Estado ou da autoridade máxima da entidade a que pertencer o agente público, ressalvada a hipótese do § 4º do art. 93 da Lei 8.112. O item troca a autoridade da entidade de origem do agente pela do órgão ou da entidade requisitante, que a fonte menciona no art. 9º como destino do exercício; a tentação é supor que quem recebe o agente é quem libera a requisição.
+
+### D2-R23 — Gabarito: E
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 3º, caput, da Lei 6.999 dispõe que, no caso de acúmulo ocasional de serviço na Zona Eleitoral, e observado o disposto no art. 2º e seus parágrafos, poderão ser requisitados outros servidores pelo prazo máximo e improrrogável de seis meses. O item troca seis meses por um ano, o prazo das requisições para os cartórios eleitorais (art. 2º, § 1º, um ano, prorrogável); a tentação é fundir os dois prazos da mesma lei.
+
+### D2-R24 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 9º da Lei 6.999 dispõe que o servidor requisitado para o serviço eleitoral conservará os direitos e vantagens inerentes ao exercício de seu cargo ou emprego. O item aplica a regra a um servidor requisitado para o cartório eleitoral; a tentação é estranhar a conservação dos direitos e vantagens ou trazer para o caso a regra da Presidência da República (Lei 9.007, art. 2º, parágrafo único), que é outra norma e não é julgada.
+
+### D2-R25 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 3º, § 3º, da Lei 6.999 dispõe que, na hipótese de requisição por acúmulo ocasional de serviço, somente após decorrido um ano poderá haver nova requisição do mesmo servidor. O item reproduz o ‘somente’ e o prazo de um ano da letra; a tentação é ler o restritivo como exagero ou confundir esse intervalo com o prazo máximo de seis meses da requisição (caput).
+
+### D2-R26 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 30-A, caput e III, do Decreto 10.835 dispõe que novo ato de cessão ou de requisição será dispensado na hipótese de conversão da cessão em requisição ou vice-versa. O item aplica o inciso III à conversão da cessão em requisição e afirma só a dispensa de novo ato de requisição, sem tratar da comunicação prévia do parágrafo único; a tentação é supor que toda mudança de modalidade exija novo ato.
+
+### D2-R27 — Gabarito: E
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 9º, § 5º, II, do Decreto 10.835 garante ao requisitado a participação em concurso de remoção para alteração da unidade de lotação ou de exercício, e o § 6º dispõe que a eventual alteração material do local de exercício ou de lotação se dará quando encerrada a requisição. O item troca o momento da alteração (quando encerrada a requisição) por ‘de imediato, ainda durante a requisição’; a tentação é supor que a participação no concurso de remoção produza efeito imediato sobre o local de exercício.
+
+### D2-R28 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 10 do Decreto 10.835 dispõe que as requisições que impliquem reembolso pela administração pública federal somente ocorrerão com a observância da disponibilidade orçamentária e financeira do órgão ou da entidade responsável pelo ônus do ressarcimento. O item afirma a observância da disponibilidade orçamentária sem o ‘somente’ da letra (a parte afirmada é verdadeira por si); a tentação é estranhar a ausência do restritivo ou estender a regra a toda requisição, quando o artigo trata das que impliquem reembolso.
+
+### D2-R29 — Gabarito: C
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 1º, § 1º, III, do Decreto 10.835 dispõe que o disposto no decreto, que se aplica às cessões, às requisições e às alterações de exercício para composição da força de trabalho, abrange os empregados de empresas estatais. O item afirma o alcance subjetivo do decreto sobre empregados de estatais, ao lado dos servidores efetivos e dos empregados públicos da Lei 8.878 (incisos I e II, não julgados); a tentação é supor que o regime da requisição se limite aos servidores estatutários.
+
+### D2-R30 — Gabarito: E
+
+- Item do edital: P1-DA-3.3
+- Justificativa: O art. 4º, caput, da Lei 6.999 dispõe que, exceto no caso de nomeação para cargo em comissão, as requisições para as Secretarias dos Tribunais Eleitorais serão feitas por prazo certo, não excedente de um ano. O item troca o prazo certo, de até um ano, pelo prazo indeterminado, que é a regra geral do Decreto 10.835, art. 11, caput, afastada quando há disposição legal em contrário; a tentação é aplicar a regra geral do decreto à requisição da Justiça Eleitoral.
+
+### D2-R31 — Gabarito: C
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 49, § 1º, da Lei 8.112 dispõe que as indenizações não se incorporam ao vencimento ou provento para qualquer efeito. O item reproduz a regra com o ‘para qualquer efeito’ da própria letra; a tentação é ler o absoluto como exagero ou estender às indenizações o regime das gratificações e dos adicionais, que se incorporam nos casos e condições indicados em lei (§ 2º, não julgado).
+
+### D2-R32 — Gabarito: E
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 97, III, a, da Lei 8.112 dispõe que o servidor pode ausentar-se do serviço, sem qualquer prejuízo, por oito dias consecutivos em razão de casamento. O item troca oito por dez dias consecutivos; a tentação é supor um período maior para o casamento.
+
+### D2-R33 — Gabarito: E
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 46, § 1º, da Lei 8.112 dispõe que o valor de cada parcela não poderá ser inferior ao correspondente a dez por cento da remuneração, provento ou pensão. O item troca dez por vinte por cento; a tentação é aceitar um piso maior sem conferir o percentual da letra (o piso de dez por cento admite parcelas entre dez e dezenove por cento, que o item nega).
+
+### D2-R34 — Gabarito: C
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 41, § 5º, da Lei 8.112 dispõe que nenhum servidor receberá remuneração inferior ao salário mínimo. O item reproduz o ‘nenhum servidor’ da letra; a tentação é ler o universal como exagero. O dispositivo fala em remuneração (vencimento do cargo efetivo mais as vantagens pecuniárias permanentes, art. 41, caput), e não em vencimento isolado.
+
+### D2-R35 — Gabarito: C
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 76 da Lei 8.112 dispõe que, independentemente de solicitação, será pago ao servidor, por ocasião das férias, um adicional correspondente a 1/3 (um terço) da remuneração do período das férias. O item reproduz a regra e o ‘independentemente de solicitação’; a tentação é supor que o adicional dependa de requerimento do servidor.
+
+### D2-R36 — Gabarito: C
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 20, § 4º, da Lei 8.112 dispõe que ao servidor em estágio probatório somente poderão ser concedidas as licenças e os afastamentos previstos nos arts. 81, incisos I a IV, 94, 95 e 96, bem assim afastamento para participar de curso de formação decorrente de aprovação em concurso para outro cargo na Administração Pública Federal. O item reproduz a restrição com o ‘somente’ da letra e sem número do estágio probatório; a tentação é ler o restritivo como exagero ou confundi-lo com a cessão (§ 3º) e com a licença para trato de assuntos particulares (art. 91), que são outros dispositivos.
+
+### D2-R37 — Gabarito: E
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 87, caput, da Lei 8.112 dispõe que, após cada quinquênio de efetivo exercício, o servidor poderá, no interesse da Administração, afastar-se do exercício do cargo efetivo, com a respectiva remuneração, por até três meses, para participar de curso de capacitação profissional. O item troca três por seis meses; a tentação é supor um prazo maior para a capacitação.
+
+### D2-R38 — Gabarito: C
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 30 da Lei 8.112 dispõe que o retorno à atividade de servidor em disponibilidade far-se-á mediante aproveitamento obrigatório em cargo de atribuições e vencimentos compatíveis com o anteriormente ocupado. O item reproduz a regra do aproveitamento; a tentação é confundi-lo com a reversão (art. 25, retorno do aposentado) e com a recondução (retorno do estável), que são outras formas de retorno.
+
+### D2-R39 — Gabarito: E
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 77, caput, da Lei 8.112 dispõe que o servidor fará jus a trinta dias de férias, que podem ser acumuladas, até o máximo de dois períodos, no caso de necessidade do serviço, ressalvadas as hipóteses em que haja legislação específica. O item troca a condição da acumulação (necessidade do serviço) por ‘a pedido do servidor’; a tentação é confundir a acumulação com o parcelamento, que o § 3º do mesmo artigo admite a requerimento do servidor.
+
+### D2-R40 — Gabarito: E
+
+- Item do edital: P1-DA-3.4
+- Justificativa: O art. 53, caput, da Lei 8.112 dispõe que a ajuda de custo destina-se a compensar as despesas de instalação do servidor que, no interesse do serviço, passar a ter exercício em nova sede, com mudança de domicílio em caráter permanente. O item atribui à diária a finalidade da ajuda de custo; a diária (art. 58) indeniza despesas extraordinárias com pousada, alimentação e locomoção urbana de quem se afasta da sede em caráter eventual ou transitório, e a tentação é tratar as duas indenizações como a mesma parcela.
+
+### D2-R41 — Gabarito: E
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 41, § 1º, I, da Constituição Federal dispõe que o servidor público estável perde o cargo em virtude de sentença judicial transitada em julgado, hipótese que o § 1º enumera ao lado do processo administrativo (II) e da avaliação periódica de desempenho (III). O item troca ‘transitada em julgado’ por ‘ainda sujeita a recurso’; a tentação é supor que a condenação sem trânsito em julgado baste para a perda do cargo.
+
+### D2-R42 — Gabarito: C
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 5º, LV, da Constituição Federal dispõe que aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes. O item aplica a garantia ao servidor acusado em processo administrativo disciplinar; a tentação é supor que o contraditório e a ampla defesa se limitem ao processo judicial.
+
+### D2-R43 — Gabarito: C
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, IV, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de atuação segundo padrões éticos de probidade, decoro e boa-fé. O item reproduz o critério do inciso IV; a tentação é confundi-lo com o princípio da moralidade do caput do art. 2º ou com a objetividade do inciso III, que são outros pontos.
+
+### D2-R44 — Gabarito: E
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, V, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de divulgação oficial dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na Constituição. O item troca a fonte da ressalva do sigilo, a Constituição, por regulamento do órgão; a tentação é supor que o próprio órgão defina por ato seu as hipóteses de sigilo.
+
+### D2-R45 — Gabarito: C
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, VII, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de indicação dos pressupostos de fato e de direito que determinarem a decisão. O item reproduz o critério do inciso VII; a tentação é confundi-lo com a adequação entre meios e fins do inciso VI, que é outro critério.
+
+### D2-R46 — Gabarito: C
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 41, § 1º, II, da Constituição Federal dispõe que o servidor público estável perde o cargo mediante processo administrativo em que lhe seja assegurada ampla defesa. O item reproduz a hipótese do inciso II, sem restritivo; a tentação é supor que a perda do cargo do estável exija decisão judicial.
+
+### D2-R47 — Gabarito: E
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, XII, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de impulsão, de ofício, do processo administrativo, sem prejuízo da atuação dos interessados; o art. 1º, § 1º, aplica a lei aos órgãos do Legislativo da União quando no desempenho de função administrativa. O item troca ‘sem prejuízo da atuação dos interessados’ por ‘vedada a atuação dos interessados’; a tentação é supor que a impulsão de ofício exclua a iniciativa dos interessados.
+
+### D2-R48 — Gabarito: E
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, IX, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados. O item troca ‘formas simples’ por ‘formas solenes’; a tentação é confundir o critério da simplicidade (inciso IX) com o da observância das formalidades essenciais (inciso VIII).
+
+### D2-R49 — Gabarito: C
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 5º, LIV, da Constituição Federal dispõe que ninguém será privado da liberdade ou de seus bens sem o devido processo legal. O item reproduz o ‘ninguém’ da letra; a tentação é ler o universal como exagero ou limitar a garantia ao processo penal, quando o inciso alcança a privação da liberdade ou de bens.
+
+### D2-R50 — Gabarito: E
+
+- Item do edital: P1-DA-4.1
+- Justificativa: O art. 2º, parágrafo único, VIII, da Lei 9.784 dispõe que nos processos administrativos serão observados, entre outros, os critérios de observância das formalidades essenciais à garantia dos direitos dos administrados. O item troca ‘direitos dos administrados’ por ‘interesse da Administração’, deslocando o beneficiário da garantia; a tentação é supor que as formalidades essenciais sirvam à Administração.
+
+### D2-R51 — Gabarito: C
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 135, caput, da Lei 8.112 dispõe que a destituição de cargo em comissão exercido por não ocupante de cargo efetivo será aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão. O item reproduz a regra com o elemento ‘exercido por não ocupante de cargo efetivo’; a tentação é estender a destituição de cargo em comissão a quem ocupa cargo efetivo, hipótese que o dispositivo não alcança.
+
+### D2-R52 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 138 da Lei 8.112 dispõe que configura abandono de cargo a ausência intencional do servidor ao serviço por mais de trinta dias consecutivos. O item troca trinta por vinte dias e afirma o número como a medida do abandono, o que contradiz a letra; a tentação é supor que um prazo menor já configure o abandono.
+
+### D2-R53 — Gabarito: C
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 142, § 2º, da Lei 8.112 dispõe que os prazos de prescrição previstos na lei penal aplicam-se às infrações disciplinares capituladas também como crime. O item descreve a infração disciplinar também capitulada como crime e aplica o prazo penal; a tentação é aplicar nesse caso os prazos de 5 anos, 2 anos ou 180 dias do art. 142, I a III.
+
+### D2-R54 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 130, § 1º, da Lei 8.112 dispõe que será punido com suspensão de até 15 dias o servidor que, injustificadamente, recusar-se a ser submetido a inspeção médica determinada pela autoridade competente, cessando os efeitos da penalidade uma vez cumprida a determinação. O item troca quinze por trinta dias como teto da suspensão; a tentação é confundir o teto de 15 dias com o teto de 90 dias da suspensão em geral (art. 130, caput).
+
+### D2-R55 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 141, IV, da Lei 8.112 dispõe que as penalidades disciplinares serão aplicadas, quando se tratar de destituição de cargo em comissão, pela autoridade que houver feito a nomeação. O item troca a autoridade que fez a nomeação pelo chefe da repartição e por outras autoridades, que o inciso III prevê para a advertência e a suspensão de até 30 dias; a tentação é estender o inciso III à destituição.
+
+### D2-R56 — Gabarito: C
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 139 da Lei 8.112 dispõe que se entende por inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses. O item reproduz o conceito e os dois números (sessenta dias, doze meses); a tentação é trocá-los pelo prazo do abandono de cargo (mais de trinta dias consecutivos, art. 138).
+
+### D2-R57 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 142, § 1º, da Lei 8.112 dispõe que o prazo de prescrição começa a correr da data em que o fato se tornou conhecido. O item troca ‘se tornou conhecido’ por ‘foi praticado’; a tentação é supor que o prazo corra da data da prática do fato, e não da data em que ele se tornou conhecido.
+
+### D2-R58 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 132, V, da Lei 8.112 dispõe que a demissão será aplicada em caso de incontinência pública e conduta escandalosa, na repartição. O item troca demissão por suspensão; a tentação é tratar a conduta como violação de proibição punida com suspensão (art. 130, caput), e não como hipótese de demissão do art. 132.
+
+### D2-R59 — Gabarito: E
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 123 da Lei 8.112 dispõe que a responsabilidade penal abrange os crimes e contravenções imputados ao servidor, nessa qualidade. O item troca ‘crimes e contravenções’ por ‘infrações disciplinares’, que não são o objeto da responsabilidade penal; a tentação é fundir a responsabilidade penal e a administrativa, que o art. 125 trata como esferas independentes.
+
+### D2-R60 — Gabarito: C
+
+- Item do edital: P1-DA-4.2
+- Justificativa: O art. 136 da Lei 8.112 dispõe que a demissão, nos casos dos incisos IV, VIII, X e XI do art. 132 (o XI é a corrupção), implica a indisponibilidade dos bens e o ressarcimento ao erário, sem prejuízo da ação penal cabível. O item aplica a regra à demissão por corrupção; a tentação é supor que a demissão exclua a ação penal, que o dispositivo ressalva.
+
+### D2-R61 — Gabarito: C
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 20 da Lei 9.784 dispõe que pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados, ao passo que o art. 18 trata do impedimento. O item distingue a suspeição (amizade íntima ou inimizade notória) do impedimento (interesse direto ou indireto, participação como perito, testemunha ou representante, litígio com o interessado); a tentação é tratar a amizade íntima como causa de impedimento.
+
+### D2-R62 — Gabarito: C
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 45 da Lei 9.784 dispõe que, em caso de risco iminente, a Administração Pública poderá motivadamente adotar providências acauteladoras sem a prévia manifestação do interessado. O item reproduz a regra com ‘antes de ouvir o interessado’; a tentação é ver ofensa ao contraditório na providência adotada antes da manifestação, que o dispositivo admite em caso de risco iminente.
+
+### D2-R63 — Gabarito: E
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 21 da Lei 9.784 dispõe que o indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo. O item troca ‘sem efeito suspensivo’ por ‘terá efeito suspensivo’; a tentação é supor que o recurso contra o indeferimento da suspeição suspenda o processo, o que a letra do art. 21 afasta.
+
+### D2-R64 — Gabarito: C
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 51, § 1º, da Lei 9.784 dispõe que, havendo vários interessados, a desistência ou renúncia atinge somente quem a tenha formulado. O item reproduz o ‘somente’ da letra; a tentação é supor que a desistência de um interessado alcance os demais.
+
+### D2-R65 — Gabarito: E
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 44 da Lei 9.784 dispõe que, encerrada a instrução, o interessado terá o direito de manifestar-se no prazo máximo de dez dias, salvo se outro prazo for legalmente fixado; o art. 1º, § 1º, aplica a lei aos órgãos do Poder Legislativo da União quando no desempenho de função administrativa. O item troca dez por quinze dias como prazo máximo; a tentação é supor um prazo maior, por confusão com o de trinta dias para decidir (art. 49).
+
+### D2-R66 — Gabarito: E
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 56, § 1º, da Lei 9.784 dispõe que o recurso será dirigido à autoridade que proferiu a decisão, a qual, se não a reconsiderar no prazo de cinco dias, o encaminhará à autoridade superior. O item troca o destinatário do recurso, a autoridade que proferiu a decisão, pela autoridade superior, que a fonte menciona como destinatária do encaminhamento; a tentação é supor que o recurso vá direto ao superior.
+
+### D2-R67 — Gabarito: E
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 66, § 2º, da Lei 9.784 dispõe que os prazos expressos em dias contam-se de modo contínuo; o caput exclui da contagem o dia do começo e inclui o do vencimento. O item troca ‘de modo contínuo’ por ‘em dias úteis’, expressão que a lei usa em outros prazos (arts. 26, § 2º, 41 e 62); a tentação é aplicar a contagem em dias úteis a todos os prazos em dias.
+
+### D2-R68 — Gabarito: C
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 26, § 4º, da Lei 9.784 dispõe que, no caso de interessados indeterminados, desconhecidos ou com domicílio indefinido, a intimação deve ser efetuada por meio de publicação oficial. O item reproduz a regra para a intimação de interessados indeterminados; a tentação é exigir um dos meios do § 3º (ciência no processo, via postal, telegrama).
+
+### D2-R69 — Gabarito: E
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 69-A, caput e I, da Lei 9.784 dispõe que terão prioridade na tramitação, em qualquer órgão ou instância, os procedimentos administrativos em que figure como parte ou interessado pessoa com idade igual ou superior a 60 anos. O item troca sessenta por cinquenta e cinco anos como idade a partir da qual há prioridade, afirmada como valor da regra; a tentação é supor que uma idade menor também garanta a prioridade.
+
+### D2-R70 — Gabarito: C
+
+- Item do edital: P1-DA-4.4
+- Justificativa: O art. 68 da Lei 9.784 dispõe que as sanções, a serem aplicadas por autoridade competente, terão natureza pecuniária ou consistirão em obrigação de fazer ou de não fazer, assegurado sempre o direito de defesa. O item reproduz o ‘sempre’ da letra; a tentação é estranhar o absoluto ou supor que a sanção possa ser aplicada antes da defesa.
+
+### D2-R71 — Gabarito: C
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 165, § 1º, da Lei 8.112 dispõe que o relatório será sempre conclusivo quanto à inocência ou à responsabilidade do servidor. O item reproduz o ‘sempre’ da letra; a tentação é confundir o relatório da comissão, sempre conclusivo, com a decisão da autoridade julgadora, que pode divergir dele (art. 168, parágrafo único).
+
+### D2-R72 — Gabarito: E
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 174, caput, da Lei 8.112 dispõe que o processo disciplinar poderá ser revisto, a qualquer tempo, a pedido ou de ofício, quando se aduzirem fatos novos ou circunstâncias suscetíveis de justificar a inocência do punido ou a inadequação da penalidade aplicada. O item põe como fundamento da revisão o agravamento da penalidade, que o art. 182, parágrafo único, veda (‘Da revisão do processo não poderá resultar agravamento de penalidade’); a tentação é supor que a revisão de ofício também possa agravar a pena.
+
+### D2-R73 — Gabarito: E
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 161, § 1º, da Lei 8.112 dispõe que o indiciado será citado por mandado expedido pelo presidente da comissão para apresentar defesa escrita, no prazo de 10 dias, assegurando-se-lhe vista do processo na repartição. O item afirma que o indiciado tem prazo de cinco dias para a defesa escrita, número que contradiz a letra (dez dias); a tentação é supor um prazo menor para a defesa escrita.
+
+### D2-R74 — Gabarito: E
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 147, parágrafo único, da Lei 8.112 dispõe que o afastamento poderá ser prorrogado por igual prazo, findo o qual cessarão os seus efeitos, ainda que não concluído o processo. O item troca ‘cessarão os seus efeitos’ por ‘continua a produzir efeitos até a conclusão do processo’; a tentação é supor que o afastamento dure até o fim do processo, o que o parágrafo único afasta.
+
+### D2-R75 — Gabarito: C
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 154, parágrafo único, da Lei 8.112 dispõe que, na hipótese de o relatório da sindicância concluir que a infração está capitulada como ilícito penal, a autoridade competente encaminhará cópia dos autos ao Ministério Público, independentemente da imediata instauração do processo disciplinar. O item reproduz a regra e o ‘independentemente’; a tentação é supor que o envio ao Ministério Público dependa de o processo disciplinar já ter sido instaurado.
+
+### D2-R76 — Gabarito: C
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 182, caput, da Lei 8.112 dispõe que, julgada procedente a revisão, será declarada sem efeito a penalidade aplicada, restabelecendo-se todos os direitos do servidor, com a exceção da destituição do cargo em comissão, que será convertida em exoneração. O item contrasta a destituição de cargo em comissão, convertida em exoneração, com as demais penalidades, declaradas sem efeito; a tentação é supor que a destituição também seja desfeita, com restabelecimento do cargo (o art. 135, parágrafo único, faz o caminho inverso, convertendo exoneração em destituição).
+
+### D2-R77 — Gabarito: E
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 172, caput, da Lei 8.112 dispõe que o servidor que responder a processo disciplinar só poderá ser exonerado a pedido, ou aposentado voluntariamente, após a conclusão do processo e o cumprimento da penalidade, acaso aplicada. O item troca ‘após’ por ‘antes’ da conclusão do processo, sem o ‘só’ da letra; a tentação é supor que o pedido de exoneração possa ser atendido durante o processo, o que o dispositivo veda.
+
+### D2-R78 — Gabarito: C
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 158, caput, da Lei 8.112 dispõe que o depoimento será prestado oralmente e reduzido a termo, não sendo lícito à testemunha trazê-lo por escrito. O item aplica a regra ao caso da testemunha que pretende trazer o depoimento por escrito; a tentação é supor que a entrega de declaração escrita substitua o depoimento oral.
+
+### D2-R79 — Gabarito: C
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 167, § 2º, da Lei 8.112 dispõe que, havendo mais de um indiciado e diversidade de sanções, o julgamento caberá à autoridade competente para a imposição da pena mais grave. O item reproduz a regra e a contrasta com o julgamento por autoridades distintas, uma para cada indiciado; a tentação é supor que cada autoridade julgue o indiciado cuja pena lhe caiba.
+
+### D2-R80 — Gabarito: E
+
+- Item do edital: P1-DA-4.3
+- Justificativa: O art. 164, § 2º, da Lei 8.112 dispõe que, para defender o indiciado revel, a autoridade instauradora do processo designará um servidor como defensor dativo, que deverá ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter nível de escolaridade igual ou superior ao do indiciado. O item troca a autoridade instauradora pelo presidente da comissão, ator que a lei menciona na citação do indiciado (art. 161, § 1º); a tentação é supor que a comissão designe o defensor.

@@ -1309,3 +1309,435 @@ Itens de provas anteriores (rótulo CEBRASPE_ANALOGA). Gabaritos no arquivo BANC
 **Comando.** Julgue os itens a seguir, considerando que, em certo tribunal regional, a duração de 1.000 processos encerrados nos últimos dois anos variou entre dois e sessenta meses, com quartis, para os dados levantados, iguais a 12, 18 e 24 meses.
 
 **Enunciado.** A duração dos processos, entre 2 e 60 meses, compõe os chamados valores adjacentes, pois todos os dados observados se encontram compreendidos entre os limites inferior e superior do diagrama esquemático (box-plot).
+
+### BQ-0113
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 53
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** A respeito de aspectos atinentes ao processo licitatório, julgue os itens a seguir.
+
+**Enunciado.** A contratação direta para a aquisição de materiais é autorizada em caso de inviabilidade de competição e, nessa hipótese, deverá ser instruída com documento idôneo que comprove que o objeto é fornecido por produtor, empresa ou representante comercial exclusivo, sendo vedada a preferência por marca específica.
+
+### BQ-0114
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 55
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Em relação à organização da administração pública, aos poderes administrativos e aos agentes públicos, julgue os itens subsecutivos.
+
+**Enunciado.** Os jurados convocados para o tribunal do júri são considerados agentes públicos, na categoria de agentes particulares colaboradores, também denominados agentes honoríficos.
+
+### BQ-0115
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 56
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Em relação à organização da administração pública, aos poderes administrativos e aos agentes públicos, julgue os itens subsecutivos.
+
+**Enunciado.** A administração pública indireta contempla os consórcios públicos constituídos sob a forma de associação pública, dada a personalidade jurídica de direito público que lhes caracteriza.
+
+### BQ-0116
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 57
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Em relação à organização da administração pública, aos poderes administrativos e aos agentes públicos, julgue os itens subsecutivos.
+
+**Enunciado.** Segundo jurisprudência mais recente do STF, as fases de ordem, consentimento, fiscalização e sanção do poder de polícia são todas delegáveis em situações excepcionais.
+
+### BQ-0117
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 59
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Com base na Lei de Acesso à Informação (Lei n.º 12.527/2011) e na Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018), julgue os itens que se seguem.
+
+**Enunciado.** O tratamento de dados pessoais só poderá ser realizado nas hipóteses taxativas previstas na LGPD, que incluem, por exemplo, a situação em que tal tratamento de dados visa ao exercício regular de direitos em processo judicial, administrativo ou arbitral.
+
+### BQ-0118
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 60
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Com base na Lei de Acesso à Informação (Lei n.º 12.527/2011) e na Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018), julgue os itens que se seguem.
+
+**Enunciado.** Para fins da LGPD, os dados anonimizados são considerados, em regra, dados pessoais.
+
+### BQ-0119
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 61
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Com base na Lei de Acesso à Informação (Lei n.º 12.527/2011) e na Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018), julgue os itens que se seguem.
+
+**Enunciado.** Qualquer interessado poderá apresentar pedido de acesso à informação aos órgãos públicos da administração direta de quaisquer dos Poderes, desde que se identifique, especifique a informação requerida e, caso demandado, apresente os motivos determinantes da solicitação.
+
+### BQ-0120
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 62
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Com base na Lei de Acesso à Informação (Lei n.º 12.527/2011) e na Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018), julgue os itens que se seguem.
+
+**Enunciado.** No caso de indeferimento do pedido de acesso a informação, o interessado poderá apresentar recurso, que deverá ser dirigido à autoridade responsável pela negativa, contudo, se esta não implementar o juízo de reconsideração, ela deverá encaminhar o recurso para a autoridade hierarquicamente superior.
+
+### BQ-0121
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 1: Analista Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 76
+- URL oficial: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_001_01.PDF
+
+**Comando.** Julgue os itens que se seguem, relativos à administração pública.
+
+**Enunciado.** A indistinção entre bens públicos e privados é uma característica do patrimonialismo na administração pública.
+
+### BQ-0122
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 23: Analista Judiciário - Área: Judiciária - Sem Especialidade
+- Ano: 2025
+- Número: 53
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_023_01.PDF
+
+**Comando.** No que se refere ao controle da administração pública, a contratos administrativos e ao processo administrativo, julgue os itens seguintes.
+
+**Enunciado.** É admitida a convalidação, pela administração pública, dos atos administrativos com vício de forma, desde que a decisão não acarrete lesão ao interesse público nem prejuízo a terceiros.
+
+### BQ-0123
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 23: Analista Judiciário - Área: Judiciária - Sem Especialidade
+- Ano: 2025
+- Número: 57
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_023_01.PDF
+
+**Comando.** A respeito do acesso à informação e do tratamento de dados pessoais, julgue os itens que se seguem.
+
+**Enunciado.** A Lei Geral de Proteção de Dados Pessoais (LGPD) não se aplica ao tratamento de dados pessoais realizado para fins exclusivos de atividades de investigação e repressão de infrações penais.
+
+### BQ-0124
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 24: Técnico Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 65
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_024_01.PDF
+
+**Comando.** No tocante aos princípios e aos poderes da administração pública, julgue os itens a seguir.
+
+**Enunciado.** O princípio da impessoalidade determina que a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social.
+
+### BQ-0125
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 24: Técnico Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 67
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_024_01.PDF
+
+**Comando.** A respeito do regime jurídico dos servidores públicos federais, julgue os itens seguintes, com base na Lei n.º 8.112/1990.
+
+**Enunciado.** Assiduidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade são fatores utilizados para avaliar a aptidão e a capacidade do servidor público que esteja em estágio probatório.
+
+### BQ-0126
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 24: Técnico Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 68
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_024_01.PDF
+
+**Comando.** A respeito do regime jurídico dos servidores públicos federais, julgue os itens seguintes, com base na Lei n.º 8.112/1990.
+
+**Enunciado.** Durante o gozo de licença por motivo de doença em pessoa da família, fica impedido o servidor público de exercer atividade remunerada.
+
+### BQ-0127
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 24: Técnico Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 70
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_024_01.PDF
+
+**Comando.** A respeito da improbidade administrativa e do processo administrativo, julgue os próximos itens.
+
+**Enunciado.** As pessoas com deficiência terão prioridade na tramitação, em qualquer órgão ou instância, dos procedimentos administrativos em que figurem como partes ou interessadas.
+
+### BQ-0128
+
+- Certame: TRF6 2024 - 1º Concurso Cadastro de Reserva Analista/Técnico Judiciário (Edital nº 1, 10/10/2024)
+- Cargo: Cargo 24: Técnico Judiciário - Área: Administrativa - Sem Especialidade
+- Ano: 2025
+- Número: 88
+- URL oficial: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_024_01.PDF
+
+**Comando.** Julgue os itens seguintes, a respeito da administração pública indireta, dos atos administrativos e da requisição.
+
+**Enunciado.** Na requisição de servidor, o agente público requisitado passa a ter exercício no órgão ou na entidade requisitante, mas mantém a lotação no órgão ou na entidade de origem.
+
+### BQ-0129
+
+- Certame: CNJ 2024 - Analista/Técnico Judiciário
+- Cargo: Cargo 6: Analista Judiciário - Área: Judiciária
+- Ano: 2024
+- Número: 51
+- URL oficial: https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_006_01.PDF
+
+**Comando.** Com relação à aplicabilidade das normas constitucionais, à administração pública e aos servidores públicos, julgue os itens seguintes.
+
+**Enunciado.** Os princípios administrativos estabelecidos constitucionalmente são de observância obrigatória a toda a administração pública direta e indireta, de qualquer dos Poderes da União, dos estados, do Distrito Federal e dos municípios.
+
+### BQ-0130
+
+- Certame: CNJ 2024 - Analista/Técnico Judiciário
+- Cargo: Cargo 6: Analista Judiciário - Área: Judiciária
+- Ano: 2024
+- Número: 62
+- URL oficial: https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_006_01.PDF
+
+**Comando.** Considerando os poderes e os princípios da administração pública e a organização administrativa, julgue os próximos itens.
+
+**Enunciado.** Se um prefeito desapropriar imóvel privado a fim de atingir um desafeto político seu, ficará caracterizado desvio de finalidade, ainda que a referida autoridade seja competente para o ato e este seja, em tese, cabível.
+
+### BQ-0132
+
+- Certame: CNJ 2024 - Analista/Técnico Judiciário
+- Cargo: Cargo 6: Analista Judiciário - Área: Judiciária
+- Ano: 2024
+- Número: 65
+- URL oficial: https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_006_01.PDF
+
+**Comando.** À luz da Lei de Improbidade Administrativa (Lei n.º 8.429/1992) e da Lei do Processo Administrativo (Lei n.º 9.784/1999), julgue os seguintes itens.
+
+**Enunciado.** Em recursos em processo administrativo, é possível a retratação da autoridade que haja proferido a decisão impugnada.
+
+### BQ-0134
+
+- Certame: CNJ 2024 - Analista/Técnico Judiciário
+- Cargo: Cargo 7: Técnico Judiciário - Área: Administrativa
+- Ano: 2024
+- Número: 116
+- URL oficial: https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_007_01.PDF
+
+**Comando.** À luz da Lei n.º 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos), julgue os itens a seguir.
+
+**Enunciado.** Sempre que uma situação demandar decisão ou providência que ultrapasse a competência do fiscal do contrato, ele não poderá permanecer inerte, devendo informar tempestivamente seus superiores hierárquicos, para a adoção das medidas pertinentes.
+
+### BQ-0135
+
+- Certame: CNJ 2024 - Analista/Técnico Judiciário
+- Cargo: Cargo 7: Técnico Judiciário - Área: Administrativa
+- Ano: 2024
+- Número: 118
+- URL oficial: https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_007_01.PDF
+
+**Comando.** À luz da Lei n.º 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos), julgue os itens a seguir.
+
+**Enunciado.** É permitida a terceirização da titularidade da fiscalização do contrato no âmbito da administração pública federal.
+
+### BQ-0136
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 1: Administrador
+- Ano: 2025
+- Número: 73
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_001_01.PDF
+
+**Comando.** Considerando que o Estado é um conjunto de instituições de decisão e de execução, julgue os itens a seguir, acerca da administração direta, indireta, fundacional e dos atos administrativos.
+
+**Enunciado.** Considera-se administração direta uma série de órgãos dentro da mesma pessoa jurídica.
+
+### BQ-0137
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 1: Administrador
+- Ano: 2025
+- Número: 94
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_001_01.PDF
+
+**Comando.** Acerca dos atos administrativos, bem como do conceito, do objeto e das fontes do direito administrativo, julgue os itens a seguir.
+
+**Enunciado.** A administração pública fica vinculada à motivação expressa no ato administrativo, ainda que este não precisasse ser motivado.
+
+### BQ-0138
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 1: Administrador
+- Ano: 2025
+- Número: 96
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_001_01.PDF
+
+**Comando.** Acerca do regime jurídico administrativo, dos poderes da administração pública e da responsabilidade civil do Estado, julgue os itens que se seguem.
+
+**Enunciado.** Há abuso de poder quando o agente ultrapassa os limites de suas atribuições, mas não se verifica tal vício quando o agente busca alcançar objetivos diversos daqueles previstos em lei, desde que albergados pelo interesse público.
+
+### BQ-0139
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 1: Administrador
+- Ano: 2025
+- Número: 100
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_001_01.PDF
+
+**Comando.** Acerca do regime jurídico administrativo, dos poderes da administração pública e da responsabilidade civil do Estado, julgue os itens que se seguem.
+
+**Enunciado.** A culpa exclusiva da vítima configura causa excludente de responsabilidade civil do Estado, haja vista o rompimento do nexo de causalidade entre o ato do agente público e o dano.
+
+### BQ-0140
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 1: Administrador
+- Ano: 2025
+- Número: 101
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_001_01.PDF
+
+**Comando.** No que concerne ao controle da administração pública e à improbidade administrativa, julgue os itens subsequentes.
+
+**Enunciado.** Qualquer pessoa poderá representar à autoridade administrativa competente para que seja instaurada investigação destinada a apurar a prática de ato de improbidade.
+
+### BQ-0142
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Cargo 2: Arquiteto e Urbanista
+- Ano: 2025
+- Número: 98
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_002_01.PDF
+
+**Comando.** Julgue os itens subsequentes, considerando o disposto na Lei n.º 14.133/2021.
+
+**Enunciado.** Requisitos da contratação e justificativas para o parcelamento, ou não, da contratação são elementos que devem estar previstos no estudo técnico preliminar.
+
+### BQ-0143
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Conhecimentos Básicos para os Cargos de 1 a 14 - caderno 088_FUB_CB1_01
+- Ano: 2025
+- Número: 29
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_CB1_01.PDF
+
+**Comando.** De acordo com a Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018) e a Lei de Acesso à Informação (Lei n.º 12.527/2011), julgue os itens subsecutivos.
+
+**Enunciado.** Tem caráter exaustivo o rol da Lei de Acesso à Informação que trata das hipóteses de sigilo e de segredo de justiça das informações públicas.
+
+### BQ-0144
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Conhecimentos Básicos para os Cargos de 1 a 14 - caderno 088_FUB_CB1_01
+- Ano: 2025
+- Número: 30
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_CB1_01.PDF
+
+**Comando.** De acordo com a Lei Geral de Proteção de Dados Pessoais — LGPD (Lei n.º 13.709/2018) e a Lei de Acesso à Informação (Lei n.º 12.527/2011), julgue os itens subsecutivos.
+
+**Enunciado.** A revogação do consentimento do titular para o tratamento de seus dados pessoais pode ocorrer a qualquer momento, mediante manifestação expressa dele.
+
+### BQ-0145
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Conhecimentos Básicos para os Cargos 16, 17 e 19 - caderno 088_FUB_CB2_01
+- Ano: 2025
+- Número: 25
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_CB2_01.PDF
+
+**Comando.** Considerando as regras previstas no Decreto n.º 1.171/1994, nas Leis n.º 8.112/1990, n.º 8.429/1992, n.º 9.784/1992 e n.º 14.133/2021, julgue os itens a seguir.
+
+**Enunciado.** No processo administrativo, a impulsão se dá de ofício, sem prejuízo da atuação dos interessados.
+
+### BQ-0146
+
+- Certame: FUB 2025 - Concurso Público (Edital nº 1 - FUB, 3/4/2025)
+- Cargo: Conhecimentos Básicos para o Cargo 15 - caderno 088_FUB_CB3_01
+- Ano: 2025
+- Número: 25
+- URL oficial: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_CB3_01.PDF
+
+**Comando.** Julgue os próximos itens com base no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto n.º 1.171/1994), na Lei de Improbidade Administrativa (Lei n.º 8.429/1992), no Regime Jurídico dos Servidores Públicos Civis da União (Lei n.º 8.112/1990), na Lei do Processo Administrativo Federal (Lei n.º 9.784/1999) e na Lei de Licitações e Contratos Administrativos (Lei n.º 14.133/2021).
+
+**Enunciado.** A penalidade de suspensão é aplicável a servidor público federal em caso de reincidência de falta punida com advertência e não pode exceder de trinta dias.
+
+### BQ-0147
+
+- Certame: ANM 2024 - Concurso Público Analista Administrativo e Especialista em Recursos Minerais
+- Cargo: Cargo 13: Especialista em Recursos Minerais - Especialidade: Comunicação
+- Ano: 2025
+- Número: 70
+- URL oficial: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_013_01.PDF
+
+**Comando.** Julgue os itens a seguir, considerando as formas de transparência pública e o disposto na Lei de Acesso à Informação e na Lei Geral de Proteção de Dados Pessoais (LGPD).
+
+**Enunciado.** O prazo máximo de restrição de acesso às informações classificadas como secretas é de 5 anos.
+
+### BQ-0148
+
+- Certame: ANM 2024 - Concurso Público Analista Administrativo e Especialista em Recursos Minerais
+- Cargo: Cargo 15: Especialista em Recursos Minerais - Especialidade: Direito (Foco de Atuação Outorga)
+- Ano: 2025
+- Número: 71
+- URL oficial: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_015_01.PDF
+
+**Comando.** Considerando as espécies de extinção do ato administrativo bem como os efeitos dela decorrentes, julgue o item a seguir.
+
+**Enunciado.** Na revogação, em regra, a extinção do ato administrativo opera efeitos retroativos.
+
+### BQ-0149
+
+- Certame: ANM 2024 - Concurso Público Analista Administrativo e Especialista em Recursos Minerais
+- Cargo: Cargo 15: Especialista em Recursos Minerais - Especialidade: Direito (Foco de Atuação Outorga)
+- Ano: 2025
+- Número: 76
+- URL oficial: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_015_01.PDF
+
+**Comando.** A respeito da Lei de Improbidade Administrativa (Lei n.º 8.429/1992), considerando a jurisprudência dos tribunais superiores a respeito do assunto, julgue os itens que se seguem.
+
+**Enunciado.** O dolo é elemento necessário para a configuração de um ato de improbidade administrativa, logo, o mero exercício da função por um agente público, sem que haja a comprovação da prática de um ato doloso com um fim ilícito, afasta a responsabilidade do agente pela prática de determinado ato de improbidade administrativa.
+
+### BQ-0150
+
+- Certame: ANM 2024 - Concurso Público Analista Administrativo e Especialista em Recursos Minerais
+- Cargo: Cargo 15: Especialista em Recursos Minerais - Especialidade: Direito (Foco de Atuação Outorga)
+- Ano: 2025
+- Número: 79
+- URL oficial: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_015_01.PDF
+
+**Comando.** Em relação à Lei n.º 8.112/1990, que dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais, julgue os itens que se seguem.
+
+**Enunciado.** A recondução é o retorno do servidor estável ao cargo anteriormente ocupado, e esse retorno pode decorrer de inabilitação em estágio probatório relativo a outro cargo ou de reintegração do anterior ocupante.
+
+### BQ-0152
+
+- Certame: ANM 2024 - Concurso Público Analista Administrativo e Especialista em Recursos Minerais
+- Cargo: Cargo 23: Especialista em Recursos Minerais - Especialidade: Qualquer Área de Formação (Suporte à Gestão, Estratégia e Governança)
+- Ano: 2025
+- Número: 111
+- URL oficial: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_023_01.PDF
+
+**Comando.** No que se refere à política de governança da administração pública federal direta, autárquica e fundacional, julgue os itens a seguir.
+
+**Enunciado.** A integridade constitui tanto um princípio da governança pública quanto um mecanismo para o seu exercício.

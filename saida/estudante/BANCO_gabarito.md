@@ -441,3 +441,147 @@
 ### BQ-0112 — Gabarito: E
 
 - Item do edital: P1-8.2 (aderência: parcial)
+
+### BQ-0113 — Gabarito: C
+
+- Item do edital: P1-DA-10 (aderência: direta)
+
+### BQ-0114 — Gabarito: C
+
+- Item do edital: P1-DA-3 (aderência: direta)
+
+### BQ-0115 — Gabarito: C
+
+- Item do edital: P1-DA-1 (aderência: direta)
+
+### BQ-0116 — Gabarito: E
+
+- Item do edital: P1-DA-5 (aderência: direta)
+
+### BQ-0117 — Gabarito: C
+
+- Item do edital: P1-DA-12 (aderência: direta)
+
+### BQ-0118 — Gabarito: E
+
+- Item do edital: P1-DA-12 (aderência: direta)
+
+### BQ-0119 — Gabarito: E
+
+- Item do edital: P1-DA-11 (aderência: direta)
+
+### BQ-0120 — Gabarito: E
+
+- Item do edital: P1-DA-11 (aderência: direta)
+
+### BQ-0121 — Gabarito: C
+
+- Item do edital: P1-DA-8 (aderência: direta)
+
+### BQ-0122 — Gabarito: C
+
+- Item do edital: P1-DA-2 (aderência: direta)
+
+### BQ-0123 — Gabarito: C
+
+- Item do edital: P1-DA-12 (aderência: direta)
+
+### BQ-0124 — Gabarito: C
+
+- Item do edital: P1-DA-1 (aderência: direta)
+
+### BQ-0125 — Gabarito: C
+
+- Item do edital: P1-DA-3 (aderência: direta)
+
+### BQ-0126 — Gabarito: C
+
+- Item do edital: P1-DA-3 (aderência: direta)
+
+### BQ-0127 — Gabarito: C
+
+- Item do edital: P1-DA-4 (aderência: direta)
+
+### BQ-0128 — Gabarito: C
+
+- Item do edital: P1-DA-3 (aderência: direta)
+
+### BQ-0129 — Gabarito: C
+
+- Item do edital: P1-DA-1 (aderência: direta)
+
+### BQ-0130 — Gabarito: C
+
+- Item do edital: P1-DA-5 (aderência: direta)
+
+### BQ-0132 — Gabarito: C
+
+- Item do edital: P1-DA-4 (aderência: direta)
+
+### BQ-0134 — Gabarito: C
+
+- Item do edital: P1-DA-10 (aderência: direta)
+
+### BQ-0135 — Gabarito: E
+
+- Item do edital: P1-DA-10 (aderência: direta)
+
+### BQ-0136 — Gabarito: C
+
+- Item do edital: P1-DA-1 (aderência: direta)
+
+### BQ-0137 — Gabarito: C
+
+- Item do edital: P1-DA-2 (aderência: direta)
+
+### BQ-0138 — Gabarito: E
+
+- Item do edital: P1-DA-5 (aderência: direta)
+
+### BQ-0139 — Gabarito: C
+
+- Item do edital: P1-DA-6 (aderência: direta)
+
+### BQ-0140 — Gabarito: C
+
+- Item do edital: P1-DA-7 (aderência: direta)
+
+### BQ-0142 — Gabarito: C
+
+- Item do edital: P1-DA-10 (aderência: direta)
+
+### BQ-0143 — Gabarito: E
+
+- Item do edital: P1-DA-11 (aderência: direta)
+
+### BQ-0144 — Gabarito: C
+
+- Item do edital: P1-DA-12 (aderência: direta)
+
+### BQ-0145 — Gabarito: C
+
+- Item do edital: P1-DA-4 (aderência: direta)
+
+### BQ-0146 — Gabarito: E
+
+- Item do edital: P1-DA-4 (aderência: direta)
+
+### BQ-0147 — Gabarito: E
+
+- Item do edital: P1-DA-11 (aderência: direta)
+
+### BQ-0148 — Gabarito: E
+
+- Item do edital: P1-DA-2 (aderência: direta)
+
+### BQ-0149 — Gabarito: C
+
+- Item do edital: P1-DA-7 (aderência: direta)
+
+### BQ-0150 — Gabarito: C
+
+- Item do edital: P1-DA-3 (aderência: direta)
+
+### BQ-0152 — Gabarito: C
+
+- Item do edital: P1-DA-9 (aderência: direta)

@@ -1,7 +1,7 @@
 # Câmara 2026 — Edição do estudante
 
-- Versão: v1.13-E (pacote.json versão 1)
-- Data: 2026-10-20
+- Versão: v1.14-E (pacote.json versão 1)
+- Data: 2026-10-23
 - Aviso: material de estudo; gabaritos em arquivo separado.
 - Itens marcados com o aviso "Atenção: conteúdo sujeito a mudança; será reverificado em janeiro de 2027." têm conteúdo volátil.
 
@@ -25,7 +25,7 @@
 
 - L1, L2, L3, L4, L6A e L6B: os itens de reforço estão ao fim de cada arquivo _itens.md e _gabarito.md, na seção "Itens de reforço".
 - Cada arquivo _estudo.md traz, ao fim, uma seção "Tópico" por tópico do lote: o resumo ("Resumo do tópico") e, em alguns tópicos, "Em 1 minuto" e os visuais em texto.
-- Direito Administrativo (P1-DA): seis lotes, em arquivos DA_D<n>_estudo.md, DA_D<n>_itens.md e DA_D<n>_gabarito.md; o id de lote vai sempre qualificado como "lote D<n>" (não confundir com as discursivas D1 a D5). Em todos os tópicos de DA há "Resumo do tópico", "Em 1 minuto" e dois visuais em texto.
+- Direito Administrativo (P1-DA): 684 itens, sendo 36 de provas anteriores (em BANCO_itens.md e BANCO_gabarito.md) e 648 dos seis lotes de estudo, em arquivos DA_D<n>_estudo.md, DA_D<n>_itens.md e DA_D<n>_gabarito.md; o id de lote vai sempre qualificado como "lote D<n>" (não confundir com as discursivas D1 a D5). Os itens de reforço de DA estão ao fim de cada arquivo DA_D<n>_itens.md e DA_D<n>_gabarito.md dos lotes que os têm, na seção "Itens de reforço". Em todos os tópicos de DA há "Resumo do tópico", "Em 1 minuto" e dois visuais em texto.
 
 ### Núcleo de estudo
 

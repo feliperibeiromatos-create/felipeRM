@@ -123,3 +123,29 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **D1-59** — Os atos administrativos que discrepem de pareceres, laudos, propostas e relatórios oficiais dispensam motivação, desde que emanados da autoridade competente.
 
 **D1-60** — A motivação pode consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, nesse caso, serão parte integrante do ato.
+
+## Itens de reforço
+
+**D1-R01** — Nos termos da Lei nº 9.784/1999, se um parecer obrigatório e não vinculante deixar de ser emitido no prazo fixado, subsiste a responsabilidade de quem se omitiu no atendimento.
+
+**D1-R02** — Segundo o Decreto nº 9.830/2019, considera-se erro grosseiro aquele manifesto, evidente e inescusável, praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia.
+
+**D1-R13** — Segundo o Decreto nº 9.830/2019, configura-se dolo ou erro grosseiro do agente público ainda que não reste comprovada, nos autos do processo de responsabilização, situação ou circunstância fática capaz de caracterizá-los.
+
+**D1-R04** — Considere que determinado agente público, ao emitir opinião técnica, tenha dado causa a dano. Nessa situação, segundo o Decreto nº 9.830/2019, o mero nexo de causalidade entre a conduta e o resultado danoso implica a responsabilização do agente.
+
+**D1-R05** — Segundo a Lei nº 9.784/1999, a falta, no prazo assinalado, de laudo técnico previamente exigido por ato normativo produz o mesmo efeito da falta de parecer obrigatório e vinculante: o processo não terá seguimento até que o órgão omisso apresente o laudo.
+
+**D1-R06** — Considere que servidor público que participou de procedimento relacionado a licitação precise defender-se na esfera controladora em razão de ato praticado com estrita observância de orientação constante em parecer jurídico elaborado na forma do art. 53, § 1º, da Lei nº 14.133/2021. Nessa situação, a advocacia pública promoverá, a critério do servidor, sua representação judicial ou extrajudicial.
+
+**D1-R07** — Nos termos da Lei nº 14.133/2021, a representação do agente público pela advocacia pública, em razão de ato praticado com estrita observância de parecer jurídico, não se aplica quando provas da prática de atos ilícitos culposos constarem nos autos do processo administrativo ou judicial.
+
+**D1-R08** — Segundo o Decreto nº 9.830/2019, a responsabilização pela opinião técnica não se estende de forma automática ao decisor que a adotou como fundamento de decidir.
+
+**D1-R09** — Considere que determinado agente público, ao emitir opinião técnica, tenha dado causa a dano ao erário de montante expressivo. Nessa situação, segundo o Decreto nº 9.830/2019, o montante do dano, por si só, não pode ser elemento para caracterizar o erro grosseiro ou o dolo do agente.
+
+**D1-R10** — Segundo o Decreto nº 9.830/2019, o disposto em seu art. 12 afasta a possibilidade de aplicação de sanções previstas em normas disciplinares, inclusive nos casos de ação ou de omissão culposas de natureza leve.
+
+**D1-R11** — Considere que o processo licitatório tenha chegado ao final da fase preparatória. Nessa situação, nos termos da Lei nº 14.133/2021, ele seguirá para o órgão de assessoramento jurídico da Administração, que realizará controle posterior de legalidade mediante análise jurídica da contratação.
+
+**D1-R12** — Considere que um órgão público faça contratação direta por inexigibilidade de licitação. Nessa situação, nos termos da Lei nº 14.133/2021, o processo deverá ser instruído com parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos.

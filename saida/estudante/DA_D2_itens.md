@@ -167,3 +167,165 @@ Itens para julgar (C = certo, E = errado). Gabarito e justificativas no arquivo 
 **D2-79** — Segundo a Lei nº 9.784/1999, salvo disposição legal específica, é de cinco dias o prazo para interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão recorrida.
 
 **D2-80** — Segundo a Lei nº 9.784/1999, somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados quando sejam ilícitas, impertinentes, desnecessárias ou protelatórias, hipótese em que o interessado perde o direito de recorrer da decisão final do processo.
+
+## Itens de reforço
+
+**D2-R01** — Nos termos do art. 37, XVII, da Constituição Federal, a proibição de acumular estende-se a empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e sociedades controladas, direta ou indiretamente, pelo poder público.
+
+**D2-R02** — Considere que candidato aprovado em concurso público de provas ou de provas e títulos esteja dentro do prazo improrrogável previsto no edital de convocação para assumir cargo na carreira. Nessa situação, segundo a Constituição Federal, ele será convocado com prioridade sobre novos concursados.
+
+**D2-R03** — Considere que servidor público da administração direta, ocupante de cargo efetivo em órgão do Poder Legislativo da União, tenha sido investido em mandato eletivo estadual. Nessa situação, nos termos do art. 38 da Constituição Federal, havendo compatibilidade de horários, ele perceberá as vantagens de seu cargo, sem prejuízo da remuneração do cargo eletivo.
+
+**D2-R04** — Segundo o art. 37, VII, da Constituição Federal, o direito de greve será exercido nos termos e nos limites definidos em lei complementar.
+
+**D2-R05** — Considere que, em órgão do Poder Legislativo da União, servidor titular de cargo efetivo tenha sofrido limitação em sua capacidade física. Nessa situação, de acordo com a Constituição Federal, ele poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com a limitação, passando a perceber a remuneração do cargo de destino.
+
+**D2-R06** — Segundo o art. 37, XIV, da Constituição Federal, os acréscimos pecuniários percebidos por servidor público não serão computados nem acumulados para fins de concessão de acréscimos ulteriores.
+
+**D2-R07** — De acordo com a Constituição Federal, o servidor abrangido por regime próprio de previdência social será aposentado compulsoriamente, com proventos proporcionais ao tempo de contribuição, aos 65 anos de idade, ou aos 75 anos, na forma de lei complementar.
+
+**D2-R08** — Considere que servidor aposentado nos termos do art. 40 da Constituição Federal seja nomeado para cargo em comissão declarado em lei de livre nomeação e exoneração. Nessa situação, nos termos do art. 37, § 10, da Constituição Federal, ele poderá perceber simultaneamente os proventos de aposentadoria e a remuneração desse cargo.
+
+**D2-R09** — De acordo com a Constituição Federal, a União, os Estados e o Distrito Federal manterão escolas de governo para a formação e o aperfeiçoamento dos servidores públicos, constituindo-se a participação nos cursos um dos requisitos para a promoção na carreira.
+
+**D2-R10** — Considere que servidor estável lotado em órgão do Poder Legislativo da União tenha sido demitido e que a demissão tenha sido invalidada por sentença judicial. Nessa situação, conforme a Constituição Federal, o servidor será reintegrado, e o eventual ocupante da vaga, se estável, será reintegrado ao cargo de origem, sem direito a indenização.
+
+**D2-R11** — Segundo a Lei nº 8.112/1990, a investidura em cargo público ocorrerá com a nomeação.
+
+**D2-R12** — Nos termos da Lei nº 8.112/1990, é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei.
+
+**D2-R13** — Considere que a jornada de trabalho de servidor federal seja fixada em razão das atribuições pertinentes ao respectivo cargo. Nessa situação, segundo a Lei nº 8.112/1990, deve ser respeitada a duração máxima do trabalho semanal de quarenta e quatro horas, observados os limites mínimo e máximo de seis horas e oito horas diárias.
+
+**D2-R14** — De acordo com o art. 39, § 3º, da Constituição Federal, o edital do concurso pode estabelecer requisitos diferenciados de admissão de servidores ocupantes de cargo público quando a natureza do cargo o exigir.
+
+**D2-R15** — Considere que servidor ocupe cargo em comissão na administração pública federal. Nessa situação, conforme a Lei nº 8.112/1990, ele se submete a regime de integral dedicação ao serviço, podendo ser convocado sempre que houver interesse da Administração.
+
+**D2-R16** — Segundo a Lei nº 8.112/1990, as universidades e instituições de pesquisa científica e tecnológica federais poderão prover seus cargos com professores, técnicos e cientistas estrangeiros, de acordo com as normas e os procedimentos dessa lei.
+
+**D2-R17** — Nos termos da Lei nº 8.112/1990, exercício é o efetivo desempenho das atribuições do cargo público ou da função de confiança.
+
+**D2-R18** — Segundo a Lei nº 8.112/1990, às pessoas portadoras de deficiência serão reservadas, no mínimo, 20% das vagas oferecidas no concurso para provimento de cargo cujas atribuições sejam compatíveis com a deficiência.
+
+**D2-R19** — Considere que servidor federal acumule licitamente dois cargos efetivos e tenha sido investido em cargo de provimento em comissão. Nessa situação, nos termos da Lei nº 8.112/1990, ele ficará afastado de ambos os cargos efetivos, salvo na hipótese de haver compatibilidade de horário e local com o exercício de um deles, declarada pelas autoridades máximas dos órgãos ou entidades envolvidos.
+
+**D2-R20** — Considere que servidor tenha tomado posse em cargo efetivo e não tenha entrado em exercício no prazo estabelecido. Nessa situação, segundo a Lei nº 8.112/1990, ele será demitido de ofício.
+
+**D2-R21** — Segundo o Decreto nº 10.835/2021, na requisição de agente público não há prejuízo da remuneração ou do salário permanente, incluídos encargos sociais, abono pecuniário, gratificação natalina, férias e adicional de um terço.
+
+**D2-R22** — Segundo o Decreto nº 10.835/2021, a competência para disponibilizar a requisição é do Ministro de Estado ou da autoridade máxima do órgão ou da entidade requisitante.
+
+**D2-R23** — Nos termos da Lei nº 6.999/1982, no caso de acúmulo ocasional de serviço na zona eleitoral, outros servidores podem ser requisitados pelo prazo máximo e improrrogável de um ano.
+
+**D2-R24** — Considere que servidor de órgão da administração pública federal tenha sido requisitado para prestar serviço em cartório eleitoral. Nessa situação, nos termos da Lei nº 6.999/1982, ele conservará os direitos e vantagens inerentes ao exercício de seu cargo ou emprego.
+
+**D2-R25** — De acordo com a Lei nº 6.999/1982, na requisição de servidor por acúmulo ocasional de serviço na zona eleitoral, somente após decorrido um ano poderá haver nova requisição do mesmo servidor.
+
+**D2-R26** — Considere que servidor tenha sido cedido a órgão da administração pública federal e que a cessão seja convertida em requisição. Nessa situação, segundo o Decreto nº 10.835/2021, fica dispensado novo ato de requisição.
+
+**D2-R27** — Considere que servidor requisitado participe de concurso de remoção para alteração da unidade de lotação ou de exercício. Nessa situação, de acordo com o Decreto nº 10.835/2021, a eventual alteração material do local de exercício ou de lotação se dará de imediato, ainda durante a requisição.
+
+**D2-R28** — Segundo o Decreto nº 10.835/2021, as requisições que impliquem reembolso pela administração pública federal ocorrem com a observância da disponibilidade orçamentária e financeira do órgão ou da entidade responsável pelo ônus do ressarcimento.
+
+**D2-R29** — Segundo o Decreto nº 10.835/2021, o disposto nesse decreto, aplicável às cessões, às requisições e às alterações de exercício para composição da força de trabalho, abrange os empregados de empresas estatais.
+
+**D2-R30** — Segundo a Lei nº 6.999/1982, as requisições para as Secretarias dos Tribunais Eleitorais que não se destinem à nomeação para cargo em comissão são feitas por prazo indeterminado.
+
+**D2-R31** — Considere que determinado servidor público federal receba indenização. Nessa situação, nos termos da Lei nº 8.112/1990, a indenização não se incorpora ao vencimento ou provento para qualquer efeito.
+
+**D2-R32** — Considere que servidor de órgão do Poder Legislativo da União tenha contraído casamento. Nessa situação, nos termos da Lei nº 8.112/1990, ele poderá ausentar-se do serviço, sem qualquer prejuízo, por dez dias consecutivos em razão do casamento.
+
+**D2-R33** — Segundo a Lei nº 8.112/1990, o valor de cada parcela da reposição ao erário não pode ser inferior a vinte por cento da remuneração, provento ou pensão.
+
+**D2-R34** — De acordo com a Lei nº 8.112/1990, nenhum servidor receberá remuneração inferior ao salário mínimo.
+
+**D2-R35** — Considere que, em órgão do Poder Legislativo da União, servidor entre em gozo de férias. Nessa situação, conforme a Lei nº 8.112/1990, independentemente de solicitação, será pago ao servidor adicional correspondente a um terço da remuneração do período das férias.
+
+**D2-R36** — Segundo a Lei nº 8.112/1990, ao servidor em estágio probatório somente poderão ser concedidas as licenças e os afastamentos previstos nos arts. 81, incisos I a IV, 94, 95 e 96, bem como o afastamento para participar de curso de formação decorrente de aprovação em concurso para outro cargo na Administração Pública Federal.
+
+**D2-R37** — Considere que servidor ocupante de cargo efetivo em órgão do Poder Legislativo da União tenha completado um quinquênio de efetivo exercício. Nessa situação, de acordo com a Lei nº 8.112/1990, ele poderá, no interesse da Administração, afastar-se do exercício do cargo, com a respectiva remuneração, por até seis meses para participar de curso de capacitação profissional.
+
+**D2-R38** — Considere que servidor que se encontrava em disponibilidade retorne à atividade. Nessa situação, segundo a Lei nº 8.112/1990, o retorno far-se-á mediante aproveitamento obrigatório em cargo de atribuições e vencimentos compatíveis com o anteriormente ocupado.
+
+**D2-R39** — Considere que servidor lotado em órgão do Poder Legislativo da União tenha direito a trinta dias de férias. Nessa situação, nos termos da Lei nº 8.112/1990, as férias poderão ser acumuladas, até o máximo de dois períodos, a pedido do servidor.
+
+**D2-R40** — Segundo a Lei nº 8.112/1990, as diárias destinam-se a compensar as despesas de instalação do servidor que, no interesse do serviço, passa a ter exercício em nova sede, com mudança de domicílio em caráter permanente.
+
+**D2-R41** — Considere que servidor estável de órgão do Poder Legislativo da União tenha sido condenado por sentença judicial ainda sujeita a recurso. Nessa situação, nos termos da Constituição Federal, ele perderá o cargo em virtude dessa sentença.
+
+**D2-R42** — Considere que servidor público federal seja acusado em processo administrativo disciplinar. Nessa situação, nos termos da Constituição Federal, aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes.
+
+**D2-R43** — A Lei nº 9.784/1999 prevê, entre os critérios a serem observados nos processos administrativos, a atuação segundo padrões éticos de probidade, decoro e boa-fé.
+
+**D2-R44** — Entre os critérios a serem observados nos processos administrativos regidos pela Lei nº 9.784/1999 consta a divulgação oficial dos atos administrativos, ressalvadas as hipóteses de sigilo previstas em regulamento do órgão.
+
+**D2-R45** — Constitui critério a ser observado nos processos administrativos, segundo a Lei nº 9.784/1999, a indicação dos pressupostos de fato e de direito que determinarem a decisão.
+
+**D2-R46** — Considere que servidor público estável seja acusado de infração funcional em processo administrativo. Nessa situação, de acordo com a Constituição Federal, ele poderá perder o cargo mediante processo administrativo em que lhe seja assegurada ampla defesa.
+
+**D2-R47** — Considere que, no desempenho de função administrativa, órgão do Poder Legislativo da União tenha instaurado processo administrativo de ofício. Nessa situação, nos termos da Lei nº 9.784/1999, deve ser observado o critério de impulsão, de ofício, do processo, vedada a atuação dos interessados.
+
+**D2-R48** — Segundo a Lei nº 9.784/1999, nos processos administrativos será observado o critério de adoção de formas solenes, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados.
+
+**D2-R49** — Segundo a Constituição Federal, ninguém será privado da liberdade ou de seus bens sem o devido processo legal.
+
+**D2-R50** — Considere que órgão do Poder Legislativo da União, ao exercer função administrativa, conduza processo administrativo. Nessa situação, segundo a Lei nº 9.784/1999, deve ser observado o critério de observância das formalidades essenciais à garantia do interesse da Administração.
+
+**D2-R51** — Segundo a Lei nº 8.112/1990, a destituição de cargo em comissão exercido por não ocupante de cargo efetivo será aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão.
+
+**D2-R52** — Segundo a Lei nº 8.112/1990, configura abandono de cargo a ausência intencional do servidor ao serviço por mais de vinte dias consecutivos.
+
+**D2-R53** — Considere que determinada infração disciplinar, praticada por servidor público federal, esteja capitulada também como crime. Nessa situação, segundo a Lei nº 8.112/1990, aplicam-se à infração disciplinar os prazos de prescrição previstos na lei penal.
+
+**D2-R54** — Considere que um servidor lotado em órgão do Poder Legislativo da União se recuse, injustificadamente, a ser submetido a inspeção médica determinada pela autoridade competente. Nessa situação, nos termos da Lei nº 8.112/1990, ele será punido com suspensão de até trinta dias, cessando os efeitos da penalidade uma vez cumprida a determinação.
+
+**D2-R55** — De acordo com a Lei nº 8.112/1990, a penalidade de destituição de cargo em comissão é aplicada pelo chefe da repartição e por outras autoridades, na forma dos respectivos regimentos ou regulamentos.
+
+**D2-R56** — Segundo a Lei nº 8.112/1990, entende-se por inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses.
+
+**D2-R57** — Segundo a Lei nº 8.112/1990, o prazo de prescrição da ação disciplinar começa a correr da data em que o fato foi praticado.
+
+**D2-R58** — Considere que determinado servidor de órgão do Poder Legislativo da União pratique, na repartição, incontinência pública e conduta escandalosa. Nessa situação, a Lei nº 8.112/1990 prevê a aplicação da penalidade de suspensão.
+
+**D2-R59** — Segundo a Lei nº 8.112/1990, a responsabilidade penal do servidor público federal abrange as infrações disciplinares a ele imputadas, nessa qualidade.
+
+**D2-R60** — Considere que determinado servidor federal tenha sido demitido por corrupção. Nessa situação, nos termos da Lei nº 8.112/1990, a demissão implica a indisponibilidade dos bens e o ressarcimento ao erário, sem prejuízo da ação penal cabível.
+
+**D2-R61** — Na Lei nº 9.784/1999, a amizade íntima ou a inimizade notória com algum dos interessados configura hipótese de suspeição, e não de impedimento, da autoridade ou do servidor.
+
+**D2-R62** — Considere que a Administração Pública, diante de risco iminente, adote motivadamente providência acauteladora antes de ouvir o interessado. Nessa situação, nos termos da Lei nº 9.784/1999, a providência é juridicamente admitida.
+
+**D2-R63** — De acordo com a Lei nº 9.784/1999, o indeferimento de alegação de suspeição poderá ser objeto de recurso, o qual terá efeito suspensivo.
+
+**D2-R64** — Considere que um dos vários interessados em processo administrativo federal tenha formulado desistência do pedido apresentado. Nessa situação, segundo a Lei nº 9.784/1999, a desistência atinge somente quem a tenha formulado.
+
+**D2-R65** — Considere que determinado processo administrativo, conduzido por órgão do Poder Legislativo da União no desempenho de função administrativa, tenha tido a instrução encerrada. Nessa situação, nos termos da Lei nº 9.784/1999, o interessado terá o direito de manifestar-se no prazo máximo de quinze dias, salvo se outro prazo for legalmente fixado.
+
+**D2-R66** — Nos termos da Lei nº 9.784/1999, o recurso administrativo é dirigido diretamente à autoridade superior àquela que proferiu a decisão recorrida, a quem cabe apreciá-lo.
+
+**D2-R67** — Nos processos administrativos regidos pela Lei nº 9.784/1999, os prazos expressos em dias contam-se em dias úteis, excluído da contagem o dia do começo e incluído o do vencimento.
+
+**D2-R68** — Considere que, em processo administrativo federal, existam interessados indeterminados, desconhecidos ou com domicílio indefinido. Nessa situação, conforme a Lei nº 9.784/1999, a intimação deve ser efetuada por meio de publicação oficial.
+
+**D2-R69** — Segundo a Lei nº 9.784/1999, têm prioridade na tramitação, em qualquer órgão ou instância, os procedimentos administrativos em que figure como parte ou interessado pessoa com idade igual ou superior a cinquenta e cinco anos.
+
+**D2-R70** — Segundo a Lei nº 9.784/1999, as sanções, a serem aplicadas por autoridade competente, terão natureza pecuniária ou consistirão em obrigação de fazer ou de não fazer, assegurado sempre o direito de defesa.
+
+**D2-R71** — Segundo a Lei nº 8.112/1990, o relatório da comissão do processo disciplinar será sempre conclusivo quanto à inocência ou à responsabilidade do servidor.
+
+**D2-R72** — Nos termos da Lei nº 8.112/1990, o processo disciplinar poderá ser revisto, a qualquer tempo, a pedido ou de ofício, quando se aduzirem fatos novos ou circunstâncias suscetíveis de justificar o agravamento da penalidade aplicada.
+
+**D2-R73** — Segundo a Lei nº 8.112/1990, na fase de inquérito administrativo do processo disciplinar, o indiciado, citado por mandado expedido pelo presidente da comissão, tem prazo de cinco dias para apresentar defesa escrita, assegurando-se-lhe vista do processo na repartição.
+
+**D2-R74** — Considere que servidor tenha sido afastado preventivamente do exercício do cargo, como medida cautelar em processo disciplinar, e que o afastamento tenha sido prorrogado por igual prazo. Nessa situação, nos termos da Lei nº 8.112/1990, findo o prazo da prorrogação, o afastamento continua a produzir efeitos até a conclusão do processo.
+
+**D2-R75** — Considere que o relatório de sindicância conclua que a infração apurada está capitulada como ilícito penal. Nessa situação, conforme a Lei nº 8.112/1990, a autoridade competente encaminhará cópia dos autos ao Ministério Público, independentemente da imediata instauração do processo disciplinar.
+
+**D2-R76** — Segundo a Lei nº 8.112/1990, julgada procedente a revisão do processo disciplinar, a destituição de cargo em comissão aplicada ao servidor é convertida em exoneração, ao contrário das demais penalidades, que são declaradas sem efeito.
+
+**D2-R77** — Considere que servidor de órgão do Poder Legislativo da União responda a processo disciplinar e peça exoneração. Nessa situação, nos termos da Lei nº 8.112/1990, a exoneração a pedido poderá ser concedida antes da conclusão do processo e do cumprimento da penalidade, acaso aplicada.
+
+**D2-R78** — Considere que testemunha convocada em processo disciplinar pretenda trazer à comissão o seu depoimento por escrito. Nessa situação, conforme a Lei nº 8.112/1990, não é lícito à testemunha trazer o depoimento por escrito, pois ele será prestado oralmente e reduzido a termo.
+
+**D2-R79** — Segundo a Lei nº 8.112/1990, havendo mais de um indiciado no processo disciplinar e diversidade de sanções, o julgamento cabe à autoridade competente para a imposição da pena mais grave, e não a cada autoridade competente para a pena de cada indiciado.
+
+**D2-R80** — Segundo a Lei nº 8.112/1990, para defender o indiciado revel, o presidente da comissão designará um servidor como defensor dativo, que deverá ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter nível de escolaridade igual ou superior ao do indiciado.

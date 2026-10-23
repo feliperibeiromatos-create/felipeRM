@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 69 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 70 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -939,6 +939,7 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): (a) consolidação da v1.
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c2) | D-T116-LEVA3-ACEITE APLICADA (22/10, ciclo s16c2): 30 itens D3-R22 a R51 à v1.14 (T-123); errata AJ-L2-E1 à GBQ na consolidação; T-116 leva 4: 28 itens (15 C / 13 E; [TS] 13), R1 0/28, R2 0/28; reconciliação e ficha com a seção 11 e a ficha da leva 5; gatilho A da GCB em PARA_PRESIDENCIA.md (aceite dos 28 itens); ficha da leva 5 condicionada a adendo de lastro; ESTADO versão 67 |
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c3) | D-T116-LEVA4-ACEITE APLICADA (22/10, ciclo s16c3): 28 itens D3-R52 a R59 e D2-R01 a R20 à v1.14 (T-123); item (f) acrescido à T-120; adendo D2 ao Anexo N (4.1; saida/gcb/D2_anexo_N_adendo_2026-10-22.md); T-116 leva 5: 30 itens (16 C / 14 E; [TS] 14), R1 0/30, R2 0/30; moldura DA 50 C / 34 E (meta cumprida, sujeita a aceite e recontagem da GBQ); gatilho A da GCB em PARA_PRESIDENCIA.md; leva 6 despachável sem adendo; CORREÇÃO DE REDE (planalto.gov.br não bloqueado; supera registros de s16c1 e s16c2); ESTADO versão 68 |
 | 22/10 | Secretaria (relato do orquestrador, ciclo s16c4) | D-T116-LEVA5-ACEITE APLICADA (22/10, ciclo s16c4): 30 itens D2-R21 a R50 à v1.14 (T-123); D-T120F-REDACAO APLICADA (T-120 (f) reescrita como conferência de base comum); T-116 leva 6: 30 itens (14 C / 16 E; [TS] 15), R1 30/30, R2 0/30; moldura DA 50 C / 38 E; reconciliação e ficha com a seção 13 e a ficha da leva 7; gatilho A da GCB em PARA_PRESIDENCIA.md; leva 7 condicionada a adendo do D3 (qa-normativo-da); ESTADO versão 69 |
+| 22/10 | Secretaria (relato do orquestrador, ciclo s16c5) | D-T116-LEVA6-ACEITE APLICADA (22/10, ciclo s16c5): 30 itens D2-R51 a R80 à v1.14 (T-123); adendo ao Anexo N do D3 (qa-normativo-da; saida/gcb/D3_anexo_N_adendo_2026-10-22.md, 826e32b5…5c43): 34 dispositivos (5.1: CF, arts. 84 e 87; 6.1: CC, arts. 40 a 42, CF, art. 136, Lei 4.619, Decreto 20.910) e 3 só mapeados, com reabertura no planalto (HTTP 200; Lei 4.619 só em https); GCB conferiu (ficha 13.6): 6.1 com 12 diretos e 8 parciais, piso de 10 diretos cumprido; T-116 leva 7: 30 itens (15 C / 15 E; [TS] 13), R1 0/30, R2 0/30; D3-R75 com oração da justificativa pendente; gatilho A da GCB (parte I, aceite dos 30 itens; parte II, tratamento do D3-R75); leva 8 condicionada a adendo do D4 e à errata AJ-L7-E1; ESTADO versão 70 |
 
 ## Atualização 20/10/2026 — Direito Administrativo na plataforma (v1.13 / v16)
 
@@ -1130,3 +1131,27 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 | Adendo do qa-normativo-da ao Anexo N do D3 (5.1: CF, art. 84, II e XXV, art. 87, parágrafo único, I, II e IV; 6.1: CC, arts. 40 a 42; CF, art. 136, § 1º, II; Lei 4.619, arts. 4º e 6º; Decreto 20.910, arts. 2º a 10), necessário para despachar a leva 7 (5.1, 6.1, 7; D3-R60 a R89); reabertura no planalto com User-Agent de navegador; sem ele, a 6.1 fica abaixo de 20 | GCB (qa-normativo-da) | 22/10 |
 
 - **Próximo:** adendo do Anexo N do D3 (qa-normativo-da); depois, leva 7 (T-116).
+
+## Atualização 22/10/2026 — Ciclo s16c5 — sessão s16
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Decisões:** D-T116-LEVA6-ACEITE APLICADA em 22/10 (ciclo s16c5): 30 itens D2-R51 a R80 incorporados à v1.14 (T-123).
+- **Adendo ao Anexo N do D3** (qa-normativo-da): saida/gcb/D3_anexo_N_adendo_2026-10-22.md (826e32b5…5c43), 34 dispositivos (5.1: CF, arts. 84 e 87; 6.1: CC, arts. 40 a 42, CF, art. 136, Lei 4.619, Decreto 20.910) e 3 só mapeados, com reabertura no planalto (HTTP 200; Lei 4.619 só em https). GCB conferiu (ficha 13.6): 6.1 com 12 diretos e 8 parciais, piso de 10 diretos cumprido.
+- **T-116 leva 7 CONCLUÍDA** (reforço de DA; folhas P1-DA-5.1, 6.1 e 7; D3-R60 a R89; 30 itens; 15 C / 15 E; [TS] 13; 22 diretos / 8 parciais; folhas fecham em 20). Cadeia: v1 gcb-cpp (fdafc3bd…a0ed); R1 gcb-cqfp 0/30, AJ-1 a 8 no D3-R68 (f65132cf…a2ab); estilo 5 CONFORME (fd59ea46…98e1); v2 (c4f50b9e…f764); R2 APROVADA 0/30 (b438acec…c705); reconciliação gcb-gerencia (17f3017f…c9ee); ficha com a seção 14 e a ficha da leva 8 (f4baf35a…f9e9).
+- **Moldura de DA:** 50 C / 40 E (55,6%), conforme o relato do orquestrador. Registro da s16c4: 50 C / 38 E. O relato não informa a origem da variação de 38 para 40 E.
+- **Pendente (D3-R75):** oração da justificativa, linha 2, do D3-R75 («a tentação é lembrar de outro limite de desconto fora desta lei»), afirmação sem fonte. D3-R75 fica fora da v1.14 e de simulado até lá.
+- **Errata AJ-L7-E1** em rito próprio: conferência normativa pelo qa-normativo-da no adendo da leva 8; conferência de aplicação pela gcb-cqfp no R1 da leva 8; pergunta própria no gatilho A da leva 8.
+- **Gatilho A da GCB** em PARA_PRESIDENCIA.md, com parte (I), aceite dos 30 itens, e parte (II), tratamento do D3-R75.
+- **Leva 8** (8.2, 8.3 e 9.1; D4-R29 a R58) não despachável ainda: depende de adendo do qa-normativo-da ao Anexo N do D4 (Guia da Política de Governança Pública 2018, Leis 9.637, 9.790, 13.019 e 13.460) e da conferência da errata AJ-L7-E1.
+- **Gates:** nenhum.
+- **Próximo:** adendo do Anexo N do D4 (qa-normativo-da) e conferência da errata AJ-L7-E1; depois, leva 8 (T-116).
+
+### Pendências abertas (acrescidas em 22/10/2026, ciclo s16c5)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| Gatilho A da GCB: parte (I), aceite dos 30 itens da leva 7; parte (II), tratamento do D3-R75 (PARA_PRESIDENCIA.md) | Presidência | 22/10 |
+| Oração da justificativa, linha 2, do D3-R75 («a tentação é lembrar de outro limite de desconto fora desta lei»), afirmação sem fonte; D3-R75 fora da v1.14 e de simulado até o tratamento | Não informado no relato | 22/10 |
+| Errata AJ-L7-E1 em rito próprio: conferência normativa (qa-normativo-da, adendo da leva 8), conferência de aplicação (gcb-cqfp, R1 da leva 8) e pergunta própria no gatilho A da leva 8 | GCB (qa-normativo-da; gcb-cqfp) | 22/10 |
+| Adendo do qa-normativo-da ao Anexo N do D4 (Guia da Política de Governança Pública 2018, Leis 9.637, 9.790, 13.019 e 13.460), necessário para despachar a leva 8 (8.2, 8.3, 9.1; D4-R29 a R58) | GCB (qa-normativo-da) | 22/10 |

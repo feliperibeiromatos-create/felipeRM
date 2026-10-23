@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 71 — 22/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 72 — 23/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -104,6 +104,8 @@ Reforço (ciclo s13c2, 18/10; relato do orquestrador): T-104 (GBQ, pacote v1.10)
 Reforço (ciclo s14c3, 18/10; relato do orquestrador): D-V112-ESCOPO (v1.12 = ordens B + A + E + onda 4 + onda 1 da F; onda 5 fica para depois). T-110 a T-113 relatadas. P1 (GCB): T-110, 46 pares convertidos em 49 pegadinhas e 26 descartados; T-111, 17 resumos; T-112, P1-8.2; T-113, L4-R01 a R07 e P1-5.2 de 23 para 30. P2 (GCE): T-110, 24 pares convertidos e 43 descartados; T-111, 23 resumos; T-112, P2-1.4 e P2-2.5; T-113, 98 de 105 itens e saldo de 7 para a onda 2 (1.1 +1, 2.1 +3, 3.1 +3). Reconciliações: saida/gcb/V15_BAEF_reconciliacao_GCB_2026-10-18.md e saida/gce/V15_BAEF_reconciliacao_GCE_2026-10-18.md. D1 da GBQ: saida/pacote/V15_BAE_D1_GBQ_2026-10-18.md (contrato v1.2.9; pegadinhas de pares em lotes[].pegadinhas). Consolidação da v1.12 pela GBQ pendente (seção 5).
 
 Reforço (ciclo s14c4, 19/10; relato do orquestrador): T-115 CONCLUÍDA: pacote v1.12 gerado pelo gerador_v1_12 (saida/pacote/gerador_v1_12/); fidelidade gbq-cqe ACEITO COM RESSALVAS, ressalvas fechadas; correção pós-fidelidade (cabeçalhos dos _estudo.md, legendas "Mecanismo" retiradas, gerador em LF); conferência em clone limpo CONFERE; promoção em saida/pacote/T115_promocao_v1_12_2026-10-18.md; v1.12 canônica por D-PACOTE-V112. T-110, T-111 e T-112 CONCLUÍDAS (entram na v1.12). T-113 onda 1 CONCLUÍDA; as ondas seguintes aguardam o sim do Fundador. Cobertura da v1.12 (T-95) em saida/pacote/cobertura_v1_12.md: 749 itens, 736 em folhas; 14 folhas P1 abaixo de 20; 9 folhas no total de 30 itens.
+
+Reforço (ciclo s17c1, 23/10; relato do orquestrador, sessão s17 no PC do Fundador): T-123 CONCLUÍDA: pacote v1.14 canônico (D-PACOTE-V114-CANONICO), 1.433 itens (C/E 730/703; DA 684), com 238 itens de reforço de DA das levas 1 a 8 e 36 de banco; limpeza de 103 marcas de produção pela GCB, conferida; fidelidade gbq-cqe ACEITO; contrato v1.2.12; adendo 6; cobertura em saida/pacote/cobertura_v1_14.md; Presidência D-T123-LIMPEZA-ACEITE. T-125 CONCLUÍDA: plataforma v17 (QA R1 com ressalvas; R2 APROVADO; D-PLATAFORMA-V17-ACEITE), publicada em 23/10/2026 no link da candidata, versão 18 do artifact (D-PLATAFORMA-V17-PUBLICACAO; pacote embutido 070bc237…). Pendências: T-126 (estudo de login), leva 9 do reforço de DA (D-LEVA9-FILA), T-99, T-113 ondas seguintes (dependem de sim do Fundador) e itens abertos de PARA_FUNDADOR.md.
 
 ## 3. DECISÕES VIGENTES
 
@@ -363,6 +365,15 @@ Reforço (ciclo s14c4, 19/10; relato do orquestrador): T-115 CONCLUÍDA: pacote 
 | D-V112-BAEF-P2-ACEITE | 18/10 (ciclo s14c3) | Aceite da reconciliação BAEF do P2 (GCE): T-110 P2 (24 pares convertidos; 43 descartados), T-111 P2 (23 resumos), T-112 P2-1.4 e P2-2.5, T-113 P2 (98 de 105 itens; 5 ids vagos L1-R140, L2-R136, R137, R140 e L3-R101; L3-R103 e R104 adiados; saldo 7 para a onda 2: 1.1 +1, 2.1 +3, 3.1 +3). Reconciliação em saida/gce/V15_BAEF_reconciliacao_GCE_2026-10-18.md. AUDITORIA com confiança média no P2 | Presidência (AUDITORIA) |
 | D-PACOTE-V112 | 19/10 (ciclo s14c4) | v1.12 canônica, substituindo a v1.11 (D-PACOTE-V111). pacote.json SHA-256 3476525319…; pacote_estudante.json (-E) SHA-256 23224c96…; 749 itens (380 C e 369 E); 86 VOLÁTEIS; 94 PARCIAIS; 73 pegadinhas novas; topicos com 40 resumos e 3 pilotos; contrato v1.2.9; adendo 4 do registro AUTORAL. Fidelidade gbq-cqe ACEITO COM RESSALVAS, com as ressalvas fechadas; correção pós-fidelidade (cabeçalhos dos _estudo.md, legendas "Mecanismo" retiradas, gerador em LF); conferência em clone limpo CONFERE; promoção em saida/pacote/T115_promocao_v1_12_2026-10-18.md. | Presidência |
 | D-PLATAFORMA-V112-FUNDADOR | 19/10 (ciclo s14c4) | Decorrência de D-PACOTE-V112: a publicação da v1.12 à candidata é RESERVADA do Fundador (PARA_FUNDADOR.md); supera D-PLATAFORMA-V111-FUNDADOR | Fundador (RESERVADA; seção 5) |
+| D-V114-PUBLICAR | 23/10 (ciclo s17c1; sessão s17) | Decisão do Fundador: montar a v1.14 e republicar. Executada por T-123 (pacote v1.14) e T-125 (plataforma v17) | Fundador |
+| D-V17-DESIGN | 23/10 (sessão s17) | Mudanças do documento Word "Prompt - Melhorias Gráficas de Design e Funcionalidades" numa plataforma v17, publicada junto com a v1.14. Login e senha ficam fora (estudo T-126). Ordem em ordens/ORDEM_V17_DESIGN.md | Fundador |
+| D-V17-NOTA-TOPICO | 23/10 (sessão s17) | Nota do tópico dividida pelo menor entre 30 e o número de questões distintas do tópico no banco | Fundador |
+| D-T123-LIMPEZA-ACEITE | 23/10 (ciclo s17c1) | Aceite da limpeza de 103 marcas de produção pela GCB na T-123 (conferida) | Presidência |
+| D-PACOTE-V114-CANONICO | 23/10 (ciclo s17c1) | v1.14 canônica: 1.433 itens (C/E 730/703; DA 684); 238 itens de reforço de DA (levas 1 a 8) e 36 de banco; contrato v1.2.12; adendo 6; fidelidade gbq-cqe ACEITO. Supera D-PACOTE-V113-CANONICO | Presidência |
+| D-PLATAFORMA-V17-ACEITE | 23/10 (ciclo s17c1) | Plataforma v17 aceita: QA R1 com ressalvas e R2 APROVADO | Não informado no relato |
+| D-PLATAFORMA-V17-PUBLICACAO | 23/10 (ciclo s17c1) | Publicação da plataforma v17 no link da candidata, versão 18 do artifact; pacote embutido 070bc237…. Supera D-PLATAFORMA-V16-PUBLICACAO | Não informado no relato |
+| D-PACOTE-V113-CANONICO (SUPERADA por D-PACOTE-V114-CANONICO, 23/10) | 20/10 (ciclo s15c1) | Pacote v1.13 canônico (gatilho A da GBQ, T-118; SIM da Presidência de Ciclo). Registro na seção 6 de 20/10 | Presidência de Ciclo |
+| D-PLATAFORMA-V16-PUBLICACAO (SUPERADA por D-PLATAFORMA-V17-PUBLICACAO, 23/10) | 20/10 | Publicação da plataforma v16 no link da candidata (versão 17 do artifact), com o sim do Fundador | Fundador |
 
 * Registros da fila de 8/10 (Fundador_Fila_Presidencia.md): decisões D1 das Gerências, que a Presidência ainda não viu; entram aqui como "conforme bloco" e a Secretaria não as valida. Em 9/10 (v27) a Presidência processou a Fila e decidiu as matérias nomeadas nas linhas de 9/10 acima. As linhas com asterisco que o bloco não nomeia (regra P9 da GCE, GBQ-CSC-RES, GCE-CPP-2 e demais) seguem como estavam, sem ratificação expressa. Nota de datas: o bloco da Presidência data as decisões de 9/10 e as atribui à Presidência; o registro da PRES-S (10/10) data as mesmas decisões de 08/10 e as atribui à PRES-S sob a D-DELEG-12H; a Secretaria registra as duas leituras e não as concilia.
 
@@ -550,6 +561,11 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | saida/gce/T113_onda1_A_v2.md; T113_onda1_B_v2.md; T113_onda1_C_v2.md; T113_onda1_D_v2.md | Onda 1 da F (T-113), partes A a D, v2 | PRODUZIDOS (18/10, s14c3) |
 | saida/gce/QA_T113_A_R1, A_R2, B_R1, B_R2, C_R1, C_R2, D_R1 e D_R2 (sufixo _2026-10-18_gce-cqfp.md) | QA gce-cqfp da onda 1 da F, rodadas R1 e R2 | PRODUZIDOS (18/10, s14c3) |
 | saida/gce/T113_D_normativo_2026-10-18_qa-normativo.md | QA normativo da onda 1 da F, parte D (LGPD; R105 a R108 CONFEREM) | PRODUZIDO (18/10, s14c3) |
+| Pacote v1.14 (pacote.json e pacote_estudante.json, -E; 1.433 itens) | Pacote canônico (D-PACOTE-V114-CANONICO); SHA-256 não informados no relato | CANÔNICO (23/10, s17c1) |
+| saida/pacote/cobertura_v1_14.md | Cobertura da v1.14 (T-95) | PRODUZIDO (23/10, s17c1) |
+| ordens/ORDEM_V17_DESIGN.md | Ordem da plataforma v17 (D-V17-DESIGN) | VIGENTE (23/10, s17) |
+| Documento Word "Prompt - Melhorias Gráficas de Design e Funcionalidades" | Fonte das mudanças da v17 (D-V17-DESIGN); localização não informada no relato | VIGENTE (23/10, s17) |
+| Plataforma v17 (artifact, versão 18; pacote embutido 070bc237…) | Plataforma publicada no link da candidata (D-PLATAFORMA-V17-PUBLICACAO) | PUBLICADA (23/10/2026); SUPERA a v16 |
 
 Reforço (ciclo s14c1, 18/10; relato do orquestrador): ordens/ (C, D, B, A, E, F; encomenda v15, no repositório); saida/gce/T108_substituicoes_GCE_v3.csv (271 linhas, SHA-256 77ad3ac3…); saida/gcb/T108_substituicoes_GCB.csv (525 linhas, SHA-256 10d9e558…); saida/pacote/gerador_v1_11/ e saida/pacote/T108_ensaio_gerador_v1_11_2026-10-18.md (ENSAIO, gbq-csc; pacote final não gerado); saida/banco/T113_projecao_2026-10-18.md (projeção, T-113).
 
@@ -691,6 +707,10 @@ Reforço (ciclo s14c1, 18/10; relato do orquestrador): ordens/ (C, D, B, A, E, F
 | Gatilho E da T-98 (piso de 10 diretos na P2-4.1: 26 itens, 5 diretos) em decisão pela presidencia | Presidência | 18/10 (s13c2) |
 | Publicação da v1.12 à candidata (D-PLATAFORMA-V112-FUNDADOR; RESERVADA; PARA_FUNDADOR.md) | Fundador | 19/10 |
 | Ondas seguintes da F (além da onda 1, T-113) | Fundador (sim) | 19/10 |
+| T-126: estudo de login (login e senha fora da v17; D-V17-DESIGN) | Não informado no relato | 23/10 |
+| Leva 9 do reforço de DA (D-LEVA9-FILA) | Não informado no relato | 23/10 |
+| T-99 (parte (3) da D-T113-FUNDADOR, sem resposta do Fundador) | Fundador | 23/10 |
+| Itens abertos de PARA_FUNDADOR.md (o relato não os lista) | Fundador | 23/10 |
 
 Fechadas na v6: identificar o conteúdo do 4536C347…pdf (cargo permanece em aberto, acima).
 Fechadas na v14 (conforme a GCB; as decisões da Presidência não chegaram diretamente à Secretaria): rota dos itens AUTORAL (pacote.json, sem bloco à GBQ); FV INATIVO em vez de DESCARTADO.
@@ -1185,3 +1205,14 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 | Recontagem da moldura de DA pela GBQ na v1.14: relato s16c6 informa 50 C / 44 E; a soma direta das levas não coincide e a origem não foi informada | GBQ | 22/10 |
 
 - **Próximo:** leva 9 (T-116), após o adendo do qa-normativo-da. [depende da pendência de adendo acima]
+
+## Atualização 23/10/2026 — Ciclo s17c1 — sessão s17 (Claude Code no PC do Fundador)
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **T-123** CONCLUÍDA (23/10): pacote v1.14 canônico (D-PACOTE-V114-CANONICO), 1.433 itens (C/E 730/703; DA 684); 238 itens de reforço de DA (levas 1 a 8) e 36 de banco; limpeza de 103 marcas de produção pela GCB, conferida (D-T123-LIMPEZA-ACEITE, Presidência); fidelidade gbq-cqe ACEITO; contrato v1.2.12; adendo 6; cobertura em saida/pacote/cobertura_v1_14.md.
+- **T-125** CONCLUÍDA (23/10): plataforma v17 (QA R1 com ressalvas; R2 APROVADO; D-PLATAFORMA-V17-ACEITE); publicada no link da candidata, versão 18 do artifact (D-PLATAFORMA-V17-PUBLICACAO; pacote embutido 070bc237…).
+- **Decisões do Fundador (sessão s17):** D-V114-PUBLICAR (montar a v1.14 e republicar); D-V17-DESIGN (mudanças do Word "Prompt - Melhorias Gráficas de Design e Funcionalidades" numa v17, publicada junto com a v1.14; login e senha fora, estudo T-126; ordem em ordens/ORDEM_V17_DESIGN.md); D-V17-NOTA-TOPICO (nota do tópico dividida pelo menor entre 30 e as questões distintas do tópico no banco).
+- **Superadas:** D-PACOTE-V113-CANONICO, por D-PACOTE-V114-CANONICO; D-PLATAFORMA-V16-PUBLICACAO, por D-PLATAFORMA-V17-PUBLICACAO (seção 3).
+- **Pendências abertas:** T-126 (estudo de login); leva 9 do reforço de DA (D-LEVA9-FILA); T-99; T-113 ondas seguintes (dependem de sim do Fundador); itens abertos de PARA_FUNDADOR.md (seção 5).
+- **Gates:** nenhum informado no relato.

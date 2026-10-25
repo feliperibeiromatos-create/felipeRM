@@ -7,7 +7,7 @@ Este arquivo não é um segundo estado: o estado de cada tarefa é o de TAREFAS.
 | 1 | T-144 | Conferência de vigência da onda 1 de DA no banco (objeto ampliado, D-T129-ONDA1-DEVOLVIDO) — GBQ, qa-normativo-da | AGORA / PENDENTE | — (primeira tarefa da GBQ) |
 | 2 | T-136 | ORDEM_DA_V2_FASE2 — lacunas 2.2, 3.3, 4.1, 8, 9, 10.4–10.7 e LGPD 12 (GCB) | AGORA / PENDENTE | T-130 aceita (cumprida em s19c1) |
 | 3 | T-131 | Build v17.1 com pacote DA-v2 real (consolidação GBQ dos 60 DV e 7 reais); gatilho A; publicação | AGORA / PENDENTE | T-130 aceita (cumprida); decisão da T-134 |
-| 4 | T-134 | PUBLICAR v17.1 + v1.14 — BLOQUEADA: versão publicada 1792774306-636e com mudanças de 23/10 fora da fábrica; item RESERVADA em PARA_FUNDADOR.md | AGORA / BLOQUEADA (Fundador) | decisão do Fundador |
+| 4 | T-134 | Publicar v17.1 + v1.14 — PUBLICADA 25/10 (D-T134-PUBLICAR-B) | CONCLUÍDA | — |
 | 5 | T-137 | ORDEM_DA_V2_FASE3 — itens 10, 3.1–3.2, 1.1, 6 e 7 (GCB) | AGORA / PENDENTE | T-136 |
 | 6 | T-138 | ORDEM_DA_V2_FASE4 — acréscimos em 11 e 12 (GCB) | AGORA / PENDENTE | T-137 |
 | 7 | T-143 | Omitidos de T-128 no cd_25_ns: CG 72, CG 73, E2 95; CG 68 condicional (GBQ) | PRÓXIMO / PENDENTE | — (não depende da devolução da T-129) |

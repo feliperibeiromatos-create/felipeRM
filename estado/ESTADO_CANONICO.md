@@ -1276,3 +1276,6 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 | Liberação do www.gov.br na política de rede do ambiente antes da janela de 4–8/1/2027 (D-REDE-GOVBR; fora do repositório) | Fundador | 25/10 |
 | Pendências herdadas da s18c1 (T-133; revisão da coluna D6 da QA12; O1; O2; art. 34, p. ú., da LAI; art. 75, XVI, da Lei 14.133; D5-10 com QA PENDENTE) | GCB; GBQ; Presidência | 25/10 |
 
+
+## Atualização 25/10/2026 — pós-parada s19 (T-134)
+- Fundador respondeu o item RESERVADA da T-134 com a opção B ("publicar assim mesmo"; D-T134-PUBLICAR-B). Plataforma v17.1 com o pacote v1.14 PUBLICADA no link da candidata (versão 22 do artifact, id 1792943214-038a; HTML 769a14d7…). Saíram o Simulado 3 da P1, o Enter em "Próximo item" e o filtro de "Simulados anteriores" (feitos fora da fábrica em 23/10; cópia guardada). Painel de acompanhamento atualizado para o v1.14. T-134 CONCLUÍDA.

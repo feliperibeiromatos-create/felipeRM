@@ -42,6 +42,7 @@ except Exception as e:
     print("ERRO de leitura:", e); sys.exit(2)
 
 BLOQ, AVISO, INFO = [], [], []
+MECANISMOS_V21 = {"LIT", "CON", "SUP", "PRA", "GEN", "AP", "MIX", "NEG", "AUT", "AMB", "TEM"}  # regras/estilo_banca_DA_v1.md §4 (adendo v2.1)
 def bloq(t): BLOQ.append(t)
 def aviso(t): AVISO.append(t)
 def info(t): INFO.append(t)
@@ -271,7 +272,8 @@ for l in lotes_v2:
             bloq(f"lote {l['id']}: pegadinhas[{n}] sem `par` {{a, b, muda}}")
         if TERCEIRO.search(pg.get("texto") or ""): bloq(f"lote {l['id']}: pegadinhas[{n}] cita material de terceiro")
     # itens do lote: comentário e duplicata intercalado × verificação
-    its = [i for i in itens if i.get("itemEdital") in (l.get("itensEdital") or [])]
+    # itens do lote pela convenção da Fábrica (id começa pelo id do lote: "D1-01" ∈ D1); só sem prefixo cai no enquadramento por itemEdital (25/10)
+    its = [i for i in itens if str(i.get("id", "")).startswith(str(l.get("id") or "") + "-")] or [i for i in itens if i.get("itemEdital") in (l.get("itensEdital") or [])]
     for i in its:
         c = i.get("comentario")
         if not (isinstance(c, dict) and all(isinstance(c.get(k), str) and c.get(k).strip() for k in ("decisiva", "regra", "correta"))):
@@ -281,6 +283,11 @@ for l in lotes_v2:
             if longos: bloq(f"lote {l['id']}: item {i['id']} comentario.{longos} acima de {LIM} caracteres")
             if TERCEIRO.search(" ".join(c.values())): bloq(f"lote {l['id']}: item {i['id']} comentário cita material de terceiro")
         if i.get("tipo") not in (None, "literal", "caso"): aviso(f"lote {l['id']}: item {i['id']} tipo fora de literal|caso")
+        # adendo v2.1 (D-ESPEC-DA-V2-1, 25/10): mecanismo obrigatório em lote DA-v2; fora da tabela é bloqueio (a plataforma ignora o código desconhecido)
+        mk = i.get("mecanismo")
+        if mk is None: aviso(f"lote {l['id']}: item {i['id']} sem `mecanismo` (obrigatório em DA-v2, adendo v2.1)")
+        elif str(mk).upper() not in MECANISMOS_V21: bloq(f"lote {l['id']}: item {i['id']} mecanismo '{mk}' fora da tabela {sorted(MECANISMOS_V21)}")
+        elif isinstance(i.get("comentario"), dict) and not str(i["comentario"].get("decisiva", "")).upper().startswith(str(mk).upper()): aviso(f"lote {l['id']}: item {i['id']} comentario.decisiva não começa pelo código do mecanismo ({mk})")
     por_top = collections.Counter(i.get("itemEdital") for i in its)
     for te in (l.get("itensEdital") or []):
         verif = por_top.get(te, 0) - sum(1 for x in usados_intercalados if M.get(x, {}).get("itemEdital") == te)

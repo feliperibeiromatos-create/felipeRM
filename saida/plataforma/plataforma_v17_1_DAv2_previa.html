@@ -1,6 +1,6 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Plataforma Câmara 2026</title>
-<meta name="mapaspro:versao" content="v17.1 · publicada em 24/10/2026 · três abas · PRÉVIA v17.1 DA-v2 · pacote v1.13 + lote DEMO DX (não publicar)">
+<meta name="mapaspro:versao" content="v17.1 · publicada em 25/10/2026 · três abas · PRÉVIA v17.1 DA-v2 · pacote v1.13 + lote DEMO DX (não publicar)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -334,7 +334,15 @@ details.card>summary{min-height:44px!important;padding-block:10px}
 .iti .itf:focus{outline:2px solid var(--ink);outline-offset:4px;border-radius:6px}
 .mecs{margin-top:8px}
 .mecs .bv{grid-template-columns:minmax(0,1.6fr) 40% auto}
-.estilo-da table.t td,.estilo-da table.t th{font-size:14px}
+.estilo-da{margin:2px 0 10px;border:0;padding:0}
+.estilo-da>summary{list-style:none;cursor:pointer;min-height:44px;display:flex;align-items:center;gap:6px;font-size:13.5px;color:var(--ink-2)}
+.estilo-da>summary::-webkit-details-marker{display:none}
+.estilo-da>summary::before{content:"▸";font-size:12px}
+.estilo-da[open]>summary::before{content:"▾"}
+.estilo-da>summary:hover,.estilo-da>summary:focus-visible{color:var(--ink);text-decoration:underline;outline:none}
+.estilo-da .estilo-corpo{border-left:2px solid var(--rule);padding:4px 0 6px 12px;margin:0 0 6px 4px}
+.estilo-da .estilo-corpo p.small{font-size:14px;color:var(--ink-2)}
+.estilo-da table.t td,.estilo-da table.t th{font-size:13px;padding-block:4px}
 
 .bx.lei{background:var(--paper);border:1px solid var(--rule);border-left:4px solid var(--ink)}
 .bx.lei .bxl{color:var(--ink-2)}
@@ -1200,8 +1208,9 @@ function iniciarTreinoMecanismo(discId,mec){
 /* Proporções do ESTILO §4 (corpus 2025, ±3 pontos): LIT 1% E; CON 83% E; SUP 65%; GEN 96%; NEG 100% (n=37); PRA 59%, AUT 72%, AMB 65%, TEM 57%; AP 26% E. Texto corrigido na QA R3 (D3): a recíproca "item certo = literal" não vale (LIT é cerca de 6 em 10 dos Certos). */
 const ESTILO_DA=[["LIT","paráfrase fiel da lei ou da tese","quase sempre Certo"],["CON","troca de conceito vizinho (anular × revogar, dispensa × inexigibilidade)","na maioria Errado"],["SUP","requisito, limite ou exceção suprimido ou invertido","em geral Errado"],["GEN","sempre, somente, em qualquer hipótese","quase sempre Errado"],["NEG","pode × não pode, dever × faculdade","quase sempre Errado (amostra pequena)"],["PRA / AUT / AMB / TEM","número, sujeito, âmbito ou efeito no tempo trocados","tende a Errado"],["AP","caso aplicado, com a consequência","tende a Certo; raro"]];
 function estiloDaHtml(){ if(!MOSTRAR_ESTILO_DA) return "";
-  return `<details class="card estilo-da" style="margin-top:8px"><summary style="cursor:pointer;min-height:32px"><b>Como a Cebraspe constrói o item</b> <span class="small muted">· leia antes de responder</span></summary>
-   <div class="stack" style="margin-top:8px"><p class="small">Quando o item reescreve a lei ou a tese com fidelidade, quase sempre é Certo. O item errado nasce, na maioria das vezes, de uma troca: um conceito pelo vizinho, uma condição que some, uma generalização. Procure a troca e a condição que falta; palavras absolutas pedem atenção, não resposta automática.</p>
+  /* D-V17-1-ESTILO (Fundador, 25/10): mostrar, mas discreto — uma linha recolhida em texto pequeno, sem caixa; o conteúdo só aparece ao toque */
+  return `<details class="estilo-da"><summary>Como a Cebraspe constrói o item</summary>
+   <div class="stack estilo-corpo" style="margin-top:4px"><p class="small">Quando o item reescreve a lei ou a tese com fidelidade, quase sempre é Certo. O item errado nasce, na maioria das vezes, de uma troca: um conceito pelo vizinho, uma condição que some, uma generalização. Procure a troca e a condição que falta; palavras absolutas pedem atenção, não resposta automática.</p>
    <table class="t"><tr><th>Código</th><th>Como o item foi construído</th><th class="r">Tende a</th></tr>${ESTILO_DA.map(r=>`<tr><td><b>${r[0]}</b></td><td>${esc(r[1])}</td><td class="r small">${esc(r[2])}</td></tr>`).join("")}</table>
    <p class="xs muted">Levantamento do Projeto sobre cerca de 1.100 itens Certo/Errado de Direito Administrativo aplicados pela Cebraspe em 2025; proporções aproximadas. Em 2025, Certo e Errado vieram quase meio a meio, e só cerca de 1 item em 20 trazia situação hipotética.</p></div></details>`; }
 

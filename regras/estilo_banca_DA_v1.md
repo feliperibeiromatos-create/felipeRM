@@ -1,4 +1,6 @@
-# Estilo da banca — Direito Administrativo, Cebraspe 2025 (v1, 24/10/2026)
+# Estilo da banca — Direito Administrativo, Cebraspe 2025 (v1.1, 25/10/2026)
+
+v1.1: corrigida a frase invertida da seção 4 apontada pela QA R3/R5 da v17.1 ("o item CERTO é quase sempre LITERAL" → "o item LITERAL é quase sempre CERTO"); nada mais mudou.
 
 Sessão Cowork, a pedido do Fundador ("aprender ainda mais a maneira como o Cebraspe faz as questões"). Complementa regras/estilo_banca.md v1.0 (42 itens, 8/10) com um corpus 26 vezes maior. Insumo das CPPs e dos agentes de produção AUTORAL; não é fonte de item.
 
@@ -57,7 +59,7 @@ Códigos do pacote de auditoria, com a leitura desta sessão do que cada um sign
 | AMB | Âmbito trocado: a quem a norma se aplica (entes, Poderes, espécie de entidade, regime) | 23 | 65% |
 | TEM | Efeito no tempo trocado (ex tunc × ex nunc; vigência; marco) | 21 | 57% |
 
-O que isso ensina: o item CERTO da Cebraspe em DA é quase sempre LITERAL (99%); o item ERRADO nasce de uma troca de vizinho (CON), de uma condição suprimida (SUP) ou de uma generalização (GEN) — juntas, cerca de 60% dos E classificados (273 de 452). Caso aplicado é raro e tende a C. Logo, o treino eficaz é o par (A × B × palavra que muda) e a checagem de requisito/exceção, exatamente o que o formato DA-v2 pede (GLOSSÁRIO, PEGADINHA A/B/MUDA, comentário com "palavra decisiva").
+O que isso ensina: quando o item reescreve a lei ou a tese com fidelidade (LIT), é quase sempre CERTO (99% dos LIT); o item ERRADO nasce de uma troca de vizinho (CON), de uma condição suprimida (SUP) ou de uma generalização (GEN) — juntas, cerca de 60% dos E classificados (273 de 452). Caso aplicado é raro e tende a C. Logo, o treino eficaz é o par (A × B × palavra que muda) e a checagem de requisito/exceção, exatamente o que o formato DA-v2 pede (GLOSSÁRIO, PEGADINHA A/B/MUDA, comentário com "palavra decisiva").
 
 ## 5. O que a banca cobra por item do edital (enquadramento do pacote, a confirmar no CDN)
 Volume C/E e proporção de E, nos itens com 10+ questões: 10.1 licitação/contratação direta 136 (60% E); 7 improbidade 75 (53%); 11 LAI 67 (64%); 1.2 organização 62 (53%); 2.1 ato 59 (61%); 10.2 contratos 57 (46%); 4.4 Lei 9.784 47 (49%); 10.4 gestão e fiscalização 40 (48%); 3.4 Lei 8.112 36 (44%); 10.5 planejamento/fiscalização 34 (50%); 3.1 agentes (CF) 30 (53%, 30% com jurisprudência); 1.1 princípios 28 (36% E — a banca prefere afirmar princípios corretamente); 5.1 poderes 28 (32% E, 21% caso); 8.2 redes/parcerias 28; 4.2 ilícito disciplinar 23; 10.6 fiscal 23; 10.7 ETP/TR 17; 6.1 responsabilidade 14 (64% E).

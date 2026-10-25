@@ -19,3 +19,12 @@ Sequência sugerida:
 4. Em paralelo (sessão de design, não a Fábrica): v17 na prévia lendo os campos da ESPEC v2; regressão R3 passa a conferir tarefas, GLOSSÁRIO, CASO, ITEM e fechamento na tela.
 
 O que esta sessão NÃO fez e por quê: não executou nada na Fábrica (sem acesso ao repositório daqui, HTTP 403); não alterou o PADRAO_UNICO (matéria do Fundador); não publicou nada na plataforma (D-AUDITORIA-20OUT).
+
+# Acréscimo de 25/10/2026 (noite) — o que esta sessão Cowork gravou direto no clone
+Gravado pela ponte com o computador (sem git daqui): o Fundador faz `git add -A && git commit -m "fábrica: ciclo contínuo v2, FILA, ESTILO v1.1, zip da higiene" && git push`.
+- orquestradores/CICLO_CONTINUO_v2_proposta.md — critério de parada, fila, laço v2 (prompt pronto) e as decisões que faltam; reconciliado com TAREFAS/DECISOES/PARA_FUNDADOR da s18.
+- ordens/FILA.md — leitura ordenada de TAREFAS.md (não é um segundo estado); a secretaria reescreve a cada ciclo.
+- DECISOES_linhas_novas_2026-10-25.md — 8 linhas NOVA prontas (D-CICLO-V2, D-V17-1-PUBLICAR, D-ONDAS, D-INLINE-REFAZER, D-D18-D30, D-MULTI-IA, D-CEGO-2-D6, D-REDE-GOVBR); trocar [SIM/NÃO], colar no fim de DECISOES.md, apagar este arquivo.
+- regras/estilo_banca_DA_v1.md — v1.1: só a frase da seção 4 apontada pela QA R3/R5 ("o item LITERAL é quase sempre CERTO", não o inverso).
+- saida/arquivo_projeto/arquivo_projeto_higiene_2026-10-23.zip — backup byte a byte dos 70 documentos apagados do Projeto em 23/10 (MANIFESTO com SHA-256; D-HIGIENE).
+Não tocado: ordens/ORDEM_*.md, claude/, .claude/agents/, TAREFAS.md, DECISOES.md, PARA_FUNDADOR.md (todos alterados pela s18 em 25/10 e mais novos que o kit da manhã).

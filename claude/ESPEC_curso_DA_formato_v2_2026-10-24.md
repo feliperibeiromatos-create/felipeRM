@@ -69,7 +69,7 @@ Proibições: termo técnico antes da linha do GLOSSÁRIO que o define; o mesmo 
 - A lista de pares de cada tópico vem da seção 7 dos relatórios DAD/Relatorios_aulas (como conhecimento sobre a banca) e dos itens reais do banco; não do texto do curso de terceiro.
 
 ## 7. Verificação do tópico — questões por `itemEdital`
-- Mínimo de 10 por item-folha além dos intercalados: metade literal, metade situação hipotética (marcar `tipo: "literal" | "caso"` no item).
+- Mínimo de 10 por item-folha além dos intercalados. Proporção (adendo v2.1, D-ESPEC-DA-V2-1, Fundador 25/10): `tipo: "caso"` em 5–10% dos itens do tópico (mínimo 1), o restante `tipo: "literal"`; quando houver caso, o erro fica na consequência (mecanismo AP), nunca no fato narrado. Todo item traz `mecanismo` (LIT, CON, SUP, PRA, GEN, AP, MIX, NEG, AUT, AMB, TEM — regras/estilo_banca_DA_v1.md, §4) e `comentario.decisiva` começa pelo código do mecanismo. [Substitui a regra anterior "metade literal, metade situação hipotética", que o corpus Cebraspe 2025 desmente: caso em 5–6% dos itens.]
 - Todas com `comentario`. Nenhuma repetida entre intercalados e verificação do mesmo tópico.
 - Metas de volume continuam as do Projeto: 20 por item-folha (D-REFORCO-2), 30 onde não houver real análogo (D-LACUNAS); proporções C/E e [TS] da D-REFORCO-2.
 

@@ -1,0 +1,12 @@
+const { chromium, abrir } = require('./lib.js'); const fs=require('fs');
+const est=JSON.parse(fs.readFileSync('/home/claude/plat/qa_r3/estado_v17_antigo.json','utf8'));
+(async()=>{ const b=await chromium.launch(); const out={};
+ const col=async(arq)=>{ const {page,erros}=await abrir(b,arq,{estado:est}); await page.evaluate(()=>{ Math.random=(()=>{let s=5;return()=>(s=(s*16807)%2147483647)/2147483647;})(); });
+  const r=await page.evaluate(()=>{ const o={}; o.n=Object.fromEntries(Object.values(T.top).map(t=>[t.id,t.n+'|'+t.temCurso])); const semCurso=Object.values(T.top).filter(t=>t.n&&!t.temCurso).map(t=>t.id); o.semCurso=semCurso;
+   semCurso.forEach(id=>{ iniciarBloco(id); o['bloco:'+id]=prova.ordem.join(','); const n=prova.ordem.length; for(let k=0;k<n;k++){prova.i=k; render(); o['tela:'+id+':'+k]=app().innerHTML;} prova=null; });
+   const t0=performance.now(); for(let k=0;k<5;k++) ir('recomendacoes'); o.msRecs=Math.round((performance.now()-t0)/5); o.recs=app().innerHTML; return o; });
+  await page.context().close(); return {r,erros}; };
+ const a=await col('/home/claude/plat/qa_r5/base_v17_v114.html'), c=await col('/home/claude/plat/plataforma_v17_1_regressao_v114.html');
+ const dif=Object.keys(a.r).filter(k=>k!=='msRecs'&&JSON.stringify(a.r[k])!==JSON.stringify(c.r[k]));
+ console.log(JSON.stringify({semCurso:a.r.semCurso, dif, msRecsA:a.r.msRecs, msRecsB:c.r.msRecs, erros:[a.erros,c.erros]}));
+ await b.close(); })();

@@ -1,0 +1,20 @@
+ORQUESTRADOR: BANCO
+REMETENTE: Fundador (decisões de 23 e 24/10/2026: compilação de terceiro aceita como LOCALIZADOR; gasto da onda 1 autorizado), registrada pela sessão Cowork
+DESTINATÁRIO: EXEC (Fábrica)
+PROMPT:
+a) Objeto: verificar no CDN oficial do Cebraspe os candidatos de Direito Administrativo de banco/candidatos/candidatos_DA_TEC2025_fila_v2.csv (1.321 candidatos de 7 cadernos; 25 já confrontados com gabarito oficial pelo pacote de auditoria, a reconferir) e incorporar ao banco/banco.csv os localizados, com gabarito definitivo, como CEBRASPE_ANALOGA. Produção gbq-cfp (Sonnet) + QA independente (Opus), máx. 2 rodadas.
+b) Gerência titular: GCB (Direito Administrativo); GBQ em cópia.
+c) Escopo da onda 1: as 15 provas com mais candidatos em banco/candidatos/resumo_por_prova_v2.csv (FUB Adm; InoversaSul Ana; STM TJ e AJ; TRT10 TJ; TCU TEFC; ANM ERM; Embrapa Tec e Ana; TRF6 TJ; TCE-RS APE e OCE; ICMBio AA; PF Ag Adm; SEFAZ RJ AFP) — cerca de 415 candidatos. Usar as colunas item_edital_wb, aderencia_wb e mecanismo_wb só como ponto de partida (enquadramento feito por outra IA); os 302 marcados 'Sem enquadramento'/'duvidoso' vão para reserva_DA.csv salvo justificativa do QA. Só itens Certo/Errado. Múltipla escolha fica na fila com status "ME — só insumo de pegadinha".
+d) Arquivos-base: a fila v2 e os resumos v2 em banco/candidatos/; regras/estilo_banca_DA_v1.md (registrar o campo mecanismo de cada item incorporado); edital/DA_itens_1_12_P1.md; banco/banco.csv; regras/estilo_banca.md; estado/Estado_Canonico_Camara_2026.md.
+e) Regras:
+   1. Fonte única: cdn.cebraspe.org.br. Para cada prova, resolver a pasta do concurso (ex.: pf_25, trt10_24, icmbio_24) e abrir o caderno do cargo indicado no metadado TEC e o GABARITO DEFINITIVO. Sem caderno ou sem gabarito definitivo: candidato "NÃO LOCALIZADO", não entra.
+   2. Texto do candidato deve ser encontrado no pdftotext do caderno (normalizar espaços e hifenização), com número do item e comando do bloco lidos do caderno. Texto do banco = texto do caderno, nunca o da fila.
+   3. Gabarito = o do definitivo. Anulado → X, fora de simulado. Divergência com o gabarito_tec da fila → observacoes + item de QA; o oficial prevalece.
+   4. Rótulo CEBRASPE_ANALOGA com certame, ano, cargo, nº do item, URLs, data_verificacao, verificado_por.
+   5. item_edital_camara pelo conhecimento exigido (coluna item_edital_heuristico é só ponto de partida). Candidatos FORA (13.303, PPP, convênios, SRP, IN 65, controle, anticorrupção, bens) entram só com enquadramento justificado pelo QA; senão saida/banco/reserva_DA.csv com motivo.
+   6. Fichas e justificativas do pacote de origem (outra IA): só leitor crítico; toda justificativa é da Fábrica, com QA normativo quando citar lei.
+   7. Temporal: provas de 2025; marcar VOLÁTIL-NORMATIVO (fora de simulado final; reverificar 4–8/1/2027) o item cujo gabarito dependa de norma alterada desde a prova (LGPD/ANPD pela Lei 15.352/2026; 14.133 e 8.112 por alterações 2025–2026).
+   8. Deduplicação por hash do texto normalizado contra o banco e dentro da onda.
+   9. Nenhuma publicação; pacote só muda com gatilho A da GBQ e "sim" do Fundador.
+f) Saída: banco/banco.csv atualizado; saida/banco/varredura_DA_onda1_<data>.md (por prova: caderno/gabarito abertos, localizados / não localizados / anulados / divergentes; contagem por item do edital antes e depois; meta ≥ 30 reais em 10, 7, 3.4/4, 4.4, 1.2; quanto falta em 1.1, 2, 3, 5, 6); parecer de QA; reserva_DA.csv; provas das ondas 2+ com estimativa.
+g) Classificação: AGORA (onda 1); PRÓXIMO (ondas 2+, novo "sim" sobre gasto).

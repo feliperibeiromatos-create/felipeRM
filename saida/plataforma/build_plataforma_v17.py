@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# build_plataforma_v17.py — T-125, D-V17-DESIGN — 2026-10-23 — gerado por produção-plataforma (sonnet)
+# build_plataforma_v17.py — T-125, D-V17-DESIGN — 2026-10-23 — gerado por produção-plataforma (sonnet); 24/10 (T-131): meta lê VERSAO_APP do template
 """Monta a plataforma v17: troca `const PUB_INLINE = __PACOTE__;` pelo pacote.json embutido e `__VERSAO__` pela meta mapaspro:versao.
 
 Uso: python3 -I build_plataforma_v17.py [--template T] [--pacote P] [--saida S] [--data dd/mm/aaaa] [--rotulo-pacote TEXTO]
@@ -34,7 +34,10 @@ except ValueError:
 def mil(n): return f"{n:,}".replace(",", ".")
 nda = sum(1 for i in p["itens"] if str(i.get("itemEdital", "")).startswith("P1-DA-"))
 rot = a.rotulo_pacote or f"pacote {p.get('nome', '?')} embutido ({mil(len(p['itens']))} itens; {mil(nda)} de Direito Administrativo)"
-versao = f"v17 · publicada em {a.data} · três abas · {rot}".replace('"', "'")
+import re as _re
+_m = _re.search(r'const VERSAO_APP="([^"]+)"', html)  # v17.1: a meta segue a versão declarada no template (QA R3 D17)
+vapp = _m.group(1) if _m else "v17"
+versao = f"{vapp} · publicada em {a.data} · três abas · {rot}".replace('"', "'")
 js = json.dumps(p, ensure_ascii=False, separators=(",", ":")).replace("</", "<" + chr(92) + "/")
 html = html.replace(MARCA, "const PUB_INLINE = " + js + ";").replace(VMARCA, versao)
 open(a.saida, "w", encoding="utf-8").write(html)

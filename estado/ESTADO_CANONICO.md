@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 72 — 23/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 73 — 25/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -106,6 +106,8 @@ Reforço (ciclo s14c3, 18/10; relato do orquestrador): D-V112-ESCOPO (v1.12 = or
 Reforço (ciclo s14c4, 19/10; relato do orquestrador): T-115 CONCLUÍDA: pacote v1.12 gerado pelo gerador_v1_12 (saida/pacote/gerador_v1_12/); fidelidade gbq-cqe ACEITO COM RESSALVAS, ressalvas fechadas; correção pós-fidelidade (cabeçalhos dos _estudo.md, legendas "Mecanismo" retiradas, gerador em LF); conferência em clone limpo CONFERE; promoção em saida/pacote/T115_promocao_v1_12_2026-10-18.md; v1.12 canônica por D-PACOTE-V112. T-110, T-111 e T-112 CONCLUÍDAS (entram na v1.12). T-113 onda 1 CONCLUÍDA; as ondas seguintes aguardam o sim do Fundador. Cobertura da v1.12 (T-95) em saida/pacote/cobertura_v1_12.md: 749 itens, 736 em folhas; 14 folhas P1 abaixo de 20; 9 folhas no total de 30 itens.
 
 Reforço (ciclo s17c1, 23/10; relato do orquestrador, sessão s17 no PC do Fundador): T-123 CONCLUÍDA: pacote v1.14 canônico (D-PACOTE-V114-CANONICO), 1.433 itens (C/E 730/703; DA 684), com 238 itens de reforço de DA das levas 1 a 8 e 36 de banco; limpeza de 103 marcas de produção pela GCB, conferida; fidelidade gbq-cqe ACEITO; contrato v1.2.12; adendo 6; cobertura em saida/pacote/cobertura_v1_14.md; Presidência D-T123-LIMPEZA-ACEITE. T-125 CONCLUÍDA: plataforma v17 (QA R1 com ressalvas; R2 APROVADO; D-PLATAFORMA-V17-ACEITE), publicada em 23/10/2026 no link da candidata, versão 18 do artifact (D-PLATAFORMA-V17-PUBLICACAO; pacote embutido 070bc237…). Pendências: T-126 (estudo de login), leva 9 do reforço de DA (D-LEVA9-FILA), T-99, T-113 ondas seguintes (dependem de sim do Fundador) e itens abertos de PARA_FUNDADOR.md.
+
+Reforço (ciclo s18c1, 25/10; relato do orquestrador): T-132 ENCERRADA; T-127 CONCLUÍDA (saida/qa/QA12_DA_2026-10-25.md; pré-condição da T-130 cumprida); T-133 PRÓXIMO (errata reconciliada da QA12 DA, aplicação no próximo pacote).
 
 ## 3. DECISÕES VIGENTES
 
@@ -374,6 +376,11 @@ Reforço (ciclo s17c1, 23/10; relato do orquestrador, sessão s17 no PC do Funda
 | D-PLATAFORMA-V17-PUBLICACAO | 23/10 (ciclo s17c1) | Publicação da plataforma v17 no link da candidata, versão 18 do artifact; pacote embutido 070bc237…. Supera D-PLATAFORMA-V16-PUBLICACAO | Não informado no relato |
 | D-PACOTE-V113-CANONICO (SUPERADA por D-PACOTE-V114-CANONICO, 23/10) | 20/10 (ciclo s15c1) | Pacote v1.13 canônico (gatilho A da GBQ, T-118; SIM da Presidência de Ciclo). Registro na seção 6 de 20/10 | Presidência de Ciclo |
 | D-PLATAFORMA-V16-PUBLICACAO (SUPERADA por D-PLATAFORMA-V17-PUBLICACAO, 23/10) | 20/10 | Publicação da plataforma v16 no link da candidata (versão 17 do artifact), com o sim do Fundador | Fundador |
+| D-DOSSIE-DAD | 24/10 (aplicada 25/10, ciclo s18c1) | Dossiê Didático DAD v1 é insumo de método e lista de verificação para o curso de DA; o curso de mercado analisado segue sob a D-ESTRATEGIA: nenhum texto, exemplo, tabela ou questão dele entra em lote, curso ou pacote | Fundador |
+| D-ESPEC-DA-V2 | 24/10 (aplicada 25/10, ciclo s18c1) | Formato DA-v2 (ESPEC_curso_DA_formato_v2_2026-10-24) vale para os lotes de DA da ORDEM_DA_V2; campos novos ignorados pela v17 e renderizados pela v17.1 (T-131). Adendo v2.1 aguarda o sim do Fundador antes da T-130 | Fundador |
+| D-DA-ORDEM | 24/10 (aplicada 25/10, ciclo s18c1; T-132 ENCERRADA) | ORDEM_DA_FORMATO (19/10) substituída pela ORDEM_DA_V2 (fases 1–4; ordens/ORDEM_DA_V2_FASE1.md); formata-se uma vez só, já no formato DA-v2 | Fundador |
+| D-BANCO-LOCALIZADOR | 24/10 (aplicada 25/10, ciclo s18c1; vale para T-128 e T-129) | Compilações de terceiro (TEC Concursos) só como localizador em banco/candidatos/; texto, gabarito e número do item vêm do caderno e do gabarito definitivo em cdn.cebraspe.org.br (D-GCE-01); item não localizado no CDN não entra no banco | Fundador |
+| D-V17-1-INLINE | 24/10 (aplicada 25/10, ciclo s18c1; vale para a T-131) | Item intercalado no curso (ITEM, DA-v2) é só aprendizado: resposta em registro próprio (S.cursoResp), fora da nota do tópico, do caderno de erros, do painel de mecanismos e das recomendações. Implementado na v17.1 (T-131) | Fundador |
 
 * Registros da fila de 8/10 (Fundador_Fila_Presidencia.md): decisões D1 das Gerências, que a Presidência ainda não viu; entram aqui como "conforme bloco" e a Secretaria não as valida. Em 9/10 (v27) a Presidência processou a Fila e decidiu as matérias nomeadas nas linhas de 9/10 acima. As linhas com asterisco que o bloco não nomeia (regra P9 da GCE, GBQ-CSC-RES, GCE-CPP-2 e demais) seguem como estavam, sem ratificação expressa. Nota de datas: o bloco da Presidência data as decisões de 9/10 e as atribui à Presidência; o registro da PRES-S (10/10) data as mesmas decisões de 08/10 e as atribui à PRES-S sob a D-DELEG-12H; a Secretaria registra as duas leituras e não as concilia.
 
@@ -566,6 +573,7 @@ Visibilidade em 8/10: a lista de arquivos do Projeto (PDFs; 8 entradas) mostra o
 | ordens/ORDEM_V17_DESIGN.md | Ordem da plataforma v17 (D-V17-DESIGN) | VIGENTE (23/10, s17) |
 | Documento Word "Prompt - Melhorias Gráficas de Design e Funcionalidades" | Fonte das mudanças da v17 (D-V17-DESIGN); localização não informada no relato | VIGENTE (23/10, s17) |
 | Plataforma v17 (artifact, versão 18; pacote embutido 070bc237…) | Plataforma publicada no link da candidata (D-PLATAFORMA-V17-PUBLICACAO) | PUBLICADA (23/10/2026); SUPERA a v16 |
+| saida/qa/QA12_DA_2026-10-25.md | Relatório final da ORDEM_DA_QA12 (T-127), GCB; insumo da T-133 | PRODUZIDO (25/10/2026, ciclo s18c1) |
 
 Reforço (ciclo s14c1, 18/10; relato do orquestrador): ordens/ (C, D, B, A, E, F; encomenda v15, no repositório); saida/gce/T108_substituicoes_GCE_v3.csv (271 linhas, SHA-256 77ad3ac3…); saida/gcb/T108_substituicoes_GCB.csv (525 linhas, SHA-256 10d9e558…); saida/pacote/gerador_v1_11/ e saida/pacote/T108_ensaio_gerador_v1_11_2026-10-18.md (ENSAIO, gbq-csc; pacote final não gerado); saida/banco/T113_projecao_2026-10-18.md (projeção, T-113).
 
@@ -711,6 +719,13 @@ Reforço (ciclo s14c1, 18/10; relato do orquestrador): ordens/ (C, D, B, A, E, F
 | Leva 9 do reforço de DA (D-LEVA9-FILA) | Não informado no relato | 23/10 |
 | T-99 (parte (3) da D-T113-FUNDADOR, sem resposta do Fundador) | Fundador | 23/10 |
 | Itens abertos de PARA_FUNDADOR.md (o relato não os lista) | Fundador | 23/10 |
+| T-133 (PRÓXIMO, GCB → GBQ): errata reconciliada da QA12 DA (E1–E6 e F1, aceitas em D1 da GCB), com E6 no Anexo N do D3 (arquivo-fonte) e demais campos no próximo pacote; ajuste O1 opcional | GCB; GBQ (gbq-cqe confere contra o relatório) | 25/10 |
+| Revisão da coluna D6 da QA12 DA: conferida pelo qa-normativo (Opus), porque o arquivo do qa-normativo-da veda ler o D6 (proibição do teste cego, D-CEGO-2); revisão pendente | Presidência (decidir se a vedação é revista) | 25/10 |
+| O1 (D5.pares[0], P-01, D5_v2_1.md:463): ajuste de redação, sem efeito em gabarito; se não ficar pronto no próximo pacote, P-01 fica como está | GCB (gcb-cpp; qa-normativo-da confere a redação) | 25/10 |
+| O2 (LIA, D3: dispositivos 'só a letra' com remissão às ADIs 7236 e 7156, arts. 21, § 4º, e 8º): conferência dedicada quando os acórdãos forem publicados; efeito '[SEM FONTE — não afirmar]' até lá; reverificação de 4–8/1/2027 ou ordem própria | Presidência | 25/10 |
+| LAI, art. 34, parágrafo único (D6, omissão; não é divergência): candidato a acréscimo numa futura revisão do D6, se houver ordem | Presidência (se houver ordem) | 25/10 |
+| Lei 14.133, art. 75, XVI (redação da Lei 15.471, de 20/7/2026): REVERIFICAR na reverificação de 4–8/1/2027 | Não informado no relato | 25/10 |
+| D5-10 com marca QA PENDENTE: fora de simulado até o QA do lote (D-QA-PENDENTE); a GCB não altera a marca nesta ordem | GBQ | 25/10 |
 
 Fechadas na v6: identificar o conteúdo do 4536C347…pdf (cargo permanece em aberto, acima).
 Fechadas na v14 (conforme a GCB; as decisões da Presidência não chegaram diretamente à Secretaria): rota dos itens AUTORAL (pacote.json, sem bloco à GBQ); FV INATIVO em vez de DESCARTADO.
@@ -1216,3 +1231,17 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 - **Superadas:** D-PACOTE-V113-CANONICO, por D-PACOTE-V114-CANONICO; D-PLATAFORMA-V16-PUBLICACAO, por D-PLATAFORMA-V17-PUBLICACAO (seção 3).
 - **Pendências abertas:** T-126 (estudo de login); leva 9 do reforço de DA (D-LEVA9-FILA); T-99; T-113 ondas seguintes (dependem de sim do Fundador); itens abertos de PARA_FUNDADOR.md (seção 5).
 - **Gates:** nenhum informado no relato.
+## Atualização 25/10/2026 — Ciclo s18c1 — sessão s18
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Decisões de 24/10 aplicadas** (ciclo s18c1; seção 3): D-DOSSIE-DAD; D-ESPEC-DA-V2 (adendo v2.1 aguarda o sim do Fundador antes da T-130); D-DA-ORDEM; D-BANCO-LOCALIZADOR (vale para T-128 e T-129); D-V17-1-INLINE (vale para T-131).
+- **T-132** ENCERRADA (ORDEM_DA_FORMATO substituída pela ORDEM_DA_V2; D-DA-ORDEM).
+- **T-127** CONCLUÍDA (ORDEM_DA_QA12; GCB). Saída: saida/qa/QA12_DA_2026-10-25.md; o caminho da linha da tarefa, que apontava saida/gcb/, foi corrigido. Matriz 12 pontos × D1–D6: 15 CONFERIDO, 2 ERRATA, 55 NÃO LOCALIZADO NO LOTE. Conferência em 25/10/2026 no Planalto, no portal do STF e no portal do STJ; D1–D5 pelo qa-normativo-da; D6 pelo qa-normativo, por vedação D-CEGO-2 do qa-normativo-da. Sem conflito entre relatórios.
+- **Linha da seção 6 do relatório (para o Estado Canônico):** QA12 DA (T-127, ORDEM_DA_QA12), GCB, 25/10/2026: 12 pontos × D1–D6 conferidos no Planalto, no STF e no STJ (consulta 25/10/2026). D1–D5 pelo qa-normativo-da; D6 pelo qa-normativo, por vedação D-CEGO-2 do qa-normativo-da. Resultado: 15 CONFERIDO, 2 ERRATA, 55 NÃO LOCALIZADO. Erratas aceitas em D1 da GCB, para errata reconciliada no próximo pacote, sem aplicação agora (T-133): 6 erratas (E1–E3 no D5; E4–E6 no D3) e 1 ajuste de forma (F1, título do C4.4-13 do D2). E3 corrige a justificativa do D5-10 e mantém o gabarito C, sem gatilho D. As observações O1 e O2, a do art. 34, p. ú., da LAI e a de D-CEGO-2 ficam como pendências. Pacote v1.14 inalterado. Saída: saida/qa/QA12_DA_2026-10-25.md.
+- **T-133** PRÓXIMO (GCB → GBQ): errata reconciliada E1–E6 e F1; E6 no Anexo N do D3 (arquivo-fonte, fora do pacote); demais campos aplicados pela GBQ no próximo pacote, com conferência da gbq-cqe contra o relatório.
+- **T-130** deixa de depender da T-127 (pré-condição cumprida); segue PENDENTE até o sim do Fundador ao adendo v2.1.
+- **Pendências abertas** (seção 5): T-133; revisão da coluna D6 da QA12 (vedação D-CEGO-2; decisão da Presidência); O1; O2; art. 34, p. ú., da LAI; art. 75, XVI, da Lei 14.133 (REVERIFICAR); D5-10 com QA PENDENTE.
+- **Gates:** nenhum. Erratas em 2 de 17 células com tema (12%), abaixo do limiar de 30%.
+- **Não feito nesta atualização:** nenhuma errata aplicada; nenhum gatilho emitido por esta ordem; nada publicado; pacote v1.14 inalterado.
+

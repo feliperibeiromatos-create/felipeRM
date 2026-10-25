@@ -1,0 +1,35 @@
+# Estilo da banca — conferência de itens de DA — Câmara 2026 — pacote F4 (v1.15, DA-v2 fase 1) (geradoEm 2026-10-25)
+
+Referência: regras/estilo_banca_DA_v1.md (corpus Cebraspe 2025, 1.118 itens C/E; porcentagens ±3 pontos). Só avisos; nenhum bloqueio.
+
+**3 aviso(s)**
+
+## Avisos
+- lote DV2: E/CON = 5 (cota ≈ 3–4 para 20 itens)
+- lote DV3: E/SUP = 4 (cota ≈ 2–3 para 20 itens)
+- lote DV3: E/GEN = 0 (cota ≈ 1–1 para 20 itens)
+
+## Medidas
+- lote DV1: 20 itens, 10 C (50%)
+- lote DV1: mediana de 29 palavras no item; 100% entre 21 e 35 (banca: mediana 30, 55% na faixa)
+- lote DV1: 2 item(ns) de caso concreto (10%; banca 2025: 5–6%; meta de produção 5–10%)
+- lote DV1: absolutizador em 15% dos itens (1 E, 2 C; banca: ~10% dos itens, e só 55–65% deles são E)
+- lote DV1: mecanismos E = {'CON': 4, 'SUP': 3, 'NEG': 1, 'AUT': 1, 'GEN': 1}; C = {'LIT': 8, 'AP': 2}
+- lote DV1: fechamentos {'o item a seguir': 5, 'o item subsequente': 4, 'o item que se segue': 5, 'o item seguinte': 3, 'o próximo item': 2, 'o seguinte item': 1}; aberturas {'A respeito de': 3, 'Acerca de': 6, 'Com base': 2, 'Em relação': 2, 'No que concerne': 3, 'Considerando': 1, 'Com relação': 1, 'À luz': 1, 'No que se refere': 1}
+- lote DV2: 20 itens, 9 C (45%)
+- lote DV2: mediana de 28 palavras no item; 100% entre 21 e 35 (banca: mediana 30, 55% na faixa)
+- lote DV2: 2 item(ns) de caso concreto (10%; banca 2025: 5–6%; meta de produção 5–10%)
+- lote DV2: absolutizador em 15% dos itens (2 E, 1 C; banca: ~10% dos itens, e só 55–65% deles são E)
+- lote DV2: mecanismos E = {'CON': 5, 'GEN': 1, 'SUP': 3, 'NEG': 1, 'AMB': 1}; C = {'LIT': 7, 'AP': 2}
+- lote DV2: fechamentos {'o item a seguir': 5, 'o item subsequente': 5, 'o item que se segue': 4, 'o próximo item': 2, 'o item seguinte': 3, 'o seguinte item': 1}; aberturas {'A respeito de': 2, 'Com base': 2, 'Acerca de': 5, 'À luz': 2, 'Em relação': 4, 'No que concerne': 2, 'No que se refere': 2, 'Com relação': 1}
+- lote DV3: 20 itens, 10 C (50%)
+- lote DV3: mediana de 26 palavras no item; 100% entre 21 e 35 (banca: mediana 30, 55% na faixa)
+- lote DV3: 2 item(ns) de caso concreto (10%; banca 2025: 5–6%; meta de produção 5–10%)
+- lote DV3: absolutizador em 10% dos itens (1 E, 1 C; banca: ~10% dos itens, e só 55–65% deles são E)
+- lote DV3: mecanismos E = {'NEG': 1, 'AUT': 2, 'SUP': 4, 'CON': 3}; C = {'LIT': 8, 'AP': 2}
+- lote DV3: fechamentos {'o item a seguir': 6, 'o item subsequente': 5, 'o item que se segue': 5, 'o próximo item': 1, 'o item seguinte': 3}; aberturas {'A respeito de': 3, 'Acerca de': 7, 'Com base': 1, 'À luz': 1, 'Em relação': 1, 'No que concerne': 1, 'Com relação': 2, 'No que se refere': 3, 'Considerando': 1}
+
+
+## Justificativa dos avisos (acrescentada pela produção, gcb-cpp; detalhe em resposta_R1.md, seção 5)
+- DV2, E/CON = 5: a pegadinha de posse × exercício é CON (R1, A4) e exigiu reescrever DV2-02 como CON; os outros quatro CON (DV2-06, 09, 13, 18) sustentam uma pegadinha cada.
+- DV3, E/SUP = 4 e E/GEN = 0: o estilo §6.5 manda que toda pegadinha seja CON, SUP ou AUT. Dez mini-lições pedem dez itens E de evidência nesses três códigos, e as cotas somam nove (CON 4, SUP 3, AUT 2). Para ligar cada pegadinha a item de mesmo mecanismo (R1, A4), DV3-09 e DV3-11 passaram a SUP e DV3-14 a AUT; o único GEN do lote (DV3-14) deixou de existir. Preferiu-se cumprir a regra da pegadinha a cumprir a cota. DV3-02 foi recodificado para NEG para manter a cota de NEG.

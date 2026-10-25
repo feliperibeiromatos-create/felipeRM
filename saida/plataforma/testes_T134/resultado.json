@@ -1,0 +1,358 @@
+{
+ "testes": [
+  {
+   "nome": "curso DA-v2 abre",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "bloco de tarefas (3)",
+   "ok": true,
+   "det": "3"
+  },
+  {
+   "nome": "glossário com 4 termos (dois-pontos e travessão)",
+   "ok": true,
+   "det": "4"
+  },
+  {
+   "nome": "caixa CASO",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "RESPOSTA DO CASO recolhida",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "3 itens intercalados montados; ITEM DX-99 (inexistente) não deixa rastro",
+   "ok": true,
+   "det": "3"
+  },
+  {
+   "nome": "D1: item com texto-base mostra texto-base, comando e enunciado",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D2: parágrafo depois do CASO fica fora da caixa",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D2: parágrafo depois da RESPOSTA DO CASO fica fora do details",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D2b: \"### Caso prático\" é título comum, não caixa",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D6: pegadinha só com A e B mantém as duas linhas",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "pegadinha A/B/MUDA no texto",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "fechamento com 5 pontos",
+   "ok": true,
+   "det": "5"
+  },
+  {
+   "nome": "literalidade × caso",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D7: mapa repetido é o compare, não a baseLegal",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "escopo com 2 links de 44px",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "pegadinha final com par",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "feedback inline aparece",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "comentário em 3 linhas",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "chip do mecanismo LIT",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "bolhas travadas após resposta",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D14: feedback com aria-live e foco",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D16: código do mecanismo não se repete na palavra decisiva",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "3 respostas inline em S.cursoResp (registro próprio)",
+   "ok": true,
+   "det": "[[\"DX-01\",\"e\"],[\"DX-04\",\"e\"],[\"DX-03\",\"c\"]]"
+  },
+  {
+   "nome": "D-V17-1-INLINE: nada em S.resp, nada no caderno de erros",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "N1: divisor da nota do tópico exclui os intercalados",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D4: item intercalado fora do bloco de verificação e da contagem",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D-V17-1-INLINE: nota do tópico 3.4 sem respostas",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "evento item_curso_respondido",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "resposta inline persiste após recarregar",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "link do escopo leva a outro tópico",
+   "ok": true,
+   "det": "4.2"
+  },
+  {
+   "nome": "D-V17-1-INLINE: \"Onde você erra\" ausente só com respostas inline",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "bloco com itens DEMO entrega resultado",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "bloco: 3 respostas em S.resp, 2 erros no caderno",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D10: correção com comentário mostra 3 linhas e linha do tópico separada; plural certo",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "card \"Como a Cebraspe constrói o item\"",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "tabela de mecanismos com 7 linhas",
+   "ok": true,
+   "det": "8"
+  },
+  {
+   "nome": "painel \"Onde você erra\"",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "mecanismos errados listados (SUP, CON)",
+   "ok": true,
+   "det": "SUP,CON"
+  },
+  {
+   "nome": "botões Treinar",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "treino por mecanismo abre prova",
+   "ok": true,
+   "det": "Treino · SUP · requisito, limite ou exceção suprimido ou invertido · sem tempo"
+  },
+  {
+   "nome": "treino com 1 item SUP (DX-02)",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "D9: resultado do treino diz \"1 item\" e \"Voltar à matéria\"",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "resultado do treino",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "comentário 3 linhas no resultado",
+   "ok": true,
+   "det": "details abertos: 1, com3: 1"
+  },
+  {
+   "nome": "\"Voltar\" do treino leva à matéria",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "\"Sair\" do treino leva à matéria",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "caderno de erros: item DEMO com comentário 3 linhas ao responder",
+   "ok": true,
+   "det": "par=1 com3=1"
+  },
+  {
+   "nome": "bloco do tópico entrega resultado",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "desktop escuro: curso renderiza",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão curso P1-DA-1",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-DA-2.1",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-DA-3.4",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-DA-10.1",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-1",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-2",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão curso P1-2.1",
+   "ok": true,
+   "det": "iti=0 glo=0 tarefas=0 fecho=0"
+  },
+  {
+   "nome": "regressão matéria DA: estilo presente, \"Onde você erra\" ausente sem respostas",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão matéria TI: sem card de estilo",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão resultado do bloco: justificativa e \"tópico\" no mesmo parágrafo, sem .com3",
+   "ok": true,
+   "det": "just=10 com3=0"
+  },
+  {
+   "nome": "regressão tela painel",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela pratica",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela erros",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela recomendacoes",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela dados",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela vespera",
+   "ok": true,
+   "det": ""
+  },
+  {
+   "nome": "regressão tela discursivas",
+   "ok": true,
+   "det": ""
+  }
+ ],
+ "errosJS": [],
+ "shots": [
+  "celular_curso_topo.png",
+  "celular_curso_full.png",
+  "celular_item_inline_respondido.png",
+  "celular_materia_estilo_onde_erra_full.png",
+  "celular_resultado_treino_full.png",
+  "celular_erros_full.png",
+  "desktop_escuro_curso_full.png",
+  "desktop_escuro_materia.png",
+  "regressao_curso_DA-1.png",
+  "regressao_resultado_bloco_full.png"
+ ],
+ "resumo": {
+  "total": 67,
+  "ok": 67,
+  "falhas": [],
+  "errosJS": 0
+ }
+}

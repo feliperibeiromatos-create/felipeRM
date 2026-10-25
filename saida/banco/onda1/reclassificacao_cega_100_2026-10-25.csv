@@ -1,0 +1,101 @@
+id;mecanismo_producao;mecanismo_cego;alternativo_cego;concorda;motivo_cego
+BQ-0212;LIT;LIT;;sim;C: paráfrase fiel da definição doutrinária dos dois aspectos da eficiência (atuação do agente e organização).
+BQ-0217;LIT;LIT;;sim;C: descentralização por colaboração alcança entes privados não integrantes da administração (concessionárias).
+BQ-0220;SUP;SUP;CON;sim;E: acrescenta requisito de dolo/culpa à responsabilidade objetiva (troca por subjetiva).
+BQ-0222;LIT;LIT;;sim;C: art. 5º §3º da Lei 8.112 — exceção da nacionalidade para professores/cientistas estrangeiros.
+BQ-0223;AP;LIT;AP;nao;C: CF art. 41 §2º — ocupante não estável do cargo do reintegrado pode ser exonerado.
+BQ-0225;SUP;SUP;TEM;sim;E: inclui modalidade culposa
+BQ-0226;LIT;LIT;;sim;C: art. 2º par. único VI da Lei 9.784 (adequação entre meios e fins).
+BQ-0227;GEN;GEN;NEG;sim;"E: ""sempre a pedido"", ""vedada de ofício"" — a lei admite início de ofício (art. 5º)."
+BQ-0231;PRA;PRA;CON;sim;E: contagem de prazos da Lei 9.784 é contínua, não só em dias úteis.
+BQ-0232;AMB;AMB;NEG;sim;E: contratações de repartições no exterior seguem regulamento próprio, mas observam os princípios básicos.
+BQ-0233;SUP;SUP;GEN;sim;"E: ""restringem-se"" — a matriz de riscos também aloca responsabilidades e prevê mecanismos, não só lista eventos."
+BQ-0237;SUP;SUP;GEN;sim;E: cria requisito inexistente (cadastro prévio) para a contratação direta.
+BQ-0242;LIT;LIT;;sim;C: poder regulamentar como função normativa derivada/complementar à lei.
+BQ-0246;CON;CON;;sim;E: concessionários e permissionários são particulares em colaboração por delegação, não agentes credenciados.
+BQ-0248;LIT;LIT;;sim;C: vitaliciedade admitida (magistrados).
+BQ-0250;AP;CON;PRA;nao;E: com o cargo de origem provido, o reconduzido é aproveitado em outro (art. 29 par. único), não afastado com 50%.
+BQ-0254;AMB;AMB;CON;sim;E: a decisão coordenada não se aplica a processos de poder sancionador (art. 49-A §6º).
+BQ-0256;LIT;LIT;;sim;C: art. 21 da Lei 9.784 — indeferimento de suspeição recorrível sem efeito suspensivo.
+BQ-0258;LIT;LIT;;sim;C: definição legal de licitação internacional (art. 6º XXXV).
+BQ-0267;LIT;LIT;;sim;"C: regra da IN 5/2017 sobre redimensionamento por indicadores (o ""sempre"" aqui é da norma)."
+BQ-0269;LIT;LIT;;sim;C: tese do STF (ADI 2975) — vedação perpétua de retorno é inconstitucional.
+BQ-0270;SUP;NEG;CON;nao;E: para o STF (Tema 1237), perícia inconclusiva não afasta a responsabilidade do Estado.
+BQ-0277;LIT;LIT;;sim;C: art. 12 VII — PCA visa racionalizar as contratações.
+BQ-0281;PRA;CON;TEM;nao;E: troca a fase final do credenciamento (a etapa recursal não é a última).
+BQ-0283;GEN;GEN;;sim;"E: ""em todos os casos"" — há hipóteses que afastam a caracterização e a perda da garantia."
+BQ-0286;LIT;LIT;;sim;C: art. 156 §3º — multa por inexecução, calculada na forma do edital/contrato.
+BQ-0288;LIT;LIT;;sim;C: art. 170 — critérios de oportunidade, materialidade, relevância e risco.
+BQ-0289;LIT;LIT;;sim;C: art. 79 III — credenciamento com seleção a critério de terceiros.
+BQ-0293;LIT;LIT;;sim;C: tese do STF (Tema 1182) — licença-maternidade ao pai monoparental servidor.
+BQ-0294;TEM;TEM;;sim;E: o novo regime prescricional da LIA é irretroativo (Tema 1199).
+BQ-0295;AP;AP;LIT;sim;C: caso aplicado — presunção de legitimidade
+BQ-0298;AP;AP;CON;sim;C: caso aplicado — multa a contratado qualifica-se, segundo o gabarito, como poder disciplinar.
+BQ-0302;AP;AP;CON;sim;E: capital integralmente público caracteriza empresa pública, não sociedade de economia mista.
+BQ-0303;AP;AP;LIT;sim;C: órgão federal integra a estrutura desconcentrada (administração direta).
+BQ-0304;GEN;NEG;AP;nao;E: a responsabilidade do Estado alcança também atos omissivos.
+BQ-0305;NEG;NEG;SUP;sim;E: autotutela abrange anular e também revogar por conveniência e oportunidade.
+BQ-0306;AMB;AMB;NEG;sim;E: a Lei 14.133 aplica-se também à concessão e permissão de uso de bens públicos (art. 2º IV).
+BQ-0309;AP;AP;CON;sim;E: obras e serviços especiais de engenharia não admitem pregão.
+BQ-0311;AP;AP;CON;sim;E: inviabilidade de competição leva a inexigibilidade, não a dispensa.
+BQ-0312;LIT;LIT;;sim;C: IN 5/2017 — vedada ingerência na administração da contratada, como indicar pessoal.
+BQ-0313;LIT;LIT;;sim;C: reproduz o critério normativo da produtividade de referência (gabarito C).
+BQ-0314;LIT;LIT;;sim;C: instrumentos de controle incluem os recursos humanos por quantidade e formação.
+BQ-0316;SUP;SUP;GEN;sim;"E: ""são suficientes"" — o fiscal precisa de outros documentos (contrato, proposta etc.)."
+BQ-0319;LIT;LIT;;sim;C: art. 13 — posse por procuração específica, em 30 dias da publicação.
+BQ-0324;NEG;NEG;PRA;sim;E: afastamento preventivo é sem prejuízo da remuneração e prorrogável por igual período.
+BQ-0327;GEN;SUP;;nao;E: suprime a exigência de dolo
+BQ-0328;LIT;LIT;;sim;C: art. 12 §9º — sanções só se executam após o trânsito em julgado.
+BQ-0330;LIT;LIT;;sim;C: a Lei 9.784 enumera princípios da atuação administrativa.
+BQ-0331;TEM;TEM;NEG;sim;E: é vedada a aplicação retroativa de nova interpretação (art. 2º par. único XIII).
+BQ-0332;SUP;NEG;SUP;nao;E: o órgão de instrução elabora relatório e formula proposta de decisão (art. 47).
+BQ-0335;CON;CON;;sim;E: a definição dada é de integridade, não de autenticidade.
+BQ-0338;LIT;LIT;AUT;sim;C: dirigente máximo de autarquia pode classificar como secreto (art. 27 II).
+BQ-0343;AUT;AUT;;sim;E: a ação é proposta contra o Estado, não conjuntamente contra o magistrado (Tema 940).
+BQ-0347;LIT;LIT;;sim;C: reprodução do art. 1º §§ da LIA — mero exercício sem dolo afasta a improbidade.
+BQ-0351;NEG;NEG;SUP;sim;E: o ETP deve concluir sobre a opção mais vantajosa (posicionamento conclusivo).
+BQ-0353;LIT;LIT;;sim;C: art. 48 — terceirização de atividades acessórias e vedação de indicar pessoas.
+BQ-0354;SUP;SUP;AP;sim;E: ignora a exceção de dispensa para manutenção de veículos (art. 75 I), afirmando licitação obrigatória.
+BQ-0360;LIT;LIT;;sim;C: arts. 151–152 — meios alternativos
+BQ-0361;LIT;LIT;;sim;C: art. 156 §2º — advertência só para inexecução parcial.
+BQ-0362;NEG;NEG;CON;sim;E: a LAI manda usar o critério menos restritivo possível (art. 24 §5º).
+BQ-0364;NEG;NEG;;sim;E: o STF declarou constitucional a vedação de recontratação na dispensa emergencial.
+BQ-0369;CON;CON;;sim;E: o defeito descrito é vício de forma, não desvio de finalidade.
+BQ-0371;NEG;NEG;;sim;E: indenizações (diárias) não se incorporam ao vencimento.
+BQ-0372;LIT;LIT;;sim;C: art. 128 — antecedentes funcionais na dosimetria.
+BQ-0374;LIT;LIT;;sim;C: art. 1º §4º da LIA — princípios do direito administrativo sancionador.
+BQ-0379;CON;CON;PRA;sim;E: a primeira fase é a preparatória
+BQ-0380;LIT;LIT;;sim;C: art. 40 §1º — especificação do produto com qualidade, rendimento etc.
+BQ-0384;LIT;LIT;;sim;C: dano anormal e específico por ato lícito — fundamento na isonomia.
+BQ-0387;AP;AP;LIT;sim;C: revisão a qualquer tempo diante de fatos novos (art. 65).
+BQ-0388;NEG;AP;NEG;nao;E: a reformatio in pejus é admitida no recurso com cientificação prévia (art. 64 par. único).
+BQ-0389;LIT;LIT;;sim;C: definição legal de anteprojeto (art. 6º XXIV).
+BQ-0390;CON;CON;;sim;E: técnica e preço usa fatores objetivos previstos no edital, não subjetivos.
+BQ-0402;LIT;LIT;;sim;C: teto por vínculo na acumulação lícita (Temas 377/384).
+BQ-0404;AP;LIT;;nao;C: cassação de aposentadoria por falta cometida em atividade (STF).
+BQ-0405;SUP;SUP;;sim;E: suprime o ciclo de vida, que integra a seleção da proposta mais vantajosa (art. 11 I).
+BQ-0406;LIT;LIT;;sim;C: definição legal de pré-qualificação (art. 6º XLIV).
+BQ-0407;SUP;TEM;CON;nao;E: o contrato emergencial produz efeitos desde a assinatura
+BQ-0408;PRA;PRA;;sim;"E: a lei fala em ""tempo hábil"", não em trinta dias (art. 117 §2º)."
+BQ-0418;AUT;AUT;;sim;E: a representação vai à autoridade administrativa/MP, não diretamente ao Judiciário.
+BQ-0421;AUT;AP;CON;nao;E: não há decisão a recorrer
+BQ-0423;AP;AP;AMB;sim;C: a Lei 14.133 aplica-se ao Judiciário no exercício da função administrativa.
+BQ-0424;LIT;LIT;;sim;C: critérios de julgamento admitidos na concorrência (art. 29/33).
+BQ-0425;LIT;LIT;;sim;C: art. 111 — serviço por escopo prorrogável pelo prazo necessário.
+BQ-0427;GEN;PRA;GEN;nao;E: a lei admite mais de um índice específico ou setorial (art. 25 §7º).
+BQ-0429;AP;AP;LIT;sim;C: dispensa de pequeno valor paga preferencialmente por cartão (art. 75 §4º).
+BQ-0437;CON;CON;;sim;E: a regra é a teoria do risco administrativo, não a do risco integral.
+BQ-0439;PRA;LIT;;nao;C: art. 130 — suspensão até 90 dias.
+BQ-0443;LIT;LIT;;sim;C: art. 13 da LIA — declaração de IR para posse e exercício.
+BQ-0444;NEG;NEG;;sim;E: o Decreto 9.830 admite motivação por concordância com pareceres anteriores.
+BQ-0446;NEG;NEG;;sim;E: é vedada a combinação de modalidades (art. 28 §2º).
+BQ-0448;SUP;SUP;GEN;sim;E: omite a declaração de inidoneidade entre as sanções do art. 156.
+BQ-0449;NEG;NEG;;sim;E: os resultados do IMR ensejam ajuste do pagamento.
+BQ-0453;CON;CON;;sim;E: a autarquia é criada por lei específica, não autorizada por lei e criada por decreto.
+BQ-0456;AMB;AMB;NEG;sim;E: as autarquias estão sujeitas à licitação
+BQ-0457;AMB;AMB;NEG;sim;E: a Lei 14.133 aplica-se à alienação e à concessão de direito real de uso (art. 2º I).
+BQ-0462;CON;CON;NEG;sim;E: o rol de dispensa é taxativo
+BQ-0466;LIT;LIT;;sim;C: art. 156 §1º V — programa de integridade na dosimetria.
+BQ-0467;NEG;NEG;SUP;sim;E: deixar de entregar documentação também é infração (art. 155 IV).
+BQ-0471;LIT;LIT;;sim;C: critério de escolha de indicadores de nível de serviço (IN 5/2017).
+BQ-0472;CON;CON;AMB;sim;E: atividade econômica do Estado é exercida por empresa pública, SEM e subsidiárias

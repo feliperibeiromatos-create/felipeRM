@@ -1,0 +1,48 @@
+{
+ "num_vazio": {
+  "igual": true,
+  "nTop": 93,
+  "errA": [],
+  "errB": []
+ },
+ "num_antigo": {
+  "igual": true,
+  "nTop": 93,
+  "errA": [],
+  "errB": []
+ },
+ "cel": {
+  "fechado": {
+   "open": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "border": "0px none",
+   "radius": "0px",
+   "h": 44,
+   "fs": "13.5px",
+   "prox": "",
+   "pai": "matcorpo",
+   "n": 1
+  },
+  "MOSTRAR": true,
+  "aberto": true,
+  "cardNaTI": 1,
+  "errosJS": []
+ },
+ "desk": {
+  "fechado": {
+   "open": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "border": "0px none",
+   "radius": "0px",
+   "h": 44,
+   "fs": "13.5px",
+   "prox": "",
+   "pai": "matcorpo",
+   "n": 1
+  },
+  "MOSTRAR": true,
+  "aberto": true,
+  "cardNaTI": 1,
+  "errosJS": []
+ }
+}

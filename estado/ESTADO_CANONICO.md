@@ -1,5 +1,5 @@
 # ESTADO CANÔNICO — PROJETO CÂMARA 2026
-Versão 73 — 25/10/2026 — mantido pela Secretaria de Estado Canônico.
+Versão 74 — 25/10/2026 — mantido pela Secretaria de Estado Canônico.
 
 Projeto: concurso Câmara dos Deputados 2026 (Cebraspe), Cargo 11 — Analista Legislativo, Registro e Redação. Prova objetiva e discursiva em 17/1/2027. Inscrições 15/10 a 17/11/2026.
 Escopo deste Projeto: módulo RECONHECIMENTO DE FALA, TRANSCRIÇÃO E IA (P2, itens 1.1–4.3) e itens 5–8 de TECNOLOGIA DA INFORMAÇÃO E DADOS (P1). Tudo roda exclusivamente em Claude. Em 15/10/2026 (D-ESCOPO-3, Fundador; seção 3) o escopo foi ampliado à disciplina "Noções de Direito Administrativo e Administração Pública" (P1, 12 itens, ids P1-DA-1 a P1-DA-12), além do que consta acima; a Secretaria não reescreveu a frase acima.
@@ -1244,4 +1244,35 @@ Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito
 - **Pendências abertas** (seção 5): T-133; revisão da coluna D6 da QA12 (vedação D-CEGO-2; decisão da Presidência); O1; O2; art. 34, p. ú., da LAI; art. 75, XVI, da Lei 14.133 (REVERIFICAR); D5-10 com QA PENDENTE.
 - **Gates:** nenhum. Erratas em 2 de 17 células com tema (12%), abaixo do limiar de 30%.
 - **Não feito nesta atualização:** nenhuma errata aplicada; nenhum gatilho emitido por esta ordem; nada publicado; pacote v1.14 inalterado.
+
+## Atualização 25/10/2026 — Ciclo s19c1 — sessão s19 (Claude Code no PC do Fundador; laço contínuo, D-CICLO-V2)
+
+Registro pelo relato do orquestrador. A Secretaria registra; não decide mérito.
+
+- **Abertura:** 10 decisões do Fundador de 25/10 aplicadas (seção 3): D-ESPEC-DA-V2-1 (adendo v2.1 da ESPEC DA-v2 adotado); D-V17-1-ESTILO (card discreto "Como a Cebraspe constrói o item" em DA, a partir da v17.1); D-CICLO-V2 (laço contínuo, prompt da seção 3 de orquestradores/CICLO_CONTINUO_v2_proposta.md); D-V17-1-PUBLICAR (parte (i): publicar a v17.1 com o pacote v1.14; parte (ii): publicação ao fim do ciclo, sem novo sim por pacote, com gatilho A, zero bloqueios, regressão verde e QA-plataforma aprovada); D-ONDAS (ordens de ONDA2, ONDA3, FASE2, FASE3 e FASE4 autorizadas); D-INLINE-REFAZER; D-D18-D30 (BACKLOG); D-MULTI-IA (BACKLOG, fora da fábrica); D-CEGO-2-D6 (.claude/agents/qa-normativo-da.md passa a poder ler o D6); D-REDE-GOVBR (www.gov.br respondeu HTTP 301 neste ambiente em 25/10/2026; nada a configurar no repositório).
+- **Tarefas abertas:** T-134 a T-142 (T-134 AGORA; T-135 a T-139 AGORA; T-140 PRÓXIMO; T-141 e T-142 BACKLOG).
+- **Ordens redigidas** (gerências): ordens/ORDEM_BANCO_DA_CDN_ONDA2.md e ordens/ORDEM_BANCO_DA_CDN_ONDA3.md (gbq-gerencia); ordens/ORDEM_DA_V2_FASE2.md, ORDEM_DA_V2_FASE3.md e ORDEM_DA_V2_FASE4.md (gcb-gerencia).
+- **T-128** (cd_25_ns, CEBRASPE_OFICIAL) CONCLUÍDA: 59 itens BQ-0153 a BQ-0211 (30 C, 28 E, 1 X); QA gbq-cqe 56 APROVADO e 3 CORRIGIR (correções de código de mecanismo). ACEITO pela presidencia (D-T128-CD25NS-ACEITE). T-143 aberta para os omitidos (CG 72, CG 73, E2 95; CG 68 condicional). Arquivos: saida/banco/cd25ns_DA_2026-10-25.md, saida/banco/QA_cd25ns_DA_2026-10-25.md, saida/banco/T128_reconciliacao_2026-10-25.md.
+- **T-129** (onda 1, CEBRASPE_ANALOGA) BLOQUEADA: 15 provas, 414 candidatos, 260 itens BQ-0212 a BQ-0471 fundidos em banco/banco.csv (SHA-256 a539452c…), 143 na reserva (BQ-0472 retirado para a reserva; id não reutilizado). QA gbq-cqe: 0 reprovados, 4 correções; reclassificação cega de mecanismo 87/100. DEVOLVIDA pela presidencia (D-T129-ONDA1-DEVOLVIDO), sem aceite: falta a conferência de vigência normativa dos itens cujo gabarito depende de norma ou tese do STF. As 260 linhas ficam gravadas, não são canônicas e não entram em simulado, pacote, plataforma nem na T-148. T-144 passa a AGORA, com objeto ampliado; ondas 2 e 3 (T-135 e T-139) só após novo aceite da T-129. Arquivos: saida/banco/varredura_DA_onda1_2026-10-25.md, saida/banco/QA_onda1_DA_2026-10-25.md, saida/banco/T129_reconciliacao_2026-10-25.md, saida/banco/onda1/.
+- **T-130** (DA-v2 fase 1) CONCLUÍDA: lotes DV1 (P1-DA-2.1), DV2 (P1-DA-3.4) e DV3 (P1-DA-4.4); 60 itens AUTORAL (DV1-01 a DV3-20). Cadeia: v1 → R1 → v2 → R2 (qa-normativo-da APROVADO COM RESSALVAS, 0 reprovados; gcb-cqfp-didatico APROVADO COM RESSALVAS nos 3 lotes, 0 reprovados) → errata de forma v2.1 (saida/gcb/DA_v2_fase1/pacote_v1_15_DAv2_fase1_v2_1.json, SHA-256 d741bca3…). ACEITO (D-T130-DAV2-FASE1-ACEITE). Gatilho D aceito (D-T130-ITEMEDITAL-7REAIS: itemEdital dos 7 reais intercalados passa à folha 2.1, 3.4 e 4.4). Gatilho E encaminhado ao Fundador como item RESERVADA (D-COTA-MECANISMO-FUNDADOR). Pasta: saida/gcb/DA_v2_fase1/.
+- **T-134** (publicar v17.1 com pacote v1.14) BLOQUEADA: build saida/plataforma/plataforma_v17_1_publicar.html (SHA-256 769a14d7…, 67/67 testes, QA-plataforma gbq-cqe APROVADO); gatilho A aceito (D-T134-V17-1-PUBLICAR). NÃO PUBLICADA: a leitura do artifact mostrou a versão 1792774306-636e, com mudanças de 23/10 feitas fora da fábrica (SIM-3, Enter) que o build não contém. Item RESERVADA em PARA_FUNDADOR.md. Cópia da versão publicada: saida/plataforma/publicado_atual_2026-10-25_v1792774306-636e.html (SHA-256 41e7850e…). Saídas do build: saida/plataforma/T134_build_2026-10-25.md, T134_reconciliacao_2026-10-25.md, QA_T134_2026-10-25.md, T134_checa_pacote_v2_2026-10-25.md, T134_checa_estilo_DA_2026-10-25.txt, saida/plataforma/testes_T134/.
+- **T-136** pode começar (dependência da T-130 cumprida). **T-131** (build v17.1 com pacote DA-v2 real) tem o aceite da T-130 cumprido; a publicação depende da decisão da T-134.
+- **Motivo de parada do laço:** PARA_FUNDADOR.md ganhou itens RESERVADA neste ciclo (D-COTA-MECANISMO-FUNDADOR; publicação da v17.1 pela T-134). Parada (a) de D-CICLO-V2.
+- **T-148, parte (b)** não corre até a resposta do Fundador ao gatilho E (D-COTA-MECANISMO-FUNDADOR, item 2).
+- **Gates:** nenhum informado no relato.
+- **Próximo:** T-144 (GBQ, AGORA) e T-136 (GCB); T-134 aguarda o Fundador.
+
+### Pendências abertas (acrescidas em 25/10/2026, ciclo s19c1)
+
+| Pendência | Responsável | Aberta em |
+|---|---|---|
+| Decisão sobre a publicação da v17.1: versão 1792774306-636e com mudanças de 23/10 fora da fábrica (T-134 BLOQUEADA; item RESERVADA em PARA_FUNDADOR.md) | Fundador | 25/10 |
+| Gatilho E da GCB, D-COTA-MECANISMO-FUNDADOR (RESERVADA): regra de conflito entre cota de mecanismo (§6.1) e regra das pegadinhas (§6.5); bloqueia T-148 (b) | Fundador | 25/10 |
+| T-129 devolvida: conferência de vigência normativa, objeto ampliado da T-144 (GBQ; qa-normativo-da); novo gatilho A da GBQ com aptidão recalculada | GBQ | 25/10 |
+| Registro, pela GBQ, de "QA PENDENTE (normativo, T-144)" nas observacoes das 260 linhas BQ-0212 a BQ-0471 (D-QA-PENDENTE); execução não informada no relato | GBQ | 25/10 |
+| Ondas 2 e 3 (T-135 e T-139) e T-148 (a): após novo aceite da T-129 | Presidência; GBQ | 25/10 |
+| T-131: consolidação do pacote DA-v2 (status pós-QA do D1-7 nos 60 DV; alinhamento de item_edital_camara dos 7 reais em banco/banco.csv, D-T130-ITEMEDITAL-7REAIS); publicação depende da T-134 | GBQ; PLATAFORMA | 25/10 |
+| T-143 aberta: incorporar do cd_25_ns os omitidos de T-128 (CG 72, CG 73, E2 95; CG 68 condicional) | GBQ | 25/10 |
+| Liberação do www.gov.br na política de rede do ambiente antes da janela de 4–8/1/2027 (D-REDE-GOVBR; fora do repositório) | Fundador | 25/10 |
+| Pendências herdadas da s18c1 (T-133; revisão da coluna D6 da QA12; O1; O2; art. 34, p. ú., da LAI; art. 75, XVI, da Lei 14.133; D5-10 com QA PENDENTE) | GCB; GBQ; Presidência | 25/10 |
 

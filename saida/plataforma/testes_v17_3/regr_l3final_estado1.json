@@ -1,0 +1,19 @@
+{
+ "telas": 104,
+ "resumosVisuais": 30,
+ "esperadas": [
+  "resumo:P1-DA-7",
+  "resumo:P1-DA-8",
+  "resumo:P1-DA-8.1",
+  "resumo:P1-DA-8.2",
+  "resumo:P1-DA-8.3",
+  "resumo:P1-DA-8.4",
+  "resumo:P1-DA-9.1",
+  "resumo:P1-DA-9.2",
+  "resumo:P1-DA-9.3",
+  "resumo:P1-DA-9.4"
+ ],
+ "dif": [],
+ "errosA": [],
+ "errosB": []
+}

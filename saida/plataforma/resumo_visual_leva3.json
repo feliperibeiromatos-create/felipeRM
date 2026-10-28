@@ -1,0 +1,1641 @@
+{
+ "P1-DA-7": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 95,
+   "ce": 75,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). É o item mais cobrado de Direito Administrativo no corpus."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "O que é improbidade depois da Lei 14.230/2021",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "A Lei 8.429/1992 tutela a probidade na organização do Estado e no exercício de suas funções e a integridade do patrimônio público e social (art. 1º, caput e § 5º). Só há improbidade em **condutas dolosas** tipificadas nos arts. 9º, 10 e 11 (art. 1º, § 1º): dolo é a vontade livre e consciente de alcançar o resultado ilícito, **não bastando a voluntariedade** (§ 2º), e a ilegalidade sem dolo que a qualifique não configura improbidade (art. 17-C, § 1º). O mero exercício da função, sem ato doloso com fim ilícito, afasta a responsabilidade (§ 3º), assim como a divergência interpretativa da lei baseada em jurisprudência **assentada** no STF ou nos tribunais superiores ou, na falta dela, em **decisão de mérito transitada em julgado** de órgão colegiado de 2º grau, salvo dolo ou erro grosseiro (§ 8º, com a interpretação conforme fixada pelo STF nas ADIs 7.156 e 7.236, 2026)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Quem responde pela Lei 8.429",
+    "centro": "Sujeitos da improbidade",
+    "ramos": [
+     {
+      "titulo": "Agente público (art. 2º)",
+      "texto": "agente político, servidor e todo aquele que exerce, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades do art. 1º"
+     },
+     {
+      "titulo": "Particular com recursos públicos (art. 2º, p. único)",
+      "texto": "quem celebra convênio, contrato de repasse, contrato de gestão, termo de parceria, termo de cooperação ou ajuste equivalente, quanto a recursos de origem pública"
+     },
+     {
+      "titulo": "Terceiro (art. 3º)",
+      "texto": "quem, mesmo não sendo agente público, induza ou concorra dolosamente; sócios e diretores respondem com participação dolosa comprovada (o STF afastou os \"benefícios diretos\", § 1º)"
+     },
+     {
+      "titulo": "Pessoa jurídica (art. 3º, § 2º)",
+      "texto": "as sanções da Lei 8.429 não se aplicam se o ato também for sancionado como ato lesivo pela Lei 12.846/2013"
+     },
+     {
+      "titulo": "Patrimônio protegido (art. 1º, §§ 5º a 7º)",
+      "texto": "Poderes e administração direta e indireta de todos os entes; entidade privada que receba subvenção ou incentivo, ou para cuja criação ou custeio o erário concorra"
+     },
+     {
+      "titulo": "Sucessor (arts. 8º e 8º-A)",
+      "texto": "responde só pela reparação, até o limite da herança ou do patrimônio transferido; vale na fusão, incorporação e cisão"
+     }
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Os três tipos",
+    "icone": "alvo"
+   },
+   {
+    "titulo": "Arts. 9º, 10 e 11 da Lei 8.429/1992",
+    "colunas": [
+     "Aspecto",
+     "Art. 9º",
+     "Art. 10",
+     "Art. 11"
+    ],
+    "linhas": [
+     [
+      "Tipo",
+      "Enriquecimento ilícito",
+      "Lesão ao erário",
+      "Atentado aos princípios da administração"
+     ],
+     [
+      "Conduta",
+      "Auferir, mediante ato doloso, vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade",
+      "Ação ou omissão dolosa que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação de bens ou haveres",
+      "Ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade"
+     ],
+     [
+      "Rol de incisos",
+      "\"e notadamente\" os incisos",
+      "\"e notadamente\" os incisos vigentes (o inciso XXI e o art. 10-A estão revogados)",
+      "\"caracterizada por uma das seguintes condutas\" (incisos I, II, IX e X revogados)"
+     ],
+     [
+      "Dano ao erário",
+      "Não é requisito",
+      "Perda patrimonial efetiva e comprovada",
+      "Independe do reconhecimento de danos ao erário (§ 4º)"
+     ],
+     [
+      "Sanção",
+      "Art. 12, I",
+      "Art. 12, II",
+      "Art. 12, III"
+     ]
+    ],
+    "legenda": "Os três tipos exigem conduta dolosa (art. 1º, § 1º).",
+    "t": "tabela"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Três tipos, não quatro",
+    "md": "O art. 10-A (benefício financeiro ou tributário) foi revogado pela Lei 14.230/2021; a conduta migrou para o inciso XXII do art. 10. Os tipos vigentes são os dos arts. 9º, 10 e 11, todos dolosos; no art. 11, o rol é fechado (\"caracterizada por uma das seguintes condutas\"), com os incisos I, II, IX e X revogados, e exige-se o fim de obter proveito ou benefício indevido (§ 1º) e lesividade relevante (§ 4º)."
+   },
+   {
+    "t": "dois",
+    "titulo": "Art. 10 × art. 11",
+    "a": {
+     "titulo": "Lesão ao erário (art. 10)",
+     "itens": [
+      "Ação ou omissão dolosa que cause, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação",
+      "Rol \"e notadamente\": exemplificativo",
+      "Sem perda patrimonial efetiva, não há ressarcimento (§ 1º); a mera perda decorrente da atividade econômica não é improbidade (§ 2º)"
+     ]
+    },
+    "b": {
+     "titulo": "Atentado aos princípios (art. 11)",
+     "itens": [
+      "Ação ou omissão dolosa que viole os deveres de honestidade, imparcialidade e legalidade",
+      "Rol fechado: \"caracterizada por uma das seguintes condutas\"",
+      "Independe de dano ao erário e de enriquecimento, mas exige lesividade relevante (§ 4º) e fim de proveito indevido (§ 1º)"
+     ]
+    },
+    "pe": "A nomeação ou indicação política, por si, não é improbidade: exige-se dolo com finalidade ilícita (art. 11, § 5º)"
+   },
+   {
+    "t": "secao",
+    "titulo": "Sanções do art. 12",
+    "icone": "cadeado"
+   },
+   {
+    "titulo": "Cominações do art. 12",
+    "colunas": [
+     "Cominação",
+     "Art. 9º (inciso I)",
+     "Art. 10 (inciso II)",
+     "Art. 11 (inciso III)"
+    ],
+    "linhas": [
+     [
+      "Perda da função pública",
+      "Sim",
+      "Sim",
+      "Não"
+     ],
+     [
+      "Suspensão dos direitos políticos",
+      "Até 14 anos",
+      "Até 12 anos",
+      "Não"
+     ],
+     [
+      "Multa civil",
+      "Equivalente ao valor do acréscimo patrimonial",
+      "Equivalente ao valor do dano",
+      "Até 24 vezes o valor da remuneração percebida pelo agente"
+     ],
+     [
+      "Proibição de contratar com o poder público",
+      "Prazo não superior a 14 anos",
+      "Prazo não superior a 12 anos",
+      "Prazo não superior a 4 anos"
+     ]
+    ],
+    "legenda": "As cominações podem ser aplicadas isolada ou cumulativamente, de acordo com a gravidade do fato (art. 12, caput).",
+    "t": "tabela"
+   },
+   {
+    "t": "escala",
+    "titulo": "Do art. 11 ao art. 9º: a gravidade sobe",
+    "esquerda": "Art. 11",
+    "direita": "Art. 9º",
+    "pontos": [
+     {
+      "rotulo": "Art. 11 (inciso III)",
+      "texto": "multa de até 24 vezes a remuneração; proibição de contratar por até 4 anos; sem perda da função e sem suspensão de direitos políticos"
+     },
+     {
+      "rotulo": "Art. 10 (inciso II)",
+      "texto": "perda da função; suspensão dos direitos políticos até 12 anos; multa igual ao dano; proibição de contratar até 12 anos"
+     },
+     {
+      "rotulo": "Art. 9º (inciso I)",
+      "texto": "perda dos bens acrescidos; perda da função; suspensão até 14 anos; multa igual ao acréscimo; proibição de contratar até 14 anos"
+     }
+    ],
+    "legenda": "As cominações aplicam-se isolada ou cumulativamente, conforme a gravidade (art. 12, caput); nos atos de menor ofensa, só multa (§ 5º); a multa pode dobrar se ineficaz (§ 2º)."
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Perda da função e direitos políticos: só com o trânsito em julgado",
+    "md": "A perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória (art. 20, caput), e as sanções do art. 12 só podem ser executadas depois dele (art. 12, § 9º). O afastamento cautelar do agente, sem prejuízo da remuneração, é de até 90 dias, prorrogáveis uma única vez por igual prazo (art. 20, §§ 1º e 2º). Pela decisão do STF nas ADIs 7.156 e 7.236 (2026), a perda alcança todas as funções públicas do condenado; excepcionalmente e de forma fundamentada, o juiz pode deixar de aplicá-la a uma função específica — afastada a restrição do art. 12, § 1º. O STF também invalidou a limitação da proibição de contratar ao ente lesado (art. 12, § 4º): ela atinge os três níveis da federação."
+   },
+   {
+    "t": "secao",
+    "titulo": "Ação, legitimidade e prescrição",
+    "icone": "relogio"
+   },
+   {
+    "t": "fluxo",
+    "titulo": "Da notícia do fato à sentença (Lei 8.429)",
+    "passos": [
+     "Indícios de improbidade: a autoridade representa ao Ministério Público (art. 7º)",
+     "Inquérito civil do MP: 365 dias corridos, prorrogáveis uma vez; depois, 30 dias para propor a ação (art. 23, §§ 2º e 3º)",
+     "Petição inicial individualiza a conduta e aponta provas mínimas do fato e do dolo (art. 17, § 6º); indisponibilidade de bens (art. 16): em caráter excepcional e por decisão fundamentada, cabe com base em tutela de evidência ou com presunção de urgência; alcança o ressarcimento, a multa civil e o enriquecimento ilícito (STF, ADI 7.156)",
+     "Contestação em 30 dias; prazo interrompível por até 90 dias para solução consensual (art. 17, §§ 7º e 10-A)",
+     "O autor narra os fatos e indica provas; o enquadramento jurídico é do juiz, que não fica vinculado à capitulação da inicial (STF, ADIs 7.156 e 7.236, afastando os §§ 10-C, 10-D e 10-F, I)",
+     "Sentença com os elementos dos arts. 9º, 10 e 11 demonstrados, sem presunção (art. 17-C); sem remessa necessária (§ 3º)"
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Quem propõe a ação",
+    "md": "O caput do art. 17, na redação da Lei 14.230/2021, diz que a ação será proposta pelo Ministério Público. O STF, nas ADIs 7.042 e 7.043 (julgamento de 31/8/2022, notícia oficial do portal do STF), reconheceu **legitimidade ativa concorrente** entre o Ministério Público e os entes públicos lesados, que também podem celebrar o acordo de não persecução civil. O cidadão não tem legitimidade; a pessoa jurídica interessada pode intervir no processo (art. 17, § 14)."
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Prescrição da ação (art. 23)",
+    "marcos": [
+     {
+      "quando": "Fato",
+      "titulo": "Começa a contar",
+      "texto": "8 anos, da ocorrência do fato ou, nas infrações permanentes, do dia em que cessou a permanência (caput)"
+     },
+     {
+      "quando": "Até 180 dias",
+      "titulo": "Suspensão",
+      "texto": "a instauração de inquérito civil ou de processo administrativo suspende o prazo por, no máximo, 180 dias corridos (§ 1º)"
+     },
+     {
+      "quando": "Ajuizamento",
+      "titulo": "Interrupção",
+      "texto": "ajuizamento da ação, publicação da sentença condenatória e das decisões de tribunal que a confirmem ou reformem improcedência (§ 4º)"
+     },
+     {
+      "quando": "Depois da interrupção",
+      "titulo": "Recomeça inteiro",
+      "texto": "a regra que reduzia o prazo à metade (§ 5º) foi declarada inconstitucional pelo STF (ADIs 7.156 e 7.236, 1º/7/2026); as hipóteses de interrupção do § 4º foram mantidas"
+     },
+     {
+      "quando": "Teto",
+      "titulo": "20 anos",
+      "texto": "o STF fixou o prazo máximo de 20 anos de prescrição, tomando por referência o Código Penal"
+     }
+    ],
+    "legenda": "Suspensão e interrupção alcançam todos os que concorreram para o ato (§ 6º) e os atos conexos do mesmo processo (§ 7º); a prescrição intercorrente do § 8º remete ao § 5º e aguarda a leitura do acórdão."
+   },
+   {
+    "t": "dois",
+    "titulo": "Acordo de não persecução civil (art. 17-B)",
+    "a": {
+     "titulo": "Exige",
+     "itens": [
+      "Integral ressarcimento do dano",
+      "Reversão da vantagem indevida à pessoa jurídica lesada",
+      "Oitiva do ente lesado; aprovação pelo órgão do MP em até 60 dias, se antes da ação; homologação judicial (§ 1º)"
+     ]
+    },
+    "b": {
+     "titulo": "Pode",
+     "itens": [
+      "Ser celebrado na investigação, na ação ou na execução da sentença (§ 4º)",
+      "Prever programas de integridade, auditoria e canais de denúncia (§ 6º)",
+      "Descumprido, impede novo acordo por 5 anos (§ 7º)"
+     ]
+    },
+    "pe": "A Lei 14.230 pôs o acordo no art. 17-B (o 17-A foi vetado); a oitiva obrigatória do Tribunal de Contas (§ 3º) foi declarada inconstitucional pelo STF (ADIs 7.156 e 7.236)"
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Independência das instâncias (art. 21)",
+    "md": "A aplicação das sanções independe da efetiva ocorrência de dano ao patrimônio público, salvo quanto ao ressarcimento e às condutas do art. 10 (inciso I), e da aprovação ou rejeição das contas pelo controle interno ou pelo Tribunal de Contas (inciso II). A absolvição criminal não encerra automaticamente a ação de improbidade. Só a decisão criminal transitada em julgado que reconheça estado de necessidade, legítima defesa, estrito cumprimento do dever legal ou exercício regular de direito (CPP, art. 65), a **prova** da inexistência do fato (art. 386, I) ou a **prova** de que o réu não concorreu para a infração (art. 386, IV) impede a ação; vale também para a rejeição da denúncia e o arquivamento precluso (STF, ADIs 7.156 e 7.236, interpretação conforme do § 4º). As sanções de outras esferas são compensadas (§ 5º)."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Improbidade exige dolo: vontade livre e consciente de alcançar o resultado ilícito; voluntariedade não basta (art. 1º, §§ 1º e 2º).",
+     "Três tipos: art. 9º (enriquecimento ilícito), art. 10 (lesão efetiva ao erário), art. 11 (princípios, rol fechado); o 10-A foi revogado.",
+     "Art. 12: suspensão e proibição de contratar até 14 anos (art. 9º) e 12 (art. 10); art. 11: multa até 24 remunerações, proibição até 4 anos.",
+     "No art. 11 não há perda da função nem suspensão dos direitos políticos; exige-se lesividade relevante e fim de proveito indevido.",
+     "Perda da função e suspensão dos direitos políticos só com o trânsito em julgado (art. 20); afastamento cautelar 90 + 90 dias.",
+     "Prescrição: 8 anos do fato; suspensão de até 180 dias (art. 23); a redução à metade (§ 5º) caiu no STF em 2026; teto de 20 anos.",
+     "Legitimidade: o texto diz Ministério Público; o STF (ADIs 7.042 e 7.043) reconheceu a legitimidade concorrente dos entes lesados.",
+     "Terceiro responde se induzir ou concorrer dolosamente (art. 3º); sucessor só repara, até o limite da herança (art. 8º).",
+     "ADIs 7.156 e 7.236 (2026): dolo e rol do art. 11 mantidos; caíram a metade da prescrição e a vinculação do juiz à inicial.",
+     "Acordo de não persecução civil: art. 17-B, com ressarcimento integral e homologação judicial; descumprido, 5 anos sem novo acordo."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A conduta culposa que cause lesão ao erário configura improbidade administrativa.",
+      "certo": "Não: só condutas **dolosas** dos arts. 9º, 10 e 11 (art. 1º, § 1º); a modalidade culposa do art. 10 foi eliminada pela Lei 14.230/2021."
+     },
+     {
+      "errado": "A Lei 8.429 prevê quatro tipos de improbidade, inclusive a concessão indevida de benefício tributário.",
+      "certo": "São **três**: o art. 10-A foi revogado; a conduta está no art. 10, XXII."
+     },
+     {
+      "errado": "O atentado aos princípios pode levar à perda da função pública e à suspensão dos direitos políticos.",
+      "certo": "O art. 12, III, prevê só **multa** (até 24 remunerações) e **proibição de contratar** (até 4 anos)."
+     },
+     {
+      "errado": "A ação de improbidade prescreve em cinco anos contados do término do mandato.",
+      "certo": "Prescreve em **8 anos** contados do **fato** ou do fim da permanência (art. 23, caput)."
+     },
+     {
+      "errado": "A instauração de processo administrativo interrompe a prescrição da ação de improbidade.",
+      "certo": "**Suspende** por até 180 dias corridos (art. 23, § 1º); interrompem o ajuizamento e as decisões do § 4º."
+     },
+     {
+      "errado": "A perda da função pública pode ser executada desde a sentença de primeiro grau.",
+      "certo": "Só com o **trânsito em julgado** (arts. 12, § 9º, e 20)."
+     },
+     {
+      "errado": "Qualquer cidadão pode propor ação de improbidade administrativa.",
+      "certo": "Não: a lei fala no Ministério Público, e o STF (ADIs 7.042 e 7.043) acrescentou os **entes lesados**; o cidadão pode representar (art. 14)."
+     },
+     {
+      "errado": "Na improbidade com vários réus é vedada qualquer solidariedade, inclusive no ressarcimento.",
+      "certo": "As sanções são **individualizadas**, mas o **ressarcimento** ao erário pode ser exigido **solidariamente** dos responsáveis pelo dano (STF, ADIs 7.156 e 7.236, sobre o art. 17-C, § 2º)."
+     },
+     {
+      "errado": "Na ação de improbidade aplica-se a presunção de veracidade pela revelia.",
+      "certo": "**Não** se aplica (art. 17, § 19, I); tampouco a inversão do ônus da prova nem o reexame necessário."
+     },
+     {
+      "errado": "Interrompida a prescrição, o prazo recomeça a correr pela metade.",
+      "certo": "Essa regra (art. 23, § 5º) foi declarada **inconstitucional** pelo STF em 2026; o teto é de **20 anos**."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da escala Do art. 11 ao art. 9º",
+    "oQue": "três degraus com as penas de cada tipo, com os anos (4, 12, 14) escritos nos degraus",
+    "porQue": "a banca troca os prazos entre os três tipos"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto e tabelas de P1-DA-7",
+   "Lei 8.429/1992, arts. 1º a 3º, 7º, 8º, 8º-A, 9º a 12, 14, 16, 17, 17-B, 17-C, 18, 20 a 23 — texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026",
+   "STF, ADIs 7.042 e 7.043 (31/8/2022): notícia oficial do portal do STF, lida em 28/10/2026",
+   "STF, ADIs 7.156 e 7.236 (julgamento concluído em 1º/7/2026): certidões de julgamento das sessões de 28/5, 24/6, 25/6 e 1º/7/2026 (atas no DJE de 2/7 e 4/8/2026), lidas no portal do STF em 28/10/2026, e notícias oficiais das mesmas datas; acórdão pendente de publicação",
+   "MapasPro — Lei de Improbidade Administrativa, conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-8": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item no corpus de 2025; o conteúdo é cobrado por leitura do texto e por troca de rótulos entre os itens 8 e 9."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Três modelos, uma sucessão",
+    "icone": "livro"
+   },
+   {
+    "t": "texto",
+    "md": "A evolução dos modelos de gestão pública parte da administração **patrimonialista**, que Bresser-Pereira (Revista do Serviço Público, ENAP, 2022) descreve como a das monarquias absolutas: patrimônio público e privado confundidos, o Estado como propriedade do rei, nepotismo e empreguismo como norma. A administração **burocrática** foi adotada para substituí-la, como alternativa muito superior; o pressuposto de eficiência, porém, não se revelou real. Nos anos 80, nos países centrais, inicia-se a revolução rumo à administração pública **gerencial**, a nova gestão pública (NPM)."
+   },
+   {
+    "titulo": "Sucessão dos modelos, segundo Bresser-Pereira (ENAP, 2022)",
+    "marcos": [
+     {
+      "quando": "Monarquias absolutas",
+      "texto": "Administração patrimonialista: patrimônio público e privado confundidos, Estado como propriedade do rei, nepotismo e empreguismo como norma."
+     },
+     {
+      "quando": "Em substituição à patrimonialista",
+      "texto": "Administração burocrática clássica, alternativa muito superior; o pressuposto de eficiência, porém, não se revelou real."
+     },
+     {
+      "quando": "Anos 80, países centrais",
+      "texto": "Início da grande revolução rumo à administração pública gerencial (nova gestão pública, NPM)."
+     }
+    ],
+    "t": "linha"
+   },
+   {
+    "titulo": "Modelo burocrático × nova gestão pública (NPM)",
+    "a": "Modelo burocrático",
+    "b": "Nova gestão pública (NPM)",
+    "linhas": [
+     [
+      "Fonte inspiradora (Cavalcante, Ipea, 2018)",
+      "Hierarquia",
+      "Lógica do mercado"
+     ],
+     [
+      "Traços associados (Guia da Política de Governança Pública, Casa Civil, 2018)",
+      "Racionalidade, hierarquia e análises de custo-benefício (teoria clássica burocrática, weberiana)",
+      "Desagregação, concorrência intragovernamental e incentivos pecuniários vinculados ao desempenho (paradigma gerencialista)"
+     ],
+     [
+      "Ponto de partida (Bresser-Pereira, ENAP, 2022)",
+      "Adotada para substituir a administração patrimonialista",
+      "Revolução iniciada nos anos 80, nos países centrais"
+     ]
+    ],
+    "legenda": "No texto do Ipea, ‘NGP’ é nova gestão pública (NPM); a Nova Governança Pública (NPG) tem como princípio orientador as redes (ver 8.1).",
+    "t": "compare"
+   },
+   {
+    "t": "mapa",
+    "titulo": "O que cada fonte do curso diz",
+    "centro": "Modelos de gestão pública",
+    "ramos": [
+     {
+      "titulo": "Bresser-Pereira (ENAP, 2022)",
+      "texto": "patrimonialista → burocrática → gerencial; a burocrática é lenta, cara, auto-referida e pouco orientada ao cidadão"
+     },
+     {
+      "titulo": "Guia da Política de Governança Pública (Casa Civil, 2018)",
+      "texto": "burocracia weberiana: racionalidade, hierarquia, custo-benefício; gerencialismo: desagregação, concorrência intragovernamental, incentivos por desempenho"
+     },
+     {
+      "titulo": "Cavalcante (Ipea, 2018)",
+      "texto": "fonte inspiradora: hierarquia no modelo burocrático; lógica do mercado na nova gestão pública (que o texto chama de 'NGP')"
+     },
+     {
+      "titulo": "Cavalcante (Ipea, 2020) sobre o PDRAE",
+      "texto": "transição programada de uma administração burocrática, rígida e ineficiente para uma gerencial, flexível e eficiente, voltada ao cidadão"
+     }
+    ],
+    "legenda": "Siglas: no texto do Ipea, 'NGP' é nova gestão pública (NPM); a Nova Governança Pública (NPG) é o item 8.1."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Sem datas e sem autor fundador",
+    "md": "O curso não fixa data de nascimento de cada modelo nem atribui a um único autor; a única marca temporal é 'anos 80, nos países centrais', para o início do movimento gerencial. Pergunte-se a ordem (patrimonialista, burocrática, gerencial) e a fonte inspiradora de cada um (hierarquia; mercado)."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Patrimonialismo: patrimônio público e privado confundidos; Estado como propriedade do rei; nepotismo como norma (Bresser-Pereira).",
+     "Burocracia: adotada para substituir o patrimonialismo; racionalidade, hierarquia, custo-benefício (Guia, 2018).",
+     "O pressuposto de eficiência da burocracia não se revelou real: lenta, cara, auto-referida.",
+     "Gerencial (NPM): revolução iniciada nos anos 80 nos países centrais; desagregação, concorrência, incentivos por desempenho.",
+     "Cavalcante (Ipea, 2018): hierarquia inspira o modelo burocrático; a lógica do mercado inspira a nova gestão pública.",
+     "PDRAE: de uma administração burocrática, rígida e ineficiente para uma gerencial, flexível e eficiente (Cavalcante, 2020)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A administração burocrática foi substituída pela patrimonialista.",
+      "certo": "É o contrário: a **burocrática** substituiu a **patrimonialista** (Bresser-Pereira, ENAP, 2022)."
+     },
+     {
+      "errado": "A fonte inspiradora do modelo burocrático é a lógica do mercado.",
+      "certo": "É a **hierarquia**; o mercado inspira a **nova gestão pública** (Cavalcante, Ipea, 2018)."
+     },
+     {
+      "errado": "A nova gestão pública tem como princípio orientador as redes.",
+      "certo": "As redes orientam a **Nova Governança Pública** (NPG, item 8.1); a NPM é orientada pelo **mercado**."
+     },
+     {
+      "errado": "O movimento gerencial começou nos países periféricos, nos anos 60.",
+      "certo": "Nos **anos 80**, nos países **centrais** (Bresser-Pereira)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, linha e compare de P1-DA-8 (Bresser-Pereira, RSP/ENAP, 2022; Guia da Política de Governança Pública, Casa Civil, 2018; Cavalcante, Ipea, 2018 e 2020)"
+  ]
+ },
+ "P1-DA-8.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item no corpus de 2025; o conteúdo é cobrado por leitura do texto e por troca de rótulos entre os itens 8 e 9."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Nova Governança Pública",
+    "icone": "pessoas"
+   },
+   {
+    "t": "texto",
+    "md": "A **Nova Governança Pública** (NPG, New Public Governance) tem, segundo Bouckaert (Revista do Serviço Público, ENAP, 2024), o princípio orientador das **redes**: o governo torna-se facilitador e participante das redes, apoiando a cooperação mútua, a coprodução, as parcerias e a confiança na rede; os fundamentos teóricos são as teorias de rede. A perspectiva **pós-NPM** (Guia da Política de Governança Pública, 2018; Cavalcante, Ipea) fala em integração, colaboração e processo decisório inclusivo, com inspiração nas redes."
+   },
+   {
+    "titulo": "Nova Governança Pública (NPG), segundo Bouckaert (ENAP, 2024)",
+    "centro": "NPG",
+    "ramos": [
+     "Princípio orientador: as redes",
+     "O governo é facilitador e participante das redes",
+     "Apoia a cooperação mútua, a coprodução, as parcerias e a confiança na rede",
+     "Fundamentos teóricos: as teorias de rede"
+    ],
+    "t": "esquema"
+   },
+   {
+    "titulo": "Nova gestão pública (NPM) × Nova Governança Pública (NPG)",
+    "a": "Nova gestão pública (NPM)",
+    "b": "Nova Governança Pública (NPG)",
+    "linhas": [
+     [
+      "Princípio orientador",
+      "Lógica do mercado (Cavalcante, Ipea, 2018)",
+      "Redes (Bouckaert, ENAP, 2024)"
+     ],
+     [
+      "Sigla nas fontes",
+      "‘NGP’ no texto do Ipea; NPM no texto do curso",
+      "NPG, no artigo da ENAP"
+     ],
+     [
+      "O que o curso não afirma",
+      "Que seja substituída pela NPG",
+      "Que substitua a NPM, nem data ou autor de origem"
+     ]
+    ],
+    "legenda": "Pós-NPM (Guia e Cavalcante) e NPG não são tratados como a mesma coisa.",
+    "t": "compare"
+   },
+   {
+    "t": "dois",
+    "titulo": "Convenção de siglas do curso",
+    "a": {
+     "titulo": "O que se usa",
+     "itens": [
+      "NPM = nova gestão pública (New Public Management)",
+      "NPG = Nova Governança Pública (Bouckaert, ENAP, 2024)",
+      "Pós-NPM = perspectiva do Guia (2018) e de Cavalcante (Ipea)"
+     ]
+    },
+    "b": {
+     "titulo": "O que não se afirma",
+     "itens": [
+      "Que a NPG substitui a NPM",
+      "Que a NPG surgiu em certa data ou por certo autor",
+      "Que pós-NPM e NPG sejam a mesma coisa"
+     ]
+    },
+    "pe": "A sigla 'NGP' só aparece em citação do Ipea e significa nova gestão pública (NPM)"
+   },
+   {
+    "t": "escala",
+    "titulo": "Sequência de inspiração (Cavalcante, Ipea, 2018), sem datas",
+    "esquerda": "Hierarquia",
+    "direita": "Redes",
+    "pontos": [
+     {
+      "rotulo": "Hierarquia",
+      "texto": "administração tradicional, modelo burocrático"
+     },
+     {
+      "rotulo": "Mercado",
+      "texto": "nova gestão pública (NPM; 'NGP' no texto do Ipea)"
+     },
+     {
+      "rotulo": "Redes",
+      "texto": "pós-NPM: gestão e provisão de políticas fundamentadas nas redes"
+     }
+    ],
+    "legenda": "Sequência de inspiração, não cronologia."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "NPG (Bouckaert, ENAP, 2024): princípio orientador das redes; governo facilitador e participante.",
+     "Na NPG o governo apoia cooperação mútua, coprodução, parcerias e confiança na rede; fundamentos: teorias de rede.",
+     "Pós-NPM (Guia, 2018; Cavalcante): integração, colaboração, decisão inclusiva; inspiração nas redes.",
+     "'NGP' no Ipea = nova gestão pública (NPM), não NPG.",
+     "Sequência de inspiração: hierarquia, mercado, redes, sem datas.",
+     "O curso não afirma que a NPG substitui a NPM nem lhe dá data ou autor."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A sigla NGP, no texto do Ipea, designa a Nova Governança Pública.",
+      "certo": "Designa a **nova gestão pública** (NPM); NPG é a sigla de Bouckaert para a Nova Governança Pública."
+     },
+     {
+      "errado": "O princípio orientador da Nova Governança Pública é a lógica do mercado.",
+      "certo": "São as **redes** (Bouckaert, ENAP, 2024); o mercado orienta a NPM."
+     },
+     {
+      "errado": "A Nova Governança Pública substituiu a nova gestão pública a partir de 2010.",
+      "certo": "A NPG tem as **redes** como princípio orientador (Bouckaert); as fontes do curso não datam sua origem nem afirmam que tenha substituído a NPM."
+     },
+     {
+      "errado": "Na NPG o governo é o único provedor das políticas, por hierarquia.",
+      "certo": "O governo é **facilitador e participante** das redes, apoiando cooperação, coprodução e parcerias."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, esquema e compare de P1-DA-8.1 (Bouckaert, RSP/ENAP, 2024; Guia da Política de Governança Pública, 2018; Cavalcante, Ipea, 2018)"
+  ]
+ },
+ "P1-DA-8.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 38,
+   "ce": 28,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Redes, articulação e parcerias",
+    "icone": "pessoas"
+   },
+   {
+    "t": "texto",
+    "md": "O Decreto 9.203/2017 traz, entre as diretrizes da governança, **articular instituições e coordenar processos** para melhorar a integração entre os níveis e esferas do setor público (art. 4º, IV); aqui vale o meio, e a finalidade, o valor público, é o item 8.4. Cavalcante (Ipea, 2018) dá ao pós-NPM as tendências de colaboração, parcerias e redes; o Guia da Política de Governança Pública (2018) trata a passagem de silos isolados para redes formais e informais como tendência global."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Instrumentos de parceria e suas leis",
+    "centro": "Parcerias da administração",
+    "ramos": [
+     {
+      "titulo": "PPP (Lei 11.079/2004)",
+      "texto": "contrato administrativo de concessão, patrocinada ou administrativa; a concessão comum não é PPP"
+     },
+     {
+      "titulo": "Concessão patrocinada",
+      "texto": "tarifa dos usuários + contraprestação pecuniária do parceiro público"
+     },
+     {
+      "titulo": "Concessão administrativa",
+      "texto": "prestação de serviços de que a Administração é usuária direta ou indireta"
+     },
+     {
+      "titulo": "Vedações da PPP",
+      "texto": "valor inferior a R$ 10 milhões; prazo inferior a 5 anos; objeto único de mão de obra, equipamentos ou obra"
+     },
+     {
+      "titulo": "OSC (Lei 13.019/2014)",
+      "texto": "termo de colaboração, termo de fomento e acordo de cooperação"
+     },
+     {
+      "titulo": "OS e OSCIP (Leis 9.637/1998 e 9.790/1999)",
+      "texto": "qualificações: a de OSCIP é ato vinculado e exige funcionamento regular há, no mínimo, 3 anos; 'terceiro setor' é rótulo sem definição legal"
+     }
+    ]
+   },
+   {
+    "titulo": "Termo de colaboração × termo de fomento (Lei 13.019/2014, art. 2º)",
+    "a": "Termo de colaboração (inciso VII)",
+    "b": "Termo de fomento (inciso VIII)",
+    "linhas": [
+     [
+      "Quem propõe as finalidades",
+      "A administração pública",
+      "As organizações da sociedade civil"
+     ],
+     [
+      "Finalidades",
+      "Interesse público e recíproco",
+      "Interesse público e recíproco"
+     ],
+     [
+      "Transferência de recursos financeiros",
+      "Envolve",
+      "Envolve"
+     ]
+    ],
+    "legenda": "O acordo de cooperação (inciso VIII-A) tem finalidades de interesse público e recíproco que não envolvem a transferência de recursos financeiros.",
+    "t": "compare"
+   },
+   {
+    "t": "dois",
+    "titulo": "Patrocinada × administrativa (Lei 11.079, art. 2º)",
+    "a": {
+     "titulo": "Concessão patrocinada (§ 1º)",
+     "itens": [
+      "Concessão de serviços ou obras públicas da Lei 8.987/1995",
+      "Tarifa cobrada dos usuários",
+      "Mais contraprestação pecuniária do parceiro público ao privado"
+     ]
+    },
+    "b": {
+     "titulo": "Concessão administrativa (§ 2º)",
+     "itens": [
+      "Contrato de prestação de serviços",
+      "A Administração é usuária direta ou indireta",
+      "Ainda que envolva obra ou fornecimento e instalação de bens"
+     ]
+    },
+    "pe": "Concessão comum (§ 3º): sem contraprestação pecuniária do parceiro público; não é PPP"
+   },
+   {
+    "t": "lei",
+    "titulo": "Parceria público-privada e suas modalidades",
+    "norma": "Lei 11.079/2004",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, caput",
+      "texto": "Art. 2º Parceria público-privada é o contrato administrativo de concessão, na modalidade patrocinada ou administrativa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, § 1º",
+      "texto": "§ 1º Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários contraprestação pecuniária do parceiro público ao parceiro privado.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, § 2º",
+      "texto": "§ 2º Concessão administrativa é o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva execução de obra ou fornecimento e instalação de bens.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, § 3º",
+      "texto": "§ 3º Não constitui parceria público-privada a concessão comum, assim entendida a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando não envolver contraprestação pecuniária do parceiro público ao parceiro privado.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Quem propõe decide o nome",
+    "md": "Na Lei 13.019/2014, o termo de **colaboração** é proposto pela administração e o de **fomento**, pelas organizações da sociedade civil; ambos envolvem transferência de recursos. O acordo de **cooperação** não envolve recursos financeiros. A banca inverte os dois primeiros."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Diretriz do art. 4º, IV, do Decreto 9.203: articular instituições e coordenar processos entre níveis e esferas.",
+     "Pós-NPM (Cavalcante, 2018): colaboração, parcerias e redes; Guia (2018): de silos isolados para redes.",
+     "PPP = concessão patrocinada ou administrativa (Lei 11.079, art. 2º); a comum, sem contraprestação pública, não é PPP.",
+     "Patrocinada: tarifa + contraprestação; administrativa: Administração usuária direta ou indireta.",
+     "Vedada PPP abaixo de R$ 10 milhões, com menos de 5 anos ou com objeto único de mão de obra, equipamentos ou obra.",
+     "Lei 13.019: colaboração (administração propõe), fomento (OSC propõe), cooperação (sem recursos).",
+     "OSCIP (Lei 9.790): qualificação vinculada, funcionamento regular há 3 anos; OS (Lei 9.637): qualificação pelo Executivo."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A concessão comum de serviço público é modalidade de parceria público-privada.",
+      "certo": "**Não** é: falta a contraprestação pecuniária do parceiro público (Lei 11.079, art. 2º, § 3º)."
+     },
+     {
+      "errado": "Na concessão administrativa o usuário paga tarifa ao parceiro privado.",
+      "certo": "Na administrativa a **Administração** é a usuária, direta ou indireta (§ 2º); tarifa de usuário é a **patrocinada**."
+     },
+     {
+      "errado": "O termo de fomento é proposto pela administração pública.",
+      "certo": "É proposto pelas **organizações da sociedade civil**; o proposto pela administração é o termo de **colaboração**."
+     },
+     {
+      "errado": "O acordo de cooperação envolve transferência de recursos financeiros.",
+      "certo": "**Não** envolve (Lei 13.019, art. 2º, VIII-A)."
+     },
+     {
+      "errado": "Pode haver PPP com prazo de três anos para obra de R$ 5 milhões.",
+      "certo": "Vedado: mínimo de **R$ 10 milhões** e **5 anos**, e o objeto não pode ser só obra."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-8.2",
+   "Lei 11.079/2004, art. 2º; Lei 13.019/2014, art. 2º; Leis 9.637/1998 e 9.790/1999; Decreto 9.203/2017, art. 4º, IV (pacote v1.14, conferência de 20/10/2026)"
+  ]
+ },
+ "P1-DA-8.3": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 3,
+   "ce": 2,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; o tema reaparece no item 11 (LAI)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Coprodução e participação",
+    "icone": "pessoas"
+   },
+   {
+    "t": "texto",
+    "md": "A **coprodução**, segundo Lui et al. (Ipea, 2023), implica promover a participação social em todos os estágios da política, principalmente na implementação e no monitoramento; Bouckaert (ENAP) a cita entre o que o governo apoia na NPG. As leis abertas não definem coprodução: a Lei 12.527/2011 trata de divulgação e a Lei 13.460/2017, da participação do usuário, para quem a participação no acompanhamento e na avaliação dos serviços é direito básico (art. 6º, I)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Onde a participação aparece nas fontes",
+    "centro": "Participação cidadã",
+    "ramos": [
+     {
+      "titulo": "Lui et al. (Ipea, 2023)",
+      "texto": "coprodução: participação social em todos os estágios, principalmente implementação e monitoramento"
+     },
+     {
+      "titulo": "Cavalcante (Ipea, 2018)",
+      "texto": "participação e engajamento entre as tendências do pós-NPM"
+     },
+     {
+      "titulo": "Guia (Casa Civil, 2018)",
+      "texto": "processo decisório que incentiva a participação da sociedade, como a consulta pública"
+     },
+     {
+      "titulo": "Decreto 9.203, art. 4º, VIII e IX",
+      "texto": "manter processo decisório com apoio à participação da sociedade (VIII); na edição e revisão de atos normativos, consultas públicas sempre que conveniente (IX)"
+     },
+     {
+      "titulo": "Lei 13.460/2017, art. 6º, I",
+      "texto": "participação no acompanhamento da prestação e na avaliação dos serviços: direito básico do usuário"
+     }
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Transparência ativa e passiva",
+    "icone": "doc"
+   },
+   {
+    "titulo": "Transparência ativa × transparência passiva",
+    "a": "Transparência ativa",
+    "b": "Transparência passiva",
+    "linhas": [
+     [
+      "Iniciativa",
+      "Divulgação independente de requerimento",
+      "Pedido de acesso apresentado pelo interessado"
+     ],
+     [
+      "Dispositivo da Lei 12.527/2011",
+      "Art. 8º, caput: dever de promover a divulgação em local de fácil acesso",
+      "Art. 10, caput: pedido por qualquer meio legítimo"
+     ],
+     [
+      "Exigência",
+      "Conteúdo mínimo do § 1º, I a VI, entre eles registros das despesas e respostas a perguntas mais frequentes",
+      "Identificação do requerente e especificação da informação requerida"
+     ],
+     [
+      "Origem do rótulo",
+      "Referencial do TCU (2020) e Guia da Política de Governança Pública (Casa Civil, 2018); não é da lei",
+      "Referencial do TCU (2020); não é da lei"
+     ]
+    ],
+    "legenda": "No Decreto 9.203/2017, art. 4º, XI, a diretriz da comunicação aberta, voluntária e transparente é lida pelo Guia como compromisso com a transparência ativa.",
+    "t": "compare"
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto do decreto e da LAI sobre divulgação",
+    "norma": "Decreto 9.203/2017 e Lei 12.527/2011",
+    "dispositivos": [
+     {
+      "ref": "Decreto 9.203/2017, art. 4º, XI",
+      "texto": "XI - promover a comunicação aberta, voluntária e transparente das atividades e dos resultados da organização, de maneira a fortalecer o acesso público à informação.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 12.527/2011, art. 8º, caput",
+      "texto": "Art. 8º É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências, de informações de interesse coletivo ou geral por eles produzidas ou custodiadas.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 12.527/2011, art. 8º, § 1º",
+      "texto": "§ 1º Na divulgação das informações a que se refere o caput, deverão constar, no mínimo:",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Rótulo do TCU, não da lei",
+    "md": "'Transparência ativa' e 'passiva' vêm do Referencial Básico de Governança Organizacional (TCU, 2020) e do Guia (2018); a Lei 12.527 fala em divulgação independente de requerimento (art. 8º) e em pedido de acesso (art. 10). No Decreto 9.203, art. 4º, XI, a diretriz é a comunicação aberta, voluntária e transparente."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Coprodução (Lui et al., Ipea, 2023): participação social em todos os estágios, principalmente implementação e monitoramento.",
+     "Nenhuma lei define coprodução: a LAI trata de divulgação; a Lei 13.460, da participação do usuário.",
+     "Decreto 9.203, art. 4º: apoio à participação da sociedade (VIII) e consultas públicas sempre que conveniente (IX).",
+     "Transparência ativa: divulgação independente de requerimento (LAI, art. 8º), com conteúdo mínimo no § 1º.",
+     "Transparência passiva: pedido de acesso, com identificação do requerente e especificação da informação (art. 10).",
+     "Os rótulos ativa/passiva são do TCU (2020) e do Guia (2018), não da lei."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A Lei 12.527/2011 define coprodução do bem público.",
+      "certo": "**Nenhuma** lei define coprodução; a definição é de Lui et al. (Ipea, 2023)."
+     },
+     {
+      "errado": "A transparência passiva é a divulgação espontânea de informações em sítios oficiais.",
+      "certo": "Isso é a **ativa** (art. 8º); a passiva atende ao **pedido** de acesso (art. 10)."
+     },
+     {
+      "errado": "O Decreto 9.203 obriga a consulta pública em toda decisão.",
+      "certo": "Diretriz de realizar consultas públicas **sempre que conveniente** (art. 4º, IX)."
+     },
+     {
+      "errado": "As expressões transparência ativa e passiva constam do texto da LAI.",
+      "certo": "São rótulos do **TCU** (2020) e do Guia (2018); a lei não os usa."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-8.3",
+   "Lei 12.527/2011, arts. 8º e 10; Lei 13.460/2017, art. 6º; Decreto 9.203/2017, art. 4º (pacote v1.14, conferência de 20/10/2026)"
+  ]
+ },
+ "P1-DA-8.4": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item no corpus de 2025; o conteúdo é cobrado por leitura do texto e por troca de rótulos entre os itens 8 e 9."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Valor público e cadeia de valor",
+    "icone": "alvo"
+   },
+   {
+    "t": "texto",
+    "md": "**Valor público**, no Decreto 9.203/2017, art. 2º, II, são produtos e resultados **gerados, preservados ou entregues** pelas atividades de uma organização; o art. 4º, IV, põe o valor público como finalidade da articulação de instituições e da coordenação de processos. A **cadeia de valor público** é outra coisa: adaptação da cadeia de valor de Porter (documento didático da CGU); para Martins (Ipea, 2018), o desempenho é um fluxo dos insumos até o valor público; o guia prático de análise ex post (Casa Civil, 2018) lista os elos insumos, processos, produtos, resultados e impactos."
+   },
+   {
+    "titulo": "Elos da cadeia de valor das políticas públicas (Casa Civil, 2018)",
+    "passos": [
+     "Insumos",
+     "Processos",
+     "Produtos",
+     "Resultados",
+     "Impactos"
+    ],
+    "t": "fluxo"
+   },
+   {
+    "t": "dois",
+    "titulo": "Valor público × cadeia de valor",
+    "a": {
+     "titulo": "Valor público (decreto)",
+     "itens": [
+      "Definição do art. 2º, II: produtos e resultados gerados, preservados ou entregues",
+      "Finalidade do art. 4º, IV: gerar, preservar e entregar valor público",
+      "Não lista elos"
+     ]
+    },
+    "b": {
+     "titulo": "Cadeia de valor (documentos técnicos)",
+     "itens": [
+      "Adaptação da cadeia de valor de Porter (CGU)",
+      "Desempenho como fluxo dos insumos ao valor público (Martins, Ipea, 2018)",
+      "Elos: insumos, processos, produtos, resultados, impactos (Casa Civil, 2018)"
+     ]
+    },
+    "pe": "Os elos do guia não são do decreto; a definição do decreto não tem elos"
+   },
+   {
+    "t": "lei",
+    "titulo": "Valor público no decreto",
+    "norma": "Decreto 9.203/2017",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, II (parte inicial)",
+      "texto": "valor público - produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 4º, IV",
+      "texto": "IV - articular instituições e coordenar processos para melhorar a integração entre os diferentes níveis e esferas do setor público, com vistas a gerar, preservar e entregar valor público;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Valor público (Decreto 9.203, art. 2º, II): produtos e resultados gerados, preservados ou entregues pela organização.",
+     "Art. 4º, IV: articular instituições e coordenar processos com vistas a gerar, preservar e entregar valor público.",
+     "Cadeia de valor público: adaptação da cadeia de valor de Porter (CGU).",
+     "Martins (Ipea, 2018): desempenho é um fluxo que vai dos insumos até o valor público.",
+     "Elos (Casa Civil, 2018): insumos, processos, produtos, resultados e impactos.",
+     "O decreto não lista elos; os elos não são do decreto."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O Decreto 9.203/2017 define valor público como a cadeia de insumos, processos, produtos, resultados e impactos.",
+      "certo": "Os **elos** são do guia prático (Casa Civil, 2018); o decreto define valor público como produtos e resultados **gerados, preservados ou entregues**."
+     },
+     {
+      "errado": "Valor público, no decreto, abrange apenas o que é entregue ao cidadão.",
+      "certo": "Abrange o **gerado, o preservado e o entregue** (art. 2º, II)."
+     },
+     {
+      "errado": "A cadeia de valor público é criação original do Decreto 9.203.",
+      "certo": "É **adaptação da cadeia de valor de Porter** (CGU); o decreto não a menciona."
+     },
+     {
+      "errado": "Para Martins (Ipea, 2018), o desempenho começa no valor público e termina nos insumos.",
+      "certo": "É o inverso: fluxo **dos insumos até o valor público**."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, fluxo e baseLegal de P1-DA-8.4",
+   "Decreto 9.203/2017, arts. 2º, II, e 4º, IV (pacote v1.14, conferência de 20/10/2026); CGU, documento didático; Martins (Ipea, 2018); guia prático de análise ex post (Casa Civil, 2018)"
+  ]
+ },
+ "P1-DA-9.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 1,
+   "ce": 1,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; o conceito do decreto é cobrado por troca de palavras."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "O conceito do decreto",
+    "icone": "chave"
+   },
+   {
+    "t": "texto",
+    "md": "Para o Decreto 9.203/2017, art. 2º, I, governança pública é o conjunto de mecanismos de **liderança, estratégia e controle** postos em prática para **avaliar, direcionar e monitorar** a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade. Quatro blocos: os três mecanismos, as três ações, o objeto (a gestão) e a finalidade."
+   },
+   {
+    "t": "esquema",
+    "titulo": "Governança pública (Decreto 9.203/2017, art. 2º, I)",
+    "centro": "Governança pública",
+    "ramos": [
+     "Mecanismos: liderança, estratégia e controle",
+     "Ações: avaliar, direcionar e monitorar",
+     "Objeto: a gestão",
+     "Finalidade: condução de políticas públicas e prestação de serviços de interesse da sociedade"
+    ]
+   },
+   {
+    "titulo": "Governabilidade × governança (Referencial do TCU, 2020)",
+    "a": "Governabilidade",
+    "b": "Governança",
+    "linhas": [
+     [
+      "Ideia central",
+      "Capacidade de estabelecer uma direção e de efetivamente implementá-la para alcançar o destino almejado",
+      "Acrescenta a preocupação com a legitimidade da direção e da forma de alcançá-la"
+     ],
+     [
+      "Ordem e acréscimos",
+      "Ponto de partida",
+      "Acrescenta legitimidade, participação das partes interessadas, transparência e prestação de contas (accountability) dos responsáveis pelo direcionamento"
+     ]
+    ],
+    "legenda": "O TCU marca a passagem como adaptada de outro autor. Na análise do Ipea sobre o plano de 1995, ‘governança’ é a capacidade de governo do Estado, sentido diferente.",
+    "t": "compare"
+   },
+   {
+    "t": "dois",
+    "titulo": "Governança × gestão (Referencial do TCU, 2020)",
+    "a": {
+     "titulo": "Governança",
+     "itens": [
+      "Função direcionadora",
+      "Avaliar, direcionar e monitorar",
+      "Práticas de liderança, estratégia e controle"
+     ]
+    },
+    "b": {
+     "titulo": "Gestão",
+     "itens": [
+      "Função realizadora",
+      "Executa o que foi direcionado",
+      "Não se confunde com governança"
+     ]
+    },
+    "pe": "O conceito do TCU, com 'mandatários' e 'partes interessadas', não é o texto do inciso I"
+   },
+   {
+    "t": "lei",
+    "titulo": "Governança pública e estratégia no decreto",
+    "norma": "Decreto 9.203/2017",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, I",
+      "texto": "I - governança pública - conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 5º, II",
+      "texto": "II - estratégia, que compreende a definição de diretrizes, objetivos, planos e ações, além de critérios de priorização e alinhamento entre organizações e partes interessadas, para que os serviços e produtos de responsabilidade da organização alcancem o resultado pretendido; e",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "'Governança' no Ipea é outra coisa",
+    "md": "Na análise do Ipea sobre o plano de reforma de 1995, 'governança' significa a capacidade de governo do Estado, sentido diferente do decreto e do TCU. O referencial do TCU pede alinhar a estratégia com os planos governamentais, e o art. 5º, II, inclui na estratégia critérios de priorização e alinhamento entre organizações e partes interessadas."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Governança pública (art. 2º, I): mecanismos de liderança, estratégia e controle para avaliar, direcionar e monitorar a gestão.",
+     "Finalidade: condução de políticas públicas e prestação de serviços de interesse da sociedade.",
+     "TCU (2020): governança é a função direcionadora; gestão, a realizadora.",
+     "Governabilidade: estabelecer uma direção e implementá-la; governança acrescenta legitimidade, participação, transparência e accountability.",
+     "'Mandatários' e 'partes interessadas' são do conceito do TCU, não do inciso I.",
+     "No Ipea (plano de 1995), governança é a capacidade de governo do Estado."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Governança pública, no Decreto 9.203, é o conjunto de mecanismos de planejamento, execução e avaliação da gestão.",
+      "certo": "São mecanismos de **liderança, estratégia e controle**, para **avaliar, direcionar e monitorar** (art. 2º, I)."
+     },
+     {
+      "errado": "Governança e gestão são sinônimos no referencial do TCU.",
+      "certo": "Governança é a função **direcionadora**; gestão, a **realizadora**."
+     },
+     {
+      "errado": "Governabilidade acrescenta à governança a legitimidade e a prestação de contas.",
+      "certo": "É o inverso: a **governança** acrescenta legitimidade, participação, transparência e prestação de contas à governabilidade."
+     },
+     {
+      "errado": "O conceito legal de governança pública menciona mandatários e partes interessadas.",
+      "certo": "Esses termos são do **TCU**; o inciso I do art. 2º não os usa."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-9.1",
+   "Decreto 9.203/2017, arts. 2º, I, e 5º, II (pacote v1.14, conferência de 20/10/2026); Referencial Básico de Governança Organizacional (TCU, 3. ed., 2020); Guia da Política de Governança Pública (Casa Civil, 2018)"
+  ]
+ },
+ "P1-DA-9.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 2,
+   "ce": 2,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; a troca entre mecanismos, princípios e diretrizes é a cobrança típica."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Três mecanismos, rol fechado",
+    "icone": "engrenagem"
+   },
+   {
+    "t": "texto",
+    "md": "O Decreto 9.203/2017, art. 5º, enumera **três** mecanismos para o exercício da governança pública, em rol fechado: **liderança, estratégia e controle**. Não se confundem com os princípios (art. 3º) nem com as diretrizes (art. 4º); o Referencial do TCU (2020) agrupa as práticas de governança nesses três mecanismos."
+   },
+   {
+    "titulo": "Mecanismos de governança pública (Decreto 9.203/2017, art. 5º)",
+    "centro": "Mecanismos de governança",
+    "ramos": [
+     "Liderança (I): práticas de natureza humana ou comportamental nos principais cargos; condições mínimas: integridade, competência, responsabilidade e motivação",
+     "Estratégia (II): diretrizes, objetivos, planos e ações, com critérios de priorização e alinhamento, para alcançar o resultado pretendido",
+     "Controle (III): processos estruturados para mitigar riscos e garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Liderança (art. 5º, I): quatro condições mínimas",
+    "centro": "Liderança",
+    "ramos": [
+     {
+      "titulo": "Integridade",
+      "texto": "condição mínima da boa governança"
+     },
+     {
+      "titulo": "Competência",
+      "texto": "condição da liderança, não princípio do art. 3º"
+     },
+     {
+      "titulo": "Responsabilidade",
+      "texto": "condição mínima da boa governança"
+     },
+     {
+      "titulo": "Motivação",
+      "texto": "condição da liderança, não princípio do art. 3º"
+     }
+    ],
+    "legenda": "Práticas de natureza humana ou comportamental exercidas nos principais cargos."
+   },
+   {
+    "t": "dois",
+    "titulo": "Controle (art. 5º, III) × unidade de controle interno",
+    "a": {
+     "titulo": "O mecanismo controle",
+     "itens": [
+      "Processos estruturados para mitigar riscos",
+      "Garantir execução ordenada, ética, econômica, eficiente e eficaz",
+      "Com preservação da legalidade e da economicidade"
+     ]
+    },
+    "b": {
+     "titulo": "O que ele não é",
+     "itens": [
+      "A atuação da unidade de controle interno",
+      "A atuação da unidade de correição",
+      "Uma diretriz do art. 4º"
+     ]
+    },
+    "pe": "Segundo o Referencial do TCU (2020), o mecanismo não se refere à unidade de controle interno ou de correição"
+   },
+   {
+    "t": "lei",
+    "titulo": "Os três mecanismos no decreto",
+    "norma": "Decreto 9.203/2017",
+    "dispositivos": [
+     {
+      "ref": "art. 5º, caput",
+      "texto": "Art. 5º São mecanismos para o exercício da governança pública:",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 5º, I",
+      "texto": "I - liderança, que compreende conjunto de práticas de natureza humana ou comportamental exercida nos principais cargos das organizações, para assegurar a existência das condições mínimas para o exercício da boa governança, quais sejam:",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 5º, II",
+      "texto": "II - estratégia, que compreende a definição de diretrizes, objetivos, planos e ações, além de critérios de priorização e alinhamento entre organizações e partes interessadas, para que os serviços e produtos de responsabilidade da organização alcancem o resultado pretendido; e",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 5º, III",
+      "texto": "III - controle, que compreende processos estruturados para mitigar os possíveis riscos com vistas ao alcance dos objetivos institucionais e para garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades da organização, com preservação da legalidade e da economicidade no dispêndio de recursos públicos.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Alta administração (art. 6º)",
+    "md": "Cabe à alta administração implementar e manter mecanismos, instâncias e práticas de governança, com conteúdo mínimo que inclui formas de acompanhamento de resultados, soluções para melhoria do desempenho e instrumentos de promoção do processo decisório fundamentado em evidências (art. 6º, parágrafo único). As diretrizes do art. 4º, V e X, ligadas à liderança, são diretrizes, não mecanismos."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Mecanismos (art. 5º), rol fechado: liderança, estratégia e controle.",
+     "Liderança: práticas humanas ou comportamentais nos principais cargos; condições: integridade, competência, responsabilidade, motivação.",
+     "Estratégia: diretrizes, objetivos, planos e ações, com critérios de priorização e alinhamento.",
+     "Controle: processos estruturados para mitigar riscos e garantir execução ordenada, ética, econômica, eficiente e eficaz.",
+     "Para o TCU, o mecanismo controle não é a unidade de controle interno ou de correição.",
+     "Alta administração implementa e mantém mecanismos, instâncias e práticas (art. 6º)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "São mecanismos de governança do Decreto 9.203 a integridade e a transparência.",
+      "certo": "São **princípios** (art. 3º); os mecanismos são **liderança, estratégia e controle** (art. 5º)."
+     },
+     {
+      "errado": "Competência e motivação são princípios da governança pública.",
+      "certo": "São **condições mínimas** asseguradas pela liderança (art. 5º, I), não princípios."
+     },
+     {
+      "errado": "O mecanismo controle corresponde à atuação da unidade de controle interno.",
+      "certo": "**Não**: são processos estruturados para mitigar riscos; o TCU afasta a identificação com a unidade de controle interno ou de correição."
+     },
+     {
+      "errado": "O rol de mecanismos do art. 5º é exemplificativo.",
+      "certo": "É **fechado**: três mecanismos."
+     },
+     {
+      "errado": "Cabe aos comitês internos, e não à alta administração, implementar os mecanismos de governança.",
+      "certo": "Cabe à **alta administração** (art. 6º); os comitês internos a auxiliam (art. 15-A)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, esquema e baseLegal de P1-DA-9.2",
+   "Decreto 9.203/2017, arts. 3º a 6º e 15-A (pacote v1.14, conferência de 20/10/2026); Referencial Básico de Governança Organizacional (TCU, 3. ed., 2020)"
+  ]
+ },
+ "P1-DA-9.3": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item no corpus de 2025; o conteúdo é cobrado por leitura do texto e por troca de rótulos entre os itens 8 e 9."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Valor público: a definição inteira",
+    "icone": "alvo"
+   },
+   {
+    "t": "texto",
+    "md": "Valor público, no Decreto 9.203/2017, art. 2º, II, são os produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização **que representem respostas efetivas e úteis** às necessidades ou às demandas de interesse público **e modifiquem** aspectos do conjunto da sociedade ou de grupos específicos reconhecidos como destinatários legítimos. Nem todo resultado é valor público. Para Martins (Ipea, 2018), gerar valor público é entregar impactos, produtos e esforços que satisfaçam as expectativas dos beneficiários."
+   },
+   {
+    "titulo": "Valor público (Decreto 9.203/2017, art. 2º, II)",
+    "centro": "Valor público",
+    "ramos": [
+     "Produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização",
+     "Que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público",
+     "Que modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos",
+     "Geração de valor público, para Martins (Ipea, 2018): satisfazer as expectativas dos beneficiários"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Resultados, sustentabilidade e avaliação nas fontes",
+    "centro": "Entrega de resultados",
+    "ramos": [
+     {
+      "titulo": "Art. 4º, I",
+      "texto": "direcionar ações para a busca de resultados para a sociedade, com soluções tempestivas e inovadoras"
+     },
+     {
+      "titulo": "Art. 4º, III",
+      "texto": "monitorar o desempenho e avaliar concepção, implementação e resultados das políticas e ações prioritárias"
+     },
+     {
+      "titulo": "Art. 4º, VII",
+      "texto": "avaliar propostas de políticas e de incentivos fiscais e aferir, sempre que possível, custos e benefícios"
+     },
+     {
+      "titulo": "Art. 6º, p. único, I",
+      "texto": "formas de acompanhamento de resultados"
+     },
+     {
+      "titulo": "TCU (2020)",
+      "texto": "práticas de governança criam contextos favoráveis à entrega dos resultados esperados pelos cidadãos, com sustentabilidade"
+     },
+     {
+      "titulo": "Guia ex post (Casa Civil, 2018)",
+      "texto": "avaliação de impacto: isolar o efeito da política dos demais fatores; a análise ex ante é a primeira etapa"
+     }
+    ]
+   },
+   {
+    "t": "lei",
+    "titulo": "Valor público, resultados e avaliação no decreto",
+    "norma": "Decreto 9.203/2017",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, II",
+      "texto": "II - valor público - produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público e modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos de bens e serviços públicos;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 4º, I",
+      "texto": "I - direcionar ações para a busca de resultados para a sociedade, encontrando soluções tempestivas e inovadoras para lidar com a limitação de recursos e com as mudanças de prioridades;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 4º, III",
+      "texto": "III - monitorar o desempenho e avaliar a concepção, a implementação e os resultados das políticas e das ações prioritárias para assegurar que as diretrizes estratégicas sejam observadas;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 4º, VII",
+      "texto": "VII - avaliar as propostas de criação, expansão ou aperfeiçoamento de políticas públicas e de concessão de incentivos fiscais e aferir, sempre que possível, seus custos e benefícios;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "'Sempre que possível' e 'prioritárias'",
+    "md": "O art. 4º, VII, manda aferir custos e benefícios **sempre que possível**, não sempre; o art. 4º, III, alcança as políticas e ações **prioritárias**. A banca retira as duas ressalvas."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Valor público (art. 2º, II): produtos e resultados com respostas efetivas e úteis ao interesse público que modifiquem a sociedade.",
+     "Nem todo resultado é valor público; Martins (Ipea, 2018): satisfazer as expectativas dos beneficiários.",
+     "Art. 4º, I: resultados para a sociedade com soluções tempestivas e inovadoras.",
+     "Art. 4º, III: monitorar o desempenho e avaliar as ações prioritárias; art. 4º, VII: custos e benefícios, sempre que possível.",
+     "TCU (2020): entrega de resultados esperados pelos cidadãos, com sustentabilidade.",
+     "Guia ex post (2018): avaliação de impacto isola o efeito da política; análise ex ante vem primeiro."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Todo produto entregue por uma organização pública é valor público.",
+      "certo": "Só os que representem **respostas efetivas e úteis** e **modifiquem** aspectos da sociedade (art. 2º, II)."
+     },
+     {
+      "errado": "O Decreto 9.203 exige a aferição de custos e benefícios de toda proposta de política pública.",
+      "certo": "**Sempre que possível** (art. 4º, VII)."
+     },
+     {
+      "errado": "A avaliação de impacto mede todos os fatores que afetaram o resultado.",
+      "certo": "Procura **isolar** o efeito da política dos demais fatores (guia ex post, 2018)."
+     },
+     {
+      "errado": "A análise ex ante é a última etapa do processo integrado de avaliação.",
+      "certo": "É a **primeira**; a avaliação ex post vem nas etapas seguintes."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, esquema e baseLegal de P1-DA-9.3",
+   "Decreto 9.203/2017, arts. 2º, II, 4º e 6º (pacote v1.14, conferência de 20/10/2026); Martins (Ipea, 2018); TCU (2020); guia prático de análise ex post (Casa Civil, 2018)"
+  ]
+ },
+ "P1-DA-9.4": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item no corpus de 2025; o conteúdo é cobrado por leitura do texto e por troca de rótulos entre os itens 8 e 9."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "O decreto por números",
+    "icone": "doc"
+   },
+   {
+    "t": "texto",
+    "md": "O Decreto 9.203/2017 dispõe sobre a política de governança da administração pública federal **direta, autárquica e fundacional**. O art. 2º define governança pública, valor público, alta administração e gestão de riscos — esta como processo permanente, estabelecido, direcionado e monitorado pela alta administração, para fornecer segurança razoável quanto à realização dos objetivos. São **seis** princípios (art. 3º), **onze** diretrizes (art. 4º) e **três** mecanismos (art. 5º)."
+   },
+   {
+    "titulo": "Princípios, diretrizes e mecanismos do Decreto 9.203/2017",
+    "colunas": [
+     "Rol",
+     "Dispositivo",
+     "Quantidade",
+     "Conteúdo"
+    ],
+    "linhas": [
+     [
+      "Princípios",
+      "art. 3º",
+      "Seis, em rol fechado",
+      "Capacidade de resposta; integridade; confiabilidade; melhoria regulatória; prestação de contas e responsabilidade; transparência"
+     ],
+     [
+      "Diretrizes",
+      "art. 4º",
+      "Onze incisos (I a XI)",
+      "Por exemplo, II: simplificação administrativa, modernização da gestão pública e integração dos serviços públicos; VI: controles internos fundamentados na gestão de risco"
+     ],
+     [
+      "Mecanismos",
+      "art. 5º",
+      "Três",
+      "Detalhados no tópico 9.2"
+     ]
+    ],
+    "legenda": "A banca pode trocar um rol pelo outro: princípios, diretrizes e mecanismos não se confundem.",
+    "t": "tabela"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Comitê Interministerial de Governança (CIG)",
+    "centro": "CIG",
+    "ramos": [
+     {
+      "titulo": "Função (art. 7º-A)",
+      "texto": "assessora o Presidente da República na condução da política de governança"
+     },
+     {
+      "titulo": "Reuniões (art. 8º-B)",
+      "texto": "ordinárias trimestrais; extraordinárias sempre que necessário"
+     },
+     {
+      "titulo": "Quórum (art. 8º-B, §§ 1º e 2º)",
+      "texto": "reunião por maioria simples; aprovação por maioria absoluta; o Coordenador tem voto de qualidade"
+     },
+     {
+      "titulo": "Grupos de trabalho (art. 10-B)",
+      "texto": "até cinco membros; caráter temporário, duração não superior a um ano; no máximo três simultâneos"
+     },
+     {
+      "titulo": "Participação (art. 12-A)",
+      "texto": "prestação de serviço público relevante, não remunerada"
+     }
+    ]
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Artigos com letra: o que foi revogado",
+    "marcos": [
+     {
+      "quando": "2017",
+      "titulo": "Decreto 9.203",
+      "texto": "texto original, com os arts. 7º a 15 sobre o CIG e os comitês"
+     },
+     {
+      "quando": "2019",
+      "titulo": "Decreto 9.901",
+      "texto": "arts. 7º a 15 e 20 revogados; o CIG passa aos arts. 7º-A a 15-A; art. 20-A acrescido"
+     },
+     {
+      "quando": "2021",
+      "titulo": "Decreto 10.756",
+      "texto": "art. 20-A revogado"
+     },
+     {
+      "quando": "Hoje",
+      "titulo": "Citação vigente",
+      "texto": "sempre pelo artigo com letra: 7º-A, 8º-A, 8º-B, 9º-A, 10-A, 10-B, 11-A, 12-A, 13-A, 15-A"
+     }
+    ]
+   },
+   {
+    "t": "lei",
+    "titulo": "Comitê Interministerial de Governança: reunião e grupos de trabalho",
+    "norma": "Decreto 9.203/2017",
+    "dispositivos": [
+     {
+      "ref": "art. 8º-B, caput",
+      "texto": "Art. 8º-B. O CIG se reunirá, em caráter ordinário, trimestralmente e, em caráter extraordinário, sempre que necessário.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 10-B, II",
+      "texto": "II - não poderão ter mais de cinco membros;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 10-B, III",
+      "texto": "III - terão caráter temporário e duração não superior a um ano; e",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 12-A, caput",
+      "texto": "Art. 12-A. A participação no CIG ou nos grupos de trabalho por ele constituídos será considerada prestação de serviço público relevante, não remunerada.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Riscos e integridade (arts. 17 e 19)",
+    "md": "A alta administração deve estabelecer, manter, monitorar e aprimorar sistema de gestão de riscos e controles internos, com quatro princípios (art. 17); os órgãos e entidades instituem programa de integridade em quatro eixos (art. 19). Os órgãos executam a política (art. 13-A) e os comitês internos auxiliam a alta administração (art. 15-A)."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Âmbito: administração pública federal direta, autárquica e fundacional.",
+     "Seis princípios (art. 3º), onze diretrizes (art. 4º), três mecanismos (art. 5º): rol fechado em cada um.",
+     "Gestão de riscos (art. 2º): processo permanente da alta administração, para segurança razoável quanto aos objetivos.",
+     "CIG assessora o Presidente da República; reuniões ordinárias trimestrais; voto de qualidade do Coordenador.",
+     "Grupos de trabalho do CIG: até cinco membros, até um ano, no máximo três ao mesmo tempo (art. 10-B).",
+     "Participação no CIG: serviço público relevante, não remunerada (art. 12-A).",
+     "Arts. 7º a 15 e 20 revogados em 2019; 20-A em 2021: cite o artigo com letra."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O Decreto 9.203/2017 aplica-se às empresas estatais federais.",
+      "certo": "Aplica-se à administração **direta, autárquica e fundacional**."
+     },
+     {
+      "errado": "O decreto traz três princípios e seis mecanismos de governança.",
+      "certo": "São **seis princípios** e **três mecanismos** (arts. 3º e 5º); as diretrizes são onze."
+     },
+     {
+      "errado": "O CIG reúne-se ordinariamente a cada mês.",
+      "certo": "**Trimestralmente** (art. 8º-B)."
+     },
+     {
+      "errado": "Os grupos de trabalho do CIG podem ter até dez membros e duração indeterminada.",
+      "certo": "Até **cinco** membros, duração não superior a **um ano**, no máximo três simultâneos (art. 10-B)."
+     },
+     {
+      "errado": "A participação no CIG é remunerada por jeton.",
+      "certo": "É prestação de serviço público relevante, **não remunerada** (art. 12-A)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, tabela e baseLegal de P1-DA-9.4",
+   "Decreto 9.203/2017, arts. 2º a 6º, 7º-A, 8º-B, 10-B, 12-A, 13-A, 15-A, 17 e 19 (pacote v1.14, conferência de 20/10/2026)"
+  ]
+ }
+}

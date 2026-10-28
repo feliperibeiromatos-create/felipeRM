@@ -1,0 +1,100 @@
+17c17
+<     "md": "A Lei 8.429/1992 tutela a probidade na organização do Estado e no exercício de suas funções e a integridade do patrimônio público e social (art. 1º, caput e § 5º). Só há improbidade em **condutas dolosas** tipificadas nos arts. 9º, 10 e 11 (art. 1º, § 1º): dolo é a vontade livre e consciente de alcançar o resultado ilícito, **não bastando a voluntariedade** (§ 2º), e a ilegalidade sem dolo que a qualifique não configura improbidade (art. 17-C, § 1º). O mero exercício da função, sem ato doloso com fim ilícito, afasta a responsabilidade (§ 3º), assim como a divergência interpretativa baseada em jurisprudência, ainda que não pacificada (§ 8º)."
+---
+>     "md": "A Lei 8.429/1992 tutela a probidade na organização do Estado e no exercício de suas funções e a integridade do patrimônio público e social (art. 1º, caput e § 5º). Só há improbidade em **condutas dolosas** tipificadas nos arts. 9º, 10 e 11 (art. 1º, § 1º): dolo é a vontade livre e consciente de alcançar o resultado ilícito, **não bastando a voluntariedade** (§ 2º), e a ilegalidade sem dolo que a qualifique não configura improbidade (art. 17-C, § 1º). O mero exercício da função, sem ato doloso com fim ilícito, afasta a responsabilidade (§ 3º), assim como a divergência interpretativa fundada em entendimento, ainda que não pacificado, do STF, dos tribunais superiores ou, na falta deles, de decisões colegiadas de segunda instância (§ 8º, na leitura do STF nas ADIs 7.156 e 7.236, julgadas em 2026)."
+34c34
+<       "texto": "quem, mesmo não sendo agente público, induza ou concorra dolosamente para o ato; sócios e diretores só com participação e benefícios diretos (§ 1º)"
+---
+>       "texto": "quem, mesmo não sendo agente público, induza ou concorra dolosamente; sócios e diretores respondem com participação dolosa comprovada (o STF afastou os \"benefícios diretos\", § 1º)"
+192c192
+<     "md": "A perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória (art. 20, caput), e as sanções do art. 12 só podem ser executadas depois dele (art. 12, § 9º). O afastamento cautelar do agente, sem prejuízo da remuneração, é de até 90 dias, prorrogáveis uma única vez por igual prazo (art. 20, §§ 1º e 2º). A perda da função atinge apenas o vínculo de mesma qualidade e natureza da época da infração, salvo extensão excepcional no art. 9º (art. 12, § 1º)."
+---
+>     "md": "A perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória (art. 20, caput), e as sanções do art. 12 só podem ser executadas depois dele (art. 12, § 9º). O afastamento cautelar do agente, sem prejuízo da remuneração, é de até 90 dias, prorrogáveis uma única vez por igual prazo (art. 20, §§ 1º e 2º). Pela decisão do STF nas ADIs 7.156 e 7.236 (2026), a perda alcança todas as funções públicas do condenado; excepcionalmente e de forma fundamentada, o juiz pode deixar de aplicá-la a uma função específica — afastada a restrição do art. 12, § 1º. O STF também invalidou a limitação da proibição de contratar ao ente lesado (art. 12, § 4º): ela atinge os três níveis da federação."
+205c205
+<      "Petição inicial individualiza a conduta e aponta provas mínimas do fato e do dolo (art. 17, § 6º); indisponibilidade de bens, se houver perigo de dano (art. 16)",
+---
+>      "Petição inicial individualiza a conduta e aponta provas mínimas do fato e do dolo (art. 17, § 6º); indisponibilidade de bens para recompor o erário ou o acréscimo ilícito (art. 16); o STF admitiu o bloqueio sem demonstração de urgência quando houver indícios especialmente fortes (ADIs 7.156 e 7.236)",
+207c207
+<      "Decisão que fixa um único tipo por ato, sem mudar o fato nem a capitulação (art. 17, §§ 10-C e 10-D)",
+---
+>      "O autor narra os fatos e indica provas; o enquadramento jurídico é do juiz, que não fica vinculado à capitulação da inicial (STF, ADIs 7.156 e 7.236, afastando os §§ 10-C e 10-D)",
+238,239c238,239
+<       "titulo": "Metade do prazo",
+<       "texto": "o prazo recomeça do dia da interrupção, pela metade: 4 anos (§ 5º)"
+---
+>       "titulo": "Recomeça inteiro",
+>       "texto": "a regra que reduzia o prazo à metade (§ 5º) foi declarada inconstitucional pelo STF (ADIs 7.156 e 7.236, 1º/7/2026); as hipóteses de interrupção do § 4º foram mantidas"
+242,244c242,244
+<       "quando": "Entre marcos",
+<       "titulo": "Prescrição intercorrente",
+<       "texto": "se entre os marcos do § 4º transcorrer o prazo do § 5º, o juiz a reconhece de ofício, ouvido o MP (§ 8º)"
+---
+>       "quando": "Teto",
+>       "titulo": "20 anos",
+>       "texto": "o STF fixou o prazo máximo de 20 anos de prescrição, tomando por referência o Código Penal"
+247c247
+<     "legenda": "Suspensão e interrupção alcançam todos os que concorreram para o ato (§ 6º) e os atos conexos do mesmo processo (§ 7º)."
+---
+>     "legenda": "Suspensão e interrupção alcançam todos os que concorreram para o ato (§ 6º) e os atos conexos do mesmo processo (§ 7º); a prescrição intercorrente do § 8º remete ao § 5º e aguarda a leitura do acórdão."
+257,258c257
+<       "Oitiva do ente lesado; aprovação pelo órgão do MP em até 60 dias, se antes da ação; homologação judicial (§ 1º)",
+<       "Oitiva do Tribunal de Contas sobre o valor do dano, em 90 dias (§ 3º)"
+---
+>       "Oitiva do ente lesado; aprovação pelo órgão do MP em até 60 dias, se antes da ação; homologação judicial (§ 1º)"
+269c268
+<     "pe": "A Lei 14.230 pôs o acordo no art. 17-B; o art. 17-A foi vetado"
+---
+>     "pe": "A Lei 14.230 pôs o acordo no art. 17-B (o 17-A foi vetado); a oitiva obrigatória do Tribunal de Contas (§ 3º) foi declarada inconstitucional pelo STF (ADIs 7.156 e 7.236)"
+275c274
+<     "md": "A aplicação das sanções independe da efetiva ocorrência de dano ao patrimônio público, salvo quanto ao ressarcimento e às condutas do art. 10 (inciso I), e da aprovação ou rejeição das contas pelo controle interno ou pelo Tribunal de Contas (inciso II). A absolvição criminal pelos mesmos fatos, confirmada por decisão colegiada, impede o trâmite da ação de improbidade (§ 4º), e as sanções de outras esferas são compensadas (§ 5º)."
+---
+>     "md": "A aplicação das sanções independe da efetiva ocorrência de dano ao patrimônio público, salvo quanto ao ressarcimento e às condutas do art. 10 (inciso I), e da aprovação ou rejeição das contas pelo controle interno ou pelo Tribunal de Contas (inciso II). A absolvição criminal não encerra automaticamente a ação de improbidade; só a encerra, com trânsito em julgado, quando reconhece a inexistência do fato, a negativa de autoria, a legítima defesa, o estrito cumprimento do dever legal ou o exercício regular do direito (STF, ADIs 7.156 e 7.236, 2026, afastando a regra do § 4º). As sanções de outras esferas são compensadas (§ 5º)."
+285c284
+<      "Prescrição: 8 anos do fato; suspensão de até 180 dias por inquérito civil ou PAD; interrompida, recomeça pela metade (art. 23).",
+---
+>      "Prescrição: 8 anos do fato; suspensão de até 180 dias (art. 23); a redução à metade (§ 5º) caiu no STF em 2026; teto de 20 anos.",
+287a287
+>      "ADIs 7.156 e 7.236 (2026): dolo e rol do art. 11 mantidos; caíram a metade da prescrição e a vinculação do juiz à inicial.",
+323,328c323,324
+<       "errado": "O terceiro que concorre para o ato responde solidariamente com o agente.",
+<       "certo": "A condenação ocorre no limite da participação e dos benefícios diretos, **vedada qualquer solidariedade** (art. 17-C, § 2º)."
+<      },
+<      {
+<       "errado": "A rejeição das contas pelo Tribunal de Contas é pressuposto da ação de improbidade.",
+<       "certo": "As sanções **independem** da aprovação ou rejeição das contas (art. 21, II)."
+---
+>       "errado": "Na improbidade com vários réus é vedada qualquer solidariedade, inclusive no ressarcimento.",
+>       "certo": "As sanções são **individualizadas**, mas o **ressarcimento** ao erário pode ser exigido **solidariamente** dos responsáveis pelo dano (STF, ADIs 7.156 e 7.236, sobre o art. 17-C, § 2º)."
+332a329,332
+>      },
+>      {
+>       "errado": "Interrompida a prescrição, o prazo recomeça a correr pela metade.",
+>       "certo": "Essa regra (art. 23, § 5º) foi declarada **inconstitucional** pelo STF em 2026; o teto é de **20 anos**."
+347a348
+>    "STF, ADIs 7.156 e 7.236 (julgamento concluído em 1º/7/2026): notícias oficiais do STF de 28/5, 24/6, 25/6 e 1º/7/2026, lidas em 28/10/2026; acórdão pendente de publicação e leitura",
+438c439
+<     "md": "O curso não fixa data de nascimento de cada modelo nem atribui a um único autor; a única marca temporal é 'anos 80, nos países centrais', para o início do movimento gerencial. A banca costuma pedir a ordem (patrimonialista, burocrática, gerencial) e a fonte inspiradora de cada um (hierarquia; mercado)."
+---
+>     "md": "O curso não fixa data de nascimento de cada modelo nem atribui a um único autor; a única marca temporal é 'anos 80, nos países centrais', para o início do movimento gerencial. Pergunte-se a ordem (patrimonialista, burocrática, gerencial) e a fonte inspiradora de cada um (hierarquia; mercado)."
+596c597
+<       "certo": "O curso **não afirma** substituição, data nem autor de origem."
+---
+>       "certo": "A NPG tem as **redes** como princípio orientador (Bouckaert); as fontes do curso não datam sua origem nem afirmam que tenha substituído a NPM."
+820c821
+<       "texto": "manter processo decisório com apoio à participação da sociedade; realizar consultas públicas sempre que conveniente"
+---
+>       "texto": "manter processo decisório com apoio à participação da sociedade (VIII); na edição e revisão de atos normativos, consultas públicas sempre que conveniente (IX)"
+1520c1521
+<       "titulo": "Quórum",
+---
+>       "titulo": "Quórum (art. 8º-B, §§ 1º e 2º)",
+1544,1545c1545,1546
+<       "titulo": "Revogação",
+<       "texto": "arts. 7º a 15 e 20 revogados; o CIG passa aos arts. 7º-A a 15-A"
+---
+>       "titulo": "Decreto 9.901",
+>       "texto": "arts. 7º a 15 e 20 revogados; o CIG passa aos arts. 7º-A a 15-A; art. 20-A acrescido"
+1549c1550
+<       "titulo": "Revogação",
+---
+>       "titulo": "Decreto 10.756",

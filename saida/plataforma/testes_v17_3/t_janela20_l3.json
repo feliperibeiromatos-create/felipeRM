@@ -1,0 +1,192 @@
+{
+ "arquivo": "../plataforma_v17_3_previa_leva3.html",
+ "combos": {
+  "cel-claro": {
+   "casos": [
+    {
+     "caso": "0.const",
+     "ok": true,
+     "det": "JANELA=20 BLOCO=10 v17.3"
+    },
+    {
+     "caso": "1.zero",
+     "ok": true,
+     "det": "{\"n\":0,\"c\":0,\"e\":0,\"b\":0,\"k\":20,\"completa\":false,\"nota\":null,\"rep\":false} 0 de 20 questões"
+    },
+    {
+     "caso": "2.dez",
+     "ok": true,
+     "det": "{\"n\":10,\"c\":8,\"e\":2,\"b\":0,\"k\":20,\"completa\":false,\"nota\":null,\"rep\":false} | P1, Direito Administrativo: cada tópico vale cerca de 0,39 item da prova, numa estimativa provisória · 10 respostas até agora, com saldo +6"
+    },
+    {
+     "caso": "3.vinte",
+     "ok": true,
+     "det": "{\"n\":20,\"c\":15,\"e\":5,\"b\":0,\"k\":20,\"completa\":true,\"nota\":10,\"rep\":false} | P1, Direito Administrativo: cada tópico vale cerca de 0,39 item da prova, numa estimativa provisória · nota recente +10/20"
+    },
+    {
+     "caso": "4.trinta",
+     "ok": true,
+     "det": "banco 34; {\"n\":20,\"c\":20,\"e\":0,\"b\":0,\"k\":20,\"completa\":true,\"nota\":20,\"rep\":false}"
+    },
+    {
+     "caso": "4b.reordem",
+     "ok": true,
+     "det": "{\"n\":20,\"c\":19,\"e\":1,\"b\":0,\"k\":20,\"completa\":true,\"nota\":18,\"rep\":false}"
+    },
+    {
+     "caso": "5a.pequeno_todas",
+     "ok": true,
+     "det": "k=15 {\"n\":15,\"c\":15,\"e\":0,\"b\":0,\"k\":15,\"completa\":true,\"nota\":15,\"rep\":false}"
+    },
+    {
+     "caso": "5b.pequeno_sete",
+     "ok": true,
+     "det": "{\"n\":7,\"c\":7,\"e\":0,\"b\":0,\"k\":15,\"completa\":false,\"nota\":null,\"rep\":false} 7 de 15 questões"
+    },
+    {
+     "caso": "7.repetida",
+     "ok": true,
+     "det": "{\"n\":10,\"c\":10,\"e\":0,\"b\":0,\"k\":20,\"completa\":false,\"nota\":null,\"rep\":false}"
+    },
+    {
+     "caso": "8.medias",
+     "ok": true,
+     "det": "media 0→0.021739130434782598 (esperado 0.021739130434782598); NF 0→0.39130434782608675"
+    },
+    {
+     "caso": "9.diag30",
+     "ok": true,
+     "det": "D30-P1:30 D30-P2:30 D30-DA:30"
+    },
+    {
+     "caso": "6.inline",
+     "ok": true,
+     "det": "N/A — nenhum tópico com ITEM intercalado e curso neste pacote (caso coberto na prévia DEMO)"
+    },
+    {
+     "caso": "12.aviso",
+     "ok": true,
+     "det": "vazio=false com25=true segunda=false com5=true pequeno=false saldo0=false"
+    },
+    {
+     "caso": "13.painel_status",
+     "ok": true,
+     "det": "big=\"30% 10/20 10 de 20 questões\" small=\"100%\" zero=\"0%\""
+    },
+    {
+     "caso": "10.textos",
+     "ok": true,
+     "det": "ruim=[] bom=true aviso=true cursoBig=true"
+    },
+    {
+     "caso": "5c.falta_1",
+     "ok": true,
+     "det": "Pratique este tópico | 10 questões, sem cronômetro: primeiro as que você nunca viu, depois as que errou. Desempenho no tópico: 95% (19 de 20 questões). Falta 1 questão para a nota completa. | Resolver"
+    }
+   ],
+   "errosJS": [],
+   "big": {
+    "id": "P1-DA-11",
+    "n": 34,
+    "curso": true
+   },
+   "small": {
+    "id": "P1-5.3",
+    "n": 15,
+    "curso": true
+   }
+  },
+  "cel-escuro": {
+   "casos": [
+    {
+     "caso": "13.painel_status",
+     "ok": true,
+     "det": "big=\"30% 10/20 10 de 20 questões\" small=\"100%\" zero=\"0%\""
+    },
+    {
+     "caso": "10.textos",
+     "ok": true,
+     "det": "ruim=[] bom=true aviso=true cursoBig=true"
+    },
+    {
+     "caso": "5c.falta_1",
+     "ok": true,
+     "det": "Pratique este tópico | 10 questões, sem cronômetro: primeiro as que você nunca viu, depois as que errou. Desempenho no tópico: 95% (19 de 20 questões). Falta 1 questão para a nota completa. | Resolver"
+    }
+   ],
+   "errosJS": [],
+   "big": {
+    "id": "P1-DA-11",
+    "n": 34,
+    "curso": true
+   },
+   "small": {
+    "id": "P1-5.3",
+    "n": 15,
+    "curso": true
+   }
+  },
+  "desk-claro": {
+   "casos": [
+    {
+     "caso": "13.painel_status",
+     "ok": true,
+     "det": "big=\"30% 10/20 10 de 20 questões\" small=\"100%\" zero=\"0%\""
+    },
+    {
+     "caso": "10.textos",
+     "ok": true,
+     "det": "ruim=[] bom=true aviso=true cursoBig=true"
+    },
+    {
+     "caso": "5c.falta_1",
+     "ok": true,
+     "det": "Pratique este tópico | 10 questões, sem cronômetro: primeiro as que você nunca viu, depois as que errou. Desempenho no tópico: 95% (19 de 20 questões). Falta 1 questão para a nota completa. | Resolver"
+    }
+   ],
+   "errosJS": [],
+   "big": {
+    "id": "P1-DA-11",
+    "n": 34,
+    "curso": true
+   },
+   "small": {
+    "id": "P1-5.3",
+    "n": 15,
+    "curso": true
+   }
+  },
+  "desk-escuro": {
+   "casos": [
+    {
+     "caso": "13.painel_status",
+     "ok": true,
+     "det": "big=\"30% 10/20 10 de 20 questões\" small=\"100%\" zero=\"0%\""
+    },
+    {
+     "caso": "10.textos",
+     "ok": true,
+     "det": "ruim=[] bom=true aviso=true cursoBig=true"
+    },
+    {
+     "caso": "5c.falta_1",
+     "ok": true,
+     "det": "Pratique este tópico | 10 questões, sem cronômetro: primeiro as que você nunca viu, depois as que errou. Desempenho no tópico: 95% (19 de 20 questões). Falta 1 questão para a nota completa. | Resolver"
+    }
+   ],
+   "errosJS": [],
+   "big": {
+    "id": "P1-DA-11",
+    "n": 34,
+    "curso": true
+   },
+   "small": {
+    "id": "P1-5.3",
+    "n": 15,
+    "curso": true
+   }
+  }
+ },
+ "falhas": 0,
+ "errosJS": 0
+}

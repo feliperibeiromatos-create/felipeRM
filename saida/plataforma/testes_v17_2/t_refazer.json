@@ -1,0 +1,89 @@
+{
+ "arquivo": "../plataforma_v17_2_previa_demo.html",
+ "combos": {
+  "cel-claro": {
+   "casos": [
+    {
+     "caso": "1.sem_botao_antes",
+     "ok": true,
+     "det": ""
+    },
+    {
+     "caso": "2.responde_errado",
+     "ok": true,
+     "det": "{\"f\":true,\"btn\":true,\"dis\":true,\"cr\":1,\"resp\":0,\"ult\":\"e\"}"
+    },
+    {
+     "caso": "3.refazer",
+     "ok": true,
+     "det": "{\"f\":true,\"btn\":false,\"dis\":false,\"cor\":false,\"cr\":1,\"foco\":true}"
+    },
+    {
+     "caso": "4.responde_certo",
+     "ok": true,
+     "det": "{\"cr\":2,\"ult\":\"c\",\"btn\":true,\"resp\":0,\"nt\":0,\"erros\":0,\"ok\":true}"
+    },
+    {
+     "caso": "5.restaurado",
+     "ok": true,
+     "det": "{\"btn\":true,\"okk\":true,\"dis\":true}"
+    },
+    {
+     "caso": "6.refazer_pos_restauracao",
+     "ok": true,
+     "det": "{\"cr\":3,\"ult\":\"e\",\"resp\":0}"
+    },
+    {
+     "caso": "8.fora_do_bloco",
+     "ok": true,
+     "det": "{\"noBloco\":false,\"k\":13,\"banco\":16,\"inl\":3}"
+    }
+   ],
+   "errosJS": [],
+   "topico": "P1-DA-3.4"
+  },
+  "desk-escuro": {
+   "casos": [
+    {
+     "caso": "1.sem_botao_antes",
+     "ok": true,
+     "det": ""
+    },
+    {
+     "caso": "2.responde_errado",
+     "ok": true,
+     "det": "{\"f\":true,\"btn\":true,\"dis\":true,\"cr\":1,\"resp\":0,\"ult\":\"e\"}"
+    },
+    {
+     "caso": "3.refazer",
+     "ok": true,
+     "det": "{\"f\":true,\"btn\":false,\"dis\":false,\"cor\":false,\"cr\":1,\"foco\":true}"
+    },
+    {
+     "caso": "4.responde_certo",
+     "ok": true,
+     "det": "{\"cr\":2,\"ult\":\"c\",\"btn\":true,\"resp\":0,\"nt\":0,\"erros\":0,\"ok\":true}"
+    },
+    {
+     "caso": "5.restaurado",
+     "ok": true,
+     "det": "{\"btn\":true,\"okk\":true,\"dis\":true}"
+    },
+    {
+     "caso": "6.refazer_pos_restauracao",
+     "ok": true,
+     "det": "{\"cr\":3,\"ult\":\"e\",\"resp\":0}"
+    },
+    {
+     "caso": "8.fora_do_bloco",
+     "ok": true,
+     "det": "{\"noBloco\":false,\"k\":13,\"banco\":16,\"inl\":3}"
+    }
+   ],
+   "errosJS": [],
+   "topico": "P1-DA-3.4"
+  }
+ },
+ "falhas": 0,
+ "errosJS": 0
+}

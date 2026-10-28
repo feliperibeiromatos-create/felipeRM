@@ -1,0 +1,20 @@
+476a477,480
+> /* Pedido do Fundador (23/10/2026, D-SIM-P1-TODAS): o simulado final da P1 considera TODAS as matérias da P1 que estão na plataforma
+>    (hoje Direito Administrativo e TI e Dados, 30 itens cada, na ordem do edital). Montado por saida/simulados/sim3_p1/montar_sim3_p1.py.
+>    "substitui": o Simulado 1 (só TI) sai da lista de finais, mas continua em "Simulados anteriores" se já tiver sido feito. */
+> const SIMS_EXTRA = [{"id": "SIM-3", "nome": "Simulado 3 — P1 final (Direito Administrativo e TI e Dados)", "tipo": "final", "versao": "v1", "n": 60, "itens": ["BQ-0115", "D1-21", "D1-09", "D1-32", "D1-53", "BQ-0122", "BQ-0114", "D2-21", "D2-03", "BQ-0127", "D2-41", "D2-51", "BQ-0116", "D3-01", "D3-21", "BQ-0139", "BQ-0149", "D3-71", "BQ-0140", "BQ-0121", "D4-01", "D4-35", "BQ-0152", "D5-12", "BQ-0113", "BQ-0119", "BQ-0120", "BQ-0143", "BQ-0118", "BQ-0117", "6A-07", "6A-04", "6A-08", "6A-05", "BQ-0087", "6A-06", "BQ-0079", "BQ-0070", "BQ-0078", "6B-04", "BQ-0071", "6B-05", "L6A-R01", "6A-13", "6B-15", "6B-12", "6B-09", "6B-08", "BQ-0074", "6B-06", "4C-06", "4C-09", "BQ-0106", "BQ-0104", "4C-04", "BQ-0098", "BQ-0100", "5C-06", "A5-08", "A5-13"], "avisos": ["Simulado da P1 com todas as matérias da P1 que já estão na plataforma: Noções de Direito Administrativo e Administração Pública (30 itens) e Tecnologia da Informação e Dados (30 itens), nesta ordem, como no edital."], "substitui": "SIM-1"}];
+523a528,529
+>   SIMS_EXTRA.forEach(s=>{ if(s.itens.every(id=>M[id]) && !out.some(o=>o.id===s.id)){ out.push(Object.assign({},s));
+>     const feito=id=>(S.tentativas||[]).some(t=>t.ref===id); if(s.substitui && !feito(s.substitui)){ const k=out.findIndex(o=>o.id===s.substitui); if(k>=0) out.splice(k,1); } } });
+590a597
+>   if(k==="ENTER" && t && t.closest && t.closest("button,a,summary") && !/^(bC|bE|bB|prox)$/.test(t.closest("button,a,summary").id||"")) return; // Enter num outro botão focado mantém o comportamento normal dele
+634c641
+<      ${i<ids.length-1?`<button class="btn primary w2" id="prox">Próximo item</button>`:`<button class="btn primary w2" id="fim">Entregar</button>`}
+---
+>      ${i<ids.length-1?`<button class="btn primary w2" id="prox" aria-keyshortcuts="Enter">Próximo item</button>`:`<button class="btn primary w2" id="fim">Entregar</button>`}
+641a649
+>   if($("#prox")) atalhosProva.ENTER=()=>$("#prox").click(); // pedido do Fundador (23/10/2026): Enter aciona "Próximo item"
+1501c1509
+<   const ant=sims.filter(s=>ultima(s)); // v17 R2: só o que foi feito, com a nota ao lado (final já feito inclusive)
+---
+>   const ant=sims.filter(s=>ultima(s)&&!ehD30(s)&&!diag.test(s.tipo||"")); // v17 R2: só o que foi feito, com a nota ao lado (final já feito inclusive); pedido do Fundador (23/10/2026): diagnósticos não aparecem aqui (continuam na escolha de caminho e na matéria)

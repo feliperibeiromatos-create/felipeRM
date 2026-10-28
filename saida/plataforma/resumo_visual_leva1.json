@@ -1,0 +1,2228 @@
+{
+ "P1-DA-1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 3,
+   "ce": 3,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN). Poucas questões neste item: a banca cobra o tema pelos itens 1.1 e 1.2."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Estado, governo e Administração",
+    "icone": "predio"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Os três elementos do Estado",
+    "centro": "Estado",
+    "ramos": [
+     {
+      "titulo": "Povo",
+      "texto": "o elemento humano: o conjunto dos nacionais; todo o poder emana dele (CF, art. 1º, parágrafo único)"
+     },
+     {
+      "titulo": "Território",
+      "texto": "o espaço em que o poder se exerce"
+     },
+     {
+      "titulo": "Governo soberano",
+      "texto": "a soberania é fundamento da República (CF, art. 1º, I)"
+     }
+    ],
+    "legenda": "Faltando um elemento, não há Estado. A União, os Estados, o DF e os Municípios são autônomos, não soberanos (CF, art. 18)."
+   },
+   {
+    "t": "texto",
+    "md": "A República Federativa do Brasil, formada pela união indissolúvel dos Estados, dos Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito (CF, art. 1º, caput). Seus fundamentos são **cinco**: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político (art. 1º, I a V)."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Estado ≠ Governo ≠ Administração",
+    "md": "**Estado** é a pessoa jurídica permanente. **Governo** é a atividade política de direção superior e de fixação de rumos. **Administração Pública** é a função administrativa de execução — em sentido subjetivo, o conjunto de órgãos, agentes e pessoas jurídicas que a exercem; em sentido objetivo, a própria atividade."
+   },
+   {
+    "titulo": "Administração Pública: sentido subjetivo × sentido objetivo",
+    "a": "Sentido subjetivo",
+    "b": "Sentido objetivo",
+    "linhas": [
+     [
+      "Também chamado",
+      "Formal, orgânico",
+      "Material, funcional"
+     ],
+     [
+      "O que designa",
+      "Conjunto de órgãos, agentes e pessoas jurídicas que exercem a função administrativa",
+      "A própria atividade administrativa"
+     ],
+     [
+      "Em uma palavra",
+      "Quem",
+      "O quê"
+     ]
+    ],
+    "legenda": "Pegadinha típica: permutar os adjetivos, atribuindo o sentido objetivo aos órgãos e o subjetivo à atividade.",
+    "t": "compare"
+   },
+   {
+    "t": "secao",
+    "titulo": "Poderes e organização do Estado",
+    "icone": "balanca"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Os três Poderes (CF, art. 2º)",
+    "colunas": [
+     "Poder",
+     "Função típica",
+     "Função atípica (exemplo)"
+    ],
+    "linhas": [
+     [
+      "Legislativo",
+      "Legislar e fiscalizar",
+      "Administrar seus serviços e seu pessoal; julgar (impeachment)"
+     ],
+     [
+      "Executivo",
+      "Administrar e governar",
+      "Legislar (medida provisória, art. 62); julgar (processo administrativo)"
+     ],
+     [
+      "Judiciário",
+      "Julgar",
+      "Administrar seus serviços; legislar (regimentos internos)"
+     ]
+    ],
+    "legenda": "Independentes e harmônicos entre si: nenhum é subordinado a outro."
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Soberania × autonomia",
+    "md": "A **soberania** é da República (CF, art. 1º, I). União, Estados, Distrito Federal e Municípios são **autônomos** (art. 18, caput): organizam-se e governam-se dentro da Constituição, sem soberania própria. Brasília é a Capital Federal (§ 1º) e os Territórios Federais integram a União (§ 2º)."
+   },
+   {
+    "titulo": "Fundamentos da República (CF, art. 1º, I a V)",
+    "centro": "Fundamentos da República",
+    "ramos": [
+     "Soberania",
+     "Cidadania",
+     "Dignidade da pessoa humana",
+     "Valores sociais do trabalho e da livre iniciativa",
+     "Pluralismo político"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Estado = povo + território + governo soberano; sem um deles, não há Estado.",
+     "Fundamentos da República: cinco, no art. 1º, I a V — a separação dos Poderes não está no rol.",
+     "Todo o poder emana do povo, que o exerce por representantes eleitos ou diretamente (art. 1º, parágrafo único).",
+     "Poderes da União: Legislativo, Executivo e Judiciário — independentes e harmônicos (art. 2º); não há quarto Poder.",
+     "Cada Poder tem função típica e exerce funções atípicas, inclusive a administrativa.",
+     "Governo fixa rumos; Administração executa. Sentido subjetivo = quem; sentido objetivo = o quê.",
+     "União, Estados, DF e Municípios são autônomos (art. 18); soberana é a República."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Os entes federativos são soberanos.",
+      "certo": "São **autônomos** (CF, art. 18); a soberania é fundamento da República (art. 1º, I)."
+     },
+     {
+      "errado": "A separação dos Poderes é um dos fundamentos da República do art. 1º.",
+      "certo": "O rol do art. 1º tem cinco fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político. A separação dos Poderes está no art. 2º."
+     },
+     {
+      "errado": "Os Poderes são independentes e subordinados entre si.",
+      "certo": "Independentes e **harmônicos** (art. 2º)."
+     },
+     {
+      "errado": "A Administração Pública em sentido objetivo é o conjunto de órgãos que exercem a função administrativa.",
+      "certo": "Esse é o sentido **subjetivo** (quem). O sentido objetivo é a própria atividade administrativa (o quê)."
+     },
+     {
+      "errado": "Os Territórios Federais são entes autônomos como os Estados.",
+      "certo": "Integram a **União** (CF, art. 18, § 2º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "logo após o mapa dos três elementos",
+    "oQue": "três camadas: a pessoa jurídica permanente (Estado), o governo que passa (mandatos) e a máquina que executa (Administração)",
+    "porQue": "a distinção Estado × Governo × Administração é a que mais gera troca; uma cena fixa a imagem"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto e visuais de P1-DA-1 (CF, arts. 1º, 2º e 18)",
+   "MapasPro — Administração Pública (seções 2 a 5), conferido"
+  ]
+ },
+ "P1-DA-1.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 33,
+   "ce": 28,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Os cinco princípios do art. 37",
+    "icone": "livro"
+   },
+   {
+    "t": "texto",
+    "md": "A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de **legalidade, impessoalidade, moralidade, publicidade e eficiência** (CF, art. 37, caput). São cinco princípios expressos — o LIMPE."
+   },
+   {
+    "t": "tabela",
+    "titulo": "LIMPE: o que cada princípio exige",
+    "colunas": [
+     "Princípio",
+     "O que exige",
+     "Onde a banca pega"
+    ],
+    "linhas": [
+     [
+      "Legalidade",
+      "A Administração só faz o que a lei autoriza ou determina (vinculação positiva)",
+      "Trocar pela legalidade do particular, que pode fazer tudo o que a lei não proíbe (CF, art. 5º, II)"
+     ],
+     [
+      "Impessoalidade",
+      "Tratamento isonômico e atuação voltada à finalidade pública; vedação à promoção pessoal",
+      "A publicidade oficial não pode ter nomes, símbolos ou imagens de promoção pessoal (art. 37, § 1º)"
+     ],
+     [
+      "Moralidade",
+      "Honestidade, boa-fé e probidade; princípio autônomo",
+      "Ato pode ser legal e ainda assim imoral; nepotismo (Súmula Vinculante 13)"
+     ],
+     [
+      "Publicidade",
+      "Transparência dos atos; publicação como condição de eficácia",
+      "Sigilo é exceção (CF, art. 5º, XXXIII e LX; Lei 12.527/2011)"
+     ],
+     [
+      "Eficiência",
+      "Resultado, presteza e economicidade",
+      "Incluída pela EC 19/1998; não autoriza agir contra a lei"
+     ]
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Publicidade ≠ publicação",
+    "md": "Publicidade é o princípio (transparência). Publicação é o ato de tornar público, por exemplo no Diário Oficial. A publicidade oficial deve ter caráter educativo, informativo ou de orientação social (CF, art. 37, § 1º)."
+   },
+   {
+    "t": "sub",
+    "titulo": "Impessoalidade em duas faces",
+    "icone": "pessoas"
+   },
+   {
+    "t": "dois",
+    "titulo": "As duas faces da impessoalidade (leitura doutrinária do art. 37, caput e § 1º)",
+    "a": {
+     "titulo": "Isonomia e finalidade",
+     "itens": [
+      "Tratar todos sem discriminação ou privilégio",
+      "O ato visa ao interesse público, não a fins pessoais",
+      "Concurso público e licitação são aplicações"
+     ]
+    },
+    "b": {
+     "titulo": "Vedação à promoção pessoal",
+     "itens": [
+      "Publicidade de atos, programas, obras, serviços e campanhas só com caráter educativo, informativo ou de orientação social",
+      "Sem nomes, símbolos ou imagens de autoridades ou servidores (CF, art. 37, § 1º)"
+     ]
+    }
+   },
+   {
+    "t": "secao",
+    "titulo": "Os princípios da Lei 9.784/1999",
+    "icone": "doc"
+   },
+   {
+    "t": "texto",
+    "md": "A Administração Pública obedecerá, **dentre outros**, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência (Lei 9.784/1999, art. 2º, caput). Seus preceitos também se aplicam aos órgãos dos Poderes Legislativo e Judiciário da União no desempenho de função administrativa (art. 1º, § 1º)."
+   },
+   {
+    "titulo": "Princípios: CF, art. 37, caput × Lei 9.784/1999, art. 2º, caput",
+    "a": "CF, art. 37, caput",
+    "b": "Lei 9.784/1999, art. 2º, caput",
+    "linhas": [
+     [
+      "Princípios",
+      "Legalidade, impessoalidade, moralidade, publicidade e eficiência",
+      "Legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência"
+     ],
+     [
+      "Razoabilidade",
+      "Não consta do caput",
+      "Consta do caput"
+     ],
+     [
+      "Publicidade e impessoalidade",
+      "Constam do caput",
+      "Não constam do caput"
+     ],
+     [
+      "Alcance",
+      "Administração direta e indireta de qualquer dos Poderes e de todos os entes",
+      "Processo administrativo na Administração Federal direta e indireta; também os órgãos do Legislativo e do Judiciário da União em função administrativa (art. 1º)"
+     ]
+    ],
+    "legenda": "Pegadinha típica: incluir a razoabilidade no rol do caput do art. 37 ou atribuir ao caput do art. 2º a publicidade e a impessoalidade.",
+    "t": "compare"
+   },
+   {
+    "t": "secao",
+    "titulo": "Princípios fora do caput do art. 37",
+    "icone": "chave"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Princípios que a banca cobra além do LIMPE",
+    "centro": "Regime jurídico-administrativo",
+    "ramos": [
+     {
+      "titulo": "Supremacia do interesse público (implícito)",
+      "texto": "prerrogativas: poder de polícia, autoexecutoriedade, cláusulas exorbitantes"
+     },
+     {
+      "titulo": "Indisponibilidade do interesse público (implícito)",
+      "texto": "sujeições: concurso, licitação, prestação de contas, motivação"
+     },
+     {
+      "titulo": "Autotutela (implícito na CF)",
+      "texto": "anula os atos ilegais e revoga os inconvenientes (Súmulas 346 e 473 do STF; Lei 9.784/1999, art. 53)"
+     },
+     {
+      "titulo": "Razoabilidade e proporcionalidade",
+      "texto": "implícitas na CF; expressas na Lei 9.784, art. 2º: adequação, necessidade e proporcionalidade em sentido estrito (doutrina)"
+     },
+     {
+      "titulo": "Segurança jurídica",
+      "texto": "implícita na CF; expressa na Lei 9.784, art. 2º; decadência de cinco anos para anular ato de efeitos favoráveis, salvo má-fé (art. 54)"
+     },
+     {
+      "titulo": "Contraditório e ampla defesa (CF, art. 5º, LV)",
+      "texto": "expressos na CF; no PAD, a falta de advogado não ofende a Constituição (SV 5)"
+     }
+    ],
+    "legenda": "Implícito na CF = não escrito na CF. Contraditório e ampla defesa são expressos na CF (art. 5º, LV); razoabilidade, proporcionalidade e segurança jurídica são implícitas na CF e expressas na Lei 9.784 (art. 2º). Prerrogativa é poder; sujeição é limite."
+   },
+   {
+    "t": "fluxo",
+    "titulo": "Proporcionalidade em três passos (doutrina)",
+    "passos": [
+     "Adequação: o meio atinge o fim?",
+     "Necessidade: há meio menos gravoso?",
+     "Proporcionalidade em sentido estrito: o ganho justifica o ônus?"
+    ]
+   },
+   {
+    "t": "dois",
+    "titulo": "Autotutela: anulação × revogação (Súmula 473 do STF; Lei 9.784/1999, art. 53)",
+    "a": {
+     "titulo": "Anulação",
+     "itens": [
+      "Fundamento: vício de legalidade",
+      "A Administração **deve** anular",
+      "Efeito, em regra: ex tunc (retroage)",
+      "Também pelo Judiciário",
+      "Limite: decadência de cinco anos para atos de efeitos favoráveis, salvo má-fé (art. 54)"
+     ]
+    },
+    "b": {
+     "titulo": "Revogação",
+     "itens": [
+      "Fundamento: conveniência ou oportunidade",
+      "A Administração **pode** revogar",
+      "Efeito: ex nunc (para o futuro)",
+      "Em regra, só a Administração",
+      "Limite: direitos adquiridos"
+     ]
+    },
+    "pe": "Em todos os casos, ressalvada a apreciação judicial (Súmula 473)"
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da Constituição e da lei do processo administrativo",
+    "norma": "CF e Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, caput",
+      "texto": "A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte:",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "CF, art. 37, § 1º",
+      "texto": "A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 2º, caput",
+      "texto": "A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência — cinco, no caput do art. 37.",
+     "Eficiência entrou pela EC 19/1998; é o único dos cinco que não estava no texto original.",
+     "Razoabilidade e proporcionalidade não estão no caput do art. 37; estão no art. 2º da Lei 9.784/1999, que diz \"dentre outros\".",
+     "Legalidade administrativa: só o que a lei autoriza; o particular faz o que a lei não proíbe.",
+     "Impessoalidade: isonomia e finalidade + vedação à promoção pessoal (art. 37, § 1º).",
+     "Moralidade é autônoma: ato legal pode ser imoral; nepotismo viola a moralidade (SV 13).",
+     "Publicidade é a regra; sigilo, exceção (CF, art. 5º, XXXIII e LX; LAI).",
+     "Autotutela: deve anular (ex tunc) e pode revogar (ex nunc), respeitados os direitos adquiridos (art. 53).",
+     "Decadência: cinco anos para anular ato de efeitos favoráveis, salvo comprovada má-fé (art. 54).",
+     "No PAD, a falta de defesa técnica por advogado não ofende a Constituição (SV 5)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A razoabilidade é princípio expresso no caput do art. 37 da CF.",
+      "certo": "Não consta do caput do art. 37; consta do art. 2º da Lei 9.784/1999."
+     },
+     {
+      "errado": "Com base na eficiência, o administrador pode deixar de licitar quando o procedimento for moroso.",
+      "certo": "A eficiência não afasta a legalidade: a licitação é exigência constitucional (art. 37, XXI) e as hipóteses de contratação direta são as da lei."
+     },
+     {
+      "errado": "Um ato só é imoral se também for ilegal.",
+      "certo": "A moralidade é princípio autônomo: há ato legal e imoral."
+     },
+     {
+      "errado": "O princípio da publicidade veda qualquer sigilo.",
+      "certo": "O sigilo é exceção prevista na própria Constituição (art. 5º, XXXIII e LX) e regulada pela Lei 12.527/2011."
+     },
+     {
+      "errado": "A revogação de ato administrativo produz efeitos retroativos.",
+      "certo": "A revogação opera para o futuro (ex nunc); a anulação, em regra, retroage (ex tunc)."
+     },
+     {
+      "errado": "A Administração pode anular ato de efeitos favoráveis a qualquer tempo.",
+      "certo": "O direito de anular decai em cinco anos, salvo comprovada má-fé (Lei 9.784/1999, art. 54)."
+     },
+     {
+      "errado": "A publicidade governamental pode trazer o nome do gestor, desde que informativa.",
+      "certo": "Não pode constar nome, símbolo ou imagem que caracterize promoção pessoal (CF, art. 37, § 1º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, baseLegal e compare de P1-DA-1.1",
+   "CF, art. 5º, II, XXXIII, LV e LX; art. 37, caput, § 1º e XXI; Lei 9.784/1999, arts. 1º, 2º, 53 e 54; Súmulas 346 e 473 e Súmulas Vinculantes 5 e 13 do STF",
+   "MapasPro — Introdução ao Direito Administrativo (seções 4 a 6), conferido"
+  ]
+ },
+ "P1-DA-1.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 79,
+   "ce": 62,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Órgão, entidade e autoridade",
+    "icone": "predio"
+   },
+   {
+    "t": "texto",
+    "md": "**Órgão** é a unidade de atuação integrante da estrutura da Administração direta e da indireta; **entidade** é a unidade de atuação dotada de personalidade jurídica; **autoridade** é o servidor ou agente público dotado de poder de decisão (Lei 9.784/1999, art. 1º, § 2º)."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Órgão ≠ entidade",
+    "md": "Órgão não tem personalidade jurídica: é divisão interna de uma pessoa (Ministério, Secretaria, Receita Federal). Entidade tem personalidade própria (INSS, Banco Central, Correios). A pegadinha típica é permutar as definições."
+   },
+   {
+    "t": "secao",
+    "titulo": "Centralização, desconcentração e descentralização",
+    "icone": "engrenagem"
+   },
+   {
+    "t": "tabela",
+    "titulo": "As três formas de organizar a atividade",
+    "colunas": [
+     "Forma",
+     "Pessoas jurídicas",
+     "O que acontece",
+     "Vínculo"
+    ],
+    "linhas": [
+     [
+      "Centralização",
+      "Uma: o próprio ente político",
+      "O ente presta a atividade por seus próprios órgãos",
+      "—"
+     ],
+     [
+      "Desconcentração",
+      "Uma: a mesma pessoa jurídica",
+      "Distribuição interna de competências entre órgãos",
+      "Hierarquia (subordinação)"
+     ],
+     [
+      "Descentralização",
+      "Duas: uma transfere, outra passa a exercer",
+      "Transferência da atividade a outra pessoa, pública ou privada",
+      "Vinculação e supervisão (tutela), sem hierarquia"
+     ]
+    ],
+    "legenda": "Concentração é o movimento oposto ao da desconcentração: reunião de competências em menos órgãos."
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Hierarquia × tutela",
+    "md": "Há hierarquia entre órgãos de uma mesma pessoa jurídica. Entre a Administração direta e a entidade da indireta há **vinculação** ao Ministério da área de sua principal atividade (DL 200/1967, art. 4º, parágrafo único), com supervisão — não subordinação."
+   },
+   {
+    "t": "dois",
+    "titulo": "Descentralização: outorga × delegação (classificação doutrinária)",
+    "a": {
+     "titulo": "Por outorga (serviços)",
+     "itens": [
+      "Transfere a titularidade e a execução",
+      "Por lei",
+      "Exemplo: criação de autarquia"
+     ]
+    },
+    "b": {
+     "titulo": "Por delegação (colaboração)",
+     "itens": [
+      "Transfere só a execução",
+      "Por contrato ou ato",
+      "Exemplo: concessão e permissão de serviço público"
+     ]
+    }
+   },
+   {
+    "t": "secao",
+    "titulo": "Administração direta e indireta",
+    "icone": "pessoas"
+   },
+   {
+    "t": "texto",
+    "md": "A Administração Federal compreende a **direta**, composta dos serviços integrados na estrutura da Presidência da República e dos Ministérios, e a **indireta**, que reúne autarquias, empresas públicas, sociedades de economia mista e fundações públicas, dotadas de personalidade jurídica própria (DL 200/1967, art. 4º). Somente por lei específica poderá ser criada autarquia e autorizada a instituição de empresa pública, de sociedade de economia mista e de fundação (CF, art. 37, XIX); subsidiárias dependem de autorização legislativa em cada caso (inciso XX)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "As quatro entidades da Administração indireta (DL 200/1967, art. 5º; CF, art. 37, XIX)",
+    "centro": "Administração indireta",
+    "ramos": [
+     {
+      "titulo": "Autarquia",
+      "texto": "direito público; criada diretamente por lei; serviço autônomo com patrimônio e receita próprios para atividades típicas da Administração"
+     },
+     {
+      "titulo": "Fundação pública",
+      "texto": "DL 200, art. 5º, IV: direito privado, autorizada por lei, sem fins lucrativos; o STF admite fundação pública de direito público (RE 716.378, Tema 545; ADI 191)"
+     },
+     {
+      "titulo": "Empresa pública",
+      "texto": "direito privado; criação autorizada por lei; capital exclusivamente público; qualquer forma admitida em direito"
+     },
+     {
+      "titulo": "Sociedade de economia mista",
+      "texto": "direito privado; criação autorizada por lei; capital público e privado, com maioria das ações com direito a voto do Poder Público; sempre sociedade anônima"
+     }
+    ]
+   },
+   {
+    "t": "escala",
+    "titulo": "Do mais público ao mais privado",
+    "esquerda": "Mais público",
+    "direita": "Mais privado",
+    "pontos": [
+     {
+      "rotulo": "Autarquia",
+      "texto": "direito público; criada por lei; imunidade tributária recíproca (CF, art. 150, § 2º); foro na Justiça Federal, se federal (art. 109, I)"
+     },
+     {
+      "rotulo": "Fundação pública de direito público",
+      "texto": "admitida pelo STF (Tema 545); regime próximo ao da autarquia, conforme o estatuto e as atividades"
+     },
+     {
+      "rotulo": "Fundação pública de direito privado",
+      "texto": "a do DL 200, art. 5º, IV: lei autoriza, registro cria; regime privado com derrogações"
+     },
+     {
+      "rotulo": "Empresa pública",
+      "texto": "direito privado (Lei 13.303/2016, art. 3º); capital 100% público; foro na Justiça Federal, se federal (art. 109, I)"
+     },
+     {
+      "rotulo": "Sociedade de economia mista",
+      "texto": "direito privado (Lei 13.303/2016, art. 4º); capital misto; S.A.; foro na Justiça comum estadual (Súmula 556 do STF), salvo intervenção da União (Súmula 517)"
+     }
+    ],
+    "legenda": "O grau de sujeição ao direito público cai da esquerda para a direita. Concurso público alcança todas (CF, art. 37, II); licitação também, com regime próprio para estatais (CF, art. 173, § 1º, III; Lei 13.303/2016)."
+   },
+   {
+    "t": "dois",
+    "titulo": "Empresa pública × sociedade de economia mista",
+    "a": {
+     "titulo": "Empresa pública",
+     "itens": [
+      "Capital exclusivamente público",
+      "Qualquer forma admitida em direito",
+      "Federal: foro na Justiça Federal (CF, art. 109, I)",
+      "Exemplos: Caixa Econômica Federal, Correios, BNDES"
+     ]
+    },
+    "b": {
+     "titulo": "Sociedade de economia mista",
+     "itens": [
+      "Capital público e privado; maioria do capital votante do Poder Público",
+      "Obrigatoriamente sociedade anônima",
+      "Federal: foro na Justiça comum estadual (Súmula 556 do STF)",
+      "Exemplos: Petrobras, Banco do Brasil"
+     ]
+    },
+    "pe": "As duas: direito privado, pessoal celetista, concurso e licitação"
+   },
+   {
+    "titulo": "Descentralização × desconcentração",
+    "a": "Descentralização",
+    "b": "Desconcentração",
+    "linhas": [
+     [
+      "Pessoas envolvidas",
+      "Duas pessoas distintas: uma transfere e outra passa a exercer a atividade",
+      "Uma mesma pessoa jurídica, com hierarquia"
+     ],
+     [
+      "O que ocorre",
+      "Transferência da atividade a outra pessoa",
+      "Distribuição interna de competências entre órgãos"
+     ],
+     [
+      "Exemplo",
+      "Transferência de uma atividade a uma entidade com personalidade própria",
+      "O titular de um órgão distribui, por ato interno, parte das suas atribuições a unidades subordinadas"
+     ]
+    ],
+    "legenda": "A concentração é o movimento oposto ao da desconcentração: reunião de competências em menor número de órgãos.",
+    "t": "compare"
+   },
+   {
+    "t": "secao",
+    "titulo": "Figuras que a banca mistura",
+    "icone": "chave"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Agências, qualificações e consórcios",
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Base"
+    ],
+    "linhas": [
+     [
+      "Agência reguladora",
+      "Autarquia em regime especial; dirigentes com mandato fixo, que só o perdem por renúncia; condenação judicial transitada em julgado ou condenação em PAD; ou infringência das vedações do art. 8º-B",
+      "Lei 9.986/2000, art. 9º, I a III (redação da Lei 13.848/2019, art. 42; parágrafo único revogado pelo art. 52, VI)"
+     ],
+     [
+      "Agência executiva",
+      "Qualificação (não é entidade nova) de autarquia ou fundação com plano estratégico de reestruturação e contrato de gestão com o Ministério supervisor",
+      "Lei 9.649/1998, art. 51"
+     ],
+     [
+      "Organização social (OS)",
+      "Entidade privada sem fins lucrativos, qualificada, que celebra contrato de gestão",
+      "Lei 9.637/1998"
+     ],
+     [
+      "OSCIP",
+      "Entidade privada sem fins lucrativos, qualificada, que celebra termo de parceria",
+      "Lei 9.790/1999"
+     ],
+     [
+      "Consórcio público",
+      "Pessoa jurídica formada por entes federativos: associação pública (direito público, integra a indireta dos consorciados) ou pessoa de direito privado",
+      "Lei 11.107/2005, art. 6º"
+     ]
+    ],
+    "legenda": "OS, OSCIP e Sistema S não integram a Administração indireta: são entidades paraestatais, do terceiro setor."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Órgão: sem personalidade; entidade: com personalidade; autoridade: quem decide (Lei 9.784/1999, art. 1º, § 2º).",
+     "Desconcentração: uma pessoa, vários órgãos, hierarquia. Descentralização: duas pessoas, sem hierarquia.",
+     "Centralização: o ente presta por seus órgãos; concentração: menos órgãos (oposto da desconcentração).",
+     "Direta: Presidência e Ministérios; indireta: autarquia, fundação, EP e SEM (DL 200, art. 4º). Lei cria a autarquia e autoriza as demais.",
+     "Autarquia: direito público, criada por lei, imunidade recíproca, foro na Justiça Federal se federal.",
+     "Empresa pública: capital 100% público, qualquer forma, Justiça Federal se federal.",
+     "Sociedade de economia mista: capital misto, sempre S.A., Justiça comum estadual (Súmula 556).",
+     "Agência reguladora é autarquia especial com dirigentes de mandato fixo; agência executiva é só qualificação.",
+     "OS firma contrato de gestão; OSCIP firma termo de parceria; nenhuma integra a indireta.",
+     "Entre direta e indireta há vinculação ao Ministério (DL 200, art. 4º, parágrafo único), não subordinação."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A Administração direta exerce controle hierárquico sobre as autarquias vinculadas.",
+      "certo": "O vínculo é de **vinculação e supervisão** (DL 200/1967, art. 4º, parágrafo único); hierarquia só existe dentro da mesma pessoa jurídica."
+     },
+     {
+      "errado": "Desconcentração e descentralização são sinônimos.",
+      "certo": "Desconcentração distribui competências dentro da mesma pessoa; descentralização transfere a atividade a outra pessoa."
+     },
+     {
+      "errado": "A sociedade de economia mista federal tem foro na Justiça Federal.",
+      "certo": "Tem foro na Justiça comum estadual (Súmula 556 do STF); o art. 109, I, da CF alcança a União, as autarquias e as empresas públicas federais."
+     },
+     {
+      "errado": "A empresa pública deve ser constituída como sociedade anônima.",
+      "certo": "A forma de S.A. é obrigatória para a sociedade de economia mista; a empresa pública pode adotar qualquer forma admitida em direito."
+     },
+     {
+      "errado": "Lei específica autoriza a criação de autarquia.",
+      "certo": "A lei específica **cria** a autarquia e **autoriza** a instituição das demais (CF, art. 37, XIX)."
+     },
+     {
+      "errado": "A agência executiva é uma nova espécie de entidade da indireta.",
+      "certo": "É qualificação de autarquia ou fundação que tem plano estratégico e contrato de gestão (Lei 9.649/1998, art. 51)."
+     },
+     {
+      "errado": "As organizações sociais integram a Administração indireta.",
+      "certo": "São entidades privadas do terceiro setor; o vínculo é o contrato de gestão (Lei 9.637/1998)."
+     },
+     {
+      "errado": "Pelo DL 200/1967, a fundação pública é pessoa jurídica de direito público.",
+      "certo": "O DL 200, art. 5º, IV, diz **direito privado**; a fundação pública de direito público existe, mas por construção do STF (RE 716.378, Tema 545), conforme o estatuto e as atividades."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "antes do quadro Hierarquia × tutela",
+    "oQue": "um Ministério com seus órgãos dentro da mesma silhueta (uma pessoa) e, fora dela, uma autarquia ligada por um fio de supervisão, não por uma cadeia de comando",
+    "porQue": "é a pegadinha mais frequente do item e a imagem resolve em um olhar"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e esquema de P1-DA-1.2",
+   "DL 200/1967, arts. 4º e 5º; CF, art. 37, II, XIX, XX e XXI, art. 109, I, art. 150, § 2º, art. 173, § 1º, III; Lei 9.784/1999, art. 1º, § 2º; Lei 9.986/2000, art. 9º (texto da Lei 13.848/2019, arts. 42 e 52, VI, conferido na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026); Lei 13.303/2016, arts. 3º e 4º; STF, RE 716.378 (Tema 545, tese conferida pelo QA em boletim do TJDFT em 28/10/2026), ADI 191 (citação corrente; a reconferir no portal do STF), Súmulas 517 e 556; Lei 9.649/1998, art. 51; Lei 9.637/1998; Lei 9.790/1999; Lei 11.107/2005, art. 6º; Súmula 556 do STF",
+   "MapasPro — Administração Pública (seções 6 a 9) e Organização Administrativa (seções 2 a 8), conferidos"
+  ]
+ },
+ "P1-DA-2.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 70,
+   "ce": 59,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Conceito e requisitos",
+    "icone": "alvo"
+   },
+   {
+    "t": "texto",
+    "md": "Ato administrativo é a manifestação **unilateral** de vontade da Administração Pública que produz efeitos jurídicos, sob regime jurídico de direito público. Fato administrativo é evento sem manifestação de vontade (a morte de um servidor, a destruição acidental de um bem)."
+   },
+   {
+    "t": "tabela",
+    "titulo": "Os cinco requisitos e o vício de cada um (Lei 4.717/1965, art. 2º)",
+    "colunas": [
+     "Requisito",
+     "O que é",
+     "Vício (art. 2º)"
+    ],
+    "linhas": [
+     [
+      "Competência",
+      "Poder legal de praticar o ato, atribuído por lei ao órgão ou agente",
+      "Incompetência (a)"
+     ],
+     [
+      "Forma",
+      "Modo de exteriorização exigido por lei",
+      "Vício de forma (b)"
+     ],
+     [
+      "Objeto",
+      "O conteúdo: o que o ato decide, autoriza, ordena",
+      "Ilegalidade do objeto (c)"
+     ],
+     [
+      "Motivo",
+      "A situação de fato e de direito que autoriza o ato",
+      "Inexistência dos motivos (d)"
+     ],
+     [
+      "Finalidade",
+      "O resultado de interesse público que o ato deve alcançar",
+      "Desvio de finalidade (e)"
+     ]
+    ],
+    "legenda": "Motivo é a situação; motivação é a exposição formal dos motivos, obrigatória nos casos do art. 50 da Lei 9.784/1999."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Competência: irrenunciável, mas delegável",
+    "md": "A competência é irrenunciável, salvo delegação e avocação legalmente admitidas (Lei 9.784/1999, art. 11). **Não** podem ser delegados: a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva (art. 13)."
+   },
+   {
+    "t": "secao",
+    "titulo": "Atributos",
+    "icone": "cadeado"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Os atributos do ato administrativo",
+    "centro": "Atributos",
+    "ramos": [
+     {
+      "titulo": "Presunção de legitimidade",
+      "texto": "o ato presume-se conforme a lei até prova em contrário; presunção relativa, que inverte o ônus da prova"
+     },
+     {
+      "titulo": "Imperatividade",
+      "texto": "o ato se impõe a terceiros independentemente de sua concordância"
+     },
+     {
+      "titulo": "Autoexecutoriedade",
+      "texto": "a Administração executa o ato sem recorrer ao Judiciário, quando a lei ou a urgência permitir"
+     },
+     {
+      "titulo": "Tipicidade",
+      "texto": "o ato deve corresponder a uma figura prevista em lei"
+     }
+    ],
+    "legenda": "Atributos são classificação doutrinária: os três primeiros são consenso; a tipicidade é acréscimo de Di Pietro. Nem todo ato tem todos: a cobrança de multa não é autoexecutável; o ato enunciativo não é imperativo."
+   },
+   {
+    "t": "secao",
+    "titulo": "Vinculado × discricionário",
+    "icone": "balanca"
+   },
+   {
+    "t": "dois",
+    "titulo": "Liberdade do agente",
+    "a": {
+     "titulo": "Ato vinculado",
+     "itens": [
+      "A lei define todos os requisitos; não há escolha",
+      "Exemplo: licença para construir com os requisitos atendidos; aposentadoria compulsória",
+      "Controle judicial pleno de legalidade"
+     ]
+    },
+    "b": {
+     "titulo": "Ato discricionário",
+     "itens": [
+      "A lei deixa margem de escolha quanto ao motivo e ao objeto (mérito: conveniência e oportunidade)",
+      "Exemplo: autorização de uso de bem público; nomeação para cargo em comissão",
+      "Controle judicial de legalidade (competência, forma, finalidade, razoabilidade), não do mérito"
+     ]
+    },
+    "pe": "Discricionariedade ≠ arbitrariedade: a escolha é dentro da lei; motivação obrigatória nos casos do art. 50 da Lei 9.784/1999 — a exoneração de cargo em comissão (ad nutum) a dispensa"
+   },
+   {
+    "t": "secao",
+    "titulo": "Classificações e espécies",
+    "icone": "doc"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Classificações que a banca cobra",
+    "colunas": [
+     "Critério",
+     "Classes",
+     "Pergunta que distingue"
+    ],
+    "linhas": [
+     [
+      "Destinatários",
+      "Geral × individual",
+      "Alcança pessoas indeterminadas ou destinatário certo?"
+     ],
+     [
+      "Formação da vontade",
+      "Simples × composto × complexo",
+      "Quantos órgãos manifestam vontade? Um (simples); um principal e outro que ratifica (composto); dois que se fundem em igualdade (complexo)"
+     ],
+     [
+      "Alcance",
+      "Interno × externo",
+      "Produz efeitos só dentro da Administração ou também para terceiros?"
+     ],
+     [
+      "Planos do ato",
+      "Perfeito × válido × eficaz",
+      "Concluiu o ciclo de formação? Está conforme a lei? Está apto a produzir efeitos?"
+     ],
+     [
+      "Exequibilidade",
+      "Perfeito × imperfeito × pendente × consumado",
+      "Completou o ciclo? Depende de termo ou condição? Já exauriu os efeitos?"
+     ]
+    ]
+   },
+   {
+    "t": "tabela",
+    "titulo": "Espécies de atos (classificação doutrinária)",
+    "colunas": [
+     "Espécie",
+     "O que faz",
+     "Exemplos"
+    ],
+    "linhas": [
+     [
+      "Normativos",
+      "Criam regra geral e abstrata, abaixo da lei",
+      "Decreto regulamentar, resolução, instrução normativa"
+     ],
+     [
+      "Ordinatórios",
+      "Organizam o funcionamento interno",
+      "Portaria, ordem de serviço, circular, memorando"
+     ],
+     [
+      "Negociais",
+      "Declaram vontade coincidente com o pedido do particular",
+      "Licença, autorização, permissão, admissão"
+     ],
+     [
+      "Enunciativos",
+      "Atestam ou opinam, sem decidir",
+      "Certidão, atestado, parecer"
+     ],
+     [
+      "Punitivos",
+      "Aplicam sanção",
+      "Multa, interdição, demissão"
+     ]
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Extinção, anulação, revogação e convalidação",
+    "icone": "relogio"
+   },
+   {
+    "titulo": "Anulação × revogação (Lei 9.784/1999, art. 53)",
+    "a": "Anulação",
+    "b": "Revogação",
+    "linhas": [
+     [
+      "Fundamento",
+      "Vício de legalidade",
+      "Motivo de conveniência ou oportunidade"
+     ],
+     [
+      "Natureza",
+      "A Administração deve anular",
+      "A Administração pode revogar"
+     ],
+     [
+      "Efeitos, em regra",
+      "Retroage (ex tunc)",
+      "Opera para o futuro (ex nunc)"
+     ],
+     [
+      "Quem pode",
+      "A Administração ou o Judiciário",
+      "Em regra, só a Administração"
+     ],
+     [
+      "Limite",
+      "Decadência de cinco anos para atos de efeitos favoráveis, salvo comprovada má-fé (art. 54)",
+      "Respeitados os direitos adquiridos"
+     ]
+    ],
+    "legenda": "A convalidação corrige defeito sanável (art. 55); não se confunde com a revogação, que se funda em conveniência ou oportunidade.",
+    "t": "compare"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Formas de extinção do ato (classificação doutrinária)",
+    "colunas": [
+     "Forma",
+     "Quando"
+    ],
+    "linhas": [
+     [
+      "Cumprimento dos efeitos",
+      "O ato esgota seu conteúdo (prazo vencido, objeto executado)"
+     ],
+     [
+      "Desaparecimento do sujeito ou do objeto",
+      "Morte do beneficiário; perecimento do bem"
+     ],
+     [
+      "Anulação",
+      "Vício de legalidade; retroage, em regra"
+     ],
+     [
+      "Revogação",
+      "Conveniência ou oportunidade; para o futuro; respeita direitos adquiridos"
+     ],
+     [
+      "Cassação",
+      "O beneficiário descumpre condição do ato"
+     ],
+     [
+      "Caducidade",
+      "Norma posterior torna o ato incompatível"
+     ],
+     [
+      "Contraposição",
+      "Ato posterior de efeitos opostos (exoneração extingue a nomeação)"
+     ],
+     [
+      "Renúncia",
+      "O beneficiário abre mão do direito"
+     ]
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Convalidação (Lei 9.784/1999, art. 55)",
+    "md": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos com **defeitos sanáveis** podem ser convalidados pela própria Administração. A lei fala só em \"defeitos sanáveis\"; pela doutrina majoritária, são sanáveis o vício de competência (salvo competência exclusiva ou em razão da matéria) e o de forma (salvo forma essencial); não se convalidam os vícios de objeto, motivo e finalidade."
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da lei sobre anulação, revogação, decadência e convalidação",
+    "norma": "Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 53",
+      "texto": "A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 54, caput",
+      "texto": "O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 55",
+      "texto": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Ato administrativo: manifestação unilateral de vontade sob regime de direito público, com efeitos jurídicos.",
+     "Cinco requisitos: competência, forma, objeto, motivo, finalidade (vícios no art. 2º da Lei 4.717/1965).",
+     "Motivo é a situação; motivação é a exposição dos motivos (art. 50 da Lei 9.784/1999).",
+     "Competência: irrenunciável, salvo delegação e avocação (art. 11); indelegáveis: ato normativo, recurso, competência exclusiva (art. 13).",
+     "Atributos: presunção de legitimidade (relativa), imperatividade, autoexecutoriedade, tipicidade.",
+     "Vinculado: sem escolha. Discricionário: mérito dentro da lei; o Judiciário controla a legalidade, não o mérito.",
+     "Anulação: deve, ilegalidade, ex tunc, também pelo Judiciário. Revogação: pode, conveniência, ex nunc, em regra só pela Administração.",
+     "Convalidação só de defeito sanável, sem lesão nem prejuízo (art. 55). Decadência: 5 anos, atos de efeitos favoráveis, salvo má-fé (art. 54).",
+     "Espécies (doutrina): normativos, ordinatórios, negociais, enunciativos, punitivos.",
+     "Extinção: cumprimento, desaparecimento do sujeito/objeto, anulação, revogação, cassação, caducidade, contraposição, renúncia."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Todo vício de competência é insanável.",
+      "certo": "Pela doutrina majoritária, o vício de competência é, em regra, sanável por convalidação (Lei 9.784/1999, art. 55, que fala em \"defeitos sanáveis\"), salvo competência exclusiva ou em razão da matéria."
+     },
+     {
+      "errado": "O desvio de finalidade pode ser convalidado.",
+      "certo": "Finalidade, motivo e objeto viciados não se convalidam (doutrina majoritária; a lei só menciona \"defeitos sanáveis\")."
+     },
+     {
+      "errado": "A revogação retroage à data do ato.",
+      "certo": "A revogação opera para o futuro (ex nunc); a anulação é que, em regra, retroage."
+     },
+     {
+      "errado": "A anulação é ato discricionário da Administração.",
+      "certo": "A Administração **deve** anular o ato ilegal (art. 53); discricionária é a revogação."
+     },
+     {
+      "errado": "A presunção de legitimidade é absoluta.",
+      "certo": "É relativa: admite prova em contrário e apenas inverte o ônus da prova."
+     },
+     {
+      "errado": "Ato complexo é o que tem vontade principal e outra acessória.",
+      "certo": "Esse é o **composto**. No complexo, duas vontades independentes se fundem em igualdade."
+     },
+     {
+      "errado": "A decisão de recurso administrativo pode ser delegada.",
+      "certo": "Não pode (Lei 9.784/1999, art. 13, II)."
+     },
+     {
+      "errado": "Imperatividade e autoexecutoriedade são o mesmo atributo.",
+      "certo": "Imperatividade impõe o ato a terceiros; autoexecutoriedade permite executá-lo sem o Judiciário. A multa é imperativa, mas sua cobrança não é autoexecutável."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "após o painel vinculado × discricionário",
+    "oQue": "duas réguas: uma travada no zero (vinculado) e outra com um cursor que se move dentro de um trecho marcado pela lei (discricionário)",
+    "porQue": "mostra que a discricionariedade é um espaço delimitado, não liberdade total"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-2.1",
+   "Lei 4.717/1965, art. 2º; Lei 9.784/1999, arts. 11, 13, 50, 53, 54 e 55; Súmula 473 do STF",
+   "MapasPro — Atos Administrativos (estrutura e tabelas de classificação; conteúdo conferido e corrigido, ver triagem)"
+  ]
+ },
+ "P1-DA-2.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN). Nenhuma questão enquadrada neste item no corpus; a banca pode cobrá-lo dentro do processo administrativo (4.4)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Parecer: prazo e efeitos",
+    "icone": "doc"
+   },
+   {
+    "t": "texto",
+    "md": "Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de **quinze dias**, salvo norma especial ou comprovada necessidade de maior prazo (Lei 9.784/1999, art. 42, caput)."
+   },
+   {
+    "titulo": "Parecer obrigatório: vinculante × não vinculante (art. 42)",
+    "a": "Obrigatório e vinculante (§ 1º)",
+    "b": "Obrigatório e não vinculante (§ 2º)",
+    "linhas": [
+     [
+      "Se não for emitido no prazo",
+      "O processo não terá seguimento até a respectiva apresentação",
+      "O processo poderá ter prosseguimento e ser decidido com sua dispensa"
+     ],
+     [
+      "Responsabilidade",
+      "Responsabiliza-se quem der causa ao atraso",
+      "Sem prejuízo da responsabilidade de quem se omitiu"
+     ],
+     [
+      "Prazo-regra (caput)",
+      "Quinze dias, salvo norma especial ou comprovada necessidade de maior prazo",
+      "Quinze dias, salvo norma especial ou comprovada necessidade de maior prazo"
+     ]
+    ],
+    "legenda": "Pegadinha típica: aplicar ao parecer não vinculante o efeito do vinculante.",
+    "t": "compare"
+   },
+   {
+    "t": "tabela",
+    "titulo": "As três espécies de parecer (classificação doutrinária)",
+    "colunas": [
+     "Espécie",
+     "A Administração precisa pedir?",
+     "Precisa seguir?",
+     "Se não for emitido no prazo"
+    ],
+    "linhas": [
+     [
+      "Facultativo",
+      "Não",
+      "Não",
+      "O prazo de quinze dias do art. 42 não se aplica"
+     ],
+     [
+      "Obrigatório não vinculante",
+      "Sim",
+      "Não",
+      "O processo pode prosseguir e ser decidido com sua dispensa (§ 2º)"
+     ],
+     [
+      "Obrigatório vinculante",
+      "Sim",
+      "Sim",
+      "O processo não tem seguimento até a apresentação (§ 1º)"
+     ]
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Responsabilidade do emissor",
+    "icone": "balanca"
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "LINDB, art. 28",
+    "md": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de **dolo ou erro grosseiro**. Culpa leve não responsabiliza o parecerista. Os §§ 1º a 3º do art. 28 foram vetados."
+   },
+   {
+    "t": "secao",
+    "titulo": "Parecer e motivação do ato",
+    "icone": "chave"
+   },
+   {
+    "t": "texto",
+    "md": "Exige motivação o ato que deixe de aplicar jurisprudência firmada ou **discrepe** de pareceres, laudos, propostas e relatórios oficiais (Lei 9.784/1999, art. 50, VII). A motivação pode consistir em declaração de concordância com fundamentos de anteriores pareceres, que passam a integrar o ato (art. 50, § 1º)."
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da lei sobre parecer, responsabilidade e motivação",
+    "norma": "Lei 9.784/1999 e LINDB",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 42, caput",
+      "texto": "Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de quinze dias, salvo norma especial ou comprovada necessidade de maior prazo.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "LINDB, art. 28, caput",
+      "texto": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 50, § 1º",
+      "texto": "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.",
+      "literal": true,
+      "conferido": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Parecer obrigatório: prazo máximo de quinze dias, salvo norma especial ou necessidade comprovada (art. 42).",
+     "Vinculante não emitido: o processo para (§ 1º). Não vinculante não emitido: o processo segue (§ 2º).",
+     "Quem atrasa ou se omite responde pela demora.",
+     "Emissor responde pessoalmente só por dolo ou erro grosseiro (LINDB, art. 28).",
+     "Ato que discrepa de parecer exige motivação (art. 50, VII).",
+     "A concordância com parecer anterior vale como motivação e o parecer integra o ato (art. 50, § 1º)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O parecer facultativo deve ser emitido em quinze dias.",
+      "certo": "O prazo do art. 42 vale para o parecer obrigatório."
+     },
+     {
+      "errado": "Sem o parecer obrigatório não vinculante, o processo fica paralisado.",
+      "certo": "Paralisa-se sem o **vinculante** (§ 1º); sem o não vinculante, o processo pode prosseguir (§ 2º)."
+     },
+     {
+      "errado": "O parecerista responde por culpa, ainda que leve.",
+      "certo": "Só por dolo ou erro grosseiro (LINDB, art. 28)."
+     },
+     {
+      "errado": "O ato que discrepa de parecer dispensa motivação.",
+      "certo": "Exige motivação (Lei 9.784/1999, art. 50, VII)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-2.2",
+   "Lei 9.784/1999, arts. 42 e 50; LINDB (DL 4.657/1942), art. 28"
+  ]
+ },
+ "P1-DA-3.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 33,
+   "ce": 30,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Acesso, concurso e estabilidade",
+    "icone": "chave"
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Do concurso à estabilidade (CF, arts. 37 e 41)",
+    "marcos": [
+     {
+      "quando": "Acesso",
+      "titulo": "Cargos, empregos e funções",
+      "texto": "acessíveis aos brasileiros que preencham os requisitos da lei e, na forma da lei, aos estrangeiros (art. 37, I)"
+     },
+     {
+      "quando": "Concurso",
+      "titulo": "Provas ou provas e títulos",
+      "texto": "investidura em cargo ou emprego depende de concurso, salvo cargo em comissão de livre nomeação e exoneração (art. 37, II)"
+     },
+     {
+      "quando": "Validade",
+      "titulo": "Até dois anos, prorrogável uma vez por igual período",
+      "texto": "art. 37, III; desrespeito aos incisos II e III anula o ato e pune a autoridade (§ 2º)"
+     },
+     {
+      "quando": "Três anos",
+      "titulo": "Estabilidade",
+      "texto": "após três anos de efetivo exercício, com avaliação especial de desempenho por comissão (art. 41, caput e § 4º)"
+     },
+     {
+      "quando": "Perda",
+      "titulo": "Art. 41, § 1º, e art. 169, § 4º",
+      "texto": "sentença judicial transitada em julgado; processo administrativo com ampla defesa; avaliação periódica de desempenho, na forma de lei complementar (art. 41, § 1º); e excesso de despesa com pessoal, por ato normativo motivado, com indenização (art. 169, §§ 4º e 5º)"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Estabilidade ≠ efetividade ≠ vitaliciedade",
+    "md": "Efetividade é atributo do cargo provido por concurso; estabilidade é a garantia do servidor após três anos; vitaliciedade é de magistrados (CF, art. 95, I), membros do Ministério Público (art. 128, § 5º, I, a) e ministros do TCU (art. 73, § 3º), que só perdem o cargo por sentença judicial transitada em julgado."
+   },
+   {
+    "t": "lei",
+    "titulo": "Concurso e estabilidade: o texto da Constituição",
+    "norma": "CF",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, III",
+      "texto": "III - o prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 37, § 2º",
+      "texto": "§ 2º A não observância do disposto nos incisos II e III implicará a nulidade do ato e a punição da autoridade responsável, nos termos da lei.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, caput",
+      "texto": "Art. 41. São estáveis após três anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, § 4º",
+      "texto": "§ 4º Como condição para a aquisição da estabilidade, é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Acumulação de cargos",
+    "icone": "cadeado"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Acumulação remunerada: vedada, salvo (CF, art. 37, XVI)",
+    "centro": "Regra: vedação",
+    "ramos": [
+     {
+      "titulo": "a) Dois cargos de professor",
+      "texto": "com compatibilidade de horários"
+     },
+     {
+      "titulo": "b) Um cargo de professor com outro de qualquer natureza",
+      "texto": "redação da EC 138/2025 (conferida na Câmara dos Deputados em 28/10/2026) — a expressão antiga \"técnico ou científico\" está superada"
+     },
+     {
+      "titulo": "c) Profissionais de saúde",
+      "texto": "dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas (redação literal do inciso XVI)"
+     },
+     {
+      "titulo": "Em todos os casos",
+      "texto": "compatibilidade de horários e observância do teto do inciso XI"
+     }
+    ],
+    "legenda": "A vedação alcança empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e controladas (inciso XVII)."
+   },
+   {
+    "t": "secao",
+    "titulo": "Remuneração e teto",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "A remuneração e o subsídio só podem ser fixados ou alterados por lei específica (CF, art. 37, X). O teto geral é o subsídio mensal dos Ministros do Supremo Tribunal Federal; há subtetos (art. 37, XI): nos Municípios, o subsídio do Prefeito; nos Estados e no DF, o do Governador (Executivo), o dos Deputados Estaduais e Distritais (Legislativo) e o dos Desembargadores, limitado a 90,25% do subsídio dos Ministros do STF (Judiciário, Ministério Público, Procuradores e Defensores)."
+   },
+   {
+    "t": "secao",
+    "titulo": "Mandato eletivo, greve e sindicato",
+    "icone": "pessoas"
+   },
+   {
+    "titulo": "Servidor em mandato eletivo (CF, art. 38)",
+    "colunas": [
+     "Mandato",
+     "Regra"
+    ],
+    "linhas": [
+     [
+      "Federal, estadual ou distrital (inciso I)",
+      "Fica afastado do cargo, emprego ou função"
+     ],
+     [
+      "Prefeito (inciso II)",
+      "É afastado, sendo-lhe facultado optar pela sua remuneração"
+     ],
+     [
+      "Vereador, havendo compatibilidade de horários (inciso III)",
+      "Percebe as vantagens do cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo"
+     ],
+     [
+      "Vereador, não havendo compatibilidade (inciso III)",
+      "Aplica-se a norma do inciso II"
+     ],
+     [
+      "Qualquer caso que exija afastamento (inciso IV)",
+      "O tempo de serviço é contado para todos os efeitos legais, exceto promoção por merecimento"
+     ]
+    ],
+    "legenda": "Se for segurado de regime próprio de previdência social, o servidor permanece filiado a esse regime, no ente federativo de origem (inciso V).",
+    "t": "tabela"
+   },
+   {
+    "t": "dois",
+    "titulo": "Direitos coletivos do servidor civil",
+    "a": {
+     "titulo": "Sindicalização",
+     "itens": [
+      "Garantida ao servidor público civil (CF, art. 37, VI)",
+      "Norma de eficácia plena, que não depende de lei (doutrina)"
+     ]
+    },
+    "b": {
+     "titulo": "Greve",
+     "itens": [
+      "Exercida nos termos e limites de lei específica (art. 37, VII)",
+      "Até a lei, aplica-se a Lei 7.783/1989 por decisão do STF nos mandados de injunção 670, 708 e 712",
+      "Os dias parados são descontados, permitida a compensação em caso de acordo, salvo se a greve decorreu de conduta ilícita do Poder Público (STF, Tema 531)"
+     ]
+    },
+    "pe": "Militares: vedadas a sindicalização e a greve (CF, art. 142, § 3º, IV, aplicado aos militares estaduais pelo art. 42, § 1º)"
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Concurso vale até dois anos, prorrogável uma vez por igual período (art. 37, III).",
+     "Cargo em comissão dispensa concurso; função de confiança é só para servidor efetivo (art. 37, II e V).",
+     "Nulidade do ato e punição da autoridade se os incisos II e III forem desrespeitados (§ 2º).",
+     "Estabilidade: três anos de efetivo exercício + avaliação especial de desempenho (art. 41).",
+     "Estável perde o cargo: sentença transitada, PAD, avaliação periódica (art. 41, § 1º) ou excesso de despesa com pessoal (art. 169, § 4º).",
+     "Acumulação: vedada, salvo as alíneas a, b e c do inciso XVI, sempre com compatibilidade de horários e teto.",
+     "Alínea b do inciso XVI: professor com outro cargo de qualquer natureza (EC 138/2025).",
+     "Remuneração só por lei específica (art. 37, X); teto geral = subsídio de Ministro do STF; subtetos por ente e por Poder (XI).",
+     "Vereador com compatibilidade de horários acumula as vantagens do cargo com a remuneração do mandato (art. 38, III).",
+     "Sindicalização sim (37, VI); greve nos termos de lei específica (37, VII); militares não têm nem uma nem outra."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O prazo de validade do concurso é de dois anos, prorrogável por mais dois, quantas vezes a Administração quiser.",
+      "certo": "Até dois anos, prorrogável **uma vez**, por igual período (art. 37, III)."
+     },
+     {
+      "errado": "A estabilidade é adquirida após dois anos de exercício.",
+      "certo": "Após **três** anos de efetivo exercício (CF, art. 41), com avaliação especial de desempenho."
+     },
+     {
+      "errado": "O servidor estável pode perder o cargo por avaliação de desempenho prevista em lei ordinária.",
+      "certo": "A avaliação periódica de desempenho exige **lei complementar** (art. 41, § 1º, III)."
+     },
+     {
+      "errado": "É permitida a acumulação de dois cargos técnicos com compatibilidade de horários.",
+      "certo": "As exceções são só as do inciso XVI (professor com professor; professor com outro, na redação da EC 138/2025; dois de saúde)."
+     },
+     {
+      "errado": "A vedação de acumular não alcança empregos em sociedade de economia mista.",
+      "certo": "Alcança empregos e funções em autarquias, fundações, empresas públicas, sociedades de economia mista, subsidiárias e controladas (inciso XVII)."
+     },
+     {
+      "errado": "O servidor eleito vereador fica sempre afastado do cargo.",
+      "certo": "Havendo compatibilidade de horários, percebe as vantagens do cargo sem prejuízo da remuneração do mandato; sem compatibilidade, afasta-se e pode optar pela remuneração, como o prefeito (art. 38, III c/c II)."
+     },
+     {
+      "errado": "O servidor estável só perde o cargo nas hipóteses do art. 41, § 1º.",
+      "certo": "Há também a perda por excesso de despesa com pessoal (CF, art. 169, § 4º), por ato normativo motivado, com indenização (§ 5º)."
+     },
+     {
+      "errado": "Os militares podem sindicalizar-se, mas não fazer greve.",
+      "certo": "Nem sindicalização nem greve (art. 142, § 3º, IV)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, baseLegal e tabela de P1-DA-3.1",
+   "CF, art. 37, I, II, III, V, VI, VII, X, XI, XVI (alínea b na redação da EC 138/2025, conferida na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026), XVII e § 2º; art. 38; art. 41; art. 42, § 1º; art. 73, § 3º; art. 95, I; art. 128, § 5º, I, a; art. 142, § 3º, IV; art. 169, §§ 4º e 5º; STF, MI 670, 708 e 712; Tema 531 (RE 693.456)",
+   "MapasPro — Agentes Públicos (seções 5 a 7), conferido"
+  ]
+ },
+ "P1-DA-3.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 3,
+   "ce": 2,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN). Poucas questões neste item; o tema reaparece dentro de 3.1 e 3.4."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Cargo, emprego e função",
+    "icone": "doc"
+   },
+   {
+    "titulo": "Cargo, emprego e função pública",
+    "colunas": [
+     "Figura",
+     "O que o texto traz",
+     "Onde"
+    ],
+    "linhas": [
+     [
+      "Cargo público",
+      "Conjunto de atribuições e responsabilidades previstas na estrutura organizacional, cometidas a um servidor; criado por lei, com denominação própria e vencimento pago pelos cofres públicos",
+      "Lei 8.112/1990, art. 3º"
+     ],
+     [
+      "Emprego público",
+      "Sem definição na Lei 8.112; aparece, sem definição, na Constituição (acesso, concurso, acumulação)",
+      "CF, art. 37, I, II e XVII"
+     ],
+     [
+      "Função pública",
+      "Sem definição na Lei 8.112; \"funções públicas\" aparecem no art. 37, I e XVII; a função de confiança é exercida exclusivamente por servidores ocupantes de cargo efetivo e destina-se a direção, chefia e assessoramento",
+      "CF, art. 37, I, V e XVII"
+     ]
+    ],
+    "legenda": "A classificação doutrinária de agentes não é texto de lei: o conteúdo normativo está nos dispositivos citados.",
+    "t": "tabela"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "O que a Lei 8.112 define — e o que não define",
+    "md": "A lei define **servidor** (pessoa legalmente investida em cargo público, art. 2º) e **cargo público** (conjunto de atribuições e responsabilidades previstas na estrutura organizacional, cometidas a um servidor, art. 3º). Não define emprego público nem função pública: esses aparecem na Constituição."
+   },
+   {
+    "t": "tabela",
+    "titulo": "Quem ocupa o quê",
+    "colunas": [
+     "Figura",
+     "Vínculo",
+     "Como entra",
+     "Base"
+    ],
+    "linhas": [
+     [
+      "Cargo efetivo",
+      "Estatutário",
+      "Concurso público",
+      "CF, art. 37, II; Lei 8.112, art. 9º"
+     ],
+     [
+      "Cargo em comissão",
+      "Estatutário, de livre nomeação e exoneração",
+      "Sem concurso; percentual mínimo para servidores de carreira",
+      "CF, art. 37, II e V"
+     ],
+     [
+      "Função de confiança",
+      "Só servidor ocupante de cargo efetivo",
+      "Designação; só direção, chefia e assessoramento",
+      "CF, art. 37, V"
+     ],
+     [
+      "Emprego público",
+      "Celetista (empresas públicas, sociedades de economia mista)",
+      "Concurso público",
+      "CF, art. 37, I e II"
+     ],
+     [
+      "Contratação temporária",
+      "Contrato por tempo determinado",
+      "Necessidade temporária de excepcional interesse público, na forma da lei",
+      "CF, art. 37, IX"
+     ]
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Requisitos de investidura (Lei 8.112, art. 5º)",
+    "icone": "chave"
+   },
+   {
+    "t": "lista",
+    "itens": [
+     "Nacionalidade brasileira — mas universidades e instituições federais de pesquisa podem prover cargos com professores, técnicos e cientistas estrangeiros, na forma da lei (art. 5º, § 3º; CF, art. 37, I)",
+     "Gozo dos direitos políticos",
+     "Quitação com as obrigações militares e eleitorais",
+     "Nível de escolaridade exigido para o cargo",
+     "Idade mínima de dezoito anos",
+     "Aptidão física e mental",
+     "As atribuições do cargo podem justificar outros requisitos, estabelecidos em lei (§ 1º)"
+    ]
+   },
+   {
+    "t": "texto",
+    "md": "É proibida a prestação de serviços gratuitos, salvo os casos previstos em lei (art. 4º). A nomeação far-se-á em caráter efetivo ou em comissão (art. 9º)."
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da Constituição e da Lei 8.112 sobre servidor, cargo e funções",
+    "norma": "CF e Lei 8.112/1990",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, II",
+      "texto": "II - a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo ou emprego, na forma prevista em lei, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 37, V",
+      "texto": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 2º",
+      "texto": "Art. 2º Para os efeitos desta Lei, servidor é a pessoa legalmente investida em cargo público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 3º, caput",
+      "texto": "Art. 3º Cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Servidor = investido em cargo público (art. 2º). Cargo = conjunto de atribuições e responsabilidades (art. 3º).",
+     "Cargo é criado por lei, com denominação própria e vencimento pago pelos cofres públicos.",
+     "Emprego e função públicos não têm definição na Lei 8.112.",
+     "Função de confiança: só servidor efetivo; cargo em comissão: livre nomeação; ambos só para direção, chefia e assessoramento (art. 37, V).",
+     "Contratação temporária exige lei e necessidade temporária de excepcional interesse público (art. 37, IX).",
+     "Requisitos do art. 5º: nacionalidade, direitos políticos, obrigações militares e eleitorais, escolaridade, 18 anos, aptidão física e mental.",
+     "Serviço gratuito é proibido, salvo lei (art. 4º)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A Lei 8.112 define emprego público como vínculo celetista.",
+      "certo": "A lei não define emprego público; define só servidor e cargo."
+     },
+     {
+      "errado": "A função de confiança pode ser exercida por qualquer pessoa de confiança da autoridade.",
+      "certo": "Só por servidor ocupante de cargo efetivo (CF, art. 37, V)."
+     },
+     {
+      "errado": "O cargo em comissão pode ter atribuições de execução.",
+      "certo": "Cargos em comissão e funções de confiança destinam-se apenas a direção, chefia e assessoramento (art. 37, V)."
+     },
+     {
+      "errado": "A idade mínima para investidura é de 16 anos.",
+      "certo": "Dezoito anos (Lei 8.112, art. 5º, V)."
+     },
+     {
+      "errado": "O servidor pode prestar serviço gratuito por liberalidade.",
+      "certo": "É proibido, salvo os casos previstos em lei (art. 4º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, tabela e baseLegal de P1-DA-3.2",
+   "CF, art. 37, I, II, V e IX; Lei 8.112/1990, arts. 2º a 5º e 9º"
+  ]
+ },
+ "P1-DA-3.3": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 3,
+   "ce": 3,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN). Poucas questões neste item no corpus."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Requisição, cessão e movimentação",
+    "icone": "seta"
+   },
+   {
+    "t": "texto",
+    "md": "O Decreto 10.835/2021 aplica-se às **cessões**, às **requisições** e às **alterações de exercício** para composição da força de trabalho na administração pública federal: formas de movimentação do agente, que altera o exercício sem suspensão ou interrupção do vínculo com a origem (arts. 1º e 2º). A Lei 8.112 não define requisição."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Requisição (Decreto 10.835/2021, arts. 9º a 11)",
+    "centro": "Requisição",
+    "ramos": [
+     {
+      "titulo": "Irrecusável",
+      "texto": "o agente passa a ter exercício no órgão requisitante, sem alteração da lotação na origem (art. 9º)"
+     },
+     {
+      "titulo": "Quem pode",
+      "texto": "só órgão ou entidade com prerrogativa expressa de requisitar (art. 9º, § 1º)"
+     },
+     {
+      "titulo": "Não é nominal",
+      "texto": "o órgão requisitado pode indicar o agente conforme as atribuições, exceto nas requisições à Presidência e à Vice-Presidência da República (art. 9º, §§ 2º e 3º)"
+     },
+     {
+      "titulo": "Prazo",
+      "texto": "indeterminado, exceto disposição legal em contrário (art. 11)"
+     },
+     {
+      "titulo": "Encerramento",
+      "texto": "não pode ser encerrada por ato unilateral do órgão requisitado (art. 11, parágrafo único)"
+     },
+     {
+      "titulo": "Garantias",
+      "texto": "sem prejuízo da remuneração; promoção e progressão garantidas (art. 9º, §§ 4º e 5º)"
+     }
+    ]
+   },
+   {
+    "titulo": "Requisição × cessão (Decreto 10.835/2021)",
+    "a": "Requisição (art. 9º)",
+    "b": "Cessão (art. 3º)",
+    "linhas": [
+     [
+      "Conceito",
+      "Ato irrecusável em que o agente passa a ter exercício no órgão requisitante, sem alteração da lotação na origem",
+      "Ato pelo qual o agente, sem suspensão ou interrupção do vínculo funcional com a origem, passa a ter exercício em outro órgão ou entidade"
+     ],
+     [
+      "Quem pode",
+      "Órgão ou entidade com prerrogativa expressa de requisitar (art. 9º, § 1º)",
+      "Exceto disposição legal em contrário, só para exercício de cargo em comissão ou função de confiança (art. 3º, § 1º)"
+     ],
+     [
+      "Concordância",
+      "Ato irrecusável (art. 9º, caput)",
+      "Pedido do cessionário, concordância do cedente e concordância do agente (art. 3º, § 2º)"
+     ],
+     [
+      "Prazo",
+      "Indeterminado, exceto disposição legal em contrário (art. 11, caput)",
+      "Indeterminado (art. 7º)"
+     ],
+     [
+      "Encerramento",
+      "Não pode ser encerrada por ato unilateral do órgão ou da entidade requisitada (art. 11, parágrafo único)",
+      "A qualquer momento, por ato unilateral do cedente, do cessionário ou do agente cedido (art. 8º)"
+     ],
+     [
+      "Lei 8.112/1990",
+      "Não define requisição; só menciona o requisitado (art. 18; art. 93, § 5º)",
+      "Art. 93: cargo em comissão ou função de confiança; Portaria publicada no Diário Oficial da União (§ 3º)"
+     ]
+    ],
+    "legenda": "A requisição administrativa do art. 5º, XXV, da CF (uso de propriedade particular) é outro instituto.",
+    "t": "compare"
+   },
+   {
+    "t": "secao",
+    "titulo": "Regras especiais",
+    "icone": "cadeado"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Requisições com regra própria",
+    "colunas": [
+     "Destino",
+     "Regra",
+     "Base"
+    ],
+    "linhas": [
+     [
+      "Presidência da República",
+      "Irrecusáveis",
+      "Lei 9.007/1995, art. 2º"
+     ],
+     [
+      "Cartórios eleitorais",
+      "Prazo de um ano, prorrogável",
+      "Lei 6.999/1982, art. 2º, § 1º"
+     ]
+    ]
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto do Decreto 10.835/2021 e da Lei 9.007/1995 sobre requisição",
+    "norma": "Decreto 10.835/2021 e Lei 9.007/1995",
+    "dispositivos": [
+     {
+      "ref": "Decreto 10.835/2021, art. 9º, caput",
+      "texto": "Art. 9º A requisição é o ato irrecusável, em que o agente público requisitado passa a ter exercício no órgão ou na entidade requisitante, sem alteração da lotação no órgão ou na entidade de origem.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 10.835/2021, art. 11, caput",
+      "texto": "Art. 11. A requisição será concedida por prazo indeterminado, exceto se houver disposição legal em contrário.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 10.835/2021, art. 11, parágrafo único",
+      "texto": "Parágrafo único. A requisição não poderá ser encerrada por ato unilateral do órgão ou da entidade requisitada.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.007/1995, art. 2º, caput",
+      "texto": "Art. 2º As requisições de servidores de qualquer órgão ou entidade da Administração Pública Federal para a Presidência da República são irrecusáveis.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Requisição: ato irrecusável; o agente muda de exercício, não de lotação (Decreto 10.835/2021, art. 9º).",
+     "Só requisita quem tem prerrogativa expressa de requisitar.",
+     "Prazo indeterminado, salvo lei; o requisitado não encerra por ato unilateral (art. 11).",
+     "Cessão: pedido do cessionário + concordância do cedente e do agente (art. 3º, § 2º); pode ser encerrada por ato unilateral (art. 8º).",
+     "Requisições para a Presidência são irrecusáveis (Lei 9.007/1995).",
+     "Cartório eleitoral: um ano, prorrogável (Lei 6.999/1982).",
+     "A Lei 8.112 menciona o requisitado (art. 18; art. 93, § 5º), mas não define requisição."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A requisição depende da concordância do órgão de origem.",
+      "certo": "É ato **irrecusável** (Decreto 10.835/2021, art. 9º); a concordância é exigida na cessão."
+     },
+     {
+      "errado": "O órgão requisitado pode encerrar a requisição a qualquer tempo.",
+      "certo": "Não pode encerrá-la por ato unilateral (art. 11, parágrafo único); a cessão é que admite encerramento unilateral (art. 8º)."
+     },
+     {
+      "errado": "A requisição altera a lotação do servidor.",
+      "certo": "Altera o exercício, sem alteração da lotação na origem."
+     },
+     {
+      "errado": "Qualquer órgão pode requisitar servidores de outro.",
+      "certo": "Só órgão ou entidade com prerrogativa expressa de requisitar (art. 9º, § 1º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-3.3",
+   "Decreto 10.835/2021, arts. 1º a 3º, 7º a 9º (§§ 1º a 5º conferidos na Câmara dos Deputados, Legislação Informatizada, texto atualizado, em 28/10/2026) e 11; Lei 9.007/1995, art. 2º; Lei 6.999/1982, art. 2º"
+  ]
+ },
+ "P1-DA-3.4": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 40,
+   "ce": 36,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Provimento, posse e exercício",
+    "icone": "seta"
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Da nomeação ao exercício (Lei 8.112/1990)",
+    "marcos": [
+     {
+      "quando": "Dia 0",
+      "titulo": "Nomeação",
+      "texto": "forma de provimento originário; em caráter efetivo ou em comissão (arts. 8º e 9º)"
+     },
+     {
+      "quando": "Até 30 dias",
+      "titulo": "Posse",
+      "texto": "a investidura ocorre com a posse, no prazo de trinta dias da publicação do ato de provimento (arts. 7º e 13, § 1º); sem posse no prazo, o ato é tornado sem efeito (§ 6º)"
+     },
+     {
+      "quando": "Até 15 dias",
+      "titulo": "Exercício",
+      "texto": "contados da posse (art. 15, § 1º); quem não entra em exercício no prazo é exonerado (§ 2º)"
+     },
+     {
+      "quando": "Em seguida",
+      "titulo": "Estágio probatório",
+      "texto": "Lei 8.112, art. 20: 24 meses; CF, art. 41: estabilidade após três anos; Decreto 12.374/2025, art. 2º: trinta e seis meses — reverificar em janeiro (T-120)"
+     }
+    ]
+   },
+   {
+    "t": "dois",
+    "titulo": "Provimento × vacância (arts. 8º e 33)",
+    "a": {
+     "titulo": "Formas de provimento (art. 8º)",
+     "itens": [
+      "Nomeação (originário)",
+      "Promoção",
+      "Readaptação",
+      "Reversão",
+      "Aproveitamento",
+      "Reintegração",
+      "Recondução"
+     ]
+    },
+    "b": {
+     "titulo": "Causas de vacância (art. 33)",
+     "itens": [
+      "Exoneração",
+      "Demissão",
+      "Promoção",
+      "Readaptação",
+      "Aposentadoria",
+      "Posse em outro cargo inacumulável",
+      "Falecimento"
+     ]
+    },
+    "pe": "Exoneração não é forma de provimento; promoção e readaptação estão nas duas listas"
+   },
+   {
+    "titulo": "Remoção × redistribuição (Lei 8.112/1990)",
+    "a": "Remoção (art. 36)",
+    "b": "Redistribuição (art. 37)",
+    "linhas": [
+     [
+      "O que se desloca",
+      "O servidor",
+      "O cargo de provimento efetivo, ocupado ou vago"
+     ],
+     [
+      "Âmbito",
+      "O mesmo quadro, com ou sem mudança de sede",
+      "Do quadro geral de pessoal para outro órgão ou entidade do mesmo Poder"
+     ],
+     [
+      "Iniciativa",
+      "De ofício, no interesse da Administração, ou a pedido, a critério da Administração ou independentemente do interesse da Administração",
+      "Ex officio, para ajustamento de lotação e da força de trabalho às necessidades dos serviços (§ 1º)"
+     ],
+     [
+      "Condições",
+      "Modalidades do parágrafo único, I a III; no inciso III, acompanhar cônjuge ou companheiro, motivo de saúde ou processo seletivo",
+      "Prévia apreciação do órgão central do SIPEC e preceitos dos incisos I a VI"
+     ]
+    ],
+    "legenda": "Nas remoções a pedido do art. 36, parágrafo único, II e III, não é concedida ajuda de custo (art. 53, § 3º).",
+    "t": "compare"
+   },
+   {
+    "t": "secao",
+    "titulo": "Vencimento, remuneração e vantagens",
+    "icone": "balanca"
+   },
+   {
+    "t": "piramide",
+    "titulo": "O que o servidor pode receber (art. 49)",
+    "niveis": [
+     {
+      "titulo": "Indenizações",
+      "texto": "ajuda de custo, diárias, transporte, auxílio-moradia (art. 51); não integram a remuneração nem se incorporam (art. 49, § 1º)"
+     },
+     {
+      "titulo": "Gratificações e adicionais",
+      "texto": "art. 61; incorporam-se nos casos e condições da lei (art. 49, § 2º)"
+     },
+     {
+      "titulo": "Vencimento",
+      "texto": "retribuição pecuniária pelo exercício de cargo público, com valor fixado em lei (art. 40)"
+     }
+    ],
+    "legenda": "Remuneração = vencimento + vantagens pecuniárias permanentes estabelecidas em lei (art. 41). As vantagens do art. 49 são indenizações, gratificações e adicionais."
+   },
+   {
+    "t": "secao",
+    "titulo": "Férias e licenças",
+    "icone": "relogio"
+   },
+   {
+    "t": "tabela",
+    "titulo": "Prazos que a banca cobra",
+    "colunas": [
+     "Direito",
+     "Regra",
+     "Artigo"
+    ],
+    "linhas": [
+     [
+      "Férias",
+      "Trinta dias por ano, acumuláveis até o máximo de dois períodos em caso de necessidade do serviço",
+      "art. 77"
+     ],
+     [
+      "Licença à gestante",
+      "120 dias consecutivos, sem prejuízo da remuneração",
+      "art. 207"
+     ],
+     [
+      "Licença-paternidade",
+      "5 dias consecutivos na Lei 8.112; a Lei 15.371/2026 (10 dias a partir de 1º/1/2027) altera a CLT e as Leis 8.212, 8.213 e 11.770, não a Lei 8.112",
+      "art. 208"
+     ],
+     [
+      "Licença para interesses particulares",
+      "Até três anos consecutivos, sem remuneração, a critério da Administração; só para ocupante de cargo efetivo que não esteja em estágio probatório",
+      "art. 91"
+     ],
+     [
+      "Direito de petição: prescrição",
+      "5 anos para demissão, cassação de aposentadoria ou disponibilidade e atos que afetem interesse patrimonial e créditos das relações de trabalho (I); 120 dias nos demais casos, salvo outro prazo em lei (II)",
+      "art. 110"
+     ]
+    ],
+    "legenda": "Os prazos da tabela são os da Lei 8.112; prorrogações de licença para servidores federais vêm de decretos próprios, fora do alcance deste item."
+   },
+   {
+    "t": "secao",
+    "titulo": "Deveres, proibições e responsabilidade",
+    "icone": "cadeado"
+   },
+   {
+    "t": "mapa",
+    "titulo": "As três responsabilidades (arts. 121 a 126)",
+    "centro": "O servidor responde",
+    "ramos": [
+     {
+      "titulo": "Civil",
+      "texto": "por ato omissivo ou comissivo, doloso ou culposo, que cause prejuízo ao erário ou a terceiros (art. 122)"
+     },
+     {
+      "titulo": "Penal",
+      "texto": "pelos crimes e contravenções imputados ao servidor nessa qualidade (art. 123)"
+     },
+     {
+      "titulo": "Administrativa",
+      "texto": "por ato omissivo ou comissivo praticado no desempenho do cargo ou função (art. 124)"
+     }
+    ],
+    "legenda": "As sanções podem cumular-se e são independentes (art. 125); a absolvição criminal que negue a existência do fato ou a autoria afasta a responsabilidade administrativa (art. 126)."
+   },
+   {
+    "t": "tabela",
+    "titulo": "Penalidades (arts. 127, 129, 130 e 142)",
+    "colunas": [
+     "Penalidade",
+     "Limite",
+     "Prescrição da ação disciplinar"
+    ],
+    "linhas": [
+     [
+      "Advertência",
+      "Por escrito (art. 129)",
+      "180 dias (art. 142, III)"
+     ],
+     [
+      "Suspensão",
+      "Até 90 dias (art. 130); a sindicância pode aplicar até 30 dias (art. 145, II)",
+      "2 anos (art. 142, II)"
+     ],
+     [
+      "Demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão",
+      "—",
+      "5 anos (art. 142, I)"
+     ],
+     [
+      "Destituição de função comissionada",
+      "Art. 127, VI",
+      "A lei não fixa prazo próprio no art. 142"
+     ]
+    ],
+    "legenda": "O prazo de prescrição começa a correr da data em que o fato se tornou conhecido (art. 142, § 1º)."
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Sindicância e PAD (arts. 143 a 152)",
+    "marcos": [
+     {
+      "quando": "Conhecimento",
+      "titulo": "Apuração obrigatória",
+      "texto": "a autoridade que tiver ciência de irregularidade é obrigada a promover a apuração, por sindicância ou PAD (art. 143)"
+     },
+     {
+      "quando": "Sindicância",
+      "titulo": "30 dias, prorrogáveis por igual prazo",
+      "texto": "resultado: arquivamento; advertência ou suspensão de até 30 dias; ou instauração de PAD (art. 145)"
+     },
+     {
+      "quando": "PAD",
+      "titulo": "Comissão de três servidores estáveis",
+      "texto": "designada pela autoridade competente; presidente ocupante de cargo efetivo superior ou de mesmo nível, ou com escolaridade igual ou superior à do indiciado (art. 149)"
+     },
+     {
+      "quando": "Prazo",
+      "titulo": "60 dias, prorrogáveis por igual período",
+      "texto": "contados da publicação do ato que constitui a comissão (art. 152)"
+     },
+     {
+      "quando": "Fases",
+      "titulo": "Instauração → inquérito (instrução, defesa, relatório) → julgamento",
+      "texto": "art. 151"
+     }
+    ]
+   },
+   {
+    "t": "lei",
+    "titulo": "Estágio probatório e estabilidade: a letra de cada texto",
+    "norma": "Lei 8.112/1990, CF e Decreto 12.374/2025",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 20, caput",
+      "texto": "Art. 20. Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo ficará sujeito a estágio probatório por período de 24 (vinte e quatro) meses, durante o qual a sua aptidão e capacidade serão objeto de avaliação para o desempenho do cargo, observados os seguinte fatores:",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 21, caput",
+      "texto": "Art. 21. O servidor habilitado em concurso público e empossado em cargo de provimento efetivo adquirirá estabilidade no serviço público ao completar 2 (dois) anos de efetivo exercício.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 41, caput",
+      "texto": "Art. 41. São estáveis após três anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Decreto 12.374/2025, art. 2º, caput",
+      "texto": "Art. 2º O servidor público aprovado em concurso público e nomeado para cargo de provimento efetivo ficará sujeito ao estágio probatório por período de trinta e seis meses, contado da data de início do efetivo exercício no cargo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Investidura ocorre com a posse: 30 dias da publicação do ato de provimento (art. 13, § 1º); exercício em 15 dias da posse (art. 15, § 1º).",
+     "Provimento (art. 8º): nomeação, promoção, readaptação, reversão, aproveitamento, reintegração, recondução. Exoneração é vacância.",
+     "Estágio probatório: 24 meses (Lei 8.112, art. 20); 36 nas nomeações após o Decreto 12.374/2025; estabilidade: 3 anos (CF, 41). Reverificar.",
+     "Remoção desloca o servidor; redistribuição desloca o cargo (arts. 36 e 37).",
+     "Remuneração = vencimento (art. 40) + vantagens pecuniárias permanentes (art. 41); indenizações não se incorporam (art. 49, § 1º).",
+     "Férias: 30 dias, acumuláveis até dois períodos (art. 77).",
+     "Gestante: 120 dias (art. 207); paternidade: 5 dias (art. 208) — a Lei 15.371/2026 não alterou a Lei 8.112.",
+     "Responsabilidades independentes; absolvição penal por inexistência do fato ou negativa de autoria afasta a administrativa (art. 126).",
+     "Suspensão até 90 dias (art. 130); prescrição: 5 anos, 2 anos, 180 dias (art. 142).",
+     "PAD: comissão de três estáveis (art. 149), 60 + 60 dias (art. 152); sindicância 30 + 30 (art. 145)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A posse deve ocorrer em 30 dias, prorrogáveis por mais 30.",
+      "certo": "O prazo de posse é de **30 dias** da publicação do ato de provimento, sem prorrogação (art. 13, § 1º); se o nomeado estiver impedido (licença, afastamento), o prazo conta do término do impedimento (§ 2º)."
+     },
+     {
+      "errado": "O prazo para entrar em exercício é de 30 dias da posse.",
+      "certo": "**15 dias** contados da posse (art. 15, § 1º)."
+     },
+     {
+      "errado": "Exoneração é forma de provimento.",
+      "certo": "É causa de **vacância** (art. 33); as formas de provimento estão no art. 8º."
+     },
+     {
+      "errado": "A redistribuição desloca o servidor para outro órgão.",
+      "certo": "A redistribuição desloca o **cargo** (art. 37); a remoção desloca o servidor (art. 36)."
+     },
+     {
+      "errado": "Vencimento e remuneração são sinônimos.",
+      "certo": "Vencimento é a retribuição pelo cargo (art. 40); remuneração é o vencimento mais as vantagens permanentes (art. 41)."
+     },
+     {
+      "errado": "As indenizações incorporam-se ao vencimento para fins de aposentadoria.",
+      "certo": "As indenizações **não** se incorporam ao vencimento ou provento (art. 49, § 1º)."
+     },
+     {
+      "errado": "A suspensão pode chegar a 120 dias.",
+      "certo": "Até **90 dias** (art. 130)."
+     },
+     {
+      "errado": "A absolvição criminal por falta de provas afasta a responsabilidade administrativa.",
+      "certo": "Só a absolvição que negue a existência do fato ou a autoria afasta (art. 126)."
+     },
+     {
+      "errado": "O PAD deve ser concluído em 30 dias, prorrogáveis por 30.",
+      "certo": "60 dias, prorrogáveis por igual período (art. 152); 30 + 30 é a sindicância (art. 145)."
+     },
+     {
+      "errado": "A comissão do PAD pode ter servidores não estáveis.",
+      "certo": "Três servidores **estáveis** (art. 149)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da linha do tempo Da nomeação ao exercício",
+    "oQue": "um caminho com três marcos (nomeação, posse, exercício) e os relógios de 30 e 15 dias, no estilo do infográfico nomeação → posse → exercício do resumo MapasPro da Lei 8.112",
+    "porQue": "os dois prazos são os mais trocados pela banca neste item"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, baseLegal e compare de P1-DA-3.4",
+   "Lei 8.112/1990, arts. 7º, 8º, 9º, 13, 15, 20, 33, 36, 37, 40, 41, 49, 51, 61, 77, 91, 110, 121 a 127, 129, 130, 142, 143, 145, 149, 151, 152, 207 e 208; CF, art. 41; Decreto 12.374/2025, art. 2º",
+   "Lei 15.371/2026 (CLT e Leis 8.212/1991, 8.213/1991 e 11.770/2008; licença-paternidade escalonada a partir de 1º/1/2027) e LC 229/2026 (ressalva fiscal): nenhuma altera a Lei 8.112 — conferidas na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026",
+   "MapasPro — Lei 8.112/90 (seções 3 a 13), conferido"
+  ]
+ }
+}

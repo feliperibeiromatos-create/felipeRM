@@ -1,0 +1,728 @@
+{
+ "Das Definições (art. 6º da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.7",
+  "aderencia": "Aderência integral",
+  "n2025": 20,
+  "conf": 0.35
+ },
+ "Execução dos Contratos (arts. 115 a art. 123 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.6",
+  "aderencia": "Aderência integral",
+  "n2025": 18,
+  "conf": 0.56
+ },
+ "Alteração dos Contratos e dos Preços (art. 124 a 136 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 11,
+  "conf": 0.73
+ },
+ "Controle da Administração: Conceitos, Princípios, Abrangência e Classificações": {
+  "item": "",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 10,
+  "conf": 0.7
+ },
+ "Administração Indireta": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 32,
+  "conf": 0.97
+ },
+ "Controle Administrativo (Direito Administrativo)": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 0.6
+ },
+ "Conceitos e Características dos Contratos Administrativos. Formalização dos Contratos (arts. 89 a 95 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.4",
+  "aderencia": "Aderência integral",
+  "n2025": 24,
+  "conf": 0.79
+ },
+ "Agências Reguladoras e Executivas": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 11,
+  "conf": 0.64
+ },
+ "Dos Atos de Improbidade (arts. 9º a 11 da Lei nº 8.429/1992)": {
+  "item": "P1-DA-7",
+  "aderencia": "Aderência integral",
+  "n2025": 31,
+  "conf": 1.0
+ },
+ "Controle Jurisdicional": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 12,
+  "conf": 0.75
+ },
+ "Desfazimento do Ato Administrativo (Anulação, Revogação, Cassação, Caducidade, Contraposição)": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 10,
+  "conf": 0.9
+ },
+ "Autorização, Permissão e Concessão (Serviços Públicos - Lei nº 8.987/1995)": {
+  "item": "P1-DA-8.2",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 0.6
+ },
+ "Convênios Administrativos": {
+  "item": "P1-DA-8.2",
+  "aderencia": "Aderência integral",
+  "n2025": 24,
+  "conf": 0.54
+ },
+ "Das Disposições Gerais (arts. 1º a 8º-A da Lei nº 8.429/1992)": {
+  "item": "P1-DA-7",
+  "aderencia": "Aderência integral",
+  "n2025": 38,
+  "conf": 1.0
+ },
+ "Parlamentar Indireto (Tribunais de Contas e Controle Técnico-Financeiro)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 13,
+  "conf": 0.92
+ },
+ "Princípios Expressos, Explícitos ou Constitucionais": {
+  "item": "P1-DA-1.1",
+  "aderencia": "Aderência integral",
+  "n2025": 12,
+  "conf": 1.0
+ },
+ "Infrações e Sanções Administrativas (arts. 155 a 163 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 17,
+  "conf": 0.88
+ },
+ "Objetivos, Fases e Formalidades (arts. 11 a 17 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 16,
+  "conf": 0.69
+ },
+ "Instrução do Processo Licitatório (arts. 18 a 27 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.5",
+  "aderencia": "Aderência integral",
+  "n2025": 16,
+  "conf": 0.31
+ },
+ "Modalidades de Licitação (arts. 28 a 32 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 21,
+  "conf": 1.0
+ },
+ "Disposições Setoriais, Compras, Serviços (arts. 40 a 52 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.5",
+  "aderencia": "Aderência integral",
+  "n2025": 19,
+  "conf": 0.42
+ },
+ "Fases da Licitação - Julgamento, Habilitação e Encerramento (arts. 55 a 71 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 8,
+  "conf": 0.88
+ },
+ "Contratação Direta, Inexigibilidade e Dispensa (arts. 72 a 75 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 50,
+  "conf": 0.9
+ },
+ "Do Regime Disciplinar (arts. 116 a 142 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-4.2",
+  "aderencia": "Aderência integral",
+  "n2025": 33,
+  "conf": 0.76
+ },
+ "Da Competência (arts. 11 a 17 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 9,
+  "conf": 1.0
+ },
+ "Princípios Implícitos, Reconhecidos e Infraconstitucionais": {
+  "item": "P1-DA-1.1",
+  "aderencia": "Aderência integral",
+  "n2025": 10,
+  "conf": 0.8
+ },
+ "Administração Direta (Órgãos Públicos)": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Instrumentos Auxiliares (arts. 78 a 88 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 16,
+  "conf": 0.94
+ },
+ "Atos Administrativos: Espécies, Classificação, Fases de Constituição": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 10,
+  "conf": 1.0
+ },
+ "Desconcentração e Descentralização": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 15,
+  "conf": 0.87
+ },
+ "Do Âmbito de Aplicação (arts. 1º a 4º da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 7,
+  "conf": 0.86
+ },
+ "Critérios de Julgamento (arts. 33 a 39 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 1.0
+ },
+ "Alienações (arts. 76 e 77 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 0.75
+ },
+ "Recebimento do Objeto do Contrato (art. 140 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.4",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Origem, Conceito e Fontes do Direito Administrativo": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 6,
+  "conf": 0.67
+ },
+ "Atributos ou Características dos Atos Administrativos": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 10,
+  "conf": 0.9
+ },
+ "Abuso de Poder: Excesso de Poder e Desvio de Finalidade (Poderes da Administração)": {
+  "item": "P1-DA-5.2",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 0.8
+ },
+ "Conceitos Iniciais e Teorias da Responsabilidade": {
+  "item": "P1-DA-6.1",
+  "aderencia": "Aderência integral",
+  "n2025": 15,
+  "conf": 0.53
+ },
+ "Lei nº 11.107/2005 - Normas Gerais de Contratação de Consórcios Públicos": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Parlamentar Direto (Controle Político)": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 0.6
+ },
+ "Trâmite do Processo (arts. 5º a 10 e 29 a 50 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 11,
+  "conf": 1.0
+ },
+ "Terceiro Setor (OSs, OSCIPs, Sistema S e Fundações de Apoio)": {
+  "item": "P1-DA-8.2",
+  "aderencia": "Aderência integral",
+  "n2025": 8,
+  "conf": 1.0
+ },
+ "Excludentes e Atenuantes de Responsabilidade": {
+  "item": "P1-DA-6.5",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 0.83
+ },
+ "Princípios (art. 5º da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 1.0
+ },
+ "Garantias (arts. 96 a 102 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 7,
+  "conf": 0.86
+ },
+ "Convalidação e Conversão dos Atos Administrativos": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Deveres e Direitos (Usuários, Concedente, Concessionária, Licitações - Lei nº 8.987/1995)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 4,
+  "conf": 0.75
+ },
+ "Lei nº 11.079/2004 - Parceria Público-Privada (PPP)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 16,
+  "conf": 0.69
+ },
+ "Disposições Gerais, Direitos e Deveres do Administrado (arts. 1º a 4º da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 10,
+  "conf": 1.0
+ },
+ "Do Recurso Administrativo e da Revisão (arts. 56 a 65 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 1.0
+ },
+ "Poder Regulamentar": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Poder de Polícia": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 9,
+  "conf": 1.0
+ },
+ "Responsabilidade dos Agentes Públicos e Direito de Regresso": {
+  "item": "P1-DA-6.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 0.75
+ },
+ "Formas de Provimento (arts. 5º a 32 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 17,
+  "conf": 1.0
+ },
+ "Duração dos Contratos (arts. 105 a 114 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Elementos, Requisitos e Pressupostos (Atos Administrativos)": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Poder Disciplinar": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Responsabilidade Civil por Atos Omissivos": {
+  "item": "P1-DA-6.3",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Princípios (Serviços Públicos - Lei nº 8.987/1995)": {
+  "item": "P1-DA-1.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Funções, Cargos e Empregos Públicos": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 0.75
+ },
+ "Do Procedimento Administrativo e do Processo Judicial (arts. 14 a 18-A da Lei nº 8.429/1992)": {
+  "item": "P1-DA-7",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 1.0
+ },
+ "Divulgação do Edital de Licitação (arts. 53 a 54 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Hipóteses de Extinção dos Contratos (arts. 137 a 139 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 0.67
+ },
+ "Deveres da Administração": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Lei nº 13.303/2016 - Estatuto Jurídico da EP e SEM (arts. 1º a 27)": {
+  "item": "",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 20,
+  "conf": 0.6
+ },
+ "Tópicos Mesclados de Responsabilidade Civil do Estado": {
+  "item": "P1-DA-6.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 0.75
+ },
+ "Classificação de Serviços Públicos": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Decreto nº 11.129/2022 - Regulamenta a Lei nº 12.846/2013 (Lei Anticorrupção)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 5,
+  "conf": 0.8
+ },
+ "Classificação dos Agentes Públicos": {
+  "item": "P1-DA-3",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Estabilidade e Estágio Probatório": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Remuneração (Componentes, Subsídio, Teto, Equiparação, Vinculação, Irredutibilidade, etc)": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados de Agentes Públicos": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 0.33
+ },
+ "Pagamentos (arts. 141 a 146 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.4",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Nulidade dos Contratos (arts. 147 a 150 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Poder Hierárquico": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados de Poderes da Administração": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 5,
+  "conf": 0.8
+ },
+ "Responsabilidade Objetiva das Empresas Estatais e das Prestadoras de Serviços Públicos": {
+  "item": "P1-DA-6.1",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Conceitos (Serviços Públicos - Lei nº 8.987/1995)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados de Serviços Públicos": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Do Acordo de Leniência (arts. 16 e 17 da Lei nº 12.846/2013)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Formas de Utilização de Bens Públicos": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 0.67
+ },
+ "Acumulação de Cargos e Empregos Públicos e Funções": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Regime Previdenciário (Aposentadoria, Pensão, RPPS)": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Das Licenças, Afastamentos e Concessões (arts. 81 a 99 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Do Processo Administrativo Disciplinar (arts. 143 a 182 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-4.3",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Das Penas (art. 12 da Lei nº 8.429/1992)": {
+  "item": "P1-DA-7",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Dos Impedimentos e da Suspeição (arts. 18 a 21 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 7,
+  "conf": 1.0
+ },
+ "Meios Alternativos de Resolução de Controvérsias (arts. 151 a 154 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Conceito de Atos Administrativos": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados de Organização Administrativa da União": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Responsabilidade por Atos Legislativos e Judiciais": {
+  "item": "P1-DA-6.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Subconcessão (Serviços Públicos - Lei nº 8.987/1995)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Lei nº 13.460/2017 - Direitos Básicos do Usuário do Serviço Público": {
+  "item": "P1-DA-8.3",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 0.67
+ },
+ "Disposições Gerais (arts. 1º a 4º da Lei nº 12.846/2013)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 8,
+  "conf": 1.0
+ },
+ "Dos Atos Lesivos à Administração Pública Nacional ou Estrangeira (art. 5º da Lei nº 12.846/2013)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Do Processo Administrativo de Responsabilização (arts. 8º a 15 da Lei nº 12.846/2013)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 5,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados de Controle da Administração": {
+  "item": "P1-DA-1.2",
+  "aderencia": "Aderência parcial",
+  "n2025": 5,
+  "conf": 0.4
+ },
+ "Características dos Bens Públicos": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Remoção, Redistribuição e Substituição (arts. 36 a 39 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Vencimento e Remuneração (arts. 40 a 48 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Do Direito de Petição (arts. 104 a 115 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Da Seguridade Social do Servidor (arts. 183 a 230 da Lei nº 8.112/1990)": {
+  "item": "",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 6,
+  "conf": 0.67
+ },
+ "Tópicos Mesclados de Estatuto de Servidores Federais (Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Lei nº 8.745/1993 - Contratação Temporária": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Forma, Tempo e Lugar dos Atos do Processo (arts. 22 a 25 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 4,
+  "conf": 1.0
+ },
+ "Da Comunicação dos Atos (arts. 26 a 28 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Da Anulação, Revogação e Convalidação (arts. 53 a 55 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-2.1",
+  "aderencia": "Aderência integral",
+  "n2025": 8,
+  "conf": 1.0
+ },
+ "Das Disposições Finais (arts. 69 e 70 da Lei nº 9.784/1999)": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 3,
+  "conf": 1.0
+ },
+ "Tópicos Mesclados da Lei nº 9.784/1999": {
+  "item": "P1-DA-4.4",
+  "aderencia": "Aderência integral",
+  "n2025": 2,
+  "conf": 1.0
+ },
+ "Alocação de Riscos (art. 103 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.2",
+  "aderencia": "Aderência integral",
+  "n2025": 1,
+  "conf": 1.0
+ },
+ "Impugnações, Pedidos de Esclarecimento e Recursos (arts. 164 a 168 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Aderência integral",
+  "n2025": 6,
+  "conf": 1.0
+ },
+ "Dos Agentes Públicos (arts. 7º a 10 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.1",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Direitos Sociais dos Servidores Públicos (art. 7º da CF)": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Formas de Extinção (Serviços Públicos - Lei nº 8.987/1995)": {
+  "item": "",
+  "aderencia": "Sem enquadramento",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Poder Vinculado e Discricionário": {
+  "item": "P1-DA-5.1",
+  "aderencia": "Aderência integral",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Casos Especiais (Danos decorrentes de Obra Pública, Responsabilidade dos Tabeliães, etc.)": {
+  "item": "P1-DA-6.2",
+  "aderencia": "Aderência parcial",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Controle Popular ou Social": {
+  "item": "P1-DA-8.3",
+  "aderencia": "Enquadramento duvidoso",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Mandato Eletivo (art. 38 da CF)": {
+  "item": "P1-DA-3.1",
+  "aderencia": "Aderência integral",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Disposições Preliminares e Abrangência (arts. 1º a 4º da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.2",
+  "aderencia": "Aderência integral",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Das Gratificações e Adicionais (arts. 61 a 76 da Lei nº 8.112/1990)": {
+  "item": "P1-DA-3.4",
+  "aderencia": "Aderência integral",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ },
+ "Prerrogativas da Administração (art. 104 da Lei nº 14.133/2021)": {
+  "item": "P1-DA-10.3",
+  "aderencia": "Aderência integral",
+  "n2025": 0,
+  "conf": "manual Cowork 28/10"
+ }
+}

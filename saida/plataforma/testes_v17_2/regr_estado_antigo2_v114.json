@@ -1,0 +1,66 @@
+{
+ "estado": "estado_antigo2_v114.json",
+ "maxDistintasPorTopico": 30,
+ "permitidas": [
+  {
+   "k": "nota:P1-5.2",
+   "a": "13|8|4|13%",
+   "b": "13|8|4|20%",
+   "banco": 30,
+   "motivo": "divisor mudou"
+  },
+  {
+   "k": "nota:P1-DA-2.1",
+   "a": "1|0|1|−5%",
+   "b": "1|0|1|−5%",
+   "banco": 22,
+   "motivo": "divisor mudou"
+  },
+  {
+   "k": "nota:P1-DA-7",
+   "a": "1|0|1|−5%",
+   "b": "1|0|1|−5%",
+   "banco": 22,
+   "motivo": "divisor mudou"
+  },
+  {
+   "k": "nota:P1-DA-11",
+   "a": "30|20|7|43%",
+   "b": "20|17|1|80%",
+   "banco": 34,
+   "motivo": "janela cortou"
+  },
+  {
+   "k": "nota:P1-DA-12",
+   "a": "1|1|0|4%",
+   "b": "1|1|0|5%",
+   "banco": 24,
+   "motivo": "divisor mudou"
+  },
+  {
+   "k": "nota:P2-1.1",
+   "a": "10|5|4|3%",
+   "b": "10|5|4|5%",
+   "banco": 29,
+   "motivo": "divisor mudou"
+  },
+  {
+   "k": "nota:P2-4.1",
+   "a": "30|20|6|47%",
+   "b": "20|14|4|50%",
+   "banco": 30,
+   "motivo": "janela cortou"
+  },
+  {
+   "k": "__nf",
+   "a": 2.856558513845485,
+   "b": 3.114195604391121,
+   "motivo": "consequência das notas"
+  }
+ ],
+ "dif": [],
+ "errosA": [],
+ "errosB": [],
+ "telas": 30,
+ "topicosConferidosNoDom": 87
+}

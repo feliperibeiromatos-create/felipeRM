@@ -1,0 +1,135 @@
+# QA — Resumo visual de Direito Administrativo, leva 1 (itens 1, 2 e 3) + plataforma v17.3 — R1 (28/10/2026)
+
+QA Opus (papéis: qa-normativo-da, gcb-cqfp-didatico, QA-plataforma). Não produzi nada do que reviso e não editei nenhum arquivo em /home/claude/v17_3/ (este é o único arquivo criado lá; os scripts de teste próprios e as saídas ficaram no scratchpad da sessão).
+
+## Cabeçalho
+
+**Objeto:** `topicos[P1-DA-1, 1.1, 1.2, 2.1, 2.2, 3.1, 3.2, 3.3, 3.4].resumoVisual` e a plataforma v17.3 que os renderiza (Cowork/Fable, 28/10/2026).
+
+**Hashes (sha256)**
+| Arquivo | sha256 |
+|---|---|
+| resumo_visual_leva1.json | 715991329b82058211ede80a9ff57fe2730948acf3bd0888c1ea1d39807ab6f3 |
+| resumo_visual_leva1.py | 925adaf46ddd54eb8f8ebcf1a0d972d008dc9aefe5d9cf38dd4b574a7c5b336a |
+| extras_leva1_v114.json | d5398fcd382ad3e2f289c35dac8de8e0654b9301982ff3f9e390ab4c1a98706d |
+| checa_resumo_visual.py | 18b5e63a767b1391ad2cf55066ed2bbb3d6c865530953100fdfd44c60f39e19d |
+| patch_v17_3_resumo_visual.py | 074c2c81a939654132a2ff0cf3f54b9957ed8126df404a5e43d15afdeb5c309e |
+| plataforma_v17_2_template.html | 89f07db1002ad9d836947d1a2fc57b67c862f79a59c6a59563e249e31cc821b3 |
+| plataforma_v17_3_template.html | d45996953431398f6094bfc0ca74c7240e6ae2009540d92e297fd5ff1b606672 (bate com d4599695…) |
+| plataforma_v17_3_previa.html | 56504fd1f1f6ac67b45b42f5530679c2f93f07bf9055d83f72dffef29201fe5c (bate com 56504fd1…) |
+| pacote_previa_v114_rv1.json | 936c9d31ab12399f3c108cac61cb75bf7f57666615fab11fe9dcefc0149293d4 |
+| v17_2c/plataforma_v17_2_previa_v114.html (A) | ca3c512d4e708865548f6ca3a94e14015a48c4463a42f24883e83a563671a030 |
+
+**Comandos executados**
+- `python3 -I checa_resumo_visual.py resumo_visual_leva1.json` → "resumoVisual em 9 tópicos · BLOQUEIOS 0 · AVISOS 0", exit 0.
+- `python3 -I patch_v17_3_resumo_visual.py plataforma_v17_2_template.html <scratch>/t173.html` → 6 substituições; o sha256 bate com o template v17.3 (patch reprodutível).
+- Conferência por Python: a prévia embute exatamente `pacote_previa_v114_rv1.json`; esse pacote, sem `resumoVisual`, é idêntico ao pacote da prévia v17.2c v1.14; os `resumoVisual` são idênticos a `resumo_visual_leva1.json`; os `resumo`, `emUmMinuto` e `visuais` dos 9 tópicos são idênticos a `extras_leva1_v114.json`.
+- `node regr_v17_3.js A B estado_antigo_v114.json` → telas 104 · 9 resumos visuais · 9 mudanças esperadas · **0 diferenças não esperadas** · 0 erros JS. Com `estado_antigo2_v114.json` → telas 110 · 9 · 9 · **0** · 0.
+- `node t_janela20.js plataforma_v17_3_previa.html` → 1 falha, só `0.const` (VERSAO_APP = v17.3), que é a esperada; 0 erros JS nas 4 combinações.
+- Teste próprio com Playwright (`t_rv_qa.js`, no scratchpad): 9 tópicos × {320 claro, 320 escuro, 390 escuro, 1280 claro}. Mede o contraste computado de cada nó de texto, os pseudo-elementos numerados, o aria-hidden dos ícones, a rolagem horizontal, a regex do "30" do t_janela20, a presença de preto puro, azul, verde ou vermelho e emojis. Faz também o clique real no botão "Resumo" da tela Matéria (2.1, 3.4 e 4.4), abre o Resumo dos outros 70 tópicos com resumo, tira o ariaSnapshot do 3.4 e o recorte da pirâmide no escuro.
+- Rede: planalto.gov.br **inacessível** deste ambiente ("Empty reply from server", também em http). Usei WebSearch/WebFetch. A Câmara (legin) respondeu para a EC 138/2025. A Lei 9.986/2000 consolidada não foi obtida em fonte oficial (o legis.senado pediu verificação). O portal do STF responde (200), mas não foi necessário: as súmulas e os temas citados conferem de memória segura.
+
+## Tabela das 7 verificações
+
+| # | Verificação | Resultado | Evidência resumida |
+|---|---|---|---|
+| 1 | Normativo | **DEFEITO** | 2 BLOQUEIA (D1 foro de autarquia generalizado; D2 "estável só perde o cargo nas hipóteses do art. 41, § 1º", que omite o art. 169, § 4º). ALTA: D3 pirâmide da remuneração; D4 art. 91 "exige estabilidade"; D5 Lei 9.986, art. 9º, com rol incompleto sob "só". MÉDIA: D8–D17. Conferidos sem defeito: CF arts. 1º, 2º, 18 (§§ 1º e 2º), 37 (I, II, III, V, VI, VII, IX, X, XVI com a EC 138/2025, XVII, XIX, XX, XXI, §§ 1º e 2º), 38 (I a V), 41 (caput, § 1º, § 4º), 42, § 1º, 109, I, 142, § 3º, IV, 150, § 2º; Súmulas 346, 473 e 556; SV 5 e 13; MI 670, 708 e 712; Tema 531 (RE 693.456; ver D24); Lei 4.717, art. 2º, alíneas a–e; Lei 9.784, arts. 1º, §§ 1º e 2º, 2º, 11, 13, 42 (caput, §§ 1º e 2º), 50, VII, e § 1º, 53–55; LINDB, art. 28 (vetos dos §§ 1º a 3º); DL 200, arts. 4º e parágrafo único, e 5º; Lei 9.649, art. 51 ("Contrato de Gestão": correto); Lei 11.107, art. 6º, e § 1º; Lei 8.112, arts. 2º–5º, 7º, 8º, 9º, 13, §§ 1º e 6º, 15, §§ 1º e 2º, 20, 33, 36, 37, 40, 49, § 1º, 51, 53, § 3º, 61, 77, 121–127, 130, 143, 145, 149, 151, 152, 207. Itens (a)–(g) respondidos abaixo. |
+| 2 | Fidelidade ao canônico | **DEFEITO** | D6 (P1-DA-1: "Povo = sociedade politicamente organizada" contradiz o canon, em que o Estado é a sociedade politicamente organizada); D16 (3.4: "estágio probatório … três anos na CF" contra a redação cuidadosa do canon); D2 é fiel ao canon, mas o canon também erra (abrir correção no pacote). |
+| 3 | Triagem | **CONFERIDO com ressalva** | Nenhum dos erros listados entrou (busca no JSON: COFIFOMOB, OAB, Vale, Embrapa, Embraer, Eletrobras, quádruplo, Fundação Banco do Brasil, "contrato de desempenho", Duguit, coercibilidade, purga, rescisão, Súmula 343, Decreto 6.017 → 0; incompetência e desvio de finalidade com o sinal correto; agências sem "a partir da EC 19"). **Mas** entraram erros que a triagem não notou ou que o produtor introduziu: D1 (o PDF dizia "Justiça Federal (se federal)" e o JSON perdeu o "se federal"); D3 (PDF da 8.112: "gratificações/adicionais incorporam" e a pirâmide p. 13 com as indenizações dentro da remuneração); D6 (Povo). A triagem também descreve mal o pacote ("manter os quatro [atributos] do pacote"): o pacote tem três. |
+| 4 | Didático | **DEFEITO** | Nenhuma tabela passa de 4 colunas (máx. 4: 1.2 B4, 2.2 B3, 3.2 B3). As classificações têm a coluna "pergunta que distingue" ou equivalente, mas a de "exequibilidade" está errada (D10). Relâmpago: 1.2 sem centralização e concentração; 2.1 sem espécies e sem formas de extinção (D18). Texto de produção visível para a candidata (D13). Pegadinha com "Certo" incompleto (D30). Observação: o pacote v1.14 não tem o campo `tarefas` nesses 9 tópicos (só a demo do 3.4 tem); usei o texto do item do edital como tarefa. |
+| 5 | Script | **DEFEITO** | 0 bloqueios conferidos, mas o script é mais frouxo que a ESPEC §3/§5.8 e deixa passar violações reais (D19). |
+| 6 | Interface | **DEFEITO** | Regressão 0/0 e t_janela20 só com a falha esperada; texto ≥ 6,14:1 (claro) e ≥ 6,95:1 (escuro) em todos os nós medidos; pirâmide n2 (#1B2A41 sobre o marcador) 9,10 no claro e 7,86 no escuro; 0 ícones sem aria-hidden; sem rolagem horizontal em 320 px; nenhum "30" ligado à nota; o botão "Resumo" abre a tela nova só nos 9 tópicos (os outros 70 tópicos com resumo abrem a antiga; 4.4 testado por clique real). **Mas:** pirâmide cortada (D7, ALTA), a11y da pirâmide (D20), etiqueta "0 questões" contra a ESPEC §4 (D21), ícone da barra de seção invisível no escuro (D27). |
+| 7 | Estética × decisão (a) | **CONFERIDO** | Sem preto puro, sem azul, sem verde/vermelho e sem emoji nos componentes .rv (medido nos 4 cenários). A família visual se reconhece diante do PDF Atos Administrativos (pp. 3–4): barra escura com ícone amarelo, faixa de subtítulo amarela com borda, tabela de cabeçalho escuro e caixa "≠" (antes azul, agora --soft). Ressalvas: no celular as tabelas viram cartões (`.pilha`) e o cabeçalho tinta desaparece; no escuro a barra de seção vira bloco claro e o ícone amarelo some (D27). |
+
+### Respostas aos pontos (a)–(g) da ordem
+- **(a) EC 138/2025, art. 37, XVI, b:** CONFERIDO. Verificado em 28/10/2026 na Câmara dos Deputados, Legislação Informatizada, EC 138 de 19/12/2025, publicação original: a nova alínea b é "a de um cargo de professor com outro de qualquer natureza". "Um cargo de professor com outro" (3.1 B5) é compatível. Sugestão BAIXA: acrescentar "de qualquer natureza".
+- **(b) Estágio probatório:** CONFERIDO na linha do tempo 3.4 B1[3] e no bloco `lei` B12, que apresentam as três fontes sem escolher e marcam "reverificar em janeiro (T-120)". DEFEITO MÉDIO no Relâmpago 3.4 [2] (D16).
+- **(c) Convalidação:** é a posição dominante (Di Pietro, Carvalho Filho), mas **não** está marcada como doutrina e aparece atribuída ao art. 55 (D8).
+- **(d) Parecer:** CONFERIDO. A tabela 2.2 B3 diz "(classificação doutrinária)"; as espécies de atos (2.1 B10) e as formas de extinção (2.1 B13) também estão rotuladas.
+- **(e) Exemplos de entidades:** CONFERIDO. Caixa, Correios e BNDES são empresas públicas federais; Petrobras e Banco do Brasil, sociedades de economia mista; INSS e Banco Central, autarquias.
+- **(f) "Fundação pública de direito público tem o regime das autarquias":** sem lastro no JSON (D9).
+- **(g) Lei 8.112:** art. 110 com paráfrase imprecisa (D11); art. 91 com DEFEITO ALTO (D4); art. 145 conferido (30 + 30, suspensão de até 30 na sindicância); art. 149 conferido (três estáveis; presidente de cargo efetivo superior ou de mesmo nível, ou de escolaridade igual ou superior à do indiciado).
+
+## DEFEITOS
+
+### BLOQUEIA
+**D1 — P1-DA-1.2 · B10 (escala, ponto "Autarquia") e B15 (relâmpago [4]).** Texto: "direito público; criada por lei; imunidade tributária recíproca (CF, art. 150, § 2º); foro federal (art. 109, I)" e "Autarquia: direito público, criada por lei, imunidade recíproca, foro federal." É uma generalização falsa: só a autarquia **federal** tem foro na Justiça Federal; a estadual e a municipal litigam na Justiça estadual. O PDF MapasPro dizia "Justiça Federal (se federal)"; o produtor tirou a ressalva. Um item Cebraspe que diga "as autarquias têm foro na Justiça Federal" (Errado) seria marcado Certo. **Correção:** "foro na Justiça Federal, se federal (CF, art. 109, I)" nos dois blocos, como já está em "Empresa pública".
+
+**D2 — P1-DA-3.1 · B1 (linha do tempo, marco "Perda": título "Só nas hipóteses do art. 41, § 1º") e B11 (relâmpago [4]: "Estável só perde o cargo por sentença transitada, PAD com ampla defesa ou avaliação periódica (art. 41, § 1º).").** O rol está incompleto sob a palavra "só": a CF, art. 169, § 4º (EC 19/1998), permite a perda do cargo do servidor estável por excesso de despesa com pessoal, por ato normativo motivado de cada Poder (com a indenização do § 5º). Cebraspe cobra essa hipótese. O erro já está no canon (pacote v1.14, P1-DA-3.1: resumo e emUmMinuto[2], "o estável só perde o cargo nas hipóteses do art. 41, § 1º"). **Correção:** "Perda: art. 41, § 1º (sentença transitada em julgado; processo administrativo com ampla defesa; avaliação periódica, na forma de lei complementar) e art. 169, § 4º (excesso de despesa com pessoal)", no RV e no canon (despacho à Secretaria de Estado Canônico).
+
+### ALTA
+**D3 — P1-DA-3.4 · B5 (pirâmide "O que compõe a remuneração (arts. 40, 41, 49 e 51)") e B13 (relâmpago [4]).** O título põe as **indenizações** dentro da remuneração. O nível "Gratificações e adicionais" diz "art. 61; integram a remuneração", e o relâmpago diz "Vencimento (art. 40) + vantagens = remuneração (art. 41)". Pela Lei 8.112, a remuneração é o vencimento **acrescido das vantagens pecuniárias permanentes** (art. 41). As indenizações não se incorporam para efeito algum (art. 49, § 1º). Gratificações e adicionais incorporam-se "nos casos e condições indicados em lei" (art. 49, § 2º); adicional noturno e serviço extraordinário, por exemplo, não são permanentes. A legenda da própria pirâmide contradiz o título. **Correção:** título "O que o servidor pode receber (art. 49)"; topo: "Indenizações (art. 51): não integram a remuneração nem se incorporam (art. 49, § 1º)"; meio: "Gratificações e adicionais (art. 61): incorporam-se nos casos e condições da lei (art. 49, § 2º)"; relâmpago: "Remuneração = vencimento + vantagens pecuniárias **permanentes** (art. 41)".
+
+**D4 — P1-DA-3.4 · B7 (tabela "Prazos que a banca cobra", linha "Licença para interesses particulares").** Texto: "Até três anos, sem remuneração, a critério da Administração; exige estabilidade". O art. 91 diz: "A critério da Administração, poderão ser concedidas ao servidor ocupante de cargo efetivo, desde que não esteja em estágio probatório, licenças para o trato de assuntos particulares pelo prazo de até três anos consecutivos, sem remuneração." O requisito legal é ser ocupante de cargo efetivo e não estar em estágio probatório, o que não equivale a "estabilidade" (o servidor estável empossado em novo cargo está em estágio probatório, e com o descompasso 24 meses × 3 anos as figuras divergem). **Correção:** "Até três anos consecutivos, sem remuneração, a critério da Administração; só para ocupante de cargo efetivo que não esteja em estágio probatório (art. 91)".
+
+**D5 — P1-DA-1.2 · B14 (tabela "Agências, qualificações e consórcios", linha "Agência reguladora"; fonte "Lei 9.986/2000, art. 9º (redação da Lei 13.848/2019)").** Texto: "dirigentes com mandato fixo, que só o perdem por renúncia, condenação transitada em julgado ou processo administrativo disciplinar". A redação dada pela Lei 13.848/2019 (de memória; Planalto inacessível daqui, então NÃO CONFERIDO em fonte oficial) tem três incisos: I, renúncia; II, condenação judicial transitada em julgado **ou condenação em processo administrativo disciplinar**; III, infringência das vedações do art. 8º-B. O parágrafo único foi revogado (Lei 13.848, art. 52, VI). O "só" com rol de dois incisos e meio ensina errado. O dispositivo não foi conferido pelo pacote, e o bloco o usa como lastro (fere a ESPEC §5.7). **Correção:** "só perdem o mandato nas hipóteses do art. 9º da Lei 9.986/2000: renúncia; condenação judicial transitada em julgado ou condenação em PAD; infringência das vedações do art. 8º-B", após conferência no Planalto pelo QA normativo, com data. Se não houver conferência, retirar o rol e manter "mandato fixo (Lei 13.848/2019)".
+
+**D6 — P1-DA-1 · B1 (mapa "Os três elementos do Estado", ramo "Povo").** Texto: "a sociedade politicamente organizada; todo o poder emana dele (CF, art. 1º, parágrafo único)". "Sociedade politicamente organizada" é a definição de **Estado** no canon (resumo de P1-DA-1: "O Estado é a sociedade politicamente organizada, composta por povo, território e governo soberano") e no próprio Relâmpago [0]. Atribuí-la ao povo é erro conceitual no núcleo do item 1 ("elementos") e contradição com o canon. **Correção:** "Povo: o elemento humano, o conjunto dos nacionais; todo o poder emana dele (CF, art. 1º, parágrafo único)".
+
+**D7 — Interface · tipo `piramide` (P1-DA-3.4 B5; capturas desk_P1-DA-3.4.png, rev_pir.png e o recorte pir_escuro.png a 390 px).** O nível do topo corta o próprio título ("INDEN…" a 390 px, "INDENIZA…" a 1280 px) e o texto: "transporte" cortado, uma palavra por linha, conteúdo jurídico ilegível. Causa: `.rv-pir .nv:first-child{clip-path:polygon(22% 0,78% 0,…);padding:12px 22%}` aplicado a um nível de 45% de largura deixa uma coluna útil de cerca de 0, e o clip-path esconde o que transborda. A captura de revisão do produtor (rev_pir.png) mostra só a base. **Correção:** no primeiro nível, padding horizontal proporcional à largura útil (por exemplo, `padding:12px 12%` com `min-width` de cerca de 60% no celular) ou texto fora do trapézio. Teste de aceite: nenhum `scrollWidth > clientWidth` dentro de `.nv` a 320, 390 e 1280 px, nos dois temas.
+
+### MÉDIA
+**D8 — P1-DA-2.1 · B14 (box "Convalidação (Lei 9.784/1999, art. 55)") e B17 (pegadinhas [0] e [1]).** "São sanáveis, em regra, o vício de competência (salvo competência exclusiva) e o de forma (salvo forma essencial); não se convalidam os vícios de objeto, motivo e finalidade", e "O vício de competência é, em regra, sanável por convalidação (Lei 9.784/1999, art. 55), salvo competência exclusiva." É a posição doutrinária dominante, mas aparece como texto do art. 55, que só fala em "defeitos sanáveis". **Correção:** "(doutrina majoritária; a lei fala só em 'defeitos sanáveis')" no box e nas duas pegadinhas; acrescentar "competência exclusiva ou em razão da matéria", como faz a doutrina que a banca segue.
+
+**D9 — P1-DA-1.2 · B9 (mapa, "Fundação pública"), B10 (escala, ponto 2) e B16 (pegadinha [7]).** "pode ter regime de direito público (fundação autárquica) ou privado, conforme a lei instituidora" e "a de direito público tem o regime das autarquias". Não há lastro citado; o título do mapa cita o DL 200, art. 5º, cujo inciso IV diz "personalidade jurídica de direito privado". **Correção:** citar o STF, RE 716.378 (Tema 545: o regime depende do estatuto e das atividades) e a ADI 191; avisar que "pelo DL 200, art. 5º, IV, a fundação pública é de direito privado" (um item literal da banca sobre o DL seria Certo).
+
+**D10 — P1-DA-2.1 · B9 (tabela "Classificações que a banca cobra", linha "Exequibilidade: Perfeito, válido, eficaz").** Mistura os planos de existência, validade e eficácia com a classificação "quanto à exequibilidade", que é perfeito, imperfeito, pendente e consumado. **Correção:** separar as duas classificações ou trocar as classes por "perfeito × imperfeito × pendente × consumado", com a pergunta "completou o ciclo? depende de termo ou condição? já exauriu os efeitos?".
+
+**D11 — P1-DA-3.4 · B7 (linha "Direito de petição: prescrição").** Texto: "5 anos (demissão, cassação, atos de que decorram crédito); 120 dias nos demais casos". O art. 110 diz: I, cinco anos "quanto aos atos de demissão e de cassação de aposentadoria ou disponibilidade, ou que afetem interesse patrimonial e créditos resultantes das relações de trabalho"; II, 120 dias "nos demais casos, salvo quando outro prazo for fixado em lei". **Correção:** reproduzir esses termos.
+
+**D12 — P1-DA-3.4 · B10 (tabela "Penalidades (arts. 127, 130 e 142)").** A linha de 5 anos inclui "destituição … de função comissionada", mas o art. 142, I, só tem demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão. E "Por escrito" (advertência) é do art. 129, que não aparece na lista de artigos. **Correção:** tirar a função comissionada da linha de prescrição de 5 anos (ou anotar "a lei não fixa") e citar o art. 129.
+
+**D13 — P1-DA-3.4 · B7 (legenda).** Texto: "Prorrogações da licença à gestante e da paternidade dependem de ato próprio (Programa Empresa Cidadã / Decreto 6.690/2008): conferir antes de citar número." É uma nota de produção exposta à candidata, e confunde o Programa Empresa Cidadã (Lei 11.770/2008, para empresas privadas) com o Decreto 6.690/2008 (prorrogação para servidoras federais). A prorrogação da paternidade dos servidores federais vem do Decreto 8.737/2016. **Correção:** retirar a legenda ou trocá-la por texto conferido.
+
+**D14 — P1-DA-3.4 · B7 e B13 (licença-paternidade "5 dias", art. 208) — REVERIFICAR.** A imprensa noticia a sanção, em 31/3/2026, da LC 229/2026, que amplia a licença-paternidade de forma escalonada: 10 dias a partir de 1º/1/2027, antes da prova de 17/1/2027 (Congresso em Foco, lido em 28/10/2026; **não é fonte oficial**; a página não diz se alcança os estatutários nem se altera o art. 208). **Correção:** o QA normativo deve conferir a LC 229/2026 no Planalto antes da publicação; se ela não alcançar o RJU, manter "5 dias (art. 208)" e acrescentar uma linha dizendo que a LC não altera a 8.112.
+
+**D15 — P1-DA-1.1 · B9 (seção "Princípios implícitos que a banca cobra") e B10 (mapa).** O mapa traz como "implícitos" o contraditório e a ampla defesa (expressos na CF, art. 5º, LV) e a segurança jurídica, a razoabilidade e a proporcionalidade (expressos na Lei 9.784, art. 2º, como o próprio B8 mostra). A candidata pode marcar Certo em "o contraditório é princípio implícito". **Correção:** título "Princípios fora do caput do art. 37" e, no mapa, "implícitos na CF" só onde couber.
+
+**D16 — P1-DA-3.4 · B13 (relâmpago [2]).** Texto: "Estágio probatório: 24 meses na lei, três anos na CF, 36 meses no Decreto 12.374/2025". A CF, art. 41, fala de **estabilidade**, não de estágio probatório; o canon (emUmMinuto[1]) diz isso com cuidado. Falta também o alcance do decreto ("nomeações posteriores à sua publicação", conforme o resumo canônico). **Correção:** "Lei 8.112, art. 20: estágio de 24 meses; CF, art. 41: estabilidade após três anos; Decreto 12.374/2025, art. 2º: estágio de 36 meses (nomeações posteriores) — reverificar em janeiro."
+
+**D17 — P1-DA-2.1 · B7 (pé de "dois").** Texto: "Discricionariedade ≠ arbitrariedade: a escolha é dentro da lei e deve ser motivada". É uma generalização: a motivação é obrigatória nos casos do art. 50 da Lei 9.784, e o exemplo do próprio painel (nomeação para cargo em comissão, com exoneração ad nutum) dispensa motivação, o que a banca cobra. **Correção:** "… dentro da lei; motivada nos casos do art. 50 da Lei 9.784/1999".
+
+**D18 — Didático · Relâmpagos de P1-DA-1.2 (B15) e P1-DA-2.1 (B16).** O 1.2 não menciona centralização nem concentração, que estão no texto do item do edital. O 2.1 não cobre "espécies" nem "extinção" (cassação, caducidade, contraposição), também do texto do item. **Correção:** trocar uma frase em cada; por exemplo, 1.2: "Centralização: o ente presta por seus órgãos; concentração: menos órgãos (oposto da desconcentração)"; 2.1: "Extinção: cumprimento, desaparecimento, anulação, revogação, cassação (descumprimento), caducidade (lei nova), contraposição, renúncia."
+
+**D19 — Script `checa_resumo_visual.py` × ESPEC §3/§5.8.** Casos que passam com erro:
+- (i) `dois` aceita 1 a 7 itens; a ESPEC manda 2 a 6. Passaram o 3.1 B10.a, com 1 item, e o 3.4 B2, com 7/7.
+- (ii) `mapa` só mede o título do ramo; a ESPEC limita o ramo a 90 caracteres, e 14 textos de ramo passam disso (até 241 no 1.2 B9 "Fundação pública").
+- (iii) Relâmpago: a ESPEC diz 140 caracteres; o script só avisa acima de 160. Seis frases têm de 143 a 157.
+- (iv) O `icone` não é validado contra `ICONES`.
+- (v) O bloco `lei` aceita qualquer string em `conferido` e não cruza o dispositivo com o `baseLegal` do pacote (ESPEC §5.7). Um dispositivo inventado com `conferido:"x"` passa.
+- (vi) A regex de emoji não pega U+2B50 ⭐, U+23F0 ⏰ nem U+231B ⌛.
+- (vii) A regex de página não pega "pp. 11", "pág. 5" nem "slide 4".
+- (viii) Não há lista de termos vedados da triagem (COFIFOMOB, quádruplo, OAB como autarquia, "cada vez mais cobrada"), e "Pegadinha provável" passa.
+- (ix) `cobranca` ausente passa.
+- (x) Está como script avulso, não como a seção "3c" do checa_pacote_v2.py que a ESPEC §5.8 pede.
+
+**Correção:** alinhar os limites à ESPEC como bloqueio, validar o ícone e o `conferido` (data ISO e presença no `baseLegal` do tópico) e acrescentar a lista de termos vedados.
+
+**D20 — Interface · a11y da pirâmide.** A pirâmide usa `role="img"` com `aria-label` = "O que compõe a remuneração (…): Indenizações, do topo à base: Gratificações e adicionais, do topo à base: Vencimento". O "do topo à base" se repete entre todos os níveis por causa do `join`. Com `role=img`, os textos dos níveis, a figcaption e a legenda ficam apresentacionais (o leitor de tela lê só o rótulo e perde o conteúdo jurídico). **Correção:** `role="group"`, níveis em `<ol>` (do topo à base) e rótulo "título, do topo à base".
+
+**D21 — Interface · etiqueta de cobrança × ESPEC §4.** O 2.2 mostra "Cebraspe 2025: 0 questões deste item no corpus (0 C/E)"; o 1, o 3.2 e o 3.3 mostram 3. A ESPEC §4 manda "poucas questões no corpus" nesses itens, e "0 questões" pode ser lido como "não cai". A nota repete também "Corpus … Corpus de 1.321…". **Correção:** para `itens` ≤ 3, mostrar "poucas questões no corpus".
+
+**D22 — P1-DA-3.2 · B5 (lista de requisitos do art. 5º).** "Nacionalidade brasileira" aparece sem o § 3º (universidades e instituições de pesquisa federais podem prover cargos com professores, técnicos e cientistas estrangeiros) e sem a CF, art. 37, I, que o próprio 3.1 cita. **Correção:** acrescentar o § 3º.
+
+### BAIXA
+- **D23 — P1-DA-1.2 · B11 e B10 (legenda).** Falta a Lei 13.303/2016 (arts. 3º e 4º) como base de EP e SEM; a "licitação alcança todas (art. 37, XXI)" ignora o art. 173, § 1º, III, e a Lei 13.303, art. 28, § 3º; a Súmula 556 merece a ressalva da Súmula 517 (intervenção da União).
+- **D24 — P1-DA-3.1 · B10.** O Tema 531 omite "permitida a compensação em caso de acordo".
+- **D25 — P1-DA-3.1 · B7 e B11 [7].** "Teto = subsídio de Ministro do STF" sem os subtetos do art. 37, XI.
+- **D26 — P1-DA-3.1 · B2.** A vitaliciedade aparece sem base (CF, arts. 95, I, 128, § 5º, I, a, e 73, § 3º).
+- **D27 — Interface · ícone da barra de seção no escuro.** O ícone usa o marcador #E2BB45 sobre a tinta #ECEEF1: 1,58:1. É decorativo (aria-hidden), mas visualmente some. A ESPEC fala em 14 ícones; o template tem 16 (seta, engrenagem).
+- **D28 — "Pegadinha provável".** Aparece em 3 legendas (1 B4, 1.1 B8, 2.2 B2, herdadas do canon). É rótulo de probabilidade sem fonte (ESPEC §5.2). Trocar por "Pegadinha típica".
+- **D29 — P1-DA-3.3 · B2.** "Não é nominal … exceto Presidência e Vice-Presidência" está sem artigo do Decreto 10.835/2021.
+- **D30 — P1-DA-3.1 · B12 (pegadinha [5], vereador).** O "Certo" não cobre a outra metade: sem compatibilidade de horários, ele se afasta (art. 38, III c/c II).
+- **D31 — P1-DA-2.1 · B16 [6].** "Revogação: … só pela Administração" perde o "em regra" do compare B12.
+- **D32 — P1-DA-2.1 · B5.** Só a tipicidade leva "(classificação doutrinária)", mas os quatro atributos são doutrinários. A triagem diz que o pacote tem quatro atributos; tem três.
+- **D33 — P1-DA-3.4 · B12 (lei).** O texto do art. 21 traz a anotação do Planalto "(prazo 3 anos - vide EMC nº 19)" marcada `literal: true` (herdada do canon).
+- **D34 — P1-DA-3.4 · B14 [0].** "Sem prorrogação" está correto, mas cabe citar o § 2º do art. 13 (o prazo conta do término do impedimento).
+- **D35 — Testes.** O `testes_v17_3/regr_v173.json` guardado registra a diferença `estado:top` de uma rodada anterior; nas duas rodadas que fiz com os estados indicados, 0 diferenças. Regravar o artefato para não confundir a reconciliação.
+
+## Contagem
+BLOQUEIA 2 · ALTA 5 · MÉDIA 15 · BAIXA 13 (total 35).
+
+## Veredito
+**REPROVADO.** Dois erros de direito chegariam à candidata (D1, D2) e cinco defeitos ALTA (D3–D7) precisam de correção antes da publicação. A plataforma está íntegra na regressão, no contraste, no roteamento do botão e no sistema visual, mas o componente pirâmide corta o conteúdo (D7). Para a R2 bastam: correção de D1–D7 no gerador e no CSS, D2 também no canon, D5 conferido no Planalto com data, D14 verificado e D19 aplicado ao script. O resto pode ir em ressalva.
+
+Fontes externas consultadas em 28/10/2026: Câmara dos Deputados, Legislação Informatizada, EC 138/2025, publicação original (www2.camara.leg.br/legin/fed/emecon/2025/emendaconstitucional-138-19-dezembro-2025-798508-publicacaooriginal-177473-pl.html); Câmara, Lei 13.848/2019, veto (www2.camara.leg.br/legin/fed/lei/2019/lei-13848-25-junho-2019-788523-veto-158409-pl.html); legjur, art. 52 da Lei 13.848 (terceiro, só indicativo); Congresso em Foco, LC 229/2026 (imprensa, só indicativo).

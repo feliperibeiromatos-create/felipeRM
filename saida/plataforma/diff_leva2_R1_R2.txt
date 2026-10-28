@@ -1,0 +1,126 @@
+286,293d285
+<      },
+<      {
+<       "rotulo": "Cassação",
+<       "texto": "de aposentadoria ou disponibilidade: infração punível com demissão praticada na atividade (art. 134)"
+<      },
+<      {
+<       "rotulo": "Destituição",
+<       "texto": "de cargo em comissão ou de função comissionada: infração sujeita a suspensão ou demissão (art. 135)"
+296c288
+<     "legenda": "Entre a advertência e a suspensão, o critério é o inciso do art. 117; entre a suspensão e a demissão, o art. 132."
+---
+>     "legenda": "Entre a advertência e a suspensão, o critério é o inciso do art. 117; entre a suspensão e a demissão, o art. 132. Fora da gradação: cassação de aposentadoria ou disponibilidade (art. 134, infração punível com demissão praticada na atividade) e destituição de cargo em comissão (art. 135, infração sujeita a suspensão ou demissão) e de função comissionada (art. 127, VI)."
+335a328,332
+>      ],
+>      [
+>       "Interrupção da prescrição",
+>       "a abertura de sindicância ou a instauração de PAD interrompe a prescrição até a decisão final; interrompido o curso, o prazo começará a correr a partir do dia em que cessar a interrupção",
+>       "art. 142, §§ 3º e 4º"
+344c341
+<     "md": "A destituição de cargo em comissão exercido por não ocupante de cargo efetivo é aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão. Para a prescrição, o STJ lê os arts. 135 e 142 em conjunto: dois anos se a infração era punível com suspensão, cinco se com demissão (EDcl no MS 18.327/DF, DJe 20/2/2013; leitura jurisprudencial, não texto do art. 142)."
+---
+>     "md": "A destituição de cargo em comissão exercido por não ocupante de cargo efetivo é aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão (art. 135); constatada a hipótese, a exoneração já efetuada converte-se em destituição (parágrafo único). A ação disciplinar prescreve em cinco anos (art. 142, I). A destituição de função comissionada é penalidade autônoma (art. 127, VI), sem regra própria nos arts. 135 e 142."
+439,440c436,437
+<    "Lei 8.112/1990, arts. 116, 117, 127 a 136, 138, 139, 141 e 142 (art. 130, § 2º, conferido na Câmara dos Deputados em 28/10/2026; os demais, pela conferência do pacote em 20/10/2026 e pela conferência dirigida de 28/10/2026, texto atualizado da Câmara)",
+<    "STJ, EDcl no MS 18.327/DF, DJe 20/2/2013 (prescrição da destituição de cargo em comissão; conferência dirigida de 28/10/2026, inteiro teor no portal do STJ)",
+---
+>    "Lei 8.112/1990, arts. 116, 117, 127 a 136, 138, 139, 141 e 142 (texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026 pelo QA e pela produção, artigo a artigo)",
+>    "STJ, EDcl no MS 18.327/DF (leitura dos arts. 135 e 142 apontada pela conferência dirigida de 28/10/2026): NÃO entrou — não conferida no portal do STJ pela produção nem pelo QA; lacuna despachada à GCB",
+551c548
+<       "texto": "contraditório, provas, testemunhas e diligências; a lei não fixa número máximo de testemunhas (art. 156)"
+---
+>       "texto": "contraditório, provas, testemunhas e diligências; a lei não fixa número máximo de testemunhas (art. 156); pedidos impertinentes ou protelatórios podem ser denegados (§ 1º)"
+581c578,579
+<       "Na acumulação ilegal, o servidor pode optar por um dos cargos até o último dia da defesa, e o processo é arquivado"
+---
+>       "Defesa escrita em 5 dias (art. 133, § 2º); julgamento em 5 dias (§ 4º)",
+>       "Na acumulação ilegal, a opção até o último dia da defesa configura boa-fé e converte-se em pedido de exoneração do outro cargo (§ 5º)"
+584c582
+<     "pe": "O que muda é a comissão e o prazo; a ampla defesa é a mesma"
+---
+>     "pe": "Mudam a comissão e os prazos; a ampla defesa continua assegurada"
+619c617
+<      "Rito sumário: acumulação ilegal, abandono, inassiduidade; dois estáveis; 30 + 15 dias (arts. 133 e 140).",
+---
+>      "Rito sumário: acumulação ilegal, abandono, inassiduidade; dois estáveis; 30 + 15 dias; defesa e julgamento em 5 (arts. 133 e 140).",
+640c638
+<       "certo": "A lei **não fixa** número máximo de testemunhas (art. 156)."
+---
+>       "certo": "A lei **não fixa** número máximo (art. 156); o presidente pode denegar pedidos impertinentes ou protelatórios (§ 1º)."
+666c664
+<    "Lei 8.112/1990, arts. 133, 140, 143 a 156, 161, 164, 165, 167, 174, 175 e 182 (pela conferência do pacote em 20/10/2026 e pela conferência dirigida de 28/10/2026, texto atualizado da Câmara); STF, Súmula Vinculante 5",
+---
+>    "Lei 8.112/1990, arts. 133, 140, 143 a 156, 161, 164, 165, 167, 174, 175 e 182 (texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026 pelo QA e pela produção, artigo a artigo); STF, Súmula Vinculante 5",
+784c782
+<       "texto": "de ofício ou a pedido (art. 29); provas obtidas por meios ilícitos são inadmissíveis (art. 30); consulta pública a critério da autoridade (art. 32)"
+---
+>       "texto": "de ofício ou a pedido (art. 29); provas obtidas por meios ilícitos são inadmissíveis (art. 30); consulta pública, por despacho motivado, em matéria de interesse geral (art. 31); audiência pública, a juízo da autoridade (art. 32)"
+809c807
+<       "texto": "pela autoridade superior (art. 59, § 1º); no máximo três instâncias (art. 57); sem efeito suspensivo, salvo lei (art. 61)"
+---
+>       "texto": "pelo órgão competente, após o encaminhamento à autoridade superior (arts. 56, § 1º, e 59, § 1º); no máximo três instâncias, salvo lei (art. 57); sem efeito suspensivo, salvo lei (art. 61)"
+845c843
+<     "md": "O recurso tramita por, no máximo, três instâncias (art. 57). É interposto em dez dias (art. 59) e dirigido à autoridade que proferiu a decisão, que o reconsidera em cinco dias ou o encaminha à superior (art. 56, § 1º). Em regra não tem efeito suspensivo; a autoridade pode dá-lo de ofício ou a pedido, havendo justo receio de prejuízo de difícil ou incerta reparação (art. 61). Não é conhecido quando interposto fora do prazo, perante órgão incompetente, por quem não é legitimado ou após exaurida a esfera administrativa (art. 63); o não conhecimento não impede a revisão de ofício do ato ilegal, desde que não ocorrida a preclusão administrativa (§ 2º)."
+---
+>     "md": "O recurso tramita por, no máximo, três instâncias, salvo disposição legal diversa (art. 57). É interposto em dez dias (art. 59) e dirigido à autoridade que proferiu a decisão, que o reconsidera em cinco dias ou o encaminha à superior (art. 56, § 1º). Em regra não tem efeito suspensivo; a autoridade pode dá-lo de ofício ou a pedido, havendo justo receio de prejuízo de difícil ou incerta reparação (art. 61). Não é conhecido quando interposto fora do prazo, perante órgão incompetente, por quem não é legitimado ou após exaurida a esfera administrativa (art. 63); o não conhecimento não impede a revisão de ofício do ato ilegal, desde que não ocorrida a preclusão administrativa (§ 2º)."
+885c883
+<      "Recurso: dez dias (art. 59); reconsideração pela autoridade em cinco dias (art. 56, § 1º); três instâncias no máximo (art. 57).",
+---
+>      "Recurso: dez dias (art. 59); reconsideração pela autoridade em cinco dias (art. 56, § 1º); três instâncias, salvo lei diversa (art. 57).",
+900c898
+<       "certo": "O art. 32 trata da **consulta pública**; as alegações finais (dez dias) estão no **art. 44**."
+---
+>       "certo": "O art. 32 trata da **audiência pública** (a consulta pública é o art. 31); as alegações finais (dez dias) estão no **art. 44**."
+938c936
+<    "Lei 9.784/1999, arts. 1º, 2º, 5º, 6º, 9º, 10, 18 a 21, 24, 26, 29, 30, 32, 44, 47 a 50, 53, 54, 56, 57, 59, 61, 63, 66 e 69 (arts. 2º, parágrafo único, 32, 44, 56, § 1º, 59, 61 e 63, § 2º, conferidos na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026)",
+---
+>    "Lei 9.784/1999, arts. 1º, 2º, 5º, 6º, 9º, 10, 18 a 21, 24, 26, 29, 30, 31, 32, 44, 47 a 50, 53, 54, 56, 57, 59, 61, 63, 66 e 69 (todos conferidos no texto atualizado da Câmara dos Deputados, Legislação Informatizada, em 28/10/2026; art. 31 = consulta pública, art. 32 = audiência pública)",
+1078c1076
+<       "texto": "ordem, consentimento, fiscalização e sanção"
+---
+>       "texto": "ordem, consentimento, fiscalização e sanção; só a ordem (função legislativa) é indelegável (STF, Tema 532, Inf. 996)"
+1094c1092
+<     "md": "Tese: \"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.\" O caso julgado tratava da aplicação de multas de trânsito por sociedade de economia mista; os requisitos são cumulativos e a tese não autoriza delegação genérica a particulares."
+---
+>     "md": "Tese: \"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.\" O caso julgado tratava da aplicação de multas de trânsito por sociedade de economia mista; os requisitos são cumulativos e a tese não autoriza delegação genérica a particulares. No julgamento, o STF afirmou que a ordem de polícia (função legislativa) é a única fase absolutamente indelegável; consentimento, fiscalização e sanção podem ser delegados nas condições da tese (Informativo STF 996)."
+1154c1152
+<       "certo": "A tese do Tema 532 não limita a delegação a essas fases; o caso julgado era de **aplicação de multa**."
+---
+>       "certo": "O STF admite delegar consentimento, fiscalização e **sanção** (o caso era de multa); só a **ordem de polícia** é indelegável (Tema 532; Inf. 996)."
+1170c1168
+<       "certo": "Pode alcançar órgãos ou titulares **não subordinados**, quando conveniente (art. 12)."
+---
+>       "certo": "Pode alcançar órgãos ou titulares **não subordinados**, se não houver impedimento legal, por razões de índole técnica, social, econômica, jurídica ou territorial (art. 12)."
+1185c1183
+<    "STF, Tema 532 (RE 633.782): tese transcrita do portal do STF na conferência dirigida de 28/10/2026 (segunda leitura, confirmado em fonte primária); a reconferir pelo QA",
+---
+>    "STF, Tema 532 (RE 633.782): tese literal conferida no portal do STF em 28/10/2026 pelo QA; fases delegáveis conforme o Informativo STF 996 (conferido em 28/10/2026)",
+1247c1245
+<       "texto": "o agente atua fora de suas atribuições legais: vício de competência (Lei 4.717, art. 2º, a)"
+---
+>       "texto": "atua fora de suas atribuições: vício de competência (Lei 4.717, art. 2º, a); convalidável pela doutrina majoritária, salvo competência exclusiva ou em razão da matéria (ver 2.1)"
+1721c1719
+<     "md": "Tese: \"Em caso de inobservância de seu dever específico de proteção previsto no artigo 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.\" Quando há dever específico de proteção, a omissão pode gerar responsabilidade objetiva; ainda assim exigem-se o dano e o nexo entre a omissão e o resultado."
+---
+>     "md": "Tese: \"Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.\" Quando há dever específico de proteção, a omissão pode gerar responsabilidade objetiva; ainda assim exigem-se o dano e o nexo entre a omissão e o resultado."
+1770c1768
+<    "STF, Tema 592 (RE 841.526): tese conforme a notícia oficial do STF de 30/3/2016 e a reprodução pelo STJ (AgInt no REsp 2.106.935/SC), conferência dirigida de 28/10/2026; a reconferir pelo QA no portal do STF",
+---
+>    "STF, Tema 592 (RE 841.526): tese literal conferida no portal do STF (repercussão geral) em 28/10/2026 pela produção e pelo QA",
+1947c1945
+<     "titulo": "Da exclusão à atenuação",
+---
+>     "titulo": "Da exclusão ao que não afeta",
+1996c1994
+<     "md": "Força maior, fato de terceiro e culpa da vítima só excluem quando são a causa **exclusiva** do dano. Se o Estado concorreu para o resultado — uma enchente previsível sem drenagem, uma morte sob custódia com dever específico de proteção descumprido (Tema 592) — o nexo subsiste e, no máximo, a responsabilidade é atenuada."
+---
+>     "md": "Força maior, fato de terceiro e culpa da vítima só excluem quando são a causa **exclusiva** do dano. Se o Estado concorreu para o resultado — a morte sob custódia com dever específico de proteção descumprido (Tema 592) é o caso julgado — o nexo subsiste e, no máximo, a responsabilidade é atenuada."
+2033c2031
+<     "onde": "junto da escala Da exclusão à atenuação",
+---
+>     "onde": "junto da escala Da exclusão ao que não afeta",
+2040c2038
+<    "CF, art. 37, § 6º; Código Civil, art. 43; STF, Tema 592 (RE 841.526), conferência dirigida de 28/10/2026",
+---
+>    "CF, art. 37, § 6º; Código Civil, art. 43; STF, Tema 592 (RE 841.526), tese conferida no portal do STF em 28/10/2026",

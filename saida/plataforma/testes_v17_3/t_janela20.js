@@ -23,7 +23,7 @@ const COMBOS = [['cel-claro', { width: 390, height: 844 }, false], ['cel-escuro'
       const oraculo = tid => { const ult = {}; S.resp.filter(r => r.tp === tid).forEach(r => { ult[r.id] = r; }); const w = Object.values(ult).sort((a, b) => a.t - b.t).slice(-20); const k = Math.max(1, Math.min(20, itensDe(tid).length)); const c = w.filter(r => r.st === 'c').length, e = w.filter(r => r.st === 'e').length; return { n: w.length, c, e, k, completa: w.length >= k, pct: Math.round(100 * (c - e) / k), ids: w.map(r => r.id) }; };
       const bate = tid => { const o = oraculo(tid), nt = notaTopico(tid); return o.n === nt.n && o.c === nt.c && o.e === nt.e && o.k === nt.k && o.completa === nt.completa && (o.pct < 0 ? '−' + Math.abs(o.pct) : o.pct) + '%' === pctTxt(pctTopico(tp(tid))) && JSON.stringify(o.ids) === JSON.stringify(janela(tid).map(r => r.id)); };
       if (primeira) {
-        ok('0.const', JANELA === 20 && BLOCO === 10 && VERSAO_APP === 'v17.2', `JANELA=${JANELA} BLOCO=${BLOCO} ${VERSAO_APP}`);
+        ok('0.const', JANELA === 20 && BLOCO === 10 && /^v17\.(2|3)$/.test(VERSAO_APP), `JANELA=${JANELA} BLOCO=${BLOCO} ${VERSAO_APP}`);
         reset(); let nt = notaTopico(big.id);
         ok('1.zero', bate(big.id) && nt.n === 0 && nt.k === 20 && !nt.completa && pctTxt(pctTopico(tp(big.id))) === '0%' && statusNota(big.id) === '0 de 20 questões', JSON.stringify(nt) + ' ' + statusNota(big.id));
         reset(); resp(big.id, ids.slice(0, 10), (k, g) => k < 8 ? g : (g === 'C' ? 'E' : 'C')); nt = notaTopico(big.id);

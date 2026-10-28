@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""checa_resumo_visual.py — seção 3c da ESPEC_resumo_visual_DA_v3 (v1.1, após QA R1 D19): confere `topicos[id].resumoVisual`
+"""checa_resumo_visual.py — seção 3c da ESPEC_resumo_visual_DA_v3 (v1.2, após QA R1 da leva 2, I1 e I4): confere `topicos[id].resumoVisual`
 de um pacote (ou de um JSON {id: resumoVisual}).
 Uso: python3 -I checa_resumo_visual.py <pacote.json | resumo_visual.json> [--pacote pacote.json]
   --pacote: cruza cada dispositivo dos blocos `lei` com o `baseLegal` do mesmo tópico no pacote (ESPEC §5.7).
@@ -13,17 +13,32 @@ import json, re, sys, base64
 TIPOS = {"secao", "sub", "texto", "lista", "tabela", "compare", "fluxo", "esquema", "linha", "barras", "lei", "box", "piramide", "mapa", "dois", "escala", "linhaTempo", "relampago", "pegadinhas", "imagem"}
 ICONES = {"alvo", "pino", "balanca", "predio", "pessoas", "doc", "relogio", "cadeado", "aviso", "confere", "x", "raio", "chave", "livro", "seta", "engrenagem"}
 PROB = re.compile(r"ALT[IÍ]SSIMA|ALTA PROBABILIDADE|M[EÉ]DIA PROBABILIDADE|BAIXA PROBABILIDADE|probabilidade de cobran|pegadinha prov[áa]vel|cada vez mais cobrad|muito cobrad[oa]\b|cai (muito|sempre|direto)", re.I)
-VEDADOS = [re.compile(p, re.I) for p in (r"COFIFOMOB", r"qu[áa]druplo", r"contrato de desempenho", r"Funda[çc][ãa]o Banco do Brasil", r"\bOAB\b.{0,60}autarquia", r"autarquia.{0,60}\bOAB\b", r"\b(Vale|Embrapa|Embraer|Eletrobras)\b.{0,40}economia mista", r"(economia mista|\bSEM\b).{0,60}\b(Vale|Embrapa|Embraer|Eletrobras)\b", r"cai em toda prova|tema quente|certeza de cobran", r"incompet[êe]ncia.{0,30}insan[áa]vel", r"desvio de finalidade.{0,30}(é|e) san[áa]vel", r"a partir da EC ?19")]
+VEDADOS = [re.compile(p, re.I) for p in (r"COFIFOMOB", r"qu[áa]druplo", r"contrato de desempenho", r"Funda[çc][ãa]o Banco do Brasil", r"\bOAB\b.{0,60}autarquia", r"autarquia.{0,60}\bOAB\b", r"\b(Vale|Embrapa|Embraer|Eletrobras)\b.{0,40}economia mista", r"(economia mista|\bSEM\b).{0,60}\b(Vale|Embrapa|Embraer|Eletrobras)\b", r"cai em toda prova|tema quente|certeza de cobran", r"incompet[êe]ncia.{0,30}insan[áa]vel", r"desvio de finalidade.{0,30}(é|e) san[áa]vel", r"a partir da EC ?19",
+    # leva 2 (QA R1 I1, 28/10/2026): erros dos PDFs MapasPro e do parecer que não podem reaparecer
+    r"mais de sessenta dias|mais de 60 dias.{0,30}interpolad", r"(at[ée]|no m[áa]ximo) (dez|10) testemunhas", r"(apenas|somente|s[óo]) (o |as fases de )?consentimento e (a )?fiscaliza", r"art\. ?2º,? (XXI|XIV|XV|XVI|XVII|XVIII|XIX|XX)\b", r"art\. ?32[^;.,()]{0,40}consulta p[úu]blica", r"consulta p[úu]blica[^;.,()]{0,40}art\. ?32\b", r"art\. ?31[^;.,()]{0,40}audi[êe]ncia p[úu]blica", r"audi[êe]ncia p[úu]blica[^;.,()]{0,40}art\. ?31\b", r"Sistema S.{0,60}deleg", r"deleg.{0,60}Sistema S", r"art\. ?150.{0,40}impediment", r"art\. ?132,? par[áa]grafo [úu]nico", r"doze princ[íi]pios", r"(cinco|5) dias.{0,20}(para o interessado|do interessado).{0,30}reconsidera", r"(ordem|sanção) de pol[íi]cia.{0,40}\b(delegável|pode ser delegad)")]
+# teses literais conferidas em fonte oficial (portal do STF, 28/10/2026): qualquer "Tese: \"...\"" deve coincidir
+TESES = {
+    "Tema 532": "É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+    "Tema 592": "Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.",
+}
+TESE_RE = re.compile(r"Tese: ?\"([^\"]+)\"")
 EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2300-\u23FF\u2600-\u27BF\u2B00-\u2BFF\uFE0F]")
 PDF = re.compile(r"\bpp?\.\s?\d+\b|\bp[áa]g(ina|\.)\s?\d+|\bslide\s?\d+|p[áa]gina \d+ do (resumo|PDF)", re.I)
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-def frases(s): return len([x for x in re.split(r"[.!?](\s|$)", s) if x and x.strip()])
-def walk(o):
+ABREV = re.compile(r"(?i:\b(arts?|incs?|n|nº|p|pp|cf|ex|obs)\.(?=\s))|\b(\d+)\.(\d+)|(\b[A-Z])\.(?=\s?[A-Z])")  # sigla só em maiúscula (QA R1 leva 2, I4)
+def frases(s):
+    """conta frases sem cortar em abreviaturas (art., arts., inc.), em números (8.112, 5.1) nem em siglas (S.A.) — QA R1 T-150(b)"""
+    t = ABREV.sub(lambda m: m.group(0).replace(".", "·"), s)
+    return len([x for x in re.split(r"[.!?](\s|$)", t) if x and x.strip()])
+def walk(o, chave=None):
+    """percorre as strings do resumoVisual, com a chave de origem (`errado`, `fontes`, …) — v1.2 (QA R2 I5)"""
     if isinstance(o, dict):
-        for v in o.values(): yield from walk(v)
+        for k, v in o.items(): yield from walk(v, k)
     elif isinstance(o, list):
-        for v in o: yield from walk(v)
-    elif isinstance(o, str): yield o
+        for v in o: yield from walk(v, chave)
+    elif isinstance(o, str): yield chave, o
+def _walk_str(o):
+    for _, v in walk(o): yield v
 def norm(s): return re.sub(r"\s+", " ", (s or "")).strip()
 def refs_base_legal(topico):
     """{ref: (texto normalizado, literal)} dos dispositivos do baseLegal do tópico no pacote"""
@@ -43,12 +58,18 @@ def checa(tid, rv, topico=None):
     if rv.get("versao") != "v3": b("versao deve ser 'v3'")
     c = rv.get("cobranca")
     if not isinstance(c, dict) or not c.get("fonte") or not isinstance(c.get("itens"), int) or not isinstance(c.get("ce"), int): b("cobranca obrigatória: itens (int), ce (int) e fonte")
-    for s in walk(rv):
+    for chave, s in walk(rv):
         if PROB.search(s): b(f"termo de probabilidade: '{s[:70]}'")
-        for p in VEDADOS:
-            if p.search(s): b(f"termo vedado pela triagem ({p.pattern}): '{s[:70]}'")
+        if chave not in ("errado", "fontes"):  # `errado` é a afirmação deliberadamente falsa da pegadinha; `fontes` é nota de origem — só os VEDADOS os poupam
+            for p in VEDADOS:
+                if p.search(s): b(f"termo vedado pela triagem ({p.pattern}): '{s[:70]}'")
         if EMOJI.search(s): b(f"emoji: '{s[:70]}'")
         if PDF.search(s): b(f"referência a página/slide de PDF: '{s[:70]}'")
+        for m in TESE_RE.finditer(s.replace("“", "\"").replace("”", "\"")):
+            tx = m.group(1).strip()
+            if tx not in TESES.values():
+                nome = next((k for k in TESES if k in s), None)
+                b(f"tese transcrita não coincide com a literal conferida ({nome or 'tema não listado'}): '{tx[:70]}'")
     nimg = 0; tipos = []; base = refs_base_legal(topico) if topico is not None else None
     for i, bl in enumerate(rv.get("blocos", [])):
         t = bl.get("t"); tipos.append(t)
@@ -65,6 +86,7 @@ def checa(tid, rv, topico=None):
             for r in bl.get("linhas", []):
                 if len(r) != len(cols): b(f"bloco {i}: linha com {len(r)} células para {len(cols)} colunas")
         if t == "box" and bl.get("tipo") not in ("atencao", "regra", "exemplo"): b(f"bloco {i}: box.tipo inválido")
+        if t == "box" and not bl.get("rotulo"): a(f"bloco {i}: box sem rótulo")
         if t == "lei":
             for d in bl.get("dispositivos", []):
                 cf = d.get("conferido")
@@ -88,6 +110,7 @@ def checa(tid, rv, topico=None):
                 if not (2 <= n <= 7): b(f"bloco {i}: dois.{k} com {n} itens (2–7)")
         if t == "escala" and not (3 <= len(bl.get("pontos", [])) <= 6): b(f"bloco {i}: escala com {len(bl.get('pontos', []))} pontos (3–6)")
         if t == "linhaTempo" and not (3 <= len(bl.get("marcos", [])) <= 7): b(f"bloco {i}: linhaTempo com {len(bl.get('marcos', []))} marcos (3–7)")
+        if t == "linhaTempo" and any(not (m.get("quando") if isinstance(m, dict) else True) for m in bl.get("marcos", [])): a(f"bloco {i}: marco sem 'quando'")
         if t == "relampago":
             it = bl.get("itens", [])
             if not (6 <= len(it) <= 10): b(f"bloco {i}: relampago com {len(it)} frases (6–10)")

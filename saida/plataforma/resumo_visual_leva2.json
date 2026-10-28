@@ -1,0 +1,2041 @@
+{
+ "P1-DA-4.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 0,
+   "ce": 0,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Nenhuma questão enquadrada neste item; a banca cobra o tema pelos itens 4.2, 4.3 e 4.4."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "O que o edital chama de fontes",
+    "icone": "livro"
+   },
+   {
+    "t": "texto",
+    "md": "\"Fontes\" do direito administrativo disciplinar é rótulo do edital, sem texto próprio na norma. O regime disciplinar do servidor federal vem da Constituição (ampla defesa e contraditório, art. 5º, LV; estabilidade e perda do cargo, art. 41), da Lei 8.112/1990 (deveres, proibições, responsabilidades, penalidades, sindicância e processo disciplinar, arts. 116 a 182) e, subsidiariamente, da Lei 9.784/1999 (art. 69)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "De onde vêm as regras do regime disciplinar",
+    "centro": "Regime disciplinar federal",
+    "ramos": [
+     {
+      "titulo": "CF, art. 5º, LV",
+      "texto": "aos litigantes e aos acusados em geral, em processo judicial ou administrativo, são assegurados o contraditório e a ampla defesa"
+     },
+     {
+      "titulo": "CF, art. 41, § 1º, II",
+      "texto": "o servidor estável só perde o cargo, entre outras hipóteses, mediante processo administrativo em que lhe seja assegurada ampla defesa"
+     },
+     {
+      "titulo": "Lei 8.112/1990, arts. 116 a 142",
+      "texto": "deveres, proibições, acumulação, responsabilidades e penalidades"
+     },
+     {
+      "titulo": "Lei 8.112/1990, arts. 143 a 182",
+      "texto": "sindicância, processo disciplinar, rito sumário e revisão"
+     },
+     {
+      "titulo": "Lei 9.784/1999, art. 69",
+      "texto": "processos específicos seguem a lei própria; a Lei 9.784 só se aplica subsidiariamente"
+     },
+     {
+      "titulo": "STF, Súmula Vinculante 5",
+      "texto": "a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição"
+     }
+    ],
+    "legenda": "A lei própria vem primeiro; a Lei 9.784 preenche o que a Lei 8.112 não regula."
+   },
+   {
+    "t": "secao",
+    "titulo": "Princípios que a banca cobra",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "A Lei 9.784/1999, art. 2º, caput, enumera **onze** princípios, em rol exemplificativo: legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência. O parágrafo único traz critérios, também exemplificativos, como a adequação entre meios e fins e a garantia dos direitos à comunicação, às alegações finais, à produção de provas e aos recursos."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Onze, não doze",
+    "md": "\"Devido processo legal\" e \"oficialidade\" não estão no caput do art. 2º da Lei 9.784: o devido processo é garantia constitucional (CF, art. 5º, LIV) e a impulsão de ofício é critério do parágrafo único (inciso XII). O caput tem onze princípios, e o rol diz \"dentre outros\"."
+   },
+   {
+    "titulo": "Fatores da penalidade (Lei 8.112, art. 128, caput)",
+    "centro": "Aplicação das penalidades",
+    "ramos": [
+     "Natureza e gravidade da infração cometida",
+     "Danos que dela provierem para o serviço público",
+     "Circunstâncias agravantes ou atenuantes",
+     "Antecedentes funcionais"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "dois",
+    "titulo": "Independência das instâncias (Lei 8.112, arts. 125 e 126)",
+    "a": {
+     "titulo": "Regra: independentes",
+     "itens": [
+      "Civil, penal e administrativa podem cumular-se (art. 125)",
+      "A absolvição penal por falta de provas não afasta a sanção administrativa",
+      "A sindicância ou o PAD não esperam o processo criminal"
+     ]
+    },
+    "b": {
+     "titulo": "Exceção: a absolvição que nega o fato ou a autoria",
+     "itens": [
+      "Só a absolvição criminal que negue a existência do fato ou sua autoria afasta a responsabilidade administrativa (art. 126)",
+      "Negar a culpa ou absolver por insuficiência de provas não basta"
+     ]
+    },
+    "pe": "Mesmo fato, três esferas; só a negativa do fato ou da autoria comunica a absolvição"
+   },
+   {
+    "t": "lei",
+    "titulo": "Apuração, independência das instâncias e aplicação subsidiária",
+    "norma": "Lei 8.112/1990 e Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 143, caput",
+      "texto": "Art. 143. A autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover a sua apuração imediata, mediante sindicância ou processo administrativo disciplinar, assegurada ao acusado ampla defesa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 125",
+      "texto": "Art. 125. As sanções civis, penais e administrativas poderão cumular-se, sendo independentes entre si.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 126",
+      "texto": "Art. 126. A responsabilidade administrativa do servidor será afastada no caso de absolvição criminal que negue a existência do fato ou sua autoria.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 69",
+      "texto": "Art. 69. Os processos administrativos específicos continuarão a reger-se por lei própria, aplicando-se-lhes apenas subsidiariamente os preceitos desta Lei.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "\"Fontes\" é rótulo do edital: CF (arts. 5º, LV, e 41), Lei 8.112 (arts. 116 a 182) e Lei 9.784 só subsidiária (art. 69).",
+     "Ciência de irregularidade obriga a apuração imediata, por sindicância ou PAD, com ampla defesa (Lei 8.112, art. 143).",
+     "Quatro fatores na dosagem da pena: natureza e gravidade, danos ao serviço, agravantes/atenuantes, antecedentes (art. 128).",
+     "O ato de imposição da penalidade menciona sempre o fundamento legal e a causa da sanção (art. 128, parágrafo único).",
+     "Instâncias independentes e cumuláveis (art. 125); só a absolvição que nega o fato ou a autoria afasta a administrativa (art. 126).",
+     "Lei 9.784, art. 2º: onze princípios no caput, rol exemplificativo; devido processo e oficialidade não estão no caput.",
+     "No PAD, a falta de advogado não ofende a Constituição (Súmula Vinculante 5)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A Lei 9.784/1999 enumera doze princípios no caput do art. 2º, entre eles o devido processo legal.",
+      "certo": "São **onze**; o devido processo legal é garantia da CF (art. 5º, LIV), não consta do caput."
+     },
+     {
+      "errado": "A absolvição criminal por insuficiência de provas afasta a responsabilidade administrativa.",
+      "certo": "Só a absolvição que **negue a existência do fato ou sua autoria** afasta (art. 126)."
+     },
+     {
+      "errado": "A Lei 9.784 prevalece sobre a Lei 8.112 no processo disciplinar.",
+      "certo": "Os processos específicos seguem a lei própria; a Lei 9.784 aplica-se só subsidiariamente (art. 69)."
+     },
+     {
+      "errado": "A autoridade pode aguardar o fim do processo criminal para apurar a infração disciplinar.",
+      "certo": "A apuração é **imediata** (art. 143), e as instâncias são independentes (art. 125)."
+     },
+     {
+      "errado": "A ausência de advogado no PAD anula o processo.",
+      "certo": "Não ofende a Constituição (Súmula Vinculante 5); o acusado pode defender-se pessoalmente."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, esquema e baseLegal de P1-DA-4.1",
+   "CF, art. 5º, LIV e LV, art. 41, § 1º; Lei 8.112/1990, arts. 125, 126, 128 e 143; Lei 9.784/1999, arts. 2º e 69 (texto conferido na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026); STF, Súmula Vinculante 5",
+   "MapasPro — Lei 8.112/90 (seções 11 e 13) e Lei do Processo Administrativo (seção 3), conferidos e corrigidos (ver triagem)"
+  ]
+ },
+ "P1-DA-4.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 27,
+   "ce": 23,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Onde estão os tipos e as penas",
+    "icone": "cadeado"
+   },
+   {
+    "t": "texto",
+    "md": "O conceito de ilícito disciplinar é doutrinário: a Lei 8.112 traz os tipos nos **deveres** (art. 116), nas **proibições** (art. 117) e nas hipóteses de **demissão** (art. 132), e as penalidades no art. 127. A multa aparece só como conversão da suspensão (art. 130, § 2º)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Mapa do regime disciplinar na Lei 8.112",
+    "centro": "Ilícito disciplinar",
+    "ramos": [
+     {
+      "titulo": "Deveres (art. 116)",
+      "texto": "doze incisos: zelo, lealdade às instituições, cumprir ordens superiores, exceto as manifestamente ilegais, representar contra ilegalidade, entre outros"
+     },
+     {
+      "titulo": "Proibições (art. 117)",
+      "texto": "dezenove incisos: ausentar-se sem autorização, nepotismo na chefia (VIII), valer-se do cargo (IX), gerência de sociedade (X), propina (XII), usura (XIV), desídia (XV)"
+     },
+     {
+      "titulo": "Penalidades (art. 127)",
+      "texto": "advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão, destituição de função comissionada"
+     },
+     {
+      "titulo": "Dosagem (art. 128)",
+      "texto": "natureza e gravidade, danos ao serviço, agravantes e atenuantes, antecedentes; o ato de punição cita o fundamento legal e a causa"
+     },
+     {
+      "titulo": "Demissão (art. 132)",
+      "texto": "treze hipóteses: crime contra a administração, abandono, inassiduidade, improbidade, insubordinação grave, corrupção, acumulação ilegal, art. 117, IX a XVI, entre outras"
+     },
+     {
+      "titulo": "Prescrição (art. 142)",
+      "texto": "5 anos (demissão, cassação, destituição de cargo em comissão), 2 anos (suspensão), 180 dias (advertência); corre do conhecimento do fato"
+     }
+    ]
+   },
+   {
+    "titulo": "Advertência × suspensão × demissão (Lei 8.112)",
+    "colunas": [
+     "Aspecto",
+     "Advertência (art. 129)",
+     "Suspensão (art. 130)",
+     "Demissão (arts. 132 e 136)"
+    ],
+    "linhas": [
+     [
+      "Quando cabe",
+      "Violação das proibições do art. 117, I a VIII e XIX, e inobservância de dever funcional, sem justificar penalidade mais grave",
+      "Reincidência das faltas punidas com advertência e violação das demais proibições que não tipifiquem demissão",
+      "Hipóteses do art. 132, I a XIII, entre elas crime contra a administração pública, abandono de cargo e improbidade administrativa"
+     ],
+     [
+      "Forma ou limite",
+      "Aplicada por escrito",
+      "Não pode exceder 90 dias; até 15 dias na recusa a inspeção médica (§ 1º); conversível em multa de 50% por dia (§ 2º)",
+      "Nos casos dos incisos IV, VIII, X e XI do art. 132, implica indisponibilidade dos bens e ressarcimento ao erário (art. 136)"
+     ],
+     [
+      "Cancelamento do registro (art. 131)",
+      "Após 3 anos de efetivo exercício sem nova infração",
+      "Após 5 anos de efetivo exercício sem nova infração",
+      "Não consta do art. 131"
+     ],
+     [
+      "Prescrição da ação disciplinar (art. 142)",
+      "180 dias",
+      "2 anos",
+      "5 anos"
+     ],
+     [
+      "Competência (art. 141)",
+      "Chefe da repartição e outras autoridades, na forma dos regimentos ou regulamentos",
+      "Até 30 dias: chefe da repartição; mais de 30 dias: autoridade de hierarquia imediatamente inferior à do inciso I",
+      "Presidente da República, Presidentes das Casas do Poder Legislativo e dos Tribunais Federais e Procurador-Geral da República"
+     ]
+    ],
+    "legenda": "A cassação de aposentadoria ou disponibilidade e a destituição de cargo em comissão prescrevem em 5 anos, como a demissão (art. 142, I).",
+    "t": "tabela"
+   },
+   {
+    "t": "secao",
+    "titulo": "Qual proibição leva a qual pena",
+    "icone": "balanca"
+   },
+   {
+    "t": "escala",
+    "titulo": "Do mais leve ao mais grave",
+    "esquerda": "Advertência",
+    "direita": "Demissão",
+    "pontos": [
+     {
+      "rotulo": "Advertência",
+      "texto": "por escrito; art. 117, I a VIII e XIX, e dever funcional sem pena mais grave (art. 129)"
+     },
+     {
+      "rotulo": "Suspensão",
+      "texto": "reincidência em falta de advertência e demais proibições que não tipifiquem demissão; até 90 dias (art. 130)"
+     },
+     {
+      "rotulo": "Demissão",
+      "texto": "hipóteses do art. 132; inclui a transgressão do art. 117, IX a XVI (inciso XIII)"
+     }
+    ],
+    "legenda": "Entre a advertência e a suspensão, o critério é o inciso do art. 117; entre a suspensão e a demissão, o art. 132. Fora da gradação: cassação de aposentadoria ou disponibilidade (art. 134, infração punível com demissão praticada na atividade) e destituição de cargo em comissão (art. 135, infração sujeita a suspensão ou demissão) e de função comissionada (art. 127, VI)."
+   },
+   {
+    "t": "tabela",
+    "titulo": "Prazos que a banca cobra (arts. 130, 131, 138, 139 e 142)",
+    "colunas": [
+     "O quê",
+     "Número",
+     "Artigo"
+    ],
+    "linhas": [
+     [
+      "Suspensão: limite",
+      "90 dias; na recusa injustificada a inspeção médica, até 15 dias, cessando com o cumprimento",
+      "art. 130, caput e § 1º"
+     ],
+     [
+      "Conversão da suspensão em multa",
+      "50% por dia de vencimento ou remuneração, com o servidor em serviço, quando houver conveniência para o serviço",
+      "art. 130, § 2º"
+     ],
+     [
+      "Cancelamento do registro",
+      "advertência: 3 anos; suspensão: 5 anos de efetivo exercício sem nova infração",
+      "art. 131"
+     ],
+     [
+      "Abandono de cargo",
+      "ausência intencional por mais de 30 dias consecutivos",
+      "art. 138"
+     ],
+     [
+      "Inassiduidade habitual",
+      "falta sem causa justificada por 60 dias, interpoladamente, em 12 meses",
+      "art. 139"
+     ],
+     [
+      "Prescrição da ação disciplinar",
+      "5 anos, 2 anos, 180 dias; começa a correr da data em que o fato se tornou conhecido",
+      "art. 142, I a III e § 1º"
+     ],
+     [
+      "Interrupção da prescrição",
+      "a abertura de sindicância ou a instauração de PAD interrompe a prescrição até a decisão final; interrompido o curso, o prazo começará a correr a partir do dia em que cessar a interrupção",
+      "art. 142, §§ 3º e 4º"
+     ]
+    ],
+    "legenda": "Os prazos de prescrição previstos na lei penal aplicam-se às infrações disciplinares capituladas também como crime (art. 142, § 2º)."
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Destituição de cargo em comissão (art. 135)",
+    "md": "A destituição de cargo em comissão exercido por não ocupante de cargo efetivo é aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão (art. 135); constatada a hipótese, a exoneração já efetuada converte-se em destituição (parágrafo único). A ação disciplinar prescreve em cinco anos (art. 142, I). A destituição de função comissionada é penalidade autônoma (art. 127, VI), sem regra própria nos arts. 135 e 142."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Demissão com efeitos patrimoniais (art. 136)",
+    "md": "A demissão ou a destituição de cargo em comissão por improbidade administrativa, aplicação irregular de dinheiros públicos, lesão aos cofres públicos ou corrupção (art. 132, IV, VIII, X e XI) implica a indisponibilidade dos bens e o ressarcimento ao erário, sem prejuízo da ação penal. O dispositivo é o art. 136, não um parágrafo do art. 132."
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da lei sobre advertência, suspensão, abandono e inassiduidade",
+    "norma": "Lei 8.112/1990",
+    "dispositivos": [
+     {
+      "ref": "Lei 8.112/1990, art. 129, caput",
+      "texto": "Art. 129. A advertência será aplicada por escrito, nos casos de violação de proibição constante do art. 117, incisos I a VIII e XIX, e de inobservância de dever funcional previsto em lei, regulamentação ou norma interna, que não justifique imposição de penalidade mais grave.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 130, caput",
+      "texto": "Art. 130. A suspensão será aplicada em caso de reincidência das faltas punidas com advertência e de violação das demais proibições que não tipifiquem infração sujeita a penalidade de demissão, não podendo exceder de 90 (noventa) dias.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 138",
+      "texto": "Art. 138. Configura abandono de cargo a ausência intencional do servidor ao serviço por mais de trinta dias consecutivos.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 8.112/1990, art. 139",
+      "texto": "Art. 139. Entende-se por inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Tipos: deveres (art. 116), proibições (art. 117), demissão (art. 132); penas no art. 127; multa só como conversão da suspensão.",
+     "Advertência: art. 117, I a VIII e XIX, e dever funcional sem pena maior (art. 129). Prescreve em 180 dias; cancela em 3 anos.",
+     "Suspensão: reincidência e demais proibições; até 90 dias (art. 130). Prescreve em 2 anos; cancela em 5.",
+     "Demissão: treze hipóteses do art. 132; inclui a transgressão do art. 117, IX a XVI. Prescreve em 5 anos; não cancela.",
+     "Abandono: mais de 30 dias consecutivos (art. 138). Inassiduidade: 60 dias interpolados em 12 meses (art. 139).",
+     "A prescrição corre da data em que o fato se tornou conhecido (art. 142, § 1º); crime segue o prazo penal (§ 2º).",
+     "Cassação de aposentadoria: infração na atividade punível com demissão (art. 134). Destituição: art. 135.",
+     "Improbidade, aplicação irregular, lesão aos cofres e corrupção: indisponibilidade de bens e ressarcimento (art. 136)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A inassiduidade habitual exige mais de sessenta dias de falta interpolados em doze meses.",
+      "certo": "**Sessenta** dias já bastam: \"por sessenta dias, interpoladamente\" (art. 139)."
+     },
+     {
+      "errado": "O abandono de cargo configura-se com trinta dias de ausência.",
+      "certo": "Ausência intencional por **mais de** trinta dias consecutivos (art. 138)."
+     },
+     {
+      "errado": "A multa é penalidade autônoma do art. 127.",
+      "certo": "A multa é só a conversão da suspensão, a 50% por dia de vencimento ou remuneração, com o servidor em serviço (art. 130, § 2º)."
+     },
+     {
+      "errado": "A advertência prescreve em dois anos.",
+      "certo": "Em **180 dias** (art. 142, III); dois anos é a suspensão (II)."
+     },
+     {
+      "errado": "O servidor que procede de forma desidiosa fica sujeito a suspensão.",
+      "certo": "A desídia é o art. 117, XV, que está entre os incisos IX a XVI: a pena é **demissão** (art. 132, XIII)."
+     },
+     {
+      "errado": "O registro da demissão é cancelado após cinco anos sem nova infração.",
+      "certo": "O art. 131 só cancela os registros de **advertência** (3 anos) e **suspensão** (5 anos)."
+     },
+     {
+      "errado": "O prazo de prescrição corre da data da infração.",
+      "certo": "Corre da data em que o fato se tornou **conhecido** (art. 142, § 1º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da escala Do mais leve ao mais grave",
+    "oQue": "três degraus com as penas e, em cada degrau, a porta de entrada (inciso do art. 117 ou do art. 132)",
+    "porQue": "a banca troca a pena pela proibição; a imagem fixa qual inciso leva a qual pena"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, tabela e baseLegal de P1-DA-4.2",
+   "Lei 8.112/1990, arts. 116, 117, 127 a 136, 138, 139, 141 e 142 — texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026",
+   "MapasPro — Lei 8.112/90 (seções 9 a 12), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-4.3": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 16,
+   "ce": 13,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Sindicância e processo disciplinar",
+    "icone": "doc"
+   },
+   {
+    "t": "texto",
+    "md": "A autoridade que tiver ciência de irregularidade é obrigada a promover a apuração imediata, por sindicância ou processo administrativo disciplinar (art. 143). A sindicância pode terminar em arquivamento, em advertência ou suspensão de até 30 dias, ou na instauração do PAD (art. 145); o PAD é obrigatório quando o ilícito ensejar suspensão por mais de 30 dias, demissão, cassação ou destituição de cargo em comissão (art. 146)."
+   },
+   {
+    "titulo": "Sindicância × processo disciplinar (Lei 8.112)",
+    "a": "Sindicância (arts. 145 e 154)",
+    "b": "Processo disciplinar (arts. 146 a 152)",
+    "linhas": [
+     [
+      "Resultado ou cabimento",
+      "Arquivamento, advertência ou suspensão de até 30 dias, ou instauração de processo disciplinar (art. 145, caput)",
+      "Obrigatório quando o ilícito ensejar suspensão por mais de 30 dias, demissão, cassação de aposentadoria ou disponibilidade ou destituição de cargo em comissão (art. 146)"
+     ],
+     [
+      "Prazo",
+      "Até 30 dias, prorrogável por igual período, a critério da autoridade superior (art. 145, parágrafo único)",
+      "Até 60 dias, contados da publicação do ato que constituir a comissão, prorrogável por igual prazo, quando as circunstâncias o exigirem (art. 152, caput)"
+     ],
+     [
+      "Relação entre eles",
+      "Os autos integram o processo disciplinar, como peça informativa da instrução (art. 154)",
+      "Instrumento destinado a apurar a responsabilidade do servidor por infração (art. 148), em três fases (art. 151)"
+     ],
+     [
+      "Indício de crime",
+      "Se o relatório concluir pelo ilícito penal, a autoridade encaminha cópia dos autos ao Ministério Público, independentemente da imediata instauração do processo disciplinar (art. 154, parágrafo único)",
+      "Infração capitulada como crime: o processo é remetido ao Ministério Público para a ação penal, ficando trasladado na repartição (art. 171)"
+     ]
+    ],
+    "legenda": "O rito sumário (arts. 133 e 140) tem comissão de dois servidores estáveis e prazo de 30 dias, prorrogável por até quinze.",
+    "t": "compare"
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Do conhecimento do fato ao julgamento (Lei 8.112)",
+    "marcos": [
+     {
+      "quando": "Ciência",
+      "titulo": "Apuração imediata",
+      "texto": "sindicância ou PAD, assegurada ampla defesa (art. 143)"
+     },
+     {
+      "quando": "30 + 30 dias",
+      "titulo": "Sindicância",
+      "texto": "arquivamento, advertência ou suspensão de até 30 dias, ou instauração de PAD (art. 145); prorrogável por igual período (parágrafo único)"
+     },
+     {
+      "quando": "Dia 0 do PAD",
+      "titulo": "Instauração",
+      "texto": "publicação do ato que constitui a comissão de três servidores estáveis (arts. 149 e 151, I)"
+     },
+     {
+      "quando": "60 + 60 dias",
+      "titulo": "Inquérito administrativo",
+      "texto": "instrução, defesa e relatório (art. 151, II); prazo contado da publicação do ato que constitui a comissão (art. 152)"
+     },
+     {
+      "quando": "10 ou 20 dias",
+      "titulo": "Defesa escrita",
+      "texto": "10 dias para um indiciado; 20 dias, comuns, para dois ou mais (art. 161, §§ 1º e 2º); revelia: defensor dativo (art. 164)"
+     },
+     {
+      "quando": "20 dias",
+      "titulo": "Julgamento",
+      "texto": "contados do recebimento do processo pela autoridade julgadora (art. 167)"
+     }
+    ],
+    "legenda": "O rito sumário (acumulação ilegal, abandono e inassiduidade) tem comissão de dois estáveis e 30 dias, prorrogáveis por até 15 (arts. 133 e 140)."
+   },
+   {
+    "t": "secao",
+    "titulo": "Comissão, instrução e defesa",
+    "icone": "pessoas"
+   },
+   {
+    "t": "mapa",
+    "titulo": "A comissão do PAD (arts. 149 a 156)",
+    "centro": "Comissão processante",
+    "ramos": [
+     {
+      "titulo": "Três servidores estáveis",
+      "texto": "designados pela autoridade competente; o presidente é ocupante de cargo efetivo superior ou de mesmo nível, ou com escolaridade igual ou superior à do indiciado (art. 149)"
+     },
+     {
+      "titulo": "Impedimentos (art. 149, § 2º)",
+      "texto": "não pode participar cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral, até o terceiro grau"
+     },
+     {
+      "titulo": "Independência (art. 150)",
+      "texto": "a comissão exerce suas atividades com independência e imparcialidade; as reuniões e audiências têm caráter reservado"
+     },
+     {
+      "titulo": "Instrução (arts. 153 a 160)",
+      "texto": "contraditório, provas, testemunhas e diligências; a lei não fixa número máximo de testemunhas (art. 156); pedidos impertinentes ou protelatórios podem ser denegados (§ 1º)"
+     },
+     {
+      "titulo": "Indiciação e defesa (arts. 161 a 164)",
+      "texto": "citação para defesa escrita em 10 dias; 20 dias, comuns, para dois ou mais indiciados; revelia: defensor dativo"
+     },
+     {
+      "titulo": "Relatório (art. 165)",
+      "texto": "conclusivo quanto à inocência ou à responsabilidade; indica o dispositivo transgredido e as circunstâncias"
+     }
+    ]
+   },
+   {
+    "t": "dois",
+    "titulo": "Rito ordinário × rito sumário",
+    "a": {
+     "titulo": "Rito ordinário (arts. 148 a 167)",
+     "itens": [
+      "Comissão de três servidores estáveis",
+      "60 dias, prorrogáveis por igual prazo (art. 152)",
+      "Defesa em 10 ou 20 dias (art. 161)",
+      "Julgamento em 20 dias (art. 167)"
+     ]
+    },
+    "b": {
+     "titulo": "Rito sumário (arts. 133 e 140)",
+     "itens": [
+      "Acumulação ilegal de cargos, abandono de cargo e inassiduidade habitual",
+      "Comissão de dois servidores estáveis",
+      "30 dias, prorrogáveis por até 15",
+      "Defesa escrita em 5 dias (art. 133, § 2º); julgamento em 5 dias (§ 4º)",
+      "Na acumulação ilegal, a opção até o último dia da defesa configura boa-fé e converte-se em pedido de exoneração do outro cargo (§ 5º)"
+     ]
+    },
+    "pe": "Mudam a comissão e os prazos; a ampla defesa continua assegurada"
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Revisão do processo (arts. 174 a 182)",
+    "md": "O processo disciplinar pode ser revisto, a qualquer tempo, a pedido ou de ofício, quando se aduzirem fatos novos ou circunstâncias suscetíveis de justificar a inocência do punido ou a inadequação da penalidade. O ônus da prova cabe ao requerente (art. 175), e da revisão não pode resultar agravamento da penalidade (art. 182, parágrafo único)."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Sem advogado, sem nulidade",
+    "md": "A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição (Súmula Vinculante 5). O que não pode faltar é a oportunidade de defesa: citação, prazo e vista dos autos."
+   },
+   {
+    "titulo": "Fases do processo disciplinar: 60 dias, prorrogáveis por igual prazo (arts. 151 e 152)",
+    "passos": [
+     "Instauração: ato que constitui a comissão",
+     "Inquérito: instrução (arts. 153 a 160)",
+     "Inquérito: indiciação e defesa (10 dias)",
+     "Inquérito: relatório conclusivo da comissão",
+     "Julgamento: decisão em 20 dias (art. 167)"
+    ],
+    "t": "fluxo"
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Apuração imediata e obrigatória: sindicância ou PAD, com ampla defesa (art. 143).",
+     "Sindicância: 30 + 30 dias; resultado: arquivamento, advertência ou suspensão de até 30 dias, ou PAD (art. 145).",
+     "PAD obrigatório: suspensão > 30 dias, demissão, cassação, destituição de cargo em comissão (art. 146).",
+     "Três fases: instauração, inquérito (instrução, defesa, relatório) e julgamento (art. 151).",
+     "Comissão: três estáveis; presidente de nível ou escolaridade igual ou superior; parentes até 3º grau impedidos (art. 149).",
+     "PAD: 60 + 60 dias da publicação do ato que constitui a comissão (art. 152); julgamento em 20 dias (art. 167).",
+     "Defesa escrita: 10 dias; 20 comuns se dois ou mais indiciados (art. 161); revel: defensor dativo (art. 164).",
+     "Rito sumário: acumulação ilegal, abandono, inassiduidade; dois estáveis; 30 + 15 dias; defesa e julgamento em 5 (arts. 133 e 140).",
+     "Revisão: a qualquer tempo, ônus do requerente, sem agravar a pena (arts. 174, 175 e 182)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O prazo de defesa escrita no PAD é de dez dias, qualquer que seja o número de indiciados.",
+      "certo": "Dez dias para um indiciado; **vinte dias, comuns**, se houver dois ou mais (art. 161, §§ 1º e 2º)."
+     },
+     {
+      "errado": "O prazo do PAD conta-se da data do fato.",
+      "certo": "Sessenta dias contados da **publicação do ato que constituir a comissão** (art. 152)."
+     },
+     {
+      "errado": "A sindicância não pode aplicar penalidade.",
+      "certo": "Pode resultar em advertência ou suspensão de **até 30 dias** (art. 145, II)."
+     },
+     {
+      "errado": "A comissão do PAD pode ouvir no máximo dez testemunhas por fato.",
+      "certo": "A lei **não fixa** número máximo (art. 156); o presidente pode denegar pedidos impertinentes ou protelatórios (§ 1º)."
+     },
+     {
+      "errado": "A revisão do processo pode agravar a penalidade.",
+      "certo": "Da revisão **não pode resultar agravamento** (art. 182, parágrafo único)."
+     },
+     {
+      "errado": "O julgamento deve ocorrer em sessenta dias.",
+      "certo": "A autoridade julgadora decide em **20 dias** do recebimento do processo (art. 167)."
+     },
+     {
+      "errado": "Qualquer servidor pode integrar a comissão do PAD.",
+      "certo": "Três servidores **estáveis**, sem parentesco até o terceiro grau com o acusado (art. 149)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da linha do tempo",
+    "oQue": "uma régua de prazos com quatro marcas: 30+30 (sindicância), 60+60 (PAD), 10/20 (defesa) e 20 (julgamento)",
+    "porQue": "os quatro números são trocados entre si pela banca"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e fluxo de P1-DA-4.3",
+   "Lei 8.112/1990, arts. 133, 140, 143 a 156, 161, 164, 165, 167, 174, 175 e 182 — texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026; STF, Súmula Vinculante 5",
+   "MapasPro — Lei 8.112/90 (seção 13), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-4.4": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 56,
+   "ce": 47,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Âmbito e princípios",
+    "icone": "livro"
+   },
+   {
+    "t": "texto",
+    "md": "A Lei 9.784/1999 estabelece normas básicas sobre o processo administrativo na Administração Federal direta e indireta (art. 1º); seus preceitos também se aplicam aos órgãos dos Poderes Legislativo e Judiciário da União, no desempenho de função administrativa (§ 1º). O processo pode iniciar-se de ofício ou a pedido de interessado (art. 5º); são capazes, para fins de processo administrativo, os maiores de dezoito anos (art. 10)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "A quem e a quê a lei se aplica",
+    "centro": "Lei 9.784/1999",
+    "ramos": [
+     {
+      "titulo": "Administração Federal",
+      "texto": "direta e indireta (art. 1º); Legislativo e Judiciário da União em função administrativa (§ 1º)"
+     },
+     {
+      "titulo": "Órgão, entidade, autoridade",
+      "texto": "unidade sem personalidade; unidade com personalidade; servidor com poder de decisão (art. 1º, § 2º)"
+     },
+     {
+      "titulo": "Interessados (art. 9º)",
+      "texto": "quem inicia o processo, quem tem direitos ou interesses que possam ser afetados, organizações e associações (interesses coletivos) e pessoas ou associações (interesses difusos)"
+     },
+     {
+      "titulo": "Início (art. 5º)",
+      "texto": "de ofício ou a pedido; requerimento por escrito, salvo solicitação oral admitida (art. 6º)"
+     },
+     {
+      "titulo": "Processos específicos (art. 69)",
+      "texto": "seguem a lei própria; a Lei 9.784 é subsidiária"
+     },
+     {
+      "titulo": "Capacidade (art. 10)",
+      "texto": "maiores de dezoito anos, ressalvada previsão especial em ato normativo próprio"
+     }
+    ]
+   },
+   {
+    "t": "lista",
+    "itens": [
+     "Os **onze** princípios do art. 2º, caput: legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência — \"dentre outros\".",
+     "Critérios do parágrafo único (I a XIII): atuação conforme a lei e o Direito; objetividade; adequação entre meios e fins; impulsão de ofício (XII); interpretação que melhor garanta o fim público (XIII)."
+    ]
+   },
+   {
+    "t": "secao",
+    "titulo": "Prazos e fases",
+    "icone": "relogio"
+   },
+   {
+    "titulo": "Prazos do processo administrativo federal",
+    "colunas": [
+     "Ato ou situação",
+     "Prazo",
+     "Dispositivo"
+    ],
+    "linhas": [
+     [
+      "Atos do órgão e dos administrados, sem disposição específica",
+      "Cinco dias, dilatável até o dobro, mediante comprovada justificação",
+      "Art. 24"
+     ],
+     [
+      "Antecedência da intimação para comparecimento",
+      "Mínima de três dias úteis",
+      "Art. 26, § 2º"
+     ],
+     [
+      "Manifestação do interessado após encerrada a instrução",
+      "Máximo de dez dias, salvo outro prazo legalmente fixado",
+      "Art. 44"
+     ],
+     [
+      "Decisão após concluída a instrução",
+      "Até trinta dias, salvo prorrogação por igual período expressamente motivada",
+      "Art. 49"
+     ],
+     [
+      "Interposição do recurso administrativo",
+      "Dez dias, contados da ciência ou divulgação oficial da decisão recorrida",
+      "Art. 59, caput"
+     ],
+     [
+      "Reconsideração e decisão do recurso",
+      "Cinco dias para a autoridade reconsiderar; trinta dias para decidir o recurso, prorrogáveis por igual período",
+      "Art. 56, § 1º; art. 59, §§ 1º e 2º"
+     ]
+    ],
+    "legenda": "Os prazos em dias contam-se de modo contínuo, excluído o dia do começo e incluído o do vencimento (art. 66).",
+    "t": "tabela"
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Do pedido à decisão do recurso (Lei 9.784)",
+    "marcos": [
+     {
+      "quando": "Início",
+      "titulo": "Instauração",
+      "texto": "de ofício ou a pedido (art. 5º); impedimento e suspeição do servidor (arts. 18 a 21)"
+     },
+     {
+      "quando": "Instrução",
+      "titulo": "Provas e diligências",
+      "texto": "de ofício ou a pedido (art. 29); provas obtidas por meios ilícitos são inadmissíveis (art. 30); consulta pública, por despacho motivado, em matéria de interesse geral (art. 31); audiência pública, a juízo da autoridade (art. 32)"
+     },
+     {
+      "quando": "Até 10 dias",
+      "titulo": "Alegações finais",
+      "texto": "encerrada a instrução, o interessado manifesta-se em até dez dias, salvo outro prazo legal (art. 44)"
+     },
+     {
+      "quando": "Relatório",
+      "titulo": "Órgão de instrução",
+      "texto": "relatório com o pedido inicial, o conteúdo das fases e proposta objetivamente justificada (art. 47)"
+     },
+     {
+      "quando": "30 + 30 dias",
+      "titulo": "Decisão",
+      "texto": "dever de decidir (art. 48); até trinta dias após a instrução, prorrogáveis por igual período, motivadamente (art. 49)"
+     },
+     {
+      "quando": "10 dias",
+      "titulo": "Recurso",
+      "texto": "interposição em dez dias da ciência (art. 59); dirigido à autoridade que decidiu, que pode reconsiderar em cinco dias (art. 56, § 1º)"
+     },
+     {
+      "quando": "30 + 30 dias",
+      "titulo": "Decisão do recurso",
+      "texto": "pelo órgão competente, após o encaminhamento à autoridade superior (arts. 56, § 1º, e 59, § 1º); no máximo três instâncias, salvo lei (art. 57); sem efeito suspensivo, salvo lei (art. 61)"
+     }
+    ],
+    "legenda": "Os prazos em dias contam-se de modo contínuo, excluído o dia do começo e incluído o do vencimento (art. 66)."
+   },
+   {
+    "t": "dois",
+    "titulo": "Impedimento × suspeição (arts. 18 a 21)",
+    "a": {
+     "titulo": "Impedimento (art. 18)",
+     "itens": [
+      "Interesse direto ou indireto na matéria",
+      "Participação como perito, testemunha ou representante, ou situação que alcance cônjuge, companheiro ou parente até o terceiro grau",
+      "Litígio judicial ou administrativo com o interessado",
+      "Omitir a comunicação do impedimento é falta grave (art. 19)"
+     ]
+    },
+    "b": {
+     "titulo": "Suspeição (art. 20)",
+     "itens": [
+      "Amizade íntima ou inimizade notória com o interessado ou com seu cônjuge, companheiro ou parente até o terceiro grau",
+      "Pode ser arguida; o indeferimento pode ser objeto de recurso, sem efeito suspensivo (art. 21)"
+     ]
+    },
+    "pe": "Impedimento é causa objetiva; suspeição é causa subjetiva"
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Motivação obrigatória (art. 50, I a VIII)",
+    "md": "Devem ser motivados os atos que: neguem, limitem ou afetem direitos ou interesses; imponham ou agravem deveres, encargos ou sanções; decidam processos de concurso ou seleção pública; dispensem ou declarem a inexigibilidade de licitação; decidam recursos administrativos; decorram de reexame de ofício; deixem de aplicar jurisprudência firmada ou discrepem de pareceres, laudos, propostas e relatórios oficiais; importem anulação, revogação, suspensão ou convalidação de ato. A motivação deve ser explícita, clara e congruente (§ 1º)."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Recurso: o que a lei diz de fato",
+    "md": "O recurso tramita por, no máximo, três instâncias, salvo disposição legal diversa (art. 57). É interposto em dez dias (art. 59) e dirigido à autoridade que proferiu a decisão, que o reconsidera em cinco dias ou o encaminha à superior (art. 56, § 1º). Em regra não tem efeito suspensivo; a autoridade pode dá-lo de ofício ou a pedido, havendo justo receio de prejuízo de difícil ou incerta reparação (art. 61). Não é conhecido quando interposto fora do prazo, perante órgão incompetente, por quem não é legitimado ou após exaurida a esfera administrativa (art. 63); o não conhecimento não impede a revisão de ofício do ato ilegal, desde que não ocorrida a preclusão administrativa (§ 2º)."
+   },
+   {
+    "t": "lei",
+    "titulo": "Texto da Lei 9.784/1999 sobre âmbito, decisão e recurso",
+    "norma": "Lei 9.784/1999",
+    "dispositivos": [
+     {
+      "ref": "Lei 9.784/1999, art. 1º, caput",
+      "texto": "Art. 1º Esta Lei estabelece normas básicas sobre o processo administrativo no âmbito da Administração Federal direta e indireta, visando, em especial, à proteção dos direitos dos administrados e ao melhor cumprimento dos fins da Administração.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 49",
+      "texto": "Art. 49. Concluída a instrução de processo administrativo, a Administração tem o prazo de até trinta dias para decidir, salvo prorrogação por igual período expressamente motivada.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 59, caput",
+      "texto": "Art. 59. Salvo disposição legal específica, é de dez dias o prazo para interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão recorrida.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Lei 9.784/1999, art. 61, caput",
+      "texto": "Art. 61. Salvo disposição legal em contrário, o recurso não tem efeito suspensivo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Âmbito: Administração Federal direta e indireta; Legislativo e Judiciário da União em função administrativa (art. 1º).",
+     "Onze princípios no caput do art. 2º, \"dentre outros\"; impulsão de ofício é critério do parágrafo único, XII.",
+     "Atos sem prazo específico: cinco dias, dilatáveis até o dobro (art. 24); intimação com três dias úteis de antecedência (art. 26, § 2º).",
+     "Alegações finais: até dez dias após a instrução (art. 44). Decisão: até 30 dias, prorrogáveis por igual período (art. 49).",
+     "Recurso: dez dias (art. 59); reconsideração pela autoridade em cinco dias (art. 56, § 1º); três instâncias, salvo lei diversa (art. 57).",
+     "Recurso sem efeito suspensivo, salvo lei; a autoridade pode concedê-lo por justo receio de prejuízo (art. 61).",
+     "Anular ato de efeitos favoráveis: decadência de cinco anos, salvo má-fé (art. 54); prazos contínuos (art. 66).",
+     "Impedimento: interesse, parentesco, litígio (art. 18); suspeição: amizade íntima ou inimizade notória (art. 20)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A Lei 9.784 enumera doze princípios no caput do art. 2º.",
+      "certo": "São **onze**; \"devido processo legal\" não está no caput."
+     },
+     {
+      "errado": "O prazo de alegações finais está no art. 32 da Lei 9.784.",
+      "certo": "O art. 32 trata da **audiência pública** (a consulta pública é o art. 31); as alegações finais (dez dias) estão no **art. 44**."
+     },
+     {
+      "errado": "O pedido de reconsideração tem prazo de cinco dias para o interessado.",
+      "certo": "Os cinco dias são da **autoridade** para reconsiderar (art. 56, § 1º); o interessado recorre em dez dias (art. 59)."
+     },
+     {
+      "errado": "A revisão de ofício é um dos princípios do art. 2º da Lei 9.784.",
+      "certo": "O parágrafo único do art. 2º termina no inciso **XIII**; a revisão de ofício do ato ilegal está nos arts. 53 e 63, § 2º."
+     },
+     {
+      "errado": "O recurso administrativo tem efeito suspensivo automático.",
+      "certo": "Em regra **não** tem; a autoridade pode concedê-lo, havendo justo receio de prejuízo (art. 61)."
+     },
+     {
+      "errado": "Os prazos da Lei 9.784 contam-se em dias úteis.",
+      "certo": "Contam-se de modo **contínuo**, excluído o dia do começo e incluído o do vencimento (art. 66)."
+     },
+     {
+      "errado": "A Administração pode anular a qualquer tempo ato de que decorram efeitos favoráveis.",
+      "certo": "Decai em **cinco anos**, salvo comprovada má-fé (art. 54)."
+     },
+     {
+      "errado": "Amizade íntima com o interessado é causa de impedimento.",
+      "certo": "É causa de **suspeição** (art. 20); impedimento é interesse, participação ou litígio (art. 18)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da linha do tempo Do pedido à decisão do recurso",
+    "oQue": "um corredor com portas numeradas (10, 30+30, 10, 5, 30+30) e três degraus no fim (as três instâncias)",
+    "porQue": "a banca troca os prazos entre si e inventa instâncias a mais"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, tabela e baseLegal de P1-DA-4.4",
+   "Lei 9.784/1999, arts. 1º, 2º, 5º, 6º, 9º, 10, 18 a 21, 24, 26, 29, 30, 31, 32, 44, 47 a 50, 53, 54, 56, 57, 59, 61, 63, 66 e 69 — texto atualizado da Câmara dos Deputados, Legislação Informatizada, conferido em 28/10/2026",
+   "MapasPro — Lei do Processo Administrativo (seções 3 a 11), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-5.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 32,
+   "ce": 28,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Os poderes administrativos",
+    "icone": "chave"
+   },
+   {
+    "t": "texto",
+    "md": "Os poderes administrativos são prerrogativas instrumentais para a persecução do interesse público; por isso são **poderes-deveres**: presentes os pressupostos legais, o exercício é obrigatório. A classificação em discricionário, hierárquico, disciplinar, regulamentar e de polícia é doutrinária; a base textual está na Lei 9.784 (competência), na CF (regulamentar) e no CTN (polícia)."
+   },
+   {
+    "t": "mapa",
+    "titulo": "Cinco poderes, cinco perguntas",
+    "centro": "Poderes administrativos",
+    "ramos": [
+     {
+      "titulo": "Discricionário",
+      "texto": "a lei deixa margem de conveniência e oportunidade; o Judiciário controla a legalidade sem substituir o mérito"
+     },
+     {
+      "titulo": "Hierárquico",
+      "texto": "escalonar, ordenar, fiscalizar, rever atos, delegar e avocar dentro da mesma pessoa jurídica (Lei 9.784, arts. 11 a 17)"
+     },
+     {
+      "titulo": "Disciplinar",
+      "texto": "apurar infrações e punir servidores e demais sujeitos a vínculo especial; a apuração é dever (Lei 8.112, art. 143)"
+     },
+     {
+      "titulo": "Regulamentar",
+      "texto": "decretos e regulamentos para a fiel execução da lei (CF, art. 84, IV); decreto sobre organização da administração (inciso VI)"
+     },
+     {
+      "titulo": "De polícia",
+      "texto": "limitar ou disciplinar direito, interesse ou liberdade em razão de interesse público (CTN, art. 78)"
+     }
+    ],
+    "legenda": "Discricionariedade não é um poder à parte: é o modo de exercício dos demais quando a lei dá escolha."
+   },
+   {
+    "t": "secao",
+    "titulo": "Hierárquico: delegação e avocação",
+    "icone": "pessoas"
+   },
+   {
+    "t": "dois",
+    "titulo": "Delegação × avocação (Lei 9.784/1999, arts. 11 a 15)",
+    "a": {
+     "titulo": "Delegação (arts. 12 a 14)",
+     "itens": [
+      "A órgãos ou titulares, ainda que não subordinados, se conveniente (art. 12)",
+      "Indelegáveis: edição de atos normativos, decisão de recursos, matérias de competência exclusiva (art. 13)",
+      "Ato de delegação publicado; revogável a qualquer tempo (art. 14)",
+      "O delegado é considerado o autor das decisões (art. 14, § 3º)"
+     ]
+    },
+    "b": {
+     "titulo": "Avocação (art. 15)",
+     "itens": [
+      "Em caráter excepcional e por motivos relevantes devidamente justificados",
+      "Temporária",
+      "De competência de órgão hierarquicamente inferior"
+     ]
+    },
+    "pe": "A competência é irrenunciável, salvo delegação e avocação legalmente admitidas (art. 11)"
+   },
+   {
+    "t": "secao",
+    "titulo": "Regulamentar",
+    "icone": "doc"
+   },
+   {
+    "titulo": "Regulamento de execução × decreto sobre organização da administração federal",
+    "a": "Regulamento para a fiel execução da lei (art. 84, IV)",
+    "b": "Decreto do art. 84, VI",
+    "linhas": [
+     [
+      "Base",
+      "CF, art. 84, IV",
+      "CF, art. 84, VI, a e b"
+     ],
+     [
+      "Conteúdo",
+      "Expedir decretos e regulamentos para a fiel execução da lei",
+      "Dispor, mediante decreto, sobre organização e funcionamento da administração federal e sobre extinção de funções ou cargos públicos, quando vagos"
+     ],
+     [
+      "Condições",
+      "Fiel execução das leis",
+      "Alínea a: sem aumento de despesa nem criação ou extinção de órgãos públicos; alínea b: só funções ou cargos vagos"
+     ],
+     [
+      "Delegação (parágrafo único)",
+      "Não está entre as atribuições delegáveis",
+      "Delegável a Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, nos limites da delegação"
+     ]
+    ],
+    "legenda": "A edição de atos de caráter normativo não pode ser objeto de delegação (Lei 9.784/1999, art. 13, I).",
+    "t": "compare"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "O que o decreto não pode",
+    "md": "O regulamento de execução não inova: não cria direitos nem obrigações além da lei. O decreto do art. 84, VI, dispõe sobre organização e funcionamento da administração federal sem aumento de despesa nem criação ou extinção de órgãos, e extingue funções ou cargos vagos. O Congresso Nacional susta os atos normativos que exorbitem do poder regulamentar ou dos limites de delegação legislativa (CF, art. 49, V)."
+   },
+   {
+    "t": "secao",
+    "titulo": "De polícia",
+    "icone": "cadeado"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Poder de polícia: conceito, atributos e ciclo",
+    "centro": "Poder de polícia",
+    "ramos": [
+     {
+      "titulo": "Conceito legal (CTN, art. 78)",
+      "texto": "atividade da administração que limita ou disciplina direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público"
+     },
+     {
+      "titulo": "Exercício regular (parágrafo único)",
+      "texto": "pelo órgão competente, nos limites da lei aplicável, com observância do processo legal e, na atividade discricionária, sem abuso ou desvio de poder"
+     },
+     {
+      "titulo": "Atributos (doutrina)",
+      "texto": "discricionariedade, autoexecutoriedade e coercibilidade; nem todo ato tem todos"
+     },
+     {
+      "titulo": "Ciclo de polícia (doutrina)",
+      "texto": "ordem, consentimento, fiscalização e sanção; só a ordem (função legislativa) é indelegável (STF, Tema 532, Inf. 996)"
+     },
+     {
+      "titulo": "Multa: impor ≠ cobrar",
+      "texto": "a imposição é unilateral; a cobrança forçada vai pela execução fiscal (Lei 6.830/1980), não pela autoexecutoriedade"
+     },
+     {
+      "titulo": "Administrativa × judiciária",
+      "texto": "a administrativa incide sobre bens, direitos e atividades; a judiciária, sobre pessoas, na repressão de ilícitos penais (doutrina)"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Delegação do poder de polícia — Tema 532 do STF (RE 633.782)",
+    "md": "Tese: \"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.\" O caso julgado tratava da aplicação de multas de trânsito por sociedade de economia mista; os requisitos são cumulativos e a tese não autoriza delegação genérica a particulares. No julgamento, o STF afirmou que a ordem de polícia (função legislativa) é a única fase absolutamente indelegável; consentimento, fiscalização e sanção podem ser delegados nas condições da tese (Informativo STF 996)."
+   },
+   {
+    "t": "lei",
+    "titulo": "Poder regulamentar e seu controle",
+    "norma": "Constituição Federal",
+    "dispositivos": [
+     {
+      "ref": "art. 84, IV",
+      "texto": "IV - sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 84, VI, a",
+      "texto": "a) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 84, parágrafo único",
+      "texto": "Parágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 49, V",
+      "texto": "V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Poder-dever: presentes os pressupostos legais, exercer o poder é obrigatório, não faculdade.",
+     "Competência irrenunciável; delegação a não subordinados é possível; avocação é excepcional e temporária (Lei 9.784, arts. 11 a 15).",
+     "Indelegáveis: ato normativo, decisão de recurso e competência exclusiva (art. 13).",
+     "Regulamento de execução (CF, art. 84, IV) não inova; decreto do art. 84, VI: organização sem despesa e cargos vagos.",
+     "O Congresso susta ato normativo que exorbite do poder regulamentar ou da delegação legislativa (art. 49, V).",
+     "Poder de polícia: limita direito, interesse ou liberdade em razão de interesse público (CTN, art. 78).",
+     "Atributos (doutrina): discricionariedade, autoexecutoriedade, coercibilidade; a cobrança da multa não é autoexecutória.",
+     "Tema 532: delegação por lei a pessoa privada da indireta, capital majoritariamente público, serviço próprio do Estado, sem concorrência.",
+     "Poder disciplinar alcança quem tem vínculo especial; poder de polícia alcança a generalidade dos particulares."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A autoexecutoriedade permite à Administração cobrar a multa de polícia sem ação judicial.",
+      "certo": "A multa é **imposta** unilateralmente, mas sua cobrança forçada exige **execução fiscal** (Lei 6.830/1980)."
+     },
+     {
+      "errado": "O poder de polícia não pode ser delegado a pessoa jurídica de direito privado em nenhuma hipótese.",
+      "certo": "Pode, **por lei**, a pessoa de direito privado da Administração indireta, de capital majoritariamente público, que preste exclusivamente serviço público próprio do Estado em regime não concorrencial (Tema 532)."
+     },
+     {
+      "errado": "Segundo o STF, só o consentimento e a fiscalização de polícia são delegáveis.",
+      "certo": "O STF admite delegar consentimento, fiscalização e **sanção** (o caso era de multa); só a **ordem de polícia** é indelegável (Tema 532; Inf. 996)."
+     },
+     {
+      "errado": "Por decreto, o Presidente pode criar órgãos para organizar a administração federal.",
+      "certo": "O decreto do art. 84, VI, **não** pode criar ou extinguir órgãos nem aumentar despesa."
+     },
+     {
+      "errado": "A edição de atos normativos pode ser delegada ao subordinado.",
+      "certo": "É **indelegável** (Lei 9.784, art. 13, I), como a decisão de recursos e a competência exclusiva."
+     },
+     {
+      "errado": "A avocação é definitiva e dispensa motivação.",
+      "certo": "É **temporária**, excepcional e por motivos relevantes justificados (art. 15)."
+     },
+     {
+      "errado": "A delegação só pode ser feita a órgão subordinado.",
+      "certo": "Pode alcançar órgãos ou titulares **não subordinados**, se não houver impedimento legal, por razões de índole técnica, social, econômica, jurídica ou territorial (art. 12)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto do mapa do poder de polícia",
+    "oQue": "o ciclo em quatro casas (ordem, consentimento, fiscalização, sanção) com a multa saindo da casa da sanção por uma porta marcada \"execução fiscal\"",
+    "porQue": "a troca entre impor a multa e cobrá-la é o erro mais comum no item"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-5.1",
+   "Lei 9.784/1999, arts. 11 a 15, e Lei 8.112/1990, art. 143 (textos conferidos na Câmara dos Deputados, Legislação Informatizada, em 28/10/2026); CF, arts. 49, V, e 84, IV e VI; CTN, art. 78; Lei 6.830/1980, arts. 1º, 6º e 7º (pacote v1.14, conferência de 20/10/2026)",
+   "STF, Tema 532 (RE 633.782), tese conferida no portal do STF em 28/10/2026; Informativo STF 996 (fases delegáveis)",
+   "MapasPro — Poderes Administrativos (seções 2 a 8), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-5.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 7,
+   "ce": 3,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; o tema reaparece em 2.1 (vícios do ato) e 5.1."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Uso regular e abuso",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "O poder conferido à autoridade é instrumento do interesse público: presentes os pressupostos legais, exercê-lo é **dever**. O **abuso de poder** é o gênero (categoria doutrinária); suas espécies são o **excesso de poder**, ligado à competência do agente, e o **desvio de poder** ou desvio de finalidade, ligado ao fim do ato. A base textual está na Lei 4.717/1965, art. 2º, a e e, e no CTN, art. 78, parágrafo único."
+   },
+   {
+    "titulo": "Excesso de poder × desvio de poder",
+    "a": "Excesso de poder (incompetência)",
+    "b": "Desvio de poder (desvio de finalidade)",
+    "linhas": [
+     [
+      "Relaciona-se a",
+      "Competência do agente",
+      "Finalidade do ato"
+     ],
+     [
+      "Base textual",
+      "Lei 4.717/1965, art. 2º, a",
+      "Lei 4.717/1965, art. 2º, e"
+     ],
+     [
+      "Caracterização",
+      "O ato não se inclui nas atribuições legais do agente que o praticou",
+      "O agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência"
+     ],
+     [
+      "Competência do agente",
+      "Falta",
+      "Pode existir: há desvio de finalidade ainda que a competência exista"
+     ],
+     [
+      "Consequência",
+      "Nulidade do ato lesivo ao patrimônio",
+      "Nulidade do ato lesivo ao patrimônio, e não mera anulabilidade"
+     ]
+    ],
+    "legenda": "O abuso de poder é o gênero; o excesso e o desvio são espécies.",
+    "t": "compare"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Como o abuso aparece e como se controla",
+    "centro": "Abuso de poder",
+    "ramos": [
+     {
+      "titulo": "Excesso de poder",
+      "texto": "atua fora de suas atribuições: vício de competência (Lei 4.717, art. 2º, a); convalidável pela doutrina majoritária, salvo competência exclusiva ou em razão da matéria (ver 2.1)"
+     },
+     {
+      "titulo": "Desvio de poder",
+      "texto": "o agente, competente, pratica o ato visando a fim diverso do previsto na regra de competência (art. 2º, e); o ato é nulo"
+     },
+     {
+      "titulo": "Omissão abusiva (doutrina)",
+      "texto": "recusar-se a exercer o poder quando a lei obriga também é abuso: poder-dever"
+     },
+     {
+      "titulo": "Controle interno",
+      "texto": "autotutela: a Administração anula seus atos ilegais (Súmula 473; Lei 9.784, art. 53)"
+     },
+     {
+      "titulo": "Controle judicial",
+      "texto": "anulação do ato; mandado de segurança contra ilegalidade ou abuso de poder (CF, art. 5º, LXIX); ação popular contra ato lesivo (Lei 4.717)"
+     },
+     {
+      "titulo": "Controle legislativo",
+      "texto": "o Congresso susta atos normativos do Executivo que exorbitem do poder regulamentar ou da delegação legislativa (CF, art. 49, V)"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Desvio com competência",
+    "md": "No desvio de finalidade a competência **existe**; o que falta é a finalidade legal. Por isso o ato parece regular na forma e só se revela viciado pela prova do fim real. O ato é nulo, não meramente anulável, e não se convalida."
+   },
+   {
+    "t": "lei",
+    "titulo": "Incompetência e desvio de finalidade",
+    "norma": "Lei 4.717/1965",
+    "dispositivos": [
+     {
+      "ref": "art. 2º, a",
+      "texto": "a) incompetência;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, parágrafo único, a",
+      "texto": "a) a incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, e",
+      "texto": "e) desvio de finalidade.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "art. 2º, parágrafo único, e",
+      "texto": "e) o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Abuso de poder é gênero; excesso (competência) e desvio (finalidade) são espécies — categorias doutrinárias.",
+     "Incompetência: ato fora das atribuições legais do agente (Lei 4.717, art. 2º, parágrafo único, a).",
+     "Desvio de finalidade: fim diverso do previsto, explícita ou implicitamente, na regra de competência (alínea e); ato nulo.",
+     "O desvio pode existir ainda que a competência exista; o excesso é a falta dela.",
+     "Poder-dever: a omissão no exercício do poder, quando a lei obriga, também é abuso (doutrina).",
+     "Controle: autotutela (Súmula 473), mandado de segurança (CF, art. 5º, LXIX), ação popular (Lei 4.717), sustação pelo Congresso (art. 49, V)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Agente que usa competência legítima para fim diverso do legal comete excesso de poder.",
+      "certo": "Comete **desvio de poder** (desvio de finalidade); excesso é agir fora da competência."
+     },
+     {
+      "errado": "O ato com desvio de finalidade é anulável e pode ser convalidado.",
+      "certo": "É **nulo** (Lei 4.717, art. 2º, e) e não se convalida."
+     },
+     {
+      "errado": "Só há abuso de poder quando o agente age; a omissão nunca configura abuso.",
+      "certo": "A recusa de exercer o poder quando a lei obriga também é abuso, porque o poder é **dever** (doutrina)."
+     },
+     {
+      "errado": "A sustação do art. 49, V, alcança qualquer ato do Executivo.",
+      "certo": "Alcança os **atos normativos** que exorbitem do poder regulamentar ou dos limites de delegação legislativa."
+     },
+     {
+      "errado": "O desvio de finalidade pressupõe incompetência do agente.",
+      "certo": "Não: no desvio a competência **existe**; o vício está no fim."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-5.2",
+   "Lei 4.717/1965, art. 2º, a e e, e parágrafo único; CTN, art. 78, parágrafo único; CF, arts. 5º, LXIX, e 49, V; Lei 9.784/1999, art. 53; STF, Súmula 473",
+   "MapasPro — Poderes Administrativos (seção 9), conferido"
+  ]
+ },
+ "P1-DA-6.1": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 19,
+   "ce": 14,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "A regra do § 6º",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "Pela CF, art. 37, § 6º, as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. A responsabilidade é, como regra, **objetiva**, na modalidade do **risco administrativo**, que admite excludentes."
+   },
+   {
+    "t": "linhaTempo",
+    "titulo": "Como se chegou ao risco administrativo (evolução doutrinária)",
+    "marcos": [
+     {
+      "quando": "Antes",
+      "titulo": "Irresponsabilidade",
+      "texto": "o Estado não respondia pelos danos que causava"
+     },
+     {
+      "quando": "Depois",
+      "titulo": "Responsabilidade subjetiva",
+      "texto": "o Estado respondia mediante prova da culpa do agente, com regras civilistas"
+     },
+     {
+      "quando": "Em seguida",
+      "titulo": "Culpa do serviço",
+      "texto": "bastava provar a falha do serviço (que não funcionou, funcionou mal ou tarde), sem individualizar o agente"
+     },
+     {
+      "quando": "Hoje",
+      "titulo": "Risco administrativo",
+      "texto": "responsabilidade objetiva, sem culpa, com excludentes (CF, art. 37, § 6º)"
+     },
+     {
+      "quando": "Exceção apontada pela doutrina",
+      "titulo": "Risco integral",
+      "texto": "sem excludentes; a doutrina aponta como exemplo os danos nucleares (CF, art. 21, XXIII, d: responsabilidade independe de culpa)"
+     }
+    ],
+    "legenda": "Os nomes das teorias são doutrinários; o texto constitucional é o § 6º."
+   },
+   {
+    "titulo": "Art. 37, § 6º, da CF × art. 43 do Código Civil",
+    "a": "CF, art. 37, § 6º",
+    "b": "Código Civil, art. 43",
+    "linhas": [
+     [
+      "Quem responde",
+      "Pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos",
+      "Pessoas jurídicas de direito público interno"
+     ],
+     [
+      "Dano",
+      "Danos que os agentes, nessa qualidade, causarem a terceiros",
+      "Atos dos agentes que nessa qualidade causem danos a terceiros"
+     ],
+     [
+      "Regresso",
+      "\"Assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa\"",
+      "\"Ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo\""
+     ]
+    ],
+    "legenda": "O art. 43 não menciona as pessoas jurídicas de direito privado prestadoras de serviços públicos.",
+    "t": "compare"
+   },
+   {
+    "t": "mapa",
+    "titulo": "Quem responde pelo § 6º",
+    "centro": "Art. 37, § 6º",
+    "ramos": [
+     {
+      "titulo": "Pessoa jurídica de direito público",
+      "texto": "União, Estados, DF, Municípios, autarquias e fundações de direito público"
+     },
+     {
+      "titulo": "Pessoa de direito privado prestadora de serviço público",
+      "texto": "concessionárias, permissionárias, empresas públicas e sociedades de economia mista que prestam serviço público"
+     },
+     {
+      "titulo": "Fora da letra",
+      "texto": "a pessoa de direito privado que explora atividade econômica, sem prestar serviço público"
+     },
+     {
+      "titulo": "Agente, nessa qualidade",
+      "texto": "quem causa o dano atuando como agente; o regresso contra ele exige dolo ou culpa"
+     }
+    ]
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Risco administrativo × risco integral",
+    "md": "No risco administrativo, a responsabilidade é objetiva mas admite causas excludentes (força maior, fato exclusivo de terceiro, culpa exclusiva da vítima). No risco integral, conceitualmente, não há excludentes. A regra brasileira é o risco administrativo."
+   },
+   {
+    "t": "lei",
+    "titulo": "Fundamentos textuais e contraste de termos",
+    "norma": "Constituição Federal e Código Civil",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, § 6º",
+      "texto": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Código Civil, art. 43",
+      "texto": "Art. 43. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "CF, art. 5º, XXV",
+      "texto": "XXV - no caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano;",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Base: CF, art. 37, § 6º — pessoas de direito público e de direito privado prestadoras de serviço público respondem pelos danos dos agentes.",
+     "Objetiva, na modalidade do risco administrativo: sem culpa, mas com excludentes.",
+     "Regresso contra o agente só com dolo ou culpa; a culpa basta.",
+     "O art. 43 do Código Civil cita só as pessoas de direito público interno; não menciona as prestadoras de serviço público.",
+     "A requisição do art. 5º, XXV, da CF (indenização ulterior) não é fundamento da responsabilidade civil do Estado.",
+     "Evolução (doutrina): irresponsabilidade, subjetiva, culpa do serviço, risco administrativo.",
+     "Risco integral não admite excludentes; a doutrina o aponta nos danos nucleares (CF, art. 21, XXIII, d)."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "O Estado responde objetivamente por todo dano sofrido por particulares.",
+      "certo": "Responde quando presentes conduta de agente nessa qualidade, dano e nexo; o Estado **não é segurador universal**."
+     },
+     {
+      "errado": "A responsabilidade objetiva do Estado dispensa a prova do dano.",
+      "certo": "Dispensa a prova da **culpa**; dano e nexo continuam exigidos."
+     },
+     {
+      "errado": "O Código Civil, art. 43, responsabiliza as prestadoras privadas de serviço público.",
+      "certo": "O art. 43 cita só as pessoas jurídicas de **direito público interno**; as prestadoras estão no § 6º da CF."
+     },
+     {
+      "errado": "A regra brasileira é o risco integral.",
+      "certo": "É o **risco administrativo**, que admite excludentes."
+     },
+     {
+      "errado": "O regresso contra o agente é objetivo.",
+      "certo": "Depende de **dolo ou culpa** do agente (CF, art. 37, § 6º)."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto do mapa Quem responde",
+    "oQue": "um triângulo vítima → pessoa jurídica → agente, com a seta da vítima marcada \"objetiva\" e a seta do regresso marcada \"dolo ou culpa\"",
+    "porQue": "a banca troca os dois regimes e inverte o sentido da ação regressiva"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e baseLegal de P1-DA-6.1",
+   "CF, art. 5º, XXV, art. 21, XXIII, d, art. 37, § 6º; Código Civil, art. 43",
+   "MapasPro — Responsabilidade Civil do Estado (seções 2 e 3), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-6.2": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 8,
+   "ce": 6,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155)."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Ato comissivo: quem responde e por quê",
+    "icone": "pessoas"
+   },
+   {
+    "t": "texto",
+    "md": "\"Ato comissivo\" é rótulo doutrinário para a conduta positiva do agente. A base textual é o § 6º do art. 37 da CF: respondem as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos, como a concessionária e a permissionária. Na responsabilidade objetiva, o dever de indenizar decorre do **dano causado pela conduta**, e não da ilicitude dela: a conduta comissiva **lícita** também pode gerar dever de indenizar."
+   },
+   {
+    "titulo": "Sujeitos do § 6º do art. 37 da CF",
+    "colunas": [
+     "Sujeito",
+     "Consta do § 6º?",
+     "Observação"
+    ],
+    "linhas": [
+     [
+      "Pessoa jurídica de direito público",
+      "Sim",
+      "Responde pelos danos que seus agentes, nessa qualidade, causarem a terceiros"
+     ],
+     [
+      "Pessoa jurídica de direito privado prestadora de serviço público",
+      "Sim",
+      "A concessionária e a permissionária de serviço público são exemplos"
+     ],
+     [
+      "Pessoa jurídica de direito privado que não presta serviço público",
+      "Não, pela letra",
+      "A sociedade que explora atividade econômica é exemplo"
+     ]
+    ],
+    "legenda": "O quadro aplica a letra do § 6º aos sujeitos.",
+    "t": "tabela"
+   },
+   {
+    "titulo": "Responsabilidade da pessoa jurídica × do agente",
+    "a": "Pessoa jurídica",
+    "b": "Agente",
+    "linhas": [
+     [
+      "Papel",
+      "Responde pelos danos que seus agentes, nessa qualidade, causarem a terceiros",
+      "Causa o dano nessa qualidade e é o destinatário do regresso"
+     ],
+     [
+      "Condição",
+      "O dever de indenizar decorre do dano causado pela conduta, e não da ilicitude desta",
+      "Dolo ou culpa: o regresso depende deles, e a culpa basta"
+     ],
+     [
+      "Redação do regresso",
+      "CF: \"contra o responsável\"; Código Civil: \"contra os causadores do dano\"",
+      "CF: \"assegurado\"; Código Civil: \"ressalvado\""
+     ]
+    ],
+    "legenda": "O regresso não afasta a responsabilidade perante o terceiro.",
+    "t": "compare"
+   },
+   {
+    "t": "dois",
+    "titulo": "Perante a vítima × regresso contra o agente",
+    "a": {
+     "titulo": "Pessoa jurídica perante a vítima",
+     "itens": [
+      "Responsabilidade objetiva: conduta, dano e nexo",
+      "Sem prova de culpa da pessoa jurídica ou do agente",
+      "A conduta lícita também pode gerar o dever de indenizar"
+     ]
+    },
+    "b": {
+     "titulo": "Regresso contra o agente",
+     "itens": [
+      "Só nos casos de dolo ou culpa (CF: \"contra o responsável\"; Código Civil: \"contra os causadores do dano\")",
+      "A culpa basta",
+      "O regresso não afasta a responsabilidade perante o terceiro"
+     ]
+    },
+    "pe": "Dois vínculos, dois regimes: objetivo para fora, subjetivo para dentro"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Lícito também indeniza",
+    "md": "Responsabilidade objetiva não se confunde com responsabilidade por ato ilícito: o que importa é o dano causado pela conduta do agente, nessa qualidade. Um ato lícito que cause dano anormal e específico a alguém pode gerar o dever de indenizar."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Ato comissivo = ação positiva do agente, nessa qualidade (CF, art. 37, § 6º).",
+     "Respondem pessoas de direito público e prestadoras privadas de serviço público: concessionária, permissionária.",
+     "Objetiva perante a vítima: o dever de indenizar vem do dano causado, não da ilicitude da conduta.",
+     "Regresso contra o agente: dolo ou culpa; a culpa basta; não afasta a responsabilidade perante o terceiro.",
+     "CF: \"assegurado o direito de regresso contra o responsável\"; Código Civil: \"ressalvado direito regressivo contra os causadores\".",
+     "A pessoa de direito privado que não presta serviço público não consta do § 6º pela letra."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "Só o ato ilícito do agente gera responsabilidade objetiva do Estado.",
+      "certo": "A conduta **lícita** também pode gerar dever de indenizar: o fundamento é o dano causado, não a ilicitude."
+     },
+     {
+      "errado": "O regresso contra o agente independe de culpa.",
+      "certo": "Exige **dolo ou culpa** (CF, art. 37, § 6º); a culpa basta."
+     },
+     {
+      "errado": "A ação regressiva exclui a responsabilidade do Estado perante a vítima.",
+      "certo": "Não exclui: são vínculos distintos; a vítima aciona a pessoa jurídica."
+     },
+     {
+      "errado": "Empresa pública que explora atividade econômica responde pelo § 6º.",
+      "certo": "Pela letra, só a prestadora de **serviço público** consta do § 6º."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e tabela de P1-DA-6.2",
+   "CF, art. 37, § 6º; Código Civil, art. 43",
+   "MapasPro — Responsabilidade Civil do Estado (seções 4 e 5), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-6.3": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 4,
+   "ce": 3,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; o tema costuma vir dentro de 6.1 e 6.4."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Omissão: o que a letra diz e o que não diz",
+    "icone": "aviso"
+   },
+   {
+    "t": "texto",
+    "md": "A letra do § 6º do art. 37 da CF (\"causarem\") e a do art. 43 do Código Civil (\"causem danos\") não empregam a palavra omissão. A omissão relevante para a responsabilização pressupõe **dever jurídico de agir**, e não mera possibilidade de agir; e, sem dano e sem nexo causal entre a omissão e o dano, não há dever de indenizar. O Estado não é segurador universal."
+   },
+   {
+    "titulo": "Conduta comissiva × conduta omissiva",
+    "a": "Conduta comissiva",
+    "b": "Conduta omissiva",
+    "linhas": [
+     [
+      "Conceito",
+      "Ação positiva do agente",
+      "Abstenção, um não agir"
+     ],
+     [
+      "Letra do § 6º e do art. 43",
+      "Danos que os agentes \"causarem\" (CF); atos dos agentes que \"causem danos\" (Código Civil)",
+      "Nenhum dos dois textos emprega a palavra omissão"
+     ],
+     [
+      "Para ser relevante",
+      "Dano e nexo causal entre a conduta e o dano",
+      "Dever jurídico de agir, além de dano e nexo causal entre a omissão e o dano"
+     ]
+    ],
+    "legenda": "O dever jurídico de agir não se confunde com a mera possibilidade de agir.",
+    "t": "compare"
+   },
+   {
+    "titulo": "Omissão e responsabilidade do Estado",
+    "centro": "Responsabilidade por omissão",
+    "ramos": [
+     "A letra do § 6º e do art. 43 não menciona omissão",
+     "Omissão relevante: dever jurídico de agir, e não mera possibilidade de agir",
+     "Dano e nexo causal entre a omissão e o dano",
+     "O Estado não é segurador universal"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "box",
+    "tipo": "regra",
+    "rotulo": "Tema 592 do STF (RE 841.526)",
+    "md": "Tese: \"Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.\" Quando há dever específico de proteção, a omissão pode gerar responsabilidade objetiva; ainda assim exigem-se o dano e o nexo entre a omissão e o resultado."
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "\"Omissão = subjetiva\" não é regra absoluta",
+    "md": "A fórmula \"ação gera responsabilidade objetiva; omissão gera responsabilidade subjetiva\" é uma síntese doutrinária, não texto de lei, e o STF a afasta no dever específico de proteção (Tema 592). O que decide é o dever jurídico de agir, o dano e o nexo; não a simples natureza omissiva da conduta."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "O § 6º e o art. 43 não mencionam omissão: a responsabilidade por omissão é construção doutrinária e jurisprudencial.",
+     "Omissão relevante: dever jurídico de agir, não mera possibilidade de agir.",
+     "Sem dano e sem nexo entre a omissão e o dano, não há indenização; se o dano ocorreria de todo modo, não há nexo.",
+     "Tema 592: inobservado o dever específico de proteção (CF, art. 5º, XLIX), o Estado responde pela morte de detento.",
+     "\"Omissão é sempre subjetiva\" é síntese doutrinária; o STF admite responsabilidade objetiva por omissão no dever específico.",
+     "O Estado não é segurador universal: responde quando presentes os pressupostos, não por todo dano."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A omissão do Estado gera sempre responsabilidade subjetiva, com prova de culpa.",
+      "certo": "Não é regra absoluta: no dever específico de proteção o STF reconhece responsabilidade **objetiva** (Tema 592)."
+     },
+     {
+      "errado": "O § 6º do art. 37 prevê expressamente a responsabilidade por omissão.",
+      "certo": "A letra fala nos danos que os agentes **\"causarem\"**; não emprega a palavra omissão."
+     },
+     {
+      "errado": "Basta a possibilidade de agir para responsabilizar o Estado pela omissão.",
+      "certo": "Exige-se **dever jurídico** de agir, além de dano e nexo."
+     },
+     {
+      "errado": "Provada a ilicitude da omissão, o dever de indenizar é automático.",
+      "certo": "Sem **nexo** entre a omissão e o dano não há indenização: se o dano ocorreria de todo modo, não há causalidade."
+     },
+     {
+      "errado": "O Estado responde por qualquer dano sofrido por pessoa sob sua custódia.",
+      "certo": "Responde quando **inobservado o dever específico de proteção** e presentes dano e nexo (Tema 592); não é segurador universal."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, compare e esquema de P1-DA-6.3",
+   "CF, art. 5º, XLIX, e art. 37, § 6º; Código Civil, art. 43",
+   "STF, Tema 592 (RE 841.526), tese conferida no portal do STF em 28/10/2026",
+   "MapasPro — Responsabilidade Civil do Estado (seções 4 e 8), conferido e corrigido (ver triagem)"
+  ]
+ },
+ "P1-DA-6.4": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 5,
+   "ce": 4,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; os requisitos são cobrados dentro de 6.1."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Três requisitos, nenhuma culpa",
+    "icone": "alvo"
+   },
+   {
+    "t": "texto",
+    "md": "Os requisitos para demonstrar a responsabilidade do Estado são a **conduta** do agente, nessa qualidade, o **dano** e o **nexo causal** entre eles; a culpa da pessoa jurídica não integra o rol. A referência a \"dolo ou culpa\" no § 6º está na cláusula do regresso, não na parte que trata da responsabilidade da pessoa jurídica."
+   },
+   {
+    "titulo": "Requisitos da responsabilidade do Estado",
+    "centro": "Demonstração da responsabilidade",
+    "ramos": [
+     "Conduta do agente, nessa qualidade",
+     "Dano a terceiro (efetivo, e não mera potencialidade)",
+     "Nexo de causalidade entre a conduta e o dano",
+     "Fora do rol: a culpa da pessoa jurídica"
+    ],
+    "t": "esquema"
+   },
+   {
+    "t": "fluxo",
+    "titulo": "Teste em três perguntas",
+    "passos": [
+     "O dano veio de conduta de agente atuando nessa qualidade?",
+     "Houve dano efetivo, e não mera potencialidade?",
+     "Há nexo de causalidade entre a conduta e o dano?"
+    ]
+   },
+   {
+    "t": "dois",
+    "titulo": "O que entra e o que não entra na demonstração",
+    "a": {
+     "titulo": "Entra",
+     "itens": [
+      "Conduta do agente, nessa qualidade (\"nessa qualidade\", CF e Código Civil)",
+      "Dano efetivo a terceiro",
+      "Nexo de causalidade: o dano foi causado pela conduta"
+     ]
+    },
+    "b": {
+     "titulo": "Não entra",
+     "itens": [
+      "Culpa da pessoa jurídica",
+      "Ilicitude da conduta (a lícita também pode gerar dever de indenizar)",
+      "Dolo ou culpa do agente: só importam para o regresso"
+     ]
+    },
+    "pe": "\"Durante a atuação\" não é \"por causa da atuação\": coincidência temporal não é nexo"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Nessa qualidade",
+    "md": "Se o dano resulta de atividade estritamente particular do agente, sem relação com o cargo, falta o requisito da conduta nessa qualidade, e o § 6º não se aplica."
+   },
+   {
+    "t": "lei",
+    "titulo": "Conduta nessa qualidade e dano a terceiro",
+    "norma": "Constituição Federal e Código Civil",
+    "dispositivos": [
+     {
+      "ref": "CF, art. 37, § 6º",
+      "texto": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     },
+     {
+      "ref": "Código Civil, art. 43",
+      "texto": "Art. 43. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.",
+      "literal": true,
+      "conferido": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Requisitos: conduta de agente nessa qualidade, dano efetivo e nexo causal.",
+     "A culpa da pessoa jurídica não integra o rol; \"dolo ou culpa\" está na cláusula do regresso.",
+     "Dano efetivo, e não mera potencialidade.",
+     "Nexo é causa e efeito (\"causarem\"); coincidência temporal não basta.",
+     "Atividade estritamente particular do agente, sem relação com o cargo, não é conduta nessa qualidade.",
+     "A conduta lícita pode gerar dever de indenizar; a ilicitude não é requisito."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A vítima deve provar a culpa da Administração.",
+      "certo": "Não: a responsabilidade é objetiva; prova-se conduta, dano e **nexo**."
+     },
+     {
+      "errado": "O dano potencial basta para a indenização.",
+      "certo": "Exige-se dano **efetivo**."
+     },
+     {
+      "errado": "Dano ocorrido durante o expediente do agente é sempre imputável ao Estado.",
+      "certo": "\"Durante\" não é \"por causa\": é preciso **nexo** entre a conduta e o dano."
+     },
+     {
+      "errado": "A ilicitude da conduta é requisito da responsabilidade objetiva.",
+      "certo": "Não é; a conduta **lícita** também pode gerar dever de indenizar."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, esquema e baseLegal de P1-DA-6.4",
+   "CF, art. 37, § 6º; Código Civil, art. 43",
+   "MapasPro — Responsabilidade Civil do Estado (seções 6 e 7), conferido"
+  ]
+ },
+ "P1-DA-6.5": {
+  "versao": "v3",
+  "cobranca": {
+   "itens": 5,
+   "ce": 4,
+   "fonte": "Corpus Cebraspe 2025 (fila v2, enquadramento do pacote de auditoria, a confirmar no CDN; critério em reconciliação, T-155). Poucas questões neste item; as excludentes são cobradas dentro de 6.1."
+  },
+  "blocos": [
+   {
+    "t": "secao",
+    "titulo": "Excluir ou atenuar",
+    "icone": "balanca"
+   },
+   {
+    "t": "texto",
+    "md": "A causa **excludente** afasta o dever de indenizar; a **atenuante** apenas reduz a responsabilidade e o valor a indenizar. O § 6º do art. 37 não enumera umas nem outras: são construção doutrinária e jurisprudencial sobre o nexo causal."
+   },
+   {
+    "titulo": "Causas e efeitos sobre a responsabilidade do Estado",
+    "colunas": [
+     "Causa",
+     "Efeito"
+    ],
+    "linhas": [
+     [
+      "Força maior ou caso fortuito, como causa exclusiva do dano",
+      "Exclui a responsabilidade (risco administrativo)"
+     ],
+     [
+      "Fato exclusivo de terceiro",
+      "Exclui a responsabilidade"
+     ],
+     [
+      "Culpa exclusiva da vítima",
+      "Exclui a responsabilidade"
+     ],
+     [
+      "Culpa concorrente da vítima",
+      "Atenua: reduz a responsabilidade, sem excluí-la"
+     ],
+     [
+      "Culpa do agente ou regresso ressalvado",
+      "Não exclui nem atenua a responsabilidade da pessoa jurídica perante o terceiro"
+     ]
+    ],
+    "legenda": "Excludente afasta o dever de indenizar; atenuante apenas reduz a responsabilidade e o valor a indenizar.",
+    "t": "tabela"
+   },
+   {
+    "t": "escala",
+    "titulo": "Da exclusão ao que não afeta",
+    "esquerda": "Exclui",
+    "direita": "Não afeta",
+    "pontos": [
+     {
+      "rotulo": "Força maior ou caso fortuito",
+      "texto": "como causa exclusiva do dano, rompe o nexo e exclui (risco administrativo)"
+     },
+     {
+      "rotulo": "Fato exclusivo de terceiro",
+      "texto": "afasta o nexo com a conduta do agente; exclui"
+     },
+     {
+      "rotulo": "Culpa exclusiva da vítima",
+      "texto": "exclui a responsabilidade"
+     },
+     {
+      "rotulo": "Culpa concorrente da vítima",
+      "texto": "atenua: reduz a responsabilidade e o valor, sem excluir"
+     },
+     {
+      "rotulo": "Culpa do agente ou regresso",
+      "texto": "não exclui nem atenua a responsabilidade da pessoa jurídica perante o terceiro"
+     }
+    ]
+   },
+   {
+    "titulo": "Risco administrativo × risco integral",
+    "a": "Risco administrativo",
+    "b": "Risco integral",
+    "linhas": [
+     [
+      "Excludentes",
+      "Admite",
+      "Conceitualmente, não as admite"
+     ],
+     [
+      "Força maior, fato exclusivo de terceiro e culpa exclusiva da vítima",
+      "Excluem a responsabilidade",
+      "Não se aplicam as excludentes do risco administrativo"
+     ]
+    ],
+    "legenda": "Aplicar ao risco integral as excludentes do risco administrativo é a pegadinha típica.",
+    "t": "compare"
+   },
+   {
+    "t": "box",
+    "tipo": "atencao",
+    "rotulo": "Excludente só quando exclusiva",
+    "md": "Força maior, fato de terceiro e culpa da vítima só excluem quando são a causa **exclusiva** do dano. Se o Estado concorreu para o resultado — a morte sob custódia com dever específico de proteção descumprido (Tema 592) é o caso julgado — o nexo subsiste e, no máximo, a responsabilidade é atenuada."
+   },
+   {
+    "t": "relampago",
+    "itens": [
+     "Excludente afasta o dever de indenizar; atenuante só reduz a responsabilidade e o valor.",
+     "Excluem: força maior e caso fortuito (causa exclusiva), fato exclusivo de terceiro, culpa exclusiva da vítima.",
+     "Culpa concorrente da vítima: atenua, não exclui.",
+     "Culpa do agente e regresso ressalvado: não excluem nem atenuam a responsabilidade perante o terceiro.",
+     "Risco administrativo admite excludentes; risco integral, conceitualmente, não.",
+     "Só exclui o que é causa exclusiva: se o Estado concorreu, o nexo subsiste."
+    ]
+   },
+   {
+    "t": "pegadinhas",
+    "itens": [
+     {
+      "errado": "A culpa concorrente da vítima exclui a responsabilidade do Estado.",
+      "certo": "**Atenua**, reduzindo o valor; exclui só a culpa **exclusiva** da vítima."
+     },
+     {
+      "errado": "No risco integral, a força maior exclui a responsabilidade.",
+      "certo": "No risco integral, conceitualmente, **não** há excludentes; elas valem no risco administrativo."
+     },
+     {
+      "errado": "A culpa do agente exclui a responsabilidade da pessoa jurídica.",
+      "certo": "Não exclui nem atenua; só fundamenta o **regresso**."
+     },
+     {
+      "errado": "A força maior sempre exclui a responsabilidade do Estado.",
+      "certo": "Só quando é causa **exclusiva**; se o Estado concorreu (omissão em dever específico), o nexo subsiste."
+     }
+    ]
+   }
+  ],
+  "ilustracaoSugerida": [
+   {
+    "onde": "junto da escala Da exclusão ao que não afeta",
+    "oQue": "uma balança com o nexo causal no fiel: de um lado a conduta do Estado, do outro a causa externa; quando a causa externa é exclusiva, a balança tomba e o nexo se rompe",
+    "porQue": "mostra que a excludente é uma questão de nexo, não de culpa"
+   }
+  ],
+  "fontes": [
+   "Pacote v1.14 — resumo, emUmMinuto, tabela e compare de P1-DA-6.5",
+   "CF, art. 37, § 6º; Código Civil, art. 43; STF, Tema 592 (RE 841.526), tese conferida no portal do STF em 28/10/2026",
+   "MapasPro — Responsabilidade Civil do Estado (seção 6), conferido e corrigido (ver triagem)"
+  ]
+ }
+}
